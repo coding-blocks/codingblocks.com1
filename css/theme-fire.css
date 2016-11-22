@@ -2779,10 +2779,13 @@ button[type="submit"] .form-loading {
 .pricing-table {
   padding: 48px 32px;
 }
+.pricing-table .course.logo {
+  width: 50%;
+}
 .pricing-table .price {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 30pt;
+  line-height: 30pt;
   font-weight: 300;
   color: #292929;
   display: inline-block;
