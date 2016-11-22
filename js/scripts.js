@@ -1204,7 +1204,7 @@ window.initializeMaps = function(){
                             draggable: isDraggable,
                             scrollwheel: false,
                             zoom: zoomLevel,
-                            disableDefaultUI: true,
+                            disableDefaultUI: false,
                             styles: mapStyle
                         };
 
