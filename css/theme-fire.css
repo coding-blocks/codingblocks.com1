@@ -3078,19 +3078,19 @@ img {
 }
 .img-holder {
   border-radius: 50%;
-  background: #fc4f4f;
-  background-blend-mode: lighten;
+  background: #fff;
+  background-blend-mode: hard-light;
 }
 
 .img-holder img {
   border-radius: 50%;
   opacity: 0.7;
-  filter: grayscale(100%) contrast(120%) brightness(120%);
+  filter: grayscale(100%) contrast(120%) !important;
 }
 
 .img-holder:hover img {
   opacity: 1;
-  filter: none;
+  filter: grayscale(0) !important;
 }
 .image-tile .label {
   position: absolute;
