@@ -1,6 +1,8 @@
 {
  "name": "Coding Blocks",
  "description": "A programming bootcamp based in Delhi",
+ "background_color": "#fc4f4f",
+ "display": "standalone",
  "icons": [
   {
    "src": "\/icons\/android-icon-36x36.png",
