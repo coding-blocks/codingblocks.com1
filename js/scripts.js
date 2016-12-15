@@ -1225,7 +1225,7 @@ window.initializeMaps = function(){
                                     markerImage = {
                                         url: '/img/cb/cb_marker.png',
                                         scaledSize: new google.maps.Size(60,100),
-                                        origin: new google.maps.Point(0,0),
+                                        origin: new google.maps.Point(30, 85),
                                         anchor: new google.maps.Point(30, 85)
                                     };
                                     if(/(\-?\d+(\.\d+)?),\s*(\-?\d+(\.\d+)?)/.test(address) ){
