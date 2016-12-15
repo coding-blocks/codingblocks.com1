@@ -1222,7 +1222,12 @@ window.initializeMaps = function(){
                                 address.forEach(function(address){
                                     var markerGeoCoder;
                                     
-                                    markerImage = {url: '/img/cb/cb_marker.png', size: new google.maps.Size(77,126), scaledSize: new google.maps.Size(50,75)};
+                                    markerImage = {
+                                        url: '/img/cb/cb_marker.png',
+                                        scaledSize: new google.maps.Size(60,100),
+                                        origin: new google.maps.Point(0,0),
+                                        anchor: new google.maps.Point(0, 0)
+                                    };
                                     if(/(\-?\d+(\.\d+)?),\s*(\-?\d+(\.\d+)?)/.test(address) ){
                                         var latlong = address.split(','),
                                         marker = new google.maps.Marker({
