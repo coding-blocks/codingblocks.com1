@@ -865,6 +865,7 @@ $(document).ready(function() {
                     host = "http://cb.lk:3002";
                 } else {
                     host = "http://localhost:3000"
+                    console.log("form data = " + thisForm.serialize());
                 }
 
                 jQuery.ajax({
