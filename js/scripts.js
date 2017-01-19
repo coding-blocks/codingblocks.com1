@@ -860,18 +860,24 @@ $(document).ready(function() {
                 
                 // Create a new loading spinner in the submit button.
                 submitButton.html(jQuery('<div />').addClass('form-loading')).attr('disabled', 'disabled');
+                var host;
+                if (false) {
+                    host = "http://cb.lk:3001";
+                } else {
+                    host = "http://localhost:3000"
+                }
 
                 jQuery.ajax({
                     type: "POST",
-                    url: "mail/mail.php",
+                    url: host + "/mail/send",
                     data: thisForm.serialize()+"&url="+window.location.href,
                     success: function(response) {
                         // Swiftmailer always sends back a number representing numner of emails sent.
                         // If this is numeric (not Swift Mailer error text) AND greater than 0 then show success message.
 
                         submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
-
-                        if ($.isNumeric(response)) {
+                        console.log('response = ' + response);
+                        if (response == 'OK') {
                             if (parseInt(response) > 0) {
                                 // For some browsers, if empty 'successRedirect' is undefined; for others,
                                 // 'successRedirect' is false.  Check for both.
