@@ -861,8 +861,8 @@ $(document).ready(function() {
                 // Create a new loading spinner in the submit button.
                 submitButton.html(jQuery('<div />').addClass('form-loading')).attr('disabled', 'disabled');
                 var host;
-                if (false) {
-                    host = "http://cb.lk:3001";
+                if (true) {
+                    host = "http://cb.lk:3002";
                 } else {
                     host = "http://localhost:3000"
                 }
