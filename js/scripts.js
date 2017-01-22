@@ -879,7 +879,7 @@ $(document).ready(function() {
                         submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
                         console.log('response = ' + response);
                         if (response == 'OK') {
-                            if (parseInt(response) > 0) {
+                            // if (parseInt(response) > 0) {
                                 // For some browsers, if empty 'successRedirect' is undefined; for others,
                                 // 'successRedirect' is false.  Check for both.
                                 successRedirect = thisForm.attr('success-redirect');
@@ -896,7 +896,7 @@ $(document).ready(function() {
                                 setTimeout(function() {
                                     formSuccess.fadeOut(500);
                                 }, 5000);
-                            }
+                            // }
                         }
                         // If error text was returned, put the text in the .form-error div and show it.
                         else {
