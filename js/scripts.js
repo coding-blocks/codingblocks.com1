@@ -861,8 +861,14 @@ $(document).ready(function() {
                 // Create a new loading spinner in the submit button.
                 submitButton.html(jQuery('<div />').addClass('form-loading')).attr('disabled', 'disabled');
                 var host;
+                var url;
+                if (thisForm.attr('id') == "message-form") {
+                    url = "/mail/send";
+                } else {
+                    url = "/api/signup";
+                }
                 if (true) {
-                    host = "http://cb.lk:3002";
+                    host = "http://cb.lk:3003";
                 } else {
                     host = "http://localhost:3000"
                     console.log("form data = " + thisForm.serialize());
@@ -870,7 +876,7 @@ $(document).ready(function() {
 
                 jQuery.ajax({
                     type: "POST",
-                    url: host + "/mail/send",
+                    url: host + url,
                     data: thisForm.serialize()+"&url="+window.location.href,
                     success: function(response) {
                         // Swiftmailer always sends back a number representing numner of emails sent.
