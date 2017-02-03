@@ -862,15 +862,22 @@ $(document).ready(function() {
                 submitButton.html(jQuery('<div />').addClass('form-loading')).attr('disabled', 'disabled');
                 var host;
                 var url;
-                if (thisForm.attr('id') == "message-form") {
-                    url = "/mail/send";
-                } else {
-                    url = "/api/signup";
+                switch (thisForm.attr('id')) {
+                    case "message-form":
+                        url = "/mail/send";
+                        break;
+                    case "signup-form":
+                        url = "/api/signup";
+                        break;
+                    case "signup-taarangana":
+                        url = "/api/event_signup";
+                        break;
                 }
+
                 if (true) {
                     host = "http://cb.lk:3003";
                 } else {
-                    host = "http://localhost:3000"
+                    host = "http://localhost:3000";
                     console.log("form data = " + thisForm.serialize());
                 }
 
