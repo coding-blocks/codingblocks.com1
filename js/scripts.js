@@ -839,7 +839,6 @@ $(document).ready(function() {
             }
         } else {
             // If no iframe detected then this is treated as an email form instead.
-            console.log('Send email form detected.');
             if (typeof originalError !== typeof undefined && originalError !== false) {
                 formError.text(originalError);
             }
@@ -864,12 +863,15 @@ $(document).ready(function() {
                 var url;
                 switch (thisForm.attr('id')) {
                     case "message-form":
+                        console.log('Send message form detected.');
                         url = "/mail/send";
                         break;
                     case "signup-form":
+                        console.log('Send signup form detected.');
                         url = "/api/signup";
                         break;
                     case "signup-taarangana":
+                        console.log('Send event form detected.');
                         url = "/api/event_signup";
                         break;
                 }
