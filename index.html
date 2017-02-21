@@ -35,6 +35,24 @@
 		<meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="theme-color" content="#fc4f4f">
+    <style>
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    justify-content: center;
+    -webkit-justify-content:center;
+
+
+}
+
+.flex-item {
+  max-width: 100%;
+  max-height: 100%
+}
+
+</style>
     </head>
     <body class="scroll-assist">
 
@@ -292,31 +310,7 @@
 		                    </div>
 
 		                </div>
-						<div class="col-sm-6 col-md-4">
-		                    <div class="pricing-table pt-2 text-center">
-								<img class="course logo" src="img/cb/r_game.png">
-		                        <h4 class="uppercase bold">CANVAS</h4>
-		                        <span class="price">₹22,000</span>
-		                        <p class="lead">(25 classes)</p>
-		                        <a class="btn btn-white btn-lg btn-filled" href="#home_map">Get Started</a>
-		                        <ul>
-		                            <li>
-		                                Real Time <strong>Multiplayer Games</strong>
-		                            </li>
-		                            <li>
-		                                <strong>Animation and Graphics
-		                                  </strong>
-                                    </li>
-		                            <li>
-		                               Games for <strong>Android,IOS,Web</strong>
-		                            </li>
-		                            <li>
-		                                Game Projects &amp; Hackathon
-		                            </li>
-		                        </ul>
-		                    </div>
 
-		                </div>
 						<div class="col-sm-6 col-md-4">
 		                    <div class="pricing-table pt-2 text-center boxed">
 								<img class="course logo" src="img/cb/r_machine.png">
@@ -342,60 +336,190 @@
 		                    </div>
 
 		                </div>
-						<div class="col-sm-6 col-md-4">
-		                    <div class="pricing-table pt-2 text-center">
-								<img class="course logo" src="img/cb/r_kids.png">
-		                        <h4 class="uppercase bold">Code4Kids</h4>
-		                        <span class="price">₹8,000</span>
-		                        <p class="lead">(20 classes)</p>
-		                        <a class="btn btn-white btn-lg btn-filled" href="#home_map">Get Started</a>
-		                        <ul>
-		                            <li>
-		                                Learn <strong>Scratch</strong>
-		                            </li>
-		                            <li>
-		                               Drag &amp; Drop <strong>Mobile Apps</strong>
-		                            </li>
-		                            <li>
-		                                <strong>Games &amp; Puzzles</strong>
-		                            </li>
-		                            <li>
-		                                <strong>HTML &amp; CSS
-		                          </strong>
-                                </li>
-		                        </ul>
-		                    </div>
 
-		                </div>
-						<div class="col-md-4 col-sm-6">
-		                    <div class="pricing-table pt-2 text-center boxed">
-								<img class="course logo" src="img/cb/r_final.png">
-		                        <h4 class="uppercase bold">FinalStep</h4>
-		                        <span class="price">₹15,000</span>
-		                        <p class="lead">(18 Lectures)<br></p>
-		                        <a class="btn btn-white btn-filled btn-lg" href="#home_map">Get Started</a>
-		                        <ul>
-		                            <li>
-		                                <strong>Data Structures &amp; Algorithms</strong>
-		                            </li>
-		                            <li>
-		                                <strong>Operating Systems</strong>
-		                            </li>
-		                            <li>
-		                                <strong>System Design &amp; RDBMS</strong>
-		                            </li>
-		                            <li>
-		                               <strong>Mock Interviews</strong>
-		                            </li>
-		                        </ul>
-		                    </div>
 
-		                </div>
-					</div>
-
-		        </div>
 
 		    </section>
+        <!-- SECTION: BootCamps -->
+        <a id="home_courses" class="in-page-link"></a>
+        <section>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-12 text-center">
+                          <h4 class="uppercase mb16">BOOTCAMPS</h4>
+                          <p class="lead mb64">
+                              Quick starter bootcamps for beginners and advanced programmers
+                          </p>
+                      </div>
+                  </div>
+
+                  <div class="row">
+
+                      <div class="col-md-4 col-sm-6">
+                          <div class="pricing-table pt-2 text-center boxed">
+                  <img class="course logo" src="img/cb/r_comp.png">
+                              <h4 class="uppercase bold">Competitive Programming</h4>
+                              <span class="price">₹5,000</span>
+                              <p class="lead">(8 lectures)</p>
+                              <a class="btn btn-white btn-filled btn-lg" href="courses/launchpad.html">See Details</a>
+                              <ul>
+                                  <li>
+                                    <strong>Maths &amp; Number Theory</strong>
+                                  </li>
+                                  <li>
+                                      <strong>Greedy &amp;Divide n Conquer</strong>
+                                  </li>
+                                  <li><strong>DP<strong> &amp; Graphs</strong>
+                                  </li>
+                                  <li> <strong>Segment twees &amp; Game Theory</strong>
+                                  </li>
+                              </ul>
+                          </div>
+
+                      </div>
+              <div class="col-md-4 col-sm-6">
+                          <div class="pricing-table pt-2 text-center">
+                  <img class="course logo" src="img/cb/r_ml_boot.png">
+                  <h4 class="uppercase bold">Machine Learning BootCamp</h4>
+                              <span class="price">₹5,000</span>
+                              <p class="lead">(8 Lectures)</p>
+                              <a class="btn btn-white btn-filled btn-lg" href="courses/crux.html">See Details</a>
+                              <ul>
+                                   <li>
+                                      <strong>Supervised Learning &amp; Algorithms</strong>
+                                  </li>
+                                  <li>
+                                      <strong>Regression</strong>
+                                  </li>
+                                  <li>
+                                      <strong>Neural Networks</strong>
+                                  </li>
+                                  <li>
+                                       <strong>2 LiveProjects </strong>
+                                  </li>
+                              </ul>
+                          </div>
+
+                      </div>
+                      <div class="col-md-4 col-sm-6">
+                          <div class="pricing-table pt-2 text-center boxed">
+                  <img class="course logo" src="img/cb/r_game.png">
+                  <h4 class="uppercase bold">Game Development</h4>
+                              <span class="price">₹5,000</span>
+                              <p class="lead">(8 Lectures)</p>
+                              <a class="btn btn-white btn-lg btn-filled" href="courses/pandora.html">See Details</a>
+                              <ul>
+                                  <li>
+                                      <strong>Real Time Multiplayer Games</strong>
+                                  </li>
+                                  <li>
+                                      <strong>Animation and Graphics
+                                        </strong>
+                                      </li>
+                                  <li>
+                                     <strong>Games for Android,IOS,Web</strong>
+                                  </li>
+                                  <li>
+                                      <strong>Game Projects &amp; Hackathon</strong>
+                                  </li>
+                              </ul>
+                          </div>
+
+                      </div>
+              <div class="col-sm-6 col-md-4">
+                          <div class="pricing-table pt-2 text-center">
+                  <img class="course logo" src="img/cb/r_chatbots_automation.png">
+                              <h4 class="uppercase bold">ChatBots and automation</h4>
+                              <span class="price">₹5,000</span>
+                              <p class="lead">(5 Lectures)</p>
+                              <a class="btn btn-white btn-lg btn-filled" href="courses/elixir.html">See Details</a>
+                              <ul>
+
+                                      <li><strong>Web Design</strong>
+                                  </li>
+                                  <li>
+                                          <strong>Real time</strong> Web Apps
+                                  </li>
+                                  <li>
+                                          Deployment &amp; System Adminstration
+                                  </li>
+                                  <li>
+                                      LIVE Project &amp; Hackathon
+                                  </li>
+                              </ul>
+                          </div>
+
+                      </div>
+                    <div class="col-md-4 col-sm-6">
+                          <div class="pricing-table pt-2 text-center boxed">
+                  <img class="course logo" src="img/cb/r_final.png">
+                              <h4 class="uppercase bold">Interview Preparation</h4>
+                              <span class="price">₹5,000</span>
+                              <p class="lead">(8 Lectures)</p>
+                              <a class="btn btn-white btn-filled btn-lg" href="courses/django.html">Get Started</a>
+                              <ul>
+                                   <li><strong>Operating Systems</strong>
+                                  </li>
+                                  <li>
+                                         <strong>DBMS</strong>
+                                  </li>
+                                  <li>
+                                          <strong>Networking &amp;SystemDesign</strong>
+                                  </li>
+                                  <li>
+                                       <strong>Mock Interviews</strong>
+                                  </li>
+
+                              </ul>
+                          </div>
+
+                      </div>
+              <div class="col-sm-6 col-md-4">
+                          <div class="pricing-table pt-2 text-center">
+                  <img class="course logo" src="img/cb/r_reactjs.png">
+                              <h4 class="uppercase bold">ReactJS BootCamp</h4>
+                              <span class="price">₹5,000</span>
+                              <p class="lead">(8 Lectures)</p>
+                              <a class="btn btn-white btn-lg btn-filled" href="#home_map">Get Started</a>
+                              <ul>
+                                  <li>
+                                      Real Time <strong>Multiplayer Games</strong>
+                                  </li>
+                                  <li>
+                                      <strong>Animation and Graphics
+                                        </strong>
+                                      </li>
+                                  <li>
+                                     Games for <strong>Android,IOS,Web</strong>
+                                  </li>
+                                  <li>
+                                      Game Projects &amp; Hackathon
+                                  </li>
+                              </ul>
+                          </div>
+
+                      </div>
+
+
+<br>
+<br>
+<br>
+<br>
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-sm-12 text-center">
+                                  <h4 class="uppercase mb16">COURSES FOR KIDS</h4>
+                                  <p class="lead mb64">
+                                      Summer courses for school kids<br>
+                                      <br><a class="btn btn-white btn-filled btn-lg" href="#">Know More</a>
+                                  </p>
+                              </div>
+                          </div>
+
+
+          </section>
+
+
 
 			<!-- SECTION: Team -->
 			<a id="home_team" class="in-page-link"></a>
@@ -555,6 +679,18 @@
 
 		        </div>
 
+<div class="flex-container">
+
+   <div class="flex-item"><img alt="Pic" src="img/cb/logos/fb_icon.png"></div>
+   <div class="flex-item"><img alt="Pic" src="img/cb/logos/r_browserstack.jpg"></div>
+   <div class="flex-item"><img alt="Pic" src="img/cb/logos/r_cyanogen.png"></div>
+   <div class="flex-item"><img alt="Pic" src="img/cb/logos/r_micromax.png"></div>
+   <div class="flex-item"><img alt="Pic" src="img/cb/logos/r_nagarro.png"></div>
+   <div class="flex-item"><img alt="Pic" src="img/cb/logos/r_sandisk.png"></div>
+   <div class="flex-item"><img alt="Pic" src="img/cb/logos/r_sony.png"></div>
+
+
+</div>
 		    </section>
 
 			<!-- SECTION: -->
@@ -609,6 +745,22 @@
 		        </div>
 
 		    </section>
+
+
+
+                 <div class="container">
+                    <div class="row mb64 mb-xs-24">
+                        <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+                            <h5>Read more testimonials at <br></h5>
+
+                            <a  href="http://cb.lk/fbr"><img alt="Facebook Reviews" width="50" height="50" src="img/cb/facebook.png"></a>
+                            <a  href="http://cb.lk/cbq"><img alt="Quora Reviews" width="50" height="50" src="img/cb/quora.png"></a>
+                        </div>
+                    </div>
+                  </div>
+
+
+
 
 			<!-- SECTION: Numbers-->
 			<a id="home_numbers" class="in-page-link"></a>
