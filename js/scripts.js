@@ -874,9 +874,13 @@ $(document).ready(function() {
                         console.log('Send event form detected.');
                         url = "/api/event_signup";
                         break;
+                    case "job-signup":
+                        console.log('Send event form detected.');
+                        url = "/api/job_signup";
+                        break;
                 }
 
-                if (true) {
+                if (false) {
                     host = "http://cb.lk:3003";
                 } else {
                     host = "http://localhost:3000";
