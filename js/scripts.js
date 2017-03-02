@@ -880,7 +880,7 @@ $(document).ready(function() {
                         break;
                 }
 
-                if (false) {
+                if (true) {
                     host = "http://cb.lk:3003";
                 } else {
                     host = "http://localhost:3000";
