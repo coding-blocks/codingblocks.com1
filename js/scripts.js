@@ -874,18 +874,25 @@ $(document).ready(function() {
                         console.log('Send event form detected.');
                         url = "/api/event_signup";
                         break;
-                    case "job-signup":
+                    case "job_signup":
                         console.log('Send event form detected.');
                         url = "/api/job_signup";
                         break;
+                    case "startup_signup":
+                        console.log('Send event form detected.');
+                        url = "/api/startup_signup";
+                        break;
+                
                 }
 
-                if (false) {
+                if (true) {
                     host = "http://cb.lk:3003";
                 } else {
                     host = "http://localhost:3000";
                     console.log("form data = " + thisForm.serialize());
                 }
+
+                console.log("url = " + url)
 
                 jQuery.ajax({
                     type: "POST",
