@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://www.codingblocks.com/</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>http://www.codingblocks.com/team.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>http://www.codingblocks.com/courses/elixir.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>http://www.codingblocks.com/courses/django.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>http://www.codingblocks.com/courses/launchpad.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>http://www.codingblocks.com/courses/pandora.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>http://www.codingblocks.com/courses/crux.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>http://www.codingblocks.com/signup/</loc>
+    <changefreq>always</changefreq>
+  </url>
+</urlset>
+<!--<guid value="6bb95c56-6ee1-4787-ad40-70c06d2c6d7c" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
