@@ -854,9 +854,22 @@ body.btn-rounded .btn {
   color: #47b475;
 }
 /*!---------- 7. NAVIGATION ----------*/
+
+
 .nav-container {
+
   -webkit-backface-visibility: hidden;
   max-width: 100%;
+   position:fixed;
+    color:black;
+    z-index:9999;
+    min-height:64px;
+    width:100%;
+
+	
+        
+    
+ 
 }
 nav {
   background: #fff;
@@ -901,6 +914,11 @@ nav .btn,
   max-height: 55px;
   line-height: 53px;
   border-bottom: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  max-height: 50px;
 }
 .nav-bar .module,
 .nav-bar .module-group {
