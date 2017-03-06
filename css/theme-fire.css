@@ -1298,7 +1298,7 @@ nav .cart-overview a {
   }
   .main-container.reveal-nav {
     transform: none !important;
-      padding-top: 64px;
+     
   }
 }
 @media all and (max-width: 990px) {
