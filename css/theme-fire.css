@@ -857,6 +857,12 @@ body.btn-rounded .btn {
 .nav-container {
   -webkit-backface-visibility: hidden;
   max-width: 100%;
+    position:fixed;
+    color:rgb(0,0,0);
+    z-index:9999;
+    min-height:64px;
+    width:100%;
+
 }
 nav {
   background: #fff;
@@ -965,6 +971,7 @@ nav.bg-dark .logo-dark {
 }
 .menu li a:hover {
   opacity: 1 !important;
+  color: #fc4f4f;
 }
 .menu > li {
   margin-right: 32px;
