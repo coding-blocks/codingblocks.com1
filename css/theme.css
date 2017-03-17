@@ -909,11 +909,6 @@ nav .btn,
   max-height: 55px;
   line-height: 53px;
   border-bottom: 1px solid #ccc;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  max-height: 50px;
 }
 .nav-bar .module,
 .nav-bar .module-group {
