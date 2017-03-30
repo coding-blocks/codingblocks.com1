@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
     <title>Job | Coding Blocks</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" media="all">
@@ -32,6 +34,17 @@
     <meta name="msapplication-TileColor" content="#fc4f4f">
     <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#fc4f4f">
+    <script type="text/javascript">
+       function ShowHideDiv() {
+           var job = document.getElementById("job");
+           var jobSelect = document.getElementById("jobSelect");
+           let internship = document.getElementById("internship");
+           var internSelect = document.getElementById("internSelect");
+           jobSelect.style.display = job.checked ? "block" : "none";
+           internSelect.style.display = internship.checked ? "block" : "none";
+
+       }
+         </script>
 </head>
 <body class="scroll-assist">
 
@@ -49,71 +62,187 @@
             <div class="row">
 
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
-                    <form id="job_signup" class="form-email" data-success="Thanks for your submission, we will be in touch shortly."
+                    <form id="job_signup" class="form-email" data-success="Thanks for showing interest in Coding Blocks.Our team will shortly get in touch with you."
                           data-error="Please fill all fields correctly.">
+                        <legend>Personal Details:</legend>
                         <input type="text" class="validate-required" name="name" placeholder="Your Name">
-                        <input type="text" class="validate-required validate-tel" name="number" placeholder="Phone Number">
-                        <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
-                        <input type="text" class="validate-required" name="city" placeholder="City">
+                        <input type="text" class="validate-required validate-tel" name="contactnumber" placeholder="Contact Number" maxlength="10">
+                        <input type="text" class="validate-required validate-email" name="emailid" placeholder="Email Address">
+                        <input type="text" class="validate-required" name="currentaddress" placeholder="Current Address">
+                        <input type="text" class="validate-required" name="city" placeholder="city">
+                        <input type="text" class="validate-required" name="state" placeholder="state">
+                        <input type="text" class="validate-required" name="pincode" placeholder="pincode" maxlength="6">
+                        <input type="text" class="validate-required" name="country" placeholder="country">
+                        <input type="text" class="validate-required" name="fathername" placeholder="father's name">
+                        <input type="text" class="validate-required" name="permanentaddress" placeholder="Permanent Address">
+                        <input type="text" class="validate-required" name="pcity" placeholder="city">
+                        <input type="text" class="validate-required" name="pstate" placeholder="state">
+                        <input type="text" class="validate-required" name="ppincode" placeholder="pincode" maxlength="6">
+
+                        <legend>educational details:</legend>
                         <input type="text" class="validate-required" name="college" placeholder="College/University/School">
 
                         <div class="form-group">
-                            Course :
-                            <input type="radio" class="validate-required" name="course" value="btech" id="btech"> <label for="btech"> B.Tech </label> |
-                            <input type="radio" class="validate-required" name="course" value="mtech" id="mtech"> <label for="mtech"> M.Tech </label> |
-                            <input type="radio" class="validate-required" name="course" value="bca" id="bca"> <label for="bca"> B.C.A. </label> |
-                            <input type="radio" class="validate-required" name="course" value="mca" id="mca"> <label for="mca"> M.C.A </label> |
-                            <input type="radio" class="validate-required" name="course" value="other" id="other"> <label for="other"> Other </label>
+                            Degree :
+                            <input type="radio" class="validate-required" name="degree" value="btech" id="btech"> <label for="btech"> B.Tech </label> |
+                            <input type="radio" class="validate-required" name="degree" value="mtech" id="mtech"> <label for="mtech"> M.Tech </label> |
+                            <input type="radio" class="validate-required" name="degree" value="bca" id="bca"> <label for="bca"> B.C.A. </label> |
+                            <input type="radio" class="validate-required" name="degree" value="mca" id="mca"> <label for="mca"> M.C.A </label> |
+                            <input type="radio" class="validate-required" name="degree" value="other" id="other"> <label for="other"> Other </label>
                         </div>
-
                         <div class="form-group">
-                            Discipline :
-                            <input type="radio" class="validate-required" name="discipline" value="cs"  id="cse"> <label for="cse"> CS / IT / SE  &Tab;</label>
-                            <input type="radio" class="validate-required" name="discipline" value="ece"  id="ece"> <label for="ece"> EE / ECE / EEE </label>
-                            <input type="radio" class="validate-required" name="dicsipline" value="na"  id="na"> <label for="na"> Other </label>
+                            Specialization :
+                            <input type="radio" class="validate-required" name="specialization" value="cs"  id="cse"> <label for="cse"> CS / IT / SE  &Tab;</label>
+                            <input type="radio" class="validate-required" name="specialization" value="ece"  id="ece"> <label for="ece"> EE / ECE / EEE </label>
+                            <input type="radio" class="validate-required" name="specialization" value="na"  id="na"> <label for="na"> Other </label>
                         </div>
-
-                        <label for="yrselect">Current Education:</label>
-                        <select id="yrselect" name="year">
-                            <option value="1"> In School </option>
-                            <option value="1"> 1st Year </option>
-                            <option value="2"> 2nd Year </option>
-                            <option value="3"> 3rd Year </option>
-                            <option value="4"> 4th Year </option>
-                            <option value="5"> 5th Year </option>
-                            <option value="6"> Graduated </option>
-                            
-                        </select>
-                         <div class="form-group">
-                            Course :
-                            <input type="radio" class="validate-required" name="type" value="job" id="job"> <label for="job"> JOB </label> |
-                            <input type="radio" class="validate-required" name="type" value="job" id="job"> <label for="internship"> INTERNSHIP </label> |
-                        </div>
-
+                        batch:<br>
+                        <label for="batch_from">from</label>
+                          <select id="batch1" name="batch">
+                            <option value="2027"> 2027 </option>
+                            <option value="2026"> 2026 </option>
+                            <option value="2025">2025 </option>
+                            <option value="2024"> 2024</option>
+                            <option value="2023"> 2023 </option>
+                            <option value="2022"> 2022 </option>
+                            <option value="2021"> 2021 </option>
+                            <option value="2020"> 2020 </option>
+                            <option value="2019"> 2019 </option>
+                            <option value="2018">2018 </option>
+                            <option value="2017"> 2017</option>
+                            <option value="2016"> 2016 </option>
+                            <option value="2015"> 2015 </option>
+                            <option value="2014"> 2014 </option>
+                            <option value="2013"> 2013 </option>
+                            <option value="2012"> 2012 </option>
+                            <option value="2011">2011 </option>
+                            <option value="2010"> 2010</option>
+                            <option value="2009"> 2009 </option>
+                            <option value="2008"> 2008 </option>
+                            <option value="2007"> 2007 </option>
+                            </select>
+                            <label for="batch_to">to</label>
+                              <select id="batch2" name="batch">
+                                <option value="2027"> 2027 </option>
+                                <option value="2026"> 2026 </option>
+                                <option value="2025">2025 </option>
+                                <option value="2024"> 2024</option>
+                                <option value="2023"> 2023 </option>
+                                <option value="2022"> 2022 </option>
+                                <option value="2021"> 2021 </option>
+                                <option value="2020"> 2020 </option>
+                                <option value="2019"> 2019 </option>
+                                <option value="2018">2018 </option>
+                                <option value="2017"> 2017</option>
+                                <option value="2016"> 2016 </option>
+                                <option value="2015"> 2015 </option>
+                                <option value="2014"> 2014 </option>
+                                <option value="2013"> 2013 </option>
+                                <option value="2012"> 2012 </option>
+                                <option value="2011">2011 </option>
+                                <option value="2010"> 2010</option>
+                                <option value="2009"> 2009 </option>
+                                <option value="2008"> 2008 </option>
+                                <option value="2007"> 2007 </option>
+                                </select>
+                               
+                           <legend>Professional details:</legend>
+                  <div id="professional">
+                           <input type="text" class="validate-required" name="designation" placeholder="Designation">
+                           <input type="text" class="validate-required" name="organisation"  placeholder="organisation">
+                           Time period:<br>
+                           <label for="time_from">from</label>
+                             <select id="time_from" name="timeperiod">
+                               <option value="2027"> 2027 </option>
+                               <option value="2026"> 2026 </option>
+                               <option value="2025">2025 </option>
+                               <option value="2024"> 2024</option>
+                               <option value="2023"> 2023 </option>
+                               <option value="2022"> 2022 </option>
+                               <option value="2021"> 2021 </option>
+                               <option value="2020"> 2020 </option>
+                               <option value="2019"> 2019 </option>
+                               <option value="2018">2018 </option>
+                               <option value="2017"> 2017</option>
+                               <option value="2016"> 2016 </option>
+                               <option value="2015"> 2015 </option>
+                               <option value="2014"> 2014 </option>
+                               <option value="2013"> 2013 </option>
+                               <option value="2012"> 2012 </option>
+                               <option value="2011">2011 </option>
+                               <option value="2010"> 2010</option>
+                               <option value="2009"> 2009 </option>
+                               <option value="2008"> 2008 </option>
+                               <option value="2007"> 2007 </option>
+                               </select>
+                               <label for="time_to">to</label>
+                                 <select id="time_to" name="timeperiod">
+                                   <option value="2027"> 2027 </option>
+                                   <option value="2026"> 2026 </option>
+                                   <option value="2025">2025 </option>
+                                   <option value="2024"> 2024</option>
+                                   <option value="2023"> 2023 </option>
+                                   <option value="2022"> 2022 </option>
+                                   <option value="2021"> 2021 </option>
+                                   <option value="2020"> 2020 </option>
+                                   <option value="2019"> 2019 </option>
+                                   <option value="2018">2018 </option>
+                                   <option value="2017"> 2017</option>
+                                   <option value="2016"> 2016 </option>
+                                   <option value="2015"> 2015 </option>
+                                   <option value="2014"> 2014 </option>
+                                   <option value="2013"> 2013 </option>
+                                   <option value="2012"> 2012 </option>
+                                   <option value="2011">2011 </option>
+                                   <option value="2010"> 2010</option>
+                                   <option value="2009"> 2009 </option>
+                                   <option value="2008"> 2008 </option>
+                                   <option value="2007"> 2007 </option>
+                                   </select>
+            </div>
                        
+                         <div class="form-group">
+                             Applying for:
+                             <label for="job">JOB
+                               <input type="radio" class="validate-required" name="applyingfor" value="job" id="job" onclick="ShowHideDiv()" />
+                          </label>
+                          <label for="internship">INTERNSHIP
+                            <input type="radio" class="validate-required" name="applyingfor" value="internship" id="internship" onclick="ShowHideDiv()" />
+                          </label>
+                        </div>
 
+                        <div class="form-group" id="jobSelect" style="display: none">
+                        <label>Intrested in job</label>
+                              <div class="row">
+                                  <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
+                                  <div><input name="interest" type="checkbox" value="Teaching">Teaching profile </div>
+                                  <div><input name="interest" type="checkbox" value="software development"> Software development </div>
+                                  <div><input name="interest" type="checkbox" value="marketing"> Marketing profile </div>
+                                  <div><input name="interest" type="checkbox" value="operational"> Operational profile </div>
+                                  <div><input name="interest" type="checkbox" value="office"> office support </div>
+                                    </div>
+                                    </div>
+                                     </div>
+                                     <div class="form-group" id="internSelect" style="display: none">
+                                     <label>Intrested in internship</label>
+                                           <div class="row">
+                                               <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
+                                               <div><input name="interest" type="checkbox" value="Teaching">Teaching assistant </div>
+                                               <div><input name="interest" type="checkbox" value="software development"> Software development </div>
+                                               <div><input name="interest" type="checkbox" value="marketing"> Marketing profile </div>
+                                               <div><input name="interest" type="checkbox" value="others">others </div>
+                                               <input name="interest" type="text" placeholder="others">
+                                                 </div>
+                                                 </div>
+                                                  </div>
                          <div class="form-group">
                             <input type="checkbox" value="cb" id="cb">
                             <label for="cb">Are you a Coding Blocks student</label>
                         </div>
-
-                        <div class="form-group" id="courses">
-                            <label>Intrested in</label>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
-                                    <div><input name="interest" type="checkbox" value="Teaching">Teaching </div>
-                                    <div><input name="interest" type="checkbox" value="software development"> Software development </div>
-                                    <div><input name="interest" type="checkbox" value="marketing"> Marketing and other profiles </div>
-                                    
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
+                        <div class="form-group">
+                        <b>Upload Resume:</b><input type="file" name="resume" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint,text/plain, application/pdf, image/*">
                         <textarea name="message" rows="4" placeholder="why coding blocks"></textarea>
-                        <button type="submit">Sign Up</button>
+                        <button type="submit">Submit</button>
                     </form>
                 </div>
             </div>
