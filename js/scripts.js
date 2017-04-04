@@ -891,7 +891,7 @@ $(document).ready(function() {
                 }
 
                 if (true) {
-                    host = "http://cb.lk:3003";
+                    host = "https://cbcom.cb.lk";
                 } else {
                     host = "http://localhost:3000";
                     console.log("form data = " + thisForm.serialize());
