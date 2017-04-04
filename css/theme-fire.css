@@ -72,6 +72,7 @@ ul.bullets {
 }
 .main-container {
   clear: both;
+  
 }
 hr {
   border: none;
@@ -1291,6 +1292,7 @@ nav .cart-overview a {
   }
   .main-container.reveal-nav {
     transform: none !important;
+
   }
 }
 @media all and (max-width: 990px) {
