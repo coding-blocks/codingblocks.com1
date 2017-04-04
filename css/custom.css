@@ -2,4 +2,8 @@
 .map-container{
   padding:40px;
   margin: 30px;
-};
+}
+
+.leaf {
+  display: none !important;
+}
