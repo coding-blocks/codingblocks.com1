@@ -886,8 +886,6 @@ $(document).ready(function() {
                             console.log('Send event form detected.');
                             url = "/api/projects";
                             break;
-
-
                 }
 
                 if (true) {
