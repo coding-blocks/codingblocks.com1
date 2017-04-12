@@ -879,7 +879,7 @@ $(document).ready(function() {
                         url = "/api/job_signup";
                         break;
                     case "startup_signup":
-                        console.log('Send event form detected.');
+                        console .log('Send event form detected.');
                         url = "/api/startup_signup";
                         break;
                     case "projects":

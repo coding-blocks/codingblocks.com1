@@ -99,6 +99,7 @@
                         batch:<br>
                         <label for="batch_from">from</label>
                           <select id="batch1" name="batch">
+                          <option value="year"> year</option>
                             <option value="2027"> 2027 </option>
                             <option value="2026"> 2026 </option>
                             <option value="2025">2025 </option>
@@ -123,6 +124,7 @@
                             </select>
                             <label for="batch_to">to</label>
                               <select id="batch2" name="batch">
+                              <option value="year"> year</option>
                                 <option value="2027"> 2027 </option>
                                 <option value="2026"> 2026 </option>
                                 <option value="2025">2025 </option>
@@ -148,11 +150,12 @@
                                
                            <legend>Professional details:</legend>
                   <div id="professional">
-                           <input type="text" class="validate-required" name="designation" placeholder="Designation">
-                           <input type="text" class="validate-required" name="organisation"  placeholder="organisation">
+                           <input type="text" class="validate" name="designation" placeholder="Designation">
+                           <input type="text" class="validate" name="organisation"  placeholder="organisation">
                            Time period:<br>
                            <label for="time_from">from</label>
                              <select id="time_from" name="timeperiod">
+                             <option value="year"> year</option>
                                <option value="2027"> 2027 </option>
                                <option value="2026"> 2026 </option>
                                <option value="2025">2025 </option>
@@ -177,6 +180,7 @@
                                </select>
                                <label for="time_to">to</label>
                                  <select id="time_to" name="timeperiod">
+                                 <option value="year"> year</option>
                                    <option value="2027"> 2027 </option>
                                    <option value="2026"> 2026 </option>
                                    <option value="2025">2025 </option>
@@ -240,7 +244,7 @@
                             <label for="cb">Are you a Coding Blocks student</label>
                         </div>
                         <div class="form-group">
-                        <b>Upload Resume:</b><input type="file" name="resume" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint,text/plain, application/pdf, image/*">
+                        <input type="text" name="resume" placeholder="link of Resume">
                         <textarea name="message" rows="4" placeholder="why coding blocks"></textarea>
                         <button type="submit">Submit</button>
                     </form>

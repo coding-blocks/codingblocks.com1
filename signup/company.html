@@ -49,15 +49,15 @@
             <div class="row">
 
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
-                    <form id="startup_signup" class="form-email" data-success="Thanks you for showing interest in hiring coding blocks students.our team will get in touch with you shortly"
+                    <form id="startup_signup" class="form-email" data-success="Thanks you for showing interest in hiring coding blocks students.our team will get in touch with you shortly" enctype="multipart/form-data"
                           data-error="Please fill all fields correctly.">
-                        <input type="text" class="validate-required" name="company_name" placeholder="Company_Name">
-                        <input type="text" class="validate-required" name="wesitelink" placeholder="website link">
+                        <input type="text" class="validate-required" name="companyname" placeholder="Company_Name">
+                        <input type="text" class="validate-required" name="websitelink" placeholder="website link">
                         <input type="text" class="validate-required" name="companyaddress" placeholder="company address">
                         <input type="text" class="validate-required" name="contactpersonname" placeholder="contact person name">
-                        <input type="text" class="validate-required" name="contactnumber" placeholder="contact no.">
+                        <input type="text" class="validate-required" name="contactno" placeholder="contact no.">
                         <input type="text" class="validate-required" name="emailid" placeholder="Email id">
-                        <div class="form-group" id="looking">
+                        <div class="form-group" id="lookingfor">
                         <label>Looking for:</label>
                               <div class="row">
                                   <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
@@ -68,7 +68,7 @@
                                     </div>
                                      </div>
 
-                                     <div class="form-group" id="courses">
+                                     <div class="form-group" id="skills">
                                      <label>Skills required:</label>
                                            <div class="row">
                                                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
@@ -81,17 +81,14 @@
                                                 </div>
                                             </div>
                                       </div>
-                                 <input type="text" class="validate-required" name="job location" placeholder="job location">
+                                 <input type="text" class="validate-required" name="joblocation" placeholder="job location">
 
 
                         </div>
-
-                   <div class="form-group">
-                       <textarea name="jobdescription" rows="4" placeholder="job description"></textarea>
-                        <b>Job description:</b><input type="file" name="jobdescription" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint,text/plain, application/pdf, image/*">
-                        <button type="submit">Submit</button>
+                       <input type="text" id="input" name="jobdescription" placeholder="link of jobdescription">
+                        <button id="submitForm" type="submit">Submit</button>
                     </form>
-                </div>
+              
             </div>
 
         </div>
@@ -112,6 +109,8 @@
 <script src="../js/parallax.js"></script>
 <script src="../js/scripts.js"></script>
 <script src="../js/componentloader.js"></script>
+
+
 
 </body>
 </html>
