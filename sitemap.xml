@@ -2,37 +2,50 @@
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://www.codingblocks.com/</loc>
-    <changefreq>always</changefreq>
+    <loc>https://codingblocks.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.codingblocks.com/team.html</loc>
-    <changefreq>always</changefreq>
+    <loc>https://codingblocks.com/team.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.codingblocks.com/courses/elixir.html</loc>
-    <changefreq>always</changefreq>
+    <loc>https://codingblocks.com/courses/lpvsat.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.codingblocks.com/courses/django.html</loc>
-    <changefreq>always</changefreq>
+    <loc>https://codingblocks.com/courses/code4kids.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.codingblocks.com/courses/launchpad.html</loc>
-    <changefreq>always</changefreq>
+    <loc>https://codingblocks.com/courses/pandora.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.codingblocks.com/courses/pandora.html</loc>
-    <changefreq>always</changefreq>
+    <loc>https://codingblocks.com/courses/django.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.codingblocks.com/courses/crux.html</loc>
-    <changefreq>always</changefreq>
+    <loc>https://codingblocks.com/courses/elixir.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.codingblocks.com/signup/</loc>
-    <changefreq>always</changefreq>
+    <loc>https://codingblocks.com/courses/crux.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://codingblocks.com/courses/launchpad.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
-<!--<guid value="6bb95c56-6ee1-4787-ad40-70c06d2c6d7c" />-->
+<!--<guid value="9d2f4130-7213-4e8f-95e9-ab3ac9313d80" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
