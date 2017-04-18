@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /js/
+Disallow: /img/
+Disallow: /includes/
+Disallow: /icons/
+Sitemap: https://codingblocks.com/sitemap.xml

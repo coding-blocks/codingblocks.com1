@@ -72,6 +72,7 @@ ul.bullets {
 }
 .main-container {
   clear: both;
+  padding-top: 64px;
 }
 hr {
   border: none;
@@ -859,12 +860,9 @@ body.btn-rounded .btn {
 .nav-container {
 
   -webkit-backface-visibility: hidden;
-  max-width: 100%;
-   
-	
-        
-    
- 
+  width: 100%;
+  position: fixed;
+  z-index: 999;
 }
 nav {
   background: #fff;
