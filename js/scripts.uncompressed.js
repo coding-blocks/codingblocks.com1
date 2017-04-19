@@ -233,55 +233,6 @@ $(document).ready(function() {
         }
     });
 
-    // Twitter Feed
-    $('.tweets-feed').each(function(index) {
-        jQuery(this).attr('id', 'tweets-' + index);
-    }).each(function(index) {
-        var element = $('#tweets-' + index);
-        var TweetConfig = {
-            "domId": '',
-            "maxTweets": element.attr('data-amount'),
-            "enableLinks": true,
-            "showUser": true,
-            "showTime": true,
-            "dateFunction": '',
-            "showRetweet": false,
-            "customCallback": handleTweets
-        };
-
-        if(typeof element.attr('data-widget-id') !== typeof undefined){
-            TweetConfig.id = element.attr('data-widget-id');
-        }else if(typeof element.attr('data-feed-name') !== typeof undefined && element.attr('data-feed-name') !== "" ){
-            TweetConfig.profile = {"screenName": element.attr('data-feed-name').replace('@', '')};
-        }else{
-            TweetConfig.profile = {"screenName": 'twitter'};
-        }
-
-        function handleTweets(tweets) {
-            var x = tweets.length;
-            var n = 0;
-            var element = document.getElementById('tweets-' + index);
-            var html = '<ul class="slides">';
-            while (n < x) {
-                html += '<li>' + tweets[n] + '</li>';
-                n++;
-            }
-            html += '</ul>';
-            element.innerHTML = html;
-
-            if ($('.tweets-slider').length) {
-                $('.tweets-slider').flexslider({
-                    directionNav: false,
-                    controlNav: false
-                });
-            }
-            return html;
-        }
-        document.addEventListener('loadtweets', function () {
-            twitterFetcher.fetch(TweetConfig);
-        });
-    });
-
 
     // // Instagram Feed
     //
