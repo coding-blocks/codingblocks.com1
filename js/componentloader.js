@@ -4,7 +4,9 @@
 $(function () {
     $('.nav-container').load('/includes/nav-container.html');
     $('.footer').load('/includes/footer.html', function () {
-        //$.getScript('/js/twitterfetcher.min.js');
+
+        var loadTweetEvent = new CustomEvent('loadtweets');
+        document.dispatchEvent(loadTweetEvent);
     });
 });
 

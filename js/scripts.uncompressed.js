@@ -277,7 +277,9 @@ $(document).ready(function() {
             }
             return html;
         }
-        twitterFetcher.fetch(TweetConfig);
+        document.addEventListener('loadtweets', function () {
+            twitterFetcher.fetch(TweetConfig);
+        });
     });
 
 
