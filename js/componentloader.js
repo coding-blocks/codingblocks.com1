@@ -3,7 +3,9 @@
  */
 $(function () {
     $('.nav-container').load('/includes/nav-container.html');
-    $('.footer').load('/includes/footer.html');
+    $('.footer').load('/includes/footer.html', function () {
+        $.getScript('/js/twitterfetcher.min.js');
+    });
 });
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
