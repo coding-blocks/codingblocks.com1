@@ -66,29 +66,37 @@
                           data-error="Please fill all fields correctly.">
                         <legend>Personal Details:</legend>
                         <input type="text" class="validate-required" name="name" placeholder="Your Name">
-                        <input type="text" class="validate-required validate-tel" name="number" placeholder="Contact Number" maxlength="10">
-                        <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
-                        <input type="text" class="validate-required" name="address" placeholder="Current Address">
+
+                        <input type="text" class="validate-required validate-tel" name="contactnumber" placeholder="Contact Number" maxlength="10">
+                        <input type="text" class="validate-required validate-email" name="emailid" placeholder="Email Address">
+                        <input type="text" class="validate-required" name="currentaddress" placeholder="Current Address">
+
+                      
                         <input type="text" class="validate-required" name="city" placeholder="city">
                         <input type="text" class="validate-required" name="state" placeholder="state">
                         <input type="text" class="validate-required" name="pincode" placeholder="pincode" maxlength="6">
                         <input type="text" class="validate-required" name="country" placeholder="country">
                         <input type="text" class="validate-required" name="fathername" placeholder="father's name">
-                        <input type="text" class="validate-required" name="address" placeholder="Permanent Address">
-                        <input type="text" class="validate-required" name="city" placeholder="city">
-                        <input type="text" class="validate-required" name="state" placeholder="state">
-                        <input type="text" class="validate-required" name="pincode" placeholder="pincode" maxlength="6">
+
+                        <input type="text" class="validate-required" name="permanentaddress" placeholder="Permanent Address">
+                        <input type="text" class="validate-required" name="pcity" placeholder="city">
+                        <input type="text" class="validate-required" name="pstate" placeholder="state">
+                        <input type="text" class="validate-required" name="ppincode" placeholder="pincode" maxlength="6">
+
 
                         <legend>educational details:</legend>
                         <input type="text" class="validate-required" name="college" placeholder="College/University/School">
 
                         <div class="form-group">
                             Degree :
-                            <input type="radio" class="validate-required" name="course" value="btech" id="btech"> <label for="btech"> B.Tech </label> |
-                            <input type="radio" class="validate-required" name="course" value="mtech" id="mtech"> <label for="mtech"> M.Tech </label> |
-                            <input type="radio" class="validate-required" name="course" value="bca" id="bca"> <label for="bca"> B.C.A. </label> |
-                            <input type="radio" class="validate-required" name="course" value="mca" id="mca"> <label for="mca"> M.C.A </label> |
-                            <input type="radio" class="validate-required" name="course" value="other" id="other"> <label for="other"> Other </label>
+
+                            <input type="radio" class="validate-required" name="degree" value="btech" id="btech"> <label for="btech"> B.Tech </label> |
+                            <input type="radio" class="validate-required" name="degree" value="mtech" id="mtech"> <label for="mtech"> M.Tech </label> |
+                            <input type="radio" class="validate-required" name="degree" value="bca" id="bca"> <label for="bca"> B.C.A. </label> |
+                            <input type="radio" class="validate-required" name="degree" value="mca" id="mca"> <label for="mca"> M.C.A </label> |
+                            <input type="radio" class="validate-required" name="degree" value="other" id="other"> <label for="other"> Other </label>
+
+        
                         </div>
                         <div class="form-group">
                             Specialization :
@@ -98,56 +106,61 @@
                         </div>
                         batch:<br>
                         <label for="batch_from">from</label>
-                          <select id="batch_from" name="year">
-                            <option value="0"> 2027 </option>
-                            <option value="1"> 2026 </option>
-                            <option value="2">2025 </option>
-                            <option value="3"> 2024</option>
-                            <option value="4"> 2023 </option>
-                            <option value="5"> 2022 </option>
-                            <option value="6"> 2021 </option>
-                            <option value="7"> 2020 </option>
-                            <option value="8"> 2019 </option>
-                            <option value="9">2018 </option>
-                            <option value="10"> 2017</option>
-                            <option value="11"> 2016 </option>
-                            <option value="12"> 2015 </option>
-                            <option value="13"> 2014 </option>
-                            <option value="14"> 2013 </option>
-                            <option value="15"> 2012 </option>
-                            <option value="16">2011 </option>
-                            <option value="17"> 2010</option>
-                            <option value="18"> 2009 </option>
-                            <option value="19"> 2008 </option>
-                            <option value="20"> 2007 </option>
+
+                          <select id="batch1" name="batch">
+                          <option value="year"> year</option>
+                            <option value="2027"> 2027 </option>
+                            <option value="2026"> 2026 </option>
+                            <option value="2025">2025 </option>
+                            <option value="2024"> 2024</option>
+                            <option value="2023"> 2023 </option>
+                            <option value="2022"> 2022 </option>
+                            <option value="2021"> 2021 </option>
+                            <option value="2020"> 2020 </option>
+                            <option value="2019"> 2019 </option>
+                            <option value="2018">2018 </option>
+                            <option value="2017"> 2017</option>
+                            <option value="2016"> 2016 </option>
+                            <option value="2015"> 2015 </option>
+                            <option value="2014"> 2014 </option>
+                            <option value="2013"> 2013 </option>
+                            <option value="2012"> 2012 </option>
+                            <option value="2011">2011 </option>
+                            <option value="2010"> 2010</option>
+                            <option value="2009"> 2009 </option>
+                            <option value="2008"> 2008 </option>
+                            <option value="2007"> 2007 </option>
                             </select>
                             <label for="batch_to">to</label>
-                              <select id="batch_to" name="year">
-                                <option value="0"> 2027 </option>
-                                <option value="1"> 2026 </option>
-                                <option value="2">2025 </option>
-                                <option value="3"> 2024</option>
-                                <option value="4"> 2023 </option>
-                                <option value="5"> 2022 </option>
-                                <option value="6"> 2021 </option>
-                                <option value="7"> 2020 </option>
-                                <option value="8"> 2019 </option>
-                                <option value="9">2018 </option>
-                                <option value="10"> 2017</option>
-                                <option value="11"> 2016 </option>
-                                <option value="12"> 2015 </option>
-                                <option value="13"> 2014 </option>
-                                <option value="14"> 2013 </option>
-                                <option value="15"> 2012 </option>
-                                <option value="16">2011 </option>
-                                <option value="17"> 2010</option>
-                                <option value="18"> 2009 </option>
-                                <option value="19"> 2008 </option>
-                                <option value="20"> 2007 </option>
+                              <select id="batch2" name="batch">
+                              <option value="year"> year</option>
+                                <option value="2027"> 2027 </option>
+                                <option value="2026"> 2026 </option>
+                                <option value="2025">2025 </option>
+                                <option value="2024"> 2024</option>
+                                <option value="2023"> 2023 </option>
+                                <option value="2022"> 2022 </option>
+                                <option value="2021"> 2021 </option>
+                                <option value="2020"> 2020 </option>
+                                <option value="2019"> 2019 </option>
+                                <option value="2018">2018 </option>
+                                <option value="2017"> 2017</option>
+                                <option value="2016"> 2016 </option>
+                                <option value="2015"> 2015 </option>
+                                <option value="2014"> 2014 </option>
+                                <option value="2013"> 2013 </option>
+                                <option value="2012"> 2012 </option>
+                                <option value="2011">2011 </option>
+                                <option value="2010"> 2010</option>
+                                <option value="2009"> 2009 </option>
+                                <option value="2008"> 2008 </option>
+                                <option value="2007"> 2007 </option>
                                 </select>
-                                <p align="center">
-                              <input type="button" value="+ Add Degree" />
-                            </p>
+                               
+                          
+                       
+                        
+                           
                            <legend>Professional details:</legend>
                   <div id="professional">
                            <input type="text" class="validate-required" name="designation" value="designation" placeholder="Designation">
@@ -202,16 +215,14 @@
                                    <option value="20"> 2007 </option>
                                    </select>
             </div>
-                        <p align="center">
-                          <input type="button" value="+ Add Position"   id= "addposition" />
-                        </p>
+                        
                          <div class="form-group">
                              Applying for:
                              <label for="job">JOB
                                <input type="radio" class="validate-required" name="type" value="job" id="job" onclick="ShowHideDiv()" />
                           </label>
-                          <label for="internship">INTERNSHIP
-                            <input type="radio" class="validate-required" name="type" value="internship" id="internship" onclick="ShowHideDiv()" />
+                          <label for="internship">INTERNSHIP                            <input type="radio" class="validate-required" name="type" value="internship" id="internship" onclick="ShowHideDiv()" />
+
                           </label>
                         </div>
 
@@ -231,11 +242,18 @@
                                      <label>Intrested in internship</label>
                                            <div class="row">
                                                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
-                                               <div><input name="interested" type="checkbox" value="Teaching">Teaching assistant </div>
+
+                                               <div><input name="interest" type="checkbox" value="Teaching">Teaching assistant </div>
+                                               <div><input name="interest" type="checkbox" value="software development"> Software development </div>
+                                               <div><input name="interest" type="checkbox" value="marketing"> Marketing profile </div>
+                                               <div><input name="interest" type="checkbox" value="others">others </div>
+                                               <input name="interest" type="text" placeholder="others">
+                                     <div><input name="interested" type="checkbox" value="Teaching">Teaching assistant </div>
                                                <div><input name="interested" type="checkbox" value="software development"> Software development </div>
                                                <div><input name="interested" type="checkbox" value="marketing"> Marketing profile </div>
                                                <div><input name="interested" type="checkbox" value="others">others </div>
                                                <input name="interested" type="text" placeholder="others">
+
                                                  </div>
                                                  </div>
                                                   </div>
@@ -244,16 +262,17 @@
                             <label for="cb">Are you a Coding Blocks student</label>
                         </div>
                         <div class="form-group">
-                        <b>Upload Resume:</b><input type="file" name="resume" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint,text/plain, application/pdf, image/*">
+
+                        <input type="text" name="resume" placeholder="link of Resume">
+
                         <textarea name="message" rows="4" placeholder="why coding blocks"></textarea>
                         <button type="submit">Submit</button>
-                    </form>
-                </div>
-            </div>
+                            </form>
+                
 
-        </div>
+                        </div>
 
-    </section>
+                    </section>
 
     <!-- Footer -->
 

@@ -11,6 +11,9 @@
         <link href="../css/theme-fire.css" rel="stylesheet" type="text/css" media="all" />
         <link href="../css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+
 		<script src="/js/fbpixel.js"></script>
 		<noscript>
 			<img height="1" width="1" style="display:none"
@@ -26,15 +29,17 @@
 		<section>
 		        <div class="container">
 					<h3 class="uppercase mb80 text-center">Our locations&nbsp;</h3>
-					<div class="row">
-						<div class="col-md-6 pt-xs-0 pt-sm-0 pt40">
 
+					<div class="row location-cards">
+						<!-- LEFT SIDE -->
+						<div class="col-md-6 pt-xs-0 pt-sm-0 pt40">
+							<!-- Pitampura -->
 							<div class="feature bordered text-center bg-primary">
 								<h3 class="uppercase mb40 mb-xs-24">Pitampura</h3>
 								<div class="mb40">
 									<h6 class="mb8 uppercase">Contact</h6>
 									<p>
-										1800 274 4504</p>
+										1800 274 4504<br>9599586446<br>011-27354126</p>
 								</div>
 								<div class="mb40">
 									<h6 class="mb8 uppercase">Reach</h6>
@@ -44,19 +49,112 @@
 								<div class="mb40">
 									<h6 class="mb8 uppercase">Courses</h6>
 									<p>
-										Launchpad<br>Crux<br>Pandora<br>Elixir<br>Django<br>mLearn<br>FinalStep</p>
+										Launchpad &nbsp;&nbsp; Crux
+										<br>
+										Pandora &nbsp;&nbsp; Elixir
+										<br>
+										Django &nbsp;&nbsp; mLearn
+										<br>FinalStep
+									</p>
 								</div>
+
+								<section class="contact-map">
+									<div class="map-container">
+										<div class="col-md-12 map-box">
+											<div class="map-canvas" data-address="Coding Blocks, Pitampura"
+												 data-marker-title="Coding Blocks"
+												 data-map-zoom="11" data-maps-api-key="AIzaSyCtSz4b43fPFC1kT90-x52A3ECJfBnHvN8"
+												 data-map-style="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#dd0d0d&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:100},{&quot;visibility&quot;:&quot;simplified&quot;}]}]"></div>
+										</div>
+									</div>
+								</section>
 
 
 							</div>
+							<!-- Greater Noida -->
+							<div class="feature bordered text-center bg-secondary">
+								<h3 class="uppercase mb40 mb-xs-24">Greater Noida</h3>
+								<div class="mb40">
+									<h6 class="mb8 uppercase">Contact</h6>
+									<p>
+
+										9999579111<br> 9999579222<br>
+									</p>
+								</div>
+								<div class="mb40">
+									<h6 class="mb8 uppercase">Reach</h6>
+									<p>
+
+
+										<br>2nd Floor<br>Rohtas Technosquare,<br> C-40, Knowledge Park – 1,<br> Greater Noida&nbsp;Uttar Pradesh</p>
+								</div>
+								<div class="mb40">
+									<h6 class="mb8 uppercase">Courses</h6>
+									<p>
+										Launchpad<br>Crux<br>Elixir<br>Pandora<br></p>
+								</div>
+								<section class="contact-map">
+									<div class="map-container">
+										<div class="col-md-12 map-box">
+											<div class="map-canvas" data-address="Knowledge Park I, Greater Noida, Uttar Pradesh 201310"
+												 data-marker-title="Coding Blocks"
+												 data-map-zoom="11" data-maps-api-key="AIzaSyCtSz4b43fPFC1kT90-x52A3ECJfBnHvN8"
+												 data-map-style="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#dd0d0d&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:100},{&quot;visibility&quot;:&quot;simplified&quot;}]}]"></div>
+										</div>
+									</div>
+								</section>
+							</div>
+							<!-- Amritsar -->
+							<div class="feature bordered text-center" align =>
+								<h3 class="uppercase mb40 mb-xs-24">Amritsar</h3>
+								<div class="mb40">
+									<h6 class="mb8 uppercase">Contact</h6>
+									<p>
+										0183-2500030
+									</p>
+								</div>
+								<div class="mb40">
+									<h6 class="mb8 uppercase">Reach</h6>
+									<p>
+
+
+										A-1,<br>2nd floor,<br>Opposite Kacheri Chowk,<br>
+										Court Road, Amritsar</p>
+								</div>
+								<div class="mb40">
+									<h6 class="mb8 uppercase">Courses</h6>
+									<p>
+										Launchpad<br>Crux<br></p>
+								</div>
+								<section class="contact-map">
+									<div class="map-container">
+										<div class="col-md-12 map-box">
+											<div class="map-canvas" data-address="District Shopping Centre, Ranjit Ave, B - Block, Ranjit Avenue, Amritsar"
+												 data-marker-title="Coding Blocks"
+												 data-map-zoom="11" data-maps-api-key="AIzaSyCtSz4b43fPFC1kT90-x52A3ECJfBnHvN8"
+												 data-map-style="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#dd0d0d&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:100},{&quot;visibility&quot;:&quot;simplified&quot;}]}]"></div>
+										</div>
+									</div>
+								</section>
+							</div>
 						</div>
-		                <div class="col-md-6 ">
+
+						<!-- RIGHT SIDE -->
+						<div class="col-md-6 ">
+							<!-- Dwarka -->
 		                    <div class="feature bordered text-center bg-secondary">
 		                        <h3 class="uppercase mb40 mb-xs-24">Dwarka</h3>
 		                        <div class="mb40">
 		                            <h6 class="mb8 uppercase">Contact</h6>
 		                            <p>
-		                                9811228053</p>
+
+		                                1800 274 4504
+										<br>
+										9811228053
+										<br>
+										8588801217
+									</p>
+
 		                        </div>
 		                        <div class="mb40">
 		                            <h6 class="mb8 uppercase">Reach</h6>
@@ -66,15 +164,32 @@
 		                        <div class="mb40">
 		                            <h6 class="mb8 uppercase">Courses</h6>
 		                            <p>
-		                                Launchpad<br>Crux<br>Code4Kids<br>Pandora<br>Elixir</br>
+
+										Launchpad &nbsp;&nbsp; Crux
+										<br>
+										Pandora &nbsp;&nbsp; Elixir
+										<br>
+										Code4Kids
+
 		                        </div>
+								<section class="contact-map">
+									<div class="map-container">
+										<div class="col-md-12 map-box">
+											<div class="map-canvas" data-address="Coding Blocks, Dwarka"
+												 data-marker-title="Coding Blocks"
+												 data-map-zoom="11" data-maps-api-key="AIzaSyCtSz4b43fPFC1kT90-x52A3ECJfBnHvN8"
+												 data-map-style="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#dd0d0d&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:100},{&quot;visibility&quot;:&quot;simplified&quot;}]}]"></div>
+										</div>
+									</div>
+								</section>
 		                    </div>
+							<!-- Gurgaon -->
 		                    <div class="feature bordered text-center">
 		                        <h3 class="uppercase mb40 mb-xs-24">Gurgaon</h3>
 		                        <div class="mb40">
 		                            <h6 class="mb8 uppercase">Contact</h6>
 		                            <p>
-		                                9711682305
+		                                1800 274 4504<br>9711682305
 		                            </p>
 		                        </div>
 		                        <div class="mb40">
@@ -87,394 +202,67 @@
 		                            <p>
 		                                Launchpad<br>Crux<br></p>
 		                        </div>
+								<section class="contact-map">
+									<div class="map-container">
+										<div class="col-md-12 map-box">
+											<div class="map-canvas" data-address="Coding Blocks, Gurgaon"
+												 data-marker-title="Coding Blocks"
+												 data-map-zoom="11" data-maps-api-key="AIzaSyCtSz4b43fPFC1kT90-x52A3ECJfBnHvN8"
+												 data-map-style="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#dd0d0d&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:100},{&quot;visibility&quot;:&quot;simplified&quot;}]}]"></div>
+										</div>
+									</div>
+								</section>
 		                    </div>
-		                </div>
-		            </div>
-                    <div class="col-md-6 ">
-		                    <div class="feature bordered text-center bg-secondary">
-		                        <h3 class="uppercase mb40 mb-xs-24">Greater Noida</h3>
-		                        <div class="mb40">
-		                            <h6 class="mb8 uppercase">Contact</h6>
-		                            <p>
-
-                                     9999579111<br> 9999579222<br>
-                                    </p>
-		                        </div>
-		                        <div class="mb40">
-		                            <h6 class="mb8 uppercase">Reach</h6>
-		                            <p>
-
-
-		                                <br>2nd Floor<br>Rohtas Technosquare,<br> C-40, Knowledge Park – 1,<br> Greater Noida&nbsp;Uttar Pradesh</p>
-		                        </div>
-		                        <div class="mb40">
-		                            <h6 class="mb8 uppercase">Courses</h6>
-		                            <p>
-		                                Launchpad<br>Crux<br>Elixir<br>Pandora<br></p>
-		                        </div>
-		                    </div>
-
-		            <div class="feature bordered text-center" align =>
-		                        <h3 class="uppercase mb40 mb-xs-24">Amritsar</h3>
-		                        <div class="mb40">
-		                            <h6 class="mb8 uppercase">Contact</h6>
-		                            <p>
-		                                0183-2500030
-		                            </p>
-		                        </div>
-		                        <div class="mb40">
-		                            <h6 class="mb8 uppercase">Reach</h6>
-		                            <p>
-
-
-		                               A-1,<br>2nd floor,<br>Opposite Kacheri Chowk,<br>
-                                    Court Road, Amritsar</p>
-		                        </div>
-		                        <div class="mb40">
-		                            <h6 class="mb8 uppercase">Courses</h6>
-		                            <p>
-		                                Launchpad<br>Crux<br></p>
-		                        </div>
-		                    </div>
-		                </div>
-                    <div class="col-md-6 ">
-		                    <div class="feature bordered text-center bg-secondary">
-		                        <h3 class="uppercase mb40 mb-xs-24">Jalandhar</h3>
-		                        <div class="mb40">
-		                            <h6 class="mb8 uppercase">Contact</h6>
-		                            <p>
-		                                9781800507 | 9781900507<br>
-                                     0181-5017507 | 5018507<br>
-                                    </p>
-		                        </div>
-		                        <div class="mb40">
-		                            <h6 class="mb8 uppercase">Reach</h6>
-		                            <p>
-
-
-		                                <br>5,6,7<br>Silver Plaza, Sodal Road,<br> Jalandhar</p>
-		                        </div>
-		                        <div class="mb40">
-		                            <h6 class="mb8 uppercase">Courses</h6>
-		                            <p>
-		                                Launchpad<br>Crux<br></p>
-		                        </div>
-		                    </div>
-
-
-
-		        </div>
-
-
-
-
-
-		    </section>
-			<section class="pt240 pb240">
-					<div class="map-canvas"
-						 data-address="
-							3, Pocket 3, Sector 11, Dwarka;
-							47, Nishant Kunj, New Delhi;
-							1090, Block C, Sushant Lok I"
-						 data-marker-title="Coding Blocks"
-						 data-map-zoom="11"
-						 data-maps-api-key="AIzaSyCWGYV8ZnbJvw-0TAyNg8OywNk1yWr4A14"
-						 data-map-style="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#dd0d0d&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:100},{&quot;visibility&quot;:&quot;simplified&quot;}]}]">
-
-					</div>
-			</section>
-			<footer class="footer-1 bg-dark">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6 col-md-3">
-							<div class="vnu"><img alt="Logo" class="logo" src="../img/cb/cb_tshirt_logo.png"></div>
-						</div><div class="col-sm-6 col-md-7">
-							<div class="widget">
-								<h6 class="title">Twitter Feed<br></h6>
-								<hr>
-								<div class="twitter-feed">
-									<div class="tweets-feed" data-feed-name="codingblocksIN" id="tweets-0"><ul class="slides"><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">When you try to learn a new programming language...
-		 <a href="https://twitter.com/hashtag/Programming?src=hash" data-scribe="element:hashtag" target="_blank"><span>#</span><span>Programming</span></a> <a href="https://t.co/uApuCT3Jw5" data-expanded-url="http://fb.me/1B5NLTIOC" target="_blank" title="http://fb.me/1B5NLTIOC" data-scribe="element:url"><span>http://</span>fb.me/1B5NLTIOC<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/804598738211733504">Posted 4 hours ago</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=804598738211733504" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=804598738211733504" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=804598738211733504" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Meet The CB Team - Sumeet Malik !
-		Sumeet a CS graduade from PEC, has more than 7 years of industry experience at... <a href="https://t.co/MyIsz7pZJs" data-expanded-url="http://fb.me/2tLfxWzFk" target="_blank" title="http://fb.me/2tLfxWzFk" data-scribe="element:url"><span>http://</span>fb.me/2tLfxWzFk<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/803906099900456961">Posted on 30 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=803906099900456961" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=803906099900456961" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=803906099900456961" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Our Android mentor Arnav Gupta participated in Digital Ocean Cloud Hack, with one of his students Rishabh Khanna... <a href="https://t.co/F5jJXJsW1M" data-expanded-url="http://fb.me/10BmrGLx7" target="_blank" title="http://fb.me/10BmrGLx7" data-scribe="element:url"><span>http://</span>fb.me/10BmrGLx7<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/803254038825488384">Posted on 28 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=803254038825488384" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=803254038825488384" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=803254038825488384" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Changes in GCC 5 as to how local variable pointers are returned from a function... <a href="https://t.co/OhPAWgGebw" data-expanded-url="http://fb.me/1J1Fwm5vR" target="_blank" title="http://fb.me/1J1Fwm5vR" data-scribe="element:url"><span>http://</span>fb.me/1J1Fwm5vR<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/803194956890460160">Posted on 28 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=803194956890460160" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=803194956890460160" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=803194956890460160" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Changes in GCC 5 to how local variable pointers are returned -... <a href="https://t.co/VrjlIvfKmm" data-expanded-url="http://fb.me/5dc1IDiOd" target="_blank" title="http://fb.me/5dc1IDiOd" data-scribe="element:url"><span>http://</span>fb.me/5dc1IDiOd<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/803186846352244736">Posted on 28 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=803186846352244736" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=803186846352244736" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=803186846352244736" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet"><a href="https://t.co/a1POsNemh9" data-expanded-url="http://fb.me/2BB3HoAxY" target="_blank" title="http://fb.me/2BB3HoAxY" data-scribe="element:url"><span>http://</span>fb.me/2BB3HoAxY<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/803110905798131712">Posted on 28 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=803110905798131712" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=803110905798131712" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=803110905798131712" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Meet Team Coding Blocks - Prateek Narang
-		Passionate about teaching, Prateek is a Computer Science graduate from... <a href="https://t.co/i8mI35ijNd" data-expanded-url="http://fb.me/89u6ZXEb9" target="_blank" title="http://fb.me/89u6ZXEb9" data-scribe="element:url"><span>http://</span>fb.me/89u6ZXEb9<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/802406562442702848">Posted on 26 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=802406562442702848" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=802406562442702848" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=802406562442702848" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">You Vs The Guy she tells you not to worry about :P
-		Via - <a href="https://t.co/ACCQU7CDli" data-expanded-url="http://bit.ly/2fuwqCD" target="_blank" title="http://bit.ly/2fuwqCD" data-scribe="element:url"><span>http://</span>bit.ly/2fuwqCD<span>&nbsp;</span></a> <a href="https://t.co/y396b1CG7L" data-expanded-url="http://fb.me/3IfZCu6p4" target="_blank" title="http://fb.me/3IfZCu6p4" data-scribe="element:url"><span>http://</span>fb.me/3IfZCu6p4<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/802142312566427649">Posted on 25 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=802142312566427649" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=802142312566427649" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=802142312566427649" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Watch how to create a <a href="https://twitter.com/hashtag/NodeJS?src=hash" data-scribe="element:hashtag" target="_blank"><span>#</span><span>NodeJS</span></a> NPM module (<a href="https://twitter.com/hashtag/Javascript?src=hash" data-scribe="element:hashtag" target="_blank"><span>#</span><span>Javascript</span></a> library) that converts integers to and from radix64... <a href="https://t.co/gVqG1x6FxS" data-expanded-url="http://fb.me/2sK1c8j6T" target="_blank" title="http://fb.me/2sK1c8j6T" data-scribe="element:url"><span>http://</span>fb.me/2sK1c8j6T<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/802073787927764992">Posted on 25 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=802073787927764992" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=802073787927764992" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=802073787927764992" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">LIVE Coding Session begins shortly, 5.00 PM today with mentor Arnav Gupta. Learn to build a URL Shortener in Node... <a href="https://t.co/w1U3DHJA9Q" data-expanded-url="http://fb.me/11duPIKSV" target="_blank" title="http://fb.me/11duPIKSV" data-scribe="element:url"><span>http://</span>fb.me/11duPIKSV<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/801734103032795137">Posted on 24 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=801734103032795137" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=801734103032795137" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=801734103032795137" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Hurry ! All our previous batches went full. Dec batches filling up fast. Last few seats left for Fast-track... <a href="https://t.co/WrlVzeRlei" data-expanded-url="http://fb.me/2WLUvyzSL" target="_blank" title="http://fb.me/2WLUvyzSL" data-scribe="element:url"><span>http://</span>fb.me/2WLUvyzSL<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/801685577712148480">Posted on 24 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=801685577712148480" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=801685577712148480" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=801685577712148480" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Announcing Coding Blocks Labs - An Open Source Projects playground
-
-		"It is a matter of immense pleasure for us to... <a href="https://t.co/bc8Jw1rUSV" data-expanded-url="http://fb.me/yi3W8VZc" target="_blank" title="http://fb.me/yi3W8VZc" data-scribe="element:url"><span>http://</span>fb.me/yi3W8VZc<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/801320881951797248">Posted on 23 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=801320881951797248" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=801320881951797248" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=801320881951797248" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet"><a href="https://twitter.com/hashtag/LIVE?src=hash" data-scribe="element:hashtag" target="_blank"><span>#</span><span>LIVE</span></a> Coding Session with Mentor Arnav Gupta
-		Creating an EmberJSWebapp - "Question of the Day" ! <a href="https://t.co/Onu4HisM0W" data-expanded-url="http://fb.me/12hoG51JN" target="_blank" title="http://fb.me/12hoG51JN" data-scribe="element:url"><span>http://</span>fb.me/12hoG51JN<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/801150389248606208">Posted on 22 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=801150389248606208" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=801150389248606208" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=801150389248606208" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Meet Team Coding Blocks - 1 !
-		Manmohan Gupta (Munna Bhaiya), the brain-behind Coding Blocks, is passionate for... <a href="https://t.co/UPCzc0KMm3" data-expanded-url="http://fb.me/7DBtVQWlk" target="_blank" title="http://fb.me/7DBtVQWlk" data-scribe="element:url"><span>http://</span>fb.me/7DBtVQWlk<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/801070249118466054">Posted on 22 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=801070249118466054" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=801070249118466054" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=801070249118466054" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Lecture-2 :  Programming in C++ , Input, Output, Basics
-		<a href="https://twitter.com/hashtag/CodingForAll?src=hash" data-scribe="element:hashtag" target="_blank"><span>#</span><span>CodingForAll</span></a>  <a href="https://twitter.com/hashtag/LearnToCode?src=hash" data-scribe="element:hashtag" target="_blank"><span>#</span><span>LearnToCode</span></a> <a href="https://t.co/eXRtAf2qV9" data-expanded-url="http://fb.me/5zhmhCCSy" target="_blank" title="http://fb.me/5zhmhCCSy" data-scribe="element:url"><span>http://</span>fb.me/5zhmhCCSy<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/800639040554795008">Posted on 21 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=800639040554795008" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=800639040554795008" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=800639040554795008" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Googlecursion !
-
-		Via <a href="https://t.co/ZzzLeMvGRm" data-expanded-url="http://www.donthitsave.com/comic/2016/08/02/google-google-google" target="_blank" title="http://www.donthitsave.com/comic/2016/08/02/google-google-google" data-scribe="element:url"><span>http://www.</span>donthitsave.com/comic/2016/08/<span>02/google-google-google&nbsp;</span>…</a> <a href="https://t.co/FgflCmaW0k" data-expanded-url="http://fb.me/8xQ78eXxT" target="_blank" title="http://fb.me/8xQ78eXxT" data-scribe="element:url"><span>http://</span>fb.me/8xQ78eXxT<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/800023323719725060">Posted on 19 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=800023323719725060" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=800023323719725060" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=800023323719725060" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Oh shit. That function was making the whole app work  <a href="https://t.co/ahYyYTYxjI" data-expanded-url="http://fb.me/8dz08qVRl" target="_blank" title="http://fb.me/8dz08qVRl" data-scribe="element:url"><span>http://</span>fb.me/8dz08qVRl<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/800009401750855680">Posted on 19 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=800009401750855680" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=800009401750855680" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=800009401750855680" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Read about how the spread and rest operators in ES6 syntax of Javascript works... <a href="https://t.co/6IXt74dPz9" data-expanded-url="http://fb.me/2GCQlAz1a" target="_blank" title="http://fb.me/2GCQlAz1a" data-scribe="element:url"><span>http://</span>fb.me/2GCQlAz1a<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/799996171364118528">Posted on 19 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=799996171364118528" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=799996171364118528" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=799996171364118528" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Learn to code your own Neural Network only at Machine Learning Programming Bootcamp ( 4 - 10 December ) at Coding... <a href="https://t.co/atBGcHB06F" data-expanded-url="http://fb.me/3puENuKSK" target="_blank" title="http://fb.me/3puENuKSK" data-scribe="element:url"><span>http://</span>fb.me/3puENuKSK<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/799634477085442048">Posted on 18 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=799634477085442048" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=799634477085442048" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=799634477085442048" class="twitter_fav_icon" target="_blank">Favorite</a></p></li><li><div class="user">
-		<div data-scribe="component:author">
-		  <a data-scribe="element:user_link" href="https://twitter.com/CodingBlocksIN" aria-label="Coding Blocks (screen name: CodingBlocksIN)" target="_blank">
-		    <span>
-		      <img data-scribe="element:avatar" data-src-2x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg" alt="" data-src-1x="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_normal.jpg" src="https://pbs.twimg.com/profile_images/749503540184350720/WUQ7-NHv_bigger.jpg">
-		    </span>
-		    <span title="Coding Blocks" data-scribe="element:name">Coding Blocks</span>
-
-		    <span title="@CodingBlocksIN" data-scribe="element:screen_name">@CodingBlocksIN</span>
-		  </a>
-		</div>
-		</div><p class="tweet">Seats filling up fast for <a href="https://twitter.com/hashtag/MachineLearning?src=hash" data-scribe="element:hashtag" target="_blank"><span>#</span><span>MachineLearning</span></a> Winter Bootcamp by Coding Blocks. Last 5 seats left to avail 50%... <a href="https://t.co/6pHrXDWwKi" data-expanded-url="http://fb.me/1yvnysqB1" target="_blank" title="http://fb.me/1yvnysqB1" data-scribe="element:url"><span>http://</span>fb.me/1yvnysqB1<span>&nbsp;</span></a></p><p class="timePosted"><a href="https://twitter.com/CodingBlocksIN/status/799538284145901568">Posted on 18 Nov</a></p><p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to=799538284145901568" class="twitter_reply_icon" target="_blank">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=799538284145901568" class="twitter_retweet_icon" target="_blank">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id=799538284145901568" class="twitter_fav_icon" target="_blank">Favorite</a></p></li></ul></div>
+							<!-- Jalandhar -->
+							<div class="feature bordered text-center bg-secondary">
+								<h3 class="uppercase mb40 mb-xs-24">Jalandhar</h3>
+								<div class="mb40">
+									<h6 class="mb8 uppercase">Contact</h6>
+									<p>
+										9781800507 | 9781900507<br>
+										0181-5017507 | 5018507<br>
+									</p>
 								</div>
+								<div class="mb40">
+									<h6 class="mb8 uppercase">Reach</h6>
+									<p>
+
+
+										<br>5,6,7<br>Silver Plaza, Sodal Road,<br> Jalandhar</p>
+								</div>
+								<div class="mb40">
+									<h6 class="mb8 uppercase">Courses</h6>
+									<p>
+										Launchpad<br>Crux<br></p>
+								</div>
+								<section class="contact-map">
+									<div class="map-container">
+										<div class="col-md-12 map-box">
+											<div class="map-canvas" data-address="5 & 6, Silver Plaza, Sodal Road, Jalandhar, Punjab 144004"
+												 data-marker-title="Coding Blocks"
+												 data-map-zoom="11" data-maps-api-key="AIzaSyCtSz4b43fPFC1kT90-x52A3ECJfBnHvN8"
+												 data-map-style="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#dd0d0d&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:100},{&quot;visibility&quot;:&quot;simplified&quot;}]}]"></div>
+										</div>
+									</div>
+								</section>
 							</div>
 
+
 						</div>
 
 
 
-					</div>
 
-					<div class="row">
-						<div class="col-sm-6">
-							<span class="sub">© Copyright 2016 - Coding Blocks Pvt. Ltd.</span>
-						</div>
-						<div class="col-sm-6 text-right">
-							<ul class="list-inline social-list">
-								<li>
-									<a href="http://twitter.com/codingblocksIN" target="_self">
-										<i class="ti-twitter-alt"></i>
-									</a>
-								</li>
-								<li>
-									<a href="http://fb.me/codingblocksindia" target="_self">
-										<i class="ti-facebook"></i>
-									</a>
-								</li>
-								<li>
-									<a href="https://www.linkedin.com/company/coding-blocks" target="_self">
-										<i class="fa fa-linkedin"></i>
-									</a>
-								</li>
-								<li>
-									<a href="https://www.youtube.com/channel/UCICWIYEx2mo4wYZzLwJ7wVw" target="_self">
-										<i class="fa fa-youtube-play"></i>
-									</a>
-								</li><li class="vpf">
-									<a href="http://github.com/championswimmer" target="_self">
-										<i class="fa fa-github"></i>
-									</a>
-								</li>
-							</ul>
-						</div>
+
 					</div>
 				</div>
+		</section>
 
-				<a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
-			</footer></div>
+			<div class="footer">
+
+		</div>
 
 
-	<script src="../js/jquery.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
         <script src="../js/twitterfetcher.min.js"></script>
         <script src="../js/smooth-scroll.min.js"></script>
         <script src="../js/parallax.js"></script>

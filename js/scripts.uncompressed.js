@@ -233,86 +233,40 @@ $(document).ready(function() {
         }
     });
 
-    // Twitter Feed
-       $('.tweets-feed').each(function(index) {
-           jQuery(this).attr('id', 'tweets-' + index);
-       }).each(function(index) {
-           var element = $('#tweets-' + index);
-           var TweetConfig = {
-               "domId": '',
-               "maxTweets": element.attr('data-amount'),
-               "enableLinks": true,
-               "showUser": true,
-               "showTime": true,
-               "dateFunction": '',
-               "showRetweet": false,
-               "customCallback": handleTweets
-           };
 
-           if(typeof element.attr('data-widget-id') !== typeof undefined){
-                TweetConfig.id = element.attr('data-widget-id');
-            }else if(typeof element.attr('data-feed-name') !== typeof undefined && element.attr('data-feed-name') !== "" ){
-                TweetConfig.profile = {"screenName": element.attr('data-feed-name').replace('@', '')};
-            }else{
-                TweetConfig.profile = {"screenName": 'twitter'};
-            }
-
-           function handleTweets(tweets) {
-               var x = tweets.length;
-               var n = 0;
-               var element = document.getElementById('tweets-' + index);
-               var html = '<ul class="slides">';
-               while (n < x) {
-                   html += '<li>' + tweets[n] + '</li>';
-                   n++;
-               }
-               html += '</ul>';
-               element.innerHTML = html;
-
-               if ($('.tweets-slider').length) {
-                    $('.tweets-slider').flexslider({
-                        directionNav: false,
-                        controlNav: false
-                    });
-                }
-               return html;
-           }
-           twitterFetcher.fetch(TweetConfig);
-      });
-
-    // Instagram Feed
-
-    if($('.instafeed').length){
-    	jQuery.fn.spectragram.accessData = {
-			accessToken: '1406933036.dc95b96.2ed56eddc62f41cbb22c1573d58625a2',
-			clientID: '87e6d2b8a0ef4c7ab8bc45e80ddd0c6a'
-		};
-
-        $('.instafeed').each(function() {
-            var feedID = $(this).attr('data-user-name');
-            $(this).children('ul').spectragram('getUserFeed', {
-                query: feedID,
-                max: 12
-            });
-        });
-    }
+    // // Instagram Feed
+    //
+    // if($('.instafeed').length){
+    // 	jQuery.fn.spectragram.accessData = {
+		// 	accessToken: '1406933036.dc95b96.2ed56eddc62f41cbb22c1573d58625a2',
+		// 	clientID: '87e6d2b8a0ef4c7ab8bc45e80ddd0c6a'
+		// };
+    //
+    //     $('.instafeed').each(function() {
+    //         var feedID = $(this).attr('data-user-name');
+    //         $(this).children('ul').spectragram('getUserFeed', {
+    //             query: feedID,
+    //             max: 12
+    //         });
+    //     });
+    // }
 
 
 
-    // Flickr Feeds
-
-    if($('.flickr-feed').length){
-        $('.flickr-feed').each(function(){
-            var userID = $(this).attr('data-user-id');
-            var albumID = $(this).attr('data-album-id');
-            $(this).flickrPhotoStream({ id: userID, setId: albumID, container: '<li class="masonry-item" />' });
-            setTimeout(function(){
-                initializeMasonry();
-                window.dispatchEvent(new Event('resize'));
-            }, 1000);
-        });
-
-    }
+    // // Flickr Feeds
+    //
+    // if($('.flickr-feed').length){
+    //     $('.flickr-feed').each(function(){
+    //         var userID = $(this).attr('data-user-id');
+    //         var albumID = $(this).attr('data-album-id');
+    //         $(this).flickrPhotoStream({ id: userID, setId: albumID, container: '<li class="masonry-item" />' });
+    //         setTimeout(function(){
+    //             initializeMasonry();
+    //             window.dispatchEvent(new Event('resize'));
+    //         }, 1000);
+    //     });
+    //
+    // }
 
     // Image Sliders
     if($('.slider-all-controls, .slider-paging-controls, .slider-arrow-controls, .slider-thumb-controls, .logo-carousel').length){

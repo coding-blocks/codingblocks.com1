@@ -1,9 +1,11 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
-.map-container{
-  padding:40px;
-  margin: 30px;
-}
 
 .leaf {
   display: none !important;
 }
+
+.location-cards {
+  font-size-adjust: 0.625;
+}
+.contact-map{height:250px;overflow:hidden;padding:0;}
+.map-box{height: 250px;}
