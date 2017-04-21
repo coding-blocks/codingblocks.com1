@@ -30,3 +30,17 @@
 	font-weight: 100;
 	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.payment-widget {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	min-height: 720px;
+}
+
+@media (max-width: 768px) {
+	.payment-widget {
+		min-height: 1100px;
+	}
+}
+
