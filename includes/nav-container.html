@@ -17,7 +17,7 @@
 						<a href="#">COURSES</a>
 						<ul>
 							<li class="has-dropdown toggle-sub">
-								<a class="title">KIDS</a>
+								<a class="title">JUNIOR</a>
 								<ul>
 									<li>
 										<a href="/courses/code4kids.html">CODE4KIDS</a>
@@ -27,11 +27,10 @@
 								</ul>
 							</li>
 							<li class="has-dropdown toggle-sub vpf">
-								<a class="title">FUNDAMENTALS</a>
+								<a class="title">FOUNDATION</a>
 								<ul>
 									<li>
 										<a href="/courses/launchpad.html">LAUNCHPAD (C++)</a>
-										<a href="/courses/lpvsat.html">LAUNCHPAD LIVE (C++)</a>
 										</li><li class="vpf">
 										<a href="/courses/crux.html">CRUX (JAVA)</a>
 									</li>
@@ -59,12 +58,11 @@
 									</li>
 								</ul>
 							</li>
-
 							<li class="has-dropdown toggle-sub vpf">
-								<a class="title">Interview Prep</a>
+								<a class="title">VSAT</a>
 								<ul>
-									<li class="vpf">
-										<a href="/courses/algo++.html">ALGO++(C++)</a>
+									<li>
+										<a href="/courses/lpvsat.html">LAUNCHPAD LIVE (C++)</a>
 									</li>
 								</ul>
 							</li>
@@ -96,7 +94,6 @@
 							</li>
 						</ul>
 					</li>
-
 					<li class="has-dropdown">
 						<a href="#">CB Edge</a>
 						<ul class="mega-menu">
@@ -156,6 +153,9 @@
 					<li>
 						<a title="Our Locations"href="/contactus">Contact Us</a>
 					</li>
+					<li>
+						<a title="Our Locations"href="http://students.codingblocks.com/login">Sign In</a>
+					</li>
 
 					<a class="btn btn-white btn-filled btn-lg" href="http://hackerblocks.com">Practice</a>
 				</ul>
@@ -168,30 +168,30 @@
 				$(this).toggleClass('active');
 			});
 
-$('.menu li').click(function(e) {
-	if (!e) e = window.event;
-	e.stopPropagation();
-	if ($(this).find('ul').length) {
-		$(this).toggleClass('toggle-sub');
-	} else {
-		$(this).parents('.toggle-sub').removeClass('toggle-sub');
-	}
-});
+			$('.menu li').click(function(e) {
+				if (!e) e = window.event;
+				e.stopPropagation();
+				if ($(this).find('ul').length) {
+					$(this).toggleClass('toggle-sub');
+				} else {
+					$(this).parents('.toggle-sub').removeClass('toggle-sub');
+				}
+			});
 
-$('.menu li a').click(function() {
-	if ($(this).hasClass('inner-link')){
-		$(this).closest('.nav-bar').removeClass('nav-open');
-	}
-});
+			$('.menu li a').click(function() {
+				if ($(this).hasClass('inner-link')){
+					$(this).closest('.nav-bar').removeClass('nav-open');
+				}
+			});
 
-$('.module.widget-handle').click(function() {
-	$(this).toggleClass('toggle-widget-handle');
-});
+			$('.module.widget-handle').click(function() {
+				$(this).toggleClass('toggle-widget-handle');
+			});
 
-$('.search-widget-handle .search-form input').click(function(e){
-	if (!e) e = window.event;
-	e.stopPropagation();
-});
+			$('.search-widget-handle .search-form input').click(function(e){
+				if (!e) e = window.event;
+				e.stopPropagation();
+			});
 		</script>
 	</div>
 </nav>
