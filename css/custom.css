@@ -7,8 +7,11 @@
 .location-cards {
   font-size-adjust: 0.625;
 }
+
+/* MAP [[ */
 .contact-map{height:250px;overflow:hidden;padding:0;}
 .map-box{height: 250px;}
+/* ]] MAP */
 
 /* MENU [[ */
 .menu > li > ul {
@@ -20,3 +23,10 @@
 	margin-top: -8px;
 }
 /* ]] */
+
+.numbers-value {
+	font-size: 72px;
+	line-height: 80px;
+	font-weight: 100;
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
