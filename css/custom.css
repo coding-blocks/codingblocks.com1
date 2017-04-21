@@ -11,8 +11,9 @@
 .map-box{height: 250px;}
 
 /* MENU [[ */
-.menu > li ul {
+.menu > li > ul {
 	margin-top: 4px;
+	padding-top: 15px;
 }
 
 .menu > li ul li ul {
