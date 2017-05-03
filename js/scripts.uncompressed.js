@@ -1431,3 +1431,7 @@ window.google_trackConversion({
 });
 //]]>
 
+function LMSwidgetTrigger () {
+    console.log('Widget Trigger');
+}
+
