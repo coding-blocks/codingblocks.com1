@@ -1431,7 +1431,24 @@ window.google_trackConversion({
 });
 //]]>
 
-function LMSwidgetTrigger () {
-    console.log('Widget Trigger');
-}
+// Events from the iFrame for registration
+window.addEventListener('message', function(data) {
+    switch (data.event) {
+        case 'register': {
+            console.log('LMS register');
+        } break;
+        case 'signup': {
+            console.log('LMS signup');
+            fbq('track', 'CompleteRegistration');
+        } break;
+        case 'submitted': {
+            console.log('LMS submitted');
+
+        } break;
+        case 'bought': {
+            console.log('LMS bought');
+            fbq('track', 'Purchase');
+        } break;
+    }
+});
 
