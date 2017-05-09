@@ -1433,22 +1433,21 @@ window.google_trackConversion({
 
 // Events from the iFrame for registration
 window.addEventListener('message', function(data) {
-    switch (data.event) {
-        case 'register': {
+    switch (data.data.event) {
+        case 'register':
             console.log('LMS register');
-        } break;
-        case 'signup': {
+            break;
+        case 'signup':
             console.log('LMS signup');
             fbq('track', 'CompleteRegistration');
-        } break;
-        case 'submitted': {
+            break;
+        case 'submitted':
             console.log('LMS submitted');
-
-        } break;
-        case 'bought': {
+            break;
+        case 'bought':
             console.log('LMS bought');
             fbq('track', 'Purchase');
-        } break;
+         break;
     }
 });
 
