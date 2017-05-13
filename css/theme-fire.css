@@ -1,4 +1,4 @@
-body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:13px;line-height:24px;font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;color:#666;overflow-x:hidden;}
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:14px;line-height:24px;font-family:"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;color:#333;overflow-x:hidden;}
 body.boxed-layout{background:#eee;}
 body.boxed-layout .main-container{background:#fff;}
 body.boxed-layout,
