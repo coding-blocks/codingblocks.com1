@@ -1,6 +1,26 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Nunito:400,400i,700,700i|Raleway:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Nunito:400,400i,500,700,700i|Raleway:400,400i,500,700,700i');
 
+body {
+	font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+p.lead {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.button-tabs .tab-title span {
+	font-size: 14px;
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.5ch;
+}
+
+.button-tabs.vertical > .content {
+	width: 70%;
+}
 .leaf {
   display: none !important;
 }
