@@ -100,6 +100,219 @@
 			transition: .5s ease;
 			background-color: rgba(256, 256, 256, 0.8);
 		}
+
+		.old{
+			background: #ccc!important;
+		}
+		.event-list {
+			list-style: none;
+			font-family: 'Lato', sans-serif;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.event-list>li {
+			background-color: rgb(255, 255, 255);
+			box-shadow: 0px 0px 5px rgb(51, 51, 51);
+			box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+			padding: 10px!important;
+			height: auto!important;
+			margin: 0px 0px 20px;
+		}
+
+		.event-list>li>time {
+			display: inline-block;
+			width: 100%;
+			color: rgb(255, 255, 255);
+			background-color: #fc4f4f;
+			padding: 5px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		.event-list>li:nth-child(even)>time {
+			background-color: #fc4f4f;
+		}
+
+		.event-list>li>time>span {
+			display: none;
+		}
+
+		.event-list>li>time>.day {
+			display: block;
+			font-size: 56pt;
+			font-weight: 100;
+			line-height: 1;
+		}
+
+		.event-list>li time>.month {
+			display: block;
+			font-size: 24pt;
+			font-weight: 900;
+			line-height: 1;
+		}
+
+		.event-list>li>img {
+			width: 100%;
+		}
+
+		.event-list>li>.info {
+			padding: 0px 10px;
+			text-align: center;
+			background-color: rgba(256, 256, 256, 1)!important;
+		}
+
+		.event-list>li>.info>.title {
+			font-size: 17pt;
+			font-weight: 700;
+			margin: 0px;
+		}
+
+		.event-list>li>.info>.desc {
+			font-size: 13pt;
+			font-weight: 300;
+			margin: 0px;
+		}
+
+		.event-list>li>.info>ul,
+		.event-list>li>.social>ul {
+			display: table;
+			list-style: none;
+			margin: 10px 0px 0px;
+			padding: 0px;
+			width: 100%;
+			text-align: center;
+		}
+
+		.event-list>li>.social>ul {
+			margin: 0px;
+		}
+
+		.event-list>li>.info>ul>li,
+		.event-list>li>.social>ul>li {
+			display: table-cell;
+			cursor: pointer;
+			color: rgb(30, 30, 30);
+			font-size: 11pt;
+			font-weight: 300;
+			padding: 3px 0px;
+		}
+
+		.event-list>li>.info>ul>li>a {
+			display: block;
+			width: 100%;
+			color: rgb(30, 30, 30);
+			text-decoration: none;
+		}
+
+		.event-list>li>.social>ul>li {
+			padding: 0px;
+		}
+
+		.event-list>li>.social>ul>li>a {
+			padding: 3px 0px;
+		}
+
+		.event-list>li>.info>ul>li:hover,
+		.event-list>li>.social>ul>li:hover {
+			color: rgb(30, 30, 30);
+			background-color: rgb(200, 200, 200);
+		}
+
+		.facebook a,
+		.twitter a,
+		.google-plus a {
+			display: block;
+			width: 100%;
+			color: rgb(75, 110, 168) !important;
+		}
+
+		.twitter a {
+			color: rgb(79, 213, 248) !important;
+		}
+
+		.google-plus a {
+			color: rgb(221, 75, 57) !important;
+		}
+
+		.facebook:hover a {
+			color: rgb(255, 255, 255) !important;
+			background-color: rgb(75, 110, 168) !important;
+		}
+
+		.twitter:hover a {
+			color: rgb(255, 255, 255) !important;
+			background-color: rgb(79, 213, 248) !important;
+		}
+
+		.google-plus:hover a {
+			color: rgb(255, 255, 255) !important;
+			background-color: rgb(221, 75, 57) !important;
+		}
+
+		@media (min-width: 768px) {
+			.event-list>li {
+				position: relative;
+				display: block;
+				width: 100%;
+				height: 120px;
+				padding: 0px;
+			}
+			.event-list>li>time,
+			.event-list>li>img {
+				display: inline-block;
+			}
+			.event-list>li>time,
+			.event-list>li>img {
+				width: 120px;
+				float: left;
+			}
+			.event-list>li>.info {
+				background-color: rgb(245, 245, 245);
+				overflow: hidden;
+			}
+			.event-list>li>time,
+			.event-list>li>img {
+				width: 120px;
+				height: 120px;
+				padding: 0px;
+				margin: 0px;
+			}
+			.event-list>li>.info {
+				position: relative;
+				height: 120px;
+				text-align: left;
+				padding-right: 40px;
+			}
+			.event-list>li>.info>.title,
+			.event-list>li>.info>.desc {
+				padding: 0px 10px;
+			}
+			.event-list>li>.info>ul {
+				position: absolute;
+				left: 0px;
+				bottom: 0px;
+			}
+			.event-list>li>.social {
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				display: block;
+				width: 40px;
+			}
+			.event-list>li>.social>ul {
+				border-left: 1px solid rgb(230, 230, 230);
+			}
+			.event-list>li>.social>ul>li {
+				display: block;
+				padding: 0px;
+			}
+			.event-list>li>.social>ul>li>a {
+				display: block;
+				width: 40px;
+				padding: 10px 0px 9px;
+			}
+		}
 	</style>
 
 	<script src="/js/jquery.min.js"></script>
@@ -121,104 +334,68 @@
 		<section>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 text-center">
-						<h3 class="uppercase mb16">EVENTS</h3>
-						<!--<p class="lead mb64">
-								Courses for all stages, with equal focus on theory and implementation
-							</p>-->
-					</div>
-				</div>
-
-				<div class="row">
-
-					<div class="col-lg-4 no-pad">
-						<div class="pricing-table pt-2 text-center boxed" style="padding:40px 20px;">
-							<img alt="C++ course logo" class="course eventlogo" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/18581572_1896695767215424_863391401195014128_n.jpg?oh=961dba0ef0d49d595fa543c208cb7101&oe=59A68489">
-							<h4 class="uppercase bold">Dynamic Programming Webinar</h4>
-							<p class="lead">MAY 27</p>
-							<a class="btn btn-white btn-filled btn-lg" href="https://www.facebook.com/events/259546851118557/">See Details</a>
-							<ul>
-								<li style="line-height:30px;">
-									Inviting all coders for a free webinar on introduction to Dynamic Programming and Its Applications to be taken by Prateek Bhayia from Coding Blocks. The webinar will cover some of the interesting and challenging questions as well. The webinar is free
-									for all those who register. </li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-4 no-pad">
-						<div class="pricing-table pt-2 text-center" style="padding:40px 20px;">
-							<img alt="C++ course logo" class="course eventlogo" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/18556333_1896604110557923_199183566741658288_n.jpg?oh=d3538ec834e90cc1659cec0b83115dd8&oe=59B6AC18">
-							<h4 class="uppercase bold">Coders' Admission & Scholarship Test</h4>
-							<p class="lead">MAY 30</p>
-							<a class="btn btn-white btn-filled btn-lg" href="https://www.facebook.com/events/1490469230997871/">See Details</a>
-							<ul>
-								<li style="line-height:30px;">
-									Coding Blocks is pleased to announce the Coders' Admission & Scholarship Test (CAST) for our Gretaer Noida Center. Scholarships of up to 75% off the total price are up for grabs for our foundation courses. CAST will be an online aptitude test to check
-									your logical ability.</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-4 no-pad">
-						<div class="pricing-table pt-2 text-center boxed" style="padding:40px 20px;">
-							<img alt="C++ course logo" class="course" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/18010116_1882476711970663_3462392790741446665_n.jpg?oh=09626f35cf293b89633870856554573e&oe=59C25B4B">
-							<h4 class="uppercase bold">Competitive Programming Summer Bootcamp</h4>
-							<p class="lead">JUN 1</p>
-							<a class="btn btn-white btn-filled btn-lg" href="https://www.facebook.com/events/">See Details</a>
-							<ul>
-								<li style="line-height:30px;">
-									Hone your CP skills by attending 1-week Competitive Programming Bootcamp. Learn new concepts by solving over 150 complex problems of varying difficulty level and brighten up you chances of getting selected in APAC and ACM-ICPC.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 no-pad">
-						<div class="pricing-table pt-2 text-center" style="padding:40px 20px;">
-							<img alt="C++ course logo" class="course" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/18199360_1888861147998886_5307169787776343524_n.jpg?oh=4b466b6d6e0ed858e9d89e69db2d3af8&oe=59AD4DE7">
-							<h4 class="uppercase bold">Perceptron - Machine Learning Bootcamp</h4>
-							<p class="lead">JUN 4</p>
-							<a class="btn btn-white btn-filled btn-lg" href="https://www.facebook.com/events/387648074968504/">See Details</a>
-							<ul>
-								<li style="line-height:30px;">
-									Coding Blocks is pleased to announce - Perceptron - Machine Learning Course and Bootcamp for Summers. This will be hands on course on Machine Learning, you will learn to implement algorithms from scratch in Python and build your own cool projects.</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-4 no-pad">
-						<div class="pricing-table pt-2 text-center boxed" style="padding:40px 20px;">
-							<img alt="C++ course logo" class="course" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/17796850_1875309089354092_3834854144484622142_n.jpg?oh=b0ba1539d0aff0974b132671db212986&oe=59B4A6E4">
-							<h4 class="uppercase bold">Summer with Algorithms</h4>
-							<p class="lead">JUN 10</p>
-							<a class="btn btn-white btn-filled btn-lg" href="https://www.facebook.com/events/739154826243800/">See Details</a>
-							<ul>
-								<li style="line-height:30px;">
-									Introducing our newest course on Algorithms and Data Structures(in C++) starting this summer. The course is for all those who are looking forward to sit for internships and placements in August. The course will involve questions based on Sorting, Searching,
-									Greedy Algorithms, Divide and Conquer and much more.</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-4 no-pad">
-						<div class="pricing-table pt-2 text-center oldevent" style="padding:40px 20px;">
-							<img alt="C++ course logo" class="course" src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/18157372_1886508048234196_1001625968942495630_n.jpg?oh=1a07e47e7c1b9e9a8049e609790998a1&oe=59BC566F">
-							<h4 class="uppercase bold">Google I/O Extended</h4>
-							<p class="lead">MAY 17</p>
-							<a class="btn btn-white btn-filled btn-lg" href="https://www.facebook.com/events/289979278095123/">See Details</a>
-							<ul>
-								<li style="line-height:30px;">
-									Coding Blocks is pleased to host Google I/0 Extended 2017, and we are inviting student and developer community for this a night filled with amazing experiences.</li>
-							</ul>
-							<div class="oldoverlay" style="padding:40px 20px;top:0%;">
-								<div class="uppercase bold oldtext">Past Event</h4>
+					<div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
+						<center>
+							<h3 class="uppercase">Upcoming Events</h3></center>
+						<ul class="event-list">
+							<li>
+								<time datetime="2017-05-27">
+					<span class="day">27</span>
+					<span class="month">May</span>
+					<span class="year">2017</span>
+					<span class="time">ALL DAY</span>
+				</time>
+								<div class="info">
+									<h2 class="title"><a href="https://www.facebook.com/events/259546851118557/" style="color:inherit!important;">Dynamic Programming Webinar</a></h2>
+									<p class="desc">Inviting all coders for a free webinar on introduction to Dynamic Programming and Its Applications to be taken by Prateek Bhayia from Coding Blocks.</p>
 								</div>
-							</div>
+							</li>
 
-						</div>
+							<li>
+								<time datetime="2014-05-30 2000">
+					<span class="day">30</span>
+					<span class="month">May</span>
+					<span class="year">2017</span>
+					<span class="time">08:00 PM</span>
+				</time>
+								<div class="info">
+									<h2 class="title"><a href="https://www.facebook.com/events/1490469230997871/" style="color:inherit!important;">Coders' Admission & Scholarship Test</a></h2>
+									<p class="desc">Coding Blocks is pleased to announce the Coders' Admission & Scholarship Test (CAST) for our Gretaer Noida Center. Scholarships of up to 75% off the total price are up for grabs for our foundation courses.</p>
+								</div>
+							</li>
+
+							<li>
+								<time datetime="2014-07-1">
+					<span class="day">1</span>
+					<span class="month">Jun</span>
+					<span class="year">2017</span>
+				</time>
+
+								<div class="info">
+									<h2 class="title"><a href="https://www.facebook.com/events/1523360774350225/" style="color:inherit!important;">Competitive Programming Summer Bootcamp</a></h2>
+									<p class="desc">Hone your CP skills by attending 1-week Competitive Programming Bootcamp. Learn new concepts by solving over 150 complex problems of varying difficulty level and brighten up you chances of getting selected in APAC and ACM-ICPC.</p>
+								</div>
+							</li>
+
+							<li>
+								<time datetime="2017-05-17" class="old">
+					<span class="day">17</span>
+					<span class="month">May</span>
+					<span class="year">2017</span>
+					<span class="time">ALL DAY</span>
+				</time>
+								<div class="info">
+									<h2 class="title"><a href="https://www.facebook.com/events/289979278095123/" style="color:inherit!important;">Google I/O Extended</a></h2>
+									<p class="desc">Coding Blocks is pleased to host Google I/0 Extended 2017, and we are inviting student and developer community for this a night filled with amazing experiences.</p>
+									<ul>
+								</div>
+							</li>
+						</ul>
 
 					</div>
 				</div>
+			</div>
+
 		</section>
 
 		<!-- SECTION : Map-->
@@ -251,14 +428,14 @@
 
 		</div>
 
-		</div>
+	</div>
 
-		<script src="js/twitterfetcher.min.js"></script>
-		<script src="js/flexslider.min.js"></script>
-		<script src="js/smooth-scroll.min.js"></script>
-		<script async defer src="js/parallax.js"></script>
-		<script src="js/scripts.js"></script>
-		<script src="js/componentloader.js"></script>
+	<script src="js/twitterfetcher.min.js"></script>
+	<script src="js/flexslider.min.js"></script>
+	<script src="js/smooth-scroll.min.js"></script>
+	<script async defer src="js/parallax.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/componentloader.js"></script>
 
 </body>
 
