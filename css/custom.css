@@ -65,3 +65,77 @@ p.lead {
 	}
 }
 
+/* [[Index Pricing Table]] */
+.pricing-card {
+}
+
+.pricing-card-inverse {
+	background-color: rgb(248, 248, 248);
+}
+
+.pricing-table .course.logo {
+	height: 50%;
+	margin-bottom: 1rem;
+}
+/* ]] */
+
+/* [[Team Section]] */
+.team .img-holder {
+	background: transparent;
+  margin-bottom: 1.5rem;
+}
+
+.team .img-holder img {
+	width: 80%;
+	opacity: 1;
+	filter: none !important;
+}
+
+.flip-card {
+	text-align: justify;
+	padding: 1rem;
+	height: 35rem;
+	box-shadow: 1px;
+}
+
+.flip-card .front {
+	text-align: center;
+}
+/* ]] */
+
+.user-story {
+	min-height: 50rem;
+}
+
+/* [[Nav Bar]] */
+.nav-bar .menu > .has-dropdown > ul > li:first-child {
+  margin-top: -7px;
+}
+/* ]] */
+
+/* [[Contact Us]] */
+.feature {
+	text-align: left;
+}
+
+.feature h3 {
+	padding-left: 0;
+}
+
+.location-address {
+	margin-bottom: 1.5rem;
+}
+
+.location-contact h4 {
+	margin-bottom: 1rem;
+}
+
+.location-phone {
+	margin: 0;
+}
+
+.main-contact-block h4 {
+	margin: 0;
+	padding: 0;
+}
+/* ]] */
