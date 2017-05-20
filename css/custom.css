@@ -65,8 +65,7 @@ p.lead {
 	}
 }
 
-/* Index Pricing Table */
-/* [[ */
+/* [[Index Pricing Table]] */
 .pricing-card {
 }
 
@@ -77,5 +76,29 @@ p.lead {
 .pricing-table .course.logo {
 	height: 50%;
 	margin-bottom: 1rem;
+}
+/* ]] */
+
+/* [[Team Section]] */
+.team .img-holder {
+	background: transparent;
+  margin-bottom: 1.5rem;
+}
+
+.team .img-holder img {
+	width: 80%;
+	opacity: 1;
+	filter: none !important;
+}
+
+.flip-card {
+	text-align: justify;
+	padding: 1rem;
+	height: 35rem;
+	box-shadow: 1px;
+}
+
+.flip-card .front {
+	text-align: center;
 }
 /* ]] */
