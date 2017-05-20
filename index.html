@@ -53,6 +53,23 @@
 				max-width: 100%;
 				max-height: 100%;
 			}
+			.vcenter{
+				top: 70%;
+				transform: translateY(-70%);
+			}
+			@media screen and (max-width: 767px) {
+				.slogo{
+					display: none;
+				}
+				.ylogo{
+					display: block;
+				}
+			}
+			@media screen and (min-width: 767px) {
+				.ylogo{
+					display: none;
+				}
+			}
 		</style>
 
 		<script src="/js/jquery.min.js"></script>
@@ -671,7 +688,7 @@
 										<p><!-- To give line break in mobile view--></p>
                     					<h3 class="uppercase mb16">ONLINE COURSES </h3>
                     					<p class="lead mb64">
-											Launchpad online course on Data Structures & Algorithms starting from June 5.
+											Launchpad online course on Data Structures &amp; Algorithms starting from June 5.
 											Enroll before 1st June and get 50% OFF on course fee.
 										</p>
                         					<a class="btn btn-white btn-filled btn-lg" href="/courses/lpvsat.html">Know More</a>
@@ -679,6 +696,7 @@
 				                </div>
             				</div>
         			</div>
+
 
 
 
