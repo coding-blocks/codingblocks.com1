@@ -106,3 +106,9 @@ p.lead {
 .user-story {
 	min-height: 50rem;
 }
+
+/* [[Nav Bar]] */
+.nav-bar .menu > .has-dropdown > ul > li:first-child {
+  margin-top: -7px;
+}
+/* ]] */
