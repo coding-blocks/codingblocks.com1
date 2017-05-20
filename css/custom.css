@@ -112,3 +112,30 @@ p.lead {
   margin-top: -7px;
 }
 /* ]] */
+
+/* [[Contact Us]] */
+.feature {
+	text-align: left;
+}
+
+.feature h3 {
+	padding-left: 0;
+}
+
+.location-address {
+	margin-bottom: 1.5rem;
+}
+
+.location-contact h4 {
+	margin-bottom: 1rem;
+}
+
+.location-phone {
+	margin: 0;
+}
+
+.main-contact-block h4 {
+	margin: 0;
+	padding: 0;
+}
+/* ]] */
