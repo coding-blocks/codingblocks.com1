@@ -57,6 +57,19 @@
 				top: 70%;
 				transform: translateY(-70%);
 			}
+			@media screen and (max-width: 767px) {
+				.slogo{
+					display: none;
+				}
+				.ylogo{
+					display: block;
+				}
+			}
+			@media screen and (min-width: 767px) {
+				.ylogo{
+					display: none;
+				}
+			}
 		</style>
 
 		<script src="/js/jquery.min.js"></script>
@@ -648,6 +661,7 @@
 						<div class="col-sm-12 text-center" style="height:350px;">
 							<br><br><br><br>
 							<div class="col-sm-8 text-center vcenter">
+								<img alt="COURSES FOR KIDS" class="logo ylogo" style="margin-top:90px;" src="img/cb/courses4kids.jpg">
 							<h3 class="uppercase mb16">COURSES FOR KIDS</h3>
 							<p class="lead mb64">
 								Exciting courses for schools kids starting this Summers ( June 17 )
@@ -656,13 +670,14 @@
 								<a class="btn btn-white btn-filled btn-lg" href="/courses/code4kids.html">Know More</a>
 							</p>
 						</div>
-						<div class="col-sm-4">
-							<img alt="COURSES FOR KIDS" class="logo" src="img/cb/courses4kids.jpg">
+						<div class="col-sm-4 slogo">
+							<img alt="COURSES FOR KIDS" class="logo slogo" src="img/cb/courses4kids.jpg">
 						</div>
 						</div>
 					</div>
 				</div>
 
+				<div class="ylogo mb80"></div>
 
 				<div class="container">
 					<div class="row">
@@ -682,9 +697,7 @@
 						</div>
 					</div>
 				</div>
-
-
-
+				<div class="ylogo mb80"></div>
 			</section>
 
 			<!-- SECTION: Team -->
