@@ -102,3 +102,7 @@ p.lead {
 	text-align: center;
 }
 /* ]] */
+
+.user-story {
+	min-height: 50rem;
+}
