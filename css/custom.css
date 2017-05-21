@@ -29,6 +29,13 @@ p.lead {
   font-size-adjust: 0.625;
 }
 
+/* Prices */
+.old-price {
+	font-size: 2rem;
+	text-decoration-line: line-through;
+	text-decoration-style: double;
+}
+
 /* MAP [[ */
 .contact-map{height:250px;overflow:hidden;padding:0;}
 .map-box{height: 250px;}
