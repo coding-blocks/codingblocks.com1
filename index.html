@@ -75,6 +75,7 @@
 
 		<script src="/js/jquery.min.js"></script>
 		<script src="/js/jquery.flip.min.js"></script>
+		<script src="/js/jquery.waypoints.min.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/fbpixel.js"></script>
 
@@ -1382,8 +1383,13 @@
 				$('.flip-card').flip({
 					axis: 'y',
 					trigger: 'hover'
+				}).waypoint(function (direction) {
+					$(this.element).flip(direction == 'down');
+                }, {
+				    offset: '40%'
 				})
 			})
+
 		</script>
 
 		<div class="phone-button">
