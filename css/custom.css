@@ -80,6 +80,11 @@ p.lead {
 /* ]] */
 
 /* [[Team Section]] */
+.team {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .team .img-holder {
 	background: transparent;
 	margin-bottom: 1.5rem;
