@@ -130,6 +130,11 @@ p.lead {
 	padding-top: 5px;
 }
 
+.team-xs {
+	background: no-repeat center/100% url('/img/cb/team/team-banner.jpg');
+	min-height: 250px;
+}
+
 @media (max-width: 800px) {
 	.flip-card {
 		margin-top: 5rem;
@@ -245,6 +250,10 @@ footer .container .row > * {
 /* ]] */
 
 /* [[Number Speak Louder]] */
+.numbers-box .feature {
+	text-align: center;
+}
+
 .numbers-box h5 {
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -253,4 +262,10 @@ footer .container .row > * {
 .numbers-box .numbers-value {
 	padding-bottom: 2rem;
 }
+
 /* ]] */
+
+.btn-banner {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
