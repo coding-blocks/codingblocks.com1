@@ -66,6 +66,10 @@ p.lead {
 	min-height: 720px;
 }
 
+.payment-widget.compact {
+	min-height: 1100px;
+}
+
 @media (max-width: 768px) {
 	.payment-widget {
 		min-height: 1100px;
