@@ -241,6 +241,7 @@ footer .container .row > * {
 	left: 1rem;
 	bottom: 1rem;
 	z-index: 999;
+	display: none;
 }
 /* ]] */
 
