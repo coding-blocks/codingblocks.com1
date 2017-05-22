@@ -82,7 +82,8 @@ p.lead {
 /* [[Team Section]] */
 .team .img-holder {
 	background: transparent;
-  margin-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
 }
 
 .team .img-holder img {
@@ -96,10 +97,32 @@ p.lead {
 	padding: 1rem;
 	height: 35rem;
 	box-shadow: 1px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .flip-card .front {
 	text-align: center;
+}
+
+.flip-card .back .img-holder {
+	float: right;
+	clear: right;
+	height: 50px;
+	width: 50px;
+	margin-top: 0;
+	padding-top: 5px;
+}
+
+@media (max-width: 800px) {
+	.flip-card {
+		margin-bottom: 1rem;
+	}
+
+	.flip-card .back {
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
+	}
 }
 /* ]] */
 
