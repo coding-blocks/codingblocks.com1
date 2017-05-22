@@ -167,3 +167,53 @@ p.lead {
 	padding: 0;
 }
 /* ]] */
+
+/* [[Footer]] */
+.footer .footer-1 {
+	padding-top: 5rem;
+}
+
+footer .container .row > * {
+	margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+	.footer .footer-1 {
+		padding-top: 1rem;
+	}
+
+	.footer img.logo {
+		max-height: 6rem;
+		text-align: center;
+	}
+}
+/* ]] */
+
+/* [[User Story]] */
+.phone-button {
+	background-color: transparent;
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	text-align: center;
+	position: fixed;
+	right: 1.2rem;
+	bottom: 8rem;
+	z-index: 999;
+	display: none;
+}
+
+.phone-button i {
+	border-radius: 50%;
+	padding: 1.1rem 1.5rem;
+	background-color: #fc4f4f;
+	box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.2);
+	color: #454C53;
+}
+
+@media (max-width: 768px) {
+	.phone-button {
+		display: block;
+	}
+}
+/* ]] */
