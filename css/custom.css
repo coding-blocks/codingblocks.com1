@@ -217,3 +217,14 @@ footer .container .row > * {
 	}
 }
 /* ]] */
+
+/* [[Number Speak Louder]] */
+.numbers-box h5 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.numbers-box .numbers-value {
+	padding-bottom: 2rem;
+}
+/* ]] */
