@@ -270,3 +270,11 @@ footer .container .row > * {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
+
+ol.syllabus {
+	margin-left: 1.9rem;
+}
+
+.pt-4 {
+	padding-top: 4rem;
+}
