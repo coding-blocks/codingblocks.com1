@@ -88,19 +88,17 @@
         }
 
         .hover-light {
-            box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .05);
+            -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+            -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
             transition: all 300ms linear
         }
 
         .hover-light:hover {
-            box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .4);
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
             transition: all 300ms linear
-        }
-
-        .flipBorder {
-            border: 2px dashed #ccc;
-            padding-left: -15px;
-            padding-right: -15px;
         }
 
         .highlight {
@@ -121,6 +119,7 @@
         .Review-star {
             color: #B6C2CC;
             font-size: 18px;
+            margin-bottom: 5px;
         }
 
         .Review-star--active {
@@ -136,7 +135,25 @@
             transform: scale(0);
             -webkit-transition: all 350ms ease;
             transition: all 350ms ease;
+            padding: 5px 5px !important;
+            height: 350px;
+            background: none !important;
         }
+
+        .front {
+            border: none !important;
+            padding-right: 10px !important;
+            background: #fff;
+        }
+
+        .front:hover {
+            background: none !important;
+        }
+
+        .flipBorder {
+            height: 340px;
+        }
+
         .scale-anm {
             transform: scale(1);
         }
@@ -160,6 +177,11 @@
     <a id="home_team" class="in-page-link"></a>
     <section style="margin-bottom: 80px;">
         <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h3 class="mb64 uppercase">&nbsp; &nbsp;Students &nbsp; &nbsp; &nbsp;<i class="ti-heart"></i> &nbsp; &nbsp;Coding Blocks</h3>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-sm-12 text-center">
                 <h4 class="uppercase mb16">Reviews</h4>
                 <br><br>
@@ -167,6 +189,8 @@
                 <button class="btn fil-cat btn-md btn-filled" href="" data-rel="launchpad">Launchpad</button>
                 <button class="btn fil-cat btn-md btn-filled" href="" data-rel="crux">Crux</button>
                 <button class="btn fil-cat btn-md btn-filled" href="" data-rel="elixir">Elixir</button>
+                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="pandora">Pandora</button>
+                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="perception">Perception</button>
                 <br><br>
             </div>
         </div>
@@ -175,14 +199,13 @@
 
                 <div class="team row text-center" id="row1">
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
-                         style=" background: #fff;">
-                        <div class="front">
-                            <div class="img-holder">
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
+                        <div class="front hover-light all launchpad">
+                            <div class="img-holder all launchpad">
                                 <img alt="" src="img/johndoe.jpg">
                             </div>
 
-                            <div class="title mb16">
+                            <div class="title mb16 all launchpad">
                                 <h5 class="uppercase mb0 bold">John Doe<br></h5>
                                 <span>Launchpad</span><br>
                                 <span class="Review-star Review-star--active">&#9733;</span>
@@ -192,10 +215,10 @@
                                 <span class="Review-star">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder">
-                            <div class="back hover-light" style="background: #fff;padding: 5px;">
-                                <div class="title mb16">
-                                    <div class="img-holder">
+                        <div class="flipBorder hover-light all launchpad">
+                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
+                                <div class="title mb16 all launchpad">
+                                    <div class="img-holder all launchpad">
                                         <img alt="" src="img/johndoe.jpg">
                                     </div>
                                     <h5 class="uppercase mb0 bold">John Doe<br></h5>
@@ -215,14 +238,13 @@
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
-                         style=" background: #fff;">
-                        <div class="front">
-                            <div class="img-holder">
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
+                        <div class="front hover-light all launchpad">
+                            <div class="img-holder all launchpad">
                                 <img alt="" src="img/johndoe.jpg">
                             </div>
 
-                            <div class="title mb16">
+                            <div class="title mb16 all launchpad">
                                 <h5 class="uppercase mb0 bold">John Doe<br></h5>
                                 <span>Launchpad</span><br>
                                 <span class="Review-star Review-star--active">&#9733;</span>
@@ -232,10 +254,10 @@
                                 <span class="Review-star">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder">
-                            <div class="back hover-light" style="background: #fff;padding: 5px;">
-                                <div class="title mb16">
-                                    <div class="img-holder">
+                        <div class="flipBorder hover-light all launchpad">
+                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
+                                <div class="title mb16 all launchpad">
+                                    <div class="img-holder all launchpad">
                                         <img alt="" src="img/johndoe.jpg">
                                     </div>
                                     <h5 class="uppercase mb0 bold">John Doe<br></h5>
@@ -255,14 +277,13 @@
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
-                         style=" background: #fff;">
-                        <div class="front">
-                            <div class="img-holder">
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
+                        <div class="front hover-light all launchpad">
+                            <div class="img-holder all launchpad">
                                 <img alt="" src="img/johndoe.jpg">
                             </div>
 
-                            <div class="title mb16">
+                            <div class="title mb16 all launchpad">
                                 <h5 class="uppercase mb0 bold">John Doe<br></h5>
                                 <span>Launchpad</span><br>
                                 <span class="Review-star Review-star--active">&#9733;</span>
@@ -272,10 +293,10 @@
                                 <span class="Review-star">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder">
-                            <div class="back hover-light" style="background: #fff;padding: 5px;">
-                                <div class="title mb16">
-                                    <div class="img-holder">
+                        <div class="flipBorder hover-light all launchpad">
+                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
+                                <div class="title mb16 all launchpad">
+                                    <div class="img-holder all launchpad">
                                         <img alt="" src="img/johndoe.jpg">
                                     </div>
                                     <h5 class="uppercase mb0 bold">John Doe<br></h5>
@@ -295,14 +316,13 @@
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
-                         style=" background: #fff;">
-                        <div class="front">
-                            <div class="img-holder">
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
+                        <div class="front hover-light all launchpad">
+                            <div class="img-holder all launchpad">
                                 <img alt="" src="img/johndoe.jpg">
                             </div>
 
-                            <div class="title mb16">
+                            <div class="title mb16 all launchpad">
                                 <h5 class="uppercase mb0 bold">John Doe<br></h5>
                                 <span>Launchpad</span><br>
                                 <span class="Review-star Review-star--active">&#9733;</span>
@@ -312,53 +332,10 @@
                                 <span class="Review-star">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder">
-                            <div class="back hover-light" style="background: #fff;padding: 5px;">
-                                <div class="title mb16">
-                                    <div class="img-holder">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team row text-center" id="row2">
-
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
-                         style=" background: #fff;">
-                        <div class="front">
-                            <div class="img-holder">
-                                <img alt="" src="img/johndoe.jpg">
-                            </div>
-
-                            <div class="title mb16">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder">
-                            <div class="back hover-light" style="background: #fff;padding: 5px;">
-                                <div class="title mb16">
-                                    <div class="img-holder">
+                        <div class="flipBorder hover-light all launchpad">
+                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
+                                <div class="title mb16 all launchpad">
+                                    <div class="img-holder all launchpad">
                                         <img alt="" src="img/johndoe.jpg">
                                     </div>
                                     <h5 class="uppercase mb0 bold">John Doe<br></h5>
@@ -378,14 +355,13 @@
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
-                         style=" background: #fff;">
-                        <div class="front">
-                            <div class="img-holder">
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
+                        <div class="front hover-light all launchpad">
+                            <div class="img-holder all launchpad">
                                 <img alt="" src="img/johndoe.jpg">
                             </div>
 
-                            <div class="title mb16">
+                            <div class="title mb16 all launchpad">
                                 <h5 class="uppercase mb0 bold">John Doe<br></h5>
                                 <span>Launchpad</span><br>
                                 <span class="Review-star Review-star--active">&#9733;</span>
@@ -395,10 +371,10 @@
                                 <span class="Review-star">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder">
-                            <div class="back hover-light" style="background: #fff;padding: 5px;">
-                                <div class="title mb16">
-                                    <div class="img-holder">
+                        <div class="flipBorder hover-light all launchpad">
+                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
+                                <div class="title mb16 all launchpad">
+                                    <div class="img-holder all launchpad">
                                         <img alt="" src="img/johndoe.jpg">
                                     </div>
                                     <h5 class="uppercase mb0 bold">John Doe<br></h5>
@@ -418,14 +394,13 @@
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
-                         style=" background: #fff;">
-                        <div class="front">
-                            <div class="img-holder">
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
+                        <div class="front hover-light all launchpad">
+                            <div class="img-holder all launchpad">
                                 <img alt="" src="img/johndoe.jpg">
                             </div>
 
-                            <div class="title mb16">
+                            <div class="title mb16 all launchpad">
                                 <h5 class="uppercase mb0 bold">John Doe<br></h5>
                                 <span>Launchpad</span><br>
                                 <span class="Review-star Review-star--active">&#9733;</span>
@@ -435,10 +410,10 @@
                                 <span class="Review-star">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder">
-                            <div class="back hover-light" style="background: #fff;padding: 5px;">
-                                <div class="title mb16">
-                                    <div class="img-holder">
+                        <div class="flipBorder hover-light all launchpad">
+                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
+                                <div class="title mb16 all launchpad">
+                                    <div class="img-holder all launchpad">
                                         <img alt="" src="img/johndoe.jpg">
                                     </div>
                                     <h5 class="uppercase mb0 bold">John Doe<br></h5>
@@ -458,14 +433,13 @@
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad"
-                         style=" background: #fff;">
-                        <div class="front">
-                            <div class="img-holder">
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
+                        <div class="front hover-light all launchpad">
+                            <div class="img-holder all launchpad">
                                 <img alt="" src="img/johndoe.jpg">
                             </div>
 
-                            <div class="title mb16">
+                            <div class="title mb16 all launchpad">
                                 <h5 class="uppercase mb0 bold">John Doe<br></h5>
                                 <span>Launchpad</span><br>
                                 <span class="Review-star Review-star--active">&#9733;</span>
@@ -475,10 +449,10 @@
                                 <span class="Review-star">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder">
-                            <div class="back hover-light" style="background: #fff;padding: 5px;">
-                                <div class="title mb16">
-                                    <div class="img-holder">
+                        <div class="flipBorder hover-light all launchpad">
+                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
+                                <div class="title mb16 all launchpad">
+                                    <div class="img-holder all launchpad">
                                         <img alt="" src="img/johndoe.jpg">
                                     </div>
                                     <h5 class="uppercase mb0 bold">John Doe<br></h5>
@@ -497,9 +471,48 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
+                        <div class="front hover-light all launchpad">
+                            <div class="img-holder all launchpad">
+                                <img alt="" src="img/johndoe.jpg">
+                            </div>
+
+                            <div class="title mb16 all launchpad">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span>Launchpad</span><br>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="flipBorder hover-light all launchpad">
+                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
+                                <div class="title mb16 all launchpad">
+                                    <div class="img-holder all launchpad">
+                                        <img alt="" src="img/johndoe.jpg">
+                                    </div>
+                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span></div>
+                                <p class="mb0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-
         </div>
 </div>
 </section>
@@ -520,7 +533,7 @@
     $(function () {
         $('.flip-card').flip({
             axis: 'y',
-            trigger: 'hover'
+            trigger: 'hover',
         }).waypoint(function (direction) {
             $(this.element).flip(direction == 'down');
         }, {
@@ -538,13 +551,7 @@
             $("#row1 div").not("." + selectedClass).fadeOut().removeClass('scale-anm');
             setTimeout(function () {
                 $("." + selectedClass).fadeIn().addClass('scale-anm');
-                $("#highlightReview").fadeTo(300, 1);
-            }, 300);
-            $("#row2").fadeTo(100, 0.1);
-            $("#row2 div").not("." + selectedClass).fadeOut().removeClass('scale-anm');
-            setTimeout(function () {
-                $("." + selectedClass).fadeIn().addClass('scale-anm');
-                $("#row2").fadeTo(300, 1);
+                $("#row1").fadeTo(300, 1);
             }, 300);
         });
     });
