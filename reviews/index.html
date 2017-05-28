@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Reviews | Coding Blocks</title>
+    <meta name="description" content="Find upcoming and past events by codingblocks."/>
+    <meta name="keywords"
+          content="java lectures, coding lectures, programming classes, coding institute delhi, java training delhi, learn c++, learn nodejs, coding blocks, become ninja developer"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="../css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" media="all">-->
+    <!--<link href="../css/et-line-icons.css" rel="stylesheet" type="text/css" media="all">-->
+    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../css/themify-icons.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/flexslider.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/theme-fire.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+
+
+    <!-- Icons and manifest -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#fc4f4f">
+    <meta name="msapplication-TileImage" content="../icons/ms-icon-144x144.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#fc4f4f">
+    <script src="../js/jquery.min.js"></script>
+    <style>
+        .flex-container {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            justify-content: center;
+            -webkit-justify-content: center;
+        }
+
+        .flex-item {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .no-pad {
+            padding: 0px 0px !important;
+        }
+
+        .colw90 {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .team {
+            margin-bottom: 20px;
+        }
+
+        .hovercard:hover {
+            box-shadow: 0 1px 5px 5px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .5);
+            transition: all 300ms linear
+        }
+
+        .hovercard {
+            box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+            transition: all 300ms linear
+        }
+
+        .hovercard-light:hover {
+            box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .05);
+            transition: all 300ms linear
+        }
+
+        .hovercard-light {
+            transition: all 300ms linear
+        }
+
+        .hover-light {
+            box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .05);
+            transition: all 300ms linear
+        }
+
+        .hover-light:hover {
+            box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .4);
+            transition: all 300ms linear
+        }
+
+        .flipBorder {
+            border: 2px dashed #ccc;
+            padding-left: -15px;
+            padding-right: -15px;
+        }
+
+        .highlight {
+            background: url("//v.fastcdn.co/u/e4110b44/16489001-0-programming-wallpape.jpg");
+            background-repeat: repeat;
+            background-position: top left;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        }
+
+        .highlightOverlay {
+            background-color: #2b2c33;
+            opacity: 0.80722891566265;
+        }
+
+        .Review-star {
+            color: #B6C2CC;
+            font-size: 18px;
+        }
+
+        .Review-star--active {
+            color: #FF7867;
+            font-size: 18px;
+        }
+
+        .flip-card {
+            width: 24%;
+            margin-left: 5px;
+            margin-right: 5px;
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            -webkit-transition: all 350ms ease;
+            transition: all 350ms ease;
+        }
+        .scale-anm {
+            transform: scale(1);
+        }
+    </style>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/fbpixel.js"></script>
+</head>
+
+<body class="scroll-assist">
+
+<!-- NAVBAR -->
+<div class="nav-container">
+</div>
+
+<div class="main-container">
+    <!-- SECTION: Courses -->
+    <a id="home_courses" class="in-page-link"></a>
+    <!-- SECTION: Team -->
+    <a id="home_team" class="in-page-link"></a>
+    <section style="margin-bottom: 80px;">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb16">Reviews</h4>
+                <br><br>
+                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="all">All</button>
+                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="launchpad">Launchpad</button>
+                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="crux">Crux</button>
+                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="elixir">Elixir</button>
+                <br><br>
+            </div>
+        </div>
+        <div class="highlight highlightOverlay">
+            <div class="container hidden-xs">
+
+                <div class="team row text-center" id="row1">
+
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
+                         style=" background: #fff;">
+                        <div class="front">
+                            <div class="img-holder">
+                                <img alt="" src="img/johndoe.jpg">
+                            </div>
+
+                            <div class="title mb16">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span>Launchpad</span><br>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="flipBorder">
+                            <div class="back hover-light" style="background: #fff;padding: 5px;">
+                                <div class="title mb16">
+                                    <div class="img-holder">
+                                        <img alt="" src="img/johndoe.jpg">
+                                    </div>
+                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span></div>
+                                <p class="mb0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
+                         style=" background: #fff;">
+                        <div class="front">
+                            <div class="img-holder">
+                                <img alt="" src="img/johndoe.jpg">
+                            </div>
+
+                            <div class="title mb16">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span>Launchpad</span><br>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="flipBorder">
+                            <div class="back hover-light" style="background: #fff;padding: 5px;">
+                                <div class="title mb16">
+                                    <div class="img-holder">
+                                        <img alt="" src="img/johndoe.jpg">
+                                    </div>
+                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span></div>
+                                <p class="mb0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
+                         style=" background: #fff;">
+                        <div class="front">
+                            <div class="img-holder">
+                                <img alt="" src="img/johndoe.jpg">
+                            </div>
+
+                            <div class="title mb16">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span>Launchpad</span><br>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="flipBorder">
+                            <div class="back hover-light" style="background: #fff;padding: 5px;">
+                                <div class="title mb16">
+                                    <div class="img-holder">
+                                        <img alt="" src="img/johndoe.jpg">
+                                    </div>
+                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span></div>
+                                <p class="mb0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
+                         style=" background: #fff;">
+                        <div class="front">
+                            <div class="img-holder">
+                                <img alt="" src="img/johndoe.jpg">
+                            </div>
+
+                            <div class="title mb16">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span>Launchpad</span><br>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="flipBorder">
+                            <div class="back hover-light" style="background: #fff;padding: 5px;">
+                                <div class="title mb16">
+                                    <div class="img-holder">
+                                        <img alt="" src="img/johndoe.jpg">
+                                    </div>
+                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span></div>
+                                <p class="mb0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team row text-center" id="row2">
+
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
+                         style=" background: #fff;">
+                        <div class="front">
+                            <div class="img-holder">
+                                <img alt="" src="img/johndoe.jpg">
+                            </div>
+
+                            <div class="title mb16">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span>Launchpad</span><br>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="flipBorder">
+                            <div class="back hover-light" style="background: #fff;padding: 5px;">
+                                <div class="title mb16">
+                                    <div class="img-holder">
+                                        <img alt="" src="img/johndoe.jpg">
+                                    </div>
+                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span></div>
+                                <p class="mb0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
+                         style=" background: #fff;">
+                        <div class="front">
+                            <div class="img-holder">
+                                <img alt="" src="img/johndoe.jpg">
+                            </div>
+
+                            <div class="title mb16">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span>Launchpad</span><br>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="flipBorder">
+                            <div class="back hover-light" style="background: #fff;padding: 5px;">
+                                <div class="title mb16">
+                                    <div class="img-holder">
+                                        <img alt="" src="img/johndoe.jpg">
+                                    </div>
+                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span></div>
+                                <p class="mb0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all"
+                         style=" background: #fff;">
+                        <div class="front">
+                            <div class="img-holder">
+                                <img alt="" src="img/johndoe.jpg">
+                            </div>
+
+                            <div class="title mb16">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span>Launchpad</span><br>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="flipBorder">
+                            <div class="back hover-light" style="background: #fff;padding: 5px;">
+                                <div class="title mb16">
+                                    <div class="img-holder">
+                                        <img alt="" src="img/johndoe.jpg">
+                                    </div>
+                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span></div>
+                                <p class="mb0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad"
+                         style=" background: #fff;">
+                        <div class="front">
+                            <div class="img-holder">
+                                <img alt="" src="img/johndoe.jpg">
+                            </div>
+
+                            <div class="title mb16">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span>Launchpad</span><br>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="flipBorder">
+                            <div class="back hover-light" style="background: #fff;padding: 5px;">
+                                <div class="title mb16">
+                                    <div class="img-holder">
+                                        <img alt="" src="img/johndoe.jpg">
+                                    </div>
+                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star Review-star--active">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span>
+                                    <span class="Review-star">&#9733;</span></div>
+                                <p class="mb0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+</div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+<script src="../js/twitterfetcher.min.js"></script>
+<script src="../js/flexslider.min.js"></script>
+<script src="../js/smooth-scroll.min.js"></script>
+<script async defer src="../js/parallax.js"></script>
+<script src="../js/scripts.js"></script>
+<script src="../js/componentloader.js"></script>
+<script>
+    $(function () {
+        $('.flip-card').flip({
+            axis: 'y',
+            trigger: 'hover'
+        }).waypoint(function (direction) {
+            $(this.element).flip(direction == 'down');
+        }, {
+            offset: '40%'
+        })
+    })
+</script>
+<script>
+    $(function () {
+        var selectedClass = "";
+        $(".fil-cat").click(function () {
+            selectedClass = $(this).attr("data-rel");
+            console.log(selectedClass);
+            $("#row1").fadeTo(100, 0.1);
+            $("#row1 div").not("." + selectedClass).fadeOut().removeClass('scale-anm');
+            setTimeout(function () {
+                $("." + selectedClass).fadeIn().addClass('scale-anm');
+                $("#highlightReview").fadeTo(300, 1);
+            }, 300);
+            $("#row2").fadeTo(100, 0.1);
+            $("#row2 div").not("." + selectedClass).fadeOut().removeClass('scale-anm');
+            setTimeout(function () {
+                $("." + selectedClass).fadeIn().addClass('scale-anm');
+                $("#row2").fadeTo(300, 1);
+            }, 300);
+        });
+    });
+</script>
+<div class="phone-button">
+    <a href="tel:18002744504">
+        <i class="fa fa-phone fa-2x"></i>
+    </a>
+</div>
+
+<div class="scroll-to-top">
+    <a href="#top">
+        <i class="fa fa-arrow-circle-o-up fa-3x"></i>
+    </a>
+</div>
+</body>
+
+</html>
