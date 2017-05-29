@@ -78,7 +78,6 @@ p.lead {
 
 /* [[Index Pricing Table]] */
 .pricing-card {
-	height: 930px;
 }
 
 .pricing-card-inverse {
@@ -280,9 +279,31 @@ ol.syllabus {
 	padding-top: 4rem;
 }
 
-@media (min-width: 768px) {
-	.pricing-card{
-		height: 693px; !important;
+.pcard{
+	height: 800px;
+}
+
+@media (min-width: 250px) and (max-width: 349px){
+	.pcard{
+		height:700px;
 	}
 }
 
+@media (min-width: 350px) and (max-width: 557px){
+	.pcard{
+		height: 680px;
+	}
+}
+
+@media (min-width: 558px) and (max-width: 768px) {
+	.pcard{
+		height: 750px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.pcard{
+		height: 693px;
+	}
+}
