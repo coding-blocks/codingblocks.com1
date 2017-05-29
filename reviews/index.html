@@ -157,6 +157,60 @@
         .scale-anm {
             transform: scale(1);
         }
+
+        @media (max-width: 215px) {
+            .flip-card {
+                width: 96%;
+                margin-left: 1%;
+                height: 100%;
+            }
+            .flipBorder {
+                height: 100%;
+            }
+        }
+
+        @media (min-width: 216px) and (max-width: 460px) {
+            .flip-card {
+                width: 90%;
+                margin-left: 5%;
+                height: 400px;
+            }
+        }
+
+        @media (min-width: 461px) and (max-width: 767px) {
+            .flip-card {
+                width: 45%;
+                margin-left: 3%;
+                height: 400px;
+            }
+
+            .flipBorder {
+                height: 400px;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .flip-card {
+                width: 45%;
+                margin-left: 3%;
+                height: 450px;
+            }
+
+            .flipBorder {
+                height: 450px;
+            }
+        }
+
+        @media (min-width: 1025px) and (max-width: 1199px) {
+            .flip-card {
+                width: 23%;
+                margin-left: 1%;
+                height: 100%;
+            }
+
+            .flipBorder {
+                height: 100%;
+            }
+        }
     </style>
     <script src="../js/jquery.flip.min.js"></script>
     <script src="../js/jquery.waypoints.min.js"></script>
@@ -176,9 +230,9 @@
     <!-- SECTION: Team -->
     <a id="home_team" class="in-page-link"></a>
     <section style="margin-bottom: 80px; background: #f8f8f8;">
-        <div class="row">
+        <div class="row ">
             <div class="col-sm-8 col-sm-offset-2 text-center">
-                <h3 class="mb64 uppercase">&nbsp; &nbsp;Students &nbsp; &nbsp; &nbsp;<i class="ti-heart"></i> &nbsp; &nbsp;Coding Blocks</h3>
+                <h3 class="mb64 uppercase">Students&nbsp;<i class="ti-heart"></i>&nbsp;Coding Blocks</h3>
             </div>
         </div>
         <div class="row">
@@ -195,17 +249,17 @@
             </div>
         </div>
         <div class="highlight highlightOverlay">
-            <div class="container hidden-xs">
+            <div class="container">
 
                 <div class="team row text-center" id="row1">
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
+                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad crux">
+                        <div class="front hover-light all launchpad crux">
+                            <div class="img-holder all launchpad crux">
                                 <img alt="" src="img/johndoe.jpg">
                             </div>
 
-                            <div class="title mb16 all launchpad">
+                            <div class="title mb16 all launchpad crux">
                                 <h5 class="uppercase mb0 bold">John Doe<br></h5>
                                 <span>Launchpad</span><br>
                                 <span class="Review-star Review-star--active">&#9733;</span>
@@ -215,10 +269,10 @@
                                 <span class="Review-star">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
+                        <div class="flipBorder hover-light all launchpad crux">
+                            <div class="back all launchpad crux" style="background: #fff;padding: 5px;">
+                                <div class="title mb16 all launchpad crux">
+                                    <div class="img-holder all launchpad crux">
                                         <img alt="" src="img/johndoe.jpg">
                                     </div>
                                     <h5 class="uppercase mb0 bold">John Doe<br></h5>
