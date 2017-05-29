@@ -898,47 +898,6 @@
                             </div>
                         </li>
 
-                        <li class="hover-light-more">
-                            <div class="img-holder moreimgholder text-center">
-                                <img alt="" src="img/johndoe.jpg">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                            <div class="reviewBox">
-                                <span class="title">Review:</span>
-                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="hover-light-more">
-                            <div class="img-holder moreimgholder text-center">
-                                <img alt="" src="img/johndoe.jpg">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                            <div class="reviewBox">
-                                <span class="title">Review:</span>
-                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
-                        </li>
                         <center>
                             <button class="btn btn-lg btn-filled loadMore">Load More</button>
                             <button class="btn btn-lg btn-filled showLess" style="display: none">Show Less</button>
@@ -964,20 +923,29 @@
 <script src="../js/componentloader.js"></script>
 <script>
     $(document).ready(function () {
-        size_li = $("#launchpad-list li").size();
         x=2;
         $('#launchpad-list li:lt('+x+')').css('display','inline-block');
         $('#crux-list li:lt('+x+')').css('display','inline-block');
         $('.loadMore').click(function () {
+            let parent= '#'+$(this).closest("ul").prop("id");
+            let size_li = $(parent+' li').size();
+            let x = $(parent+' li:visible').size();
             x= (x+3 <= size_li) ? x+3 : size_li;
-            $('#'+$(this).closest("ul").prop("id")+' li:lt('+x+')').css('display','inline-block');
-            $('#'+$(this).closest("ul").prop("id")+' .showLess').css('display','inline-block');
+            $(parent+' li:lt('+x+')').css('display','inline-block');
+            $(parent+' .showLess').css('display','inline-block');
+            if(x===size_li)
+                $(this).css('display','none');
         });
         $('.showLess').click(function () {
-            x=(x-3<=0) ? 2 : x-3;
-            if(x==2)
+            let parent= '#'+$(this).closest("ul").prop("id");
+            let size_li = $(parent+' li').size();
+            let x = $(parent+' li:visible').size();
+            if(x===size_li)
+                $(parent+' .loadMore').css('display','inline-block');
+            x=(x-3<2) ? 2 : x-3;
+            if(x===2)
                 $(this).css('display','none');
-            $('#'+$(this).closest("ul").prop("id")+' li').not(':lt('+x+')').hide();
+            $(parent+' li').not(':lt('+x+')').css('display','none');
         });
     });
     $(function () {
