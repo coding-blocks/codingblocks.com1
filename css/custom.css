@@ -278,3 +278,8 @@ ol.syllabus {
 .pt-4 {
 	padding-top: 4rem;
 }
+
+.wide-tab > a {
+	padding: 2rem 10rem !important;
+	font-size: 2rem !important;
+}
