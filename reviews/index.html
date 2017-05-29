@@ -211,6 +211,9 @@
                 height: 100%;
             }
         }
+        .btn-shallow{
+            background: #fff;
+        }
     </style>
     <script src="../js/jquery.flip.min.js"></script>
     <script src="../js/jquery.waypoints.min.js"></script>
@@ -232,19 +235,19 @@
     <section style="margin-bottom: 80px; background: #f8f8f8;">
         <div class="row ">
             <div class="col-sm-8 col-sm-offset-2 text-center">
-                <h3 class="mb64 uppercase">Students&nbsp;<i class="ti-heart"></i>&nbsp;Coding Blocks</h3>
+                <h3 class="mb64 uppercase">Students&nbsp;&nbsp;<i class="ti-heart"></i>&nbsp;&nbsp;Coding&nbsp; Blocks</h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 text-center">
-                <h4 class="uppercase mb16">Reviews</h4>
+            <div class="col-sm-12 text-center" id="filter">
                 <br><br>
-                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="all">All</button>
-                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="launchpad">Launchpad</button>
-                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="crux">Crux</button>
-                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="elixir">Elixir</button>
-                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="pandora">Pandora</button>
-                <button class="btn fil-cat btn-md btn-filled" href="" data-rel="perception">Perception</button>
+                <button class="btn fil-cat btn-sm btn-filled" href="" data-rel="all">All</button>
+                <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="launchpad">Launchpad</button>
+                <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="crux">Crux</button>
+                <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="elixir">Elixir</button>
+                <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="pandora">Pandora</button>
+                <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="perception">Perception</button>
+                <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="competitive">Competitive Programming</button>
                 <br><br>
             </div>
         </div>
@@ -599,6 +602,10 @@
     $(function () {
         var selectedClass = "";
         $(".fil-cat").click(function () {
+            $("#filter button").not(".btn-shallow").removeClass('btn-filled');
+            $("#filter button").not(".btn-shallow").toggleClass('btn-shallow');
+            $(this).toggleClass('btn-filled');
+            $(this).removeClass('btn-shallow');
             selectedClass = $(this).attr("data-rel");
             console.log(selectedClass);
             $("#row1").fadeTo(100, 0.1);
