@@ -164,6 +164,7 @@
                 margin-left: 1%;
                 height: 100%;
             }
+
             .flipBorder {
                 height: 100%;
             }
@@ -188,6 +189,7 @@
                 height: 400px;
             }
         }
+
         @media (min-width: 768px) and (max-width: 1024px) {
             .flip-card {
                 width: 45%;
@@ -211,8 +213,91 @@
                 height: 100%;
             }
         }
-        .btn-shallow{
+
+        .btn-shallow {
             background: #fff;
+        }
+
+        .eventlogo {
+            height: 170px !important;
+        }
+
+        .event-list {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .event-list > li {
+            display: none;
+            background-color: #f8f8f8;
+            box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+            padding: 10px !important;
+            height: auto !important;
+            margin: 0px 0px 20px;
+            transition: 300ms;
+        }
+
+        .event-list > li:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        .event-list > li:hover {
+            box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+            transition: 300ms;
+        }
+
+        .event-list > li > img {
+            width: 100%;
+        }
+
+        .event-list > li > .info > ul,
+        .event-list > li > .info > ul > li,
+        .event-list > li > .info > ul > li > a {
+            display: block;
+            width: 100%;
+            color: rgb(30, 30, 30);
+            text-decoration: none;
+        }
+
+        .event-list > li > .info > ul > li:hover {
+            color: rgb(30, 30, 30);
+            background-color: rgb(200, 200, 200);
+        }
+
+        .moreimgholder {
+            width: 20%;
+            display: inline-block;
+            background: none !important;
+            float: left;
+        }
+
+        .moreimgholder img {
+            filter: none !important;
+            opacity: 1 !important;
+            height: auto;
+        }
+
+        .reviewBox {
+            display: inline-block;
+            width: 78%;
+            margin-left: 2%;
+            position: relative;
+            text-align: left;
+            float: right;
+        }
+
+        .event-list > li > .reviewBox > .desc {
+            font-size: 13pt;
+            font-weight: 400;
+            float: left !important;
+        }
+
+        .event-list > li > .reviewBox > .title {
+            font-size: 14pt;
+            font-weight: 600;
+            float: left !important;
+            margin-bottom: 5px;
         }
     </style>
     <script src="../js/jquery.flip.min.js"></script>
@@ -232,10 +317,11 @@
     <a id="home_courses" class="in-page-link"></a>
     <!-- SECTION: Team -->
     <a id="home_team" class="in-page-link"></a>
-    <section style="margin-bottom: 80px; background: #f8f8f8;">
+    <section style="margin-bottom: 0px; background: #f8f8f8;">
         <div class="row ">
             <div class="col-sm-8 col-sm-offset-2 text-center">
-                <h3 class="mb64 uppercase">Students&nbsp;&nbsp;<i class="ti-heart"></i>&nbsp;&nbsp;Coding&nbsp; Blocks</h3>
+                <h3 class="mb64 uppercase">Students&nbsp;&nbsp;<i class="ti-heart"></i>&nbsp;&nbsp;Coding&nbsp; Blocks
+                </h3>
             </div>
         </div>
         <div class="row">
@@ -247,11 +333,12 @@
                 <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="elixir">Elixir</button>
                 <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="pandora">Pandora</button>
                 <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="perception">Perception</button>
-                <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="competitive">Competitive Programming</button>
+                <button class="btn fil-cat btn-sm btn-shallow" href="" data-rel="competitive">Competitive Programming
+                </button>
                 <br><br>
             </div>
         </div>
-        <div class="highlight highlightOverlay">
+        <div class="highlight highlightOverlay" style="margin-bottom: 0px;">
             <div class="container">
 
                 <div class="team row text-center" id="row1">
@@ -571,12 +658,290 @@
                 </div>
             </div>
         </div>
-</div>
-</section>
+    </section>
 
-<!-- FOOTER -->
-<div class="footer">
-</div>
+    <!-- SECTION: More Reviews -->
+    <a id="reviews" class="in-page-link"></a>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
+                    <h4 class="uppercase text-center">More Reviews&nbsp;</h4>
+                    <h2 class="uppercase mb80 text-center">Launchpad</h2>
+                    <ul class="event-list" id="launchpad-list">
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+                        <center>
+                            <button class="btn btn-lg btn-filled loadMore">Load More</button>
+                            <button class="btn btn-lg btn-filled showLess" style="display: none">Show Less</button>
+                        </center>
+                    </ul>
+                    <br><br>
+                    <h4 class="uppercase text-center">More Reviews&nbsp;</h4>
+                    <h2 class="uppercase mb80 text-center">Crux</h2>
+                    <ul class="event-list" id="crux-list">
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="hover-light">
+                            <div class="img-holder moreimgholder text-center">
+                                <img alt="" src="img/johndoe.jpg">
+                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star">&#9733;</span>
+                            </div>
+                            <div class="reviewBox">
+                                <span class="title">Review:</span>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                </p>
+                            </div>
+                        </li>
+                        <center>
+                            <button class="btn btn-lg btn-filled loadMore">Load More</button>
+                            <button class="btn btn-lg btn-filled showLess" style="display: none">Show Less</button>
+                        </center>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer">
+    </div>
 
 </div>
 <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
@@ -587,6 +952,23 @@
 <script src="../js/scripts.js"></script>
 <script src="../js/componentloader.js"></script>
 <script>
+    $(document).ready(function () {
+        size_li = $("#launchpad-list li").size();
+        x=2;
+        $('#launchpad-list li:lt('+x+')').css('display','inline-block');
+        $('#crux-list li:lt('+x+')').css('display','inline-block');
+        $('.loadMore').click(function () {
+            x= (x+3 <= size_li) ? x+3 : size_li;
+            $('#'+$(this).closest("ul").prop("id")+' li:lt('+x+')').css('display','inline-block');
+            $('#'+$(this).closest("ul").prop("id")+' .showLess').css('display','inline-block');
+        });
+        $('.showLess').click(function () {
+            x=(x-3<=0) ? 2 : x-3;
+            if(x==2)
+                $(this).css('display','none');
+            $('#'+$(this).closest("ul").prop("id")+' li').not(':lt('+x+')').hide();
+        });
+    });
     $(function () {
         $('.flip-card').flip({
             axis: 'y',
@@ -596,9 +978,7 @@
         }, {
             offset: '40%'
         })
-    })
-</script>
-<script>
+    });
     $(function () {
         var selectedClass = "";
         $(".fil-cat").click(function () {
