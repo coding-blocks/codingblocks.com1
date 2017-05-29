@@ -306,4 +306,17 @@ ol.syllabus {
 	.pcard{
 		height: 693px;
 	}
+  
+.wide-tab > a {
+	padding: 2rem 10rem !important;
+	font-size: 2rem !important;
+}
+
+table.calendar .fa {
+	color: #fc4f4f;
+}
+
+table.calendar tbody tr:nth-of-type(-n+0) .fa {
+	color: gray;
+
 }
