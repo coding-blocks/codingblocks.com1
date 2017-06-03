@@ -279,31 +279,43 @@ ol.syllabus {
 	padding-top: 4rem;
 }
 
-.pcard{
+.pricing-card {
 	height: 800px;
 }
 
-@media (min-width: 250px) and (max-width: 349px){
-	.pcard{
+@media (min-width: 250px) and (max-width: 349px) {
+	.pricing-card {
 		height:700px;
 	}
 }
 
-@media (min-width: 350px) and (max-width: 557px){
-	.pcard{
+@media (min-width: 350px) and (max-width: 557px) {
+	.pricing-card {
 		height: 680px;
 	}
 }
 
-@media (min-width: 558px) and (max-width: 768px) {
-	.pcard{
-		height: 750px;
+@media (min-width: 519px) and (max-width: 613px) {
+	.pricing-card {
+		height: 747px;
+	}
+}
+
+@media (min-width: 614px) and (max-width: 741px) {
+	.pricing-card {
+		height: 780px;
+	}
+}
+
+@media (min-width: 742px) and (max-width: 845px) {
+	.pricing-card {
+		height: 823px;
 	}
 }
 
 
 @media (min-width: 768px) {
-	.pcard{
+	.pricing-card {
 		height: 693px;
 	}
   
