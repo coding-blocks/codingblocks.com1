@@ -3,7 +3,6 @@
  */
 $(function () {
     $('.nav-container').load('/includes/nav-container.html');
-    $('.map-load').load('/includes/map.html');
     $('.footer').load('/includes/footer.html', function () {
 
         // Twitter Feed
