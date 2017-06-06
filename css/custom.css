@@ -78,6 +78,7 @@ p.lead {
 
 /* [[Index Pricing Table]] */
 .pricing-card {
+	height: 692px; !important;
 }
 
 .pricing-card-inverse {
