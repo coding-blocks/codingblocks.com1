@@ -7,11 +7,11 @@
     <link href="../css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" media="all">
     <link href="../css/et-line-icons.css" rel="stylesheet" type="text/css" media="all">
     <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-    <link href="../css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../css/theme-fire.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="../css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../css/themify-icons.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/flexslider.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/theme-fire.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/custom.css" rel="stylesheet" type="text/css" media="all"/>
 
 
     <!-- Icons and manifest -->
@@ -24,7 +24,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
@@ -32,6 +32,11 @@
     <meta name="msapplication-TileColor" content="#fc4f4f">
     <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#fc4f4f">
+    <style>
+        .non-label {
+            font-weight: 400 !important;
+        }
+    </style>
 </head>
 <body class="scroll-assist">
 
@@ -42,7 +47,7 @@
         <div class="col-sm-12 text-center">
             <h4 class="uppercase mb16">STARTUP</h4>
             <p class="lead mb64">
-               Hire character. Train skill
+                Hire character. Train skill
             </p>
         </div>
         <div class="container">
@@ -50,59 +55,68 @@
 
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
 
-                    <form id="startup_signup" class="form-email" data-success="Thanks you for showing interest in hiring coding blocks students.our team will get in touch with you shortly" enctype="multipart/form-data"
+                    <form id="startup_signup" class="form-email"
+                          data-success="Thanks you for showing interest in hiring coding blocks students.our team will get in touch with you shortly"
+                          enctype="multipart/form-data"
                           data-error="Please fill all fields correctly.">
                         <input type="text" class="validate-required" name="companyname" placeholder="Company_Name">
                         <input type="text" class="validate-required" name="websitelink" placeholder="website link">
-                        <input type="text" class="validate-required" name="companyaddress" placeholder="company address">
-                        <input type="text" class="validate-required" name="contactpersonname" placeholder="contact person name">
+                        <input type="text" class="validate-required" name="companyaddress"
+                               placeholder="company address">
+                        <input type="text" class="validate-required" name="contactpersonname"
+                               placeholder="contact person name">
                         <input type="text" class="validate-required" name="contactno" placeholder="contact no.">
                         <input type="text" class="validate-required" name="emailid" placeholder="Email id">
                         <div class="form-group" id="lookingfor">
-                        <label>Looking for:</label>
-                              <div class="row">
-                                  <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
-                                  <div><input name="lookingfor" type="checkbox" value="fulltime">Fulltime Employee  </div>
-                                  <div><input name="lookingfor" type="checkbox" value="interns">Interns</div>
-                                  <div><input name="lookingfor" type="checkbox" value="freelancers">free lancers</div>
-
-                    
-                                                                     
-                                     </div>
+                            <label>Looking for:</label>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
+                                    <div><input name="lookingfor" type="checkbox" value="fulltime" id="fulltime"> <label
+                                            class="non-label" for="fulltime">Fulltime Employee</label></div>
+                                    <div><input name="lookingfor" type="checkbox" value="interns" id="interns"> <label
+                                            class="non-label" for="interns">Interns</label></div>
+                                    <div><input name="lookingfor" type="checkbox" value="freelancers" id="freelancer"> <label class="non-label" for="freelancer"> Free lancers</label></div>
 
 
-                                     <div class="form-group" id="skills">
+                                </div>
 
-                                     <div class="form-group" id="courses">
 
-                                     <label>Skills required:</label>
-                                           <div class="row">
-                                               <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
-                                               <div><input name="skills" type="checkbox" value="c++">C++</div>
-                                               <div><input name="skills" type="checkbox" value="java">JAVA</div>
-                                               <div><input name="skills" type="checkbox" value="mobile app development"> Mobile App Development</div>
-                                               <div><input name="skills" type="checkbox" value="web development">Web Development</div>
-                                               <div><input name="skills" type="checkbox" value="others"> others </div>
+                                <div class="form-group" id="skills">
 
-                                               <input type="text" name="skills" placeholder="others">
+                                    <div class="form-group" id="courses">
+
+                                        <label>Skills required:</label>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
+                                                <div><input name="skills" type="checkbox" value="c++" id="c++"> <label class="non-label" for="c++">C++</label></div>
+                                                <div><input name="skills" type="checkbox" value="java" id="java"> <label class="non-label" for="java">JAVA</label></div>
+                                                <div><input name="skills" type="checkbox"
+                                                            value="mobile app development" id="mobile"> <label class="non-label" for="mobile">Mobile App Development</label>
                                                 </div>
-                                            </div>
-                                      </div>
-                                 <input type="text" class="validate-required" name="joblocation" placeholder="job location">
+                                                <div><input name="skills" type="checkbox" value="web development" id="web"> <label class="non-label" for="web">Web
+                                                    Development</label>
+                                                </div>
+                                                <div><input name="skills" type="checkbox" value="others" id="others"> <label class="non-label" for="others">others</label></div>
 
+                                                <input type="text" name="skills" placeholder="others">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="validate-required" name="joblocation"
+                                           placeholder="job location">
+
+
+                                </div>
+                                <input type="text" id="input" name="jobdescription"
+                                       placeholder="link of jobdescription">
+                                <button id="submitForm" type="submit">Submit</button>
+
+
+                            </div>
 
                         </div>
-                       <input type="text" id="input" name="jobdescription" placeholder="link of jobdescription">
-                        <button id="submitForm" type="submit">Submit</button>
 
-                                               
-
-              
-            </div>
-
-        </div>
-
-                        </section>
+    </section>
 
     <!-- Footer -->
 
@@ -118,7 +132,6 @@
 <script src="../js/parallax.js"></script>
 <script src="../js/scripts.js"></script>
 <script src="../js/componentloader.js"></script>
-
 
 
 </body>
