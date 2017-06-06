@@ -88,16 +88,9 @@
         }
 
         .hover-light {
-            -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
-            -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
-            box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
-            transition: all 300ms linear
-        }
-
-        .hover-light:hover {
-            -webkit-box-shadow: none;
-            -moz-box-shadow: none;
-            box-shadow: none;
+            -webkit-box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.3);
+            -moz-box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.3);
             transition: all 300ms linear
         }
 
@@ -116,8 +109,8 @@
         }
 
         .highlight {
-            background: url("//v.fastcdn.co/u/e4110b44/16489001-0-programming-wallpape.jpg");
-            background-repeat: repeat;
+            background: url("//v.fastcdn.co/u/e4110b44/16489001-0-programming-wallpape.jpg") fixed;
+            background-repeat: no-repeat;
             background-position: top left;
             background-size: cover;
             -webkit-background-size: cover;
@@ -152,22 +145,25 @@
             height: 100%;
         }
 
-        @media (min-width: 768px){
-            .flip-card{
+        @media (min-width: 768px) {
+            .flip-card {
                 width: 45%;
             }
-            .highimg{
-                display: block!important;
+
+            .highimg {
+                display: block !important;
             }
-            
+
         }
-        .highimg{
+
+        .highimg {
             display: none;
         }
+
         .front {
             border: none !important;
             padding-right: 10px !important;
-            background: #fff!important;
+            background: #fff !important;
         }
 
         .scale-anm {
@@ -259,8 +255,8 @@
             float: left !important;
             margin-bottom: 5px;
         }
-        
-        q::before,q::after{
+
+        q::before, q::after {
             font-size: 30px;
             font-weight: 600;
         }
@@ -306,18 +302,18 @@
                 <div class="team row text-center" id="row1" style="margin-top:30px;margin-bottom:30px;">
 
                     <div itemscope itemtype="http://schema.org/Review"
-                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse scale-anm all launchpad crux">
-                        <div class="col-sm-4 col-xs-12 text-center all launchpad crux">
-                            <div class="img-holder highimg all launchpad crux">
-                                <img alt="" src="img/pic1.jpg">
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse scale-anm all pandora">
+                        <div class="col-sm-4 col-xs-12 text-center all pandora">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg all pandora">
+                                <img itemprop="image" alt="" src="img/pic1.jpg">
                             </div>
-                            <div class="title mb16 all launchpad crux">
-                                <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
                                     <h5 class="uppercase mb0 bold" itemprop="name">Piyush Ajmani</h5>
-                                </span>
+                            </span>
+                            <div class="title mb16 all pandora">
                                 <br>
                                 <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
-                                    <span itemprop="name">CRUX & PANDORA</span><br>
+                                    <span itemprop="name">PANDORA</span><br>
                                 </span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
@@ -326,33 +322,37 @@
                                 <span class="Review-star Review-star--active">&#9733;</span>
                             </div>
                         </div>
-                        <div class="col-sm-8 pull-right col-xs-12 all launchpad crux">
+                        <div class="col-sm-8 pull-right col-xs-12 all pandora">
                             <q class="mb0" itemprop="reviewBody">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            </q>
+                                Coding Blocks played a key role in defining my love for coding. I like to structure my
+                                learning properly. The problem with online websites is you only learn and you don’t
+                                have the guidance on what to do and what not to do and Coding Blocks solved that problem
+                                for me.
+                            </q><br><br><br>
+                            <div class="text-center all pandora">
+                                <a class="btn btn-sm btn-filled"
+                                   href="https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Piyush-Ajmani-1"
+                                   target="_blank">Read More</a>
+                            </div>
                             <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                                 <span itemprop="ratingValue" style="display: none;">5</span>
                             </span>
                         </div>
                     </div>
-                    
-                                        <div itemscope itemtype="http://schema.org/Review"
-                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse scale-anm all launchpad crux">
-                        <div class="col-sm-4 col-xs-12 text-center all launchpad crux">
-                            <div class="img-holder highimg all launchpad crux">
-                                <img alt="" src="img/pic1.jpg">
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse scale-anm all crux">
+                        <div class="col-sm-4 col-xs-12 text-center all crux">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg all crux">
+                                <img itemprop="image" alt="" src="img/pic2.jpg">
                             </div>
-                            <div class="title mb16 all launchpad crux">
-                                <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-                                    <h5 class="uppercase mb0 bold" itemprop="name">Piyush Ajmani</h5>
-                                </span>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Naman Kumar</h5>
+                            </span>
+                            <div class="title mb16 all crux">
                                 <br>
                                 <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
-                                    <span itemprop="name">CRUX & PANDORA</span><br>
+                                    <span itemprop="name">CRUX</span><br>
                                 </span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
@@ -361,19 +361,63 @@
                                 <span class="Review-star Review-star--active">&#9733;</span>
                             </div>
                         </div>
-                        <div class="col-sm-8 pull-right col-xs-12 all launchpad crux">
+                        <div class="col-sm-8 pull-right col-xs-12 all crux">
                             <q class="mb0" itemprop="reviewBody">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            </q>
+                                I did Crux - Java fundamentals course with Rishab sir. It was a great experience. The
+                                brain teasers and assignments, actually the whole lot of content was really good. Some
+                                problems were challenging yet interesting. Was explained very well where ever I
+                                struck.
+                            </q><br><br><br>
+                            <div class="text-center all crux">
+                                <a class="btn btn-sm btn-filled"
+                                   href="https://www.facebook.com/hereisnaman/posts/1360846290661419"
+                                   target="_blank">Read More</a>
+                            </div>
                             <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                                 <span itemprop="ratingValue" style="display: none;">5</span>
                             </span>
                         </div>
                     </div>
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse scale-anm all launchpad">
+                        <div class="col-sm-4 col-xs-12 text-center all launchpad">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg all launchpad">
+                                <img itemprop="image" alt="" src="img/pic3.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Harsh M Agarwal</h5>
+                            </span>
+                            <div class="title mb16 all launchpad">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">LAUNCHPAD</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 all launchpad">
+                            <q class="mb0" itemprop="reviewBody">
+                                If want to build concepts in coding this is the place where you want to be. I joined
+                                Launchpad Batch (C++) under Prateek Bhaiya and I can say this one of my best
+                                decisions. From the first class only the focus was on concepts. Now I have confidence in
+                                topics like functions and recursion. TA are extremely helpful and friendly too.
+                            </q><br>
+                            <div class="text-center all launchpad">
+                                <a class="btn btn-sm btn-filled"
+                                   href="https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Harsh-M-Agarwal"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
@@ -632,29 +676,29 @@
 <script src="../js/componentloader.js"></script>
 <script>
     $(document).ready(function () {
-        x=2;
-        $('#launchpad-list li:lt('+x+')').css('display','inline-block');
-        $('#crux-list li:lt('+x+')').css('display','inline-block');
+        x = 2;
+        $('#launchpad-list li:lt(' + x + ')').css('display', 'inline-block');
+        $('#crux-list li:lt(' + x + ')').css('display', 'inline-block');
         $('.loadMore').click(function () {
-            let parent= '#'+$(this).closest("ul").prop("id");
-            let size_li = $(parent+' li').size();
-            let x = $(parent+' li:visible').size();
-            x= (x+3 <= size_li) ? x+3 : size_li;
-            $(parent+' li:lt('+x+')').css('display','inline-block');
-            $(parent+' .showLess').css('display','inline-block');
-            if(x===size_li)
-                $(this).css('display','none');
+            let parent = '#' + $(this).closest("ul").prop("id");
+            let size_li = $(parent + ' li').size();
+            let x = $(parent + ' li:visible').size();
+            x = (x + 3 <= size_li) ? x + 3 : size_li;
+            $(parent + ' li:lt(' + x + ')').css('display', 'inline-block');
+            $(parent + ' .showLess').css('display', 'inline-block');
+            if (x === size_li)
+                $(this).css('display', 'none');
         });
         $('.showLess').click(function () {
-            let parent= '#'+$(this).closest("ul").prop("id");
-            let size_li = $(parent+' li').size();
-            let x = $(parent+' li:visible').size();
-            if(x===size_li)
-                $(parent+' .loadMore').css('display','inline-block');
-            x=(x-3<2) ? 2 : x-3;
-            if(x===2)
-                $(this).css('display','none');
-            $(parent+' li').not(':lt('+x+')').css('display','none');
+            let parent = '#' + $(this).closest("ul").prop("id");
+            let size_li = $(parent + ' li').size();
+            let x = $(parent + ' li:visible').size();
+            if (x === size_li)
+                $(parent + ' .loadMore').css('display', 'inline-block');
+            x = (x - 3 < 2) ? 2 : x - 3;
+            if (x === 2)
+                $(this).css('display', 'none');
+            $(parent + ' li').not(':lt(' + x + ')').css('display', 'none');
         });
     });
     $(function () {
