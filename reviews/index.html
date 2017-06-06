@@ -142,90 +142,36 @@
         }
 
         .flip-card {
-            width: 24%;
-            margin-left: 5px;
-            margin-right: 5px;
+            margin-left: 2%;
+            margin-right: 2%;
             -webkit-transform: scale(0);
             transform: scale(0);
             -webkit-transition: all 350ms ease;
             transition: all 350ms ease;
             padding: 5px 5px !important;
-            height: 350px;
-            background: none !important;
+            height: 100%;
         }
 
+        @media (min-width: 768px){
+            .flip-card{
+                width: 45%;
+            }
+            .highimg{
+                display: block!important;
+            }
+            
+        }
+        .highimg{
+            display: none;
+        }
         .front {
             border: none !important;
             padding-right: 10px !important;
-            background: #fff;
-        }
-
-        .front:hover {
-            background: none !important;
-        }
-
-        .flipBorder {
-            height: 340px;
+            background: #fff!important;
         }
 
         .scale-anm {
             transform: scale(1);
-        }
-
-        @media (max-width: 215px) {
-            .flip-card {
-                width: 96%;
-                margin-left: 1%;
-                height: 100%;
-            }
-
-            .flipBorder {
-                height: 100%;
-            }
-        }
-
-        @media (min-width: 216px) and (max-width: 460px) {
-            .flip-card {
-                width: 90%;
-                margin-left: 5%;
-                height: 400px;
-            }
-        }
-
-        @media (min-width: 461px) and (max-width: 767px) {
-            .flip-card {
-                width: 45%;
-                margin-left: 3%;
-                height: 400px;
-            }
-
-            .flipBorder {
-                height: 400px;
-            }
-        }
-
-        @media (min-width: 768px) and (max-width: 1024px) {
-            .flip-card {
-                width: 45%;
-                margin-left: 3%;
-                height: 450px;
-            }
-
-            .flipBorder {
-                height: 450px;
-            }
-        }
-
-        @media (min-width: 1025px) and (max-width: 1199px) {
-            .flip-card {
-                width: 23%;
-                margin-left: 1%;
-                height: 100%;
-            }
-
-            .flipBorder {
-                height: 100%;
-            }
         }
 
         .btn-shallow {
@@ -313,6 +259,11 @@
             float: left !important;
             margin-bottom: 5px;
         }
+        
+        q::before,q::after{
+            font-size: 30px;
+            font-weight: 600;
+        }
     </style>
     <script src="../js/jquery.flip.min.js"></script>
     <script src="../js/jquery.waypoints.min.js"></script>
@@ -352,317 +303,75 @@
         <div class="highlight highlightOverlay" style="margin-bottom: 0px;">
             <div class="container">
 
-                <div class="team row text-center" id="row1">
+                <div class="team row text-center" id="row1" style="margin-top:30px;margin-bottom:30px;">
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad crux">
-                        <div class="front hover-light all launchpad crux">
-                            <div class="img-holder all launchpad crux">
-                                <img alt="" src="img/johndoe.jpg">
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse scale-anm all launchpad crux">
+                        <div class="col-sm-4 col-xs-12 text-center all launchpad crux">
+                            <div class="img-holder highimg all launchpad crux">
+                                <img alt="" src="img/pic1.jpg">
                             </div>
-
                             <div class="title mb16 all launchpad crux">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
+                                <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                                    <h5 class="uppercase mb0 bold" itemprop="name">Piyush Ajmani</h5>
+                                </span>
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">CRUX & PANDORA</span><br>
+                                </span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder hover-light all launchpad crux">
-                            <div class="back all launchpad crux" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad crux">
-                                    <div class="img-holder all launchpad crux">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
+                        <div class="col-sm-8 pull-right col-xs-12 all launchpad crux">
+                            <q class="mb0" itemprop="reviewBody">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            </q>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
                         </div>
                     </div>
-
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
+                    
+                                        <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse scale-anm all launchpad crux">
+                        <div class="col-sm-4 col-xs-12 text-center all launchpad crux">
+                            <div class="img-holder highimg all launchpad crux">
+                                <img alt="" src="img/pic1.jpg">
                             </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
+                            <div class="title mb16 all launchpad crux">
+                                <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                                    <h5 class="uppercase mb0 bold" itemprop="name">Piyush Ajmani</h5>
+                                </span>
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">CRUX & PANDORA</span><br>
+                                </span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
-                            </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
-                            </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
-                            </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
-                            </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
-                            </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
-                            </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
+                        <div class="col-sm-8 pull-right col-xs-12 all launchpad crux">
+                            <q class="mb0" itemprop="reviewBody">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            </q>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
                         </div>
                     </div>
 
