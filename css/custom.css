@@ -270,3 +270,65 @@ footer .container .row > * {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
+
+ol.syllabus {
+	margin-left: 1.9rem;
+}
+
+.pt-4 {
+	padding-top: 4rem;
+}
+
+.pricing-card {
+	height: 800px;
+}
+
+@media (min-width: 250px) and (max-width: 349px) {
+	.pricing-card {
+		height:700px;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 557px) {
+	.pricing-card {
+		height: 680px;
+	}
+}
+
+@media (min-width: 519px) and (max-width: 613px) {
+	.pricing-card {
+		height: 747px;
+	}
+}
+
+@media (min-width: 614px) and (max-width: 741px) {
+	.pricing-card {
+		height: 780px;
+	}
+}
+
+@media (min-width: 742px) and (max-width: 845px) {
+	.pricing-card {
+		height: 823px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.pricing-card {
+		height: 693px;
+	}
+  
+.wide-tab > a {
+	padding: 2rem 10rem !important;
+	font-size: 2rem !important;
+}
+
+table.calendar .fa {
+	color: #fc4f4f;
+}
+
+table.calendar tbody tr:nth-of-type(-n+0) .fa {
+	color: gray;
+
+}
