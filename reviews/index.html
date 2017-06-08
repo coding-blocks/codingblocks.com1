@@ -88,16 +88,9 @@
         }
 
         .hover-light {
-            -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
-            -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
-            box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
-            transition: all 300ms linear
-        }
-
-        .hover-light:hover {
-            -webkit-box-shadow: none;
-            -moz-box-shadow: none;
-            box-shadow: none;
+            -webkit-box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.3);
+            -moz-box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.3);
             transition: all 300ms linear
         }
 
@@ -116,8 +109,8 @@
         }
 
         .highlight {
-            background: url("//v.fastcdn.co/u/e4110b44/16489001-0-programming-wallpape.jpg");
-            background-repeat: repeat;
+            background: url("//v.fastcdn.co/u/e4110b44/16489001-0-programming-wallpape.jpg") fixed;
+            background-repeat: no-repeat;
             background-position: top left;
             background-size: cover;
             -webkit-background-size: cover;
@@ -142,90 +135,40 @@
         }
 
         .flip-card {
-            width: 24%;
-            margin-left: 5px;
-            margin-right: 5px;
+            margin-left: 2%;
+            margin-right: 2%;
             -webkit-transform: scale(0);
             transform: scale(0);
             -webkit-transition: all 350ms ease;
             transition: all 350ms ease;
             padding: 5px 5px !important;
-            height: 350px;
-            background: none !important;
+            height: 100%;
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .flip-card {
+                width: 45%;
+            }
+
+            .highimg {
+                display: block !important;
+            }
+
+        }
+
+        .highimg {
+            display: none;
         }
 
         .front {
             border: none !important;
             padding-right: 10px !important;
-            background: #fff;
-        }
-
-        .front:hover {
-            background: none !important;
-        }
-
-        .flipBorder {
-            height: 340px;
+            background: #fff !important;
         }
 
         .scale-anm {
             transform: scale(1);
-        }
-
-        @media (max-width: 215px) {
-            .flip-card {
-                width: 96%;
-                margin-left: 1%;
-                height: 100%;
-            }
-
-            .flipBorder {
-                height: 100%;
-            }
-        }
-
-        @media (min-width: 216px) and (max-width: 460px) {
-            .flip-card {
-                width: 90%;
-                margin-left: 5%;
-                height: 400px;
-            }
-        }
-
-        @media (min-width: 461px) and (max-width: 767px) {
-            .flip-card {
-                width: 45%;
-                margin-left: 3%;
-                height: 400px;
-            }
-
-            .flipBorder {
-                height: 400px;
-            }
-        }
-
-        @media (min-width: 768px) and (max-width: 1024px) {
-            .flip-card {
-                width: 45%;
-                margin-left: 3%;
-                height: 450px;
-            }
-
-            .flipBorder {
-                height: 450px;
-            }
-        }
-
-        @media (min-width: 1025px) and (max-width: 1199px) {
-            .flip-card {
-                width: 23%;
-                margin-left: 1%;
-                height: 100%;
-            }
-
-            .flipBorder {
-                height: 100%;
-            }
         }
 
         .btn-shallow {
@@ -313,6 +256,11 @@
             float: left !important;
             margin-bottom: 5px;
         }
+
+        q::before, q::after {
+            font-size: 30px;
+            font-weight: 600;
+        }
     </style>
     <script src="../js/jquery.flip.min.js"></script>
     <script src="../js/jquery.waypoints.min.js"></script>
@@ -352,319 +300,633 @@
         <div class="highlight highlightOverlay" style="margin-bottom: 0px;">
             <div class="container">
 
-                <div class="team row text-center" id="row1">
+                <div class="team row text-center" id="row1" style="margin-top:30px;margin-bottom:30px;">
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad crux">
-                        <div class="front hover-light all launchpad crux">
-                            <div class="img-holder all launchpad crux">
-                                <img alt="" src="img/johndoe.jpg">
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse all pandora">
+                        <div class="col-sm-4 col-xs-12 text-center all pandora">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg all pandora">
+                                <img itemprop="image" alt="" src="img/pic1.jpg">
                             </div>
-
-                            <div class="title mb16 all launchpad crux">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
+                                    <h5 class="uppercase mb0 bold" itemprop="name">Piyush Ajmani</h5>
+                            </span>
+                            <div class="title mb16 all pandora">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">PANDORA</span><br>
+                                </span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder hover-light all launchpad crux">
-                            <div class="back all launchpad crux" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad crux">
-                                    <div class="img-holder all launchpad crux">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
+                        <div class="col-sm-8 pull-right col-xs-12 all pandora">
+                            <q class="mb0" itemprop="reviewBody">
+                                Coding Blocks played a key role in defining my love for coding. I like to structure my
+                                learning properly. The problem with online websites is you only learn and you don’t
+                                have the guidance on what to do and what not to do and Coding Blocks solved that problem
+                                for me.
+                            </q><br><br><br>
+                            <div class="text-center all pandora">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Piyush-Ajmani-1"
+                                   target="_blank">Read More</a>
                             </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse all crux">
+                        <div class="col-sm-4 col-xs-12 text-center all crux">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg all crux">
+                                <img itemprop="image" alt="" src="img/pic2.jpg">
                             </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Naman Kumar</h5>
+                            </span>
+                            <div class="title mb16 all crux">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">CRUX</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 all crux">
+                            <q class="mb0" itemprop="reviewBody">
+                                I did Crux - Java fundamentals course with Rishab sir. It was a great experience. The
+                                brain teasers and assignments, actually the whole lot of content was really good. Some
+                                problems were challenging yet interesting. Was explained very well where ever I
+                                struck.
+                            </q><br><br><br>
+                            <div class="text-center all crux">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.facebook.com/hereisnaman/posts/1360846290661419"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
 
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse all launchpad">
+                        <div class="col-sm-4 col-xs-12 text-center all launchpad">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg all launchpad">
+                                <img itemprop="image" alt="" src="img/pic3.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Harsh M Agarwal</h5>
+                            </span>
                             <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">LAUNCHPAD</span><br>
+                                </span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
+                        <div class="col-sm-8 pull-right col-xs-12 all launchpad">
+                            <q class="mb0" itemprop="reviewBody">
+                                If want to build concepts in coding this is the place where you want to be. I joined
+                                Launchpad Batch (C++) under Prateek Bhaiya and I can say this one of my best
+                                decisions. From the first class only the focus was on concepts. Now I have confidence in
+                                topics like functions and recursion. TA are extremely helpful and friendly too.
+                            </q><br>
+                            <div class="text-center all launchpad">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Harsh-M-Agarwal"
+                                   target="_blank">Read More</a>
                             </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse all pandora">
+                        <div class="col-sm-4 col-xs-12 text-center all pandora">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg all pandora">
+                                <img itemprop="image" alt="" src="img/pic4.jpg">
                             </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Akanksha Ahuja</h5>
+                            </span>
+                            <div class="title mb16 all pandora">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">PANDORA</span><br>
+                                </span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
+                        <div class="col-sm-8 pull-right col-xs-12 all pandora">
+                            <q class="mb0" itemprop="reviewBody">
+                                With extremely talented and technically sound instructors, the course lectures are not
+                                only informative but actually help us relate code with its real world applications. You
+                                know exactly what is happening and why it's happening. Because what is being taught, is
+                                side by side being implemented by you on your laptops.
+                            </q><br><br>
+                            <div class="text-center all pandora">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Akanksha-Ahuja-6"
+                                   target="_blank">Read More</a>
                             </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse all crux">
+                        <div class="col-sm-4 col-xs-12 text-center all crux">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg all crux">
+                                <img itemprop="image" alt="" src="img/pic5.jpg">
                             </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Pranav Khurana</h5>
+                            </span>
+                            <div class="title mb16 all crux">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">CRUX</span><br>
+                                </span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
+                        <div class="col-sm-8 pull-right col-xs-12 all crux">
+                            <q class="mb0" itemprop="reviewBody">
+                                I took the Crux (JAVA) foundation course which is taught by Sumeet sir and it is hands
+                                down the best programming environment one could get to get acquainted with the basics of
+                                coding. They are quite flexible and willing to adjust. I am awed by the effort the
+                                faculty put in giving the students the best possible experience,
+                                almost always available for doubts.
+                            </q><br>
+                            <div class="text-center all crux">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Pranav-Khurana-2"
+                                   target="_blank">Read More</a>
                             </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                            </div>
-                        </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
-                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse crux">
+                        <div class="col-sm-4 col-xs-12 text-center crux">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg crux">
+                                <img itemprop="image" alt="" src="img/janedoe.jpg">
                             </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Shikha Asrani</h5>
+                            </span>
+                            <div class="title mb16 crux">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">CRUX</span><br>
+                                </span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
+                        <div class="col-sm-8 pull-right col-xs-12 crux">
+                            <q class="mb0" itemprop="reviewBody">
+                                I took the java course under Sumeet bhaiya and later become
+                                a TA under him.His patience is simply incomparable. He will explain any concept ,any
+                                number of times with same amount of energy until the whole class is satisfied. Arnav
+                                bhaiya has vast amount of knowledge and discussions with him will always end up in
+                                learning something new.
+                            </q><br>
+                            <div class="text-center crux">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Shikha-Asrani"
+                                   target="_blank">Read More</a>
                             </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse all pandora">
+                        <div class="col-sm-4 col-xs-12 text-center all pandora">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg all pandora">
+                                <img itemprop="image" alt="" src="img/pic7.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Dhruv Anand</h5>
+                            </span>
+                            <div class="title mb16 all pandora">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">PANDORA</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 all pandora">
+                            <q class="mb0" itemprop="reviewBody">
+                                This is the best place for programmers and developers. Coding Blocks is the best place
+                                to kickstart your Coding . Mentors here provide the best coaching and support. I
+                                enrolled in the Android Development Program - Envision. My experience here was
+                                outstanding! :').
+                            </q><br><br><br>
+                            <div class="text-center all pandora">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.facebook.com/dhruvanand95/posts/1732710406745883"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
                         </div>
                     </div>
 
-                    <div class="flip-card col-sm-6 col-md-3 pricing-card pricing-card-inverse scale-anm all launchpad">
-                        <div class="front hover-light all launchpad">
-                            <div class="img-holder all launchpad">
-                                <img alt="" src="img/johndoe.jpg">
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse launchpad">
+                        <div class="col-sm-4 col-xs-12 text-center launchpad">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg crux">
+                                <img itemprop="image" alt="" src="img/pic8.jpg">
                             </div>
-
-                            <div class="title mb16 all launchpad">
-                                <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                <span>Launchpad</span><br>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Kapil Gupta</h5>
+                            </span>
+                            <div class="title mb16 launchpad">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">LAUNCHPAD</span><br>
+                                </span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
                                 <span class="Review-star Review-star--active">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
-                                <span class="Review-star">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
                             </div>
                         </div>
-                        <div class="flipBorder hover-light all launchpad">
-                            <div class="back all launchpad" style="background: #fff;padding: 5px;">
-                                <div class="title mb16 all launchpad">
-                                    <div class="img-holder all launchpad">
-                                        <img alt="" src="img/johndoe.jpg">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">John Doe<br></h5>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star Review-star--active">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span>
-                                    <span class="Review-star">&#9733;</span></div>
-                                <p class="mb0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                </p>
+                        <div class="col-sm-8 pull-right col-xs-12 launchpad">
+                            <q class="mb0" itemprop="reviewBody">
+                                I joined C++ Foundation course in CB as a beginner from Deepak Sir. The best thing
+                                about him was that he taught the most difficult concepts in the most simplest ways.
+                                Hoping to pursue another course from CB. He made his sessions really interactive and
+                                made sure that all our doubts were cleared during the class itself.
+                            </q><br>
+                            <div class="text-center launchpad">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.facebook.com/kplgpt99/posts/1295158840552037"
+                                   target="_blank">Read More</a>
                             </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
                         </div>
                     </div>
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse pandora">
+                        <div class="col-sm-4 col-xs-12 text-center pandora">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg pandora">
+                                <img itemprop="image" alt="" src="img/pic9.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Pulkit Jain</h5>
+                            </span>
+                            <div class="title mb16 pandora">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">PANDORA</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 pandora">
+                            <q class="mb0" itemprop="reviewBody">
+                                I did the Android App Development Course with Arnav bhaiya. The course content was very
+                                good. The best part was pitching session where all the students were asked to make
+                                their own apps and present their apps. During the pitching I came across a lot of
+                                ideas.
+                            </q><br><br><br>
+                            <div class="text-center pandora">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.facebook.com/pulkit.jain.9674/posts/1483641355002103"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse launchpad">
+                        <div class="col-sm-4 col-xs-12 text-center launchpad">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg launchpad">
+                                <img itemprop="image" alt="" src="img/pic10.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Kritika Singh</h5>
+                            </span>
+                            <div class="title mb16 launchpad">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">LAUNCHPAD</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 launchpad">
+                            <q class="mb0" itemprop="reviewBody">
+                                I joined Coding Blocks to strengthen my concepts of C++ and become a good coder.
+                                And it was worth the time,money and energy spent here. The content, pace of teaching and
+                                the environment is very good. Prateek Narang sir is an amazing teacher and teaches in a
+                                very fun and interactive manner.
+                            </q><br><br>
+                            <div class="text-center launchpad">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.facebook.com/krrritikkaaaa/posts/1483455741720842"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse crux">
+                        <div class="col-sm-4 col-xs-12 text-center crux">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg crux">
+                                <img itemprop="image" alt="" src="img/pic11.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Mahima Sachdeva</h5>
+                            </span>
+                            <div class="title mb16 crux">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">CRUX</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 crux">
+                            <q class="mb0" itemprop="reviewBody">
+                                My experience at Coding Blocks was a really amazing one. Being absolutely new to
+                                programming, I was lucky to get the best introduction to programming here. The basics
+                                were taught very well and more emphasis was laid on building thought process to approach
+                                and attempt questions. Sumeet sir taught us very enthusiastically and patiently.
+                            </q><br>
+                            <div class="text-center crux">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.facebook.com/permalink.php?story_fbid=305277643244172&id=100012858150928"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse launchpad">
+                        <div class="col-sm-4 col-xs-12 text-center launchpad">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg launchpad">
+                                <img itemprop="image" alt="" src="img/pic12.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Mohak Khatri</h5>
+                            </span>
+                            <div class="title mb16 launchpad">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">LAUNCHPAD</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 launchpad">
+                            <q class="mb0" itemprop="reviewBody">
+                                Our teacher Mr. Prateek Narang is an excellent teacher. Along with the help of other
+                                faculty members (Vishal bhaiya & Rajesh bhaiya) at Coding Blocks Dwarka, he introduced
+                                us to the endless world of coding. The ambiance at Coding Blocks Dwarka is awesome and
+                                conducive to learning.
+                            </q><br><br>
+                            <div class="text-center launchpad">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.facebook.com/mohak.khatri.9/posts/1627716913922915"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse pandora">
+                        <div class="col-sm-4 col-xs-12 text-center pandora">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg pandora">
+                                <img itemprop="image" alt="" src="img/pic13.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Sarthak Mathur</h5>
+                            </span>
+                            <div class="title mb16 pandora">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">PANDORA</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 pandora">
+                            <q class="mb0" itemprop="reviewBody">
+                                It was an awesome experience to learn the Android Development Course from Arnav Bhaiya.
+                                He is a great mentor and teacher. All the concepts covered in the lectures were taught
+                                to very depth. This course gives probably the best kickstart a learner can get!
+                            </q><br><br><br>
+                            <div class="text-center pandora">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.facebook.com/sarthak.mathur2/posts/1464813930207155"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse elixir">
+                        <div class="col-sm-4 col-xs-12 text-center elixir">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg elixir">
+                                <img itemprop="image" alt="" src="img/pic14.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Rishabh Khanna</h5>
+                            </span>
+                            <div class="title mb16 elixir">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">ELIXIR</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 elixir">
+                            <q class="mb0" itemprop="reviewBody">
+                                When i was watching “Dear Zindagi”, i could relate Sharukh Khan to Arnav Bhaiya. The way
+                                Sharukh Khan was giving life lessons to Aliya Bhatt, in the same way Arnav Bhaiya will
+                                give coding life lessons which will guide you throughout your code life and in the same
+                                way i feel i should credit him “Thanks Arnav Bhaiya” in every website or app i built.
+                            </q><br>
+                            <div class="text-center elixir">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.quora.com/What-is-your-review-of-doing-Elixir-Web-using-NodeJs-with-Arnav-Gupta-at-Coding-Blocks/answer/Rishabh-Khanna-13?srid=TgC8"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse elixir">
+                        <div class="col-sm-4 col-xs-12 text-center elixir">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg elixir">
+                                <img itemprop="image" alt="" src="img/pic15.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Shipra Yogeshwar</h5>
+                            </span>
+                            <div class="title mb16 elixir">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">ELIXIR</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 elixir">
+                            <q class="mb0" itemprop="reviewBody">
+                                I got an opportunity to learn under this developer juggernaut. Two times GSoCer, speaker
+                                at DroidCon, and many more achievements, names are escaping me. So, even the question
+                                not arises, whether or not, someone else would be a better prospect when it comes to
+                                give you more learning stuff.
+                            </q><br><br>
+                            <div class="text-center elixir">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.quora.com/What-is-your-review-of-doing-Elixir-Web-using-NodeJs-with-Arnav-Gupta-at-Coding-Blocks/answer/Rishabh-Khanna-13?srid=TgC8"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div itemscope itemtype="http://schema.org/Review"
+                         class="flip-card front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse elixir">
+                        <div class="col-sm-4 col-xs-12 text-center elixir">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder highimg elixir">
+                                <img itemprop="image" alt="" src="img/pic15.jpg">
+                            </div>
+                                <h5 class="uppercase mb0 bold" itemprop="name">Shipra Yogeshwar</h5>
+                            </span>
+                            <div class="title mb16 elixir">
+                                <br>
+                                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name">ELIXIR</span><br>
+                                </span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                                <span class="Review-star Review-star--active">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 pull-right col-xs-12 elixir">
+                            <q class="mb0" itemprop="reviewBody">
+                                I got an opportunity to learn under this developer juggernaut. Two times GSoCer, speaker
+                                at DroidCon, and many more achievements, names are escaping me. So, even the question
+                                not arises, whether or not, someone else would be a better prospect when it comes to
+                                give you more learning stuff.
+                            </q><br><br>
+                            <div class="text-center elixir">
+                                <a class="btn btn-sm btn-filled" rel="nofollow"
+                                   href="https://www.quora.com/What-is-your-review-of-doing-Elixir-Web-using-NodeJs-with-Arnav-Gupta-at-Coding-Blocks/answer/Rishabh-Khanna-13?srid=TgC8"
+                                   target="_blank">Read More</a>
+                            </div>
+                            <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+                            </span>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
@@ -923,43 +1185,34 @@
 <script src="../js/componentloader.js"></script>
 <script>
     $(document).ready(function () {
-        x=2;
-        $('#launchpad-list li:lt('+x+')').css('display','inline-block');
-        $('#crux-list li:lt('+x+')').css('display','inline-block');
+        x = 2;
+        $('#launchpad-list li:lt(' + x + ')').css('display', 'inline-block');
+        $('#crux-list li:lt(' + x + ')').css('display', 'inline-block');
         $('.loadMore').click(function () {
-            let parent= '#'+$(this).closest("ul").prop("id");
-            let size_li = $(parent+' li').size();
-            let x = $(parent+' li:visible').size();
-            x= (x+3 <= size_li) ? x+3 : size_li;
-            $(parent+' li:lt('+x+')').css('display','inline-block');
-            $(parent+' .showLess').css('display','inline-block');
-            if(x===size_li)
-                $(this).css('display','none');
+            let parent = '#' + $(this).closest("ul").prop("id");
+            let size_li = $(parent + ' li').size();
+            let x = $(parent + ' li:visible').size();
+            x = (x + 3 <= size_li) ? x + 3 : size_li;
+            $(parent + ' li:lt(' + x + ')').css('display', 'inline-block');
+            $(parent + ' .showLess').css('display', 'inline-block');
+            if (x === size_li)
+                $(this).css('display', 'none');
         });
         $('.showLess').click(function () {
-            let parent= '#'+$(this).closest("ul").prop("id");
-            let size_li = $(parent+' li').size();
-            let x = $(parent+' li:visible').size();
-            if(x===size_li)
-                $(parent+' .loadMore').css('display','inline-block');
-            x=(x-3<2) ? 2 : x-3;
-            if(x===2)
-                $(this).css('display','none');
-            $(parent+' li').not(':lt('+x+')').css('display','none');
+            let parent = '#' + $(this).closest("ul").prop("id");
+            let size_li = $(parent + ' li').size();
+            let x = $(parent + ' li:visible').size();
+            if (x === size_li)
+                $(parent + ' .loadMore').css('display', 'inline-block');
+            x = (x - 3 < 2) ? 2 : x - 3;
+            if (x === 2)
+                $(this).css('display', 'none');
+            $(parent + ' li').not(':lt(' + x + ')').css('display', 'none');
         });
-    });
-    $(function () {
-        $('.flip-card').flip({
-            axis: 'y',
-            trigger: 'hover',
-        }).waypoint(function (direction) {
-            $(this.element).flip(direction == 'down');
-        }, {
-            offset: '40%'
-        })
     });
     $(function () {
         var selectedClass = "";
+        $(".all").fadeIn().addClass('scale-anm');
         $(".fil-cat").click(function () {
             $("#filter button").not(".btn-shallow").removeClass('btn-filled');
             $("#filter button").not(".btn-shallow").toggleClass('btn-shallow');
