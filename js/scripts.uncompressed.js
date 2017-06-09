@@ -942,17 +942,25 @@ $(document).ready(function() {
                     $(this).removeClass('field-error');
                 }
             });
-            $(form).find('.validate-tel').each(function() {
-                if (!(/([7-9]{1})([0-9]{9})/.test($(this).val()))) {
-                    $(this).addClass('field-error');
-                    form.find('.form-error').text('Enter phone number without +91 or 0');
-                    error = 1;
-                } else {
-                    $(this).removeClass('field-error');
-                }
-            });
 
-
+			$(form).find(".validate-tel").each(function(){
+				if(!/^([7-9])\d{9}$/.test($(this).val())){
+					$(this).addClass("field-error");
+					form.find(".form-error").text("Enter a valid phone number without +91 or 0");
+					error=1;
+				}else{
+					$(this).removeClass("field-error");
+				}
+			});
+			
+			$(form).find(".validate-text-only-letters").each(function(){
+				if(!/^([A-Za-z ]+)$/.test($(this).val())){
+					$(this).addClass("field-error");
+					error=1;
+				}else{
+					$(this).removeClass("field-error");
+				}
+			});
             if (!form.find('.field-error').length) {
                 form.find('.form-error').fadeOut(1000);
             }

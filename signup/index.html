@@ -67,8 +67,8 @@
                         <input type="text" class="validate-required" name="name" placeholder="Your Name">
                         <input type="text" class="validate-required validate-tel" name="number" placeholder="Phone Number">
                         <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
-                        <input type="text" class="validate-required" name="city" placeholder="City">
-                        <input type="text" class="validate-required" name="college" placeholder="College/University/School">
+                        <input type="text" class="validate-required validate-text-only-letters" name="city" placeholder="City">
+                        <input type="text" class="validate-required validate-text-only-letters" name="college" placeholder="College/University/School">
 
                         <div class="form-group">
                             Course :
@@ -114,18 +114,17 @@
                             <label>Courses Interested In</label>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
-                                    <div><input name="interested_courses" type="checkbox" value="launchpad" id="launchpad"> <label class="non-label" for="launchpad">Launchpad (C++ Programming Fundamentals)</label></div>
-                                    <div><input name="interested_courses" type="checkbox" value="crux" id="crux"> <label class="non-label" for="crux">Crux (Java Programming Fundamentals)</label></div>
-                                    <div><input name="interested_courses" type="checkbox" value="pandora" id="pandora"> <label class="non-label" for="pandora">Pandora (Android App Development)</label></div>
-                                    <div><input name="interested_courses" type="checkbox" value="elixir" id="elixir"> <label class="non-label" for="elixir">Elixir (Web Development in Javascript)</label></div>
-                                    <div><input name="interested_courses" type="checkbox" value="elixir" id="algo++"> <label class="non-label" for="algo++">Algo++ (Advanced DS and Algorithms)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox" value="launchpad" id="launchpad"> <label class="non-label" for="launchpad">Launchpad (C++ Programming Fundamentals)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox" value="crux" id="crux"> <label class="non-label" for="crux">Crux (Java Programming Fundamentals)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox" value="pandora" id="pandora"> <label class="non-label" for="pandora">Pandora (Android App Development)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox" value="elixir" id="elixir"> <label class="non-label" for="elixir">Elixir (Web Development in Javascript)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox" value="elixir" id="algo++"> <label class="non-label" for="algo++">Algo++ (Advanced DS and Algorithms)</label></div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
-                                    <div><input name="interested_courses" type="checkbox" value="django" id="django"> <label class="non-label" for="django">Django (Web Development in Python)</label></div>
-                                    <div><input name="interested_courses" type="checkbox" value="perceptron" id="preceptron"> <label class="non-label" for="preceptron">Perceptron (Machine Learning)</label></div>
-                                    <div><input name="interested_courses" type="checkbox" value="canvas" id="canvas"> <label class="non-label" for="canvas">Canvas (Game Development)</label></div>
-                                    <div><input name="interested_courses" type="checkbox" value="finalstep" id="finalstep"> <label class="non-label" for="finalstep">FinalStep (Interview Preparation)</label></div>
-
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox" value="django" id="django"> <label class="non-label" for="django">Django (Web Development in Python)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox" value="perceptron" id="preceptron"> <label class="non-label" for="preceptron">Perceptron (Machine Learning)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox" value="canvas" id="canvas"> <label class="non-label" for="canvas">Canvas (Game Development)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox" value="finalstep" id="finalstep"> <label class="non-label" for="finalstep">FinalStep (Interview Preparation)</label></div>
                                 </div>
                             </div>
 
