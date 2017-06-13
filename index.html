@@ -8,6 +8,7 @@
 			  India's best programming and software training institute offers courses in
 			  Java, C++, Android, NodeJS and more. Registration open for coding classes in Delhi."/>
 		<meta name="keywords" content="java lectures, coding lectures, programming classes, coding institute delhi, java training delhi, learn c++, learn nodejs, coding blocks, become ninja developer"/>
+		<meta name="google-site-verification" content="6wqL-hi8BLLoiiecXLRWlhPP3vpS6m3z4rb-6lAmNq4" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--<link href="css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" media="all">-->
@@ -47,6 +48,7 @@
 				flex-wrap: nowrap;
 				justify-content: center;
 				-webkit-justify-content:center;
+				clear:both;
 			}
 
 			.flex-item {
@@ -74,6 +76,7 @@
 
 		<script src="/js/jquery.min.js"></script>
 		<script src="/js/jquery.flip.min.js"></script>
+		<script src="/js/jquery.waypoints.min.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/fbpixel.js"></script>
 
@@ -235,8 +238,45 @@
 			<!-- SECTION: Home hero slider-->
 			<a id="home_hero_header" class="in-page-link"></a>
 			<section class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
-		        <ul class="slides">
-                      <li class="overlay image-bg">
+				<ul class="slides">
+					<!-- <li class="overlay image&#45;bg"> -->
+					<!-- 	<div class="background&#45;image&#45;holder"> -->
+					<!-- 		<img alt="Bountiful Open Source Summer" class="background&#45;image" src="img/cb/cover/cover_admission.png"> -->
+					<!-- 	</div> -->
+                    <!--  -->
+					<!-- 	<div class="container v&#45;align&#45;transform"> -->
+					<!-- 		<div class="row text&#45;center"> -->
+					<!-- 			<div class="col&#45;md&#45;10 col&#45;md&#45;offset&#45;1"> -->
+					<!-- 				<h2 class="mb&#45;xs&#45;16">Coders' Admission &#38;amp; Scholarship Test for Greater Noida Students!</h2> -->
+					<!-- 				<p class="bold lead mb60">CAST is back for Greater Noida Students. Register for the test and get upto 75% scholarship on foundation courses. <br></p> -->
+					<!-- 				<a class="btn btn&#45;lg btn&#45;filled" href="https://cb.lk/castgrn">Register Now</a> -->
+					<!-- 			</div> -->
+					<!-- 		</div> -->
+					<!-- 	</div> -->
+					<!-- </li> -->
+
+					<li class="overlay image-bg">
+						<div class="background-image-holder">
+							<img alt="Bountiful Open Source Summer" class="background-image" src="img/cb/cover/cover_online.jpg">
+						</div>
+
+						<div class="container v-align-transform">
+							<div class="row text-center">
+								<div class="col-md-10 col-md-offset-1">
+									<h2 class="mb-xs-16">India's BEST Online Course starting June 5, Avail 50% Early Bird OFF!</h2>
+									<p class="bold lead mb60">LIVE Online course on programming fundamentals, data-structures and algorithms in C++ with spl Java Sessions<br></p>
+
+									<a class="btn btn-lg" href="https://codingblocks.com/courses/launchpad-online.html">Know More</a>
+
+
+								</div>
+
+							</div>
+						</div>
+
+					</li>
+
+					<li class="overlay image-bg">
 						<div class="background-image-holder">
 							<img alt="Bountiful Open Source Summer" class="background-image" src="img/cb/cover/cover_kids.jpg">
 						</div>
@@ -246,11 +286,9 @@
 									<h2 class="mb-xs-16">Summer Coding Courses for Kids</h2>
 									<p class="bold lead mb60">Introduce your kids to the most important Skill of 21st century- CODING ! <br>Know more about </p>
 
-
 									<a class="btn btn-lg btn-filled" href="https://codingblocks.com/courses/code4kids.html">Code4Geeks</a>
 
-                                    <a class="btn btn-lg " href="https://codingblocks.com/courses/mathsgeeks.html">Math Geeks</a>
-
+									<a class="btn btn-lg " href="https://codingblocks.com/courses/mathsgeeks.html">Math Geeks</a>
 								</div>
 
 							</div>
@@ -258,49 +296,7 @@
 
 					</li>
 
-
-                    	<li class="overlay image-bg">
-						<div class="background-image-holder">
-							<img alt="Bountiful Open Source Summer" class="background-image" src="img/cb/cover/cover_admission.png">
-						</div>
-
-						<div class="container v-align-transform">
-							<div class="row text-center">
-								<div class="col-md-10 col-md-offset-1">
-									<h2 class="mb-xs-16">Coders' Admission &amp; Scholarship Test for Greater Noida Students!</h2>
-									<p class="bold lead mb60">CAST is back for Greater Noida Students. Register for the test and get upto 75% scholarship on foundation courses. <br></p>
-									<a class="btn btn-lg btn-filled" href="https://cb.lk/castgrn">Register Now</a>
-
-                  
-								</div>
-							</div>
-						</div>
-
-
-					</li>
-
-                        <li class="overlay image-bg">
-						<div class="background-image-holder">
-							<img alt="Bountiful Open Source Summer" class="background-image" src="img/cb/cover/cover_online.jpg">
-						</div>
-
-						<div class="container v-align-transform">
-							<div class="row text-center">
-								<div class="col-md-10 col-md-offset-1">
-									<h2 class="mb-xs-16">ONLINE Coding Courses starting soon!</h2>
-									<p class="bold lead mb60">Online courses on data-structures, algorithms, Game Development launching soon! <br></p>
-
-									<a class="btn btn-lg" href="/coming-soon.html">Know More</a>
-
-
-								</div>
-
-							</div>
-						</div>
-
-					   </li>
-
-                    	<li class="overlay image-bg">
+					<li class="overlay image-bg">
 						<div class="background-image-holder">
 							<img alt="Bountiful Open Source Summer" class="background-image" src="img/cb/cover/boss2.jpg">
 						</div>
@@ -313,7 +309,7 @@
 
 									<a class="btn btn-lg btn-filled" href="/boss">Get Involved</a>
 
-                                    <a class="btn btn-lg " href="http://boss.codingblocks.com">View Leaderboard</a>
+									<a class="btn btn-lg " href="http://boss.codingblocks.com">View Leaderboard</a>
 								</div>
 
 							</div>
@@ -327,102 +323,101 @@
 
 
 
-                  <li class="overlay image-bg">
-		                <div class="background-image-holder">
-		                    <img alt="Competitive Coding Bootcamp" class="background-image" src="img/cb/cover/algo_2.jpg">
-		                </div>
-		                <div class="container v-align-transform">
-		                    <div class="row text-center">
-		                        <div class="col-md-10 col-md-offset-1">
-                                    <h2 class="mb-xs-16">Competitive Coding<br></h2><h4>Master Competitive Programming Technqiques</h4>
-		                            <p class="bold lead mb40">Get prepared for ACM-ICPC &amp; APAC<br></p>
+					<li class="overlay image-bg">
+						<div class="background-image-holder">
+							<img alt="Competitive Coding Bootcamp" class="background-image" src="img/cb/cover/algo_2.jpg">
+						</div>
+						<div class="container v-align-transform">
+							<div class="row text-center">
+								<div class="col-md-10 col-md-offset-1">
+									<h2 class="mb-xs-16">Competitive Coding<br></h2><h4>Master Competitive Programming Technqiques</h4>
+									<p class="bold lead mb40">Get prepared for ACM-ICPC &amp; APAC<br></p>
 
-		                            <a class="btn btn-lg" href="http://codingblocks.com/bootcamps/competitiveprogramming.html">Know More</a>
-		                            <a class="btn btn-lg btn-filled" href="http://codingblocks.com/bootcamps/competitiveprogramming.html#tickets">Register Now</a>
-		                        </div>
-		                    </div>
-		                </div>
+									<a class="btn btn-lg" href="http://codingblocks.com/bootcamps/competitiveprogramming.html">Know More</a>
+									<a class="btn btn-lg btn-filled" href="http://codingblocks.com/bootcamps/competitiveprogramming.html#tickets">Register Now</a>
+								</div>
+							</div>
+						</div>
 
 
-                    
+						<li class="overlay image-bg">
+							<div class="background-image-holder">
+								<img alt="Summer Admissions in C++, Java, Android and Web training classes" class="background-image" src="img/cb/cover/summer_admissions_cool.jpg">
+							</div>
+							<div class="container v-align-transform">
+								<div class="row text-center">
+									<div class="col-md-10 col-md-offset-1">
+										<h2 class="mb-xs-16">Come, fall in LOVE with CODING this summer!<br></h2>
+										<p class="bold lead mb40"><br>Admissions Open
+											for Summer Courses &amp; Bootcamps</p>
+										<a class="btn btn-lg" href="#home_courses">View Courses</a>
+										<a class="btn btn-lg btn-filled" href="/signup">Sign Up</a>
+									</div>
+								</div>
+							</div>
+						</li>
 
-                    <li class="overlay image-bg">
-		                <div class="background-image-holder">
-		                    <img alt="Summer Admissions in C++, Java, Android and Web training classes" class="background-image" src="img/cb/cover/summer_admissions_cool.jpg">
-		                </div>
-		                <div class="container v-align-transform">
-		                    <div class="row text-center">
-		                        <div class="col-md-10 col-md-offset-1">
-		                            <h2 class="mb-xs-16">Come, fall in LOVE with CODING this summer!<br></h2>
-		                            <p class="bold lead mb40"><br>Admissions Open
-                                        for Summer Courses &amp; Bootcamps</p>
-		                            <a class="btn btn-lg" href="#home_courses">View Courses</a>
-		                            <a class="btn btn-lg btn-filled" href="/signup">Sign Up</a>
-		                        </div>
-		                    </div>
-		                </div>
-		            </li>
+						<!--
+						<li class="overlay image-bg">
+							<div class="background-image-holder">
+								<img alt="image" class="background-image" src="img/cb/cover/cover3.jpg">
+							</div>
+							<div class="container v-align-transform">
+								<div class="row text-center">
+									<div class="col-md-10 col-md-offset-1">
+										<h2 class="mb-xs-16">Code your way to success<br></h2>
+										<p class="bold lead mb40 bold">Join us to learn the most important skill of 21st Century - Coding<br>Courses starting at new centers Amritsar, Jalandhar, Kurukshetra, Surat and Kolkata Centers</p>
+										<a class="btn btn-lg" href="#home_why_coding">Why Coding ?</a>
+										<a class="btn btn-lg btn-filled" href="/signup">Sign Up</a>
+									</div>
+								</div>
 
-                    <!--
-		            <li class="overlay image-bg">
-		                <div class="background-image-holder">
-		                    <img alt="image" class="background-image" src="img/cb/cover/cover3.jpg">
-		                </div>
-		                <div class="container v-align-transform">
-		                    <div class="row text-center">
-		                        <div class="col-md-10 col-md-offset-1">
-		                            <h2 class="mb-xs-16">Code your way to success<br></h2>
-		                            <p class="bold lead mb40 bold">Join us to learn the most important skill of 21st Century - Coding<br>Courses starting at new centers Amritsar, Jalandhar, Kurukshetra, Surat and Kolkata Centers</p>
-		                            <a class="btn btn-lg" href="#home_why_coding">Why Coding ?</a>
-		                            <a class="btn btn-lg btn-filled" href="/signup">Sign Up</a>
-		                        </div>
-		                    </div>
+							</div>
 
-		                </div>
+							</li><li class="overlay image-bg">
+							<div class="background-image-holder">
+								<img alt="image" class="background-image" src="img/cb/cover/cover4.jpg">
+							</div>
+							<div class="container v-align-transform">
+								<div class="row text-center">
+									<div class="col-md-10 col-md-offset-1">
+										<h2 class="mb-xs-16">Learn from professionals<br></h2>
+										<p class="bold lead mb40">Guidance from industry experts who have worked at Facebook, Directi, SONY, Cyanogen, Sandisk and Micromax<br></p>
+										<a class="btn btn-lg" href="#home_team">Our Team</a>
+										<a class="btn btn-lg btn-filled" href="/signup">Sign Up</a>
+									</div>
+								</div>
 
-		            </li><li class="overlay image-bg">
-		                <div class="background-image-holder">
-		                    <img alt="image" class="background-image" src="img/cb/cover/cover4.jpg">
-		                </div>
-		                <div class="container v-align-transform">
-		                    <div class="row text-center">
-		                        <div class="col-md-10 col-md-offset-1">
-		                            <h2 class="mb-xs-16">Learn from professionals<br></h2>
-		                            <p class="bold lead mb40">Guidance from industry experts who have worked at Facebook, Directi, SONY, Cyanogen, Sandisk and Micromax<br></p>
-		                            <a class="btn btn-lg" href="#home_team">Our Team</a>
-		                            <a class="btn btn-lg btn-filled" href="/signup">Sign Up</a>
-		                        </div>
-		                    </div>
+							</div>
 
-		                </div>
-
-		            </li>
+						</li>
 
 
 
-                    <li class="overlay image-bg">
-		                <div class="background-image-holder">
-		                    <img alt="image" class="background-image" src="img/cb/cover/cover5.jpg">
-		                </div>
-		                <div class="container v-align-transform">
-		                    <div class="row text-center">
-		                        <div class="col-md-10 col-md-offset-1">
-		                            <h2 class="mb-xs-16">Courses designed for the industry<br></h2>
-		                            <p class="bold lead mb40">Learn the cutting edge skills that are required in modern software development<br></p>
-		                            <a class="btn btn-lg" href="#home_courses">View Courses</a>
-		                            <a class="btn btn-lg btn-filled" href="/signup">Sign Up</a>
-		                        </div>
-		                    </div>
+						<li class="overlay image-bg">
+							<div class="background-image-holder">
+								<img alt="image" class="background-image" src="img/cb/cover/cover5.jpg">
+							</div>
+							<div class="container v-align-transform">
+								<div class="row text-center">
+									<div class="col-md-10 col-md-offset-1">
+										<h2 class="mb-xs-16">Courses designed for the industry<br></h2>
+										<p class="bold lead mb40">Learn the cutting edge skills that are required in modern software development<br></p>
+										<a class="btn btn-lg" href="#home_courses">View Courses</a>
+										<a class="btn btn-lg btn-filled" href="/signup">Sign Up</a>
+									</div>
+								</div>
 
-		                </div>
+							</div>
 
-		            </li>
-                    -->
-		        </ul>
+						</li>
+						-->
+					</ul>
+
 		    </section><a id="home_why_coding" class="in-page-link"></a>
 
 			<!-- SECTION: Why Coding Blocks -->
-
+			<a id="why_cb" class="in-page-link"></a>
 			<section class="pb-sm-24">
 				<div class="container">
 					<div class="row">
@@ -483,6 +478,51 @@
 
 			</section>
 
+			<!-- SECTION: New Stuff -->
+			<a id="home_online" class="in-page-link"></a>
+			<section>
+				<div class="container">
+					<div class="row">
+						<br><br>
+						<div class="col-sm-4 pull-right col-xs-12">
+							<img src="img/cb/code_4_kids.jpg" alt="Code 4 Kids" class="img-responsive">
+						</div>
+						<div class="col-sm-8 text-center col-xs-12">
+							<br><br><br>
+							<p><!-- To give line break in mobile view--></p>
+							<h3 class="uppercase mb16">COURSES FOR KIDS</h3>
+							<p class="lead mb64">
+								Exciting courses for schools kids starting this Summers ( June 17 )
+							</p>
+							<a class="btn btn-white btn-filled btn-lg" href="/courses/code4kids.html">Know More</a>
+
+						</div>
+
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<br><br>
+						<div class="col-sm-4 col-xs-12">
+							<img src="img/cb/online_courses.jpg" alt="Online Courses" class="img-responsive">
+						</div>
+						<div class="col-sm-8 col-xs-12 text-center">
+							<br><br><br>
+							<p><!-- To give line break in mobile view--></p>
+							<h3 class="uppercase mb16">ONLINE COURSES </h3>
+							<p class="lead mb64">
+								Launchpad online course on Data Structures &amp; Algorithms starting from June 5.
+								Enroll before 1st June and get 50% OFF on course fee.
+							</p>
+							<a class="btn btn-white btn-filled btn-lg" href="/courses/launchpad-online.html">Know More</a>
+
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+
 			<!-- SECTION: Courses -->
 			<a id="home_courses" class="in-page-link"></a>
 			<section>
@@ -499,7 +539,7 @@
 					<div class="row">
 						<div class="pricing-card pricing-card-inverse col-md-4 col-sm-6">
 							<div class="pricing-table pt-2 text-center boxed">
-								<img alt="C++ course logo" class="course logo" src="img/cb/logosc/color_cpp.png">
+								<img alt="C++ course logo" class="course logo" src="img/cb/logosc/color_cpp.svg">
 								<h4 class="uppercase bold">Launchpad</h4>
 								<span class="price">₹17,000</span>
 								<p class="lead">(24-26 lectures)</p>
@@ -521,7 +561,7 @@
 						</div>
 						<div class="pricing-card col-md-4 col-sm-6">
 							<div class="pricing-table pt-2 text-center">
-								<img alt="Java course logo" class="course logo" src="img/cb/logosc/color_java.png">
+								<img alt="Java course logo" class="course logo" src="img/cb/logosc/color_java.svg">
 								<h4 class="uppercase bold">Crux</h4>
 								<span class="price">₹17,000</span>
 								<p class="lead">(24-26 Lectures)</p>
@@ -545,7 +585,7 @@
 						</div>
 						<div class="pricing-card pricing-card-inverse col-md-4 col-sm-6">
 							<div class="pricing-table pt-2 text-center boxed">
-								<img alt="The android logo" class="course logo" src="img/cb/logosc/color_android.png">
+								<img alt="The android logo" class="course logo" src="img/cb/logosc/color_android.svg">
 								<h4 class="uppercase bold">Pandora</h4>
 								<span class="price">₹20,000</span>
 								<p class="lead">(22 Lectures)</p>
@@ -569,7 +609,7 @@
 						</div>
 						<div class="pricing-card col-sm-6 col-md-4">
 							<div class="pricing-table pt-2 text-center">
-								<img alt="NodeJS Course logo" class="course logo" src="img/cb/logosc/color_nodejs.png">
+								<img alt="NodeJS Course logo" class="course logo" src="img/cb/logosc/color_nodejs.svg">
 								<h4 class="uppercase bold">Elixir</h4>
 								<span class="price">₹20,000</span>
 								<p class="lead">(22 Lectures)</p>
@@ -593,7 +633,7 @@
 						</div>
 						<div class="pricing-card pricing-card-inverse col-md-4 col-sm-6">
 							<div class="pricing-table pt-2 text-center boxed">
-								<img alt="Python course logo" class="course logo" src="img/cb/logosc/color_algo.png">
+								<img alt="Python course logo" class="course logo" src="img/cb/logosc/color_algo.svg">
 								<h4 class="uppercase bold">Algo++</h4>
 								<span class="price">₹10,000</span>
 								<p class="lead">(15 Lectures)</p>
@@ -616,10 +656,9 @@
 							</div>
 
 						</div>
-
 						<div class="pricing-card col-sm-6 col-md-4">
 							<div class="pricing-table pt-2 text-center">
-								<img alt="Machine Learning course logo" class="course logo" src="img/cb/logosc/color_ml.png">
+								<img alt="Machine Learning course logo" class="course logo" src="img/cb/logosc/color_ml.svg">
 								<h4 class="uppercase bold">PERCEPTRON</h4>
 								<span class="price">₹22,000</span>
 								<p class="lead">(25 Lectures)<br></p>
@@ -646,6 +685,7 @@
 				</div>
 			</section>
 			<!-- SECTION: BootCamps -->
+			<a id="home_bootcamps" class="in-page-link"></a>
 			<section>
 				<div class="container">
 					<div class="row">
@@ -661,8 +701,9 @@
 
 						<div class="pricing-card pricing-card-inverse col-md-4 col-sm-6">
 							<div class="pricing-table pt-2 text-center boxed">
-								<img alt="Competitive Programming course logo" class="course logo" src="img/cb/logosc/color_cp.png">
-								<h4 class="uppercase bold">Competitive Coding</h4>
+
+								<img alt="Competitive Programming course logo" class="course logo" src="img/cb/logosc/color_cp.svg">
+                <h4 class="uppercase bold">Competitive Coding</h4>
 								<span class="price">₹5,000</span>
 								<p class="lead">(8 lectures)</p>
 								<a class="btn btn-white btn-filled btn-lg" href="/bootcamps/competitiveprogramming.html">See Details</a>
@@ -684,7 +725,7 @@
 						</div>
 						<div class="pricing-card col-md-4 col-sm-6">
 							<div class="pricing-table pt-2 text-center">
-								<img alt="Machine Learning Bootcamp logo" class="course logo" src="img/cb/logosc/color_ml2.png">
+								<img alt="Machine Learning Bootcamp logo" class="course logo" src="img/cb/logosc/color_ml2.svg">
 								<h4 class="uppercase bold">Machine<br />Learning</h4>
 								<span class="price">₹5,000</span>
 								<p class="lead">(8 Lectures)</p>
@@ -708,7 +749,7 @@
 						</div>
 						<div class="pricing-card pricing-card-inverse col-md-4 col-sm-6">
 							<div class="pricing-table pt-2 text-center boxed">
-								<img alt="Game Development Bootcamp Logo" class="course logo" src="img/cb/logosc/color_game.png">
+								<img alt="Game Development Bootcamp Logo" class="course logo" src="img/cb/logosc/color_game.svg">
 								<h4 class="uppercase bold">Game Development</h4>
 								<span class="price">₹5,000</span>
 								<p class="lead">(8 Lectures)</p>
@@ -733,7 +774,7 @@
 						</div>
 						<div class="pricing-card col-sm-6 col-md-4">
 							<div class="pricing-table pt-2 text-center">
-								<img alt="Chatbots Bootcamp Logo" class="course logo" src="img/cb/logosc/color_chatbots.png">
+								<img alt="Chatbots Bootcamp Logo" class="course logo" src="img/cb/logosc/color_chatbots.svg">
 								<h4 class="uppercase bold">ChatBots and automation</h4>
 								<span class="price">₹5,000</span>
 								<p class="lead">(5 Lectures)</p>
@@ -781,7 +822,7 @@
 						</div>
 						<div class="pricing-card col-sm-6 col-md-4">
 							<div class="pricing-table pt-2 text-center">
-								<img alt="Reactjs bootcamp logo" class="course logo" src="img/cb/logosc/color_react.png">
+								<img alt="Reactjs bootcamp logo" class="course logo" src="img/cb/logosc/color_react.svg">
 								<h4 class="uppercase bold">ReactJS <br />Bootcamp</h4>
 								<span class="price">₹5,000</span>
 								<p class="lead">(8 Lectures)</p>
@@ -808,52 +849,53 @@
 					</div>
 				</div>
 
-				<div class="container">
-            				<div class="row">
-                				<br><br>
-                				<div class="col-sm-4 pull-right col-xs-12">
-                    					<img src="img/cb/code_4_kids.jpg" alt="Code 4 Kids" class="img-responsive">
-								</div>
-                				<div class="col-sm-8 text-center col-xs-12">
-                    					<br><br><br>
-									<p><!-- To give line break in mobile view--></p>
-                    					<h3 class="uppercase mb16">COURSES FOR KIDS</h3>
-                    					<p class="lead mb64">
-                        					Exciting courses for schools kids starting this Summers ( June 17 )
-											</p>
-									<a class="btn btn-white btn-filled btn-lg" href="/courses/code4kids.html">Know More</a>
+			</section>
+			<!-- SECTION: Numbers-->
+			<section>
+				<div class="container numbers-container">
+					<div class="row text-center">
+						<a id="home_numbers" class="in-page-link"></a>
+						<h2 class="uppercase color-primary">NUMBERS SPEAK LOUDER<br></h2>
+					</div>
 
-								</div>
-		
-            				</div>
-        			</div>
+					<div class="row">
+						<div class="col-sm-3 text-center numbers-box">
+							<div class="feature bordered mb30">
+								<h5 class="uppercase bold">Students</h5>
+								<div class="numbers-value">5200</div>
+								<h5>Trained for software development</h5>
+							</div>
+						</div>
 
+						<div class="col-sm-3 text-center numbers-box">
+							<div class="feature bordered mb30">
+								<h5 class="uppercase bold">Years</h5>
+								<div class="numbers-value">55</div>
+								<h5>Collective Teaching Experience</h5>
+							</div>
+						</div>
 
-        			<div class="container">
-            				<div class="row">
-                				<br><br>
-                				<div class="col-sm-4 col-xs-12">
-                    					<img src="img/cb/online_courses.jpg" alt="Online Courses" class="img-responsive">
-                				</div>
-                				<div class="col-sm-8 col-xs-12 text-center">
-				                	<br><br><br>
-										<p><!-- To give line break in mobile view--></p>
-                    					<h3 class="uppercase mb16">ONLINE COURSES </h3>
-                    					<p class="lead mb64">
-											Launchpad online course on Data Structures &amp; Algorithms starting from June 5.
-											Enroll before 1st June and get 50% OFF on course fee.
-										</p>
-                        					<a class="btn btn-white btn-filled btn-lg" href="/courses/lpvsat.html">Know More</a>
+						<div class="col-sm-3 text-center numbers-box">
+							<div class="feature bordered mb30">
+								<h5 class="uppercase bold">Success Stories</h5>
+								<div class="numbers-value">1000</div>
+								<h5>Interns and Jobs at top global companies&nbsp;</h5>
+							</div>
+						</div>
 
-				                </div>
-            				</div>
-        			</div>
+						<div class="col-sm-3 text-center numbers-box">
+							<div class="feature bordered mb30">
+								<h5 class="uppercase bold">Projects</h5>
+								<div class="numbers-value">30</div>
+								<h5>Live open projects built by us and our students</h5>
+							</div>
+						</div>
 
+					</div>
 
-
+				</div>
 
 			</section>
-
 			<!-- SECTION: Team -->
 			<a id="home_team" class="in-page-link"></a>
 			<section class="bg-secondary">
@@ -863,7 +905,9 @@
 						<br><br>
 					</div>
 				</div>
-				<div class="container">
+				<div class="container team-xs visible-xs">
+				</div>
+				<div class="container hidden-xs">
 					<div class="team row text-center">
 						<!-- Manmohan Gupta -->
 						<div class="flip-card col-sm-6 col-md-3">
@@ -878,6 +922,13 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="title mb16">
+									<div class="img-holder">
+										<img alt="Manmohan Gupta" src="img/cb/team/wmanmohan.jpg">
+									</div>
+									<h5 class="uppercase mb0 bold">Manmohan Gupta<br></h5>
+									<span>Founder </span>
+								</div>
 								<p class="mb0">
 									Manmohan Gupta (Munna Bhaiya), an IIT-Delhi graduate, is an ace programmer,
 									technocrat, an entrepreneurial doyen and a mathematician. He has co-founded Software giant,
@@ -900,6 +951,14 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Brij Mohan" src="img/cb/team/c_badebhayia.jpg">
+								</div>
+								<div class="title mb16">
+									<h5 class="uppercase mb0 bold">Brij Mohan<br></h5>
+									<span>Co-founder</span>
+								</div>
+
 								<p class="mb0">
 									Brij Mohan or Bade bhaiya, as everyone calls him, is always full of energy and
 									keeps everyone on feet with his motivation. He has vast experience of teaching
@@ -927,6 +986,16 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Anushray Gupta" src="img/cb/team/wanushray.jpg">
+								</div>
+
+								<div class="title mb16">
+
+									<h5 class="uppercase mb0 bold">Anushray Gupta<br></h5>
+									<span>Co-founder</span>
+								</div>
+
 								<p class="mb0">
 									A code lover, with an undying passion for teaching, Anushray has done his Bachelor’s
 									in CSE from IIIT Hyderabad. He has worked with major tech companies like Facebook and
@@ -951,6 +1020,14 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Priyanshu Agrawal" src="img/cb/team/wpriyanshu.jpg">
+								</div>
+								<div class="title mb16">
+									<h5 class="uppercase mb0 bold">Priyanshu Agrawal</h5>
+									<span>Founding Member</span>
+								</div>
+
 								<p class="mb0">
 									Priyanshu did his bachelors in Computer Science and is a MBA graduate from MDI, Gurgaon. He has experience of working in Management &amp; Consulting domain with Boston Analytics &amp; Novozymes. He has also worked for Vidyamandir Classes and Nagarro in the past.
 								</p>
@@ -971,6 +1048,14 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Arnav Gupta" src="img/cb/team/warnav.jpg">
+								</div>
+								<div class="title mb16">
+									<h5 class="uppercase mb0 bold">Arnav Gupta<br></h5>
+									<span> Founding Member</span>
+								</div>
+
 								<p class="mb0">
 									Arnav Gupta, also popular as @ChampionSwimmer, is an acclaimed Android developer and two timer GSoC-er. He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf. He has also worked with Sony, Micromax, Cyanogen and the likes.Arnav has also active contributed int the development of Android OS, Linux Kernel and will also be mentoring students in GSoC’17.
 								</p>
@@ -988,6 +1073,14 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Prateek Narang" src="img/cb/team/wprateek.jpg">
+								</div>
+								<div class="title mb16">
+									<h5 class="uppercase mb0 bold">Prateek Narang</h5>
+									<span> Founding Member</span>
+								</div>
+
 								<p class="mb0">
 									Passionate about teaching, Prateek is a CS graduate from DTU. He has previously worked with SanDisk, HackerEarth. He has also won various hackathons including Google’s Code For India, Smart City Hackathon, qualified ACM-ICPC regionals and published papers in International Journals. His interactive CV (www.prateeknarang.com) is also popular in 120+ countries.
 								</p>
@@ -1005,6 +1098,14 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Sumeet Malik" src="img/cb/team/wsumeet.jpg">
+								</div>
+								<div class="title mb16">
+									<h5 class="uppercase mb0 bold">Sumeet Malik<br></h5>
+									<span>Founding Member</span>
+								</div>
+
 								<p class="mb0">
 									Sumeet a CS graduade from PEC, has more than 7 years of
 									industry experience at software giants like Nagarro in various technologies like
@@ -1028,13 +1129,21 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Rajesh Sachdev" src="img/cb/team/wrajesh.jpg">
+								</div>
+								<div class="title mb16">
+									<h5 class="uppercase mb0 bold">Rajesh Sachdev</h5>
+									<span>Programme Designer</span>
+								</div>
+
 								<p class="mb0">
 									Rajesh has 20+ years of experience in IT/Corporate sector. He has previously worked with corporates like Nagarro, Cadence, American Express. He left IT industry in 2013 and moved to education with a passion to help students accomplishing their career goals. He did MS from BITS Pilani.
 								</p>
 							</div>
 						</div>
 					</div>
-					 <div class="team row text-center">
+					<div class="team row text-center">
 
 						<div class="flip-card col-sm-6 col-md-3">
 							<div class="front">
@@ -1047,6 +1156,14 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Pic" src="img/cb/team/wankit.jpg"/>
+								</div>
+								<div class="title mb16">
+									<h5 class="uppercase mb0 bold">Ankit Malik<br></h5>
+									<span> Mentor</span>
+								</div>
+
 								<p class="mb0">
 									IIT Delhi graduate passionate about web application design and web programming.
 									Has worked with companies like Facebook, Barclays and WorldQuant. Co-founder of a technology consultancy firm with 3+ years experience of building data-intensive web solutions for US based pharma cos.
@@ -1064,6 +1181,14 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Pic" src="img/cb/team/wvarun.jpg">
+								</div>
+								<div class="title mb16">
+									<h5 class="uppercase mb0 bold">Varun Kohli</h5>
+									<span>Operations &amp; Business Head</span>
+								</div>
+
 								<p class="mb0">
 									Has been associated with the IT industry for almost 10 years &amp; has served various roles in multiple domains. He has exhaustive experience in Software products, Business intelligence &amp; business development.
 								</p>
@@ -1080,6 +1205,14 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Pic" src="img/cb/team/wharpreet.jpg">
+								</div>
+								<div class="title mb16">
+									<h5 class="uppercase mb0 bold">Harpreet Singh</h5>
+									<span>Mentor</span>
+								</div>
+
 								<p class="mb0">
 									Harpreet has worked on several Enterprise level applications  and has successfully piloted several Startups. He did his B. Tech in Computers from UIET, Kurukshetra in 2013. He now dedicates his energy and experience to students to make them superb programmers.
 								</p>
@@ -1097,6 +1230,14 @@
 								</div>
 							</div>
 							<div class="back">
+								<div class="img-holder">
+									<img alt="Pic" src="img/cb/team/wnipun.jpg">
+								</div>
+								<div class="title mb16">
+									<h5 class="uppercase mb0 bold">Nipun Jain</h5>
+									<span>Mentor</span>
+								</div>
+
 								<p class="mb0">
 									Nipun is an ace Android programmer and has several highly trending Apps to his credit. Nipun has around 6+ years of Industry experience in Software giants, beyond which he opted for teaching to pursue his passion
 								</p>
@@ -1105,8 +1246,15 @@
 					</div>
 
 				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center btn-banner">
+							<a class="btn btn-white btn-filled btn-lg" href="team.html">Meet The Team!</a>
+						</div>
+					</div>
+				</div>
 
-				<div class="flex-container">
+				<div class="flex-container affiliated-company-container">
 
 					<div class="flex-item"><img alt="Facebook" src="img/cb/logos/fb_icon.png"></div>
 					<div class="flex-item"><img alt="Browserstack" src="img/cb/logos/r_browserstack.jpg"></div>
@@ -1118,14 +1266,6 @@
 
 
 				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<br><br><br><br><br>
-							<a class="btn btn-white btn-filled btn-lg" href="team.html">Know More</a>
-					</div>
-				</div>
-			</div>
 
 			</section>
 
@@ -1142,7 +1282,9 @@
 					<div class="row">
 						<div class="col-sm-4 text-center">
 							<div class="user-story feature boxed cast-shadow-light">
-								<img alt="Piyush coding blocks review" class="image-small inline-block mb24" src="img/cb/student/piyush.jpg">
+								<div class="img-container text-center">
+									<img alt="Piyush coding blocks review" class="image-small img-thumbnail inline-block mb24" src="img/cb/student/piyush.jpg">
+								</div>
 								<h4>"Difficult Problems now a CakeWalk !"</h4>
 								<p> I had no background in coding. After the course, I feel more confident. Sumeet sir made difficult algorithms look like a cakewalk.I also enrolled for Android Course, and its amazing too. Coding Blocks defined my love for Coding.
 								</p>
@@ -1152,7 +1294,9 @@
 						</div>
 						<div class="col-sm-4 text-center">
 							<div class="user-story feature boxed cast-shadow-light">
-								<img alt="Manish codingblocks review" class="image-small inline-block mb24" src="img/cb/student/manish_m.jpg">
+								<div class="img-container text-center">
+									<img alt="Manish codingblocks review" class="image-small img-thumbnail inline-block mb24" src="img/cb/student/manish_m.jpg">
+								</div>
 								<h4>"Cracked Amazon the next day!"</h4>
 								<p>
 									I used to lag in C++ basics, but with Prateek Bhayia as my mentor I saw great improvement in coding style and problem solving approach.Just after the day of my course completion, I got internship offer from Amazon.
@@ -1162,7 +1306,9 @@
 							</div>
 							</div><div class="col-sm-4 text-center">
 							<div class="user-story feature boxed cast-shadow-light">
-								<img alt="Bhavyaa Coding Blocks review" class="image-small inline-block mb24" src="img/cb/student/bhavyaa.jpg">
+								<div class="img-container text-center">
+									<img alt="Bhavyaa Coding Blocks review" class="image-small img-thumbnail inline-block mb24" src="img/cb/student/bhavyaa.jpg">
+								</div>
 								<h4>"Really Good Experience"</h4>
 								<p>
 									I had a really good experience studying at Coding Blocks. Coding Blocks helped in a shaping solution building approach. Classes are held regularly and we practiced a lot. My only regret is not joining Coding Blocks earlier.
@@ -1191,62 +1337,13 @@
 			</div>
 
 
-
-
-			<!-- SECTION: Numbers-->
-			<section>
-				<div class="container">
-						<div class="row text-center">
-							<a id="home_numbers" class="in-page-link"></a>
-							<h2 class="uppercase color-primary">NUMBERS SPEAK LOUDER<br></h2>
-						</div>
-
-						<div class="row">
-							<div class="col-sm-3 text-center">
-								<div class="feature bordered mb30">
-									<h5 class="uppercase bold">Students</h5>
-									<div class="numbers-value">5200</div>
-									<h5>Trained for software development</h5>
-								</div>
-							</div>
-
-							<div class="col-sm-3 text-center">
-								<div class="feature bordered mb30">
-									<h5 class="uppercase bold">Years</h5>
-									<div class="numbers-value">55</div>
-									<h5>Collective Teaching Experience</h5>
-								</div>
-							</div>
-
-							<div class="col-sm-3 text-center">
-								<div class="feature bordered mb30">
-									<h5 class="uppercase bold">Success Stories</h5>
-									<div class="numbers-value">1000</div>
-									<h5>Interns and Jobs at top global companies&nbsp;</h5>
-								</div>
-							</div>
-
-							<div class="col-sm-3 text-center">
-								<div class="feature bordered mb30">
-									<h5 class="uppercase bold">Projects</h5>
-									<div class="numbers-value">30</div>
-									<h5>Live open projects built by us and our students</h5>
-								</div>
-							</div>
-
-					</div>
-
-				</div>
-
-			</section>
-
 			<!-- SECTION : Map-->
 			<a id="home_map" class="in-page-link"></a>
 			<section class="image-square right">
 				<div class="map-container">
 					<div class="col-md-6 p0 image">
 						<div class="map-canvas" data-address="
-							Red Fort, New Delhi[nomarker];
+							Laxmi Nagar, New Delhi[nomarker];
 							3, Pocket 3, Sector 11, Dwarka;
 							47, Nishant Kunj, New Delhi;
 							1090, Block C, Sushant Lok I;
@@ -1286,9 +1383,25 @@
 				$('.flip-card').flip({
 					axis: 'y',
 					trigger: 'hover'
+				}).waypoint(function (direction) {
+					$(this.element).flip(direction == 'down');
+                }, {
+				    offset: '40%'
 				})
 			})
+
 		</script>
 
+		<div class="phone-button">
+			<a href="tel:18002744504">
+				<i class="fa fa-phone fa-2x"></i>
+			</a>
+		</div>
+
+		<div class="scroll-to-top">
+			<a href="#top">
+				<i class="fa fa-arrow-circle-o-up fa-3x"></i>
+			</a>
+		</div>
 	</body>
 </html>
