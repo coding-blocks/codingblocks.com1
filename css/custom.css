@@ -178,7 +178,7 @@ p.lead {
   background: red;
   color: white;
   font-weight: bold;
-  margin-left: 0.75rem;
+  margin-left: 0.5rem;
 }
 
 .contact-us-dropdown a[target="_self"] .fa {
