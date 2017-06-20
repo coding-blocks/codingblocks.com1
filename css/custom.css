@@ -2,78 +2,89 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Nunito:400,400i,500,700,700i|Raleway:400,400i,500,700,700i');
 
 body {
-	font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+    font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
+
 p.lead {
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 17px;
-	font-weight: 500;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 .button-tabs .tab-title span {
-	font-size: 14px;
-	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 500;
-	letter-spacing: 0.5ch;
+    font-size: 14px;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5ch;
 }
 
 .button-tabs.vertical > .content {
-	width: 70%;
+    width: 70%;
 }
+
 .leaf {
-  display: none !important;
+    display: none !important;
 }
 
 .location-cards {
-  font-size-adjust: 0.625;
+    font-size-adjust: 0.625;
 }
 
 /* Prices */
 .old-price {
-	font-size: 2rem;
-	text-decoration-line: line-through;
-	text-decoration-style: double;
+    font-size: 2rem;
+    text-decoration-line: line-through;
+    text-decoration-style: double;
 }
 
 /* MAP [[ */
-.contact-map{height:250px;overflow:hidden;padding:0;}
-.map-box{height: 250px;}
+.contact-map {
+    height: 250px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.map-box {
+    height: 250px;
+}
+
 /* ]] MAP */
 
 /* MENU [[ */
 .menu > li > ul {
-	margin-top: 4px;
-	padding-top: 15px;
+    margin-top: 4px;
+    padding-top: 15px;
 }
 
 .menu > li ul li ul {
-	margin-top: -8px;
+    margin-top: -8px;
 }
+
 /* ]] */
 
 .numbers-value {
-	font-size: 72px;
-	line-height: 80px;
-	font-weight: 100;
-	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 100;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .payment-widget {
-	width: 100%;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	min-height: 720px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 720px;
 }
 
 .payment-widget.compact {
-	min-height: 1100px;
+    min-height: 1100px;
 }
 
 @media (max-width: 768px) {
-	.payment-widget {
-		min-height: 1100px;
-	}
+    .payment-widget {
+        min-height: 1100px;
+    }
 }
 
 /* [[Index Pricing Table]] */
@@ -81,254 +92,269 @@ p.lead {
 }
 
 .pricing-card-inverse {
-	background-color: rgb(248, 248, 248);
+    background-color: rgb(248, 248, 248);
 }
 
 .pricing-table .course.logo {
-	height: 50%;
-	margin-bottom: 1rem;
+    height: 50%;
+    margin-bottom: 1rem;
 }
+
 /* ]] */
 
 /* [[Team Section]] */
 .team {
-	margin-top: 0;
-	margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .team .img-holder {
-	background: transparent;
-	margin-bottom: 1.5rem;
-	margin-top: 1.5rem;
+    background: transparent;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .team .img-holder img {
-	width: 80%;
-	opacity: 1;
-	filter: none !important;
+    width: 80%;
+    opacity: 1;
+    filter: none !important;
 }
 
 .flip-card {
-	text-align: justify;
-	padding: 1rem;
-	height: 35rem;
-	box-shadow: 1px;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+    text-align: justify;
+    padding: 1rem;
+    height: 35rem;
+    box-shadow: 1px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .flip-card .front {
-	text-align: center;
+    text-align: center;
 }
 
 .flip-card .back .img-holder {
-	float: right;
-	clear: right;
-	height: 50px;
-	width: 50px;
-	margin-top: 0;
-	padding-top: 5px;
+    float: right;
+    clear: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 0;
+    padding-top: 5px;
 }
 
 .team-xs {
-	background: no-repeat center/100% url('/img/cb/team/team-banner.jpg');
-	min-height: 250px;
+    background: no-repeat center/100% url('/img/cb/team/team-banner.jpg');
+    min-height: 250px;
 }
 
 @media (max-width: 800px) {
-	.flip-card {
-		margin-top: 5rem;
-		margin-bottom: 5rem;
-	}
+    .flip-card {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
 
-	.flip-card .back {
-		padding-right: 2.5rem;
-		padding-left: 2.5rem;
-	}
+    .flip-card .back {
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+    }
 }
+
 /* ]] */
 
 .user-story {
-	min-height: 50rem;
+    min-height: 50rem;
 }
 
 /* [[Nav Bar]] */
 .nav-bar .menu > .has-dropdown > ul > li:first-child {
-  margin-top: -7px;
+    margin-top: -7px;
 }
+
 /* ]] */
 
 /* [[Contact Us]] */
 .feature {
-	text-align: left;
+    text-align: left;
 }
 
 .feature h3 {
-	padding-left: 0;
+    padding-left: 0;
 }
 
 .location-address {
-	margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .location-contact h4 {
-	margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .location-phone {
-	margin: 0;
+    margin: 0;
 }
 
 .main-contact-block h4 {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 /* ]] */
 
 /* [[Footer]] */
 .footer .footer-1 {
-	padding-top: 5rem;
+    padding-top: 5rem;
 }
 
 footer .container .row > * {
-	margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 @media (max-width: 768px) {
-	.footer .footer-1 {
-		padding-top: 1rem;
-	}
+    .footer .footer-1 {
+        padding-top: 1rem;
+    }
 
-	.footer img.logo {
-		max-height: 6rem;
-		text-align: center;
-	}
+    .footer img.logo {
+        max-height: 6rem;
+        text-align: center;
+    }
 }
+
 /* ]] */
 
 /* [[User Story]] */
 .phone-button {
-	background-color: transparent;
-	height: 75px;
-	width: 75px;
-	border-radius: 50%;
-	text-align: center;
-	position: fixed;
-	right: 1.2rem;
-	bottom: 8rem;
-	z-index: 999;
-	display: none;
+    background-color: transparent;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    right: 1.2rem;
+    bottom: 8rem;
+    z-index: 999;
+    display: none;
 }
 
 .phone-button i {
-	border-radius: 50%;
-	padding: 1.1rem 1.5rem;
-	background-color: #fc4f4f;
-	box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.2);
-	color: #454C53;
+    border-radius: 50%;
+    padding: 1.1rem 1.5rem;
+    background-color: #fc4f4f;
+    box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.2);
+    color: #454C53;
 }
 
 @media (max-width: 768px) {
-	.phone-button {
-		display: block;
-	}
+    .phone-button {
+        display: block;
+    }
 }
+
 /* ]] */
 
 /* [[Scroll To Top]] */
 .scroll-to-top {
-	background-color: transparent;
-	height: 75px;
-	width: 75px;
-	border-radius: 50%;
-	text-align: center;
-	position: fixed;
-	left: 1rem;
-	bottom: 1rem;
-	z-index: 999;
-	display: none;
+    background-color: transparent;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+    z-index: 999;
+    display: none;
 }
+
 /* ]] */
 
 /* [[Number Speak Louder]] */
 .numbers-box .feature {
-	text-align: center;
+    text-align: center;
 }
 
 .numbers-box h5 {
-	margin-bottom: 0;
-	padding-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .numbers-box .numbers-value {
-	padding-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* ]] */
 
 .btn-banner {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 ol.syllabus {
-	margin-left: 1.9rem;
+    margin-left: 1.9rem;
 }
 
 .pt-4 {
-	padding-top: 4rem;
+    padding-top: 4rem;
 }
 
 .pricing-card {
-	height: 800px;
+    height: 800px;
 }
 
 @media (min-width: 250px) and (max-width: 349px) {
-	.pricing-card {
-		height:700px;
-	}
+    .pricing-card {
+        height: 700px;
+    }
 }
 
 @media (min-width: 350px) and (max-width: 557px) {
-	.pricing-card {
-		height: 680px;
-	}
+    .pricing-card {
+        height: 680px;
+    }
 }
 
 @media (min-width: 519px) and (max-width: 613px) {
-	.pricing-card {
-		height: 747px;
-	}
+    .pricing-card {
+        height: 747px;
+    }
 }
 
 @media (min-width: 614px) and (max-width: 741px) {
-	.pricing-card {
-		height: 780px;
-	}
+    .pricing-card {
+        height: 780px;
+    }
 }
 
 @media (min-width: 742px) and (max-width: 845px) {
-	.pricing-card {
-		height: 823px;
-	}
+    .pricing-card {
+        height: 823px;
+    }
 }
-
 
 @media (min-width: 768px) {
-	.pricing-card {
-		height: 693px;
-	}
-  
-.wide-tab > a {
-	padding: 2rem 10rem !important;
-	font-size: 2rem !important;
+    .pricing-card {
+        height: 693px;
+    }
+
+    .wide-tab > a {
+        padding: 2rem 10rem !important;
+        font-size: 2rem !important;
+    }
+
+    table.calendar .fa {
+        color: #fc4f4f;
+    }
+
+    table.calendar tbody tr:nth-of-type(-n+0) .fa {
+        color: gray;
+
+    }
 }
-
-table.calendar .fa {
-	color: #fc4f4f;
+/*Layout Change Effects*/
+.sad {
+    font-size: 0.7em;
+    line-height: inherit!important;
 }
-
-table.calendar tbody tr:nth-of-type(-n+0) .fa {
-	color: gray;
-
+.button-tabs .tab-title{
+    padding: 7px!important;
 }
