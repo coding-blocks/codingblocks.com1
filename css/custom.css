@@ -170,6 +170,21 @@ p.lead {
     margin-top: -7px;
 }
 
+.new-content-badge {
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: red;
+  color: white;
+  font-weight: bold;
+  margin-left: 0.75rem;
+}
+
+.contact-us-dropdown a[target="_self"] .fa {
+	width: 3rem;
+}
+
 /* ]] */
 
 /* [[Contact Us]] */
