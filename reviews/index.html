@@ -235,6 +235,46 @@
             font-weight: 600;
         }
     </style>
+    <!--Reviews-->
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "Coding Blocks",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue" : "4.8",
+    "ratingCount": "550",
+    "reviewCount": "550"
+  }
+}
+    </script>
+    <!--Website Name Schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Coding Blocks",
+            "url": "https://codingblocks.com/reviews/"
+        }
+    </script>
+
+    <!--Breadcrumbs-->
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+      "@id": "https://codingblocks.com/reviews/",
+      "name": "reviews",
+      "image": "https://codingblocks.com/img/cb/cblogo.png"
+    }
+  }]
+}
+</script>
     <script src="../js/jquery.flip.min.js"></script>
     <script src="../js/jquery.waypoints.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
