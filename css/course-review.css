@@ -1,0 +1,58 @@
+.Review-star {
+    color: #B6C2CC;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.Review-star--active {
+    color: #fc4f4f;
+    font-size: 18px;
+}
+
+.flip-card {
+    margin-left: 2%;
+    margin-right: 2%;
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    padding: 5px 5px !important;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .flip-card {
+        width: 45%;
+    }
+
+    .highimg {
+        display: block !important;
+    }
+
+}
+
+.highimg {
+    display: none;
+}
+
+.front {
+    border: none !important;
+    padding-right: 10px !important;
+    background: #f8f8f8 !important;
+}
+
+q::before, q::after {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.flip-card .col-sm-8 {
+    padding-top: 10px;
+}
+
+.review-span {
+    font-weight: 600;
+}
+
+.highimg img {
+    opacity: 1 !important;
+    filter: none !important;
+}
