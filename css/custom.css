@@ -171,16 +171,27 @@ p.lead {
 }
 
 .new-content-badge {
-  border-radius: 5px;
+  border-radius: 3px;
   border: 1px solid red;
-  padding: 0.5rem;
+  padding: 0.2rem;
   font-size: 1rem;
   background: red;
   color: white;
   font-weight: bold;
   margin-left: 0.5rem;
+  font-size: 8px;
+  position: relative;
+  top: -10px;
+  left: -7px;
 }
 
+.menu > li {
+  margin-right: 18px;
+}
+
+.nav-bar .module.left {
+    padding: 0 5px;
+}
 .contact-us-dropdown a[target="_self"] .fa {
 	width: 3rem;
 }
