@@ -1,6 +1,12 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Nunito:400,400i,500,700,700i|Raleway:400,400i,500,700,700i');
 
+/* UTIL [[ */
+.all-caps {
+	text-transform: uppercase;
+}
+/* ]] */
+
 body {
     font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
