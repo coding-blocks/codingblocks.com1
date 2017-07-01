@@ -5,6 +5,11 @@
 .all-caps {
 	text-transform: uppercase;
 }
+
+.v-align-children {
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+}
 /* ]] */
 
 body {
@@ -394,3 +399,12 @@ ol.syllabus {
 .button-tabs .tab-title{
     padding: 7px!important;
 }
+
+/* Accordion FAQs [[ */
+.accordion .title::before {
+  float: left;
+  clear: none;
+  margin-left: -4rem;
+  margin-top: 1.5rem;
+}
+/* ]] */
