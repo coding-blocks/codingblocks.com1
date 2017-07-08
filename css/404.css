@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,300,700");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #b73535;
+}
+
+#robot {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 150px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  animation: robotfadein 1s ease both;
+  z-index: +2;
+  display: none;
+}
+
+.stripe1 {
+  width: 100%;
+  height: 100px;
+}
+
+.stripe2 {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100px;
+}
+
+#rightArm {
+  animation: moverighthand 1s ease both;
+}
+
+#leftArm {
+  animation: movelefthand 1s ease both;
+}
+
+.floorcontainer {
+  perspective: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 50%;
+}
+
+.floor {
+  height: 400px;
+  width: 100%;
+  background: #ffdada;
+  position: relative;
+  transform: rotateX(45deg);
+  opacity: 0;
+}
+
+.floorbottom {
+  height: 20.25%;
+  width: 155%;
+  background: #402d2d;
+  position: absolute;
+  left: -27.5%;
+  bottom: -25%;
+  z-index: -2;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.floorbottom p {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16pt;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.text {
+  font-size: 20vw;
+  color: #eee;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font-family: "Open Sans";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-shadow: 0 5px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  opacity: 0;
+}
+
+@keyframes robotfadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes movelefthand {
+  from {
+    opacity: 0;
+    transform-origin: 50% 0%;
+    transform: rotateZ(0deg) scaleY(-1);
+  }
+  to {
+    opacity: 1;
+    transform-origin: 50% 0%;
+    transform: rotateZ(27deg) scaleY(-1);
+  }
+}
+
+@keyframes moverighthand {
+  from {
+    transform-origin: 50% 0%;
+    transform: rotateZ(0deg) scaleY(-1);
+  }
+  to {
+    transform-origin: 50% 0%;
+    transform: rotateZ(-27deg) scaleY(-1);
+  }
+}
