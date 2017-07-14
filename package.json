@@ -1,0 +1,19 @@
+{
+  "name": "coding-blocks.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp",
+    "reset": "gulp reset"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-inject": "^4.2.0"
+  }
+}
