@@ -12,7 +12,7 @@ module.exports = {
             dest
         ]
     },
-    initBuild: {
+    cloneToTmp: {
         src: [
             'src/**/*.*',
             '!src/**/..*'
