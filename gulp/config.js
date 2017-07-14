@@ -1,12 +1,22 @@
-var dest = "build"
+var dest = "dist"
 var src = 'src'
-var tmpSrc = 'tmp'
+var tmp = '.tmp'
 
 module.exports = {
-    reset: {
+    dest: dest,
+    src: src,
+    tmp: tmp,
+    clean: {
         src: [
-            tmpSrc,
+            tmp,
             dest
         ]
+    },
+    initBuild: {
+        src: [
+            'src/**/*.*',
+            '!src/**/..*'
+        ],
+        dest: tmp
     }
 }

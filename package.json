@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp",
+    "build": "gulp build",
     "reset": "gulp reset"
   },
   "author": "",
@@ -13,8 +13,10 @@
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-handlebars": "^4.0.0",
+    "gulp-hb": "^6.0.2",
     "gulp-imagemin": "^3.3.0",
     "gulp-inject": "^4.2.0",
-    "require-dir": "^0.3.2"
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.0.0"
   }
 }
