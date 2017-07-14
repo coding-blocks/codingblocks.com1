@@ -1,6 +1,7 @@
 var gulp = require('gulp')
+var imageMin = require('gulp-imageMin')
+var config = require('../config').build
 
-var config =
-gulp.task('build', ['cloneToTmp'], function () {
+gulp.task('build', ['envSetup'], function () {
 
 })
