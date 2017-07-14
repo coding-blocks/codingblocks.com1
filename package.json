@@ -14,6 +14,7 @@
     "gulp-clean": "^0.3.2",
     "gulp-handlebars": "^4.0.0",
     "gulp-imagemin": "^3.3.0",
-    "gulp-inject": "^4.2.0"
+    "gulp-inject": "^4.2.0",
+    "require-dir": "^0.3.2"
   }
 }

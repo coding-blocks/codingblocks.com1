@@ -1,35 +1,10 @@
-var gulp = require('gulp');
-var imageMin = require('gulp-imagemin');
-var inject = require('gulp-inject');
-var clean = require('gulp-clean');
+var gulp = require('gulp')
+var requireDir = require('require-dir')
 
-
-gulp.task('imageMin', function () {
-    var imgSrc = 'tmp/images/**/*';
-    return gulp.src(imgSrc)
-        .pipe(imageMin())
-});
-
-gulp.task('injectHead', function () {
-    var siteWidehtml = gulp.src('tmp/**/*.html');
-
-    var pathToJSFiles = [
-        '../tmp/scripts/jquery.min.js'
-        , '../tmp/scripts/bootstrap.min.js'
-        , '../tmp/scripts/fbpixel.js'
-    ];
-
-    return siteWideContent
-        .pipe(inject(gulp.src(pathToFiles, {read: false}), {name: 'headJS'}))
-
-});
+requireDir('./gulp/tasks', {recurse: true})
 
 gulp.task('default', function () {
+    console.log()
     var siteWideContent = gulp.src(['src/**/*.*', '!src/**/..*'])
     siteWideContent.pipe(gulp.dest('tmp'))
-});
-
-gulp.task('reset', function () {
-    return gulp.src(['tmp', 'build'], {read: false}, {force: true})
-        .pipe(clean())
 });
