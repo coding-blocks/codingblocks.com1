@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+
+    {{#each metas as meta}}
+        {{#with meta}}
+            {{#if name}}
+                <meta name={{name}} content={{content}}/>
+            {{else if property}}
+                <meta property={{property}} content={{content}}/>
+            {{/if}}
+        {{/with}}
+    {{/each}}
+
+</head>
+<body>
+
+</body>
+</html>

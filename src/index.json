@@ -1,0 +1,21 @@
+{
+  "index": {
+    "title": "Best Institute for Programming Courses in Delhi | Coding Blocks",
+    "metas": [
+      {
+        "name": "description",
+        "content": "India's best programming and software training institute offers courses in Java, C++, Android, NodeJS and more. Registration open for coding classes in Delhi."
+      }
+    ],
+    "components": [
+      "slider",
+      "courses",
+      "bootcamps",
+      "team",
+      "studentSays"
+    ]
+  },
+  "about": {
+
+  }
+}

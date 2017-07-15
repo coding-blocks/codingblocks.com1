@@ -3,8 +3,6 @@ var gulp = require('gulp')
 var config = require('../config').envSetup
 
 gulp.task('envSetup', ['clean'], function () {
-    var siteWideContent = gulp.src(config.src)
-
-    return siteWideContent
+    return gulp.src(config.src)
         .pipe(gulp.dest(config.dest))
 })

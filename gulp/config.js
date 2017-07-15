@@ -6,7 +6,7 @@ var scriptsSrc = 'assets/scripts'
 var stylesSrc = 'assets/scripts'
 
 module.exports = {
-    build: {
+    complieAssets: {
         imagesSrc: [
             tmp + '/' + imagesSrc + '/**.*'
         ],
@@ -33,8 +33,8 @@ module.exports = {
     },
     envSetup: {
         src: [
-            'src/**/*.*',
-            '!src/**/..*'
+            src + '/**/*.*',
+            '!' + src + '/**/..*'
         ],
         dest: tmp
     }

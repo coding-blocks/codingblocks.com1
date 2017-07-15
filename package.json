@@ -16,6 +16,7 @@
     "gulp-hb": "^6.0.2",
     "gulp-imagemin": "^3.3.0",
     "gulp-inject": "^4.2.0",
+    "gulp-using": "^0.1.1",
     "require-dir": "^0.3.2",
     "run-sequence": "^2.0.0"
   }
