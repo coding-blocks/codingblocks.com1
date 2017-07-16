@@ -1,11 +1,13 @@
-var dest = "dist"
-var src = 'src'
-var tmp = '.tmp'
-var imagesSrc = 'assets/images'
-var scriptsSrc = 'assets/scripts'
-var stylesSrc = 'assets/scripts'
+let dest = "dist"
+let src = 'src'
+let tmp = '.tmp'
+let imagesSrc = 'assets/images'
+let scriptsSrc = 'assets/scripts'
+let stylesSrc = 'assets/scripts'
+let includeSrc = 'include'
 
 module.exports = {
+    validate: {},
     clean: {
         src: [
             tmp,
@@ -18,6 +20,11 @@ module.exports = {
             '!' + src + '/**/..*'
         ],
         dest: tmp
+    },
+    include: {
+        name: 'index',
+        includeSrc: tmp + '/' + includeSrc + '/',
+        hbsSrc: tmp
     },
     html: {
         src: tmp,
@@ -34,25 +41,11 @@ module.exports = {
         ]
     },
     complieAssets: {
-        imagesSrc: [
-            tmp + '/' + imagesSrc + '/**.*'
-        ],
-        imagesDest: dest + '/' + imagesSrc + '/**.*',
-        scriptsSrc: [
-            tmp + '/' + scriptsSrc + '/**.*'
-        ],
-        scriptsDest: dest + '/' + scriptsSrc + '/**.*',
-        stylesSrc: [
-            tmp + '/' + stylesSrc + '/**.*'
-        ],
-        stylesDest: dest + '/' + stylesSrc + '/**.*',
-        src: [
-            tmp + '/**.*',
-            '!' + tmp + '/' + imagesSrc + '/**.*'
-        ],
-        dest: dest
+        src: tmp,
+        dest: dest,
+        imagesSrc: imagesSrc,
+        scriptsSrc: scriptsSrc,
+        stylesSrc: stylesSrc
     },
-    inject: {
-
-    }
+    inject: {}
 }

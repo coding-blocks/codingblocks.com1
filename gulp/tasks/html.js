@@ -4,7 +4,7 @@ let ext = require('gulp-ext-replace')
 
 let config = require('../config').html
 
-gulp.task('html', ['envSetup'], function () {
+gulp.task('html', ['include'], function () {
     for (let template of config.templates) {
         let indexJson = require('../../' + config.src + template.src + template.name + '.json')
         for(let page of indexJson.pages){
