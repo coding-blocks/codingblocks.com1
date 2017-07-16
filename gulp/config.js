@@ -6,6 +6,33 @@ var scriptsSrc = 'assets/scripts'
 var stylesSrc = 'assets/scripts'
 
 module.exports = {
+    clean: {
+        src: [
+            tmp,
+            dest
+        ]
+    },
+    envSetup: {
+        src: [
+            src + '/**/*.*',
+            '!' + src + '/**/..*'
+        ],
+        dest: tmp
+    },
+    html: {
+        src: tmp,
+        dest: dest,
+        templates: [
+            {
+                name: 'index',
+                src: '/'
+            },
+            {
+                name: 'index',
+                src: '/courses/'
+            }
+        ]
+    },
     complieAssets: {
         imagesSrc: [
             tmp + '/' + imagesSrc + '/**.*'
@@ -25,17 +52,7 @@ module.exports = {
         ],
         dest: dest
     },
-    clean: {
-        src: [
-            tmp,
-            dest
-        ]
-    },
-    envSetup: {
-        src: [
-            src + '/**/*.*',
-            '!' + src + '/**/..*'
-        ],
-        dest: tmp
+    inject: {
+
     }
 }

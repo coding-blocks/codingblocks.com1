@@ -1,9 +1,9 @@
-var gulp = require('gulp')
-var clean = require('gulp-clean')
+let gulp = require('gulp')
+let clean = require('gulp-clean')
 
-var config = require('../config').clean
+let config = require('../config').clean
 
-gulp.task('clean', function () {
+gulp.task('clean',['validate'], function () {
     return gulp.src(config.src, {read: false}, {force: true})
         .pipe(clean())
 })

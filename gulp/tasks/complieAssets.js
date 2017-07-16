@@ -1,7 +1,7 @@
-var gulp = require('gulp')
-var imageMin = require('gulp-imageMin')
+let gulp = require('gulp')
+let imageMin = require('gulp-imageMin')
 
-var config = require('../config').complieAssets
+let config = require('../config').complieAssets
 
 gulp.task('complieAssets', ['html'],function() {
 

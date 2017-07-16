@@ -1,6 +1,6 @@
-var gulp = require('gulp')
+let gulp = require('gulp')
 
-var config = require('../config').envSetup
+let config = require('../config').envSetup
 
 gulp.task('envSetup', ['clean'], function () {
     return gulp.src(config.src)

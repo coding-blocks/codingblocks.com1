@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <title>{{title}}</title>
 
-    {{#each metas as meta}}
-        {{#with meta}}
+    <!--Meta-->
+    {{#each metas}}
             {{#if name}}
-                <meta name={{name}} content={{content}}/>
+                <meta name="{{{name}}}" content="{{{content}}}"/>
             {{else if property}}
-                <meta property={{property}} content={{content}}/>
+                <meta property="{{{property}}}" content="{{{content}}}"/>
             {{/if}}
-        {{/with}}
     {{/each}}
+    <!--Meta End-->
+
+    <!-- Inject:HeadCSS-->
+    <!--EndInject-->
 
 </head>
 <body>

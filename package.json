@@ -12,6 +12,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
+    "gulp-ext-replace": "^0.3.0",
     "gulp-handlebars": "^4.0.0",
     "gulp-hb": "^6.0.2",
     "gulp-imagemin": "^3.3.0",

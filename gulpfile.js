@@ -1,9 +1,7 @@
-var gulp = require('gulp')
-var requireDir = require('require-dir')
+let gulp = require('gulp')
+let requireDir = require('require-dir')
 
 requireDir('./gulp/tasks', {recurse: true})
-
-
 
 gulp.task('default', function () {
 
