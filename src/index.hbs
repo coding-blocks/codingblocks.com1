@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!--global:html-->
+    <!--endinject-->
+
     <title>{{title}}</title>
 
     <!--Meta-->
     {{#each metas}}
-            {{#if name}}
-                <meta name="{{{name}}}" content="{{{content}}}"/>
-            {{else if property}}
-                <meta property="{{{property}}}" content="{{{content}}}"/>
-            {{/if}}
+        {{#if name}}
+            <meta name="{{{name}}}" content="{{{content}}}"/>
+        {{else if property}}
+            <meta property="{{{property}}}" content="{{{content}}}"/>
+        {{/if}}
     {{/each}}
     <!--Meta End-->
 
-    <!-- Inject:HeadCSS-->
-    <!--EndInject-->
+    <!--head:css-->
+    <!--endinject-->
 
+    <!--head:js-->
+    <!--endinject-->
 </head>
 <body>
+    <!--navbar:html-->
+    <!--endinject-->
 
+    <!--map:html-->
+    <!--endinject-->
+
+    <!--footer:html-->
+    <!--endinject-->
+
+    <!--body:js-->
+    <!--endinject-->
 </body>
 </html>
