@@ -5,14 +5,20 @@ let config = require('../config.js').include
 
 gulp.task('include', ['envSetup'], function () {
     let json = require('../../' + config.includeSrc + config.name + '.json')
-    for (let include of json.include) {
+    //json.include(  )
+    const promises = json.include.map(include => new Promise( (resolve, reject) => {
         console.log(include.name)
-        gulp.src(config.hbsSrc + '/**/*.hbs')
+        const stream = gulp.src(config.hbsSrc + '/**/*.hbs')
             .pipe(inject(gulp.src(config.includeSrc + include.injectName + '.html'), {
-                name: include.injectName,
+                starttag: '<!-- inject:head:{{ext}} -->',
                 transform: function (filePath, file) {
+                    console.log(filePath + "\n" + file.contents.toString('utf8'))
                     return file.contents.toString('utf8')
                 }
             }))
-    }
+        stream.on('finish', resolve)
+        stream.on('error', reject)
+    }))
+
+    return Promise.all(promises)
 })
