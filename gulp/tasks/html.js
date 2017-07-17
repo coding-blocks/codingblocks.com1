@@ -1,17 +1,37 @@
 let gulp = require('gulp')
 let hb = require('gulp-hb')
 let ext = require('gulp-ext-replace')
+let using = require('gulp-using')
 
 let config = require('../config').html
 
 gulp.task('html', ['include'], function () {
-    for (let template of config.templates) {
+    let stream
+    config.templates.map(template => {
         let indexJson = require('../../' + config.src + template.src + template.name + '.json')
-        for(let page of indexJson.pages){
-            gulp.src(config.src + template.src + page.name + '.hbs')
+        indexJson.pages.map(page => {
+            stream = gulp.src(config.src + template.src + page.name + '.hbs')
+                .pipe(using())
                 .pipe(hb().data(page))
                 .pipe(ext('.html'))
                 .pipe(gulp.dest(config.dest + template.src))
-        }
-    }
+        })
+    })
+
+    return new Promise((resolve, reject) => {
+        stream.on('finish', resolve)
+        stream.on('error', reject)
+    })
+
+    /* for (let template of config.templates) {
+     let indexJson = require('../../' + config.src + template.src + template.name + '.json')
+     for(let page of indexJson.pages){
+     gulp.src(config.src + template.src + page.name + '.hbs')
+     .pipe(using())
+     .pipe(hb().data(page))
+     .pipe(ext('.html'))
+     .pipe(gulp.dest(config.dest + template.src))
+     }
+     }*/
 })
+
