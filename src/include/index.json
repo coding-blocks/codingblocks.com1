@@ -7,14 +7,6 @@
     {
       "name": "navbar",
       "injectName": "navbar"
-    },
-    {
-      "name": "map",
-      "injectName": "map"
-    },
-    {
-      "name": "footer",
-      "injectName": "footer"
     }
   ]
 }
