@@ -3,10 +3,15 @@ let src = 'src'
 let tmp = '.tmp'
 let imagesSrc = 'assets/images'
 let scriptsSrc = 'assets/scripts'
-let stylesSrc = 'assets/scripts'
+let stylesSrc = 'assets/styles'
 let includeSrc = 'include'
 
 module.exports = {
+    compress: {
+        src: src,
+        dest: src,
+        imagesSrc: '/' + imagesSrc,
+    },
     validate: {},
     clean: {
         src: [
@@ -40,12 +45,11 @@ module.exports = {
             }
         ]
     },
-    complieAssets: {
+    minify: {
         src: tmp,
         dest: dest,
-        imagesSrc: imagesSrc,
-        scriptsSrc: scriptsSrc,
-        stylesSrc: stylesSrc
+        scriptsSrc: '/' + scriptsSrc,
+        stylesSrc: '/' + stylesSrc
     },
     inject: {}
 }

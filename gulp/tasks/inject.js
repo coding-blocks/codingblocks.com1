@@ -1,5 +1,5 @@
 let gulp = require("gulp")
 
-gulp.task("inject", ['complieAssets'], function () {
+gulp.task("inject", ['minify'], function () {
 
 })

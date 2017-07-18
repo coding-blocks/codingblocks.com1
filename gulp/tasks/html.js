@@ -23,15 +23,5 @@ gulp.task('html', ['include'], function () {
         stream.on('error', reject)
     })
 
-    /* for (let template of config.templates) {
-     let indexJson = require('../../' + config.src + template.src + template.name + '.json')
-     for(let page of indexJson.pages){
-     gulp.src(config.src + template.src + page.name + '.hbs')
-     .pipe(using())
-     .pipe(hb().data(page))
-     .pipe(ext('.html'))
-     .pipe(gulp.dest(config.dest + template.src))
-     }
-     }*/
 })
 
