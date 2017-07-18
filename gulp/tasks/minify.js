@@ -35,7 +35,7 @@ gulp.task('minify', ['html'], function () {
             '!' + config.src + config.scriptsSrc + '/**/*.*',
             '!' + config.src + config.stylesSrc + '/**/*.*',
         ])
-        .pipe(changed(config.dest + config.assets))
+        .pipe(changed(config.dest + '/' + config.assets))
         .pipe(using())
         .pipe(gulp.dest(config.dest + '/' + config.assets))
 
