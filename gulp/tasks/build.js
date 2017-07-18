@@ -1,5 +1,5 @@
 let gulp = require('gulp')
 
-gulp.task('build', ['inject'], function () {
+gulp.task('build', ['html'], function () {
 
 })

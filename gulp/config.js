@@ -1,6 +1,7 @@
 let dest = "dist"
 let src = 'src'
 let tmp = '.tmp'
+let assets = 'assets'
 let imagesSrc = 'assets/images'
 let scriptsSrc = 'assets/scripts'
 let stylesSrc = 'assets/styles'
@@ -26,11 +27,23 @@ module.exports = {
         ],
         dest: tmp
     },
+    minify: {
+        src: tmp,
+        dest: dest,
+        imagesSrc: '/' + imagesSrc,
+        scriptsSrc: '/' + scriptsSrc,
+        stylesSrc: '/' + stylesSrc
+    },
     include: {
         name: 'index',
         includeSrc: tmp + '/' + includeSrc + '/',
         hbsSrc: tmp
     },
+    injectAssets: {
+        src: dest,
+        hbsSrc: tmp
+    },
+    injectComponents: {},
     html: {
         src: tmp,
         dest: dest,
@@ -44,12 +57,5 @@ module.exports = {
                 src: '/courses/'
             }
         ]
-    },
-    minify: {
-        src: tmp,
-        dest: dest,
-        scriptsSrc: '/' + scriptsSrc,
-        stylesSrc: '/' + stylesSrc
-    },
-    inject: {}
+    }
 }

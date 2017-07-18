@@ -2,6 +2,9 @@
   "pages": [
     {
       "name": "crux"
+    },
+    {
+      "name": "launchpad"
     }
   ]
 }

@@ -20,6 +20,9 @@
         "team",
         "studentSays"
       ]
+    },
+    {
+      "name": "about"
     }
   ]
 }
