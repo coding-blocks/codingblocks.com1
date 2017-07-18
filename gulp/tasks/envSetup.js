@@ -6,7 +6,6 @@ let config = require('../config').envSetup
 
 gulp.task('envSetup', function () {
     return gulp.src(config.src)
-        .pipe(changed(config.dest))
         .pipe(using())
         .pipe(gulp.dest(config.dest))
 })

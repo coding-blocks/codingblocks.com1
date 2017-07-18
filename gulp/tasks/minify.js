@@ -7,7 +7,7 @@ let stylesMin = require('gulp-clean-css')
 
 let config = require('../config').minify
 
-gulp.task('minify', ['envSetup'], function () {
+gulp.task('minify', ['html'], function () {
     let imagesMinStream = gulp.src(config.src + config.imagesSrc + '/**/*.*')
         .pipe(changed(config.dest + config.imagesSrc))
         .pipe(imagesMin())
@@ -28,6 +28,17 @@ gulp.task('minify', ['envSetup'], function () {
         .pipe(using())
         .pipe(gulp.dest(config.dest + config.stylesSrc))
 
+    let assetsMinStream = gulp.src(
+        [
+            config.src + '/' + config.assets + '/**/*.*',
+            '!' + config.src + config.imagesSrc + '/**/*.*',
+            '!' + config.src + config.scriptsSrc + '/**/*.*',
+            '!' + config.src + config.stylesSrc + '/**/*.*',
+        ])
+        .pipe(changed(config.dest + config.assets))
+        .pipe(using())
+        .pipe(gulp.dest(config.dest + '/' + config.assets))
+
     return Promise.all([
         new Promise((resolve, reject) => {
             imagesMinStream.on('finish', resolve)
@@ -40,6 +51,10 @@ gulp.task('minify', ['envSetup'], function () {
         new Promise((resolve, reject) => {
             stylesMinStream.on('finish', resolve)
             stylesMinStream.on('error', reject)
+        }),
+        new Promise((resolve, reject) => {
+            assetsMinStream.on('finish', resolve)
+            assetsMinStream.on('error', reject)
         })
     ]);
 })

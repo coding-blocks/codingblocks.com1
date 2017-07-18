@@ -1,11 +1,11 @@
-let dest = "dist"
-let src = 'src'
-let tmp = '.tmp'
-let assets = 'assets'
-let imagesSrc = 'assets/images'
-let scriptsSrc = 'assets/scripts'
-let stylesSrc = 'assets/styles'
-let includeSrc = 'include'
+const dest = "dist"
+const src = 'src'
+const tmp = '.tmp'
+const assets = 'assets'
+const imagesSrc = 'assets/images'
+const scriptsSrc = 'assets/scripts'
+const stylesSrc = 'assets/styles'
+const includeSrc = 'include'
 
 module.exports = {
     compress: {
@@ -23,13 +23,15 @@ module.exports = {
     envSetup: {
         src: [
             src + '/**/*.*',
-            '!' + src + '/**/..*'
+            '!' + src + '/**/..*',
+            '!' + src + '/' + assets + '/**/*.*'
         ],
         dest: tmp
     },
     minify: {
-        src: tmp,
+        src: src,
         dest: dest,
+        assets: assets,
         imagesSrc: '/' + imagesSrc,
         scriptsSrc: '/' + scriptsSrc,
         stylesSrc: '/' + stylesSrc
@@ -37,10 +39,6 @@ module.exports = {
     include: {
         name: 'index',
         includeSrc: tmp + '/' + includeSrc + '/',
-        hbsSrc: tmp
-    },
-    injectAssets: {
-        src: dest,
         hbsSrc: tmp
     },
     injectComponents: {},
@@ -56,6 +54,11 @@ module.exports = {
                 name: 'index',
                 src: '/courses/'
             }
+        ]
+    },
+    cleanBuild: {
+        src: [
+            tmp
         ]
     }
 }

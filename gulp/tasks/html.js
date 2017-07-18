@@ -6,7 +6,7 @@ let ext = require('gulp-ext-replace')
 
 let config = require('../config').html
 
-gulp.task('html', ['minify', 'include', 'injectAssets', 'injectComponents'], function () {
+gulp.task('html', ['injectComponents'], function () {
 
     let promises = config.templates.map(template => {
         return new Promise((resolve, reject) => {
@@ -25,6 +25,5 @@ gulp.task('html', ['minify', 'include', 'injectAssets', 'injectComponents'], fun
     })
 
     return Promise.all(promises);
-
 })
 

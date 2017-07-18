@@ -2,11 +2,10 @@ let gulp = require('gulp')
 let using = require('gulp-using')
 let clean = require('gulp-clean')
 
-let config = require('../config').clean
+let config = require('../config').cleanBuild
 
-gulp.task('clean', function () {
+gulp.task('cleanBuild', ['minify'], function () {
     return gulp.src(config.src, {read: false}, {force: true})
         .pipe(using())
         .pipe(clean())
 })
-

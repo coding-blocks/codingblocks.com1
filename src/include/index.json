@@ -5,6 +5,10 @@
       "injectName": "head"
     },
     {
+      "name": "scripts",
+      "injectName": "scripts"
+    },
+    {
       "name": "navbar",
       "injectName": "navbar"
     },
