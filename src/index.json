@@ -13,12 +13,24 @@
           "content": "sdfs"
         }
       ],
-      "components": [
-        "slider",
-        "courses",
-        "bootcamps",
-        "team",
-        "studentSays"
+      "slides": [
+        {
+          "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
+          "imgAlt": "coders admission scholarship test",
+          "button": [
+            {
+              "link": "/bootcamps/cast.html",
+              "text": "Details"
+            },
+            {
+              "link": "http://students.codingblocks.com//admission_test_online/A17CAST01",
+              "text": "Register Now",
+              "filled": "true"
+            }
+          ],
+          "heading": "CAST for AUGUST BATCHES!",
+          "content": "Coders' Admission &amp; Scholarship Test (CAST) is back for foundation courses across all centres. Register now to stand a chance to avail a scholarship of up to 75% off the course fees. <br>"
+        }
       ]
     },
     {

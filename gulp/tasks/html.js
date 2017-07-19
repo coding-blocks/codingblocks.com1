@@ -14,7 +14,10 @@ gulp.task('html', ['injectComponents'], function () {
             let indexJson = require('../../' + config.src + template.src + template.name + '.json')
             indexJson.pages.map(page => {
                 let stream = gulp.src(config.src + template.src + page.name + '.hbs')
-                    .pipe(hb().data(page))
+                    .pipe(hb({
+                        partials: config.partialsSrc + '/**/*.hbs',
+                        data: page
+                        }))
                     .pipe(ext('.html'))
                     .pipe(minifyHtml({collapseWhitespace: true}))
                     .pipe(using())

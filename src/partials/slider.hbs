@@ -1,0 +1,40 @@
+<!--slider-->
+<a id="home_hero_header" class="in-page-link"></a>
+<section class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
+    <ul class="slides">
+        {{#each slides}}
+            <li class="overlay image-bg">
+                <div class="background-image-holder">
+                    <img alt="{{{imgAlt}}}" class="background-image" src="{{imgSrc}}">
+                </div>
+                <div class="container v-align-transform">
+                    <div class="row text-center">
+                        <div class="col-md-10 col-md-offset-1">
+                            <!--for custom html after heading "customContent"-->
+                            {{#unless customContent}}
+                                <h2 class="mb-xs-16">{{{heading}}}</h2>
+                                <p class="bold lead mb60">{{{content}}}</p>
+                                <br/>
+                                {{#each button}}
+                                    {{#if filled}}
+                                        <a class="btn btn-lg btn-filled"
+                                           href="{{link}}"
+                                           target="_blank">{{text}}</a>
+                                    {{else}}
+                                        <a class="btn btn-lg"
+                                           href="{{link}}"
+                                           target="_blank">{{text}}</a>
+                                    {{/if}}
+                                {{/each}}
+                            {{else}}
+                                {{{customContent}}}
+                            {{/unless}}
+                        </div>
+                    </div>
+                </div>
+            </li>
+        {{/each}}
+    </ul>
+</section>
+
+<!--endslider-->

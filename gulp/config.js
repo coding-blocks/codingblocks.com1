@@ -6,6 +6,7 @@ const imagesSrc = 'assets/images'
 const scriptsSrc = 'assets/scripts'
 const stylesSrc = 'assets/styles'
 const includeSrc = 'include'
+const partialsSrc = 'partials'
 
 module.exports = {
     compress: {
@@ -37,6 +38,7 @@ module.exports = {
     html: {
         src: tmp,
         dest: dest,
+        partialsSrc: tmp + '/' + partialsSrc,
         templates: [
             {
                 name: 'index',
