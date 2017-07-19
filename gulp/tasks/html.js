@@ -3,6 +3,7 @@ let changed = require('gulp-changed')
 let using = require('gulp-using')
 let hb = require('gulp-hb')
 let ext = require('gulp-ext-replace')
+let minifyHtml = require('gulp-htmlmin')
 
 let config = require('../config').html
 
@@ -15,7 +16,7 @@ gulp.task('html', ['injectComponents'], function () {
                 let stream = gulp.src(config.src + template.src + page.name + '.hbs')
                     .pipe(hb().data(page))
                     .pipe(ext('.html'))
-                    .pipe(changed(config.dest + template.src))
+                    .pipe(minifyHtml({collapseWhitespace: true}))
                     .pipe(using())
                     .pipe(gulp.dest(config.dest + template.src))
                 stream.on('finish', resolve)

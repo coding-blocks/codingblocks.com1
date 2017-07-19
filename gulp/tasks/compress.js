@@ -8,7 +8,6 @@ let config = require('../config').compress
 gulp.task('compress', function () {
     let imagesMinStream = gulp.src(config.src + config.imagesSrc + '/**/*.*')
         .pipe(imagesMin())
-        .pipe(changed(config.dest + config.imagesSrc))
         .pipe(using())
         .pipe(gulp.dest(config.dest + config.imagesSrc))
 

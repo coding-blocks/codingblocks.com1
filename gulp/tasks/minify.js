@@ -17,23 +17,22 @@ gulp.task('minify', ['html'], function () {
     let scriptsMinStream = gulp.src(config.src + config.scriptsSrc + '/**/*.*')
         .pipe(changed(config.dest + config.scriptsSrc))
         .pipe(scriptsMin())
-        .pipe(changed(config.dest + config.scriptsSrc))
         .pipe(using())
         .pipe(gulp.dest(config.dest + config.scriptsSrc))
 
     let stylesMinStream = gulp.src(config.src + config.stylesSrc + '/**/*.*')
         .pipe(changed(config.dest + config.stylesSrc))
         .pipe(stylesMin())
-        .pipe(changed(config.dest + config.stylesSrc))
         .pipe(using())
         .pipe(gulp.dest(config.dest + config.stylesSrc))
 
     let assetsMinStream = gulp.src(
         [
             config.src + '/' + config.assets + '/**/*.*',
+            '!' + config.src.assets + '/**/..*',
             '!' + config.src + config.imagesSrc + '/**/*.*',
             '!' + config.src + config.scriptsSrc + '/**/*.*',
-            '!' + config.src + config.stylesSrc + '/**/*.*',
+            '!' + config.src + config.stylesSrc + '/**/*.*'
         ])
         .pipe(changed(config.dest + '/' + config.assets))
         .pipe(using())

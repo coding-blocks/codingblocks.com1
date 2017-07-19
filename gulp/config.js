@@ -28,14 +28,6 @@ module.exports = {
         ],
         dest: tmp
     },
-    minify: {
-        src: src,
-        dest: dest,
-        assets: assets,
-        imagesSrc: '/' + imagesSrc,
-        scriptsSrc: '/' + scriptsSrc,
-        stylesSrc: '/' + stylesSrc
-    },
     include: {
         name: 'index',
         includeSrc: tmp + '/' + includeSrc + '/',
@@ -55,6 +47,14 @@ module.exports = {
                 src: '/courses/'
             }
         ]
+    },
+    minify: {
+        src: src,
+        dest: dest,
+        assets: assets,
+        imagesSrc: '/' + imagesSrc,
+        scriptsSrc: '/' + scriptsSrc,
+        stylesSrc: '/' + stylesSrc
     },
     cleanBuild: {
         src: [

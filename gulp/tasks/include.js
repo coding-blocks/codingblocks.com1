@@ -11,7 +11,7 @@ gulp.task('include', ['envSetup'], function () {
         stream = stream
             .pipe(using())
             .pipe(inject(gulp.src(config.includeSrc + include.injectName + '.html'), {
-                name: include.injectName,
+                name: 'include:' + include.injectName,
                 transform: function (filePath, file) {
                     return file.contents.toString('utf8')
                 }
