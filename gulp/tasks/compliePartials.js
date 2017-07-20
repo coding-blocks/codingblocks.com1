@@ -3,7 +3,7 @@ let using = require('gulp-using')
 let hb = require('gulp-hb')
 
 let config = require('../config.js').compliePartials
-gulp.task('compliePartials', ['include'], function () {
+gulp.task('compliePartials', ['envSetup'], function () {
 
     let indexJson = require('../../' + config.partialsSrc + config.name + '.json')
     let promises = indexJson.partials.map(partial => {

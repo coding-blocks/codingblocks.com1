@@ -93,7 +93,42 @@
             }
           ]
         }
-      ]
+      ],
+      "team": {
+        "heading": "team",
+        "content": "",
+        "flip": true,
+        "staff": [
+          {
+            "name": "Manmohan Gupta",
+            "role": "Founder",
+            "imgSrc": "/assets/images/cb/team/wmanmohan.jpg",
+            "imgAlt": "Manmohan Gupta",
+            "bio": "Manmohan Gupta (Munna Bhaiya), an IIT-Delhi graduate, is an ace programmer, technocrat, an entrepreneurial doyen and a mathematician. He has co-founded Software giant, <b>Nagarro</b> and <b>Vidyamandir Classes(VMC)</b>. Having seen both the industries from up close, he could identify a key gap between college education and industry needs and has now set out to carve the path that will turn even ordinary students into industry-ready coders."
+          },
+          {
+            "name": "Brij Mohan",
+            "role": "Co-Founder",
+            "imgSrc": "/assets/images/cb/team/c_badebhayia.jpg",
+            "imgAlt": "Brij Mohan Gupta",
+            "bio": "Brij Mohan or Bade bhaiya, as everyone calls him, is always full of energy and keeps everyone on feet with his motivation. He has vast experience of teaching and is the founder of Vidyamandir Classes. <br> Bade Bhaiya, through his personal and professional growth helps in motivating and mentoring students at Coding Blocks. He is an IIT Delhi alumnus. <br>"
+          },
+          {
+            "name": "Anushray Gupta",
+            "role": "Co-Founder",
+            "imgSrc": "/assets/images/cb/team/wanushray.jpg",
+            "imgAlt": "Anushray Gupta",
+            "bio": "A code lover, with an undying passion for teaching, Anushray has done his Bachelor’s in CSE from IIIT Hyderabad. He has worked with major tech companies like Facebook and Directi and played major role in many successful start-ups. <br> He is one of the Co-Founders of Coding Blocks. He has received amazing feedbacks for his teaching and is now serving as Programme Designer at Coding Blocks."
+          },
+          {
+            "name": "Priyanshu Agrawal",
+            "role": "Founding Member",
+            "imgSrc": "/assets/images/cb/team/wpriyanshu.jpg",
+            "imgAlt": "Priyanshu Agrawal",
+            "bio": "Priyanshu did his bachelors in Computer Science and is a MBA graduate from MDI, Gurgaon. He has experience of working in Management &amp; Consulting domain with Boston Analytics &amp; Novozymes. He has also worked for Vidyamandir Classes and Nagarro in the past."
+          }
+        ]
+      }
     },
     {
       "name": "about"

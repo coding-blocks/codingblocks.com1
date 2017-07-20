@@ -29,11 +29,6 @@ module.exports = {
         ],
         dest: tmp
     },
-    include: {
-        name: 'index',
-        includeSrc: tmp + '/' + includeSrc + '/',
-        hbsSrc: tmp
-    },
     compliePartials: {
         name: "/index",
         partialsSrc: tmp + '/' + partialsSrc,

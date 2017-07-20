@@ -2,32 +2,30 @@
 <html lang="en">
 <head>
     <title>{{title}}</title>
-
     {{> meta}}
-    
-    <!--include:head:html-->
-    <!--endinject-->
-
+    {{> head}}
 </head>
 <body>
-<!--include:navbar:html-->
-<!--endinject-->
-
+{{> navbar}}
 {{> slider}}
-
 {{> courses}}
-
 {{> bootcamps}}
-
 {{> numbers}}
-
-<!--include:map:html-->
-<!--endinject-->
-
-<!--include:footer:html-->
-<!--endinject-->
-
-<!--include:scripts:html-->
-<!--endinject-->
+{{> team}}
+{{> map}}
+{{> footer}}
+{{> scripts}}
+<script>
+    $(function () {
+        $('.flip-card').flip({
+            axis: 'y',
+            trigger: 'hover'
+        }).waypoint(function (direction) {
+            $(this.element).flip(direction == 'down');
+        }, {
+            offset: '40%'
+        })
+    })
+</script>
 </body>
 </html>

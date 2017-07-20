@@ -1,0 +1,82 @@
+{{#with team}}
+    <!--team-->
+    <a id="team" class="in-page-link"></a>
+    <section class="bg-secondary">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h3 class="uppercase mb16">{{{heading}}}</h3>
+                <p class="lead mb64">{{{content}}}</p>
+                <br><br>
+            </div>
+        </div>
+        <div class="container team-xs visible-xs">
+        </div>
+        <div class="container hidden-xs">
+            <div class="team row text-center">
+                {{#if flip}}
+                    {{#each staff}}
+                        <div class="flip-card col-sm-6 col-md-3">
+                            <div class="front">
+                                <div class="img-holder">
+                                    <img alt="{{{imgAlt}}}" src="{{{imgSrc}}}">
+                                </div>
+                                <div class="title mb16">
+                                    <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
+                                    <span>{{role}}</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="title mb16">
+                                    <div class="img-holder">
+                                        <img alt="{{{imgAlt}}}" src="{{{imgSrc}}}">
+                                    </div>
+                                    <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
+                                    <span>{{{role}}}</span>
+                                </div>
+                                <p class="mb0">
+                                    {{{bio}}}
+                                </p>
+                            </div>
+                        </div>
+                    {{/each}}
+                {{else}}
+                    {{#each staff}}
+                        <div class="col-sm-6 col-md-3">
+                            <div class="image-tile outer-title text-center">
+                                <div class="img-holder">
+                                    <img alt="{{{imgAlt}}}" src="{{{imgSrc}}}">
+                                </div>
+                                <div class="title mb16">
+                                    <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
+                                    <span>{{{role}}}</span>
+                                </div>
+                                <p class="mb0">
+                                    {{{bio}}}
+                                </p>
+                            </div>
+                        </div>
+                    {{/each}}
+                {{/if}}
+            </div>
+        </div>
+        {{#if flip}}
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center btn-banner">
+                        <a class="btn btn-white btn-filled btn-lg" href="/team.html">Meet The Team!</a>
+                    </div>
+                </div>
+            </div>
+        {{/if}}
+        <div class="flex-container affiliated-company-container">
+            <div class="flex-item"><img alt="Facebook" src="/assets/images/cb/logos/fb_icon.png"></div>
+            <div class="flex-item"><img alt="Browserstack" src="/assets/images/cb/logos/r_browserstack.jpg"></div>
+            <div class="flex-item"><img alt="Cyanogen" src="/assets/images/cb/logos/r_cyanogen.png"></div>
+            <div class="flex-item"><img alt="Micromax" src="/assets/images/cb/logos/r_micromax.png"></div>
+            <div class="flex-item"><img alt="Nagarro" src="/assets/images/cb/logos/r_nagarro.png"></div>
+            <div class="flex-item"><img alt="Sandisk" src="/assets/images/cb/logos/r_sandisk.png"></div>
+            <div class="flex-item"><img alt="Sony" src="/assets/images/cb/logos/r_sony.png"></div>
+        </div>
+    </section>
+    <!--endteam-->
+{{/with}}
