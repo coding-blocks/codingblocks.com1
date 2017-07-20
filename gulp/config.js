@@ -34,7 +34,11 @@ module.exports = {
         includeSrc: tmp + '/' + includeSrc + '/',
         hbsSrc: tmp
     },
-    injectComponents: {},
+    compliePartials: {
+        name: "/index",
+        partialsSrc: tmp + '/' + partialsSrc,
+        partialsDest: tmp + '/' + partialsSrc
+    },
     html: {
         src: tmp,
         dest: dest,
