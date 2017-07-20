@@ -1,0 +1,9 @@
+<!--meta-->
+{{#each metas}}
+    {{#if name}}
+        <meta name="{{{name}}}" content="{{{content}}}"/>
+    {{else if property}}
+        <meta property="{{{property}}}" content="{{{content}}}"/>
+    {{/if}}
+{{/each}}
+<!--endmeta-->

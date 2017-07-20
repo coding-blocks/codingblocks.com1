@@ -2,16 +2,9 @@
 <html lang="en">
 <head>
     <title>{{title}}</title>
-    <!--Meta-->
-    {{#each metas}}
-        {{#if name}}
-            <meta name="{{{name}}}" content="{{{content}}}"/>
-        {{else if property}}
-            <meta property="{{{property}}}" content="{{{content}}}"/>
-        {{/if}}
-    {{/each}}
-    <!--Meta End-->
 
+    {{> meta}}
+    
     <!--include:head:html-->
     <!--endinject-->
 
@@ -25,6 +18,9 @@
 {{> courses}}
 
 {{> bootcamps}}
+
+{{> numbers}}
+
 <!--include:map:html-->
 <!--endinject-->
 
