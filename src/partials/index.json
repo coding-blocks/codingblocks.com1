@@ -14,24 +14,179 @@
           "link": "/courses/launchpad.html",
           "description": [
             "Programming Fundamentals, OOPS",
-            "<strong>Data Structures & Algorithms</strong> in C++",
+            "Data Structures & Algorithms in C++",
             "300+ Problems, Hackathons",
             "Online <strong>Code Submission</strong>"
           ],
           "odd": true
         },
         {
-          "name": "Launchpad",
+          "name": "Crux",
           "price": "₹17,000",
-          "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
-          "imgAlt": "C++ course logo",
+          "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+          "imgAlt": "java course logo",
           "lectures": "(24-26 lectures)",
-          "link": "/courses/launchpad.html",
+          "link": "/courses/crux.html",
           "description": [
             "Programming Fundamentals, OOPS",
-            "<strong>Data Structures & Algorithms</strong> in C++",
-            "300+ Problems, Hackathons",
-            "Online <strong>Code Submission</strong>"
+            "Data Structures & Algorithms in C++",
+            "Online Code Submission",
+            "300+ Problems, Hackathons"
+          ]
+        },
+        {
+          "name": "Pandora",
+          "price": "₹20,000",
+          "imgSrc": "/assets/images/cb/logosc/color_android.svg",
+          "imgAlt": "android course logo",
+          "lectures": "(22 lectures)",
+          "link": "/courses/pandora.html",
+          "description": [
+            "Building Android Apps",
+            "UI and Animations",
+            "Database &amp; Internet Connected Apps",
+            "LIVE Project & Pitching Session"
+          ],
+          "odd": true
+        },
+        {
+          "name": "Elixir",
+          "price": "₹20,000",
+          "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
+          "imgAlt": "web development course logo",
+          "lectures": "(22 lectures)",
+          "link": "/courses/elixir.html",
+          "description": [
+            "Web Design",
+            "Real time Web Apps",
+            "Deployment &amp; System Adminstration",
+            "LIVE Project &amp; Hackathon"
+          ]
+        },
+        {
+          "name": "Algo++",
+          "price": "₹10,000",
+          "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
+          "imgAlt": "algo++ course logo",
+          "lectures": "(15 lectures)",
+          "link": "/courses/algo++.html",
+          "description": [
+            "Complex Problem Solving",
+            "Algorithmic Analysis",
+            "Interview Preparation",
+            "After Course Hackathon"
+          ],
+          "odd": true
+        },
+        {
+          "name": "PERCEPTRON",
+          "price": "₹22,000",
+          "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
+          "imgAlt": "machine learning course logo",
+          "lectures": "(23 lectures)",
+          "link": "/courses/perceptron.html",
+          "description": [
+            "Code Machine Learning Algorithms",
+            "Artificial Intelligence",
+            "Natural Language Processing",
+            "3 Live Projects &amp; Hackathon"
+          ]
+        }
+      ]
+    },
+    {
+      "partialName": "bootcamps",
+      "heading": "bootcamps",
+      "content": "Fast paced bootcamps for Beginners and Advanced Programmers",
+      "bootcampsList": [
+        {
+          "name": "Competitive Coding",
+          "price": "₹6,000",
+          "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
+          "imgAlt": "Competitive Programming course logo",
+          "lectures": "(8 lectures)",
+          "link": "/bootcamps/competitiveprogramming.html",
+          "description": [
+            "Maths &amp; Number Theory",
+            "Greedy &amp; Divide 'n' Conquer",
+            "Dynamic Programming &amp; Graphs",
+            "Segment trees &amp; Game Theory"
+          ],
+          "odd": true
+        },
+        {
+          "name": "Interview Preparation",
+          "price": "₹5,000",
+          "imgSrc": "/assets/images/cb/r_final.png",
+          "imgAlt": "Interview Preparation Bootcamp logo",
+          "lectures": "(8 lectures)",
+          "link": "/bootcamps/interviewprep.html",
+          "description": [
+            "Operating Systems",
+            "DBMS",
+            "Networking &amp;SystemDesign",
+            "Mock Interviews"
+          ]
+        },
+        {
+          "name": "Game Development",
+          "price": "₹5,000",
+          "imgSrc": "/assets/images/cb/logosc/color_game.svg",
+          "imgAlt": "Game Development Bootcamp logo",
+          "lectures": "(8 lectures)",
+          "link": "/coming-soon.html",
+          "linkText": "See Details",
+          "description": [
+            "Real Time Multiplayer Games",
+            "Animation and Graphics",
+            "Games for Android,IOS,Web",
+            "Game Projects &amp; Hackathon"
+          ],
+          "odd": true
+        },
+        {
+          "name": "ChatBots and automation",
+          "price": "₹5,000",
+          "imgSrc": "/assets/images/cb/logosc/color_chatbots.svg",
+          "imgAlt": "ChatBots and automation Bootcamp logo",
+          "lectures": "(5 lectures)",
+          "link": "/coming-soon.html",
+          "linkText": "See Details",
+          "description": [
+            "Python &amp; Django",
+            "Facebook API &amp; Webhooks",
+            "ChatBots",
+            "Automation"
+          ]
+        },
+        {
+          "name": "Machine<br/>Learning",
+          "price": "₹5,000",
+          "imgSrc": "/assets/images/cb/logosc/color_ml2.svg",
+          "imgAlt": "machine learning Bootcamp logo",
+          "lectures": "(8 lectures)",
+          "link": "/coming-soon.html",
+          "linkText": "See Details",
+          "description": [
+            "Supervised Learning &amp; Algorithms",
+            "Regression",
+            "Neural Networks",
+            "2 Live Projects"
+          ],
+          "odd": true
+        },
+        {
+          "name": "ReactJS<br/>Bootcamp",
+          "price": "₹5,000",
+          "imgSrc": "/assets/images/cb/logosc/color_react.svg",
+          "imgAlt": "react js Bootcamp logo",
+          "lectures": "(8 lectures)",
+          "link": "/coming-soon.html",
+          "linkText": "See Details",
+          "description": [
+            "Getting Started",
+            "Hands on with React",
+            "Projects"
           ]
         }
       ]
