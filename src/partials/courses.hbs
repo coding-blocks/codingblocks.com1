@@ -1,0 +1,19 @@
+<!--courses-->
+<a id="slider" class="in-page-link"></a>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h3 class="uppercase mb16">{{{heading}}}</h3>
+                <p class="lead mb64">{{{content}}}</p>
+            </div>
+        </div>
+
+        <div class="row">
+            {{#each coursesList}}
+                {{> course}}
+            {{/each}}
+        </div>
+    </div>
+</section>
+<!--endcourses-->

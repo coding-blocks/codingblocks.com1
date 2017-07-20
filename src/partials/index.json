@@ -1,0 +1,40 @@
+{
+  "partials": [
+    {
+      "partialName": "courses",
+      "heading": "COURSES",
+      "content": "Courses for all stages, with equal focus on theory and implementation",
+      "coursesList": [
+        {
+          "name": "Launchpad",
+          "price": "₹17,000",
+          "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+          "imgAlt": "C++ course logo",
+          "lectures": "(24-26 lectures)",
+          "link": "/courses/launchpad.html",
+          "description": [
+            "Programming Fundamentals, OOPS",
+            "<strong>Data Structures & Algorithms</strong> in C++",
+            "300+ Problems, Hackathons",
+            "Online <strong>Code Submission</strong>"
+          ],
+          "odd": true
+        },
+        {
+          "name": "Launchpad",
+          "price": "₹17,000",
+          "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+          "imgAlt": "C++ course logo",
+          "lectures": "(24-26 lectures)",
+          "link": "/courses/launchpad.html",
+          "description": [
+            "Programming Fundamentals, OOPS",
+            "<strong>Data Structures & Algorithms</strong> in C++",
+            "300+ Problems, Hackathons",
+            "Online <strong>Code Submission</strong>"
+          ]
+        }
+      ]
+    }
+  ]
+}

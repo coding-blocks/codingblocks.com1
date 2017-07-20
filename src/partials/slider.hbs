@@ -1,5 +1,5 @@
 <!--slider-->
-<a id="home_hero_header" class="in-page-link"></a>
+<a id="slider" class="in-page-link"></a>
 <section class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
     <ul class="slides">
         {{#each slides}}
@@ -10,9 +10,10 @@
                 <div class="container v-align-transform">
                     <div class="row text-center">
                         <div class="col-md-10 col-md-offset-1">
-                            <!--for custom html after heading "customContent"-->
+                            <!--for custom html "customContent"-->
                             {{#unless customContent}}
-                                <h2 class="mb-xs-16">{{{heading}}}</h2>
+                                <h2 class="mb-xs-16 all-caps">{{{heading}}}</h2>
+                                <h4>{{{subHeading}}}</h4>
                                 <p class="bold lead mb60">{{{content}}}</p>
                                 <br/>
                                 {{#each button}}
@@ -36,5 +37,4 @@
         {{/each}}
     </ul>
 </section>
-
 <!--endslider-->
