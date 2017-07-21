@@ -1,0 +1,24 @@
+{{#with header}}
+    <section class="page-title page-title-2 bg-secondary bg-dark"
+             {{#if bgSrc}}style="background: url('{{{bgSrc}}}') no-repeat 0% 70% cover;"{{/if}}>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h1 class="uppercase mb8">{{{heading}}}</h1>
+                    <p class="lead mb0">{{{subHeading}}}</p>
+                </div>
+                {{#if breadcrumbs}}
+                    <div class="col-md-6 text-right">
+                        <ol class="breadcrumb breadcrumb-2">
+                            {{#each breadcrumbs}}
+                                <li>
+                                    <a href="{{{link}}}">{{linkText}}</a>
+                                </li>
+                            {{/each}}
+                        </ol>
+                    </div>
+                {{/if}}
+            </div>
+        </div>
+    </section>
+{{/with}}
