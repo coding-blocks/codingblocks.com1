@@ -19,7 +19,7 @@ gulp.task('html', ['compliePartials'], function () {
                         .data(page)
                     )
                     .pipe(ext('.html'))
-                    //.pipe(minifyHtml({collapseWhitespace: true}))
+                    .pipe(minifyHtml({collapseWhitespace: true}))
                     .pipe(using())
                     .pipe(gulp.dest(config.dest + template.src))
                 stream.on('finish', resolve)

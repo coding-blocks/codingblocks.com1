@@ -155,7 +155,7 @@ p.lead {
 }
 
 .team-xs {
-    background: no-repeat center/100% url('/img/cb/team/team-banner.jpg');
+    background: no-repeat center/100% url('/assets/images/cb/team/team-banner.jpg');
     min-height: 250px;
 }
 

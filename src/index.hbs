@@ -5,27 +5,19 @@
     {{> meta}}
     {{> head}}
 </head>
-<body>
+<body class="scroll-assist">
 {{> navbar}}
-{{> slider}}
-{{> courses}}
-{{> bootcamps}}
-{{> numbers}}
-{{> team}}
-{{> map}}
-{{> footer}}
+<div class="main-container">
+    {{> slider}}
+    {{> courses}}
+    {{> bootcamps}}
+    {{> numbers}}
+    {{> team}}
+    {{> whatstudentssay}}
+    {{> readmoretestimonials}}
+    {{> map}}
+    {{> footer}}
+</div>
 {{> scripts}}
-<script>
-    $(function () {
-        $('.flip-card').flip({
-            axis: 'y',
-            trigger: 'hover'
-        }).waypoint(function (direction) {
-            $(this.element).flip(direction == 'down');
-        }, {
-            offset: '40%'
-        })
-    })
-</script>
 </body>
 </html>
