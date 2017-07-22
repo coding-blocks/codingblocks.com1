@@ -1,0 +1,93 @@
+{
+  "heading": "COURSES",
+  "content": "Courses for all stages, with equal focus on theory and implementation",
+  "coursesList": [
+    {
+      "name": "Launchpad",
+      "price": "₹17,000",
+      "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+      "imgAlt": "C++ course logo",
+      "lectures": "(24-26 lectures)",
+      "link": "/courses/launchpad.html",
+      "description": [
+        "Programming Fundamentals, OOPS",
+        "Data Structures & Algorithms in C++",
+        "300+ Problems, Hackathons",
+        "Online <strong>Code Submission</strong>"
+      ],
+      "odd": true
+    },
+    {
+      "name": "Crux",
+      "price": "₹17,000",
+      "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+      "imgAlt": "java course logo",
+      "lectures": "(24-26 lectures)",
+      "link": "/courses/crux.html",
+      "description": [
+        "Programming Fundamentals, OOPS",
+        "Data Structures & Algorithms in C++",
+        "Online Code Submission",
+        "300+ Problems, Hackathons"
+      ]
+    },
+    {
+      "name": "Pandora",
+      "price": "₹20,000",
+      "imgSrc": "/assets/images/cb/logosc/color_android.svg",
+      "imgAlt": "android course logo",
+      "lectures": "(22 lectures)",
+      "link": "/courses/pandora.html",
+      "description": [
+        "Building Android Apps",
+        "UI and Animations",
+        "Database &amp; Internet Connected Apps",
+        "LIVE Project & Pitching Session"
+      ],
+      "odd": true
+    },
+    {
+      "name": "Elixir",
+      "price": "₹20,000",
+      "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
+      "imgAlt": "web development course logo",
+      "lectures": "(22 lectures)",
+      "link": "/courses/elixir.html",
+      "description": [
+        "Web Design",
+        "Real time Web Apps",
+        "Deployment &amp; System Adminstration",
+        "LIVE Project &amp; Hackathon"
+      ]
+    },
+    {
+      "name": "Algo++",
+      "price": "₹10,000",
+      "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
+      "imgAlt": "algo++ course logo",
+      "lectures": "(15 lectures)",
+      "link": "/courses/algo++.html",
+      "description": [
+        "Complex Problem Solving",
+        "Algorithmic Analysis",
+        "Interview Preparation",
+        "After Course Hackathon"
+      ],
+      "odd": true
+    },
+    {
+      "name": "PERCEPTRON",
+      "price": "₹22,000",
+      "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
+      "imgAlt": "machine learning course logo",
+      "lectures": "(23 lectures)",
+      "link": "/courses/perceptron.html",
+      "description": [
+        "Code Machine Learning Algorithms",
+        "Artificial Intelligence",
+        "Natural Language Processing",
+        "3 Live Projects &amp; Hackathon"
+      ]
+    }
+  ]
+}

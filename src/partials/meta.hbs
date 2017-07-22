@@ -7,3 +7,15 @@
     {{/if}}
 {{/each}}
 <!--endmeta-->
+
+<!--opengraphs-->
+{{# if openGraph}}
+    {{#with openGraph}}
+        <meta property="og:type" content="{{type}}">
+        <meta property="og:url" content="{{{url}}}">
+        <meta property="og:title" content="{{{title}}}">
+        <meta property="og:image" content="{{{imgSrc}}}">
+        <meta property="og:description" content="{{{description}}}"/>
+    {{/with}}
+{{/if}}
+<!--endopengraphs-->

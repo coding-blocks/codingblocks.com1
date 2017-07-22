@@ -1,0 +1,47 @@
+<!--courseenroll-->
+{{#with courseEnroll}}
+    <a id="enroll" class="in-page-link"></a>
+    <section>
+        <div class="container">
+            <div class="row v-align-children">
+                <div class="col-sm-5">
+                    <h3>Come, fall in LOVE with CODING</h3>
+                    <p class="lead">
+                        <span>Upcoming Weekend Batches</span><br>
+                        {{#each batches}}
+                            <strong>{{{startDate}}}</strong> at {{{center}}} <em>({{{time}}})</em><br>
+                        {{/each}}
+                    </p>
+                    {{#each highlights}}
+                        <div class="overflow-hidden mb32 mb-xs-24">
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <i class="icon pull-left {{{icon}}} icon-sm"></i>
+                                </div>
+                                <div class="col-sm-11">
+                                    <h6 class="uppercase mb0 inline-block p32">{{{content}}}</h6>
+                                </div>
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricing-table pt-1 text-center emphasis">
+                        <h5 class="uppercase">Regular Batch</h5>
+                        <span class="price">{{{price}}}</span>
+                        <p class="lead">{{{lectures}}}</p>
+                        <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+                        <p>
+                            <a href="/contactus">Contact Us</a>
+                            <br>Call(Toll-free): 1800-2744-504
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+{{/with}}
+<!--endcourseenroll-->

@@ -1,0 +1,30 @@
+<!--coursefaq-->
+<a id="faq" class="in-page-link" data-scroll-id="course-faq"></a>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2 class="mb16">FAQ</h2>
+                <p class="lead mb64">(Drop a line at admissions@codingblocks.com if you have further queries)</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <ul class="accordion accordion-2 one-open">
+                    {{#each faqs}}
+                        <li>
+                            <div class="title">
+                                <h3 class="inline-block mb0"><span class="sad">{{{ques}}}</span></h3>
+                            </div>
+                            <div class="content">
+                                <p>{{{ans}}}</p>
+                            </div>
+                        </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--endcoursefaq-->

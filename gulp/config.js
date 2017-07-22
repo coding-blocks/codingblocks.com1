@@ -5,7 +5,6 @@ const assets = 'assets'
 const imagesSrc = 'assets/images'
 const scriptsSrc = 'assets/scripts'
 const stylesSrc = 'assets/styles'
-const includeSrc = 'include'
 const partialsSrc = 'partials'
 
 module.exports = {
@@ -38,16 +37,6 @@ module.exports = {
         src: tmp,
         dest: dest,
         partialsSrc: tmp + '/' + partialsSrc,
-        templates: [
-            {
-                name: 'index',
-                src: '/'
-            },
-            {
-                name: 'index',
-                src: '/courses/'
-            }
-        ]
     },
     minify: {
         src: src,

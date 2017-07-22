@@ -1,0 +1,14 @@
+{
+  "name": "about",
+  "title": "About | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "India's best programming and software training institute offers courses in Java, C++, Android, NodeJS and more. Know more about Coding Blocks."
+    }
+  ],
+  "header": {
+    "heading": "Introduction",
+    "subHeading": "Welcome to Coding Blocks"
+  }
+}
