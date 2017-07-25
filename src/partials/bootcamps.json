@@ -1,6 +1,8 @@
 {
-  "heading": "bootcamps",
-  "content": "Fast paced bootcamps for Beginners and Advanced Programmers",
+  "bootcampsSection": {
+    "heading": "bootcamps",
+    "content": "Fast paced bootcamps for Beginners and Advanced Programmers"
+  },
   "bootcampsList": [
     {
       "name": "Competitive Coding",

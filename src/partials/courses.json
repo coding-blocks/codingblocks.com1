@@ -1,6 +1,8 @@
 {
-  "heading": "COURSES",
-  "content": "Courses for all stages, with equal focus on theory and implementation",
+  "coursesSection": {
+    "heading": "COURSES",
+    "content": "Courses for all stages, with equal focus on theory and implementation"
+  },
   "coursesList": [
     {
       "name": "Launchpad",

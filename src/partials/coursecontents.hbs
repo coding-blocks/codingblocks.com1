@@ -26,11 +26,13 @@
                                             <strong>{{{lectures}}}</strong><br>
                                         </p>
                                     {{/if}}
-                                    <ol>
-                                        {{#each points}}
-                                            <li>{{{this}}}</li>
-                                        {{/each}}
-                                    </ol>
+                                    {{#if points}}
+                                        <ol>
+                                            {{#each points}}
+                                                <li>{{{this}}}</li>
+                                            {{/each}}
+                                        </ol>
+                                    {{/if}}
                                 </div>
                             </li>
                         {{/each}}

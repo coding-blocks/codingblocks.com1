@@ -1,5 +1,5 @@
 {
-  "name": "launchpad",
+  "name": "Launchpad",
   "title": "Launchpad: C++ Training in Delhi, Noida & Jalandhar| Coding Blocks",
   "metas": [
     {
@@ -8,7 +8,6 @@
     }
   ],
   "openGraph": {
-    "type": "website",
     "url": "https://codingblocks.com/courses/launchpad.html",
     "title": "Launchpad : Data structures and Algorithms in C++",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
@@ -31,7 +30,7 @@
         "link": "#faq"
       }
     ],
-    "bgSrc": "/assets/images/cb/cover/covergcp.jpg"
+    "bgSrc": "/assets/images/cb/cover/cover_lanuchpad.jpg"
   },
   "overview": {
     "content": "Launchpad is a C++ training course designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. A beginners’ course including basic programming fundamentals, object oriented programming and in-depth coverage of data structures and algorithms. <br><br> C++ is known to be a very powerful language. C++ allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ is generally more performant than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products. <br><br>"
@@ -40,109 +39,114 @@
     {
       "icon": "fa fa-code",
       "title": "Fundamentals",
-      "content": "We have designed our course keeping in mind the requirements of beginners.Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+      "content": "We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
     },
     {
       "icon": "et-line-puzzle",
       "title": "Problem Solving",
-      "content": "The course is designed to sharpen the problem solving skills of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+      "content": "The C++ course is designed to sharpen the problem solving skills, using C++, of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
     },
     {
       "icon": "et-line-layers",
       "title": "OOP Concepts &amp; Project",
-      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready. Students will also build a game with Java Swing Libraries to strengthen their OOPS concepts."
+      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready C++ coders."
     },
     {
       "icon": "et-line-linegraph",
       "title": "Data Structures&nbsp;<br>&amp; Algorithms",
-      "content": "This course entails more than 100 hours of teaching and hands on coding. Students will be solving more than 200 complex problems and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+      "content": "This course entails more than 100 hours of teaching and hands on C++ coding. Students will be solving more than 200 complex problems in C++ and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
     }
   ],
   "courseContents": [
     {
       "active": true,
-      "title": "Logic Building and Java Fundamentals",
-      "contentTitle": "Programming fundamentals and logic building",
+      "title": "Logic Building",
+      "contentTitle": "C++ Programming fundamentals and logic building",
       "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
+      "lectures": "Lectures 1-2",
       "points": [
-        "Flowcharts, pseudo-code and brain teasers",
-        "IDE installation and familiarization",
-        "Debugging",
-        "Input-Output",
-        "Data Types and Variables",
-        "Typecasting",
-        "Loops and Decision constructs",
-        "Functions and operators",
-        "Arrays, multi-dimensional arrays and dynamic arrays",
-        "String and String Buffer"
+        "Flowcharts and Pseudo code",
+        "Puzzles",
+        "Getting started with C++"
       ]
     },
     {
-      "title": "Recursion",
-      "contentTitle": "Recursion and Backtracking",
-      "description": "Then we will dive deep into Recursion and solve complex problems involving backtracking.",
+      "title": "C++ Basics",
+      "contentTitle": "Strings, Arrays, Recursion",
+      "description": "Then we will dive deep into C++ topics like Arrays, solving problems with Recursion, understanding about pointers and multi-dimensional arrays.",
+      "lectures": "Lecture: 3-10",
       "points": [
-        "Introduction",
-        "Classical Recursion Problems",
-        "Back-tracking",
-        "Advanced Recursion problems",
-        "Optimization"
+        "Functions",
+        "Arrays, 2D Arrays",
+        "Character Arrays, Strings",
+        "Vectors in C++",
+        "Recursion"
       ]
     },
     {
       "title": "OOP",
-      "contentTitle": "Object Oriented Programming,Complexity Analyis",
+      "contentTitle": "Object Oriented Programming, Complexity Analyis",
       "description": "In this part we learn about how to compute space-time complexity of our solution and how can we optimise our solutions. We will also learn about OOPs and recommended coding practices.",
+      "lectures": "Lecture 11-12",
       "points": [
-        "Classes and objects",
-        "Class, Function and Data member modifiers",
-        "Encapsulation, Inheritance and Polymorphism",
-        "Abstract classes, Interfaces and Packages",
-        "Generics and Exceptions"
+        "Space Time Complexity Analysis",
+        "Object Oriented Programming",
+        "Vectors(Implementation)"
       ]
     },
     {
-      "title": "Data Structures and Algorithms",
+      "title": "Data Structures",
       "contentTitle": "Linked Lists, Stacks, Queues, Trees",
       "description": "This is the most important and exciting part and yet easy. Data structures are all about storing data.You will learn to implement different data structures and when to use them. This part is important as most of the questions asked in interviwes are related to data structures.",
-      "lectures": "Lecture 14-23",
+      "lectures": "Lecture 12-18",
       "points": [
         "Linked Lists",
         "Stacks",
         "Queues",
         "Generic Trees",
         "Binary Trees",
-        "Binary Search Trees",
-        "Hash Tables &amp; Heaps",
-        "Graphs – Traversals, Minimum Spanning trees, Shortest path algorithms",
-        "Text Processing – Text Matching, Compression",
-        "Dynamic Programming"
+        "Binary Search Trees"
       ]
     },
     {
-      "title": "Project Development",
+      "title": "Advanced Data Structures &amp; Algorithms",
       "contentTitle": "Heaps, Hash Tables, Graphs, Tries, Dynamic Programming",
-      "description": "In last classes we will build a game using Java Swing Libraries.",
-      "lectures": "Project Development",
+      "description": "In this final classes of our course, we will learn about more complex data structures and algorithms which help you in solving and optimising solutions of lots of problems.",
+      "lectures": "Lectures 19-24",
       "points": [
-        "Learning about Java Swing",
-        "One game developed in class",
-        "Second game done as assignment"
+        "Heaps",
+        "Hashtables",
+        "Graphs-I",
+        "Graphs-II",
+        "Tries",
+        "Dynamic Programming",
+        "Segment Trees (Extra Session)"
+      ]
+    },
+    {
+      "title": "Project Discussion",
+      "contentTitle": "Project Discussion",
+      "lectures": "Lectures 25",
+      "points": [
+        "Building your own C++ Libraries.",
+        "Sudoku Solver",
+        "Maze Solver",
+        "Snakes &amp; Ladders"
       ]
     }
   ],
   "faqs": [
     {
       "ques": "Who should do this course?",
-      "ans": "Anybody who is interested in learning programming can take the Java training. Java is a powerful and elegant language, but still is pretty easy to learn. Also, this opens the path to enter Enterprise Java world for making powerful desktop and web applications or mobile apps using Android."
+      "ans": "Anybody who is interested in learning C++ programming can do this course. C++ is a powerful language and is pretty easy to learn. Coding in its most essential form is nothing but problem solving. It deals with figuring out logical solutions and implementing them optimally. The process of learning to code transforms a person into an analytical thinker with strong mathematical and logical skills."
     },
     {
-      "ques": "I know C, should I do this course?",
-      "ans": "Yes. Absolutely. Not only will this course teach you Java, but also Object Oriented Programming which forms the base of most, if not all code running live across the globe. Besides it builds your problem solving skills, teaches you some fine data structures and helps you develop the thinking process to optimise your solutions."
+      "ques": "Will this course help if I have C++ in class 12th?",
+      "ans": "Yes, absolutely. There is a lot more to learn in C++ than the school curriculum. School syllabus just scratches the surface of C++ programming and doesn’t cover most of the Data Structures, which will be covered in this course in great detail."
     },
     {
-      "ques": "I know C++, should I do this course?",
-      "ans": "Depends. Knowing C++ generally means you know Object Oriented Programming well. If that is the case, you’ll be better served by learning some courses which teach you to create making mobile apps or web applications. Please check out our Pandora and Elixir course for those."
+      "ques": "I didn’t have C++ in class 12 ? Can I do this course ?",
+      "ans": "Yes. Our instructors will start the C++ course from beginner's level. You don’t need any prior programming knowledge to attend this course. What we need is dedication and passion to learn programming from your side."
     },
     {
       "ques": "Will this help me with competitive programming or can I apply to ACM-ICPC after doing this course?",
@@ -150,21 +154,13 @@
     },
     {
       "ques": "Will this course help me in Interviews?",
-      "ans": "Yes. If you learn well, all that the course intends to teach, you’ll be able to impress quite a few interviewers across quite a few fine companies."
-    },
-    {
-      "ques": "Will this help me in making websites and apps?",
-      "ans": "No. This is a fundamentals course. To make websites and apps, you need to learn more. Please check out our <strong>Pandora &amp; Elixir</strong> course for those."
-    },
-    {
-      "ques": "Is this CORE Java or Advanced Java?",
-      "ans": "This is not CORE java or Advanced Java. This is a course which teaches you problem solving, data structures and Object Oriented Programming. Though, most of what CORE java means is being covered. The aim of the course is to help you with a smarter beginning. For being able to make web and mobile apps you need to learn frameworks. Android is one such framework for mobile apps. Please check out our Pandora and Elixir course for more details on these lines."
+      "ans": "Yes, absolutely. Our course is designed in such a way it covers from fundamentals to advanced topics. Many frequently asked Interview questions will be done in the class and in assignments. We will have special interview talks by industry experts from reputed companies."
     }
   ],
   "courseEnroll": {
     "batches": [
       {
-        "startDate": "Aug 20",
+        "startDate": "Aug 13",
         "center": "Pitampura",
         "time": "Morning"
       },
@@ -174,17 +170,17 @@
         "time": "Evening"
       },
       {
-        "startDate": "Aug 20",
+        "startDate": "Aug 13",
         "center": "Dwarka",
-        "time": "Morning"
+        "time": "Evening"
       },
       {
         "startDate": "Aug 19",
         "center": "Gurugram",
-        "time": "Evening"
+        "time": "Morning"
       },
       {
-        "startDate": "Aug 19",
+        "startDate": "Aug 13",
         "center": "Greater Noida",
         "time": "Morning"
       }
@@ -196,11 +192,9 @@
       },
       {
         "icon": "pe-7s-cup",
-        "content": "Special Session on Java Game Development"
+        "content": "Special Sessions on Competitive Coding"
       }
-    ],
-    "price": "₹17,000",
-    "lectures": "(28 Lectures)"
+    ]
   },
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=40"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=41"
 }

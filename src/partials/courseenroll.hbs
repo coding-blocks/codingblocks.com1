@@ -1,10 +1,10 @@
 <!--courseenroll-->
-{{#with courseEnroll}}
-    <a id="enroll" class="in-page-link"></a>
-    <section>
-        <div class="container">
-            <div class="row v-align-children">
-                <div class="col-sm-5">
+<a id="enroll" class="in-page-link"></a>
+<section>
+    <div class="container">
+        <div class="row v-align-children">
+            <div class="col-sm-5">
+                {{#with courseEnroll}}
                     <h3>Come, fall in LOVE with CODING</h3>
                     <p class="lead">
                         <span>Upcoming Weekend Batches</span><br>
@@ -24,24 +24,34 @@
                             </div>
                         </div>
                     {{/each}}
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="pricing-table pt-1 text-center emphasis">
-                        <h5 class="uppercase">Regular Batch</h5>
-                        <span class="price">{{{price}}}</span>
-                        <p class="lead">{{{lectures}}}</p>
-                        <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
-                        <p>
-                            <a href="/contactus">Contact Us</a>
-                            <br>Call(Toll-free): 1800-2744-504
-                        </p>
-                    </div>
-
-                </div>
+                {{/with}}
             </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="pricing-table pt-1 text-center emphasis">
+                    <h5 class="uppercase">Regular Batch</h5>
+                    {{#each coursesList}}
+                        {{#ifEquals this.name @root.name}}
+                            <span class="price">{{{price}}}</span>
+                            <p class="lead">{{{lectures}}}</p>
+                        {{/ifEquals}}
+                    {{/each}}
+                    {{#each bootcampsList}}
+                        {{#ifEquals this.name @root.name}}
+                            <span class="price">{{{price}}}</span>
+                            <p class="lead">{{{lectures}}}</p>
+                        {{/ifEquals}}
+                    {{/each}}
+                    <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+                    <p>
+                        <a href="/contactus">Contact Us</a>
+                        <br>Call(Toll-free): 1800-2744-504
+                    </p>
+                </div>
 
+            </div>
         </div>
 
-    </section>
-{{/with}}
+    </div>
+
+</section>
 <!--endcourseenroll-->

@@ -11,7 +11,7 @@
 <!--opengraphs-->
 {{# if openGraph}}
     {{#with openGraph}}
-        <meta property="og:type" content="{{type}}">
+        <meta property="og:type" content="{{#if type}}{{type}}{{else}}website{{/if}}">
         <meta property="og:url" content="{{{url}}}">
         <meta property="og:title" content="{{{title}}}">
         <meta property="og:image" content="{{{imgSrc}}}">

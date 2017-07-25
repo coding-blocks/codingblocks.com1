@@ -20,10 +20,23 @@ gulp.task('html', ['compliePartials'], function () {
                     return ({})
                 }
             }))
-            .pipe(hb({
-                partials: config.partialsSrc + '/**/*.hbs',
-                data: config.src + '/**/*.json'
+            .pipe(gulpData(function (file) {
+                return require('../../' + config.partialsSrc + '/courses.json');
             }))
+            .pipe(gulpData(function (file) {
+                return require('../../' + config.partialsSrc + '/bootcamps.json');
+            }))
+            .pipe(hb({
+                    partials: config.partialsSrc + '/**/*.hbs',
+                    data: [config.src + '/**/*.json', config.partialsSrc + '/**/*.json']
+                })
+                    .helpers({
+                        ifEquals: function (obj1, obj2, options) {
+                            if (obj1 === obj2)
+                                return options.fn(this);
+                        }
+                    })
+            )
             .pipe(using())
             .pipe(ext('.html'))
             .pipe(minifyHtml({collapseWhitespace: true}))
