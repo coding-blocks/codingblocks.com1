@@ -1,0 +1,175 @@
+{
+  "name": "Elixir Live",
+  "title": "Elixir Live: Web App Development Course in Delhi | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks offers online Web App Development Courses with NodeJS. Learn web development online and build great websites. Best online web development course."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/elixir.html",
+    "title": "Elixir Live - Full Stack Web Dev with Node.Js!",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14058603_1077770128976987_1865333049_n.jpg",
+    "description": "Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works."
+  },
+  "header": {
+    "heading": "Elixir",
+    "subHeading": "Full stack web development with NodeJS",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "/assets/images/cb/cover/cover_node.jpg"
+  },
+  "overview": {
+    "content": "Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with java script for both Front end as well as back end use-cases<br> Elixir is a project based web development Full Stack course with backend in Node.JS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor and work on their web development projects under their guidance. Elixir enables students to go live with their websites and add a flair to their resume.<br> <br><br>"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "UI Design",
+      "content": "An app with great functionality must be complemented by top notch User Experience and a neat User Interface. We teach building both common and upcoming UI/UX patterns."
+    },
+    {
+      "icon": "pe-7s-download",
+      "title": "Firebase &amp; Push Notifications",
+      "content": "Firebase is Google's service that provides a realtime database and push notifications, so that you can send information to the user even when he is not using your app"
+    },
+    {
+      "icon": "et-line-speedometer",
+      "title": "Hardware Sensors",
+      "content": "Sensors help us build context-aware apps. You'll learn how to use GPS location, orientation, speed sensors, and perform actions on events like flip and shake"
+    },
+    {
+      "icon": "pe-7s-network",
+      "title": "Network &amp; Databases",
+      "content": "Most apps are connected in nature. You'll learn how to connected your apps to a backend to create an ecosystem of users and their data"
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "HTML/CSS",
+      "contentTitle": "HTML/CSS",
+      "description": "The building blocks of web pages – HTML and CSS. Learn how to use the latest HTML5 web development technologies along with CSS3 stylesheets to create amazing and responsive web sites that catch the eye of the viewer. We will also cover UI design patterns  like –",
+      "lectures": "Lectures 1-2",
+      "points": [
+        "Table Layouts",
+        "Flex Boxes",
+        "Bootstrap Columns",
+        "Media Queries and Mobile Responsive Design",
+        "Grids"
+      ]
+    },
+    {
+      "title": "Javascript",
+      "contentTitle": "Javascript",
+      "description": "HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like ‘clicks’, ‘hovers’ and ‘drag and drop’. Javascript is one of the most powerful and ubiquitious languages in modern software development, and we will cover the innards of Javascript in depth including –",
+      "lectures": "Lecture: 3-10",
+      "points": [
+        "ECMAScript 6 Syntax and Standards",
+        "Function Closures and IIFEs",
+        "Classes, Constructors and Prototypes",
+        "Lexical Scopes, Arrow Functions and Variable spreading"
+      ]
+    },
+    {
+      "title": "UNIX AND Git",
+      "contentTitle": "UNIX AND Git",
+      "description": "Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world’s servers are hosted on Linux machines, and any web backend developer has to learn basic DevOps and SysAdmin skills to manage a Linux OS. Also Git, the most commonly used version control system, is one of the most helpful tool required to work on large projects or in collaborative environments",
+      "lectures": "Lecture 11-12",
+      "points": [
+        "Unix and SysAdmin/Devops",
+        "Schema Designing",
+        "Git"
+      ]
+    },
+    {
+      "title": "NODEJS",
+      "contentTitle": "NODEJS",
+      "description": "Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is right now the fastest growing ecosystem. We will learn –",
+      "lectures": "Lecture 12-16",
+      "points": [
+        "NodeJS Modules",
+        "Filesystem API, Events and Streams",
+        "ExpressJS Framework for creating REST APIs",
+        "Handlebars for server side web rendering",
+        "Socket.IO for realtime communication"
+      ]
+    },
+    {
+      "title": "Databases",
+      "contentTitle": "Databases",
+      "description": "What is a server, if it cannot store data on a databases. We will learn to store data in –",
+      "lectures": "Lectures 17-18",
+      "points": [
+        "Flat files on server",
+        "MySQL",
+        "Using ORMs like Sequelize",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "Advanced Topics & Deployment",
+      "contentTitle": "Advanced Topics & Deployment",
+      "lectures": "Lectures 19-25",
+      "description": "Finally we learn how to add basic security to our website including user authentication and authorization, SSL transport, checking for SQL injection and other vulnerabilities.We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
+      "points": [
+        "Security",
+        "Scaling",
+        "Using Frontend Templates",
+        "3rd Party Libraries and Frameworks",
+        "Deploying a live web project"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "How much knowledge of Data Structures and Algorithms do I need to take this course?",
+      "ans": "You need to have good command of data structures like Stacks, Queues and Lists. Also a basic idea of algorithms like sorting, searching, string manupulations. Also it is imperative to have good concepts of Object Oriented Programming"
+    },
+    {
+      "ques": "Do you have a test for admission into this course ?",
+      "ans": "Yes, we have a simple test covering OOP concepts, basic Data structures and array/string manipulation. You need to undertake that test while registering for Elixir."
+    },
+    {
+      "ques": "Will there by any projects ?",
+      "ans": "Yes, most definitely. No course in web development is complete without projects, and we have a lot of focus on working on live projects and practical topics. We start with small projects like TodoList Managers, grow up to creating e-Commerce websites."
+    },
+    {
+      "ques": "What if I miss a live class?",
+      "ans": "Videos will be provided of all classes to students after the class. These can be used for revision as well as covering up missed classes."
+    }
+  ],
+  "courseEnroll": {
+    "price": "12000",
+    "lectures": "(18 Lectures)",
+    "upcomingBatches": "<strong>Batches Starting This August!<strong>",
+    "registerBoxHeading": "<span style='font-size: 3.2rem; text-decoration: line-through;'>₹15,000</span>",
+    "registerButton": {
+      "buttonText": "Enrollment Starting Soon",
+      "disabled": true
+    },
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "2 Hacakthons"
+      }
+    ]
+  }
+}
