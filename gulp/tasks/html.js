@@ -26,9 +26,12 @@ gulp.task('html', ['envSetup'], function () {
             .pipe(gulpData(function (file) {
                 return require('../../' + config.dataSrc + '/bootcamps.json');
             }))
+            .pipe(gulpData(function (file) {
+                return require('../../' + config.dataSrc + '/reviews.json');
+            }))
             .pipe(hb({
                     partials: config.partialsSrc + '/**/*.hbs',
-                    data: [config.src + '/**/*.json', config.partialsSrc + '/**/*.json']
+                    data: [config.src + '/**/*.json', config.dataSrc + '/**/*.json']
                 })
                     .helpers({
                         ifEquals: function (obj1, obj2, options) {
