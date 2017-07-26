@@ -4,14 +4,25 @@
     <div class="container">
         <div class="row v-align-children">
             <div class="col-sm-5">
+                <h3>Come, fall in LOVE with CODING</h3>
+                <p class="lead">
+                    <span>Upcoming Weekend Batches</span><br>
+                    {{#each coursesList}}
+                        {{#ifEquals this.name @root.name}}
+                            {{#each batches}}
+                                <strong>{{{startDate}}}</strong> at {{{center}}} <em>({{{time}}})</em><br>
+                            {{/each}}
+                        {{/ifEquals}}
+                    {{/each}}
+                    {{#each bootcampsList}}
+                        {{#ifEquals this.name @root.name}}
+                            {{#each batches}}
+                                <strong>{{{startDate}}}</strong> at {{{center}}} <em>({{{time}}})</em><br>
+                            {{/each}}
+                        {{/ifEquals}}
+                    {{/each}}
+                </p>
                 {{#with courseEnroll}}
-                    <h3>Come, fall in LOVE with CODING</h3>
-                    <p class="lead">
-                        <span>Upcoming Weekend Batches</span><br>
-                        {{#each batches}}
-                            <strong>{{{startDate}}}</strong> at {{{center}}} <em>({{{time}}})</em><br>
-                        {{/each}}
-                    </p>
                     {{#each highlights}}
                         <div class="overflow-hidden mb32 mb-xs-24">
                             <div class="row">

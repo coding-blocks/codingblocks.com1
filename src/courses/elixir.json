@@ -109,82 +109,46 @@
       ]
     },
     {
-      "title": "Advanced Data Structures &amp; Algorithms",
-      "contentTitle": "Heaps, Hash Tables, Graphs, Tries, Dynamic Programming",
-      "description": "In this final classes of our course, we will learn about more complex data structures and algorithms which help you in solving and optimising solutions of lots of problems.",
-      "lectures": "Lectures 19-24",
+      "title": "Databases",
+      "contentTitle": "Databases",
+      "description": "What is a server, if it cannot store data on a databases. We will learn to store data in –",
+      "lectures": "Lectures 17-18",
       "points": [
-        "Heaps",
-        "Hashtables",
-        "Graphs-I",
-        "Graphs-II",
-        "Tries",
-        "Dynamic Programming",
-        "Segment Trees (Extra Session)"
+        "Flat files on server",
+        "MySQL",
+        "Using ORMs like Sequelize",
+        "MongoDB"
       ]
     },
     {
-      "title": "Project Discussion",
-      "contentTitle": "Project Discussion",
-      "lectures": "Lectures 25",
+      "title": "Advanced Topics & Deployment",
+      "contentTitle": "Advanced Topics & Deployment",
+      "lectures": "Lectures 19-25",
+      "description": "Finally we learn how to add basic security to our website including user authentication and authorization, SSL transport, checking for SQL injection and other vulnerabilities.We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
       "points": [
-        "Building your own C++ Libraries.",
-        "Sudoku Solver",
-        "Maze Solver",
-        "Snakes &amp; Ladders"
+        "Security",
+        "Scaling",
+        "Using Frontend Templates",
+        "3rd Party Libraries and Frameworks",
+        "Deploying a live web project"
       ]
     }
   ],
   "faqs": [
     {
-      "ques": "Who should do this course?",
-      "ans": "Anybody who is interested in learning C++ programming can do this course. C++ is a powerful language and is pretty easy to learn. Coding in its most essential form is nothing but problem solving. It deals with figuring out logical solutions and implementing them optimally. The process of learning to code transforms a person into an analytical thinker with strong mathematical and logical skills."
+      "ques": "How much knowledge of Data Structures and Algorithms do I need to take this course?",
+      "ans": "You need to have good command of data structures like Stacks, Queues and Lists. Also a basic idea of algorithms like sorting, searching, string manupulations. Also it is imperative to have good concepts of Object Oriented Programming"
     },
     {
-      "ques": "Will this course help if I have C++ in class 12th?",
-      "ans": "Yes, absolutely. There is a lot more to learn in C++ than the school curriculum. School syllabus just scratches the surface of C++ programming and doesn’t cover most of the Data Structures, which will be covered in this course in great detail."
+      "ques": "Do you have a test for admission into this course ?",
+      "ans": "Yes, we have a simple test covering OOP concepts, basic Data structures and array/string manipulation. You need to undertake that test while registering for Elixir."
     },
     {
-      "ques": "I didn’t have C++ in class 12 ? Can I do this course ?",
-      "ans": "Yes. Our instructors will start the C++ course from beginner's level. You don’t need any prior programming knowledge to attend this course. What we need is dedication and passion to learn programming from your side."
-    },
-    {
-      "ques": "Will this help me with competitive programming or can I apply to ACM-ICPC after doing this course?",
-      "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time. The last time we heard from capable competitive programmers, they said these skills made them capable."
-    },
-    {
-      "ques": "Will this course help me in Interviews?",
-      "ans": "Yes, absolutely. Our course is designed in such a way it covers from fundamentals to advanced topics. Many frequently asked Interview questions will be done in the class and in assignments. We will have special interview talks by industry experts from reputed companies."
+      "ques": "Will there by any projects ?",
+      "ans": "Yes, most definitely. No course in web development is complete without projects, and we have a lot of focus on working on live projects and practical topics. We start with small projects like TodoList Managers, grow up to creating e-Commerce websites."
     }
   ],
   "courseEnroll": {
-    "batches": [
-      {
-        "startDate": "Aug 13",
-        "center": "Pitampura",
-        "time": "Morning"
-      },
-      {
-        "startDate": "Aug 19",
-        "center": "Pitampura",
-        "time": "Evening"
-      },
-      {
-        "startDate": "Aug 13",
-        "center": "Dwarka",
-        "time": "Evening"
-      },
-      {
-        "startDate": "Aug 19",
-        "center": "Gurugram",
-        "time": "Morning"
-      },
-      {
-        "startDate": "Aug 13",
-        "center": "Greater Noida",
-        "time": "Morning"
-      }
-    ],
     "highlights": [
       {
         "icon": "et-line-search",
@@ -192,9 +156,9 @@
       },
       {
         "icon": "pe-7s-cup",
-        "content": "Special Sessions on Competitive Coding"
+        "content": "2 Hacakthons"
       }
     ]
   },
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=41"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=43"
 }

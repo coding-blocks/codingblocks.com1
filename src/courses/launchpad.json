@@ -158,33 +158,6 @@
     }
   ],
   "courseEnroll": {
-    "batches": [
-      {
-        "startDate": "Aug 13",
-        "center": "Pitampura",
-        "time": "Morning"
-      },
-      {
-        "startDate": "Aug 19",
-        "center": "Pitampura",
-        "time": "Evening"
-      },
-      {
-        "startDate": "Aug 13",
-        "center": "Dwarka",
-        "time": "Evening"
-      },
-      {
-        "startDate": "Aug 19",
-        "center": "Gurugram",
-        "time": "Morning"
-      },
-      {
-        "startDate": "Aug 13",
-        "center": "Greater Noida",
-        "time": "Morning"
-      }
-    ],
     "highlights": [
       {
         "icon": "et-line-search",

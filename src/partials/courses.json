@@ -17,6 +17,33 @@
         "300+ Problems, Hackathons",
         "Online <strong>Code Submission</strong>"
       ],
+      "batches": [
+        {
+          "startDate": "Aug 13",
+          "center": "Pitampura",
+          "time": "Morning"
+        },
+        {
+          "startDate": "Aug 19",
+          "center": "Pitampura",
+          "time": "Evening"
+        },
+        {
+          "startDate": "Aug 13",
+          "center": "Dwarka",
+          "time": "Evening"
+        },
+        {
+          "startDate": "Aug 19",
+          "center": "Gurugram",
+          "time": "Morning"
+        },
+        {
+          "startDate": "Aug 13",
+          "center": "Greater Noida",
+          "time": "Morning"
+        }
+      ],
       "odd": true
     },
     {
@@ -31,6 +58,33 @@
         "Data Structures & Algorithms in C++",
         "Online Code Submission",
         "300+ Problems, Hackathons"
+      ],
+      "batches": [
+        {
+          "startDate": "Aug 20",
+          "center": "Pitampura",
+          "time": "Morning"
+        },
+        {
+          "startDate": "Aug 19",
+          "center": "Pitampura",
+          "time": "Evening"
+        },
+        {
+          "startDate": "Aug 20",
+          "center": "Dwarka",
+          "time": "Morning"
+        },
+        {
+          "startDate": "Aug 19",
+          "center": "Gurugram",
+          "time": "Evening"
+        },
+        {
+          "startDate": "Aug 19",
+          "center": "Greater Noida",
+          "time": "Morning"
+        }
       ]
     },
     {
@@ -60,6 +114,23 @@
         "Real time Web Apps",
         "Deployment &amp; System Adminstration",
         "LIVE Project &amp; Hackathon"
+      ],
+      "batches": [
+        {
+          "startDate": "Aug 13",
+          "center": "Pitampura",
+          "time": "Noon"
+        },
+        {
+          "startDate": "Aug 20",
+          "center": "Dwarka",
+          "time": "Morning"
+        },
+        {
+          "startDate": "Aug 19",
+          "center": "Greater Noida",
+          "time": "Evening"
+        }
       ]
     },
     {
