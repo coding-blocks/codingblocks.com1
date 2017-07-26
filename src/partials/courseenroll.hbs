@@ -42,13 +42,13 @@
                     <h5 class="uppercase">Regular Batch</h5>
                     {{#each coursesList}}
                         {{#ifEquals this.name @root.name}}
-                            <span class="price">{{{price}}}</span>
+                            <span class="price">₹{{{price}}}</span>
                             <p class="lead">{{{lectures}}}</p>
                         {{/ifEquals}}
                     {{/each}}
                     {{#each bootcampsList}}
                         {{#ifEquals this.name @root.name}}
-                            <span class="price">{{{price}}}</span>
+                            <span class="price">₹{{{price}}}</span>
                             <p class="lead">{{{lectures}}}</p>
                         {{/ifEquals}}
                     {{/each}}

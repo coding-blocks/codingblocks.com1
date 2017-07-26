@@ -1,12 +1,8 @@
 {
-  "bootcampsSection": {
-    "heading": "bootcamps",
-    "content": "Fast paced bootcamps for Beginners and Advanced Programmers"
-  },
   "bootcampsList": [
     {
       "name": "Competitive Coding",
-      "price": "₹6,000",
+      "price": "6000",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
       "lectures": "(8 lectures)",
@@ -21,7 +17,7 @@
     },
     {
       "name": "Interview Preparation",
-      "price": "₹5,000",
+      "price": "5000",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Preparation Bootcamp logo",
       "lectures": "(8 lectures)",
@@ -35,7 +31,7 @@
     },
     {
       "name": "Game Development",
-      "price": "₹5,000",
+      "price": "5000",
       "imgSrc": "/assets/images/cb/logosc/color_game.svg",
       "imgAlt": "Game Development Bootcamp logo",
       "lectures": "(8 lectures)",
@@ -51,7 +47,7 @@
     },
     {
       "name": "ChatBots and automation",
-      "price": "₹5,000",
+      "price": "5000",
       "imgSrc": "/assets/images/cb/logosc/color_chatbots.svg",
       "imgAlt": "ChatBots and automation Bootcamp logo",
       "lectures": "(5 lectures)",
@@ -66,7 +62,7 @@
     },
     {
       "name": "Machine<br/>Learning",
-      "price": "₹5,000",
+      "price": "5000",
       "imgSrc": "/assets/images/cb/logosc/color_ml2.svg",
       "imgAlt": "machine learning Bootcamp logo",
       "lectures": "(8 lectures)",
@@ -82,7 +78,7 @@
     },
     {
       "name": "ReactJS<br/>Bootcamp",
-      "price": "₹5,000",
+      "price": "5000",
       "imgSrc": "/assets/images/cb/logosc/color_react.svg",
       "imgAlt": "react js Bootcamp logo",
       "lectures": "(8 lectures)",

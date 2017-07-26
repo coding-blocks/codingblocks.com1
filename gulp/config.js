@@ -7,6 +7,7 @@ const scriptsSrc = 'assets/scripts'
 const stylesSrc = 'assets/styles'
 const partialsSrc = 'partials'
 const helpersSrc = 'helpers'
+const dataSrc = 'data'
 
 module.exports = {
     compress: {
@@ -38,7 +39,8 @@ module.exports = {
         src: tmp,
         dest: dest,
         partialsSrc: tmp + '/' + partialsSrc,
-        helpersSrc: tmp + '/' + helpersSrc
+        helpersSrc: tmp + '/' + helpersSrc,
+        dataSrc: tmp + '/' + dataSrc
     },
     minify: {
         src: src,

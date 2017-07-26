@@ -8,7 +8,7 @@ let minifyHtml = require('gulp-htmlmin')
 let path = require('path')
 let config = require('../config').html
 
-gulp.task('html', ['compliePartials'], function () {
+gulp.task('html', ['envSetup'], function () {
 
     return new Promise((resolve, reject) => {
         let stream = gulp.src([config.src + '/**/*.hbs', "!" + config.partialsSrc + '/**/*.hbs'])
@@ -21,10 +21,10 @@ gulp.task('html', ['compliePartials'], function () {
                 }
             }))
             .pipe(gulpData(function (file) {
-                return require('../../' + config.partialsSrc + '/courses.json');
+                return require('../../' + config.dataSrc + '/courses.json');
             }))
             .pipe(gulpData(function (file) {
-                return require('../../' + config.partialsSrc + '/bootcamps.json');
+                return require('../../' + config.dataSrc + '/bootcamps.json');
             }))
             .pipe(hb({
                     partials: config.partialsSrc + '/**/*.hbs',

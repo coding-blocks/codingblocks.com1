@@ -1,0 +1,73 @@
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Course",
+    "name": "{{{title}}}",
+    {{#each metas}}
+    {{#ifEquals this.name "description"}}
+            "description": "{{this.content}}",
+        {{/ifEquals}}
+{{/each}}
+    "provider": {
+        "@type": "Organization",
+        "name": "Coding Blocks",
+        "sameAs": [
+            "https://www.linkedin.com/company-beta/3804916/",
+            "https://twitter.com/CodingBlocksIN",
+            "https://plus.google.com/u/0/+Codingblocks",
+            "https://www.facebook.com/codingblocksindia/"
+        ]
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "{{title}}",
+   {{#each metas}}
+    {{#ifEquals this.name "description"}}
+            "description": "{{this.content}}",
+        {{/ifEquals}}
+{{/each}}
+  "brand": {
+    "@type": "Thing",
+    "name": "Coding Blocks"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    {{#with reviews}}
+    "ratingValue": "{{{ratingValue}}}",
+    "reviewCount": "{{{reviewCount}}}"
+    {{/with}}
+  },
+  {{#each coursesList}}
+    {{#ifEquals this.name @root.name}}
+   "image": "https://codingblocks.com/{{imgSrc}}",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "INR",
+        "price": "{{this.price}}",
+    "seller": {
+      "@type": "Organization",
+      "name": "Coding Blocks
+    }
+    {{/ifEquals}}
+{{/each}}
+    {{#each bootcampsList}}
+        {{#ifEquals this.name @root.name}}
+   "image": "https://codingblocks.com/{{imgSrc}}",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "INR",
+        "price": "{{this.price}}",
+    "seller": {
+      "@type": "Organization",
+      "name": "Coding Blocks"
+    }
+    {{/ifEquals}}
+    {{/each}}
+  }
+}
+</script>
