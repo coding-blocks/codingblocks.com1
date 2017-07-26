@@ -1,12 +1,14 @@
 <!--registration-->
 <a id="register" class="in-page-link"></a>
-<section>
-    <div class="text-center">
-        <h3>REGISTER NOW</h3>
-    </div>
-    <div class="container">
-        <iframe class="payment-widget"
-                frameborder="0"
-                src="{{{registerLink}}}"></iframe>
-    </div>
-</section>
+{{#if registerLink}}
+    <section>
+        <div class="text-center">
+            <h3>REGISTER NOW</h3>
+        </div>
+        <div class="container">
+            <iframe class="payment-widget"
+                    frameborder="0"
+                    src="{{{registerLink}}}"></iframe>
+        </div>
+    </section>
+{{/if}}

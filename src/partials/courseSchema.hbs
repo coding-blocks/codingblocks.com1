@@ -17,6 +17,14 @@
             "https://plus.google.com/u/0/+Codingblocks",
             "https://www.facebook.com/codingblocksindia/"
         ]
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        {{#with reviews}}
+        "ratingValue": "{{{ratingValue}}}",
+        "ratingCount": "{{{ratingCount}}}",
+        "reviewCount": "{{{reviewCount}}}"
+        {{/with}}
     }
 }
 </script>
@@ -52,7 +60,7 @@
         "price": "{{this.price}}",
     "seller": {
       "@type": "Organization",
-      "name": "Coding Blocks
+      "name": "Coding Blocks"
     }
     {{/ifEquals}}
 {{/each}}
