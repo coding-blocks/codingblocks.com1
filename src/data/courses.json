@@ -96,6 +96,23 @@
         "Database &amp; Internet Connected Apps",
         "LIVE Project & Pitching Session"
       ],
+      "batches": [
+        {
+          "startDate": "Aug 13",
+          "center": "Pitampura",
+          "time": "Evening"
+        },
+        {
+          "startDate": "Aug 20",
+          "center": "Dwarka",
+          "time": "Morning"
+        },
+        {
+          "startDate": "Aug 19",
+          "center": "Greater Noida",
+          "time": "Evening"
+        }
+      ],
       "odd": true
     },
     {
@@ -145,7 +162,7 @@
       "odd": true
     },
     {
-      "name": "PERCEPTRON",
+      "name": "Perceptron",
       "price": "22000",
       "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
       "imgAlt": "machine learning course logo",
@@ -156,6 +173,13 @@
         "Artificial Intelligence",
         "Natural Language Processing",
         "3 Live Projects &amp; Hackathon"
+      ],
+      "batches": [
+        {
+          "startDate": "Aug 20",
+          "center": "Pitampura",
+          "time": "Evening"
+        }
       ]
     }
   ]

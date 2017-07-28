@@ -30,16 +30,10 @@ gulp.task('html', ['envSetup'], function () {
                 return require('../../' + config.dataSrc + '/reviews.json');
             }))
             .pipe(hb({
-                    partials: config.partialsSrc + '/**/*.hbs',
-                    data: [config.src + '/**/*.json', config.dataSrc + '/**/*.json']
-                })
-                    .helpers({
-                        ifEquals: function (obj1, obj2, options) {
-                            if (obj1 === obj2)
-                                return options.fn(this);
-                        }
-                    })
-            )
+                partials: config.partialsSrc + '/**/*.hbs',
+                helpers: config.helpersSrc + '/**/*.js',
+                data: [config.src + '/**/*.json', config.dataSrc + '/**/*.json']
+            }))
             .pipe(using())
             .pipe(ext('.html'))
             .pipe(minifyHtml({collapseWhitespace: true}))
