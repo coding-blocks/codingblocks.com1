@@ -50,6 +50,19 @@ module.exports = {
         scriptsSrc: '/' + scriptsSrc,
         stylesSrc: '/' + stylesSrc
     },
+    completeMigrate: {
+        src: [
+            tmp + "/**/*.*",
+            "!" + tmp + "/**/*.{hbs,json}",
+            "!" + tmp + '/' + partialsSrc + "/**/*.*",
+            "!" + tmp + '/' + helpersSrc + "/**/*.*",
+            "!" + tmp + '/' + dataSrc + "/**/*.*"
+        ],
+        jsonSrc: [
+          tmp + '/manifest.json'
+        ],
+        dest: dest
+    },
     cleanBuild: {
         src: [
             tmp

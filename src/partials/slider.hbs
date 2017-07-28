@@ -24,7 +24,7 @@
                                     {{else}}
                                         <a class="btn btn-lg"
                                            href="{{link}}"
-                                           target="_blank">{{text}}</a>
+                                           {{#unless noNewTab}}target="_blank"{{/unless}}>{{text}}</a>
                                     {{/if}}
                                 {{/each}}
                             {{else}}

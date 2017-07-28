@@ -1,0 +1,18 @@
+{
+  "title": "Coming Soon | Coding Blocks",
+  "slides": [
+    {
+      "imgSrc": "/assets/images/cb/cover/algo_2.jpg",
+      "imgAlt": "coming-soon coding block",
+      "heading": "Coming Soon!",
+      "content": "You should check out some other courses below.",
+      "button": [
+        {
+          "link": "#courses",
+          "text": "Checkout Courses",
+          "noNewTab": true
+        }
+      ]
+    }
+  ]
+}

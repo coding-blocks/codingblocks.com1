@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    <style>
+        .flex-container {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            justify-content: center;
+            -webkit-justify-content: center;
+        }
+
+        .flex-item {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .no-pad {
+            padding: 0px 0px !important;
+        }
+
+        .colw90 {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .highlight {
+            background: url("/assets/images/success-stories/bg.jpg") no-repeat 0 0 fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        }
+
+        .highlightOverlay {
+            background-color: #230c28;
+            opacity: 1;
+        }
+
+        .highlight h2 {
+            color: #fff;
+            margin-top: 40px;
+            font-size: 52px;
+            font-weight: 500;
+            text-shadow: 0px 0px 13px rgba(256, 256, 256, 0.7);
+            transition: all 300ms linear;
+        }
+
+        .highlight h2:hover {
+            text-shadow: 0px 0px 20px rgba(256, 256, 256, 0.9);
+            transition: all 300ms linear
+        }
+
+        .flip-card {
+            width: 26%;
+            margin-left: 4%;
+            margin-right: 3%;
+            padding: 15px 15px !important;
+            height: 100%;
+        }
+
+        .title {
+            margin-top: 10px;
+        }
+
+        @media (max-width: 215px) {
+            .flip-card {
+                width: 96%;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+        }
+
+        @media (min-width: 216px) and (max-width: 460px) {
+            .flip-card {
+                width: 90%;
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+        }
+
+        @media (min-width: 461px) and (max-width: 767px) {
+            .flip-card {
+                width: 45%;
+                margin-left: 3%;
+                margin-right: 0%;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .flip-card {
+                width: 45%;
+                margin-left: 3%;
+                margin-right: 0%;
+            }
+        }
+
+        .hover-light {
+            -webkit-box-shadow: 0px 0px 15px 4px rgba(256, 256, 256, 0.3);
+            -moz-box-shadow: 0px 0px 15px 4px rgba(256, 256, 256, 0.3);
+            box-shadow: 0px 0px 15px 4px rgba(256, 256, 256, 0.3);
+            transition: all 300ms linear
+        }
+
+        .hover-light:hover {
+            -webkit-box-shadow: 0px 0px 35px 4px rgba(256, 256, 256, 0.5);
+            -moz-box-shadow: 0px 0px 35px 4px rgba(256, 256, 256, 0.5);
+            box-shadow: 0px 0px 35px 4px rgba(256, 256, 256, 0.5);
+            transition: all 300ms linear
+        }
+
+        .storyButton {
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        .topWall {
+            background: url("/assets/images/success-stories/success-stories/wall.png");
+        }
+    </style>
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <!-- SECTION: Home hero slider-->
+    <a id="home_hero_header" class="in-page-link"></a>
+    <!--STORIES-->
+    <!-- id should be passed through function call in button-->
+    <!--STORIES END-->
+    <section style="margin-bottom: 0px;">
+        <div class="image-bg" style="margin-bottom: 0px;">
+            <div class="background-image-holder" style="margin-bottom: 0px; height: 115%">
+                <img alt="Bountiful Open Source Summer" class="background-image" src="/assets/images/success-stories/wall.jpg">
+            </div>
+            <div class="container" style="margin-bottom: 0px;">
+                <div class="row">
+                    <div class="col-sm-6 text-center"
+                         style="padding-left: 50px;vertical-align: middle;margin-top: 3%;margin-bottom: 3%;">
+                        <h2 class="uppercase mb16" style="font-size: 50px;font-weight: 600;">Achievers</h2>
+                        <!--
+                        <p class="lead mb64" style="font-weight: 500;font-size: 24px">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </p>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION: Numbers-->
+    <section style="margin-bottom: 0px!important;">
+        <div class="container numbers-container">
+            <div class="row text-center">
+                <a id="home_numbers" class="in-page-link"></a>
+                <h2 class="uppercase color-primary">NUMBERS SPEAK LOUDER<br></h2>
+            </div>
+
+            <div class="row" style="margin-bottom: 0px;">
+                <div class="col-sm-4 text-center numbers-box">
+                    <div class="feature bordered mb30">
+                        <h5 class="uppercase bold">Students</h5>
+                        <div class="numbers-value">6500</div>
+                        <h5>Trained for industry level software development</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 text-center numbers-box">
+                    <div class="feature bordered mb30">
+                        <h5 class="uppercase bold">Success Stories</h5>
+                        <div class="numbers-value">1500</div>
+                        <h5>Interns and Jobs at top global companies&nbsp;</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 text-center numbers-box">
+                    <div class="feature bordered mb30">
+                        <h5 class="uppercase bold">Projects</h5>
+                        <div class="numbers-value">30</div>
+                        <h5>Live open projects built by us and our students</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #f8f8f8;">
+        <div class="row text-center" style="margin-bottom: 40px;">
+            <h3 class="uppercase text-center">Our Achievers</h3>
+        </div>
+        <div class="highlight highlightOverlay" style="margin-bottom: 0px;">
+            <div class="container">
+
+                <div class="row text-center" style="margin-bottom: 40px;">
+                    <h2 class="uppercase text-center"><img src="/assets/images/success-stories/gsoc.png"
+                                                           style="display: inline;height: 70px; vertical-align: text-bottom"/>
+                        GSOCers
+                    </h2>
+                </div>
+
+                <div class="team row text-center">
+
+                    <div id="story1" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic22.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Utkarsh Nath<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">John Doe</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story2" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic46.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Anubhuti Verma<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">John Doe</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story3" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic47.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Naman Dwivedi<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">John Doe</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story4" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic48.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Sachin Agarwal<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">John Doe</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story5" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic49.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Vaibhav Sharma<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">John Doe</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story6" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic50.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Vasudha Mathur<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">John Doe</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center" style="margin-bottom: 40px;">
+                    <h2 class="uppercase text-center">More Achievers</h2>
+                </div>
+
+                <div class="team row text-center">
+
+                    <div id="story7" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic32.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Piyush Narang<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Piyush Malhotra</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="story8" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic2.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Anmol Sud<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Anmol Sud</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story9" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic3.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Akarsh Srivastva<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Akarsh Srivastva</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story10" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic4.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Bhavyaa Bansal<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Bhavyaa Bansal</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story11" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic5.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Bhavya Gupta<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Bhavya Gupta</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story12" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic6.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Chirag Dhawan<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Chirag Dhawan</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story13" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic7.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Manish Mittal<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Manish Mittal</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story14" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic8.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Piyush Jain<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Piyush Jain</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story15" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic9.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Rashi Gupta<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Rashi Gupta</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story16" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic10.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Varun Kashyap<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Varun Kashyap</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story17" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic11.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Anshul Gupta<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Anshul Gupta</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story18" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic12.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Arshi & Pooja<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Arshi & Pooja</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story19" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic13.png">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Ashu Kaushik<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Ashu Kaushik</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story20" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic14.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Bharat Taneja<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Bharat Taneja</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story21" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic15.png">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Deepak Garg<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Deepak Garg</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story22" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic16.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Shubham Desale<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Shubham Desale</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story23" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic17.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Devesh Saini<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Devesh Saini</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story24" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic18.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Divyam Shah<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Divyam Shah</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story25" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic19.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Lakshay Taneja<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Lakshay Taneja</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story26" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic20.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Gautam Kumar<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Gautam Kumar</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story27" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic21.png">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Geet Mittal<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Geet Mittal</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story28" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic23.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Harshil Yadav<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Harshil Yadav</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story29" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic24.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Kapil Arora<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Kapil Arora</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story30" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic25.png">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Kanav Rampal<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Kanav Rampal</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story31" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic26.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Rahul Jain<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Rahul Jain</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story32" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic27.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Pronnoy Goswami<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Pronnoy Goswami</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story33" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic28.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Garima Gupta<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Garima Gupta</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story34" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic29.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Shikha Asrani<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Shikha Asrani</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story35" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic30.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Mudit Verma<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Mudit Verma</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story36" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic31.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Kshitij Malhotra<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Kshitij Malhotra</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story37" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic1.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Utkarsh pandey<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Utkarsh Pandey</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story38" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic33.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Plaksha Kapoor<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Plaksha Kapoor</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story39" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic34.png">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Prashant Chaudhary<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Prashant Chaudhary</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story40" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic35.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Prempal Singh<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Prempal Singh</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story41" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic36.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Puneet Mathur<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Puneet Mathur</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story42" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic37.png">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Punit Sehrawat<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Punit Sehrawat</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story43" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic38.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Purby Lohia<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Purby Lohia</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story44" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic39.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Raghav Aproov<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Raghav Aproov</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story45" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic40.png">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Rishabh Kumar<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Rishabh Kumar</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story46" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic41.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Sandeep Moun<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Sandeep Moun</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story47" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic42.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Sparsh Bansal<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Sparsh Bansal</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story48" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic43.png">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Suransh Chopra<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Suransh Chopra</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story49" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic44.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Suvigya Nijhawan<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Suvigya Nijhawan</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="story50" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <img alt="" src="/assets/images/success-stories/success/pic45.jpg">
+                        <div class="title mb0 text-center">
+                            <h5 class="uppercase mb0 bold">Divya Gupta<br></h5>
+                        </div>
+                        <center>
+                            <!--<button type="button" class="storyButton btn hovercard-light btn-sm btn-filled">Read Story
+                            </button>-->
+                        </center>
+                        <div class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-center">Divya Gupta</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>India's best programming and software training institute offers courses in
+                                            Java, C++, Android, NodeJS and more. Registration open for coding classes in
+                                            Delhi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+<script>
+    $('.storyButton').click(function () {
+        let parent = '#' + $(this).closest("div").prop("id");
+        console.log(parent);
+        $(parent + ' .modal').modal("toggle");
+    });
+</script>
+</body>
+</html>

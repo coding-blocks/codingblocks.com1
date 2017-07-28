@@ -5,7 +5,12 @@ let using = require('gulp-using')
 let config = require('../config').envSetup
 
 gulp.task('envSetup', function () {
-    return gulp.src(config.src)
+    let Stream = gulp.src(config.src)
         .pipe(using())
         .pipe(gulp.dest(config.dest))
+
+    return new Promise((resolve, reject) => {
+        Stream.on('finish', resolve)
+        Stream.on('error', reject)
+    });
 })

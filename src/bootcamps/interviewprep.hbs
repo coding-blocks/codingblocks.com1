@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    <style>
+        #gameheader {
+            background-image: url("/assets/images/cb/cover/coveri2.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .flex-container {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            justify-content: center;
+            -webkit-justify-content: center;
+
+        }
+
+        .flex-item {
+            max-width: 600px;
+
+        }
+    </style>
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <a id="course-header" class="in-page-link"></a>
+
+    <section class="page-title page-title-2 bg-secondary bg-dark" id="gameheader">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h2 class="uppercase mb8">
+                        Interview Prep Bootcamp
+                        <!--title--> </h2>
+                    <p class="lead mb0">
+                        Everything you want to learn from non-coding side
+                    </p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <ol class="breadcrumb breadcrumb-2">
+                        <!--
+                        <li>
+                            <a href="#course-highlights" class="inner-link" target="_self">Highlights</a>
+                        </li><li>
+                            <a href="#course-contents" class="inner-link" target="_self">Contents</a>
+                        </li><li>
+                            <a href="#course-faq" class="inner-link" target="_self">FAQ</a>
+                        </li>-->
+
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <a id="course-overview" class="in-page-link"></a>
+    <div style="padding:30px" align="center">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tGN08U3vYYY" frameborder="0"
+                allowfullscreen></iframe>
+    </div>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 text-center">
+                    <h3 class="uppercase color-primary mb40 mb-xs-24">Overview</h3>
+                    <p class="lead">
+                        Tone up your programming and interviewing skills with the fast-paced course, designed to help
+                        students in preparing for interviews in software companies. Lectures on all important topics as
+                        Operating Systems, DBMS and System Design, resume building to get shortlisted in one go, mock
+                        interviews with industry experts to make students get acclimatized to the rigorous selection
+                        process of companies like Amazon, Google etc.
+                    </p>
+                    <p class="lead mb40">
+                        There will be a total of <strong>7</strong> sessions in the bootcamp. The bootcamp commences on
+                        <strong>July 22</strong>.
+                    </p>
+                    <p class="lead mb40">
+                    <h4>CONTENTS</h4>
+                    <ul>
+                        <li>Operating Systems &amp;</li>
+                        <li>UNIX Commands</li>
+                        <li>System Design Problems</li>
+                        <li>DBMS &amp; SQL</li>
+                        <li>Networking</li>
+                    </ul>
+                    </p>
+                    <p class="lead mb40">
+                        <a class="btn btn-lg btn-filled" href="#tickets">Get Tickets</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <section class="bg-secondary">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4 class="uppercase mb16"> YOUR MENTORS FOR BOOTCAMP</h4>
+                    <br><br>
+
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <div class="col-md-6 col-sm-12  img-holder">
+                        <img alt="Pic" src="/assets/images/cb/team/warnav.jpg"><br>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <p class="mb0" align="justify-content">
+                            <b>Arnav Gupta</b> <br>
+                            Arnav Gupta, also popular as @ChampionSwimmer, is an acclaimed Android developer and two
+                            timer GSoC-er.
+                            He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf.
+                            He has also worked with Sony, Micromax, Cyanogen and the likes.
+                            Arnav has also active contributed int the development of Android OS, Linux Kernel and will
+                            also be mentoring students in GSoC’17.
+                        </p>
+                    </div>
+                </div>
+                <br><br>
+                <div class="flex-item">
+                    <div class="col-md-6 col-sm-12 img-holder">
+                        <img alt="Pic" src="/assets/images/cb/team/wrajesh.jpg"><br>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <p class="mb0" align="justify-content"><br>
+                            <b>Rajesh Sachdev</b><br>
+                            Rajesh has 20+ years of experience in IT/Corporate sector.
+                            He has previously worked with corporates like Nagarro, Cadence, American Express.
+                            He left IT industry in 2013 and moved to education with a passion to help students
+                            accomplishing their career goals.
+                            He did MS from BITS Pilani.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <a id="course-highlights" class="in-page-link" data-scroll-id="course-features"></a>
+
+    <section class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="text-center col-sm-3">
+                    <div class="feature">
+                        <i class="icon fade-3-4 inline-block mb16 et-line-edit"></i>
+                        <h4>Operating Systems</h4>
+                        <p>
+                            In this bootcamp you will learn all important Operating System concepts like Memory
+                            Management, Virtual Memory, Deadlocks, Multi-threading, Process Synchronisation and UNIX
+                            Commands.</p>
+                    </div>
+                </div>
+                <div class="text-center col-sm-3">
+                    <div class="feature">
+                        <i class="icon fade-3-4 inline-block mb16 pe-7s-download"></i>
+                        <h4>DBMS</h4>
+                        <p>
+                            A database management system (DBMS) is a computer software application that interacts with
+                            the user, other applications, and the database itself to capture and analyze data. In this
+                            bootcamp we will look at schema design, SQL Queries, and Normalisation Techniques.</p>
+                    </div>
+                </div>
+                <div class="text-center col-sm-3">
+                    <div class="feature">
+                        <i class="icon fade-3-4 inline-block mb16 et-line-speedometer"></i>
+                        <h4>Networking</h4>
+                        <p>
+                            Students will also learn about Networking Protocols, Routing algorithms in much more detail
+                            .</p>
+                    </div>
+                </div>
+                <div class="text-center col-sm-3">
+                    <div class="feature">
+                        <i class="icon fade-3-4 inline-block mb16 pe-7s-network"></i>
+                        <h4>System Design</h4>
+                        <p>
+                            A comprehensive analysis of system design problems like URL Shortner, Google Ranking
+                            algorithms, Elevator Design, Facebook Ranking system etc will be covered.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="mb16 text-center">Schedule</h4>
+                    <table class="table table-hover table-striped calendar">
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>Date</th>
+                            <th>Time</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-circle"></i></td>
+                            <td>July 22, 2017</td>
+                            <td>10:30 AM - 2:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-circle"></i></td>
+                            <td>July 23, 2017</td>
+                            <td>3:30 PM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-circle-o"></i></td>
+                            <td>July 24, 2017</td>
+                            <td>3:00 PM - 7:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-circle-o"></i></td>
+                            <td>July 26, 2017</td>
+                            <td>12:00 - 3:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-circle-o"></i></td>
+                            <td>July 27, 2017</td>
+                            <td>10:30 AM - 2:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-circle-o"></i></td>
+                            <td>July 28, 2017</td>
+                            <td>12:00 - 3:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-circle-o"></i></td>
+                            <td>July 29, 2017</td>
+                            <td>10:30 AM - 2:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-circle-o"></i></td>
+                            <td>July 30, 2017</td>
+                            <td>08:00 AM - 12:00 PM</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION: Course FAQ -->
+    <a id="course-faq" class="in-page-link" data-scroll-id="course-faq"></a>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4 class="mb16">FAQ</h4>
+                    <p class="lead mb64">(Drop a line at admissions@codingblocks.com if you have further queries)</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <ul class="accordion accordion-2 one-open">
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0">Who should do this bootcamp?</h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    The bootcamp is beneficial for students entering their pre-final / final years, and
+                                    who aim to crack placement/internship interviews in leading IT firms.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0">What are the prerequisites for this bootcamp ?</h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    You should have prior experience with Data Structures and Algorithm Design.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0">Will non-tech topics also be covered?</h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Non technical aspects of tech interviews (such as Group Discussion, HR Round) will
+                                    also be covered along with the syllabus.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Registration -->
+    <a id="tickets" class="in-page-link"></a>
+    <section>
+        <div class="text-center">
+            <h3>REGISTER NOW</h3>
+        </div>
+        <div class="container">
+            <iframe class="payment-widget" frameborder="0"
+                    src="https://students.codingblocks.com/payment/iframe?item_id=47"></iframe>
+        </div>
+    </section>
+
+    {{> whatstudentssay}}
+    {{> readmoretestimonials}}
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>

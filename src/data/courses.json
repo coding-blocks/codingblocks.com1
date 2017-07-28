@@ -2,7 +2,7 @@
   "coursesList": [
     {
       "name": "Launchpad",
-      "price": "17000",
+      "price": "17,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "C++ course logo",
       "lectures": "(24-26 lectures)",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Crux",
-      "price": "17000",
+      "price": "17,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "java course logo",
       "lectures": "(24-26 lectures)",
@@ -85,7 +85,7 @@
     },
     {
       "name": "Pandora",
-      "price": "20000",
+      "price": "20,000",
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
@@ -117,7 +117,7 @@
     },
     {
       "name": "Elixir",
-      "price": "20000",
+      "price": "20,000",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "web development course logo",
       "lectures": "(22 lectures)",
@@ -148,7 +148,7 @@
     },
     {
       "name": "Algo++",
-      "price": "10000",
+      "price": "12,000",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "algo++ course logo",
       "lectures": "(15 lectures)",
@@ -163,7 +163,7 @@
     },
     {
       "name": "Perceptron",
-      "price": "22000",
+      "price": "22,000",
       "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
       "imgAlt": "machine learning course logo",
       "lectures": "(23 lectures)",

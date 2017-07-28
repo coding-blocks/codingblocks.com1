@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    <style>
+        .non-label {
+            font-weight: 400 !important;
+        }
+    </style>
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <section>
+        <div class="col-sm-12 text-center">
+            <h4 class="uppercase mb16">Sign Up</h4>
+            <p class="lead mb64">
+                Sign up to learn the most important skill of 21st century
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+                    <form id="signup-form" class="form-email"
+                          data-success="Thanks for your submission, we will be in touch shortly."
+                          data-error="Please fill all fields correctly.">
+                        <input type="text" class="validate-required" name="name" placeholder="Your Name">
+                        <input type="text" class="validate-required validate-tel" name="number"
+                               placeholder="Phone Number">
+                        <input type="text" class="validate-required validate-email" name="email"
+                               placeholder="Email Address">
+                        <input type="text" class="validate-required validate-text-only-letters" name="city"
+                               placeholder="City">
+                        <input type="text" class="validate-required validate-text-only-letters" name="college"
+                               placeholder="College/University/School">
+
+                        <div class="form-group">
+                            Course :
+                            <input type="radio" class="validate-required" name="course" value="btech" id="btech"> <label
+                                for="btech"> B.Tech </label> |
+                            <input type="radio" class="validate-required" name="course" value="mtech" id="mtech"> <label
+                                for="mtech"> M.Tech </label> |
+                            <input type="radio" class="validate-required" name="course" value="bca" id="bca"> <label
+                                for="bca"> B.C.A. </label> |
+                            <input type="radio" class="validate-required" name="course" value="mca" id="mca"> <label
+                                for="mca"> M.C.A </label> |
+                            <input type="radio" class="validate-required" name="course" value="other" id="other"> <label
+                                for="other"> Other </label>
+                        </div>
+
+                        <div class="form-group">
+                            Discipline :
+                            <input type="radio" class="validate-required" name="stream" value="cs" id="cse"> <label
+                                for="cse"> CS / IT / SE &Tab;</label>
+                            <input type="radio" class="validate-required" name="stream" value="ece" id="ece"> <label
+                                for="ece"> EE / ECE / EEE </label>
+                            <input type="radio" class="validate-required" name="stream" value="na" id="na"> <label
+                                for="na"> Other </label>
+                        </div>
+
+                        <label for="yrselect">Current Education Status :</label>
+                        <select id="yrselect" name="year">
+                            <option value="0"> In School</option>
+                            <option value="1"> 1st Year</option>
+                            <option value="2"> 2nd Year</option>
+                            <option value="3"> 3rd Year</option>
+                            <option value="4"> 4th Year</option>
+                            <option value="5"> 5th Year</option>
+                            <option value="6"> Graduated</option>
+                        </select>
+
+                        <div class="form-group">
+                            <input type="checkbox" value="vmc" id="vmc">
+                            <label for="vmc">I am a Vidyamandir Classes (VMC) Student</label>
+                        </div>
+
+                        <label for="instt"> Preferred Center </label>
+                        <select id="instt" name="center" class="validate-required">
+                            <option value="dwarka"> Dwarka</option>
+                            <option value="gurgaon"> Gurgaon</option>
+                            <option value="pitampura"> Pitampura</option>
+                            <option value="g_noida"> Greater Noida</option>
+                        </select>
+
+                        <div class="form-group" id="courses">
+                            <label>Courses Interested In</label>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox"
+                                                value="launchpad" id="launchpad"> <label class="non-label"
+                                                                                         for="launchpad">Launchpad (C++
+                                        Programming Fundamentals)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox"
+                                                value="crux" id="crux"> <label class="non-label" for="crux">Crux (Java
+                                        Programming Fundamentals)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox"
+                                                value="pandora" id="pandora"> <label class="non-label" for="pandora">Pandora
+                                        (Android App Development)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox"
+                                                value="elixir" id="elixir"> <label class="non-label" for="elixir">Elixir
+                                        (Web Development in Javascript)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox"
+                                                value="elixir" id="algo++"> <label class="non-label" for="algo++">Algo++
+                                        (Advanced DS and Algorithms)</label></div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox"
+                                                value="django" id="django"> <label class="non-label" for="django">Django
+                                        (Web Development in Python)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox"
+                                                value="perceptron" id="preceptron"> <label class="non-label"
+                                                                                           for="preceptron">Perceptron
+                                        (Machine Learning)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox"
+                                                value="canvas" id="canvas"> <label class="non-label" for="canvas">Canvas
+                                        (Game Development)</label></div>
+                                    <div><input class="validate-required" name="interested_courses" type="checkbox"
+                                                value="finalstep" id="finalstep"> <label class="non-label"
+                                                                                         for="finalstep">FinalStep
+                                        (Interview Preparation)</label></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <textarea name="message" rows="4" placeholder="Message"></textarea>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>
