@@ -29,6 +29,12 @@ gulp.task('html', ['envSetup'], function () {
             .pipe(gulpData(function (file) {
                 return require('../../' + config.dataSrc + '/reviews.json');
             }))
+            .pipe(gulpData(function (file) {
+                return require('../../' + config.dataSrc + '/navbar.json');
+            }))
+            .pipe(gulpData(function (file) {
+                return require('../../' + config.dataSrc + '/footer.json');
+            }))
             .pipe(hb({
                 partials: config.partialsSrc + '/**/*.hbs',
                 helpers: config.helpersSrc + '/**/*.js',

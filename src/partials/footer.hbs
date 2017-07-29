@@ -5,8 +5,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-3 text-center">
-                    <div class="vnu"><img alt="Logo" class="logo" src="/assets/images/cb/cb_tshirt_logo.png">
-                    </div>
+                    {{#with footer}}
+                        <div class="vnu"><img alt="Logo" class="logo"
+                                              src="{{#relativePath @file.path logoSrc}}{{/relativePath}}">
+                        </div>
+                    {{/with}}
                 </div>
                 <div class="col-sm-6 col-md-7">
                     <div class="widget">
