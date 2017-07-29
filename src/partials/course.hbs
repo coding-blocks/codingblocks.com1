@@ -1,10 +1,11 @@
 <div class="pricing-card {{#if odd}}pricing-card-inverse{{/if}} col-md-4 col-sm-6">
     <div class="pricing-table pt-2 text-center {{#if odd}}boxed{{/if}}">
-        <img alt="{{{imgAlt}}}" class="course logo" src="{{{imgSrc}}}">
+        <img alt="{{{imgAlt}}}" class="course logo" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
         <h4 class="uppercase bold">{{{name}}}</h4>
         <span class="price">₹{{{price}}}</span>
         <p class="lead">{{{lectures}}}</p>
-        <a class="btn btn-white btn-filled btn-lg" href="{{{link}}}">{{#unless linkText}}
+        <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
+                linkText}}
             Register Now{{else}}{{{linkText}}}{{/unless}}</a>
         <ul>
             {{#each description}}
