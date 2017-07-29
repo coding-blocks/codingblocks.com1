@@ -59,10 +59,39 @@ module.exports = {
             "!" + tmp + '/' + dataSrc + "/**/*.*"
         ],
         jsonSrc: [
-          tmp + '/manifest.json'
+            tmp + '/manifest.json'
         ],
         dest: dest
     },
+    injectScripts: {
+        targetSrc: dest,
+        scriptSrc: [
+            dest + '/assets/scripts/jquery.min.js',
+            dest + '/assets/scripts/jquery.flip.min.js',
+            dest + '/assets/scripts/jquery.waypoints.min.js',
+            dest + '/assets/scripts/bootstrap.min.js',
+            dest + '/assets/scripts/flexslider.min.js',
+            dest + '/assets/scripts/twitterfetcher.min.js',
+            dest + '/assets/scripts/smooth-scroll.min.js',
+            dest + '/assets/scripts/parallax.js',
+            dest + '/assets/scripts/scripts.js'
+        ]
+    },
+    injectStyles: {
+        targetSrc: dest,
+        styleSrc: [
+            dest + '/assets/styles/font-awesome.min.css',
+            dest + '/assets/styles/themify-icons.css',
+            dest + '/assets/styles/bootstrap.css',
+            dest + '/assets/styles/flexslider.css',
+            dest + '/assets/styles/theme-fire.css',
+            dest + '/assets/styles/custom.css',
+            dest + '/assets/styles/pe-icon-7-stroke.css',
+            dest + '/assets/styles/et-line-icons.css',
+            dest + '/manifest.json'
+        ]
+    }
+    ,
     cleanBuild: {
         src: [
             tmp

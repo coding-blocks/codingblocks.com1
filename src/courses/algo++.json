@@ -30,7 +30,7 @@
         "link": "#faq"
       }
     ],
-    "bgSrc": "/assets/images/cb/cover/algo_2.jpg"
+    "bgSrc": "../assets/images/cb/cover/algo_2.jpg"
   },
   "overview": {
     "content": "Introducing our newest course on <strong>Algorithms and Data Structures(in C++)</strong> starting this summer. The course is for all those who are looking forward to sit for internships and placements in August. The course will involve rigorous practice of questions based on <strong>Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming</strong> along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. The course will help you become smarter with solutions and ace your programming interviews. <br> The course will end by mid-July.<br><br>"

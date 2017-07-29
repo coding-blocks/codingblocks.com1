@@ -30,7 +30,7 @@
         "link": "#faq"
       }
     ],
-    "bgSrc": "/assets/images/cb/cover/covergcp.jpg"
+    "bgSrc": "../assets/images/cb/cover/covergcp.jpg"
   },
   "overview": {
     "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements.Designed for beginners, CRUX is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."

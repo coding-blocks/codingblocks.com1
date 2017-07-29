@@ -30,7 +30,7 @@
         "link": "#faq"
       }
     ],
-    "bgSrc": "/assets/images/cb/cover/cover_laptop_books.jpg"
+    "bgSrc": "../assets/images/cb/cover/cover_laptop_books.jpg"
   },
   "faqs": [
     {
