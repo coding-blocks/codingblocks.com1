@@ -5,8 +5,8 @@ rm -rf dist/
 npm run build
 cd dist/
 git init .
-git config user.name "CodingBlocks Deploy Bot"
-git config --global user.email "deploy-bot@codingblocks.com"
+git config --local user.name "CodingBlocks Deploy Bot"
+git config --local user.email "deploy-bot@codingblocks.com"
 now=$(date)
 echo "Deployed on $now" >> "Deployed_$now".txt
 git add -A
