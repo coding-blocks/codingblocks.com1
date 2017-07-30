@@ -4,11 +4,11 @@
 rm -rf dist/
 npm run build
 cd dist/
-git init
-git config user.name "Travis CI"
+git init .
+git config user.name "CodingBlocks Deploy Bot"
 git config --global user.email "deploy-bot@codingblocks.com"
 now=$(date)
 echo "Deployed on $now" >> "Deployed_$now".txt
 git add -A
 git commit -m "Deploy to GitHub Pages"
-git push --force --quiet "https://${GH_USER}:${GH_TOKEN}@${GH_REF}" master:gh-pages
+git push --force --quiet "https://${GH_USER}:${GH_TOKEN}@${GH_REF}" master
