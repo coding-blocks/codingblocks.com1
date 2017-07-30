@@ -4,6 +4,11 @@ node_js:
 branches:
   only:
     - gulp
+
+branches:
+  except:
+    - master
+    - old
 cache:
     directories:
         - "node_modules"
