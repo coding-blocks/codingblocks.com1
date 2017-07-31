@@ -27,6 +27,8 @@
     {{/with}}
     }
 }
+
+
 </script>
 
 <script type="application/ld+json">
@@ -53,11 +55,11 @@
   },
   {{#each coursesList}}
     {{#ifEquals this.name @root.name}}
-   "image": "https://codingblocks.com/{{imgSrc}}",
+   "image": "https://codingblocks.com{{imgSrc}}",
   "offers": {
     "@type": "Offer",
     "priceCurrency": "INR",
-        "price": "{{this.price}}",
+        "price": "{{#removeComma this.price}}{{/removeComma}}",
     "seller": {
       "@type": "Organization",
       "name": "Coding Blocks"
@@ -66,11 +68,11 @@
 {{/each}}
     {{#each bootcampsList}}
         {{#ifEquals this.name @root.name}}
-   "image": "https://codingblocks.com/{{imgSrc}}",
+   "image": "https://codingblocks.com{{imgSrc}}",
   "offers": {
     "@type": "Offer",
     "priceCurrency": "INR",
-        "price": "{{this.price}}",
+        "price": "{{#removeComma this.price}}{{/removeComma}}",
     "seller": {
       "@type": "Organization",
       "name": "Coding Blocks"
@@ -79,4 +81,6 @@
     {{/each}}
   }
 }
+
+
 </script>

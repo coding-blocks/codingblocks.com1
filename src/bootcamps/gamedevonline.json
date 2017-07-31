@@ -1,5 +1,12 @@
 {
+  "name": "Game Development",
   "title": "Game Development Bootcamp | Coding Blocks",
+  "metas": [
+    {
+      "name": "desciption",
+      "content": ""
+    }
+  ],
   "header": {
     "bgSrc": "../assets/images/cb/cover/coverg6.png"
   },
