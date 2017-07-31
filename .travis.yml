@@ -13,4 +13,5 @@ cache:
     directories:
         - "node_modules"
 
-script: bash ./deploy.sh
+script:
+        - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy.sh; fi'
