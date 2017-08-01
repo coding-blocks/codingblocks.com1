@@ -1,0 +1,57 @@
+{
+  "name": "Game Development",
+  "title": "Game Development Bootcamp | Coding Blocks",
+  "metas": [
+    {
+      "name": "desciption",
+      "content": ""
+    }
+  ],
+  "header": {
+    "bgSrc": "../assets/images/cb/cover/coverg6.png"
+  },
+  "overview": {
+    "content": "<strong>Coding Blocks</strong> in association with <strong>Nagarro</strong> is organizing this online bootcamp on Game Development. It is an opportunity for everyone who is interested in learning how to build games using <strong>HTML5, Javascript and Phaser</strong> which is a popular game development framework. In bootcamp, instructor will cover games such as <strong>Pokemon Shooter, Mario, Flappy Birds and many more.</strong> <br><br> The bootcamp will be conducted online which means you don't need to travel anywhere to attend classes. You can join sessions online using your laptop. Apart from Game Development, this bootcamp will introduce you to the world of <strong> JavaScript and HTML5 </strong>which is most essential skill in the technology world. <br> There will be total 5 sessions in the bootcamp. Sessions will be conducted on following dates : <strong>April 8th, 9th, 12th, 15th and 16th</strong>. Timings of the session would be from 4 pm to 7.30 pm. <br><br> <strong>CONTENTS</strong> <br><br> Introduction to JavaScript, Game Loop, Canvas<br> Object Oriented Programming in JS<br> Pokemon Shooter Game<br> Snakes Game<br> Getting started with Phaser<br> Mario Style Platformer Game<br> English Vocab Learning Game- Flappy Bird Style",
+    "buttonText": "Get Tickets"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "HTML5 Canvas",
+      "content": "The HTML Canvas element is used to draw graphics, on the fly, via JavaScript. The canvas element is only a container for graphics. You will learn how to play with canvas, draw graphics and render games."
+    },
+    {
+      "icon": "pe-7s-download",
+      "title": "JavaScript | Phaser",
+      "content": "In the bootcamp, you will learn the basics as well as advanced topics like implementing event listeners, object oriented programming in JS. You will also learn how to use Phaser framework to build uber cool games"
+    },
+    {
+      "icon": "et-line-speedometer",
+      "title": "Multilevel Games",
+      "content": "Not just single state games, you will also learn to create multi-level games using Phaser State Managar and switch between them"
+    },
+    {
+      "icon": "pe-7s-network",
+      "title": "Physics Engine",
+      "content": "Most Arcade Games require some kind of physics to be implemented in the game. In this bootcamp we will explore the Phaser's Arcade Physics engine to add gravity, velocity and simulate collisions on our objects."
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this bootcamp?",
+      "ans": "Any one who wants to learn JavaScript from scratch and build some cool games using JS and Phaser.io - a popular framework for making 2-D Games.Students in 1st and 2nd year can also join this bootcamp."
+    },
+    {
+      "ques": "Will this bootcamp help if I already know JavaScript?",
+      "ans": "Yes, absolutely. There is a lot more to learn in the bootcamp. You will get familiar with game concepts like game loop, HTML Canvas and Phaser.io which is something beyond the normal JS used for web development."
+    },
+    {
+      "ques": "What are the pre-requisites for this bootcamp?",
+      "ans": "You just need to have prior programming in any one language like C++, Java, Python, JS etc and basic understanding of HTML tags. That's it."
+    },
+    {
+      "ques": "Can I build my own games after this bootcamp ?",
+      "ans": "This course will help you become smarter in writing codes. You’ll be able to build 2-d multilevel games involving physics on your own. Also this will take your JS skills to the next level. Learning Phaser will be a plus-point for your CV too."
+    }
+  ]
+}
