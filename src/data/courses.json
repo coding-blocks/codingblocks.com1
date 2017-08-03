@@ -51,7 +51,7 @@
       "link": "/courses/crux.html",
       "description": [
         "Programming Fundamentals, OOPS",
-        "Data Structures & Algorithms in C++",
+        "Data Structures & Algorithms in Java",
         "Online Code Submission",
         "300+ Problems, Hackathons"
       ],
@@ -154,10 +154,10 @@
       "lectures": "(15 lectures)",
       "link": "/courses/algo++.html",
       "description": [
+        "Adv Data Structures & Algo in C++",
         "Complex Problem Solving",
         "Algorithmic Analysis",
-        "Interview Preparation",
-        "After Course Hackathon"
+        "Interview Preparation"
       ],
       "odd": true
     },
