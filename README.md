@@ -4,6 +4,7 @@
 
 
 ## Build Setup
+
 ``` bash
 # install dependencies
 npm install
@@ -13,6 +14,7 @@ npm run build
 ```
 
 ## Tasks
+
 ``` bash
 # minify src images
 gulp compress
@@ -43,16 +45,95 @@ gulp clean
     .
     ├── ...
     ├── src
-        ├── ...
+    │   ├── ...
     │   ├── assets             # assets for the website
-    │       ├── fonts
-    │       ├── images
-    │       ├── scripts
-    │       ├── styles
-    |   ├── data                # Common data for all pages
-        ├── helpers             # Handlebars helpers (js exporting a function in module)
-        ├── partials            # Handlebars partials (hbs template)
-        ├── index.hbs           # HBS template file 
-        ├── index.json          # JSON file for the HBS (/src/index.hbs)
+    │   │   ├── fonts
+    │   │   ├── images
+    │   │   ├── scripts
+    │   │   ├── styles
+    |   ├── data                # Common JSON data for all pages
+    |   ├── helpers             # Handlebars helpers (js exporting a function in module)
+    |   ├── partials            # Handlebars partials (hbs template)
+    |   ├── index.hbs           # HBS template file 
+    |   ├── index.json          # JSON file for the HBS (/src/index.hbs)
+    │   ├── ...
+    └── ...
+
+## Data
+
+Common JSON data for all pages
+
+    .
+    ├── ...
+    ├── src
+    │   ├── ...
+    │   ├── data             
+    │   │   ├── bootcamps.json      # Bootcamps data (price table and upcoming batches)
+    │   │   ├── courses.json        # Courses data (price table and upcoming batches)
+    │   │   ├── footer.json         # Footer imgSrc data
+    │   │   ├── navbar.json         # Navbar imgSrc data
+    │   │   ├── reviews.json        # All reviews data
+    │   │   ├── team.json           # All team member's data
+    │   ├── ...
+    └── ...
+
+## Helpers
+
+Js files export modules with a single function.
+
+    .
+    ├── ...
+    ├── src
+    │   ├── ...
+    │   ├── helpers             
+    │   │   ├── ifEquals.js     # In-case Sensitive matching of a string
+    │   │   ├── relativePath.js # Generate relative path from two absolute path strings
+    │   │   ├── removeComma.js  # Remove commas from a string
+    │   ├── ...
+    └── ...
+
+**Example:**
+
+```
+module.exports = function (..., options) {
+.
+.
+.
+}
+```
+
+## Partials
+
+Handlebars Template files
+
+    .
+    ├── ...
+    ├── src
+    │   ├── ...
+    │   ├── partials                        
+    │   │   ├── bootcamps.hbs               # Bootcamps section
+    │   │   ├── centerlocation.hbs          # Center location & contact Box
+    │   │   ├── course.hbs                  # Course price box 
+    │   │   ├── coursecontents.hbs          # Course content section
+    │   │   ├── courseenroll.hbs            # Upcomig batches and price box section
+    │   │   ├── coursefaq.hbs               # Course Faq section
+    │   │   ├── coursehighlights.hbs        # Course Highlights section
+    │   │   ├── courses.hbs                 # Courses section
+    │   │   ├── courseSection.hbs           # Course JSON-LD Schema
+    │   │   ├── footer.hbs                  # Footer container
+    │   │   ├── head.hbs                    # Site-wide head dependencies
+    │   │   ├── header.hbs                  # Page header section
+    │   │   ├── map.hbs                     # Contact form with map section
+    │   │   ├── meta.hbs                    # Meta & open graph tags
+    │   │   ├── navbar.hbs                  # Navbar section
+    │   │   ├── numbers.hbs                 # Numbers Speak Louder section
+    │   │   ├── overview.hbs                # Course overview section
+    │   │   ├── readmoretestimonials.hbs    # Read more reviews buttons section
+    │   │   ├── registration.hbs            # Registration iframe section
+    │   │   ├── scripts.hbs                 # Site-wide body bottom JS dependencies
+    │   │   ├── slider.hbs                  # Slider section
+    │   │   ├── team.hbs                    # Team section
+    │   │   ├── teamMember.hbs              # Team member box
+    │   │   ├── whatstudentssay.hbs         # Reviews Section
     │   ├── ...
     └── ...
