@@ -37,7 +37,7 @@ gulp clean
     ├── ...
     ├── gulp
     │   ├── tasks               # Task.js files
-    │   ├── config.js           # Exports module for tasks config
+    │   └── config.js           # Exports module for tasks config
     └── ...
 
 ## Src Structure
@@ -46,7 +46,7 @@ gulp clean
     ├── ...
     ├── src
     │   ├── ...
-    │   ├── assets             # assets for the website
+    │   ├── assets              # assets for the website
     │   │   ├── fonts
     │   │   ├── images
     │   │   ├── scripts
@@ -56,7 +56,7 @@ gulp clean
     |   ├── partials            # Handlebars partials (hbs template)
     |   ├── index.hbs           # HBS template file 
     |   ├── index.json          # JSON file for the HBS (/src/index.hbs)
-    │   ├── ...
+    │   └── ...
     └── ...
 
 ## Data
@@ -74,7 +74,7 @@ Common JSON data for all pages
     │   │   ├── navbar.json         # Navbar imgSrc data
     │   │   ├── reviews.json        # All reviews data
     │   │   ├── team.json           # All team member's data
-    │   ├── ...
+    │   └── ...
     └── ...
 
 ## Helpers
@@ -89,7 +89,7 @@ Js files export modules with a single function.
     │   │   ├── ifEquals.js     # In-case Sensitive matching of a string
     │   │   ├── relativePath.js # Generate relative path from two absolute path strings
     │   │   ├── removeComma.js  # Remove commas from a string
-    │   ├── ...
+    │   └── ...
     └── ...
 
 **Example:**
@@ -119,7 +119,7 @@ Handlebars Template files
     │   │   ├── coursefaq.hbs               # Course Faq section
     │   │   ├── coursehighlights.hbs        # Course Highlights section
     │   │   ├── courses.hbs                 # Courses section
-    │   │   ├── courseSection.hbs           # Course JSON-LD Schema
+    │   │   ├── courseSchema.hbs            # Course JSON-LD Schema
     │   │   ├── footer.hbs                  # Footer container
     │   │   ├── head.hbs                    # Site-wide head dependencies
     │   │   ├── header.hbs                  # Page header section
@@ -135,5 +135,5 @@ Handlebars Template files
     │   │   ├── team.hbs                    # Team section
     │   │   ├── teamMember.hbs              # Team member box
     │   │   ├── whatstudentssay.hbs         # Reviews Section
-    │   ├── ...
+    │   └── ...
     └── ...
