@@ -1,7 +1,7 @@
 {
   "bootcampsList": [
     {
-      "name": "Competitive Coding",
+      "name": "Competitive programming",
       "price": "6,000",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",

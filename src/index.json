@@ -51,95 +51,31 @@
       ]
     }
   ],
+  "coursesSection": {
+    "showAll": true
+  },
+  "bootcampsSection": {
+    "showAll": true
+  },
   "team": {
     "heading": "team",
     "content": "",
     "flip": true,
-    "staff": [
-      {
-        "name": "Manmohan Gupta",
-        "role": "Founder",
-        "imgSrc": "assets/images/cb/team/wmanmohan.jpg",
-        "imgAlt": "Manmohan Gupta",
-        "bio": "Manmohan Gupta (Munna Bhaiya), an IIT-Delhi graduate, is an ace programmer, technocrat, an entrepreneurial doyen and a mathematician. He has co-founded Software giant, <b>Nagarro</b> and <b>Vidyamandir Classes(VMC)</b>. Having seen both the industries from up close, he could identify a key gap between college education and industry needs and has now set out to carve the path that will turn even ordinary students into industry-ready coders."
-      },
-      {
-        "name": "Brij Mohan",
-        "role": "Co-Founder",
-        "imgSrc": "assets/images/cb/team/c_badebhayia.jpg",
-        "imgAlt": "Brij Mohan Gupta",
-        "bio": "Brij Mohan or Bade bhaiya, as everyone calls him, is always full of energy and keeps everyone on feet with his motivation. He has vast experience of teaching and is the founder of Vidyamandir Classes. <br> Bade Bhaiya, through his personal and professional growth helps in motivating and mentoring students at Coding Blocks. He is an IIT Delhi alumnus. <br>"
-      },
-      {
-        "name": "Anushray Gupta",
-        "role": "Co-Founder",
-        "imgSrc": "assets/images/cb/team/wanushray.jpg",
-        "imgAlt": "Anushray Gupta",
-        "bio": "A code lover, with an undying passion for teaching, Anushray has done his Bachelor’s in CSE from IIIT Hyderabad. He has worked with major tech companies like Facebook and Directi and played major role in many successful start-ups. <br> He is one of the Co-Founders of Coding Blocks. He has received amazing feedbacks for his teaching and is now serving as Programme Designer at Coding Blocks."
-      },
-      {
-        "name": "Priyanshu Agrawal",
-        "role": "Founding Member",
-        "imgSrc": "assets/images/cb/team/wpriyanshu.jpg",
-        "imgAlt": "Priyanshu Agrawal",
-        "bio": "Priyanshu did his bachelors in Computer Science and is a MBA graduate from MDI, Gurgaon. He has experience of working in Management &amp; Consulting domain with Boston Analytics &amp; Novozymes. He has also worked for Vidyamandir Classes and Nagarro in the past."
-      },
-      {
-        "name": "Arnav Gupta",
-        "role": "Founding Member",
-        "imgSrc": "assets/images/cb/team/warnav.jpg",
-        "imgAlt": "Arnav Gupta",
-        "bio": "Arnav Gupta, also popular as @ChampionSwimmer, is an acclaimed Android developer and two timer GSoC-er. He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf. He has also worked with Sony, Micromax, Cyanogen and the likes.Arnav has also active contributed int the development of Android OS, Linux Kernel and will also be mentoring students in GSoC’17."
-      },
-      {
-        "name": "Prateek Narang",
-        "role": "Founding Member",
-        "imgSrc": "assets/images/cb/team/wprateek.jpg",
-        "imgAlt": "Prateek Narang",
-        "bio": "Passionate about teaching, Prateek is a CS graduate from DTU. He has previously worked with SanDisk, HackerEarth. He has also won various hackathons including Google’s Code For India, Smart City Hackathon, qualified ACM-ICPC regionals and published papers in International Journals. His interactive CV (www.prateeknarang.com) is also popular in 120+ countries."
-      },
-      {
-        "name": "Sumeet Malik",
-        "role": "Founding Member",
-        "imgSrc": "assets/images/cb/team/wsumeet.jpg",
-        "imgAlt": "Sumeet Malik",
-        "bio": "Sumeet a CS graduade from PEC, has more than 7 years of industry experience at software giants like Nagarro in various technologies like Enterprise Java, JavaScript, Angular &amp; React. He left the IT industry from the senior position of a Technical Lead, to pursue his passion to teach at Coding Blocks. He has received great feedback and praise for his teaching while serving as corporate trainer and mentor for 2 years at Nagarro."
-      },
-      {
-        "name": "Rajesh Sachdev",
-        "role": "Programme Designer",
-        "imgSrc": "assets/images/cb/team/wrajesh.jpg",
-        "imgAlt": "Rajesh Sachdev",
-        "bio": "Rajesh has 20+ years of experience in IT/Corporate sector. He has previously worked with corporates like Nagarro, Cadence, American Express. He left IT industry in 2013 and moved to education with a passion to help students accomplishing their career goals. He did MS from BITS Pilani."
-      },
-      {
-        "name": "Ankit Malik",
-        "role": "Mentor",
-        "imgSrc": "assets/images/cb/team/wankit.jpg",
-        "imgAlt": "Ankit Malik",
-        "bio": "IIT Delhi graduate passionate about web application design and web programming. Has worked with companies like Facebook, Barclays and WorldQuant. Co-founder of a technology consultancy firm with 3+ years experience of building data-intensive web solutions for US based pharma cos."
-      },
-      {
-        "name": "Varun Kohli",
-        "role": "Centre Head and Tech Lead",
-        "imgSrc": "assets/images/cb/team/wvarun.jpg",
-        "imgAlt": "Varun Kohli",
-        "bio": "Has been associated with the IT industry for almost 10 years &amp; has served various roles in multiple domains. He has exhaustive experience in Software products, Business intelligence &amp; business development."
-      },
-      {
-        "name": "Harpreet Singh",
-        "role": "Mentor",
-        "imgSrc": "assets/images/cb/team/wharpreet.jpg",
-        "imgAlt": "Harpreet Singh",
-        "bio": "Harpreet has worked on several Enterprise level applications  and has successfully piloted several Startups. He did his B. Tech in Computers from UIET, Kurukshetra in 2013. He now dedicates his energy and experience to students to make them superb programmers."
-      },
-      {
-        "name": "Nipun Jain",
-        "role": "Mentor",
-        "imgSrc": "assets/images/cb/team/wnipun.jpg",
-        "imgAlt": "Nipun Jain",
-        "bio": "Nipun is an ace Android programmer and has several highly trending Apps to his credit. Nipun has around 6+ years of Industry experience in Software giants, beyond which he opted for teaching to pursue his passion"
-      }
+    "meetTeam": true,
+    "showAll": false,
+    "teamMembers": [
+      "manmohan gUpTa",
+      "BRIJ MOHAN",
+      "ANUSHRAY GUPTA",
+      "PRIYANSHU AGRAWAL",
+      "ARNAV GUPTA",
+      "PRATEEK NARANG",
+      "SUMEET MALIK",
+      "RAJESH SACHDEV",
+      "ANKIT MALIK",
+      "VARUN KOHLI",
+      "HARPREET SINGH",
+      "NIPUN JAIN"
     ]
   }
 }

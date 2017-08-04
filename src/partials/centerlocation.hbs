@@ -1,0 +1,45 @@
+<!--centerlocation-->
+{{#with centerLocation}}
+    {{#if isSection}}
+        <section>
+        <div class="container text-center">
+            <h2 class="uppercase mb40 mb-xs-24">Location</h2>
+    {{/if}}
+        <a id="{{{inPageLink}}}" class="in-page-link"></a>
+        <div class="feature bordered clearfix text-center {{#if isFilled}}bg-primary{{/if}}">
+            <div class="col-md-12">
+                <h3 class="uppercase  mb-xs-24 col-md-12">{{{name}}}</h3>
+            </div>
+            <div class="col-md-6">
+                <div class="location-address">
+                    <p>{{{location}}}</p>
+                </div>
+                <div class="location-contact">
+                    <h4 class="uppercase">Contact</h4>
+                    <strong>{{{contactPerson}}}</strong><br/>
+                    {{#each phoneNumers}}
+                        <p class="location-phone">{{{this}}}</p>
+                    {{/each}}
+                    <a href="mailto:{{{email}}}">{{{email}}}</a><br>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <section class="contact-map">
+                    <div class="map-container">
+                        <div class="col-md-12 map-box">
+                            <div class="map-canvas" data-address="{{{mapAddress}}}"
+                                 data-marker-title="Coding Blocks"
+                                 data-map-zoom="11" data-maps-api-key="AIzaSyCtSz4b43fPFC1kT90-x52A3ECJfBnHvN8"
+                                 data-map-style="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#dd0d0d&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:100},{&quot;visibility&quot;:&quot;simplified&quot;}]}]"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    {{#if isSection}}
+        </div>
+        </section>
+    {{/if}}
+{{/with}}
+<!--endcenterlocation-->

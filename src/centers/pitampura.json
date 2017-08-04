@@ -1,0 +1,68 @@
+{
+  "title": "Best Programming Coaching in Pitampura, New Delhi | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "India's best programming & software training institute Coding Blocks Pitampura offers Java, Web development & Android coaching classes in Pitampura, New Delhi."
+    }
+  ],
+  "header": {
+    "heading": "Pitampura",
+    "subHeading": "(Corporate Office)",
+    "breadcrumbs": [
+      {
+        "linkText": "Location",
+        "link": "#location"
+      },
+      {
+        "linkText": "Team",
+        "link": "#team"
+      },
+      {
+        "linkText": "Courses",
+        "link": "#courses"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "centerLocation": {
+    "name": "Pitampura (Corporate Office)",
+    "inPageLink": "location",
+    "location": "1st Floor,<br>47, Nishant Kunj,<br> Main Pitampura Road,<br>New Delhi<br><br> Near Kohat Enclave Metro Station<br> (Exit from Gate # 2)<br> (Opposite Pillar 337)<br>",
+    "contactPerson": "Mr. Dinesh Joon",
+    "phoneNumber": [
+      "011 - 47052584",
+      "011 - 27354126"
+    ],
+    "email": "dinesh.joon@codingblocks.com",
+    "mapAddress": "Coding Blocks, Pitampura",
+    "isSection": true,
+    "isFilled": true
+  },
+  "team": {
+    "heading": "team",
+    "content": "",
+    "flip": true,
+    "meetTeam": true,
+    "showAll": false,
+    "teamMembers": [
+      "SUMEET MALIK",
+      "RISHAB KAPOOR",
+      "DEEPAK AGGARWAL",
+      "GARIMA CHHIKARA",
+      "MOHAMMAD UMAIR",
+      "PRAJJWAL SINGH",
+      "MOHD FAHAD"
+    ]
+  },
+  "coursesSection": {
+    "coursesList": [
+      "Launchpad",
+      "Crux",
+      "Pandora",
+      "Elixir",
+      "Algo++",
+      "Perceptron"
+    ]
+  }
+}

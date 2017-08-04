@@ -1,0 +1,42 @@
+<!--teammember-->
+{{#if flip}}
+    <div class="flip-card col-sm-6 col-md-3">
+        <div class="front">
+            <div class="img-holder">
+                <img alt="{{{imgAlt}}}" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
+            </div>
+            <div class="title mb16">
+                <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
+                <span>{{{role}}}</span>
+            </div>
+        </div>
+        <div class="back">
+            <div class="title mb16">
+                <div class="img-holder">
+                    <img alt="{{{imgAlt}}}" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
+                </div>
+                <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
+                <span>{{{role}}}</span>
+            </div>
+            <p class="mb0">
+                {{{bio}}}
+            </p>
+        </div>
+    </div>
+{{else}}
+    <div class="col-sm-6 col-md-3">
+        <div class="image-tile outer-title text-center">
+            <div class="img-holder">
+                <img alt="{{{imgAlt}}}" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
+            </div>
+            <div class="title mb16">
+                <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
+                <span>{{{role}}}</span>
+            </div>
+            <p class="mb0">
+                {{{bio}}}
+            </p>
+        </div>
+    </div>
+{{/if}}
+<!--endteammember-->

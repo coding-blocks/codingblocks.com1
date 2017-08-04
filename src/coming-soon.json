@@ -14,5 +14,11 @@
         }
       ]
     }
-  ]
+  ],
+  "coursesSection": {
+    "showAll": true
+  },
+  "bootcampsSection": {
+    "showAll": true
+  }
 }

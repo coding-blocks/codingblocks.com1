@@ -1,0 +1,64 @@
+{
+  "title": "Best Programming Coaching in Dwarka, New Delhi | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "India's best programming & software training institute Coding Blocks Greater Noida offers Java, Web development & Android coaching classes in Greater Noida."
+    }
+  ],
+  "header": {
+    "heading": "Greater Noida",
+    "subHeading": "Coding Blocks",
+    "breadcrumbs": [
+      {
+        "linkText": "Location",
+        "link": "#location"
+      },
+      {
+        "linkText": "Team",
+        "link": "#team"
+      },
+      {
+        "linkText": "Courses",
+        "link": "#courses"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "centerLocation": {
+    "name": "Greater Noida Center",
+    "inPageLink": "location",
+    "location": "2nd Floor<br>Rohtas Technosquare,<br> C-40, Knowledge Park – 1,<br>(Near Pari Chowk)<br> Greater Noida, Uttar Pradesh",
+    "contactPerson": "Varun Kohli",
+    "phoneNumber": [
+      "9999579111",
+      "9999579222"
+    ],
+    "email": "varun@codingblocks.com",
+    "mapAddress": "Knowledge Park I, Greater Noida, Uttar Pradesh 201310",
+    "isSection": true,
+    "isFilled": true
+  },
+  "team": {
+    "heading": "team",
+    "content": "",
+    "flip": true,
+    "meetTeam": true,
+    "showAll": false,
+    "teamMembers": [
+      "VARUN KOHLI",
+      "HARPREET SINGH",
+      "NIPUN JAIN",
+      "ANUJ GARG"
+    ]
+  },
+  "coursesSection": {
+    "coursesList": [
+      "Launchpad",
+      "Crux",
+      "Pandora",
+      "Elixir",
+      "Algo++"
+    ]
+  }
+}

@@ -1,26 +1,32 @@
 <!--bootcamps-->
-<a id="bootcamps" class="in-page-link"></a>
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                {{#if bootcampsSection}}
-                    {{#with bootcampsSection}}
-                        {{#if heading}}<h3 class="uppercase mb16">{{{heading}}}</h3>{{/if}}
-                        {{# if content}}<p class="lead mb64">{{{content}}}</p>{{/if}}
-                    {{/with}}
+{{#with bootcampsSection}}
+    <a id="bootcamps" class="in-page-link"></a>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3 class="uppercase mb16">{{#if heading}}{{{heading}}}{{else}}bootcamps{{/if}}</h3>
+                    <p class="lead mb64">{{# if content}}{{{content}}}{{else}}
+                        Fast paced bootcamps for Beginners and Advanced Programmers{{/if}}</p>
+                </div>
+            </div>
+
+            <div class="row">
+                {{#if showAll}}
+                    {{#each @root.bootcampsList}}
+                        {{> course}}
+                    {{/each}}
                 {{else}}
-                    <h3 class="uppercase mb16">bootcamps</h3>
-                    <p class="lead mb64">Fast paced bootcamps for Beginners and Advanced Programmers</p>
+                    {{#each bootcampsList}}
+                        {{#each @root.bootcampsList}}
+                            {{#ifEquals this.name ../this}}
+                                {{> course}}
+                            {{/ifEquals}}
+                        {{/each}}
+                    {{/each}}
                 {{/if}}
             </div>
         </div>
-
-        <div class="row">
-            {{#each bootcampsList}}
-                {{> course}}
-            {{/each}}
-        </div>
-    </div>
-</section>
+    </section>
+{{/with}}
 <!--endbootcamps-->
