@@ -1,0 +1,65 @@
+{
+  "title": "Best Programming Coaching in Dwarka, New Delhi | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "India's best programming & software training institute Coding Blocks Dwarka offers Java, Web development & Android coaching classes in Dwarka, New Delhi."
+    }
+  ],
+  "header": {
+    "heading": "Dwarka Coding Blocks",
+    "subHeading": "",
+    "breadcrumbs": [
+      {
+        "linkText": "Location",
+        "link": "#location"
+      },
+      {
+        "linkText": "Courses",
+        "link": "#courses"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "centerLocation": {
+    "name": "Dwarka Center",
+    "inPageLink": "location",
+    "location": "2nd Floor,<br>Plot No. 3,<br>Sector 11, Dwarka, New Delhi<br>(Near &nbsp;Dwarka Sec-11 Metro)",
+    "contactPerson": "Mr. Rajesh Sachdev",
+    "phoneNumber": [
+      "8588801217",
+      "9811228053"
+    ],
+    "email": "rajesh@codingblocks.com",
+    "mapAddress": "Coding Blocks, Dwarka",
+    "isSection": true,
+    "isFilled": true
+  },
+  "team": {
+    "heading": "team",
+    "content": "",
+    "flip": true,
+    "meetTeam": true,
+    "showAll": false,
+    "teamMembers": [
+      "RAJESH SACHDEV",
+      "RISHAB KAPOOR",
+      "DEEPAK AGGARWAL",
+      "AAYUSH ARORA",
+      "HARSHIT DWIVEDI"
+    ]
+  },
+  "coursesSection": {
+    "coursesList": [
+      "Launchpad",
+      "Crux",
+      "Pandora",
+      "Elixir",
+      "Algo++"
+    ]
+  }
+}

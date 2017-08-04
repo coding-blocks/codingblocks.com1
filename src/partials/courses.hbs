@@ -1,26 +1,32 @@
 <!--courses-->
-<a id="courses" class="in-page-link"></a>
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                {{#if coursesSection}}
-                    {{#with coursesSection}}
-                        {{#if heading}}<h3 class="uppercase mb16">{{{heading}}}</h3>{{/if}}
-                        {{# if content}}<p class="lead mb64">{{{content}}}</p>{{/if}}
-                    {{/with}}
+{{#with coursesSection}}
+    <a id="courses" class="in-page-link"></a>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3 class="uppercase mb16">{{#if heading}}{{{heading}}}{{else}}courses{{/if}}</h3>
+                    <p class="lead mb64">{{# if content}}{{{content}}}{{else}}
+                        Courses for all stages, with equal focus on theory and implementation{{/if}}</p>
+                </div>
+            </div>
+
+            <div class="row">
+                {{#if showAll}}
+                    {{#each @root.coursesList}}
+                        {{> course}}
+                    {{/each}}
                 {{else}}
-                    <h3 class="uppercase mb16">courses</h3>
-                    <p class="lead mb64">Courses for all stages, with equal focus on theory and implementation</p>
+                    {{#each coursesList}}
+                        {{#each @root.coursesList}}
+                            {{#ifEquals this.name ../this}}
+                                {{> course}}
+                            {{/ifEquals}}
+                        {{/each}}
+                    {{/each}}
                 {{/if}}
             </div>
         </div>
-
-        <div class="row">
-            {{#each coursesList}}
-                {{> course}}
-            {{/each}}
-        </div>
-    </div>
-</section>
+    </section>
+{{/with}}
 <!--endcourses-->

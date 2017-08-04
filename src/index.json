@@ -51,6 +51,12 @@
       ]
     }
   ],
+  "coursesSection": {
+    "showAll": true
+  },
+  "bootcampsSection": {
+    "showAll": true
+  },
   "team": {
     "heading": "team",
     "content": "",
