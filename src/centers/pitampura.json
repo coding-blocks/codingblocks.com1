@@ -7,7 +7,7 @@
     }
   ],
   "header": {
-    "heading": "Pitampura Coding Blocks",
+    "heading": "Pitampura",
     "subHeading": "(Corporate Office)",
     "breadcrumbs": [
       {
@@ -15,12 +15,12 @@
         "link": "#location"
       },
       {
-        "linkText": "Courses",
-        "link": "#courses"
+        "linkText": "Team",
+        "link": "#team"
       },
       {
-        "linkText": "FAQ",
-        "link": "#faq"
+        "linkText": "Courses",
+        "link": "#courses"
       }
     ],
     "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"

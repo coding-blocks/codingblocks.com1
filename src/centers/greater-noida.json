@@ -3,11 +3,11 @@
   "metas": [
     {
       "name": "description",
-      "content": "India's best programming & software training institute Coding Blocks Dwarka offers Java, Web development & Android coaching classes in Dwarka, New Delhi."
+      "content": "India's best programming & software training institute Coding Blocks Greater Noida offers Java, Web development & Android coaching classes in Greater Noida."
     }
   ],
   "header": {
-    "heading": "Dwarka",
+    "heading": "Greater Noida",
     "subHeading": "Coding Blocks",
     "breadcrumbs": [
       {
@@ -26,16 +26,16 @@
     "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
   },
   "centerLocation": {
-    "name": "Dwarka Center",
+    "name": "Greater Noida Center",
     "inPageLink": "location",
-    "location": "2nd Floor,<br>Plot No. 3,<br>Sector 11, Dwarka, New Delhi<br>(Near &nbsp;Dwarka Sec-11 Metro)",
-    "contactPerson": "Mr. Rajesh Sachdev",
+    "location": "2nd Floor<br>Rohtas Technosquare,<br> C-40, Knowledge Park – 1,<br>(Near Pari Chowk)<br> Greater Noida, Uttar Pradesh",
+    "contactPerson": "Varun Kohli",
     "phoneNumber": [
-      "8588801217",
-      "9811228053"
+      "9999579111",
+      "9999579222"
     ],
-    "email": "rajesh@codingblocks.com",
-    "mapAddress": "Coding Blocks, Dwarka",
+    "email": "varun@codingblocks.com",
+    "mapAddress": "Knowledge Park I, Greater Noida, Uttar Pradesh 201310",
     "isSection": true,
     "isFilled": true
   },
@@ -46,11 +46,10 @@
     "meetTeam": true,
     "showAll": false,
     "teamMembers": [
-      "RAJESH SACHDEV",
-      "RISHAB KAPOOR",
-      "DEEPAK AGGARWAL",
-      "AAYUSH ARORA",
-      "HARSHIT DWIVEDI"
+      "VARUN KOHLI",
+      "HARPREET SINGH",
+      "NIPUN JAIN",
+      "ANUJ GARG"
     ]
   },
   "coursesSection": {
