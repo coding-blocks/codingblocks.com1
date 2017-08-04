@@ -35,6 +35,9 @@ gulp.task('html', ['envSetup'], function () {
             .pipe(gulpData(function (file) {
                 return require('../../' + config.dataSrc + '/footer.json');
             }))
+            .pipe(gulpData(function (file) {
+                return require('../../' + config.dataSrc + '/team.json');
+            }))
             .pipe(hb({
                 partials: config.partialsSrc + '/**/*.hbs',
                 helpers: config.helpersSrc + '/**/*.js',

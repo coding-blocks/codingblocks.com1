@@ -1,5 +1,5 @@
+<!--team-->
 {{#with team}}
-    <!--team-->
     <a id="team" class="in-page-link"></a>
     <section class="bg-secondary">
         <div class="row">
@@ -13,53 +13,22 @@
         </div>
         <div class="container hidden-xs">
             <div class="team row text-center">
-                {{#if flip}}
-                    {{#each staff}}
-                        <div class="flip-card col-sm-6 col-md-3">
-                            <div class="front">
-                                <div class="img-holder">
-                                    <img alt="{{{imgAlt}}}" src="{{{imgSrc}}}">
-                                </div>
-                                <div class="title mb16">
-                                    <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
-                                    <span>{{{role}}}</span>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="title mb16">
-                                    <div class="img-holder">
-                                        <img alt="{{{imgAlt}}}" src="{{{imgSrc}}}">
-                                    </div>
-                                    <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
-                                    <span>{{{role}}}</span>
-                                </div>
-                                <p class="mb0">
-                                    {{{bio}}}
-                                </p>
-                            </div>
-                        </div>
+                {{#if showAll}}
+                    {{#each @root.teamMembers}}
+                        {{> teamMember flip = ../flip}}
                     {{/each}}
                 {{else}}
-                    {{#each staff}}
-                        <div class="col-sm-6 col-md-3">
-                            <div class="image-tile outer-title text-center">
-                                <div class="img-holder">
-                                    <img alt="{{{imgAlt}}}" src="{{{imgSrc}}}">
-                                </div>
-                                <div class="title mb16">
-                                    <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
-                                    <span>{{{role}}}</span>
-                                </div>
-                                <p class="mb0">
-                                    {{{bio}}}
-                                </p>
-                            </div>
-                        </div>
+                    {{#each teamMembers}}
+                        {{#each @root.teamMembers}}
+                            {{#ifEquals this.name ../this}}
+                                {{> teamMember flip = ../../flip}}
+                            {{/ifEquals}}
+                        {{/each}}
                     {{/each}}
                 {{/if}}
             </div>
         </div>
-        {{#if flip}}
+        {{#if meetTeam}}
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center btn-banner">
@@ -78,5 +47,5 @@
             <div class="flex-item"><img alt="Sony" src="/assets/images/cb/logos/r_sony.png"></div>
         </div>
     </section>
-    <!--endteam-->
 {{/with}}
+<!--endteam-->
