@@ -11,7 +11,7 @@
       "imgSrc": "assets/images/cb/cover/dark-wood.jpg",
       "imgAlt": "coders admission scholarship test",
       "heading": "CAST for Greater Noida Center!",
-      "content": "Coders' Admission &amp; Scholarship Test (CAST) is back for the foundation courses in our Greater Noida centre. Register now to stand a chance to avail a scholarship of up to 75% off the course fees.",
+      "content": "Coders' Admission &amp; Scholarship Test (CAST) is back for the foundation courses in our Greater Noida centre. <br />Register now to stand a chance to avail a scholarship of up to 75% off the course fees.",
       "button": [
         {
           "link": "https://cb.lk/castnoida",
@@ -54,7 +54,7 @@
       "imgSrc": "assets/images/cb/cover/morning-wood.jpg",
       "imgAlt": "Elixir Online",
       "heading": "PRESENTING ELIXIR LIVE!",
-      "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. \nClasses starting soon.",
+      "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. <br />Classes starting soon.",
       "button": [
         {
           "link": "https://codingblocks.com/courses/elixirlive.html",
