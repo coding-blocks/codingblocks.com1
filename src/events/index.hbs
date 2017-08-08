@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    <style>
+        .event-card {
+            box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    {{> header}}
+
+    <script type="text/x-handlebars-template">
+        <section class="bg-secondary">
+            <div class="row">
+                {{#each data}}
+                    <div class="col-md-4 col-sm-6 col-xs-12 event-card">
+                        <div class="img-box">
+                            <img src="{{{cover}}}">
+                        </div>
+                        <div class="info-box">
+                            <h3>{{name}}</h3>
+                            <p>{{{description}}}</p>
+                            <span>{{{place.name}}}</span>
+                            <span>{{{start_time}}}</span>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </section>
+    </script>
+
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+<script type="text/javascript">
+    var url = "https://graph.facebook.com/v2.10/1477893739095631/events?access_token=404649853235493%7CEInF9B-kIT0Tdpv_oyXBMIlfiDU";
+
+    $.get(url, function (events) {
+        var newEventsPromises = events.data.map(function (event, index) {
+            console.log(event.id);
+            return new Promise((resolve, reject) => {
+                $.get("https://graph.facebook.com/v2.10/" + event.id + "?access_token=404649853235493%7CEInF9B-kIT0Tdpv_oyXBMIlfiDU", {
+                    fields: "cover"
+                }, function (obj) {
+                    resolve(getCover(obj, event))
+                });
+            });
+        });
+
+        Promise.all(newEventsPromises).then(newEvents => {
+            //code
+            console.log(events.data[0]);
+        });
+    });
+
+    function getCover(obj, event) {
+        event.cover = obj.cover.source;
+        console.log(event.cover);
+        return event;
+    }
+</script>
+</body>
+</html>
