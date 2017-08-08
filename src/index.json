@@ -8,14 +8,27 @@
   ],
   "slides": [
     {
-      "imgSrc": "assets/images/cb/cover/dark-metal.jpg",
+      "imgSrc": "assets/images/cb/cover/dark-wood.jpg",
       "imgAlt": "coders admission scholarship test",
-      "heading": "CAST for AUGUST BATCHES!",
-      "content": "Coders' Admission &amp; Scholarship Test (CAST) is back for foundation courses across all centres. Register now to stand a chance to avail a scholarship of up to 75% off the course fees. <br>",
+      "heading": "CAST for Greater Noida Center!",
+      "content": "Coders' Admission &amp; Scholarship Test (CAST) is back for the foundation courses in our Greater Noida centre. Register now to stand a chance to avail a scholarship of up to 75% off the course fees.",
       "button": [
         {
-          "link": "http://students.codingblocks.com/admission_test_online/A17CAST01/result_letter",
-          "text": "Result Declared",
+          "link": "https://cb.lk/castnoida",
+          "text": "Register Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "assets/images/cb/cover/codencounter.jpg",
+      "imgAlt": "Code N Counter 2.0",
+      "heading": "Code N Counter 2.0",
+      "content": "Nagarro in association with Coding Blocks brings to you a hackathon to test, demonstrate and improve your programming skills. Prizes worth ₹ 2 lakhs on offer.",
+      "button": [
+        {
+          "link": "https://cb.lk/hackathon",
+          "text": "Register Now",
           "filled": "true"
         }
       ]
@@ -39,13 +52,13 @@
     },
     {
       "imgSrc": "assets/images/cb/cover/morning-wood.jpg",
-      "imgAlt": "coding blocks online courses",
-      "heading": "50% Discount on Advanced Online Course!",
-      "content": "Advanced Module of India's best live Online Course on Data Structures &amp; Algorithms <strong>starting July 5</strong>",
+      "imgAlt": "Elixir Online",
+      "heading": "PRESENTING ELIXIR LIVE!",
+      "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. \nClasses starting soon.",
       "button": [
         {
-          "link": "https://codingblocks.com/courses/launchpad-online.html",
-          "text": "Register Now",
+          "link": "https://codingblocks.com/courses/elixirlive.html",
+          "text": "Details & Registration",
           "filled": "true"
         }
       ]
