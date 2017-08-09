@@ -206,7 +206,16 @@ p.lead {
 }
 
 .nav-bar .module.left {
-    padding: 0 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+@media (max-width: 990px) {
+    .nav-bar .module.left {
+        padding-right: 0;
+    }
 }
 
 .contact-us-dropdown a[target="_self"] .fa {
