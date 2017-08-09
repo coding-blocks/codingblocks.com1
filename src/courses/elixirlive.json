@@ -158,8 +158,8 @@
     "upcomingBatches": "<strong>Batches Starting This August!<strong>",
     "registerBoxHeading": "<span style='font-size: 3.2rem; text-decoration: line-through;'>₹15,000</span>",
     "registerButton": {
-      "buttonText": "Enrollment Starting Soon",
-      "disabled": true
+      "buttonText": "Enroll Now",
+      "disabled": false
     },
     "highlights": [
       {
