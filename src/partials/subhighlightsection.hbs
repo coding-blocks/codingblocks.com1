@@ -1,0 +1,24 @@
+<!--subhighlightsection-->
+<a id="sub-highlight-section" class="in-page-link"></a>
+<section style="margin-top: 40px;">
+    {{#each subHighlightSection}}
+        <div class="container">
+            <div class="row">
+                <br>
+                <div class="col-sm-4 {{#if pull-right}}pull-right{{/if}} col-xs-12">
+                    <img src="{{#relativePath @file.path imgSrc}}{{/relativePath}}" alt="{{imgAlt}}"
+                         class="img-responsive">
+                </div>
+                <div class="col-sm-8 text-center col-xs-12">
+                    <br>
+                    <p><!-- To give line break in mobile view--></p>
+                    <h3 class="uppercase mb16">{{{heading}}}</h3>
+                    <p class="lead mb40">{{{description}}}</p>
+                    <a class="btn btn-white btn-filled btn-lg"
+                       href="{{#relativePath @file.path btnLink}}{{/relativePath}}">{{{btnText}}}</a>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</section>
+<!--endsubhighlightsection-->
