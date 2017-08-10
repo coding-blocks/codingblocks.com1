@@ -206,7 +206,16 @@ p.lead {
 }
 
 .nav-bar .module.left {
-    padding: 0 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 93px;
+}
+
+@media (max-width: 990px) {
+    .nav-bar .module.left {
+        padding-right: 0;
+    }
 }
 
 .contact-us-dropdown a[target="_self"] .fa {
@@ -426,4 +435,9 @@ ol.syllabus {
 .flex-item {
     max-width: 100%;
     max-height: 100%;
+}
+
+h1 .sub-heading {
+    letter-spacing: 4px;
+    color: #fff;
 }
