@@ -294,7 +294,7 @@ nav.bg-dark .logo-dark{display:none;}
 .menu li a:hover{opacity:1 !important;color:#fc4f4f;}
 .menu > li{margin-right:32px;float:left;position:relative;transition:all 0.3s ease;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;opacity:1;}
 .menu > li:last-child{margin-right:0;}
-.menu > li:last-child > ul{right:0;}
+/*.menu > li:last-child > ul{right:0;}*/
 .menu > li:last-child > ul ul{left:auto;right:100%;}
 .menu > li ul{width:200px;padding:8px 0;background:#292929;position:absolute;z-index:99;opacity:0;transition:all 0.3s ease;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transform:translate3d(0, 10px, 0);-webkit-transform:translate3d(0, 10px, 0);-moz-transform:translate3d(0, 10px, 0);visibility:hidden;margin-top:-1px;}
 .menu > li > ul > li{position:relative;line-height:24px;width:100%;vertical-align:top;}
