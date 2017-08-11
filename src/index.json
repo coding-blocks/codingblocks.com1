@@ -8,7 +8,7 @@
   ],
   "slides": [
     {
-      "imgSrc": "assets/images/cb/cover/code-n-counter.jpg",
+      "imgSrc": "assets/images/cb/cover/cover1.jpg",
       "imgAlt": "Code N Counter 2.0",
       "heading": "Code N Counter 2.0",
       "content": "Nagarro in association with Coding Blocks brings to you a hackathon to test, demonstrate and improve your programming skills. Prizes worth ₹ 2 lakhs on offer.",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "imgSrc": "assets/images/cb/cover/dark-wood.jpg",
+      "imgSrc": "assets/images/cb/cover/cover2.jpg",
       "imgAlt": "coders admission scholarship test",
       "heading": "CAST for Greater Noida Center!",
       "content": "Coders' Admission &amp; Scholarship Test (CAST) is back for the foundation courses in our Greater Noida centre. <br />Register now to stand a chance to avail a scholarship of up to 75% off the course fees.",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "imgSrc": "assets/images/cb/cover/nathan-anderson-223103.jpg",
+      "imgSrc": "assets/images/cb/cover/cover3.jpg",
       "imgAlt": "coders admission open c++, java, android, web development",
       "heading": "Come, fall in LOVE with CODING this August!<br>",
       "content": "<br>Admissions Open for Courses &amp; Bootcamps",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "imgSrc": "assets/images/cb/cover/morning-wood.jpg",
+      "imgSrc": "assets/images/cb/cover/cover10.jpg",
       "imgAlt": "Elixir Online",
       "heading": "PRESENTING ELIXIR LIVE!",
       "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. <br />Classes starting soon.",
