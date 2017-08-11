@@ -8,6 +8,19 @@
   ],
   "slides": [
     {
+      "imgSrc": "assets/images/cb/cover/code-n-counter.jpg",
+      "imgAlt": "Code N Counter 2.0",
+      "heading": "Code N Counter 2.0",
+      "content": "Nagarro in association with Coding Blocks brings to you a hackathon to test, demonstrate and improve your programming skills. Prizes worth ₹ 2 lakhs on offer.",
+      "button": [
+        {
+          "link": "https://cb.lk/hackathon",
+          "text": "Register Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "assets/images/cb/cover/dark-wood.jpg",
       "imgAlt": "coders admission scholarship test",
       "heading": "CAST for Greater Noida Center!",
@@ -15,19 +28,6 @@
       "button": [
         {
           "link": "https://cb.lk/castnoida",
-          "text": "Register Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "assets/images/cb/cover/codencounter.jpg",
-      "imgAlt": "Code N Counter 2.0",
-      "heading": "Code N Counter 2.0",
-      "content": "Nagarro in association with Coding Blocks brings to you a hackathon to test, demonstrate and improve your programming skills. Prizes worth ₹ 2 lakhs on offer.",
-      "button": [
-        {
-          "link": "https://cb.lk/hackathon",
           "text": "Register Now",
           "filled": "true"
         }
@@ -75,7 +75,7 @@
       "pull-right": true
     },
     {
-      "heading": "Elixir Live: Web Development with Node JS",
+      "heading": "Elixir Li: Web Development with Node JS",
       "description": "Coding Blocks is proud to present Elixir Live, an online course on full stack Web Development with Node.Js. The course will help students understand both front end and back end use cases.",
       "imgAlt": "coding blocks online web development course",
       "imgSrc": "/assets/images/cb/elixir-live.jpg",
