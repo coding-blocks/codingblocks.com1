@@ -96,6 +96,7 @@
     "flip": true,
     "meetTeam": true,
     "showAll": false,
+    "companies": true,
     "teamMembers": [
       "manmohan gUpTa",
       "BRIJ MOHAN",

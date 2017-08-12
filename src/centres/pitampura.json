@@ -30,7 +30,7 @@
     "inPageLink": "location",
     "location": "1st Floor,<br>47, Nishant Kunj,<br> Main Pitampura Road,<br>New Delhi<br><br> Near Kohat Enclave Metro Station<br> (Exit from Gate # 2)<br> (Opposite Pillar 337)<br>",
     "contactPerson": "Mr. Dinesh Joon",
-    "phoneNumber": [
+    "phoneNumbers": [
       "011 - 47052584",
       "011 - 27354126"
     ],
@@ -38,21 +38,6 @@
     "mapAddress": "Coding Blocks, Pitampura",
     "isSection": true,
     "isFilled": true
-  },
-  "team": {
-    "heading": "team",
-    "content": "",
-    "flip": true,
-    "meetTeam": true,
-    "showAll": false,
-    "teamMembers": [
-      "RISHAB KAPOOR",
-      "DEEPAK AGGARWAL",
-      "GARIMA CHHIKARA",
-      "MOHAMMAD UMAIR",
-      "PRAJJWAL SINGH",
-      "MOHD FAHAD"
-    ]
   },
   "coursesSection": {
     "coursesList": [
@@ -62,6 +47,27 @@
       "Elixir",
       "Algo++",
       "Perceptron"
+    ]
+  },
+  "team": {
+    "heading": "team",
+    "content": "",
+    "flip": true,
+    "meetTeam": true,
+    "showAll": false,
+    "companies": false,
+    "teamMembers": [
+      "Priyanshu Agrawal",
+      "Prateek Narang",
+      "Arnav Gupta",
+      "Sumeet Malik",
+      "Ankit Malik",
+      "Shubham Dokania",
+      "Garima Chhikara",
+      "Deepak Aggarwal",
+      "Mohd Fahad",
+      "Prajjwal Singh",
+      "Mohammad Umair"
     ]
   }
 }

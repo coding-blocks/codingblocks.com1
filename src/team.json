@@ -15,6 +15,7 @@
     "content": "",
     "flip": false,
     "meetTeam": false,
-    "showAll": true
+    "showAll": true,
+    "companies": true
   }
 }

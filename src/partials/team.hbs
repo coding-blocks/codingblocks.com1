@@ -1,14 +1,16 @@
 <!--team-->
 {{#with team}}
     <a id="team" class="in-page-link"></a>
-    <section class="bg-secondary">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h2 class="uppercase mb16">{{{heading}}}</h2>
-                <p class="lead mb64">{{{content}}}</p>
-                <br><br>
+    {{#unless noHeading}}
+        <section class="bg-secondary">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="uppercase mb16">{{{heading}}}</h2>
+                    <p class="lead mb64">{{{content}}}</p>
+                    <br><br>
+                </div>
             </div>
-        </div>
+    {{/unless}}
         <div class="container team-xs visible-xs">
         </div>
         <div class="container hidden-xs">
@@ -28,24 +30,29 @@
                 {{/if}}
             </div>
         </div>
-        {{#if meetTeam}}
+    {{#if meetTeam}}
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center btn-banner">
-                        <a class="btn btn-white btn-filled btn-lg" href="/team.html">Meet The Team!</a>
+                        <a class="btn btn-white btn-filled btn-lg"
+                           href="{{#relativePath @file.path "/team.html"}}{{/relativePath}}">Meet The Team!</a>
                     </div>
                 </div>
             </div>
-        {{/if}}
-        <div class="flex-container affiliated-company-container">
-            <div class="flex-item"><img alt="Facebook" src="/assets/images/cb/logos/fb_icon.png"></div>
-            <div class="flex-item"><img alt="Browserstack" src="/assets/images/cb/logos/r_browserstack.jpg"></div>
-            <div class="flex-item"><img alt="Cyanogen" src="/assets/images/cb/logos/r_cyanogen.png"></div>
-            <div class="flex-item"><img alt="Micromax" src="/assets/images/cb/logos/r_micromax.png"></div>
-            <div class="flex-item"><img alt="Nagarro" src="/assets/images/cb/logos/r_nagarro.png"></div>
-            <div class="flex-item"><img alt="Sandisk" src="/assets/images/cb/logos/r_sandisk.png"></div>
-            <div class="flex-item"><img alt="Sony" src="/assets/images/cb/logos/r_sony.png"></div>
-        </div>
-    </section>
+    {{/if}}
+    {{#if companies}}
+            <div class="flex-container affiliated-company-container">
+                <div class="flex-item"><img alt="Facebook" src="/assets/images/cb/logos/fb_icon.png"></div>
+                <div class="flex-item"><img alt="Browserstack" src="/assets/images/cb/logos/r_browserstack.jpg"></div>
+                <div class="flex-item"><img alt="Cyanogen" src="/assets/images/cb/logos/r_cyanogen.png"></div>
+                <div class="flex-item"><img alt="Micromax" src="/assets/images/cb/logos/r_micromax.png"></div>
+                <div class="flex-item"><img alt="Nagarro" src="/assets/images/cb/logos/r_nagarro.png"></div>
+                <div class="flex-item"><img alt="Sandisk" src="/assets/images/cb/logos/r_sandisk.png"></div>
+                <div class="flex-item"><img alt="Sony" src="/assets/images/cb/logos/r_sony.png"></div>
+            </div>
+    {{/if}}
+    {{#unless noHeading}}
+        </section>
+    {{/unless}}
 {{/with}}
 <!--endteam-->
