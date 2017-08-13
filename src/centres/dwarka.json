@@ -30,7 +30,7 @@
     "inPageLink": "location",
     "location": "2nd Floor,<br>Plot No. 3,<br>Sector 11, Dwarka, New Delhi<br>(Near &nbsp;Dwarka Sec-11 Metro)",
     "contactPerson": "Mr. Rajesh Sachdev",
-    "phoneNumber": [
+    "phoneNumbers": [
       "8588801217",
       "9811228053"
     ],
@@ -39,19 +39,6 @@
     "isSection": true,
     "isFilled": true
   },
-  "team": {
-    "heading": "team",
-    "content": "",
-    "flip": true,
-    "meetTeam": true,
-    "showAll": false,
-    "teamMembers": [
-      "RAJESH SACHDEV",
-      "RISHAB KAPOOR",
-      "AAYUSH ARORA",
-      "HARSHIT DWIVEDI"
-    ]
-  },
   "coursesSection": {
     "coursesList": [
       "Launchpad",
@@ -59,6 +46,31 @@
       "Pandora",
       "Elixir",
       "Algo++"
+    ]
+  },
+  "teamCentre": {
+    "heading": "team",
+    "content": "",
+    "flip": true,
+    "meetTeam": true,
+    "showAll": false,
+    "companies": false,
+    "centreHead": {
+      "name": "Rajesh Sachdev",
+      "role": "Centre Head and Mentor",
+      "imgSrc": "/assets/images/cb/team/wrajesh.jpg",
+      "imgAlt": "Rajesh Sachdev",
+      "bio": "Rajesh has 20+ years of experience in IT/Corporate sector. He has previously worked with corporates like Nagarro, Cadence, American Express. He left IT industry in 2013 and moved to education with a passion to help students accomplishing their career goals. He did MS from BITS Pilani."
+    },
+    "teamMembers": [
+      "Priyanshu Agrawal",
+      "Prateek Narang",
+      "Arnav Gupta",
+      "Sumeet Malik",
+      "RISHAB KAPOOR",
+      "AAYUSH ARORA",
+      "HARSHIT DWIVEDI",
+      "Deepak Aggarwal"
     ]
   }
 }
