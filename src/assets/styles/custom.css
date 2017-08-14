@@ -441,10 +441,11 @@ h1 .sub-heading {
     letter-spacing: 4px;
     color: #fff;
 }
-.parallax .slides li>.background-image-holder, .parallax>.background-image-holder {
+
+/*.parallax .slides li>.background-image-holder, .parallax>.background-image-holder {
     filter: blur(5px) !important;
-}
-.overlay: before {
+}*/
+.overlay:before {
     opacity: .5 !important;
     background: rgb(0, 0, 0) !important;
 }
