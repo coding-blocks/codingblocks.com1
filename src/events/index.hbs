@@ -105,7 +105,6 @@
 <script id="events-list" type="text/x-handlebars">
     {{{{raw}}}}
         {{#each data}}
-
         <div class="col-md-4 col-sm-6 col-xs-12 event-card">
             <div class="shadow">
                 <a href="https://www.facebook.com/events/{{{id}}}" target="_blank">
@@ -151,7 +150,6 @@
             var html = Handlebars.compile(template);
             var content = document.getElementById('upcoming-events-list-wrapper');
             content.innerHTML = html(events);
-            console.log(events.data[0]);
         });
     });
 
@@ -175,7 +173,6 @@
             var html = Handlebars.compile(template);
             var content = document.getElementById('past-events-list-wrapper');
             content.innerHTML = html(events);
-            console.log(events.data[0]);
         });
     });
 
