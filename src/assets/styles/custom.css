@@ -450,3 +450,11 @@ h1 .sub-heading {
     background: rgb(0, 0, 0) !important;
 }
 
+.tabbed-content .tabs > li {
+    height: 65px;
+    overflow: hidden;
+}
+
+.tabbed-content .tabs > li h3 {
+    line-height: 20px;
+}
