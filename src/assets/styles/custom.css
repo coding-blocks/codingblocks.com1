@@ -209,7 +209,7 @@ p.lead {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 5px;
-    padding-right: 93px;
+    padding-right: 5px;
 }
 
 @media (max-width: 990px) {
