@@ -24,11 +24,11 @@
       "imgSrc": "assets/images/cb/cover/cover2.jpg",
       "imgAlt": "coders admission scholarship test",
       "heading": "CAST for Greater Noida Center!",
-      "content": "Coders' Admission &amp; Scholarship Test (CAST) is back for the foundation courses in our Greater Noida centre. <br />Register now to stand a chance to avail a scholarship of up to 75% off the course fees.",
+      "content": "Coders' Admission &amp; Scholarship Test (CAST) for the foundation courses in our Greater Noida centre. <br />Results declared!",
       "button": [
         {
-          "link": "https://cb.lk/castnoida",
-          "text": "Register Now",
+          "link": "http://students.codingblocks.com/admission_test_online/CASTGN/result_letter",
+          "text": "View Result",
           "filled": "true"
         }
       ]
