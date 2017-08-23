@@ -128,6 +128,9 @@
 </script>
 
 <script type="text/javascript">
+	// TODO:
+    // See more button
+    // Limit events to 3 by default
     var url = "https://graph.facebook.com/v2.10/1477893739095631/events?access_token=404649853235493%7CEInF9B-kIT0Tdpv_oyXBMIlfiDU";
 
     $.get(url, {time_filter: "upcoming"}, function (events) {
@@ -152,7 +155,6 @@
             content.innerHTML = html(events);
         });
     });
-
     $.get(url, {time_filter: "past", limit: "6"}, function (events) {
         var newEventsPromises = events.data.map(function (event, index) {
             event.start_date = event.start_time.substring(0, 10);
