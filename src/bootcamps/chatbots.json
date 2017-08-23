@@ -1,0 +1,60 @@
+{
+  "name": "AI Chat Bots",
+  "title": "AI Chat Bots Bootcamp | Coding Blocks",
+  "metas": [
+    {
+      "name": "desciption",
+      "content": "show"
+    }
+  ],
+  "header": {
+    "bgSrc": "../assets/images/cb/cover/cb_chatbot.jpg",
+	"heading": "Chatbots Bootcamp",
+	"subHeading": "Learn to build AI Powered Chat Bots"
+  },
+  "overview": {
+	"content": "A chatbot is a computer program which conducts a conversation via auditory or textual methods. Chatbots are part of virtual assistants such as Google Assistant, and are accessed via many organizations' apps, websites, and on instant messaging platforms such as Facebook Messenger. Last year has been hailed as the year of bots with Facebook, FB launching their own Messenger platform. This lets businesses (Facebook pages) automatically talk to users/customers to answer questions ranging from simple to complex. The platform is currently in beta but with close to a billion active users, it is by far the biggest messaging platform out there. We will list all the basic steps to get a simple keyword based bot powered by Python working on Facebook messenger and then will add AI capabilities to our bot.<br><br><strong>CONTENTS:</strong><ul><li>Basic FB messenger echo bot</li><li>API.AI / WIT.AI integration</li><li>MongoDB integration</li><li>FB messenger templates, buttons quick replies, etc.</li><li>Chatbot deployment on Heroku</li><ul>",
+    "buttonText": "Get Tickets"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "Facebook API",
+      "content": "In this bootcamp you will learn to use the Facebook APIs to create messenger chat bots."
+    },
+    {
+      "icon": "pe-7s-download",
+      "title": "Hands-On with Python",
+      "content": "The course expects basic programming experience in the Python programming language. Other, more advanced topics are covered in the bootcamp."
+    },
+    {
+      "icon": "et-line-speedometer",
+      "title": "AI Powered Chatbot",
+      "content": "You will learn to work with APIs like WIT.AI, and API.AI, to create your very own AI powered bot."
+    },
+    {
+      "icon": "pe-7s-network",
+      "title": "Heroku Deployment",
+      "content": "You will also learn to deploy your finished chat bot to the Heroku infrastructure."
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this bootcamp?",
+      "ans": "Any one who wants to build cool AI-powered chat bots that work on Facebook Messenger."
+    },
+    {
+      "ques": "Will this bootcamp help if I already know Python?",
+      "ans": "Yes, absolutely. The course requires a basic knowledge of Python. More advanced topics will be covered in the bootcamp."
+    },
+    {
+      "ques": "What are the pre-requisites for this bootcamp?",
+      "ans": "Basic knowledge of Python: Syntax, Loops, Functions, Statements, etc."
+    },
+    {
+      "ques": "Can I build my own chat bots after this bootcamp?",
+      "ans": "Most definitely. We give you all the tools necessary to get started on your own projects."
+    }
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=52"
+}

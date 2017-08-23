@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    {{> courseSchema}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    {{> header}}
+    <div style="padding:30px" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qksw9Gf2BLQ" frameborder="0"
+                allowfullscreen></iframe>
+    </div>
+	<div class="text-center">
+		<mark>Note: This bootcamp will not cover automation. It will focus only on chatbots powered by AI.</mark>
+	</div>
+    {{> overview}}
+    <section class="bg-secondary">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb16"> YOUR MENTORS FOR BOOTCAMP</h4>
+                <!--<p class="lead mb64">-->
+                <!--Write something about the team-->
+                <!--</p>-->
+                <br><br>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="col-md-offset-2 col-md-2 col-sm-12">
+                    <img alt="Nikhil Mugshot" src="../assets/images/cb/nikhil_circle.png" opacity="0.7">
+                </div>
+                <div class="col-sm-12 col-md-offset-1 col-md-5">
+                    <p class="mb0" align="justify-content">
+                        <b>Prateek Narang</b> <br> He Passionate about teaching, Prateek is a CS graduate from DTU.
+                        He has previously worked with SanDisk, HackerEarth.
+                        He has also won various hackathons including Google’s Code For India,
+                        Smart City Hackathon, qualified ACM-ICPC regionals
+                        and published papers in International Journals.
+                        His interactive CV (www.prateeknarang.com) is also popular in 120+ countries.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{> coursehighlights}}
+    {{> coursefaq}}
+    <!-- SECTION: Testimonials -->
+    <a id="course-testimonials" class="in-page-link"></a>
+    <section class="bg-secondary">
+        <div id="register">
+			{{> registration}}
+        </div>
+    </section>
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>
