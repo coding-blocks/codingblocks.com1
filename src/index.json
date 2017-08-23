@@ -1,5 +1,5 @@
 {
-  "title": "Best Programming Courses in Delhi | Coding Blocks",
+  "title": "Best Programming Courses in Delhi-NCR | Coding Blocks",
   "metas": [
     {
       "name": "description",
@@ -8,27 +8,27 @@
   ],
   "slides": [
     {
-      "imgSrc": "assets/images/cb/cover/cover1.jpg",
-      "imgAlt": "Code N Counter 2.0",
-      "heading": "Code N Counter 2.0",
-      "content": "Nagarro in association with Coding Blocks brings to you a hackathon to test, demonstrate and improve your programming skills. Prizes worth ₹ 2 lakhs on offer.",
+      "imgSrc": "assets/images/cb/cover/cb_chatbot.jpg",
+      "imgAlt": "Chatbots Automation Bootcamp",
+      "heading": "Chatbots Automation Bootcamp",
+      "content": "Build interesting messenger chatbots using the power of AI",
       "button": [
         {
-          "link": "https://cb.lk/hackathon",
+          "link": "https://cb.lk/chatbots",
           "text": "Register Now",
           "filled": "true"
         }
       ]
     },
     {
-      "imgSrc": "assets/images/cb/cover/cover2.jpg",
-      "imgAlt": "coders admission scholarship test",
-      "heading": "CAST for Greater Noida Center!",
-      "content": "Coders' Admission &amp; Scholarship Test (CAST) for the foundation courses in our Greater Noida centre. <br />Results declared!",
+      "imgSrc": "assets/images/cb/cover/cb_game.jpg",
+      "imgAlt": "JS Game Development Bootcamp",
+      "heading": "Game Development Bootcamp",
+      "content": "Learn to build exciting games at Coding Blocks in just 5 days. Learn Javascript and Phaser, a popular framework for building 2-D Games.Avail Special Early Bird discounts !",
       "button": [
         {
-          "link": "http://students.codingblocks.com/admission_test_online/CASTGN/result_letter",
-          "text": "View Result",
+          "link": "http://cb.lk/gamedevb",
+          "text": "Register Now",
           "filled": "true"
         }
       ]
@@ -52,7 +52,7 @@
     },
     {
       "imgSrc": "assets/images/cb/cover/cover10.jpg",
-      "imgAlt": "Elixir Online",
+      "imgAlt": "Elixir LIVE Course",
       "heading": "PRESENTING ELIXIR LIVE!",
       "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. <br />Classes starting soon.",
       "button": [
@@ -98,7 +98,7 @@
     "showAll": false,
     "companies": true,
     "teamMembers": [
-      "manmohan gUpTa",
+      "MANMOHAN GUPTA",
       "BRIJ MOHAN",
       "ANUSHRAY GUPTA",
       "PRIYANSHU AGRAWAL",
