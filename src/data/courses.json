@@ -15,28 +15,8 @@
       ],
       "batches": [
         {
-          "startDate": "Aug 13",
-          "center": "Pitampura",
-          "time": "Morning"
-        },
-        {
-          "startDate": "Aug 19",
-          "center": "Pitampura",
-          "time": "Evening"
-        },
-        {
-          "startDate": "Aug 13",
+          "startDate": "Sep 17",
           "center": "Dwarka",
-          "time": "Evening"
-        },
-        {
-          "startDate": "Aug 19",
-          "center": "Gurugram",
-          "time": "Morning"
-        },
-        {
-          "startDate": "Aug 13",
-          "center": "Greater Noida",
           "time": "Morning"
         }
       ],
@@ -159,7 +139,14 @@
         "Algorithmic Analysis",
         "Interview Preparation"
       ],
-      "odd": true
+      "odd": true,
+      "batches": [
+        {
+          "startDate": "Sep 10",
+          "center": "Pitampura",
+          "time": "Evening"
+        }
+      ]
     },
     {
       "name": "Perceptron",
