@@ -10,5 +10,12 @@
     "heading": "Events",
     "subHeading": "Coding Blocks",
     "bgSrc": "../assets/images/cb/cover/algo_2.jpg"
+  },
+  "events": {
+    "upcoming": true,
+    "upcomingHeading": "Upcoming Events",
+    "past": true,
+    "pastHeading": "Past Heading",
+    "pastLimit": 6
   }
 }

@@ -1,0 +1,102 @@
+<!--
+PLEASE DO NOT EDIT THIS
+PLEASE DO NOT EDIT THIS
+PLEASE DO NOT EDIT THIS
+PLEASE DO NOT EDIT THIS
+PLEASE DO NOT EDIT THIS
+-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+
+<script id="events-list" type="text/x-handlebars">
+    {{{{raw}}}}
+        {{#each data}}
+        <div class="col-md-4 col-sm-6 col-xs-12 event-card">
+            <div class="shadow">
+                <a href="https://www.facebook.com/events/{{{id}}}" target="_blank">
+                    <div class="img-box {{#if old}}img-box-old{{/if}}">
+                        <div class="shadow-inset"></div>
+                        <img src="{{{cover}}}">
+                    </div>
+                    <div class="info-box {{#if old}}info-box-old{{/if}}">
+                        <h3>{{{name}}}</h3>
+                        <p class="desc">{{{description}}}</p>
+                        <p class="location"><strong>Location:</strong> {{{place.name}}}</p>
+                        <p class="date"><strong>Start:</strong> {{{start_date}}} {{#if end_date}}<span
+                                class="pull-right"> <strong>End:</strong>
+                        {{{end_date}}}{{/if}}</span></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        {{/each}}
+    {{{{/raw}}}}
+</script>
+{{#with events}}
+{{#ifEquals upcoming true}}
+<script type="text/javascript">
+    var url = "https://graph.facebook.com/v2.10/1477893739095631/events?access_token=404649853235493%7CEInF9B-kIT0Tdpv_oyXBMIlfiDU";
+
+    $.get(url, {time_filter: "upcoming",{{#if upcomingLimit}}limit: "{{upcomingLimit}}"{{/if}} },function (events) {
+        var newEventsPromises = events.data.map(function (event, index) {
+            event.start_date = event.start_time.substring(0, 10);
+            if (event.end_time)
+                event.end_date = event.end_time.substring(0, 10);
+            event.old = false;
+            return new Promise((resolve, reject) => {
+                $.get("https://graph.facebook.com/v2.10/" + event.id + "?access_token=404649853235493%7CEInF9B-kIT0Tdpv_oyXBMIlfiDU", {
+                    fields: "cover"
+                }, function (obj) {
+                    resolve(getCover(obj, event))
+                });
+            });
+        });
+
+        Promise.all(newEventsPromises).then(newEvents => {
+            var template = document.getElementById('events-list').innerHTML;
+            var html = Handlebars.compile(template);
+            var content = document.getElementById('upcoming-events-list-wrapper');
+            content.innerHTML = html(events);
+        });
+    });
+    function getCover(obj, event) {
+        event.cover = obj.cover.source;
+        return event;
+    }
+</script>
+{{/ifEquals}}
+
+{{#ifEquals past true}}
+<script type="text/javascript">
+    var url = "https://graph.facebook.com/v2.10/1477893739095631/events?access_token=404649853235493%7CEInF9B-kIT0Tdpv_oyXBMIlfiDU";
+
+    $.get(url, {time_filter: "past",{{#if pastLimit}}limit: "{{pastLimit}}"{{/if}} },function (events) {
+        var newEventsPromises = events.data.map(function (event, index) {
+            event.start_date = event.start_time.substring(0, 10);
+            if (event.end_time)
+                event.end_date = event.end_time.substring(0, 10);
+            event.old = true;
+            return new Promise((resolve, reject) => {
+                $.get("https://graph.facebook.com/v2.10/" + event.id + "?access_token=404649853235493%7CEInF9B-kIT0Tdpv_oyXBMIlfiDU", {
+                    fields: "cover"
+                }, function (obj) {
+                    resolve(getCover(obj, event))
+                });
+            });
+        });
+
+        Promise.all(newEventsPromises).then(newEvents => {
+            var template = document.getElementById('events-list').innerHTML;
+            var html = Handlebars.compile(template);
+            var content = document.getElementById('past-events-list-wrapper');
+            content.innerHTML = html(events);
+        });
+    });
+
+    function getCover(obj, event) {
+        event.cover = obj.cover.source;
+        return event;
+    }
+</script>
+{{/ifEquals}}
+{{/with}}

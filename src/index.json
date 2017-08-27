@@ -64,6 +64,13 @@
       ]
     }
   ],
+  "events": {
+    "upcoming": true,
+    "past": false,
+    "upcomingHeading": "Upcoming Events",
+    "upcomingLimit": 3,
+    "moreEvents": true
+  },
   "subHighlightSection": [
     {
       "heading": "Coder's Admission and Scholarship Test",
