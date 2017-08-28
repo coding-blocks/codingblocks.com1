@@ -8,31 +8,60 @@ PLEASE DO NOT EDIT THIS
 <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
 
-<script id="events-list" type="text/x-handlebars">
-    {{{{raw}}}}
-        {{#each data}}
-        <div class="col-md-4 col-sm-6 col-xs-12 event-card">
-            <div class="shadow">
-                <a href="https://www.facebook.com/events/{{{id}}}" target="_blank">
-                    <div class="img-box {{#if old}}img-box-old{{/if}}">
-                        <div class="shadow-inset"></div>
-                        <img src="{{{cover}}}">
-                    </div>
-                    <div class="info-box {{#if old}}info-box-old{{/if}}">
-                        <h3>{{{name}}}</h3>
-                        <p class="desc">{{{description}}}</p>
-                        <p class="location"><strong>Location:</strong> {{{place.name}}}</p>
-                        <p class="date"><strong>Start:</strong> {{{start_date}}} {{#if end_date}}<span
-                                class="pull-right"> <strong>End:</strong>
-                        {{{end_date}}}{{/if}}</span></p>
-                    </div>
-                </a>
-            </div>
-        </div>
-        {{/each}}
-    {{{{/raw}}}}
-</script>
+
 {{#with events}}
+    {{#if noDetails}}
+        <script id="events-list" type="text/x-handlebars">
+            {{{{raw}}}}
+                {{#each data}}
+                <div class="col-md-4 col-sm-6 col-xs-12 event-card">
+                    <div class="shadow shadow-small">
+                        <a href="https://www.facebook.com/events/{{{id}}}" target="_blank">
+                            <div class="img-box {{#if old}}img-box-old{{/if}}">
+                                <div class="shadow-inset"></div>
+                                <img src="{{{cover}}}">
+                            </div>
+                            <div class="row info-box info-box-small {{#if old}}info-box-old{{/if}}">
+                                <div class="col-xs-10">
+                                    <h3>{{{name}}}</h3>
+                                </div>
+                                <div class="date-box col-xs-2">
+                                    <p class="event-day">{{day}}</p>
+                                    <p class="event-month">{{month}}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                {{/each}}
+            {{{{/raw}}}}
+        </script>
+        {{else}}
+        <script id="events-list" type="text/x-handlebars">
+            {{{{raw}}}}
+            {{#each data}}
+            <div class="col-md-4 col-sm-6 col-xs-12 event-card">
+                <div class="shadow">
+                    <a href="https://www.facebook.com/events/{{{id}}}" target="_blank">
+                        <div class="img-box {{#if old}}img-box-old{{/if}}">
+                            <div class="shadow-inset"></div>
+                            <img src="{{{cover}}}">
+                        </div>
+                        <div class="info-box {{#if old}}info-box-old{{/if}}">
+                            <h3>{{{name}}}</h3>
+                            <p class="desc">{{{description}}}</p>
+                            <p class="location"><strong>Location:</strong> {{{place.name}}}</p>
+                            <p class="date"><strong>Start:</strong> {{{start_date}}} {{#if end_date}}<span
+                                    class="pull-right"> <strong>End:</strong>
+                        {{{end_date}}}{{/if}}</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {{/each}}
+{{{{/raw}}}}
+</script>
+{{/if}}
 {{#ifEquals upcoming true}}
 <script type="text/javascript">
     var url = "https://graph.facebook.com/v2.10/1477893739095631/events?access_token=404649853235493%7CEInF9B-kIT0Tdpv_oyXBMIlfiDU";
@@ -40,6 +69,8 @@ PLEASE DO NOT EDIT THIS
     $.get(url, {time_filter: "upcoming",{{#if upcomingLimit}}limit: "{{upcomingLimit}}"{{/if}} },function (events) {
         var newEventsPromises = events.data.map(function (event, index) {
             event.start_date = event.start_time.substring(0, 10);
+            event.month = event.start_time.substring(5, 7);
+            event.day = event.start_time.substring(8, 10);
             if (event.end_time)
                 event.end_date = event.end_time.substring(0, 10);
             event.old = false;
@@ -90,8 +121,7 @@ PLEASE DO NOT EDIT THIS
             var html = Handlebars.compile(template);
             var content = document.getElementById('past-events-list-wrapper');
             content.innerHTML = html(events);
-        });
-    });
+        });});
 
     function getCover(obj, event) {
         event.cover = obj.cover.source;

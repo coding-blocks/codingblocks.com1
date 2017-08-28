@@ -474,6 +474,10 @@ h1 .sub-heading {
     transition: .5s ease;
 }
 
+.event-card .shadow-small {
+    height: 300px;
+}
+
 .event-card .shadow:hover {
     box-shadow: 12px 12px 10px 0 rgba(46, 61, 73, .15);
     transition: .5s ease;
@@ -506,6 +510,31 @@ h1 .sub-heading {
     background: #fff;
     padding: 5% 7%;
     color: #292929;
+}
+
+.event-card .info-box-small {
+    height: 100px;
+    margin: 0;
+    padding: 2% 3%;
+    display: flex;
+}
+
+.info-box-small .date-box {
+    background-color: #fc4f4f;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    height: 65px;
+}
+
+.date-box .event-day {
+    margin-top: 5px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.date-box p {
+    margin-bottom: 5px;
 }
 
 .event-card .info-box-old {

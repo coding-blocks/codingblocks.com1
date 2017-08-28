@@ -69,18 +69,10 @@
     "past": false,
     "upcomingHeading": "Upcoming Events",
     "upcomingLimit": 3,
-    "moreEvents": true
+    "moreEvents": true,
+    "noDetails": true
   },
   "subHighlightSection": [
-    {
-      "heading": "Coder's Admission and Scholarship Test",
-      "description": "Coding Blocks is pleased to announce the Coders' Admission & Scholarship Test (CAST) for August batches in the Greater Noida center. Students appearing for CAST can win scholarships of up to a whopping 75% off the entire course fees on our foundation courses (Launchpad & Crux) at the Greater Noida center.",
-      "imgAlt": "coder's online admission test coding blocks",
-      "imgSrc": "/assets/images/cb/casthighlight.jpg",
-      "btnLink": "http://students.codingblocks.com/admission_test_online/CASTGN/result_letter",
-      "btnText": "Results Declared",
-      "pull-right": true
-    },
     {
       "heading": "Elixir Live: Web Development with Node JS",
       "description": "Coding Blocks is proud to present Elixir Live, an online course on full stack Web Development with Node.Js. The course will help students understand both front end and back end use cases.",
@@ -88,7 +80,7 @@
       "imgSrc": "/assets/images/cb/elixir-live.jpg",
       "btnLink": "/courses/elixirlive.html",
       "btnText": "Know More",
-      "pull-right": false
+      "pull-right": true
     }
   ],
   "coursesSection": {
