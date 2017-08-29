@@ -54,14 +54,8 @@
     "flip": true,
     "meetTeam": true,
     "showAll": false,
-    "centreHead": {
-      "name": "Varun Kohli",
-      "role": "Centre Head & Tech Lead",
-      "imgSrc": "/assets/images/cb/team/wvarun.jpg",
-      "imgAlt": "Varun Kohli",
-      "bio": "Has been associated with the IT industry for almost 10 years &amp; has served various roles in multiple domains. He has exhaustive experience in Software products, Business intelligence &amp; business development."
-    },
     "teamMembers": [
+      "Varun Kohli",
       "Priyanshu Agrawal",
       "Prateek Narang",
       "Arnav Gupta",
