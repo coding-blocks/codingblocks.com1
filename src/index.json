@@ -8,14 +8,14 @@
   ],
   "slides": [
     {
-      "imgSrc": "assets/images/cb/cover/cb_chatbot.jpg",
-      "imgAlt": "Chatbots Automation Bootcamp",
-      "heading": "Chatbots Automation Bootcamp",
-      "content": "Build interesting messenger chatbots using the power of AI",
+      "imgSrc": "assets/images/cb/cover/tuts.jpg",
+      "imgAlt": "Learn from Coding Blocks resources",
+      "heading": "Learn from Coding Blocks resources",
+      "content": "Learn from free tutorials on C++, JavaScript, Java, Python etc.",
       "button": [
         {
-          "link": "https://cb.lk/chatbots",
-          "text": "Register Now",
+          "link": "https://codingblocks.com/resources/",
+          "text": "View Resources",
           "filled": "true"
         }
       ]
