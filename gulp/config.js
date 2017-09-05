@@ -98,6 +98,7 @@ module.exports = {
         ]
     },
     liveReload: {
+        targetSrc: dest,
         port: 7654,
         basePath: 'dist'
     }
