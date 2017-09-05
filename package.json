@@ -6,7 +6,8 @@
   "scripts": {
     "build": "gulp build",
     "clean": "gulp clean",
-    "serve": "gulp serve"
+    "serve": "gulp serve",
+    "watch": "gulp watch"
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +29,8 @@
   },
   "devDependencies": {
     "gulp-cached": "^1.1.1",
+    "gulp-embedlr": "^0.5.2",
+    "gulp-livereload": "^3.8.1",
     "gulp-serve": "^1.4.0",
     "opn": "^5.1.0"
   }

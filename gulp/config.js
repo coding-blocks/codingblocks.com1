@@ -96,5 +96,9 @@ module.exports = {
         src: [
             tmp
         ]
+    },
+    liveReload: {
+        port: 7654,
+        basePath: 'dist'
     }
 }
