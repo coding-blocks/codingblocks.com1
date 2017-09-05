@@ -7,6 +7,7 @@ let ext = require('gulp-ext-replace')
 let minifyHtml = require('gulp-htmlmin')
 let path = require('path')
 let config = require('../config').html
+let cached = require('gulp-cached')
 
 gulp.task('html', ['envSetup'], function () {
 
@@ -45,9 +46,9 @@ gulp.task('html', ['envSetup'], function () {
             }))
             .pipe(using())
             .pipe(ext('.html'))
+            .pipe(cached('html'))
             .pipe(minifyHtml({collapseWhitespace: true}))
             .pipe(gulp.dest(config.dest))
-
         stream.on('finish', resolve)
         stream.on('error', reject)
     })

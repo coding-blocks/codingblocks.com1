@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build",
-    "reset": "gulp reset"
+    "clean": "gulp clean",
+    "serve": "gulp serve"
   },
   "author": "",
   "license": "ISC",
@@ -24,5 +25,10 @@
     "gulp-uglify": "^3.0.0",
     "gulp-using": "^0.1.1",
     "require-dir": "^0.3.2"
+  },
+  "devDependencies": {
+    "gulp-cached": "^1.1.1",
+    "gulp-serve": "^1.4.0",
+    "opn": "^5.1.0"
   }
 }
