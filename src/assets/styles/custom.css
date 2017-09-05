@@ -571,3 +571,38 @@ h1 .sub-heading {
 .pad-t15 {
     padding-top: 15px;
 }
+
+.newsletter-row {
+    margin: 40px 10% 0 10%;
+}
+
+.newsletter-card {
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.newsletter-card .content:hover {
+    box-shadow: 12px 12px 10px 0 rgba(46, 61, 73, .15);
+    transition: .5s ease;
+}
+
+.newsletter-card .content {
+    background: white;
+    box-shadow: 5px 5px 7px 0 rgba(46, 61, 73, .15);
+    transition: .5s ease;
+    height: 200px;
+    padding: 7px!important;
+}
+
+.content .border-box {
+    border: 2px solid #fc4f4f;
+    height: 186px;
+}
+
+.newsletter-card h3 {
+    padding: 75px 0 !important;
+}

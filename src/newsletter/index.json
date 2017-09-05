@@ -1,0 +1,14 @@
+{
+  "title": "Monthly Newsletters | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Read monthly newsletters by Coding Blocks. "
+    }
+  ],
+  "header": {
+    "heading": "Newsletters",
+    "subHeading": "Coding Blocks",
+    "bgSrc": "../assets/images/cb/cover/algo_2.jpg"
+  }
+}
