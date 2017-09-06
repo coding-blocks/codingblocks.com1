@@ -152,6 +152,12 @@
       "ans": "Videos will be provided of all classes to students after the class. These can be used for revision as well as covering up missed classes."
     }
   ],
+  "schedule": [
+    {
+      "date": "25th September",
+      "topic": "Introduction to WebDevelopment"
+    }
+  ],
   "courseEnroll": {
     "price": "9000",
     "lectures": "(18 Lectures)",
