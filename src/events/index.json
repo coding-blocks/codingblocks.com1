@@ -15,7 +15,7 @@
     "upcoming": true,
     "upcomingHeading": "Upcoming Events",
     "past": true,
-    "pastHeading": "Past Heading",
+    "pastHeading": "Past Events",
     "pastLimit": 6
   }
 }
