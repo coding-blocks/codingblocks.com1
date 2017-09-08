@@ -329,99 +329,204 @@
         "review": "It is the best place to learn coding if you’re a beginner.I joined Crux (Java) in Aug ‘16.Our teacher Sumeet sir paid attention to each and every student in the class to make sure everyone is clear with all the concepts. He was available for each and every student’s doubts. The course was brilliantly designed so as to cover every topic with all relevant questions . A must join for every student who’s a coding enthusiast for even a begginer and wants to develop an interest in coding"
       },
       {
+        "name": "Ishan Ambardar",
+        "course": "crux",
+        "imgSrc": "mpic3.jpg",
+        "rating": "5",
+        "review": "In short - Five stars; excellent and interactive teaching; all problems are discussed and solved in depth, and most of the major concepts are covered. I’d always been a bit unsure about my coding acumen, but Coding Blocks brought it out. I’d recommend it to anyone looking to enhance his or her grasp on coding."
+      },
+      {
+        "name": "Nilesh Kumarr",
+        "course": "crux",
+        "imgSrc": "mpc13.jpg",
+        "rating": "5",
+        "review": "I am a student of Mechanical department and I had no interest in coding because I scored very bad in First year . But still, I gave it a try and fortunately because of very good teaching faculty, I got motivated and now I am deciding to pursue my career in coding. So, as per my advice, it a perfect place you can learn coding.Go for it, give it a try. You will learn a lot and you will become self confident in coding."
+      },
+      {
+        "name": "Aniruddha Chauhan",
+        "course": "crux",
+        "imgSrc": "janedoe.jpg",
+        "rating": "5",
+        "review": "Best place to learn coding. Before joining coding blocks I did not know a single word of Java or any data structures. Now I am pretty confident with this stuff and able to solve questions on sites like codechef, hackerrank etc.Sumeet sir made every concept so easy to understand. He literally developed my internet in coding. (Its not that I had not tried online courses orvideos. But these things don't prove to be useful for most of us)."
+      },
+      {
+        "name": "Vivek Sharma",
+        "course": "crux",
+        "imgSrc": "johndoe.jpg",
+        "rating": "5",
+        "review": "I was very poor in programming when I joined coding blocks ,Pitampura . And now , when even my 5 classes are remaining I am able to code and solve problems on my own . I can solve questions from online contest also from my own and most of credit for this is going to SUMEET MALIK sir who is one of the best teacher I have ever met ."
+      },
+      {
+        "name": "Purujit Bansal",
+        "course": "pandora",
+        "imgSrc": "mpic15.jpg",
+        "rating": "5",
+        "review": "I was a part of Pandora 2017 Spring Weekend Batch by Arnav Sir. The course was great it started from very basics and went to a close to professional level. (Basic Android Components + FireBase) There was a Guest lecture from Harshit Dwivedi on RetroFit and Picasso. Other Major Topics covered were GET, POST Requests, Gson, Volley."
+      },
+      {
+        "name": "Abhinav Duggal",
+        "course": "pandora",
+        "imgSrc": "mpic17.jpg",
+        "rating": "5",
+        "review": "I did the course on Android Development with Arnav Gupta and it was a wonderful experience. Initially the teaching felt a little too fast, but as I tried to keep pace, I started to understand each and every thing. Arnav sir cleared each and every doubt, and the class environment was also good. I look forward to make really good apps, by the knowledge I inherited from Arnav sir. On the whole it has been a really good journey. I look forward to enroll in more courses at Coding Blocks in the future."
+      },
+      {
+        "name": "Nitin Singhal",
+        "course": "pandora",
+        "imgSrc": "mpic16.jpg",
+        "rating": "5",
+        "review": "I did the course on Android from Coding Blocks under the guidance of Arnav sir .The course content was really good.The projects are given after every class which made my level of confidence high coding for android application.The doubts are always cleared by arnav sir in the classroom itself.Arnav also helped me in in getting deep in predefined codebase of android and understand it .At last the course is good and especially the instructor Arnav sir."
+      },
+      {
+        "name": "Aditi Saluja",
+        "course": "Competitive programming",
+        "imgSrc": "mpic18.jpg",
+        "rating": "5",
+        "review": "It was a great learning experience at coding blocks! I attended the Competitive Coding Boot camp. Competitive Coding can be very mind boggling and frustrating. But coding blocks made it fun and interesting!"
+      },
+      {
+        "name": "Samarth Sehgal",
+        "course": "Competitive programming",
+        "imgSrc": "mpic19.jpg",
+        "rating": "5",
+        "review": "The competitive programming bootcamp helped me sharpen my skills and know new topics which are frequently asked in contests. This bootcamp has motivated me to study more and be confident while appearing for different coding contests!"
+      },
+      {
+        "name": "Aditya Bansal",
+        "course": "Competitive programming",
+        "imgSrc": "mpic20.jpg",
+        "rating": "5",
+        "review": "Most of the concepts regarding competitive coding are discussed. all problems are explained with possible test cases. many codechef and spoj problems are discussed along with assigments. the best part of the course is discussion on dp and greedy."
+      },
+      {
+        "name": "Navdeep Singh",
+        "course": "launchpad",
+        "imgSrc": "pic34.jpeg",
+        "rating": "4",
+        "review": "If you want to become a brilliant programmer, and are willing to put in the hours and dedicate yourself to acquiring great skills, then there is no better place for you than Coding Blocks."
+      },
+      {
+        "name": "Shreya Gupta",
+        "course": "Launchpad",
+        "imgSrc": "pic35.jpg",
+        "rating": "5",
+        "review": "I wish I’d come here earlier. This is by far the best decision I’ve made."
+      },
+      {
+        "name": "Anirudh Gupta",
+        "course": "Launchpad",
+        "imgSrc": "pic36.jpg",
+        "rating": "5",
+        "review": "Observing myself before & after doing this course with Deepak bhaiya, Now I am very confident. Now I know how exactly to proceed with a given problem."
+      },
+      {
+        "name": "Deepak Kumar",
+        "course": "launchpad",
+        "imgSrc": "pic37.jpg",
+        "rating": "5",
+        "review": ""
+      },
+      {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
       },
       {
         "name": "",
-        "course": "",
+        "course": "Competitive programming",
+        "imgSrc": "",
+        "rating": "",
+        "review": ""
+      },
+      {
+        "name": "",
+        "course": "Competitive programming",
         "imgSrc": "",
         "rating": "",
         "review": ""
