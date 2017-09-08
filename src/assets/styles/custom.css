@@ -595,7 +595,7 @@ h1 .sub-heading {
     box-shadow: 5px 5px 7px 0 rgba(46, 61, 73, .15);
     transition: .5s ease;
     height: 200px;
-    padding: 7px!important;
+    padding: 7px !important;
 }
 
 .content .border-box {
@@ -605,4 +605,8 @@ h1 .sub-heading {
 
 .newsletter-card h3 {
     padding: 75px 0 !important;
+}
+
+.nav-bar .title {
+    margin-top: 0;
 }
