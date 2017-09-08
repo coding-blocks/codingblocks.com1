@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    {{> courseSchema}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    {{> header}}
+    {{> overview}}
+    <section class="bg-secondary">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb16"> YOUR MENTORS FOR BOOTCAMP</h4>
+                <!--<p class="lead mb64">-->
+                <!--Write something about the team-->
+                <!--</p>-->
+                <br><br>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="col-md-offset-2 col-md-2 col-sm-12">
+                    <img alt="Prateek Mugshot" src="../assets/images/cb/team/c_anuj.jpg" opacity="0.7" class="img-circle">
+                </div>
+                <div class="col-sm-12 col-md-offset-1 col-md-5">
+                    <p class="mb0" align="justify-content">
+                        <b>Anuj Garg</b> <br> He is an open-source enthusiast and a GSoCer under the RedHat Foundation.
+                        He has worked in the core teams of various products by RedHat and is an expert in Enterprise Java and web services.
+                        He is also a mentor in GSoC '17 under the umbrella of JBoss for Servers and IoT monitoring.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{> coursehighlights}}
+    {{> coursefaq}}
+    <!-- SECTION: Testimonials -->
+    <a id="course-testimonials" class="in-page-link"></a>
+    <section class="bg-secondary">
+        <div id="register">
+			{{> registration}}
+        </div>
+    </section>
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>

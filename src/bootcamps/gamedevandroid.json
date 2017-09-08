@@ -1,0 +1,56 @@
+{
+  "name": "Android Game Development",
+  "title": "Android Game Development Bootcamp | Coding Blocks",
+  "metas": [
+    {
+      "name": "desciption",
+      "content": ""
+    }
+  ],
+  "header": {
+    "bgSrc": "../assets/images/cb/cover/cover_pandora.jpg",
+	"heading": "Android Game Development Bootcamp",
+	"subHeading": "Learn to Build Exciting Android Games"
+  },
+  "overview": {
+    "content": "<strong>Coding Blocks</strong> is pleased to bring you this Android Game Development Bootcamp at our <a href='/centres/greater-noida.html'><strong>Coding Blocks Greater Noida</strong></a> center. It is an opportunity for everyone who is interested in learning how to build android games using <strong>Java and Libgdx</strong> which is a popular game development framework. In bootcamp, instructor will cover games such as <strong>Flappy Bird, Supper Jumber, Cut the rope and many more.</strong> <br><br> Apart from Game Development, this bootcamp will introduce you to adding Google Game Services for global leaderboard and achivements and Google AdSense for earning with your game application. <br> There will be total 3 sessions in the bootcamp from <strong>September 30, 2017 - October 2, 2017</strong>. <br><br><strong>CONTENTS</strong> <br> Introduction to Screens, Game Loop, Libgdx<br> Game world and view ports <br> Flappy Bird Game <br> Super Jumper <br> Cutting the Rope <br> Google AdSense  <br> Google Game Services ",
+    "buttonText": "Get Tickets"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "Libgdx 2D",
+      "content": "Libgdx is a Java game development framework capable of making Cross-Platform games with minimal fuss. The framework provides an environment for rapid prototyping and fast iterations. you can run and debug your game on the desktop, natively."
+    },
+    {
+      "icon": "pe-7s-download",
+      "title": "Sensors",
+      "content": "In the bootcamp, you will learn topics like implementing event listeners, Gesture Detection, Accelerometer, Compass, Gyroscope, Vibration, Sound effects and other input output handling to build super cool games"
+    },
+    {
+      "icon": "et-line-speedometer",
+      "title": "Google AdSense",
+      "content": "Earning from the app the top most reason for creating any app. Google AdSense is a free, simple way for app publishers of all sizes to earn money by displaying targeted Google ads in their apps"
+    },
+    {
+      "icon": "pe-7s-network",
+      "title": "Physics Engine",
+      "content": "Most Arcade Games require some kind of physics to be implemented in the game. In this bootcamp we will explore the Libgdx's Physics engine named Box2D to add gravity, velocity and simulate collisions on our objects."
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this bootcamp?",
+      "ans": "Any one who have some knowledge of Java syntax and OOP and want to learn developing games with libgdx - a popular java framework for making 2-D Games. Students in 1st and 2nd year can also join this bootcamp."
+    },
+    {
+      "ques": "What are the pre-requisites for this bootcamp?",
+      "ans": "You just need to have prior programming practice in Java basic understanding of oop. That's it. No prior knowledge of android is required"
+    },
+    {
+      "ques": "Can I build my own games after this bootcamp ?",
+      "ans": "You’ll be able to build 2-d multilevel games involving physics on your own. You will also be able to place Google AdSense in games. Also learning Libgdx will be a plus-point for your CV too."
+    }
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=57"
+}
