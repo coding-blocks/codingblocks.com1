@@ -7,7 +7,7 @@
       {
         "name": "Piyush Ajmani",
         "course": "Pandora",
-        "imgSrc": "pic1.jpg",
+        "imgSrc": "/assets/images/reviews/pic1.jpg",
         "rating": "5",
         "review": "Coding Blocks played a key role in defining my love for coding. I like to structure my learning properly. The problem with online websites is you only learn and you don’t have the guidance on what to do and what not to do and Coding Blocks solved that problem for me.",
         "link": "https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Piyush-Ajmani-1"
@@ -15,7 +15,7 @@
       {
         "name": "Naman Kumar",
         "course": "Crux",
-        "imgSrc": "pic2.jpg",
+        "imgSrc": "/assets/images/reviews/pic2.jpg",
         "rating": "5",
         "review": "I did Crux - Java fundamentals course with Rishab sir. It was a great experience. The brain teasers and assignments, actually the whole lot of content was really good. Some problems were challenging yet interesting. Was explained very well where ever I struck.",
         "link": "https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Naman-Kumar-33"
@@ -23,7 +23,7 @@
       {
         "name": "Harsh M Agarwal",
         "course": "Launchpad",
-        "imgSrc": "pic3.jpg",
+        "imgSrc": "/assets/images/reviews/pic3.jpg",
         "rating": "5",
         "review": "If want to build concepts in coding this is the place where you want to be. I joined Launchpad Batch (C++) under Prateek Bhaiya and I can say this one of my best decisions. From the first class only the focus was on concepts. Now I have confidence in topics like functions and recursion. TA are extremely helpful and friendly too.",
         "link": "https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Harsh-M-Agarwal"
@@ -31,7 +31,7 @@
       {
         "name": "Akanksha Ahuja",
         "course": "Pandora",
-        "imgSrc": "pic4.jpg",
+        "imgSrc": "/assets/images/reviews/pic4.jpg",
         "rating": "5",
         "review": "With extremely talented and technically sound instructors, the course lectures are not only informative but actually help us relate code with its real world applications. You know exactly what is happening and why it's happening. Because what is being taught, is side by side being implemented by you on your laptops.",
         "link": "https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Akanksha-Ahuja-6"
@@ -39,7 +39,7 @@
       {
         "name": "Pranav Khurana",
         "course": "Crux",
-        "imgSrc": "pic5.jpg",
+        "imgSrc": "/assets/images/reviews/pic5.jpg",
         "rating": "5",
         "review": "I  took the Crux (JAVA) foundation course which is taught by Sumeet sir and it is hands down the best programming environment one could get to get acquainted with the basics of coding. They are quite flexible and willing to adjust. I am awed by the effort the faculty put in giving the students the best possible experience.",
         "link": "https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Pranav-Khurana-2"
@@ -47,7 +47,7 @@
       {
         "name": "Shikha Asrani",
         "course": "Crux",
-        "imgSrc": "janedoe.jpg",
+        "imgSrc": "/assets/images/reviews/janedoe.jpg",
         "rating": "5",
         "review": "I took the java course under Sumeet bhaiya and later become a TA under him.His patience is simply incomparable. He will explain any concept ,any number of times with same amount of energy until the whole class is satisfied. Discussions with Arnav bhaiya will always end up in learning something new.",
         "link": "https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Shikha-Asrani"
@@ -55,7 +55,7 @@
       {
         "name": "Dhruv Anand",
         "course": "Pandora",
-        "imgSrc": "pic7.jpg",
+        "imgSrc": "/assets/images/reviews/pic7.jpg",
         "rating": "5",
         "review": "This is the best place for programmers and developers. Coding Blocks is the best place to kickstart your Coding . Mentors here provide the best coaching and support. I enrolled in the Android Development Program - Envision. My experience here was outstanding! :').",
         "link": "https://www.facebook.com/dhruvanand95/posts/1732710406745883"
@@ -63,7 +63,7 @@
       {
         "name": "Kapil Gupta",
         "course": "Launchpad",
-        "imgSrc": "pic8.jpg",
+        "imgSrc": "/assets/images/reviews/pic8.jpg",
         "rating": "5",
         "review": "I joined C++ Foundation course in CB as a beginner from Deepak Sir. The best thing about him was that he taught the most difficult concepts in the most simplest ways. Hoping to pursue another course from CB. He made his sessions really interactive and made sure that all our doubts were cleared during the class itself.",
         "link": "https://www.facebook.com/kplgpt99/posts/1295158840552037"
@@ -71,7 +71,7 @@
       {
         "name": "Pulkit Jain",
         "course": "Pandora",
-        "imgSrc": "pic9.jpg",
+        "imgSrc": "/assets/images/reviews/pic9.jpg",
         "rating": "5",
         "review": "I did the Android App Development Course with Arnav bhaiya. The course content was very good. The best part was pitching session where all the students were asked to make their own apps and present their apps. During the pitching I came across a lot of ideas.",
         "link": "https://www.facebook.com/pulkit.jain.9674/posts/1483641355002103"
@@ -79,7 +79,7 @@
       {
         "name": "Kritika Singh",
         "course": "Launchpad",
-        "imgSrc": "pic10.jpg",
+        "imgSrc": "/assets/images/reviews/pic10.jpg",
         "rating": "5",
         "review": "I joined Coding Blocks to strengthen my concepts of C++ and become a good coder. And it was worth the time,money and energy spent here. The content, pace of teaching and the environment is very good. Prateek Narang sir is an amazing teacher and teaches in a very fun and interactive manner.",
         "link": "https://www.facebook.com/krrritikkaaaa/posts/1483455741720842"
@@ -87,7 +87,7 @@
       {
         "name": "Mahima Sachdeva",
         "course": "Crux",
-        "imgSrc": "pic11.jpg",
+        "imgSrc": "/assets/images/reviews/pic11.jpg",
         "rating": "5",
         "review": "My experience at Coding Blocks was a really amazing one. Being absolutely new to programming, I was lucky to get the best introduction to programming here. The basics were taught very well and more emphasis was laid on building thought process to approach and attempt questions. Sumeet sir taught us very enthusiastically and patiently.",
         "link": "https://www.facebook.com/permalink.php?story_fbid=305277643244172&id=100012858150928"
@@ -95,7 +95,7 @@
       {
         "name": "Mohak Khatri",
         "course": "Launchpad",
-        "imgSrc": "pic12.jpg",
+        "imgSrc": "/assets/images/reviews/pic12.jpg",
         "rating": "5",
         "review": "Our teacher Mr. Prateek Narang is an excellent teacher. Along with the help of other faculty members (Vishal bhaiya & Rajesh bhaiya) at Coding Blocks Dwarka, he introduced us to the endless world of coding. The ambiance at Coding Blocks Dwarka is awesome and conducive to learning.",
         "link": "https://www.facebook.com/mohak.khatri.9/posts/1627716913922915"
@@ -103,7 +103,7 @@
       {
         "name": "Sarthak Mathur",
         "course": "Pandora",
-        "imgSrc": "pic13.jpg",
+        "imgSrc": "/assets/images/reviews/pic13.jpg",
         "rating": "5",
         "review": "It was an awesome experience to learn the Android Development Course from Arnav Bhaiya. He is a great mentor and teacher. All the concepts covered in the lectures were taught to very depth. This course gives probably the best kickstart a learner can get!",
         "link": "https://www.facebook.com/sarthak.mathur2/posts/1464813930207155"
@@ -111,7 +111,7 @@
       {
         "name": "Rishabh Khanna",
         "course": "Elixir",
-        "imgSrc": "pic14.jpg",
+        "imgSrc": "/assets/images/reviews/pic14.jpg",
         "rating": "5",
         "review": "When i was watching “Dear Zindagi”, i could relate Sharukh Khan to Arnav Bhaiya. The way Sharukh Khan was giving life lessons to Aliya Bhatt, in the same way Arnav Bhaiya will give coding life lessons which will guide you throughout your code life.",
         "link": "https://www.quora.com/What-is-your-review-of-doing-Elixir-Web-using-NodeJs-with-Arnav-Gupta-at-Coding-Blocks/answer/Rishabh-Khanna-13?srid=TgC8"
@@ -119,7 +119,7 @@
       {
         "name": "Shipra Yogeshwar",
         "course": "Elixir",
-        "imgSrc": "pic15.jpg",
+        "imgSrc": "/assets/images/reviews/pic15.jpg",
         "rating": "5",
         "review": "I got an opportunity to learn under this developer juggernaut. Two times GSoCer, speaker at DroidCon, and many more achievements, names are escaping me. So, even the question not arises, whether or not, someone else would be a better prospect when it comes to give you more learning stuff.",
         "link": "https://www.quora.com/What-is-your-review-of-doing-Elixir-Web-using-NodeJs-with-Arnav-Gupta-at-Coding-Blocks/answer/Rishabh-Khanna-13?srid=TgC8"
@@ -127,7 +127,7 @@
       {
         "name": "Shubham Aggarwal",
         "course": "Perceptron",
-        "imgSrc": "pic16.jpg",
+        "imgSrc": "/assets/images/reviews/pic16.jpg",
         "rating": "5",
         "review": "I took a course in Machine Learning and it was the awesome experience. The course curriculum was very interesting and challenging at the same time. The content was crisp and of high quality. I recommend this course who want to start a career in Machine Learning.",
         "link": "https://www.facebook.com/shuboy2014/posts/656085677895503"
@@ -135,7 +135,7 @@
       {
         "name": "Kritika Jain",
         "course": "Launchpad",
-        "imgSrc": "pic17.jpg",
+        "imgSrc": "/assets/images/reviews/pic17.jpg",
         "rating": "5",
         "review": "I took Launchpad classes from Coding Blocks, Dwarka and it was an amazing experience. I learned so much about C++ and Data Structures in such a short time. The classes were very well planned. Prateek sir helped builing our concepts very nicely. Thank you Prateek sir and thank you Coding Blocks!",
         "link": "https://www.facebook.com/permalink.php?story_fbid=1951163458450466&id=100006704928650"
@@ -143,7 +143,7 @@
       {
         "name": "Sanket Singh",
         "course": "Crux",
-        "imgSrc": "pic18.jpg",
+        "imgSrc": "/assets/images/reviews/pic18.jpg",
         "rating": "5",
         "review": "I joined the Crux (java) course mentored by Sumeet Bhaiya. Before joining this course i was hardly able to apply any algorithm but during the course itself sumeet bhaiya cleared the concepts so well and made the logical thinking capacity so sharp that now i feel quite comfortable with coding.",
         "link": "https://www.facebook.com/stonehrted/posts/1793566184229541"
@@ -151,7 +151,7 @@
       {
         "name": "Rishab Kumar",
         "course": "Crux",
-        "imgSrc": "pic19.jpg",
+        "imgSrc": "/assets/images/reviews/pic19.jpg",
         "rating": "5",
         "review": "If you have passion, this is THE place. Enrolled in 2 courses and both were awesome. They even helped many students getting placed in top companies. Any student with a passion for tech must join to enhance his/her skill set.",
         "link": "https://www.facebook.com/stonehrted/posts/1793566184229541"
@@ -159,7 +159,7 @@
       {
         "name": "Jasleen Kaur",
         "course": "Launchapd",
-        "imgSrc": "pic20.jpg",
+        "imgSrc": "/assets/images/reviews/pic20.jpg",
         "rating": "5",
         "review": "I joined C++ course in coding blocks,pitampura. It has been a wonderful experience since then. Course content is well structured and taught at a nice pace with ample questions covered in class. Assignments given contain good questions both in quality and quantity.",
         "link": "https://www.facebook.com/jasleen.kalra.3/posts/1393643994003586"
@@ -167,7 +167,7 @@
       {
         "name": "Shikhar Pahadia",
         "course": "Competitive programming",
-        "imgSrc": "pic21.jpg",
+        "imgSrc": "/assets/images/reviews/pic21.jpg",
         "rating": "5",
         "review": "I joined C++ course in coding blocks,pitampura. It has been a wonderful experience since then. Course content is well structured and taught at a nice pace with ample questions covered in class. Assignments given contain good questions both in quality and quantity.",
         "link": "https://www.facebook.com/shikhar16pahadia/posts/10207658685458945"
@@ -175,7 +175,7 @@
       {
         "name": "Divyank Karolia",
         "course": "competitive programming",
-        "imgSrc": "pic22.jpg",
+        "imgSrc": "/assets/images/reviews/pic22.jpg",
         "rating": "5",
         "review": "Went through the competitive programming bootcamp, the syllabus was precise and i gained exposure to various tricks and tips to solve the competitive programming questions. Altogether it was a learning experience which i found very helpful :)",
         "link": "https://www.facebook.com/divyankkarolia/posts/1562758673754312"
@@ -183,7 +183,7 @@
       {
         "name": "Piyush Gandhi",
         "course": "competitive programming",
-        "imgSrc": "pic23.jpg",
+        "imgSrc": "/assets/images/reviews/pic23.jpg",
         "rating": "5",
         "review": "I did the Competitive Programming BootCamp and I can say that the course was excellent. The teachers made even the toughest of topics looks easy and I recommend it to anyone who's looking to improve their Algorithmic skills",
         "link": "https://www.facebook.com/piyush.gandhi.1690/posts/1530550256974561"
@@ -191,7 +191,7 @@
       {
         "name": "Sanchit Ahuja",
         "course": "pandora",
-        "imgSrc": "pic24.jpg",
+        "imgSrc": "/assets/images/reviews/pic24.jpg",
         "rating": "5",
         "review": "I did the course Pandora (Android Development) in Coding Blocks, with Arnav Sir. The course was really interesting and fruitful. The course begins with all the basic stuff required in development including the details of Object Oriented Programming along with basic details of Activity LifeCycle etc.",
         "link": "https://www.quora.com/What-is-your-review-of-doing-Pandora-Android-course-with-Arnav-Gupta-at-Coding-Blocks/answer/Sanchit-Ahuja-5?srid=TgC8"
@@ -199,7 +199,7 @@
       {
         "name": "Aarush Juneja",
         "course": "competitive programming",
-        "imgSrc": "pic25.jpg",
+        "imgSrc": "/assets/images/reviews/pic25.jpg",
         "rating": "5",
         "review": "The best part of it was that they actually taught more than they mentioned in the curriculum without affecting the quality of the content being taught. As told, 80–100 questions were given in assignments, the faculty was available after and before the classes and was very friendly.",
         "link": "https://www.quora.com/How-was-your-experience-of-Competitive-Programming-Bootcamp-at-Coding-Blocks/answer/Aarush-Juneja?srid=TgC8"
@@ -207,7 +207,7 @@
       {
         "name": "Bhavya Aggarwal",
         "course": "competitive programming",
-        "imgSrc": "pic26.jpg",
+        "imgSrc": "/assets/images/reviews/pic26.jpg",
         "rating": "5",
         "review": "A lot of difficult and important algorithms were discussed starting from the fundamentals. I can confidently say that this bootcamp has helped me a lot in improving my skills. All the topics were covered in depth with the codes for important ones. Another main thing was that we were also given a hard copy of the course content with all the codes for the algorithms and problems.",
         "link": "https://www.quora.com/How-was-your-experience-of-Competitive-Programming-Bootcamp-at-Coding-Blocks/answer/Bhavya-Aggarwal-11?srid=TgC8"
@@ -215,7 +215,7 @@
       {
         "name": "Garima Kumari",
         "course": "Competitive programmming",
-        "imgSrc": "pic27.jpg",
+        "imgSrc": "/assets/images/reviews/pic27.jpg",
         "rating": "5",
         "review": "I had a really great experience at competitive programming bootcamp held at coding blocks.I loved the way of teaching of Vishal Sir and Mayank Sir. Vishal Sir thought us in such a way that now i can confidentlly attempt any question related to dp and greddy.",
         "link": "https://www.quora.com/How-was-your-experience-of-Competitive-Programming-Bootcamp-at-Coding-Blocks/answer/Bhavya-Aggarwal-11?srid=TgC8"
@@ -223,7 +223,7 @@
       {
         "name": "Shivanshu Chaudhary",
         "course": "perceptron",
-        "imgSrc": "pic28.jpg",
+        "imgSrc": "/assets/images/reviews/pic28.jpg",
         "rating": "5",
         "review": "A well curated course which is capable of creating a strong base and giving initial impetus to go deeper in the NET ;) .A nice balance is maintained between industrial applications and research aptitude.",
         "link": "https://www.quora.com/What-is-your-review-of-taking-a-machine-learning-course-Perceptron-with-Shubham-Bhaiya-at-Coding-Blocks/answer/Shivanshu-Chaudhary-1?srid=TgC8"
@@ -231,7 +231,7 @@
       {
         "name": "Shubham Aggarwal",
         "course": "perceptron",
-        "imgSrc": "pic29.jpg",
+        "imgSrc": "/assets/images/reviews/pic29.jpg",
         "rating": "5",
         "review": "I took a course in Machine Learning and it was the awesome experience. The course curriculum was very interesting and challenging at the same time. The content was crisp and of high quality.",
         "link": "https://www.quora.com/What-is-your-review-of-taking-a-machine-learning-course-Perceptron-with-Shubham-Bhaiya-at-Coding-Blocks/answer/Shubham-Aggarwal-73?srid=TgC8"
@@ -239,7 +239,7 @@
       {
         "name": "Sachin Singh",
         "course": "perceptron",
-        "imgSrc": "pic30.jpg",
+        "imgSrc": "/assets/images/reviews/pic30.jpg",
         "rating": "5",
         "review": "I have done machine learning course here . It was a wonderful and fun experience there. Practical projects done here was fun and amazing . Now i am very satisfied with this course.",
         "link": "https://www.quora.com/What-is-your-review-of-taking-a-machine-learning-course-Perceptron-with-Shubham-Bhaiya-at-Coding-Blocks/answer/Sachin-Singh-86?srid=TgC8"
@@ -247,289 +247,198 @@
       {
         "name": "Divyam Shah",
         "course": "launchpad",
-        "imgSrc": "mpic2.jpg",
+        "imgSrc": "/assets/images/reviews/mpic2.jpg",
         "rating": "5",
         "review": "Coding Blocks is a very good institute imparting programming knowledge. I took a course in C++ (Launchpad :) ).The course curriculum was very interesting and challenging at the same time . The place is awesome for anyone who wishes to learn programming . The content was crisp and of high quality . Starting from the basics , we reached upto semi advanced level . The teaching was awesome."
       },
       {
         "name": "Lakshay Singla",
         "course": "launchpad",
-        "imgSrc": "mpic5.jpg",
+        "imgSrc": "/assets/images/reviews/mpic5.jpg",
         "rating": "5",
         "review": "Coding Blocks is best institute for learning coding.I've learnt coding as well as built confidence. Prateek sir teaches really very well. there's not even a single doubt left in my mind after being taught by him. Even after completing the course i can come here anytime to clear my doubts and still enjoy that friendly environment. Rajesh sir ,Priyanshu sir,Arnav sir all are really very co-operative.I can share my every problem freely."
       },
       {
         "name": "Sumit Nagpal",
         "course": "launchpad",
-        "imgSrc": "mpic4.jpg",
+        "imgSrc": "/assets/images/reviews/mpic4.jpg",
         "rating": "4",
         "review": "I joined the Launchpad Fast track batch in Dec,2016 with Prateek Sir. All the concepts were taught nicely, with proper assignments and practice. The experience was great and would definitely suggest to all the aspiring beginners out there. Both Prateek Sir and Suransh were great and helped a lot with the doubts.The speed was fast, but then again it's  Fast track course :p"
       },
       {
         "name": "Arunaditya Deshmukh",
         "course": "launchpad",
-        "imgSrc": "mpic9.jpg",
+        "imgSrc": "/assets/images/reviews/mpic9.jpg",
         "rating": "5",
         "review": "Coding blocks is the best place to learn Coding. Gained a lot of experience in practicals aspects of coding. Prateek sir is the best teacher, explained every topic very nicely. Even though Class mentors also helped us immensely with lot of patience.Recorded videos were best for understanding when we missed any topic. The management make sure that students get interest in coding. Its a wonder full experience with coding blocks."
       },
       {
         "name": "Jasleen Saroa",
         "course": "launchpad",
-        "imgSrc": "mpic8.jpg",
+        "imgSrc": "/assets/images/reviews/mpic8.jpg",
         "rating": "5",
         "review": "Earlier ,i used to fear coding. Alot of my friends told me about Coding blocks and so i joined it. I was so underconfident then , i felt it difficult to write even algorithms on the first day . But the teaching faculty in really good. Sumeet sir made sure each student completed the question and helped me building my confidence. It’s really good."
       },
       {
         "name": "Pradhyum Yadav",
         "course": "launchpad",
-        "imgSrc": "mpic10.jpg",
+        "imgSrc": "/assets/images/reviews/mpic10.jpg",
         "rating": "5",
         "review": "Coding Blocks have a nice atmosphere and faculty, Teachers are friendly and skilled, I started their Launchpad Course around a month and was overwhelmed with the quality of teaching. I recommend going for Coding Blocks and learn the way to code."
       },
       {
         "name": "Varun Sharma",
         "course": "launchpad",
-        "imgSrc": "mpic11.jpg",
+        "imgSrc": "/assets/images/reviews/mpic11.jpg",
         "rating": "5",
         "review": "Earlier CODING seem to be a difficult task, but after I joined CODING BLOCKS I've started getting quiet a hang of it.The approach here is absolutely practical and illustrative as well. I've done the LAUNCHPAD course here and my instuctor Prateek Narang (Prateek Bhaiya) has helped me understand the concepts. THUMBS UP for CODING BLOCKS and PRATEEK bhaiya."
       },
       {
         "name": "Manan Manwani",
         "course": "launchpad",
-        "imgSrc": "mpic12.jpg",
+        "imgSrc": "/assets/images/reviews/mpic12.jpg",
         "rating": "5",
         "review": "Coding Blocks is an amazing place to learn coding.Being an absolute beginner, Coding Blocks helped me clear my fundamentals of C++ and because of the hands of coding concept of CDB,I was able to improve my code writing skills.Prateek Narang sir is an amazing, fun loving teacher and made the class very enjoyable.The teaching assistants were very helpful and helped me learn from my mistakes .It was an amazing journey with Coding Blocks and I was fully satisfied with my course!!"
       },
       {
         "name": "Pranav Mani Tripathi",
         "course": "launchpad",
-        "imgSrc": "mpic14.jpg",
+        "imgSrc": "/assets/images/reviews/mpic14.jpg",
         "rating": "5",
         "review": "Its been an amazing experience. Moreover prateek bhaiya was amazing both in his theory as well as practical part. Brain teasers at the start of course were good .all were very supportive and left no stones unturned in providing us the best of everything"
       },
       {
         "name": "Ujjwal Jindal",
         "course": "crux",
-        "imgSrc": "mpic1.jpg",
+        "imgSrc": "/assets/images/reviews/mpic1.jpg",
         "rating": "5",
         "review": "Coding Blocks Crux course was an exciting experience. It lasted for around 3 months and every class was worth the time and money spent. It was a great learning experience with vast variety of questions covered in the course duration. There were a variety of assignments too. Keeping everything in mind, hands down coding blocks is one the best place to learn."
       },
       {
         "name": "Yamini Gaur",
         "course": "Crux",
-        "imgSrc": "mpic6.jpg",
+        "imgSrc": "/assets/images/reviews/mpic6.jpg",
         "rating": "5",
         "review": "Coding Blocks was an amazing experience for me. I belong to the electronics department and had a little experience in coding but I think it has helped me think things through in a much more analytical manner. Coding is important no matter which branch you are in. It gives you a better understanding about how to approach a problem."
       },
       {
         "name": "Aastha Nasa",
         "course": "crux",
-        "imgSrc": "mpic7jpg",
+        "imgSrc": "/assets/images/reviews/mpic7jpg",
         "rating": "5",
         "review": "It is the best place to learn coding if you’re a beginner.I joined Crux (Java) in Aug ‘16.Our teacher Sumeet sir paid attention to each and every student in the class to make sure everyone is clear with all the concepts. He was available for each and every student’s doubts. The course was brilliantly designed so as to cover every topic with all relevant questions . A must join for every student who’s a coding enthusiast for even a begginer and wants to develop an interest in coding"
       },
       {
         "name": "Ishan Ambardar",
         "course": "crux",
-        "imgSrc": "mpic3.jpg",
+        "imgSrc": "/assets/images/reviews/mpic3.jpg",
         "rating": "5",
         "review": "In short - Five stars; excellent and interactive teaching; all problems are discussed and solved in depth, and most of the major concepts are covered. I’d always been a bit unsure about my coding acumen, but Coding Blocks brought it out. I’d recommend it to anyone looking to enhance his or her grasp on coding."
       },
       {
         "name": "Nilesh Kumarr",
         "course": "crux",
-        "imgSrc": "mpc13.jpg",
+        "imgSrc": "/assets/images/reviews/mpc13.jpg",
         "rating": "5",
         "review": "I am a student of Mechanical department and I had no interest in coding because I scored very bad in First year . But still, I gave it a try and fortunately because of very good teaching faculty, I got motivated and now I am deciding to pursue my career in coding. So, as per my advice, it a perfect place you can learn coding.Go for it, give it a try. You will learn a lot and you will become self confident in coding."
       },
       {
         "name": "Aniruddha Chauhan",
         "course": "crux",
-        "imgSrc": "janedoe.jpg",
+        "imgSrc": "/assets/images/reviews/janedoe.jpg",
         "rating": "5",
         "review": "Best place to learn coding. Before joining coding blocks I did not know a single word of Java or any data structures. Now I am pretty confident with this stuff and able to solve questions on sites like codechef, hackerrank etc.Sumeet sir made every concept so easy to understand. He literally developed my internet in coding. (Its not that I had not tried online courses orvideos. But these things don't prove to be useful for most of us)."
       },
       {
         "name": "Vivek Sharma",
         "course": "crux",
-        "imgSrc": "johndoe.jpg",
+        "imgSrc": "/assets/images/reviews/johndoe.jpg",
         "rating": "5",
         "review": "I was very poor in programming when I joined coding blocks ,Pitampura . And now , when even my 5 classes are remaining I am able to code and solve problems on my own . I can solve questions from online contest also from my own and most of credit for this is going to SUMEET MALIK sir who is one of the best teacher I have ever met ."
       },
       {
         "name": "Purujit Bansal",
         "course": "pandora",
-        "imgSrc": "mpic15.jpg",
+        "imgSrc": "/assets/images/reviews/mpic15.jpg",
         "rating": "5",
         "review": "I was a part of Pandora 2017 Spring Weekend Batch by Arnav Sir. The course was great it started from very basics and went to a close to professional level. (Basic Android Components + FireBase) There was a Guest lecture from Harshit Dwivedi on RetroFit and Picasso. Other Major Topics covered were GET, POST Requests, Gson, Volley."
       },
       {
         "name": "Abhinav Duggal",
         "course": "pandora",
-        "imgSrc": "mpic17.jpg",
+        "imgSrc": "/assets/images/reviews/mpic17.jpg",
         "rating": "5",
         "review": "I did the course on Android Development with Arnav Gupta and it was a wonderful experience. Initially the teaching felt a little too fast, but as I tried to keep pace, I started to understand each and every thing. Arnav sir cleared each and every doubt, and the class environment was also good. I look forward to make really good apps, by the knowledge I inherited from Arnav sir. On the whole it has been a really good journey. I look forward to enroll in more courses at Coding Blocks in the future."
       },
       {
         "name": "Nitin Singhal",
         "course": "pandora",
-        "imgSrc": "mpic16.jpg",
+        "imgSrc": "/assets/images/reviews/mpic16.jpg",
         "rating": "5",
         "review": "I did the course on Android from Coding Blocks under the guidance of Arnav sir .The course content was really good.The projects are given after every class which made my level of confidence high coding for android application.The doubts are always cleared by arnav sir in the classroom itself.Arnav also helped me in in getting deep in predefined codebase of android and understand it .At last the course is good and especially the instructor Arnav sir."
       },
       {
         "name": "Aditi Saluja",
         "course": "Competitive programming",
-        "imgSrc": "mpic18.jpg",
+        "imgSrc": "/assets/images/reviews/mpic18.jpg",
         "rating": "5",
         "review": "It was a great learning experience at coding blocks! I attended the Competitive Coding Boot camp. Competitive Coding can be very mind boggling and frustrating. But coding blocks made it fun and interesting!"
       },
       {
         "name": "Samarth Sehgal",
         "course": "Competitive programming",
-        "imgSrc": "mpic19.jpg",
+        "imgSrc": "/assets/images/reviews/mpic19.jpg",
         "rating": "5",
         "review": "The competitive programming bootcamp helped me sharpen my skills and know new topics which are frequently asked in contests. This bootcamp has motivated me to study more and be confident while appearing for different coding contests!"
       },
       {
         "name": "Aditya Bansal",
         "course": "Competitive programming",
-        "imgSrc": "mpic20.jpg",
+        "imgSrc": "/assets/images/reviews/mpic20.jpg",
         "rating": "5",
         "review": "Most of the concepts regarding competitive coding are discussed. all problems are explained with possible test cases. many codechef and spoj problems are discussed along with assigments. the best part of the course is discussion on dp and greedy."
       },
       {
         "name": "Navdeep Singh",
         "course": "launchpad",
-        "imgSrc": "pic34.jpeg",
+        "imgSrc": "/assets/images/reviews/pic34.jpeg",
         "rating": "4",
-        "review": "If you want to become a brilliant programmer, and are willing to put in the hours and dedicate yourself to acquiring great skills, then there is no better place for you than Coding Blocks."
+        "review": "If you want to become a brilliant programmer, and are willing to put in the hours and dedicate yourself to acquiring great skills, then there is no better place for you than Coding Blocks. The teaching assistants, Naman and Athar, were also brilliant and very helpful, who ensured we never felt like any problem was too hard."
       },
       {
         "name": "Shreya Gupta",
         "course": "Launchpad",
-        "imgSrc": "pic35.jpg",
+        "imgSrc": "/assets/images/reviews/pic35.jpg",
         "rating": "5",
-        "review": "I wish I’d come here earlier. This is by far the best decision I’ve made."
+        "review": "I wish I’d come here earlier. This is by far the best decision I’ve made. It gave me the platform to learn so much, to meet new people, and most importantly to develop the approach one needs while coding. The healthy environment here is the best I’ve seen."
       },
       {
         "name": "Anirudh Gupta",
         "course": "Launchpad",
-        "imgSrc": "pic36.jpg",
+        "imgSrc": "/assets/images/reviews/pic36.jpg",
         "rating": "5",
-        "review": "Observing myself before & after doing this course with Deepak bhaiya, Now I am very confident. Now I know how exactly to proceed with a given problem."
+        "review": "If I were to describe my experience in one word, I would simply say PERFECT. Observing myself before & after doing this course with Deepak bhaiya, Now I am very confident. Now I know how exactly to proceed with a given problem. I would seriously recommend you to join the course."
       },
       {
         "name": "Deepak Kumar",
         "course": "launchpad",
-        "imgSrc": "pic37.jpg",
+        "imgSrc": "/assets/images/reviews/pic37.jpg",
         "rating": "5",
-        "review": ""
+        "review": "Deepak Sir is very interactive and excellent in building your logic. Also we had two teaching assistants so each individual was able to get his /her doubts cleared easily."
       },
       {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
+        "name": "Ashish Nagpal",
+        "course": "launchpad",
+        "imgSrc": "/assets/images/reviews/pic38.jpg",
+        "rating": "5",
+        "review": "Its not an institute to learn just “Programming” , But much more. Its a Bond with our mentors , TAs ; just like being part of a family"
       },
       {
-        "name": "",
+        "name": "Kanika Bhooker",
         "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
-      },
-      {
-        "name": "",
-        "course": "Competitive programming",
-        "imgSrc": "",
-        "rating": "",
-        "review": ""
+        "imgSrc": "/assets/images/reviews/pic39.jpg",
+        "rating": "5",
+        "review": "The place has a beautiful (P.S. - The walls are really creative here ) coding environment . The regular assignments is not just a ‘brochure thing’ at Coding Blocks . They deliver the quality as promised ."
       }
     ]
   }
