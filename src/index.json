@@ -8,6 +8,19 @@
   ],
   "slides": [
     {
+      "imgSrc": "../assets/images/cb/cover/cc cover.jpg",
+      "imgAlt": "Competitive Programming Online",
+      "heading": "Competitive Programming Online",
+      "content": "Master Compettive Programming with our new Online class. Did we mention it comes with a kickass handbook?",
+      "button": [
+        {
+          "link": "https://codingblocks.com/bootcamps/competitiveprogonline.html",
+          "text": "Sign Up",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "assets/images/cb/cover/tuts.jpg",
       "imgAlt": "Learn from Coding Blocks resources",
       "heading": "Learn from Coding Blocks resources",
@@ -36,8 +49,8 @@
     {
       "imgSrc": "assets/images/cb/cover/cover3.jpg",
       "imgAlt": "coders admission open c++, java, android, web development",
-      "heading": "Come, fall in LOVE with CODING this August!<br>",
-      "content": "<br>Admissions Open for Courses &amp; Bootcamps",
+      "heading": "Come fall in love with coding <br>this winter!<br>",
+      "content": "<br>Admissions Open for December Batches Across All Courses",
       "button": [
         {
           "link": "/courses/",
@@ -62,53 +75,66 @@
           "filled": "true"
         }
       ]
-    }
+	},
+	{
+		"imgSrc": "assets/images/cb/cover/cover5.jpg",
+		"imgAlt": "Yer Mum",
+		"heading": "Online Bootcamp on Competitive Programming<br>",
+		"content": "Hone your Competitive Programming skills online starting this October!",
+		"button": [
+			{
+				"link": "",
+				"text": "Details",
+				"filled": "true"
+			}
+		]
+	}
   ],
   "events": {
-    "upcoming": true,
-    "past": false,
-    "upcomingHeading": "Upcoming Events",
-    "upcomingLimit": 3,
-    "moreEvents": true,
-    "noDetails": true
+	  "upcoming": true,
+	  "past": false,
+	  "upcomingHeading": "Upcoming Events",
+	  "upcomingLimit": 3,
+	  "moreEvents": true,
+	  "noDetails": true
   },
   "subHighlightSection": [
-    {
-      "heading": "Elixir Live: Web Development with Node JS",
-      "description": "Coding Blocks is proud to present Elixir Live, an online course on full stack Web Development with Node.Js. The course will help students understand both front end and back end use cases.",
-      "imgAlt": "coding blocks online web development course",
-      "imgSrc": "/assets/images/cb/elixir-live.jpg",
-      "btnLink": "/courses/elixirlive.html",
-      "btnText": "Know More",
-      "pull-right": true
-    }
+	  {
+		  "heading": "Elixir Live: Web Development with Node JS",
+		  "description": "Coding Blocks is proud to present Elixir Live, an online course on full stack Web Development with Node.Js. The course will help students understand both front end and back end use cases.",
+		  "imgAlt": "coding blocks online web development course",
+		  "imgSrc": "/assets/images/cb/elixir-live.jpg",
+		  "btnLink": "/courses/elixirlive.html",
+		  "btnText": "Know More",
+		  "pull-right": true
+	  }
   ],
   "coursesSection": {
-    "showAll": true
+	  "showAll": true
   },
   "bootcampsSection": {
-    "showAll": true
+	  "showAll": true
   },
   "team": {
-    "heading": "team",
-    "content": "",
-    "flip": true,
-    "meetTeam": true,
-    "showAll": false,
-    "companies": true,
-    "teamMembers": [
-      "MANMOHAN GUPTA",
-      "BRIJ MOHAN",
-      "ANUSHRAY GUPTA",
-      "PRIYANSHU AGRAWAL",
-      "ARNAV GUPTA",
-      "PRATEEK NARANG",
-      "SUMEET MALIK",
-      "RAJESH SACHDEV",
-      "ANKIT MALIK",
-      "VARUN KOHLI",
-      "HARPREET SINGH",
-      "NIPUN JAIN"
-    ]
+	  "heading": "team",
+	  "content": "",
+	  "flip": true,
+	  "meetTeam": true,
+	  "showAll": false,
+	  "companies": true,
+	  "teamMembers": [
+		  "MANMOHAN GUPTA",
+		  "BRIJ MOHAN",
+		  "ANUSHRAY GUPTA",
+		  "PRIYANSHU AGRAWAL",
+		  "ARNAV GUPTA",
+		  "PRATEEK NARANG",
+		  "SUMEET MALIK",
+		  "RAJESH SACHDEV",
+		  "ANKIT MALIK",
+		  "VARUN KOHLI",
+		  "HARPREET SINGH",
+		  "NIPUN JAIN"
+	]
   }
 }
