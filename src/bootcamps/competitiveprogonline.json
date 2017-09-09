@@ -1,0 +1,37 @@
+{
+  "name": "Competitive Programming Online",
+  "title": "Competitive Programming Online | BootCamps | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks offers online Web App Development Courses with NodeJS. Learn web development online and build great websites. Best online web development course."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/bootcamps/competitiveprogonline.html",
+    "title": "Competitive Programming Online",
+    "image": "https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-9/18010116_1882476711970663_3462392790741446665_n.jpg?oh=7362f63db69c92e628877fd4908fe783&oe=599ACE4B",
+    "description": "Hone your CP skills by attending 1-week Competitive Programming Bootcamp. Learn new concepts by solving over 150 complex problems of varying difficulty level and brighten up you chances of getting selected in APAC and ACM-ICPC."
+  },
+  "courseEnroll": {
+    "price": "7000",
+    "lectures": "(75+ Videos, 10 Live Sessions)",
+    "upcomingBatches": "<strong>Batches Starting September 31!<strong><br /> Come get the competitive edge. <br />Use Code: <mark>EARLY2000</mark> to get extra Rs. 2000 off!",
+    "registerBoxHeading": "<span style='font-size: 3.2rem; text-decoration: line-through;'>₹9,000</span>",
+    "registerButton": {
+      "buttonText": "Enroll Now",
+      "disabled": false
+    },
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "5 HackerBlocks Contests"
+      }
+    ]
+  },
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=58"
+}
