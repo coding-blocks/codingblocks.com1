@@ -38,23 +38,23 @@
   "courseHighlights": [
     {
       "icon": "et-line-edit",
-      "title": "UI Design",
-      "content": "An app with great functionality must be complemented by top notch User Experience and a neat User Interface. We teach building both common and upcoming UI/UX patterns."
+      "title": "Web Design",
+      "content": "A website with great functionality must be complemented by top notch User Experience and a neat Responsive User Interface. We teach building both common and upcoming UI/UX patterns in Bootstrap and frontend frameworks like Ember and Vue."
     },
     {
-      "icon": "pe-7s-download",
-      "title": "Firebase &amp; Push Notifications",
-      "content": "Firebase is Google's service that provides a realtime database and push notifications, so that you can send information to the user even when he is not using your app"
+      "icon": "et-line-chat",
+      "title": "Real Time Web Apps",
+      "content": "Socket.IO is a javascript library for realtime applications. You'll learn how to enable realtime communication between web clients and servers to build some awesome chat systems and multiplayer games."
     },
     {
-      "icon": "et-line-speedometer",
-      "title": "Hardware Sensors",
-      "content": "Sensors help us build context-aware apps. You'll learn how to use GPS location, orientation, speed sensors, and perform actions on events like flip and shake"
+      "icon": "fa fa-database",
+      "title": "Databases",
+      "content": "You will learn how to use both relational and non-relational databases with MySQL and MongoDB. We will also cover Sequelize which will make the database query writing process a little easier!"
     },
     {
-      "icon": "pe-7s-network",
-      "title": "Network &amp; Databases",
-      "content": "Most apps are connected in nature. You'll learn how to connected your apps to a backend to create an ecosystem of users and their data"
+      "icon": "et-line-profile-male",
+      "title": "Authentication",
+      "content": "You'll learn how to implement Login System as well as Authentication using social logins using Passport.JS."
     }
   ],
   "courseContents": [
