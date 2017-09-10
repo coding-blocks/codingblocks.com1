@@ -125,14 +125,6 @@
         "link": "https://www.quora.com/What-is-your-review-of-doing-Elixir-Web-using-NodeJs-with-Arnav-Gupta-at-Coding-Blocks/answer/Rishabh-Khanna-13?srid=TgC8"
       },
       {
-        "name": "Shubham Aggarwal",
-        "course": "Perceptron",
-        "imgSrc": "/assets/images/reviews/pic16.jpg",
-        "rating": "5",
-        "review": "I took a course in Machine Learning and it was the awesome experience. The course curriculum was very interesting and challenging at the same time. The content was crisp and of high quality. I recommend this course who want to start a career in Machine Learning.",
-        "link": "https://www.facebook.com/shuboy2014/posts/656085677895503"
-      },
-      {
         "name": "Kritika Jain",
         "course": "Launchpad",
         "imgSrc": "/assets/images/reviews/pic17.jpg",
@@ -146,14 +138,6 @@
         "imgSrc": "/assets/images/reviews/pic18.jpg",
         "rating": "5",
         "review": "I joined the Crux (java) course mentored by Sumeet Bhaiya. Before joining this course i was hardly able to apply any algorithm but during the course itself sumeet bhaiya cleared the concepts so well and made the logical thinking capacity so sharp that now i feel quite comfortable with coding.",
-        "link": "https://www.facebook.com/stonehrted/posts/1793566184229541"
-      },
-      {
-        "name": "Rishab Kumar",
-        "course": "Crux",
-        "imgSrc": "/assets/images/reviews/pic19.jpg",
-        "rating": "5",
-        "review": "If you have passion, this is THE place. Enrolled in 2 courses and both were awesome. They even helped many students getting placed in top companies. Any student with a passion for tech must join to enhance his/her skill set.",
         "link": "https://www.facebook.com/stonehrted/posts/1793566184229541"
       },
       {
@@ -424,21 +408,189 @@
         "course": "launchpad",
         "imgSrc": "/assets/images/reviews/pic37.jpg",
         "rating": "5",
-        "review": "Deepak Sir is very interactive and excellent in building your logic. Also we had two teaching assistants so each individual was able to get his /her doubts cleared easily."
+        "review": "Deepak Sir is very interactive and excellent in building your logic. Also we had two teaching assistants so each individual was able to get his /her doubts cleared easily. I just want to say that it is definitely worth joining this course and you won’t regret it."
       },
       {
         "name": "Ashish Nagpal",
         "course": "launchpad",
         "imgSrc": "/assets/images/reviews/pic38.jpg",
         "rating": "5",
-        "review": "Its not an institute to learn just “Programming” , But much more. Its a Bond with our mentors , TAs ; just like being part of a family"
+        "review": "Its not an institute to learn just “Programming” , But much more. Its a Bond with our mentors , TAs ; just like being part of a family. Infrastructure is good , smart learning , helpful mentors. Online assignments are given , rankings to compete among peers , Most importantly Slack : a platform to ask our Doubts , Sir’s Codes provided using Git pull ."
       },
       {
         "name": "Kanika Bhooker",
-        "course": "Competitive programming",
+        "course": "launchpad",
         "imgSrc": "/assets/images/reviews/pic39.jpg",
         "rating": "5",
-        "review": "The place has a beautiful (P.S. - The walls are really creative here ) coding environment . The regular assignments is not just a ‘brochure thing’ at Coding Blocks . They deliver the quality as promised ."
+        "review": "The place has a beautiful (P.S. - The walls are really creative here ) coding environment . The regular assignments is not just a ‘brochure thing’ at Coding Blocks . They deliver the quality as promised . With Deepak Aggarwal as the mentor of the course , coding seemed a bit easier which was once a hell of a task. Thank You Sir. "
+      },
+      {
+        "name": "Apurv Adarsh",
+        "course": "crux",
+        "imgSrc": "/assets/images/reviews/pic40.jpg",
+        "rating": "5",
+        "review": "Sumit Bhaiya is good, no doubt about that. The amount of dedication and teaching quality is par with the best teachers I have came across. He makes sure that everyone has completed the problem before moving to the other one. He is available for doubt sessions throughout the week. Even if you don’t know coding beforehand, you will have a good grip after 3 months."
+      },
+      {
+        "name": "Ansh Sachdeva",
+        "course": "crux",
+        "imgSrc": "/assets/images/reviews/pic41.jpg",
+        "rating": "5",
+        "review": "It was an amazing experience! i got no words to explain the emotions of satisfaction, joy and happiness i achieved after completing this course. sir is such an amazing person, and i am completely positive that he was one of the best teacher who ever taught me. A young man with complete knowledge of his subject, along with a great experience in both the job line and teaching. "
+      },
+      {
+        "name": "Gagarin Dash",
+        "course": "crux",
+        "imgSrc": "/assets/images/reviews/pic42.jpg",
+        "rating": "5",
+        "review": "It was absolutely amazing to have learnt from Harpreet sir, a teacher with such patience and dedication to the newbies in the field of coding. I bet you won't find a teacher who teaches with that much enthusiasm. He did wonderfully well by coping with the class and making us learn at a pace we were comfortable with and ended the course within time limit"
+      },
+      {
+        "name": "Kshitij Bansal",
+        "course": "crux",
+        "imgSrc": "/assets/images/reviews/pic43.jpg",
+        "rating": "5",
+        "review": " it really turned out to be lucky for me because the experience was amazing and it really helped me generate an everlasting love for coding. We were taught by Piyush Ajmani sir who was further backed by two TA’S (Pranav and Abhishek sir). The way of teaching was quite systematic and they left no stone unturned in instilling very complex concepts in a very clinical way."
+      },
+      {
+        "name": "Anshu Bhoyar",
+        "course": "crux",
+        "imgSrc": "/assets/images/reviews/pic44.jpg",
+        "rating": "5",
+        "review": "My experience at coding blocks gurgaon centre was more than satisfying. I was taught by piyush ajmani . There were two TA’S (pranav and abhisheik sir) for further support and encouragement. Every topic was covered thoroughly and no doubt was ignored. All the teachers were really enthusiastic about coding and sharing their knowledge. "
+      },
+      {
+        "name": "SHIVAM GANDHI",
+        "course": "elixir",
+        "imgSrc": "/assets/images/reviews/pic31.jpeg",
+        "rating": "5",
+        "review": "If anyone out there wants to delve into the world of web development then this is the right course for him/her. I would just say if you are planning to get into web development then just go for this course."
+      },
+      {
+        "name": "SANDEEP RANJAN",
+        "course": "elixir",
+        "imgSrc": "/assets/images/reviews/pic32.jpeg",
+        "rating": "5",
+        "review": "The course was pretty well structured. Learning to code at coding blocks is amazing because of the task given by the mentor. If you have done all the task by yourself then you are good to go to face the real world with you skills."
+      },
+      {
+        "name": "RISHABH MENDIRATTA",
+        "course": "elixir",
+        "imgSrc": "/assets/images/reviews/pic33.jpeg",
+        "rating": "5",
+        "review": "I would recommend this course to all the college students if they are in a dilemma that what career should they pursue in future. Aayush sir would make this course so much interesting and knowledgeful that u won't regret joining the course if u r serious during the course."
+      },
+      {
+        "name": "RISHAB KUMAR",
+        "course": "elixir",
+        "imgSrc": "/assets/images/reviews/pic19.jpg",
+        "rating": "5",
+        "review": "If you have passion, this is THE place. Enrolled in 2 courses and both were awesome. They even helped many students getting placed in top companies. Any student with a passion for tech must join to enhance his/her skill set."
+      },
+      {
+        "name": "Gurleen Kailey",
+        "course": "pandora",
+        "imgSrc": "/assets/images/reviews/pic45.jpg",
+        "rating": "5",
+        "review": "I did my course this summer and no doubt It was great learning there. You get complete insight into the world of mobile app development. And we were made to implement everything there and then in class, Which works great for you because u cannot procrastinate and your doubts are cleared in the class itself. Which gives you so much time to explore more things on your own."
+      },
+      {
+        "name": "Karan Balani",
+        "course": "pandora",
+        "imgSrc": "/assets/images/reviews/pic46.jpg",
+        "rating": "5",
+        "review": "Our mentor, Harshit Dwivedi aka the-dagger, the way he delivers the concepts is quite simple and leaves an impression in your mind, even difficult and tricky concepts can't stop or reduce his efficiency. The batch I attended was his first batch, now you get an idea to imagine his approach. And yes how can one forget about the “swags”? He has a simple trick to make students involved into codes, he asks to do an extra effort and in return he distributes swags."
+      },
+      {
+        "name": "Suneet Srivastava",
+        "course": "pandora",
+        "imgSrc": "/assets/images/reviews/pic47.jpg",
+        "rating": "5",
+        "review": "I attended the Pandora course at Dwarka center this summer. It was ‘cool’ ,the learning curve increased exponentially. The instructor (the-dagger) explained the concepts beautifully and cleared all the doubts in the class.The environment was also very friendly and you will never feel like you are in a class. The homework and the class exercises were of good level and connected every part of previous and current lecture which in turn made the learning more profitable."
+      },
+      {
+        "name": "Kartik Aggarwal",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic48.jpg",
+        "rating": "5",
+        "review": "The instructor and the teaching assistants were amazing and highly experienced. Side by side projects every week made the topics even more understandable and interesting. Thus I would highly recommend this course to everyone."
+      },
+      {
+        "name": "Ishpreet Singh Dhingra",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic49.jpg",
+        "rating": "5",
+        "review": "This was my first complete course at coding blocks. I attended the machine learning bootcamp in Winter 2016 and loved it which made me join the full course. Shubham bhaiya and Ayush bhaiya(TA) have good knowledge about the field and were very helpful in making us understand the concepts. I would certainly recommend this course to anyone who has interest in Data science."
+      },
+      {
+        "name": "Anshul Garg",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic50.jpg",
+        "rating": "5",
+        "review": "Had an amazing experience here at Coding Blocks. The course content is excellent and structured well. The emphasis is not only on the theory part but also on logical thinking and how to approach a problem. Doubts were taken very well."
+      },
+      {
+        "name": "",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic49.jpg",
+        "rating": "5",
+        "review": ""
+      },
+      {
+        "name": "",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic49.jpg",
+        "rating": "5",
+        "review": ""
+      },
+      {
+        "name": "",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic49.jpg",
+        "rating": "5",
+        "review": ""
+      },
+      {
+        "name": "",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic49.jpg",
+        "rating": "5",
+        "review": ""
+      },
+      {
+        "name": "",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic49.jpg",
+        "rating": "5",
+        "review": ""
+      },
+      {
+        "name": "",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic49.jpg",
+        "rating": "5",
+        "review": ""
+      },
+      {
+        "name": "",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic49.jpg",
+        "rating": "5",
+        "review": ""
+      },
+      {
+        "name": "",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic49.jpg",
+        "rating": "5",
+        "review": ""
+      },
+      {
+        "name": "",
+        "course": "perceptron",
+        "imgSrc": "/assets/images/reviews/pic49.jpg",
+        "rating": "5",
+        "review": ""
       }
     ]
   }

@@ -615,3 +615,59 @@ h1 .sub-heading {
     width: 100vw;
     height: calc(100vh - 64px);
 }
+
+
+/*Review Box*/
+.review-span {
+    font-weight: 600;
+}
+
+.review-card-body {
+    max-height: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+
+.review-card-body:after {
+    content: "..."
+}
+
+.review-card-name {
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.review-flip-card {
+    margin-left: 2%;
+    margin-right: 2%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    padding: 5px 5px !important;
+    height: 100%;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .review-flip-card {
+        width: 45%;
+    }
+
+    .review-highimg {
+        display: block !important;
+    }
+
+}
+
+.review-highimg {
+    display: none;
+}
+
+.review-front {
+    border: none !important;
+    padding-right: 10px !important;
+    background: #fff !important;
+}
