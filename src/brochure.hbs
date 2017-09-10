@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <object data="brochure.pdf" type="application/pdf" class="brochure-box">
+        <iframe src="brochure.pdf" class="brochure-box"
+                style="border: none;">
+            This browser does not support PDFs. Please download the PDF to view it: <a
+                href="brochure.pdf">Download
+            PDF</a>
+        </iframe>
+    </object>
+</div>
+{{> scripts}}
+</body>
+</html>
+

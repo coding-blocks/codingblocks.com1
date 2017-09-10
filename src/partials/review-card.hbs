@@ -1,0 +1,29 @@
+<div itemscope itemtype="http://schema.org/Review"
+     class="flip-card review-flip-card front review-front hover-light col-xs-12 col-sm-6 pricing-card pricing-card-inverse {{#lowerCase
+             course}}{{/lowerCase}}">
+    <div class="col-sm-4 col-xs-12 text-center {{#lowerCase course}}{{/lowerCase}}">
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                            <div class="img-holder review-highimg {{#lowerCase course}}{{/lowerCase}}">
+                                <img itemprop="image" alt="coding-blocks-reviews"
+                                     src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
+                            </div>
+                                <h5 class="uppercase mb0 bold review-card-name" itemprop="name">{{name}}</h5>
+                            </span>
+        <div class="title mb16 {{#lowerCase course}}{{/lowerCase}}">
+            <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+                                    <span itemprop="name" style="text-transform: uppercase">{{course}}</span><br>
+                                </span>
+            <span class="Review-star Review-star--active">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+
+        </div>
+    </div>
+    <div class="col-sm-8 pull-right col-xs-12 {{#lowerCase course}}{{/lowerCase}}">
+        <span class="title review-span">Review:</span>
+        <p class="mb0 review-card-body " itemprop="reviewBody">
+            {{review}}
+        </p><br>
+        <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <span itemprop="ratingValue" style="display: none;">5</span>
+        </span>
+    </div>
+</div>
