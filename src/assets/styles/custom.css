@@ -610,3 +610,8 @@ h1 .sub-heading {
 .nav-bar .title {
     margin-top: 0;
 }
+
+.brochure-box {
+    width: 100vw;
+    height: calc(100vh - 64px);
+}
