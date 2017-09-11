@@ -616,8 +616,16 @@ h1 .sub-heading {
     height: calc(100vh - 64px);
 }
 
-
 /*Review Box*/
+.reviewBox {
+    display: inline-block;
+    width: 78%;
+    margin-left: 2%;
+    position: relative;
+    text-align: left;
+    float: right;
+}
+
 .review-span {
     font-weight: 600;
 }
@@ -637,18 +645,14 @@ h1 .sub-heading {
     height: 48px;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: 10px 0;
 }
 
 .review-flip-card {
     margin-left: 2%;
     margin-right: 2%;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
-    padding: 5px 5px !important;
+    padding: 15px 5px !important;
     height: 100%;
-    display: none;
 }
 
 @media (min-width: 768px) {
@@ -662,12 +666,37 @@ h1 .sub-heading {
 
 }
 
-.review-highimg {
-    display: none;
+.review-highimg img {
+    opacity: 1;
+    filter: none !important;
 }
 
 .review-front {
     border: none !important;
     padding-right: 10px !important;
     background: #fff !important;
+}
+
+.Review-star {
+    color: #B6C2CC;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.Review-star--active {
+    color: #fc4f4f;
+    font-size: 18px;
+}
+
+.hover-light {
+    box-shadow: 5px 5px 7px 0 rgba(46, 61, 73, .15);
+    transition: all 300ms linear
+}
+
+.hover-light:hover {
+    box-shadow: 12px 12px 10px 0 rgba(46, 61, 73, .15)
+}
+
+.mt64 {
+    margin-top: 64px;
 }
