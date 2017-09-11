@@ -15,7 +15,9 @@
                     {{#each schedule}}
                         <tr>
                             <td class="text-center"><i class="fa fa-circle"></i></td>
-                            <td>{{date}}</td>
+                            <td>
+                                <time class="date-time" datetime="{{date}}">{{#dateToStr date}}{{/dateToStr}}</time>
+                            </td>
                             <td>{{topic}}</td>
                         </tr>
                     {{/each}}

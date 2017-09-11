@@ -25,6 +25,7 @@
     "gulp-inject": "^4.2.0",
     "gulp-uglify": "^3.0.0",
     "gulp-using": "^0.1.1",
+    "moment": "^2.18.1",
     "require-dir": "^0.3.2"
   },
   "devDependencies": {

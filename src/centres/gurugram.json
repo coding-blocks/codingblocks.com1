@@ -1,0 +1,47 @@
+{
+  "title": "Best Programming Coaching in Gurugram | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "India's best programming & software training institute Coding Blocks Gurugram offers Java, Web development & Android coaching classes in Gurugram."
+    }
+  ],
+  "header": {
+    "heading": "Gurugram",
+    "subHeading": "",
+    "breadcrumbs": [
+      {
+        "linkText": "Location",
+        "link": "#location"
+      },
+      {
+        "linkText": "Team",
+        "link": "#team"
+      },
+      {
+        "linkText": "Courses",
+        "link": "#courses"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "centerLocation": {
+    "name": "Gurugram",
+    "inPageLink": "location",
+    "location": "C-1070, Sushant Lok - 1 Near Vyapar Kendra, Gurgaon, Haryana",
+    "contactPerson": "Ms. Tanushree Nagori",
+    "phoneNumbers": [
+      "9711682305"
+    ],
+    "email": "tanushree@codingblocks.com",
+    "mapAddress": "Coding Blocks, Gurugram",
+    "isSection": true,
+    "isFilled": true
+  },
+  "coursesSection": {
+    "coursesList": [
+      "Launchpad",
+      "Crux"
+    ]
+  }
+}
