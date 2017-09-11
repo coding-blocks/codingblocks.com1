@@ -12,3 +12,15 @@
         })
     })
 </script>
+
+{{#if schedule}}
+    <script>
+        var dates = $('.calendar .date-time');
+
+        $.each(dates, function (index, date) {
+            if (new Date(date.getAttribute('datetime')).getTime() < new Date().getTime()) {
+                $(date).parents('tr').find('.fa').toggleClass('past');
+            }
+        })
+    </script>
+{{/if}}
