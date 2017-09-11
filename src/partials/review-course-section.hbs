@@ -1,0 +1,21 @@
+<section class="bg-secondary">
+    <div class="row">
+        <h2 class="uppercase text-center">What our students say</h2>
+    </div>
+    <div class="row text-center">
+        <div class="col-xs-10 col-xs-offset-1">
+            {{#each courseReviews}}
+                {{#each @root.reviews.reviewsList}}
+                    {{#ifEquals ../this this.name}}
+                        {{> review-card}}
+                    {{/ifEquals}}
+                {{/each}}
+            {{/each}}
+        </div>
+    </div>
+    <div class="row text-center mt64">
+        <a href="{{#relativePath @file.path '/reviews/'}}{{/relativePath}}" target="_blank" class="btn btn-filled">Read
+            More
+            Reviews</a>
+    </div>
+</section>
