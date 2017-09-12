@@ -255,6 +255,11 @@ p.lead {
 /* [[Footer]] */
 .footer .footer-1 {
     padding-top: 5rem;
+    font-size: 14px;
+}
+
+.footer-description {
+    padding: 20px 0 0;
 }
 
 footer .container .row > * {

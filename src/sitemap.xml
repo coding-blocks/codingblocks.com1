@@ -33,6 +33,11 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>https://codingblocks.com/courses/elixirlive.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://codingblocks.com/courses/crux.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
@@ -93,6 +98,11 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>https://codingblocks.com/newsletter/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://codingblocks.com/ide/</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
@@ -104,6 +114,31 @@
     </url>
     <url>
         <loc>https://codingblocks.com/contactus</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://codingblocks.com/centres/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://codingblocks.com/centres/dwarka.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://codingblocks.com/centres/greater-noida.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://codingblocks.com/centres/gurugram.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://codingblocks.com/centres/pitampura.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -129,6 +164,11 @@
     </url>
     <url>
         <loc>https://codingblocks.com/tos.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://codingblocks.com/brochure.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>

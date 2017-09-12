@@ -14,10 +14,10 @@
     "description": "Hone your CP skills by attending 1-week Competitive Programming Bootcamp. Learn new concepts by solving over 150 complex problems of varying difficulty level and brighten up you chances of getting selected in APAC and ACM-ICPC."
   },
   "courseEnroll": {
-    "price": "7000",
+    "price": "6300",
     "lectures": "(75+ Videos, 10 Live Sessions)",
-    "upcomingBatches": "<strong>Batches Starting September 31!<strong><br /> Come get the competitive edge. <br />Use Code: <mark>EARLY2000</mark> to get extra Rs. 2000 off!",
-    "registerBoxHeading": "<span style='font-size: 3.2rem; text-decoration: line-through;'>₹9,000</span>",
+    "upcomingBatches": "<strong>Batches Starting September 30!<strong><br /> Come get the competitive edge. <br />Use Code: <mark>EARLY2000</mark> to get extra Rs. 2000 off!",
+    "registerBoxHeading": "<span style='font-size: 3.2rem; text-decoration: line-through;'>₹7,000</span>",
     "registerButton": {
       "buttonText": "Enroll Now",
       "disabled": false
@@ -33,5 +33,11 @@
       }
     ]
   },
+  "courseReviews": [
+    "SHIKHAR PAHADIA",
+    "DIVYANK KAROLIA",
+    "PIYUSH GANDHI",
+    "AARUSH JUNEJA"
+  ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=58"
 }

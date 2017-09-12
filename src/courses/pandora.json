@@ -1,10 +1,10 @@
 {
   "name": "Pandora",
-  "title": "Learn Android Delhi | Android Training | Pandora by Coding Blocks",
+  "title": "Android App Development Course in Delhi | Pandora by Coding Blocks",
   "metas": [
     {
       "name": "description",
-      "content": "Coding Blocks offers best Android training in Delhi & Greater Noida. Register for Pandora: Android course now and learn android from industry experts."
+      "content": "Android App Development Course by Coding Blocks offers best Android training in Delhi & Noida. Learn android app development from industry experts."
     }
   ],
   "openGraph": {
@@ -33,7 +33,7 @@
     "bgSrc": "../assets/images/cb/cover/cover_pandora.jpg"
   },
   "overview": {
-    "content": "There are close to 2 billion Android powered devices as of 2016, and for more than 200 million Indians, Android is the primary platform of consumption of content. From social and communication apps like Whatsapp, Instagram and Snapchat to utilities like Uber, Swiggy and Paytm - Android is the platform that enables companies to cater to their users 24x7.<br><br>Our Android Development course takes you on a comprehensive journey on the Android Studio that starts from building the UI, to connecting to network services and launching your product on the Google Play Store. The fact that all products have to launch on both web and mobile these days, means you'll be in demand in most products companies the day you graduate from Pandora.<br><br>"
+    "content": "There are close to 2 billion Android powered devices as of 2016, and for more than 200 million Indians, Android is the primary platform of consumption of content. From social and communication apps like Whatsapp, Instagram and Snapchat to utilities like Uber, Swiggy and Paytm - Android is the platform that enables companies to cater to their users 24x7.<br><br>Our Android App Development course by Coding Blocks takes you on a comprehensive journey on the Android Studio that starts from building the UI, to connecting to network services and launching your product on the Google Play Store. The fact that all products have to launch on both web and mobile these days, means you'll be in demand in most products companies the day you graduate from Pandora.<br><br>"
   },
   "courseHighlights": [
     {
