@@ -225,12 +225,12 @@ p.lead {
 /* ]] */
 
 /* [[Contact Us]] */
-.feature {
-    text-align: left;
-}
-
 .feature h3 {
     padding-left: 0;
+}
+
+.feature h4 {
+	margin-top: 1rem;
 }
 
 .location-address {
@@ -255,11 +255,6 @@ p.lead {
 /* [[Footer]] */
 .footer .footer-1 {
     padding-top: 5rem;
-    font-size: 14px;
-}
-
-.footer-description {
-    padding: 20px 0 0;
 }
 
 footer .container .row > * {
