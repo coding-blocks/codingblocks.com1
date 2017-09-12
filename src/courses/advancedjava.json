@@ -1,0 +1,176 @@
+{
+  "name": "Advanced Java",
+  "title": "Advanced Java Training in Delhi, Greater Noida | Advanced Java by Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "The Advanced Java course is designed to help students develop professional web services and websites. This course will help students understand how the web engine works."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/advancedjava.html",
+    "title": "Advanced Java",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
+    "description": "Learn Advanced Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar."
+  },
+  "header": {
+    "heading": "Advanced Java",
+    "subHeading": "Project Based web development course using Spring Boot",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/covergcp.jpg"
+  },
+  "overview": {
+    "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements.Designed for beginners, CRUX is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+  },
+  "courseHighlights": [
+    {
+      "icon": "fa fa-code",
+      "title": "UI Design",
+      "content": "An app with great functionality must be complemented by top notch User Experience and a neat User Interface. We teach building both common and upcoming UI/UX patterns."
+    },
+    {
+      "icon": "et-line-puzzle",
+      "title": "Firebase, Push Notifications",
+      "content": "Firebase is Google's service that provides a real-time database and push notifications, so that you can send information to the user even when he is not using your app."
+    },
+    {
+      "icon": "et-line-layers",
+      "title": "REST API Development",
+      "content": "Sensors help us build context-aware apps. You'll learn how to use GPS location, orientation, speed sensors, and perform actions on events like flip and shake."
+    },
+    {
+      "icon": "et-line-linegraph",
+      "title": "Network and Databases",
+      "content": "Most apps are connected in nature. You'll learn how to connect your apps to a backend to create an ecosystem of users and their data."
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "HTTP and REST Introduction:",
+      "contentTitle": "HTTP and REST Introduction",
+      "description": "We begin with the structure of Internet, various protocols in its architecture, the role HTTP methods play in it and how REST improved the behaviour of applications served over Internet.",
+      "points": [
+		"Introduction to Internet",
+		"HTML / CSS / JavaScript",
+		"HTTP methods and behaviours",
+		"HATEOAS"
+      ]
+    },
+    {
+      "title": "Spring and Spring Boot",
+      "contentTitle": "Spring and Spring Boot",
+      "description": "Spring Boot makes it easy to create stand-alone, production-grade applications that you can run. We will start with Spring core and then dive deep using various technologies of Spring with Spring Boot.",
+      "points": [
+		  "Brushing up java fundamentals",
+		  "POJO, Factory and Context, XML configuration",
+		  "Controller Service Repository Model",
+		  "Business Logic as service",
+		  "Aspect Oriented Programming",
+		  "Message Flow with Routers, Filters and Splitters",
+		  "Basic auth, Oauth, Oauth 2 with Spring",
+		  "Creating and consuming web sockets"
+      ]
+    },
+    {
+      "title": "Databases",
+      "contentTitle": "Databases",
+      "description": "What is a server, if it cannot store data on a databases. We will learn to store data in various kinds of Database Systems.",
+      "points": [
+		"JDBC and connection pooling",
+		"Using ORMs like Hibernate and Spring Data",
+		"MySQL - Relational databases",
+		"Cassandra- Non-relational databases",
+		"Cassandra Template with Spring-Data-Cassandra"
+      ]
+    },
+    {
+      "title": "Servlet, JSP and JSF integration",
+      "contentTitle": "Servlet, JSP and JSF integration",
+      "description": "To create dynamic pages, we need server side page rendering and the concept of JSP helps here. We will then move to JSF, which is the more standard Java way to render dynamic pages.",
+      "points": [
+		"Standalone Servlet introduction",
+		"Spring JSP integration",
+		"Spring JSF integration",
+		"Why you can try JSF",
+		"When to avoid JSP and JSF"
+      ]
+    },
+    {
+      "title": "Git, Docker, Cloud and Deployment",
+      "contentTitle": "Git, Docker, Cloud and Deployment",
+      "description": "Before we move on to backend development, we will briefly touch upon the usage of Unix based systems. More than 80% of the world’s servers are hosted on Linux machines, and any web backend developer must learn basic DevOps and SysAdmin skills to manage a Linux OS. Git, the most commonly used version control system is one of the most helpful tool required to work on large projects or in collaborative environments.",
+      "points": [
+		"Git",
+		"Micro services",
+		"Containers",
+		"Physical and logical division of services",
+		"Hosting on Linux/Unix",
+		"SSL with Nginx and Letsencrypt",
+		"Basic Sysadmin"
+      ]
+    },
+    {
+      "title": "Spring Transaction",
+      "contentTitle": "Spring Transaction",
+      "description": "Comprehensive transaction support is among the most compelling reasons to use the Spring Framework .",
+      "points": [
+		"Spring transaction fundamentals",
+		"Declarative transaction management",
+		"Programmatic transaction management"
+      ]
+    },
+    {
+      "title": "Elasticsearch and Firebase",
+      "contentTitle": "Elasticsearch and Firebase",
+      "description": "We wind up with two of the hottest REST technologies in market, Firebase and Elasticsearch. Firebase is Google's mobile platform that helps you quickly develop high-quality apps and grow your business. Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases. ",
+      "points": [
+		"Basic search engines",
+		"Location based searching",
+		"Real time databases",
+		"Social sign-in with Firebase",
+		"Push notifications"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "How much knowledge of Data Structures and Algorithms do I need for this course?",
+      "ans": "One must have a good command on data structures like Stacks, Queues and Lists. A basic idea of algorithms like sorting, searching, string manipulations will also be needed. It is imperative to have good concepts of Object Oriented Programming."
+    },
+    {
+      "ques": "Is there any admission test for this course?",
+      "ans": "Yes, we have a simple test covering Java foundation, OOP concepts, basic Data structures and array/string manipulation. You will need to undertake this test while registering for Advanced Java."
+    },
+    {
+      "ques": "Will there be any projects during the course?",
+      "ans": "Yes, most definitely. We will be having at least two live projects on practical topics."
+    }
+  ],
+  "courseEnroll": {
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Session on Advanced Java"
+      }
+    ]
+  },
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=59"
+}
