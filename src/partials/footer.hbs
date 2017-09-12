@@ -4,14 +4,116 @@
     <footer class="footer-1 bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-3 text-center">
-                    {{#with footer}}
-                        <div class="vnu"><img alt="Logo" class="logo"
-                                              src="{{#relativePath @file.path logoSrc}}{{/relativePath}}">
-                        </div>
-                    {{/with}}
+                {{#with footer}}
+                    <div class="vnu col-md-3"><img alt="Logo" class="logo"
+                                                   src="{{#relativePath @file.path logoSrc}}{{/relativePath}}">
+                    </div>
+                    <div class="footer-description col-md-9">
+                        <p>Coding Blocks was founded in 2014 with a mission to create skilled Software Engineers for
+                            our country and the world. We are here to bridge the gap between the quality of skills
+                            demanded by industry and the quality of skills imparted by conventional institutes. At
+                            Coding Blocks, we thrive to increase student interest by providing hands on practical
+                            training on every concept taught in the classroom.</p>
+                    </div>
+                {{/with}}
+            </div>
+            <div class="row">
+                <div class="widget col-md-4">
+                    <h6 itemprop="name" class="title"><a itemprop="url"
+                                                         href="{{#relativePath @file.path
+                                                                               '/about.html'}}{{/relativePath}}">About
+                        Us</a></h6>
+                    <hr>
+                    <ul class="footer-links">
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/why-coding-blocks.html'}}{{/relativePath}}">Why Coding
+                                Blocks</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/reviews/'}}{{/relativePath}}">Reviews</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/team.html'}}{{/relativePath}}">Our Team</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/brochure.html'}}{{/relativePath}}">Download
+                                Brochure</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/success-stories/'}}{{/relativePath}}">Wall of Fame</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/newsletter/'}}{{/relativePath}}">Newsletters</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/events/'}}{{/relativePath}}">Events</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="https://hackerblocks.com">Hacker Blocks</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-sm-6 col-md-7">
+                <div class="widget col-md-4">
+                    <h6 itemprop="name" class="title"><a itemprop="url"
+                                                         href="{{#relativePath @file.path
+                                                                               '/courses/'}}{{/relativePath}}">
+                        Courses</a>
+                    </h6>
+                    <hr>
+                    <ul class="footer-links">
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/courses/algo++.html'}}{{/relativePath}}">Algo++ :
+                                Advanced Data Structures And Algorithms </a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/courses/crux.html'}}{{/relativePath}}">Crux :
+                                Java Fundamentals Training </a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/courses/elixir.html'}}{{/relativePath}}">Elixir :
+                                Learn Web Development</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/courses/elixirlive.html'}}{{/relativePath}}">Elixir
+                                Live :
+                                Web Development Online Course </a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/courses/launchpad.html'}}{{/relativePath}}">Launchpad
+                                : C++ Fundamentals Training</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/courses/launchpad-live.html'}}{{/relativePath}}">Launchpad
+                                Live
+                                : C++ Online Course</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/courses/pandora.html'}}{{/relativePath}}">Pandora
+                                : Android App Development</a>
+                        </li>
+                        <li itemprop="name">
+                            <a itemprop="url"
+                               href="{{#relativePath @file.path '/courses/perceptron.html'}}{{/relativePath}}">Perceptron
+                                : Machine Learning</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
                     <div class="widget">
                         <h6 class="title">Twitter Feed<br></h6>
                         <hr>
@@ -149,10 +251,7 @@
                     </div>
 
                 </div>
-
-
             </div>
-
             <div class="row text-center">
                 <div class="col-sm-3">
                     <div>
