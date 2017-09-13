@@ -33,7 +33,7 @@
     "bgSrc": "../assets/images/cb/cover/cover_node.jpg"
   },
   "overview": {
-    "content": "Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with java script for both Front end as well as back end use-cases<br> Elixir is a project based web development Full Stack course with backend in Node.JS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor and work on their web development projects under their guidance. Elixir enables students to go live with their websites and add a flair to their resume.<br> <br><br>"
+    "content": "Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with java script for both Front end as well as back end use-cases<br> Elixir is a project based web development Full Stack course with backend in Node.JS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor and work on their web development projects under their guidance. Elixir enables students to go live with their websites and add a flair to their resume. <div><strong>Starting September 25!</strong></div>"
   },
   "courseHighlights": [
     {
@@ -155,7 +155,7 @@
   "courseEnroll": {
     "price": "9000",
     "lectures": "(18 Lectures)",
-    "upcomingBatches": "<strong>Batches Starting This August!<strong>",
+    "upcomingBatches": "<strong>Batches Starting September 25!<strong>",
     "registerBoxHeading": "<span style='font-size: 3.2rem; text-decoration: line-through;'>₹15,000</span>",
     "registerButton": {
       "buttonText": "Enroll Now",

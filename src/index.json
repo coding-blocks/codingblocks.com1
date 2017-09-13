@@ -34,19 +34,6 @@
       ]
     },
     {
-      "imgSrc": "assets/images/cb/cover/cb_game.jpg",
-      "imgAlt": "JS Game Development Bootcamp",
-      "heading": "Game Development Bootcamp",
-      "content": "Learn to build exciting games at Coding Blocks in just 5 days. Learn Javascript and Phaser, a popular framework for building 2-D Games.Avail Special Early Bird discounts !",
-      "button": [
-        {
-          "link": "http://cb.lk/gamedevb",
-          "text": "Register Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "assets/images/cb/cover/cover3.jpg",
       "imgAlt": "coders admission open c++, java, android, web development",
       "heading": "Come fall in love with coding <br>this winter!<br>",
@@ -101,7 +88,7 @@
   "subHighlightSection": [
     {
       "heading": "Elixir Live: Web Development with Node JS",
-      "description": "Coding Blocks is proud to present Elixir Live, an online course on full stack Web Development with Node.Js. The course will help students understand both front end and back end use cases.",
+      "description": "Coding Blocks is proud to present Elixir Live, an online course on full stack Web Development with Node.Js. The course will help students understand both front end and back end use cases. <div><strong>Starting September 25!</strong></div>",
       "imgAlt": "coding blocks online web development course",
       "imgSrc": "/assets/images/cb/elixir-live.jpg",
       "btnLink": "/courses/elixirlive.html",
