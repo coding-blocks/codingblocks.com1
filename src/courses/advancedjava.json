@@ -60,7 +60,7 @@
   "courseContents": [
     {
       "active": true,
-      "title": "HTTP and REST Introduction:",
+      "title": "HTTP and REST Introduction",
       "contentTitle": "HTTP and REST Introduction",
       "description": "We begin with the structure of Internet, various protocols in its architecture, the role HTTP methods play in it and how REST improved the behaviour of applications served over Internet.",
       "points": [
@@ -161,6 +161,12 @@
     }
   ],
   "courseEnroll": {
+	"upcomingBatches": "New Batches Starting Soon",
+	"price": "20,000",
+	"registerButton": {
+		"disabled": true,
+		"buttonText": "Coming Soon"
+	},
     "highlights": [
       {
         "icon": "et-line-search",
