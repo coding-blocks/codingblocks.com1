@@ -261,6 +261,10 @@ footer .container .row > * {
     margin-bottom: 3rem;
 }
 
+a .footerlink-info {
+    font-size: smaller;
+}
+
 @media (max-width: 768px) {
     .footer .footer-1 {
         padding-top: 1rem;
