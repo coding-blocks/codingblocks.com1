@@ -8,6 +8,19 @@
   ],
   "slides": [
     {
+      "imgSrc": "assets/images/cb/cover/cover10.jpg",
+      "imgAlt": "Elixir LIVE Course",
+      "heading": "PRESENTING ELIXIR LIVE!",
+      "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. <br />Classes starting soon.",
+      "button": [
+        {
+          "link": "https://codingblocks.com/courses/elixirlive.html",
+          "text": "Details & Registration",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "../assets/images/cb/cover/cc cover.jpg",
       "imgAlt": "Competitive Programming Online",
       "heading": "Competitive Programming Online",
@@ -16,19 +29,6 @@
         {
           "link": "https://codingblocks.com/bootcamps/competitiveprogonline.html",
           "text": "Sign Up",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "assets/images/cb/cover/tuts.jpg",
-      "imgAlt": "Learn from Coding Blocks resources",
-      "heading": "Learn from Coding Blocks resources",
-      "content": "Learn from free tutorials on C++, JavaScript, Java, Python etc.",
-      "button": [
-        {
-          "link": "https://codingblocks.com/resources/",
-          "text": "View Resources",
           "filled": "true"
         }
       ]
@@ -50,28 +50,28 @@
         }
       ]
     },
-    {
-      "imgSrc": "assets/images/cb/cover/cover10.jpg",
-      "imgAlt": "Elixir LIVE Course",
-      "heading": "PRESENTING ELIXIR LIVE!",
-      "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. <br />Classes starting soon.",
+	{
+      "imgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg",
+      "imgAlt": "Launchpad Cover Image",
+      "heading": "CAST December 2017",
+      "content": "Coders' Admission &amp; Scholarship Test (CAST) for December Batches Coming Soon",
       "button": [
         {
-          "link": "https://codingblocks.com/courses/elixirlive.html",
-          "text": "Details & Registration",
+          "link": "https://codingblocks.com/bootcamps/cast.html",
+          "text": "Know More",
           "filled": "true"
         }
       ]
     },
     {
-      "imgSrc": "assets/images/cb/cover/cover5.jpg",
-      "imgAlt": "Yer Mum",
-      "heading": "Online Bootcamp on Competitive Programming<br>",
-      "content": "Hone your Competitive Programming skills online starting this October!",
+      "imgSrc": "assets/images/cb/cover/tuts.jpg",
+      "imgAlt": "Learn from Coding Blocks resources",
+      "heading": "Learn from Coding Blocks resources",
+      "content": "Learn from free tutorials on C++, JavaScript, Java, Python etc.",
       "button": [
         {
-          "link": "",
-          "text": "Details",
+          "link": "https://codingblocks.com/resources/",
+          "text": "View Resources",
           "filled": "true"
         }
       ]
