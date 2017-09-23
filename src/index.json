@@ -27,21 +27,26 @@
       "content": "Master Compettive Programming with our new Online class. Did we mention it comes with a kickass handbook?",
       "button": [
         {
-          "link": "https://codingblocks.com/bootcamps/competitiveprogonline.html",
-          "text": "Sign Up",
+          "link": "https://codingblocks.com/bootcamps/competitiveprogonline.html#register",
+          "text": "Register Now",
           "filled": "true"
         }
       ]
     },
 	{
       "imgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg",
-      "imgAlt": "Launchpad Cover Image",
+      "imgAlt": "CAST Cover Image",
       "heading": "CAST December 2017",
       "content": "Coders' Admission &amp; Scholarship Test (CAST) for December Batches October 28",
       "button": [
         {
           "link": "https://codingblocks.com/cast.html",
           "text": "Know More",
+          "filled": "true"
+        },
+        {
+          "link": "http://students.codingblocks.com//admission_test_online/CCAST",
+          "text": "Register Now",
           "filled": "true"
         }
       ]
