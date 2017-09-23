@@ -24,6 +24,11 @@ p.lead {
     font-weight: 500;
 }
 
+.condensed-paragraphs p {
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+}
+
 .button-tabs .tab-title span {
     font-size: 14px;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -699,6 +704,10 @@ h1 .sub-heading {
 
 .hover-light:hover {
     box-shadow: 12px 12px 10px 0 rgba(46, 61, 73, .15)
+}
+
+.mt40 {
+	margin-top: 40px;
 }
 
 .mt64 {

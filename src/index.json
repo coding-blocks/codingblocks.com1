@@ -33,6 +33,19 @@
         }
       ]
     },
+	{
+      "imgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg",
+      "imgAlt": "Launchpad Cover Image",
+      "heading": "CAST December 2017",
+      "content": "Coders' Admission &amp; Scholarship Test (CAST) for December Batches October 28",
+      "button": [
+        {
+          "link": "https://codingblocks.com/bootcamps/cast.html",
+          "text": "Know More",
+          "filled": "true"
+        }
+      ]
+    },
     {
       "imgSrc": "assets/images/cb/cover/cover3.jpg",
       "imgAlt": "coders admission open c++, java, android, web development",
@@ -46,19 +59,6 @@
         {
           "link": "/signup",
           "text": "Sign Up",
-          "filled": "true"
-        }
-      ]
-    },
-	{
-      "imgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg",
-      "imgAlt": "Launchpad Cover Image",
-      "heading": "CAST December 2017",
-      "content": "Coders' Admission &amp; Scholarship Test (CAST) for December Batches October 28",
-      "button": [
-        {
-          "link": "https://codingblocks.com/bootcamps/cast.html",
-          "text": "Know More",
           "filled": "true"
         }
       ]
