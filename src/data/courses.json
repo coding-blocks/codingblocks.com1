@@ -15,9 +15,13 @@
       ],
       "batches": [
         {
-          "startDate": "Sep 23",
-          "center": "Dwarka",
-          "time": "Morning"
+          "slug": "Morning Batch at Pitampura"
+        },
+        {
+          "slug": "Evening Fast Track Batch at Pitampura"
+        },
+        {
+          "slug": "Evening Batch at Dwarka"
         }
       ],
       "odd": true
@@ -36,31 +40,10 @@
         "300+ Problems, Hackathons"
       ],
       "batches": [
-        {
-          "startDate": "Aug 20",
-          "center": "Pitampura",
-          "time": "Morning"
-        },
-        {
-          "startDate": "Aug 19",
-          "center": "Pitampura",
-          "time": "Evening"
-        },
-        {
-          "startDate": "Aug 20",
-          "center": "Dwarka",
-          "time": "Morning"
-        },
-        {
-          "startDate": "Aug 19",
-          "center": "Gurugram",
-          "time": "Evening"
-        },
-        {
-          "startDate": "Aug 19",
-          "center": "Greater Noida",
-          "time": "Morning"
-        }
+          { "slug": "Morning Batch at Pitampura" },
+          { "slug": "Evening Batch at Pitampura" },
+          { "slug": "Morning Btach at Dwarka" },
+          { "slug": "Evening Batch  at Dwarka" }
       ]
     },
     {
@@ -77,21 +60,8 @@
         "LIVE Project & Pitching Session"
       ],
       "batches": [
-        {
-          "startDate": "Aug 13",
-          "center": "Pitampura",
-          "time": "Evening"
-        },
-        {
-          "startDate": "Aug 20",
-          "center": "Dwarka",
-          "time": "Morning"
-        },
-        {
-          "startDate": "Aug 19",
-          "center": "Greater Noida",
-          "time": "Evening"
-        }
+          { "slug": "Morning Batch at Pitampura" },
+          { "slug": "Evening Batch at Dwarka" }
       ],
       "odd": true
     },
@@ -109,21 +79,8 @@
         "LIVE Project &amp; Hackathon"
       ],
       "batches": [
-        {
-          "startDate": "Aug 13",
-          "center": "Pitampura",
-          "time": "Noon"
-        },
-        {
-          "startDate": "Aug 20",
-          "center": "Dwarka",
-          "time": "Morning"
-        },
-        {
-          "startDate": "Aug 19",
-          "center": "Greater Noida",
-          "time": "Evening"
-        }
+          { "slug": "Evening Batch at Pitampura" },
+          { "slug": "Morning Batch at Dwarka" }
       ]
     },
     {
@@ -141,11 +98,9 @@
       ],
       "odd": true,
       "batches": [
-        {
-          "startDate": "Sep 10",
-          "center": "Pitampura",
-          "time": "Evening"
-        }
+          { "slug": "Morning Batch at Pitampura" },
+          { "slug": "Evening Batch at Pitampura" },
+          { "slug": "Morning Batch at Dwarka" }
       ]
     },
     {
@@ -162,11 +117,7 @@
         "3 Live Projects &amp; Hackathon"
       ],
       "batches": [
-        {
-          "startDate": "Aug 20",
-          "center": "Pitampura",
-          "time": "Morning"
-        }
+          { "slug": "Morning Batch at Pitampura" }
       ]
     }
   ]

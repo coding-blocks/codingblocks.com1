@@ -158,6 +158,7 @@
     }
   ],
   "courseEnroll": {
+    "upcomingBatches": "Batches Starting This December(First Week):",
     "highlights": [
       {
         "icon": "et-line-search",
@@ -175,5 +176,5 @@
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=41"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=60"
 }

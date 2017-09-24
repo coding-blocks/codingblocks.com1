@@ -1,82 +1,107 @@
 <!--courseenroll-->
 {{#with courseEnroll}}
-    <a id="enroll" class="in-page-link"></a>
-    <section>
-        <div class="container">
-            <div class="row v-align-children">
-                <div class="col-sm-5">
-                    <h3>Come, fall in LOVE with CODING</h3>
-                    <p class="lead">
-                        <span>{{#if upcomingBatches}}{{{upcomingBatches}}}{{else}}
-                            Upcoming Weekend Batches{{/if}}</span><br>
-                        {{#each @root.coursesList}}
-                            {{#ifEquals name @root.name}}
-                                {{#each batches}}
-                                    <strong>{{{startDate}}}</strong> at {{{center}}} <em>({{{time}}})</em><br>
-                                {{/each}}
-                            {{/ifEquals}}
-                        {{/each}}
-                        {{#each @root.bootcampsList}}
-                            {{#ifEquals name @root.name}}
-                                {{#each batches}}
-                                    <strong>{{{startDate}}}</strong> at {{{center}}} <em>({{{time}}})</em><br>
-                                {{/each}}
-                            {{/ifEquals}}
-                        {{/each}}
-                    </p>
-                    {{#each highlights}}
-                        <div class="overflow-hidden mb32 mb-xs-24">
-                            <div class="row">
-                                <div class="col-sm-1">
-                                    <i class="icon pull-left {{{icon}}} icon-sm"></i>
-                                </div>
-                                <div class="col-sm-11">
-                                    <h6 class="uppercase mb0 inline-block p32">{{{content}}}</h6>
-                                </div>
-                            </div>
-                        </div>
-                    {{/each}}
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="pricing-table pt-1 text-center emphasis">
-                        <h5 class="uppercase">{{#if registerBoxHeading}}{{{registerBoxHeading}}}{{else}}
-                            Regular Batch{{/if}}</h5>
-                        {{#if price}}
-                            <span class="price">₹{{{price}}}</span>
-                            <p class="lead">{{{lectures}}}</p>
-                        {{else}}
-                            {{#each @root.coursesList}}
-                                {{#ifEquals name @root.name}}
-                                    <span class="price">₹{{{price}}}</span>
-                                    <p class="lead">{{{lectures}}}</p>
-                                {{/ifEquals}}
-                            {{/each}}
-                            {{#each @root.bootcampsList}}
-                                {{#ifEquals name @root.name}}
-                                    <span class="price">₹{{{price}}}</span>
-                                    <p class="lead">{{{lectures}}}</p>
-                                {{/ifEquals}}
-                            {{/each}}
-                        {{/if}}
-                        {{#if registerButton}}
-                            {{#with registerButton}}
-                                <a class="btn btn-white btn-lg" href="#register"
-                                   {{#ifEquals disabled true}}disabled{{/ifEquals}}>{{{buttonText}}}</a>
-                            {{/with}}
-                        {{else}}
-                            <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
-                        {{/if}}
-                        <p>
-                            <a href="/contactus">Contact Us</a>
-                            <br>Call(Toll-free): 1800-2744-504
-                        </p>
-                    </div>
+	<a id="enroll" class="in-page-link"></a>
+	<section>
+		<div class="container">
+			<div class="row v-align-children">
+				<div class="col-sm-5">
+					<h3>Come, fall in LOVE with CODING</h3>
+					<p class="lead">
+						{{#if upcomingBatches}}
+							<p>{{{upcomingBatches}}}</p>
+						{{else}}
+							<p>Upcoming Batches</p>
+						{{/if}}
 
-                </div>
-            </div>
+						{{#each @root.coursesList}}
+							{{#ifEquals name @root.name}}
+								<ul class="course-list">
+									{{#each batches}}
+										<li>
+											{{#if slug}}
+												{{{slug}}}
+											{{else}}
+												{{{startDate}}} at
+												{{{center}}}
+												<em>({{{time}}})</em><br>
+											{{/if}}
+										</li>
+									{{/each}}
+								</ul>
+							{{/ifEquals}}
+						{{/each}}
 
-        </div>
+						{{#each @root.bootcampsList}}
+							{{#ifEquals name @root.name}}
+								<ul class="batch-list">
+									{{#each batches}}
+										<li>
+											{{#if slug}}
+												{{{slug}}}
+											{{else}}
+												{{{startDate}}} at
+												{{{center}}}
+												<em>({{{time}}})</em><br>
+											{{/if}}
+										</li>
+									{{/each}}
+								</ul>
+							{{/ifEquals}}
+						{{/each}}
+					</p>
+					{{#each highlights}}
+						<div class="overflow-hidden mb32 mb-xs-24">
+							<div class="row">
+								<div class="col-sm-1">
+									<i class="icon pull-left {{{icon}}} icon-sm"></i>
+								</div>
+								<div class="col-sm-11">
+									<h6 class="uppercase mb0 inline-block p32">{{{content}}}</h6>
+								</div>
+							</div>
+						</div>
+					{{/each}}
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="pricing-table pt-1 text-center emphasis">
+						<h5 class="uppercase">{{#if registerBoxHeading}}{{{registerBoxHeading}}}{{else}}
+								Regular Batch{{/if}}</h5>
+							{{#if price}}
+								<span class="price">₹{{{price}}}</span>
+								<p class="lead">{{{lectures}}}</p>
+							{{else}}
+								{{#each @root.coursesList}}
+									{{#ifEquals name @root.name}}
+										<span class="price">₹{{{price}}}</span>
+										<p class="lead">{{{lectures}}}</p>
+									{{/ifEquals}}
+								{{/each}}
+								{{#each @root.bootcampsList}}
+									{{#ifEquals name @root.name}}
+										<span class="price">₹{{{price}}}</span>
+										<p class="lead">{{{lectures}}}</p>
+									{{/ifEquals}}
+								{{/each}}
+							{{/if}}
+							{{#if registerButton}}
+								{{#with registerButton}}
+									<a class="btn btn-white btn-lg" href="#register"
+										{{#ifEquals disabled true}}disabled{{/ifEquals}}>{{{buttonText}}}</a>
+									{{/with}}
+								{{else}}
+									<a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+								{{/if}}
+								<p>
+									<a href="/contactus">Contact Us</a>
+									<br>Call(Toll-free): 1800-2744-504
+								</p>
+							</div>
 
-    </section>
-{{/with}}
-<!--endcourseenroll-->
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+		{{/with}}
+		<!--endcourseenroll-->

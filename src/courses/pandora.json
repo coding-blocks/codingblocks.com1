@@ -140,6 +140,7 @@
     }
   ],
   "courseEnroll": {
+    "upcomingBatches": "Batches Starting This December(First Week):",
     "highlights": [
       {
         "icon": "et-line-search",
@@ -157,5 +158,5 @@
     "SUNEET SRIVASTAVA",
     "PIYUSH AJMANI"
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=42"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=63"
 }

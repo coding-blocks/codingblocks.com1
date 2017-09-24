@@ -55,6 +55,11 @@ p.lead {
     text-decoration-style: double;
 }
 
+.course-list {
+	list-style: circle;
+	background blue;
+}
+
 /* MAP [[ */
 .contact-map {
     height: 250px;
