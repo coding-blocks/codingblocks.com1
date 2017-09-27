@@ -128,6 +128,9 @@
       ]
     }
   ],
+  "sample": {
+    "url": "https://www.youtube.com/embed/mFbitwLUCRs"
+  },
   "faqs": [
     {
       "ques": "How much knowledge of Data Structures and Algorithms do I need to take this course?",
