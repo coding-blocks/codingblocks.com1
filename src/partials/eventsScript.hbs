@@ -70,8 +70,22 @@ PLEASE DO NOT EDIT THIS
         events.data.reverse();
         var newEventsPromises = events.data.map(function (event, index) {
             event.start_date = event.start_time.substring(0, 10);
-            event.month = event.start_time.substring(5, 7);
-            event.day = event.start_time.substring(8, 10);
+            if(event.event_times!=undefined){
+                var now = new Date();
+                event.event_times.sort(function compare(a,b){
+                    return new Date(a.start_time) >= new Date(b.start_time);
+                });
+                for(var date of event.event_times){
+                    if(new Date(date.start_time)>=now){
+                        event.month = date.start_time.substring(5, 7);
+                        event.day = date.start_time.substring(8, 10);
+                        break;
+                    }
+                }
+            } else {
+                event.month = event.start_time.substring(5, 7);
+                event.day = event.start_time.substring(8, 10);
+            }
             if (event.end_time)
                 event.end_date = event.end_time.substring(0, 10);
             event.old = false;
