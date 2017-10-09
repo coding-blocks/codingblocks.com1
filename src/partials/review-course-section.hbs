@@ -7,7 +7,7 @@
             {{#each courseReviews}}
                 {{#each @root.reviews.reviewsList}}
                     {{#ifEquals ../this this.name}}
-                        {{> review-card}}
+                        {{> review-card reviewSlug = ../../reviewSlug}}
                     {{/ifEquals}}
                 {{/each}}
             {{/each}}
