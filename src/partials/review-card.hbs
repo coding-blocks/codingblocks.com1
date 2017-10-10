@@ -18,7 +18,7 @@
     </div>
     <div class="col-sm-8 pull-right col-xs-12 {{#lowerCase course}}{{/lowerCase}}">
 
-        <span class="title review-span">Review:</span>
+        <span class="title review-span">{{#if reviewSlug}}{{reviewSlug}}{{/if}} Review:</span>
         <p class="mb0 review-card-body " itemprop="reviewBody">
             {{review}}
         </p><br>
