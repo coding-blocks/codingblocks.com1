@@ -10,7 +10,7 @@ let config = require('../config').html
 let cached = require('gulp-cached')
 
 
-gulp.task('html', ['envSetup'], function () {
+gulp.task('html', function () {
 
     return new Promise((resolve, reject) => {
         let stream = gulp.src([config.src + '/**/*.hbs', "!" + config.partialsSrc + '/**/*.hbs'])

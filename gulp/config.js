@@ -1,6 +1,5 @@
 const dest = "dist"
 const src = 'src'
-const tmp = '.tmp'
 const assets = 'assets'
 const imagesSrc = 'assets/images'
 const scriptsSrc = 'assets/scripts'
@@ -15,32 +14,17 @@ module.exports = {
         dest: src,
         imagesSrc: '/' + imagesSrc,
     },
-    validate: {},
     clean: {
         src: [
-            tmp,
             dest
         ]
     },
-    envSetup: {
-        src: [
-            src + '/**/*.*',
-            '!' + src + '/**/..*',
-            '!' + src + '/' + assets + '/**/*.*'
-        ],
-        dest: tmp
-    },
-    compliePartials: {
-        name: "/index",
-        partialsSrc: tmp + '/' + partialsSrc,
-        partialsDest: tmp + '/' + partialsSrc
-    },
     html: {
-        src: tmp,
+        src: src,
         dest: dest,
-        partialsSrc: tmp + '/' + partialsSrc,
-        helpersSrc: tmp + '/' + helpersSrc,
-        dataSrc: tmp + '/' + dataSrc
+        partialsSrc: src + '/' + partialsSrc,
+        helpersSrc: src + '/' + helpersSrc,
+        dataSrc: src + '/' + dataSrc
     },
     minify: {
         src: src,
@@ -52,54 +36,36 @@ module.exports = {
     },
     completeMigrate: {
         src: [
-            tmp + "/**/*.*",
-            "!" + tmp + "/**/*.{hbs,json}",
-            "!" + tmp + '/' + partialsSrc + "/**/*.*",
-            "!" + tmp + '/' + helpersSrc + "/**/*.*",
-            "!" + tmp + '/' + dataSrc + "/**/*.*"
+            src + "/**/*.*",
+            "!" + src + "/**/*.{hbs,json}",
+            "!" + src + '/' + partialsSrc + "/**/*.*",
+            "!" + src + '/' + helpersSrc + "/**/*.*",
+            "!" + src + '/' + dataSrc + "/**/*.*",
+            "!" + src + '/' + stylesSrc + "/**/*.*",
+            "!" + src + '/' + scriptsSrc + "/**/*.*",
+            "!" + src + '/' + imagesSrc + "/**/*.*"
         ],
         jsonSrc: [
-            tmp + '/manifest.json'
+            src + '/manifest.json'
         ],
         dest: dest
-    },
-    injectScripts: {
-        targetSrc: dest,
-        scriptSrc: [
-            dest + '/assets/scripts/jquery.min.js',
-            dest + '/assets/scripts/jquery.flip.min.js',
-            dest + '/assets/scripts/jquery.waypoints.min.js',
-            dest + '/assets/scripts/bootstrap.min.js',
-            dest + '/assets/scripts/flexslider.min.js',
-            dest + '/assets/scripts/twitterfetcher.min.js',
-            dest + '/assets/scripts/smooth-scroll.min.js',
-            dest + '/assets/scripts/parallax.js',
-            dest + '/assets/scripts/scripts.js'
-        ]
-    },
-    injectStyles: {
-        targetSrc: dest,
-        styleSrc: [
-            dest + '/assets/styles/font-awesome.min.css',
-            dest + '/assets/styles/themify-icons.css',
-            dest + '/assets/styles/bootstrap.css',
-            dest + '/assets/styles/flexslider.css',
-            dest + '/assets/styles/theme-fire.css',
-            dest + '/assets/styles/custom.css',
-            dest + '/assets/styles/pe-icon-7-stroke.css',
-            dest + '/assets/styles/et-line-icons.css',
-            dest + '/manifest.json'
-        ]
-    }
-    ,
-    cleanBuild: {
-        src: [
-            tmp
-        ]
     },
     liveReload: {
         targetSrc: dest,
         port: 7654,
         basePath: 'dist'
+    },
+    dev: {
+        src: src,
+        dest: dest,
+        assets: assets,
+        cssSrc: stylesSrc,
+        imgSrc: imagesSrc,
+        jsSrc: scriptsSrc,
+        jsonSrc: src,
+        hbsSrc: src,
+        partialsSrc: src + '/' + partialsSrc,
+        helpersSrc: src + '/' + helpersSrc,
+        dataSrc: src + '/' + dataSrc
     }
 }
