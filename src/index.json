@@ -49,7 +49,7 @@
       "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. <br />Classes starting September 25.",
       "button": [
         {
-          "link": "https://codingblocks.com/courses/elixirlive.html",
+          "link": "https://codingblocks.com/courses/online/web-development-nodejs.html",
           "text": "Details & Registration",
           "filled": "true"
         }
@@ -96,7 +96,7 @@
       "description": "Coding Blocks is proud to present Elixir Live, an online course on full stack Web Development with Node.Js. The course will help students understand both front end and back end use cases. <div><strong>Starting September 25!</strong></div>",
       "imgAlt": "coding blocks online web development course",
       "imgSrc": "/assets/images/cb/elixir-live.jpg",
-      "btnLink": "/courses/elixirlive.html",
+      "btnLink": "/courses/online/web-development-nodejs.html",
       "btnText": "Know More",
       "pull-right": true
     }

@@ -1,0 +1,226 @@
+{
+  "name": "NodeJS Web Development Online",
+  "title": "Learn FullStack Web Development Online with NodeJS | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks offers online Web App Development Course with NodeJS. Learn web development online and build great websites. Best online web development course."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/online/web-development-nodejs.html",
+    "title": "Full Stack Web Development with NodeJS | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14058603_1077770128976987_1865333049_n.jpg",
+    "description": "Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works."
+  },
+  "header": {
+    "heading": "FullStack Web Development Online with NodeJS",
+    "subHeading": "",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../assets/images/cb/cover/cover_node.jpg"
+  },
+  "overview": {
+    "content": "Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with java script for both Front end as well as back end use-cases<br> Our course is a project based web development Full Stack course with backend in Node.JS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor and work on their web development projects under their guidance. Our Online Web Development with NodeJS course enables students to go live with their websites and add a flair to their resume. <div><strong>Starting September 25!</strong></div>"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "Web Design",
+      "content": "A website with great functionality must be complemented by top notch User Experience and a neat Responsive User Interface. We teach building both common and upcoming UI/UX patterns in Bootstrap and frontend frameworks like Ember and Vue."
+    },
+    {
+      "icon": "et-line-chat",
+      "title": "Real Time Web Apps",
+      "content": "Socket.IO is a javascript library for realtime applications. You'll learn how to enable realtime communication between web clients and servers to build some awesome chat systems and multiplayer games."
+    },
+    {
+      "icon": "fa fa-database",
+      "title": "Databases",
+      "content": "You will learn how to use both relational and non-relational databases with MySQL and MongoDB. We will also cover Sequelize which will make the database query writing process a little easier!"
+    },
+    {
+      "icon": "et-line-profile-male",
+      "title": "Authentication",
+      "content": "You'll learn how to implement Login System as well as Authentication using social logins using Passport.JS."
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "HTML/CSS",
+      "contentTitle": "HTML/CSS",
+      "description": "The building blocks of web pages – HTML and CSS. Learn how to use the latest HTML5 web development technologies along with CSS3 stylesheets to create amazing and responsive web sites that catch the eye of the viewer. We will also cover UI design patterns  like –",
+      "points": [
+        "Table Layouts",
+        "Flex Boxes",
+        "Bootstrap Columns",
+        "Media Queries and Mobile Responsive Design",
+        "Grids"
+      ]
+    },
+    {
+      "title": "Javascript",
+      "contentTitle": "Javascript",
+      "description": "HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like ‘clicks’, ‘hovers’ and ‘drag and drop’. Javascript is one of the most powerful and ubiquitious languages in modern software development, and we will cover the innards of Javascript in depth including –",
+      "points": [
+        "ECMAScript 6 Syntax and Standards",
+        "Function Closures and IIFEs",
+        "Classes, Constructors and Prototypes",
+        "Lexical Scopes, Arrow Functions and Variable spreading"
+      ]
+    },
+    {
+      "title": "UNIX AND Git",
+      "contentTitle": "UNIX AND Git",
+      "description": "Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world’s servers are hosted on Linux machines, and any web backend developer has to learn basic DevOps and SysAdmin skills to manage a Linux OS. Also Git, the most commonly used version control system, is one of the most helpful tool required to work on large projects or in collaborative environments",
+      "points": [
+        "Unix and SysAdmin/Devops",
+        "Schema Designing",
+        "Git"
+      ]
+    },
+    {
+      "title": "NODEJS",
+      "contentTitle": "NODEJS",
+      "description": "Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is right now the fastest growing ecosystem. We will learn –",
+      "points": [
+        "NodeJS Modules",
+        "Filesystem API, Events and Streams",
+        "ExpressJS Framework for creating REST APIs",
+        "Handlebars for server side web rendering",
+        "Socket.IO for realtime communication"
+      ]
+    },
+    {
+      "title": "Databases",
+      "contentTitle": "Databases",
+      "description": "What is a server, if it cannot store data on a databases. We will learn to store data in –",
+      "points": [
+        "Flat files on server",
+        "MySQL",
+        "Using ORMs like Sequelize",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "Advanced Topics & Deployment",
+      "contentTitle": "Advanced Topics & Deployment",
+      "description": "Finally we learn how to add basic security to our website including user authentication and authorization, SSL transport, checking for SQL injection and other vulnerabilities.We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
+      "points": [
+        "Security",
+        "Scaling",
+        "Using Frontend Templates",
+        "3rd Party Libraries and Frameworks",
+        "Deploying a live web project"
+      ]
+    }
+  ],
+  "sample": {
+    "url": "https://www.youtube.com/embed/mFbitwLUCRs"
+  },
+  "faqs": [
+    {
+      "ques": "How much knowledge of Data Structures and Algorithms do I need to take this course?",
+      "ans": "You need to have good command of data structures like Stacks, Queues and Lists. Also a basic idea of algorithms like sorting, searching, string manupulations. Also it is imperative to have good concepts of Object Oriented Programming"
+    },
+    {
+      "ques": "Do you have a test for admission into this course ?",
+      "ans": "Yes, we have a simple test covering OOP concepts, basic Data structures and array/string manipulation. You need to undertake that test while registering for our web development course with nodeJS."
+    },
+    {
+      "ques": "Will there by any projects ?",
+      "ans": "Yes, most definitely. No course in web development is complete without projects, and we have a lot of focus on working on live projects and practical topics. We start with small projects like TodoList Managers, grow up to creating e-Commerce websites."
+    },
+    {
+      "ques": "What if I miss a live class?",
+      "ans": "Videos will be provided of all classes to students after the class. These can be used for revision as well as covering up missed classes."
+    }
+  ],
+  "schedule": [
+    {
+      "date": "2017-09-25",
+      "topic": "Introduction to WebDevelopment"
+    },
+    {
+      "date": "2017-09-28",
+      "topic": "Using Git and Github"
+    },
+    {
+      "date": "2017-10-02",
+      "topic": "HTML Basics and Advanced"
+    },
+    {
+      "date": "2017-10-10",
+      "topic": "Introduction to CSS"
+    },
+    {
+      "date": "2017-10-12",
+      "topic": "Advanced CSS – Selectors, Combinators, Transforms, Animations"
+    },
+    {
+      "date": "2017-10-17",
+      "topic": "Introduction to Javascript"
+    },
+    {
+      "date": "2017-10-24",
+      "topic": "Javascript: Number, String, Array operations"
+    },
+    {
+      "date": "2017-10-26",
+      "topic": "Javascript: Closures, Prototypes"
+    },
+    {
+      "date": "2017-10-31",
+      "topic": "Introduction to NodeJS"
+    },
+    {
+      "date": "2017-11-02",
+      "topic": "NodeJS: File Operations, HTTP Servers"
+    },
+    {
+      "date": "2017-11-07",
+      "topic": "Express Servers, Routing, Server-side rendering"
+    }
+  ],
+  "courseEnroll": {
+    "price": "9000",
+    "lectures": "(18 Lectures)",
+    "upcomingBatches": "<strong>Batches Starting September 25!<strong>",
+    "registerBoxHeading": "<span style='font-size: 3.2rem; text-decoration: line-through;'>₹15,000</span>",
+    "registerButton": {
+      "buttonText": "Enroll Now",
+      "disabled": false
+    },
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "2 Hacakthons"
+      }
+    ]
+  },
+  "courseReviews": [
+    "RISHABH MENDIRATTA",
+    "SHIVAM GANDHI",
+    "SANDEEP RANJAN",
+    "RISHABH KHANNA"
+  ],
+  "reviewSlug": "Web Development Course",
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=50"
+}

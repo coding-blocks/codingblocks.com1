@@ -1,0 +1,165 @@
+{
+  "name": "Android App Development",
+  "title": "Learn Android App Development in Delhi | Course at Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Learn Android app development in Delhi from android app development training course by professionals at Coding Blocks."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/classroom/android-app-development.html",
+    "title": "Android Development Course",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14291459_1290961360916369_1179422469_n.jpg",
+    "description": "Our Android Development course takes you on a comprehensive journey on the Android Studio that starts from building the UI, to connecting to network services and launching your product on the Google Play Store."
+  },
+  "header": {
+    "heading": "Android App Development Course",
+    "subHeading": "Coding Blocks",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../assets/images/cb/cover/cover_pandora.jpg"
+  },
+  "overview": {
+    "content": "There are close to 2 billion Android powered devices as of 2016, and for more than 200 million Indians, Android is the primary platform of consumption of content. From social and communication apps like Whatsapp, Instagram and Snapchat to utilities like Uber, Swiggy and Paytm - Android is the platform that enables companies to cater to their users 24x7.<br><br>Our Android App Development course takes you on a comprehensive journey on the Android Studio that starts from building the UI, to connecting to network services and launching your product on the Google Play Store. The fact that all products have to launch on both web and mobile these days, means you'll be in demand in most products companies the day you graduate from our Android App Development Course.<br><br>"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "UI Design",
+      "content": "An app with great functionality must be complemented by top notch User Experience and a neat User Interface. We teach building both common and upcoming UI/UX patterns."
+    },
+    {
+      "icon": "pe-7s-download",
+      "title": "Firebase &amp; Push Notifications",
+      "content": "Firebase is Google's service that provides a realtime database and push notifications, so that you can send information to the user even when he is not using your app"
+    },
+    {
+      "icon": "et-line-speedometer",
+      "title": "Hardware Sensors",
+      "content": "Sensors help us build context-aware apps. You'll learn how to use GPS location, orientation, speed sensors, and perform actions on events like flip and shake"
+    },
+    {
+      "icon": "pe-7s-network",
+      "title": "Network &amp; Databases",
+      "content": "Most apps are connected in nature. You'll learn how to connected your apps to a backend to create an ecosystem of users and their data"
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Activities and UI",
+      "contentTitle": "Activities and UI",
+      "description": "The basic building blocks of an Android app – ‘the Activity’. Learn to make beautifully designed apps, with all kinds of screen sizes and all types of layouts. Learn how to build ‘ListViews’ for showing lists of data, in form of beautiful cards.the common Android design patterns like Navigation Drawer, Action Bar, Floating Action buttons all Material Design Concepts",
+      "lectures": "Lectures 1-2",
+      "points": [
+        "Object Oriented Programming Concepts in Java",
+        "Getting Started with Android App Development Tools",
+        "Activities and Basic UI Building"
+      ]
+    },
+    {
+      "title": "Background and Services",
+      "contentTitle": "Background and Services",
+      "description": "Not everything happens on the screen, so we will also learn how to create services that run in the background. AsyncTasks use multi-threading to run parallel operations on separate thread so the user doesn’t notice any work being done, and the app remains ever responsive.",
+      "lectures": "Lecture: 3-10",
+      "points": [
+        " Adapters and ListViews",
+        "Intents",
+        "Fragments, ViewPagers and Navigation Drawer",
+        "Services",
+        "Permission Management",
+        "Menus and Preferences"
+      ]
+    },
+    {
+      "title": "Data Storage",
+      "contentTitle": "Data Storage",
+      "description": "The course will cover all three ways of local data storage available in Android.",
+      "lectures": "Lecture 11-12",
+      "points": [
+        "Shared Preferences",
+        "Files",
+        "SQLite Databases"
+      ]
+    },
+    {
+      "title": "Network",
+      "contentTitle": "Network",
+      "description": "A mobile app is nothing without connectivity. Learn to add network connectivity and integrate your app with remote servers. Also we will cover how to use backend services like Firebase to create real-time databases and push notifications to create chat based applications.",
+      "lectures": "Lecture 12-18",
+      "points": [
+        "Network and Data Fetching",
+        "BroadcastReceivers",
+        "Hardware Sensors",
+        "Animations and Graphics",
+        "Alarms and AlarmManager",
+        "ContentProviders"
+      ]
+    },
+    {
+      "title": "3rd Party Libs",
+      "contentTitle": "3rd Party Libs",
+      "description": "Learn to integrate the most commonly used libraries that are used to make powerful and interactive apps like",
+      "lectures": "Lectures 19-22",
+      "points": [
+        "Google Maps",
+        "Retrofit for REST APIs",
+        "Picasso and Glide for showing images"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "How much knowledge of Data Structures and Algorithms do I need to take this course?",
+      "ans": "You need to have good command of data structures like Stacks, Queues and Lists. Also a basic idea of algorithms like sorting, searching, string manupulations. Also it is imperative to have good concepts of Object Oriented Programming"
+    },
+    {
+      "ques": "I have no idea of Java. Can I join ?",
+      "ans": "That is not a problem, if the aforementioned concpets are clear, and you have coded in some other language like C++ before. We will cover the syntax of Java in the first couple of classes."
+    },
+    {
+      "ques": "Do you have a test for admission into this course ?",
+      "ans": "Yes, we have a simple test covering OOP concepts, basic Data structures and array/string manipulation. You need to undertake that test while registering for Elixir."
+    },
+    {
+      "ques": "Will there by any app development projects ?",
+      "ans": "Yes, most definitely. No android app development course is complete without projects, and we have a lot of focus on working on live android app development projects and practical topics."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "Android Course Batches Starting This December(First Week):",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "2 Hacakthons"
+      }
+    ]
+  },
+  "courseReviews": [
+    "GURLEEN KAILEY",
+    "KARAN BALANI",
+    "SUNEET SRIVASTAVA",
+    "PIYUSH AJMANI",
+    "AKANKSHA AHUJA",
+    "DHRUV ANAND"
+  ],
+  "reviewSlug": "Android App Development Course",
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=63"
+}

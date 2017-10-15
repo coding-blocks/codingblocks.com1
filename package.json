@@ -8,7 +8,7 @@
     "clean": "gulp clean",
     "serve": "gulp serve",
     "watch": "gulp watch",
-    "dev": "gulp watch"
+    "dev": "gulp dev"
   },
   "author": "",
   "license": "ISC",

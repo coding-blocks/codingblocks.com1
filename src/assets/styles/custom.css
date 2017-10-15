@@ -720,3 +720,8 @@ h1 .sub-heading {
 .mb120 {
     margin-bottom: 120px;
 }
+
+.pricing-card h4 {
+    height: 56px;
+    overflow: hidden;
+}
