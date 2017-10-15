@@ -3,7 +3,7 @@
     <nav>
         <div class="nav-bar">
             <div class="module left">
-                <a href="/">
+                <a href="{{#relativePath @file.path "/"}}{{/relativePath}}">
                     {{#with navBar}}
                         <img class="logo logo-light" alt="Foundry"
                              src="{{#relativePath @file.path logoLightSrc}}{{/relativePath}}">
@@ -26,47 +26,60 @@
                                 <li>
                                     <ul>
                                         <li itemprop="name">
-                                            <a itemprop="url" href="/about.html" class="inner-link" target="_self">
+                                            <a itemprop="url"
+                                               href="{{#relativePath @file.path "/about.html"}}{{/relativePath}}"
+                                               class="inner-link" target="_self">
                                                 INTRODUCTION
                                             </a>
                                         </li>
                                         <li itemprop="name">
-                                            <a itemprop="url" href="/why-coding-blocks.html" class="inner-link"
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/why-coding-blocks.html"}}{{/relativePath}}"
+                                               class="inner-link"
                                                target="_self">
                                                 WHY CODING BLOCKS
                                             </a>
                                         </li>
                                         <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/team.html" class="inner-link" target="_self">OUR
+                                            <a itemprop="url"
+                                               href="{{#relativePath @file.path "/team.html"}}{{/relativePath}}"
+                                               class="inner-link" target="_self">OUR
                                                 TEAM</a>
                                         </li>
                                         <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/brochure.html">BROCHURE </a>
+                                            <a itemprop="url"
+                                               href="{{#relativePath @file.path "/brochure.html"}}{{/relativePath}}">BROCHURE </a>
                                         </li>
                                         <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/reviews/">REVIEWS </a>
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/reviews/"}}{{/relativePath}}">REVIEWS </a>
                                         </li>
                                         <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/success-stories/">WALL OF FAME </a>
+                                            <a itemprop="url"
+                                               href="{{#relativePath @file.path "/success-stories/"}}{{/relativePath}}">WALL
+                                                OF FAME </a>
                                         </li>
                                         <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/newsletter/">NEWSLETTERS</a>
+                                            <a itemprop="url"
+                                               href="{{#relativePath @file.path "/newsletter/"}}{{/relativePath}}">NEWSLETTERS</a>
                                         </li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                         <li class="has-dropdown">
-                            <a href="/courses/">COURSES</a>
+                            <a href="{{#relativePath @file.path "/courses/"}}{{/relativePath}}">COURSES</a>
                             <ul>
                                 <li class="has-dropdown toggle-sub">
                                     <a class="title">JUNIOR</a>
                                     <ul>
                                         <li itemprop="name">
-                                            <a itemprop="url" href="/courses/code4kids.html">CODE4KIDS</a>
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/code4kids.html"}}{{/relativePath}}">CODE4KIDS</a>
                                         </li>
                                         <li itemprop="name" class="vpf">
-                                            <a itemprop="url" href="/courses/mathsgeeks.html">MATHGEEKS</a>
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/mathsgeeks.html"}}{{/relativePath}}">MATHGEEKS</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -74,10 +87,15 @@
                                     <a class="title">FOUNDATION</a>
                                     <ul>
                                         <li itemprop="name">
-                                            <a itemprop="url" href="/courses/launchpad.html">LAUNCHPAD (C++)</a>
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/launchpad.html"}}{{/relativePath}}">LAUNCHPAD
+                                                (C++)</a>
+
                                         </li>
                                         <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/courses/crux.html">CRUX (JAVA)</a>
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/crux.html"}}{{/relativePath}}">CRUX
+                                                (JAVA)</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -85,10 +103,14 @@
                                     <a class="title">DEVELOPMENT</a>
                                     <ul>
                                         <li itemprop="name">
-                                            <a itemprop="url" href="/courses/pandora.html">PANDORA (ANDROID)</a>
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/pandora.html"}}{{/relativePath}}">PANDORA
+                                                (ANDROID)</a>
                                         </li>
                                         <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/courses/elixir.html">ELIXIR (WEB NODEJS)</a>
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/elixir.html"}}{{/relativePath}}">ELIXIR
+                                                (WEB NODEJS)</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -96,212 +118,240 @@
                                     <a class="title">ADVANCED</a>
                                     <ul>
                                         <li itemprop="name">
-                                            <a itemprop="url" href="/courses/perceptron.html">PERCEPTRON (MACHINE
-                                                LEARNING)</a>
+
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/perceptron.html"}}{{/relativePath}}">PERCEPTRON
+                                                (MACHINE LEARNING)</a>
                                         </li>
                                         <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/coming-soon.html">CANVAS (GAME DEV)</a>
+                                            <a itemprop="url"
+                                               href="{{#relativePath @file.path "/coming-soon.html"}}{{/relativePath}}">CANVAS
+                                                (GAME DEV)</a>
                                         </li>
                                         <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/courses/algo++.html">ALGO++ (C++)</a>
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/algo++.html"}}{{/relativePath}}">ALGO++
+                                                (C++)</a>
                                         </li>
-										<li itemprop="name">
-											<a itemprop="url"
-												href="/courses/advancedjava.html">JAVA</a>
-										</li>
+                                        <li itemprop="name">
+                                            <a itemprop="url"
+                                               href="{{#relativePath @file.path
+                                                                     "/courses/advancedjava.html"}}{{/relativePath}}">JAVA</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="has-dropdown toggle-sub vpf">
                                     <a class="title">ONLINE</a>
                                     <ul>
                                         <li itemprop="name">
-                                            <a itemprop="url" href="/courses/launchpad-online.html">LAUNCHPAD LIVE
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/launchpad-online.html"}}{{/relativePath}}">LAUNCHPAD
+                                                LIVE
                                                 (C++)</a>
                                         </li>
                                         <li itemprop="name">
-                                            <a itemprop="url" href="/courses/perceptron-live.html">PERCEPTRON ONLINE
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/perceptron-live.html"}}{{/relativePath}}">PERCEPTRON
+                                                ONLINE
                                                 (MACHINE LEARNING)</a>
                                         </li>
                                         <li itemprop="name">
-                                            <a itemprop="url" href="/courses/elixirlive.html">ELIXIR LIVE (WEB
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/courses/elixirlive.html"}}{{/relativePath}}">ELIXIR
+                                                LIVE (WEB
                                                 DEVELOPMENT)</a>
                                         </li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-						<li class="has-dropdown">
-							<a href="">BOOTCAMPS</a>
-							<ul>
-								<li class="has-dropdown toggle-sub">
-									<a class="title">CLASSROOM</a>
-									<ul>
-										<li itemprop="name">
-											<a itemprop="url" href="/bootcamps/competitiveprogramming.html">Competitive
-												Programming</a>
-										</li>
-										<li class="vpf" itemprop="name">
-											<a itemprop="url" href="/coming-soon.html">Machine Learning</a>
-										</li>
-										<li class="vpf" itemprop="name">
-											<a itemprop="url" href="/bootcamps/gamedev.html">Game Development</a>
-										</li>
-										<li class="vpf" itemprop="name">
-											<a itemprop="url" href="/bootcamps/gamedevandroid.html">Android Game Development</a>
-										</li>
-										<li class="vpf" itemprop="name">
-											<a itemprop="url" href="/bootcamps/chatbots.html">Chatbots</a>
-										</li>
-										<li class="vpf" itemprop="name">
-											<a itemprop="url" href="/bootcamps/interviewprep.html">Interview
-												Preparation</a>
-										</li>
-										<li class="vpf" itemprop="name">
-											<a itemprop="url" href="/coming-soon.html">ReactJS BootCamp</a>
-										</li>
-									</ul>
-								</li>
-								<li class="has-dropdown toggle-sub vpf">
-									<a class="title">ONLINE</a>
-									<ul>
-										<li class="vpf" itemprop="name">
-											<a itemprop="url" href="/bootcamps/gamedevonline.html">Game Dev Online</a>
-										</li>
-										<li itemprop="name">
-											<a itemprop="url"
-												href="/bootcamps/competitiveprogonline.html">Competitive
-												Programming</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="/events/">EVENTS </a>
-							<ul class="mega-menu">
-								<li class="has-dropdown">
-									<ul>
-										<li class="vpf" itemprop="name">
-											<a itemprop="url" href="/events/#upcoming">Upcoming</a>
-										</li>
-										<li class="vpf" itemprop="name">
-											<a itemprop="url" href="/events/#past">Past</a>
-										</li>
-										<li class="vpf" itemprop="name">
-											<a itemprop="url" href="/coming-soon.html">Gallery </a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="#">RESOURCES </a>
-							<ul>
-								<li itemprop="name"><a itemprop="url" href="https://hack.codingblocks.com"
-										target="_blank">Hacker
-										Blocks</a>
-								</li>
-								<li itemprop="name"><a itemprop="url" href="https://codingblocks.com/resources">Tutorials
-								</a></li>
-								<li itemprop="name">
-									<a itemprop="url" href="//codingblocks.com/ide">Online IDE</a>
-								</li>
-								<li itemprop="name"><a itemprop="url" href="https://blog.codingblocks.com"
-										target="_blank">Blog</a>
-								</li>
-								<li class="has-dropdown toggle-sub vpf">
-									<a class="title">Apps </a>
-									<ul>
-										<li itemprop="name">
-											<a itemprop="url" href="https://cb.lk/admin">Shortlr</a>
-										</li>
-										<li itemprop="name">
-											<a itemprop="url" target="_blank"
-												href="https://play.google.com/store/apps/details?id=in.tosc.digitaloceanapp">Digital
-												Ocean Dashboard</a>
-										</li>
-										<li itemprop="name">
-											<a itemprop="url" href="https://angrycoders.codingblocks.com"
-												target="_blank">Angry
-												Coders
-												Game</a>
-										</li>
-										<li itemprop="name">
-											<a itemprop="url" href="https://codingblocks.com/tic-tac-toe">Tic Tac
-												Toe</a>
-										</li>
-										<li itemprop="name">
-											<a itemprop="url" target="_blank"
-												href="https://play.google.com/store/apps/details?id=com.developers.dictionary.flying">Flying
-												Dictionary</a>
-										</li>
-										<li itemprop="name">
-											<a itemprop="url" target="_blank"
-												href="https://play.google.com/store/apps/details?id=com.gamershq.FlyingModi">Fly
-												High Modi</a>
-										</li>
-									</ul>
-								</li>
-								<li itemprop="name"><a itemprop="url" href="https://lab.codingblocks.com"
-										target="_blank">Labs</a>
-								</li>
-								<li itemprop="name"><a itemprop="url" href="https://bytecast.codingblocks.com/"
-										target="_blank">Podcast</a>
-								</li>
-								<li itemprop="name"><a itemprop="url" href="https://codingblocks.com/alumni.html">Alumni
-										Portal</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown toggle-sub vpf">
-							<a class="title">Competitions </a>
-							<ul>
-								<li itemprop="name">
-									<a itemprop="url" href="https://hack.codingblocks.com" target="_blank">
-										<i class="fa fa-flag-checkered"></i> Hacker Blocks
-									</a>
-								</li>
-								<li itemprop="name">
-									<a itemprop="url" href="https://boss.codingblocks.com" target="_blank">
-										<i class="fa fa-cubes"></i> BOSS
-									</a>
-								</li>
-							</ul>
-						</li>
-						<li class="has-dropdown toggle-sub vpf contact-us-dropdown">
-							<a class="title">Contact Us</a>
-							<ul>
-								<li class="has-dropdown toggle-sub vpf">
-									<a href="/centres/">Centres</a>
-									<ul>
-										<li itemprop="name">
-											<a itemprop="url" href="/centres/pitampura.html">Pitampura</a>
-										</li>
-										<li itemprop="name">
-											<a itemprop="url" href="/centres/dwarka.html">Dwarka</a>
-										</li>
-										<li itemprop="name">
-											<a itemprop="url" href="/centres/greater-noida.html">Greater Noida</a>
-										</li>
+                        <li class="has-dropdown">
+                            <a href="">BOOTCAMPS</a>
+                            <ul>
+                                <li class="has-dropdown toggle-sub">
+                                    <a class="title">CLASSROOM</a>
+                                    <ul>
                                         <li itemprop="name">
-                                            <a itemprop="url" href="/centres/gurugram.html">Gurugram</a>
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/bootcamps/competitiveprogramming.html"}}{{/relativePath}}">Competitive
+                                                Programming</a>
                                         </li>
-									</ul>
-								</li>
-								<li itemprop="name">
-									<a itemprop="url" href="/signup">Sign Up</a>
-								</li>
-								<li itemprop="name">
-									<a itemprop="url" href="/signup/job.html">Careers</a>
-								</li>
-								<li itemprop="name">
-									<a itemprop="url" href="/signup/company.html">Hire Students</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</nav>
+                                        <li class="vpf" itemprop="name">
+                                            <a itemprop="url"
+                                               href="{{#relativePath @file.path "/coming-soon.html"}}{{/relativePath}}">Machine
+                                                Learning</a>
+                                        </li>
+                                        <li class="vpf" itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/bootcamps/gamedev.html"}}{{/relativePath}}">Game
+                                                Development</a>
+                                        </li>
+                                        <li class="vpf" itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/bootcamps/gamedevandroid.html"}}{{/relativePath}}">Android
+                                                Game
+                                                Development</a>
+                                        </li>
+                                        <li class="vpf" itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/bootcamps/chatbots.html"}}{{/relativePath}}">Chatbots</a>
+                                        </li>
+                                        <li class="vpf" itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/bootcamps/interviewprep.html"}}{{/relativePath}}">Interview
+                                                Preparation</a>
+                                        </li>
+                                        <li class="vpf" itemprop="name">
+                                            <a itemprop="url"
+                                               href="{{#relativePath @file.path "/coming-soon.html"}}{{/relativePath}}">ReactJS
+                                                BootCamp</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown toggle-sub vpf">
+                                    <a class="title">ONLINE</a>
+                                    <ul>
+                                        <li class="vpf" itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path
+                                                                                    "/bootcamps/gamedevonline.html"}}{{/relativePath}}">Game
+                                                Dev Online</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url"
+                                               href="{{#relativePath @file.path
+                                                                     "/bootcamps/competitiveprogonline.html"}}{{/relativePath}}">Competitive
+                                                Programming</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a href="/events/">EVENTS </a>
+                            <ul class="mega-menu">
+                                <li class="has-dropdown">
+                                    <ul>
+                                        <li class="vpf" itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path "/events/#upcoming"}}{{/relativePath}}">Upcoming</a>
+                                        </li>
+                                        <li class="vpf" itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path "/events/#past"}}{{/relativePath}}">Past</a>
+                                        </li>
+                                        <li class="vpf" itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path "/coming-soon.html"}}{{/relativePath}}">Gallery </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a href="#">RESOURCES </a>
+                            <ul>
+                                <li itemprop="name"><a itemprop="url" href="{{#relativePath @file.path "https://hack.codingblocks.com"}}{{/relativePath}}"
+                                                       target="_blank">Hacker
+                                    Blocks</a>
+                                </li>
+                                <li itemprop="name"><a itemprop="url" href="{{#relativePath @file.path "https://codingblocks.com/resources"}}{{/relativePath}}">Tutorials
+                                </a></li>
+                                <li itemprop="name">
+                                    <a itemprop="url" href="https://codingblocks.com/ide">Online IDE</a>
+                                </li>
+                                <li itemprop="name"><a itemprop="url" href="https://blog.codingblocks.com"
+                                                       target="_blank">Blog</a>
+                                </li>
+                                <li class="has-dropdown toggle-sub vpf">
+                                    <a class="title">Apps </a>
+                                    <ul>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="https://cb.lk/admin">Shortlr</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" target="_blank"
+                                               href="https://play.google.com/store/apps/details?id=in.tosc.digitaloceanapp">Digital
+                                                Ocean Dashboard</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="https://angrycoders.codingblocks.com"
+                                               target="_blank">Angry
+                                                Coders
+                                                Game</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="https://codingblocks.com/tic-tac-toe">Tic Tac
+                                                Toe</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" target="_blank"
+                                               href="https://play.google.com/store/apps/details?id=com.developers.dictionary.flying">Flying
+                                                Dictionary</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" target="_blank"
+                                               href="https://play.google.com/store/apps/details?id=com.gamershq.FlyingModi">Fly
+                                                High Modi</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li itemprop="name"><a itemprop="url" href="https://lab.codingblocks.com"
+                                                       target="_blank">Labs</a>
+                                </li>
+                                <li itemprop="name"><a itemprop="url" href="https://bytecast.codingblocks.com/"
+                                                       target="_blank">Podcast</a>
+                                </li>
+                                <li itemprop="name"><a itemprop="url" href="https://codingblocks.com/alumni.html">Alumni
+                                    Portal</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown toggle-sub vpf">
+                            <a class="title">Competitions </a>
+                            <ul>
+                                <li itemprop="name">
+                                    <a itemprop="url" href="https://hack.codingblocks.com" target="_blank">
+                                        <i class="fa fa-flag-checkered"></i> Hacker Blocks
+                                    </a>
+                                </li>
+                                <li itemprop="name">
+                                    <a itemprop="url" href="https://boss.codingblocks.com" target="_blank">
+                                        <i class="fa fa-cubes"></i> BOSS
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown toggle-sub vpf contact-us-dropdown">
+                            <a class="title">Contact Us</a>
+                            <ul>
+                                <li class="has-dropdown toggle-sub vpf">
+                                    <a href="/centres/">Centres</a>
+                                    <ul>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path "/centres/pitampura.html"}}{{/relativePath}}">Pitampura</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path "/centres/dwarka.html"}}{{/relativePath}}">Dwarka</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path "/centres/greater-noida.html"}}{{/relativePath}}">Greater Noida</a>
+                                        </li>
+                                        <li itemprop="name">
+                                            <a itemprop="url" href="{{#relativePath @file.path "/centres/gurugram.html"}}{{/relativePath}}">Gurugram</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li itemprop="name">
+                                    <a itemprop="url" href="{{#relativePath @file.path "/signup"}}{{/relativePath}}">Sign Up</a>
+                                </li>
+                                <li itemprop="name">
+                                    <a itemprop="url" href="{{#relativePath @file.path "/signup/job.html"}}{{/relativePath}}">Careers</a>
+                                </li>
+                                <li itemprop="name">
+                                    <a itemprop="url" href="{{#relativePath @file.path "/signup/company.html"}}{{/relativePath}}">Hire Students</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 </div>
 <!--endnavbar-->
