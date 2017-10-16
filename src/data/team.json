@@ -157,13 +157,13 @@
     {
       "name": "Mansi Marwaha",
       "role": "Counsellor",
-      "imgSrc": "/assets/images/cb/team/staff01.jpg",
+      "imgSrc": "/assets/images/cb/team/Mansi.jpg",
       "imgAlt": "Mansi Marwaha"
     },
     {
       "name": "Priyanka Dagar",
       "role": "Counsellor",
-      "imgSrc": "/assets/images/cb/team/staff02.jpg"
+      "imgSrc": "/assets/images/cb/team/Priyanka.jpg"
     },
     {
       "name": "Samuel",
@@ -171,7 +171,25 @@
     },
     {
       "name": "Manish",
-      "imgSrc": "/assets/images/cb/team/staff04.jpg"
+      "imgSrc": "/assets/images/cb/team/Ashu.jpg"
+    }
+  ],
+  "interns": [
+    {
+      "name": "Bhavya Aggarwal",
+      "imgSrc": "/assets/images/cb/team/Bhavya.jpg"
+    },
+    {
+      "name": "Apoorvaa Gupta",
+      "imgSrc": "/assets/images/cb/team/Apoorvaa.jpg"
+    },
+    {
+      "name": "Siddarth Dungarwal",
+      "imgSrc": "/assets/images/cb/team/Dungerzone.jpg"
+    },
+    {
+      "name": "Abhishek Gupta",
+      "imgSrc": "/assets/images/cb/team/Abhishake.jpg"
     }
   ]
 }
