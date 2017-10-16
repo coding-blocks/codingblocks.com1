@@ -12,21 +12,21 @@ gulp.task('minify', ['html'], function () {
         .pipe(changed(config.dest + config.scriptsSrc))
         .pipe(imagesMin())
         .pipe(using())
-        .pipe(gulp.dest(config.dest + config.imagesSrc)),
+        .pipe(gulp.dest(config.dest + config.imagesSrc))
 
-        scriptsMinStream = gulp.src(config.src + config.scriptsSrc + '/**/*.*')
+      , scriptsMinStream = gulp.src(config.src + config.scriptsSrc + '/**/*.*')
         .pipe(changed(config.dest + config.scriptsSrc))
         .pipe(scriptsMin())
         .pipe(using())
-        .pipe(gulp.dest(config.dest + config.scriptsSrc)),
+        .pipe(gulp.dest(config.dest + config.scriptsSrc))
 
-        stylesMinStream = gulp.src(config.src + config.stylesSrc + '/**/*.*')
+      , stylesMinStream = gulp.src(config.src + config.stylesSrc + '/**/*.*')
         .pipe(changed(config.dest + config.stylesSrc))
         .pipe(stylesMin())
         .pipe(using())
-        .pipe(gulp.dest(config.dest + config.stylesSrc)),
+        .pipe(gulp.dest(config.dest + config.stylesSrc))
 
-        assetsMinStream = gulp.src(
+      , assetsMinStream = gulp.src(
         [
             config.src + '/' + config.assets + '/**/*.*',
             '!' + config.src.assets + '/**/..*',
