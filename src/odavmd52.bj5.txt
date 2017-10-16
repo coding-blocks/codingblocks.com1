@@ -5,12 +5,12 @@
 # Your branch is up-to-date with 'origin/master'.
 #
 # Changes to be committed:
-#	modified:   courses/pandora.html
+#	modified:   courses/classroom/android-app-development.html
 #	modified:   courses/pandora2.html
 #
 # Untracked files:
 #	courses/django.html
-#	courses/elixir.html
+#	courses/classroom/web-development-nodejs.html
 #	img/cb/student/divyam_shah.jpg
 #	img/cb/student/rishab.jpg
 #

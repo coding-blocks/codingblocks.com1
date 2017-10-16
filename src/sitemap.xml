@@ -23,17 +23,17 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://codingblocks.com/courses/pandora.html</loc>
+        <loc>https://codingblocks.com/courses/classroom/android-app-development.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://codingblocks.com/courses/elixir.html</loc>
+        <loc>https://codingblocks.com/courses/classroom/web-development-nodejs.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://codingblocks.com/courses/elixirlive.html</loc>
+        <loc>https://codingblocks.com/courses/online/web-development-nodejs.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>

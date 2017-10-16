@@ -1,6 +1,7 @@
 {
   "coursesList": [
     {
+      "id": "01",
       "name": "Launchpad",
       "price": "17,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
@@ -27,6 +28,7 @@
       "odd": true
     },
     {
+      "id": "02",
       "name": "Crux",
       "price": "17,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
@@ -47,12 +49,13 @@
       ]
     },
     {
-      "name": "Pandora",
+      "id": "03",
+      "name": "Android App Development",
       "price": "20,000",
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
-      "link": "/courses/pandora.html",
+      "link": "/courses/classroom/android-app-development.html",
       "description": [
         "Building Android Apps",
         "UI and Animations",
@@ -66,12 +69,13 @@
       "odd": true
     },
     {
-      "name": "Elixir",
+      "id": "04",
+      "name": "NodeJS Web Development",
       "price": "20,000",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "web development course logo",
       "lectures": "(22 lectures)",
-      "link": "/courses/elixir.html",
+      "link": "/courses/classroom/web-development-nodejs.html",
       "description": [
         "Web Design",
         "Real time Web Apps",
@@ -84,6 +88,7 @@
       ]
     },
     {
+      "id": "05",
       "name": "Algo++",
       "price": "12,000",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
@@ -104,6 +109,7 @@
       ]
     },
     {
+      "id": "06",
       "name": "Perceptron",
       "price": "22,000",
       "imgSrc": "/assets/images/cb/logosc/color_ml.svg",

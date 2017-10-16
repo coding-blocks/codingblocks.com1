@@ -5,7 +5,7 @@
         {{#each slides}}
             <li class="overlay image-bg">
                 <div class="background-image-holder">
-                    <img alt="{{{imgAlt}}}" class="background-image" src="{{imgSrc}}">
+                    <img alt="{{{imgAlt}}}" class="background-image" src="{{#relativePath @file.path imgSrc}}{{/relativePath}} ">
                 </div>
                 <div class="container v-align-transform">
                     <div class="row text-center">

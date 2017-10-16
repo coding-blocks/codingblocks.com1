@@ -8,7 +8,7 @@
   ],
   "slides": [
 	{
-      "imgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg",
+      "imgSrc": "/assets/images/cb/cover/cover_lanuchpad.jpg",
       "imgAlt": "CAST Cover Image",
       "heading": "CAST December 2017",
       "content": "Coders' Admission &amp; Scholarship Test (CAST) for December Batches October 28",
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "imgSrc": "assets/images/cb/cover/cover3.jpg",
+      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
       "imgAlt": "coders admission open c++, java, android, web development",
       "heading": "Come fall in love with coding <br>this winter!<br>",
       "content": "<br>Admissions Open for December Batches Across All Courses",
@@ -43,20 +43,20 @@
       ]
     },
     {
-      "imgSrc": "assets/images/cb/cover/cover10.jpg",
+      "imgSrc": "/assets/images/cb/cover/cover10.jpg",
       "imgAlt": "Elixir LIVE Course",
       "heading": "PRESENTING ELIXIR LIVE!",
       "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. <br />Classes starting September 25.",
       "button": [
         {
-          "link": "https://codingblocks.com/courses/elixirlive.html",
+          "link": "https://codingblocks.com/courses/online/web-development-nodejs.html",
           "text": "Details & Registration",
           "filled": "true"
         }
       ]
     },
     {
-      "imgSrc": "../assets/images/cb/cover/cc cover.jpg",
+      "imgSrc": "/assets/images/cb/cover/cc cover.jpg",
       "imgAlt": "Competitive Programming Online",
       "heading": "Competitive Programming Online",
       "content": "Master Competitive Programming with our new Online class. Did we mention it comes with a kickass handbook?",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "imgSrc": "assets/images/cb/cover/tuts.jpg",
+      "imgSrc": "/assets/images/cb/cover/tuts.jpg",
       "imgAlt": "Learn from Coding Blocks resources",
       "heading": "Learn from Coding Blocks resources",
       "content": "Learn from free tutorials on C++, JavaScript, Java, Python etc.",
@@ -96,7 +96,7 @@
       "description": "Coding Blocks is proud to present Elixir Live, an online course on full stack Web Development with Node.Js. The course will help students understand both front end and back end use cases. <div><strong>Starting September 25!</strong></div>",
       "imgAlt": "coding blocks online web development course",
       "imgSrc": "/assets/images/cb/elixir-live.jpg",
-      "btnLink": "/courses/elixirlive.html",
+      "btnLink": "/courses/online/web-development-nodejs.html",
       "btnText": "Know More",
       "pull-right": true
     }

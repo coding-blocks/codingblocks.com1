@@ -6,9 +6,9 @@ let config = require("../config.js").completeMigrate
 gulp.task("completeMigrate", ['minify'], function () {
     let generalStream = gulp.src(config.src)
         .pipe(using())
-        .pipe(gulp.dest(config.dest))
+        .pipe(gulp.dest(config.dest)),
 
-    let jsonStream = gulp.src(config.jsonSrc)
+        jsonStream = gulp.src(config.jsonSrc)
         .pipe(using())
         .pipe(gulp.dest(config.dest))
 
