@@ -16,6 +16,35 @@
     "flip": false,
     "meetTeam": false,
     "showAll": true,
-    "companies": true
+    "companies": false,
+    "doNotShow": [
+      "Abhishek Gupta",
+      "Apoorvaa Gupta",
+      "Bhavya Aggarwal",
+      "Naman Kumar",
+      "Siddarth Dungarwal"
+    ]
+  },
+  "interns": {
+    "heading": "Our Interns",
+    "content": "",
+    "flip": false,
+    "companies": false,
+    "teamMembers": [
+      "Abhishek Gupta",
+      "Apoorvaa Gupta",
+      "Bhavya Aggarwal",
+      "Naman Kumar",
+      "Siddarth Dungarwal"
+    ]
+  },
+  "alumni": {
+    "heading": "Our Alumni",
+    "content": "",
+    "flip": false,
+    "companies": false,
+    "teamMembers": [
+      "Mohammad Umair"
+    ]
   }
 }

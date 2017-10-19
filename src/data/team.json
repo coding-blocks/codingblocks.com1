@@ -65,7 +65,7 @@
     },
     {
       "name": "Mohammad Umair",
-      "role": "Head of Engineering",
+      "role": "Former Head of Engineering",
       "imgSrc": "/assets/images/cb/team/c_umair.JPG",
       "imgAlt": "Mohammad Umair",
       "bio": "Umair is a full-stack developer with extensive Android and Web projects under his hat. He’s passionate about building scalable products from scratch. In his free time, he likes to contribute to open source."
@@ -172,9 +172,7 @@
     {
       "name": "Manish",
       "imgSrc": "/assets/images/cb/team/Ashu.jpg"
-    }
-  ],
-  "interns": [
+    },
     {
       "name": "Bhavya Aggarwal",
       "imgSrc": "/assets/images/cb/team/Bhavya.jpg"
@@ -190,6 +188,10 @@
     {
       "name": "Abhishek Gupta",
       "imgSrc": "/assets/images/cb/team/Abhishake.jpg"
+    },
+    {
+      "name": "Naman Kumar",
+      "imgSrc": "/assets/images/cb/team/Naman.jpg"
     }
   ]
 }

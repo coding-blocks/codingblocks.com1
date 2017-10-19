@@ -17,7 +17,9 @@
             <div class="team row text-center">
                 {{#if showAll}}
                     {{#each @root.teamMembers}}
-                        {{> teamMember flip = ../flip}}
+                        {{#ifNotIn this.name ../doNotShow}}
+                            {{> teamMember flip = ../flip}}
+                        {{/ifNotIn}}
                     {{/each}}
                 {{else}}
                     {{#each teamMembers}}
@@ -29,12 +31,6 @@
                     {{/each}}
                 {{/if}}
             </div>
-			<h2 class="uppercase mb16 text-center">Interns</h2>
-			<div class="team row text-center">
-				{{#each @root.interns}}
-					{{> teamMember flip = ../flip}}
-				{{/each}}
-			</div>
         </div>
     {{#if meetTeam}}
             <div class="container">
