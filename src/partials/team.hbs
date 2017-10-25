@@ -14,27 +14,29 @@
         <div class="container team-xs visible-xs">
         </div>
         <div class="container hidden-xs">
-            <div class="team row text-center">
-                {{#if showAll}}
-                    {{#each @root.teamMembers}}
-                        {{> teamMember flip = ../flip}}
-                    {{/each}}
-                {{else}}
-                    {{#each teamMembers}}
-                        {{#each @root.teamMembers}}
-                            {{#ifEquals this.name ../this}}
-                                {{> teamMember flip = ../../flip}}
-                            {{/ifEquals}}
-                        {{/each}}
-                    {{/each}}
-                {{/if}}
-            </div>
-			<h2 class="uppercase mb16 text-center">Interns</h2>
-			<div class="team row text-center">
-				{{#each @root.interns}}
-					{{> teamMember flip = ../flip}}
+			{{#if showAll}}
+				<div class="team row text-center">
+					{{#each @root.teamMembers}}
+						{{> teamMember flip = ../flip}}
+					{{/each}}
+				</div>
+				<h2 class="uppercase mb16 text-center">Interns</h2>
+				<div class="team row text-center">
+					{{#each @root.interns}}
+						{{> teamMember flip = ../flip}}
+					{{/each}}
+				</div>
+			{{else}}
+				<div class="team row text-center">
+				{{#each teamMembers}}
+					{{#each @root.teamMembers}}
+						{{#ifEquals this.name ../this}}
+							{{> teamMember flip = ../../flip}}
+						{{/ifEquals}}
+					{{/each}}
 				{{/each}}
-			</div>
+				</div>
+			{{/if}}
         </div>
     {{#if meetTeam}}
             <div class="container">
