@@ -9,17 +9,17 @@
   "slides": [
 	{
       "imgSrc": "/assets/images/cb/cover/cover_lanuchpad.jpg",
-      "imgAlt": "CAST Cover Image",
-      "heading": "CAST December 2017",
-      "content": "Coders' Admission &amp; Scholarship Test (CAST) for December Batches October 28",
+      "imgAlt": "APAT Cover Image",
+      "heading": "APAT December 2017",
+      "content": "Advanced Programs Admission (and Scholarship) Test",
       "button": [
         {
-          "link": "https://codingblocks.com/cast.html",
+          "link": "https://codingblocks.com/apat.html",
           "text": "Know More",
           "filled": "true"
         },
         {
-          "link": "http://students.codingblocks.com//admission_test_online/CCAST",
+          "link": "https://codingblocks.com/apat.html#apat-registration-form",
           "text": "Register Now",
           "filled": "true"
         }
@@ -46,7 +46,7 @@
       "imgSrc": "/assets/images/cb/cover/cover10.jpg",
       "imgAlt": "Elixir LIVE Course",
       "heading": "PRESENTING ELIXIR LIVE!",
-      "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. <br />Classes starting September 25.",
+      "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. <br />Now live!",
       "button": [
         {
           "link": "https://codingblocks.com/courses/online/web-development-nodejs.html",
