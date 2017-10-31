@@ -11,13 +11,14 @@
     "subHeading": "Professional Mentors"
   },
   "team": {
-    "heading": "our team",
-    "content": "",
+    "heading": "Our Team",
+    "content": "A family of diverse",
     "flip": false,
     "meetTeam": false,
     "showAll": true,
     "companies": false,
     "doNotShow": [
+      "Mohammad Umair",
       "Abhishek Gupta",
       "Apoorvaa Gupta",
       "Bhavya Aggarwal",
@@ -39,9 +40,10 @@
     ]
   },
   "alumni": {
-    "heading": "Our Alumni",
+    "heading": "Former Team Members",
     "content": "",
-    "flip": false,
+    "small": true,
+    "flip": true,
     "companies": false,
     "teamMembers": [
       "Mohammad Umair"

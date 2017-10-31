@@ -25,7 +25,7 @@
                     {{#each teamMembers}}
                         {{#each @root.teamMembers}}
                             {{#ifEquals this.name ../this}}
-                                {{> teamMember flip = ../../flip}}
+                                {{> teamMember flip = ../../flip small = ../../small}}
                             {{/ifEquals}}
                         {{/each}}
                     {{/each}}

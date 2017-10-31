@@ -1,6 +1,10 @@
 <!--teammember-->
 {{#if flip}}
-    <div class="flip-card col-sm-6 col-md-3">
+    {{# if small }}
+        <div class="flip-card col-sm-4 col-md-2">
+    {{else}}
+        <div class="flip-card col-sm-6 col-md-3">
+    {{/if}}
         <div class="front">
             <div class="img-holder">
                 <img alt="{{{imgAlt}}}" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
@@ -24,7 +28,11 @@
         </div>
     </div>
 {{else}}
+    {{# if small }}
+    <div class="col-sm-4 col-md-2">
+    {{else}}
     <div class="col-sm-6 col-md-3">
+    {{/if}}
         <div class="image-tile outer-title text-center">
             <div class="img-holder">
                 <img alt="{{{imgAlt}}}" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
