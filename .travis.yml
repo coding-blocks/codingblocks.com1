@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-        - "8"
+  - "8"
 branches:
   only:
     - gulp
@@ -13,5 +13,4 @@ cache:
     directories:
         - "node_modules"
 
-script:
-        - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy.sh; else npm run build; fi'
+script: 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy.sh; else npm run build; fi'
