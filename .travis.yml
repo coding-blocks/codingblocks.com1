@@ -4,13 +4,9 @@ node_js:
 branches:
   only:
     - gulp
-
-branches:
-  except:
-    - master
-    - old
 cache:
-    directories:
-        - "node_modules"
+  directories:
+    - "node_modules"
 
-script: 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy.sh; else npm run build; fi'
+script:
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy.sh; else npm run build; fi'
