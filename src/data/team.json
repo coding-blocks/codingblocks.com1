@@ -43,20 +43,6 @@
       "bio": "Arnav Gupta, also popular as @ChampionSwimmer, is an acclaimed Android developer and two timer GSoC-er. He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf. He has also worked with Sony, Micromax, Cyanogen and the likes.Arnav has also active contributed int the development of Android OS, Linux Kernel and will also be mentoring students in GSoC’17."
     },
     {
-      "name": "Sumeet Malik",
-      "role": "Founding Member",
-      "imgSrc": "/assets/images/cb/team/wsumeet.jpg",
-      "imgAlt": "Sumeet Malik",
-      "bio": "Sumeet a CS graduade from PEC, has more than 7 years of industry experience at software giants like Nagarro in various technologies like Enterprise Java, JavaScript, Angular &amp; React. He left the IT industry from the senior position of a Technical Lead, to pursue his passion to teach at Coding Blocks. He has received great feedback and praise for his teaching while serving as corporate trainer and mentor for 2 years at Nagarro."
-    },
-    {
-      "name": "Ankit Malik",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/wankit.jpg",
-      "imgAlt": "Ankit Malik",
-      "bio": "IIT Delhi graduate passionate about web application design and web programming. Has worked with companies like Facebook, Barclays and WorldQuant. Co-founder of a technology consultancy firm with 3+ years experience of building data-intensive web solutions for US based pharma cos."
-    },
-    {
       "name": "Rajesh Sachdev",
       "role": "Mentor & Centre Head (Dwarka)",
       "imgSrc": "/assets/images/cb/team/wrajesh.jpg",
@@ -64,18 +50,18 @@
       "bio": "Rajesh has 20+ years of experience in IT/Corporate sector. He has previously worked with corporates like Nagarro, Cadence, American Express. He left IT industry in 2013 and moved to education with a passion to help students accomplishing their career goals. He did MS from BITS Pilani."
     },
     {
-      "name": "Mohammad Umair",
-      "role": "Former Head of Engineering",
-      "imgSrc": "/assets/images/cb/team/c_umair.JPG",
-      "imgAlt": "Mohammad Umair",
-      "bio": "Umair is a full-stack developer with extensive Android and Web projects under his hat. He’s passionate about building scalable products from scratch. In his free time, he likes to contribute to open source."
-    },
-    {
       "name": "Varun Kohli",
-      "role": "Center Head (Gr Noida)",
+      "role": "Centre Head (Gr Noida)",
       "imgSrc": "/assets/images/cb/team/wvarun.jpg",
       "imgAlt": "Varun Kohli",
       "bio": "Varun has been associated with the Software industry for more than 12 years & is considered an expert in the EdTech space. He has worked on multiple large scale applications and has piloted several Startups. He now dedicates his energy and experience to the design of Programs & business in Coding Blocks."
+    },
+    {
+      "name": "Ankit Malik",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/wankit.jpg",
+      "imgAlt": "Ankit Malik",
+      "bio": "IIT Delhi graduate passionate about web application design and web programming. Has worked with companies like Facebook, Barclays and WorldQuant. Co-founder of a technology consultancy firm with 3+ years experience of building data-intensive web solutions for US based pharma cos."
     },
     {
       "name": "Shubham Dokania",
