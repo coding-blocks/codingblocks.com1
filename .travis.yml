@@ -14,4 +14,4 @@ cache:
         - "node_modules"
 
 script:
-        - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy.sh; fi'
+        - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy.sh; else npm run build; fi'
