@@ -38,5 +38,9 @@
     "gulp-livereload": "^3.8.1",
     "gulp-serve": "^1.4.0",
     "opn": "^5.1.0"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
   }
 }
