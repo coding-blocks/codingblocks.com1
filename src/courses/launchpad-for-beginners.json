@@ -1,0 +1,120 @@
+{
+  "name": "Launchpad For Beginners",
+  "title": "C++ Training in Delhi, Greater Noida, Amritsar & Jalandhar | Launchpad by Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best C++ training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Launchpad to get C++ coaching and learn C++ fundamentals."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/launchpad-for-beginners.html",
+    "title": "Launchpad For Beginners: Basic Programming Fundamentals in C++",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "Coding Blocks is the best C++ training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Launchpad to get C++ coaching and learn C++ fundamentals."
+  },
+  "header": {
+    "heading": "Launchpad For Beginners",
+    "subHeading": "Programming Fundamentals in C++",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "overview": {
+    "content": "Launchpad For Beginners is a C++ training course designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. This beginner's course will include programming fundamentals using C++.<br> C++ is known to be a very powerful language. C++ allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ is generally more performant than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products. <br><br>"
+  },
+  "courseHighlights": [
+    {
+      "icon": "",
+      "title": "",
+      "content": ""
+    },
+    {
+      "icon": "fa fa-code",
+      "title": "Fundamentals",
+      "content": "We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+    },
+    {
+      "icon": "et-line-puzzle",
+      "title": "Problem Solving",
+      "content": "The C++ course is designed to sharpen the problem solving skills, using C++, of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+    },
+    {
+      "icon": "",
+      "title": "",
+      "content": ""
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Logic Building",
+      "contentTitle": "C++ Programming fundamentals and logic building",
+      "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
+      "lectures": "",
+      "points": [
+        "Flowcharts and Pseudo code",
+        "Puzzles",
+        "Getting started with C++"
+      ]
+    },
+    {
+      "title": "C++ Basics",
+      "contentTitle": "Strings and Arrays",
+      "description": "Then we will dive deep into C++ topics like Arrays, understanding about pointers and multi-dimensional arrays.",
+      "lectures": "",
+      "points": [
+        "Functions",
+        "Arrays, 2D Arrays",
+        "Character Arrays, Strings",
+        "Vectors in C++"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "Anybody who is interested in learning C++ programming can do this course. C++ is a powerful language and is pretty easy to learn. Coding in its most essential form is nothing but problem solving. It deals with figuring out logical solutions and implementing them optimally. The process of learning to code transforms a person into an analytical thinker with strong mathematical and logical skills."
+    },
+    {
+      "ques": "Will this course help if I had C++ in class 12?",
+      "ans": "Yes, absolutely. There is a lot more to learn in C++ than the school curriculum."
+    },
+    {
+      "ques": "I didn’t have C++ in class 12 ? Can I do this course ?",
+      "ans": "Yes. Our instructors will start the C++ course from beginner's level. You don’t need any prior programming knowledge to attend this course. What we need is dedication and passion to learn programming from your side."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "<strong>Fast Track Batches Starting December 3:</strong>",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "<span style='font-weight: regular'>Kickstart your career as a Software Developer by learning the basics.</span>"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "<span style='font-weight: regular'>No prior knowledge of coding required.</span>"
+      }
+    ]
+  },
+  "courseReviews": [
+    "NAVDEEP SINGH",
+    "SHREYA GUPTA",
+    "ANIRUDH GUPTA",
+    "DEEPAK KUMAR"
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=66"
+}
