@@ -72,8 +72,8 @@
     },
     {
       "title": "C++ Basics",
-      "contentTitle": "Strings, Arrays, Recursion",
-      "description": "Then we will dive deep into C++ topics like Arrays, solving problems with Recursion, understanding about pointers and multi-dimensional arrays.",
+      "contentTitle": "Strings and Arrays",
+      "description": "Then we will dive deep into C++ topics like Arrays, understanding about pointers and multi-dimensional arrays.",
       "lectures": "",
       "points": [
         "Functions",
