@@ -5,14 +5,6 @@
     "ratingCount": "5380",
     "reviewsList": [
       {
-        "name": "Piyush Ajmani",
-        "course": "Pandora",
-        "imgSrc": "/assets/images/reviews/pic1.jpg",
-        "rating": "5",
-        "review": "I did Android App Development course from Coding Blocks, it played a key role in defining my love for coding. I like to structure my learning properly. The problem with online websites is you only learn and you don’t have the guidance on what to do and what not to do and Coding Blocks solved that problem for me.",
-        "link": "https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Piyush-Ajmani-1"
-      },
-      {
         "name": "Naman Kumar",
         "course": "Crux",
         "imgSrc": "/assets/images/reviews/pic2.jpg",
@@ -35,22 +27,6 @@
         "rating": "5",
         "review": "I enrolled into Android App Development Course with extremely talented and technically sound instructors, the course lectures are not only informative but actually help us relate code with its real world applications. You know exactly what is happening and why it's happening. Because what is being taught, is side by side being implemented by you on your laptops.",
         "link": "https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Akanksha-Ahuja-6"
-      },
-      {
-        "name": "Pranav Khurana",
-        "course": "Crux",
-        "imgSrc": "/assets/images/reviews/pic5.jpg",
-        "rating": "5",
-        "review": "I  took the Crux (JAVA) foundation course which is taught by Sumeet sir and it is hands down the best programming environment one could get to get acquainted with the basics of coding. They are quite flexible and willing to adjust. I am awed by the effort the faculty put in giving the students the best possible experience.",
-        "link": "https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Pranav-Khurana-2"
-      },
-      {
-        "name": "Shikha Asrani",
-        "course": "Crux",
-        "imgSrc": "/assets/images/reviews/janedoe.jpg",
-        "rating": "5",
-        "review": "I took the java course under Sumeet bhaiya and later become a TA under him.His patience is simply incomparable. He will explain any concept ,any number of times with same amount of energy until the whole class is satisfied. Discussions with Arnav bhaiya will always end up in learning something new.",
-        "link": "https://www.quora.com/What-is-your-review-of-Coding-Blocks/answer/Shikha-Asrani"
       },
       {
         "name": "Dhruv Anand",
@@ -83,14 +59,6 @@
         "rating": "5",
         "review": "I joined Coding Blocks to strengthen my concepts of C++ and become a good coder. And it was worth the time,money and energy spent here. The content, pace of teaching and the environment is very good. Prateek Narang sir is an amazing teacher and teaches in a very fun and interactive manner.",
         "link": "https://www.facebook.com/krrritikkaaaa/posts/1483455741720842"
-      },
-      {
-        "name": "Mahima Sachdeva",
-        "course": "Crux",
-        "imgSrc": "/assets/images/reviews/pic11.jpg",
-        "rating": "5",
-        "review": "My experience at Coding Blocks was a really amazing one. Being absolutely new to programming, I was lucky to get the best introduction to programming here. The basics were taught very well and more emphasis was laid on building thought process to approach and attempt questions. Sumeet sir taught us very enthusiastically and patiently.",
-        "link": "https://www.facebook.com/permalink.php?story_fbid=305277643244172&id=100012858150928"
       },
       {
         "name": "Mohak Khatri",
@@ -131,14 +99,6 @@
         "rating": "5",
         "review": "I took Launchpad classes from Coding Blocks, Dwarka and it was an amazing experience. I learned so much about C++ and Data Structures in such a short time. The classes were very well planned. Prateek sir helped builing our concepts very nicely. Thank you Prateek sir and thank you Coding Blocks!",
         "link": "https://www.facebook.com/permalink.php?story_fbid=1951163458450466&id=100006704928650"
-      },
-      {
-        "name": "Sanket Singh",
-        "course": "Crux",
-        "imgSrc": "/assets/images/reviews/pic18.jpg",
-        "rating": "5",
-        "review": "I joined the Crux (java) course mentored by Sumeet Bhaiya. Before joining this course i was hardly able to apply any algorithm but during the course itself sumeet bhaiya cleared the concepts so well and made the logical thinking capacity so sharp that now i feel quite comfortable with coding.",
-        "link": "https://www.facebook.com/stonehrted/posts/1793566184229541"
       },
       {
         "name": "Jasleen Kaur",
@@ -257,13 +217,6 @@
         "review": "Coding blocks is the best place to learn Coding. Gained a lot of experience in practicals aspects of coding. Prateek sir is the best teacher, explained every topic very nicely. Even though Class mentors also helped us immensely with lot of patience.Recorded videos were best for understanding when we missed any topic. The management make sure that students get interest in coding. Its a wonder full experience with coding blocks."
       },
       {
-        "name": "Jasleen Saroa",
-        "course": "launchpad",
-        "imgSrc": "/assets/images/reviews/mpic8.jpg",
-        "rating": "5",
-        "review": "Earlier ,i used to fear coding. Alot of my friends told me about Coding blocks and so i joined it. I was so underconfident then , i felt it difficult to write even algorithms on the first day . But the teaching faculty in really good. Sumeet sir made sure each student completed the question and helped me building my confidence. It’s really good."
-      },
-      {
         "name": "Pradhyum Yadav",
         "course": "launchpad",
         "imgSrc": "/assets/images/reviews/mpic10.jpg",
@@ -306,13 +259,6 @@
         "review": "Coding Blocks was an amazing experience for me. I belong to the electronics department and had a little experience in coding but I think it has helped me think things through in a much more analytical manner. Coding is important no matter which branch you are in. It gives you a better understanding about how to approach a problem."
       },
       {
-        "name": "Aastha Nasa",
-        "course": "crux",
-        "imgSrc": "/assets/images/reviews/mpic7jpg",
-        "rating": "5",
-        "review": "It is the best place to learn coding if you’re a beginner.I joined Crux (Java) in Aug ‘16.Our teacher Sumeet sir paid attention to each and every student in the class to make sure everyone is clear with all the concepts. He was available for each and every student’s doubts. The course was brilliantly designed so as to cover every topic with all relevant questions . A must join for every student who’s a coding enthusiast for even a begginer and wants to develop an interest in coding"
-      },
-      {
         "name": "Ishan Ambardar",
         "course": "crux",
         "imgSrc": "/assets/images/reviews/mpic3.jpg",
@@ -325,20 +271,6 @@
         "imgSrc": "/assets/images/reviews/mpc13.jpg",
         "rating": "5",
         "review": "I am a student of Mechanical department and I had no interest in coding because I scored very bad in First year . But still, I gave it a try and fortunately because of very good teaching faculty, I got motivated and now I am deciding to pursue my career in coding. So, as per my advice, it a perfect place you can learn coding.Go for it, give it a try. You will learn a lot and you will become self confident in coding."
-      },
-      {
-        "name": "Aniruddha Chauhan",
-        "course": "crux",
-        "imgSrc": "/assets/images/reviews/janedoe.jpg",
-        "rating": "5",
-        "review": "Best place to learn coding. Before joining coding blocks I did not know a single word of Java or any data structures. Now I am pretty confident with this stuff and able to solve questions on sites like codechef, hackerrank etc.Sumeet sir made every concept so easy to understand. He literally developed my internet in coding. (Its not that I had not tried online courses orvideos. But these things don't prove to be useful for most of us)."
-      },
-      {
-        "name": "Vivek Sharma",
-        "course": "crux",
-        "imgSrc": "/assets/images/reviews/johndoe.jpg",
-        "rating": "5",
-        "review": "I was very poor in programming when I joined coding blocks ,Pitampura . And now , when even my 5 classes are remaining I am able to code and solve problems on my own . I can solve questions from online contest also from my own and most of credit for this is going to SUMEET MALIK sir who is one of the best teacher I have ever met ."
       },
       {
         "name": "Purujit Bansal",
@@ -423,13 +355,6 @@
         "imgSrc": "/assets/images/reviews/pic39.jpg",
         "rating": "5",
         "review": "The place has a beautiful (P.S. - The walls are really creative here ) coding environment . The regular assignments is not just a ‘brochure thing’ at Coding Blocks . They deliver the quality as promised . With Deepak Aggarwal as the mentor of the course , coding seemed a bit easier which was once a hell of a task. Thank You Sir. "
-      },
-      {
-        "name": "Apurv Adarsh",
-        "course": "crux",
-        "imgSrc": "/assets/images/reviews/pic40.jpg",
-        "rating": "5",
-        "review": "Sumit Bhaiya is good, no doubt about that. The amount of dedication and teaching quality is par with the best teachers I have came across. He makes sure that everyone has completed the problem before moving to the other one. He is available for doubt sessions throughout the week. Even if you don’t know coding beforehand, you will have a good grip after 3 months."
       },
       {
         "name": "Ansh Sachdeva",

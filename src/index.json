@@ -8,6 +8,19 @@
   ],
   "slides": [
 	{
+      "imgSrc": "/assets/images/cb/cover/morning-wood.jpg",
+      "imgAlt": "CASTE Result",
+      "heading": "CAST RESULTS DECLARED",
+      "content": "The results for CAST held on October 28 have been declared. Log in now with your Roll No. and Date of Birth. All the best!",
+      "button": [
+        {
+          "link": "http://students.codingblocks.com//admission_test_online/CCAST/result_letter",
+          "text": "Check Results",
+          "filled": "true"
+        }
+      ]
+    },
+	{
       "imgSrc": "/assets/images/cb/cover/adv.jpg",
       "imgAlt": "APAT Cover Image",
       "heading": "APAT December 2017",
