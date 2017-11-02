@@ -31,3 +31,11 @@
         })
     </script>
 {{/if}}
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register("{{#relativePath @file.path '/sw.js'}}{{/relativePath}}")
+                .catch(function (err) {
+                    console.log(err);
+                })
+    }
+</script>
