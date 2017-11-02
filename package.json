@@ -30,7 +30,8 @@
     "gulp-watch": "^4.3.11",
     "gulp-webserver": "^0.9.1",
     "moment": "^2.18.1",
-    "require-dir": "^0.3.2"
+    "require-dir": "^0.3.2",
+    "sw-precache": "^5.2.0"
   },
   "devDependencies": {
     "gulp-cached": "^1.1.1",

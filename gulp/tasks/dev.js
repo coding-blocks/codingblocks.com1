@@ -18,7 +18,7 @@ let hbConfig = {
         data: [config.src + '/**/*.json', config.dataSrc + '/**/*.json']
     };
 
-gulp.task('dev', ['build'], function () {
+gulp.task('dev', ['completeMigrate'], function () {
 
     //Watch Images
     watch(config.src + '/' + config.imgSrc + '/**/*.*')

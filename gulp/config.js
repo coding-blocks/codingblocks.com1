@@ -67,5 +67,8 @@ module.exports = {
         partialsSrc: src + '/' + partialsSrc,
         helpersSrc: src + '/' + helpersSrc,
         dataSrc: src + '/' + dataSrc
+    },
+    swConfig: {
+        global: dest
     }
 }
