@@ -10,7 +10,30 @@ gulp.task('build', ['completeMigrate'], function () {
         runtimeCaching: [
             {
                 urlPattern: /^https:\/\/graph\.facebook.com\//,
-                handler: 'networkFirst'
+                handler: 'networkFirst',
+                options: {
+                    cache: {
+                        name: 'events'
+                    }
+                }
+            },
+            {
+                urlPattern: /.*assets\/.*/,
+                handler: 'networkFirst',
+                options: {
+                    cache: {
+                        name: 'assets'
+                    }
+                }
+            },
+            {
+                urlPattern: /.*/,
+                handler: 'networkFirst',
+                options: {
+                    cache: {
+                        name: 'src'
+                    }
+                }
             }
         ]
     });
