@@ -128,7 +128,7 @@
     }
   ],
   "courseEnroll": {
-    "registerBoxHeading": "Batches Starting This December(First Week):",
+    "registerBoxHeading": "",
     "highlights": [
       {
         "icon": "et-line-search",

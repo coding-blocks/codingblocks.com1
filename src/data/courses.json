@@ -16,13 +16,13 @@
       ],
       "batches": [
         {
-          "slug": "Morning Batch at Pitampura"
+          "slug": "Fast Track Morning Batch at Pitampura starting December 3"
         },
         {
-          "slug": "Evening Fast Track Batch at Pitampura"
+          "slug": "Evening Batch at Pitampura starting December 3"
         },
         {
-          "slug": "Evening Batch at Dwarka"
+          "slug": "Morning Batch at Dwarka starting December 30"
         }
       ],
       "odd": true
@@ -42,10 +42,9 @@
         "300+ Problems, Hackathons"
       ],
       "batches": [
-          { "slug": "Morning Batch at Pitampura" },
-          { "slug": "Evening Batch at Pitampura" },
-          { "slug": "Morning Btach at Dwarka" },
-          { "slug": "Evening Batch  at Dwarka" }
+          { "slug": "Fast Track Evening Batch at Pitampura starting December 3" },
+          { "slug": "Morning Batch at Pitampura starting December 25" },
+          { "slug": "Evening Batch at Dwarka starting December 3" }
       ]
     },
     {
@@ -63,8 +62,8 @@
         "LIVE Project & Pitching Session"
       ],
       "batches": [
-          { "slug": "Morning Batch at Pitampura" },
-          { "slug": "Evening Batch at Dwarka" }
+          { "slug": "Morning Batch at Pitampura starting December 4" },
+          { "slug": "Evening Batch at Dwarka starting December 10" }
       ],
       "odd": true
     },
@@ -83,8 +82,8 @@
         "LIVE Project &amp; Hackathon"
       ],
       "batches": [
-          { "slug": "Evening Batch at Pitampura" },
-          { "slug": "Morning Batch at Dwarka" }
+          { "slug": "Evening batch at Pitampura starting December 3" },
+          { "slug": "Morning batch at Dwarka starting December 10" }
       ]
     },
     {
@@ -103,9 +102,8 @@
       ],
       "odd": true,
       "batches": [
-          { "slug": "Morning Batch at Pitampura" },
-          { "slug": "Evening Batch at Pitampura" },
-          { "slug": "Morning Batch at Dwarka" }
+          { "slug": "Morning batch at Pitampura starting December 4" },
+          { "slug": "Morning batch at Dwarka starting December 3" }
       ]
     },
     {
@@ -125,6 +123,36 @@
       "batches": [
           { "slug": "Morning Batch at Pitampura" }
       ]
-    }
+    },
+	{
+		"id": "07",
+		"name": "Crux For Beginners",
+		"price": "6,000",
+		"imgSrc": "/assets/images/cb/logosc/color_java.svg",
+		"imgAlt": "Crux For Beginners Course Logo",
+		"lectures": "(10 lectures)",
+		"link": "/courses/crux-for-beginners.html",
+		"description": [
+		],
+		"batches": [
+			{ "slug": "Morning batch at Pitampura starting December 5" },
+			{ "slug": "Morning batch at Dwarka starting December 4" }
+		]
+	},
+	{
+		"id": "08",
+		"name": "Launchpad For Beginners",
+		"price": "6,000",
+		"imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+		"imgAlt": "Launchpad For Beginners Course Logo",
+		"lectures": "(10 lectures)",
+		"link": "/courses/launchpad-for-beginners.html",
+		"description": [
+		],
+		"batches": [
+			{ "slug": "Evening batch at Pitampura starting December 7" },
+			{ "slug": "Evening batch at Dwarka starting December 3" }
+		]
+	}
   ]
 }
