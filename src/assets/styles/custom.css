@@ -725,3 +725,9 @@ h1 .sub-heading {
     height: 56px;
     overflow: hidden;
 }
+
+.slashed-price {
+    font-size: 30px;
+    text-decoration: line-through;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
