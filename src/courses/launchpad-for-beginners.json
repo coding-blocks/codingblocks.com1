@@ -9,12 +9,12 @@
   ],
   "openGraph": {
     "url": "https://codingblocks.com/courses/launchpad-for-beginners.html",
-    "title": "Launchpad For Beginners: Basic Programming Fundamentals in C++",
+    "title": "C++ Basic Proficiency Certification: Basic Programming Fundamentals in C++",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
     "description": "Coding Blocks is the best C++ training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Launchpad to get C++ coaching and learn C++ fundamentals."
   },
   "header": {
-    "heading": "Launchpad For Beginners",
+    "heading": "C++ Basic Proficiency Certification",
     "subHeading": "Programming Fundamentals in C++",
     "breadcrumbs": [
       {
@@ -33,7 +33,7 @@
     "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
   },
   "overview": {
-    "content": "Launchpad For Beginners is a C++ training course designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. This beginner's course will include programming fundamentals using C++.<br> C++ is known to be a very powerful language. C++ allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ is generally more performant than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products. <br><br>"
+    "content": "C++ Basic Proficiency Certification is a C++ training course designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. This beginner's course will include programming fundamentals using C++.<br> C++ is known to be a very powerful language. C++ allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ is generally more performant than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products. <br><br>"
   },
   "courseHighlights": [
     {
@@ -99,6 +99,7 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming Batches:",
+    "priceCut": "8000",
     "highlights": [
       {
         "icon": "et-line-search",
