@@ -111,6 +111,17 @@
       }
     ]
   },
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Deepak Aggarwal",
+      "Rajesh Sachdev"
+    ]
+  },
   "courseReviews": [
     "NAVDEEP SINGH",
     "SHREYA GUPTA",
