@@ -1,0 +1,126 @@
+{
+  "name": "Crux For Beginners",
+  "title": "Java Training in Delhi, Greater Noida | Crux For Beginners by Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux For Beginners - Java course for beginners."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/crux-for-beginners.html",
+    "title": "Java Basic Proficiency Certification - Foundation Course in Java",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
+    "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux For Beginners - Java course for beginners."
+  },
+  "header": {
+    "heading": "Java Basic Proficiency Certification",
+    "subHeading": "Programming Fundamentals using Java",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/covergcp.jpg"
+  },
+  "overview": {
+    "content": "Begin your career in software development with the introduction to basic Java concepts. Java, an Object Oriented Programming language is one of the most sought after programming languages and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements. Designed for beginners, Crux For Beginners is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+  },
+  "courseHighlights": [
+    {
+      "icon": "",
+      "title": "",
+      "content": ""
+    },
+    {
+      "icon": "fa fa-code",
+      "title": "Fundamentals",
+      "content": "We have designed our course keeping in mind the requirements of beginners.Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+    },
+    {
+      "icon": "et-line-puzzle",
+      "title": "Problem Solving",
+      "content": "The course is designed to sharpen the problem solving skills of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+    },
+    {
+      "icon": "",
+      "title": "",
+      "content": ""
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Logic Building",
+      "contentTitle": "Programming fundamentals and logic building",
+      "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
+      "points": [
+        "Flowcharts, pseudo-code and brain teasers",
+        "IDE installation and familiarization",
+        "Debugging",
+        "Input-Output"
+      ]
+    },
+    {
+      "title": "Java Fundamentals",
+      "contentTitle": "Java Fundamentals",
+      "description": "",
+      "points": [
+        "Data Types and Variables",
+        "Typecasting",
+        "Loops and Decision constructs",
+        "Functions and operators",
+        "Arrays, multi-dimensional arrays and dynamic arrays",
+        "String and String Buffer"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "Anybody who is interested in learning programming can take the Java training. Java is a powerful and elegant language, but still is pretty easy to learn. Also, this opens the path to enter Enterprise Java world for making powerful desktop and web applications or mobile apps using Android."
+    },
+    {
+      "ques": "I know C, should I do this course?",
+      "ans": "Yes. Absolutely. Not only will this course teach you Java, but also Object Oriented Programming which forms the base of most, if not all code running live across the globe."
+    },
+    {
+      "ques": "I know C++, should I do this course?",
+      "ans": "Depends. Knowing C++ generally means you know Object Oriented Programming well. If that is the case, you’ll be better served by learning some courses which teach you to create making mobile apps or web applications. Please check out our Pandora and Elixir course for those."
+    },
+    {
+      "ques": "Will this help me in making websites and apps?",
+      "ans": "No. This is a fundamentals course. To make websites and apps, you need to learn more. Please check out our <strong>Pandora &amp; Elixir</strong> course for those."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "Upcoming Batches:",
+    "priceCut": "8000",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "<span style='font-weight: regular'>Kickstart your career as a Software Developer by learning the basics.</span>"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "<span style='font-weight: regular'>No prior knowledge of coding required.</span>"
+      }
+    ]
+  },
+  "courseReviews": [
+    "APURV ADARSH",
+    "ANSH SACHDEVA",
+    "GAGARIN DASH",
+    "KSHITIJ BANSAL"
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=67"
+}
