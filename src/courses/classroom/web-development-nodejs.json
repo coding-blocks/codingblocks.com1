@@ -161,6 +161,18 @@
       }
     ]
   },
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Arnav Gupta",
+      "Aayush Arora",
+      "Harpreet Singh"
+    ]
+  },
   "courseReviews": [
     "RISHABH MENDIRATTA",
     "SHIVAM GANDHI",

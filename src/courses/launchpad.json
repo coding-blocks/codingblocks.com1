@@ -170,6 +170,19 @@
       }
     ]
   },
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang",
+      "Deepak Aggarwal",
+      "Rajesh Sachdev",
+      "Nipun Jain"
+    ]
+  },
   "courseReviews": [
     "NAVDEEP SINGH",
     "SHREYA GUPTA",
