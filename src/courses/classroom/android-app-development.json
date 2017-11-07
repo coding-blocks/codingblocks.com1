@@ -152,6 +152,18 @@
       }
     ]
   },
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Arnav Gupta",
+      "Harshit Dwivedi",
+      "Nipun Jain"
+    ]
+  },
   "courseReviews": [
     "GURLEEN KAILEY",
     "KARAN BALANI",
