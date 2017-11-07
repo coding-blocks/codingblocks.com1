@@ -9,12 +9,12 @@
   ],
   "openGraph": {
     "url": "https://codingblocks.com/courses/crux-for-beginners.html",
-    "title": "Crux For Beginners - Foundation Course in Java",
+    "title": "Java Basic Proficiency Certification - Foundation Course in Java",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
     "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux For Beginners - Java course for beginners."
   },
   "header": {
-    "heading": "Crux For Beginners",
+    "heading": "Java Basic Proficiency Certification",
     "subHeading": "Programming Fundamentals using Java",
     "breadcrumbs": [
       {
@@ -104,6 +104,7 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming Batches:",
+    "priceCut": "8000",
     "highlights": [
       {
         "icon": "et-line-search",

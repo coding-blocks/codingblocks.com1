@@ -1,0 +1,40 @@
+<div class="pricing-table pt-1 text-center emphasis">
+<h5 class="uppercase">
+	{{#if registerBoxHeading}}
+		{{{registerBoxHeading}}}
+	{{else}} {{#if priceCut}}
+			<span class="slashed-price"> ₹{{{priceCut}}} </span>
+	{{else}}
+		Regular Batch
+	{{/if}} {{/if}}
+</h5>
+{{#if price}}
+	<span class="price">₹{{{price}}}</span>
+	<p class="lead">{{{lectures}}}</p>
+{{else}}
+	{{#each @root.coursesList}}
+		{{#ifEquals name @root.name}}
+			<span class="price">₹{{{price}}}</span>
+			<p class="lead">{{{lectures}}}</p>
+		{{/ifEquals}}
+	{{/each}}
+	{{#each @root.bootcampsList}}
+		{{#ifEquals name @root.name}}
+			<span class="price">₹{{{price}}}</span>
+			<p class="lead">{{{lectures}}}</p>
+		{{/ifEquals}}
+	{{/each}}
+{{/if}}
+{{#if registerButton}}
+	{{#with registerButton}}
+		<a class="btn btn-white btn-lg" href="#register"
+			{{#ifEquals disabled true}}disabled{{/ifEquals}}>{{{buttonText}}}</a>
+		{{/with}}
+	{{else}}
+		<a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+	{{/if}}
+	<p>
+		<a href="/contactus">Contact Us</a>
+		<br>Call(Toll-free): 1800-2744-504
+	</p>
+</div>
