@@ -1,0 +1,127 @@
+{
+  "name": "Certified Python Developer",
+  "title": "Python Training in Delhi, Greater Noida, Amritsar & Jalandhar | Certified Python Developer by Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best Python training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Certified Python Developer to get Python coaching and learn Python fundamentals."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/certified-python-developer.html",
+    "title": "Certified Python Developer",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "Coding Blocks is the best Python training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Certified Python Developer to get Python coaching and learn Python fundamentals."
+  },
+  "header": {
+    "heading": "Certified Python Developer",
+    "subHeading": "Basic Web Dev & Machine Learning",
+    "breadcrumbs": [
+      {
+        "linkText": "Course Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "overview": {
+	"content": "The Certified Python Developer program is a brand new program by COding Blocks which will deal with basic web development and machine learning concepts using Python.<br/> Python is slowly but surely becoming the language of choice for developers. What a lot of people like is that you can follow an Object Oriented paradigm, butdo some functional programming as well. Python is well known to have a package for everything, and these packages are very well documented too, which helps. Other advantages with Python are easy deployment, convenient database work and straightforwad synchronization. Unlike other languages, you can just focus on the problem and implement it without having to fuss with syntax or intricate ways of making things work. So dive into this enjoyable language and make life easy for yourself.",
+	"buttonText": "Registration Starting Soon",
+	"buttonDisabled": true
+  },
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Basics of Python",
+      "contentTitle": "Basics of Python",
+      "description": "Course will start with basic understanding of Python.",
+      "lectures": "",
+      "points": [
+        "Why Python? (A gentle introduction)",
+        "Basis syntax, operators and expressions, control flow",
+        "Functions, modules",
+        "Data containers",
+        "Object oriented programming"
+      ]
+    },
+    {
+      "title": "Intermediate Python",
+      "contentTitle": "Intermediate Python",
+      "description": "",
+      "lectures": "",
+      "points": [
+        "Overview of common python modules(os, sys, time, random, collections, etc)",
+        "Lambda, map, reduce, reduce, filter in Python",
+        "Working with files in Python (General I/O + xml/csv/pdf/zip/json files)",
+        "CLI programming using Python",
+        "Multithreading and multiprocessing in Python",
+        "Virtual environment in Python",
+        "Introduction to desktop GUI development using Python"
+      ]
+    },
+    {
+      "title": "Python for Web",
+      "contentTitle": "Python for Web",
+      "description": "",
+      "lectures": "",
+      "points": [
+        "Interacting with web APIs",
+        "downloading large content from web",
+        "Web Scraping",
+        "Web Crawling",
+        "Web Automation using Python"
+      ]
+    },
+    {
+      "title": "Messenger Chatbot development using Python",
+      "contentTitle": "Messenger Chatbot development using Python",
+      "description": "",
+      "lectures": "",
+      "points": [
+        "Creating facebook app",
+        "Setting up python project for chatbot",
+        "Concept of webhook",
+        "Integrating api.ai",
+        "Exploring FB messenger templates",
+        "MongoDB integration",
+        "Heroku deployment"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "Budding developers who want to employ the use of Python to learn web development and machine learning can enroll for this course."
+    },
+    {
+      "ques": "I have never studied programming earlier, can I do this course?",
+      "ans": "Yes you will be taught the basics of programming as well as basics of Python in the beginning so you can join even with no prior experience."
+    },
+    {
+      "ques": "Can I get into Machine Learning after this course?",
+      "ans": "Yes you will be taught Machine Learning basics using this course, which you can use to go on to learn a lot more and excel in the field of Machine Learning."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": " ",
+	"priceCut": "10,000",
+	"price": "8,000",
+    "highlights": [
+    ],
+	"registerButton": {
+		"disabled": true,
+		"buttonText": "Registration Starting Soon"
+	}
+  },
+  "courseReviews": [
+	  "Kartik Aggarwal",
+	  "Ishpreet Singh",
+	  "Anshul Garg",
+	  "Shivanshu Chaudhary"
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=60"
+}
