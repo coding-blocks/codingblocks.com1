@@ -1,0 +1,56 @@
+{
+  "name": "Competitive Programming",
+  "title": "Competitive Programming | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best Python training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Certified Python Developer to get Python coaching and learn Python fundamentals."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/competitiveprogramming.html",
+    "title": "Competitive Programming",
+    "image": "https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-9/18010116_1882476711970663_3462392790741446665_n.jpg?oh=7362f63db69c92e628877fd4908fe783&oe=599ACE4B",
+    "description": "HHone your Competitive Programming skills by attending the Competitive Programming Course. Learn new concepts by solving over 150 complex problems of varying difficulty level and brighten up you chances of getting selected in APAC and ACM-ICPC.one your Competitive Programming skills by attending the Competitive Programming Course. Learn new concepts by solving over 150 complex problems of varying difficulty level and brighten up you chances of getting selected in APAC and ACM-ICPC."
+  },
+  "header": {
+    "heading": "Competitive Programming",
+    "subHeading": "Competitive Programming",
+    "breadcrumbs": [
+      {
+        "linkText": "Course Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "courseEnroll": {
+    "upcomingBatches": "Batches Starting December 3",
+	"price": "12,000",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "Hacker Blocks Contests"
+      }
+    ],
+	"registerButton": {
+		"disabled": false,
+		"buttonText": "Register Now"
+	}
+  },
+  "courseReviews": [
+    "SHIKHAR PAHADIA",
+    "DIVYANK KAROLIA",
+    "PIYUSH GANDHI",
+    "AARUSH JUNEJA"
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=68"
+}
