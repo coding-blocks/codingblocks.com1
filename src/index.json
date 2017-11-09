@@ -43,32 +43,6 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/cover10.jpg",
-      "imgAlt": "Elixir LIVE Course",
-      "heading": "PRESENTING ELIXIR LIVE!",
-      "content": "Coding Blocks brings to you the online edition of Elixir, our renowned course on Web Development with Node.Js. <br />Now live!",
-      "button": [
-        {
-          "link": "https://codingblocks.com/courses/online/web-development-nodejs.html",
-          "text": "Details & Registration",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cc cover.jpg",
-      "imgAlt": "Competitive Programming Online",
-      "heading": "Competitive Programming Online",
-      "content": "Master Competitive Programming with our new Online class. Did we mention it comes with a kickass handbook?",
-      "button": [
-        {
-          "link": "https://codingblocks.com/bootcamps/competitiveprogonline.html#register",
-          "text": "Register Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "/assets/images/cb/cover/tuts.jpg",
       "imgAlt": "Learn from Coding Blocks resources",
       "heading": "Learn from Coding Blocks resources",
