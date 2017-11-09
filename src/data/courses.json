@@ -153,6 +153,19 @@
 			{ "slug": "Evening batch at Pitampura starting December 7" },
 			{ "slug": "Evening batch at Dwarka starting December 3" }
 		]
+	},
+	{
+		"id": "09",
+		"name": "Certified Python Developer",
+		"price": "12,000",
+		"imgSrc": "/assets/images/cb/logosc/color_python.svg",
+		"imgAlt": "Certified Python Developer Logo",
+		"lectures": "(10 lectures)",
+		"link": "/courses/certified-python-developer.html",
+		"description": [
+		],
+		"batches": [
+		]
 	}
   ]
 }
