@@ -1,0 +1,71 @@
+{
+  "name": "Java Web Apps",
+  "title": "Java Web Apps Development Bootcamp | Coding Blocks",
+  "metas": [
+    {
+      "name": "desciption",
+      "content": "show"
+    }
+  ],
+  "header": {
+    "bgSrc": "../assets/images/cb/cover/covergcp.jpg",
+	"heading": "Java Web Apps Development Bootcamp",
+	"subHeading": "Learn to build Web Apps and services with Java"
+  },
+  "overview": {
+	"content": "This is world of cloud infrastructure and scalability and nobody knows it better than Java. With cloud come need of webservices and apis. And hence this awesome bootcamp of learning to develop webapp and apis with Spring Boot.<br><br><strong>CONTENTS:</strong><ul><li>RESTful web services using Spring Boot</li><li>Multithreading with CompletableFuture</li><li>Desktop Apps using JavaFX</li><li>Basic FB messenger echo bot</li><li>Database integration</li><li>Api deployment on Heroku</li><ul>",
+    "buttonText": "Get Tickets"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "Build Management Tools",
+      "content": "In this bootcamp you will learn to automate use build tools like gradle to manage dependency and build on your behalf. "
+    },
+    {
+      "icon": "pe-7s-download",
+      "title": "REST API Development",
+      "content": "Every service in age on cloud infrastructure is developed on base or web api or sepecifially speaking REST api. You gonna develop your own now"
+    },
+    {
+      "icon": "et-line-speedometer",
+      "title": "Desktop app with JavaFX",
+      "content": "Desktop app market is not gone as it may seem. And nothing may be more satisfying than making native looking apps with JavaFX"
+    },
+    {
+      "icon": "pe-7s-network",
+      "title": "Heroku Deployment",
+      "content": "You will also learn to deploy your finished web apps and apis to the Heroku infrastructure."
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this bootcamp?",
+      "ans": "Any one who wants to build cool web apps and web services with Java."
+    },
+    {
+      "ques": "Will this bootcamp help if I already know Java?",
+      "ans": "Yes, absolutely. The course requires a basic knowledge of Java. More advanced topics will be covered in the bootcamp."
+    },
+    {
+      "ques": "What are the pre-requisites for this bootcamp?",
+      "ans": "Basic knowledge of Java: Syntax, Loops, Classes, Inheritance, etc."
+    },
+    {
+      "ques": "Can I build my own apis after this bootcamp?",
+      "ans": "Most definitely. We give you all the tools necessary to get started on your own projects."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": " ",
+  "priceCut": "6,000",
+  "price": "5,000",
+    "highlights": [
+    ],
+  "registerButton": {
+    "disabled": false,
+    "buttonText": "Register Now"
+  }
+  },
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=71"
+}
