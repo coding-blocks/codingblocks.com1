@@ -152,6 +152,7 @@
     }
   ],
   "courseEnroll": {
+    "upcomingBatches": "Upcoming <strong>Weekend</strong> Batch",
     "highlights": [
       {
         "icon": "et-line-search",
