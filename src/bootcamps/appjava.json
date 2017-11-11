@@ -1,6 +1,6 @@
 {
-  "name": "Java Web Apps",
-  "title": "Java Web Apps Development Bootcamp | Coding Blocks",
+  "name": "Java Apps",
+  "title": "Java App Development Bootcamp | Coding Blocks",
   "metas": [
     {
       "name": "desciption",
@@ -9,33 +9,33 @@
   ],
   "header": {
     "bgSrc": "../assets/images/cb/cover/covergcp.jpg",
-	"heading": "Java Web Apps Development Bootcamp",
-	"subHeading": "Learn to build Web Apps and services with Java"
+	"heading": "Java App Development",
+	"subHeading": "Build Web Apps and services with Java"
   },
   "overview": {
-	"content": "This is world of cloud infrastructure and scalability and nobody knows it better than Java. With cloud come need of webservices and apis. And hence this awesome bootcamp of learning to develop webapp and apis with Spring Boot.<br><br><strong>CONTENTS:</strong><ul><li>RESTful web services using Spring Boot</li><li>Multithreading with CompletableFuture</li><li>Desktop Apps using JavaFX</li><li>Basic FB messenger echo bot</li><li>Database integration</li><li>Api deployment on Heroku</li><ul>",
+	"content": "Learn to develop high-performance, scalable applications on top of the battle-tested Java Virtual Machine. You will build platform independent Web Applications backed by robust APIs that leverage the full power of today's cloud infrastructure.<br /><br /> <strong>Contents</strong><br />Java Language Syntax and OOP revision<br /> Multithreading in Java<br /> Introduction to Gradle<br /> Desktop Apps using JavaFX<br /> Java Web Servers with Spring Boot<br /> Building REST APIs with Spring Boot<br /> SQL Databases using JDBC and Hibernate<br />",
     "buttonText": "Get Tickets"
   },
   "courseHighlights": [
     {
       "icon": "et-line-edit",
-      "title": "Build Management Tools",
-      "content": "In this bootcamp you will learn to automate use build tools like gradle to manage dependency and build on your behalf. "
+      "title": "Project Build Tools",
+      "content": "In this bootcamp you will learn to automate using build tools like Gradle to manage dependency and build on your behalf. "
     },
     {
       "icon": "pe-7s-download",
       "title": "REST API Development",
-      "content": "Every service in age on cloud infrastructure is developed on base or web api or sepecifially speaking REST api. You gonna develop your own now"
+      "content": "Every service in the cloud infrastructure age is backed by REST APIs, which you shall learn to develop on your own in this course."
     },
     {
       "icon": "et-line-speedometer",
-      "title": "Desktop app with JavaFX",
-      "content": "Desktop app market is not gone as it may seem. And nothing may be more satisfying than making native looking apps with JavaFX"
+      "title": "Desktop Apps with JavaFX",
+      "content": "High performance, native desktop applications are still very much in demand. You will learn to build snappy, cross platform experiences using the JavaFX toolkit."
     },
     {
       "icon": "pe-7s-network",
       "title": "Heroku Deployment",
-      "content": "You will also learn to deploy your finished web apps and apis to the Heroku infrastructure."
+      "content": "You will also learn to deploy your finished Applications to the Heroku cloud."
     }
   ],
   "faqs": [
@@ -52,20 +52,20 @@
       "ans": "Basic knowledge of Java: Syntax, Loops, Classes, Inheritance, etc."
     },
     {
-      "ques": "Can I build my own apis after this bootcamp?",
+      "ques": "Can I build my own APIs after this bootcamp?",
       "ans": "Most definitely. We give you all the tools necessary to get started on your own projects."
     }
   ],
   "courseEnroll": {
-    "upcomingBatches": " ",
-  "priceCut": "6,000",
-  "price": "5,000",
-    "highlights": [
-    ],
-  "registerButton": {
-    "disabled": false,
-    "buttonText": "Register Now"
-  }
+	  "upcomingBatches": "Batches Starting Soon at Dwarka",
+	  "priceCut": "6,000",
+	  "price": "5,000",
+	  "highlights": [
+	  ],
+	  "registerButton": {
+		  "disabled": false,
+		  "buttonText": "Register Now"
+	  }
   },
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=71"
 }
