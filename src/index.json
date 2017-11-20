@@ -7,20 +7,19 @@
     }
   ],
   "slides": [
-	{
-      "imgSrc": "/assets/images/cb/cover/adv.jpg",
-      "imgAlt": "APAT Cover Image",
-      "heading": "APAT December 2017",
-      "content": "Advanced Programs Admission (and Scholarship) Test",
+    {
+      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
+      "imgAlt": "coders admission open c++, java, android, web development",
+      "heading": "Admissions Open for December Batches",
+      "content": "Come fall in love with coding this winter at Coding Blocks. Enroll Now!<br />",
       "button": [
         {
-          "link": "https://codingblocks.com/apat.html",
-          "text": "Know More",
-          "filled": "true"
+          "link": "/courses/",
+          "text": "View Courses"
         },
         {
-          "link": "https://codingblocks.com/apat.html#apat-registration-form",
-          "text": "Register Now",
+          "link": "/signup",
+          "text": "Sign Up",
           "filled": "true"
         }
       ]
@@ -39,23 +38,6 @@
         {
           "link": "/courses/crux-for-beginners.html",
           "text": "Register for Java Course",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
-      "imgAlt": "coders admission open c++, java, android, web development",
-      "heading": "Come fall in love with coding <br>this winter!<br>",
-      "content": "<br>Admissions Open for December Batches Across All Courses",
-      "button": [
-        {
-          "link": "/courses/",
-          "text": "View Courses"
-        },
-        {
-          "link": "/signup",
-          "text": "Sign Up",
           "filled": "true"
         }
       ]
