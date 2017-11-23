@@ -40,13 +40,7 @@
     "isFilled": true
   },
   "coursesSection": {
-    "coursesList": [
-      "Launchpad",
-      "Crux",
-      "Pandora",
-      "Elixir",
-      "Algo++"
-    ]
+    "coursesList": []
   },
   "teamCentre": {
     "heading": "team",
