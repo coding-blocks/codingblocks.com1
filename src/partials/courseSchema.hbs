@@ -52,7 +52,7 @@
     {{/with}}
   },
   {{#each coursesList}}
-    {{#ifEquals this.name @root.name}}
+    {{#ifEquals this.id @root.id}}
    "image": "https://codingblocks.com{{imgSrc}}",
   "offers": {
     "@type": "Offer",
@@ -65,7 +65,7 @@
     {{/ifEquals}}
 {{/each}}
     {{#each bootcampsList}}
-        {{#ifEquals this.name @root.name}}
+        {{#ifEquals this.id @root.id}}
    "image": "https://codingblocks.com{{imgSrc}}",
   "offers": {
     "@type": "Offer",

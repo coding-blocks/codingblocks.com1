@@ -14,7 +14,7 @@
 						{{/if}}
 
 						{{#each @root.coursesList}}
-							{{#ifEquals name @root.name}}
+							{{#ifEquals id @root.id}}
 								<ul class="course-list">
 									{{#each batches}}
 										<li>
@@ -32,7 +32,7 @@
 						{{/each}}
 
 						{{#each @root.bootcampsList}}
-							{{#ifEquals name @root.name}}
+							{{#ifEquals id @root.id}}
 								<ul class="batch-list">
 									{{#each batches}}
 										<li>

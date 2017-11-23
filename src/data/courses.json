@@ -1,7 +1,7 @@
 {
   "coursesList": [
     {
-      "id": "01",
+      "id": "course01",
       "name": "Launchpad",
       "price": "17,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
@@ -28,7 +28,7 @@
       "odd": true
     },
     {
-      "id": "02",
+      "id": "course02",
       "name": "Crux",
       "price": "17,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "id": "03",
+      "id": "course03",
       "name": "Android App Development",
       "price": "20,000",
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
@@ -68,7 +68,7 @@
       "odd": true
     },
     {
-      "id": "04",
+      "id": "course04",
       "name": "NodeJS Web Development",
       "price": "20,000",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "id": "05",
+      "id": "course05",
       "name": "Algo++",
       "price": "12,000",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "id": "06",
+      "id": "course06",
       "name": "Perceptron",
       "price": "22,000",
       "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
@@ -125,7 +125,7 @@
       ]
     },
 	{
-		"id": "07",
+		"id": "course07",
 		"name": "Crux For Beginners",
 		"price": "6,000",
 		"imgSrc": "/assets/images/cb/logosc/color_java.svg",
@@ -140,7 +140,7 @@
 		]
 	},
 	{
-		"id": "08",
+		"id": "course08",
 		"name": "Launchpad For Beginners",
 		"price": "6,000",
 		"imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
@@ -155,7 +155,7 @@
 		]
 	},
 	{
-		"id": "09",
+		"id": "course09",
 		"name": "Certified Python Developer",
 		"price": "10,000",
 		"imgSrc": "/assets/images/cb/logosc/color_python.svg",

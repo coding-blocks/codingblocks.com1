@@ -19,7 +19,7 @@
                 {{else}}
                     {{#each coursesList}}
                         {{#each @root.coursesList}}
-                            {{#ifEquals this.name ../this}}
+                            {{#ifEquals this.id ../this}}
                                 {{> course}}
                             {{/ifEquals}}
                         {{/each}}
