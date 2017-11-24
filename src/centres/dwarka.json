@@ -41,11 +41,11 @@
   },
   "coursesSection": {
     "coursesList": [
-      "Launchpad",
-      "Crux",
-      "Pandora",
-      "Elixir",
-      "Algo++"
+      "course01",
+      "course02",
+      "course03",
+      "course04",
+      "course05"
     ]
   },
   "teamCentre": {

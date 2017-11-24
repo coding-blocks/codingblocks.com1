@@ -13,13 +13,13 @@
 	<p class="lead">{{{lectures}}}</p>
 {{else}}
 	{{#each @root.coursesList}}
-		{{#ifEquals name @root.name}}
+		{{#ifEquals id @root.id}}
 			<span class="price">₹{{{price}}}</span>
 			<p class="lead">{{{lectures}}}</p>
 		{{/ifEquals}}
 	{{/each}}
 	{{#each @root.bootcampsList}}
-		{{#ifEquals name @root.name}}
+		{{#ifEquals id @root.id}}
 			<span class="price">₹{{{price}}}</span>
 			<p class="lead">{{{lectures}}}</p>
 		{{/ifEquals}}

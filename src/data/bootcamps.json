@@ -1,7 +1,7 @@
 {
   "bootcampsList": [
     {
-      "id": "07",
+      "id": "bootcamp01",
       "name": "Competitive programming",
       "price": "6,000",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
@@ -17,7 +17,7 @@
       "odd": true
     },
     {
-      "id": "08",
+      "id": "bootcamp02",
       "name": "Interview Preparation",
       "price": "5,000",
       "imgSrc": "/assets/images/cb/r_final.png",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": "09",
+      "id": "bootcamp03",
       "name": "Game Development",
       "price": "5,000",
       "imgSrc": "/assets/images/cb/logosc/color_game.svg",
@@ -49,7 +49,7 @@
       "odd": true
     },
     {
-      "id": "10",
+      "id": "bootcamp04",
       "name": "ChatBots and automation",
       "price": "5,000",
       "imgSrc": "/assets/images/cb/logosc/color_chatbots.svg",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": "11",
+      "id": "bootcamp05",
       "name": "Machine<br/>Learning",
       "price": "5,000",
       "imgSrc": "/assets/images/cb/logosc/color_ml2.svg",
@@ -82,7 +82,7 @@
       "odd": true
     },
     {
-      "id": "12",
+      "id": "bootcamp06",
       "name": "ReactJS<br/>Bootcamp",
       "price": "5,000",
       "imgSrc": "/assets/images/cb/logosc/color_react.svg",
