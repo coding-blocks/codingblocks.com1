@@ -62,7 +62,7 @@
         "LIVE Project & Pitching Session"
       ],
       "batches": [
-          { "slug": "Morning Batch at Pitampura starting December 4" },
+          { "slug": "Morning Batch at Pitampura starting December 9" },
           { "slug": "Evening Batch at Dwarka starting December 10" }
       ],
       "odd": true
@@ -82,7 +82,7 @@
         "LIVE Project &amp; Hackathon"
       ],
       "batches": [
-          { "slug": "Evening batch at Pitampura starting December 3" },
+          { "slug": "Evening batch at Pitampura starting December 9" },
           { "slug": "Morning batch at Dwarka starting December 10" }
       ]
     },
@@ -121,7 +121,7 @@
         "3 Live Projects &amp; Hackathon"
       ],
       "batches": [
-          { "slug": "Morning Batch at Pitampura starting December 10" }
+          { "slug": "Morning Batch at Pitampura starting December 17" }
       ]
     },
 	{
