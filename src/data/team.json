@@ -180,6 +180,10 @@
     {
       "name": "Naman Kumar",
       "imgSrc": "/assets/images/cb/team/Naman.jpg"
+    },
+    {
+    	"name": "Rishabh Khanna",
+        "imgSrc": "/assets/images/cb/team/Rishabh.jpg"
     }
   ]
 }
