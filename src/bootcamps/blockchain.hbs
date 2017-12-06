@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    {{> courseSchema}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    {{> header}}
+    {{> overview}}
+    <section class="bg-secondary">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb16">KNOW YOUR MENTOR</h4>
+                <!--<p class="lead mb64">-->
+                <!--Write something about the team-->
+                <!--</p>-->
+                <br><br>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="col-md-offset-2 col-md-2 col-sm-12">
+                    <img alt="Ankit Mugshot" src="../assets/images/cb/team/wankit.jpg" opacity="0.7" class="img-circle">
+                </div>
+                <div class="col-sm-12 col-md-offset-1 col-md-5">
+                    <p class="mb0" align="justify-content">
+						<strong>Ankit Malik</strong> is our in-house expert on blockchain. A graduate from <strong>IIT Delhi</strong>, Ankit is passionate about web application design and web programming. He worked at<strong> Facebook</strong>, Barclays and World Quant before starting up on his own. He co-founded a technology consultancy firm and has over three years of experience with building data-intensive web solutions for US based pharma firms. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION: Testimonials -->
+    <a id="course-testimonials" class="in-page-link"></a>
+    <section class="bg-secondary">
+        <div id="register">
+			{{> registration}}
+        </div>
+    </section>
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>
