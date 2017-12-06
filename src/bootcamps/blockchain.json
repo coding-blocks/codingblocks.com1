@@ -1,0 +1,24 @@
+{
+  "name": "Blockchain",
+  "title": "Blockchain Bootcamp | Coding Blocks",
+  "metas": [
+    {
+      "name": "desciption",
+      "content": ""
+    }
+  ],
+  "header": {
+    "bgSrc": "../assets/images/cb/cover/covergcp.jpg",
+	"heading": "Blockchain Bootcamp",
+	"subHeading": "Blockchain and Cryptocurrency insights"
+  },
+  "overview": {
+    "content": "The Harvard Business Review defines a blockchain as \"an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way.\" In general terms, a blockchain is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Concepts of blockchain are what actually drive our Bitcoins, Ethereum and other cryptocurrencies. With the security of transactions getting increasingly sloppy, and more and more people going the 'crypto' way,  cryptocurrencies are here to stay. The concepts of blockchain will surely help one become an expert in the field, which is sure to see a huge boom soon.<br><br> <strong>Coding Blocks</strong> brings to you, for the first time, a two-day bootcamp on the concepts of Blockchain. The bootcamp will cover the basics of currency all the way to the most advanced topics of the science behind transactions and wallets. The bootcamp will be held on <strong>December 16 and 17</strong>.<br><br><strong>CONTENTS</strong><br><br> A Brief History of Money, Centralised Currencies<br> What Is A Decentralised Currency - An Introduction to Bitcoin<br> What Is A Blockchain?<br>  Deep Dive Into Blockchain - the technology powering Bitcoin<br> Understanding Bitcoin Transactions, Bitcoin Wallets and Blockexplorer",
+    "buttonText": "Get Tickets"
+  },
+  "courseHighlights": [
+  ],
+  "faqs": [
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=87"
+}
