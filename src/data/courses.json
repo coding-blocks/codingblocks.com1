@@ -3,10 +3,10 @@
     {
       "id": "course01",
       "name": "Launchpad",
-      "price": "17,000",
+      "price": "12,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "C++ course logo",
-      "lectures": "(24-26 lectures)",
+      "lectures": "(12-15 lectures)",
       "link": "/courses/launchpad.html",
       "description": [
         "Programming Fundamentals, OOPS",
@@ -16,13 +16,7 @@
       ],
       "batches": [
         {
-          "slug": "Fast Track Morning Batch at Pitampura starting December 3"
-        },
-        {
-          "slug": "Evening Batch at Pitampura starting December 30"
-        },
-        {
-          "slug": "Morning Batch at Dwarka starting December 30"
+          "slug": "Weekend batches starting this January. Details to be announced soon "
         }
       ],
       "odd": true
@@ -142,16 +136,15 @@
 	{
 		"id": "course08",
 		"name": "Launchpad For Beginners",
-		"price": "6,000",
+		"price": "8,000",
 		"imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
 		"imgAlt": "Launchpad For Beginners Course Logo",
-		"lectures": "(10 lectures)",
+		"lectures": "(8-10 lectures)",
 		"link": "/courses/launchpad-for-beginners.html",
 		"description": [
 		],
 		"batches": [
-			{ "slug": "Evening batch at Pitampura starting December 7" },
-			{ "slug": "Evening batch at Dwarka starting December 3" }
+			{ "slug": "Weekend batches starting this January. Details to be announced soon." }
 		]
 	},
 	{

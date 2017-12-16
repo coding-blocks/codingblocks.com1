@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{{title}}</title>
+		{{> meta}}
+		{{> head}}
+		{{> courseSchema}}
+	</head>
+	<body class="scroll-assist">
+		{{> navbar}}
+		<div class="main-container">
+			{{> header}}
+			{{> overview}}
+			{{> coursehighlights}}
+			{{> coursecontents}}
+			{{> coursefaq}}
+			{{> courseenroll}}
+			{{> registration}}
+			{{> team team=mentors}}
+			{{> review-course-section}}
+			{{> map}}
+			{{> footer}}
+		</div>
+		{{> scripts}}
+		<style>
+			#page-header h1 {
+				font-size: 4rem;
+				line-height: 5rem;
+				letter-spacing: unset;
+			}
+		</style>
+	</body>
+</html>
