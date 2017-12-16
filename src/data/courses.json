@@ -3,10 +3,10 @@
     {
       "id": "course01",
       "name": "Launchpad",
-      "price": "12,000",
+      "price": "17,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "C++ course logo",
-      "lectures": "(12-15 lectures)",
+      "lectures": "(24 lectures)",
       "link": "/courses/launchpad.html",
       "description": [
         "Programming Fundamentals, OOPS",
