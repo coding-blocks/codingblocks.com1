@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    <style>
+        .non-label {
+            font-weight: 400 !important;
+        }
+    </style>
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <section>
+        <div class="col-sm-12 text-center">
+            <h4 class="uppercase mb16">Request A Workshop</h4>
+            <p class="lead mb64">
+                Get Coding Blocks to conduct a workshop at your college.
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+                  <form id="message-form" class="form-email"
+                        data-success="Thanks for your submission, we will be in touch shortly."
+                        data-error="Please fill all fields correctly.">
+                        <legend>Personal Details:</legend>
+                        <input type="text" class="validate-required" name="name" placeholder="Your Name">
+
+                        <input type="text" class="validate-required validate-tel" name="contactnumber"
+                               placeholder="Contact Number" maxlength="10">
+                        <input type="text" class="validate-required validate-email" name="emailid"
+                               placeholder="Email Address">
+
+                        <input type="text" class="validate-required" name="college"
+                               placeholder="College Name">
+                        <legend>Associated with a College society?</legend>
+                          <input type="text" class="validate-required" name="society" placeholder="If Yes then which. Provide FB page link">
+
+                        <legend>Workshop Information</legend>
+                          <input type="text" class="validate-required" name="workshopname" placeholder="Preferred Topic of Workshop">
+                          <input type="text" class="validate-required" name="workshopdate" placeholder="Preferred Date of Workshop">
+                          <input type="text" class="validate-required" name="footfall"
+                                 placeholder="Approximate Footfall Expected" maxlength="5">
+                          <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>
