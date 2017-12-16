@@ -43,7 +43,7 @@
       ],
       "batches": [
           { "slug": "Fast Track Evening Batch at Pitampura starting December 3" },
-          { "slug": "Morning Batch at Pitampura starting December 25" },
+          { "slug": "Evening Batch at Pitampura starting December 25" },
           { "slug": "Evening Batch at Dwarka starting December 3" }
       ]
     },
@@ -121,7 +121,7 @@
         "3 Live Projects &amp; Hackathon"
       ],
       "batches": [
-          { "slug": "Evening Batch at Pitampura starting December 17" }
+          { "slug": "Morning Batch at Pitampura starting December 17" }
       ]
     },
 	{
@@ -165,7 +165,7 @@
 		"description": [
 		],
 		"batches": [
-          { "slug": "<strong>Regular Batch at Pitampura starting December 10</strong>" }
+          { "slug": "<strong>Regular Morning Batch at Pitampura starting December 17</strong>" }
 		]
 	}
   ]
