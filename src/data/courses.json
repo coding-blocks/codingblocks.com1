@@ -16,7 +16,8 @@
       ],
       "batches": [
         {
-          "slug": "Weekend batches starting this January. Details to be announced soon "
+          "slug": "Weekend Batch at Pitampura starting December 30 (Evening)",
+          "slug": "Weekend Batch at Dwarka starting December 30 (Morning)"
         }
       ],
       "odd": true
@@ -38,7 +39,7 @@
       "batches": [
           { "slug": "Fast Track Evening Batch at Pitampura starting December 3" },
           { "slug": "Evening Batch at Pitampura starting December 25" },
-          { "slug": "Evening Batch at Dwarka starting December 3" }
+          { "slug": "Evening Batch at Dwarka starting December 18" }
       ]
     },
     {
