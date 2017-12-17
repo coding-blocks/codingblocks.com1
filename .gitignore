@@ -4,3 +4,4 @@ dist
 .tmp
 yarn.lock
 /**/.DS_Storenpm-debug.log
+/**/.DS_Store
