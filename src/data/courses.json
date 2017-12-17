@@ -160,6 +160,20 @@
 		"batches": [
           { "slug": "<strong>Regular Evening Batch at Pitampura starting December 17</strong>" }
 		]
+	},
+	{
+		"id": "course10",
+		"name": "Data Structures and Algorithms Using C++",
+		"price": "12,000",
+		"imgSrc": "/assets/images/cb/logosc/color_python.svg",
+		"imgAlt": "Certified Python Developer Logo",
+		"lectures": "(12-15 lectures)",
+		"link": "/courses/certified-python-developer.html",
+		"description": [
+		],
+		"batches": [
+          { "slug": "<strong>Regular Evening Batch at Pitampura starting December 17</strong>" }
+		]
 	}
   ]
 }
