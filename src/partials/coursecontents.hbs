@@ -2,43 +2,24 @@
 <a id="contents" class="in-page-link"></a>
 <section {{#if dark}}class="bg-dark"{{/if}}>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="uppercase mb120 text-center color-primary">Course Contents</h2>
-                <div class="tabbed-content button-tabs vertical">
-                    <ul class="tabs">
-                        {{#each courseContents}}
-                            <li {{#if active}}class="active"{{/if}}>
-                                <div class="tab-title bg-secondary">
-                                    <h3 class="mb0"><span class="sad">{{{title}}}</span></h3>
-                                </div>
-                                <div class="tab-content">
-                                    <h4 class="uppercase"><span class="sad"><strong>{{{contentTitle}}}</strong></span>
-                                    </h4>
-                                    <hr>
-                                    {{#if description}}
-                                        <p>
-                                            {{{description}}}
-                                        </p>
-                                    {{/if}}
-                                    {{#if lectures}}
-                                        <p>
-                                            <strong>{{{lectures}}}</strong><br>
-                                        </p>
-                                    {{/if}}
-                                    {{#if points}}
-                                        <ol>
-                                            {{#each points}}
-                                                <li>{{{this}}}</li>
-                                            {{/each}}
-                                        </ol>
-                                    {{/if}}
-                                </div>
-                            </li>
-                        {{/each}}
-                    </ul>
+        <h2 class="uppercase mb16 text-center color-primary">Course Contents</h2>
+        <div class="course-card-container">
+            {{#each courseContents}}
+                <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h3 class="topic">{{{title}}}</h3>
+                    <hr>
+                    {{#if description}}
+                        <p class="description">{{{description}}}</p>
+                    {{/if}}
+                    {{#if points}}
+                        <ul class="points-list">
+                            {{#each points}}
+                                <li>{{{this}}}</li>
+                            {{/each}}
+                        </ul>
+                    {{/if}}
                 </div>
-            </div>
+            {{/each}}
         </div>
     </div>
 </section>
