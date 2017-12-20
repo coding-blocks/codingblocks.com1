@@ -1,7 +1,12 @@
 # coding-blocks.github.io
 
-[![Build Status](https://travis-ci.org/coding-blocks/coding-blocks.github.io.svg?branch=gulp)](https://travis-ci.org/coding-blocks/coding-blocks.github.io)
+## Deploys
 
+<a href="https://www.netlify.com">
+  <img data-src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
+</a>
+
+Commits to master and PRs are automatically built and deployed by Netlify
 
 ## Build Setup
 
