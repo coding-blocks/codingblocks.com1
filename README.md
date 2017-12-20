@@ -2,10 +2,7 @@
 
 ## Deploys
 
-<a href="https://www.netlify.com">
-  <img data-src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
-</a>
-
+[![Netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)](https://app.netlify.com/sites/cb-netlify-prod)  
 Commits to master and PRs are automatically built and deployed by Netlify
 
 ## Build Setup
