@@ -166,10 +166,10 @@
 		"id": "course10",
 		"name": "Data Structures and Algorithms Using C++",
 		"price": "12,000",
-		"imgSrc": "/assets/images/cb/logosc/color_python.svg",
-		"imgAlt": "Certified Python Developer Logo",
+		"imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+		"imgAlt": "Data Structures and Algorithms Using C++",
 		"lectures": "(12-15 lectures)",
-		"link": "/courses/certified-python-developer.html",
+		"link": "/courses/DS-Algo-C++.html",
 		"description": [
 		],
 		"batches": [
