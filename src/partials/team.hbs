@@ -6,8 +6,7 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2 class="uppercase mb16">{{{heading}}}</h2>
-                    <p class="lead mb64">{{{content}}}</p>
-                    <br><br>
+                    {{#if content}}<p class="lead mb64">{{{content}}}</p>{{/if}}
                 </div>
             </div>
     {{/unless}}
