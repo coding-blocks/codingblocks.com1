@@ -5,6 +5,14 @@
 [![Netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)](https://app.netlify.com/sites/cb-netlify-prod)  
 Commits to master and PRs are automatically built and deployed by Netlify
 
+`staging` branch is always available to preview on http://staging--cb-netlify-prod.netlify.com 
+
+## Contributions and PR
+
+ - PRs should be generated against `staging` and **never** `master`
+ - Check staging preview here http://staging--cb-netlify-prod.netlify.com 
+ - If all good, then only `staging -> master` PR is made, and merged
+
 ## Build Setup
 
 ``` bash
