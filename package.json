@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build",
+    "postbuild": "bash -c 'cp _redirects dist/'",
     "clean": "gulp clean",
     "serve": "gulp serve",
     "watch": "gulp watch",
