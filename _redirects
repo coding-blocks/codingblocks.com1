@@ -1,0 +1,3 @@
+# Redirects for Netlify 
+
+/ide/*    https://ide.codingblocks.com/:splat     301
