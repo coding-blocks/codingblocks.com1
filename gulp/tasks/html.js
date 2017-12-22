@@ -7,7 +7,10 @@ let ext = require('gulp-ext-replace')
 let minifyHtml = require('gulp-htmlmin')
 let path = require('path')
 let config = require('../config').html
+let lrConfig = require('../config').liveReload
 let cached = require('gulp-cached')
+const gulpif = require('gulp-if')
+const embedlr = require('gulp-embedlr')
 
 
 gulp.task('html', function () {
@@ -49,6 +52,7 @@ gulp.task('html', function () {
             .pipe(ext('.html'))
             .pipe(cached('html'))
             .pipe(minifyHtml({collapseWhitespace: true}))
+            .pipe(gulpif((gulp.seq.indexOf('watch') !== -1), embedlr(lrConfig)))
             .pipe(gulp.dest(config.dest))
         stream.on('finish', resolve)
         stream.on('error', reject)
