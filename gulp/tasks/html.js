@@ -40,6 +40,9 @@ gulp.task('html', function () {
             .pipe(gulpData(function (file) {
                 return require('../../' + config.dataSrc + '/team.json');
             }))
+            .pipe(gulpData(function (file) {
+                return require('../../' + config.dataSrc + '/packages.json');
+            }))
             .pipe(hb({
                 partials: config.partialsSrc + '/**/*.hbs',
                 helpers: config.helpersSrc + '/**/*.js',

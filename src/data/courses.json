@@ -166,15 +166,49 @@
 		"id": "course10",
 		"name": "Data Structures and Algorithms Using C++",
 		"price": "12,000",
-		"imgSrc": "/assets/images/cb/logosc/color_python.svg",
-		"imgAlt": "Certified Python Developer Logo",
+		"imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+		"imgAlt": "Data Structures and Algorithms Using C++",
 		"lectures": "(12-15 lectures)",
-		"link": "/courses/certified-python-developer.html",
+		"link": "/courses/DS-Algo-C++.html",
 		"description": [
 		],
 		"batches": [
           { "slug": "<strong>Regular Evening Batch at Pitampura starting December 17</strong>" }
 		]
-	}
+	},
+    {
+      "id": "course11",
+      "name": "Data Structures and Algorithms Using Java",
+      "price": "12,000",
+      "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+      "imgAlt": "Data Structures and Algorithms Using Java",
+      "description": [
+        "Coming Soon"
+      ],
+      "lectures": "(12-15 lectures)",
+      "link": "/coming-soon.html"
+    },
+    {
+      "id": "course12",
+      "name": "Angular 5",
+      "imgSrc": "/assets/images/cb/angular-150x150.png",
+      "imgAlt": "Angular 5",
+      "lectures": "(lectures TBA)",
+      "description": [
+        "Coming Soon"
+      ],
+      "link": "/coming-soon.html"
+    },
+    {
+      "id": "course13",
+      "name": "Unity Gave Dev",
+      "imgSrc": "/assets/images/cb/unity.jpg",
+      "imgAlt": "Unity Game Dev",
+      "lectures": "(lectures TBA)",
+      "description": [
+        "Coming Soon"
+      ],
+      "link": "/coming-soon.html"
+    }
   ]
 }
