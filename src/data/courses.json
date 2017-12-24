@@ -57,8 +57,8 @@
         "LIVE Project & Pitching Session"
       ],
       "batches": [
-          { "slug": "Morning Batch at Pitampura starting December 9" },
-          { "slug": "Evening Batch at Dwarka starting December 10" }
+          { "slug": "Morning Batch at Greater Noida starting January 6" },
+          { "slug": "Morning Batch at Pitampura starting February 4" }
       ],
       "odd": true
     },
@@ -77,8 +77,8 @@
         "LIVE Project &amp; Hackathon"
       ],
       "batches": [
-          { "slug": "Evening batch at Pitampura starting December 9" },
-          { "slug": "Morning batch at Dwarka starting December 10" }
+          { "slug": "Morning batch at Greater Noida starting January 6" },
+          { "slug": "Morning batch at Pitampura starting February 4" }
       ]
     },
     {
@@ -136,7 +136,7 @@
 	},
 	{
 		"id": "course08",
-		"name": "Launchpad For Beginners",
+		"name": "C++ For Beginners",
 		"price": "8,000",
 		"imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
 		"imgAlt": "Launchpad For Beginners Course Logo",
@@ -145,7 +145,10 @@
 		"description": [
 		],
 		"batches": [
-			{ "slug": "Weekend batches starting this January. Details to be announced soon." }
+			{ "slug": "Evening batch at Greater Noida starting December 23" },
+			{ "slug": "Morning batch at Pitampura starting January 28" },
+			{ "slug": "Evening batch at Greater Noida starting January 29" },
+			{ "slug": "Evening batch at Pitampura starting March 31" }
 		]
 	},
 	{
@@ -173,7 +176,10 @@
 		"description": [
 		],
 		"batches": [
-          { "slug": "<strong>Regular Evening Batch at Pitampura starting December 17</strong>" }
+          { "slug": "Evening batch at Greater Noida starting January 6" },
+          { "slug": "Evening batch at Pitampura starting January 13" },
+          { "slug": "Morning batch at Dwarka starting January 27" },
+          { "slug": "Morning batch at Pitampura starting March 11" }
 		]
 	},
     {
