@@ -1,25 +1,18 @@
 <!--course-->
-<div class="pricing-card pricing-card-short {{#if first}}first{{/if}} {{#if second}}second{{/if}} {{#if
-        simple}} pricing-card-simple {{/if}} {{#if
-        odd}} pricing-card-inverse {{/if}} col-md-4 col-sm-6">
-    <div class="pricing-table pt-2 text-center">
-        {{#unless simple}}
-            {{#unless noImg}}
-                <img alt="{{{imgAlt}}}" class="course logo" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
-            {{else}}
-                <div class="package-logo"></div>
-            {{/unless}}
-        {{else}}
-            <div class="package-logo">Combo</div>
-        {{/unless}}
+<div class="pricing-card {{#if odd}}pricing-card-inverse{{/if}} col-md-4 col-sm-6">
+    <div class="pricing-table pt-2 text-center {{#if odd}}boxed{{/if}}">
+        <img alt="{{{imgAlt}}}" class="course logo" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
         <h4 class="uppercase bold">{{{name}}}</h4>
-        <span class="price">{{#if price}}₹{{{price}}}{{else}}TBA{{/if}}</span>
-        <p class="desc"><strong>{{{description.[0]}}}</strong></p>
+        <span class="price">₹{{{price}}}</span>
         <p class="lead">{{{lectures}}}</p>
-        <a class="btn btn-white btn-filled btn-lg" target="_blank"
-           href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
+        <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
                 linkText}}
             Register Now{{else}}{{{linkText}}}{{/unless}}</a>
+        <ul>
+            {{#each description}}
+                <li><strong>{{{this}}}</strong></li>
+            {{/each}}
+        </ul>
     </div>
 </div>
 <!--endcourse-->
