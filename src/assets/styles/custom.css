@@ -118,7 +118,7 @@ p.lead {
 
 .pricing-table .course.logo {
     height: 148px;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 /* ]] */
@@ -787,71 +787,4 @@ h1 .sub-heading {
 
 footer, section {
     padding: 40px 0;
-}
-
-.pricing-table {
-    padding: 20px 32px;
-}
-
-.pricing-card-short {
-    height: 570px;
-    background: #fff;
-}
-
-.pricing-card-short.first {
-    border: 5px solid #FC4F4F;
-    border-right: none;
-}
-
-.pricing-card-short.second {
-    border: 5px solid #FC4F4F;
-    border-left: none;
-    border-right: none;
-}
-
-.pricing-card-short .pricing-table {
-    height: 560px;
-    background: #fff;
-}
-
-.pricing-card-simple {
-    border: 5px solid #FC4F4F;
-    border-left: none;
-}
-
-.pricing-card-simple, .pricing-card-simple .pricing-table {
-    background: #FC4F4F;
-    color: white !important;
-}
-
-.pricing-card-simple .pricing-table {
-}
-
-.pricing-card-simple h4, .pricing-card-simple .price {
-    color: white;
-}
-
-.pricing-table .desc {
-    min-height: 22px;
-}
-
-.pricing-card-short.pricing-card-inverse, .pricing-card-short.pricing-card-inverse .pricing-table {
-    background: #f8f8f8;
-}
-
-.package-logo {
-    min-height: 148px;
-    padding-top: 60px;
-    margin-bottom: 10px;
-    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 44px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-@media (max-width: 767px) {
-    .pricing-card-short {
-        border: none !important;
-    }
 }

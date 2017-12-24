@@ -13,10 +13,10 @@ const gulp = require('gulp'),
     plumber = require('gulp-plumber');
 
 let hbConfig = {
-    partials: config.partialsSrc + '/**/*.hbs',
-    helpers: config.helpersSrc + '/**/*.js',
-    data: [config.src + '/**/*.json', config.dataSrc + '/**/*.json']
-};
+        partials: config.partialsSrc + '/**/*.hbs',
+        helpers: config.helpersSrc + '/**/*.js',
+        data: [config.src + '/**/*.json', config.dataSrc + '/**/*.json']
+    };
 
 gulp.task('dev', ['build'], function () {
 
@@ -68,11 +68,8 @@ gulp.task('dev', ['build'], function () {
             return require('../../' + config.dataSrc + '/footer.json');
         }))
         .pipe(gulpData(function (file) {
-            return require('../../' + config.dataSrc + '/packages.json');
-        }))
-        .pipe(gulpData(function (file) {
             return require('../../' + config.dataSrc + '/team.json');
-        })).pipe(hb(hbConfig))
+        }))        .pipe(hb(hbConfig))
         .pipe(using())
         .pipe(ext('.html'))
         .pipe(gulp.dest(config.dest));
@@ -105,11 +102,8 @@ gulp.task('dev', ['build'], function () {
                 return require('../../' + config.dataSrc + '/footer.json');
             }))
             .pipe(gulpData(function (file) {
-                return require('../../' + config.dataSrc + '/packages.json');
-            }))
-            .pipe(gulpData(function (file) {
                 return require('../../' + config.dataSrc + '/team.json');
-            })).pipe(hb(hbConfig))
+            }))            .pipe(hb(hbConfig))
             .pipe(using())
             .pipe(ext('.html'))
             .pipe(gulp.dest(config.dest));
@@ -143,11 +137,8 @@ gulp.task('dev', ['build'], function () {
                 return require('../../' + config.dataSrc + '/footer.json');
             }))
             .pipe(gulpData(function (file) {
-                return require('../../' + config.dataSrc + '/packages.json');
-            }))
-            .pipe(gulpData(function (file) {
                 return require('../../' + config.dataSrc + '/team.json');
-            })).pipe(hb(hbConfig))
+            }))            .pipe(hb(hbConfig))
             .pipe(using())
             .pipe(ext('.html'))
             .pipe(gulp.dest(config.dest))
@@ -181,11 +172,8 @@ gulp.task('dev', ['build'], function () {
                 return require('../../' + config.dataSrc + '/footer.json');
             }))
             .pipe(gulpData(function (file) {
-                return require('../../' + config.dataSrc + '/packages.json');
-            }))
-            .pipe(gulpData(function (file) {
                 return require('../../' + config.dataSrc + '/team.json');
-            })).pipe(hb(hbConfig))
+            }))            .pipe(hb(hbConfig))
             .pipe(using())
             .pipe(ext('.html'))
             .pipe(gulp.dest(config.dest));
