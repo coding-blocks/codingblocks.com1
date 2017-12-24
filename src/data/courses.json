@@ -181,6 +181,40 @@
           { "slug": "Morning batch at Dwarka starting January 27" },
           { "slug": "Morning batch at Pitampura starting March 11" }
 		]
-	}
+	},
+    {
+      "id": "course11",
+      "name": "Data Structures and Algorithms Using Java",
+      "price": "12,000",
+      "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+      "imgAlt": "Data Structures and Algorithms Using Java",
+      "description": [
+        "Coming Soon"
+      ],
+      "lectures": "(12-15 lectures)",
+      "link": "/coming-soon.html"
+    },
+    {
+      "id": "course12",
+      "name": "Angular 5",
+      "imgSrc": "/assets/images/cb/angular-150x150.png",
+      "imgAlt": "Angular 5",
+      "lectures": "(lectures TBA)",
+      "description": [
+        "Coming Soon"
+      ],
+      "link": "/coming-soon.html"
+    },
+    {
+      "id": "course13",
+      "name": "Unity Gave Dev",
+      "imgSrc": "/assets/images/cb/unity.jpg",
+      "imgAlt": "Unity Game Dev",
+      "lectures": "(lectures TBA)",
+      "description": [
+        "Coming Soon"
+      ],
+      "link": "/coming-soon.html"
+    }
   ]
 }

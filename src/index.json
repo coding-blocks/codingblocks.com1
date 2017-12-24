@@ -88,8 +88,19 @@
       "pull-right": true
     }
   ],
+  "package1": "package01",
+  "package2": "package02",
+  "package3": "package03",
   "coursesSection": {
-    "showAll": true
+    "noHeading": true,
+    "coursesList": [
+      "course04",
+      "course03",
+      "bootcamp01",
+      "course09",
+      "course12",
+      "course13"
+    ]
   },
   "bootcampsSection": {
     "showAll": true

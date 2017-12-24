@@ -1,0 +1,43 @@
+{
+  "packageList": [
+    {
+      "id": "package01",
+      "name": "C++ Complete Package",
+      "price": "17,000",
+      "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+      "imgAlt": "C++ combo course logo",
+      "lectures": "(24 Lectures)",
+      "link": "/courses/launchpad.html",
+      "courses": [
+        "course08",
+        "course10"
+      ]
+    },
+    {
+      "id": "package02",
+      "name": "Java Complete Package",
+      "price": "17,000",
+      "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+      "imgAlt": "Java combo course logo",
+      "lectures": "(24 Lectures)",
+      "link": "/courses/crux.html",
+      "courses": [
+        "course07",
+        "course11"
+      ]
+    },
+    {
+      "id": "package03",
+      "name": "Interview Prep Package",
+      "price": "15,000",
+      "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+      "imgAlt": "Interview prep combo course logo",
+      "lectures": "(24 Lectures)",
+      "link": "/coming-soon.html",
+      "courses": [
+        "course05",
+        "bootcamp02"
+      ]
+    }
+  ]
+}
