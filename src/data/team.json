@@ -152,14 +152,14 @@
       "role": "Developer",
       "imgSrc": "/assets/images/cb/team/Himank Final.jpg",
       "imgAlt": "Himank Bhalla",
-      "bio": "An engineer from USICT, Himank is an enthusiastic full-stack web developer. He has worked at Delhi based startups where he was involved with mobile website development, and front end development. He also designed the website for International Conference on Computational Techniques in Information and Communication Technologies (ICCTICT)."
+      "bio": "An enthusiastic full-stack web developer, Himank has worked at multiple Delhi based startups. He also designed the website for International Conference on Computational Techniques in Information and Communication Technologies (ICCTICT)."
     },
     {
       "name": "Rajkishor Ranjan",
       "role": "",
       "imgSrc": "/assets/images/cb/team/Raj Final.jpg",
       "imgAlt": "Rajkishor Ranjan",
-      "bio": "An IIT-Patna graduate in Computer Science, Rajkishor is a Mathematics wizard and an avid competitive coder. Having taught Mathematics to top batches of Vidya Mandir Classes for a few months, he decided to shift to teaching computer programming. Rajkishor has joined Coding Blocks as a C++ faculty, and will be taking classes for Launchpad, Competitive Coding and more C++ based courses."
+      "bio": "An IIT-Patna graduate in Computer Science, Rajkishor is a Mathematics wizard and an avid competitive coder. Having taught Mathematics to top batches of Vidya Mandir Classes, Rajkishor will now be taking classes at Coding Blocks for Launchpad, Competitive Coding and more C++ based courses."
     },
     {
       "name": "Mansi Marwaha",
@@ -173,6 +173,11 @@
       "imgSrc": "/assets/images/cb/team/Priyanka.jpg"
     },
     {
+      "name": "Deepika Jain",
+      "role": "Counsellor",
+      "imgSrc": "/assets/images/cb/team/Deepika.jpg"
+    },
+    {
       "name": "Samuel",
       "role": "Support Staff",
       "imgSrc": "/assets/images/cb/team/staff03.jpg"
@@ -181,6 +186,16 @@
       "name": "Manish",
       "role": "Support Staff",
       "imgSrc": "/assets/images/cb/team/Ashu.jpg"
+    },
+    {
+      "name": "Abhishek",
+      "role": "Support Staff",
+      "imgSrc": "/assets/images/cb/team/staff-abhishek.jpg"
+    },
+    {
+      "name": "Manoj",
+      "role": "Support Staff",
+      "imgSrc": "/assets/images/cb/team/staff-manoj.jpg"
     },
     {
       "name": "Bhavya Aggarwal",
