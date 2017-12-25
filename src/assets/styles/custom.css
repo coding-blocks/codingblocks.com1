@@ -765,6 +765,10 @@ h1 .sub-heading {
     font-size: 20px;
     margin-bottom: 5px;
     font-weight: bold;
+	height: 80px;
+	overflow: hidden;
+	word-wrap: break-word;
+	text-overflow: ellipses;
 }
 
 .course-card hr {
