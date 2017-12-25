@@ -1,22 +1,22 @@
 {
   "id": "course07",
-  "name": "Crux For Beginners",
-  "title": "Java Training in Delhi, Greater Noida | Crux For Beginners by Coding Blocks",
+  "name": "Java For Beginners",
+  "title": "Java Training in Delhi, Greater Noida | Java For Beginners by Coding Blocks",
   "metas": [
     {
       "name": "description",
-      "content": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux For Beginners - Java course for beginners."
+      "content": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Java For Beginners - Java course for beginners."
     }
   ],
   "openGraph": {
-    "url": "https://codingblocks.com/courses/crux-for-beginners.html",
-    "title": "Java Basic Proficiency Certification - Foundation Course in Java",
+    "url": "https://codingblocks.com/courses/java-for-beginners.html",
+    "title": "Java For Beginners - Foundation Course in Java",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
-    "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux For Beginners - Java course for beginners."
+    "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Java For Beginners - Java course for beginners."
   },
   "header": {
-    "heading": "Java Basic Proficiency Certification",
-    "subHeading": "Programming Fundamentals using Java",
+    "heading": "Java For Beginners",
+    "subHeading": "Programming Fundamentals in Java",
     "breadcrumbs": [
       {
         "linkText": "Highlights",
@@ -34,7 +34,7 @@
     "bgSrc": "../assets/images/cb/cover/covergcp.jpg"
   },
   "overview": {
-    "content": "Begin your career in software development with the introduction to basic Java concepts. Java, an Object Oriented Programming language is one of the most sought after programming languages and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements. Designed for beginners, Crux For Beginners is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+    "content": "Begin your career in software development with the introduction to basic Java concepts. Java, an Object Oriented Programming language is one of the most sought after programming languages and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements. Designed for beginners, Java For Beginners is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
   },
   "courseHighlights": [
     {
@@ -61,27 +61,40 @@
   "courseContents": [
     {
       "active": true,
-      "title": "Logic Building",
-      "contentTitle": "Programming fundamentals and logic building",
-      "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
+      "title": "Problem Solving and Programming Fundamentals",
+      "contentTitle": "",
+      "description": "",
       "points": [
-        "Flowcharts, pseudo-code and brain teasers",
-        "IDE installation and familiarization",
-        "Debugging",
-        "Input-Output"
+		  "Flowcharts, pseudo-code and brain teasers",
+		  "IDE installation and familiarization",
+		  "Debugging",
+		  "Input-Output",
+		  "Data Types and Variables",
+		  "Typecasting",
+		  "Loops and Decision constructs",
+		  "Functions and operators",
+		  "Arrays, multi-dimensional arrays and dynamic arrays",
+		  "String and String Buffer"
       ]
     },
     {
-      "title": "Java Fundamentals",
-      "contentTitle": "Java Fundamentals",
+      "title": "Recursion",
+      "contentTitle": "",
       "description": "",
       "points": [
-        "Data Types and Variables",
-        "Typecasting",
-        "Loops and Decision constructs",
-        "Functions and operators",
-        "Arrays, multi-dimensional arrays and dynamic arrays",
-        "String and String Buffer"
+		  "Introduction to Recursion",
+		  "Classical Recursion Problems"
+      ]
+    },
+    {
+      "title": "Basics of Data Structures",
+      "contentTitle": "",
+      "description": "",
+      "points": [
+		  "Time and Space Complexity",
+		  "Stacks and OOPs (Classes and Objects, Exceptions and Data member modifiers)",
+		  "Queues and OOPs (Encapsulation, Inheritance and Polymorphism)",
+		  "Linked List and OOPs (Abstract classes, Interfaces and Packages)"
       ]
     }
   ],
@@ -105,7 +118,6 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming Batches:",
-    "priceCut": "8000",
     "highlights": [
       {
         "icon": "et-line-search",
@@ -124,8 +136,9 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-      "Arnav Gupta",
-      "Rishab Kapoor"
+      "Harpreet Singh",
+      "Rishab Kapoor",
+	  "Garima Chhikara"
     ]
   },
   "courseReviews": [
