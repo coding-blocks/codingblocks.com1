@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build",
+    "postbuild": "bash -c 'cp _redirects dist/'",
     "clean": "gulp clean",
     "serve": "gulp serve",
     "watch": "gulp watch",
@@ -22,6 +23,7 @@
     "gulp-handlebars": "^4.0.0",
     "gulp-hb": "^6.0.2",
     "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
     "gulp-imagemin": "^3.4.0",
     "gulp-inject": "^4.3.0",
     "gulp-plumber": "^1.1.0",
@@ -29,7 +31,7 @@
     "gulp-using": "^0.1.1",
     "gulp-watch": "^4.3.11",
     "gulp-webserver": "^0.9.1",
-    "moment": "^2.19.2",
+    "moment": "^2.20.1",
     "require-dir": "^0.3.2"
   },
   "devDependencies": {

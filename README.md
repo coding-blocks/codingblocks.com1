@@ -1,7 +1,16 @@
 # coding-blocks.github.io
 
-[![Build Status](https://travis-ci.org/coding-blocks/coding-blocks.github.io.svg?branch=gulp)](https://travis-ci.org/coding-blocks/coding-blocks.github.io)
+## Deploys
 
+[![Netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)](https://app.netlify.com/sites/cb-netlify-prod)  
+Commits to master and PRs are automatically built and deployed by Netlify
+
+
+## Contributions and PR
+
+ - PRs should be generated against `master`
+ - Wait for `@codingblocks-bot` to deploy site and paste link of preview 
+ - Check preview. If all good, then only `PR -> master` merge is made
 
 ## Build Setup
 

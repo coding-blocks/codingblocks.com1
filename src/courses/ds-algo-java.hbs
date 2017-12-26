@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    {{> courseSchema}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+	{{> header}}
+	{{> overview}}
+	<!--coursehighlights -->
+	<a id="highlights" class="in-page-link" data-scroll-id="course-features"></a>
+	<section class="bg-dark">
+		<div class="container">
+			<div class="row">
+				{{#each courseHighlights}}
+					<div class="text-center col-sm-4">
+						<div class="feature">
+							<i class="icon fade-3-4 inline-block mb16 {{{icon}}}"></i>
+							<h3>{{{title}}}</h3>
+							<p>{{{content}}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</section>
+	<!--endcoursehighlights -->
+	{{> coursecontents}}
+	{{> coursefaq}}
+	{{> courseenroll}}
+	{{> team team=mentors}}
+	{{> registration}}
+	{{> review-course-section}}
+	{{> map}}
+	{{> footer}}
+</div>
+{{> scripts}}
+<style>
+	#page-header h1 {
+		font-size: 4rem;
+		line-height: 5rem;
+		letter-spacing: unset;
+	}
+</style>
+</body>
+</html>

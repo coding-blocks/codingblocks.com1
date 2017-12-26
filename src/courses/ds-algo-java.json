@@ -1,0 +1,149 @@
+{
+  "id": "course11",
+  "name": "Data Structures and Algorithms in Java",
+  "title": "Java Training in Delhi, Greater Noida | Crux by Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/ds-algo-java.html",
+    "title": "Data Structures and Algorithms in Java",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
+    "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
+  },
+  "header": {
+    "heading": "Data Structures and Algorithms in Java",
+    "subHeading": "Programming Fundamentals in Java",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/covergcp.jpg"
+  },
+  "overview": {
+    "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements. Designed for intermediate to advanced programmers, this is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-puzzle",
+      "title": "Problem Solving",
+      "content": "The course is designed to sharpen the problem solving skills of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+    },
+    {
+      "icon": "et-line-layers",
+      "title": "OOP Concepts &amp; Project",
+      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready. Students will also build a game with Java Swing Libraries to strengthen their OOPS concepts."
+    },
+    {
+      "icon": "et-line-linegraph",
+      "title": "DS &amp; Algorithms",
+      "content": "This course entails more than 100 hours of teaching and hands on coding. Students will be solving more than 200 complex problems and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Recursion and Optimization",
+      "contentTitle": "",
+      "description": "",
+      "points": [
+		  "Recursion",
+		  "Backtracking"
+      ]
+    },
+    {
+      "title": "Data Structures and Algorithms",
+      "contentTitle": "",
+      "description": "",
+      "points": [
+		  "Stacks and Queues – Adva Questions",
+		  "Linked Lists – Advanced Questions",
+		  "Generic Trees",
+		  "Binary Trees",
+		  "Binary Search Trees"
+      ]
+    },
+    {
+      "title": "Non Linear Data Structures",
+      "contentTitle": "",
+      "description": "",
+      "points": [
+		  "Heaps",
+		  "Hash Tables",
+		  "Generics",
+		  "Graphs – Traversals, Minimum Spanning trees, Shortest path algorithms",
+		  "Text Processing – Text Matching, Compression",
+		  "Dynamic Programming"
+      ]
+    },
+    {
+      "title": "Project Development",
+      "contentTitle": "",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "One game developed in class",
+		  "Second game to be done as assignment"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "The course is ideal for intermediate programmers, with hands-on experience of basics. It is also useful for students preparing for internship and placement interviews and looking forward to learning data structures and algorithms with ample problem solving."
+    },
+    {
+      "ques": "I didn't have C++/Java in class XII, can I do this course?",
+      "ans": "No, this course is not for beginners. You must be proficient with programming fundamentals like arrays, stacks, queues etc. to do this course."
+    },
+    {
+      "ques": "Will this course help me with interviews?",
+      "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time and ptimising space and time is what most interviewers look for."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Session on Java Game Development"
+      }
+    ]
+  },
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Rishab Kapoor",
+      "Garima Chhikara",
+      "Harpreet Singh"
+    ]
+  },
+  "courseReviews": [
+    "APURV ADARSH",
+    "ANSH SACHDEVA",
+    "GAGARIN DASH",
+    "KSHITIJ BANSAL"
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=94"
+}
