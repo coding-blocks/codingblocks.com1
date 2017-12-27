@@ -15,10 +15,10 @@
         "Online <strong>Code Submission</strong>"
       ],
       "batches": [
-        {
-          "slug": "Weekend Batch at Pitampura starting December 30 (Evening)",
-          "slug": "Weekend Batch at Dwarka starting December 30 (Morning)"
-        }
+		  { "slug": "Evening batch at Greater Noida starting December 23" },
+		  { "slug": "Morning batch at Pitampura starting January 28" },
+		  { "slug": "Evening batch at Greater Noida starting January 29" },
+		  { "slug": "Evening batch at Pitampura starting March 31" }
       ],
       "odd": true
     },
@@ -37,9 +37,10 @@
         "300+ Problems, Hackathons"
       ],
       "batches": [
-          { "slug": "Fast Track Evening Batch at Pitampura starting December 3" },
-          { "slug": "Evening Batch at Pitampura starting December 25" },
-          { "slug": "Evening Batch at Dwarka starting December 18" }
+		  { "slug": "Evening batch at Greater Noida starting December 28" },
+		  { "slug": "Morning batch at Pitampura starting January 28" },
+		  { "slug": "Evening batch at Greater Noida starting January 29" },
+		  { "slug": "Evening batch at Pitampura starting March 31" }
       ]
     },
     {
@@ -97,8 +98,10 @@
       ],
       "odd": true,
       "batches": [
-          { "slug": "Morning batch at Pitampura starting December 4" },
-          { "slug": "Morning batch at Dwarka starting December 3" }
+          { "slug": "Evening batch at Greater Noida starting January 6" },
+          { "slug": "Evening batch at Pitampura starting January 13" },
+          { "slug": "Morning batch at Dwarka starting January 27" },
+          { "slug": "Morning batch at Pitampura starting March 11" }
       ]
     },
     {
