@@ -199,6 +199,19 @@
 			{ "slug": "Evening batch at Greater Noida starting January 13" },
 			{ "slug": "Morning batch at Pitampura starting March 11" }
 		]
+	},
+	{
+		"id": "course12",
+		"name": "Launchpad Online",
+		"price": "8,000",
+		"imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+		"imgAlt": "Launchpad Online",
+		"lectures": "(30 lectures)",
+		"link": "/courses/launchpad-online.html",
+		"description": [
+		],
+		"batches": [
+		]
 	}
   ]
 }

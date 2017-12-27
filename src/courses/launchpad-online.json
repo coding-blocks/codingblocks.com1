@@ -1,4 +1,5 @@
 {
+  "id": "course12",
   "name": "Launchpad Online",
   "title": "Launchpad: Online C++ Course with Data Structures and Algorithms | Coding Blocks",
   "metas": [
@@ -32,6 +33,37 @@
     ],
     "bgSrc": "../assets/images/cb/cover/cover_laptop_books.jpg"
   },
+  "courseEnroll": {
+    "upcomingBatches": "New batch starting this February",
+	"priceCut": "12,000",
+	"price": "8,000",
+	"registerButton": {
+		"buttonText": "Registration Starting Soon",
+		"disabled": true
+	},
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Sessions on Competitive Coding"
+      }
+    ]
+  },
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang",
+      "Rajesh Sachdev",
+      "Deepak Aggarwal"
+    ]
+  },
   "faqs": [
     {
       "ques": "Who should do this course?",
@@ -62,7 +94,5 @@
       "ans": "Yes, you will get certification after you successfully pass the online exam after completing the course. For certification, we suggest joining both Level 1 and Level 2 courses."
     }
   ],
-  "registerLink1": "https://students.codingblocks.com/payment/iframe?item_id=54",
-  "registerLink2": "https://students.codingblocks.com/payment/iframe?item_id=55",
-  "registerLink3": "https://students.codingblocks.com/payment/iframe?item_id=56"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=54"
 }
