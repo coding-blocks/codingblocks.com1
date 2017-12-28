@@ -764,6 +764,7 @@ h1 .sub-heading {
 .course-card .topic {
     font-size: 20px;
     margin-bottom: 5px;
+    color: #333;
     font-weight: bold;
 	height: 80px;
 	overflow: hidden;
@@ -776,6 +777,7 @@ h1 .sub-heading {
 }
 
 .course-card .description {
+    color: #333;
     margin-bottom: 10px;
 }
 
@@ -785,6 +787,7 @@ h1 .sub-heading {
 }
 
 .points-list li {
+    color: #333;
     font-weight: bold;
     font-size: 15px;
 }
