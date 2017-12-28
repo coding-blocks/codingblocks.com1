@@ -1,4 +1,5 @@
 # Redirects for Netlify 
 
-/ide/*    	https://ide.codingblocks.com/:splat     		301
+/ide/*    	  https://ide.codingblocks.com/:splat     		      301
 /resources/*	https://coding-blocks.github.io/resources/:splat	200
+/img/*        https://coding-blocks.github.io/img/:splat        200
