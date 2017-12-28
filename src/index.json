@@ -8,8 +8,26 @@
   ],
   "slides": [
     {
+      "imgSrc": "/assets/images/bg-01.jpg",
+      "imgAlt": "Coding Blocks Scholarship Tests are Back!",
+      "heading": "Coding Blocks Scholarship Tests are Back!",
+      "content": "Win scholarships of up to 75% off the entire course fees for January batches <BR> Batches starting January 28. Enroll now!",
+      "button": [
+        {
+          "link": "/cast.html",
+          "text": "CAST - for Foundation Courses",
+          "filled": "true"
+        },
+        {
+          "link": "/apat.html",
+          "text": "APAT - for Advanced Courses",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/educarn.jpg",
-      "imgAlt": "Education Carnival Cover Image",
+      "imgAlt": "Introducing Android App Development Online",
       "heading": "Introducing Android App Development Online",
       "content": "Now learn app development from the comfort of your homes. Batch starting January 26.",
       "button": [
@@ -23,8 +41,8 @@
     {
       "imgSrc": "/assets/images/cb/cover/cover3.jpg",
       "imgAlt": "coders admission open c++, java, android, web development",
-      "heading": "Admissions Open for Winter Batches",
-      "content": "Come fall in love with coding this winter at Coding Blocks. Enroll Now!<br />",
+      "heading": "Admissions Open for January Batches",
+      "content": "Come fall in love with coding this January at Coding Blocks. Enroll Now!<br />",
       "button": [
         {
           "link": "/courses/",
