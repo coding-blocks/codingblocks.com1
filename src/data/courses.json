@@ -6,7 +6,7 @@
       "price": "17,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "C++ course logo",
-      "lectures": "(24-26 lectures)",
+      "lectures": "(24 lectures)",
       "link": "/courses/launchpad.html",
       "description": [
         "Programming Fundamentals, OOPS",
@@ -16,13 +16,8 @@
       ],
       "batches": [
         {
-          "slug": "Fast Track Morning Batch at Pitampura starting December 3"
-        },
-        {
-          "slug": "Evening Batch at Pitampura starting December 30"
-        },
-        {
-          "slug": "Morning Batch at Dwarka starting December 30"
+          "slug": "Weekend Batch at Pitampura starting December 30 (Evening)",
+          "slug": "Weekend Batch at Dwarka starting December 30 (Morning)"
         }
       ],
       "odd": true
@@ -44,7 +39,7 @@
       "batches": [
           { "slug": "Fast Track Evening Batch at Pitampura starting December 3" },
           { "slug": "Evening Batch at Pitampura starting December 25" },
-          { "slug": "Evening Batch at Dwarka starting December 3" }
+          { "slug": "Evening Batch at Dwarka starting December 18" }
       ]
     },
     {
@@ -62,8 +57,8 @@
         "LIVE Project & Pitching Session"
       ],
       "batches": [
-          { "slug": "Morning Batch at Pitampura starting December 9" },
-          { "slug": "Evening Batch at Dwarka starting December 10" }
+          { "slug": "Morning Batch at Greater Noida starting January 6" },
+          { "slug": "Morning Batch at Pitampura starting February 4" }
       ],
       "odd": true
     },
@@ -82,8 +77,8 @@
         "LIVE Project &amp; Hackathon"
       ],
       "batches": [
-          { "slug": "Evening batch at Pitampura starting December 9" },
-          { "slug": "Morning batch at Dwarka starting December 10" }
+          { "slug": "Morning batch at Greater Noida starting January 6" },
+          { "slug": "Morning batch at Pitampura starting February 4" }
       ]
     },
     {
@@ -126,32 +121,36 @@
     },
 	{
 		"id": "course07",
-		"name": "Crux For Beginners",
-		"price": "6,000",
+		"name": "Java For Beginners",
+		"price": "8,000",
 		"imgSrc": "/assets/images/cb/logosc/color_java.svg",
-		"imgAlt": "Crux For Beginners Course Logo",
+		"imgAlt": "Java For Beginners Course Logo",
 		"lectures": "(10 lectures)",
-		"link": "/courses/crux-for-beginners.html",
+		"link": "/courses/java-for-beginners.html",
 		"description": [
 		],
 		"batches": [
-			{ "slug": "Morning batch at Pitampura starting December 5" },
-			{ "slug": "Morning batch at Dwarka starting December 4" }
+			{ "slug": "Evening batch at Greater Noida starting December 28" },
+			{ "slug": "Morning batch at Pitampura starting January 28" },
+			{ "slug": "Evening batch at Greater Noida starting January 29" },
+			{ "slug": "Evening batch at Pitampura starting March 31" }
 		]
 	},
 	{
 		"id": "course08",
-		"name": "Launchpad For Beginners",
-		"price": "6,000",
+		"name": "C++ For Beginners",
+		"price": "8,000",
 		"imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
 		"imgAlt": "Launchpad For Beginners Course Logo",
-		"lectures": "(10 lectures)",
+		"lectures": "(8-10 lectures)",
 		"link": "/courses/launchpad-for-beginners.html",
 		"description": [
 		],
 		"batches": [
-			{ "slug": "Evening batch at Pitampura starting December 7" },
-			{ "slug": "Evening batch at Dwarka starting December 3" }
+			{ "slug": "Evening batch at Greater Noida starting December 23" },
+			{ "slug": "Morning batch at Pitampura starting January 28" },
+			{ "slug": "Evening batch at Greater Noida starting January 29" },
+			{ "slug": "Evening batch at Pitampura starting March 31" }
 		]
 	},
 	{
@@ -165,7 +164,40 @@
 		"description": [
 		],
 		"batches": [
-          { "slug": "<strong>Regular Morning Batch at Pitampura starting December 17</strong>" }
+          { "slug": "<strong>Regular Evening Batch at Pitampura starting December 17</strong>" }
+		]
+	},
+	{
+		"id": "course10",
+		"name": "Data Structures and Algorithms Using C++",
+		"price": "12,000",
+		"imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+		"imgAlt": "Data Structures and Algorithms Using C++",
+		"lectures": "(12-15 lectures)",
+		"link": "/courses/DS-Algo-C++.html",
+		"description": [
+		],
+		"batches": [
+          { "slug": "Evening batch at Greater Noida starting January 6" },
+          { "slug": "Evening batch at Pitampura starting January 13" },
+          { "slug": "Morning batch at Dwarka starting January 27" },
+          { "slug": "Morning batch at Pitampura starting March 11" }
+		]
+	},
+	{
+		"id": "course11",
+		"name": "Data Structures and Algorithms Using Java",
+		"price": "12,000",
+		"imgSrc": "/assets/images/cb/logosc/color_java.svg",
+		"imgAlt": "Data Structures and Algorithms Using Java",
+		"lectures": "(12-15 lectures)",
+		"link": "/courses/ds-algo-java.html",
+		"description": [
+		],
+		"batches": [
+			{ "slug": "Evening batch at Dwarka starting January 13" },
+			{ "slug": "Evening batch at Greater Noida starting January 13" },
+			{ "slug": "Morning batch at Pitampura starting March 11" }
 		]
 	}
   ]

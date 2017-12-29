@@ -10,12 +10,12 @@
     {
       "imgSrc": "/assets/images/cb/cover/educarn.jpg",
       "imgAlt": "Education Carnival Cover Image",
-      "heading": "Student Workshops at IIT Delhi",
-      "content": "Coding Blocks is proud to associate as Learning Partner for EduCarnival 2017 at IIT Delhi",
+      "heading": "Introducing Android App Development Online",
+      "content": "Now learn app development from the comfort of your homes. Batch starting January 26.",
       "button": [
         {
-          "link": "https://cb.lk/EduCarn",
-          "text": "Register",
+          "link": "/courses/online/android-app-development.html",
+          "text": "Details & Registration",
           "filled": "true"
         }
       ]
@@ -23,7 +23,7 @@
     {
       "imgSrc": "/assets/images/cb/cover/cover3.jpg",
       "imgAlt": "coders admission open c++, java, android, web development",
-      "heading": "Admissions Open for December Batches",
+      "heading": "Admissions Open for Winter Batches",
       "content": "Come fall in love with coding this winter at Coding Blocks. Enroll Now!<br />",
       "button": [
         {
@@ -40,16 +40,16 @@
     {
       "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
       "imgAlt": "",
-      "heading": "Start your coding journey with Beginner level certification programs",
-      "content": "Admissions open for december batches of basic java and C++",
+      "heading": "Start your coding journey with our programs for beginners",
+      "content": "Admissions open for winter batches of basic Java and C++",
       "button": [
         {
-          "link": "/courses/launchpad-for-beginners.html",
+          "link": "/courses/c++-for-beginners.html",
           "text": "Register for C++ Course",
           "filled": "true"
         },
         {
-          "link": "/courses/crux-for-beginners.html",
+          "link": "/courses/java-for-beginners.html",
           "text": "Register for Java Course",
           "filled": "true"
         }

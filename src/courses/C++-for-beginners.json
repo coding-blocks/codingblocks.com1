@@ -1,21 +1,21 @@
 {
   "id": "course08",
-  "name": "Launchpad For Beginners",
-  "title": "C++ Training in Delhi, Greater Noida, Amritsar & Jalandhar | Launchpad by Coding Blocks",
+  "name": "C++ For Beginners",
+  "title": "C++ Training in Delhi, Greater Noida, Amritsar & Jalandhar | C++ For Beginners by Coding Blocks",
   "metas": [
     {
       "name": "description",
-      "content": "Coding Blocks is the best C++ training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Launchpad to get C++ coaching and learn C++ fundamentals."
+      "content": "Coding Blocks is the best C++ training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join C++ For Beginners to get C++ coaching and learn C++ fundamentals."
     }
   ],
   "openGraph": {
-    "url": "https://codingblocks.com/courses/launchpad-for-beginners.html",
-    "title": "C++ Basic Proficiency Certification: Basic Programming Fundamentals in C++",
+    "url": "https://codingblocks.com/courses/c++-for-beginners.html",
+    "title": "C++ For Beginners : Programming Fundamentals in C++",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
-    "description": "Coding Blocks is the best C++ training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Launchpad to get C++ coaching and learn C++ fundamentals."
+    "description": "Coding Blocks is the best C++ training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join C++ For Beginners to get C++ coaching and learn C++ fundamentals."
   },
   "header": {
-    "heading": "C++ Basic Proficiency Certification",
+    "heading": "C++ For Beginners",
     "subHeading": "Programming Fundamentals in C++",
     "breadcrumbs": [
       {
@@ -34,7 +34,7 @@
     "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
   },
   "overview": {
-    "content": "C++ Basic Proficiency Certification is a C++ training course designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. This beginner's course will include programming fundamentals using C++.<br> C++ is known to be a very powerful language. C++ allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ is generally more performant than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products. <br><br>"
+    "content": "C++ for Beginners is a C++ training course designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. This beginner's course will include programming fundamentals using C++.<br> C++ is known to be a very powerful language. It allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ generally does better than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products."
   },
   "courseHighlights": [
     {
@@ -61,26 +61,37 @@
   "courseContents": [
     {
       "active": true,
-      "title": "Logic Building",
-      "contentTitle": "C++ Programming fundamentals and logic building",
-      "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
+      "title": "Getting Started",
+      "contentTitle": "Getting Started",
+      "description": "",
       "lectures": "",
       "points": [
-        "Flowcharts and Pseudo code",
-        "Puzzles",
-        "Getting started with C++"
+        "Pseudo code",
+        "Getting started with C++, IDE Installation"
       ]
     },
     {
-      "title": "C++ Basics",
-      "contentTitle": "Strings and Arrays",
-      "description": "Then we will dive deep into C++ topics like Arrays, understanding about pointers and multi-dimensional arrays.",
+      "title": "Getting a Hold of C++",
+      "contentTitle": "Getting a Hold of C++",
+      "description": "",
       "lectures": "",
       "points": [
-        "Functions",
-        "Arrays, 2D Arrays",
-        "Character Arrays, Strings",
-        "Vectors in C++"
+		  "Variables,Loops, Conditional Statements",
+		  "Functions, Reference Variables",
+		  "Arrays and Pointers",
+		  "Strings and 2-D Arrays"
+      ]
+    },
+    {
+      "title": "Introduction to Advanced Topics",
+      "contentTitle": "Introduction to Advanced Topics",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "Recursion-I",
+		  "Space Time Complexity Basics",
+		  "Stacks and Queue Basics",
+		  "Problem Solving"
       ]
     }
   ],
@@ -100,15 +111,14 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming Batches:",
-    "priceCut": "8000",
     "highlights": [
       {
         "icon": "et-line-search",
-        "content": "<span style='font-weight: regular'>Kickstart your career as a Software Developer by learning the basics.</span>"
+        "content": "Online code Submission &amp; Evaluation"
       },
       {
         "icon": "pe-7s-cup",
-        "content": "<span style='font-weight: regular'>No prior knowledge of coding required.</span>"
+        "content": "Special Sessions on Competitive Coding"
       }
     ]
   },
@@ -119,8 +129,10 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
+      "Prateek Narang",
       "Deepak Aggarwal",
-      "Rajesh Sachdev"
+      "Rajesh Sachdev",
+      "Nipun Jain"
     ]
   },
   "courseReviews": [
@@ -129,5 +141,5 @@
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=66"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=89"
 }

@@ -1,22 +1,22 @@
 {
-  "id": "course03",
-  "name": "Android App Development",
-  "title": "Learn Android App Development in Delhi | Course at Coding Blocks",
+  "id": "course_adol",
+  "name": "Android App Development (Online)",
+  "title": "Learn Android App Development | Live Online Course at Coding Blocks",
   "metas": [
     {
       "name": "description",
-      "content": "Learn Android app development in Delhi from android app development training course by professionals at Coding Blocks."
+      "content": "Learn Android App Development using Java and Kotlin via Coding Blocks live online course"
     }
   ],
   "openGraph": {
-    "url": "https://codingblocks.com/courses/classroom/android-app-development.html",
+    "url": "https://codingblocks.com/courses/online/android-app-development.html",
     "title": "Android Development Course",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14291459_1290961360916369_1179422469_n.jpg",
     "description": "Our Android Development course takes you on a comprehensive journey on the Android Studio that starts from building the UI, to connecting to network services and launching your product on the Google Play Store."
   },
   "header": {
-    "heading": "Android App Development Course",
-    "subHeading": "Coding Blocks",
+    "heading": "Android App Development Online",
+    "subHeading": "Using Java and Kotlin",
     "breadcrumbs": [
       {
         "linkText": "Highlights",
@@ -68,29 +68,38 @@
       "points": [
         "Object Oriented Programming Concepts in Java",
         "Getting Started with Android App Development Tools",
-        "Activities and Basic UI Building"
+        "Activities and Basic UI Building",
+        "Intents"
+      ]
+    },
+    {
+      "active": true,
+      "title": "Advanced UI Patterns",
+      "contentTitle": "Advanced UI Patterns",
+      "description": "Common Android UI Patters that are required to build most Android Apps. ListViews to show array of data. NavigationDrawers to provide in-app navigation and fragments to modularise views",
+      "lectures": "Lectures 3-5",
+      "points": [
+        "Adapters, ListViews and RecyclerViews",
+        "Fragments, ViewPagers and Navigation Drawer"
       ]
     },
     {
       "title": "Background and Services",
       "contentTitle": "Background and Services",
       "description": "Not everything happens on the screen, so we will also learn how to create services that run in the background. AsyncTasks use multi-threading to run parallel operations on separate thread so the user doesn’t notice any work being done, and the app remains ever responsive.",
-      "lectures": "Lecture: 3-10",
+      "lectures": "Lecture: 6-8",
       "points": [
-        " Adapters and ListViews",
-        "Intents",
-        "Fragments, ViewPagers and Navigation Drawer",
         "Services",
-        "Permission Management",
-        "Menus and Preferences"
+        "Permission Management"
       ]
     },
     {
       "title": "Data Storage",
       "contentTitle": "Data Storage",
       "description": "The course will cover all three ways of local data storage available in Android.",
-      "lectures": "Lecture 11-12",
+      "lectures": "Lecture 7-8",
       "points": [
+        "Menus and Preferences",
         "Shared Preferences",
         "Files",
         "SQLite Databases"
@@ -100,7 +109,7 @@
       "title": "Network",
       "contentTitle": "Network",
       "description": "A mobile app is nothing without connectivity. Learn to add network connectivity and integrate your app with remote servers. Also we will cover how to use backend services like Firebase to create real-time databases and push notifications to create chat based applications.",
-      "lectures": "Lecture 12-18",
+      "lectures": "Lecture 9-14",
       "points": [
         "Network and Data Fetching",
         "BroadcastReceivers",
@@ -114,7 +123,7 @@
       "title": "3rd Party Libs",
       "contentTitle": "3rd Party Libs",
       "description": "Learn to integrate the most commonly used libraries that are used to make powerful and interactive apps like",
-      "lectures": "Lectures 19-22",
+      "lectures": "Lectures 15-18",
       "points": [
         "Google Maps",
         "Retrofit for REST APIs",
@@ -141,7 +150,14 @@
     }
   ],
   "courseEnroll": {
-    "upcomingBatches": "Upcoming Courses:",
+    "price": "12000",
+    "lectures": "(18 Lectures)",
+    "upcomingBatches": "<strong>Batches Starting January 26!<strong>",
+    "registerBoxHeading": "<span style='font-size: 3.2rem; text-decoration: line-through;'>₹15,000</span>",
+    "registerButton": {
+      "buttonText": "Enroll Now",
+      "disabled": false
+    },
     "highlights": [
       {
         "icon": "et-line-search",
@@ -149,7 +165,7 @@
       },
       {
         "icon": "pe-7s-cup",
-        "content": "2 Hacakthons"
+        "content": "Online Hackathon and App Showcase"
       }
     ]
   },
@@ -174,5 +190,5 @@
     "DHRUV ANAND"
   ],
   "reviewSlug": "Android App Development Course",
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=96"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=93"
 }

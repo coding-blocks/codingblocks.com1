@@ -1,0 +1,157 @@
+{
+  "id": "course10",
+  "name": "Data Structures and Algorithms Using C++ (Algo++)",
+  "title": "C++ Training in Delhi, Greater Noida, Amritsar & Jalandhar | Launchpad by Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best C++ training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Launchpad to get C++ coaching and learn C++ fundamentals."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/launchpad.html",
+    "title": "Data Structures and Algorithms Using C++ (Algo++",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "Coding Blocks is the best C++ training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Launchpad to get C++ coaching and learn C++ fundamentals."
+  },
+  "header": {
+    "heading": "Data Structures and Algorithms Using C++ (Algo++)",
+    "subHeading": "",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "overview": {
+    "content": "Introducing our newest course on Algorithms and Data Structures(in C++) starting this summer. The course is for all those who are looking forward to sit for internships and placements in August. The course will involve rigorous practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. The course will help you become smarter with solutions and ace your programming interviews."
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "Recursion &amp; Backtracking",
+      "content": "The course will start with complex recursion and back-tracking problems. You will be able to think recursively and implement the same in your code. You will be able to solve back-tracking problems."
+    },
+    {
+      "icon": "pe-7s-download",
+      "title": "Less Theory &amp; More Questions",
+      "content": "The course will lay emphasis on solving more no of questions based on data structures including topics likes bitmasking, DP, Graphs."
+    },
+    {
+      "icon": "et-line-speedometer",
+      "title": "Algorithmic Analysis",
+      "content": "You will learn the various problem solving paradigms like Divide and Conquer, Greedy Algorithms, Brute Force and Dynamic Programming. With ample no of questions, we will make ¬sure you will hit the right approach when solving problems in future."
+    },
+    {
+      "icon": "pe-7s-network",
+      "title": "Interview Preparation",
+      "content": "The main idea of the course is to get you ahead in interviews of IT companies. With rigorous practice of problems based on DS and Algorithms, the course will make sure you will do well in most of your interviews."
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Problem Solving Paradigms",
+      "contentTitle": "Problem Solving Paradigms",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "Recursion Problems",
+		  "Backtracking Problems",
+		  "Divide and Conquer Problems"
+      ]
+    },
+    {
+      "title": "Foundational DS",
+      "contentTitle": "Foundational DS",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "Arrays & Bitmasking, Vectors",
+		  "Stacks, Queues Problems",
+		  "Linked Lists"
+      ]
+    },
+    {
+      "title": "Advanced DS",
+      "contentTitle": "Advanced DS",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "Binary Trees",
+		  "BST’s",
+		  "Heaps",
+		  "Hashing",
+		  "Graphs-I",
+		  "Graphs-II, Tries"
+      ]
+    },
+    {
+      "title": "Advanced Problem Solving",
+      "contentTitle": "Advanced Problem Solving",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "Dynamic Programming",
+		  "Greedy Algorithms"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "The course is ideal for intermediate programmers, with hands-on experience of basics. It is also useful for students preparing for internship and placement interviews and looking forward to learning data structures and algorithms with ample problem solving."
+    },
+    {
+      "ques": "I didn't have C++ in class XII, can I do this course?",
+      "ans": "No, this course is not for beginners. You must be proficient with programming fundamentals like arrays, stacks, queues etc. to do this course."
+    },
+    {
+      "ques": "Will this course help me with interviews?",
+      "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time and ptimising space and time is what most interviewers look for."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "Upcoming Batches:",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Sessions on Competitive Coding"
+      }
+    ]
+  },
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang",
+      "Deepak Aggarwal",
+      "Rajesh Sachdev",
+      "Nipun Jain"
+    ]
+  },
+  "courseReviews": [
+    "NAVDEEP SINGH",
+    "SHREYA GUPTA",
+    "ANIRUDH GUPTA",
+    "DEEPAK KUMAR"
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=95"
+}

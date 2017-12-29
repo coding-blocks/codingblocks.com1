@@ -87,7 +87,7 @@
     {
       "name": "Garima Chhikara",
       "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/c_garima.jpg",
+      "imgSrc": "/assets/images/cb/team/Garima Final.jpg",
       "imgAlt": "Garima Chhikara",
       "bio": "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining."
     },
@@ -134,11 +134,32 @@
       "bio": "Fahad is a DTU graduate and is passionate about quizzing, public speaking and food. An engineer by qualification but not by interest, he chose a career in marketing and business development. He tries to be the Blocks in Coding Blocks by contributing towards every non-Coding aspect."
     },
     {
+      "name": "Varun Hasija",
+      "role": "Head of Engineering",
+      "imgSrc": "/assets/images/cb/team/Varun Final.jpg",
+      "imgAlt": "Varun Hasija",
+      "bio": "A graduate from DTU, Varun has worked as an operations manager for a startup, and as a software developer for Practo. He published two research papers in international IEEE conferences and also received acknowledgments from the likes of Michael Bernstein in papers published by Stanford graduates."
+    },
+    {
       "name": "Prajjwal Singh",
       "role": "Developer",
       "imgSrc": "/assets/images/cb/team/c_prajjwal.JPG",
       "imgAlt": "Prajjwal Singh",
       "bio": "Prajjwal is guilty of programming and other cybershenanigans. Experienced with Ruby / Rails / Sinatra, as well as JavaScript / Node / Express. Other than that, he is into UNIX, Number Theory, Machine Learning, Declarative Programming, and trolling Emacs users on IRC."
+    },
+    {
+      "name": "Himank Bhalla",
+      "role": "Developer",
+      "imgSrc": "/assets/images/cb/team/Himank Final.jpg",
+      "imgAlt": "Himank Bhalla",
+      "bio": "An enthusiastic full-stack web developer, Himank has worked at multiple Delhi based startups. He also designed the website for International Conference on Computational Techniques in Information and Communication Technologies (ICCTICT)."
+    },
+    {
+      "name": "Rajkishor Ranjan",
+      "role": "",
+      "imgSrc": "/assets/images/cb/team/Raj Final.jpg",
+      "imgAlt": "Rajkishor Ranjan",
+      "bio": "An IIT-Patna graduate in Computer Science, Rajkishor is a Mathematics wizard and an avid competitive coder. Having taught Mathematics to top batches of Vidya Mandir Classes, Rajkishor will now be taking classes at Coding Blocks for Launchpad, Competitive Coding and more C++ based courses."
     },
     {
       "name": "Mansi Marwaha",
@@ -152,6 +173,11 @@
       "imgSrc": "/assets/images/cb/team/Priyanka.jpg"
     },
     {
+      "name": "Deepika Jain",
+      "role": "Counsellor",
+      "imgSrc": "/assets/images/cb/team/Deepika.jpg"
+    },
+    {
       "name": "Samuel",
       "role": "Support Staff",
       "imgSrc": "/assets/images/cb/team/staff03.jpg"
@@ -160,6 +186,16 @@
       "name": "Manish",
       "role": "Support Staff",
       "imgSrc": "/assets/images/cb/team/Ashu.jpg"
+    },
+    {
+      "name": "Abhishek",
+      "role": "Support Staff",
+      "imgSrc": "/assets/images/cb/team/staff-abhishek.jpg"
+    },
+    {
+      "name": "Manoj",
+      "role": "Support Staff",
+      "imgSrc": "/assets/images/cb/team/staff-manoj.jpg"
     },
     {
       "name": "Bhavya Aggarwal",

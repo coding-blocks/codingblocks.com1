@@ -1,7 +1,7 @@
 {
   "id": "bootcamp04",
-  "name": "AI Chat Bots",
-  "title": "AI Chat Bots Bootcamp | Coding Blocks",
+  "name": "AI Chat Bots using Python",
+  "title": "AI Chat Bots Bootcamp in Python | Coding Blocks",
   "metas": [
     {
       "name": "desciption",
@@ -10,7 +10,7 @@
   ],
   "header": {
     "bgSrc": "../assets/images/cb/cover/cb_chatbot.jpg",
-	"heading": "Chatbots Bootcamp",
+	"heading": "Python AI Chatbots Bootcamp",
 	"subHeading": "Learn to build AI Powered Chat Bots"
   },
   "overview": {

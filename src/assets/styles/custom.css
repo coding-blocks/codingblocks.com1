@@ -717,6 +717,10 @@ h1 .sub-heading {
     margin-top: 64px;
 }
 
+.mb64 {
+    margin-bottom: 64px;
+}
+
 .mb120 {
     margin-bottom: 120px;
 }
@@ -734,4 +738,57 @@ h1 .sub-heading {
 
 .content-center {
     justify-content: center;
+}
+
+/*Course Content Cards*/
+
+.course-card-container {
+    padding: 20px 0;
+}
+
+.course-card {
+    padding: 20px;
+    font-size: 16px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.course-card-container .course-card:nth-of-type(2n - 1) {
+    background: #f5f5f5;
+}
+
+.course-card-container .course-card:nth-of-type(2n) {
+    background: #fff;
+}
+
+.course-card .topic {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+	height: 80px;
+	overflow: hidden;
+	word-wrap: break-word;
+	text-overflow: ellipses;
+}
+
+.course-card hr {
+    margin-bottom: 15px;
+}
+
+.course-card .description {
+    margin-bottom: 10px;
+}
+
+.course-card .points-list {
+    list-style: inherit;
+    margin-left: 15px;
+}
+
+.points-list li {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+footer, section {
+    padding: 40px 0;
 }
