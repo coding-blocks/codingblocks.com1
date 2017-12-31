@@ -165,7 +165,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(8 lectures)",
-      "link": "/courses/java-for-beginners.html",
+      "link": "/courses/classroom/java.html",
       "description": [
         "Programming Fundamentals in Java"
       ],
@@ -229,7 +229,7 @@
     },
     {
       "id": "course10",
-      "name": "Data Structures and Algorithms Using C++",
+      "name": "Data Structures and Algo Using C++",
       "price": "12,000",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "Data Structures and Algorithms Using C++",
@@ -255,12 +255,12 @@
     },
     {
       "id": "course11",
-      "name": "Data Structures and Algorithms Using Java",
+      "name": "Data Structures and Algo Using Java",
       "price": "12,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Data Structures and Algorithms Using Java",
       "lectures": "(12-15 lectures)",
-      "link": "/courses/ds-algo-java.html",
+      "link": "/courses/classroom/java.html",
       "description": [
         "Data Structures in Java"
       ],

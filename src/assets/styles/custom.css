@@ -907,3 +907,12 @@ footer, section {
 .tabbed-enroll-section {
     margin-top: 40px;
 }
+
+.nav-bar {
+    text-transform: uppercase !important;
+}
+
+.widget .vpf a {
+    text-transform: capitalize !important;
+
+}
