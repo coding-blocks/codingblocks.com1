@@ -1,37 +1,6 @@
 {
   "bootcampsList": [
     {
-      "id": "bootcamp01",
-      "name": "Competitive programming",
-      "price": "12,000",
-      "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
-      "imgAlt": "Competitive Programming course logo",
-      "lectures": "(10 lectures)",
-      "link": "/bootcamps/competitiveprogramming.html",
-      "description": [
-        "Maths &amp; Number Theory",
-        "Greedy &amp; Divide 'n' Conquer",
-        "Dynamic Programming &amp; Graphs",
-        "Segment trees &amp; Game Theory"
-      ],
-      "odd": true
-    },
-    {
-      "id": "bootcamp02",
-      "name": "Interview Preparation",
-      "price": "5,000",
-      "imgSrc": "/assets/images/cb/r_final.png",
-      "imgAlt": "Interview Preparation Bootcamp logo",
-      "lectures": "(8 lectures)",
-      "link": "/bootcamps/interviewprep.html",
-      "description": [
-        "Operating Systems",
-        "DBMS",
-        "Networking &amp;SystemDesign",
-        "Mock Interviews"
-      ]
-    },
-    {
       "id": "bootcamp03",
       "name": "Game Development",
       "price": "5,000",

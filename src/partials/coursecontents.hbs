@@ -5,6 +5,9 @@
         <h2 class="uppercase mb16 text-center color-primary">Course Contents</h2>
         <div class="course-card-container">
             {{#each courseContents}}
+                {{#ifDivisible @index 3 "start"}}
+                <div class="content-row">
+                {{/ifDivisible}}
                 <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
                     <h3 class="topic">{{{title}}}</h3>
                     <hr>
@@ -19,6 +22,9 @@
                         </ul>
                     {{/if}}
                 </div>
+                {{#ifDivisible @index 3 "end"}}
+                </div>
+                {{/ifDivisible}}
             {{/each}}
         </div>
     </div>

@@ -3,14 +3,22 @@
         <h2 class="uppercase text-center">What our students say</h2>
     </div>
     <div class="row text-center">
-        <div class="col-xs-10 col-xs-offset-1">
-            {{#each courseReviews}}
-                {{#each @root.reviews.reviewsList}}
-                    {{#ifEquals ../this this.name}}
-                        {{> review-card reviewSlug = ../../reviewSlug}}
-                    {{/ifEquals}}
+        <div class="col-xs-10 col-xs-offset-1 image-slider slider-all-controls controls-inside pt0 pb0 review-slides">
+            <ul class="slides">
+                {{#each courseReviews}}
+                    {{#ifDivisible @index 4 "start"}}
+                    <li>
+                    {{/ifDivisible}}
+                    {{#each @root.reviews.reviewsList}}
+                        {{#ifEquals ../this this.name}}
+                            {{> review-card reviewSlug = ../../reviewSlug}}
+                        {{/ifEquals}}
+                    {{/each}}
+                    {{#ifDivisible @index 4 "end"}}
+                    </li>
+                    {{/ifDivisible}}
                 {{/each}}
-            {{/each}}
+            </ul>
         </div>
     </div>
     <div class="row text-center mt64">
