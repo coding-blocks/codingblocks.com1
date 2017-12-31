@@ -106,6 +106,58 @@
       "pull-right": true
     }
   ],
+  "coursesRow1": [
+    {
+      "id": "course08"
+    },
+    {
+      "id": "course10",
+      "odd": true
+    },
+    {
+      "id": "course01",
+      "combo": true
+    }
+  ],
+  "coursesRow2": [
+    {
+      "id": "course07",
+      "odd": true
+    },
+    {
+      "id": "course11"
+    },
+    {
+      "id": "course02",
+      "combo": true
+    }
+  ],
+  "coursesRow3": [
+    {
+      "id": "course03"
+    },
+    {
+      "id": "course04",
+      "odd": true
+    },
+    {
+      "id": "course14",
+      "odd": false
+    }
+  ],
+  "coursesRow4": [
+    {
+      "id": "course09",
+      "odd": true
+    },
+    {
+      "id": "course06"
+    },
+    {
+      "id": "bootcamp01",
+      "odd": true
+    }
+  ],
   "coursesSection": {
     "showAll": true
   },
@@ -136,8 +188,16 @@
   },
   "courseReviews": [
     "Naman Kumar",
-    "Piyush Ajmani",
     "RISHABH KHANNA",
-    "ISHPREET SINGH"
+    "YAMINI GAUR",
+    "ISHPREET SINGH",
+    "SUNEET SRIVASTAVA",
+    "RISHABH MENDIRATTA",
+    "GAGAN BHAYANA",
+    "ANIRUDH GUPTA",
+    "SHREYA GUPTA",
+    "KANIKA BHOOKER",
+    "GURLEEN KAILEY",
+    "PURUJIT BANSAL"
   ]
 }
