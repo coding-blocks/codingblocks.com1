@@ -927,6 +927,7 @@ footer, section {
     border-radius: 50%;
     padding: 10px;
     cursor: pointer;
+    z-index: 999;
     box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 15px;
 }
 
