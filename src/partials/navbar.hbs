@@ -3,7 +3,7 @@
     <nav>
         <div class="nav-bar">
             <div class="module left">
-                <a href="https://www.codingblocks.com">
+                <a href="{{#relativePath @file.path "/"}}{{/relativePath}}">
                     {{#with navBar}}
                         <img class="logo logo-light" alt="Foundry"
                              src="{{#relativePath @file.path logoLightSrc}}{{/relativePath}}">

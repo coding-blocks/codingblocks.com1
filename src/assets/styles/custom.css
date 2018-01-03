@@ -914,5 +914,32 @@ footer, section {
 
 .widget .vpf a {
     text-transform: capitalize !important;
+}
 
+.caller {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    height: 70px;
+    background: #fc4f4f;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 15px;
+}
+
+.caller-img {
+    filter: invert(100%);
+}
+
+@media (max-width: 767px) {
+    #jivo-iframe-container, jdiv {
+        display: none !important;
+    }
+
+    .caller {
+        display: block;
+    }
 }
