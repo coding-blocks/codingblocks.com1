@@ -917,7 +917,7 @@ footer, section {
 }
 
 .caller {
-    display: block;
+    display: none;
     position: fixed;
     bottom: 100px;
     right: 20px;
@@ -928,9 +928,15 @@ footer, section {
     padding: 10px;
     cursor: pointer;
     z-index: 999;
-    box-shadow: 0 19px 38px 0 rgba(34,36,43,.3);
+    box-shadow: 0 19px 38px 0 rgba(34, 36, 43, .3);
 }
 
 .caller-img {
     filter: invert(100%);
+}
+
+@media (max-width: 767px) {
+    .caller {
+        display: block;
+    }
 }
