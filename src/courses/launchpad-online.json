@@ -15,8 +15,8 @@
     "description": "LaunchPad is an Online C++ course designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. A beginners’ course including basic programming fundamentals, object oriented programming and in-depth coverage of data structures and algorithms."
   },
   "header": {
-    "heading": "Launchpad Live",
-    "subHeading": "Programming Fundamentals in C++<br>Now attend from your home.",
+    "heading": "Launchpad Online",
+    "subHeading": "Programming Fundamentals in C++",
     "breadcrumbs": [
       {
         "linkText": "Highlights",
@@ -94,5 +94,6 @@
       "ans": "Yes, you will get certification after you successfully pass the online exam after completing the course. For certification, we suggest joining both Level 1 and Level 2 courses."
     }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=54"
+  "registerLinkAdvanced": "https://students.codingblocks.com/payment/iframe?item_id=55",
+  "registerLinkComplete": "https://students.codingblocks.com/payment/iframe?item_id=56"
 }
