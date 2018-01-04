@@ -1,18 +1,20 @@
 <!--course-->
-<div class="pricing-card {{#if odd}}pricing-card-inverse{{/if}} col-md-4 col-sm-6">
-    <div class="pricing-table pt-2 text-center {{#if odd}}boxed{{/if}}">
-        <img alt="{{{imgAlt}}}" class="course logo" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
-        <h4 class="uppercase bold">{{{name}}}</h4>
+<div class="pricing-card courses-card {{#if options.odd}}pricing-card-inverse{{/if}} col-md-4 col-sm-6  {{#if
+        options.combo}}combo{{/if}}">
+    <div class="pricing-table courses-card pt-2 text-center {{#if options.odd}}boxed{{/if}} {{#if options.combo}}combo{{/if}}">
+        {{#unless options.combo}}
+            <img alt="{{{imgAlt}}}" class="course logo" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
+        {{else}}
+            <div class="combo-offer">Save ₹{{off-price}}</div>
+            <h4 class="combo-title">COMBO</h4>
+        {{/unless}}
+        <h4 class="uppercase bold name">{{{name}}}</h4>
         <span class="price">₹{{{price}}}</span>
+        <p class="description">{{description.[0]}}</p>
         <p class="lead">{{{lectures}}}</p>
         <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
                 linkText}}
             Register Now{{else}}{{{linkText}}}{{/unless}}</a>
-        <ul>
-            {{#each description}}
-                <li><strong>{{{this}}}</strong></li>
-            {{/each}}
-        </ul>
     </div>
 </div>
 <!--endcourse-->

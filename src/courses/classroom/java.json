@@ -1,7 +1,5 @@
 {
-  "id": "course02",
-  "name": "Crux",
-  "title": "Java Training in Delhi, Greater Noida | Crux by Coding Blocks",
+  "title": "Best Java Training in Delhi, Greater Noida | Coding Blocks",
   "metas": [
     {
       "name": "description",
@@ -9,14 +7,14 @@
     }
   ],
   "openGraph": {
-    "url": "https://codingblocks.com/courses/crux.html",
-    "title": "Crux - Foundation Course in Java",
+    "url": "https://codingblocks.com/courses/classroom/java.html",
+    "title": "Java Beginner & Advance Course | Coding Blocks",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
     "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
   },
   "header": {
-    "heading": "crux",
-    "subHeading": "Programming Fundamentals using Java",
+    "heading": "Java Beginner & Advance Course",
+    "subHeading": "Learn Java Now!",
     "breadcrumbs": [
       {
         "linkText": "Highlights",
@@ -31,10 +29,10 @@
         "link": "#faq"
       }
     ],
-    "bgSrc": "../assets/images/cb/cover/covergcp.jpg"
+    "bgSrc": "../../assets/images/cb/cover/covergcp.jpg"
   },
   "overview": {
-    "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements.Designed for beginners, CRUX is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+    "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements.Designed for beginners, this is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
   },
   "courseHighlights": [
     {
@@ -56,79 +54,6 @@
       "icon": "et-line-linegraph",
       "title": "Data Structures&nbsp;<br>&amp; Algorithms",
       "content": "This course entails more than 100 hours of teaching and hands on coding. Students will be solving more than 200 complex problems and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
-    }
-  ],
-  "courseContents": [
-    {
-      "active": true,
-      "title": "Logic Building and Java Fundamentals",
-      "contentTitle": "Programming fundamentals and logic building",
-      "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
-      "points": [
-        "Flowcharts, pseudo-code and brain teasers",
-        "IDE installation and familiarization",
-        "Debugging",
-        "Input-Output",
-        "Data Types and Variables",
-        "Typecasting",
-        "Loops and Decision constructs",
-        "Functions and operators",
-        "Arrays, multi-dimensional arrays and dynamic arrays",
-        "String and String Buffer"
-      ]
-    },
-    {
-      "title": "Recursion",
-      "contentTitle": "Recursion and Backtracking",
-      "description": "Then we will dive deep into Recursion and solve complex problems involving backtracking.",
-      "points": [
-        "Introduction",
-        "Classical Recursion Problems",
-        "Back-tracking",
-        "Advanced Recursion problems",
-        "Optimization"
-      ]
-    },
-    {
-      "title": "OOP",
-      "contentTitle": "Object Oriented Programming, Complexity Analyis",
-      "description": "In this part we learn about how to compute space-time complexity of our solution and how can we optimise our solutions. We will also learn about OOPs and recommended coding practices.",
-      "points": [
-        "Classes and objects",
-        "Class, Function and Data member modifiers",
-        "Encapsulation, Inheritance and Polymorphism",
-        "Abstract classes, Interfaces and Packages",
-        "Generics and Exceptions"
-      ]
-    },
-    {
-      "title": "Data Structures and Algorithms",
-      "contentTitle": "Linked Lists, Stacks, Queues, Trees",
-      "description": "This is the most important and exciting part and yet easy. Data structures are all about storing data.You will learn to implement different data structures and when to use them. This part is important as most of the questions asked in interviwes are related to data structures.",
-      "lectures": "Lecture 14-23",
-      "points": [
-        "Linked Lists",
-        "Stacks",
-        "Queues",
-        "Generic Trees",
-        "Binary Trees",
-        "Binary Search Trees",
-        "Hash Tables &amp; Heaps",
-        "Graphs – Traversals, Minimum Spanning trees, Shortest path algorithms",
-        "Text Processing – Text Matching, Compression",
-        "Dynamic Programming"
-      ]
-    },
-    {
-      "title": "Project Development",
-      "contentTitle": "Heaps, Hash Tables, Graphs, Tries, Dynamic Programming",
-      "description": "In last classes we will build a game using Java Swing Libraries.",
-      "lectures": "Project Development",
-      "points": [
-        "Learning about Java Swing",
-        "One game developed in class",
-        "Second game done as assignment"
-      ]
     }
   ],
   "faqs": [
@@ -161,19 +86,6 @@
       "ans": "This is not CORE java or Advanced Java. This is a course which teaches you problem solving, data structures and Object Oriented Programming. Though, most of what CORE java means is being covered. The aim of the course is to help you with a smarter beginning. For being able to make web and mobile apps you need to learn frameworks. Android is one such framework for mobile apps. Please check out our Pandora and Elixir course for more details on these lines."
     }
   ],
-  "courseEnroll": {
-    "upcomingBatches": "",
-    "highlights": [
-      {
-        "icon": "et-line-search",
-        "content": "Online code Submission &amp; Evaluation"
-      },
-      {
-        "icon": "pe-7s-cup",
-        "content": "Special Session on Java Game Development"
-      }
-    ]
-  },
   "mentors": {
     "heading": "Mentors",
     "content": "",
@@ -191,6 +103,5 @@
     "ANSH SACHDEVA",
     "GAGARIN DASH",
     "KSHITIJ BANSAL"
-  ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=100"
+  ]
 }
