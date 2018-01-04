@@ -917,30 +917,20 @@ footer, section {
 }
 
 .caller {
-    display: none;
+    display: block;
     position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 55px;
-    height: 55px;
+    bottom: 100px;
+    right: 20px;
+    width: 65px;
+    height: 65px;
     background: #64d648;
     border-radius: 50%;
     padding: 10px;
     cursor: pointer;
     z-index: 999;
-    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 15px;
+    box-shadow: 0 19px 38px 0 rgba(34,36,43,.3);
 }
 
 .caller-img {
     filter: invert(100%);
-}
-
-@media (max-width: 767px) {
-    #jivo-iframe-container, jdiv {
-        display: none !important;
-    }
-
-    .caller {
-        display: block;
-    }
 }
