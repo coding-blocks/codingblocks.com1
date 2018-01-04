@@ -269,6 +269,8 @@
                                     
                                     </ul>
                                 </div>
+							{{> courseenroll courseEnroll=courseEnrollComplete}}
+							{{> registration registerLink=registerLinkComplete}}
                             </div>
                             <div role="tabpanel" class="tab-pane" id="syllabus-advanced">
                                 <div class="tabbed-content button-tabs vertical">
@@ -341,6 +343,9 @@
                                         </li>
                                     </ul>
                                 </div>
+							{{> courseenroll courseEnroll=courseEnrollAdvanced}}
+							<a id="registerAdvanced" class="in-page-link"></a>
+							{{> registration registerLink=registerLinkAdvanced}}
                             </div>
                         </div>
 
@@ -364,95 +369,6 @@
     {{> coursefaq}}
 
 	{{> team team=mentors}}
-
-    <!-- SECTION: Registration -->
-    <a id="course-buy" class="in-page-link"></a>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h4 class="uppercase mb16">Course Modules</h4>
-                    <p class="lead mb64">
-                        Develop your programming skills step by step, grasping basic concepts first and then moving to
-                        advanced module.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 col-md-offset-1 col-sm-6">
-                    <div class="pricing-table pt-2 emphasis text-center">
-                        <h5 class="uppercase">Complete Bundle</h5>
-                        <div class="price">
-                            <div class="old-price">₹12000</div>
-                            <div class="new-price">₹8000</div>
-                        </div>
-
-                        <p class="lead">(30 Lectures)</p>
-                        <a class="btn btn-white btn-lg" id="payment-combo-link" href="#payment-combo">Register Now</a>
-                        <ul>
-                            <li>
-                                Entire C++ programming stack
-                            </li>
-                            <li>
-                                <strong>Data Structures</strong> and <strong>Algorithms</strong>
-                            </li>
-                            <li>
-                                <strong>300+ Problems</strong>, Online Hackathons
-                            </li>
-                            <li>
-                                Coding Blocks <strong>Certification</strong>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div class="col-md-4 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                    <div class="pricing-table pt-2 boxed text-center">
-                        <h5 class="uppercase">Advanced Only</h5>
-                        <div class="price">
-                            <div class="old-price">₹9000</div>
-                            <div class="new-price">₹6000</div>
-                        </div>
-                        <p class="lead">(20 Lectures)</p>
-                        <a class="btn btn-filled btn-lg" id="payment-advanced-link" href="#payment-advanced">Register Now</a>
-                        <ul>
-                            <li>
-                                <strong>Object Oriented</strong> Programming Concepts
-                            </li>
-                            <li>
-                                Advanced <strong>Data Structures</strong> and Algorithms
-                            </li>
-                            <li>
-                                Dynamic Programming and <strong>Recursion</strong>
-                            </li>
-                            <li>
-                                <strong>200+</strong> Problems, Hackathons
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-	<section class="row">
-		<a id="payment-combo" class="in-page-link"></a>
-		<a id="payment-advanced" class="in-page-link"></a>
-		<div class="col-md-10 col-md-offset-1">
-			<div id="complete-bundle-registration" class="text-center">
-				<h3>REGISTER NOW (Complete Bundle)</h3>
-				{{> registration registerLink=registerLinkComplete noHeading=true}}
-			</div>
-			<div id="advanced-bundle-registration" class="text-center">
-				<h3>REGISTER NOW (Advanced Only)</h3>
-				{{> registration registerLink=registerLinkAdvanced noHeading=true}}
-			</div>
-		</div>
-	</section>
 
     <!-- SECTION: Testimonials -->
     <a id="course-testimonials" class="in-page-link"></a>
@@ -507,28 +423,5 @@
     {{> footer}}
 </div>
 {{> scripts}}
-<script>
-	$(function () {
-		const registerLinkAdvanced = $('#payment-advanced-link'),
-		  registerLinkCombo = $('#payment-combo-link'),
-		  registerBoxAdvanced = $('#advanced-bundle-registration'),
-		  registerBoxCombo = $('#complete-bundle-registration')
-		;
-
-		registerBoxAdvanced.hide ()
-
-		registerLinkAdvanced.click (function () {
-			console.log ("Clicked Advanced")
-			registerBoxCombo.hide ()
-			registerBoxAdvanced.show ()
-		})
-
-		registerLinkCombo.click (function () {
-			console.log ("Clicked Combo")
-			registerBoxAdvanced.hide ()
-			registerBoxCombo.show ()
-		})
-	})
-</script>
 </body>
 </html>

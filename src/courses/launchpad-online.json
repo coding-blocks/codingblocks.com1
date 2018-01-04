@@ -33,13 +33,31 @@
     ],
     "bgSrc": "../assets/images/cb/cover/cover_laptop_books.jpg"
   },
-  "courseEnroll": {
+  "courseEnrollAdvanced": {
+    "upcomingBatches": "New batch starting this February",
+	"priceCut": "9,000",
+	"price": "6,000",
+	"registerButton": {
+		"buttonText": "Register Now",
+		"registerIdSlug": "Advanced"
+	},
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Sessions on Competitive Coding"
+      }
+    ]
+  },
+  "courseEnrollComplete": {
     "upcomingBatches": "New batch starting this February",
 	"priceCut": "12,000",
 	"price": "8,000",
 	"registerButton": {
-		"buttonText": "Registration Starting Soon",
-		"disabled": true
+		"buttonText": "Register Now"
 	},
     "highlights": [
       {
