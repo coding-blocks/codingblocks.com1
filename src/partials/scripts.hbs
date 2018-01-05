@@ -1,3 +1,9 @@
+<a href="tel:18002744504">
+    <div class="caller">
+        <img class="caller-img" src="{{#relativePath @file.path "/assets/images/icons/caller.png"}}{{/relativePath}}"/>
+    </div>
+</a>
+
 <script src="{{#relativePath @file.path "/assets/scripts/jquery.min.js"}}{{/relativePath}}"></script>
 <script src="{{#relativePath @file.path "/assets/scripts/jquery.flip.min.js"}}{{/relativePath}}"></script>
 <script src="{{#relativePath @file.path "/assets/scripts/jquery.waypoints.min.js"}}{{/relativePath}}"></script>
@@ -11,12 +17,8 @@
     $(function () {
         $('.flip-card').flip({
             axis: 'y',
-            trigger: 'hover'
-        }).waypoint(function (direction) {
-            $(this.element).flip(direction == 'down');
-        }, {
-            offset: '40%'
-        })
+            trigger: 'click'
+        });
     })
 </script>
 

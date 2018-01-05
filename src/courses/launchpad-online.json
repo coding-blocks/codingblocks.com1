@@ -15,8 +15,8 @@
     "description": "LaunchPad is an Online C++ course designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. A beginners’ course including basic programming fundamentals, object oriented programming and in-depth coverage of data structures and algorithms."
   },
   "header": {
-    "heading": "Launchpad Live",
-    "subHeading": "Programming Fundamentals in C++<br>Now attend from your home.",
+    "heading": "Launchpad Online",
+    "subHeading": "Programming Fundamentals in C++",
     "breadcrumbs": [
       {
         "linkText": "Highlights",
@@ -33,13 +33,31 @@
     ],
     "bgSrc": "../assets/images/cb/cover/cover_laptop_books.jpg"
   },
-  "courseEnroll": {
+  "courseEnrollAdvanced": {
+    "upcomingBatches": "New batch starting this February",
+	"priceCut": "9,000",
+	"price": "6,000",
+	"registerButton": {
+		"buttonText": "Register Now",
+		"registerIdSlug": "Advanced"
+	},
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Sessions on Competitive Coding"
+      }
+    ]
+  },
+  "courseEnrollComplete": {
     "upcomingBatches": "New batch starting this February",
 	"priceCut": "12,000",
 	"price": "8,000",
 	"registerButton": {
-		"buttonText": "Registration Starting Soon",
-		"disabled": true
+		"buttonText": "Register Now"
 	},
     "highlights": [
       {
@@ -86,13 +104,16 @@
       "ans": "Yes, absolutely. Our course is designed in such a way it covers from fundamentals to advanced topics. Many frequently asked Interview questions will be done in the class and in assignments. We will have special interview talks by industry experts from reputed companies."
     },
     {
-      "ques": "Will I get recordings of the live class, for later viewing?",
-      "ans": "Yes. All recordings will be available for later viewing in your Coding Blocks Student Account."
-    },
-    {
       "ques": "Will I get any certification?",
       "ans": "Yes, you will get certification after you successfully pass the online exam after completing the course. For certification, we suggest joining both Level 1 and Level 2 courses."
     }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=54"
+  "courseReviews": [
+    "NAVDEEP SINGH",
+    "SHREYA GUPTA",
+    "ANIRUDH GUPTA",
+    "DEEPAK KUMAR"
+  ],
+  "registerLinkAdvanced": "https://students.codingblocks.com/payment/iframe?item_id=55",
+  "registerLinkComplete": "https://students.codingblocks.com/payment/iframe?item_id=56"
 }

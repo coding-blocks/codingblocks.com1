@@ -2,7 +2,7 @@
 {{#with team}}
     <a id="team" class="in-page-link"></a>
     {{#unless noHeading}}
-        <section class="bg-secondary">
+        <section class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2 class="uppercase mb16">{{{heading}}}</h2>
@@ -38,31 +38,6 @@
                         <a class="btn btn-white btn-filled btn-lg"
                            href="{{#relativePath @file.path "/team.html"}}{{/relativePath}}">Meet The Team!</a>
                     </div>
-                </div>
-            </div>
-    {{/if}}
-    {{#if companies}}
-            <div class="flex-container affiliated-company-container">
-                <div class="flex-item"><img alt="Facebook" src="{{#relativePath @file.path
-                                                                                "/assets/images/cb/logos/fb_icon.png" }}{{/relativePath}}">
-                </div>
-                <div class="flex-item"><img alt="Browserstack" src="{{#relativePath @file.path
-                                                                                    "/assets/images/cb/logos/r_browserstack.jpg" }}{{/relativePath}}">
-                </div>
-                <div class="flex-item"><img alt="Cyanogen" src="{{#relativePath @file.path
-                                                                                "/assets/images/cb/logos/r_cyanogen.png" }}{{/relativePath}}">
-                </div>
-                <div class="flex-item"><img alt="Micromax" src="{{#relativePath @file.path
-                                                                                "/assets/images/cb/logos/r_micromax.png" }}{{/relativePath}}">
-                </div>
-                <div class="flex-item"><img alt="Nagarro" src="{{#relativePath @file.path
-                                                                               "/assets/images/cb/logos/r_nagarro.png" }}{{/relativePath}}">
-                </div>
-                <div class="flex-item"><img alt="Sandisk" src="{{#relativePath @file.path
-                                                                               "/assets/images/cb/logos/r_sandisk.png" }}{{/relativePath}}">
-                </div>
-                <div class="flex-item"><img alt="Sony" src="{{#relativePath @file.path
-                                                                            "/assets/images/cb/logos/r_sony.png" }}{{/relativePath}}">
                 </div>
             </div>
     {{/if}}

@@ -10,10 +10,40 @@
 <div class="main-container">
     {{> slider}}
     {{> events}}
-    {{> courses}}
-    {{> bootcamps}}
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="uppercase mb16">courses</h2>
+                    <p class="lead mb64">
+                        Courses for all stages, with equal focus on theory and implementation</p>
+                </div>
+            </div>
+            {{> coursesRow courses=coursesRow1}}
+            {{> coursesRow courses=coursesRow2}}
+            {{> coursesRow courses=coursesRow3}}
+            {{> coursesRow courses=coursesRow4}}
+        </div>
+    </section>
     {{> numbers}}
-    {{> team}}
+    <div class="hidden-xs">
+        {{> team}}
+    </div>
+    <div class="visible-xs">
+        <section>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div style="padding: 10px">
+                        <h2 class="uppercase mb16">Our Time</h2>
+                        <p class="lead mb64"> The backbone of Coding Blocks is the team of enthusiastic and talented
+                            mentors. Our best-in-class team comprises of mentors with vast industrial experience, people
+                            who have published papers in international journals, and developers associated with GSoC and
+                            Google Code-in.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     {{> review-course-section}}
     {{> map}}
     {{> footer}}

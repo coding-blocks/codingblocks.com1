@@ -615,7 +615,7 @@ h1 .sub-heading {
     height: 186px;
 }
 
-.newsletter-card h3 {
+.newsletter-card h4 {
     padding: 75px 0 !important;
 }
 
@@ -744,31 +744,49 @@ h1 .sub-heading {
 
 .course-card-container {
     padding: 20px 0;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.course-card-container .content-row {
+    height: 100%;
+    overflow: hidden;
 }
 
 .course-card {
     padding: 20px;
     font-size: 16px;
-    height: 500px;
+    height: 100%;
+    margin-bottom: -100%;
+    padding-bottom: 100%;
     overflow: hidden;
+    position: relative;
 }
 
-.course-card-container .course-card:nth-of-type(2n - 1) {
+.course-card-container .content-row:nth-of-type(2n - 1) .course-card:nth-of-type(2n - 1) {
     background: #f5f5f5;
 }
 
-.course-card-container .course-card:nth-of-type(2n) {
+.course-card-container .content-row:nth-of-type(2n - 1) .course-card:nth-of-type(2n) {
     background: #fff;
+}
+
+.course-card-container .content-row:nth-of-type(2n) .course-card:nth-of-type(2n - 1) {
+    background: #fff;
+}
+
+.course-card-container .content-row:nth-of-type(2n) .course-card:nth-of-type(2n) {
+    background: #f5f5f5;
 }
 
 .course-card .topic {
     font-size: 20px;
     margin-bottom: 5px;
     font-weight: bold;
-	height: 80px;
-	overflow: hidden;
-	word-wrap: break-word;
-	text-overflow: ellipses;
+    height: 80px;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipses;
 }
 
 .course-card hr {
@@ -791,4 +809,134 @@ h1 .sub-heading {
 
 footer, section {
     padding: 40px 0;
+}
+
+.pricing-card.courses-card, .pricing-table.courses-card {
+    height: 450px;
+}
+
+.pricing-table {
+    padding: 15px;
+}
+
+.pricing-table .name {
+    margin-bottom: 10px;
+}
+
+.pricing-table .description {
+    margin-bottom: 5px;
+    min-height: 20px;
+    max-height: 20px;
+    overflow: hidden;
+}
+
+.courses-row {
+    margin-bottom: 40px;
+}
+
+.pricing-card.combo, .pricing-table.combo {
+    background: #FC4F4F;
+    color: white !important;
+    overflow: hidden;
+}
+
+.combo .name, .combo .price {
+    color: white !important;
+}
+
+.combo .combo-title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.combo .name {
+    font-size: 36px;
+}
+
+.combo .combo-offer {
+    position: absolute;
+    top: 35px;
+    right: -43px;
+    transform: rotate(45deg);
+    color: white;
+    background: #282828;
+    padding: 2px 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.team-card {
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.numbers-box .feature {
+    background: white;
+}
+
+.review-slides .flex-control-nav {
+    margin-bottom: -60px;
+}
+
+.review-slides .flex-control-nav li a {
+    width: 15px;
+    height: 15px;
+}
+
+.review-slides .flex-direction-nav .flex-next:before, .review-slides .flex-direction-nav .flex-prev:before {
+    font-size: 40px;
+    font-weight: 300;
+    color: #444;
+}
+
+.review-slides .flex-direction-nav .flex-next {
+    width: 100%;
+    height: 100%;
+    margin: -10px -80px 0 0;
+}
+
+.review-slides .flex-direction-nav .flex-prev {
+    width: fit-content;
+    height: 100%;
+    margin: -10px 0 0 -80px;
+}
+
+.tabbed-enroll-section {
+    margin-top: 40px;
+}
+
+.nav-bar {
+    text-transform: uppercase !important;
+}
+
+.widget .vpf a {
+    text-transform: capitalize !important;
+}
+
+.caller {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 65px;
+    height: 65px;
+    background: #64d648;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 999;
+    box-shadow: 0 19px 38px 0 rgba(34, 36, 43, .3);
+}
+
+.caller-img {
+    filter: invert(100%);
+}
+
+@media (max-width: 767px) {
+    .caller {
+        display: block;
+    }
 }
