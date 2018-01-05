@@ -94,6 +94,12 @@
       "ans": "Yes, you will get certification after you successfully pass the online exam after completing the course. For certification, we suggest joining both Level 1 and Level 2 courses."
     }
   ],
+  "courseReviews": [
+    "NAVDEEP SINGH",
+    "SHREYA GUPTA",
+    "ANIRUDH GUPTA",
+    "DEEPAK KUMAR"
+  ],
   "registerLinkAdvanced": "https://students.codingblocks.com/payment/iframe?item_id=55",
   "registerLinkComplete": "https://students.codingblocks.com/payment/iframe?item_id=56"
 }
