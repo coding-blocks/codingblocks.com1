@@ -19,15 +19,15 @@
     },
     {
       "id": "bootcamp04",
-      "name": "ChatBots and automation",
-      "price": "5,000",
+      "name": "ChatBots",
+      "price": "1,500",
       "imgSrc": "/assets/images/cb/logosc/color_chatbots.svg",
       "imgAlt": "ChatBots and automation Bootcamp logo",
       "lectures": "(5 lectures)",
-      "link": "/coming-soon.html",
+      "link": "/bootcamps/chatbots.html",
       "linkText": "See Details",
       "description": [
-        "Python &amp; Django",
+        "AI, ChatBots & Automation",
         "Facebook API &amp; Webhooks",
         "ChatBots",
         "Automation"
@@ -63,6 +63,45 @@
         "Getting Started",
         "Hands on with React",
         "Projects"
+      ]
+    },
+    {
+      "id": "bootcamp07",
+      "name": "Blockchain",
+      "price": "1,500",
+      "imgSrc": "/assets/images/cb/logosc/blockchain.png",
+      "imgAlt": "blockschain logo",
+      "lectures": "(2 days)",
+      "link": "/bootcamps/blockchain.html",
+      "linkText": "See Details",
+      "description": [
+        "Blockchain And Cryptocurrency Insights"
+      ]
+    },
+    {
+      "id": "bootcamp08",
+      "name": "AngularJS",
+      "price": "",
+      "imgSrc": "/assets/images/cb/logosc/angular.svg",
+      "imgAlt": "AngularJS logo",
+      "lectures": "",
+      "link": "/coming-soon.html",
+      "linkText": "Coming Soon",
+      "description": [
+        "Frontend Dev with AngularJs"
+      ]
+    },
+    {
+      "id": "bootcamp09",
+      "name": "Unity Game Dev",
+      "price": "",
+      "imgSrc": "/assets/images/cb/logosc/unity.png",
+      "imgAlt": "unity game dev logo",
+      "lectures": "",
+      "link": "/coming-soon.html",
+      "linkText": "Coming Soon",
+      "description": [
+        "Game development"
       ]
     }
   ]

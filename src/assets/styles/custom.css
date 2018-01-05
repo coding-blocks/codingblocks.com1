@@ -118,6 +118,7 @@ p.lead {
 
 .pricing-table .course.logo {
     height: 148px;
+    width: 148px;
     margin-bottom: 1rem;
 }
 
@@ -787,6 +788,14 @@ h1 .sub-heading {
     overflow: hidden;
     word-wrap: break-word;
     text-overflow: ellipses;
+}
+
+.courses-card .price {
+    min-height: 40px;
+}
+
+.courses-card .lead {
+    min-height: 28px;
 }
 
 .course-card hr {
