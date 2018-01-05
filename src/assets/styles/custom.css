@@ -615,7 +615,7 @@ h1 .sub-heading {
     height: 186px;
 }
 
-.newsletter-card h3 {
+.newsletter-card h4 {
     padding: 75px 0 !important;
 }
 
@@ -914,5 +914,29 @@ footer, section {
 
 .widget .vpf a {
     text-transform: capitalize !important;
+}
 
+.caller {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 65px;
+    height: 65px;
+    background: #64d648;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 999;
+    box-shadow: 0 19px 38px 0 rgba(34, 36, 43, .3);
+}
+
+.caller-img {
+    filter: invert(100%);
+}
+
+@media (max-width: 767px) {
+    .caller {
+        display: block;
+    }
 }

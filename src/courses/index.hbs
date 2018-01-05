@@ -8,10 +8,22 @@
 <body class="scroll-assist">
 {{> navbar}}
 <div class="main-container">
-    {{> courses}}
-    {{> bootcamps}}
-    {{> whatstudentssay}}
-    {{> readmoretestimonials}}
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="uppercase mb16">courses</h2>
+                    <p class="lead mb64">
+                        Courses for all stages, with equal focus on theory and implementation</p>
+                </div>
+            </div>
+            {{> coursesRow courses=coursesRow1}}
+            {{> coursesRow courses=coursesRow2}}
+            {{> coursesRow courses=coursesRow3}}
+            {{> coursesRow courses=coursesRow4}}
+        </div>
+    </section>
+    {{> review-course-section}}
     {{> map}}
     {{> footer}}
 </div>

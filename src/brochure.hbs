@@ -8,11 +8,11 @@
 <body class="scroll-assist">
 {{> navbar}}
 <div class="main-container">
-    <object data="brochure.pdf" type="application/pdf" class="brochure-box">
-        <iframe src="brochure.pdf" class="brochure-box"
+    <object data="{{#relativePath @file.path "/brochure.pdf"}}{{/relativePath}}" type="application/pdf" class="brochure-box">
+        <iframe src="{{#relativePath @file.path "/brochure.pdf"}}{{/relativePath}}" class="brochure-box"
                 style="border: none;">
             This browser does not support PDFs. Please download the PDF to view it: <a
-                href="brochure.pdf">Download
+                href="{{#relativePath @file.path "/brochure.pdf"}}{{/relativePath}}">Download
             PDF</a>
         </iframe>
     </object>
