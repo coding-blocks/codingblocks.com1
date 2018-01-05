@@ -282,7 +282,7 @@
       "price": "8,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "Launchpad Online",
-      "lectures": "(30 lectures)",
+      "lectures": "",
       "link": "/courses/launchpad-online.html",
       "description": [
         "Programming Fundamentals In C++"
@@ -326,7 +326,7 @@
       "price": "5,000",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Preparation Bootcamp logo",
-      "lectures": "(8 lectures)",
+      "lectures": "(8 days)",
       "link": "/bootcamps/interviewprep.html",
       "description": [
         "Operating Systems",
@@ -341,7 +341,7 @@
       "price": "10,000",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "web development course logo",
-      "lectures": "(22 lectures)",
+      "lectures": "",
       "link": "/courses/online/web-development-nodejs.html",
       "description": [
         "Real time Web Apps",
@@ -356,13 +356,28 @@
       "price": "8,000",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
-      "lectures": "(10 lectures)",
+      "lectures": "",
       "link": "/coming-soon.html",
       "description": [
         "Maths & Number Theory",
         "Greedy &amp; Divide 'n' Conquer",
         "Dynamic Programming &amp; Graphs",
         "Segment trees &amp; Game Theory"
+      ]
+    },
+    {
+      "id": "course17",
+      "name": "Android App Development Online",
+      "price": "12,000",
+      "imgSrc": "/assets/images/cb/logosc/color_android.svg",
+      "imgAlt": "android course logo",
+      "lectures": "",
+      "link": "/courses/online/android-app-development.html",
+      "description": [
+        "Building Android Apps",
+        "UI and Animations",
+        "Database &amp; Internet Connected Apps",
+        "LIVE Project & Pitching Session"
       ]
     }
   ]

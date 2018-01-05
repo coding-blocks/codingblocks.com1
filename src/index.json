@@ -39,6 +39,19 @@
       ]
     },
     {
+      "imgSrc": "/assets/images/cb/cover/coveri.jpg",
+      "imgAlt": "Introducing Launchpad Online",
+      "heading": "Registration Open for Launchpad Online",
+      "content": "Learn Data Structures and Algorithms in C++ from the comfort of your homes.<br/> Batch starting January 30.",
+      "button": [
+        {
+          "link": "/courses/launchpad-online.html",
+          "text": "Details & Registration",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/cover3.jpg",
       "imgAlt": "coders admission open c++, java, android, web development",
       "heading": "Admissions Open for Weekend Batches in January",
@@ -46,29 +59,7 @@
       "button": [
         {
           "link": "/courses/",
-          "text": "View Courses"
-        },
-        {
-          "link": "/signup",
-          "text": "Sign Up",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
-      "imgAlt": "",
-      "heading": "Start your coding journey with our programs for beginners",
-      "content": "Admissions open for winter batches of basic Java and C++",
-      "button": [
-        {
-          "link": "/courses/c++-for-beginners.html",
-          "text": "Register for C++ Course",
-          "filled": "true"
-        },
-        {
-          "link": "/courses/java-for-beginners.html",
-          "text": "Register for Java Course",
+          "text": "View Courses",
           "filled": "true"
         }
       ]
