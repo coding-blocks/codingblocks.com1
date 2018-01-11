@@ -57,6 +57,62 @@
       "bio": "Varun has been associated with the Software industry for more than 12 years & is considered an expert in the EdTech space. He has worked on multiple large scale applications and has piloted several Startups. He now dedicates his energy and experience to the design of Programs & business in Coding Blocks."
     },
     {
+      "name": "Deepak Aggarwal",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/c_deepak.jpg",
+      "imgAlt": "Deepak Aggarwal",
+      "bio": "Popular for his creative thinking style, Deepak tries to offer creative solutions to problems. He is a succesful competitive programmer, having qualified for ACM-ICPC Regionals won the International Problem Solving Competition by Dyalog APL. He likes to spend his free time reading."
+    },
+    {
+      "name": "Rishab Kapoor",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/c_rishab.jpg",
+      "imgAlt": "Rishab Kapoor",
+      "bio": "A graduate from Guru Nanak Dev University, Rishab has worked with Harman Connected Services as a software engineer. He is proficient with web development related technologies like HTML, CSS, Javascript along with Internet of Things development, OSGi framework, Spring and Hibernate."
+    },
+    {
+      "name": "Harshit Dwivedi",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/c_harshit.jpg",
+      "imgAlt": "Harshit Dwivedi",
+      "bio": "Renowned for his “awesome” puns and stash of shwags, Harshit is a Google Certified Android Developer. He has been a GSoC participant with FOSSASIA and will also be mentoring students under GSoC 2017. He is an open source enthusiast and is also passionate about Data Science."
+    },
+    {
+      "name": "Harpreet Singh",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/wharpreet.jpg",
+      "imgAlt": "Harpreet Singh",
+      "bio": "Harpreet has worked on several Enterprise level applications  and has successfully piloted several Startups. He did his B. Tech in Computers from UIET, Kurukshetra in 2013. He now dedicates his energy and experience to students to make them superb programmers."
+    },
+    {
+      "name": "Rajkishor Ranjan",
+      "role": "",
+      "imgSrc": "/assets/images/cb/team/Raj Final.jpg",
+      "imgAlt": "Rajkishor Ranjan",
+      "bio": "An IIT-Patna graduate in Computer Science, Rajkishor is a Mathematics wizard and an avid competitive coder. Having taught Mathematics to top batches of Vidya Mandir Classes, Rajkishor will now be taking classes at Coding Blocks for Launchpad, Competitive Coding and more C++ based courses."
+    },
+    {
+      "name": "Garima Chhikara",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/Garima Final.jpg",
+      "imgAlt": "Garima Chhikara",
+      "bio": "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining."
+    },
+    {
+      "name": "Aayush Arora",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/c_aayush.JPG",
+      "imgAlt": "Aayush Arora",
+      "bio": "Always ready for a Chess match and a cup of coffee, Aayush is a team member and an active contributor in Open Source organizations like CloudCV, FOSSASIA and Open Design. He is an avid web developer and will also be mentoring students in Google Summer of Code 2017."
+    },
+    {
+      "name": "Nipun Jain",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/wnipun.jpg",
+      "imgAlt": "Nipun Jain",
+      "bio": "Nipun is an ace Android programmer and has several highly trending Apps to his credit. Nipun has around 6+ years of Industry experience in Software giants, beyond which he opted for teaching to pursue his passion"
+    },
+    {
       "name": "Ankit Malik",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/wankit.jpg",
@@ -71,55 +127,6 @@
       "bio": "A Mathematics and Computing Engineer from DTU, Shubham is an avid Machine learning researcher, data scientist and web developer. He has presented a paper at IEEE CISS 2017 at the John Hopkins University, and aims to push forward the boundaries of what machines can achieve."
     },
     {
-      "name": "Harpreet Singh",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/wharpreet.jpg",
-      "imgAlt": "Harpreet Singh",
-      "bio": "Harpreet has worked on several Enterprise level applications  and has successfully piloted several Startups. He did his B. Tech in Computers from UIET, Kurukshetra in 2013. He now dedicates his energy and experience to students to make them superb programmers."
-    },
-    {
-      "name": "Nipun Jain",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/wnipun.jpg",
-      "imgAlt": "Nipun Jain",
-      "bio": "Nipun is an ace Android programmer and has several highly trending Apps to his credit. Nipun has around 6+ years of Industry experience in Software giants, beyond which he opted for teaching to pursue his passion"
-    },
-    {
-      "name": "Garima Chhikara",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/Garima Final.jpg",
-      "imgAlt": "Garima Chhikara",
-      "bio": "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining."
-    },
-    {
-      "name": "Rishab Kapoor",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/c_rishab.jpg",
-      "imgAlt": "Rishab Kapoor",
-      "bio": "A graduate from Guru Nanak Dev University, Rishab has worked with Harman Connected Services as a software engineer. He is proficient with web development related technologies like HTML, CSS, Javascript along with Internet of Things development, OSGi framework, Spring and Hibernate."
-    },
-    {
-      "name": "Aayush Arora",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/c_aayush.JPG",
-      "imgAlt": "Aayush Arora",
-      "bio": "Always ready for a Chess match and a cup of coffee, Aayush is a team member and an active contributor in Open Source organizations like CloudCV, FOSSASIA and Open Design. He is an avid web developer and will also be mentoring students in Google Summer of Code 2017."
-    },
-    {
-      "name": "Harshit Dwivedi",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/c_harshit.jpg",
-      "imgAlt": "Harshit Dwivedi",
-      "bio": "Renowned for his “awesome” puns and stash of shwags, Harshit is a Google Certified Android Developer. He has been a GSoC participant with FOSSASIA and will also be mentoring students under GSoC 2017. He is an open source enthusiast and is also passionate about Data Science."
-    },
-    {
-      "name": "Deepak Aggarwal",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/c_deepak.jpg",
-      "imgAlt": "Deepak Aggarwal",
-      "bio": "Popular for his creative thinking style, Deepak tries to offer creative solutions to problems. He is a succesful competitive programmer, having qualified for ACM-ICPC Regionals won the International Problem Solving Competition by Dyalog APL. He likes to spend his free time reading."
-    },
-    {
       "name": "Anuj Garg",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/c_anuj.jpg",
@@ -127,16 +134,9 @@
       "bio": "Anuj is an open-source enthusiast and a GSoCer under the RedHat Foundation. He has worked in the core teams of various products by RedHat and is an expert in Enterprise Java and web services. He is also a mentor in GSoC '17 under the umbrella of JBoss for Servers and IoT monitoring."
     },
     {
-      "name": "Mohd Fahad",
-      "role": "Marketing Lead",
-      "imgSrc": "/assets/images/cb/team/fahad.jpg",
-      "imgAlt": "Mohd Fahad",
-      "bio": "Fahad is a DTU graduate and is passionate about quizzing, public speaking and food. An engineer by qualification but not by interest, he chose a career in marketing and business development. He tries to be the Blocks in Coding Blocks by contributing towards every non-Coding aspect."
-    },
-    {
       "name": "Varun Hasija",
       "role": "Head of Engineering",
-      "imgSrc": "/assets/images/cb/team/Varun Final.jpg",
+      "imgSrc": "/assets/images/cb/team/Varun.jpg",
       "imgAlt": "Varun Hasija",
       "bio": "A graduate from DTU, Varun has worked as an operations manager for a startup, and as a software developer for Practo. He published two research papers in international IEEE conferences and also received acknowledgments from the likes of Michael Bernstein in papers published by Stanford graduates."
     },
@@ -155,11 +155,11 @@
       "bio": "An enthusiastic full-stack web developer, Himank has worked at multiple Delhi based startups. He also designed the website for International Conference on Computational Techniques in Information and Communication Technologies (ICCTICT)."
     },
     {
-      "name": "Rajkishor Ranjan",
-      "role": "",
-      "imgSrc": "/assets/images/cb/team/Raj Final.jpg",
-      "imgAlt": "Rajkishor Ranjan",
-      "bio": "An IIT-Patna graduate in Computer Science, Rajkishor is a Mathematics wizard and an avid competitive coder. Having taught Mathematics to top batches of Vidya Mandir Classes, Rajkishor will now be taking classes at Coding Blocks for Launchpad, Competitive Coding and more C++ based courses."
+      "name": "Mohd Fahad",
+      "role": "Marketing Lead",
+      "imgSrc": "/assets/images/cb/team/fahad.jpg",
+      "imgAlt": "Mohd Fahad",
+      "bio": "Fahad is a DTU graduate and is passionate about quizzing, public speaking and food. An engineer by qualification but not by interest, he chose a career in marketing and business development. He tries to be the Blocks in Coding Blocks by contributing towards every non-Coding aspect."
     },
     {
       "name": "Mansi Marwaha",

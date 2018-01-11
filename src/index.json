@@ -100,44 +100,44 @@
   "coursesRow1": [
     {
       "id": "course08",
-	  "badge": "Starting Jan 28"
+      "badge": "Starting Jan 28"
     },
     {
       "id": "course10",
       "odd": true,
-	  "badge": "Starting Jan 14"
+      "badge": "Starting Jan 14"
     },
     {
       "id": "course01",
       "combo": true,
-	  "badge": "Starting Jan 28"
+      "badge": "Starting Jan 28"
     }
   ],
   "coursesRow2": [
     {
       "id": "course07",
       "odd": true,
-	  "badge": "Starting Jan 28"
+      "badge": "Starting Jan 28"
     },
     {
       "id": "course11",
-	  "badge": "Starting Mar 13"
+      "badge": "Starting Mar 13"
     },
     {
       "id": "course02",
       "combo": true,
-	  "badge": "Starting Jan 28"
+      "badge": "Starting Jan 28"
     }
   ],
   "coursesRow3": [
     {
       "id": "course03",
-	  "badge": "Starting Feb 5"
+      "badge": "Starting Feb 5"
     },
     {
       "id": "course04",
       "odd": true,
-	  "badge": "Starting Feb 5"
+      "badge": "Starting Feb 5"
     },
     {
       "id": "course09",
@@ -182,7 +182,8 @@
       "ANKIT MALIK",
       "VARUN KOHLI",
       "HARPREET SINGH",
-      "NIPUN JAIN"
+      "NIPUN JAIN",
+      "Varun Hasija"
     ]
   },
   "courseReviews": [

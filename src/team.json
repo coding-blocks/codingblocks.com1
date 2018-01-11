@@ -24,7 +24,23 @@
       "Bhavya Aggarwal",
       "Siddarth Dungarwal",
       "Rishabh Khanna",
-      "Naman Kumar"
+      "Naman Kumar",
+      "Samuel",
+      "Manish",
+      "Abhishek",
+      "Manoj"
+    ]
+  },
+  "staff": {
+    "heading": "Our Support Staff",
+    "content": "",
+    "flip": false,
+    "companies": false,
+    "teamMembers": [
+      "Samuel",
+      "Manish",
+      "Abhishek",
+      "Manoj"
     ]
   },
   "interns": {
