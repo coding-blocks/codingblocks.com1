@@ -31,7 +31,7 @@
         "link": "#faq"
       }
     ],
-    "bgSrc": "../assets/images/cb/cover/cover_laptop_books.jpg"
+    "bgSrc": "../../assets/images/cb/cover/cover_laptop_books.jpg"
   },
   "courseEnrollAdvanced": {
     "upcomingBatches": "New batch starting this February",
