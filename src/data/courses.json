@@ -390,6 +390,11 @@
       "link": "/courses/online/java.html",
       "description": [
         "Programming Fundamentals in Java"
+      ],
+      "batches": [
+        {
+          "slug": "Online batch starting from <strong>28 Feb</strong>"
+        }
       ]
     }
   ]

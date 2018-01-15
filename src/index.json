@@ -8,24 +8,6 @@
   ],
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/apatbg.jpg",
-      "imgAlt": "Coding Blocks Scholarship Tests are Back!",
-      "heading": "Coding Blocks Scholarship Tests are Back!",
-      "content": "Win scholarships of up to 75% off the entire course fees for January batches <BR> Batches starting January 28. Enroll now!",
-      "button": [
-        {
-          "link": "/cast.html",
-          "text": "CAST - for Foundation Courses",
-          "filled": "true"
-        },
-        {
-          "link": "/apat.html",
-          "text": "APAT - for Advanced Courses",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "/assets/images/cb/cover/educarn.jpg",
       "imgAlt": "Introducing Android App Development Online",
       "heading": "Introducing Android App Development Online",
