@@ -1,11 +1,5 @@
 <!--registration-->
 <a id="register" class="in-page-link"></a>
-<div class="container">
-	<h3 class="alert alert-danger">
-		Payments will be down on our website from 6:00 PM to 7:00 PM today
-		(January 15, 2018). We apologize for the inconvenience caused.
-	</h3>
-</div>
 {{#if registerLink}}
     {{#unless noHeading}}
         <section>
@@ -18,6 +12,9 @@
                         <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Coming Soon</p>
                     </div>
                 {{else}}
+                    <iframe class="payment-widget" {{#if frame-id}}id="{{frame-id}}"{{/if}}
+                            frameborder="0"
+                            src="{{{registerLink}}}"></iframe>
                 {{/if}}
             </div>
         </section>
@@ -28,6 +25,9 @@
                     <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Coming Soon</p>
                 </div>
             {{else}}
+                <iframe class="payment-widget compact" {{#if frame-id}}id="{{frame-id}}"{{/if}}
+                        frameborder="0"
+                        src="{{{registerLink}}}"></iframe>
             {{/if}}
         </div>
     {{/unless}}
