@@ -88,11 +88,11 @@
   },
   "subHighlightSection": [
     {
-      "heading": "Elixir Live: Web Development with Node JS",
-      "description": "Coding Blocks is proud to present Elixir Live, an online course on full stack Web Development with Node.Js. The course will help students understand both front end and back end use cases. <div><strong>Starting September 25!</strong></div>",
-      "imgAlt": "coding blocks online web development course",
-      "imgSrc": "/assets/images/cb/elixir-live.jpg",
-      "btnLink": "/courses/online/web-development-nodejs.html",
+      "heading": "New Java Online Course",
+      "description": "Coding Blocks is proud to present Java Online, an online course on programming fundamentals, data structures and algorithms in Java.<div><strong>Starting 28 Feb 2018</strong></div>",
+      "imgAlt": "coding blocks online java course",
+      "imgSrc": "/assets/images/cb/logosc/color_java.png",
+      "btnLink": "/courses/online/java.html",
       "btnText": "Know More",
       "pull-right": true
     }
