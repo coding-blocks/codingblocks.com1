@@ -1,0 +1,196 @@
+{
+  "id": "course18",
+  "title": "Learn Java Programming Online by Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Learn programming fundamentals in Java online at Coding Blocks Online. Best Java online courses available. Enroll now!"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/online/java.html",
+    "title": "Learn Java Programming Online by Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
+    "description": "Learn programming fundamentals in Java online at Coding Blocks Online. Best Java online courses available. Enroll now!"
+  },
+  "header": {
+    "heading": "Java Online",
+    "subHeading": "Programming Fundamentals using Java",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../assets/images/cb/cover/covergcp.jpg"
+  },
+  "overview": {
+    "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements.Designed for beginners, our online java course is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+  },
+  "courseHighlights": [
+    {
+      "icon": "fa fa-code",
+      "title": "Fundamentals",
+      "content": "We have designed our course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+    },
+    {
+      "icon": "et-line-puzzle",
+      "title": "Problem Solving",
+      "content": "The course is designed to sharpen the problem solving skills of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+    },
+    {
+      "icon": "et-line-layers",
+      "title": "OOP Concepts &amp; Project",
+      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready. Students will also build a game with Java Swing Libraries to strengthen their OOPS concepts."
+    },
+    {
+      "icon": "et-line-linegraph",
+      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
+      "content": "This course entails more than 100 hours of teaching and hands on coding. Students will be solving more than 200 complex problems and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Logic Building and Java Fundamentals",
+      "contentTitle": "Programming fundamentals and logic building",
+      "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
+      "points": [
+        "Flowcharts, pseudo-code and brain teasers",
+        "IDE installation and familiarization",
+        "Debugging",
+        "Input-Output",
+        "Data Types and Variables",
+        "Typecasting",
+        "Loops and Decision constructs",
+        "Functions and operators",
+        "Arrays, multi-dimensional arrays and dynamic arrays",
+        "String and String Buffer"
+      ]
+    },
+    {
+      "title": "Recursion",
+      "contentTitle": "Recursion and Backtracking",
+      "description": "Then we will dive deep into Recursion and solve complex problems involving backtracking.",
+      "points": [
+        "Introduction",
+        "Classical Recursion Problems",
+        "Back-tracking",
+        "Advanced Recursion problems",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "OOP",
+      "contentTitle": "Object Oriented Programming, Complexity Analyis",
+      "description": "In this part we learn about how to compute space-time complexity of our solution and how can we optimise our solutions. We will also learn about OOPs and recommended coding practices.",
+      "points": [
+        "Classes and objects",
+        "Class, Function and Data member modifiers",
+        "Encapsulation, Inheritance and Polymorphism",
+        "Abstract classes, Interfaces and Packages",
+        "Generics and Exceptions"
+      ]
+    },
+    {
+      "title": "Data Structures and Algorithms",
+      "contentTitle": "Linked Lists, Stacks, Queues, Trees",
+      "description": "This is the most important and exciting part and yet easy. Data structures are all about storing data.You will learn to implement different data structures and when to use them. This part is important as most of the questions asked in interviwes are related to data structures.",
+      "lectures": "Lecture 14-23",
+      "points": [
+        "Linked Lists",
+        "Stacks",
+        "Queues",
+        "Generic Trees",
+        "Binary Trees",
+        "Binary Search Trees",
+        "Hash Tables &amp; Heaps",
+        "Graphs – Traversals, Minimum Spanning trees, Shortest path algorithms",
+        "Text Processing – Text Matching, Compression",
+        "Dynamic Programming"
+      ]
+    },
+    {
+      "title": "Project Development",
+      "contentTitle": "Heaps, Hash Tables, Graphs, Tries, Dynamic Programming",
+      "description": "In last classes we will build a game using Java Swing Libraries.",
+      "lectures": "Project Development",
+      "points": [
+        "Learning about Java Swing",
+        "One game developed in class",
+        "Second game done as assignment"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "Anybody who is interested in learning programming can take the Java training. Java is a powerful and elegant language, but still is pretty easy to learn. Also, this opens the path to enter Enterprise Java world for making powerful desktop and web applications or mobile apps using Android."
+    },
+    {
+      "ques": "I know C, should I do this course?",
+      "ans": "Yes. Absolutely. Not only will this course teach you Java, but also Object Oriented Programming which forms the base of most, if not all code running live across the globe. Besides it builds your problem solving skills, teaches you some fine data structures and helps you develop the thinking process to optimise your solutions."
+    },
+    {
+      "ques": "I know C++, should I do this course?",
+      "ans": "Depends. Knowing C++ generally means you know Object Oriented Programming well. If that is the case, you’ll be better served by learning some courses which teach you to create making mobile apps or web applications. Please check out our Pandora and Elixir course for those."
+    },
+    {
+      "ques": "Will this help me with competitive programming or can I apply to ACM-ICPC after doing this course?",
+      "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time. The last time we heard from capable competitive programmers, they said these skills made them capable."
+    },
+    {
+      "ques": "Will this course help me in Interviews?",
+      "ans": "Yes. If you learn well, all that the course intends to teach, you’ll be able to impress quite a few interviewers across quite a few fine companies."
+    },
+    {
+      "ques": "Will this help me in making websites and apps?",
+      "ans": "No. This is a fundamentals course. To make websites and apps, you need to learn more. Please check out our <strong>Pandora &amp; Elixir</strong> course for those."
+    },
+    {
+      "ques": "Is this CORE Java or Advanced Java?",
+      "ans": "This is not CORE java or Advanced Java. This is a course which teaches you problem solving, data structures and Object Oriented Programming. Though, most of what CORE java means is being covered. The aim of the course is to help you with a smarter beginning. For being able to make web and mobile apps you need to learn frameworks. Android is one such framework for mobile apps. Please check out our Pandora and Elixir course for more details on these lines."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "",
+    "priceCut": "12.000",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Session on Java Game Development"
+      }
+    ]
+  },
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Rishab Kapoor",
+      "Garima Chhikara",
+      "Harpreet Singh"
+    ]
+  },
+  "courseReviews": [
+    "YAMINI GAUR",
+    "ANSH SACHDEVA",
+    "GAGARIN DASH",
+    "KSHITIJ BANSAL"
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=103"
+}

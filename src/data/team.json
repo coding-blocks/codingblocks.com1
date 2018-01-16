@@ -87,14 +87,14 @@
     {
       "name": "Rajkishor Ranjan",
       "role": "",
-      "imgSrc": "/assets/images/cb/team/Raj Final.jpg",
+      "imgSrc": "/assets/images/cb/team/Raj.jpg",
       "imgAlt": "Rajkishor Ranjan",
       "bio": "An IIT-Patna graduate in Computer Science, Rajkishor is a Mathematics wizard and an avid competitive coder. Having taught Mathematics to top batches of Vidya Mandir Classes, Rajkishor will now be taking classes at Coding Blocks for Launchpad, Competitive Coding and more C++ based courses."
     },
     {
       "name": "Garima Chhikara",
       "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/Garima Final.jpg",
+      "imgSrc": "/assets/images/cb/team/Garima.jpg",
       "imgAlt": "Garima Chhikara",
       "bio": "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining."
     },
@@ -150,7 +150,7 @@
     {
       "name": "Himank Bhalla",
       "role": "Developer",
-      "imgSrc": "/assets/images/cb/team/Himank Final.jpg",
+      "imgSrc": "/assets/images/cb/team/Himank.jpg",
       "imgAlt": "Himank Bhalla",
       "bio": "An enthusiastic full-stack web developer, Himank has worked at multiple Delhi based startups. He also designed the website for International Conference on Computational Techniques in Information and Communication Technologies (ICCTICT)."
     },

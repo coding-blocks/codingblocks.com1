@@ -840,25 +840,25 @@ footer, section {
 }
 
 .pricing-table .course-badge {
-	position: absolute;
-	left: 5px;
-	top: 10px;
-	padding: 5px;
-	text-transform: uppercase;
-	font-size: 1.1rem;
-	border-radius: 0 10px 10px 0;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	background-color: #fc4f4f;
-	color: #fefefe;
-	font-weight: bold;
-	border-left: 5px solid;
-	border-color: #333;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border-radius: 0 10px 10px 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #fc4f4f;
+    color: #fefefe;
+    font-weight: bold;
+    border-left: 5px solid;
+    border-color: #333;
 }
 
 .pricing-table .course-badge-inverse {
-	background-color: #fefefe;
-	color: black;
+    background-color: #fefefe;
+    color: black;
 }
 
 .courses-row {
@@ -969,5 +969,40 @@ footer, section {
 @media (max-width: 767px) {
     .caller {
         display: block;
+    }
+}
+
+.complete-course-box {
+    display: block;
+    height: 100%;
+    text-align: center;
+    border: 3px solid #FC4F4F;
+    padding: 10px 50px;
+    margin-top: 30px;
+}
+
+.complete-course-box .heading {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.complete-course-box .description {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    font-size: 18px;
+}
+
+.complete-course-box .btn {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .complete-course-box{
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .complete-course-box .description {
+        width: 100%;
     }
 }

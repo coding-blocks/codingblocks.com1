@@ -357,7 +357,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
       "lectures": "",
-      "link": "/coming-soon.html",
+      "link": "/courses/competitive-online.html",
       "description": [
         "Maths & Number Theory",
         "Greedy &amp; Divide 'n' Conquer",
@@ -378,6 +378,23 @@
         "UI and Animations",
         "Database &amp; Internet Connected Apps",
         "LIVE Project & Pitching Session"
+      ]
+    },
+    {
+      "id": "course18",
+      "name": "Java Online",
+      "price": "8,000",
+      "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+      "imgAlt": "java online course logo",
+      "lectures": "",
+      "link": "/courses/online/java.html",
+      "description": [
+        "Programming Fundamentals in Java"
+      ],
+      "batches": [
+        {
+          "slug": "Online batch starting from <strong>28 Feb</strong>"
+        }
       ]
     }
   ]
