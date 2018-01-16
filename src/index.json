@@ -10,12 +10,17 @@
     {
       "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
       "imgAlt": "APAT Result",
-      "heading": "APAT Results Declared",
-      "content": "Results for the Advanced Program Admissions (& Scholarship) Test (APAT) held on January 14 have been declared!",
+      "heading": "Scholarship Tests Results Declared",
+      "content": "Results for the scholarship tests (CAST & APAT) held on January 14 have been declared!",
       "button": [
         {
+          "link": "http://students.codingblocks.com/admission_test_online/CASTJ/result_letter",
+          "text": "CAST Results",
+          "filled": "true"
+        },
+        {
           "link": "/apat-results.html",
-          "text": "Check Results",
+          "text": "APAT Results",
           "filled": "true"
         }
       ]
