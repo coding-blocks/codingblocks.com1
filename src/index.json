@@ -8,6 +8,19 @@
   ],
   "slides": [
     {
+      "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
+      "imgAlt": "APAT Result",
+      "heading": "APAT Results Declared",
+      "content": "Results for the Advanced Program Admissions (& Scholarship) Test (APAT) held on January 14 have been declared!",
+      "button": [
+        {
+          "link": "/apat-results.html",
+          "text": "Check Results",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/educarn.jpg",
       "imgAlt": "Introducing Android App Development Online",
       "heading": "Introducing Android App Development Online",
