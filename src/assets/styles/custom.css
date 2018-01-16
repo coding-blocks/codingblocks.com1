@@ -997,7 +997,7 @@ footer, section {
 }
 
 @media (max-width: 767px) {
-    .complete-course-box{
+    .complete-course-box {
         padding: 10px;
         margin-top: 10px;
     }
@@ -1005,4 +1005,11 @@ footer, section {
     .complete-course-box .description {
         width: 100%;
     }
+}
+
+.sub-highlight-img img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
