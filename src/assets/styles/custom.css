@@ -1007,9 +1007,23 @@ footer, section {
     }
 }
 
+.highlight-container {
+    margin: 70px auto;
+}
+
+.sub-highlight-img {
+    padding: 0;
+}
+
 .sub-highlight-img img {
     width: 80%;
     height: 80%;
+}
+
+.sub-highlight-img.pull-right img {
     margin-left: 10%;
-    margin-top: 10%;
+}
+
+.highlight-container.dark-bg .row {
+    background: #f8f8f8;
 }

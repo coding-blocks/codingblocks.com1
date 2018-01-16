@@ -1,10 +1,9 @@
 <!--subhighlightsection-->
 <a id="sub-highlight-section" class="in-page-link"></a>
-<section style="margin-top: 40px;">
+<section>
     {{#each subHighlightSection}}
-        <div class="container">
+        <div class="container highlight-container {{#unless pull-right}}dark-bg{{/unless}}">
             <div class="row">
-                <br>
                 <div class="col-sm-4 {{#if pull-right}}pull-right{{/if}} col-xs-12 sub-highlight-img">
                     <img src="{{#relativePath @file.path imgSrc}}{{/relativePath}}" alt="{{imgAlt}}"
                          class="img-responsive">
