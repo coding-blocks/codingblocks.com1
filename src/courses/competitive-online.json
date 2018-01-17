@@ -1,4 +1,5 @@
 {
+  "id": "course16",
   "name": "Competitive Programming Online",
   "title": "Competitive Programming Online | Courses | Coding Blocks",
   "metas": [
@@ -16,7 +17,7 @@
   "courseEnroll": {
     "price": "8000",
     "lectures": "",
-    "upcomingBatches": "Batches starting soon, come get the competitive edge!",
+    "upcomingBatches": "Upcoming Batches",
     "registerBoxHeading": "",
     "registerButton": {
       "buttonText": "Enroll Now",
