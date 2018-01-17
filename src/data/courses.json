@@ -363,6 +363,11 @@
         "Greedy &amp; Divide 'n' Conquer",
         "Dynamic Programming &amp; Graphs",
         "Segment trees &amp; Game Theory"
+      ],
+      "batches": [
+        {
+          "slug": "Online batch starting from <strong>20 Mar</strong>"
+        }
       ]
     },
     {

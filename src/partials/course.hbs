@@ -1,10 +1,11 @@
 <!--course-->
 <div class="pricing-card courses-card {{#if options.odd}}pricing-card-inverse{{/if}} col-md-4 col-sm-6  {{#if
-        options.combo}}combo{{/if}}">
-    <div class="pricing-table courses-card pt-2 text-center {{#if options.odd}}boxed{{/if}} {{#if options.combo}}combo{{/if}}">
-		{{#if options.badge}}
-			<span class="course-badge {{#if options.combo}}course-badge-inverse{{/if}}">{{options.badge}}</span>
-		{{/if}}
+        options.combo}}combo{{/if}} {{#if options.center}} col-md-offset-4 col-sm-offset-3{{/if}}">
+    <div class="pricing-table courses-card pt-2 text-center {{#if options.odd}}boxed{{/if}} {{#if
+            options.combo}}combo{{/if}}">
+        {{#if options.badge}}
+            <span class="course-badge {{#if options.combo}}course-badge-inverse{{/if}}">{{options.badge}}</span>
+        {{/if}}
         {{#unless options.combo}}
             <img alt="{{{imgAlt}}}" class="course logo" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
         {{else}}

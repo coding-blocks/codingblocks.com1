@@ -102,8 +102,17 @@
       "badge": "Starting Jan 30"
     },
     {
-      "id": "course16",
+      "id": "course18",
+      "badge": "Starting Feb 28",
       "odd": true
+    }
+  ],
+  "coursesRow8": [
+    {
+      "id": "course16",
+      "badge": "Starting Mar 20",
+      "odd": true,
+      "center": true
     }
   ],
   "courseReviews": [
