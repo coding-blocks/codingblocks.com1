@@ -149,12 +149,12 @@
   "coursesRow3": [
     {
       "id": "course03",
-      "badge": "Starting Feb 5"
+      "badge": "Starting Feb 4"
     },
     {
       "id": "course04",
       "odd": true,
-      "badge": "Starting Feb 5"
+      "badge": "Starting Feb 4"
     },
     {
       "id": "course09",
