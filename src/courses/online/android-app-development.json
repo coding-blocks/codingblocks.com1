@@ -141,10 +141,6 @@
       "ans": "That is not a problem, if the aforementioned concpets are clear, and you have coded in some other language like C++ before. We will cover the syntax of Java in the first couple of classes."
     },
     {
-      "ques": "Do you have a test for admission into this course ?",
-      "ans": "Yes, we have a simple test covering OOP concepts, basic Data structures and array/string manipulation. You need to undertake that test while registering for Elixir."
-    },
-    {
       "ques": "Will there by any app development projects ?",
       "ans": "Yes, most definitely. No android app development course is complete without projects, and we have a lot of focus on working on live android app development projects and practical topics."
     }
