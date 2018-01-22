@@ -3,9 +3,10 @@
 <section class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
     <ul class="slides">
         {{#each slides}}
-            <li class="overlay image-bg">
+            <li class="{{#unless noOverlay}}overlay{{/unless}} image-bg">
                 <div class="background-image-holder">
-                    <img alt="{{{imgAlt}}}" class="background-image" src="{{#relativePath @file.path imgSrc}}{{/relativePath}} ">
+                    <img alt="{{{imgAlt}}}" class="background-image"
+                         src="{{#relativePath @file.path imgSrc}}{{/relativePath}} ">
                 </div>
                 <div class="container v-align-transform">
                     <div class="row text-center">
