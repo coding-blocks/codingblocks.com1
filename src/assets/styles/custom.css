@@ -1027,3 +1027,17 @@ footer, section {
 .highlight-container.dark-bg .row {
     background: #f8f8f8;
 }
+
+@media (max-width: 767px) {
+    .nav-container {
+        position: relative !important;
+    }
+
+    .main-container {
+        padding-top: 0;
+    }
+
+    nav.fixed {
+        position: relative !important;
+    }
+}
