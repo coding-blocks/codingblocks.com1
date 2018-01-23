@@ -567,7 +567,7 @@ h1 .sub-heading {
 
 .event-card .info-box .desc {
     height: 50px;
-    overflow-y: hidden;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 
