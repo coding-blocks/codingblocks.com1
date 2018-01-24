@@ -5,15 +5,6 @@
     {{> meta}}
     {{> head}}
     {{> courseSchema}}
-    <style>
-        #page-header {
-            background: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.8),
-            rgba(0, 0, 0, 0.5)),
-            url("../assets/images/cb/cover/algo_2.jpg") no-repeat 0 75% !important;
-            background-size: cover !important;
-        }
-    </style>
 </head>
 <body class="scroll-assist">
 {{> navbar}}
@@ -21,10 +12,133 @@
     {{> header}}
     {{> overview}}
     {{> coursehighlights}}
-    {{> coursecontents}}
-    {{> courseenroll}}
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="uppercase mb64 text-center color-primary">Course Contents</h2>
+                    <div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="wide-tab active" id="tab-advance"><a href="#content-advance"
+                                                                                         aria-controls="profile"
+                                                                                         role="tab"
+                                                                                         data-toggle="tab">Advanced</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="content-advance">
+                                <div class="course-card-container">
+                                    <div class="content-row">
+                                        <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3 class="topic">
+                                            Problem Solving Paradigms</h3>
+                                            <hr>
+                                            <ul class="points-list">
+                                                <li>Recursion Problems</li>
+                                                <li>Backtracking Problems</li>
+                                                <li>Divide and Conquer Problems</li>
+                                            </ul>
+                                        </div>
+                                        <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3 class="topic">
+                                            Foundational DS</h3>
+                                            <hr>
+                                            <ul class="points-list">
+                                                <li>Arrays &amp; Bitmasking, Vectors</li>
+                                                <li>Stacks, Queues Problems</li>
+                                                <li>Linked Lists</li>
+                                            </ul>
+                                        </div>
+                                        <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3 class="topic">
+                                            Advanced DS</h3>
+                                            <hr>
+                                            <ul class="points-list">
+                                                <li>Binary Trees</li>
+                                                <li>BST’s</li>
+                                                <li>Heaps</li>
+                                                <li>Hashing</li>
+                                                <li>Graphs-I</li>
+                                                <li>Graphs-II, Tries</li>
+                                                <li>Dynamic Programming</li>
+                                                <li>Greedy Algorithms</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <section>
+                                    <div class="col-md-10 col-md-offset-1 complete-course-box bg-secondary">
+                                        <h2 class="heading">Enroll in Complete C++ Course</h2>
+                                        <p class="description">Embark upon this journey from being an amateur coder to a DS-Algo expert with our complete C++ course.</p>
+                                        <a class="btn btn-filled" target="_blank"
+                                           href="{{relativePath @file.path '/courses/c++.html#complete'}}">Register Now</a>
+                                    </div>
+                                </section>
+                                <a id="advance-enroll" class="in-page-link"></a>
+                                <section class="tabbed-enroll-section">
+                                    <div class="container">
+                                        <div class="row v-align-children">
+                                            <div class="col-sm-5"><h3>Come, fall in LOVE with CODING</h3>
+                                                <p class="lead"></p>
+                                                <p>Upcoming Batches:</p>
+                                                <ul class="course-list">
+                                                    <li>Evening batch at Greater Noida starting January 6</li>
+                                                    <li>Evening batch at Pitampura starting January 13</li>
+                                                    <li>Morning batch at Dwarka starting January 27</li>
+                                                    <li>Morning batch at Pitampura starting March 11</li>
+                                                    <li>Evening batch at Dwarka starting March 11</li>
+                                                </ul>
+                                                <p></p>
+                                                <div class="overflow-hidden mb32 mb-xs-24">
+                                                    <div class="row">
+                                                        <div class="col-sm-1"><i
+                                                                class="icon pull-left et-line-search icon-sm"></i></div>
+                                                        <div class="col-sm-11"><h6
+                                                                class="uppercase mb0 inline-block p32">Online code
+                                                            Submission &amp; Evaluation</h6></div>
+                                                    </div>
+                                                </div>
+                                                <div class="overflow-hidden mb32 mb-xs-24">
+                                                    <div class="row">
+                                                        <div class="col-sm-1"><i
+                                                                class="icon pull-left pe-7s-cup icon-sm"></i></div>
+                                                        <div class="col-sm-11"><h6
+                                                                class="uppercase mb0 inline-block p32">Special Sessions
+                                                            on Competitive Coding</h6></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="pricing-table pt-1 text-center emphasis"><h5
+                                                        class="uppercase">Regular Batch</h5><span
+                                                        class="price">₹12,000</span>
+                                                    <p class="lead">(12-15 lectures)</p><a class="btn btn-white btn-lg"
+                                                                                           href="#register-advance">Enroll
+                                                        Now</a>
+                                                    <p><a href="/contactus">Contact Us</a><br>Call(Toll-free):
+                                                        1800-2744-504</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <a id="advance-register" class="in-page-link"></a>
+                                <section class="mt-xs-64">
+                                    <div class="text-center"><h3>REGISTER NOW</h3></div>
+                                    <div class="container">
+                                        <iframe class="payment-widget" frameborder="0"
+                                                src="https://students.codingblocks.com/payment/iframe?item_id=95"></iframe>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     {{> team team=mentors}}
-    {{> registration}}
     {{> coursefaq}}
     {{> review-course-section}}
     {{> map}}
