@@ -234,7 +234,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
-      "link": "/courses/classroom/c++.html#advance",
+      "link": "/courses/algo++.html",
       "description": [
         "Data Structures in C++"
       ],
