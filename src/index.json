@@ -8,14 +8,6 @@
   ],
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/RDAY.jpg",
-      "imgAlt": "Republic Day Coding Blocks",
-      "heading": "",
-      "content": "",
-      "button": [],
-      "noOverlay": true
-    },
-    {
       "imgSrc": "/assets/images/cb/cover/educarn.jpg",
       "imgAlt": "Introducing Android App Development Online",
       "heading": "Introducing Android App Development Online",
