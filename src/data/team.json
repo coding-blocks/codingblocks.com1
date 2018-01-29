@@ -43,6 +43,13 @@
       "bio": "Arnav Gupta, also popular as @ChampionSwimmer, is an acclaimed Android developer and two timer GSoC-er. He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf. He has also worked with Sony, Micromax, Cyanogen and the likes.Arnav has also active contributed int the development of Android OS, Linux Kernel and will also be mentoring students in GSoC’17."
     },
     {
+      "name": "Varun Hasija",
+      "role": "Head of Engineering",
+      "imgSrc": "/assets/images/cb/team/Varun Final.jpg",
+      "imgAlt": "Varun Hasija",
+      "bio": "A graduate from DTU, Varun has worked as an operations manager for a startup, and as a software developer for Practo. He published two research papers in international IEEE conferences and also received acknowledgments from the likes of Michael Bernstein in papers published by Stanford graduates."
+    },
+    {
       "name": "Rajesh Sachdev",
       "role": "Mentor & Centre Head (Dwarka)",
       "imgSrc": "/assets/images/cb/team/wrajesh.jpg",
@@ -134,13 +141,6 @@
       "bio": "Anuj is an open-source enthusiast and a GSoCer under the RedHat Foundation. He has worked in the core teams of various products by RedHat and is an expert in Enterprise Java and web services. He is also a mentor in GSoC '17 under the umbrella of JBoss for Servers and IoT monitoring."
     },
     {
-      "name": "Varun Hasija",
-      "role": "Head of Engineering",
-      "imgSrc": "/assets/images/cb/team/Varun Final.jpg",
-      "imgAlt": "Varun Hasija",
-      "bio": "A graduate from DTU, Varun has worked as an operations manager for a startup, and as a software developer for Practo. He published two research papers in international IEEE conferences and also received acknowledgments from the likes of Michael Bernstein in papers published by Stanford graduates."
-    },
-    {
       "name": "Prajjwal Singh",
       "role": "Developer",
       "imgSrc": "/assets/images/cb/team/c_prajjwal.JPG",
@@ -163,7 +163,7 @@
     },
     {
       "name": "Mohd Fahad",
-      "role": "Marketing Lead",
+      "role": "Head of Marketing",
       "imgSrc": "/assets/images/cb/team/fahad.jpg",
       "imgAlt": "Mohd Fahad",
       "bio": "Fahad is a DTU graduate and is passionate about quizzing, public speaking and food. An engineer by qualification but not by interest, he chose a career in marketing and business development. He tries to be the Blocks in Coding Blocks by contributing towards every non-Coding aspect."
