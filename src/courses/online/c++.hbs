@@ -11,7 +11,7 @@
     {{> header}}
 
     <!-- SECTION : Course Overview -->
-    <a id="course-overview" class="in-page-link"></a>
+    <a id="overview" class="in-page-link"></a>
     <section>
         <div class="container">
             <div class="row">
@@ -39,7 +39,7 @@
     </section>
 
     <!-- SECTION : Course Highlights -->
-    <a id="course-highlights" class="in-page-link" data-scroll-id="course-features"></a>
+    <a id="highlights" class="in-page-link" data-scroll-id="course-features"></a>
     <section class="bg-dark">
         <div class="container">
             <div class="row">
@@ -93,7 +93,7 @@
     </section>
 
     <!-- SECTION: Course Contents-->
-    <a id="course-contents" class="in-page-link"></a>
+    <a id="contents" class="in-page-link"></a>
     <section>
         <div class="container">
             <div class="row">
@@ -102,18 +102,18 @@
                     <div>
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active wide-tab"><a href="#syllabus-complete"
+                            <li role="presentation" class="active wide-tab" id="tab-complete"><a href="#complete"
                                                                                aria-controls="home" role="tab"
                                                                                data-toggle="tab">Complete Bundle</a>
                             </li>
-                            <li role="presentation" class="wide-tab"><a href="#syllabus-advanced"
+                            <li role="presentation" class="wide-tab" id="tab-advanced"><a href="#advanced"
                                                                         aria-controls="profile" role="tab"
                                                                         data-toggle="tab">Advanced Only</a></li>
                         </ul>
 
                         <!-- Tab panes -->
                         <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane active" id="syllabus-complete">
+                            <div role="tabpanel" class="tab-pane active" id="complete">
                                 <div class="tabbed-content button-tabs vertical">
                                     <div class="pt-4"></div>
                                     <ul class="tabs">
@@ -270,7 +270,7 @@
 							{{> courseenroll courseEnroll=courseEnrollComplete}}
 							{{> registration registerLink=registerLinkComplete}}
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="syllabus-advanced">
+                            <div role="tabpanel" class="tab-pane" id="advanced">
                                 <div class="tabbed-content button-tabs vertical">
                                     <div class="pt-4"></div>
                                     <ul class="tabs">
@@ -342,7 +342,7 @@
                                     </ul>
                                 </div>
 							{{> courseenroll courseEnroll=courseEnrollAdvanced}}
-							<a id="registerAdvanced" class="in-page-link"></a>
+							<a id="register-advanced" class="in-page-link"></a>
 							{{> registration registerLink=registerLinkAdvanced}}
                             </div>
                         </div>
@@ -366,7 +366,7 @@
     </section>
 	{{> team team=mentors}}
     {{> coursefaq}}
-    <a id="course-testimonials" class="in-page-link"></a>
+    <a id="testimonials" class="in-page-link"></a>
     {{> review-course-section}}
     {{> map}}
     {{> footer}}
@@ -394,6 +394,18 @@
             registerBoxAdvanced.hide()
             registerBoxCombo.show()
         })
+	
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        var hash = window.location.hash;
+        if (hash === '#advance' || hash === '#advanced') {
+            $('#tab-advanced').toggleClass('active');
+            $('#tab-complete').toggleClass('active');
+            $('#advanced').toggleClass('active');
+            $('#complete').toggleClass('active');
+        }
     })
 </script>
 </body>
