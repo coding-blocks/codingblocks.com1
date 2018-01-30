@@ -25,10 +25,10 @@
                                                                                               role="tab"
                                                                                               data-toggle="tab">Basic</a>
                             </li>
-                            <li role="presentation" class="wide-tab" id="tab-advance"><a href="#content-advance"
-                                                                                         aria-controls="profile"
-                                                                                         role="tab"
-                                                                                         data-toggle="tab">Advanced</a>
+                            <li role="presentation" class="wide-tab" id="tab-complete"><a href="#content-complete"
+                                                                                          aria-controls="profile"
+                                                                                          role="tab"
+                                                                                          data-toggle="tab">Complete</a>
                             </li>
                         </ul>
 
@@ -71,14 +71,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <section>
-                                    <div class="col-md-10 col-md-offset-1 complete-course-box bg-secondary">
-                                        <h2 class="heading">Enroll in Complete C++ Course</h2>
-                                        <p class="description">Embark upon this journey from being an amateur coder to a DS-Algo expert with our complete C++ course.</p>
-                                        <a class="btn btn-filled" target="_blank"
-                                           href="{{relativePath @file.path '/courses/launchpad.html'}}">Register Now</a>
-                                    </div>
-                                </section>
                                 <a id="basic-enroll" class="in-page-link"></a>
                                 <section class="tabbed-enroll-section">
                                     <div class="container">
@@ -133,52 +125,95 @@
                                     </div>
                                 </section>
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="content-advance">
+                            <div role="tabpanel" class="tab-pane" id="content-complete">
                                 <div class="course-card-container">
                                     <div class="content-row">
                                         <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3 class="topic">
-                                            Problem Solving Paradigms</h3>
+                                            Logic Building</h3>
                                             <hr>
+                                            <p class="description">Course will start with basic understanding of logic.
+                                                We will be discussing about Flowcharts, PsudoCode and students will
+                                                solve also some of the Puzzles in initial classes.</p>
                                             <ul class="points-list">
-                                                <li>Recursion Problems</li>
-                                                <li>Backtracking Problems</li>
-                                                <li>Divide and Conquer Problems</li>
+                                                <li>Flowcharts and Pseudo code</li>
+                                                <li>Puzzles</li>
+                                                <li>Getting started with C++</li>
                                             </ul>
                                         </div>
                                         <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3 class="topic">
-                                            Foundational DS</h3>
+                                            C++ Basics</h3>
                                             <hr>
+                                            <p class="description">Then we will dive deep into C++ topics like Arrays,
+                                                solving problems with Recursion, understanding about pointers and
+                                                multi-dimensional arrays.</p>
                                             <ul class="points-list">
-                                                <li>Arrays &amp; Bitmasking, Vectors</li>
-                                                <li>Stacks, Queues Problems</li>
+                                                <li>Functions</li>
+                                                <li>Arrays, 2D Arrays</li>
+                                                <li>Character Arrays, Strings</li>
+                                                <li>Vectors in C++</li>
+                                                <li>Recursion</li>
+                                            </ul>
+                                        </div>
+                                        <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3 class="topic">
+                                            OOP</h3>
+                                            <hr>
+                                            <p class="description">In this part we learn about how to compute space-time
+                                                complexity of our solution and how can we optimise our solutions. We
+                                                will also learn about OOPs and recommended coding practices.</p>
+                                            <ul class="points-list">
+                                                <li>Space Time Complexity Analysis</li>
+                                                <li>Object Oriented Programming</li>
+                                                <li>Vectors(Implementation)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="content-row">
+                                        <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3 class="topic">
+                                            Data Structures</h3>
+                                            <hr>
+                                            <p class="description">This is the most important and exciting part and yet
+                                                easy. Data structures are all about storing data.You will learn to
+                                                implement different data structures and when to use them. This part is
+                                                important as most of the questions asked in interviwes are related to
+                                                data structures.</p>
+                                            <ul class="points-list">
                                                 <li>Linked Lists</li>
+                                                <li>Stacks</li>
+                                                <li>Queues</li>
+                                                <li>Generic Trees</li>
+                                                <li>Binary Trees</li>
+                                                <li>Binary Search Trees</li>
                                             </ul>
                                         </div>
                                         <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3 class="topic">
-                                            Advanced DS</h3>
+                                            Advanced Data Structures &amp; Algorithms</h3>
+                                            <hr>
+                                            <p class="description">In this final classes of our course, we will learn
+                                                about more complex data structures and algorithms which help you in
+                                                solving and optimising solutions of lots of problems.</p>
+                                            <ul class="points-list">
+                                                <li>Heaps</li>
+                                                <li>Hashtables</li>
+                                                <li>Graphs-I</li>
+                                                <li>Graphs-II</li>
+                                                <li>Tries</li>
+                                                <li>Dynamic Programming</li>
+                                                <li>Segment Trees (Extra Session)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3 class="topic">
+                                            Project Discussion</h3>
                                             <hr>
                                             <ul class="points-list">
-                                                <li>Binary Trees</li>
-                                                <li>BST’s</li>
-                                                <li>Heaps</li>
-                                                <li>Hashing</li>
-                                                <li>Graphs-I</li>
-                                                <li>Graphs-II, Tries</li>
-                                                <li>Dynamic Programming</li>
-                                                <li>Greedy Algorithms</li>
+                                                <li>Building your own C++ Libraries.</li>
+                                                <li>Sudoku Solver</li>
+                                                <li>Maze Solver</li>
+                                                <li>Snakes &amp; Ladders</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <section>
-                                    <div class="col-md-10 col-md-offset-1 complete-course-box bg-secondary">
-                                        <h2 class="heading">Enroll in Complete C++ Course</h2>
-                                        <p class="description">Embark upon this journey from being an amateur coder to a DS-Algo expert with our complete C++ course.</p>
-                                        <a class="btn btn-filled" target="_blank"
-                                           href="{{relativePath @file.path '/courses/launchpad.html'}}">Register Now</a>
-                                    </div>
-                                </section>
-                                <a id="advance-enroll" class="in-page-link"></a>
+                                <a id="complete-enroll" class="in-page-link"></a>
                                 <section class="tabbed-enroll-section">
                                     <div class="container">
                                         <div class="row v-align-children">
@@ -186,11 +221,10 @@
                                                 <p class="lead"></p>
                                                 <p>Upcoming Batches:</p>
                                                 <ul class="course-list">
-                                                    <li>Evening batch at Greater Noida starting January 6</li>
-                                                    <li>Evening batch at Pitampura starting January 13</li>
-                                                    <li>Morning batch at Dwarka starting January 27</li>
-                                                    <li>Morning batch at Pitampura starting March 11</li>
-                                                    <li>Evening batch at Dwarka starting March 11</li>
+                                                    <li>Evening batch at Greater Noida starting December 23</li>
+                                                    <li>Morning batch at Pitampura starting January 28</li>
+                                                    <li>Evening batch at Greater Noida starting January 29</li>
+                                                    <li>Evening batch at Pitampura starting March 31</li>
                                                 </ul>
                                                 <p></p>
                                                 <div class="overflow-hidden mb32 mb-xs-24">
@@ -215,9 +249,9 @@
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="pricing-table pt-1 text-center emphasis"><h5
                                                         class="uppercase">Regular Batch</h5><span
-                                                        class="price">₹12,000</span>
-                                                    <p class="lead">(12-15 lectures)</p><a class="btn btn-white btn-lg"
-                                                                                           href="#register-advance">Enroll
+                                                        class="price">₹17,000</span>
+                                                    <p class="lead">(24 lectures)</p><a class="btn btn-white btn-lg"
+                                                                                           href="#register-complete">Enroll
                                                         Now</a>
                                                     <p><a href="/contactus">Contact Us</a><br>Call(Toll-free):
                                                         1800-2744-504</p></div>
@@ -230,7 +264,7 @@
                                     <div class="text-center"><h3>REGISTER NOW</h3></div>
                                     <div class="container">
                                         <iframe class="payment-widget" frameborder="0"
-                                                src="https://students.codingblocks.com/payment/iframe?item_id=95"></iframe>
+                                                src="https://students.codingblocks.com/payment/iframe?item_id=99"></iframe>
                                     </div>
                                 </section>
                             </div>
@@ -254,11 +288,11 @@
     $(document).ready(function () {
         var hash = window.location.hash;
         console.log('WORKING', hash);
-        if (hash === '#advanced' || hash === '#advance') {
+        if (hash === '#complete' || hash === '#ad') {
             $('#tab-basic').toggleClass('active');
-            $('#tab-advance').toggleClass('active');
+            $('#tab-complete').toggleClass('active');
             $('#content-basic').toggleClass('active');
-            $('#content-advance').toggleClass('active');
+            $('#content-complete').toggleClass('active');
         }
     })
 </script>
