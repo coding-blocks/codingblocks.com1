@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="col-md-6 content">
-        <form id="message-form" action="https://cbemail.herokuapp.com/contact" method="POST"
+        <form id="message-form" action="http://localhost:3000/contact" method="POST"
               data-success="Thanks for your submission, we will be in touch shortly."
               data-error="Please fill all fields correctly.">
             <h6 class="uppercase text-center">Send A Message</h6>
@@ -22,6 +22,7 @@
             <input class="validate-required validate-email" name="email" placeholder="Email Address" type="text">
             <input class="validate-required" name="subject" placeholder="Subject" type="text">
             <textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
+            <div class="g-recaptcha" data-sitekey="6Lc2kkAUAAAAADcmZQxh0J39_ZZIELQ_a1mGOZ2a"></div>
             <button type="submit">Send Message</button>
         </form>
     </div>
