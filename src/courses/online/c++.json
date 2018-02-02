@@ -34,7 +34,7 @@
     "bgSrc": "../../assets/images/cb/cover/cover_laptop_books.jpg"
   },
   "courseEnrollAdvanced": {
-    "upcomingBatches": "New batch starting this February",
+    "upcomingBatches": "New batch starting 28th February",
 	"priceCut": "9,000",
 	"price": "6,000",
 	"registerButton": {
@@ -53,7 +53,7 @@
     ]
   },
   "courseEnrollComplete": {
-    "upcomingBatches": "New batch starting this February",
+    "upcomingBatches": "New batch starting 30th January",
 	"priceCut": "12,000",
 	"price": "8,000",
 	"registerButton": {
