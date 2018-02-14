@@ -1,4 +1,5 @@
 {
+  "id": "course11",
   "title": "Best Java Training in Delhi, Greater Noida | Coding Blocks",
   "metas": [
     {
@@ -8,13 +9,13 @@
   ],
   "openGraph": {
     "url": "https://codingblocks.com/courses/classroom/java.html",
-    "title": "Java Beginner & Advanced Course | Coding Blocks",
+    "title": "Algo.Java | Coding Blocks",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
     "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
   },
   "header": {
-    "heading": "Java - Crux",
-    "subHeading": "Data Structures & Algorithms in Java",
+    "heading": "Algo.Java",
+    "subHeading": "Advanced Data Structures & Algorithms in Java",
     "breadcrumbs": [
       {
         "linkText": "Highlights",
@@ -31,15 +32,24 @@
     ],
     "bgSrc": "../../assets/images/cb/cover/covergcp.jpg"
   },
+  "courseEnroll": {
+    "upcomingBatches": "",
+    "priceCut": "",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Session on Java Game Development"
+      }
+    ]
+  },
   "overview": {
-    "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements.Designed for beginners, this is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+    "content": "Become a pro in Java with the Algo.Java course. Java, an Object Oriented Programming language is one of the most sought after programming languages and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements. Designed for programmers experienced in basic Data Structures and Algorithms, this is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
   },
   "courseHighlights": [
-    {
-      "icon": "fa fa-code",
-      "title": "Fundamentals",
-      "content": "We have designed our course keeping in mind the requirements of beginners.Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
-    },
     {
       "icon": "et-line-puzzle",
       "title": "Problem Solving",
@@ -57,18 +67,6 @@
     }
   ],
   "faqs": [
-    {
-      "ques": "Who should do this course?",
-      "ans": "Anybody who is interested in learning programming can take the Java training. Java is a powerful and elegant language, but still is pretty easy to learn. Also, this opens the path to enter Enterprise Java world for making powerful desktop and web applications or mobile apps using Android."
-    },
-    {
-      "ques": "I know C, should I do this course?",
-      "ans": "Yes. Absolutely. Not only will this course teach you Java, but also Object Oriented Programming which forms the base of most, if not all code running live across the globe. Besides it builds your problem solving skills, teaches you some fine data structures and helps you develop the thinking process to optimise your solutions."
-    },
-    {
-      "ques": "I know C++, should I do this course?",
-      "ans": "Depends. Knowing C++ generally means you know Object Oriented Programming well. If that is the case, you’ll be better served by learning some courses which teach you to create making mobile apps or web applications. Please check out our Pandora and Elixir course for those."
-    },
     {
       "ques": "Will this help me with competitive programming or can I apply to ACM-ICPC after doing this course?",
       "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time. The last time we heard from capable competitive programmers, they said these skills made them capable."

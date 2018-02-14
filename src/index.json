@@ -98,45 +98,37 @@
   ],
   "coursesRow1": [
     {
-      "id": "course08",
-      "badge": "Starting Mar 31"
+      "id": "course08"
     },
     {
       "id": "course10",
-      "odd": true,
-      "badge": "Starting Mar 11"
+      "odd": true
     },
     {
       "id": "course01",
-      "combo": true,
-      "badge": "Starting This June"
+      "combo": true
     }
   ],
   "coursesRow2": [
     {
       "id": "course07",
-      "odd": true,
-      "badge": "Starting Mar 31"
+      "odd": true
     },
     {
-      "id": "course11",
-      "badge": "Starting This June"
+      "id": "course11"
     },
     {
       "id": "course02",
-      "combo": true,
-      "badge": "Starting This June"
+      "combo": true
     }
   ],
   "coursesRow3": [
     {
-      "id": "course03",
-      "badge": "Starting This June"
+      "id": "course03"
     },
     {
       "id": "course04",
-      "odd": true,
-      "badge": "Starting This June"
+      "odd": true
     },
     {
       "id": "course09",
@@ -149,8 +141,7 @@
       "odd": true
     },
     {
-      "id": "course06",
-	  "badge": "Starting This June"
+      "id": "course06"
     },
     {
       "id": "bootcamp01",

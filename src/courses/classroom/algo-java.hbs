@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    {{> courseSchema}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    {{> header}}
+    {{> overview}}
+	<a id="highlights" class="in-page-link" data-scroll-id="course-features"></a>
+	<section class="bg-dark">
+		<div class="container">
+			<div class="row">
+				{{#each courseHighlights}}
+					<div class="text-center col-sm-4">
+						<div class="feature">
+							<i class="icon fade-3-4 inline-block mb16 {{{icon}}}"></i>
+							<h3>{{{title}}}</h3>
+							<p>{{{content}}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="uppercase mb64 text-center color-primary">Course Contents</h2>
+                    <div>
+						<div class="course-card-container">
+							<div class="content-row">
+								<div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+									<h3 class="topic">Recursion and Optimization</h3>
+									<hr>
+									<ul class="points-list">
+										<li>Recursion</li>
+										<li>Backtracking</li>
+									</ul>
+								</div>
+								<div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+									<h3 class="topic">Data Structures and Algorithms</h3>
+									<hr>
+									<ul class="points-list">
+										<li>Stacks and Queues – Adva Questions</li>
+										<li>Linked Lists – Advanced Questions</li>
+										<li>Generic Trees</li>
+										<li>Binary Trees</li>
+										<li>Binary Search Trees</li>
+									</ul>
+								</div>
+								<div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+									<h3 class="topic">Non Linear Data Structures</h3>
+									<hr>
+									<ul class="points-list">
+										<li>Heaps</li>
+										<li>Hash Tables</li>
+										<li>Generics</li>
+										<li>Graphs – Traversals, Minimum Spanning trees, Shortest path
+											algorithms
+										</li>
+										<li>Text Processing – Text Matching, Compression</li>
+										<li>Dynamic Programming</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<section>
+							<div class="col-md-10 col-md-offset-1 complete-course-box bg-secondary">
+								<h2 class="heading">Enroll in Complete Java Course</h2>
+								<p class="description">Embark upon this journey from being an amateur coder to a DS-Algo expert with our complete Java course.</p>
+								<a class="btn btn-filled" target="_blank"
+									href="/courses/classroom/java.html#content-advance">Register Now</a>
+							</div>
+						</section>
+						{{> courseenroll}}
+						<a id="register" class="in-page-link"></a>
+						<section>
+							<div class="text-center">
+								<h3>REGISTER NOW</h3>
+							</div>
+							<div class="container">
+								<iframe class="payment-widget" frameborder="0"
+									src="https://students.codingblocks.com/payment/iframe?item_id=94"></iframe>
+							</div>
+						</section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    {{> team team=mentors}}
+    {{> coursefaq}}
+    {{> review-course-section}}
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>
