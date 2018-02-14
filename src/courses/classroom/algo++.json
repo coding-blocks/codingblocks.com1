@@ -34,7 +34,7 @@
     "bgSrc": "../assets/images/cb/cover/algo_2.jpg"
   },
   "overview": {
-    "content": "Introducing our newest course on <strong>Algorithms and Data Structures(in C++)</strong> starting this summer. The course is for all those who are looking forward to sit for internships and placements in August. The course will involve rigorous practice of questions based on <strong>Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming</strong> along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. The course will help you become smarter with solutions and ace your programming interviews.<br>"
+    "content": "Coding Blocks presents an Advanced course on Data Structures and Algorithms - Algo++. The course is for all those who aspire to gain expertise in DS and Algo, or are appearing for their internship/placement procedure. The course will involve rigorous practice of questions based on <strong>Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming</strong> along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. The course will help you become smarter with solutions and ace your programming interviews.<br>"
   },
   "courseHighlights": [
     {
@@ -71,10 +71,21 @@
       ]
     },
     {
+      "title": "Foundational DS",
+      "contentTitle": "",
+      "description": "We begin our journey by building a strong foundation for Data Structures.",
+      "points": [
+		  "Arrays & Bitmasking, Vectors",
+		  "Stacks, Queues Problems",
+		  "Linked Lists"
+      ]
+    },
+    {
       "title": "Sorting, Searching and Hashing",
       "contentTitle": "Sorting, Searching and Hashing",
       "description": "We will learn various sorting and searching algorithms, we will learn to use Hashtables and solve various problems on the same. We will also see various variants of Binary Search.",
       "points": [
+        "Divide & Conquer",
         "Sorting Algorithms",
         "Binary Search Variants",
         "Bitmasking and Hashing"
@@ -88,7 +99,8 @@
         "Stacks, Queues, Linked Lists",
         "Trees &amp; Tries",
         "Graphs",
-        "Heaps and Priority Queues"
+        "Heaps and Priority Queues",
+        "Binary Search Trees"
       ]
     },
     {

@@ -7,8 +7,9 @@
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "C++ course logo",
       "lectures": "(24 lectures)",
-      "link": "/courses/launchpad.html",
+      "link": "/courses/c++.html#launchpad-bundle-content",
       "off-price": "3,000",
+      "badge": "Starting This June",
       "description": [
         "C++ Complete Course",
         "Data Structures & Algorithms in C++",
@@ -38,8 +39,9 @@
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "java course logo",
       "lectures": "(24 lectures)",
-      "link": "/courses/crux.html",
+      "link": "/courses/classroom/java.html#crux-bundle",
       "off-price": "3,000",
+      "badge": "Starting This June",
       "description": [
         "Java Complete Course",
         "Data Structures & Algorithms in Java",
@@ -47,18 +49,6 @@
         "300+ Problems, Hackathons"
       ],
       "batches": [
-        {
-          "slug": "Evening batch at Greater Noida starting December 28"
-        },
-        {
-          "slug": "Morning batch at Pitampura starting January 28"
-        },
-        {
-          "slug": "Evening batch at Greater Noida starting January 29"
-        },
-        {
-          "slug": "Evening batch at Pitampura starting March 31"
-        }
       ]
     },
     {
@@ -69,6 +59,7 @@
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
       "link": "/courses/classroom/android-app-development.html",
+      "badge": "Starting This June",
       "description": [
         "Building Android Apps",
         "UI and Animations",
@@ -93,6 +84,7 @@
       "imgAlt": "web development course logo",
       "lectures": "(22 lectures)",
       "link": "/courses/classroom/web-development-nodejs.html",
+      "badge": "Starting This June",
       "description": [
         "Web Design",
         "Real time Web Apps",
@@ -124,18 +116,8 @@
       ],
       "odd": true,
       "batches": [
-        {
-          "slug": "Evening batch at Greater Noida starting January 6"
-        },
-        {
-          "slug": "Evening batch at Pitampura starting January 13"
-        },
-        {
-          "slug": "Morning batch at Dwarka starting January 27"
-        },
-        {
-          "slug": "Morning batch at Pitampura starting March 11"
-        }
+		  { "slug": "Morning batch at Pitampura starting March 11" },
+		  { "slug": "Morning batch at Dwarka starting March 11" }
       ]
     },
     {
@@ -146,6 +128,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "(23 lectures)",
       "link": "/courses/perceptron.html",
+	  "badge": "Starting This June",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -166,6 +149,7 @@
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/courses/classroom/java.html",
+      "badge": "Starting Mar 31",
       "description": [
         "Programming Fundamentals in Java"
       ],
@@ -192,6 +176,7 @@
       "imgAlt": "Launchpad For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/courses/classroom/c++.html",
+      "badge": "Starting Mar 31",
       "description": [
         "Programming Fundamentals in C+"
       ],
@@ -218,6 +203,7 @@
       "imgAlt": "Certified Python Developer Logo",
       "lectures": "(10 lectures)",
       "link": "/courses/certified-python-developer.html",
+	  "badge": "Starting this June",
       "description": [
         "Complete Python Course"
       ],
@@ -234,7 +220,8 @@
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
-      "link": "/courses/classroom/c++.html#advance",
+      "link": "/courses/classroom/algo++.html",
+      "badge": "Starting Mar 11",
       "description": [
         "Data Structures in C++"
       ],
@@ -255,24 +242,22 @@
     },
     {
       "id": "course11",
-      "name": "Data Structures and Algo Using Java",
+      "name": "Algo.Java",
       "price": "12,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Data Structures and Algorithms Using Java",
       "lectures": "(12-15 lectures)",
-      "link": "/courses/classroom/java.html#advance",
+      "link": "/courses/classroom/algo-java.html",
+      "badge": "Starting Mar 11",
       "description": [
-        "Data Structures in Java"
+        "Advanced Data Structures & Algorithms in Java"
       ],
       "batches": [
         {
-          "slug": "Evening batch at Dwarka starting January 13"
-        },
-        {
-          "slug": "Evening batch at Greater Noida starting January 13"
-        },
-        {
           "slug": "Morning batch at Pitampura starting March 11"
+        },
+        {
+          "slug": "Morning batch at Dwarka starting March 11"
         }
       ]
     },
@@ -298,6 +283,7 @@
       "imgAlt": "Launchpad Online",
       "lectures": "(24 lectures)",
       "link": "/courses/advancedjava.html",
+	  "badge": "Starting this June",
       "description": [
         "App Development in Java"
       ],
@@ -312,6 +298,7 @@
       "imgAlt": "Competitive Programming course logo",
       "lectures": "(10 lectures)",
       "link": "/bootcamps/competitiveprogramming.html",
+	  "badge": "Starting this June",
       "description": [
         "Maths & Number Theory",
         "Greedy &amp; Divide 'n' Conquer",
