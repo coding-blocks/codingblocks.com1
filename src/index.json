@@ -83,6 +83,14 @@
   },
   "subHighlightSection": [
     {
+      "heading": "Java Online Course",
+      "description": "Coding Blocks introduces an all new online course on DS-Algo in Java. Develop core programming concepts and equip yourself to code solutions for complex problems using Java.<div><strong>Starting 28 Feb 2018</strong></div>",
+      "imgAlt": "coding blocks online java course",
+      "imgSrc": "/assets/images/cb/javaonline.png",
+      "btnLink": "/courses/online/java.html",
+      "btnText": "Know More"
+    },
+    {
       "heading": "Android Online Course",
       "description": "Coding Blocks introduces an online course on Andorid App Development with Java and Kotlin. Learn to build useful apps from scratch and publish them on the Play Store. <div><strong>Starting 26 Jan 2018</strong></div>",
       "imgAlt": "coding blocks online java course",
@@ -98,15 +106,6 @@
       "imgSrc": "/assets/images/cb/launchpadonline.png",
       "btnLink": "/courses/online/c++.html",
       "btnText": "Know More"
-    },
-    {
-      "heading": "Java Online Course",
-      "description": "Coding Blocks introduces an all new online course on DS-Algo in Java. Develop core programming concepts and equip yourself to code solutions for complex problems using Java.<div><strong>Starting 28 Feb 2018</strong></div>",
-      "imgAlt": "coding blocks online java course",
-      "imgSrc": "/assets/images/cb/javaonline.png",
-      "btnLink": "/courses/online/java.html",
-      "btnText": "Know More",
-      "pull-right": true
     }
   ],
   "coursesRow1": [
