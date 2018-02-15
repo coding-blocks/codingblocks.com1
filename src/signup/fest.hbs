@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    <style>
+        .non-label {
+            font-weight: 400 !important;
+        }
+    </style>
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <section>
+        <div class="col-sm-12 text-center">
+            <h4 class="uppercase mb16">Angry Coders Game</h4>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+                    <form id="signup-form" action="https://cbemail.herokuapp.com/signup" method="POST"
+                          data-success="Thanks for your submission, we will be in touch shortly."
+                          data-error="Please fill all fields correctly.">
+                        <input type="text" class="validate-required" name="name" placeholder="Your Name">
+                        <input type="text" class="validate-required validate-tel" name="number"
+                               placeholder="Phone Number">
+                        <input type="text" class="validate-required validate-email" name="email"
+                               placeholder="Email Address">
+                        <input type="text" class="validate-required validate-text-only-letters" name="college"
+                               placeholder="College/University/School">
+                            <button type="submit">Play</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>
+
