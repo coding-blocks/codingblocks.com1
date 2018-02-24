@@ -1041,3 +1041,8 @@ footer, section {
         position: relative !important;
     }
 }
+
+.g-recaptcha {
+    width: 304px;
+    margin: 10px auto;
+}
