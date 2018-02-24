@@ -8,45 +8,37 @@
   ],
   "coursesRow1": [
     {
-      "id": "course08",
-      "badge": "Starting Jan 28"
+      "id": "course08"
     },
     {
       "id": "course10",
-      "odd": true,
-      "badge": "Starting Jan 14"
+      "odd": true
     },
     {
       "id": "course01",
-      "combo": true,
-      "badge": "Starting Jan 28"
+      "combo": true
     }
   ],
   "coursesRow2": [
     {
       "id": "course07",
-      "odd": true,
-      "badge": "Starting Jan 28"
+      "odd": true
     },
     {
-      "id": "course11",
-      "badge": "Starting Mar 13"
+      "id": "course11"
     },
     {
       "id": "course02",
-      "combo": true,
-      "badge": "Starting Jan 28"
+      "combo": true
     }
   ],
   "coursesRow3": [
     {
-      "id": "course03",
-      "badge": "Starting Feb 4"
+      "id": "course03"
     },
     {
       "id": "course04",
-      "odd": true,
-      "badge": "Starting Feb 4"
+      "odd": true
     },
     {
       "id": "course09",
@@ -94,23 +86,19 @@
   "coursesRow7": [
     {
       "id": "course17",
-      "odd": true,
-      "badge": "Starting Jan 26"
+      "odd": true
     },
     {
-      "id": "course12",
-      "badge": "Starting Jan 30"
+      "id": "course12"
     },
     {
       "id": "course18",
-      "badge": "Starting Feb 28",
       "odd": true
     }
   ],
   "coursesRow8": [
     {
       "id": "course16",
-      "badge": "Starting Mar 20",
       "odd": true,
       "center": true
     }

@@ -8,6 +8,19 @@
   ],
   "slides": [
     {
+      "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
+      "imgAlt": "Java",
+      "heading": "Introducing Java DS - Algo (Online)",
+      "content": "Now master Data Structures and Algorithms in Java from the comfort of your own home. Batch starting February 28.",
+      "button": [
+        {
+          "link": "/courses/online/java.html",
+          "text": "Details & Registration",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/educarn.jpg",
       "imgAlt": "Introducing Android App Development Online",
       "heading": "Introducing Android App Development Online",
@@ -70,6 +83,14 @@
   },
   "subHighlightSection": [
     {
+      "heading": "Java Online Course",
+      "description": "Coding Blocks introduces an all new online course on DS-Algo in Java. Develop core programming concepts and equip yourself to code solutions for complex problems using Java.<div><strong>Starting 28 Feb 2018</strong></div>",
+      "imgAlt": "coding blocks online java course",
+      "imgSrc": "/assets/images/cb/javaonline.png",
+      "btnLink": "/courses/online/java.html",
+      "btnText": "Know More"
+    },
+    {
       "heading": "Android Online Course",
       "description": "Coding Blocks introduces an online course on Andorid App Development with Java and Kotlin. Learn to build useful apps from scratch and publish them on the Play Store. <div><strong>Starting 26 Jan 2018</strong></div>",
       "imgAlt": "coding blocks online java course",
@@ -85,58 +106,41 @@
       "imgSrc": "/assets/images/cb/launchpadonline.png",
       "btnLink": "/courses/online/c++.html",
       "btnText": "Know More"
-    },
-    {
-      "heading": "Java Online Course",
-      "description": "Coding Blocks introduces an all new online course on DS-Algo in Java. Develop core programming concepts and equip yourself to code solutions for complex problems using Java.<div><strong>Starting 28 Feb 2018</strong></div>",
-      "imgAlt": "coding blocks online java course",
-      "imgSrc": "/assets/images/cb/javaonline.png",
-      "btnLink": "/courses/online/java.html",
-      "btnText": "Know More",
-      "pull-right": true
     }
   ],
   "coursesRow1": [
     {
-      "id": "course08",
-      "badge": "Starting Jan 28"
+      "id": "course08"
     },
     {
       "id": "course10",
-      "odd": true,
-      "badge": "Starting Jan 14"
+      "odd": true
     },
     {
       "id": "course01",
-      "combo": true,
-      "badge": "Starting Jan 28"
+      "combo": true
     }
   ],
   "coursesRow2": [
     {
       "id": "course07",
-      "odd": true,
-      "badge": "Starting Jan 28"
+      "odd": true
     },
     {
-      "id": "course11",
-      "badge": "Starting Mar 13"
+      "id": "course11"
     },
     {
       "id": "course02",
-      "combo": true,
-      "badge": "Starting Jan 28"
+      "combo": true
     }
   ],
   "coursesRow3": [
     {
-      "id": "course03",
-      "badge": "Starting Feb 4"
+      "id": "course03"
     },
     {
       "id": "course04",
-      "odd": true,
-      "badge": "Starting Feb 4"
+      "odd": true
     },
     {
       "id": "course09",
