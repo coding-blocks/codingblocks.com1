@@ -1,96 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>{{title}}</title>
-    {{> meta}}
-    {{> head}}
-    <style>
-        .non-label {
-            font-weight: 400 !important;
-        }
-    </style>
-</head>
-<body class="scroll-assist">
-{{> navbar}}
-<div class="main-container">
-    <section>
-        <div class="col-sm-12 text-center">
-            <h4 class="uppercase mb16">STARTUP</h4>
-            <p class="lead mb64">
-                Hire character. Train skill
-            </p>
-        </div>
-        <div class="container">
-            <div class="row">
+	<head>
+		<title>{{title}}</title>
+		{{> meta}}
+		{{> head}}
+		<style>
+			.non-label {
+				font-weight: 400 !important;
+			}
+		</style>
+	</head>
+	<body class="scroll-assist">
+		{{> navbar}}
+		<div class="main-container">
+			<section>
+				<div class="col-sm-12 text-center">
+					<h4 class="uppercase mb16">STARTUP</h4>
+					<p class="lead mb64">
+						Hire character. Train skill
+					</p>
+				</div>
+				<div class="container">
+					<div class="row">
 
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+						<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
 
-                    <form action="https://cbemail.herokuapp.com/hiring" method="POST"
-                          data-success="Thanks you for showing interest in hiring coding blocks students.our team will get in touch with you shortly"
-                          data-error="Please fill all fields correctly.">
-                        <input type="text" class="validate-required" name="companyname" placeholder="Company_Name">
-                        <input type="text" class="validate-required" name="websitelink" placeholder="website link">
-                        <input type="text" class="validate-required" name="companyaddress"
-                               placeholder="company address">
-                        <input type="text" class="validate-required" name="contactpersonname"
-                               placeholder="contact person name">
-                        <input type="text" class="validate-required" name="contactno" placeholder="contact no.">
-                        <input type="text" class="validate-required" name="emailid" placeholder="Email id">
-                        <div class="form-group" id="lookingfor">
-                            <label>Looking for:</label>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
-                                    <div><input name="lookingfor" type="checkbox" value="fulltime" id="fulltime"> <label
-                                            class="non-label" for="fulltime">Fulltime Employee</label></div>
-                                    <div><input name="lookingfor" type="checkbox" value="interns" id="interns"> <label
-                                            class="non-label" for="interns">Interns</label></div>
-                                    <div><input name="lookingfor" type="checkbox" value="freelancers" id="freelancer">
-                                        <label class="non-label" for="freelancer"> Free lancers</label></div>
-
-
-                                </div>
+							<form action="https://cbemail.herokuapp.com/hiring" method="POST"
+								data-success="Thanks you for showing interest in hiring coding blocks students.our team will get in touch with you shortly"
+								data-error="Please fill all fields correctly.">
+								<input type="text" class="validate-required" name="companyname" placeholder="Company_Name">
+								<input type="text" class="validate-required" name="websitelink" placeholder="website link">
+								<input type="text" class="validate-required" name="companyaddress"
+								placeholder="company address">
+								<input type="text" class="validate-required" name="contactpersonname"
+								placeholder="contact person name">
+								<input type="text" class="validate-required" name="contactno" placeholder="contact no.">
+								<input type="text" class="validate-required" name="emailid" placeholder="Email id">
+								<div class="form-group" id="lookingfor">
+									<label>Looking for:</label>
+									<div class="row">
+										<div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
+											<div><input name="lookingfor" type="checkbox" value="fulltime" id="fulltime"> <label
+													class="non-label" for="fulltime">Fulltime Employee</label></div>
+											<div><input name="lookingfor" type="checkbox" value="interns" id="interns"> <label
+													class="non-label" for="interns">Interns</label></div>
+											<div><input name="lookingfor" type="checkbox" value="freelancers" id="freelancer">
+												<label class="non-label" for="freelancer"> Free lancers</label></div>
 
 
-                                <div class="form-group" id="skills">
+										</div>
 
-                                    <div class="form-group" id="courses">
 
-                                        <label>Skills required:</label>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
-                                                <div><input name="skills" type="checkbox" value="c++" id="c++"> <label
-                                                        class="non-label" for="c++">C++</label></div>
-                                                <div><input name="skills" type="checkbox" value="java" id="java"> <label
-                                                        class="non-label" for="java">JAVA</label></div>
-                                                <div><input name="skills" type="checkbox"
-                                                            value="mobile app development" id="mobile"> <label
-                                                        class="non-label" for="mobile">Mobile App Development</label>
-                                                </div>
-                                                <div><input name="skills" type="checkbox" value="web development"
-                                                            id="web"> <label class="non-label" for="web">Web
-                                                    Development</label>
-                                                </div>
-                                                <div><input name="skills" type="checkbox" value="others" id="others">
-                                                    <label class="non-label" for="others">others</label></div>
-                                                <input type="text" name="skills" placeholder="others">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <input type="text" class="validate-required" name="joblocation"
-                                           placeholder="job location">
-                                </div>
-                                <input type="text" id="input" name="jobdescription"
-                                       placeholder="link of jobdescription">
-                                <button id="submitForm" type="submit">Submit</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    {{> footer}}
-</div>
-{{> scripts}}
-</body>
+										<div class="form-group" id="skills">
+
+											<div class="form-group" id="courses">
+
+												<label>Skills required:</label>
+												<div class="row">
+													<div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
+														<div><input name="skills" type="checkbox" value="c++" id="c++"> <label
+																class="non-label" for="c++">C++</label></div>
+														<div><input name="skills" type="checkbox" value="java" id="java"> <label
+																class="non-label" for="java">JAVA</label></div>
+														<div><input name="skills" type="checkbox"
+															value="mobile app development" id="mobile"> <label
+																class="non-label" for="mobile">Mobile App Development</label>
+														</div>
+														<div><input name="skills" type="checkbox" value="web development"
+															id="web"> <label class="non-label" for="web">Web
+																Development</label>
+														</div>
+														<div><input name="skills" type="checkbox" value="others" id="others">
+															<label class="non-label" for="others">others</label></div>
+														<input type="text" name="skills" placeholder="others">
+													</div>
+												</div>
+											</div>
+											<input type="text" class="validate-required" name="joblocation"
+											placeholder="Job Location">
+										</div>
+										<input type="text" id="input" name="jobdescription" placeholder="Link to Job Description">
+										<div class="g-recaptcha" data-sitekey="6Lc2kkAUAAAAADcmZQxh0J39_ZZIELQ_a1mGOZ2a"></div>
+										<button id="submitForm" type="submit">Submit</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			{{> footer}}
+		</div>
+		{{> scripts}}
+	</body>
 </html>
