@@ -20,8 +20,8 @@
     "upcomingBatches": "Upcoming Batches",
     "registerBoxHeading": "",
     "registerButton": {
-      "buttonText": "Enroll Now",
-      "disabled": false
+      "buttonText": "Registration Starting Soon",
+      "disabled": true
     },
     "highlights": [
       {
