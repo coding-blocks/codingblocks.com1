@@ -388,6 +388,23 @@
           "slug": "Online batch starting from <strong>28 Feb</strong>"
         }
       ]
+    },
+    {
+      "id": "course19",
+      "name": "Competitive Programming Online Study Material",
+      "price": "999",
+      "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
+      "imgAlt": "Competitive Programming course logo",
+      "lectures": "",
+      "link": "/courses/competitive-online-study-material.html",
+      "description": [
+        "Maths & Number Theory",
+        "Greedy &amp; Divide 'n' Conquer",
+        "Dynamic Programming &amp; Graphs",
+        "Segment trees &amp; Game Theory"
+      ],
+      "batches": [
+      ]
     }
   ]
 }
