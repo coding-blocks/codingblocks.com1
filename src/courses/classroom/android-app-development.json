@@ -142,6 +142,11 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming Courses:",
+    "registerButton":{
+        "disabled": true,
+        "buttonText": "Coming Soon"
+    },
+    
     "highlights": [
       {
         "icon": "et-line-search",
