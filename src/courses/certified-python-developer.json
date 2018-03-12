@@ -50,21 +50,6 @@
       ]
     },
     {
-      "title": "Intermediate Python",
-      "contentTitle": "Intermediate Python",
-      "description": "",
-      "lectures": "",
-      "points": [
-        "Overview of common python modules(os, sys, time, random, collections, etc)",
-        "Lambda, map, reduce, reduce, filter in Python",
-        "Working with files in Python (General I/O + xml/csv/pdf/zip/json files)",
-        "CLI programming using Python",
-        "Multithreading and multiprocessing in Python",
-        "Virtual environment in Python",
-        "Introduction to desktop GUI development using Python"
-      ]
-    },
-    {
       "title": "Python for Web",
       "contentTitle": "Python for Web",
       "description": "",
@@ -109,8 +94,8 @@
   ],
   "courseEnroll": {
     "upcomingBatches": " ",
-	"priceCut": "12,000",
-	"price": "10,000",
+	"priceCut": "7,000",
+	"price": "6,000",
     "highlights": [
     ],
 	"registerButton": {
@@ -124,5 +109,5 @@
 	  "Anshul Garg",
 	  "Shivanshu Chaudhary"
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=70"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=110"
 }

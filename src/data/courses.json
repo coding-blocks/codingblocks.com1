@@ -68,10 +68,7 @@
       ],
       "batches": [
         {
-          "slug": "Morning Batch at Greater Noida starting January 6"
-        },
-        {
-          "slug": "Morning Batch at Pitampura starting February 4"
+          "slug": "New batches starting this June"
         }
       ],
       "odd": true
@@ -93,10 +90,7 @@
       ],
       "batches": [
         {
-          "slug": "Morning batch at Greater Noida starting January 6"
-        },
-        {
-          "slug": "Evening batch at Pitampura starting February 4"
+          "slug": "New batches starting this June"
         }
       ]
     },
@@ -198,18 +192,18 @@
     {
       "id": "course09",
       "name": "Certified Python Developer",
-      "price": "10,000",
+      "price": "7,000",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "Certified Python Developer Logo",
-      "lectures": "(10 lectures)",
+      "lectures": "(7 lectures)",
       "link": "/courses/certified-python-developer.html",
-	  "badge": "Starting this June",
+	  "badge": "Starting March 15",
       "description": [
         "Complete Python Course"
       ],
       "batches": [
         {
-          "slug": "<strong>Regular Evening Batch at Pitampura starting December 17</strong>"
+          "slug": "Evening Batch at Pitampura starting <strong>March 15</strong> (Tuesday, Thursday, and Friday. <strong>Class Timings:</strong> 4:00 PM - 7:00 PM)"
         }
       ]
     },
@@ -387,6 +381,23 @@
         {
           "slug": "Online batch starting from <strong>28 Feb</strong>"
         }
+      ]
+    },
+    {
+      "id": "course19",
+      "name": "Competitive Programming Online Study Material",
+      "price": "999",
+      "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
+      "imgAlt": "Competitive Programming course logo",
+      "lectures": "",
+      "link": "/courses/competitive-online-study-material.html",
+      "description": [
+        "Maths & Number Theory",
+        "Greedy &amp; Divide 'n' Conquer",
+        "Dynamic Programming &amp; Graphs",
+        "Segment trees &amp; Game Theory"
+      ],
+      "batches": [
       ]
     }
   ]

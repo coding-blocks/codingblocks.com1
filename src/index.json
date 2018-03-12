@@ -8,6 +8,37 @@
   ],
   "slides": [
     {
+      "imgSrc": "/assets/images/cb/cover/cast.jpg",
+      "imgAlt": "Registration CAST and APAT",
+      "heading": "Register for CAST and APAT",
+      "content": "Coding Blocks is pleased to announce the Coders' Admission & Scholarship Test (CAST) and Advanced Programs Admission (and Scholarship) Test. Register now and win scholarships of up to 75% off the entire course fees.",
+      "button": [
+        {
+          "link": "cast.html",
+          "text": "Details and Registration: CAST",
+          "filled": "true"
+        },
+        {
+          "link": "apat.html",
+          "text": "Details and Registration: APAT",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
+      "imgAlt": "",
+      "heading": "Competitive Programming Study Material, Now in Stock!",
+      "content": "Coding Blocks is pleased to announce an exclusive Competitive Programming study package with three informative videos and Coding Blocks' own Mastering Competitive Programming Booklet.",
+      "button": [
+        {
+          "link": "/courses/competitive-online-study-material.html",
+          "text": "Enroll Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
       "imgAlt": "Java",
       "heading": "Introducing Java DS - Algo (Online)",
