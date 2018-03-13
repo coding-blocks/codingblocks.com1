@@ -195,15 +195,15 @@
       "price": "7,000",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "Certified Python Developer Logo",
-      "lectures": "(7 lectures)",
+      "lectures": "(6 lectures)",
       "link": "/courses/certified-python-developer.html",
-	  "badge": "Starting March 15",
+	  "badge": "Starting March 24",
       "description": [
         "Complete Python Course"
       ],
       "batches": [
         {
-          "slug": "Evening Batch at Pitampura starting <strong>March 15</strong> (Tuesday, Thursday, and Friday. <strong>Class Timings:</strong> 4:00 PM - 7:00 PM)"
+          "slug": "Weekend Evening Batch at Pitampura starting <strong>March 24</strong> <div>(<strong>Class Timings:</strong> 4:00 PM - 7:00 PM)</div>"
         }
       ]
     },

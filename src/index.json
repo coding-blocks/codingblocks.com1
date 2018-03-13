@@ -26,13 +26,13 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
+      "imgSrc": "/assets/images/cb/cover/apatbg.jpg",
       "imgAlt": "",
-      "heading": "Competitive Programming Study Material, Now in Stock!",
-      "content": "Coding Blocks is pleased to announce an exclusive Competitive Programming study package with three informative videos and Coding Blocks' own Mastering Competitive Programming Booklet.",
+      "heading": "Python Development Bootcamp",
+      "content": "Coding Blocks announces a new bootcamp on introductory Python development for you this March. Enroll now, and become an expert in Python in just 6 classes.",
       "button": [
         {
-          "link": "/courses/competitive-online-study-material.html",
+          "link": "/courses/certified-python-developer.html",
           "text": "Enroll Now",
           "filled": "true"
         }
@@ -40,52 +40,31 @@
     },
     {
       "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
-      "imgAlt": "Java",
-      "heading": "Introducing Java DS - Algo (Online)",
-      "content": "Now master Data Structures and Algorithms in Java from the comfort of your own home. Batch starting February 28.",
+      "imgAlt": "",
+      "heading": "Beginners' Courses starting this March",
+      "content": "Kickstart your journey into the world of programming with Coding Blocks' beginners' courses tailor made for entry level programmers.",
       "button": [
         {
-          "link": "/courses/online/java.html",
-          "text": "Details & Registration",
+          "link": "/courses/classroom/c++.html",
+          "text": "Register for C++",
+          "filled": "true"
+        },
+        {
+          "link": "/courses/classroom/java.html",
+          "text": "Register for Java",
           "filled": "true"
         }
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/coveri.jpg",
-      "imgAlt": "Introducing Launchpad Online",
-      "heading": "Registration Open for Launchpad Online",
-      "content": "Learn Data Structures and Algorithms in C++ from the comfort of your homes.<br/> Advanced batch starting February 28.",
+      "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
+      "imgAlt": "",
+      "heading": "Competitive Programming Study Material, Now in Stock!",
+      "content": "Coding Blocks is pleased to announce an exclusive Competitive Programming study package with three informative videos and Coding Blocks' own Mastering Competitive Programming Booklet.",
       "button": [
         {
-          "link": "/courses/launchpad-online.html",
-          "text": "Details & Registration",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
-      "imgAlt": "Access Free Tutorials on YouTube",
-	  "heading": "Access Free Tutorials on YouTube",
-      "content": "Check out a wealth of free content on a variety of subjects on our YouTube Channel, taught by our experts.",
-      "button": [
-        {
-          "link": "https://cb.lk/yt",
-          "text": "Like & Subscribe",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/tuts.jpg",
-      "imgAlt": "Learn from Coding Blocks resources",
-      "heading": "Learn from Coding Blocks resources",
-      "content": "Learn from free tutorials on C++, JavaScript, Java, Python etc.",
-      "button": [
-        {
-          "link": "https://codingblocks.com/resources/",
-          "text": "View Resources",
+          "link": "/courses/competitive-online-study-material.html",
+          "text": "Buy Now",
           "filled": "true"
         }
       ]
