@@ -6,6 +6,10 @@
     {
       "name": "description",
       "content": "Learn Android App Development using Java and Kotlin via Coding Blocks live online course"
+    },
+    {
+      "name": "keywords",
+      "content": "android,app,development,kotlin,india,delhi,course,coding,blocks,online course"
     }
   ],
   "openGraph": {
