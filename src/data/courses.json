@@ -67,9 +67,8 @@
         "LIVE Project & Pitching Session"
       ],
       "batches": [
-        {
-          "slug": "New batches starting this June"
-        }
+        { "slug": "Regular batch at Pitampura starting June 3" },
+	    { "slug": "Info about June batches at other centers coming soon" }
       ],
       "odd": true
     },
@@ -89,9 +88,8 @@
         "LIVE Project &amp; Hackathon"
       ],
       "batches": [
-        {
-          "slug": "New batches starting this June"
-        }
+        { "slug": "Regular batch at Pitampura starting June 3" },
+	    { "slug": "Info about June batches at other centers coming soon" }
       ]
     },
     {
@@ -110,8 +108,8 @@
       ],
       "odd": true,
       "batches": [
-		  { "slug": "Morning batch at Pitampura starting March 11" },
-		  { "slug": "Morning batch at Dwarka starting March 11" }
+		  { "slug": "Regular batch at Pitampura starting June 10" },
+		  { "slug": "Info about June batches at other centers coming soon" }
       ]
     },
     {
@@ -130,9 +128,7 @@
         "3 Live Projects &amp; Hackathon"
       ],
       "batches": [
-        {
-          "slug": "Morning Batch at Pitampura starting December 17"
-        }
+        { "slug": "Regular batch at Pitampura starting June 10" }
       ]
     },
     {
@@ -195,15 +191,15 @@
       "price": "7,000",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "Certified Python Developer Logo",
-      "lectures": "(7 lectures)",
+      "lectures": "(6 lectures)",
       "link": "/courses/certified-python-developer.html",
-	  "badge": "Starting March 15",
+	  "badge": "Starting March 24",
       "description": [
         "Complete Python Course"
       ],
       "batches": [
         {
-          "slug": "Evening Batch at Pitampura starting <strong>March 15</strong> (Tuesday, Thursday, and Friday. <strong>Class Timings:</strong> 4:00 PM - 7:00 PM)"
+          "slug": "Weekend Evening Batch at Pitampura starting <strong>March 24</strong> <div>(<strong>Class Timings:</strong> 4:00 PM - 7:00 PM)</div>"
         }
       ]
     },
@@ -247,12 +243,7 @@
         "Advanced Data Structures & Algorithms in Java"
       ],
       "batches": [
-        {
-          "slug": "Morning batch at Pitampura starting March 11"
-        },
-        {
-          "slug": "Morning batch at Dwarka starting March 11"
-        }
+		  { "slug": "Info about June batches coming soon" }
       ]
     },
     {

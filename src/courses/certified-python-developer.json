@@ -15,8 +15,8 @@
     "description": "Coding Blocks is the best Python training institute in Delhi, Greater Noida, Jalandhar and Amritsar. Join Certified Python Developer to get Python coaching and learn Python fundamentals."
   },
   "header": {
-    "heading": "Certified Python Developer",
-    "subHeading": "Basic Web Dev & Machine Learning",
+    "heading": "Python Development Bootcamp",
+    "subHeading": "Development using Python",
     "breadcrumbs": [
       {
         "linkText": "Course Contents",
@@ -30,7 +30,7 @@
     "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
   },
   "overview": {
-	"content": "The Certified Python Developer program is a brand new program by Coding Blocks which will deal with basic web development and machine learning concepts using Python.<br/> Python is slowly but surely becoming the language of choice for developers. What a lot of people like is that you can follow an Object Oriented paradigm, but do some functional programming as well. Python is well known to have a package for everything, and these packages are very well documented too, which helps. Other advantages with Python are easy deployment, convenient database work and straightforwad synchronization. Unlike other languages, you can just focus on the problem and implement it without having to fuss with syntax or intricate ways of making things work. So dive into this enjoyable language and make life easy for yourself.",
+	"content": "The Python Development Bootcamp is a brand new program by Coding Blocks which will deal with basic development concepts using Python.<br/> Python is slowly but surely becoming the language of choice for developers. What a lot of people like is that you can follow an Object Oriented paradigm, but do some functional programming as well. Python is well known to have a package for everything, and these packages are very well documented too, which helps. Other advantages with Python are easy deployment, convenient database work and straightforwad synchronization. Unlike other languages, you can just focus on the problem and implement it without having to fuss with syntax or intricate ways of making things work. So dive into this enjoyable language and make life easy for yourself.",
 	"buttonText": "Register Now",
 	"buttonDisabled": false
   },
@@ -40,7 +40,7 @@
       "title": "Basics of Python",
       "contentTitle": "Basics of Python",
       "description": "Course will start with basic understanding of Python.",
-      "lectures": "",
+      "lectures": "6 Lectures",
       "points": [
         "Why Python? (A gentle introduction)",
         "Basis syntax, operators and expressions, control flow",
@@ -84,12 +84,12 @@
       "ans": "Budding developers who want to employ the use of Python to learn web development and machine learning can enroll for this course."
     },
     {
-      "ques": "I have never studied programming earlier, can I do this course?",
-      "ans": "Yes you will be taught the basics of programming as well as basics of Python in the beginning so you can join even with no prior experience."
+      "ques": "I have never studied Python, or any kind of programming earlier, can I do this course?",
+      "ans": "No, you should be proficient in the basics of Python in order to take this bootcamp. Check out some basic tutorials <a href='https://cb.lk/Tutorial/Python'> here</a>."
     },
     {
       "ques": "Can I get into Machine Learning after this course?",
-      "ans": "Yes you will be taught Machine Learning basics using this course, which you can use to go on to learn a lot more and excel in the field of Machine Learning."
+      "ans": "Yes, you can employ the knowledge gained from this course to enter the world of Machine Learning and Artificial Intelligence."
     }
   ],
   "courseEnroll": {

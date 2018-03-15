@@ -1,4 +1,10 @@
-# Redirects for Netlify 
+# Inside redirects
+/courses/crux.html                /courses/classroom/java.html
+/courses/lpvsat.html              /courses/online/c++.html
+/bootcamps/machinelearning.html   /courses/perceptron.html
+/courses/algo++.html              /courses/classroom/algo++.html
+
+# Outside Redirects for Netlify 
 
 /ide/*    	  https://ide.codingblocks.com/:splat     		      301
 /resources/*	https://coding-blocks.github.io/resources/:splat	200
