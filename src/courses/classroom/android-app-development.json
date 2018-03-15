@@ -6,11 +6,15 @@
     {
       "name": "description",
       "content": "Learn Android app development in Delhi from android app development training course by professionals at Coding Blocks."
+    },
+    {
+      "name": "keywords",
+      "content": "android app development, android course, android development course, android course india"
     }
   ],
   "openGraph": {
     "url": "https://codingblocks.com/courses/classroom/android-app-development.html",
-    "title": "Android Development Course",
+    "title": "Best Android Development Course in India",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14291459_1290961360916369_1179422469_n.jpg",
     "description": "Our Android Development course takes you on a comprehensive journey on the Android Studio that starts from building the UI, to connecting to network services and launching your product on the Google Play Store."
   },
