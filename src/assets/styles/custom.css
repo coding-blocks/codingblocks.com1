@@ -787,7 +787,11 @@ h1 .sub-heading {
     height: 80px;
     overflow: hidden;
     word-wrap: break-word;
-    text-overflow: ellipses;
+    text-overflow: ellipsis;
+}
+
+.course-card .lectures {
+    margin-top: -15px;
 }
 
 .courses-card .price {
