@@ -26,32 +26,27 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/apatbg.jpg",
+      "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
       "imgAlt": "",
-      "heading": "Python Development Bootcamp",
-      "content": "Coding Blocks announces a new bootcamp on Python development for you this March. Enroll now, and become an expert in Python in just 6 classes.",
+      "heading": "Summer Batches Starting This June",
+      "content": "Upskill yourselves this summer with our huge lineup of classroom courses and bootcamps.",
       "button": [
         {
-          "link": "/courses/certified-python-developer.html",
-          "text": "Enroll Now",
+          "link": "/courses/",
+          "text": "Browse Courses",
           "filled": "true"
         }
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
+      "imgSrc": "/assets/images/cb/cover/apatbg.jpg",
       "imgAlt": "",
-      "heading": "Beginners' Courses starting this March",
-      "content": "Kickstart your journey into the world of programming with Coding Blocks' beginners' courses tailor made for entry level programmers.",
+      "heading": "Interview Preparation",
+      "content": "Master the concepts and topics required to ace interview procedures of tech giants.",
       "button": [
         {
-          "link": "/courses/classroom/c++.html",
-          "text": "Register for C++",
-          "filled": "true"
-        },
-        {
-          "link": "/courses/classroom/java.html",
-          "text": "Register for Java",
+          "link": "/bootcamps/interviewprep.html",
+          "text": "Learn More",
           "filled": "true"
         }
       ]
@@ -147,6 +142,33 @@
     {
       "id": "course20",
       "odd": true
+    }
+  ],
+  "cppInterviewRow": [
+    {
+      "id": "bootcamp02"
+    },
+    {
+      "id": "course10",
+      "odd": true
+    },
+    {
+      "id": "course21",
+	  "combo": true
+    }
+  ],
+  "javaInterviewRow": [
+    {
+      "id": "bootcamp02",
+      "odd": true
+    },
+    {
+      "id": "course11"
+    },
+    {
+      "id": "course22",
+      "odd": true,
+	  "combo": true
     }
   ],
   "coursesSection": {

@@ -20,8 +20,7 @@
     "upcomingBatches": "Upcoming Batches",
     "registerBoxHeading": "",
     "registerButton": {
-      "buttonText": "Registration Starting Soon",
-      "disabled": true
+      "buttonText": "Register Now"
     },
     "highlights": [
       {
@@ -40,5 +39,5 @@
     "PIYUSH GANDHI",
     "AARUSH JUNEJA"
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id="
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=123"
 }
