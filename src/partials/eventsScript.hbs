@@ -66,8 +66,16 @@ PLEASE DO NOT EDIT THIS
 <script type="text/javascript">
     var url = "https://graph.facebook.com/v2.10/1477893739095631/events?access_token=404649853235493%7CEInF9B-kIT0Tdpv_oyXBMIlfiDU";
 
-    $.get(url, {time_filter: "upcoming",{{#if upcomingLimit}}limit: "{{upcomingLimit}}"{{/if}} },function (events) {
+    $.get(url, {time_filter: "upcoming"}, function (events) {
         events.data.reverse();
+
+		events.data = events.data.sort (
+			(e1, e2) => new Date (e1.start_time) > new Date (e2.start_time))
+
+		{{#if upcomingLimit}}
+			events.data = events.data.slice (0, {{upcomingLimit}});
+		{{/if}}
+
         var newEventsPromises = events.data.map(function (event, index) {
             event.start_date = event.start_time.substring(0, 10);
             if(event.event_times!=undefined){
@@ -99,9 +107,10 @@ PLEASE DO NOT EDIT THIS
         });
 
         Promise.all(newEventsPromises).then(newEvents => {
-            var template = document.getElementById('events-list').innerHTML;
+			var template = document.getElementById('events-list').innerHTML;
             var html = Handlebars.compile(template);
             var content = document.getElementById('upcoming-events-list-wrapper');
+
             content.innerHTML = html(events);
         });
     });
