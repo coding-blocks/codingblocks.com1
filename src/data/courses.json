@@ -9,7 +9,7 @@
       "lectures": "(24 lectures)",
       "link": "/courses/classroom/c++.html#launchpad-bundle-content",
       "off-price": "3,000",
-      "badge": "Starting This June",
+      "badge": "Starting May 27",
       "description": [
         "C++ Complete Course",
         "Data Structures & Algorithms in C++",
@@ -41,7 +41,7 @@
       "lectures": "(24 lectures)",
       "link": "/courses/classroom/java.html#crux-bundle",
       "off-price": "3,000",
-      "badge": "Starting This June",
+      "badge": "Starting May 27",
       "description": [
         "Java Complete Course",
         "Data Structures & Algorithms in Java",
@@ -59,7 +59,7 @@
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
       "link": "/courses/classroom/android-app-development.html",
-      "badge": "Starting This June",
+      "badge": "Starting June 4",
       "description": [
         "Building Android Apps",
         "UI and Animations",
@@ -80,7 +80,7 @@
       "imgAlt": "web development course logo",
       "lectures": "(22 lectures)",
       "link": "/courses/classroom/web-development-nodejs.html",
-      "badge": "Starting This June",
+      "badge": "Starting June 4",
       "description": [
         "Web Design",
         "Real time Web Apps",
@@ -120,7 +120,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "(23 lectures)",
       "link": "/courses/perceptron.html",
-	  "badge": "Starting This June",
+	  "badge": "Starting June 9",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -128,7 +128,7 @@
         "3 Live Projects &amp; Hackathon"
       ],
       "batches": [
-        { "slug": "Regular batch at Pitampura starting June 10" }
+        { "slug": "Regular batch at Pitampura starting June 9" }
       ]
     },
     {
@@ -139,7 +139,7 @@
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/courses/classroom/java.html",
-      "badge": "Starting Mar 31",
+      "badge": "Starting May 27",
       "description": [
         "Programming Fundamentals in Java"
       ],
@@ -166,7 +166,7 @@
       "imgAlt": "Launchpad For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/courses/classroom/c++.html",
-      "badge": "Starting Mar 31",
+      "badge": "Starting May 27",
       "description": [
         "Programming Fundamentals in C+"
       ],
@@ -211,7 +211,7 @@
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
       "link": "/courses/classroom/algo++.html",
-      "badge": "Starting Mar 11",
+      "badge": "Starting June 5",
       "description": [
         "Data Structures in C++"
       ],
@@ -238,7 +238,7 @@
       "imgAlt": "Data Structures and Algorithms Using Java",
       "lectures": "(12-15 lectures)",
       "link": "/courses/classroom/algo-java.html",
-      "badge": "Starting Mar 11",
+      "badge": "Starting June 5",
       "description": [
         "Advanced Data Structures & Algorithms in Java"
       ],
@@ -295,16 +295,19 @@
     {
       "id": "bootcamp02",
       "name": "Interview Preparation",
-      "price": "5,000",
+      "price": "6,000",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Preparation Bootcamp logo",
-      "lectures": "(8 days)",
+	  "badge": "Starting June 9",
+      "lectures": "(10 lectures)",
       "link": "/bootcamps/interviewprep.html",
       "description": [
         "Operating Systems",
         "DBMS",
         "Networking &amp;SystemDesign",
         "Mock Interviews"
+      ],
+      "batches": [
       ]
     },
     {
@@ -387,6 +390,57 @@
         "Greedy &amp; Divide 'n' Conquer",
         "Dynamic Programming &amp; Graphs",
         "Segment trees &amp; Game Theory"
+      ],
+      "batches": [
+      ]
+    },
+    {
+      "id": "course20",
+      "name": "Competitive Programming",
+      "price": "14,000",
+      "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
+      "imgAlt": "Competitive Programming Course Logo",
+      "lectures": "(12-15 lectures)",
+	  "badge": "Starting June 11",
+      "link": "/courses/classroom/competitive-programming.html",
+      "description": [
+        "Maths & Number Theory",
+        "Greedy &amp; Divide 'n' Conquer",
+        "Dynamic Programming &amp; Graphs",
+        "Segment trees &amp; Game Theory"
+      ],
+      "batches": [
+        {
+          "slug": "Regular batch starting at Pitampura starting June 11"
+        }
+      ]
+    },
+    {
+      "id": "course21",
+      "name": "C++ Bundle",
+      "price": "17,000",
+	  "off-price": "1,000",
+      "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
+      "imgAlt": "Competitive Programming course logo",
+	  "badge": "Starting June 5",
+      "lectures": "(22-25 lectures)",
+      "link": "/bootcamps/interviewprep.html#cpp-bundle",
+      "description": [
+      ],
+      "batches": [
+      ]
+    },
+    {
+      "id": "course22",
+      "name": "Java Bundle",
+      "price": "17,000",
+	  "off-price": "1,000",
+      "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+      "imgAlt": "Competitive Programming course logo",
+	  "badge": "Starting June 5",
+      "lectures": "(22-25 lectures)",
+      "link": "/bootcamps/interviewprep.html#java-bundle",
+      "description": [
       ],
       "batches": [
       ]

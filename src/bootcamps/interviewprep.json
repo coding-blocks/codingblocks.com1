@@ -1,4 +1,5 @@
 {
+  "id": "bootcamp02",
   "title": "Interview Prep BootCamp | Coding Blocks",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=47",
   "courseReviews": [
@@ -14,5 +15,17 @@
     "KANIKA BHOOKER",
     "GURLEEN KAILEY",
     "PURUJIT BANSAL"
-  ]
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "<strong>Upcoming Batches</strong><ul class=\"course-list\"><li>Regular batch at Pitampura starting June 9</li><li>Regular batch at Pitampura starting July 10</li></ul>",
+	"price": "6,000",
+    "priceCut": "",
+    "highlights": [
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Session on resume building and group discussions"
+      }
+    ]
+  },
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=121"
 }

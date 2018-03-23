@@ -54,7 +54,7 @@
       "id": "course06"
     },
     {
-      "id": "bootcamp01",
+      "id": "course20",
       "odd": true
     }
   ],
@@ -96,11 +96,31 @@
       "odd": true
     }
   ],
-  "coursesRow8": [
+  "cppInterviewRow": [
     {
-      "id": "course16",
+      "id": "bootcamp02"
+    },
+    {
+      "id": "course10",
+      "odd": true
+    },
+    {
+      "id": "course21",
+	  "combo": true
+    }
+  ],
+  "javaInterviewRow": [
+    {
+      "id": "bootcamp02",
+      "odd": true
+    },
+    {
+      "id": "course11"
+    },
+    {
+      "id": "course22",
       "odd": true,
-      "center": true
+	  "combo": true
     }
   ],
   "courseReviews": [
