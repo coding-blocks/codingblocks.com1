@@ -48,6 +48,11 @@
           "link": "/bootcamps/interviewprep.html",
           "text": "Learn More",
           "filled": "true"
+        },
+        {
+          "link": "/bootcamps/interviewprep.html#basic-enroll",
+          "text": "Buy Now",
+          "filled": "true"
         }
       ]
     },
