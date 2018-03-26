@@ -85,11 +85,11 @@
           "sublinks": [
             {
               "title": "Android",
-              "link": "/courses/classroom/android-app-development.html"
+              "link": "/courses/classroom/development/android-app-development.html"
             },
             {
               "title": "Fullstack Web (NodeJS)",
-              "link": "/courses/classroom/web-development-nodejs.html"
+              "link": "/courses/classroom/development/web-development-nodejs.html"
             },
             {
               "title": "Web Development (Python)",
