@@ -1,8 +1,13 @@
-# Inside redirects
+# Inside redirects (for old links)
+
 /courses/crux.html                /courses/classroom/java.html
 /courses/lpvsat.html              /courses/online/c++.html
 /bootcamps/machinelearning.html   /courses/perceptron.html
 /courses/algo++.html              /courses/classroom/algo++.html
+/courses/mathsgeeks.html          /courses/junior/mathsgeeks.html
+/courses/code4kids.html           /courses/junior/code4kids.html
+/courses/classroom/algo++.html    /courses/classroom/advanced/algo-plus-plus.html
+/courses/classroom/algo-java.html /courses/classroom/advanced/algo-java.html
 
 # Outside Redirects for Netlify 
 

@@ -34,7 +34,7 @@
         "link": "#faq"
       }
     ],
-    "bgSrc": "../../assets/images/cb/cover/covergcp.jpg"
+    "bgSrc": "/assets/images/cb/cover/covergcp.jpg"
   },
   "courseEnroll": {
     "upcomingBatches": "",

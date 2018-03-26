@@ -20,180 +20,29 @@
             <div class="module-group right">
                 <div class="module left">
                     <ul class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-                        <li class="has-dropdown">
-                            <a href="#">About Us</a>
-                            <ul class="mega-menu">
-                                <li>
-                                    <ul>
-                                        <li itemprop="name">
-                                            <a itemprop="url"
-                                               href="/about.html"
-                                               class="inner-link" target="_self">
-                                                INTRODUCTION
-                                            </a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url"
-                                               href=
-                                                       "/why-coding-blocks.html"
-                                               class="inner-link"
-                                               target="_self">
-                                                WHY CODING BLOCKS
-                                            </a>
-                                        </li>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url"
-                                               href="/team.html"
-                                               class="inner-link" target="_self">OUR
-                                                TEAM</a>
-                                        </li>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url"
-                                               href="/brochure.html">BROCHURE </a>
-                                        </li>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/reviews/">REVIEWS </a>
-                                        </li>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url"
-                                               href="/success-stories/">WALL
-                                                OF FAME </a>
-                                        </li>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/events/">EVENTS</a>
-                                        </li>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url"
-                                               href="/newsletter/">NEWSLETTERS</a>
-                                        </li>
-                                        <li itemprop="name"><a itemprop="url"
-                                                               href="https://codingblocks.com/alumni.html">Alumni
-                                            Portal</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        {{#each navLinks}}
+                        <li class="{{#if sublinks}}has-dropdown{{/if}}">
+                        <a href="{{link}}">{{title}}</a>
+                        {{#if sublinks}}
+                        <ul>
+                            {{#each sublinks}}
+                            <li itemprop="name" class="vpf {{#if sublinks}}has-dropdown{{/if}}">
+                                <a itemprop="url" href="{{link}}">{{title}}</a>
+                                {{#if sublinks}}
+                                <ul>
+                                    {{#each sublinks}}
+                                    <li class="vpf" itemprop="name">
+                                        <a itemprop="url" href="{{link}}">{{title}}</a>
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                                {{/if}}
+                            </li>
+                            {{/each}}
+                        </ul>
+                        {{/if}}
                         </li>
-                        <li class="has-dropdown">
-                            <a href="/courses/">COURSES</a>
-                            <ul>
-                                <li class="has-dropdown toggle-sub">
-                                    <a class="title">JUNIOR</a>
-                                    <ul>
-                                        <li itemprop="name">
-                                            <a itemprop="url"
-                                               href=
-                                                       "/courses/junior/code4kids.html">
-                                                CODE4KIDS
-                                            </a>
-                                        </li>
-                                        <li itemprop="name" class="vpf">
-                                            <a itemprop="url"
-                                               href=
-                                                       "/courses/junior/mathsgeeks.html">
-                                                MATHGEEKS
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown toggle-sub vpf">
-                                    <a class="title">FOUNDATION</a>
-                                    <ul>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/courses/classroom/c++.html">C++ For Beginners</a>
-                                        </li>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/courses/classroom/c++.html#launchpad-bundle-content">Launchpad</a>
-                                        </li>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/courses/classroom/java.html">Java For Beginners</a>
-                                        </li>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href="/courses/classroom/java.html#crux-bundle-content">Crux</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown toggle-sub vpf">
-                                    <a class="title">DEVELOPMENT</a>
-                                    <ul>
-                                        <li itemprop="name">
-					<a itemprop="url"  href="/courses/classroom/android-app-development.html">
-						ANDROID DEVELOPMENT
-					</a>
-                                        </li>
-                                        <li class="vpf" itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/courses/classroom/web-development-nodejs.html">
-                                                WEB DEVELOPMENT USINg NODEJS</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/courses/certified-python-developer.html">PYTHON
-                                                DEVELOPMENT</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown toggle-sub vpf">
-                                    <a class="title">ADVANCED</a>
-                                    <ul>
-										<li itemprop="name">
-											<a itemprop="url" href="/courses/classroom/algo++.html">ALGO++</a>
-										</li>
-										<li itemprop="name">
-											<a itemprop="url" href="/courses/classroom/algo-java.html">ALGO.JAVA</a>
-										</li>
-										<li itemprop="name">
-											<a itemprop="url" href="/courses/classroom/competitive-programming.html">Competitive Programming</a>
-										</li>
-                                        <li itemprop="name">
-
-                                            <a itemprop="url" href=
-                                                    "/courses/perceptron.html">MACHINE
-                                                LEARNING</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url"
-                                               href=
-                                                       "/courses/advancedjava.html">JAVA
-                                                APPS</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown toggle-sub vpf">
-                                    <a class="title">ONLINE</a>
-                                    <ul>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/courses/online/c++.html">DS
-                                                & ALGO IN C++</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/courses/online/java.html">DS
-                                                & ALGO IN JAVA</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url"
-                                               href=
-                                                       "/courses/online/android-app-development.html">
-                                                ANDROID DEVELOPMENT
-                                            </a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/courses/online/web-development-nodejs.html">WEB
-                                                DEVELOPMENT USINg NODEJS</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/courses/competitive-online.html">Competitive
-                                                Programming</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
+                        {{/each}}
                         <li class="has-dropdown">
                             <a href="">BOOTCAMPS</a>
                             <ul>
