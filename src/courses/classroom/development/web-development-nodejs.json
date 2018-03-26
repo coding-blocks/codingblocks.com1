@@ -38,28 +38,28 @@
     "bgSrc": "/assets/images/cb/cover/cover_node.jpg"
   },
   "overview": {
-    "content": "Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with java script for both Front end as well as back end use-cases<br> Our course is a project based web development Full Stack course with backend in Node.JS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor and work on their web development projects under their guidance. Our FullStack Web Development course enables students to go live with their websites and add a flair to their resume.<br> <br><br>"
+    "content": "The Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with java script for both Frontend as well as backend use-cases.<br /><br />Our course is a project-based web development Full Stack course with backend in Node.JS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor who will guide them while they work on web development projects. Our FullStack Web Development course enables students to go live with their websites and add flair to their resumes."
   },
   "courseHighlights": [
     {
       "icon": "et-line-edit",
       "title": "Web Design",
-      "content": "A website with great functionality must be complemented by top notch User Experience and a neat Responsive User Interface. We teach building both common and upcoming UI/UX patterns in Bootstrap and frontend frameworks like Ember and Vue."
+      "content": "A website with great functionality must be complemented by top notch User Experience and a neat Responsive User Interface. Our course covers building both common and upcoming UI/UX patterns in Bootstrap and how to get started with frontend frameworks like Ember and Vue."
     },
     {
       "icon": "et-line-chat",
       "title": "Real Time Web Apps",
-      "content": "Socket.IO is a javascript library for realtime applications. You'll learn how to enable realtime communication between web clients and servers to build some awesome chat systems and multiplayer games."
+      "content": "Socket.IO is a javascript library for real-time applications. You'll learn how to enable real-time communication between web clients and servers to build some awesome chat systems and multiplayer games."
     },
     {
       "icon": "fa fa-database",
       "title": "Databases",
-      "content": "You will learn how to use both relational and non-relational databases with MySQL and MongoDB. We will also cover Sequelize which will make the database query writing process a little easier!"
+      "content": "You will learn how to use both relational and non-relational databases with MySQL and MongoDB. We also cover Sequelize which makes the database query writing process a little easier!"
     },
     {
       "icon": "et-line-profile-male",
       "title": "Authentication",
-      "content": "You'll learn how to implement Login System as well as Authentication using social logins using Passport.JS."
+      "content": "You'll learn how to implement a Login System as well as Authentication using social logins using Passport.JS."
     }
   ],
   "courseContents": [
@@ -67,7 +67,7 @@
       "active": true,
       "title": "HTML/CSS",
       "contentTitle": "HTML/CSS",
-      "description": "The building blocks of web pages – HTML and CSS. Learn how to use the latest HTML5 web development technologies along with CSS3 stylesheets to create amazing and responsive web sites that catch the eye of the viewer. We will also cover UI design patterns  like –",
+      "description": "The building blocks of web pages - HTML and CSS. Learn how to use the latest HTML5 web development technologies along with CSS3 stylesheets to create responsive eye-catching web sites. We also cover UI design patterns like:",
       "lectures": "Lectures 1-2",
       "points": [
         "Table Layouts",
@@ -80,7 +80,7 @@
     {
       "title": "Javascript",
       "contentTitle": "Javascript",
-      "description": "HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like ‘clicks’, ‘hovers’ and ‘drag and drop’. Javascript is one of the most powerful and ubiquitious languages in modern software development, and we will cover the innards of Javascript in depth including –",
+      "description": "HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like 'clicks', 'hovers' and 'drag and drop'. Javascript is one of the most powerful and ubiquitious languages in modern software development and our course covers it in depth including:",
       "lectures": "Lecture: 3-10",
       "points": [
         "ECMAScript 6 Syntax and Standards",
@@ -92,7 +92,7 @@
     {
       "title": "UNIX AND Git",
       "contentTitle": "UNIX AND Git",
-      "description": "Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world’s servers are hosted on Linux machines, and any web backend developer has to learn basic DevOps and SysAdmin skills to manage a Linux OS. Also Git, the most commonly used version control system, is one of the most helpful tool required to work on large projects or in collaborative environments",
+      "description": "Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world's servers are hosted on Linux machines, and any web backend developer is expected to know basic DevOps and SysAdmin skills in order to manage a Linux OS. Also - Git, which is the most commonly used version control system - is one of the most helpful tools for working on large projects or in collaborative environments",
       "lectures": "Lecture 11-12",
       "points": [
         "Unix and SysAdmin/Devops",
@@ -103,7 +103,7 @@
     {
       "title": "NODEJS",
       "contentTitle": "NODEJS",
-      "description": "Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is right now the fastest growing ecosystem. We will learn –",
+      "description": "Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is currently the fastest growing ecosystem. We will cover:",
       "lectures": "Lecture 12-16",
       "points": [
         "NodeJS Modules",
@@ -116,7 +116,7 @@
     {
       "title": "Databases",
       "contentTitle": "Databases",
-      "description": "What is a server, if it cannot store data on a databases. We will learn to store data in –",
+      "description": "What is a server if it cannot store data on databases. We will cover storing data in:",
       "lectures": "Lectures 17-18",
       "points": [
         "Flat files on server",
@@ -129,7 +129,7 @@
       "title": "Advanced Topics & Deployment",
       "contentTitle": "Advanced Topics & Deployment",
       "lectures": "Lectures 19-25",
-      "description": "Finally we learn how to add basic security to our website including user authentication and authorization, SSL transport, checking for SQL injection and other vulnerabilities.We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
+      "description": "Finally, we will cover adding basic security to websites including user authentication and authorization, SSL transport, checking for SQL injection and other vulnerabilities. We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
       "points": [
         "Security",
         "Scaling",
@@ -146,11 +146,11 @@
     },
     {
       "ques": "Do you have a test for admission into this course ?",
-      "ans": "Yes, we have a simple test covering OOP concepts, basic Data structures and array/string manipulation. You need to undertake that test while registering for our fullstack web development course."
+      "ans": "We have a simple test covering OOP concepts, basic Data structures and array/string manipulation which you will need to take while registering for our fullstack web development course."
     },
     {
       "ques": "Will there by any projects ?",
-      "ans": "Yes, most definitely. No course in web development is complete without projects, and we have a lot of focus on working on live projects and practical topics. We start with small projects like TodoList Managers, grow up to creating e-Commerce websites."
+      "ans": "Definitely. No course in web development is complete without projects, and we focus a lot on working on live projects and practical topics. We start with small projects like TodoList Managers and go up to creating e-Commerce websites."
     }
   ],
   "courseEnroll": {
