@@ -1,5 +1,7 @@
 # coding-blocks.github.io
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/coding-blocks/codingblocks.com.svg)](https://greenkeeper.io/)
+
 ## Deploys
 
 [![Netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)](https://app.netlify.com/sites/cb-netlify-prod)  
