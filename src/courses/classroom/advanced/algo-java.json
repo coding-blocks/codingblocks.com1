@@ -101,7 +101,7 @@
     ]
   },
   "schedule": [
-	  { "center": "Pitampura", "startdate": "Jun 05", "daytime": "Tue, Thu, Sat (12:30 PM - 04:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "Jun 05", "enddate": "Jul 14", "daytime": "Tue, Thu, Sat (12:30 PM - 04:00 PM)", "batchtype": "Regular" }
   ],
   "courseReviews": [
     "YAMINI GAUR",

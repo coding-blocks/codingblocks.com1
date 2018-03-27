@@ -89,12 +89,12 @@
     ]
   },
   "scheduleCpp": [
-	  { "center": "Pitampura", "startdate": "May 27", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 11:30 AM)", "batchtype": "Fast Track" },
-	  { "center": "Pitampura", "startdate": "Jun 03", "daytime": "Sun, Wed, Sat (12:15 PM - 04:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "May 27", "enddate": "Jun 12", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 11:30 AM)", "batchtype": "Fast Track" },
+	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Jun 24", "daytime": "Sun, Wed, Sat (12:15 PM - 04:00 PM)", "batchtype": "Regular" }
   ],
   "scheduleLaunchpad": [
-	  { "center": "Pitampura", "startdate": "May 27", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 11:30 AM)", "batchtype": "Fast Track" },
-	  { "center": "Pitampura", "startdate": "Jun 03", "daytime": "Sun, Wed, Sat (12:15 PM - 04:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "May 27", "enddate": "Jul 08", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 11:30 AM)", "batchtype": "Fast Track" },
+	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Aug 01", "daytime": "Sun, Wed, Sat (12:15 PM - 04:00 PM)", "batchtype": "Regular" }
   ],
   "courseReviews": [
     "NAVDEEP SINGH",

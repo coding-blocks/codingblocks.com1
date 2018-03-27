@@ -34,7 +34,7 @@
     ]
   },
   "schedule": [
-	  { "center": "Pitampura", "startdate": "Jun 11", "daytime": "Mon, Thu (03:00 PM - 07:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "Jun 11", "enddate": "Jul 19", "daytime": "Mon, Thu (03:00 PM - 07:00 PM)", "batchtype": "Regular" }
   ],
   "courseReviews": [
     "SHIKHAR PAHADIA",
