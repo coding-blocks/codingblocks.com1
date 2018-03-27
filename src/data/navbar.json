@@ -4,7 +4,7 @@
     "logoDarkSrc": "/assets/images/cb/cblogo.png"
   },
   "navLinks": [
-    { 
+    {
       "title": "About Us",
       "link": "/about.html",
       "sublinks": [
@@ -74,9 +74,9 @@
               "title": "Java for Beginners / Crux",
               "link": "/courses/classroom/java.html"
             },
-            { 
-              "title": "Python Developer Certification",
-              "link": "/courses/certified-python-developer.html"
+            {
+              "title": "Python For Beginners",
+              "link": "/coming-soon.html"
             }
           ]
         },
@@ -96,12 +96,16 @@
               "link": "/courses#coming-soon"
             },
             {
-              "title": "Machine Learning",
-              "link": "/courses/perceptron.html"
-            },
-            {
               "title": "Web Backend (Advanced Java)",
               "link": "/courses/advancedjava.html"
+            },
+            {
+              "title": "Python Development",
+              "link": "/courses/certified-python-developer.html"
+            },
+            {
+              "title": "Unity Game Development",
+              "link": "/coming-soon.html"
             }
           ]
         },
@@ -115,6 +119,10 @@
             {
               "title": "Algo.Java",
               "link": "/courses/classroom/advanced/algo-java.html"
+            },
+            {
+              "title": "Machine Learning",
+              "link": "/courses/perceptron.html"
             },
             {
               "title": "Competitive Programming",
