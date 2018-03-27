@@ -2,6 +2,154 @@
   "navBar": {
     "logoLightSrc": "/assets/images/logo-light.png",
     "logoDarkSrc": "/assets/images/cb/cblogo.png"
-  }
+  },
+  "navLinks": [
+    { 
+      "title": "About Us",
+      "link": "/about.html",
+      "sublinks": [
+        {
+          "title": "Introduction",
+          "link": "/about.html"
+        },
+        {
+          "title": "Why Coding Blocks",
+          "link": "/why-coding-blocks.html"
+        },
+        {
+          "title": "Our Team",
+          "link": "/team.html"
+        },
+        {
+          "title": "Brochure",
+          "link": "/brochure.html"
+        },
+        {
+          "title": "Reviews",
+          "link": "/reviews"
+        },
+        {
+          "title": "Wall of Fame",
+          "link": "/success-stories.html"
+        },
+        {
+          "title": "Events",
+          "link": "/events"
+        },
+        {
+          "title": "Newsletters",
+          "link": "/newsletter"
+        },
+        {
+          "title": "Alumni Portal",
+          "link": "/alumni.html"
+        }
+      ]
+    },
+    {
+      "title": "Courses",
+      "link": "/courses",
+      "sublinks": [
+        {
+          "title": "Junior",
+          "sublinks": [
+            {
+              "title": "Code4Kids",
+              "link": "/courses/junior/code4kids.html"
+            },
+            {
+              "title": "MathsGeeks",
+              "link": "/courses/junior/mathsgeeks.html"
+            }
+          ]
+        },
+        {
+          "title": "Foundation",
+          "sublinks": [
+            {
+              "title": "C++ for Beginners / Launchpad",
+              "link": "/courses/classroom/c++.html"
+            },
+            {
+              "title": "Java for Beginners / Crux",
+              "link": "/courses/classroom/java.html"
+            },
+            { 
+              "title": "Python Developer Certification",
+              "link": "/courses/certified-python-developer.html"
+            }
+          ]
+        },
+        {
+          "title": "Development",
+          "sublinks": [
+            {
+              "title": "Android",
+              "link": "/courses/classroom/development/android-app-development.html"
+            },
+            {
+              "title": "Fullstack Web (NodeJS)",
+              "link": "/courses/classroom/development/web-development-nodejs.html"
+            },
+            {
+              "title": "Web Development (Python)",
+              "link": "/courses#coming-soon"
+            },
+            {
+              "title": "Machine Learning",
+              "link": "/courses/perceptron.html"
+            },
+            {
+              "title": "Web Backend (Advanced Java)",
+              "link": "/courses/advancedjava.html"
+            }
+          ]
+        },
+        {
+          "title": "Advanced",
+          "sublinks": [
+            {
+              "title": "Algo++",
+              "link": "/courses/classroom/advanced/algo-plus-plus.html"
+            },
+            {
+              "title": "Algo.Java",
+              "link": "/courses/classroom/advanced/algo-java.html"
+            },
+            {
+              "title": "Competitive Programming",
+              "link": "/courses/classroom/competitive-programming.html"
+            }
+          ]
+        },
+        {
+          "title": "Online",
+          "link": "https://online.codingblocks.com",
+          "sublinks": [
+            {
+              "title": "C++ (DS & Algo)",
+              "link": "/courses/online/c++.html"
+            },
+            {
+              "title": "Java (DS & Algo)",
+              "link": "/courses/online/java.html"
+            },
+            {
+              "title": "Web Development (NodeJS)",
+              "link": "/courses/online/web-development-nodejs.html"
+            },
+            {
+              "title": "Android Development (Java & Kotlin)",
+              "link": "/courses/online/android-app-development.html"
+            },
+            {
+              "title": "Competitive Programming",
+              "link": "/courses/competitive-online.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
 
