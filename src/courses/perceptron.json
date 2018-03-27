@@ -172,7 +172,7 @@
     "SHIVANSHU CHAUDHARY"
   ],
   "schedule": [
-	  { "center": "Pitampura", "startdate": "Jun 09", "daytime": "Sat, Sun, Wed (10:30 AM - 01:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "Jun 09", "enddate": "Aug 01", "daytime": "Sat, Sun, Wed (10:30 AM - 01:00 PM)", "batchtype": "Regular" }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=120"
 }

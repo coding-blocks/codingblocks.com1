@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h2 class="uppercase mb64 text-center color-primary">Course Contents</h2>
-                    <div>
+                    <div class="course-tabs">
                         <ul class="nav nav-tabs" role="tablist">
                             <li role="presentation" class="active wide-tab" id="tab-basic"><a href="#content-basic"
                                                                                               aria-controls="home"
@@ -81,41 +81,10 @@
 										</div>
 									</section>
 								</div>
-								{{> courseschedule schedule=scheduleCpp}}
                                 <a id="basic-enroll" class="in-page-link"></a>
                                 <section class="tabbed-enroll-section">
                                     <div class="container">
                                         <div class="row v-align-children">
-                                            <div class="col-sm-5"><h3>Come, fall in LOVE with CODING</h3>
-                                                <p class="lead"></p>
-                                                <p>Upcoming Batches:</p>
-                                                <ul class="course-list">
-                                                    <li>Evening batch at Pitampura starting March 31</li>
-                                                    <li>Evening batch at Dwarka starting March 31</li>
-                                                    <li>Regular batch at Pitampura starting May 27</li>
-                                                    <li>Regular batch at Pitampura starting June 3</li>
-													<li>Info about June batches at other centers coming soon.</li>
-                                                </ul>
-                                                <p></p>
-                                                <div class="overflow-hidden mb32 mb-xs-24">
-                                                    <div class="row">
-                                                        <div class="col-sm-1"><i
-                                                                class="icon pull-left et-line-search icon-sm"></i></div>
-                                                        <div class="col-sm-11"><h6
-                                                                class="uppercase mb0 inline-block p32">Online code
-                                                            Submission &amp; Evaluation</h6></div>
-                                                    </div>
-                                                </div>
-                                                <div class="overflow-hidden mb32 mb-xs-24">
-                                                    <div class="row">
-                                                        <div class="col-sm-1"><i
-                                                                class="icon pull-left pe-7s-cup icon-sm"></i></div>
-                                                        <div class="col-sm-11"><h6
-                                                                class="uppercase mb0 inline-block p32">Special Sessions
-                                                            on Competitive Coding</h6></div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="pricing-table pt-1 text-center emphasis"><h5
                                                         class="uppercase">Regular Batch</h5><span
@@ -129,12 +98,12 @@
                                         </div>
                                     </div>
                                 </section>
+								{{> courseschedule schedule=scheduleCpp}}
                                 <a id="register-beginner" class="in-page-link"></a>
                                 <section>
                                     <div class="text-center"><h3>REGISTER NOW</h3></div>
-                                    <div class="container">
-                                        <iframe class="payment-widget" frameborder="0"
-                                                src="https://students.codingblocks.com/payment/iframe?item_id=111"></iframe>
+                                    <div class="container widget-container" data-widget-id='111'>
+                                        <iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id=111"></iframe>
                                     </div>
                                 </section>
                             </div>
@@ -233,39 +202,10 @@
 										</div>
 									</div>
 								</div>
-								{{> courseschedule schedule=scheduleLaunchpad}}
                                 <a id="advance-enroll" class="in-page-link"></a>
                                 <section class="tabbed-enroll-section">
                                     <div class="container">
                                         <div class="row v-align-children">
-											<div class="col-sm-5"><h3>Come, Fall in <strong>Love</strong><br /> with <strong>Coding</strong></h3>
-                                                <p class="lead"></p>
-                                                <p>Upcoming Batches:</p>
-												<ul class="course-list">
-													<li>Regular batch at Pitampura starting May 27</li>
-													<li>Regular batch at Pitampura starting June 3</li>
-													<li>Info about June batches at other centers coming soon.</li>
-												</ul>
-                                                <p></p>
-                                                <div class="overflow-hidden mb32 mb-xs-24">
-                                                    <div class="row">
-                                                        <div class="col-sm-1"><i
-                                                                class="icon pull-left et-line-search icon-sm"></i></div>
-                                                        <div class="col-sm-11"><h6
-                                                                class="uppercase mb0 inline-block p32">online code
-                                                            submission &amp; evaluation</h6></div>
-                                                    </div>
-                                                </div>
-                                                <div class="overflow-hidden mb32 mb-xs-24">
-                                                    <div class="row">
-                                                        <div class="col-sm-1"><i
-                                                                class="icon pull-left pe-7s-cup icon-sm"></i></div>
-                                                        <div class="col-sm-11"><h6
-                                                                class="uppercase mb0 inline-block p32">special sessions
-                                                            on competitive coding</h6></div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="pricing-table pt-1 text-center emphasis"><h5
                                                         class="uppercase">regular batch</h5><span
@@ -279,12 +219,12 @@
                                         </div>
                                     </div>
                                 </section>
+								{{> courseschedule schedule=scheduleLaunchpad}}
                                 <a id="register-advance" class="in-page-link"></a>
                                 <section class="mt-xs-64">
                                     <div class="text-center"><h3>REGISTER NOW</h3></div>
-                                    <div class="container">
-                                        <iframe class="payment-widget" frameborder="0"
-                                                src="https://students.codingblocks.com/payment/iframe?item_id=118"></iframe>
+                                    <div class="container widget-container" data-widget-id="118">
+                                        <iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id=118"></iframe>
                                     </div>
                                 </section>
                             </div>
@@ -320,6 +260,9 @@
             $('#launchpad-bundle').toggleClass('active');
 		})
     })
+</script>
+
+<script>
 </script>
 </body>
 </html>

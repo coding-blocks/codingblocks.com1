@@ -120,7 +120,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<h2 class="uppercase mb64 text-center color-primary">Course Contents</h2>
-					<div>
+					<div class="course-tabs">
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation" class="active wide-tab" id="tab-basic"><a href="#basic"
 									aria-controls="home"
@@ -160,6 +160,7 @@
 								</div>
 								<a id="basic-enroll" class="in-page-link"></a>
 								{{> courseenroll}}
+								{{> courseschedule}}
 								{{> registration}}
 							</div>
 							<div role="tabpanel" class="tab-pane" id="cpp-bundle">
@@ -235,7 +236,7 @@
 								<a id="register-cpp" class="in-page-link"></a>
 								<section class="mt-xs-64">
 									<div class="text-center"><h3>REGISTER NOW</h3></div>
-									<div class="container">
+									<div class="container widget-container" data-widget-id='122'>
 										<iframe class="payment-widget" frameborder="0"
 											src="https://students.codingblocks.com/payment/iframe?item_id=122"></iframe>
 									</div>
@@ -309,10 +310,11 @@
 										</div>
 									</div>
 								</section>
+								{{> courseschedule}}
 								<a id="register-java" class="in-page-link"></a>
 								<section class="mt-xs-64">
 									<div class="text-center"><h3>REGISTER NOW</h3></div>
-									<div class="container">
+									<div class="container widget-container" data-widget-id='122'>
 										<iframe class="payment-widget" frameborder="0"
 											src="https://students.codingblocks.com/payment/iframe?item_id=122"></iframe>
 									</div>
