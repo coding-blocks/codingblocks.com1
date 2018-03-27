@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h2 class="uppercase mb64 text-center color-primary">Course Contents</h2>
-                    <div>
+                    <div class="course-tabs">
                         <ul class="nav nav-tabs" role="tablist">
                             <li role="presentation" class="active wide-tab" id="tab-basic"><a href="#content-basic"
                                                                                               aria-controls="home"
@@ -132,9 +132,8 @@
                                 <a id="register-beginner" class="in-page-link"></a>
                                 <section>
                                     <div class="text-center"><h3>REGISTER NOW</h3></div>
-                                    <div class="container">
-                                        <iframe class="payment-widget" frameborder="0"
-                                                src="https://students.codingblocks.com/payment/iframe?item_id=111"></iframe>
+                                    <div class="container widget-container" data-widget-id='111'>
+                                        <iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id=111"></iframe>
                                     </div>
                                 </section>
                             </div>
@@ -282,9 +281,8 @@
                                 <a id="register-advance" class="in-page-link"></a>
                                 <section class="mt-xs-64">
                                     <div class="text-center"><h3>REGISTER NOW</h3></div>
-                                    <div class="container">
-                                        <iframe class="payment-widget" frameborder="0"
-                                                src="https://students.codingblocks.com/payment/iframe?item_id=118"></iframe>
+                                    <div class="container widget-container" data-widget-id="118">
+                                        <iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id=118"></iframe>
                                     </div>
                                 </section>
                             </div>
@@ -320,6 +318,9 @@
             $('#launchpad-bundle').toggleClass('active');
 		})
     })
+</script>
+
+<script>
 </script>
 </body>
 </html>
