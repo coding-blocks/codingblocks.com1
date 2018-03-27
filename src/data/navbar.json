@@ -123,29 +123,33 @@
           ]
         },
         {
-          "title": "Online",
-          "link": "https://online.codingblocks.com",
+          "title": "Bootcamps",
+          "link": "#",
           "sublinks": [
-            {
-              "title": "C++ (DS & Algo)",
-              "link": "/courses/online/c++.html"
-            },
-            {
-              "title": "Java (DS & Algo)",
-              "link": "/courses/online/java.html"
-            },
-            {
-              "title": "Web Development (NodeJS)",
-              "link": "/courses/online/web-development-nodejs.html"
-            },
-            {
-              "title": "Android Development (Java & Kotlin)",
-              "link": "/courses/online/android-app-development.html"
-            },
-            {
-              "title": "Competitive Programming",
-              "link": "/courses/competitive-online.html"
-            }
+			{
+			  "title": "Interview Preparation",
+			  "link": "/bootcamps/interviewprep.html"
+			},
+			{
+			  "title": "Blockchain",
+			  "link": "/bootcamps/blockchain.html"
+			},
+			{
+			  "title": "Machine Learning",
+			  "link": "/coming-soon.html"
+			},
+			{
+			  "title": "Chatbots",
+			  "link": "/bootcamps/chatbots.html"
+			},
+			{
+			  "title": "ANGULARJS",
+			  "link": "/coming-soon.html"
+			},
+			{
+			  "title": "GAME DEV UNITY",
+			  "link": "/coming-soon.html"
+			}
           ]
         }
       ]

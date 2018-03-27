@@ -4,64 +4,6 @@
     <section>
         <div class="container">
             <div class="row v-align-children">
-                <div class="col-sm-5">
-					<h3>Come, fall in <strong>LOVE</strong><br /> with <strong>CODING</strong></h3>
-                <p class="lead">
-                    {{#if upcomingBatches}}
-                        <p>{{{upcomingBatches}}}</p>
-                    {{else}}
-                        <p>Upcoming Batches</p>
-                    {{/if}}
-
-                    {{#each @root.coursesList}}
-                        {{#ifEquals id @root.id}}
-                            <ul class="course-list">
-                                {{#each batches}}
-                                    <li>
-                                        {{#if slug}}
-                                            {{{slug}}}
-                                        {{else}}
-                                            {{{startDate}}} at
-                                            {{{center}}}
-                                            <em>({{{time}}})</em><br>
-                                        {{/if}}
-                                    </li>
-                                {{/each}}
-                            </ul>
-                        {{/ifEquals}}
-                    {{/each}}
-
-                    {{#each @root.bootcampsList}}
-                        {{#ifEquals id @root.id}}
-                            <ul class="batch-list">
-                                {{#each batches}}
-                                    <li>
-                                        {{#if slug}}
-                                            {{{slug}}}
-                                        {{else}}
-                                            {{{startDate}}} at
-                                            {{{center}}}
-                                            <em>({{{time}}})</em><br>
-                                        {{/if}}
-                                    </li>
-                                {{/each}}
-                            </ul>
-                        {{/ifEquals}}
-                    {{/each}}
-                    </p>
-                    {{#each highlights}}
-                        <div class="overflow-hidden mb32 mb-xs-24">
-                            <div class="row">
-                                <div class="col-sm-1">
-                                    <i class="icon pull-left {{{icon}}} icon-sm"></i>
-                                </div>
-                                <div class="col-sm-11">
-                                    <h6 class="uppercase mb0 inline-block p32">{{{content}}}</h6>
-                                </div>
-                            </div>
-                        </div>
-                    {{/each}}
-                </div>
                 <div class="col-md-4 col-sm-6">
                     {{> pricing-table}}
                 </div>
