@@ -169,6 +169,10 @@
       "Nipun Jain"
     ]
   },
+  "schedule": [
+	  { "center": "Pitampura", "startdate": "Jun 05", "daytime": "Tue (03:00 PM - 06:00 PM); Fri (10:30 AM - 01:30 PM); Sun (04:30 PM - 08:00 PM)", "batchtype": "Regular" },
+	  { "center": "Pitampura", "startdate": "Jul 05", "daytime": "Wed, Thu (04:30 PM - 07:30 PM); Mon (10:00 AM - 01:30 PM)", "batchtype": "Regular" }
+  ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",
   "courseReviews": [
     "Manish Sundriyal",

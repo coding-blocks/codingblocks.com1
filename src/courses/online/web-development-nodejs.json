@@ -149,52 +149,6 @@
       "ans": "Videos will be provided of all classes to students after the class. These can be used for revision as well as covering up missed classes."
     }
   ],
-  "schedule": [
-    {
-      "date": "2017-09-25",
-      "topic": "Introduction to WebDevelopment"
-    },
-    {
-      "date": "2017-09-28",
-      "topic": "Using Git and Github"
-    },
-    {
-      "date": "2017-10-02",
-      "topic": "HTML Basics and Advanced"
-    },
-    {
-      "date": "2017-10-10",
-      "topic": "Introduction to CSS"
-    },
-    {
-      "date": "2017-10-12",
-      "topic": "Advanced CSS – Selectors, Combinators, Transforms, Animations"
-    },
-    {
-      "date": "2017-10-17",
-      "topic": "Introduction to Javascript"
-    },
-    {
-      "date": "2017-10-24",
-      "topic": "Javascript: Number, String, Array operations"
-    },
-    {
-      "date": "2017-10-26",
-      "topic": "Javascript: Closures, Prototypes"
-    },
-    {
-      "date": "2017-10-31",
-      "topic": "Introduction to NodeJS"
-    },
-    {
-      "date": "2017-11-02",
-      "topic": "NodeJS: File Operations, HTTP Servers"
-    },
-    {
-      "date": "2017-11-07",
-      "topic": "Express Servers, Routing, Server-side rendering"
-    }
-  ],
   "courseEnroll": {
     "price": "9000",
     "lectures": "(18 Lectures)",

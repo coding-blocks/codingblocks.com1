@@ -166,7 +166,7 @@
       },
       {
         "name": "Shivanshu Chaudhary",
-        "course": "perceptron",
+        "course": "ML",
         "imgSrc": "/assets/images/reviews/pic28.jpg",
         "rating": "5",
         "review": "A well curated course which is capable of creating a strong base and giving initial impetus to go deeper in the NET ;) .A nice balance is maintained between industrial applications and research aptitude.",
@@ -174,7 +174,7 @@
       },
       {
         "name": "Shubham Aggarwal",
-        "course": "perceptron",
+        "course": "ML",
         "imgSrc": "/assets/images/reviews/pic29.jpg",
         "rating": "5",
         "review": "I took a course in Machine Learning and it was the awesome experience. The course curriculum was very interesting and challenging at the same time. The content was crisp and of high quality.",
@@ -182,7 +182,7 @@
       },
       {
         "name": "Sachin Singh",
-        "course": "perceptron",
+        "course": "ML",
         "imgSrc": "/assets/images/reviews/pic30.jpg",
         "rating": "5",
         "review": "I have done machine learning course here . It was a wonderful and fun experience there. Practical projects done here was fun and amazing . Now i am very satisfied with this course.",
@@ -435,21 +435,21 @@
       },
       {
         "name": "Kartik Aggarwal",
-        "course": "perceptron",
+        "course": "ML",
         "imgSrc": "/assets/images/reviews/pic48.jpg",
         "rating": "5",
         "review": "The instructor and the teaching assistants were amazing and highly experienced. Side by side projects every week made the topics even more understandable and interesting. Thus I would highly recommend this course to everyone."
       },
       {
         "name": "Ishpreet Singh",
-        "course": "perceptron",
+        "course": "ML",
         "imgSrc": "/assets/images/reviews/pic49.jpg",
         "rating": "5",
         "review": "This was my first complete course at coding blocks. I attended the machine learning bootcamp in Winter 2016 and loved it which made me join the full course. Shubham bhaiya and Ayush bhaiya(TA) have good knowledge about the field and were very helpful in making us understand the concepts. I would certainly recommend this course to anyone who has interest in Data science."
       },
       {
         "name": "Anshul Garg",
-        "course": "perceptron",
+        "course": "ML",
         "imgSrc": "/assets/images/reviews/pic50.jpg",
         "rating": "5",
         "review": "Had an amazing experience here at Coding Blocks. The course content is excellent and structured well. The emphasis is not only on the theory part but also on logical thinking and how to approach a problem. Doubts were taken very well."

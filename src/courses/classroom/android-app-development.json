@@ -182,6 +182,9 @@
     "AKANKSHA AHUJA",
     "DHRUV ANAND"
   ],
+  "schedule": [
+	  { "center": "Pitampura", "startdate": "Jun 04", "daytime": "Mon, Wed, Fri (12:15 PM - 03:30 PM)", "batchtype": "Regular" }
+  ],
   "reviewSlug": "Android App Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=114"
 }
