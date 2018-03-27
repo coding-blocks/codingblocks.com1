@@ -3,7 +3,7 @@
   "name": "Perceptron",
   "title": "Perceptron: Advanced Machine Learning and AI Course | Coding Blocks",
   "header": {
-    "heading": "Perceptron: Machine Learning",
+    "heading": "Machine Learning",
     "subHeading": "Advanced Machine Learning &amp; AI Course",
     "breadcrumbs": [
       {
@@ -28,7 +28,7 @@
     {
       "icon": "et-line-edit",
       "title": "Implement Algorithms",
-      "content": " Perceptron is an hands-on coding course. You will learn various supervised and unsupervised learning algorithms and will implement them in your code from scratch."
+      "content": "Machine Learning is an hands-on coding course. You will learn various supervised and unsupervised learning algorithms and will implement them in your code from scratch."
     },
     {
       "icon": "pe-7s-download",
@@ -149,7 +149,7 @@
     },
     {
       "ques": "What is asked in admission test for this course?",
-      "ans": "You are suggested to revise programming fundamentals, OOPS concepts, basics Maths and Probability concepts, hands-on coding in Python before giving the admission test for Perceptron course."
+      "ans": "You are suggested to revise programming fundamentals, OOPS concepts, basics Maths and Probability concepts, hands-on coding in Python before giving the admission test for Machine Learning course."
     }
   ],
   "courseEnroll": {
@@ -170,6 +170,9 @@
     "ISHPREET SINGH",
     "ANSHUL GARG",
     "SHIVANSHU CHAUDHARY"
+  ],
+  "schedule": [
+	  { "center": "Pitampura", "startdate": "Jun 09", "daytime": "Sat, Sun, Wed (10:30 AM - 01:00 PM)", "batchtype": "Regular" }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=120"
 }

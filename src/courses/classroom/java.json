@@ -103,6 +103,14 @@
       "Harpreet Singh"
     ]
   },
+  "schedule": [
+	  { "center": "Pitampura", "startdate": "May 27", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)", "batchtype": "Fast Track" },
+	  { "center": "Pitampura", "startdate": "Jun 03", "daytime": "Sun (12:30 PM - 04:00 PM); Wed, Fri (08:00 AM - 12:00 PM)", "batchtype": "Regular" }
+  ],
+  "scheduleCrux": [
+	  { "center": "Pitampura", "startdate": "May 27", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)", "batchtype": "Fast Track" },
+	  { "center": "Pitampura", "startdate": "Jun 03", "daytime": "Sun (12:30 PM - 04:00 PM); Wed, Fri (08:00 AM - 12:00 PM)", "batchtype": "Regular" }
+  ],
   "courseReviews": [
     "YAMINI GAUR",
     "ANSH SACHDEVA",
