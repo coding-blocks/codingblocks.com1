@@ -96,12 +96,12 @@
     },
     {
       "id": "course06",
-      "name": "Perceptron",
+      "name": "Machine Learning",
       "price": "22,000",
       "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
       "imgAlt": "machine learning course logo",
       "lectures": "(23 lectures)",
-      "link": "/courses/perceptron.html",
+      "link": "/courses/classroom/machine-learning.html",
 	  "badge": "Starting June 9",
       "description": [
         "Code Machine Learning Algorithms",
@@ -190,7 +190,8 @@
     {
       "id": "course12",
       "name": "Launchpad Online",
-      "price": "8,000",
+	  "badge": "Starting June 4",
+      "price": "9,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "Launchpad Online",
       "lectures": "",
@@ -254,7 +255,8 @@
     {
       "id": "course15",
       "name": "NodeJS Web Development Online",
-      "price": "10,000",
+      "price": "12,000",
+	  "badge": "Starting June 12",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "web development course logo",
       "lectures": "",
@@ -269,7 +271,8 @@
     {
       "id": "course16",
       "name": "Competitive programming Online",
-      "price": "8,000",
+      "price": "10,000",
+	  "badge": "Starting June 18",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
       "lectures": "",
@@ -304,8 +307,9 @@
     {
       "id": "course18",
       "name": "Java Online",
-      "price": "8,000",
+      "price": "9,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+	  "badge": "Starting June 11",
       "imgAlt": "java online course logo",
       "lectures": "",
       "link": "/courses/online/java.html",
@@ -384,6 +388,19 @@
       "description": [
       ],
       "batches": [
+      ]
+    },
+    {
+      "id": "course23",
+      "name": "Interview Preparation",
+      "price": "5,000",
+	  "off-price": "",
+      "imgSrc": "/assets/images/cb/r_final.png",
+      "imgAlt": "Interview Prep course logo",
+	  "badge": "Starting May 15",
+      "lectures": "",
+      "link": "/courses/online/interviewprep.html",
+      "description": [
       ]
     }
   ]

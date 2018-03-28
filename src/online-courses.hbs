@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="uppercase mb16">Online Courses</h2>
+                    <p class="lead mb64">The interactive learning for aspiring and experienced developers</p>
+                </div>
+            </div>
+            {{> coursesRow courses=coursesRow1}}
+            {{> coursesRow courses=coursesRow2}}
+        </div>
+    </section>
+
+    {{> review-course-section}}
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>

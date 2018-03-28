@@ -83,19 +83,6 @@
       "id": "bootcamp09"
     }
   ],
-  "coursesRow7": [
-    {
-      "id": "course17",
-      "odd": true
-    },
-    {
-      "id": "course12"
-    },
-    {
-      "id": "course18",
-      "odd": true
-    }
-  ],
   "cppInterviewRow": [
     {
       "id": "bootcamp02"
@@ -121,6 +108,32 @@
       "id": "course22",
       "odd": true,
 	  "combo": true
+    }
+  ],
+  "onlineCoursesRow1": [
+    {
+      "id": "course12",
+      "odd": true
+    },
+    {
+      "id": "course18"
+    },
+    {
+      "id": "course15",
+      "odd": true
+    }
+  ],
+  "onlineCoursesRow2": [
+    {
+      "id": "course16",
+      "odd": true
+    },
+    {
+      "id": "course23"
+    },
+    {
+      "id": "course17",
+      "odd": true
     }
   ],
   "courseReviews": [
