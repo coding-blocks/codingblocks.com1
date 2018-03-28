@@ -39,8 +39,8 @@
   },
   "courseEnrollAdvanced": {
     "upcomingBatches": "New batch starting 28th February",
-	"priceCut": "9,000",
-	"price": "6,000",
+	"priceCut": "10,000",
+	"price": "7,000",
 	"registerButton": {
 		"buttonText": "Register Now",
 		"registerIdSlug": "Advanced"
@@ -59,7 +59,7 @@
   "courseEnrollComplete": {
     "upcomingBatches": "New batch starting 30th January",
 	"priceCut": "12,000",
-	"price": "8,000",
+	"price": "9,000",
 	"registerButton": {
 		"buttonText": "Register Now"
 	},
@@ -118,6 +118,6 @@
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
   ],
-  "registerLinkAdvanced": "https://students.codingblocks.com/payment/iframe?item_id=55",
-  "registerLinkComplete": "https://students.codingblocks.com/payment/iframe?item_id=56"
+  "registerLinkAdvanced": "https://students.codingblocks.com/payment/iframe?item_id=124",
+  "registerLinkComplete": "https://students.codingblocks.com/payment/iframe?item_id=125"
 }

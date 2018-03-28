@@ -33,7 +33,7 @@
     "bgSrc": "../../assets/images/cb/cover/covergcp.jpg"
   },
   "overview": {
-    "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements.Designed for beginners, our online java course is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+    "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements.Designed for beginners, our online java course is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java.<br><br><strong>More than 100 recorded videos and 6 live webinars, along with 24x7 doubt clearing support.</strong>"
   },
   "courseHighlights": [
     {
@@ -162,7 +162,8 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "",
-    "priceCut": "12.000",
+    "priceCut": "12,000",
+	"price": "9,000",
     "highlights": [
       {
         "icon": "et-line-search",
@@ -183,7 +184,7 @@
     "teamMembers": [
       "Rishab Kapoor",
       "Garima Chhikara",
-      "Harpreet Singh"
+      "Anuj Garg"
     ]
   },
   "courseReviews": [
@@ -192,5 +193,5 @@
     "GAGARIN DASH",
     "KSHITIJ BANSAL"
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=103"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=130"
 }
