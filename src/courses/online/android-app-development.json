@@ -177,9 +177,11 @@
     "contentCenter": true,
     "teamMembers": [
       "Arnav Gupta",
-      "Harshit Dwivedi",
-      "Nipun Jain"
+      "Harshit Dwivedi"
     ]
+  },
+  "sample": {
+    "url": "https://www.youtube.com/embed/j21BGE4YsPQ"
   },
   "courseReviews": [
     "GURLEEN KAILEY",
