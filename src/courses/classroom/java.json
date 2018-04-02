@@ -105,11 +105,17 @@
   },
   "schedule": [
 	  { "center": "Pitampura", "startdate": "May 27", "enddate": "Jun 12", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)", "batchtype": "Fast Track" },
-	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Jun 24", "daytime": "Sun (12:30 PM - 04:00 PM); Wed, Fri (08:00 AM - 12:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Jun 24", "daytime": "Sun (12:30 PM - 04:00 PM); Wed, Fri (08:00 AM - 12:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "May 28", "enddate": "Jun 09", "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)", "batchtype": "Fast Track" },
+	  { "center": "Dwarka", "startdate": "Jun 05", "enddate": "Jun 21", "daytime": "Mon, Wed, Fri (10:00 AM - 02:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "Jun 11", "enddate": "Jun 27", "daytime": "Tue, Thu, Sat (10:00 AM - 02:00 PM)", "batchtype": "Regular" }
   ],
   "scheduleCrux": [
 	  { "center": "Pitampura", "startdate": "May 27", "enddate": "Jul 10", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)", "batchtype": "Fast Track" },
-	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Aug 01", "daytime": "Sun (12:30 PM - 04:00 PM); Wed, Fri (08:00 AM - 12:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Aug 01", "daytime": "Sun (12:30 PM - 04:00 PM); Wed, Fri (08:00 AM - 12:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "May 28", "enddate": "Jul 07", "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)", "batchtype": "Fast Track" },
+	  { "center": "Dwarka", "startdate": "Jun 05", "enddate": "Jul 28", "daytime": "Mon, Wed, Fri (10:00 AM - 02:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "Jun 11", "enddate": "Aug 03", "daytime": "Tue, Thu, Sat (10:00 AM - 02:00 PM)", "batchtype": "Regular" }
   ],
   "courseReviews": [
     "YAMINI GAUR",

@@ -167,7 +167,7 @@
       "link": "/courses/classroom/algo++.html",
       "badge": "Starting June 5",
       "description": [
-        "Data Structures in C++"
+        "DS & Algorithms in C++"
       ],
       "batches": [
       ]
@@ -182,7 +182,7 @@
       "link": "/courses/classroom/algo-java.html",
       "badge": "Starting June 5",
       "description": [
-        "Advanced Data Structures & Algorithms in Java"
+        "DS & Algorithms in Java"
       ],
       "batches": [
       ]
@@ -363,6 +363,7 @@
     {
       "id": "course21",
       "name": "C++ Bundle",
+	  "combo-card-name": "Interview Prep Course in C++",
       "price": "17,000",
 	  "off-price": "1,000",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
@@ -378,6 +379,7 @@
     {
       "id": "course22",
       "name": "Java Bundle",
+	  "combo-card-name": "Interview Prep Course in Java",
       "price": "17,000",
 	  "off-price": "1,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
