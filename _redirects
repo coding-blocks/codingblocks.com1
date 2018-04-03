@@ -1,8 +1,25 @@
 # Inside redirects (for old links)
 
-/courses/crux.html                                /courses/classroom/java.html
+## Bundles and rebundling
+/courses/crux.html                                /courses/classroom/java.html#crux-bundle-content
+/courses/launchpad.html                           /courses/classroom/c++.html#launchpad-bundle-content
+/courses/c++-for-beginners                        /courses/classroom/c++.html
+/courses/classroom/java.html#advance              /courses/classroom/advanced/algo-java.html
+
+## VSAT is now online
 /courses/lpvsat.html                              /courses/online/c++.html
-/bootcamps/machinelearning.html                   /courses/perceptron.html
+
+## Bootcamps that are now courses
+/bootcamps/machinelearning.html                   /courses/classroom/machine-learning.html
+/bootcamps/competitiveprogramming.html            /courses/classroom/competitive-programming.html
+
+## Renamed Dev courses
+/courses/pandora.html                             /courses/classroom/development/android-app-development.html
+/courses/elixir.html                              /courses/classroom/development/web-development-nodejs.html
+/courses/elixirlive.html                          /courses/online/web-development-nodejs.html
+/courses/perceptron.html                          /courses/classroom/machine-learning.html
+
+
 /courses/algo++.html                              /courses/classroom/algo++.html
 /courses/mathsgeeks.html                          /courses/junior/mathsgeeks.html
 /courses/code4kids.html                           /courses/junior/code4kids.html
@@ -10,9 +27,6 @@
 /courses/classroom/algo-java.html                 /courses/classroom/advanced/algo-java.html
 /courses/classroom/web-development-nodejs.html    /courses/classroom/development/web-development-nodejs.html
 /courses/classroom/android-app-development.html   /courses/classroom/development/android-app-development.html
-/courses/pandora.html                             /courses/classroom/development/android-app-development.html
-/courses/elixir.html                              /courses/classroom/development/web-development-nodejs.html
-/courses/elixirlive.html                          /courses/online/web-development-nodejs.html
 
 # Outside Redirects for Netlify 
 
