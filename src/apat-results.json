@@ -10,5 +10,23 @@
   "header": {
     "heading": "APAT Results",
     "subHeading": ""
-  }
+  },
+  "algoplusplusresults": [
+	  { "name": "", "email": "", "accountid": "", "scholarship": "" }
+  ],
+  "mlresults": [
+	  { "name": "", "email": "", "accountid": "", "scholarship": "" }
+  ],
+  "algojavaresults": [
+	  { "name": "", "email": "", "accountid": "", "scholarship": "" }
+  ],
+  "webdevresults": [
+	  { "name": "", "email": "", "accountid": "", "scholarship": "" }
+  ],
+  "androidresults": [
+	  { "name": "", "email": "", "accountid": "", "scholarship": "" }
+  ],
+  "competitiveresults": [
+	  { "name": "", "email": "", "accountid": "", "scholarship": "" }
+  ]
 }
