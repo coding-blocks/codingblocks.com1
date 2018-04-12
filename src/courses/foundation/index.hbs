@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="uppercase mb16">courses</h2>
+                    <p class="lead mb64">Courses for all stages, with equal focus on theory and implementation</p>
+                </div>
+            </div>
+            {{> coursesRow courses=coursesRow1}}
+        </div>
+    </section>
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>
