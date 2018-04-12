@@ -11,8 +11,17 @@
       "id": "course08"
     },
     {
-      "id": "course07",
-      "odd": true
+      "id": "course01",
+	  "odd": "true"
+    }
+  ],
+  "coursesRow2": [
+    {
+      "id": "course07"
+    },
+    {
+      "id": "course02",
+	  "odd": "true"
     }
   ],
   "courseReviews": [
