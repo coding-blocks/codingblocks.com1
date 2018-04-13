@@ -9,13 +9,17 @@
   "slides": [
     {
       "imgSrc": "/assets/images/cb/cover/cover_admission.png",
-      "imgAlt": "CAST Result",
-      "heading": "CAST Results Declared",
-      "content": "Results for the Coders Admission & Scholarship Test (CAST) held on April 07 have been declared!",
+      "imgAlt": "CAST & APAT Result",
+      "heading": "CAST & APAT Results Declared",
+      "content": "Results for the Coders Admission & Scholarship Test (CAST) held on April 07, and APAT held on April 08 have been declared!",
       "button": [
         {
           "link": "http://students.codingblocks.com/admission_test_online/CASTS18/result_letter",
-          "text": "Check Results",
+          "text": "Check CAST Results"
+        },
+        {
+          "link": "/apat-results.html",
+          "text": "View APAT Results",
           "filled": "true"
         }
       ]
