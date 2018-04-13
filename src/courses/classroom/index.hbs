@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="uppercase mb16">courses</h2>
+                    <p class="lead mb64">Courses for all stages, with equal focus on theory and implementation</p>
+                </div>
+            </div>
+            {{> coursesRow courses=coursesRow1}}
+            {{> coursesRow courses=coursesRow2}}
+            {{> coursesRow courses=cppInterviewRow}}
+            {{> coursesRow courses=javaInterviewRow}}
+            {{> coursesRow courses=coursesRow3}}
+            {{> coursesRow courses=coursesRow4}}
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="uppercase mb16">Online Courses</h2>
+                    <p class="lead mb64">The interactive learning for aspiring and experienced developers</p>
+                </div>
+            </div>
+            {{> coursesRow courses=onlineCoursesRow1}}
+            {{> coursesRow courses=onlineCoursesRow2}}
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="uppercase mb16">Bootcamps</h2>
+                    <p class="lead mb64">Fast paced bootcamps for Beginners and Advanced Programmers</p>
+                </div>
+            </div>
+            {{> coursesRow courses=coursesRow5}}
+            {{> coursesRow courses=coursesRow6}}
+        </div>
+    </section>
+
+    {{> review-course-section}}
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "title": "Best Computer Programming Courses in Delhi | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks offer programming and software training courses in Java, C++, Android, NodeJS and more. Registration open for coding classes in Delhi."
+    }
+  ],
+  "coursesRow1": [
+    {
+      "id": "course08"
+    },
+    {
+      "id": "course01",
+	  "odd": "true"
+    }
+  ],
+  "coursesRow2": [
+    {
+      "id": "course07"
+    },
+    {
+      "id": "course02",
+	  "odd": "true"
+    }
+  ],
+  "courseReviews": [
+    "Naman Kumar",
+    "RISHABH KHANNA",
+    "YAMINI GAUR",
+    "ISHPREET SINGH",
+    "SUNEET SRIVASTAVA",
+    "RISHABH MENDIRATTA",
+    "GAGAN BHAYANA",
+    "ANIRUDH GUPTA",
+    "SHREYA GUPTA",
+    "KANIKA BHOOKER",
+    "GURLEEN KAILEY",
+    "PURUJIT BANSAL"
+  ]
+}
