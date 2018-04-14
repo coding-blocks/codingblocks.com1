@@ -150,7 +150,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "Certified Python Developer Logo",
       "lectures": "(6 lectures)",
-      "link": "/courses/development/certified-python-developer.html",
+      "link": "/coming-soon.html",
 	  "badge": "Starting March 24",
       "description": [
         "Complete Python Course"
@@ -405,6 +405,24 @@
       "link": "/courses/online/interviewprep.html",
       "description": [
 		  "Ace that Technical Interview"
+      ]
+    },
+    {
+      "id": "course24",
+      "name": "Machine Learning (Online)",
+      "price": "14,999",
+      "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
+      "imgAlt": "machine learning course logo",
+      "lectures": "",
+      "link": "/courses/online/machine-learning.html",
+	  "badge": "Starting This June",
+      "description": [
+        "Code Machine Learning Algorithms",
+        "Artificial Intelligence",
+        "Natural Language Processing",
+        "3 Live Projects &amp; Hackathon"
+      ],
+      "batches": [
       ]
     }
   ]
