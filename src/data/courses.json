@@ -406,6 +406,24 @@
       "description": [
 		  "Ace that Technical Interview"
       ]
+    },
+    {
+      "id": "course24",
+      "name": "Machine Learning (Online)",
+      "price": "14,999",
+      "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
+      "imgAlt": "machine learning course logo",
+      "lectures": "",
+      "link": "/courses/online/machine-learning.html",
+	  "badge": "Starting This June",
+      "description": [
+        "Code Machine Learning Algorithms",
+        "Artificial Intelligence",
+        "Natural Language Processing",
+        "3 Live Projects &amp; Hackathon"
+      ],
+      "batches": [
+      ]
     }
   ]
 }

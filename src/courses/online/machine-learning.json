@@ -1,5 +1,5 @@
 {
-  "id": "course06",
+  "id": "course24",
   "name": "Machine Learning",
   "title": "Advanced Machine Learning and AI Course | Coding Blocks",
   "header": {
@@ -91,7 +91,11 @@
       "description": "In this exciting part of the course, we dive deep into Regression Techniques, and also introduce you to Neural Networks.",
       "lectures": "Lecture 10-14",
       "points": [
-        "Regression Techniques",
+        "Linear Regression",
+        "Logistic Regression",
+        "Gradient Descent",
+        "Stochastic Gradient Descent",
+        "Newton's Method",
         "Numerical Optimization",
         "Introduction to Neural Networks"
       ]
@@ -108,8 +112,7 @@
         "Dimensions revisited: The Auto-encoder",
         "Recurrent and Combined Architectures",
         "Support Vector Machines",
-        "Introduction to Unsupervised and Reinforcement Learning",
-        "Transfer Learning"
+        "Introduction to Unsupervised and Reinforcement Learning"
       ]
     },
     {
@@ -155,6 +158,8 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming <strong>Weekend</strong> Batch",
+	"priceCut": "14,999",
+	"price": "12,499",
     "highlights": [
       {
         "icon": "et-line-search",
@@ -172,8 +177,5 @@
     "ANSHUL GARG",
     "SHIVANSHU CHAUDHARY"
   ],
-  "schedule": [
-	  { "center": "Pitampura", "startdate": "Jun 09", "enddate": "Aug 01", "daytime": "Sat, Sun, Wed (10:30 AM - 01:30 PM)", "batchtype": "Regular" }
-  ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=120"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=143"
 }
