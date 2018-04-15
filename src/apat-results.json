@@ -515,12 +515,6 @@
 			"scholarship": "30%"
 		},
 		{
-			"name": "Gautam Awasthi",
-			"email": "ga***********11@gmail.com",
-			"accountid": "9733",
-			"scholarship": "Qualified"
-		},
-		{
 			"name": "Saransh Agarwal",
 			"email": "sa******08@gmail.com",
 			"accountid": "9898",
@@ -614,6 +608,12 @@
 			"name": "Guntas Singh",
 			"email": "ro*******or@yahoo.com",
 			"accountid": "9745",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Gautam Awasthi",
+			"email": "ga***********11@gmail.com",
+			"accountid": "9733",
 			"scholarship": "Qualified"
 		},
 		{
