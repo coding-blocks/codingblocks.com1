@@ -6,7 +6,7 @@
       "content": "Coding Blocks offer programming and software training courses in Java, C++, Android, NodeJS and more. Registration open for coding classes in Delhi."
     }
   ],
-  "coursesRow1": [
+  "onlineCoursesRow1": [
     {
       "id": "course12",
       "odd": true
@@ -19,7 +19,7 @@
       "odd": true
     }
   ],
-  "coursesRow2": [
+  "onlineCoursesRow2": [
     {
       "id": "course16",
       "odd": true
@@ -32,7 +32,7 @@
       "odd": true
     }
   ],
-  "coursesRow3": [
+  "onlineCoursesRow3": [
     {
       "id": "course24",
       "odd": true

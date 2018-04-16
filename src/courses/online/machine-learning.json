@@ -1,0 +1,181 @@
+{
+  "id": "course24",
+  "name": "Machine Learning",
+  "title": "Advanced Machine Learning and AI Course | Coding Blocks",
+  "header": {
+    "heading": "Machine Learning",
+    "subHeading": "Advanced Machine Learning &amp; AI Course",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "overview": {
+    "content": "Machine learning is a field of study that helps machines to learn without being explicitly programmed. Machine Learning has become the hottest computer science topic of 21st century. All big giants such as Google, Microsoft, Apple, Amazon are working on ML projects and research organizations such as NASA, ISRO invest heavily in R&D for ML projects. <br><br> Being an advanced course, students are required to have clear understanding of programing fundamentals and knowledge of Python language will be helpful. In this course, students will follow industry-standard programming practices to build intelligent systems, working on AI algorithms and data crunching"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "Implement Algorithms",
+      "content": "Machine Learning is an hands-on coding course. You will learn various supervised and unsupervised learning algorithms and will implement them in your code from scratch."
+    },
+    {
+      "icon": "pe-7s-download",
+      "title": "Work on LIVE Projects",
+      "content": "This course covers a lot of basic &amp; advanced projects like face-recognition, sentiment analysis, recommendation system, coversational engine, AI music generator and much more."
+    },
+    {
+      "icon": "et-line-speedometer",
+      "title": "Deep Learning",
+      "content": " We will cover the latest advanced in deep learning - a growing field in Machine Learning.Deep learning applications are being used in computer vision, automatic speech recognition, natural language processing, audio recognition and bioinformatics"
+    },
+    {
+      "icon": "pe-7s-network",
+      "title": "Advanced Topics",
+      "content": "Many of the topics are advanced, up-to-date and require great patience and coding skills. Make sure you have good programming fundamentals and practice of Python before joining this course."
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Mathematical Concepts",
+      "contentTitle": "Introduction to ML and mathematical concepts",
+      "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
+      "lectures": "Lectures 1-4",
+      "points": [
+        "Introduction to Machine Learning",
+        "Python 2.7 overview",
+        "Linear Algebra",
+        "Statistics and Probability",
+        "Numpy, Scipy, and Scientific computation with Python"
+      ]
+    },
+    {
+      "title": "Algorithms and Data Handling",
+      "contentTitle": "Simple Machine Learning Algorithms and Data Handling",
+      "description": "Then we will take a look at some advanced algorithms such as K-means clustering and Random Forest Classifiers.",
+      "lectures": "Lecture: 5-7",
+      "points": [
+        "Nearest Neighbour search and K-means clustering.",
+        "Decision trees and Naive Bayes.",
+        "Data Scraping, Handling, Cleaning",
+        "Random Forest Classifiers."
+      ]
+    },
+    {
+      "title": "Features and Dimensions",
+      "contentTitle": "Features and Dimensions",
+      "description": "In this section, you will gain insight into core Machine Learning topics, mainly Features. We discuss in depth their importance and application.",
+      "lectures": "Lecture 8-9",
+      "points": [
+        "Features and Importance",
+        "Feature scaling",
+        "The Curse of Dimensionality",
+        "SVD and Principal Component Analysis"
+      ]
+    },
+    {
+      "title": "Machine Learning",
+      "contentTitle": "Diving Deep into ML",
+      "description": "In this exciting part of the course, we dive deep into Regression Techniques, and also introduce you to Neural Networks.",
+      "lectures": "Lecture 10-14",
+      "points": [
+        "Linear Regression",
+        "Logistic Regression",
+        "Gradient Descent",
+        "Stochastic Gradient Descent",
+        "Newton's Method",
+        "Numerical Optimization",
+        "Introduction to Neural Networks"
+      ]
+    },
+    {
+      "title": "Deep Learning",
+      "contentTitle": "Deep Learning",
+      "description": "In this final classes of our course, we will learn about more complex Machine Learning topics and algorithms which help you in solving and optimising solutions of lots of real world problems.",
+      "lectures": "Lectures 15-22",
+      "points": [
+        "Neural Architectures and Training",
+        "Deep learning methods",
+        "Convolutions and the GoogLe Net",
+        "Dimensions revisited: The Auto-encoder",
+        "Recurrent and Combined Architectures",
+        "Support Vector Machines",
+        "Introduction to Unsupervised and Reinforcement Learning"
+      ]
+    },
+    {
+      "title": "Projects",
+      "contentTitle": "Projects",
+	  "description": "Students will get hands on knowledge of the underlying material by building several projects that use the techniques taught in this course to solve a real life problem.",
+      "points": [
+        "Handwritten digit classification",
+        "Face Recognition",
+        "Image classification and Object detection",
+        "Automated music generation",
+        "Text/Poem generating bot",
+        "Recommender systems",
+        "Emotion/Sentiment Analysis"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "This field intensively deals with mathematics, for analysis of data and algorithms. A decent mathematical background is a necessary and we engineers definitely excel at that! If you have had a mathematical background at school and covered engineering mathematics (such as probability, statistics, linear algebra etc/), you're good to go! Maybe you could just brush up the topics."
+    },
+    {
+      "ques": "Why do this course?",
+      "ans": "Machine learning evolves from artificial intelligence and study of pattern recognition. Today, when excessively huge amounts of data are being dealt with everyday, rather every moment, pattern recognition is something that helps large corporations and websites work magnificently with the users. Artificial intelligence has become a favourite with the customers, esp. intelligent personal assistants like Apple's Siri, Microsoft Cortana, etc. We hope to extend our knowledge to the students so they are ready to tackle such problems in real-world."
+    },
+    {
+      "ques": "I know competitive programming. should I do this course?",
+      "ans": "Machine Learning requires extensive knowledge of mathematics, which you also gain while handling problems in competitive programming. This course shall equip with the right tools to handle huge amounts of data and derive meaningful conclusions from data crunching. Handling real-world problems is exactly what machine learning is all about, a skill very useful in development tasks. competitive programming equips you with critical thinking, but machine learning teaches you how to apply that skill and solve complex problems."
+    },
+    {
+      "ques": "Will this help me in interviews?",
+      "ans": "Machine Learning and Data science has been called as the ‘Hottest job of the 21st century’. If you learn this course well, you’ll be able to impress quite a lot of interviewers across various interviews."
+    },
+    {
+      "ques": "I don’t pass all the prerequisite criteria. Should I enroll?",
+      "ans": "Even if you don’t possess understanding of all the prerequisites, we shall help you cover every topic in detail and provide overview before diving deep into machine learning and data science. Python is a relatively easy language to learn, and you can pick up the basics very quickly. Therefore, you’ll have ample amount of time before the course to brush-up/learn the fundamentals."
+    },
+    {
+      "ques": "What is asked in admission test for this course?",
+      "ans": "You are suggested to revise programming fundamentals, OOPS concepts, basics Maths and Probability concepts, hands-on coding in Python before giving the admission test for Machine Learning course."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "Upcoming <strong>Weekend</strong> Batch",
+	"priceCut": "14,999",
+	"price": "12,499",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "2 Hacakthons"
+      }
+    ]
+  },
+  "courseReviews": [
+    "KARTIK AGGARWAL",
+    "ISHPREET SINGH",
+    "ANSHUL GARG",
+    "SHIVANSHU CHAUDHARY"
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=143"
+}

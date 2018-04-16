@@ -19,7 +19,7 @@
         "link": "#faq"
       }
     ],
-    "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
+    "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
   },
   "overview": {
     "content": "Machine learning is a field of study that helps machines to learn without being explicitly programmed. Machine Learning has become the hottest computer science topic of 21st century. All big giants such as Google, Microsoft, Apple, Amazon are working on ML projects and research organizations such as NASA, ISRO invest heavily in R&D for ML projects. <br><br> Being an advanced course, students are required to have clear understanding of programing fundamentals and knowledge of Python language will be helpful. In this course, students will follow industry-standard programming practices to build intelligent systems, working on AI algorithms and data crunching"
@@ -64,7 +64,7 @@
     {
       "title": "Algorithms and Data Handling",
       "contentTitle": "Simple Machine Learning Algorithms and Data Handling",
-      "description": "Then we will dive deep into C++ topics like Arrays, solving problems with Recursion, understanding about pointers and multi-dimensional arrays.",
+      "description": "Then we will take a look at some advanced algorithms such as K-means clustering and Random Forest Classifiers.",
       "lectures": "Lecture: 5-7",
       "points": [
         "Nearest Neighbour search and K-means clustering.",
@@ -76,7 +76,7 @@
     {
       "title": "Features and Dimensions",
       "contentTitle": "Features and Dimensions",
-      "description": "In this part we learn about how to compute space-time complexity of our solution and how can we optimise our solutions. We will also learn about OOPs and recommended coding practices.",
+      "description": "In this section, you will gain insight into core Machine Learning topics, mainly Features. We discuss in depth their importance and application.",
       "lectures": "Lecture 8-9",
       "points": [
         "Features and Importance",
@@ -88,7 +88,7 @@
     {
       "title": "Machine Learning",
       "contentTitle": "Diving Deep into ML",
-      "description": "This is the most important and exciting part and yet easy. Data structures are all about storing data.You will learn to implement different data structures and when to use them. This part is important as most of the questions asked in interviwes are related to data structures.",
+      "description": "In this exciting part of the course, we dive deep into Regression Techniques, and also introduce you to Neural Networks.",
       "lectures": "Lecture 10-14",
       "points": [
         "Regression Techniques",
@@ -99,7 +99,7 @@
     {
       "title": "Deep Learning",
       "contentTitle": "Deep Learning",
-      "description": "In this final classes of our course, we will learn about more complex data structures and algorithms which help you in solving and optimising solutions of lots of problems.",
+      "description": "In this final classes of our course, we will learn about more complex Machine Learning topics and algorithms which help you in solving and optimising solutions of lots of real world problems.",
       "lectures": "Lectures 15-22",
       "points": [
         "Neural Architectures and Training",
@@ -115,6 +115,7 @@
     {
       "title": "Projects",
       "contentTitle": "Projects",
+	  "description": "Students will get hands on knowledge of the underlying material by building several projects that use the techniques taught in this course to solve a real life problem.",
       "points": [
         "Handwritten digit classification",
         "Face Recognition",
@@ -172,7 +173,7 @@
     "SHIVANSHU CHAUDHARY"
   ],
   "schedule": [
-	  { "center": "Pitampura", "startdate": "Jun 09", "enddate": "Aug 01", "daytime": "Sat, Sun, Wed (10:30 AM - 01:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "Jun 09", "enddate": "Aug 01", "daytime": "Sat, Sun, Wed (10:30 AM - 01:30 PM)", "batchtype": "Regular" }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=120"
 }

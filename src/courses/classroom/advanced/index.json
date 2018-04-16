@@ -8,35 +8,20 @@
   ],
   "coursesRow1": [
     {
-      "id": "course12",
+      "id": "course05"
+    },
+    {
+      "id": "course11",
       "odd": true
     },
     {
-      "id": "course18"
-    },
-    {
-      "id": "course15",
-      "odd": true
+      "id": "course06"
     }
   ],
   "coursesRow2": [
-    {
-      "id": "course16",
-      "odd": true
-    },
-    {
-      "id": "course23"
-    },
-    {
-      "id": "course17",
-      "odd": true
-    }
-  ],
-  "coursesRow3": [
-    {
-      "id": "course24",
-      "odd": true
-    }
+	  {
+		  "id": "course20"
+	  }
   ],
   "courseReviews": [
     "Naman Kumar",

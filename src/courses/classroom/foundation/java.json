@@ -33,7 +33,7 @@
         "link": "#faq"
       }
     ],
-    "bgSrc": "../../assets/images/cb/cover/covergcp.jpg"
+    "bgSrc": "../../../assets/images/cb/cover/covergcp.jpg"
   },
   "overview": {
     "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements.Designed for beginners, this is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java.",
@@ -105,11 +105,17 @@
   },
   "schedule": [
 	  { "center": "Pitampura", "startdate": "May 27", "enddate": "Jun 12", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)", "batchtype": "Fast Track" },
-	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Jun 24", "daytime": "Sun (12:30 PM - 04:00 PM); Wed, Fri (08:00 AM - 12:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Jun 24", "daytime": "Sun (12:30 PM - 04:00 PM); Wed, Fri (08:00 AM - 12:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "May 28", "enddate": "Jun 09", "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)", "batchtype": "Fast Track" },
+	  { "center": "Dwarka", "startdate": "Jun 05", "enddate": "Jun 21", "daytime": "Mon, Wed, Fri (10:00 AM - 02:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "Jun 11", "enddate": "Jun 27", "daytime": "Tue, Thu, Sat (10:00 AM - 02:00 PM)", "batchtype": "Regular" }
   ],
   "scheduleCrux": [
 	  { "center": "Pitampura", "startdate": "May 27", "enddate": "Jul 10", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)", "batchtype": "Fast Track" },
-	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Aug 01", "daytime": "Sun (12:30 PM - 04:00 PM); Wed, Fri (08:00 AM - 12:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Aug 01", "daytime": "Sun (12:30 PM - 04:00 PM); Wed, Fri (08:00 AM - 12:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "May 28", "enddate": "Jul 07", "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)", "batchtype": "Fast Track" },
+	  { "center": "Dwarka", "startdate": "Jun 05", "enddate": "Jul 28", "daytime": "Mon, Wed, Fri (10:00 AM - 02:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "Jun 11", "enddate": "Aug 03", "daytime": "Tue, Thu, Sat (10:00 AM - 02:00 PM)", "batchtype": "Regular" }
   ],
   "courseReviews": [
     "YAMINI GAUR",

@@ -1,14 +1,1826 @@
 {
-  "name": "APAT Results",
-  "title": "APAT Results (2017) | Coding Blocks",
-  "metas": [
-    {
-      "name": "description",
-      "content": "Results for APAT 2017"
-    }
-  ],
-  "header": {
-    "heading": "APAT Results",
-    "subHeading": ""
-  }
+	"name": "APAT Results",
+	"title": "APAT Results | Coding Blocks",
+	"metas": [
+		{
+			"name": "description",
+			"content": "Results for APAT"
+		}
+	],
+	"header": {
+		"heading": "APAT Results",
+		"subHeading": ""
+	},
+	"algoplusplusresults": [
+		{
+			"name": "Deepak",
+			"email": "da*******77@gmail.com",
+			"accountid": "N/A",
+			"scholarship": "75%"
+		},
+		{
+			"name": "Rohan Kumar",
+			"email": "ro********.6@gmail.com",
+			"accountid": "4188",
+			"scholarship": "75%"
+		},
+		{
+			"name": "Ridham Arora",
+			"email": "ri******01@hotmail.com",
+			"accountid": "2607",
+			"scholarship": "50%"
+		},
+		{
+			"name": "Vikash Kumar Singh",
+			"email": "vi*****89@gmail.com",
+			"accountid": "9891",
+			"scholarship": "50%"
+		},
+		{
+			"name": "Ayush Raj",
+			"email": "ay*******97@gmail.com",
+			"accountid": "9433",
+			"scholarship": "50%"
+		},
+		{
+			"name": "Rajat Gupta",
+			"email": "ra****98@gmail.com",
+			"accountid": "8953",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Vedant Kumar",
+			"email": "ve*********07@gmail.com",
+			"accountid": "9526",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Xorb9 Xorb9",
+			"email": "ta***********a9@gmail.com",
+			"accountid": "9713",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Sharad Nailwal",
+			"email": "sh********96@gmail.com",
+			"accountid": "9858",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Sudhanshu Jindal",
+			"email": "su**************00@gmail.com",
+			"accountid": "4874",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Abhishek Yadav",
+			"email": "cs*********12@gmail.com",
+			"accountid": "8992",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Kokochef Kokochef",
+			"email": "ka***************97@gmail.com",
+			"accountid": "9652",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Harshit Jain",
+			"email": "ha*******97@gmail.com",
+			"accountid": "9687",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Monika Pandey",
+			"email": "mo***********97@gmail.com",
+			"accountid": "9388",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Kushagra Gupta",
+			"email": "ku******cp@gmail.com",
+			"accountid": "4050",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Nikhil Rathor",
+			"email": "ni**********01@gmail.com",
+			"accountid": "9328",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Ashish Duhan",
+			"email": "ad******02@gmail.com",
+			"accountid": "9426",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Ankush Mahindru",
+			"email": "ma*************79@gmail.com",
+			"accountid": "3128",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Arham Jain",
+			"email": "ja********am@gmail.com",
+			"accountid": "9408",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Kanchan Kumari",
+			"email": "ka********98@gmail.com",
+			"accountid": "9867",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Anurag Bajaj",
+			"email": "an**********22@gmail.com",
+			"accountid": "9765",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Sagar Malhotra",
+			"email": "sa*******12@gmail.com",
+			"accountid": "9225",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Piyush Verma",
+			"email": "sp******36@gmail.com",
+			"accountid": "9569",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Vaibhav Aren",
+			"email": "ex*****************er@gmail.com",
+			"accountid": "9573",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Puneet Gupta",
+			"email": "gu************96@gmail.com",
+			"accountid": "3938",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Neeraj Verma",
+			"email": "ve*****84@gmail.com",
+			"accountid": "3992",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Anmol Singh",
+			"email": "an************tu@gmail.com",
+			"accountid": "9886",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Saif Syed",
+			"email": "sa*****98@gmail.com",
+			"accountid": "6416",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Varun Kumar",
+			"email": "va*****06@outlook.com",
+			"accountid": "9726",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Alakh Sethi",
+			"email": "al******hi@gmail.com",
+			"accountid": "9785",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Adi Bub",
+			"email": "bo*******ya@gmail.com",
+			"accountid": "4586",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shikhar Agrawal",
+			"email": "sh*************95@yahoo.com",
+			"accountid": "8960",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Prayas Lashkari",
+			"email": "ro***********69@yahoo.in",
+			"accountid": "9591",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Darshika Jain",
+			"email": "ja*********a1@gmail.com",
+			"accountid": "9875",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Jatin Kumar",
+			"email": "ku*************98@gmail.com",
+			"accountid": "9859",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Aayush Bhatnagar",
+			"email": "aa***************08@rediffmail.com",
+			"accountid": "8202",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Gautam Awasthi",
+			"email": "ga***********11@gmail.com",
+			"accountid": "9733",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Aditya Choudhary",
+			"email": "ad*************54@gmail.com",
+			"accountid": "9465",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Jitesh Gupta",
+			"email": "ji**********90@gmail.com",
+			"accountid": "8603",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Naman Khare",
+			"email": "nm****10@gmail.com",
+			"accountid": "9594",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ayushi Jain",
+			"email": "ja**********97@gmail.com",
+			"accountid": "8499",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Hardik Jain",
+			"email": "ja********10@gmail.com",
+			"accountid": "7188",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Rahul Goswami",
+			"email": "ra********16@nituk.ac.in",
+			"accountid": "9191",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Libbna Mathew",
+			"email": "li********96@gmail.com",
+			"accountid": "9871",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Roshan Mishra",
+			"email": "ro*************em@gmail.com",
+			"accountid": "5792",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shubham Goel",
+			"email": "sh***********12@gmail.com",
+			"accountid": "9341",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Sidhartha Yadav",
+			"email": "si*****58@gmail.com",
+			"accountid": "9692",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Kiran Vemula",
+			"email": "Ki***********99@gmail.com",
+			"accountid": "9696",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Pulkit Valecha",
+			"email": "pu***********98@gmail.com",
+			"accountid": "761",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ambika Ambika",
+			"email": "am************98@gmail.com",
+			"accountid": "9220",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Tarun Kapoor",
+			"email": "1t********ur@gmail.com",
+			"accountid": "9724",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ayush Mittal",
+			"email": "AY***********18@GMAIL.COM",
+			"accountid": "7658",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Rajat Singh",
+			"email": "ra*************17@gmail.com",
+			"accountid": "9873",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Taranjit Kaur",
+			"email": "kt****14@gmail.com",
+			"accountid": "9829",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Amit Kumar",
+			"email": "am*****66@gmail.com",
+			"accountid": "9549",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Kartik Shinghal",
+			"email": "sh**************56@gmail.com",
+			"accountid": "9576",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Guntas Singh",
+			"email": "ro*******or@yahoo.com",
+			"accountid": "9745",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Disha Chaturvedi",
+			"email": "di*******17@gmail.com",
+			"accountid": "9743",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Mukul Sharma",
+			"email": "mu*******98@gmail.com",
+			"accountid": "6555",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shubham Jain",
+			"email": "gr*****hi@gmail.com",
+			"accountid": "9180",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Tanmay Jha",
+			"email": "ta*******a1@gmail.com",
+			"accountid": "9632",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Tanroop Singh",
+			"email": "ta********gh@gmail.com",
+			"accountid": "9812",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Sanidhya Pushp",
+			"email": "sa************hp@gmail.com",
+			"accountid": "7922",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Rajat Saini",
+			"email": "\\N*******************************  @",
+			"accountid": "6267",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Aditya Ketkar",
+			"email": "ad***********48@gmail.com",
+			"accountid": "9345",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ayush Agarwal",
+			"email": "ay****86@gmail.com",
+			"accountid": "6231",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ishvinder Sethi",
+			"email": "is************22@gmail.com",
+			"accountid": "9409",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Thanghaukhup Zou",
+			"email": "kh********37@gmail.com",
+			"accountid": "9251",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Vasu Malhotra",
+			"email": "vm********21@gmail.com",
+			"accountid": "9680",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Jaspreet Singh",
+			"email": "si************90@gmail.com",
+			"accountid": "8286",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Arun Nair",
+			"email": "ha**********ir@gmail.com",
+			"accountid": "9072",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Mohit Kataria",
+			"email": "mo************28@gmail.com",
+			"accountid": "3416",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Kritika Bindal",
+			"email": "kr***********30@gmail.com",
+			"accountid": "9869",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ankit Verma",
+			"email": "an**********ma@gmail.com",
+			"accountid": "9236",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Atul Pawar",
+			"email": "at*******24@gmail.com",
+			"accountid": "9899",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ayansh Mishra",
+			"email": "ay*********ra@outlook.com",
+			"accountid": "9698",
+			"scholarship": "Qualified"
+		}
+	],
+	"algojavaresults": [
+		{
+			"name": "Vishal Singh",
+			"email": "si*********al@gmail.com",
+			"accountid": "976",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Abhuday Singh",
+			"email": "ab************22@gmail.com",
+			"accountid": "9336",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Tanmay Singal",
+			"email": "ta************13@gmail.com",
+			"accountid": "9415",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Arjun Vermani",
+			"email": "ar*********ni@yahoo.com",
+			"accountid": "3764",
+			"scholarship": "Qualified"
+		}
+	],
+	"competitiveresults": [
+		{
+			"name": "Pranjal Verma",
+			"email": "ve************98@gmail.com",
+			"accountid": "7646",
+			"scholarship": "50%"
+		},
+		{
+			"name": "Akshat Singh",
+			"email": "bi**********gh@gmail.com",
+			"accountid": "9654",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Himanshu",
+			"email": "hi*********14@gmail.com",
+			"accountid": "9051",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Saransh Agarwal",
+			"email": "sa******08@gmail.com",
+			"accountid": "9898",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Rajat Airi",
+			"email": "ra*********96@gmail.com",
+			"accountid": "9384",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Advait Jayant",
+			"email": "ad****jk@gmail.com",
+			"accountid": "8101",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Shubham Guglani",
+			"email": "gu************16@gmail.com",
+			"accountid": "6118",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Rishabh Dua",
+			"email": "ri********56@yahoo.in",
+			"accountid": "8936",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Akshit Arora",
+			"email": "ak*********ra@yahoo.com",
+			"accountid": "9643",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Akanshu Gupta",
+			"email": "ak*******99@gmail.com",
+			"accountid": "9764",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Gopesh Khandelwal",
+			"email": "go****kk@gmail.com",
+			"accountid": "9344",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Kanchan Kumari",
+			"email": "ka********98@gmail.com",
+			"accountid": "9867",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Anoushka Mahna",
+			"email": "an********98@gmail.com",
+			"accountid": "7539",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Shubham Kaushik",
+			"email": "sk****26@gmail.com",
+			"accountid": "6086",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Mandeep Singh Saluja",
+			"email": "si*************19@gmail.com",
+			"accountid": "9659",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Ankur Charan",
+			"email": "an*********98@gmail.com",
+			"accountid": "8184",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Shreya Jain",
+			"email": "sh*******07@gmail.com",
+			"accountid": "4457",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Disha Chaturvedi",
+			"email": "di*******17@gmail.com",
+			"accountid": "9743",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Guntas Singh",
+			"email": "ro*******or@yahoo.com",
+			"accountid": "9745",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Gautam Awasthi",
+			"email": "ga***********11@gmail.com",
+			"accountid": "9733",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Alakh Sethi",
+			"email": "al******hi@gmail.com",
+			"accountid": "9785",
+			"scholarship": "Qualified"
+		}
+	],
+	"webdevresults": [
+		{
+			"name": "Kushagra Gupta",
+			"email": "ku******cp@gmail.com",
+			"accountid": "4050",
+			"scholarship": "75%"
+		},
+		{
+			"name": "Aneesh Kundu",
+			"email": "an**********14@gmail.com",
+			"accountid": "3143",
+			"scholarship": "50%"
+		},
+		{
+			"name": "Utkarsh Tyagi",
+			"email": "ut*******30@gmail.com",
+			"accountid": "3191",
+			"scholarship": "50%"
+		},
+		{
+			"name": "Anusar Soni",
+			"email": "an********88@gmail.com",
+			"accountid": "3160",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Bhanu Raghav",
+			"email": "bh************99@gmail.com",
+			"accountid": "7022",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Ashna Aggarwal",
+			"email": "as*********al@rocketmail.com",
+			"accountid": "9747",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Sunny",
+			"email": "su*******ll@gmail.com",
+			"accountid": "565",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Ridham Arora",
+			"email": "ri******01@hotmail.com",
+			"accountid": "2607",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Savya Khosla",
+			"email": "sa*********08@gmail.com",
+			"accountid": "2144",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Milind Sahay",
+			"email": "mi***********23@gmail.com",
+			"accountid": "7121",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Rohan Kumar",
+			"email": "ro********.6@gmail.com",
+			"accountid": "4188",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Deepak Rathi",
+			"email": "de*************95@gmail.com",
+			"accountid": "8954",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Dinesh Kumar",
+			"email": "di********ar@gmail.com",
+			"accountid": "9347",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Hardik Jain",
+			"email": "ja********10@gmail.com",
+			"accountid": "7188",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Mayank Jindal",
+			"email": "ma************17@gmail.com",
+			"accountid": "7632",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Aman",
+			"email": "am*********56@gmail.com",
+			"accountid": "926",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Sannidhya Arora",
+			"email": "ar**********ya@gmail.com",
+			"accountid": "9728",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Ashwin Giri",
+			"email": "as**********97@gmail.com",
+			"accountid": "9280",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Pranay Rawat",
+			"email": "pr*********95@gmail.com",
+			"accountid": "7105",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Vivek Rana",
+			"email": "vk*******56@gmail.com",
+			"accountid": "7886",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Gaurav Singh",
+			"email": "ga********r3@gmail.com",
+			"accountid": "6376",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Roshan Mishra",
+			"email": "ro*************em@gmail.com",
+			"accountid": "5792",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Aarushi Agarwal",
+			"email": "aa*********15@gmail.com",
+			"accountid": "8989",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Sashakt Pathak",
+			"email": "ps****kt@gmail.com",
+			"accountid": "8988",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Anshul Gautam",
+			"email": "ag**ps@gmail.com",
+			"accountid": "7507",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Vaibhav Thakkar",
+			"email": "va********************99@gmail.com",
+			"accountid": "9760",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Tushaar Salhotra",
+			"email": "N/A",
+			"accountid": "4221",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shubham Paliwal",
+			"email": "sh**************08@gmail.com",
+			"accountid": "7645",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Karan Chopra",
+			"email": "ka***********93@gmail.com",
+			"accountid": "7530",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shubham Aggarwal",
+			"email": "sh***********11@gmail.com",
+			"accountid": "9427",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Anil Bansal",
+			"email": "an*********91@gmail.com",
+			"accountid": "4104",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ayush Goel",
+			"email": "ay********97@gmail.com",
+			"accountid": "9348",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shubham Shubham",
+			"email": "pr**************99@gmail.com",
+			"accountid": "6933",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Pragun Gupta",
+			"email": "pr*********46@gmail.com",
+			"accountid": "9289",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Abhishek Gupta",
+			"email": "gu***************04@gmail.com",
+			"accountid": "9491",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Mandeep Singh Saluja",
+			"email": "si*************19@gmail.com",
+			"accountid": "9659",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Karan Singh",
+			"email": "si************ks@gmail.com",
+			"accountid": "6968",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Muskan Mangla",
+			"email": "mu**********70@gmail.com",
+			"accountid": "4530",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Kashishjain Kashishjain",
+			"email": "ka**********29@gmail.com",
+			"accountid": "1136",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Raj Srivastava",
+			"email": "ra******14@gmail.com",
+			"accountid": "9219",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Priyanshu Jain",
+			"email": "ja*****************al@gmail.com",
+			"accountid": "9837",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ravi Kumar",
+			"email": "ra********24@gmail.com",
+			"accountid": "4541",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Arjun Tomar",
+			"email": "ar************86@gmail.com",
+			"accountid": "4028",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Neil Chauhan",
+			"email": "ch********lk@gmail.com",
+			"accountid": "7633",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shubham Shubham",
+			"email": "sh*********in@gmail.com",
+			"accountid": "6052",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Lakshay Sharma",
+			"email": "la*********ar@gmail.com",
+			"accountid": "9881",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Anand Shankar",
+			"email": "Sh*************08@gmail.com",
+			"accountid": "7692",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Pulkit Chhabra",
+			"email": "pu*********ra@yahoo.com",
+			"accountid": "7095",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Prayas Lashkari",
+			"email": "ro***********69@yahoo.in",
+			"accountid": "9591",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Pradeep Yadav",
+			"email": "pr************21@gmail.com",
+			"accountid": "7674",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Abhishek Prakhar",
+			"email": "ab***********ar@gmail.com",
+			"accountid": "7673",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shubh Jain",
+			"email": "f2*****44@goa.bits-pilani.ac.in",
+			"accountid": "8029",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Chahat Bansal",
+			"email": "ch************55@gmail.com",
+			"accountid": "9109",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Amit Agarwal",
+			"email": "am************it@gmail.com",
+			"accountid": "7107",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Harshit Madaan",
+			"email": "ha***********98@gmail.com",
+			"accountid": "4284",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Piyush Gupta",
+			"email": "pi***********ta@gmail.com",
+			"accountid": "9702",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Kanu Gupta",
+			"email": "ka*********10@gmail.com",
+			"accountid": "7857",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Rishabh Rathee",
+			"email": "an**********14@gmail.com",
+			"accountid": "1196",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shaurya Singhal",
+			"email": "sh************84@gmail.com",
+			"accountid": "8673",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Tanish Grover",
+			"email": "ta******er@gmail.com",
+			"accountid": "7480",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Albus Dumbeldore",
+			"email": "dh*****26@gmail.com",
+			"accountid": "782",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shlok Patel",
+			"email": "sh*******l7@gmail.com",
+			"accountid": "9435",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Aditya Vats",
+			"email": "ad***********av@gmail.com",
+			"accountid": "9597",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Tanmay Singal",
+			"email": "ta************13@gmail.com",
+			"accountid": "9415",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shikhar Agrawal",
+			"email": "sh*************95@yahoo.com",
+			"accountid": "8960",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Udhav Arora",
+			"email": "ud********.2@gmail.com",
+			"accountid": "3233",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Arpit Goyal",
+			"email": "ar**********al@gmail.com",
+			"accountid": "5631",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shaily Sharma",
+			"email": "sh**********97@gmail.com",
+			"accountid": "9514",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Tushar Sharma",
+			"email": "ts*****16@gmail.com",
+			"accountid": "9857",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Sudhanshu Gupta",
+			"email": "su***********96@gmail.com",
+			"accountid": "8883",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Himani Gupta",
+			"email": "gu*********96@gmail.com",
+			"accountid": "9767",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Brijesh Kumar Kushwaha",
+			"email": "ku************21@gmail.com",
+			"accountid": "9200",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Pallav Raj",
+			"email": "PA*******40@GMAIL.COM",
+			"accountid": "7671",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Vikas Sharma",
+			"email": "em*************a1@gmail.com",
+			"accountid": "9512",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Sahil Garg",
+			"email": "sa**********07@gmail.com",
+			"accountid": "7542",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Taksh Kamlesh",
+			"email": "ta********ak@gmail.com",
+			"accountid": "8139",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Vineet Goel",
+			"email": "go*******t8@gmail.com",
+			"accountid": "9534",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Siddhant Singhal",
+			"email": "si**************17@gmail.com",
+			"accountid": "9332",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Aayush Bhatnagar",
+			"email": "aa***************08@rediffmail.com",
+			"accountid": "8202",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Kartik Kumar",
+			"email": "kk*******68@gmail.com",
+			"accountid": "9690",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shivansh Shekhar",
+			"email": "sh*********os@gmail.com",
+			"accountid": "9856",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ajay Kumar",
+			"email": "aj*********14@gmail.com",
+			"accountid": "7623",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shivank Upadhyay",
+			"email": "sh********10@gmail.com",
+			"accountid": "9878",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Keshav Choudhary",
+			"email": "ke*****24@gmail.com",
+			"accountid": "7616",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Rishabh Dua",
+			"email": "ri**********00@gmail.com",
+			"accountid": "9815",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Vinay .",
+			"email": "vi************91@gmail.com",
+			"accountid": "6703",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Mayank Parashar",
+			"email": "ma**************57@gmail.com",
+			"accountid": "6409",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Aditya Sharma",
+			"email": "ad***********65@gmail.com",
+			"accountid": "9600",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Akshat Singh",
+			"email": "bi**********gh@gmail.com",
+			"accountid": "9654",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Manish Moryani",
+			"email": "ma************.1@gmail.com",
+			"accountid": "9788",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Akshat Kishore",
+			"email": "ak********06@gmail.com",
+			"accountid": "596",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Anurag Jain",
+			"email": "an**********10@gmail.com",
+			"accountid": "9840",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Keshav Sharma",
+			"email": "ke*******98@gmail.com",
+			"accountid": "9057",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Mukul Verma",
+			"email": "mk*****62@gmail.com",
+			"accountid": "7678",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Rishi Sharma",
+			"email": "ia************97@gmail.com",
+			"accountid": "9740",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Nekkunj Pilani",
+			"email": "ni********ni@gmail.com",
+			"accountid": "9688",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Yash Aggarwal",
+			"email": "ya*************10@gmail.com",
+			"accountid": "9709",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ayush Tiwari",
+			"email": "ay*******au@gmail.com",
+			"accountid": "8973",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Parul Sharma",
+			"email": "pa************16@gmail.com",
+			"accountid": "9307",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Eashan Arora",
+			"email": "ea**********jk@gmail.com",
+			"accountid": "9375",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Arti Negi",
+			"email": "aa********41@gmail.com",
+			"accountid": "9484",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Tanroop Singh",
+			"email": "ta********gh@gmail.com",
+			"accountid": "9812",
+			"scholarship": "Qualified"
+		}
+	],
+	"androidresults": [
+		{
+			"name": "Gaurav Nerwal",
+			"email": "gn*****22@gmail.com",
+			"accountid": "5985",
+			"scholarship": "75%"
+		},
+		{
+			"name": "Shubh Jain",
+			"email": "f2*****44@goa.bits-pilani.ac.in",
+			"accountid": "8029",
+			"scholarship": "50%"
+		},
+		{
+			"name": "Sunny",
+			"email": "su*******ll@gmail.com",
+			"accountid": "565",
+			"scholarship": "50%"
+		},
+		{
+			"name": "Shubham Guglani",
+			"email": "gu************16@gmail.com",
+			"accountid": "6118",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Kushagra Gupta",
+			"email": "ku******cp@gmail.com",
+			"accountid": "4050",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Rashid Saifi",
+			"email": "sa*********32@gmail.com",
+			"accountid": "7038",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Shreya Garg",
+			"email": "sh*********11@gmail.com",
+			"accountid": "2247",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Anukriti Kumar",
+			"email": "an********ti@gmail.com",
+			"accountid": "9901",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Himanshu Sahni",
+			"email": "sa***********97@gmail.com",
+			"accountid": "9645",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Prashuk Jain",
+			"email": "pr*******56@gmail.com",
+			"accountid": "7139",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Nehal Gupta",
+			"email": "ne*********99@gmail.com",
+			"accountid": "7049",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Sayyam Jain",
+			"email": "ve*********lu@gmail.com",
+			"accountid": "1293",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Hardik Jain",
+			"email": "ja********10@gmail.com",
+			"accountid": "7188",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Anusar Soni",
+			"email": "an********88@gmail.com",
+			"accountid": "3160",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Priyanshu Jain",
+			"email": "ja*****************al@gmail.com",
+			"accountid": "9837",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Arun Goel",
+			"email": "go**************un@gmail.com",
+			"accountid": "3029",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Bhanu Raghav",
+			"email": "bh************99@gmail.com",
+			"accountid": "7022",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Mansi Garg",
+			"email": "ga********05@gmail.com",
+			"accountid": "9296",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Utkarsh Tyagi",
+			"email": "ut*******30@gmail.com",
+			"accountid": "3191",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Piyush Gupta",
+			"email": "pi**********ta@gmail.com",
+			"accountid": "6243",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Varun Bansal",
+			"email": "va************98@gmail.com",
+			"accountid": "7550",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Sarthak Singhal",
+			"email": "sa**************21@gmail.com",
+			"accountid": "9699",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shlok Patel",
+			"email": "sh*******l7@gmail.com",
+			"accountid": "9435",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Prayas Lashkari",
+			"email": "ro***********69@yahoo.in",
+			"accountid": "9591",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Saurabh Vaish",
+			"email": "sv******tp@gmail.com",
+			"accountid": "9657",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Piyush Tiwari",
+			"email": "pi****************08@gmail.com",
+			"accountid": "9673",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Pradeep Yadav",
+			"email": "pr************21@gmail.com",
+			"accountid": "7674",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Abhishek Prakhar",
+			"email": "ab***********ar@gmail.com",
+			"accountid": "7673",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Pallav Raj",
+			"email": "PA*******40@GMAIL.COM",
+			"accountid": "7671",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Puja Kumari",
+			"email": "pu**********82@gmail.com",
+			"accountid": "9513",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Roshan Mishra",
+			"email": "ro*************em@gmail.com",
+			"accountid": "5792",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Aadhar Aadhar",
+			"email": "aa****54@gmail.com",
+			"accountid": "2109",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Priyansh Taneja",
+			"email": "ta********ul@gmail.com",
+			"accountid": "7514",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Arpit Goyal",
+			"email": "ar**********al@gmail.com",
+			"accountid": "5631",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Vikas Patel",
+			"email": "vi*************l4@gmail.com",
+			"accountid": "8855",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Nipun Arora",
+			"email": "ni*******a8@yahoo.com",
+			"accountid": "7583",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Saquib Saquib",
+			"email": "m.***********31@gmail.com",
+			"accountid": "7690",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Arvind Negi",
+			"email": "ne*********29@gmail.com",
+			"accountid": "9243",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Sudhanshu Gupta",
+			"email": "su***********96@gmail.com",
+			"accountid": "8883",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Dhruv Dhingra",
+			"email": "dh**********17@gmail.com",
+			"accountid": "9931",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Pulkit Kasera",
+			"email": "pu*****ks@gmail.com",
+			"accountid": "9781",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ravi Kumar",
+			"email": "ra********24@gmail.com",
+			"accountid": "4541",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ayush Goel",
+			"email": "ay********97@gmail.com",
+			"accountid": "9348",
+			"scholarship": "Qualified"
+		}
+	],
+	"mlresults": [
+		{
+			"name": "Aneesh Kundu",
+			"email": "an**********14@gmail.com",
+			"accountid": "3143",
+			"scholarship": "75%"
+		},
+		{
+			"name": "Shivang Chopra",
+			"email": "sh***********11@gmail.com",
+			"accountid": "2561",
+			"scholarship": "75%"
+		},
+		{
+			"name": "Tushar Singh",
+			"email": "tu******dm@gmail.com",
+			"accountid": "977",
+			"scholarship": "50%"
+		},
+		{
+			"name": "Anusar Soni",
+			"email": "an********88@gmail.com",
+			"accountid": "3160",
+			"scholarship": "50%"
+		},
+		{
+			"name": "Rahul Goswami",
+			"email": "ra********16@nituk.ac.in",
+			"accountid": "9191",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Divyansh Verma",
+			"email": "di***********12@gmail.com",
+			"accountid": "4375",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Sunny",
+			"email": "su*******ll@gmail.com",
+			"accountid": "565",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Aditya Arora",
+			"email": "ad********27@gmail.com",
+			"accountid": "9665",
+			"scholarship": "30%"
+		},
+		{
+			"name": "Javesh Bhardwaj",
+			"email": "ja****13@gmail.com",
+			"accountid": "9127",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Mohit Bansal",
+			"email": "ba*********72@gmail.com",
+			"accountid": "5693",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Arjun Singh Kushwaha",
+			"email": "ar***********99@gmail.com",
+			"accountid": "818",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Ashish Kumar",
+			"email": "as******08@gmail.com",
+			"accountid": "5220",
+			"scholarship": "20%"
+		},
+		{
+			"name": "Ankur Gupta",
+			"email": "gu*************a0@gmail.com",
+			"accountid": "9778",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Kushagra Gupta",
+			"email": "ku******cp@gmail.com",
+			"accountid": "4050",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Krishnav Misra",
+			"email": "kr*******ra@gmail.com",
+			"accountid": "9354",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Akshat Singh",
+			"email": "bi**********gh@gmail.com",
+			"accountid": "9654",
+			"scholarship": "10%"
+		},
+		{
+			"name": "Ashish Garg",
+			"email": "16**********sh@gmail.com",
+			"accountid": "9595",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Savya Khosla",
+			"email": "sa*********08@gmail.com",
+			"accountid": "2144",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Keshav Vinayak Jha",
+			"email": "ke************ha@gmail.com",
+			"accountid": "6921",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Deepanshu Goel",
+			"email": "de*******98@yahoo.com",
+			"accountid": "7787",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Abhinav Gupta",
+			"email": "ab*******67@gmail.com",
+			"accountid": "9467",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Aditya Kaushik",
+			"email": "ad***********99@gmail.com",
+			"accountid": "7567",
+			"scholarship": "₹1000"
+		},
+		{
+			"name": "Ashish Rawat",
+			"email": "as**********97@gmail.com",
+			"accountid": "9458",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Siddhant Tulsyan",
+			"email": "si*************an@gmail.com",
+			"accountid": "9532",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Divyam Raj",
+			"email": "di*********aj@gmail.com",
+			"accountid": "9656",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ashish Garg",
+			"email": "as**********98@gmail.com",
+			"accountid": "9452",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Rishab Garg",
+			"email": "ri**********00@gmail.com",
+			"accountid": "9474",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Sabhan Goyal",
+			"email": "sa*********98@gmail.com",
+			"accountid": "9475",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Saksham Garg",
+			"email": "sa**********00@gmail.com",
+			"accountid": "6114",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Divyank Karolia",
+			"email": "di************97@gmail.com",
+			"accountid": "5360",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Himanshu Malasi",
+			"email": "hi**************98@gmail.com",
+			"accountid": "9572",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Paritosh Bisht",
+			"email": "pa*****27@gmail.com",
+			"accountid": "9228",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ratik Puri",
+			"email": "ra*********98@gmail.com",
+			"accountid": "536",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Utkarsh Kansal",
+			"email": "u_****al@yahoo.com",
+			"accountid": "1348",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Sudhanshu Gautam",
+			"email": "su****************05@gmail.com",
+			"accountid": "9032",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Deepanshu Rana",
+			"email": "de*************65@gmail.com",
+			"accountid": "8354",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Milind Sahay",
+			"email": "mi***********23@gmail.com",
+			"accountid": "7121",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Akshat Kishore",
+			"email": "ak********06@gmail.com",
+			"accountid": "596",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ashu Deshwal",
+			"email": "as**********99@gmail.com",
+			"accountid": "1229",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Manu Pillai",
+			"email": "ma*********08@gmail.com",
+			"accountid": "7874",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Aditya Kumar",
+			"email": "am***********20@gmail.com",
+			"accountid": "8945",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Sujeet Singh",
+			"email": "su******07@gmail.com",
+			"accountid": "9581",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Harshit Chauhan",
+			"email": "hc*******12@gmail.com",
+			"accountid": "9782",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Jatin Gupta",
+			"email": "ja*******97@gmail.com",
+			"accountid": "3531",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Manit Choudhary",
+			"email": "ma***********y6@gmail.com",
+			"accountid": "9580",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Vaari Gupta",
+			"email": "va********24@gmail.com",
+			"accountid": "9674",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Devsiddhartha Devsiddhartha",
+			"email": "si******10@gmail.com",
+			"accountid": "9547",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Aditya Agrawal",
+			"email": "ad************99@gmail.com",
+			"accountid": "7160",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Anuj Anuj",
+			"email": "an****96@gmail.com",
+			"accountid": "1331",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shreyansh Jain",
+			"email": "ba***********96@gmail.com",
+			"accountid": "9791",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Keshav Sharma",
+			"email": "ke*******98@gmail.com",
+			"accountid": "9057",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Ansh Sachdeva",
+			"email": "an********************al@gmail.com",
+			"accountid": "2349",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Lovetesh Chandra",
+			"email": "lu**********ra@gmail.com",
+			"accountid": "7949",
+			"scholarship": "Qualified"
+		},
+		{
+			"name": "Shivam Bhasin",
+			"email": "sh********29@gmail.com",
+			"accountid": "9447",
+			"scholarship": "Qualified"
+		}
+	]
 }

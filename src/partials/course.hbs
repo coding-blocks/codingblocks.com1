@@ -10,9 +10,13 @@
             <img alt="{{{imgAlt}}}" class="course logo" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
         {{else}}
             <div class="combo-offer">Save ₹{{off-price}}</div>
-            <h4 class="combo-title">COMBO</h4>
+			<h4 class="combo-title">COMBO</h4>
         {{/unless}}
-        <h4 class="uppercase bold name">{{{name}}}</h4>
+		{{#if combo-card-name}}
+			<h4 class="uppercase bold name" style="font-size: 24px; margin-top: -1rem; padding-bottom: 1rem;">{{{combo-card-name}}}</h4>
+		{{else}}
+			<h4 class="uppercase bold name">{{{name}}}</h4>
+		{{/if}}
         <span class="price">{{#if price}}₹{{{price}}}{{/if}}</span>
         <p class="description">{{description.[0]}}</p>
         <p class="lead">{{{lectures}}}</p>

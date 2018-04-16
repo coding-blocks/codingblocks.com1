@@ -1,0 +1,21 @@
+<!-- Tabulated Results for a HackerBlocks Scholarship Contest -->
+<table class="table table-hover table-striped calendar">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Account ID</th>
+			<th>Scholarship</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each results}}
+			<tr>
+				<td>{{name}}</td>
+				<td>{{email}}</td>
+				<td>{{accountid}}</td>
+				<td>{{scholarship}}</td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>

@@ -33,7 +33,7 @@
         "link": "#faq"
       }
     ],
-    "bgSrc": "../../assets/images/cb/cover/cover_lanuchpad.jpg"
+    "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
   },
   "overview": {
     "content": "This C++ training course is designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. The beginner's course will include programming fundamentals using C++, Loops, Functions, Arrays, Stacks, Queues, Linked List. <br/> <br/>The advanced course is for all those who are looking forward to sit for internships and placements. The course will involve rigorous practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. <br/><br/> The course will help you become smarter with solutions and ace your programming interviews. C++ is known to be a very powerful language. It allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ generally does better than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products.",
@@ -90,11 +90,15 @@
   },
   "scheduleCpp": [
 	  { "center": "Pitampura", "startdate": "May 27", "enddate": "Jun 12", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 11:30 AM)", "batchtype": "Fast Track" },
-	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Jun 24", "daytime": "Sun, Wed, Sat (12:15 PM - 04:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Jun 24", "daytime": "Sun, Wed, Sat (12:15 PM - 04:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "May 27", "enddate": "Jun 08", "daytime": "Sun, Mon, Wed, Fri (10:00 AM - 02:00 PM)", "batchtype": "Fast Track" },
+	  { "center": "Dwarka", "startdate": "Jun 03", "enddate": "Jun 20", "daytime": "Sun, Wed, Fri (03:00 PM - 07:00 PM)", "batchtype": "Regular" }
   ],
   "scheduleLaunchpad": [
 	  { "center": "Pitampura", "startdate": "May 27", "enddate": "Jul 08", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 11:30 AM)", "batchtype": "Fast Track" },
-	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Aug 01", "daytime": "Sun, Wed, Sat (12:15 PM - 04:00 PM)", "batchtype": "Regular" }
+	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Aug 01", "daytime": "Sun, Wed, Sat (12:15 PM - 04:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "May 27", "enddate": "Jul 06", "daytime": "Sun, Mon, Wed, Fri (10:00 AM - 02:00 PM)", "batchtype": "Fast Track" },
+	  { "center": "Dwarka", "startdate": "Jun 03", "enddate": "Jul 27", "daytime": "Sun, Wed, Fri (03:00 PM - 07:00 PM)", "batchtype": "Regular" }
   ],
   "courseReviews": [
     "NAVDEEP SINGH",

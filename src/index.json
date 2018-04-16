@@ -8,19 +8,18 @@
   ],
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/cast.jpg",
-      "imgAlt": "Registration CAST and APAT",
-      "heading": "Register for CAST and APAT",
-      "content": "Coding Blocks is pleased to announce the Coders' Admission & Scholarship Test (CAST) and Advanced Programs Admission (and Scholarship) Test. Register now and win scholarships of up to 75% off the entire course fees.",
+      "imgSrc": "/assets/images/cb/cover/cover_admission.png",
+      "imgAlt": "CAST & APAT Result",
+      "heading": "CAST & APAT Results Declared",
+      "content": "Results for the Coders Admission & Scholarship Test (CAST) held on April 07, and APAT held on April 08 have been declared!",
       "button": [
         {
-          "link": "cast.html",
-          "text": "Details and Registration: CAST",
-          "filled": "true"
+          "link": "http://students.codingblocks.com/admission_test_online/CASTS18/result_letter",
+          "text": "Check CAST Results"
         },
         {
-          "link": "apat.html",
-          "text": "Details and Registration: APAT",
+          "link": "/apat-results.html",
+          "text": "View APAT Results",
           "filled": "true"
         }
       ]
@@ -52,7 +51,7 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/apatbg.jpg",
+      "imgSrc": "/assets/images/cb/cover/cast.jpg",
       "imgAlt": "",
       "heading": "Interview Preparation",
       "content": "Master the concepts and topics required to ace interview procedures of tech giants. Available both Online and Offline.",

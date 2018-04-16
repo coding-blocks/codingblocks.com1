@@ -55,24 +55,25 @@
           "sublinks": [
             {
               "title": "Code4Kids",
-              "link": "/courses/junior/code4kids.html"
+              "link": "/courses/classroom/junior/code4kids.html"
             },
             {
               "title": "MathsGeeks",
-              "link": "/courses/junior/mathsgeeks.html"
+              "link": "/courses/classroom/junior/mathsgeeks.html"
             }
           ]
         },
         {
           "title": "Foundation",
+		  "link": "/courses/classroom/foundation/",
           "sublinks": [
             {
               "title": "C++ for Beginners / Launchpad",
-              "link": "/courses/classroom/c++.html"
+              "link": "/courses/classroom/foundation/c-plus-plus.html"
             },
             {
               "title": "Java for Beginners / Crux",
-              "link": "/courses/classroom/java.html"
+              "link": "/courses/classroom/foundation/java.html"
             },
             {
               "title": "Python For Beginners",
@@ -82,6 +83,7 @@
         },
         {
           "title": "Development",
+		  "link": "/courses/classroom/development/",
           "sublinks": [
             {
               "title": "Android",
@@ -97,11 +99,7 @@
             },
             {
               "title": "Web Backend (Advanced Java)",
-              "link": "/courses/advancedjava.html"
-            },
-            {
-              "title": "Python Development",
-              "link": "/courses/certified-python-developer.html"
+              "link": "/courses/classroom/development/advancedjava.html"
             },
             {
               "title": "Unity Game Development",
@@ -111,6 +109,7 @@
         },
         {
           "title": "Advanced",
+		  "link": "/courses/classroom/advanced/",
           "sublinks": [
             {
               "title": "Algo++",
@@ -122,17 +121,17 @@
             },
             {
               "title": "Machine Learning",
-              "link": "/courses/classroom/machine-learning.html"
+              "link": "/courses/classroom/advanced/machine-learning.html"
             },
             {
               "title": "Competitive Programming",
-              "link": "/courses/classroom/competitive-programming.html"
+              "link": "/courses/classroom/advanced/competitive-programming.html"
             }
           ]
         },
         {
           "title": "Bootcamps",
-          "link": "#",
+          "link": "/bootcamps/",
           "sublinks": [
 			{
 			  "title": "Interview Preparation",
