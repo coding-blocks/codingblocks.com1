@@ -3,7 +3,6 @@
  */
 $(function () {
     $('.nav-container').load('/includes/nav-container.html');
-    $('.nav-container').load('/assets/styles/custom.css');
     $('.footer').load('/includes/footer.html', function () {
 
         // Twitter Feed
