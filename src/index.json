@@ -137,15 +137,14 @@
   ],
   "coursesRow3": [
     {
-      "id": "course03"
+      "id": "course25"
     },
     {
       "id": "course04",
       "odd": true
     },
     {
-      "id": "course09",
-      "odd": false
+      "id": "course03"
     }
   ],
   "coursesRow4": [

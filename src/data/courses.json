@@ -424,6 +424,19 @@
       ],
       "batches": [
       ]
+    },
+    {
+      "id": "course25",
+      "name": "Python for Beginners",
+      "price": "8,000",
+      "imgSrc": "/assets/images/cb/logosc/color_python.svg",
+      "imgAlt": "Python for Developers Logo",
+      "lectures": "(11 lectures)",
+      "link": "/courses/classroom/foundation/python-for-beginners.html",
+	  "badge": "Starting June 8",
+      "description": [
+        "Programming Fundamentals in Python"
+      ]
     }
   ]
 }
