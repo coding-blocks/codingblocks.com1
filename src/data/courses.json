@@ -228,7 +228,7 @@
       "link": "/bootcamps/competitiveprogramming.html",
 	  "badge": "Starting this June",
       "description": [
-        "Maths & Number Theory",
+        "",
         "Greedy &amp; Divide 'n' Conquer",
         "Dynamic Programming &amp; Graphs",
         "Segment trees &amp; Game Theory"
@@ -245,7 +245,7 @@
       "lectures": "(10 lectures)",
       "link": "/bootcamps/interviewprep.html",
       "description": [
-        "Operating Systems",
+        "",
         "DBMS",
         "Networking &amp;SystemDesign",
         "Mock Interviews"
@@ -279,7 +279,7 @@
       "lectures": "",
       "link": "/courses/competitive-online.html",
       "description": [
-        "Maths & Number Theory",
+        "",
         "Greedy &amp; Divide 'n' Conquer",
         "Dynamic Programming &amp; Graphs",
         "Segment trees &amp; Game Theory"
@@ -332,7 +332,7 @@
       "lectures": "",
       "link": "/courses/competitive-online-study-material.html",
       "description": [
-        "Maths & Number Theory",
+        "",
         "Greedy &amp; Divide 'n' Conquer",
         "Dynamic Programming &amp; Graphs",
         "Segment trees &amp; Game Theory"
@@ -350,7 +350,7 @@
 	  "badge": "Starting June 11",
       "link": "/courses/classroom/advanced/competitive-programming.html",
       "description": [
-        "Maths & Number Theory",
+        "",
         "Greedy &amp; Divide 'n' Conquer",
         "Dynamic Programming &amp; Graphs",
         "Segment trees &amp; Game Theory"
