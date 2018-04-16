@@ -28,6 +28,8 @@
 /courses/classroom/web-development-nodejs.html    /courses/classroom/development/web-development-nodejs.html
 /courses/classroom/android-app-development.html   /courses/classroom/development/android-app-development.html
 /courses/advanced/algo-plus-plus.html			/courses/classroom/advanced/algo-plus-plus.html
+/courses/classroom/java.html					/courses/classroom/foundation/java.html
+/courses/classroom/c++.html					/courses/classroom/foundation/c-plus-plus.html
 
 # Outside Redirects for Netlify 
 
