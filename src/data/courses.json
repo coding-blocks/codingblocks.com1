@@ -7,7 +7,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "C++ course logo",
       "lectures": "(24 lectures)",
-      "link": "/courses/foundation/c-plus-plus.html#launchpad-bundle-content",
+      "link": "/courses/classroom/foundation/c-plus-plus.html#launchpad-bundle-content",
       "off-price": "3,000",
       "badge": "Starting May 27",
       "description": [
@@ -27,7 +27,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "java course logo",
       "lectures": "(24 lectures)",
-      "link": "/courses/foundation/java.html#crux-bundle",
+      "link": "/courses/classroom/foundation/java.html#crux-bundle",
       "off-price": "3,000",
       "badge": "Starting May 27",
       "description": [
@@ -46,7 +46,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
-      "link": "/courses/development/android-app-development.html",
+      "link": "/courses/classroom/development/android-app-development.html",
       "badge": "Starting June 4",
       "description": [
         "Building Android Apps",
@@ -65,7 +65,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "web development course logo",
       "lectures": "(22 lectures)",
-      "link": "/courses/development/web-development-nodejs.html",
+      "link": "/courses/classroom/development/web-development-nodejs.html",
       "badge": "Starting June 4",
       "description": [
         "Web Design",
@@ -84,7 +84,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "algo++ course logo",
       "lectures": "(15 lectures)",
-      "link": "/courses/advanced/algo-plus-plus.html",
+      "link": "/courses/classroom/advanced/algo-plus-plus.html",
       "description": [
         "Adv Data Structures & Algo in C++",
         "Complex Problem Solving",
@@ -102,7 +102,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
       "imgAlt": "machine learning course logo",
       "lectures": "(23 lectures)",
-      "link": "/courses/advanced/machine-learning.html",
+      "link": "/courses/classroom/advanced/machine-learning.html",
 	  "badge": "Starting June 9",
       "description": [
         "Code Machine Learning Algorithms",
@@ -120,7 +120,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(10 lectures)",
-      "link": "/courses/foundation/java.html",
+      "link": "/courses/classroom/foundation/java.html",
       "badge": "Starting May 27",
       "description": [
         "Programming Fundamentals in Java"
@@ -135,7 +135,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "Launchpad For Beginners Course Logo",
       "lectures": "(10 lectures)",
-      "link": "/courses/foundation/c-plus-plus.html",
+      "link": "/courses/classroom/foundation/c-plus-plus.html",
       "badge": "Starting May 27",
       "description": [
         "Programming Fundamentals in C+"
@@ -165,7 +165,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
-      "link": "/courses/advanced/algo-plus-plus.html",
+      "link": "/courses/classroom/advanced/algo-plus-plus.html",
       "badge": "Starting June 5",
       "description": [
         "DS & Algorithms in C++"
@@ -180,7 +180,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Data Structures and Algorithms Using Java",
       "lectures": "(12-15 lectures)",
-      "link": "/courses/advanced/algo-java.html",
+      "link": "/courses/classroom/advanced/algo-java.html",
       "badge": "Starting June 5",
       "description": [
         "DS & Algorithms in Java"
@@ -210,7 +210,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Launchpad Online",
       "lectures": "(24 lectures)",
-      "link": "/courses/development/advancedjava.html",
+      "link": "/courses/classroom/development/advancedjava.html",
 	  "badge": "Starting this June",
       "description": [
         "App Development in Java"
@@ -348,7 +348,7 @@
       "imgAlt": "Competitive Programming Course Logo",
       "lectures": "(12-15 lectures)",
 	  "badge": "Starting June 11",
-      "link": "/courses/advanced/competitive-programming.html",
+      "link": "/courses/classroom/advanced/competitive-programming.html",
       "description": [
         "Maths & Number Theory",
         "Greedy &amp; Divide 'n' Conquer",
