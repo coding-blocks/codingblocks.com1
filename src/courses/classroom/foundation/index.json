@@ -8,20 +8,24 @@
   ],
   "coursesRow1": [
     {
+      "id": "course25",
+      "odd": "true"
+    },
+    {
       "id": "course08"
     },
     {
       "id": "course01",
-	  "odd": "true"
+	    "odd": "true"
     }
   ],
   "coursesRow2": [
     {
-      "id": "course07"
+      "id": "course07",
+      "odd": "true"
     },
     {
-      "id": "course02",
-	  "odd": "true"
+      "id": "course02"
     }
   ],
   "courseReviews": [
