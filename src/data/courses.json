@@ -190,7 +190,7 @@
     },
     {
       "id": "course12",
-      "name": "Launchpad Online",
+      "name": "DS-Algo in C++ Online",
 	  "badge": "Starting June 4",
       "price": "9,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
@@ -307,7 +307,7 @@
     },
     {
       "id": "course18",
-      "name": "Java Online",
+      "name": "DS-Algo in Java Online",
       "price": "9,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
 	  "badge": "Starting June 11",
@@ -436,6 +436,21 @@
 	  "badge": "Starting June 8",
       "description": [
         "Programming Fundamentals in Python"
+      ]
+    },
+    {
+      "id": "course26",
+      "name": "Advanced DS-Algo in C++",
+	  "badge": "Starting June 20",
+      "price": "7,000",
+      "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+      "imgAlt": "Launchpad Online",
+      "lectures": "",
+      "link": "/courses/launchpad-online.html",
+      "description": [
+        "Advanced DS-Algo in C++"
+      ],
+      "batches": [
       ]
     }
   ]

@@ -115,31 +115,33 @@
       "odd": true
     },
     {
-      "id": "course18"
+      "id": "course26"
     },
     {
-      "id": "course15",
+      "id": "course18",
       "odd": true
     }
   ],
   "onlineCoursesRow2": [
+    {
+      "id": "course15"
+    },
     {
       "id": "course16",
       "odd": true
     },
     {
       "id": "course23"
-    },
-    {
-      "id": "course17",
-      "odd": true
     }
   ],
   "onlineCoursesRow3": [
     {
-      "id": "course24",
+      "id": "course17",
       "odd": true
-    }
+    },
+	{
+      "id": "course24"
+	}
   ],
   "courseReviews": [
     "Naman Kumar",
