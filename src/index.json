@@ -8,18 +8,19 @@
   ],
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/cover_admission.png",
-      "imgAlt": "CAST & APAT Result",
-      "heading": "CAST & APAT Results Declared",
-      "content": "Results for the Coders Admission & Scholarship Test (CAST) held on April 07, and APAT held on April 08 have been declared!",
+      "imgSrc": "/assets/images/cb/cover/cast.jpg",
+      "imgAlt": "",
+      "heading": "Interview Preparation Course",
+      "content": "Master the concepts and topics required to ace interview procedures of tech giants. Available both Online and Offline.",
       "button": [
         {
-          "link": "http://students.codingblocks.com/admission_test_online/CASTS18/result_letter",
-          "text": "Check CAST Results"
+          "link": "/bootcamps/interviewprep.html",
+          "text": "Offline Course",
+          "filled": "true"
         },
         {
-          "link": "/apat-results.html",
-          "text": "View APAT Results",
+          "link": "/courses/online/interviewprep.html",
+          "text": "Online Course",
           "filled": "true"
         }
       ]
@@ -38,6 +39,18 @@
       ]
     },
     {
+      "imgSrc": "/assets/images/cb/cover/cover_admission.png",
+      "imgAlt": "Python for Beginners Course",
+      "heading": "Python for Beginners Course",
+      "content": "Coding Blocks introduces an all-new foundation course on Python. <br/>Delve into the world of coding with one of the most “in fashion” languages.",
+      "button": [
+        {
+          "link": "/courses/classroom/foundation/python-for-beginners.html",
+          "text": "Details & Registration"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/cover3.jpg",
       "imgAlt": "",
       "heading": "Online Courses Starting This June",
@@ -51,33 +64,19 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/cast.jpg",
+      "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
       "imgAlt": "",
-      "heading": "Interview Preparation",
-      "content": "Master the concepts and topics required to ace interview procedures of tech giants. Available both Online and Offline.",
+      "heading": "Competitive Programming Study Material, Now on Amazon!",
+      "content": "Our hugely successful, exclusive Competitive Programming study package is now available on Amazon as well.",
       "button": [
         {
-          "link": "/bootcamps/interviewprep.html",
-          "text": "Offline Course",
+          "link": "http://amzn.in/3u8VQ9m",
+          "text": "Purchase on Amazon",
           "filled": "true"
         },
         {
-          "link": "/courses/online/interviewprep.html",
-          "text": "Online Course",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
-      "imgAlt": "",
-      "heading": "Competitive Programming Study Material, Now in Stock!",
-      "content": "Coding Blocks is pleased to announce an exclusive Competitive Programming study package with three informative videos and Coding Blocks' own Mastering Competitive Programming Booklet.",
-      "button": [
-        {
           "link": "/courses/competitive-online-study-material.html",
-          "text": "Buy Now",
-          "filled": "true"
+          "text": "Purchase on Website"
         }
       ]
     }
