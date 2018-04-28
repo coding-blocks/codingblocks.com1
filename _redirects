@@ -12,6 +12,7 @@
 ## Bootcamps that are now courses
 /bootcamps/machinelearning.html                   /courses/classroom/machine-learning.html
 /bootcamps/competitiveprogramming.html            /courses/classroom/competitive-programming.html
+/bootcamps/interviewprep.html					  /courses/classroom/coding-interview-preparation.html
 
 ## Renamed Dev courses
 /courses/pandora.html                             /courses/classroom/development/android-app-development.html
@@ -30,6 +31,9 @@
 /courses/advanced/algo-plus-plus.html			/courses/classroom/advanced/algo-plus-plus.html
 /courses/classroom/java.html					/courses/classroom/foundation/java.html
 /courses/classroom/c++.html					/courses/classroom/foundation/c-plus-plus.html
+
+## Online Courses
+/courses/online/interviewprep.html				/courses/online/coding-interview-preparation-online.html
 
 # Outside Redirects for Netlify 
 

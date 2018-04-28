@@ -14,7 +14,7 @@
       "content": "Master the concepts and topics required to ace interview procedures of tech giants. Available both Online and Offline.",
       "button": [
         {
-          "link": "/bootcamps/interviewprep.html",
+          "link": "/bootcamps/coding-interview-preparation.html",
           "text": "Offline Course",
           "filled": "true"
         },
