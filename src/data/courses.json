@@ -452,6 +452,21 @@
       ],
       "batches": [
       ]
+    },
+    {
+      "id": "course27",
+      "name": "Unity Game Development",
+      "price": "7,500",
+      "imgSrc": "/assets/images/cb/logosc/unity.png",
+      "imgAlt": "Unity Game Development",
+      "lectures": "(10 lectures)",
+      "link": "/courses/classroom/development/unity-game-development.html",
+      "badge": "Starting June 11",
+      "description": [
+        "Game Development with Unity"
+      ],
+      "batches": [
+      ]
     }
   ]
 }
