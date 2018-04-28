@@ -46,7 +46,7 @@
   ],
   "coursesRow4": [
     {
-      "id": "course14",
+      "id": "course27",
       "odd": true
     },
     {
@@ -80,6 +80,11 @@
     },
     {
       "id": "bootcamp09"
+    }
+  ],
+  "coursesRow7": [
+    {
+      "id": "course14"
     }
   ],
   "cppInterviewRow": [

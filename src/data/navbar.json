@@ -103,7 +103,7 @@
             },
             {
               "title": "Unity Game Development",
-              "link": "/coming-soon.html"
+              "link": "/courses/classroom/development/unity-game-development.html"
             }
           ]
         },
@@ -135,7 +135,7 @@
           "sublinks": [
 			{
 			  "title": "Interview Preparation",
-			  "link": "/bootcamps/interviewprep.html"
+			  "link": "/bootcamps/coding-interview-preparation.html"
 			},
 			{
 			  "title": "Blockchain",

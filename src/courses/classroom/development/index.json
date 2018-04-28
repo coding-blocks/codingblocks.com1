@@ -15,10 +15,14 @@
       "odd": true
     },
     {
-      "id": "course09"
+      "id": "course27"
     }
   ],
   "coursesRow2": [
+    {
+      "id": "course09",
+      "odd": true
+    },
     {
       "id": "course14"
     }

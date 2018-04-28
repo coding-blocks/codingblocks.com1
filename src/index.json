@@ -14,7 +14,7 @@
       "content": "Master the concepts and topics required to ace interview procedures of tech giants. Available both Online and Offline.",
       "button": [
         {
-          "link": "/bootcamps/interviewprep.html",
+          "link": "/bootcamps/coding-interview-preparation.html",
           "text": "Offline Course",
           "filled": "true"
         },
@@ -46,7 +46,8 @@
       "button": [
         {
           "link": "/courses/classroom/foundation/python-for-beginners.html",
-          "text": "Details & Registration"
+          "text": "Details & Registration",
+		  "filled": "true"
         }
       ]
     },
@@ -148,7 +149,7 @@
   ],
   "coursesRow4": [
     {
-      "id": "course14",
+      "id": "course27",
       "odd": true
     },
     {
@@ -157,6 +158,11 @@
     {
       "id": "course20",
       "odd": true
+    }
+  ],
+  "coursesRow5": [
+    {
+      "id": "course14"
     }
   ],
   "cppInterviewRow": [

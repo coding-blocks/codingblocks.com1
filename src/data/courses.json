@@ -243,7 +243,7 @@
       "imgAlt": "Interview Preparation Bootcamp logo",
 	  "badge": "Starting June 9",
       "lectures": "(10 lectures)",
-      "link": "/bootcamps/interviewprep.html",
+      "link": "/bootcamps/coding-interview-preparation.html",
       "description": [
         "",
         "DBMS",
@@ -371,7 +371,7 @@
       "imgAlt": "Competitive Programming course logo",
 	  "badge": "Starting June 5",
       "lectures": "(22-25 lectures)",
-      "link": "/bootcamps/interviewprep.html#cpp-bundle",
+      "link": "/bootcamps/coding-interview-preparation.html#cpp-bundle",
       "description": [
       ],
       "batches": [
@@ -387,7 +387,7 @@
       "imgAlt": "Competitive Programming course logo",
 	  "badge": "Starting June 5",
       "lectures": "(22-25 lectures)",
-      "link": "/bootcamps/interviewprep.html#java-bundle",
+      "link": "/bootcamps/coding-interview-preparation.html#java-bundle",
       "description": [
       ],
       "batches": [
@@ -402,7 +402,7 @@
       "imgAlt": "Interview Prep course logo",
 	  "badge": "Starting May 15",
       "lectures": "",
-      "link": "/courses/online/interviewprep.html",
+      "link": "/courses/online/coding-interview-preparation-online.html",
       "description": [
 		  "Ace that Technical Interview"
       ]
@@ -449,6 +449,21 @@
       "link": "/courses/launchpad-online.html",
       "description": [
         "Advanced DS-Algo in C++"
+      ],
+      "batches": [
+      ]
+    },
+    {
+      "id": "course27",
+      "name": "Unity Game Development",
+      "price": "7,500",
+      "imgSrc": "/assets/images/cb/logosc/unity.png",
+      "imgAlt": "Unity Game Development",
+      "lectures": "(10 lectures)",
+      "link": "/courses/classroom/development/unity-game-development.html",
+      "badge": "Starting June 11",
+      "description": [
+        "Game Development with Unity"
       ],
       "batches": [
       ]
