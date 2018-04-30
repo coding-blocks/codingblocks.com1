@@ -32,12 +32,16 @@
     }
   ],
   "coursesRow3": [
+	{
+      "id": "course28",
+	  "odd": "true"
+	},
     {
-      "id": "course17",
-      "odd": true
+      "id": "course17"
     },
 	{
-      "id": "course24"
+      "id": "course24",
+	  "odd": "true"
 	}
   ],
   "courseReviews": [
