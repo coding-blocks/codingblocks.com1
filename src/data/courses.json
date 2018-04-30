@@ -297,6 +297,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
       "imgAlt": "android course logo",
       "lectures": "",
+	  "badge": "Starting This August",
       "link": "/courses/online/android-app-development.html",
       "description": [
         "Building Android Apps",
@@ -395,8 +396,8 @@
     },
     {
       "id": "course23",
-      "name": "Interview Preparation",
-      "price": "5,000",
+      "name": "Interview Prep Course",
+      "price": "9,000",
 	  "off-price": "",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Prep course logo",
@@ -415,7 +416,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "",
       "link": "/courses/online/machine-learning.html",
-	  "badge": "Starting This June",
+	  "badge": "Starting This August",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -443,7 +444,7 @@
       "name": "Advanced DS-Algo in C++",
 	  "badge": "Starting June 20",
       "price": "7,000",
-      "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+      "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "Launchpad Online",
       "lectures": "",
       "link": "/courses/launchpad-online.html",
@@ -466,6 +467,20 @@
         "Game Development with Unity"
       ],
       "batches": [
+      ]
+    },
+    {
+      "id": "course28",
+      "name": "Interview Prep Bootcamp",
+      "price": "5,000",
+	  "off-price": "",
+      "imgSrc": "/assets/images/cb/r_final.png",
+      "imgAlt": "Interview Prep course logo",
+	  "badge": "Starting May 15",
+      "lectures": "",
+      "link": "/courses/online/coding-interview-preparation-online-bootcamp.html",
+      "description": [
+		  "Ace that Technical Interview"
       ]
     }
   ]
