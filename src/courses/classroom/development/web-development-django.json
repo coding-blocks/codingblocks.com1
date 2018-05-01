@@ -1,0 +1,187 @@
+{
+  "id": "webdj",
+  "name": "Django Web Development",
+  "title": "Best Django Web Development Course in Delhi | Coding Blocks India",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Learn Web Development with Django in Delhi by best Web Development course in Delhi at Coding Blocks."
+    },
+    {
+      "name": "keywords",
+      "content": "web,webdev,development,django,javascript,html,codingblocks,coding,blocks,course,delhi,india"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/courses/classroom/web-development-django.html",
+    "title": "Best Web Development with Django in India",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14058603_1077770128976987_1865333049_n.jpg",
+    "description": "Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works."
+  },
+  "header": {
+    "heading": "web development with Django",
+    "subHeading": "",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "/assets/images/cb/cover/cover_node.jpg"
+  },
+  "overview": {
+    "content": "<p class=\"lead\">Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source. Django was designed to help developers take applications from concept to completion as quickly as possible. It takes security seriously and helps developers avoid many common security mistakes. The most important advantage is its scalability. Some of the busiest sites on the Web leverage Django’s ability to quickly and flexibly scale.</p> <p class=\"lead\"><strong>Course Starting July 2!</strong></p>",
+	"buttonDisabled": "true",
+	"buttonText": "Coming Soon"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "Web Design",
+      "content": "A website with great functionality must be complemented by top notch User Experience and a neat Responsive User Interface. Our course covers building both common and upcoming UI/UX patterns in Bootstrap and how to get started with frontend frameworks like Ember and Vue."
+    },
+    {
+      "icon": "et-line-chat",
+      "title": "Real Time Web Apps",
+      "content": "Socket.IO is a javascript library for real-time applications. You'll learn how to enable real-time communication between web clients and servers to build some awesome chat systems and multiplayer games."
+    },
+    {
+      "icon": "fa fa-database",
+      "title": "Databases",
+      "content": "You will learn how to use both relational and non-relational databases with MySQL and MongoDB. We also cover Sequelize which makes the database query writing process a little easier!"
+    },
+    {
+      "icon": "et-line-profile-male",
+      "title": "Authentication",
+      "content": "You'll learn how to implement a Login System as well as Authentication using social logins using Passport.JS."
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Basics",
+      "contentTitle": "",
+      "description": "",
+      "lectures": "Lectures 1-2",
+      "points": [
+		  "Basics of Python",
+		  "Working with packages",
+		  "OOPS in Python",
+		  "Basics of Github"
+      ]
+    },
+    {
+      "title": "Django Model Layer",
+      "contentTitle": "Django Model Layer",
+      "description": "",
+      "lectures": "Lectures 3-6",
+      "points": [
+		  "What is MVC",
+		  "Introduction to Django",
+		  "Working with Interactive Shell",
+		  "Model Layer - Introduction to models, Field Types, Meta options, Model Class",
+		  "Query Set - Executing Queries, Queryset Method Reference",
+		  "Migrations - Introduction to Migrations, Writing Migrations"
+      ]
+    },
+    {
+      "active": true,
+      "title": "View Layer",
+      "contentTitle": "View Layer",
+      "description": "",
+      "lectures": "Lectures 7-10",
+      "points": [
+		  "View Layer - The basics, URLConfs, View Functions, Decorators",
+		  "Request / Response objects",
+		  "Class Based Views",
+		  "File Uploads",
+		  "Template Layer",
+		  "Built in tags and filters",
+		  "Custom tags and filters",
+		  "Forms",
+		  "Built in fields and widgets",
+		  "Forms for models",
+		  "Customizing validation"
+      ]
+    },
+    {
+      "title": "Generics, Code Organization",
+      "contentTitle": "Generics, Code Organization",
+      "description": "",
+      "lectures": "Lectures 11-12",
+      "points": [
+		  "Django Generic package",
+		  "Working with generic Views",
+		  "Working with CRUD View",
+		  "Using Mixins"
+      ]
+    },
+    {
+      "active": true,
+      "title": "Advanced Django Concepts",
+      "contentTitle": "Advanced Django Concepts",
+      "description": "",
+      "lectures": "Lectures 13-15",
+      "points": [
+		  "Authentication and Security",
+		  "Authentication via 3rd party applications",
+		  "Performance Optimisation",
+		  "Deploying your Application",
+		  "Basics of VCS",
+		  "Deploying a simple application ",
+		  "Managing Static Files",
+		  "Miscellaneous ",
+		  "Working with Django Rest Framework",
+		  "Tips and Tricks with Django"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "How much knowledge of Data Structures and Algorithms do I need to take this course?",
+      "ans": "You need to have good command of data structures like Stacks, Queues and Lists. Also a basic idea of algorithms like sorting, searching, string manupulations. Also it is imperative to have good concepts of Object Oriented Programming"
+    },
+    {
+      "ques": "Do you have a test for admission into this course ?",
+      "ans": "We have a simple test covering OOP concepts, basic Data structures and array/string manipulation which you will need to take while registering for our fullstack web development course."
+    },
+    {
+      "ques": "Will there by any projects ?",
+      "ans": "Definitely. No course in web development is complete without projects, and we focus a lot on working on live projects and practical topics. We start with small projects like TodoList Managers and go up to creating e-Commerce websites."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "Upcoming Batches:",
+	"priceCut": "15,000",
+    "registerButton":{
+      "disabled": true,
+      "buttonText": "Coming Soon"
+    },
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "2 Hacakthons"
+      }
+    ]
+  },
+  "courseReviews": [
+    "RISHABH MENDIRATTA",
+    "SHIVAM GANDHI",
+    "SANDEEP RANJAN",
+    "RISHABH KHANNA"
+  ],
+  "reviewSlug": "Web Development Course",
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=116"
+}
