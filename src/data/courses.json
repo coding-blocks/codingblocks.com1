@@ -482,6 +482,23 @@
       "description": [
 		  "Ace that Technical Interview"
       ]
+    },
+    {
+      "id": "webdj",
+      "name": "Django Web Development",
+      "price": "12,000",
+      "imgSrc": "/assets/images/cb/logosc/color_python.svg",
+      "imgAlt": "django web development course logo",
+      "lectures": "(15 lectures)",
+      "link": "/courses/classroom/development/web-development-django.html",
+      "badge": "Starting July 2",
+      "description": [
+        "Web Design",
+        "Deployment &amp; System Adminstration",
+        "LIVE Project &amp; Hackathon"
+      ],
+      "batches": [
+      ]
     }
   ]
 }
