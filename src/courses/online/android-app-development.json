@@ -38,9 +38,8 @@
     "bgSrc": "../../assets/images/cb/cover/cover_pandora.jpg"
   },
   "overview": {
-    "content": "There are close to 2 billion Android powered devices as of 2016, and for more than 200 million Indians, Android is the primary platform of consumption of content. From social and communication apps like Whatsapp, Instagram and Snapchat to utilities like Uber, Swiggy and Paytm - Android is the platform that enables companies to cater to their users 24x7.<br><br>Our Android App Development course takes you on a comprehensive journey on the Android Studio that starts from building the UI, to connecting to network services and launching your product on the Google Play Store. The fact that all products have to launch on both web and mobile these days, means you'll be in demand in most products companies the day you graduate from our Android App Development Course.<br><br>",
-	"buttonDisabled": "true",
-	"buttonText": "Coming Soon"
+    "content": "There are close to 2 billion Android powered devices as of 2016, and for more than 200 million Indians, Android is the primary platform of consumption of content. From social and communication apps like Whatsapp, Instagram and Snapchat to utilities like Uber, Swiggy and Paytm - Android is the platform that enables companies to cater to their users 24x7.<br><br>Our Android App Development course takes you on a comprehensive journey on the Android Studio that starts from building the UI, to connecting to network services and launching your product on the Google Play Store. The fact that all products have to launch on both web and mobile these days, means you'll be in demand in most products companies the day you graduate from our Android App Development Course.<br><br><strong>Course Starting June 15</strong><br><br>",
+	"buttonText": "Register Now"
   },
   "courseHighlights": [
     {
@@ -157,8 +156,7 @@
     "upcomingBatches": "<strong>Batches Starting January 26!<strong>",
     "registerBoxHeading": "<span style='font-size: 3.2rem; text-decoration: line-through;'>₹15,000</span>",
     "registerButton": {
-      "buttonText": "Coming Soon",
-      "disabled": true
+      "buttonText": "Register Now"
     },
     "highlights": [
       {
@@ -194,5 +192,5 @@
     "DHRUV ANAND"
   ],
   "reviewSlug": "Android App Development Course",
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=93"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=145"
 }
