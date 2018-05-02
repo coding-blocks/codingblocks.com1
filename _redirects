@@ -40,3 +40,4 @@
 /ide/*    	  https://ide.codingblocks.com/:splat     		      301
 /resources/*	https://coding-blocks.github.io/resources/:splat	200
 /img/*        https://coding-blocks.github.io/img/:splat        200
+/boss/*       https://lab.codingblocks.com/boss                 301
