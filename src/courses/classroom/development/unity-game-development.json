@@ -49,7 +49,7 @@
 		  "Learn about common video game design patterns",
 		  "Understand game design and balance",
 		  "Basics of Game Art and Audio",
-		  "Android and WbGL deployment",
+		  "Android and WebGL deployment",
 		  "Earning revenue from games using Unity Ads"
       ]
     },
@@ -69,21 +69,8 @@
       ]
     },
     {
-      "title": "Match 3 Games (like Candy Crush)",
-      "contentTitle": "Match 3 Games (like Candy Crush)",
-      "description": "",
-      "lectures": "",
-      "points": [
-		  "Using Unity UI system and touch system",
-		  "Creating animations and state transitions",
-		  "Creating particle effects",
-		  "Designing for multiple resolutions",
-		  "Android and WebGL deployment"
-      ]
-    },
-    {
-      "title": "Physics Games (like Rocket Booster)",
-      "contentTitle": "Physics Games (like Rocket Booster)",
+      "title": "Physics Games (like Lunar Lander)",
+      "contentTitle": "Physics Games (like Lunar Lander)",
       "description": "",
       "lectures": "",
       "points": [
@@ -95,6 +82,18 @@
 		  "Developing custom inspectors and editor windows",
 		  "Unity audio system",
 		  "Integrating both 2D and 3D objects together"
+      ]
+    },
+    {
+      "title": "Match 3 Games (like Candy Crush)",
+      "contentTitle": "Match 3 Games (like Candy Crush)",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "Using Unity UI system and touch system",
+		  "Creating animations and state transitions",
+		  "Creating particle effects",
+		  "Designing for multiple resolutions"
       ]
     },
     {
