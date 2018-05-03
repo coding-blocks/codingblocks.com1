@@ -10,18 +10,7 @@
 {{> navbar}}
 <div class="main-container">
     {{> header}}
-	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1 text-center">
-					<h2 class="uppercase color-primary mb40 mb-xs-24">Overview</h2>
-					<p class="lead">Are you someone with a penchant for organizing events and getting things done? Are you the one who knows everyone in the college, and is known by everyone? Do you have friendly relations with everyone at college, from students to faculty and from canteen staff to admin? You my friend, are what we’re looking for, and we might just have what you’re looking for.</p>
-					<p class="lead">Coding Blocks is proud to present the most exclusive and well-rounded Campus Ambassador Program that a college student could ask for. Be the face of Coding Blocks in your college doing what you’re good at, and win discount coupons, certificates, LORs, LinkedIn recommendations, exclusive merchandise, and internship/placement opportunities. Is there something missing over there? No, really? Look again, maybe? CASH PAYOUTS! Coding Blocks will be offering HUGE cash benefits to each and every campus ambassador, based on targets and results.</p>
-					<p class="lead">So, what are you waiting for? Go through the massive deliverables and basic responsibilities given below and fill in the form that follows. Our team will reach out to you soon, and get the process running.</p>
-				</div>
-			</div>
-		</div>
-	</section>
+	  {{> overview}}
 	<section class="bg-dark">
 		<div class="container">
 			<h2 class="uppercase mb16 text-center color-primary">How To Start</h2>
@@ -70,7 +59,7 @@
 	<section class="bg-dark">
 		<div class="container">
 			<div class="row">
-				<h2 class="uppercase mb20 text-center color-primary">Register</h2>
+				<h2 id="register" class="uppercase mb20 text-center color-primary">Register</h2>
 			</div>
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -86,11 +75,11 @@
 						<input type="text" required name="facebook_url" placeholder="Link to your Facebook profile" />
 
 						<textarea required name="strengths" placeholder="Tell us two strong points about yourself, with respect to this opportunity." rows="5"></textarea>
-						<textarea name="weaknesses" placeholder="Tell us two strong points about yourself, with respect to this opportunity." rows="5"></textarea>
+						<textarea name="weaknesses" placeholder="Tell us two weaknesses about yourself, with respect to this opportunity." rows="5"></textarea>
 						<textarea required name="better_fit" placeholder="Why do you think you will be a better fit for this opportunity, as compared to your college mates?" rows="5"></textarea>
 						<textarea required name="idea_suggested" placeholder="Suggest one unique idea to spread the presence of Coding Blocks in your college, apart from the ones mentioned above." rows="5"></textarea>
 						<textarea required name="expectations" placeholder="What are your expectations from this program, in the long run?" rows="5"></textarea>
-						<textarea name="additional_info" placeholder="What are your expectations from this program, in the long run?" rows="5"></textarea>
+						<textarea name="additional_info" placeholder="Any additional information about yourself you want to provide us?" rows="5"></textarea>
 
 					  <div class="g-recaptcha" data-sitekey="6Ldha0sUAAAAADc7aZwm0lJRamTVadFKIpiy90Qi"></div>
 					  <button type="submit">Sign Up</button>
