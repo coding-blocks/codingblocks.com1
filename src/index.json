@@ -8,6 +8,19 @@
   ],
   "slides": [
     {
+      "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
+      "imgAlt": "",
+      "heading": "CAST for Summer Batches is Back!",
+      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this summer",
+      "button": [
+        {
+          "link": "/cast.html",
+          "text": "Details & Registration",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/cast.jpg",
       "imgAlt": "",
       "heading": "Interview Preparation Course",
