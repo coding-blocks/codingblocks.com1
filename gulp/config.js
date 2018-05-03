@@ -52,7 +52,7 @@ module.exports = {
     },
     liveReload: {
         targetSrc: dest,
-        port: 7654,
+        port: 35729,
         basePath: 'dist'
     },
     dev: {
