@@ -1050,3 +1050,25 @@ footer, section {
     width: 304px;
     margin: 10px auto;
 }
+
+.campus-card {
+	box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+}
+
+.campus-card h3 {
+	margin-top: 1rem;
+}
+
+.campus-card ul {
+	margin-top: 1rem;
+	font-size: 1.5rem;
+}
+
+.campus-card ul li {
+	padding: 1rem;
+}
+
+.campus-card li:nth-child(2n) {
+	background: #e3e3e3;
+}
