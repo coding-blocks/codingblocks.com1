@@ -1,0 +1,97 @@
+{
+  "title": "Coding Blocks Campus Ambassador Program",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks Campus Ambassador Program"
+    },
+    {
+      "name": "keywords",
+      "content": ""
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/campus-ambassador-program.html",
+    "title": "Coding Blocks Campus Ambassador Program",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "Coding Blocks Campus Ambassador Program"
+  },
+  "header": {
+    "heading": "Campus Ambassador Program",
+    "subHeading": "",
+    "breadcrumbs": [
+    ],
+    "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "overview": {
+	"content": "<p class=\"lead\">Are you someone with a penchant for organizing events and getting things done? Are you the one who knows everyone in the college, and is known by everyone? Do you have friendly relations with everyone at college, from students to faculty and from canteen staff to admin? You my friend, are what we’re looking for, and we might just have what you’re looking for.</p> <p class=\"lead\">Coding Blocks is proud to present the most exclusive and well-rounded Campus Ambassador Program that a college student could ask for. Be the face of Coding Blocks in your college doing what you’re good at, and win discount coupons, certificates, LORs, LinkedIn recommendations, exclusive merchandise, and internship/placement opportunities. Is there something missing over there? No, really? Look again, maybe? CASH PAYOUTS! Coding Blocks will be offering HUGE cash benefits to each and every campus ambassador, based on targets and results.</p> <p class=\"lead\">So, what are you waiting for? Go through the massive deliverables and basic responsibilities given below and fill in the form that follows. Our team will reach out to you soon, and get the process running.</p>",
+	"buttonLink": "#launchpad-bundle-content"
+  },
+  "courseHighlights": [
+    {
+      "icon": "fa fa-code",
+      "title": "Fundamentals",
+      "content": "We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+    },
+    {
+      "icon": "et-line-puzzle",
+      "title": "Problem Solving",
+      "content": "The C++ course is designed to sharpen the problem solving skills, using C++, of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+    },
+    {
+      "icon": "et-line-layers",
+      "title": "OOP Concepts &amp; Project",
+      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready C++ coders."
+    },
+    {
+      "icon": "et-line-linegraph",
+      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
+      "content": "This course entails more than 100 hours of teaching and hands on C++ coding. Students will be solving more than 200 complex problems in C++ and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "Anybody who is interested in learning C++ programming can do this course. C++ is a powerful language and is pretty easy to learn. Coding in its most essential form is nothing but problem solving. It deals with figuring out logical solutions and implementing them optimally. The process of learning to code transforms a person into an analytical thinker with strong mathematical and logical skills."
+    },
+    {
+      "ques": "Will this course help if I had C++ in class 12?",
+      "ans": "Yes, absolutely. There is a lot more to learn in C++ than the school curriculum."
+    },
+    {
+      "ques": "I didn’t have C++ in class 12 ? Can I do this course ?",
+      "ans": "Yes. Our instructors will start the C++ course from beginner's level. You don’t need any prior programming knowledge to attend this course. What we need is dedication and passion to learn programming from your side."
+    }
+  ],
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang",
+      "Deepak Aggarwal",
+      "Rajesh Sachdev",
+      "Nipun Jain"
+    ]
+  },
+  "scheduleCpp": [
+	  { "center": "Pitampura", "startdate": "May 27", "enddate": "Jun 12", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 11:30 AM)", "batchtype": "Fast Track" },
+	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Jun 24", "daytime": "Sun, Wed, Sat (12:15 PM - 04:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "May 27", "enddate": "Jun 08", "daytime": "Sun, Mon, Wed, Fri (10:00 AM - 02:00 PM)", "batchtype": "Fast Track" },
+	  { "center": "Dwarka", "startdate": "Jun 03", "enddate": "Jun 20", "daytime": "Sun, Wed, Fri (03:00 PM - 07:00 PM)", "batchtype": "Regular" }
+  ],
+  "scheduleLaunchpad": [
+	  { "center": "Pitampura", "startdate": "May 27", "enddate": "Jul 08", "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 11:30 AM)", "batchtype": "Fast Track" },
+	  { "center": "Pitampura", "startdate": "Jun 03", "enddate": "Aug 01", "daytime": "Sun, Wed, Sat (12:15 PM - 04:00 PM)", "batchtype": "Regular" },
+	  { "center": "Dwarka", "startdate": "May 27", "enddate": "Jul 06", "daytime": "Sun, Mon, Wed, Fri (10:00 AM - 02:00 PM)", "batchtype": "Fast Track" },
+	  { "center": "Dwarka", "startdate": "Jun 03", "enddate": "Jul 27", "daytime": "Sun, Wed, Fri (03:00 PM - 07:00 PM)", "batchtype": "Regular" }
+  ],
+  "courseReviews": [
+    "NAVDEEP SINGH",
+    "SHREYA GUPTA",
+    "ANIRUDH GUPTA",
+    "DEEPAK KUMAR"
+  ]
+}
