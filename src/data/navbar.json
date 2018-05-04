@@ -5,6 +5,10 @@
   },
   "navLinks": [
     {
+		"title": "Campus Ambassadors",
+		"link": "http://cb.lk/CA"
+    },
+    {
       "title": "About Us",
       "link": "/about.html",
       "sublinks": [
