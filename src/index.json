@@ -21,6 +21,32 @@
       ]
     },
     {
+      "imgSrc": "/assets/images/cb/cover/nathan-anderson-223103.jpg",
+      "imgAlt": "",
+      "heading": "BOSS is Back!",
+      "content": "Contribute to the Coding Blocks code repository with BOSS 2018 and stand a chance to win a laptop, smartphones, Play Stations and much more.",
+      "button": [
+        {
+          "link": "https://lab.codingblocks.com/boss",
+          "text": "Details",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+      "imgAlt": "",
+      "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
+      "content": "Do the best summer internship this year by becoming a Coding Blocks Ambassador for your campus, and win coupons, merchandise, certificates, and CASH. Details and registration",
+      "button": [
+        {
+          "link": "http://cb.lk/CA",
+          "text": "Details & Registration",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/cast.jpg",
       "imgAlt": "",
       "heading": "Interview Preparation Course",
