@@ -5,6 +5,11 @@
     {{> meta}}
     {{> head}}
     {{> courseSchema}}
+	<style>
+		.bg-dark form label {
+			color: #fefefe;
+		}
+	</style>
 </head>
 <body class="scroll-assist">
 {{> navbar}}
@@ -64,21 +69,41 @@
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
 					<form action="https://cbemail.herokuapp.com/campus" method="POST" data-success="Thank you for signing up. We will get in touch with you shortly." data-error="Please fill all fields correctly.">
-						<input type="text" required name="name" placeholder="Name" />
-						<input type="text" required name="phone" placeholder="Phone Number (Exactly 10 Digits)" />
-						<input type="text" required name="email" placeholder="Email" />
-						<input type="text" required name="college" placeholder="College" />
-						<input type="text" required name="branch" placeholder="Branch" />
-						<input type="text" required name="year" placeholder="Year of Graduation" />
-						<input type="text" required name="resume_url" placeholder="Public link to your up to date resume" />
-						<input type="text" required name="linkedin_url" placeholder="Link to your LinkedIn profile" />
-						<input type="text" required name="facebook_url" placeholder="Link to your Facebook profile" />
+						<input type="text" required name="name" placeholder="Name (Required)" />
+						<input type="text" required name="phone" placeholder="Phone Number (Exactly 10 Digits) (Required)" />
+						<input type="text" required name="email" placeholder="Email (Required)" />
+						<input type="text" required name="college" placeholder="College (Required)" />
+						<input type="text" required name="state" placeholder="State (Required)" />
+						<input type="text" required name="branch" placeholder="Branch (Required)" />
+						<input type="text" required name="year" placeholder="Year of Graduation (Required)" />
 
-						<textarea required name="strengths" placeholder="Tell us two strong points about yourself, with respect to this opportunity." rows="5"></textarea>
-						<textarea name="weaknesses" placeholder="Tell us two weaknesses about yourself, with respect to this opportunity." rows="5"></textarea>
+						<div class="form-group">
+							<div class="row">
+								<div class="col-md-1">
+									<input type="checkbox" value="true" id="vmc_checkbox" name="ex_vmc">
+								</div>
+								<div class="col-md-6">
+									<label for="vmc_checkbox">Are you an ex-VMC student? (Required)</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="row">
+								<div class="col-md-1">
+									<input type="checkbox" value="true" id="cb_checkbox" name="ex_cb">
+								</div>
+								<div class="col-md-6">
+									<label for="cb_checkbox">Are you an ex-Coding Blocks student? (Required)</label>
+								</div>
+							</div>
+						</div>
+
+						<input type="text" required name="facebook_url" placeholder="Link to your Facebook profile (Required)" />
+						<textarea required name="other_profiles" placeholder="Any other profiles? (Github/LinkedIn/Twitter)" rows="5"></textarea>
+
 						<textarea required name="better_fit" placeholder="Why do you think you will be a better fit for this opportunity, as compared to your college mates?" rows="5"></textarea>
-						<textarea required name="idea_suggested" placeholder="Suggest one unique idea to spread the presence of Coding Blocks in your college, apart from the ones mentioned above." rows="5"></textarea>
-						<textarea required name="expectations" placeholder="What are your expectations from this program, in the long run?" rows="5"></textarea>
+						<textarea required name="marketing_idea" placeholder="Suggest one unique idea to spread the presence of Coding Blocks in your college, apart from the ones mentioned above." rows="5"></textarea>
 						<textarea name="additional_info" placeholder="Any additional information about yourself you want to provide us?" rows="5"></textarea>
 
 					  <div class="g-recaptcha" data-sitekey="6Ldha0sUAAAAADc7aZwm0lJRamTVadFKIpiy90Qi"></div>
