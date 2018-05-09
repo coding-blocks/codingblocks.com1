@@ -84,6 +84,15 @@
 	  "combo": true
     }
   ],
+  "coursesRow5": [
+	{
+	  "id": "webdj"
+	},
+	{
+	  "id": "course27",
+	  "odd": "true"
+	}
+  ],
   "courseReviews": [
     "Naman Kumar",
     "RISHABH KHANNA",
