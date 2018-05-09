@@ -25,7 +25,11 @@
     },
     {
       "id": "course14"
-    }
+    },
+	{
+      "id": "webdj",
+      "odd": true
+	}
   ],
   "courseReviews": [
     "Naman Kumar",

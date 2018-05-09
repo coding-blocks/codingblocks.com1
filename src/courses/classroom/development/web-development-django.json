@@ -39,29 +39,29 @@
   },
   "overview": {
     "content": "<p class=\"lead\">Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source. Django was designed to help developers take applications from concept to completion as quickly as possible. It takes security seriously and helps developers avoid many common security mistakes. The most important advantage is its scalability. Some of the busiest sites on the Web leverage Django’s ability to quickly and flexibly scale.</p> <p class=\"lead\"><strong>Course Starting July 2!</strong></p>",
-	"buttonDisabled": "true",
-	"buttonText": "Coming Soon"
+	"buttonDisabled": false,
+	"buttonText": "Register Now"
   },
   "courseHighlights": [
     {
       "icon": "et-line-edit",
       "title": "Web Design",
-      "content": "A website with great functionality must be complemented by top notch User Experience and a neat Responsive User Interface. Our course covers building both common and upcoming UI/UX patterns in Bootstrap and how to get started with frontend frameworks like Ember and Vue."
+      "content": "A website with great functionality must be complemented by top notch User Experience and a neat Responsive User Interface. Our course covers building both common and upcoming UI/UX patterns in Bootstrap."
     },
     {
-      "icon": "et-line-chat",
-      "title": "Real Time Web Apps",
-      "content": "Socket.IO is a javascript library for real-time applications. You'll learn how to enable real-time communication between web clients and servers to build some awesome chat systems and multiplayer games."
+      "icon": "et-line-pictures",
+      "title": "MVC Architecture",
+      "content": "All modern web frameworks are built upon the solid foundations of MVC. We will learn how to impelement MVC within Django apps"
     },
     {
       "icon": "fa fa-database",
       "title": "Databases",
-      "content": "You will learn how to use both relational and non-relational databases with MySQL and MongoDB. We also cover Sequelize which makes the database query writing process a little easier!"
+      "content": "You will learn how to use both relational and non-relational databases with MySQL and MongoDB. We also cover Django-Admin which makes the database query writing process a little easier!"
     },
     {
       "icon": "et-line-profile-male",
       "title": "Authentication",
-      "content": "You'll learn how to implement a Login System as well as Authentication using social logins using Passport.JS."
+      "content": "You'll learn how to implement a Login System as well as Authentication using social logins."
     }
   ],
   "courseContents": [
@@ -146,24 +146,32 @@
   ],
   "faqs": [
     {
-      "ques": "How much knowledge of Data Structures and Algorithms do I need to take this course?",
-      "ans": "You need to have good command of data structures like Stacks, Queues and Lists. Also a basic idea of algorithms like sorting, searching, string manupulations. Also it is imperative to have good concepts of Object Oriented Programming"
+      "ques": "What are the pre-requisites ?",
+      "ans": "Familiarity with any programming language is must. Experience of basic Python is recommended."
     },
     {
-      "ques": "Do you have a test for admission into this course ?",
-      "ans": "We have a simple test covering OOP concepts, basic Data structures and array/string manipulation which you will need to take while registering for our fullstack web development course."
+      "ques": "Who can do this course ?",
+      "ans": "Any one who wants to learn the Python-Django framework and build fully functional web-apps with backend can do this course."
     },
     {
-      "ques": "Will there by any projects ?",
-      "ans": "Definitely. No course in web development is complete without projects, and we focus a lot on working on live projects and practical topics. We start with small projects like TodoList Managers and go up to creating e-Commerce websites."
+      "ques": "Should I choose NodeJS or Python for web-development ?",
+      "ans": "If you are looking forward for building Machine Learning Based Web Apps or chatbots then you must take this course. Python is the hottest language of the century and has a strong Machine Learning Ecosystem. We will also spend 1 class on data visualization and creating/saving Machine Learning Models on your server."
+    },
+    {
+      "ques": "Will I work on projects during the course ?",
+      "ans": "Yes, you build 2-3 projects of various difficulty in this course. You will also learn about deployment."
+    },
+    {
+      "ques": "Will I get a course certificate ?",
+      "ans": "If you complete your projects and assignments within the given timeframe, then you will get CB Python Developer Certificate."
     }
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming Batches:",
 	"priceCut": "15,000",
     "registerButton":{
-      "disabled": true,
-      "buttonText": "Coming Soon"
+      "disabled": false,
+      "buttonText": "Register Now"
     },
     "highlights": [
       {
