@@ -47,6 +47,24 @@
       ]
     },
     {
+      "imgSrc": "/assets/images/cb/cover/cover_admission.png",
+      "imgAlt": "Python Courses Starting This June",
+      "heading": "Python Courses Starting This June",
+      "content": "Coding Blocks introduces two new courses in Python. <br/>Delve into the world of coding with one of the most “in fashion” languages.",
+      "button": [
+        {
+          "link": "/courses/classroom/foundation/python-for-beginners.html",
+          "text": "Python for Beginners",
+		  "filled": "true"
+        },
+        {
+          "link": "/courses/classroom/development/web-development-django.html",
+          "text": "Web Development",
+		  "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/cast.jpg",
       "imgAlt": "",
       "heading": "Interview Preparation Course",
@@ -74,19 +92,6 @@
           "link": "/courses/",
           "text": "Browse Courses",
           "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cover_admission.png",
-      "imgAlt": "Python for Beginners Course",
-      "heading": "Python for Beginners Course",
-      "content": "Coding Blocks introduces an all-new foundation course on Python. <br/>Delve into the world of coding with one of the most “in fashion” languages.",
-      "button": [
-        {
-          "link": "/courses/classroom/foundation/python-for-beginners.html",
-          "text": "Details & Registration",
-		  "filled": "true"
         }
       ]
     },
