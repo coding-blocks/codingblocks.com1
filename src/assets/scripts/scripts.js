@@ -1,8 +1,26 @@
 var mr_firstSectionHeight, mr_nav, mr_fixedAt, mr_navOuterHeight, mr_navScrolled = false, mr_navFixed = false,
     mr_outOfSight = false, mr_floatingProjectSections, mr_scrollTop = 0;
+var getParameterByName = function (name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
 $(document).ready(function () {
     "use strict";
     var innerLinks = $("a.inner-link");
+    var success = getParameterByName('success') == 1;
+    var error = getParameterByName('success') == 0;
+    if(success) {
+        $('#success').removeClass("display-none");
+        $('#success').addClass('color-primary');
+    } else if(error) {
+        $('#error').removeClass("display-none");
+        $('#error').addClass('color-primary');
+    }
     if (innerLinks.length) {
         innerLinks.each(function () {
             var link = $(this);

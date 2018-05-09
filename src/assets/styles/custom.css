@@ -1072,3 +1072,7 @@ footer, section {
 .campus-card li:nth-child(2n) {
 	background: #e3e3e3;
 }
+
+.display-none {
+    display: none;
+}
