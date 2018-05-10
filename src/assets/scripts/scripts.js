@@ -1,8 +1,69 @@
 var mr_firstSectionHeight, mr_nav, mr_fixedAt, mr_navOuterHeight, mr_navScrolled = false, mr_navFixed = false,
     mr_outOfSight = false, mr_floatingProjectSections, mr_scrollTop = 0;
+var getParameterByName = function (name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+var save_data = function () {
+    var form_obj = {
+        "name" : document.getElementById("ca-form").elements["name"].value,
+        "phone" : document.getElementById("ca-form").elements["phone"].value,
+        "email" : document.getElementById("ca-form").elements["email"].value,
+        "college" : document.getElementById("ca-form").elements["college"].value,
+        "state" : document.getElementById("ca-form").elements["state"].value,
+        "branch" : document.getElementById("ca-form").elements["branch"].value,
+        "year" : document.getElementById("ca-form").elements["year"].value,
+        "ex_cb" : document.getElementById("ca-form").elements["ex_cb"].value,
+        "ex_vmc" : document.getElementById("ca-form").elements["ex_vmc"].value,
+        "facebook_url" : document.getElementById("ca-form").elements["facebook_url"].value,
+        "other_profiles" : document.getElementById("ca-form").elements["other_profiles"].value,
+        "better_fit" : document.getElementById("ca-form").elements["better_fit"].value,
+        "marketing_idea" : document.getElementById("ca-form").elements["marketing_idea"].value,
+        "additional_info" : document.getElementById("ca-form").elements["additional_info"].value
+    };
+    localStorage.setItem("ca-form", JSON.stringify(form_obj));
+};
+
+var set_and_delete_data = function(flag) {
+  var form_obj = JSON.parse(localStorage.getItem("ca-form"));
+  if(flag) {
+     document.getElementById("ca-form").elements["name"].value = form_obj.name;
+     document.getElementById("ca-form").elements["phone"].value = form_obj.phone;
+     document.getElementById("ca-form").elements["email"].value = form_obj.email;
+     document.getElementById("ca-form").elements["college"].value = form_obj.college;
+     document.getElementById("ca-form").elements["state"].value = form_obj.state;
+     document.getElementById("ca-form").elements["branch"].value = form_obj.branch;
+     document.getElementById("ca-form").elements["year"].value = form_obj.year;
+     document.getElementById("ca-form").elements["facebook_url"].value = form_obj.facebook_url;
+     document.getElementById("ca-form").elements["other_profiles"].value = form_obj.other_profiles;
+     document.getElementById("ca-form").elements["better_fit"].value = form_obj.better_fit;
+     document.getElementById("ca-form").elements["marketing_idea"].value = form_obj.marketing_idea;
+     document.getElementById("ca-form").elements["additional_info"].value = form_obj.additional_info;
+     document.getElementById("ca-form").elements["ex_vmc"].checked = form_obj.ex_vmc;
+     document.getElementById("ca-form").elements["ex_cb"].checked = form_obj.ex_cb;
+  }
+  localStorage.removeItem("ca-form");
+}
+
 $(document).ready(function () {
     "use strict";
     var innerLinks = $("a.inner-link");
+    var success = getParameterByName('success') == 1;
+    var error = getParameterByName('success') == 0;
+    if(success) {
+        set_and_delete_data(!success);
+        $('#success').removeClass("display-none");
+        $('#success').addClass('color-primary');
+    } else if(error) {
+        set_and_delete_data(error);
+        $('#error').removeClass("display-none");
+        $('#error').addClass('color-primary');
+    }
     if (innerLinks.length) {
         innerLinks.each(function () {
             var link = $(this);

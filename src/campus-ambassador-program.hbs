@@ -15,7 +15,70 @@
 {{> navbar}}
 <div class="main-container">
     {{> header}}
-	  {{> overview}}
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1 text-center">
+					<h2 class="uppercase color-primary mb40 mb-xs-24">Learn and Earn</h2>
+					<h2 class="uppercase color-primary mb40 mb-xs-24"><small>All with loads of fun!</small></h2>
+					<p class="lead">
+						The Campus Ambassador program at Coding Blocks is aimed at identifying energetic, passionate, brilliant, like minded College Superheroes (<em>and this term Superhero includes all the Supermans &amp; Wonderwomen</em>) who have the zeal to take initiative and make a mark.
+					</p>
+					<p class="lead">
+						<strong>How to identify a Coding Blocks Superhero?</strong> Well, they are the people who are typically great coders and very active members of Computer societies, clubs, events and activities. In addition, they are stars of their community and people look upto them since they usually lead by example. In short, Leadership flows in their veins and they are the visionaries of tomorrow.
+					</p>
+					<p class="lead">
+						If you feel you have the qualities to be a Coding Blocks Superhero, we invite you to join the clan and be a part of the community. We assure you of a great learning experience, awesome perks and take home rewards, a super confident you, a shining resume with recommendations & certificate and a place in the Coding Blocks family. Here are the details, in case you have already made up your mind to be a part of us.
+					</p>
+
+					<h3 class="color-primary">Roles and Responsibilities of Coding Blocks Superheroes</h3>
+					<ol style="text-align: left" class="col-md-11 col-md-offset-1">
+						<li>Be the official Super Hero alias Ambassador and branding representative of Coding Blocks in your college</li>
+						<li>Create programming contests on HackerBlocks (our online coding practice tool)</li>
+						<li>Promote our courses in your college and get students to sign up &amp; subscribe (including YouTube)</li>
+						<li>Publicise by displaying posters on notice boards, sharing e-posters on WhatsApp, Facebook etc, circulating emails, etc.</li>
+						<li>Maintain relevant databases and submit monthly reports</li>
+						<li>Conduct Coding Blocks workshop every 3 months and programming events / online hackathon every 45 days in your campus</li>
+						<li>Organize counselling sessions and meet-ups in college canteen/campus with Mentors & Alumni</li>
+						<li>Represent us in the placement cells of your college</li>
+						<li>Come up with innovative ideas on how Coding Blocks can assist your college and associate us with any technical fest or sessions that your college conducts</li>
+						<li>Put Coding Blocks “Books” in college library</li>
+						<li>Introduce BOSS event of Coding Blocks in Tech Talks</li>
+						<li>Get students to attend difficult subject doubt session ‘Webinars’ – organised by Mentors of Coding Blocks</li>
+						<li>Associate Coding Blocks with various college societies and fest department</li>
+						<li>Any other marketing initiative will be rewarded as well</li>
+					</ol>
+
+					<h3 class="color-primary">What You Earn &amp; Learn</h3>
+					<ol style="text-align: left" class="col-md-11 col-md-offset-1">
+						<li>Superhero kit with host of swags like T-shirt, Bag, Cap, Diary, Pen drive, Stickers and so on</li>
+						<li>Earn great Cash rewards on organising workshops in your college </li>
+						<li>Student referral rewards</li>
+						<li>Work Experience Certificate to all eligible candidates on successful completion of six months program</li>
+						<li>LinkedIn recommendation to all eligible candidates after completion of program</li>
+						<li>Meet targets, get our online courses for free</li>
+						<li>Free book worth Rs 1200 if targets are met</li>
+						<li>Free passes for workshops at Coding Blocks</li>
+						<li>Opportunity to interact and network with industry experts and professionals through various events</li>
+						<li>Opportunity to become a part of us (PPO)</li>
+						<li>Huge cash incentives for specific target achievements</li>
+						<li>Additional cash incentives for blogs writing for Coding Blocks</li>
+						<li>An exposure of working with a start-up, with some of the best brains in the industry</li>
+						<li>Campus ambassadors are preferred for Paid internships and Teaching Assistants at Coding Blocks</li>
+						<li>Can sit in Coding Blocks placement drives even if non-CB student (haven’t enrolled for a course)</li>
+						<li>Accalamtion of efforts through Superheros of the Month, Quarter and Year entitling you to Cask rewards, Mobile phone and laptop respectively.</li>
+					</ol>
+
+					<p class="lead">
+						If you feel you want to be a part of this initiative, you can get started by filling up this form.
+					</p>
+
+					<a class="btn btn-lg btn-filled" href="#register">Register Now</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="bg-dark">
 		<div class="container">
 			<h2 class="uppercase mb16 text-center color-primary">How To Start</h2>
@@ -68,7 +131,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<form action="https://cbemail.herokuapp.com/campus" method="POST" data-success="Thank you for signing up. We will get in touch with you shortly." data-error="Please fill all fields correctly.">
+					<form id="ca-form" onsubmit="save_data()" action="https://cbemail.herokuapp.com/campus" method="POST" data-success="Thank you for signing up. We will get in touch with you shortly." data-error="Please fill all fields correctly.">
 						<input type="text" required name="name" placeholder="Name (Required)" />
 						<input type="text" required name="phone" placeholder="Phone Number (Exactly 10 Digits) (Required)" />
 						<input type="text" required name="email" placeholder="Email (Required)" />
@@ -107,8 +170,10 @@
 						<textarea name="additional_info" placeholder="Any additional information about yourself you want to provide us?" rows="5"></textarea>
 
 					  <div class="g-recaptcha" data-sitekey="6Ldha0sUAAAAADc7aZwm0lJRamTVadFKIpiy90Qi"></div>
-					  <button type="submit">Sign Up</button>
+					  <button id="form" type="submit">Sign Up</button>
 					</form>
+                                        <label class="display-none" id="success">Form Submitted Sucessfully.</label>
+                                        <label class="display-none" id="error">Error Submitting Form.</label>
 				</div>
 			</div>
 		</div>
