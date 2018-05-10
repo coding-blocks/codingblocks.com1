@@ -131,7 +131,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<form action="https://cbemail.herokuapp.com/campus" method="POST" data-success="Thank you for signing up. We will get in touch with you shortly." data-error="Please fill all fields correctly.">
+					<form id="ca-form" onsubmit="save_data()" action="https://cbemail.herokuapp.com/campus" method="POST" data-success="Thank you for signing up. We will get in touch with you shortly." data-error="Please fill all fields correctly.">
 						<input type="text" required name="name" placeholder="Name (Required)" />
 						<input type="text" required name="phone" placeholder="Phone Number (Exactly 10 Digits) (Required)" />
 						<input type="text" required name="email" placeholder="Email (Required)" />
@@ -170,8 +170,10 @@
 						<textarea name="additional_info" placeholder="Any additional information about yourself you want to provide us?" rows="5"></textarea>
 
 					  <div class="g-recaptcha" data-sitekey="6Ldha0sUAAAAADc7aZwm0lJRamTVadFKIpiy90Qi"></div>
-					  <button type="submit">Sign Up</button>
+					  <button id="form" type="submit">Sign Up</button>
 					</form>
+                                        <label class="display-none" id="success">Form Submitted Sucessfully.</label>
+                                        <label class="display-none" id="error">Error Submitting Form.</label>
 				</div>
 			</div>
 		</div>
