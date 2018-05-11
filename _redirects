@@ -35,6 +35,9 @@
 ## Online Courses
 /courses/online/interviewprep.html				/courses/online/coding-interview-preparation-online.html
 
+## Centre redirect
+/centres/greater-noida.html	               /centres/noida.html					
+
 # Outside Redirects for Netlify 
 
 /ide/*    	  https://ide.codingblocks.com/:splat     		      301
