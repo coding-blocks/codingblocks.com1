@@ -23,12 +23,12 @@
                           <div class="col-sm-12">
                               <div class="course-tabs">
                                   <ul class="nav nav-tabs" role="tablist">
-                                      <li role="presentation" class="active wide-tab" id="tab-basic"><a href="#launchpad-bundle" data-toggle="tab"> C++ with DS and Algo </a> </li>
-                                      <li role="presentation" class="wide-tab" id="tab-advance"><a href="#crux-bundle" data-toggle="tab"> Java with DS and Algo </a> </li>
-                                      <li role="presentation" class="wide-tab" id="tab-advance"><a href="#python" data-toggle="tab"> Python App Development</a> </li>
-                                      <li role="presentation" class="wide-tab" id="tab-advance"><a href="#core-java" data-toggle="tab"> Core Java App Development</a> </li>
-                                      <li role="presentation" class="wide-tab" id="tab-advance"><a href="#android" data-toggle="tab"> Android App Development</a> </li>
-                                      <li role="presentation" class="wide-tab" id="tab-advance"><a href="#web-dev" data-toggle="tab"> Web Development</a> </li>
+                                      <li role="presentation" class="wide-tab" id="active launchpad-bundle-tab"><a href="#launchpad-bundle" data-toggle="tab"> C++ with DS and Algo </a> </li>
+                                      <li role="presentation" class="wide-tab" id="crux-bundle-tab"><a href="#crux-bundle" data-toggle="tab"> Java with DS and Algo </a> </li>
+                                      <li role="presentation" class="wide-tab" id="python-tab"><a href="#python" data-toggle="tab"> Python App Development</a> </li>
+                                      <li role="presentation" class="wide-tab" id="core-java-tab"><a href="#core-java" data-toggle="tab"> Core Java App Development</a> </li>
+                                      <li role="presentation" class="wide-tab" id="android-tab"><a href="#android" data-toggle="tab"> Android App Development</a> </li>
+                                      <li role="presentation" class="wide-tab" id="web-dev-tab"><a href="#web-dev" data-toggle="tab"> Web Development</a> </li>
                                   </ul>
 
                       <div class="tab-content">
@@ -509,7 +509,7 @@
                       <!-- Launchpad Begin -->
 
 
-                        <div role="tabpanel" class="tab-pane active" id="launchpad-bundle">
+                        <div role="tabpanel" class="active tab-pane" id="launchpad-bundle">
                           <div class="course-card-container">
                             <div class="content-row">
                               <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3
@@ -645,5 +645,16 @@
     {{> footer}}
 </div>
 {{> scripts}}
+<script>
+    $(document).ready(function () {
+        var hash = window.location.hash;
+
+        if(hash != undefined) {
+          $(hash).addClass('active');
+          $(hash + '-tab').addClass('active');
+        }
+
+    })
+</script>
 </body>
 </html>
