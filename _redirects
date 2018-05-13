@@ -28,12 +28,42 @@
 /courses/classroom/algo-java.html                 /courses/classroom/advanced/algo-java.html
 /courses/classroom/web-development-nodejs.html    /courses/classroom/development/web-development-nodejs.html
 /courses/classroom/android-app-development.html   /courses/classroom/development/android-app-development.html
-/courses/advanced/algo-plus-plus.html			/courses/classroom/advanced/algo-plus-plus.html
-/courses/classroom/java.html					/courses/classroom/foundation/java.html
-/courses/classroom/c++.html					/courses/classroom/foundation/c-plus-plus.html
+/courses/advanced/algo-plus-plus.html			  /courses/classroom/advanced/algo-plus-plus.html
+/courses/classroom/java.html					  /courses/classroom/foundation/java.html
+/courses/classroom/c++.html					      /courses/classroom/foundation/c-plus-plus.html
 
 ## Online Courses
-/courses/online/interviewprep.html				/courses/online/coding-interview-preparation-online.html
+/courses/online/interviewprep.html				  /courses/online/coding-interview-preparation-online.html
+
+## SEO changes
+
+/courses/classroom/foundation/c-plus-plus.html#launchpad-bundle-content          /classroom-courses/c-plus-plus-for-beginners.html#launchpad-bundle-content
+/courses/classroom/foundation/java.html#crux-bundle                 /classroom-courses/java-for-beginners.html#crux-bundle
+/courses/classroom/development/android-app-development.html          /classroom-courses/android-app-development-using-kotlin-and-java.html
+/courses/classroom/development/web-development-nodejs.html           /classroom-courses/web-development-nodejs.html
+/courses/classroom/advanced/algo-plus-plus.html               /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html
+/courses/classroom/advanced/machine-learning.html              /classroom-courses/machine-learning-with-deep-learning.html
+/courses/classroom/foundation/java.html               /classroom-courses/java-for-beginners.html
+/courses/classroom/foundation/c-plus-plus.html        /classroom-courses/c-plus-plus-for-beginners.html
+/courses/classroom/advanced/algo-plus-plus.html         /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html
+/courses/classroom/advanced/algo-java.html              /classroom-courses/advanced-data-structures-and-algorithms-using-java.html
+/courses/launchpad-online.html                /online-courses/c-plus-plus.html
+/courses/classroom/development/advancedjava.html            /classroom-courses/web-development-using-java.html
+/courses/online/web-development-nodejs.html             /online-course/web-development-nodejs.html
+/courses/competitive-online.html             /online-courses/competitive-online.html
+/courses/online/android-app-development.html          /online-courses/android-app-development.html
+/courses/online/java.html            /online-courses/java.html
+/courses/competitive-online-study-material.html           /online-courses/competitive-online-study-material.html
+/courses/classroom/advanced/competitive-programming.html                /classroom-courses/competitive-programming.html
+/courses/online/coding-interview-preparation-online.html                /online-courses/coding-interview-preparation-online.html
+/courses/online/machine-learning.html                  /online-courses/machine-learning.html
+/courses/classroom/foundation/python-for-beginners.html                /classroom-courses/python-for-beginners.html
+/courses/launchpad-online.html                /online-courses/c-plus-plus#advanced.html
+/courses/classroom/development/unity-game-development.html            /classroom-courses/unity-game-development.html
+/courses/online/coding-interview-preparation-online-bootcamp.html        /online-courses/coding-interview-preparation-online-bootcamp.html
+/courses/classroom/development/web-development-django.html            /classroom-courses/web-development-django.html
+
+
 
 # Outside Redirects for Netlify 
 

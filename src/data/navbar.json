@@ -51,37 +51,37 @@
       ]
     },
     {
-      "title": "Courses",
-      "link": "/courses",
+      "title": "Classroom Courses",
+      "link": "/classroom-courses",
       "sublinks": [
         {
           "title": "Junior",
           "sublinks": [
             {
               "title": "Code4Kids",
-              "link": "/courses/classroom/junior/code4kids.html"
+              "link": "/classroom-courses/code4kids.html"
             },
             {
               "title": "MathsGeeks",
-              "link": "/courses/classroom/junior/mathsgeeks.html"
+              "link": "/classroom-courses/mathsgeeks.html"
             }
           ]
         },
         {
-          "title": "Foundation",
-		  "link": "/courses/classroom/foundation/",
+          "title": "Beginner",
+		  "link": "#",
           "sublinks": [
             {
               "title": "C++ for Beginners / Launchpad",
-              "link": "/courses/classroom/foundation/c-plus-plus.html"
+              "link": "/classroom-courses/c-plus-plus-for-beginners.html"
             },
             {
               "title": "Java for Beginners / Crux",
-              "link": "/courses/classroom/foundation/java.html"
+              "link": "/classroom-courses/java-for-beginners.html"
             },
             {
               "title": "Python For Beginners",
-              "link": "/courses/classroom/foundation/python-for-beginners.html"
+              "link": "/classroom-courses/python-for-beginners.html"
             }
           ]
         },
@@ -91,51 +91,51 @@
           "sublinks": [
             {
               "title": "Android",
-              "link": "/courses/classroom/development/android-app-development.html"
+              "link": "/classroom-courses/android-app-development-using-kotlin-and-java.html"
             },
             {
               "title": "Fullstack Web (NodeJS)",
-              "link": "/courses/classroom/development/web-development-nodejs.html"
+              "link": "/classroom-courses/web-development-nodejs.html"
             },
             {
               "title": "Web Development (Django - Python)",
-              "link": "/courses/classroom/development/web-development-django.html"
+              "link": "/classroom-courses/web-development-django.html"
             },
             {
               "title": "Web Backend (Advanced Java)",
-              "link": "/courses/classroom/development/advancedjava.html"
+              "link": "/classroom-courses/web-development-using-java.html"
             },
             {
               "title": "Unity Game Development",
-              "link": "/courses/classroom/development/unity-game-development.html"
+              "link": "/classroom-courses/unity-game-development.html"
             }
           ]
         },
         {
           "title": "Advanced",
-		  "link": "/courses/classroom/advanced/",
+		  "link": "#",
           "sublinks": [
             {
               "title": "Algo++",
-              "link": "/courses/classroom/advanced/algo-plus-plus.html"
+              "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html"
             },
             {
               "title": "Algo.Java",
-              "link": "/courses/classroom/advanced/algo-java.html"
+              "link": "/classroom-courses/advanced-data-structures-and-algorithms-using-java.html"
             },
             {
               "title": "Machine Learning",
-              "link": "/courses/classroom/advanced/machine-learning.html"
+              "link": "/classroom-courses/machine-learning-with-deep-learning.html"
             },
             {
               "title": "Competitive Programming",
-              "link": "/courses/classroom/advanced/competitive-programming.html"
+              "link": "/classroom-courses/competitive-programming.html"
             }
           ]
         },
         {
           "title": "Bootcamps",
-          "link": "/bootcamps/",
+          "link": "#",
           "sublinks": [
 			{
 			  "title": "Interview Preparation",
@@ -154,7 +154,7 @@
 			  "link": "/bootcamps/chatbots.html"
 			},
 			{
-			  "title": "ANGULARJS",
+			  "title": "AngularJS",
 			  "link": "/coming-soon.html"
 			}
           ]
