@@ -47,7 +47,7 @@
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
       "link": "/courses/classroom/development/android-app-development.html",
-      "badge": "Starting June 4",
+      "badge": "Starting June 9",
       "description": [
         "Building Android Apps",
         "UI and Animations",
@@ -66,7 +66,7 @@
       "imgAlt": "web development course logo",
       "lectures": "(22 lectures)",
       "link": "/courses/classroom/development/web-development-nodejs.html",
-      "badge": "Starting June 4",
+      "badge": "Starting June 6",
       "description": [
         "Web Design",
         "Real time Web Apps",
@@ -166,7 +166,7 @@
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
       "link": "/courses/classroom/advanced/algo-plus-plus.html",
-      "badge": "Starting June 5",
+      "badge": "Starting June 8",
       "description": [
         "DS & Algorithms in C++"
       ],
@@ -181,7 +181,7 @@
       "imgAlt": "Data Structures and Algorithms Using Java",
       "lectures": "(12-15 lectures)",
       "link": "/courses/classroom/advanced/algo-java.html",
-      "badge": "Starting June 5",
+      "badge": "Starting June 9",
       "description": [
         "DS & Algorithms in Java"
       ],
@@ -241,7 +241,7 @@
       "price": "6,000",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Preparation Bootcamp logo",
-	  "badge": "Starting June 9",
+	  "badge": "Starting June 10",
       "lectures": "(10 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html",
       "description": [
@@ -370,7 +370,7 @@
 	  "off-price": "1,000",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
-	  "badge": "Starting June 5",
+	  "badge": "Starting June 10",
       "lectures": "(22-25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#cpp-bundle",
       "description": [
@@ -386,7 +386,7 @@
 	  "off-price": "1,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Competitive Programming course logo",
-	  "badge": "Starting June 5",
+	  "badge": "Starting June 10",
       "lectures": "(22-25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#java-bundle",
       "description": [
@@ -491,7 +491,7 @@
       "imgAlt": "django web development course logo",
       "lectures": "(15 lectures)",
       "link": "/courses/classroom/development/web-development-django.html",
-      "badge": "Starting July 2",
+      "badge": "Starting June 28",
       "description": [
         "Web Design",
         "Deployment &amp; System Adminstration",

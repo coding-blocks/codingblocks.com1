@@ -166,8 +166,15 @@
 	  {
 		  "center": "Pitampura",
 		  "startdate": "Jun 08",
-		  "enddate": "Jun 29",
-		  "daytime": "Fri, Wed (03:30 PM - 06:30 PM); Mon (10:30 AM - 01:30 PM)",
+		  "enddate": "Jul 02",
+		  "daytime": "Fri, Mon, Wed (10:30 AM - 01:30 PM)",
+		  "batchtype": "Regular"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "Jun 13",
+		  "enddate": "Aug 01",
+		  "daytime": "Wed (10:00 AM - 4:00 PM), Sun (10:00 AM - 4:00 PM)",
 		  "batchtype": "Regular"
 	  }
   ],

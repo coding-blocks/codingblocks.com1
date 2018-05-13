@@ -101,8 +101,20 @@
     ]
   },
   "schedule": [
-	  { "center": "Pitampura", "startdate": "Jun 05", "enddate": "Jul 14", "daytime": "Tue, Thu, Sat (12:30 PM - 04:00 PM)", "batchtype": "Regular" },
-	  { "center": "Dwarka", "startdate": "Jun 11", "enddate": "Jul 07", "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)", "batchtype": "Regular" }
+	  {
+		  "center": "Pitampura",
+		  "startdate": "Jun 09",
+		  "enddate": "Jul 10",
+		  "daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)",
+		  "batchtype": "Fast Track"
+	  },
+	  {
+		  "center": "Dwarka",
+		  "startdate": "Jun 11",
+		  "enddate": "Jul 07",
+		  "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)",
+		  "batchtype": "Regular"
+	  }
   ],
   "courseReviews": [
     "YAMINI GAUR",
