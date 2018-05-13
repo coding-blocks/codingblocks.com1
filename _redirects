@@ -21,6 +21,7 @@
 /courses/elixir.html                              /classroom-courses/web-development-nodejs.html
 /courses/elixirlive.html                          /online-courses/web-development-nodejs.html
 /courses/perceptron.html                          /classroom-courses/machine-learning-with-deep-learning.html
+/courses/perceptron-live.html					  /classroom-courses/machine-learning-with-deep-learning.html
 
 
 /courses/algo++.html                              /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html
@@ -63,6 +64,12 @@
 /courses/classroom/development/unity-game-development.html            /classroom-courses/unity-game-development.html
 /courses/online/coding-interview-preparation-online-bootcamp.html        /online-courses/coding-interview-preparation-online-bootcamp.html
 /courses/classroom/development/web-development-django.html            /classroom-courses/web-development-django.html
+/courses/														/classroom-courses/
+/courses/classroom/development/									/classroom-courses/
+/courses/classroom/advanced/									/classroom-courses/
+/courses/classroom/foundation/									/classroom-courses/
+/courses/classroom/bootcamps/									/classroom-courses/
+/courses/classroom/           									/classroom-courses/
 
 
 
