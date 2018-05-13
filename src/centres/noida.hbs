@@ -23,7 +23,7 @@
                           <div class="col-sm-12">
                               <div class="course-tabs">
                                   <ul class="nav nav-tabs" role="tablist">
-                                      <li role="presentation" class="wide-tab" id="active launchpad-bundle-tab"><a href="#launchpad-bundle" data-toggle="tab"> C++ with DS and Algo </a> </li>
+                                      <li role="presentation" class="wide-tab" id="launchpad-bundle-tab"><a href="#launchpad-bundle" data-toggle="tab"> C++ with DS and Algo </a> </li>
                                       <li role="presentation" class="wide-tab" id="crux-bundle-tab"><a href="#crux-bundle" data-toggle="tab"> Java with DS and Algo </a> </li>
                                       <li role="presentation" class="wide-tab" id="python-tab"><a href="#python" data-toggle="tab"> Python App Development</a> </li>
                                       <li role="presentation" class="wide-tab" id="core-java-tab"><a href="#core-java" data-toggle="tab"> Core Java App Development</a> </li>
@@ -509,7 +509,7 @@
                       <!-- Launchpad Begin -->
 
 
-                        <div role="tabpanel" class="active tab-pane" id="launchpad-bundle">
+                        <div role="tabpanel" class="tab-pane" id="launchpad-bundle">
                           <div class="course-card-container">
                             <div class="content-row">
                               <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3
@@ -650,8 +650,14 @@
         var hash = window.location.hash;
 
         if(hash != undefined) {
-          $(hash).addClass('active');
-          $(hash + '-tab').addClass('active');
+
+          if (hash === '#default') {
+            $('#launchpad-bundle').addClass('active');
+            $('#launchpad-bundle-tab').addClass('active');
+          } else {
+            $(hash).addClass('active');
+            $(hash + '-tab').addClass('active');
+          }
         }
 
     })
