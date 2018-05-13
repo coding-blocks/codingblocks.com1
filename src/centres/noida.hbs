@@ -650,8 +650,14 @@
         var hash = window.location.hash;
 
         if(hash != undefined) {
-          $(hash).addClass('active');
-          $(hash + '-tab').addClass('active');
+
+          if (hash === '#default') {
+            $('#launchpad-bundle').addClass('active');
+            $('#launchpad-bundle-tab').addClass('active');
+          } else {
+            $(hash).addClass('active');
+            $(hash + '-tab').addClass('active');
+          }
         }
 
     })
