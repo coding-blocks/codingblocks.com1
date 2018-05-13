@@ -190,6 +190,15 @@
     "SANDEEP RANJAN",
     "RISHABH KHANNA"
   ],
+  "schedule": [
+	  {
+		  "center": "Pitampura",
+		  "startdate": "Jun 28",
+		  "enddate": "Jul 29",
+		  "daytime": "Thu, Sat, Tue (03:00 PM - 07:00 PM)",
+		  "batchtype": "Regular"
+	  }
+  ],
   "reviewSlug": "Web Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=146"
 }

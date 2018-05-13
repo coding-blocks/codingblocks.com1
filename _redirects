@@ -73,6 +73,9 @@
 
 
 
+## Centre redirect
+/centres/greater-noida.html	               /centres/noida.html					
+
 # Outside Redirects for Netlify 
 
 /ide/*    	  https://ide.codingblocks.com/:splat     		      301

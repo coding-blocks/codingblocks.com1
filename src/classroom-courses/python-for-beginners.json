@@ -4,7 +4,7 @@
   "metas": [
     {
       "name": "description",
-      "content": "Learn Python at Coding Blocks, best Python training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Python course for beginners."
+      "content": "Learn Python at Coding Blocks, best Python training institute in Delhi,  Noida, Jalandhar and Amritsar. We offer Python course for beginners."
     },
     {
       "name": "keywords",
@@ -15,7 +15,7 @@
     "url": "https://codingblocks.com/classroom-courses/python-for-beginners.html",
     "title": "Python Beginner & Advanced Course | Coding Blocks",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
-    "description": "Learn Python at Coding Blocks, best Python training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Python course for beginners."
+    "description": "Learn Python at Coding Blocks, best Python training institute in Delhi,  Noida, Jalandhar and Amritsar. We offer Python course for beginners."
   },
   "header": {
     "heading": "Python For Beginners",
@@ -166,8 +166,15 @@
 	  {
 		  "center": "Pitampura",
 		  "startdate": "Jun 08",
-		  "enddate": "Jun 29",
-		  "daytime": "Fri, Wed (03:30 PM - 06:30 PM); Mon (10:30 AM - 01:30 PM)",
+		  "enddate": "Jul 02",
+		  "daytime": "Fri, Mon, Wed (10:30 AM - 01:30 PM)",
+		  "batchtype": "Regular"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "Jun 13",
+		  "enddate": "Aug 01",
+		  "daytime": "Wed (10:00 AM - 4:00 PM), Sun (10:00 AM - 4:00 PM)",
 		  "batchtype": "Regular"
 	  }
   ],

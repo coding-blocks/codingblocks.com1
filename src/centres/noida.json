@@ -1,13 +1,13 @@
 {
-  "title": "Best Programming Coaching in Greater Noida, NCR | Coding Blocks",
+  "title": "Best Programming Coaching in Noida, NCR | Coding Blocks",
   "metas": [
     {
       "name": "description",
-      "content": "India's best programming & software training institute Coding Blocks Greater Noida offers Java, Web development & Android coaching classes in Greater Noida."
+      "content": "India's best programming & software training institute Coding Blocks Noida offers Java, Web development & Android coaching classes in Greater Noida."
     }
   ],
   "header": {
-    "heading": "Greater Noida",
+    "heading": "Noida",
     "subHeading": "Coding Blocks",
     "breadcrumbs": [
       {
@@ -26,16 +26,16 @@
     "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
   },
   "centerLocation": {
-    "name": "Greater Noida Center",
+    "name": "Noida Center",
     "inPageLink": "location",
-    "location": "2nd Floor<br>Rohtas Technosquare,<br> C-40, Knowledge Park – 1,<br>(Near Pari Chowk)<br> Greater Noida, Uttar Pradesh",
+    "location": "Coding Blocks Noida,<br> First Floor, A-73, Sector-2 <br> (50m from Sector-15 Metro Station), Noida - 201301",
     "contactPerson": "Varun Kohli",
     "phoneNumbers": [
       "9999579111",
       "9999579222"
     ],
     "email": "varun@codingblocks.com",
-    "mapAddress": "Knowledge Park I, Greater Noida, Uttar Pradesh 201310",
+    "mapAddress": "A-73, A Block, Sector 2, Noida, Uttar Pradesh 201301",
     "isSection": true,
     "isFilled": true
   },
@@ -53,11 +53,9 @@
       "Priyanshu Agrawal",
       "Prateek Narang",
       "Arnav Gupta",
-      "Sumeet Malik",
-      "HARPREET SINGH",
-      "NIPUN JAIN",
       "ANUJ GARG",
-      "Mohd Fahad"
+      "Harshit Dwivedi",
+      "RISHABH KHANNA"
     ]
   }
 }
