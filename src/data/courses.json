@@ -205,12 +205,12 @@
     },
     {
       "id": "course14",
-      "name": "Web Development using Java",
+      "name": "Advanced Java",
       "price": "20,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Launchpad Online",
       "lectures": "(24 lectures)",
-      "link": "/classroom-courses/web-development-using-java.html",
+      "link": "/classroom-courses/advanced-java.html",
 	  "badge": "Starting this June",
       "description": [
         "App Development in Java"
