@@ -1,6 +1,6 @@
 {
-  "name": "Advanced Java",
-  "title": "Advanced Java Training in Delhi, Greater Noida | Advanced Java by Coding Blocks",
+  "name": "Web Development using Java",
+  "title": "Web Development using Java Training in Delhi, Noida | Web Development using Java by Coding Blocks",
   "metas": [
     {
       "name": "description",
@@ -8,13 +8,13 @@
     }
   ],
   "openGraph": {
-    "url": "https://codingblocks.com/courses/advancedjava.html",
-    "title": "Advanced Java",
+    "url": "https://codingblocks.com/classroom-courses/web-development-using-java.html",
+    "title": "Web Development using Java",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
     "description": "Learn Advanced Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar."
   },
   "header": {
-    "heading": "Advanced Java",
+    "heading": "Web Development using Java",
     "subHeading": "Project Based web development course using Spring Boot",
     "breadcrumbs": [
       {

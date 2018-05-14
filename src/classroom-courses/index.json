@@ -93,6 +93,31 @@
 	  "odd": "true"
 	}
   ],
+  "coursesRow6": [
+    {
+      "id": "bootcamp02",
+      "odd": true
+    },
+    {
+      "id": "bootcamp07"
+    },
+    {
+      "id": "bootcamp05",
+      "odd": true
+    }
+  ],
+  "coursesRow7": [
+    {
+      "id": "bootcamp04"
+    },
+    {
+      "id": "bootcamp08",
+      "odd": true
+    },
+    {
+      "id": "bootcamp09"
+    }
+  ],
   "courseReviews": [
     "Naman Kumar",
     "RISHABH KHANNA",
