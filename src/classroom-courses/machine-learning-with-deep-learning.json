@@ -179,6 +179,13 @@
 		  "enddate": "Aug 01",
 		  "daytime": "Sat (4:00 PM  - 7:30 PM)    Sun (4:00 PM  - 7:30 PM)    Wed (3:00 PM - 7:00 PM)",
 		  "batchtype": "Regular"
+	  },
+    {
+		  "center": "Noida",
+		  "startdate": "Jun 12",
+		  "enddate": "Aug 04",
+		  "daytime": "Tue (3:30 PM  - 7:30 PM)    Thu (3:30 PM  - 7:30 PM)    Fri (3:30 PM - 7:30 PM)",
+		  "batchtype": "Regular"
 	  }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=120"
