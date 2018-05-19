@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "bdcf9cde-838b-4254-8d98-eb50b73c7a16",
+        });
+      });
+    </script>
     <title>{{title}}</title>
     {{> meta}}
     {{> head}}
