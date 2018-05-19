@@ -150,7 +150,7 @@
         "disabled": true,
         "buttonText": "Coming Soon"
     },
-    
+
     "highlights": [
       {
         "icon": "et-line-search",
@@ -206,5 +206,6 @@
 	  }
   ],
   "reviewSlug": "Android App Development Course",
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=114"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=114",
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=154"
 }
