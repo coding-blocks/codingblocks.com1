@@ -207,5 +207,7 @@
   ],
   "reviewSlug": "Android App Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=114",
-  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=154"
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=154",
+  "frame-id": "114",
+  "frame-id-noida": "154"
 }
