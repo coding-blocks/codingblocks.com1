@@ -6,34 +6,35 @@ PLEASE DO NOT EDIT THIS
 PLEASE DO NOT EDIT THIS
 -->
 
-{{#with events}}
+{{#with events}} {{#ifEquals upcoming true}}
 
-    {{#ifEquals upcoming true}}
+<section class="bg-secondary container-fluid text-center pad-b15">
+    <a id="upcoming" class="in-page-link"></a>
+    <h2>{{upcomingHeading}}</h2>
+    <div class="container">
+        <div class="row" id="upcoming-events-list-wrapper"></div>
+    </div>
 
-        <section class="bg-secondary container-fluid text-center pad-b15">
-            <a id="upcoming" class="in-page-link"></a>
-            <h2>{{upcomingHeading}}</h2>
-            <div class="container">
-                <div class="row" id="upcoming-events-list-wrapper"></div>
-            </div>
+    <!-- if no events available -->
+    <div class="alert alert-danger fade in">
 
-            {{#if moreEvents}}
-                <div class="row text-center">
-                    <a href="{{#relativePath @file.path '/events/'}}{{/relativePath}}"
-                       class="btn btn-white btn-filled btn-lg">More Events</a>
-                </div>
-            {{/if}}
-        </section>
-    {{/ifEquals}}
+        There are currently no events available, please check back again later
+    </div>
 
-    {{#ifEquals past true}}
 
-        <section class="bg-secondary container-fluid text-center pad-t15">
-            <a id="past" class="in-page-link"></a>
-            <h2>{{pastHeading}}</h2>
-            <div class="container">
-                <div class="row" id="past-events-list-wrapper"></div>
-            </div>
-        </section>
-    {{/ifEquals}}
-{{/with}}
+    {{#if moreEvents}}
+    <div class="row text-center">
+        <a href="{{#relativePath @file.path '/events/'}}{{/relativePath}}" class="btn btn-white btn-filled btn-lg">More Events</a>
+    </div>
+    {{/if}}
+</section>
+{{/ifEquals}} {{#ifEquals past true}}
+
+<section class="bg-secondary container-fluid text-center pad-t15">
+    <a id="past" class="in-page-link"></a>
+    <h2>{{pastHeading}}</h2>
+    <div class="container">
+        <div class="row" id="past-events-list-wrapper"></div>
+    </div>
+</section>
+{{/ifEquals}} {{/with}}
