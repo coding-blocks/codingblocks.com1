@@ -34,17 +34,17 @@
                         <div class="tab-content">
                             {{#if registerLink}}
                                 <div role="tabpanel" class="tab-pane active" id="delhi">
-                                    <iframe class="payment-widget" {{#if frame-id}}id="{{frame-id}}"{{/if}}
-                                            frameborder="0"
-                                            src="{{{registerLink}}}"></iframe>
+									<div class="container widget-container" data-widget-id='{{frame-id}}'>
+										<iframe class="payment-widget" {{#if frame-id}}id="{{frame-id}}"{{/if}} frameborder="0" src="{{{registerLink}}}"></iframe>
+									</div>
                                 </div>
                             {{/if}}
 
                             {{#if registerLinkNoida}}
                                 <div role="tabpanel" class="tab-pane" id="noida">
-                                     <iframe class="payment-widget" {{#if frame-id-noida}}id="{{frame-id-noida}}"{{/if}}
-                                             frameborder="0"
-                                             src="{{{registerLinkNoida}}}"></iframe>
+									<div class="container widget-container" data-widget-id='{{frame-id-noida}}'>
+										<iframe class="payment-widget" {{#if frame-id-noida}}id="{{frame-id-noida}}"{{/if}} frameborder="0" src="{{{registerLinkNoida}}}"></iframe>
+									 </div>
                                 </div>
                              {{/if}}
                         </div>
