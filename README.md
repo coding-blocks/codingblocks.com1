@@ -124,7 +124,7 @@ Handlebars Template files
     │   │   ├── centerlocation.hbs          # Center location & contact Box
     │   │   ├── course.hbs                  # Course price box 
     │   │   ├── coursecontents.hbs          # Course content section
-    │   │   ├── courseenroll.hbs            # Upcomig batches and price box section
+    │   │   ├── courseenroll.hbs            # Upcoming batches and price box section
     │   │   ├── coursefaq.hbs               # Course Faq section
     │   │   ├── coursehighlights.hbs        # Course Highlights section
     │   │   ├── courses.hbs                 # Courses section
