@@ -33,7 +33,7 @@
 
                         <div class="tab-content">
                             {{#if registerLink}}
-                                <div role="tabpanel" class="tab-pane active" id="delhi">
+                                <div role="tabpanel" class="container widget-container tab-pane active" id="delhi" {{#if frame-id}}data-widget-id="{{frame-id}}"{{/if}}>
                                     <iframe class="payment-widget" {{#if frame-id}}id="{{frame-id}}"{{/if}}
                                             frameborder="0"
                                             src="{{{registerLink}}}"></iframe>
@@ -41,7 +41,7 @@
                             {{/if}}
 
                             {{#if registerLinkNoida}}
-                                <div role="tabpanel" class="tab-pane" id="noida">
+                                <div role="tabpanel" class="container widget-container tab-pane" id="noida" {{#if frame-id-noida}}ata-widget-id="{{frame-id-noida}}"{{/if}}>
                                      <iframe class="payment-widget" {{#if frame-id-noida}}id="{{frame-id-noida}}"{{/if}}
                                              frameborder="0"
                                              src="{{{registerLinkNoida}}}"></iframe>
