@@ -10,12 +10,12 @@
     {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "CAST for Summer Batches is Back!",
+      "heading": "Results declared for CAST held in May 2018!",
       "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this summer",
       "button": [
         {
-          "link": "/cast.html",
-          "text": "Details & Registration",
+          "link": "http://students.codingblocks.com//admission_test_online/M18CAST/result_letter",
+          "text": "Click here for results",
           "filled": "true"
         }
       ]
