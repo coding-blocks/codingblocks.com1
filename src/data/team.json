@@ -127,6 +127,41 @@
       "bio": "Anuj is an open-source enthusiast and a GSoCer under the RedHat Foundation. He has worked in the core teams of various products by RedHat and is an expert in Enterprise Java and web services. He is also a mentor in GSoC '17 under the umbrella of JBoss for Servers and IoT monitoring."
     },
     {
+      "name": "Ashish Aapan",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/Ashish.JPG",
+      "imgAlt": "Ashish Aapan",
+      "bio": "Ashish is a 2017 Computer Science graduate from IIIT Delhi. Throughout his life, he has loved video games, and now is a successful game developer, with special expertise in Unity based development. He has built Applications for multiple platforms including VR, and loves to drive and race when he's not busy doing the same on video games."
+    },
+    {
+      "name": "Rishabh Khanna",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/Rishabh.jpg",
+      "imgAlt": "Rishabh Khanna",
+      "bio": "Rishabh has studied at Jaypee Noida and University of Florida, and is an expert developer. A long time associate of Coding Blocks in the measure of intern and TA, he will now be mentoring students for Android and web development. He has multiple apps on the Play Store, out of which one got over 5,000 downloads in no time at all."
+    },
+    {
+      "name": "Raj Kumar Saini - Center Head (Dehradun)",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/RajKumar.jpg",
+      "imgAlt": "Raj Kumar Saini",
+      "bio": "Raj Kumar Saini is a Computer Science graduate from DTU who has previously worked with Adobe, Amazon and DE Shaw among others. A robotics enthusiast, he is also proficient with data structures and algorithms. He has had multiple papers published in IEEE and reputed international journals, and had one of the top placements when he graduated from DTU."
+    },
+    {
+      "name": "Raunaq Verma",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/Raunaq.jpg",
+      "imgAlt": "Raunaq Verma",
+      "bio": "Raunaq Verma is currently mentoring students all over the globe on Udacity. A dev scholar on Google, he's an expert in Android and is a data science and machine learning enthusiast. When not indulging in app development, he can be found indulging in coffee. He has been associated with CB as a TA for a long time."
+    },
+    {
+      "name": "Kartik Mathur",
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/Kartik.JPG",
+      "imgAlt": "Kartik Mathur",
+      "bio": "An NSIT graduate, Kartik has worked with companies like DRDO and BEL. He has immense interest in technologies like IoT, DBMS, home automation and embedded systems. He has come to Coding Blocks to fulfill his passion for teaching. In his free time he likes to read books and play chess."
+    },
+    {
       "name": "Prajjwal Singh",
       "role": "Senior Developer",
       "imgSrc": "/assets/images/cb/team/c_prajjwal.JPG",
@@ -209,14 +244,6 @@
     {
       "name": "Naman Kumar",
       "imgSrc": "/assets/images/cb/team/Naman.jpg"
-    },
-    {
-      "name": "Raunaq Verma",
-      "imgSrc": "/assets/images/cb/team/Raunaq.jpg"
-    },
-    {
-    	"name": "Rishabh Khanna",
-        "imgSrc": "/assets/images/cb/team/Rishabh.jpg"
     }
   ]
 }
