@@ -151,7 +151,7 @@
 	  {
 		  "center": "Pitampura",
 		  "startdate": "Jun 08",
-		  "enddate": "Jun 25",
+		  "enddate": "Jun 29",
 		  "daytime": "Fri, Mon (09:00 AM - 01:30 PM); Thurs (12:15 PM - 03:30 PM)",
 		  "batchtype": "Regular"
 	  },
@@ -164,9 +164,9 @@
 	  },
 	  {
 		  "center": "Dwarka",
-		  "startdate": "Jun 05",
-		  "enddate": "Jun 26",
-		  "daytime": "Tue, Thu, Sat (10:00 AM - 02:00 PM)",
+		  "startdate": "Jun 09",
+		  "enddate": "Jun 30",
+		  "daytime": "Sat, Tue, Thu (10:00 AM - 02:00 PM)",
 		  "batchtype": "Regular"
 	  },
 	  {
