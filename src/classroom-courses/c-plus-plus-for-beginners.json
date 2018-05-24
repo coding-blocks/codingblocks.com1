@@ -111,8 +111,8 @@
 	  },
 	  {
 		"center": "Dwarka",
-		"startdate": "Jun 03",
-		"enddate": "Jun 24",
+		"startdate": "Jun 10",
+		"enddate": "Jul 01",
 		"daytime": "Sun, Wed, Fri (03:00 PM - 07:00 PM)",
 		"batchtype": "Regular"
 	  },
@@ -121,7 +121,7 @@
 		"startdate": "Jun 12",
 		"enddate": "Jun 28",
 		"daytime": "Tue, Thu, Fri, Sat (10:00 AM - 02:00 PM)",
-		"batchtype": "Regular"
+		"batchtype": "Fast Track"
 	  }
 	],
 	"scheduleLaunchpad": [
@@ -148,8 +148,8 @@
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "Jun 03",
-			"enddate": "Jul 27",
+			"startdate": "Jun 10",
+			"enddate": "Aug 05",
 			"daytime": "Sun, Wed, Fri (03:00 PM - 07:00 PM)",
 			"batchtype": "Regular"
 		},
@@ -158,7 +158,7 @@
 			"startdate": "Jun 12",
 			"enddate": "Jul 24",
 			"daytime": "Tue, Thu, Fri, Sat (10:00 AM - 02:00 PM)",
-			"batchtype": "Regular"
+			"batchtype": "Fast Track"
 		}
 	],
   "courseReviews": [
