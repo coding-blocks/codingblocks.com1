@@ -7,10 +7,23 @@
     }
   ],
   "slides": [
+     {
+      "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
+      "imgAlt": "",
+      "heading": "CAST for Summer Batches is Back!",
+      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this summer",
+      "button": [
+        {
+          "link": "/cast.html",
+          "text": "Details and Registration",
+          "filled": "true"
+        }
+      ]
+    },
     {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "Results declared for CAST held in May 2018!",
+      "heading": "Results declared for CAST held on 22 May",
       "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this summer",
       "button": [
         {
