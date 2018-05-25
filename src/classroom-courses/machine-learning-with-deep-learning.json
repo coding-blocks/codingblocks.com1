@@ -55,7 +55,7 @@
       "lectures": "Lectures 1-4",
       "points": [
         "Introduction to Machine Learning",
-        "Python 2.7 overview",
+        "Python 3.5 overview",
         "Linear Algebra",
         "Statistics and Probability",
         "Numpy, Scipy, and Scientific computation with Python"
