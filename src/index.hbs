@@ -23,9 +23,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2 class="uppercase mb16">courses</h2>
+                    <h2 class="uppercase mb16">Classroom Courses</h2>
                     <p class="lead mb64">
-                        Courses for all stages, with equal focus on theory and implementation</p>
+                        Classroom courses for all stages, with equal focus on theory and implementation</p>
                 </div>
             </div>
             {{> coursesRow courses=coursesRow1}}
@@ -35,6 +35,20 @@
             {{> coursesRow courses=coursesRow3}}
             {{> coursesRow courses=coursesRow4}}
             {{> coursesRow courses=coursesRow5}}
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="uppercase mb16">Online Courses</h2>
+                    <p class="lead mb64">
+                        The interactive learning for aspiring and experienced developers</p>
+                </div>
+            </div>
+            {{> coursesRow courses=onlineCoursesRow1}}
+            {{> coursesRow courses=onlineCoursesRow2}}
+            {{> coursesRow courses=onlineCoursesRow3}}
         </div>
     </section>
     {{> numbers}}
