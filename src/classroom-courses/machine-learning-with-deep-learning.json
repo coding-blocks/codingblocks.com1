@@ -55,7 +55,7 @@
       "lectures": "Lectures 1-4",
       "points": [
         "Introduction to Machine Learning",
-        "Python 2.7 overview",
+        "Python 3.5 overview",
         "Linear Algebra",
         "Statistics and Probability",
         "Numpy, Scipy, and Scientific computation with Python"
@@ -176,15 +176,22 @@
 	  {
 		  "center": "Pitampura",
 		  "startdate": "Jun 09",
-		  "enddate": "Aug 01",
-		  "daytime": "Sat (4:00 PM  - 7:30 PM)    Sun (4:00 PM  - 7:30 PM)    Wed (3:00 PM - 7:00 PM)",
+		  "enddate": "Jul 29",
+		  "daytime": "Sat, Sun, Tue, Thurs (04:00 PM - 07:30 PM)",
 		  "batchtype": "Regular"
 	  },
     {
+      "center": "Pitampura",
+      "startdate": "Jun 12",
+      "enddate": "Aug 05",
+      "daytime": "Tue, Sat, Sun (10:30 AM - 02:00 PM)",
+      "batchtype": "Regular"
+    },
+    {
 		  "center": "Noida",
 		  "startdate": "Jun 12",
-		  "enddate": "Aug 04",
-		  "daytime": "Tue (2:00 PM  - 6:00 PM)    Thu (2:00 PM  - 6:00 PM)    Fri (2:00 PM  - 6:00 PM)",
+		  "enddate": "Aug 03",
+		  "daytime": "Tue, Thu, Fri (02:00 PM - 06:00 PM)",
 		  "batchtype": "Regular"
 	  }
   ],

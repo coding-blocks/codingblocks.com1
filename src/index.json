@@ -7,15 +7,28 @@
     }
   ],
   "slides": [
-    {
+     {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "CAST for Summer Batches is Back!",
-      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this summer",
+      "heading": "CAST is Back!",
+      "content": "Win up to 75% scholarship for June batches of foundation courses",
       "button": [
         {
           "link": "/cast.html",
-          "text": "Details & Registration",
+          "text": "Details and Registration",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
+      "imgAlt": "",
+      "heading": "Results declared for CAST held on 22 May",
+      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this summer",
+      "button": [
+        {
+          "link": "http://students.codingblocks.com//admission_test_online/M18CAST/result_letter",
+          "text": "Click here for results",
           "filled": "true"
         }
       ]
@@ -239,6 +252,40 @@
       "odd": true,
 	  "combo": true
     }
+  ],
+  "onlineCoursesRow1": [
+    {
+      "id": "course12",
+      "odd": true
+    },
+    {
+      "id": "course26"
+    },
+    {
+      "id": "course18",
+      "odd": true
+    }
+  ],
+  "onlineCoursesRow2": [
+    {
+      "id": "course15"
+    },
+    {
+      "id": "course16",
+      "odd": true
+    },
+    {
+      "id": "course23"
+    }
+  ],
+  "onlineCoursesRow3": [
+    {
+      "id": "course17",
+      "odd": true
+    },
+  {
+      "id": "course24"
+  }
   ],
   "coursesSection": {
     "showAll": true
