@@ -17,9 +17,11 @@ PLEASE DO NOT EDIT THIS
                 <div class="row" id="upcoming-events-list-wrapper"></div>
             </div>
 
+         {{#ifEquals past false}}
             <div>
             Oops! No events available :(
             </div>
+          {{/ifEquals}}
 
             {{#if moreEvents}}
                 <div class="row text-center">
