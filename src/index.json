@@ -224,6 +224,9 @@
     {
       "id": "webdj",
       "odd": true
+    },
+    {
+      "id": "course30"
     }
   ],
   "cppInterviewRow": [

@@ -1,25 +1,25 @@
 {
-  "id": "course25",
-  "title": "Best Python Training in Delhi, Pitampura | Coding Blocks",
+  "id": "course30",
+  "title": "Best Python Training in Noida, Delhi, Pitampura | Coding Blocks",
   "metas": [
     {
       "name": "description",
-      "content": "Learn Python at Coding Blocks, best Python training institute in Delhi,  Noida, Jalandhar and Amritsar. We offer Python course for beginners."
+      "content": "Learn Python at Coding Blocks, best Python training institute in Delhi, Noida, Jalandhar and Amritsar. We offer Python course for application development."
     },
     {
       "name": "keywords",
-      "content": "python,data structures,algorithms,ds,graphs,trees,codingblocks,course,delhi,india"
+      "content": "python, database, applications, codingblocks, noida, course, delhi, india"
     }
   ],
   "openGraph": {
-    "url": "https://codingblocks.com/classroom-courses/python-for-beginners.html",
-    "title": "Python Beginner & Advanced Course | Coding Blocks",
+    "url": "https://codingblocks.com/classroom-courses/python-app-dev.html",
+    "title": "Python App Development Course | Coding Blocks",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
-    "description": "Learn Python at Coding Blocks, best Python training institute in Delhi,  Noida, Jalandhar and Amritsar. We offer Python course for beginners."
+    "description": "Learn Python at Coding Blocks, best Python training institute in Delhi, Noida, Jalandhar and Amritsar. We offer Python course for beginners."
   },
   "header": {
-    "heading": "Python For Beginners",
-    "subHeading": "Programming Fundamentals in Python",
+    "heading": "Python App Development",
+    "subHeading": "Programming Fundamentals and Desktop apps in Python",
     "breadcrumbs": [
       {
         "linkText": "Highlights",
@@ -37,8 +37,8 @@
     "bgSrc": "../../../assets/images/cb/cover/covergcp.jpg"
   },
   "overview": {
-    "content": "<p>The Beginners Python course is designed to help students new to programming or otherwise to learn python from basics. The first part of the course help students to understand how python syntax works, related concepts and the latter part deals with automating mundane tasks using python. Through this course, students will be made comfortable with python for computations, object-oriented python, and python standard template library.</p><p>This course includes multiple activities through which students will have hands-on experience of python programming. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to learn data Science, Machine Learning or web development using Django in future.</p>",
-	"buttonLink": "#crux-bundle-content"
+    "content": "<p>The Python Application Development course is designed to help students new to programming or otherwise to learn python from ground up to level of making interesting desktop applications and games. The first part of the course help students to understand how python syntax works, related concepts and the latter part deals with automating mundane tasks using python. Through this course, students will be made comfortable with python for computations, object-oriented python, python standard template library, databases and desktop application.</p><p>This course includes multiple activities through which students will have hands-on experience of python programming. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to learn data Science, Machine Learning or web development using Django in future.</p>",
+	"buttonLink": "#python-bundle-content"
   },
   "courseHighlights": [
     {
@@ -47,19 +47,19 @@
       "content": "We have designed our course keeping in mind the requirements of beginners.Course starts with fundamentals of logic building and problem solving."
     },
     {
-      "icon": "et-line-puzzle",
-      "title": "Problem Solving",
-      "content": "The course is designed to sharpen the problem solving skills of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems."
-    },
-    {
       "icon": "et-line-layers",
       "title": "OOP Concepts",
       "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready."
     },
     {
-      "icon": "et-line-linegraph",
-      "title": "Python STL",
-      "content": "We take a deep dive into Python's extensive built in standard library that makes a plethora of tasks, that are harder to do in other contemporary languages, trivial."
+      "icon": "fa fa-database",
+      "title": "Database ORM",
+      "content": "We cover relational databases as, Databases are most crucial part of application development as all the data related to objects of app need to be stored and queried in efficient way."
+    },
+    {
+      "icon": "fa fa-laptop",
+      "title": "Desktop Apps",
+      "content": "We take a deep dive into Python's extensive built in standard library and use them to make feature efficient desktop UI applications."
     }
   ],
   "courseContents": [
@@ -137,8 +137,8 @@
       "ans": "This course will cover programming principles from scratch using Python. If you already know one of the aforementioned programming languages, it will only be easier for you to pick up the concepts taught in the course, but knowledge is in no way a prerequisite."
     },
     {
-      "ques": "Will this help me in making websites and apps?",
-      "ans": "This course is designed to give you a solid foundation upon which you can build further skills in Application Development, Web Development, Data Science, and other fields. It does not discuss these topics explicitly."
+      "ques": "Will this help me in making desktop apps?",
+      "ans": "This course is designed to give you a solid foundation in programming wrapped up with Desktop Application Development. It will help you discover further with Web Development, Data Science, and other fields."
     }
   ],
   "mentors": {
@@ -148,12 +148,12 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-		"Himank Bhalla"
+		"Anuj Garg"
     ]
   },
   "courseEnroll": {
-	  "upcomingBatches": "Batches Starting Soon at Pitampura",
-	  "price": "8,000",
+	  "upcomingBatches": "Batches Starting Soon at Noida",
+	  "price": "12,000",
 	  "highlights": [
 	  ],
 	  "registerButton": {
@@ -163,13 +163,13 @@
   },
   "schedule": [
 	  {
-		  "center": "Pitampura",
-		  "startdate": "Jun 08",
-		  "enddate": "Jul 02",
-		  "daytime": "Fri, Mon, Wed (10:30 AM - 01:30 PM)",
+		  "center": "Noida",
+		  "startdate": "Jun 13",
+		  "enddate": "Aug 01",
+		  "daytime": "Wed (10:00 AM - 4:00 PM), Sun (10:00 AM - 4:00 PM)",
 		  "batchtype": "Regular"
 	  }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=131",
-  "frame-id": "131"
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=155",
+  "frame-id-noida": "155"
 }
