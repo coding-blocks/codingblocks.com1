@@ -17,6 +17,12 @@ PLEASE DO NOT EDIT THIS
                 <div class="row" id="upcoming-events-list-wrapper"></div>
             </div>
 
+         {{#ifNotEquals past true}}
+            <div>
+            Oops! No events available :(
+            </div>
+          {{/ifEquals}}
+
             {{#if moreEvents}}
                 <div class="row text-center">
                     <a href="{{#relativePath @file.path '/events/'}}{{/relativePath}}"
