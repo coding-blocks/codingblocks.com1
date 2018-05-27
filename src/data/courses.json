@@ -499,6 +499,23 @@
       ],
       "batches": [
       ]
+    },
+    {
+      "id": "course30",
+      "name": "Python App Development",
+      "price": "12,000",
+      "imgSrc": "/assets/images/cb/logosc/color_python.svg",
+      "imgAlt": "Python app development course logo",
+      "lectures": "(15 lectures)",
+      "link": "/classroom-courses/python-app-dev.html",
+      "badge": "Starting June 13",
+      "description": [
+        "Python fundamentals",
+        "Web scrapping",
+        "Desktop Application"
+      ],
+      "batches": [
+      ]
     }
   ]
 }
