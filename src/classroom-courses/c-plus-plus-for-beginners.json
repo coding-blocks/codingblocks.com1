@@ -84,7 +84,8 @@
     "teamMembers": [
       "Prateek Narang",
       "Deepak Aggarwal",
-      "Rajesh Sachdev"
+      "Rajesh Sachdev",
+      "Kartik Mathur"
     ]
   },
 	"scheduleCpp": [
@@ -157,7 +158,7 @@
 			"center": "Noida",
 			"startdate": "Jun 12",
 			"enddate": "Jul 24",
-			"daytime": "Tue, Thu, Fri, Sat (10:00 AM - 02:00 PM)",
+			"daytime": "Tue, Thu, Fri, Sat (09:30 AM - 01:30 PM)",
 			"batchtype": "Fast Track"
 		}
 	],
