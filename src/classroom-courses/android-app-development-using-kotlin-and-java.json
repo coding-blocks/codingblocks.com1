@@ -200,8 +200,8 @@
 		  "center": "Noida",
 		  "startdate": "Jun 14",
 		  "enddate": "Jul 26",
-		  "daytime": "Mon, Tue, Thu, Fri (10:00 AM - 02:00 PM)",
-		  "batchtype": "Regular"
+		  "daytime": "Mon, Tue, Thu, Fri (02:30 PM - 06:30 PM)",
+		  "batchtype": "Fast Track"
 	  }
   ],
   "reviewSlug": "Android App Development Course",
