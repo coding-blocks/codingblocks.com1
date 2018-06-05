@@ -156,8 +156,7 @@
   "courseEnroll": {
     "upcomingBatches": "Upcoming Batches:",
     "registerButton":{
-      "disabled": true,
-      "buttonText": "Coming Soon"
+      "buttonText": "Register Now"
     },
     "highlights": [
       {

@@ -48,18 +48,13 @@
     },
     {
       "imgSrc": "/assets/images/cb/cover/cover_admission.png",
-      "imgAlt": "Python Courses Starting This June",
-      "heading": "Python Courses Starting This June",
-      "content": "Coding Blocks introduces two new courses in Python. <br/>Delve into the world of coding with one of the most “in fashion” languages.",
+      "imgAlt": "django course Starting This June",
+      "heading": "django course Starting This June",
+      "content": "Learn Web Development using Django at Coding Blocks and become a pro in just 15 classes!",
       "button": [
         {
-          "link": "/courses/classroom/foundation/python-for-beginners.html",
-          "text": "Python for Beginners",
-		  "filled": "true"
-        },
-        {
           "link": "/courses/classroom/development/web-development-django.html",
-          "text": "Web Development",
+          "text": "Register Now",
 		  "filled": "true"
         }
       ]
@@ -78,19 +73,6 @@
         {
           "link": "/courses/online/interviewprep.html",
           "text": "Online Course",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
-      "imgAlt": "",
-      "heading": "Classroom Courses Starting This June",
-      "content": "Upskill yourselves this summer with our huge lineup of classroom courses and bootcamps.",
-      "button": [
-        {
-          "link": "/courses/",
-          "text": "Browse Courses",
           "filled": "true"
         }
       ]
