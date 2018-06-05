@@ -38,7 +38,7 @@
     "bgSrc": "/assets/images/cb/cover/cover_node.jpg"
   },
   "overview": {
-    "content": "<p class=\"lead\">Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source. Django was designed to help developers take applications from concept to completion as quickly as possible. It takes security seriously and helps developers avoid many common security mistakes. The most important advantage is its scalability. Some of the busiest sites on the Web leverage Django’s ability to quickly and flexibly scale.</p> <p class=\"lead\"><strong>Course Starting July 2!</strong></p>",
+    "content": "<p class=\"lead\">Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source. Django was designed to help developers take applications from concept to completion as quickly as possible. It takes security seriously and helps developers avoid many common security mistakes. The most important advantage is its scalability. Some of the busiest sites on the Web leverage Django’s ability to quickly and flexibly scale.</p> <p class=\"lead\"><strong>Course Starting June 29!</strong></p>",
 	"buttonDisabled": false,
 	"buttonText": "Register Now"
   },
