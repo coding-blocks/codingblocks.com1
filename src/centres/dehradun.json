@@ -40,14 +40,7 @@
     "isFilled": true
   },
   "coursesSection": {
-    "coursesList": [
-      "course08",
-      "course01",
-      "course02",
-      "course25",
-      "course03",
-      "course23"
-    ]
+    "coursesList": []
   },
   "teamCentre": {
     "heading": "team",
