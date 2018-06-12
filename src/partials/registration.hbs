@@ -29,6 +29,13 @@
                                                                                        data-toggle="tab">Noida (50&percnt; inaugural discount)</a>
                               </li>
                           {{/if}}
+                          {{#if registerLinkDehradun}}
+                              <li role="presentation" class="wide-tab" id="tab-dehradun"><a href="#dehradun"
+                                                                                         aria-controls="profile"
+                                                                                         role="tab"
+                                                                                         data-toggle="tab">Dehradun (50&percnt; inaugural discount)</a>
+                              </li>
+                          {{/if}}
                       </ul>
 
                         <div class="tab-content">
@@ -94,6 +101,14 @@
                                          src="{{{registerLinkNoida}}}"></iframe>
                             </div>
                          {{/if}}
+
+                        {{#if registerLinkDehradun}}
+                            <div role="tabpanel" class="tab-pane" id="dehradun">
+                                <iframe class="payment-widget" {{#if frame-id-dehradun}}id="{{frame-id-dehradun}}"{{/if}}
+                                        frameborder="0"
+                                        src="{{{registerLinkDehradun}}}"></iframe>
+                            </div>
+                        {{/if}}
                     </div>
                 </div>
             {{/if}}
