@@ -100,7 +100,9 @@
 		"teamMembers": [
 			"Rishab Kapoor",
 			"Garima Chhikara",
-			"ANUJ GARG"
+			"ANUJ GARG",
+			"Raj Kumar Saini",
+			"Raunaq Verma"
 	]
 	},
 	"schedule": [
@@ -196,5 +198,7 @@
 		"ANSH SACHDEVA",
 		"GAGARIN DASH",
 		"KSHITIJ BANSAL"
-	]
+	],
+	"registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=169",
+	"frame-id-dehradun": "169"
 }

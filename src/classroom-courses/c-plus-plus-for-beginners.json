@@ -85,7 +85,9 @@
       "Prateek Narang",
       "Deepak Aggarwal",
       "Rajesh Sachdev",
-      "Kartik Mathur"
+      "Kartik Mathur",
+      "Raj Kumar Saini",
+      "Raunaq Verma"
     ]
   },
 	"scheduleCpp": [
@@ -167,5 +169,9 @@
     "SHREYA GUPTA",
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
-  ]
+  ],
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=164",
+  "frame-id-dehradun": "164",
+  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=165",
+  "frame-id-dehradun-lp": "165"
 }

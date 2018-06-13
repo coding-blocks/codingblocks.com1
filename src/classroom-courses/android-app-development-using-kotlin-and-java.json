@@ -170,7 +170,9 @@
     "contentCenter": true,
     "teamMembers": [
       "Arnav Gupta",
-      "Harshit Dwivedi"
+      "Harshit Dwivedi",
+      "Raj Kumar Saini",
+      "Raunaq Verma"
     ]
   },
   "courseReviews": [
@@ -207,6 +209,8 @@
   "reviewSlug": "Android App Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=114",
   "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=154",
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=168",
   "frame-id": "114",
-  "frame-id-noida": "154"
+  "frame-id-noida": "154",
+  "frame-id-dehradun": "168"
 }
