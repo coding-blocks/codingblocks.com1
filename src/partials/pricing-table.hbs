@@ -27,8 +27,13 @@
     {{/if}}
     {{#if registerButton}}
         {{#with registerButton}}
-            <a class="btn btn-white btn-lg" href="#register{{#if registerIdSlug}}{{{registerIdSlug}}}{{/if}}"
+			{{#if buttonLink}}
+				<a class="btn btn-white btn-lg" href="{{{buttonLink}}}"
                {{#ifEquals disabled true}}disabled{{/ifEquals}}>{{{buttonText}}}</a>
+			{{else}}
+				<a class="btn btn-white btn-lg" href="#register{{#if registerIdSlug}}{{{registerIdSlug}}}{{/if}}"
+				   {{#ifEquals disabled true}}disabled{{/ifEquals}}>{{{buttonText}}}</a>
+			{{/if}}
         {{/with}}
     {{else}}
         <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
