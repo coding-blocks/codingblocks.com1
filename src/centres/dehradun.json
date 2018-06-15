@@ -1,0 +1,69 @@
+{
+  "title": "Best Programming Coaching in Dehradun, New Delhi | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "India's best programming & software training institute Coding Blocks Dwarka offers Java, Web development & Android coaching classes in Dwarka, New Delhi."
+    }
+  ],
+  "header": {
+    "heading": "Dehradun",
+    "subHeading": "Coding Blocks",
+    "breadcrumbs": [
+      {
+        "linkText": "Location",
+        "link": "#location"
+      },
+      {
+        "linkText": "Team",
+        "link": "#team"
+      },
+      {
+        "linkText": "Courses",
+        "link": "#courses"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "centerLocation": {
+    "name": "Dehradun Center",
+    "inPageLink": "location",
+    "location": "Second Floor, Suvidha Supermarket, 220/105, Saharanpur Road, Patel Nagar, Dehradun - 248001",
+    "contactPerson": "Raj Kumar Saini",
+    "phoneNumbers": [
+      "7830031872",
+      "9540613790"
+    ],
+    "email": "rajesh@codingblocks.com",
+    "mapAddress": "Coding Blocks, Dehradun",
+    "isSection": true,
+    "isFilled": true
+  },
+  "coursesSection": {
+    "coursesList": []
+  },
+  "teamCentre": {
+    "heading": "team",
+    "content": "",
+    "flip": true,
+    "meetTeam": true,
+    "showAll": false,
+    "companies": false,
+    "centreHead": {
+      "name": "Raj Kumar Saini",
+      "role": "Centre Head and Mentor",
+      "imgSrc": "/assets/images/cb/team/RajKumar.jpg",
+      "imgAlt": "Raj Kumar Saini",
+      "bio": "Raj Kumar Saini is a Computer Science graduate from DTU who has previously worked with Adobe, Amazon and DE Shaw among others. A robotics enthusiast, he is also proficient with data structures and algorithms. He has had multiple papers published in IEEE and reputed international journals, and had one of the top placements when he graduated from DTU."
+    },
+    "teamMembers": [
+      "Raunaq Verma"
+    ]
+  },
+  "courseReviews": [
+    "naman kumar",
+    "Abhilasha Batra",
+    "Gurleen Kailey",
+    "Shivam Gandhi"
+  ]
+}

@@ -37,8 +37,7 @@
     "bgSrc": "../../../assets/images/cb/cover/covergcp.jpg"
   },
   "overview": {
-    "content": "<p>The Beginners Python course is designed to help students new to programming or otherwise to learn python from basics. The first part of the course help students to understand how python syntax works, related concepts and the latter part deals with automating mundane tasks using python. Through this course, students will be made comfortable with python for computations, object-oriented python, and python standard template library.</p><p>This course includes multiple activities through which students will have hands-on experience of python programming. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to learn data Science, Machine Learning or web development using Django in future.</p>",
-	"buttonLink": "#crux-bundle-content"
+    "content": "<p>The Beginners Python course is designed to help students new to programming or otherwise to learn python from basics. The first part of the course help students to understand how python syntax works, related concepts and the latter part deals with automating mundane tasks using python. Through this course, students will be made comfortable with python for computations, object-oriented python, and python standard template library.</p><p>This course includes multiple activities through which students will have hands-on experience of python programming. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to learn data Science, Machine Learning or web development using Django in future.</p><p> Thanks for the overwhelming response. Seats are now full at all centres, registrations closed.</p>"
   },
   "courseHighlights": [
     {
@@ -148,21 +147,24 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-		"Himank Bhalla"
+		"Himank Bhalla",
+      "Raj Kumar Saini",
+      "Raunaq Verma"
     ]
   },
   "courseEnroll": {
-	  "upcomingBatches": "Batches Starting Soon at Pitampura",
+	  "upcomingBatches": "Registrations closed !",
 	  "price": "8,000",
 	  "highlights": [
 	  ],
 	  "registerButton": {
-		  "disabled": false,
+		  "disabled": true,
 		  "buttonText": "Register Now"
 	  }
   },
   "schedule": [
 	  {
+      "registerBoxHeading": "Registrations Closed !",
 		  "center": "Pitampura",
 		  "startdate": "Jun 08",
 		  "enddate": "Jul 02",
@@ -171,5 +173,7 @@
 	  }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=131",
-  "frame-id": "131"
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=167",
+  "frame-id": "131",
+  "frame-id-dehradun": "167"
 }

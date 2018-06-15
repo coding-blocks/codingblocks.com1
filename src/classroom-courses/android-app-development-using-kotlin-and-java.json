@@ -170,7 +170,9 @@
     "contentCenter": true,
     "teamMembers": [
       "Arnav Gupta",
-      "Harshit Dwivedi"
+      "Harshit Dwivedi",
+      "Raj Kumar Saini",
+      "Raunaq Verma"
     ]
   },
   "courseReviews": [
@@ -200,13 +202,15 @@
 		  "center": "Noida",
 		  "startdate": "Jun 14",
 		  "enddate": "Jul 26",
-		  "daytime": "Mon, Tue, Thu, Fri (10:00 AM - 02:00 PM)",
-		  "batchtype": "Regular"
+		  "daytime": "Mon, Tue, Thu, Fri (02:30 PM - 06:30 PM)",
+		  "batchtype": "Fast Track"
 	  }
   ],
   "reviewSlug": "Android App Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=114",
   "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=154",
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=168",
   "frame-id": "114",
-  "frame-id-noida": "154"
+  "frame-id-noida": "154",
+  "frame-id-dehradun": "168"
 }
