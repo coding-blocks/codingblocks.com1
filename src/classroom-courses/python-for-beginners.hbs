@@ -32,9 +32,9 @@
                                                     </div>
                                                 </div>
                                                 <div role="tabpanel" class="tab-pane" id="dehradun">
-                                                    <iframe class="payment-widget" {{#if frame-id-dehradun}}id="{{frame-id-dehradun}}"{{/if}}
-                                                            frameborder="0"
-                                                            src="{{{registerLinkDehradun}}}"></iframe>
+													<div class="widget-container" {{#if frame-id-dehradun}}data-widget-id='{{frame-id-dehradun}}'{{/if}}>
+															<iframe class="payment-widget" {{#if frame-id-dehradun}}id="{{frame-id-dehradun}}"{{/if}} frameborder="0" src="{{{registerLinkDehradun}}}"></iframe>
+													</div>
                                                 </div>
                                             </div>
                                         </div>
