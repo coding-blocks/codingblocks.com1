@@ -27,13 +27,17 @@
 			<h2 class="heading">Enroll in Complete Launchpad Course</h2>
 			<p class="description">Embark upon this journey from being an amateur coder to a DS-Algo expert with our complete C++ course.</p>
 			<a href="/courses/classroom/c-plus-plus.html#launchpad-bundle-content" class="btn btn-filled">Launchpad - Complete Bundle</a>
-		</div>
+            <div class="widget-container" {{#if frame-id-pitampura-lp}}data-widget-id='{{frame-id-pitampura-lp}}'{{/if}}>
+	            <iframe class="payment-widget" {{#if frame-id-pitampura-lp}}id="{{frame-id-pitampura-lp}}"{{/if}} frameborder="0" src="{{{registerLinkPitampuraLP}}}"></iframe>
+	        </div>
+        </div>
 	</section>
     {{> courseenroll}}
 	{{> courseschedule}}
-    <div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
-                                             <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>
-                                         </div>
+    {{!-- <div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
+        <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>
+    </div> --}}
+                                         
     {{> team team=mentors}}
     {{> coursefaq}}
     {{> review-course-section}}

@@ -104,28 +104,44 @@
                                     <div class="text-center">
                                         <h3>REGISTER NOW</h3></div>
                                     <div class="container">
-                                        <div class="course-tabs">
+                                        <div class="course-tabs" id="bas">
                                             <ul class="nav nav-tabs" role="tablist">
-                                                <li role="presentation" class="wide-tab active" id="tab-delhi"><a href="#delhi" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Delhi</a></li>
+                                                <li role="presentation" class="wide-tab active" id="tab-delhi"><a href="#delhi" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Pitampura</a></li>
                                                 <li role="presentation" class="wide-tab" id="tab-noida"><a href="#noida" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida (50% inaugural discount)</a></li>
                                                 <li role="presentation" class="wide-tab" id="tab-dehradun"><a href="#dehradun" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dehradun (50% inaugural discount)</a></li>
+                                                <li role="presentation" class="wide-tab" id="tab-dwarka"><a href="#dwarka" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dwarka</a></li>
                                             </ul>
                                             <div class="tab-content">
                                                 <div role="tabpanel" class="tab-pane active" id="delhi">
-                                                    <div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
+                                                    <iframe class="payment-widget" {{#if frame-id-pitampura-lp}}id="{{frame-id-pitampura-lp}}"{{/if}}
+                                                      frameborder="0"
+                                                      src="{{{registerLinkPitampuraLP}}}"></iframe>
+                                                      src="{{{registerLinkPitampuraLP}}}"></iframe>
+                                                    {{!-- <div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
                                                         <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                                 <div role="tabpanel" class="tab-pane" id="noida">
-                                                    <div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
+                                                    <iframe class="payment-widget" {{#if frame-id-noida-lp}}id="{{frame-id-noida-lp}}"{{/if}}
+                                                      frameborder="0"
+                                                      src="{{{registerLinkNoidaLP}}}"></iframe>
+                                                    {{!-- <div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
                                                         <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                                 <div role="tabpanel" class="tab-pane" id="dehradun">
-													<div class="widget-container" {{#if frame-id-dehradun}}data-widget-id='{{frame-id-dehradun}}'{{/if}}>
+                                                    <iframe class="payment-widget" {{#if frame-id-dehradun-lp}}id="{{frame-id-dehradun-lp}}"{{/if}}
+                                                            frameborder="0"
+                                                            src="{{{registerLinkDehradunLP}}}"></iframe>
+													{{!-- <div class="widget-container" {{#if frame-id-dehradun}}data-widget-id='{{frame-id-dehradun}}'{{/if}}>
 														<iframe class="payment-widget" {{#if frame-id-dehradun}}id="{{frame-id-dehradun}}"{{/if}} frameborder="0" src="{{{registerLinkDehradun}}}"></iframe>
-													</div>
+													</div> --}}
                                                 </div>
+                                                <div role="tabpanel" class="tab-pane" id="dwarka">
+                                                <iframe class="payment-widget" {{#if frame-id-dwarka-lp}}id="{{frame-id-dwarka-lp}}"{{/if}}
+                                                        frameborder="0"
+                                                        src="{{{registerLinkDwarkaLP}}}"></iframe>
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -249,28 +265,40 @@
                                     <div class="text-center">
                                       <h3>REGISTER NOW</h3></div>
                                     <div class="container">
-                                      <div class="course-tabs">
+                                      <div class="course-tabs" id="adv">
                                         <ul class="nav nav-tabs" role="tablist">
-                                          <li role="presentation" class="wide-tab" id="tab-delhi"><a href="#delhi" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Delhi</a></li>
+                                            <li role="presentation" class="wide-tab" id="tab-delhi"><a href="#delhi" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Pitampura</a></li>
                                             <li role="presentation" class="wide-tab" id="tab-noida"><a href="#noida" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida (50% inaugural discount)</a></li>
                                             <li role="presentation" class="wide-tab active" id="tab-dehradun"><a href="#dehradun" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dehradun (50% inaugural discount)</a></li>
+                                            <li role="presentation" class="wide-tab" id="tab-dwarka"><a href="#dwarka" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dwarka</a></li>
                                         </ul>
                                         <div class="tab-content">
                                           <div role="tabpanel" class="tab-pane" id="delhi">
-                                          	<div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
-                                             <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>
-                                         </div>
+                                              <iframe class="payment-widget" {{#if frame-id-pitampura-lp}}id="{{frame-id-pitampura-lp}}"{{/if}}
+                                                      frameborder="0"
+                                                      src="{{{registerPitampuraLP}}}"></iframe>
+                                              <!--<div class="col-xs-12 text-center bg-secondary" style="height: 100%;">-->
+                                             <!--<p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>-->
+                                         <!--</div>-->
                                           </div>
                                           <div role="tabpanel" class="tab-pane" id="noida">
-                                            <div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
-                                                <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>
-                                            </div>
+                                              <iframe class="payment-widget" {{#if frame-id-noida-lp}}id="{{frame-id-noida-lp}}"{{/if}}
+                                                      frameborder="0"
+                                                      src="{{{registerLinkNoidaLP}}}"></iframe>
+                                            <!--<div class="col-xs-12 text-center bg-secondary" style="height: 100%;">-->
+                                                <!--<p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>-->
+                                            <!--</div>-->
                                           </div>
                                           <div role="tabpanel" class="tab-pane active" id="dehradun">
-                                                    <iframe class="payment-widget" {{#if frame-id-dehradunlp}}id="{{frame-id-dehradunlp}}"{{/if}}
+                                                    <iframe class="payment-widget" {{#if frame-id-dehradun-lp}}id="{{frame-id-dehradun-lp}}"{{/if}}
                                                             frameborder="0"
                                                             src="{{{registerLinkDehradunLP}}}"></iframe>
-                                                </div>
+                                           </div>
+                                            <div role="tabpanel" class="tab-pane" id="dwarka">
+                                                <iframe class="payment-widget" {{#if frame-id-dwarka-lp}}id="{{frame-id-dwarka-lp}}"{{/if}}
+                                                        frameborder="0"
+                                                        src="{{{registerLinkDwarkaLP}}}"></iframe>
+                                            </div>
                                             
                                         </div>
                                       </div>
@@ -308,6 +336,47 @@
             $('#content-basic').toggleClass('active');
             $('#launchpad-bundle').toggleClass('active');
 		})
+
+        $('#bas #tab-delhi').on('click', function () {
+            var paymentIframe = $('iframe.payment-widget')
+            paymentIframe.attr('src', '{{{registerLinkPitampuraLP}}}')
+        })
+
+        $('#bas #tab-noida').on('click', function () {
+            var paymentIframe = $('iframe.payment-widget')
+            paymentIframe.attr('src', '{{{registerLinkNoidaLP}}}')
+        })
+
+        $('#bas #tab-dehradun').on('click', function () {
+            var paymentIframe = $('iframe.payment-widget')
+            paymentIframe.attr('src', '{{{registerLinkDehradunLP}}}')
+        })
+
+        $('#bas #tab-dwarka').on('click', function () {
+            var paymentIframe = $('iframe.payment-widget')
+            paymentIframe.attr('src', '{{{registerLinkDwarkaLP}}}')
+        })
+
+        $('#adv #tab-delhi').click ( function () {
+            var paymentIframe = $('iframe.payment-widget')
+            paymentIframe.attr('src', '{{{registerLinkPitampuraLP}}}')
+        })
+
+        $('#adv #tab-noida').on('click', function () {
+            var paymentIframe = $('iframe.payment-widget')
+            paymentIframe.attr('src', '{{{registerLinkNoidaLP}}}')
+        })
+
+        $('#adv #tab-dehradun').on('click', function () {
+            var paymentIframe = $('iframe.payment-widget')
+            paymentIframe.attr('src', '{{{registerLinkDehradunLP}}}')
+        })
+
+        $('#adv #tab-dwarka').on('click', function () {
+            var paymentIframe = $('iframe.payment-widget')
+            paymentIframe.attr('src', '{{{registerLinkDwarkaLP}}}')
+        })
+
     })
 </script>
 
