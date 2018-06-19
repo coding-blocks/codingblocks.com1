@@ -116,25 +116,16 @@
                                                     <iframe class="payment-widget" {{#if frame-id-pitampura-lp}}id="{{frame-id-pitampura-lp}}"{{/if}}
                                                       frameborder="0"
                                                       src="{{{registerLinkPitampuraLP}}}"></iframe>
-                                                    {{!-- <div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
-                                                        <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>
-                                                    </div> --}}
                                                 </div>
                                                 <div role="tabpanel" class="tab-pane" id="noida-bas">
                                                     <iframe class="payment-widget" {{#if frame-id-noida-lp}}id="{{frame-id-noida-lp}}"{{/if}}
                                                       frameborder="0"
                                                       src="{{{registerLinkNoidaLP}}}"></iframe>
-                                                    {{!-- <div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
-                                                        <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>
-                                                    </div> --}}
                                                 </div>
                                                 <div role="tabpanel" class="tab-pane" id="dehradun-bas">
                                                     <iframe class="payment-widget" {{#if frame-id-dehradun-lp}}id="{{frame-id-dehradun-lp}}"{{/if}}
                                                             frameborder="0"
                                                             src="{{{registerLinkDehradunLP}}}"></iframe>
-													{{!-- <div class="widget-container" {{#if frame-id-dehradun}}data-widget-id='{{frame-id-dehradun}}'{{/if}}>
-														<iframe class="payment-widget" {{#if frame-id-dehradun}}id="{{frame-id-dehradun}}"{{/if}} frameborder="0" src="{{{registerLinkDehradun}}}"></iframe>
-													</div> --}}
                                                 </div>
                                                 <div role="tabpanel" class="tab-pane" id="dwarka-bas">
                                                 <iframe class="payment-widget" {{#if frame-id-dwarka-lp}}id="{{frame-id-dwarka-lp}}"{{/if}}
@@ -329,47 +320,6 @@
             $('#content-basic').toggleClass('active');
             $('#launchpad-bundle').toggleClass('active');
 		})
-
-        /*$('#bas #tab-delhi').on('click', function () {
-            var paymentIframe = $('iframe.payment-widget')
-            paymentIframe.attr('src', '{{{registerLinkPitampuraLP}}}')
-        })
-
-        $('#bas #tab-noida').on('click', function () {
-            var paymentIframe = $('iframe.payment-widget')
-            paymentIframe.attr('src', '{{{registerLinkNoidaLP}}}')
-        })
-
-        $('#bas #tab-dehradun').on('click', function () {
-            var paymentIframe = $('iframe.payment-widget')
-            paymentIframe.attr('src', '{{{registerLinkDehradunLP}}}')
-        })
-
-        $('#bas #tab-dwarka').on('click', function () {
-            var paymentIframe = $('iframe.payment-widget')
-            paymentIframe.attr('src', '{{{registerLinkDwarkaLP}}}')
-        })
-
-        $('#adv #tab-delhi').click ( function () {
-            var paymentIframe = $('iframe.payment-widget')
-            paymentIframe.attr('src', '{{{registerLinkPitampuraLP}}}')
-        })
-
-        $('#adv #tab-noida').on('click', function () {
-            var paymentIframe = $('iframe.payment-widget')
-            paymentIframe.attr('src', '{{{registerLinkNoidaLP}}}')
-        })
-
-        $('#adv #tab-dehradun').on('click', function () {
-            var paymentIframe = $('iframe.payment-widget')
-            paymentIframe.attr('src', '{{{registerLinkDehradunLP}}}')
-        })
-
-        $('#adv #tab-dwarka').on('click', function () {
-            var paymentIframe = $('iframe.payment-widget')
-            paymentIframe.attr('src', '{{{registerLinkDwarkaLP}}}')
-        })*/
-
     })
 </script>
 
