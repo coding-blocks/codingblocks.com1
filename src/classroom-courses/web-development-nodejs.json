@@ -218,5 +218,17 @@
   ],
   "reviewSlug": "Web Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=116",
-  "frame-id": "116"
+  "frame-id": "116",
+
+  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=169",
+  "frame-id-dehradun-lp": "169",
+
+	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=173",
+	"frame-id-pitampura-lp": "173",
+
+	"registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=179",
+	"frame-id-dwarka-lp": "179",
+
+	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=183",
+	"frame-id-noida-lp": "183"
 }
