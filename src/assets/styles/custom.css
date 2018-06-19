@@ -92,6 +92,7 @@ p.lead {
 }
 
 .payment-widget {
+    margin-top: 8px;
     width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -402,7 +403,7 @@ ol.syllabus {
     }
 
     .wide-tab > a {
-        padding: 2rem 7rem !important;
+        padding: 2rem 4rem !important;
         font-size: 2rem !important;
     }
 
