@@ -825,7 +825,7 @@ footer, section {
 }
 
 .pricing-card.courses-card, .pricing-table.courses-card {
-    height: 450px;
+    height: 500px;
 }
 
 .pricing-table {
@@ -1003,7 +1003,27 @@ footer, section {
     margin-bottom: 0;
 }
 
+.banner .p32{
+    padding: 32px;
+}
+
+.banner .container-fluid {
+    background-color : #f8f8f8; 
+}
+
+.banner .visit-link {
+    margin-top: 18px;
+    text-align: right;
+}
+
 @media (max-width: 767px) {
+    .banner,.banner .visit-link {
+        text-align: center !important;
+    }
+    .pricing-table.courses-card br {
+        display: block;
+    }
+
     .complete-course-box {
         padding: 10px;
         margin-top: 10px;

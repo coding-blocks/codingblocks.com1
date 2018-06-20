@@ -201,7 +201,8 @@
         "Programming Fundamentals In C++"
       ],
       "batches": [
-      ]
+      ],
+      "online-link": "https://online.codingblocks.com/courses/23"
     },
     {
       "id": "course14",
@@ -267,7 +268,8 @@
         "Web Design",
         "Deployment &amp; System Adminstration",
         "LIVE Project &amp; Hackathon"
-      ]
+      ],
+      "online-link": "https://online.codingblocks.com/courses/18"
     },
     {
       "id": "course16",
@@ -288,7 +290,8 @@
         {
           "slug": "Course Starting this June"
         }
-      ]
+      ],
+      "online-link": "https://online.codingblocks.com/courses/17"
     },
     {
       "id": "course17",
@@ -304,7 +307,8 @@
         "UI and Animations",
         "Database &amp; Internet Connected Apps",
         "LIVE Project & Pitching Session"
-      ]
+      ],
+      "online-link": "https://online.codingblocks.com/courses/22"
     },
     {
       "id": "course18",
@@ -322,7 +326,8 @@
         {
           "slug": "Online batch starting from <strong>28 Feb</strong>"
         }
-      ]
+      ],
+      "online-link": "https://online.codingblocks.com/courses/25"
     },
     {
       "id": "course19",
@@ -406,7 +411,8 @@
       "link": "/online-courses/coding-interview-preparation-online.html",
       "description": [
 		  "Ace that Technical Interview"
-      ]
+      ],
+      "online-link": "https://online.codingblocks.com/courses/33"
     },
     {
       "id": "course24",
@@ -424,7 +430,8 @@
         "3 Live Projects &amp; Hackathon"
       ],
       "batches": [
-      ]
+      ],
+      "online-link": "https://online.codingblocks.com/courses/40"
     },
     {
       "id": "course25",
@@ -452,7 +459,8 @@
         "Advanced DS-Algo in C++"
       ],
       "batches": [
-      ]
+      ],
+      "online-link": "https://online.codingblocks.com/courses/26"
     },
     {
       "id": "course27",
