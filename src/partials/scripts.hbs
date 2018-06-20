@@ -35,31 +35,32 @@
 {{/if}}
 
 <script>
-// Reloads payment widgets wrapped within bootstrap tabs.
-// Workaround for the payment widget becoming unusable in cases when its parent
-// is set to `display: none;` when the page is loaded.
+    // Reloads payment widgets wrapped within bootstrap tabs.
+    // Workaround for the payment widget becoming unusable in cases when its parent
+    // is set to `display: none;` when the page is loaded.
 
-let tabs = $('.course-tabs a[data-toggle="tab"]')
+    let tabs = $('.course-tabs a[data-toggle="tab"]')
 
-function renderPaymentWidget (containerElement) {
-  let element = $(containerElement).find ('.widget-container')
-  let widgetId = $(element).data ('widgetId')
-  let widgetString = `<iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id=${widgetId}"></iframe>`
+    function renderPaymentWidget (containerElement) {
+        let element = $(containerElement).find ('.widget-container')
+        let widgetId = $(element).data ('widgetId')
 
-  if (widgetId) {
-	element.html (widgetString)
-  }
-}
+        let widgetString = `<iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id=${widgetId}"></iframe>`
 
-$('.course-tabs .tab-pane.active').each (function (index, element) {
-  renderPaymentWidget (element)
-})
+        if (widgetId) {
+            element.html (widgetString)
+        }
+    }
 
-tabs.on('shown.bs.tab', function (e) {
-  let activatedTab = $($(e.target).attr ('href')),
-	  previouslyActiveTab = $($(e.relatedTarget).attr ('href'))
-  ;
+    $('.course-tabs .tab-pane.active').each (function (index, element) {
+        renderPaymentWidget (element)
+    })
 
-  renderPaymentWidget (activatedTab)
-})
+    tabs.on('shown.bs.tab', function (e) {
+        let activatedTab = $($(e.target).attr ('href')),
+            previouslyActiveTab = $($(e.relatedTarget).attr ('href'))
+        ;
+
+        renderPaymentWidget (activatedTab)
+    })
 </script>
