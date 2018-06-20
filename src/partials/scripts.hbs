@@ -44,6 +44,7 @@
     function renderPaymentWidget (containerElement) {
         let element = $(containerElement).find ('.widget-container')
         let widgetId = $(element).data ('widgetId')
+
         let widgetString = `<iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id=${widgetId}"></iframe>`
 
         if (widgetId) {
@@ -57,7 +58,7 @@
 
     tabs.on('shown.bs.tab', function (e) {
         let activatedTab = $($(e.target).attr ('href')),
-                previouslyActiveTab = $($(e.relatedTarget).attr ('href'))
+            previouslyActiveTab = $($(e.relatedTarget).attr ('href'))
         ;
 
         renderPaymentWidget (activatedTab)
