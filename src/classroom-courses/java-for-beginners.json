@@ -200,5 +200,17 @@
 		"KSHITIJ BANSAL"
 	],
 	"registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=169",
-	"frame-id-dehradun": "169"
+	"frame-id-dehradun": "169",
+
+	"registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=169",
+  	"frame-id-dehradun-lp": "169",
+
+	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=171",
+	"frame-id-pitampura-lp": "171",
+
+	"registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=178",
+	"frame-id-dwarka-lp": "178",
+
+	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=182",
+	"frame-id-noida-lp": "182"
 }
