@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    <style>
+        .highlight {
+            background: url("../assets/images/success-stories/bg.jpg") no-repeat 0 0 fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        }
+
+        .highlightOverlay {
+            background-color: #230c28;
+            opacity: 1;
+        }
+
+        .highlight h2 {
+            color: #fff;
+            margin-top: 40px;
+            font-size: 52px;
+            font-weight: 500;
+            text-shadow: 0px 0px 13px rgba(256, 256, 256, 0.7);
+            transition: all 300ms linear;
+        }
+
+        .highlight h2:hover {
+            text-shadow: 0px 0px 20px rgba(256, 256, 256, 0.9);
+            transition: all 300ms linear
+        }
+
+        .flip-card {
+            width: 26%;
+            margin-left: 4%;
+            margin-right: 3%;
+            padding: 15px 15px !important;
+            height: 100%;
+        }
+
+        .title {
+            margin-top: 10px;
+        }
+
+        @media (max-width: 215px) {
+            .flip-card {
+                width: 96%;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+        }
+
+        @media (min-width: 216px) and (max-width: 460px) {
+            .flip-card {
+                width: 90%;
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+        }
+
+        @media (min-width: 461px) and (max-width: 767px) {
+            .flip-card {
+                width: 45%;
+                margin-left: 3%;
+                margin-right: 0%;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .flip-card {
+                width: 45%;
+                margin-left: 3%;
+                margin-right: 0%;
+            }
+        }
+
+        .hover-light {
+            -webkit-box-shadow: 0px 0px 15px 4px rgba(256, 256, 256, 0.3);
+            -moz-box-shadow: 0px 0px 15px 4px rgba(256, 256, 256, 0.3);
+            box-shadow: 0px 0px 15px 4px rgba(256, 256, 256, 0.3);
+            transition: all 300ms linear
+        }
+
+        .hover-light:hover {
+            -webkit-box-shadow: 0px 0px 35px 4px rgba(256, 256, 256, 0.5);
+            -moz-box-shadow: 0px 0px 35px 4px rgba(256, 256, 256, 0.5);
+            box-shadow: 0px 0px 35px 4px rgba(256, 256, 256, 0.5);
+            transition: all 300ms linear
+        }
+    </style>
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <!-- SECTION: Home hero slider-->
+    <a id="home_hero_header" class="in-page-link"></a>
+    <!--STORIES-->
+    <!-- id should be passed through function call in button-->
+    <!--STORIES END-->
+    <section style="margin-bottom: 0px;">
+        <div class="image-bg" style="margin-bottom: 0px;">
+            <div class="background-image-holder" style="margin-bottom: 0px; height: 115%">
+                <img alt="Bountiful Open Source Summer" class="background-image"
+                     src="../assets/images/success-stories/wall.jpg">
+            </div>
+            <div class="container" style="margin-bottom: 0px;">
+                <div class="row">
+                    <div class="col-sm-6 text-center"
+                         style="padding-left: 50px;vertical-align: middle;margin-top: 3%;margin-bottom: 3%;">
+                        <h2 class="uppercase mb16" style="font-size: 50px;font-weight: 600;">Success Stories</h2>
+                        <!--
+                        <p class="lead mb64" style="font-weight: 500;font-size: 24px">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </p>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION: Numbers-->
+    {{> numbers}}
+    <section style="background: #f8f8f8;">
+        {{!-- <div class="row text-center" style="margin-bottom: 40px;">
+            <h3 class="uppercase text-center">Success Stories</h3>
+        </div> --}}
+        <div class="highlight highlightOverlay" style="margin-bottom: 0px;">
+            <div class="container">
+                <div class="row text-center" style="margin-bottom: 40px;">
+                    <h2 class="uppercase text-center">Success Stories</h2>
+                </div>
+                <div class="team row text-center">
+                </div>
+            </div>
+        </div>
+    </section>
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+<script>
+    $('.storyButton').click(function () {
+        let parent = '#' + $(this).closest("div").prop("id");
+        console.log(parent);
+        $(parent + ' .modal').modal("toggle");
+    });
+
+    $.ajax ({
+        url: "http://localhost:3000/public_stories",
+        type: "GET",
+        success: function (stories) {
+            console.log (stories)
+            var container = $('.team')
+            for (i in stories) {
+                container.append(
+                    `<div id="story${stories[i].id}" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
+                        <div class="title mb0 text-center">
+                            <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}<br></h4>
+                            <h5 class="uppercase mb0 bold">${stories[i].stories}<br></h5>
+                        </div>
+                    </div>`
+                )
+            }
+        }
+    })
+</script>
+</body>
+</html>
