@@ -23,6 +23,10 @@
         <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
                 linkText}}
             Register Now{{else}}{{{linkText}}}{{/unless}}</a>
+            <br>
+        {{#if online-link}}
+            <a href="{{online-link}}">Try For Free</a>
+        {{/if}}
     </div>
 </div>
 <!--endcourse-->
