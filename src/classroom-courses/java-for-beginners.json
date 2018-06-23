@@ -147,6 +147,13 @@
 			"enddate": "Jun 28",
 			"daytime": "Tue, Thu, Sat, Sun (02:30 PM - 06:30 PM)",
 			"batchtype": "Fast Track"
+		},
+		{
+			"center": "Dehradun",
+			"startdate": "July 1",
+			"enddate": "July 17",
+			"daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
+			"batchtype": "Fast Track"
 		}
 	],
 	"scheduleCrux": [
@@ -190,6 +197,13 @@
 			"startdate": "Jun 12",
 			"enddate": "Jul 24",
 			"daytime": "Tue, Thu, Fri, Sat (10:00 AM - 02:00 PM)",
+			"batchtype": "Regular"
+		},
+		{
+			"center": "Dehradun",
+			"startdate": "July 1",
+			"enddate": "Aug 11",
+			"daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
 			"batchtype": "Regular"
 		}
 	],
