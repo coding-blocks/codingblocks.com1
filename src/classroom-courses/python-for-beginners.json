@@ -170,7 +170,14 @@
 		  "enddate": "Jul 02",
 		  "daytime": "Fri, Mon, Wed (10:30 AM - 01:30 PM)",
 		  "batchtype": "Regular"
-	  }
+	  },
+    {
+      "center": "Dehradun",
+      "startdate": "July 01",
+      "enddate": "Jul 19",
+      "daytime": "Tue, Thu, Sat, Sun (02:00 PM - 05:30 PM)",
+      "batchtype": "Regular"
+    }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=131",
   "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=167",

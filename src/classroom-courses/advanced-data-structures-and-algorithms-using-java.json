@@ -114,7 +114,14 @@
 		  "enddate": "Jul 07",
 		  "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)",
 		  "batchtype": "Regular"
-	  }
+	  },
+    {
+      "center": "Dehradun",
+      "startdate": "July 19",
+      "enddate": "Aug 11",
+      "daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
+      "batchtype": "Regular"
+    }
   ],
   "courseReviews": [
     "YAMINI GAUR",
