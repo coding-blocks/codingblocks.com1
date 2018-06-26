@@ -4,91 +4,53 @@
     <title>{{title}}</title>
     {{> meta}}
     {{> head}}
-    <style>
-        .highlight {
-            background: url("../assets/images/success-stories/bg.jpg") no-repeat 0 0 fixed;
-            background-size: cover;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
+      <style>
+
+        h4 {
+            margin: 0;
         }
 
-        .highlightOverlay {
-            background-color: #230c28;
-            opacity: 1;
+        .ssCard {
+            background: white;
+            border-radius: 20px;
+            padding-top: 85px;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
         }
 
-        .highlight h2 {
-            color: #fff;
-            margin-top: 40px;
-            font-size: 52px;
-            font-weight: 500;
-            text-shadow: 0px 0px 13px rgba(256, 256, 256, 0.7);
-            transition: all 300ms linear;
+        .ssImage {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 100;
         }
 
-        .highlight h2:hover {
-            text-shadow: 0px 0px 20px rgba(256, 256, 256, 0.9);
-            transition: all 300ms linear
+        .ssContainer {
+            position: relative;
+            padding-top: 75px;
         }
 
-        .flip-card {
-            width: 26%;
-            margin-left: 4%;
-            margin-right: 3%;
-            padding: 15px 15px !important;
-            height: 100%;
+        .ssLogo {
+            text-align: center;
+            background: #F0F0F0;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        .title {
-            margin-top: 10px;
+        .ssData {
+            text-align: center;
+            padding-top: 20px;
         }
 
-        @media (max-width: 215px) {
-            .flip-card {
-                width: 96%;
-                margin-left: 1%;
-                margin-right: 1%;
-            }
+        .round-img {
+            border-radius: 50%;
+            border: 5px solid white;
+            width: 150px;
+            height: 150px;
         }
 
-        @media (min-width: 216px) and (max-width: 460px) {
-            .flip-card {
-                width: 90%;
-                margin-left: 4%;
-                margin-right: 4%;
-            }
-        }
-
-        @media (min-width: 461px) and (max-width: 767px) {
-            .flip-card {
-                width: 45%;
-                margin-left: 3%;
-                margin-right: 0%;
-            }
-        }
-
-        @media (min-width: 768px) and (max-width: 1024px) {
-            .flip-card {
-                width: 45%;
-                margin-left: 3%;
-                margin-right: 0%;
-            }
-        }
-
-        .hover-light {
-            -webkit-box-shadow: 0px 0px 15px 4px rgba(256, 256, 256, 0.3);
-            -moz-box-shadow: 0px 0px 15px 4px rgba(256, 256, 256, 0.3);
-            box-shadow: 0px 0px 15px 4px rgba(256, 256, 256, 0.3);
-            transition: all 300ms linear
-        }
-
-        .hover-light:hover {
-            -webkit-box-shadow: 0px 0px 35px 4px rgba(256, 256, 256, 0.5);
-            -moz-box-shadow: 0px 0px 35px 4px rgba(256, 256, 256, 0.5);
-            box-shadow: 0px 0px 35px 4px rgba(256, 256, 256, 0.5);
-            transition: all 300ms linear
-        }
     </style>
 </head>
 <body class="scroll-assist">
@@ -154,14 +116,56 @@
             console.log (stories)
             var container = $('.team')
             for (i in stories) {
-                container.append(
-                    `<div id="story${stories[i].id}" class="flip-card hover-light col-sm-6 col-md-3 pricing-card pricing-card-inverse">
-                        <div class="title mb0 text-center">
-                            <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}<br></h4>
-                            <h5 class="uppercase mb0 bold">${stories[i].stories}<br></h5>
-                        </div>
-                    </div>`
-                )
+              container.append(
+                `
+
+                <div class="ssContainer col-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="ssImage">
+                <img class="round-img" src="${stories[i].photo}" >
+                </div>
+                <div id="story${stories[i].id}" class="ssCard">
+                <div class="title mb0 text-center">
+                <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
+                <h5>${stories[i].coursesAttended}<br></h5>
+                </div>
+                <div class="ssLogo">
+                <img src="http://logo.clearbit.com/steelbird.com" >
+                </div>
+                <div class="bold ssData">View Testimonial > </div>
+                </div>
+                </div>
+ <div class="ssContainer col-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="ssImage">
+                <img class="round-img" src="http://logo.clearbit.com/google.com" >
+                </div>
+                <div id="story${stories[i].id}" class="ssCard">
+                <div class="title mb0 text-center">
+                <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
+                <h5>${stories[i].coursesAttended}<br></h5>
+                </div>
+                <div class="ssLogo">
+                <img src="http://logo.clearbit.com/steelbird.com" >
+                </div>
+                <div class="bold ssData">View Testimonial > </div>
+                </div>
+                </div>
+ <div class="ssContainer col-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="ssImage">
+                <img class="round-img" src="http://logo.clearbit.com/google.com" >
+                </div>
+                <div id="story${stories[i].id}" class="ssCard">
+                <div class="title mb0 text-center">
+                <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
+                <h5>${stories[i].coursesAttended}<br></h5>
+                </div>
+                <div class="ssLogo">
+                <img src="http://logo.clearbit.com/steelbird.com" >
+                </div>
+                <div class="bold ssData">View Testimonial > </div>
+                </div>
+                </div>
+                `
+              )
             }
         }
     })
