@@ -23,7 +23,6 @@ function setCarousel() {
 
     if(currentScreen === MOBILE) {
         if (wasOncePC) {
-            console.log('YOOOO');
             var arr = []
             $('.multi-item-carousel .item .card').each(function (index) {
                 if (index % 3 !== 1) {
