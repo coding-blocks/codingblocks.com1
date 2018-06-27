@@ -10,12 +10,12 @@
     {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "Results declared for CAST held on June 1",
-      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this summer",
+      "heading": "Admissions open for August batches",
+      "content": "Get enrolled now !",
       "button": [
         {
-          "link": "http://students.codingblocks.com//admission_test_online/J18CAST/result_letter",
-          "text": "Check Results Here",
+          "link": "/courses",
+          "text": "Courses",
           "filled": "true"
         }
       ]
@@ -80,7 +80,7 @@
     {
       "imgSrc": "/assets/images/cb/cover/cover3.jpg",
       "imgAlt": "",
-      "heading": "Online Courses Starting This June",
+      "heading": "Presenting the country's best online courses",
       "content": "Learn from the comfort of your homes, and excel in various techincal areas.",
       "button": [
         {
