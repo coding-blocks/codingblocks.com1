@@ -8,6 +8,14 @@
 
         h4 {
             margin: 0;
+        }   
+
+        .flippy{
+            max-width: 360px;
+        }
+
+        .front{
+            width: calc(100% - 30px) !important;
         }
 
         .ssCard {
@@ -16,6 +24,10 @@
             padding-top: 85px;
             padding-bottom: 20px;
             margin-bottom: 40px;
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 300px;
+            width: 95%;
         }
 
         .ssImage {
@@ -32,24 +44,68 @@
 
         .ssLogo {
             text-align: center;
-            background: #F0F0F0;
-            height: 60px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
 
         .ssData {
             text-align: center;
             padding-top: 20px;
+            cursor: pointer;
         }
+
+        .ssStory {
+            height: 100px;
+            white-space: wrap;
+            overflow: auto;
+            text-overflow: ellipsis;
+        }
+
+        .ellipsis {
+            height: 100px;
+            line-height: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
 
         .round-img {
             border-radius: 50%;
             border: 5px solid white;
             width: 150px;
             height: 150px;
+            {{!-- margin-left: -30px; --}}
         }
+
+        .highlight {
+            background: url("../assets/images/success-stories/bg.jpg") no-repeat 0 0 fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        }
+
+        .highlightOverlay {
+            background-color: #230c28;
+            opacity: 1;
+        }
+
+        .highlight h2 {
+            color: #fff;
+            margin-top: 40px;
+            font-size: 52px;
+            font-weight: 500;
+            text-shadow: 0px 0px 13px rgba(256, 256, 256, 0.7);
+            transition: all 300ms linear;
+        }
+
+        .highlight h2:hover {
+            text-shadow: 0px 0px 20px rgba(256, 256, 256, 0.9);
+            transition: all 300ms linear
+        }
+
+        .title {
+            margin-top: 10px;
+        }
+
 
     </style>
 </head>
@@ -116,57 +172,69 @@
             console.log (stories)
             var container = $('.team')
             for (i in stories) {
+
+                let internship = stories[i].internships
+                let placement = stories[i].placements
+                let company = null
+
+                if (placement[0]) {
+                    company = placement[0].company.logoUrl
+                    if (!company) {
+                        company = 'http://logo.clearbit.com/' + placement[0].company.companyUrl
+                    }
+                } else {
+                    company = internship[0].company.logoUrl
+                    if (!company) {
+                        company = 'http://logo.clearbit.com/' + internship[0].company.companyUrl
+                    }
+                }
+
+
               container.append(
                 `
 
-                <div class="ssContainer col-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="ssImage">
-                <img class="round-img" src="${stories[i].photo}" >
-                </div>
-                <div id="story${stories[i].id}" class="ssCard">
-                <div class="title mb0 text-center">
-                <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
-                <h5>${stories[i].coursesAttended}<br></h5>
-                </div>
-                <div class="ssLogo">
-                <img src="http://logo.clearbit.com/steelbird.com" >
-                </div>
-                <div class="bold ssData">View Testimonial > </div>
-                </div>
-                </div>
- <div class="ssContainer col-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="ssImage">
-                <img class="round-img" src="http://logo.clearbit.com/google.com" >
-                </div>
-                <div id="story${stories[i].id}" class="ssCard">
-                <div class="title mb0 text-center">
-                <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
-                <h5>${stories[i].coursesAttended}<br></h5>
-                </div>
-                <div class="ssLogo">
-                <img src="http://logo.clearbit.com/steelbird.com" >
-                </div>
-                <div class="bold ssData">View Testimonial > </div>
-                </div>
-                </div>
- <div class="ssContainer col-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="ssImage">
-                <img class="round-img" src="http://logo.clearbit.com/google.com" >
-                </div>
-                <div id="story${stories[i].id}" class="ssCard">
-                <div class="title mb0 text-center">
-                <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
-                <h5>${stories[i].coursesAttended}<br></h5>
-                </div>
-                <div class="ssLogo">
-                <img src="http://logo.clearbit.com/steelbird.com" >
-                </div>
-                <div class="bold ssData">View Testimonial > </div>
-                </div>
-                </div>
+                <div class="flippy col-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="front">    
+                        <div class="ssContainer">    
+                            <div class="ssImage">
+                                <img class="round-img" src="${stories[i].photo}" >
+                            </div>
+                            <div id="story${stories[i].id}" class="ssCard">
+                                <div class="title mb0 text-center">
+                                    <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
+                                    <h5>${stories[i].coursesAttended}<br></h5>
+                                </div>
+                                <div class="ssLogo">
+                                    <img width="64px" src="${company}" >
+                                </div>
+                                <div class="bold ssData">View Testimonial > </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back">    
+                        <div class="ssContainer">
+                            <div class="ssImage">
+                                <img class="round-img" src="${stories[i].photo}" >
+                            </div>
+                            <div id="story${stories[i].id}" class="ssCard">
+                                <div class="title mb0 text-center">
+                                    <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
+                                    <h5>${stories[i].coursesAttended}<br></h5>
+                                    <div class="ellipsis">${stories[i].stories}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                
                 `
               )
             }
+            $('.flippy').flip({
+                axis: 'y',
+                trigger: 'click'
+            })
         }
     })
 </script>
