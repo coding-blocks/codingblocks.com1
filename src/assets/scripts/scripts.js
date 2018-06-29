@@ -1515,3 +1515,13 @@ window.addEventListener("message", function (data) {
             break
     }
 });
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    $("nav").addClass('navfx');
+  } else {
+    $("nav").removeClass('navfx');
+  }
+  prevScrollpos = currentScrollPos;
+}

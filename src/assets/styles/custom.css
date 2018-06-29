@@ -1079,6 +1079,10 @@ footer, section {
     nav.fixed {
         position: relative !important;
     }
+
+    nav.navfx {
+    position: fixed !important;
+}
 }
 
 .g-recaptcha {
