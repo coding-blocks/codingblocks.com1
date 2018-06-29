@@ -633,7 +633,7 @@ h1 .sub-heading {
 /*Review Box*/
 .reviewBox {
     display: inline-block;
-    width: 78%;
+    width: 70%;
     margin-left: 2%;
     position: relative;
     text-align: left;
