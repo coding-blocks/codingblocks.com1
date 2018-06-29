@@ -147,49 +147,63 @@
 			"enddate": "Jun 28",
 			"daytime": "Tue, Thu, Sat, Sun (02:30 PM - 06:30 PM)",
 			"batchtype": "Fast Track"
+		},
+		{
+			"center": "Dehradun",
+			"startdate": "July 1",
+			"enddate": "July 17",
+			"daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
+			"batchtype": "Fast Track"
 		}
 	],
 	"scheduleCrux": [
 		{
 			"center": "Pitampura",
-			"startdate": "May 27",
-			"enddate": "Jul 10",
-			"daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)",
-			"batchtype": "Fast Track"
+			"startdate": "Aug 12",
+			"enddate": "Nov 03",
+			"daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
+			"batchtype": "Morning"
 		},
 		{
 			"center": "Pitampura",
-			"startdate": "Jun 08",
-			"enddate": "Aug 05",
-			"daytime": "Fri, Mon (09:00 AM - 01:30 PM); Thurs (12:15 PM - 03:30 PM)",
-			"batchtype": "Regular"
+			"startdate": "Aug 12",
+			"enddate": "Nov 03",
+			"daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
+			"batchtype": "Afternoon"
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "May 28",
-			"enddate": "Jul 07",
-			"daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)",
-			"batchtype": "Fast Track"
+			"startdate": "Aug 12",
+			"enddate": "Nov 03",
+			"daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
+			"batchtype": "Morning"
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "Jun 09",
-			"enddate": "Aug 05",
-			"daytime": "Sat, Tue, Thu (10:00 AM - 02:00 PM)",
-			"batchtype": "Regular"
-		},
-		{
-			"center": "Dwarka",
-			"startdate": "Jun 13",
-			"enddate": "Aug 06",
-			"daytime": "Mon, Wed, Fri (10:00 AM - 02:00 PM)",
-			"batchtype": "Regular"
+			"startdate": "Aug 12",
+			"enddate": "Nov 03",
+			"daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
+			"batchtype": "Afternoon"
 		},
 		{
 			"center": "Noida",
-			"startdate": "Jun 12",
-			"enddate": "Jul 24",
-			"daytime": "Tue, Thu, Fri, Sat (10:00 AM - 02:00 PM)",
+			"startdate": "Aug 12",
+			"enddate": "Nov 03",
+			"daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
+			"batchtype": "Morning"
+		},
+		{
+			"center": "Noida",
+			"startdate": "Aug 12",
+			"enddate": "Nov 03",
+			"daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
+			"batchtype": "Afternoon"
+		},
+		{
+			"center": "Dehradun",
+			"startdate": "July 1",
+			"enddate": "Aug 11",
+			"daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
 			"batchtype": "Regular"
 		}
 	],

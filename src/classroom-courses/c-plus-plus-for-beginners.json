@@ -125,44 +125,66 @@
 		"enddate": "Jun 28",
 		"daytime": "Tue, Thu, Fri, Sat (10:00 AM - 02:00 PM)",
 		"batchtype": "Fast Track"
-	  }
+	  },
+      {
+        "center": "Dehradun",
+        "startdate": "Jul 02",
+        "enddate": "Jul 18",
+        "daytime": "Mon, Wed, Fri, Sun (02:00 PM - 05:30 PM)",
+        "batchtype": "Fast Track"
+      }
 	],
 	"scheduleLaunchpad": [
 		{
 			"center": "Pitampura",
-			"startdate": "May 27",
-			"enddate": "Jul 08",
-			"daytime": "Sun, Tue, Thu, Sat (08:00 AM - 11:30 AM)",
-			"batchtype": "Fast Track"
+			"startdate": "Aug 12",
+			"enddate": "Nov 03",
+			"daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
+			"batchtype": "Morning"
 		},
 		{
 			"center": "Pitampura",
-			"startdate": "Jun 09",
-			"enddate": "Aug 04",
-			"daytime": "Sat, Tues, Thurs (12:15 PM - 03:30 PM)",
-			"batchtype": "Regular"
+			"startdate": "Aug 12",
+			"enddate": "Nov 03",
+			"daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
+			"batchtype": "Afternoon"
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "May 27",
-			"enddate": "Jul 06",
-			"daytime": "Sun, Mon, Wed, Fri (10:00 AM - 02:00 PM)",
-			"batchtype": "Fast Track"
+			"startdate": "Aug 12",
+			"enddate": "Nov 03",
+            "daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
+            "batchtype": "Morning"
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "Jun 10",
-			"enddate": "Aug 05",
-			"daytime": "Sun, Wed, Fri (03:00 PM - 07:00 PM)",
-			"batchtype": "Regular"
+            "startdate": "Aug 12",
+            "enddate": "Nov 03",
+            "daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
+            "batchtype": "Afternoon"
 		},
-		{
-			"center": "Noida",
-			"startdate": "Jun 12",
-			"enddate": "Jul 24",
-			"daytime": "Tue, Thu, Fri, Sat (09:30 AM - 01:30 PM)",
-			"batchtype": "Fast Track"
-		}
+        {
+            "center": "Noida",
+            "startdate": "Aug 12",
+            "enddate": "Nov 03",
+            "daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
+            "batchtype": "Morning"
+        },
+        {
+            "center": "Noida",
+            "startdate": "Aug 12",
+            "enddate": "Nov 03",
+            "daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
+            "batchtype": "Afternoon"
+        },
+        {
+            "center": "Dehradun",
+            "startdate": "Jul 02",
+            "enddate": "Aug 11",
+            "daytime": "Mon, Wed, Fri, Sun (02:00 PM - 05:30 PM)",
+            "batchtype": "Regular"
+        }
+
 	],
   "courseReviews": [
     "NAVDEEP SINGH",
