@@ -1070,8 +1070,9 @@ footer, section {
     }
 
     nav.navfx {
-    position: fixed !important;
-}
+	width: 100%;
+    	position: fixed !important;
+    }
 }
 
 .g-recaptcha {
