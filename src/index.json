@@ -8,6 +8,24 @@
   ],
   "slides": [
     {
+      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
+      "imgAlt": "",
+      "heading": "Presenting the country's best online courses",
+      "content": "Learn at your own pace, Best mentors from IITS - NIT - DTU - NSIT, with all the benefits of classroom courses and 24/7 mentor support. <br> Rs. 1800 off on all courses, use EARLY18",
+      "button": [
+        {
+          "link": "/online-courses/",
+          "text": "Get Rs 1800 discount",
+          "filled": "true"
+        },
+        {
+          "link": "tel:9599247216",
+          "text": "Call us now : 9599247216",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
       "heading": "CAST for August batches is here!",
@@ -86,19 +104,6 @@
         {
           "link": "/courses/online/interviewprep.html",
           "text": "Online Course",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
-      "imgAlt": "",
-      "heading": "Presenting the country's best online courses",
-      "content": "Learn from the comfort of your homes, and excel in various techincal areas.",
-      "button": [
-        {
-          "link": "/online-courses.html",
-          "text": "Browse Online Courses",
           "filled": "true"
         }
       ]
