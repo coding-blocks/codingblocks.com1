@@ -28,12 +28,17 @@
     {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "CAST for August batches is here!",
+      "heading": "Admission tests for August batches are here!",
       "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this fall",
       "button": [
         {
           "link": "/cast.html",
-          "text": "Details and Registration",
+          "text": "Test for basic courses",
+          "filled": "true"
+        },
+        {
+          "link": "/apat.html",
+          "text": "Test for advanced courses",
           "filled": "true"
         }
       ]
