@@ -83,29 +83,11 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/cover_admission.png",
-      "imgAlt": "django course Starting This June",
-      "heading": "django course Starting This June",
-      "content": "Learn Web Development using Django at Coding Blocks and become a pro in just 15 classes!",
-      "button": [
-        {
-          "link": "/courses/classroom/development/web-development-django.html",
-          "text": "Register Now",
-		  "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "/assets/images/cb/cover/cast.jpg",
       "imgAlt": "",
       "heading": "Interview Preparation Course",
-      "content": "Master the concepts and topics required to ace interview procedures of tech giants. Available both Online and Offline.",
+      "content": "Master the concepts and topics required to ace interview procedures of tech giants.",
       "button": [
-        {
-          "link": "/bootcamps/coding-interview-preparation.html",
-          "text": "Offline Course",
-          "filled": "true"
-        },
         {
           "link": "/courses/online/interviewprep.html",
           "text": "Online Course",
@@ -117,16 +99,12 @@
       "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
       "imgAlt": "",
       "heading": "Competitive Programming Study Material, Now on Amazon!",
-      "content": "Our hugely successful, exclusive Competitive Programming study package is now available on Amazon as well.",
+      "content": "Our hugely successful, exclusive Competitive Programming study package is now available on Amazon.",
       "button": [
         {
           "link": "https://www.amazon.in/dp/8193754301",
           "text": "Purchase on Amazon",
           "filled": "true"
-        },
-        {
-          "link": "/courses/competitive-online-study-material.html",
-          "text": "Purchase on Website"
         }
       ]
     }
