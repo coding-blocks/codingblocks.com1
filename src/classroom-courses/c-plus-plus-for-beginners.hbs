@@ -143,13 +143,13 @@
 											<div class="container">
 												<div class="course-tabs" id="adv">
 													<ul class="nav nav-tabs" role="tablist">
-														<li role="presentation" class="wide-tab" id="tab-delhi"><a href="#delhi-adv" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Pitampura</a></li>
+														<li role="presentation" class="wide-tab active" id="tab-delhi"><a href="#delhi-adv" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Pitampura</a></li>
 														<li role="presentation" class="wide-tab" id="tab-noida"><a href="#noida-adv" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida</a></li>
-														<li role="presentation" class="wide-tab active" id="tab-dehradun"><a href="#dehradun-adv" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dehradun (50% inaugural discount)</a></li>
+														<li role="presentation" class="wide-tab" id="tab-dehradun"><a href="#dehradun-adv" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dehradun (50% inaugural discount)</a></li>
 														<li role="presentation" class="wide-tab" id="tab-dwarka"><a href="#dwarka-adv" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dwarka</a></li>
 													</ul>
 													<div class="tab-content">
-														<div role="tabpanel" class="tab-pane" id="delhi-adv">
+														<div role="tabpanel" class="tab-pane active" id="delhi-adv">
 															<div class="widget-container" {{#if frame-id-pitampura-lp}}data-widget-id="{{frame-id-pitampura-lp}}"{{/if}}>
 																	<iframe class="payment-widget" {{#if frame-id-pitampura-lp}}id="{{frame-id-pitampura-lp}}"{{/if}} frameborder="0" src="{{{registerLinkPitampuraLP}}}"></iframe>
 																</div>
@@ -159,7 +159,7 @@
 																	<iframe class="payment-widget" {{#if frame-id-noida-lp}}id="{{frame-id-noida-lp}}"{{/if}} frameborder="0" src="{{{registerLinkNoidaLP}}}"></iframe>
 																</div>
 														</div>
-														<div role="tabpanel" class="tab-pane active" id="dehradun-adv">
+														<div role="tabpanel" class="tab-pane" id="dehradun-adv">
 															<div class="widget-container" {{#if frame-id-dehradun-lp}}data-widget-id="{{frame-id-dehradun-lp}}"{{/if}}>
 																	<iframe class="payment-widget" {{#if frame-id-dehradun-lp}}id="{{frame-id-dehradun-lp}}"{{/if}} frameborder="0" src="{{{registerLinkDehradunLP}}}"></iframe> </div>
 															</div>
