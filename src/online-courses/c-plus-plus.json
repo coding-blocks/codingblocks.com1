@@ -44,7 +44,7 @@
 	"registerButton": {
 		"buttonText": "Register Now",
 		"registerIdSlug": "Advanced",
-        "registerLink": "https://online.codingblocks.com/courses/26#runs"
+        "buttonLink": "https://online.codingblocks.com/courses/26#runs"
 	},
     "highlights": [
       {
@@ -118,5 +118,6 @@
     "SHREYA GUPTA",
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
-  ]
+  ],
+  "registerLinkComplete": "https://students.codingblocks.com/payment/iframe?item_id=125"
 }
