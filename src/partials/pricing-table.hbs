@@ -28,15 +28,15 @@
     {{#if registerButton}}
         {{#with registerButton}}
 			{{#if buttonLink}}
-				<a class="btn btn-white btn-lg" href="{{{buttonLink}}}"
+				<a id="ifOnlineCourse" class="btn btn-white btn-lg" href="{{{buttonLink}}}"
                {{#ifEquals disabled true}}disabled{{/ifEquals}}>{{{buttonText}}}</a>
 			{{else}}
-				<a class="btn btn-white btn-lg" href="#register{{#if registerIdSlug}}{{{registerIdSlug}}}{{/if}}"
+				<a id="ifOnlineCourse" class="btn btn-white btn-lg" href="#register{{#if registerIdSlug}}{{{registerIdSlug}}}{{/if}}"
 				   {{#ifEquals disabled true}}disabled{{/ifEquals}}>{{{buttonText}}}</a>
 			{{/if}}
         {{/with}}
     {{else}}
-        <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+        <a id="ifOnlineCourse" class="btn btn-white btn-lg" href="#register">Enroll Now</a>
     {{/if}}
     <p>
         <a href="/contactus">Contact Us</a>
