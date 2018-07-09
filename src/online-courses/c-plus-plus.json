@@ -43,7 +43,8 @@
 	"price": "7,000",
 	"registerButton": {
 		"buttonText": "Register Now",
-		"registerIdSlug": "Advanced"
+		"registerIdSlug": "Advanced",
+        "registerLink": "https://online.codingblocks.com/courses/26#runs"
 	},
     "highlights": [
       {
