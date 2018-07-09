@@ -156,7 +156,8 @@
     "upcomingBatches": "<strong>Batches Starting January 26!<strong>",
     "registerBoxHeading": "<span style='font-size: 3.2rem; text-decoration: line-through;'>₹15,000</span>",
     "registerButton": {
-      "buttonText": "Register Now"
+      "buttonText": "Register Now",
+      "buttonLink":"https://online.codingblocks.com/courses/android-training-online#runs"
     },
     "highlights": [
       {

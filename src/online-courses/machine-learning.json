@@ -169,7 +169,12 @@
         "icon": "pe-7s-cup",
         "content": "2 Hacakthons"
       }
-    ]
+    ],
+    "registerButton": {
+      "buttonText": "Enroll Now",
+      "buttonLink": "https://online.codingblocks.com/courses/machine-learning-course-online#runs",
+      "disabled": false
+    }
   },
   "courseReviews": [
     "KARTIK AGGARWAL",

@@ -24,7 +24,11 @@
         "icon": "pe-7s-cup",
         "content": "Special Session on resume building and group discussions"
       }
-    ]
+    ],
+    "registerButton": {
+      "buttonText": "Register Now",
+      "buttonLink": "https://online.codingblocks.com/courses/coding-interview-preparation-online#runs"
+    }
   },
   "mentors": {
     "heading": "Mentors",

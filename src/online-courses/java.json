@@ -173,7 +173,11 @@
         "icon": "pe-7s-cup",
         "content": "Special Session on Java Game Development"
       }
-    ]
+    ],
+    "registerButton": {
+      "buttonText": "Register Now",
+      "buttonLink":"https://online.codingblocks.com/courses/25#runs"
+    }
   },
   "mentors": {
     "heading": "Mentors",
