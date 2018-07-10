@@ -139,50 +139,36 @@
 			"center": "Pitampura",
 			"startdate": "Aug 12",
 			"enddate": "Nov 03",
-			"daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
-			"batchtype": "Morning"
-		},
-		{
-			"center": "Pitampura",
-			"startdate": "Aug 12",
-			"enddate": "Nov 03",
-			"daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
+			"daytime": "Sat, Sun (12:15 PM - 03:45 PM)",
 			"batchtype": "Afternoon"
 		},
 		{
+			"center": "Pitampura",
+			"startdate": "Aug 19",
+			"enddate": "Nov 10",
+			"daytime": "Sat, Sun (08:00 PM - 11:30 PM)",
+			"batchtype": "Morning"
+		},
+		{
 			"center": "Dwarka",
 			"startdate": "Aug 12",
 			"enddate": "Nov 03",
-            "daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
+            "daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
             "batchtype": "Morning"
 		},
 		{
 			"center": "Dwarka",
-            "startdate": "Aug 12",
-            "enddate": "Nov 03",
-            "daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
-            "batchtype": "Afternoon"
+            "startdate": "Aug 19",
+            "enddate": "Nov 10",
+            "daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
+            "batchtype": "Evening"
 		},
         {
             "center": "Noida",
             "startdate": "Aug 12",
             "enddate": "Nov 03",
-            "daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
+            "daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
             "batchtype": "Morning"
-        },
-        {
-            "center": "Noida",
-            "startdate": "Aug 12",
-            "enddate": "Nov 03",
-            "daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
-            "batchtype": "Afternoon"
-        },
-        {
-            "center": "Dehradun",
-            "startdate": "Jul 02",
-            "enddate": "Aug 11",
-            "daytime": "Mon, Wed, Fri, Sun (02:00 PM - 05:30 PM)",
-            "batchtype": "Regular"
         }
 
 	],
@@ -192,8 +178,6 @@
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
   ],
-  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=164",
-  "frame-id-dehradun": "164",
 
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=165",
   "frame-id-dehradun-lp": "165",
