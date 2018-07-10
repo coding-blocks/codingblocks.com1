@@ -214,8 +214,8 @@
 		"KSHITIJ BANSAL"
 	],
 
-	"registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=169",
-  	"frame-id-dehradun-lp": "169",
+	"registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=169",
+  	"frame-id-dehradun": "169",
 
 	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=171",
 	"frame-id-pitampura-lp": "171",
