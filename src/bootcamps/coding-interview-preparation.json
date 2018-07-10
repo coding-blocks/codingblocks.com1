@@ -29,10 +29,9 @@
   },
   "schedule": [
 	  {
-		  "center": "Pitampura",
-		  "startdate": "Jul 05",
-		  "enddate": "Jul 26",
-		  "daytime": "Thurs (3:30 PM - 07:30 PM); Mon, Tue (10:30 AM - 02:00 PM)",
+		  "center": "Noida",
+		  "startdate": "Aug 13",
+		  "daytime": "Mon,Tue,Thu,Fri (05:00 PM - 07:00 PM)",
 		  "batchtype": "Regular"
 	  }
   ],

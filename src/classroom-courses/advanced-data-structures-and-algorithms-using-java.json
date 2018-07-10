@@ -102,12 +102,26 @@
   },
   "schedule": [
 	  {
-		  "center": "Noida",
-		  "startdate": "Aug 13",
+		  "center": "Pitampura",
+		  "startdate": "Jun 12",
 		  "enddate": "Jul 14",
-		  "daytime": "Mon, Tue, Thu, Fri (05:00 PM - 07:00 PM)",
+		  "daytime": "Tue, Fri, Sun (01:00 PM - 04:30 PM)",
 		  "batchtype": "Fast Track"
-	  }
+	  },
+	  {
+		  "center": "Dwarka",
+		  "startdate": "Jun 11",
+		  "enddate": "Jul 07",
+		  "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)",
+		  "batchtype": "Regular"
+	  },
+    {
+      "center": "Dehradun",
+      "startdate": "July 19",
+      "enddate": "Aug 11",
+      "daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
+      "batchtype": "Regular"
+    }
   ],
   "courseReviews": [
     "YAMINI GAUR",
