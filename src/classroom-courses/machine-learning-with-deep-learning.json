@@ -175,23 +175,8 @@
   "schedule": [
 	  {
 		  "center": "Pitampura",
-		  "startdate": "Jun 09",
-		  "enddate": "Jul 29",
-		  "daytime": "Sat, Sun, Tue, Thurs (04:00 PM - 07:30 PM)",
-		  "batchtype": "Regular"
-	  },
-    {
-      "center": "Pitampura",
-      "startdate": "Jun 12",
-      "enddate": "Aug 05",
-      "daytime": "Tue, Sat, Sun (10:30 AM - 02:00 PM)",
-      "batchtype": "Regular"
-    },
-    {
-		  "center": "Noida",
-		  "startdate": "Jun 12",
-		  "enddate": "Aug 03",
-		  "daytime": "Tue, Wed, Fri (02:30 PM - 06:30 PM)",
+		  "startdate": "Aug 19",
+		  "daytime": "Sat, Sun (12:15 PM - 03:45 PM)",
 		  "batchtype": "Regular"
 	  }
   ],
