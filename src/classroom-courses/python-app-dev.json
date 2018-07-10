@@ -163,13 +163,23 @@
   },
   "schedule": [
 	  {
+		  "center": "Pitampura",
+		  "startdate": "Aug 19",
+		  "enddate": "Sep 22",
+		  "daytime": "Sat, Sun (4:15 PM - 7:30 PM)",
+		  "batchtype": "Evening"
+    },
+    {
 		  "center": "Noida",
-		  "startdate": "Jun 13",
-		  "enddate": "Aug 01",
-		  "daytime": "Wed (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
-		  "batchtype": "Regular"
+		  "startdate": "Aug 19",
+		  "enddate": "Sep 22",
+		  "daytime": "Sat, Sun (9:00 AM - 1:00 PM)",
+		  "batchtype": "Morning"
 	  }
   ],
-  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=155",
-  "frame-id-noida": "155"
+  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=198",
+  "frame-id-pitampura": "198",
+
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=197",
+  "frame-id-noida": "197"
 }
