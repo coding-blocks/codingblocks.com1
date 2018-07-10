@@ -47,7 +47,7 @@
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
       "link": "/classroom-courses/android-app-development-using-kotlin-and-java.html",
-      "badge": "Starting this August",
+      "badge": "Starting August 19",
       "description": [
         "Building Android Apps",
         "UI and Animations",
@@ -66,7 +66,7 @@
       "imgAlt": "web development course logo",
       "lectures": "(22 lectures)",
       "link": "/classroom-courses/web-development-nodejs.html",
-      "badge": "Starting this August",
+      "badge": "Starting August 19",
       "description": [
         "Web Design",
         "Real time Web Apps",
@@ -103,7 +103,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "(23 lectures)",
       "link": "/classroom-courses/machine-learning-with-deep-learning.html",
-	  "badge": "Starting this August",
+	  "badge": "Starting August 19",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -121,7 +121,7 @@
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
-      "badge": "Starting this August",
+      "badge": "Starting August 12",
       "description": [
         "Programming Fundamentals in Java"
       ],
@@ -136,7 +136,7 @@
       "imgAlt": "Launchpad For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
-      "badge": "Starting this August",
+      "badge": "Starting August 12",
       "description": [
         "Programming Fundamentals in C+"
       ],
@@ -166,7 +166,7 @@
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
-      "badge": "Starting this August",
+      "badge": "Starting August 19",
       "description": [
         "DS & Algorithms in C++"
       ],
@@ -441,7 +441,7 @@
       "imgAlt": "Python for Developers Logo",
       "lectures": "(11 lectures)",
       "link": "/classroom-courses/python-for-beginners.html",
-	  "badge": "Starting this August",
+	  "badge": "Starting August 19",
       "description": [
         "Programming Fundamentals in Python"
       ]
