@@ -189,22 +189,15 @@
 			"center": "Noida",
 			"startdate": "Aug 12",
 			"enddate": "Nov 03",
-			"daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
-			"batchtype": "Morning"
-		},
-		{
-			"center": "Noida",
-			"startdate": "Aug 19",
-			"enddate": "Nov 10",
 			"daytime": "Sat, Sun (02:00 PM - 06:00 PM)",
-			"batchtype": "Evening"
+			"batchtype": "Morning"
 		},
 		{
 			"center": "Dehradun",
 			"startdate": "Aug 12",
 			"enddate": "Nov 3",
 			"daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
-			"batchtype": "Morning"
+			"batchtype": "Afternoon"
 		}
 	],
 	"courseReviews": [

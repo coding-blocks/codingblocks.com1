@@ -167,8 +167,8 @@
             "center": "Noida",
             "startdate": "Aug 12",
             "enddate": "Nov 03",
-            "daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
-            "batchtype": "Morning"
+            "daytime": "Sat, Sun (02:00 PM - 06:00 PM)",
+            "batchtype": "Afternoon"
         }
 
 	],
