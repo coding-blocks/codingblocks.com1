@@ -180,10 +180,10 @@
 	  },
 	  {
 		  "center": "Noida",
-		  "startdate": "Aug 19",
-      "enddate": "Oct 07",
-		  "daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
-		  "batchtype": "Morning"
+		  "startdate": "Aug 13",
+      "enddate": "Sep 29",
+		  "daytime": "Mon, Tue, Thu, Fri (5:00 PM - 7:00 PM)",
+		  "batchtype": "Evening"
 	  }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",

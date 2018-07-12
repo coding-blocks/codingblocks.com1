@@ -205,8 +205,8 @@
 		  "center": "Noida",
 		  "startdate": "Aug 19",
 		  "enddate": "Nov 10",
-		  "daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
-		  "batchtype": "Morning"
+		  "daytime": "Sat, Sun (02:00 PM - 06:00 PM)",
+		  "batchtype": "Evening"
 	  }
   ],
   "reviewSlug": "Web Development Course",

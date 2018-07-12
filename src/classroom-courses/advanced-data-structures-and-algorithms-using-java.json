@@ -107,6 +107,13 @@
       "enddate": "Aug 11",
       "daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
       "batchtype": "Regular"
+    },
+    {
+      "center": "Noida",
+      "startdate": "Aug 13",
+      "enddate": "Sep 29",
+      "daytime": "Mon, Tue, Thu, Fri (5:00 PM - 7:00 PM)",
+      "batchtype": "Evening"
     }
   ],
   "courseReviews": [
@@ -116,5 +123,7 @@
     "KSHITIJ BANSAL"
   ],
   "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=166",
-  "frame-id-dehradun": "166"
+  "frame-id-dehradun": "166",
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=202",
+  "frame-id-noida": "202"
 }
