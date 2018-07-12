@@ -172,9 +172,9 @@
     {
 		  "center": "Noida",
 		  "startdate": "Aug 12",
-		  "enddate": "Sep 22",
-		  "daytime": "Sat, Sun (2:00 PM - 6:00 PM)",
-		  "batchtype": "Afternoon"
+		  "enddate": "Sep 30",
+		  "daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
+		  "batchtype": "Morning"
 	  }
   ],
   "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=198",
