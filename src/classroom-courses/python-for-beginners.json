@@ -175,5 +175,7 @@
   "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=167",
   "frame-id-dehradun": "167",
   "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=198",
-  "frame-id-pitampura": "198"
+  "frame-id-pitampura": "198",
+  "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=199",
+  "frame-id-dwarka": "199"
 }
