@@ -125,19 +125,19 @@
 					<h2 class="uppercase mb64 text-center color-primary">Course Contents</h2>
 					<div class="course-tabs">
 						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation" class="active" id="tab-basic">
-								<a href="#basic" aria-controls="home" role="tab" data-toggle="tab">Non Coding</a>
-							</li>
-							<li role="presentation" class="" id="tab-cpp-bundle">
+							<li role="presentation" class="active" id="tab-cpp-bundle">
 								<a href="#cpp-bundle" aria-controls="profile" role="tab" data-toggle="tab">Complete Interview Prep in C++</a>
 							</li>
 							<li role="presentation" class="" id="tab-java-bundle">
 								<a href="#java-bundle" aria-controls="profile" role="tab" data-toggle="tab">Complete Interview Prep in Java</a>
 							</li>
+							<li role="presentation" class="" id="tab-basic">
+								<a href="#basic" aria-controls="home" role="tab" data-toggle="tab">Non Coding</a>
+							</li>
 						</ul>
 
 						<div class="tab-content">
-							<div role="tabpanel" class="tab-pane active" id="basic">
+							<div role="tabpanel" class="tab-pane" id="basic">
 								<div>
 									<div class="course-card-container">
 										<div class="content-row">
@@ -158,9 +158,11 @@
 								<a id="basic-enroll" class="in-page-link"></a>
 								{{> courseenroll}}
 								{{> courseschedule}}
-								{{> registration}}
+								<div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
+                                                       <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Coming Soon!</p>
+                                                   </div>
 							</div>
-							<div role="tabpanel" class="tab-pane" id="cpp-bundle">
+							<div role="tabpanel" class="tab-pane active" id="cpp-bundle">
 								<div class="course-card-container">
 									<div class="content-row">
 										<div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4"><h3
