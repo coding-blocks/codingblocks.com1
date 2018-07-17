@@ -8,6 +8,24 @@
   ],
   "slides": [
     {
+      "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
+      "imgAlt": "",
+      "heading": "Admission tests for August batches are here!",
+      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this fall",
+      "button": [
+        {
+          "link": "/cast.html",
+          "text": "Test for basic courses",
+          "filled": "true"
+        },
+        {
+          "link": "/apat.html",
+          "text": "Test for advanced courses",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/cover3.jpg",
       "imgAlt": "",
       "heading": "Presenting the country's best online courses",
@@ -28,43 +46,12 @@
     {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "Admission tests for August batches are here!",
-      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this fall",
-      "button": [
-        {
-          "link": "/cast.html",
-          "text": "Test for basic courses",
-          "filled": "true"
-        },
-        {
-          "link": "/apat.html",
-          "text": "Test for advanced courses",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
-      "imgAlt": "",
       "heading": "Admissions open for August batches",
       "content": "Get enrolled now !",
       "button": [
         {
           "link": "/courses",
           "text": "Courses",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/nathan-anderson-223103.jpg",
-      "imgAlt": "",
-      "heading": "BOSS is Back!",
-      "content": "Contribute to the Coding Blocks code repository with BOSS 2018 and stand a chance to win a laptop, smartphones, Play Stations and much more.",
-      "button": [
-        {
-          "link": "https://lab.codingblocks.com/boss",
-          "text": "Details",
           "filled": "true"
         }
       ]
@@ -91,19 +78,6 @@
         {
           "link": "/courses/online/interviewprep.html",
           "text": "Online Course",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
-      "imgAlt": "",
-      "heading": "Competitive Programming Study Material, Now on Amazon!",
-      "content": "Our hugely successful, exclusive Competitive Programming study package is now available on Amazon.",
-      "button": [
-        {
-          "link": "https://www.amazon.in/dp/8193754301",
-          "text": "Purchase on Amazon",
           "filled": "true"
         }
       ]
@@ -167,16 +141,16 @@
       "id": "course25"
     },
     {
-      "id": "course04",
+      "id": "course30",
       "odd": true
     },
     {
-      "id": "course03"
+      "id": "course04"
     }
   ],
   "coursesRow4": [
     {
-      "id": "course27",
+      "id": "course03",
       "odd": true
     },
     {
@@ -190,13 +164,6 @@
   "coursesRow5": [
     {
       "id": "course14"
-    },
-    {
-      "id": "webdj",
-      "odd": true
-    },
-    {
-      "id": "course30"
     }
   ],
   "cppInterviewRow": [
@@ -258,6 +225,9 @@
     },
   {
       "id": "course24"
+  },{
+    "id": "course28",
+    "odd": true
   }
   ],
   "coursesSection": {
