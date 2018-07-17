@@ -107,52 +107,10 @@
 	},
 	"schedule": [
 		{
-			"center": "Pitampura",
-			"startdate": "May 27",
-			"enddate": "Jun 12",
-			"daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
-			"center": "Pitampura",
-			"startdate": "Jun 08",
-			"enddate": "Jun 29",
-			"daytime": "Fri, Mon (09:00 AM - 01:30 PM); Thurs (12:15 PM - 03:30 PM)",
-			"batchtype": "Regular"
-		},
-		{
-			"center": "Dwarka",
-			"startdate": "May 28",
-			"enddate": "Jun 12",
-			"daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
-			"center": "Dwarka",
-			"startdate": "Jun 09",
-			"enddate": "Jun 30",
-			"daytime": "Sat, Tue, Thu (10:00 AM - 02:00 PM)",
-			"batchtype": "Regular"
-		},
-		{
-			"center": "Noida",
-			"startdate": "Jun 12",
-			"enddate": "Jun 28",
-			"daytime": "Tue, Thu, Fri, Sat (09:30 AM - 01:30 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
-			"center": "Noida",
-			"startdate": "Jun 12",
-			"enddate": "Jun 28",
-			"daytime": "Tue, Thu, Sat, Sun (02:30 PM - 06:30 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
 			"center": "Dehradun",
-			"startdate": "July 1",
-			"enddate": "July 17",
-			"daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
+			"startdate": "Aug 18",
+			"enddate": "Sep 22",
+			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
 			"batchtype": "Fast Track"
 		}
 	],
@@ -194,10 +152,10 @@
 		},
 		{
 			"center": "Dehradun",
-			"startdate": "Aug 12",
-			"enddate": "Nov 3",
-			"daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
-			"batchtype": "Afternoon"
+			"startdate": "Aug 18",
+			"enddate": "Oct 20",
+			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
+			"batchtype": "Morning"
 		}
 	],
 	"courseReviews": [
@@ -220,5 +178,8 @@
 	"frame-id-noida-lp": "182",
 
 	"registerLinkPitampuraBasic": "https://students.codingblocks.com/payment/iframe?item_id=112",
-	"frame-id-delhi-basic": "112"
+	"frame-id-delhi-basic": "112",
+
+	"registerLinkDehradunBasic": "https://students.codingblocks.com/payment/iframe?item_id=203",
+	"frame-id-dehradun-basic": "203"
 }

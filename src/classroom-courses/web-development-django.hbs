@@ -14,9 +14,27 @@
     {{> coursehighlights}}
     {{> coursecontents}}
     {{> courseenroll}}
-    <div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
-                                                       <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Coming Soon!</p>
-                                                   </div>
+    {{> courseschedule}}
+    <section>
+        <div class="text-center">
+            <h3>REGISTER NOW</h3>
+        </div>
+        <div class="container">
+            <div class="course-tabs">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="wide-tab active" id="tab-noida"><a href="#noida" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dehradun (50% inaugral discount)</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="dehradun">
+                        <div class="container widget-container" data-widget-id="{{frame-id-dehradun}}">
+                            <iframe class="payment-widget" {{#if frame-id-dehradun}}id="{{frame-id-dehradun}}"{{/if}} frameborder="0" src="{{{registerLinkDehradun}}}"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{> coursefaq}}
     {{> review-course-section}}
     {{> map}}
     {{> footer}}
