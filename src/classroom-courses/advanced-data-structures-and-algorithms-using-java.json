@@ -103,10 +103,10 @@
   "schedule": [
     {
       "center": "Dehradun",
-      "startdate": "July 19",
-      "enddate": "Aug 11",
-      "daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
-      "batchtype": "Regular"
+      "startdate": "Sep 27",
+      "enddate": "Oct 20",
+      "daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
+      "batchtype": "Morning"
     },
     {
       "center": "Noida",
@@ -122,8 +122,8 @@
     "GAGARIN DASH",
     "KSHITIJ BANSAL"
   ],
-  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=166",
-  "frame-id-dehradun": "166",
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=204",
+  "frame-id-dehradun": "204",
   "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=202",
   "frame-id-noida": "202"
 }
