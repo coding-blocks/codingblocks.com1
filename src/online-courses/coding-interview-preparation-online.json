@@ -16,7 +16,7 @@
     "GURLEEN KAILEY",
     "PURUJIT BANSAL"
   ],
-  "courseEnroll": {
+  "courseEnrollCpp": {
     "upcomingBatches": "",
 	  "price": "5,000",
     "priceCut": "",
@@ -25,7 +25,26 @@
         "icon": "pe-7s-cup",
         "content": "Special Session on resume building and group discussions"
       }
-    ]
+    ],
+    "registerButton": {
+      "buttonText": "Register Now",
+      "buttonLink": "https://online.codingblocks.com/courses/coding-interview-preparation-course-online"
+    }
+  },
+  "courseEnrollJava": {
+    "upcomingBatches": "",
+    "price": "5,000",
+    "priceCut": "",
+    "highlights": [
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Session on resume building and group discussions"
+      }
+    ],
+    "registerButton": {
+      "buttonText": "Register Now",
+      "buttonLink": "https://online.codingblocks.com/courses/coding-interview-preparation-course-online"
+    }
   },
   "mentors": {
     "heading": "Mentors",
@@ -39,6 +58,5 @@
       "Garima Chhikara",
 	    "Prateek Narang"
     ]
-  },
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=126"
+  }
 }
