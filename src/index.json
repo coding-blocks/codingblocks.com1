@@ -30,6 +30,11 @@
           "link": "/apat.html",
           "text": "Test for advanced courses",
           "filled": "true"
+        },
+        {
+          "link": "/cast.html",
+          "text": "Test for foundation courses",
+          "filled": "true"
         }
       ]
     },
