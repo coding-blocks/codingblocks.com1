@@ -165,15 +165,15 @@
   "schedule": [
     {
       "center": "Dwarka",
-      "startdate": "Aug 19",
-      "enddate": "Sep 23",
+      "startdate": "Aug 26",
+      "enddate": "Sep 30",
       "daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
       "batchtype": "Morning"
     },
     {
       "center": "Dehradun",
-      "startdate": "Aug 18",
-      "enddate": "Sep 23",
+      "startdate": "Aug 19",
+      "enddate": "Sep 30",
       "daytime": "Sat, Sun (02:00 PM - 05:30 PM)",
       "batchtype": "Evening"
     }

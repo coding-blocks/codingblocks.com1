@@ -102,43 +102,43 @@
 	"scheduleLaunchpad": [
 		{
 			"center": "Pitampura",
-			"startdate": "Aug 12",
+			"startdate": "Aug 19",
 			"enddate": "Nov 03",
 			"daytime": "Sat, Sun (12:15 PM - 03:45 PM)",
 			"batchtype": "Afternoon"
 		},
 		{
 			"center": "Pitampura",
-			"startdate": "Aug 19",
+			"startdate": "Aug 25",
 			"enddate": "Nov 10",
 			"daytime": "Sat, Sun (08:00 PM - 11:30 PM)",
 			"batchtype": "Morning"
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "Aug 12",
+			"startdate": "Aug 19",
 			"enddate": "Nov 03",
       "daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
       "batchtype": "Morning"
 		},
 		{
 			"center": "Dwarka",
-      "startdate": "Aug 19",
+      "startdate": "Aug 25",
       "enddate": "Nov 10",
       "daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
       "batchtype": "Evening"
 		},
     {
       "center": "Noida",
-      "startdate": "Aug 12",
+      "startdate": "Aug 19",
       "enddate": "Nov 03",
       "daytime": "Sat, Sun (02:00 PM - 06:00 PM)",
       "batchtype": "Evening"
     },
     {
       "center": "Dehradun",
-      "startdate": "Aug 18",
-      "enddate": "Oct 28",
+      "startdate": "Aug 19",
+      "enddate": "Nov 03",
       "daytime": "Sat, Sun (02:30 PM - 06:00 PM)",
       "batchtype": "Evening"
     }
