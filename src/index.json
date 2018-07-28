@@ -27,11 +27,6 @@
       "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this fall",
       "button": [
         {
-          "link": "/apat.html",
-          "text": "Test for advanced courses",
-          "filled": "true"
-        },
-        {
           "link": "/cast.html",
           "text": "Test for foundation courses",
           "filled": "true"
