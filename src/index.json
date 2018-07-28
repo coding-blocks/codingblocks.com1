@@ -10,12 +10,43 @@
     {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "CAST for August batches is here!",
+      "heading": "Results declared for CAST held on July 22",
+      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this fall",
+      "button": [
+        {
+          "link": "http://students.codingblocks.com/admission_test_online/CASTJ18/result_letter",
+          "text": "Check Result",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
+      "imgAlt": "",
+      "heading": "Admission tests for August batches are here!",
       "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this fall",
       "button": [
         {
           "link": "/cast.html",
-          "text": "Details and Registration",
+          "text": "Test for foundation courses",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
+      "imgAlt": "",
+      "heading": "Presenting the country's best online courses",
+      "content": "Learn at your own pace, Best mentors from IITS - NIT - DTU - NSIT - BITS, with all the benefits of classroom courses and 24/7 mentor support. <br> Rs. 1000 off on all courses, use FLAT1000",
+      "button": [
+        {
+          "link": "/online-courses/",
+          "text": "Get Rs 1000 discount",
+          "filled": "true"
+        },
+        {
+          "link": "tel:9599247216",
+          "text": "Call us now : 9599247216",
           "filled": "true"
         }
       ]
@@ -34,19 +65,6 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/nathan-anderson-223103.jpg",
-      "imgAlt": "",
-      "heading": "BOSS is Back!",
-      "content": "Contribute to the Coding Blocks code repository with BOSS 2018 and stand a chance to win a laptop, smartphones, Play Stations and much more.",
-      "button": [
-        {
-          "link": "https://lab.codingblocks.com/boss",
-          "text": "Details",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "/assets/images/cb/cover/cover2.jpg",
       "imgAlt": "",
       "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
@@ -60,63 +78,15 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/cover_admission.png",
-      "imgAlt": "django course Starting This June",
-      "heading": "django course Starting This June",
-      "content": "Learn Web Development using Django at Coding Blocks and become a pro in just 15 classes!",
-      "button": [
-        {
-          "link": "/courses/classroom/development/web-development-django.html",
-          "text": "Register Now",
-		  "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "/assets/images/cb/cover/cast.jpg",
       "imgAlt": "",
       "heading": "Interview Preparation Course",
-      "content": "Master the concepts and topics required to ace interview procedures of tech giants. Available both Online and Offline.",
+      "content": "Master the concepts and topics required to ace interview procedures of tech giants.",
       "button": [
-        {
-          "link": "/bootcamps/coding-interview-preparation.html",
-          "text": "Offline Course",
-          "filled": "true"
-        },
         {
           "link": "/courses/online/interviewprep.html",
           "text": "Online Course",
           "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
-      "imgAlt": "",
-      "heading": "Presenting the country's best online courses",
-      "content": "Learn from the comfort of your homes, and excel in various techincal areas.",
-      "button": [
-        {
-          "link": "/online-courses.html",
-          "text": "Browse Online Courses",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
-      "imgAlt": "",
-      "heading": "Competitive Programming Study Material, Now on Amazon!",
-      "content": "Our hugely successful, exclusive Competitive Programming study package is now available on Amazon as well.",
-      "button": [
-        {
-          "link": "https://www.amazon.in/dp/8193754301",
-          "text": "Purchase on Amazon",
-          "filled": "true"
-        },
-        {
-          "link": "/courses/competitive-online-study-material.html",
-          "text": "Purchase on Website"
         }
       ]
     }
@@ -179,16 +149,16 @@
       "id": "course25"
     },
     {
-      "id": "course04",
+      "id": "course30",
       "odd": true
     },
     {
-      "id": "course03"
+      "id": "course04"
     }
   ],
   "coursesRow4": [
     {
-      "id": "course27",
+      "id": "course03",
       "odd": true
     },
     {
@@ -202,13 +172,6 @@
   "coursesRow5": [
     {
       "id": "course14"
-    },
-    {
-      "id": "webdj",
-      "odd": true
-    },
-    {
-      "id": "course30"
     }
   ],
   "cppInterviewRow": [
@@ -270,6 +233,9 @@
     },
   {
       "id": "course24"
+  },{
+    "id": "course28",
+    "odd": true
   }
   ],
   "coursesSection": {
@@ -294,8 +260,9 @@
       "PRATEEK NARANG",
       "Varun Hasija",
       "RAJESH SACHDEV",
-      "ANKIT MALIK",
       "VARUN KOHLI",
+      "GARIMA CHHIKARA",
+      "Rishab Kapoor",
       "ANUJ GARG"
     ]
   },

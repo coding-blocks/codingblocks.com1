@@ -79,18 +79,13 @@
       "id": "course11"
     },
     {
-      "id": "course22",
-      "odd": true,
-	  "combo": true
-    }
+    "id": "course27",
+    "odd": "true"
+  }
   ],
   "coursesRow5": [
 	{
 	  "id": "webdj"
-	},
-	{
-	  "id": "course27",
-	  "odd": "true"
 	}
   ],
   "coursesRow6": [
@@ -108,14 +103,14 @@
   ],
   "coursesRow7": [
     {
-      "id": "bootcamp04"
-    },
-    {
       "id": "bootcamp08",
       "odd": true
     },
     {
       "id": "bootcamp09"
+    },
+    {
+      "id": "bootcamp04"
     }
   ],
   "courseReviews": [

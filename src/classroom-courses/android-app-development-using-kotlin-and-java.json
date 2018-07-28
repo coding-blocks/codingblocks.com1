@@ -186,49 +186,36 @@
   "schedule": [
 	  {
 		  "center": "Pitampura",
-		  "startdate": "Jun 09",
-		  "enddate": "Jul 24",
-		  "daytime": "Sat, Sun, Tue (12:15 PM - 03:30 PM)",
-		  "batchtype": "Regular"
-	  },
-	  {
-		  "center": "Dwarka",
-		  "startdate": "Jun 09",
-		  "enddate": "Jul 28",
-		  "daytime": "Wed, Sat, Sun (03:00 PM - 07:00 PM)",
-		  "batchtype": "Regular"
+		  "startdate": "Aug 19",
+		  "enddate": "Nov 10",
+		  "daytime": "Sat, Sun (12:15 PM - 3:45 PM)",
+		  "batchtype": "Afternoon"
 	  },
 	  {
 		  "center": "Noida",
-		  "startdate": "Jun 14",
-		  "enddate": "Jul 26",
-		  "daytime": "Mon, Tue, Thu, Fri (02:30 PM - 06:30 PM)",
-		  "batchtype": "Fast Track"
+		  "startdate": "Aug 19",
+		  "enddate": "Nov 10",
+		  "daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
+		  "batchtype": "Morning"
 	  },
     {
       "center": "Dehradun",
-      "startdate": "July 1",
-      "enddate": "Aug 6",
-      "daytime": "Mon, Wed, Fri, Sun (10:00 AM - 01:15 PM)",
-      "batchtype": "Regular"
+      "startdate": "Aug 18",
+      "enddate": "Oct 13",
+      "daytime": "Sat, Sun (10:00 AM - 01:15 PM)",
+      "batchtype": "Morning"
     }
   ],
   "reviewSlug": "Android App Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=114",
   "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=154",
-  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=168",
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=206",
   "frame-id": "114",
   "frame-id-noida": "154",
-  "frame-id-dehradun": "168",
-
-  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=168",
-  "frame-id-dehradun-lp": "168",
+  "frame-id-dehradun": "206",
 
 	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=175",
 	"frame-id-pitampura-lp": "175",
-
-	"registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=180",
-	"frame-id-dwarka-lp": "180",
 
 	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=184",
 	"frame-id-noida-lp": "184"

@@ -43,7 +43,8 @@
 	"price": "7,000",
 	"registerButton": {
 		"buttonText": "Register Now",
-		"registerIdSlug": "Advanced"
+		"registerIdSlug": "Advanced",
+        "buttonLink": "https://online.codingblocks.com/courses/26#runs"
 	},
     "highlights": [
       {
@@ -61,7 +62,8 @@
 	"priceCut": "12,000",
 	"price": "9,000",
 	"registerButton": {
-		"buttonText": "Register Now"
+		"buttonText": "Register Now",
+    "buttonLink": "https://online.codingblocks.com/courses/c-plus-plus-online-course-for-beginners"
 	},
     "highlights": [
       {
@@ -117,7 +119,5 @@
     "SHREYA GUPTA",
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
-  ],
-  "registerLinkAdvanced": "https://students.codingblocks.com/payment/iframe?item_id=124",
-  "registerLinkComplete": "https://students.codingblocks.com/payment/iframe?item_id=125"
+  ]
 }

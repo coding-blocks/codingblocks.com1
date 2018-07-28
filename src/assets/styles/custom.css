@@ -633,7 +633,7 @@ h1 .sub-heading {
 /*Review Box*/
 .reviewBox {
     display: inline-block;
-    width: 78%;
+    width: 70%;
     margin-left: 2%;
     position: relative;
     text-align: left;
@@ -929,7 +929,7 @@ footer, section {
 }
 
 .review-slides .flex-direction-nav .flex-next {
-    width: 100%;
+    width: fit-content;
     height: 100%;
     margin: -10px -80px 0 0;
 }

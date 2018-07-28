@@ -1,7 +1,6 @@
 {
   "id": "bootcamp02",
   "title": "Interview Prep BootCamp | Coding Blocks",
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=47",
   "courseReviews": [
     "Naman Kumar",
     "RISHABH KHANNA",
@@ -29,12 +28,12 @@
   },
   "schedule": [
 	  {
-		  "center": "Pitampura",
-		  "startdate": "Jul 05",
-		  "enddate": "Jul 26",
-		  "daytime": "Thurs (3:30 PM - 07:30 PM); Mon, Tue (10:30 AM - 02:00 PM)",
-		  "batchtype": "Regular"
+		  "center": "Noida",
+		  "startdate": "Aug 20",
+      "enddate": "Nov 03",
+		  "daytime": "Mon,Tue,Thu,Fri (05:00 PM - 07:00 PM)",
+		  "batchtype": "Evening"
 	  }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=121"
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=200"
 }
