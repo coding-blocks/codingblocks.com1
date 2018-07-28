@@ -1517,11 +1517,12 @@ window.addEventListener("message", function (data) {
 });
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    $("nav").addClass('navfx');
-  } else {
-    $("nav").removeClass('navfx');
-  }
-  prevScrollpos = currentScrollPos;
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        $("nav").addClass('navfx');
+    } else {
+        $("nav").removeClass('navfx');
+        $(".nav-open").removeClass('nav-open');
+    }
+    prevScrollpos = currentScrollPos;
 }

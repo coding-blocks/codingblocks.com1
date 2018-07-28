@@ -1081,8 +1081,15 @@ footer, section {
     }
 
     nav.navfx {
-    position: fixed !important;
-}
+        position: fixed !important;
+        width: 100%;
+    }
+    @media (max-width: 990px){
+        .nav-bar .module-group.right .module.left {
+            overflow: auto;
+            height: 70vh;
+        }
+    }
 }
 
 .g-recaptcha {
