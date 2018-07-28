@@ -28,6 +28,7 @@
 		</div>
 	</section>
 
+	<a id="contents" class="in-page-link"></a>
     <section>
         <div class="container">
             <div class="row">
@@ -77,7 +78,7 @@
 								<h2 class="heading">Enroll in Complete Java Course</h2>
 								<p class="description">Embark upon this journey from being an amateur coder to a DS-Algo expert with our complete Java course.</p>
 								<a class="btn btn-filled" target="_blank"
-									href="/courses/classroom/java.html#content-advance">Register Now</a>
+									href="/classroom-courses/java-for-beginners.html">Register Now</a>
 							</div>
 						</section>
 						{{> courseenroll}}
@@ -86,11 +87,26 @@
 						<section>
 							<div class="text-center">
 								<h3>REGISTER NOW</h3>
-							</div>
 							<div class="container">
-								<iframe class="payment-widget" frameborder="0"
-									src="https://students.codingblocks.com/payment/iframe?item_id=115"></iframe>
+					<div class="course-tabs">
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="wide-tab active" id="tab-noida"><a href="#noida" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida (Early bird discount)</a></li>
+							<li role="presentation" class="wide-tab" id="tab-dehradun"><a href="#dehradun" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dehradun (50% inaugural discount)</a></li>
+						</ul>
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="noida">
+								<div class="container widget-container" data-widget-id="{{frame-id-noida}}">
+									<iframe class="payment-widget" {{#if frame-id-noida}}id="{{frame-id-noida}}"{{/if}} frameborder="0" src="{{{registerLinkNoida}}}"></iframe>
+								</div>
 							</div>
+							<div role="tabpanel" class="tab-pane" id="dehradun">
+								<div class="container widget-container" data-widget-id="{{frame-id-dehradun}}">
+									<iframe class="payment-widget" {{#if frame-id-dehradun}}id="{{frame-id-dehradun}}"{{/if}} frameborder="0" src="{{{registerLinkDehradun}}}"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 						</section>
 
                     </div>

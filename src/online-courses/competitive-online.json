@@ -20,7 +20,8 @@
     "upcomingBatches": "Upcoming Batches",
     "registerBoxHeading": "",
     "registerButton": {
-      "buttonText": "Register Now"
+      "buttonText": "Register Now",
+      "buttonLink": "https://online.codingblocks.com/courses/competitive-programming-course-online#runs"
     },
     "highlights": [
       {
@@ -51,6 +52,5 @@
   },
   "sample": {
 	  "url": "https://www.youtube.com/embed/2frmG3Z_PRo"
-  },
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=128"
+  }
 }

@@ -192,13 +192,14 @@
   ],
   "schedule": [
 	  {
-		  "center": "Pitampura",
-		  "startdate": "Jun 29",
-		  "enddate": "Jul 29",
-		  "daytime": "Fri, Sun, Tue (03:30 PM - 07:00 PM)",
-		  "batchtype": "Regular"
+		  "center": "Dehradun",
+		  "startdate": "Sep 29",
+		  "enddate": "Oct 27",
+		  "daytime": "Sat, Sun (02:00 PM - 05:30 PM)",
+		  "batchtype": "Evening"
 	  }
   ],
   "reviewSlug": "Web Development Course",
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=146"
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=208",
+  "frame-id-dehradun": "208"
 }

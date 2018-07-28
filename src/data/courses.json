@@ -7,7 +7,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "C++ course logo",
       "lectures": "(24 lectures)",
-      "link": "/classroom-courses/c-plus-plus-for-beginners.html#launchpad-bundle-content",
+      "link": "/classroom-courses/c-plus-plus-for-beginners.html",
       "off-price": "3,000",
       "badge": "Starting this August",
       "description": [
@@ -27,7 +27,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "java course logo",
       "lectures": "(24 lectures)",
-      "link": "/classroom-courses/java-for-beginners.html#crux-bundle",
+      "link": "/classroom-courses/java-for-beginners.html",
       "off-price": "3,000",
       "badge": "Starting this August",
       "description": [
@@ -47,7 +47,7 @@
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
       "link": "/classroom-courses/android-app-development-using-kotlin-and-java.html",
-      "badge": "Starting this August",
+      "badge": "Starting August 19",
       "description": [
         "Building Android Apps",
         "UI and Animations",
@@ -66,7 +66,7 @@
       "imgAlt": "web development course logo",
       "lectures": "(22 lectures)",
       "link": "/classroom-courses/web-development-nodejs.html",
-      "badge": "Starting this August",
+      "badge": "Starting August 19",
       "description": [
         "Web Design",
         "Real time Web Apps",
@@ -103,7 +103,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "(23 lectures)",
       "link": "/classroom-courses/machine-learning-with-deep-learning.html",
-	  "badge": "Starting this August",
+	  "badge": "Starting August 19",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -121,7 +121,7 @@
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
-      "badge": "Starting this August",
+      "badge": "Starting August 12",
       "description": [
         "Programming Fundamentals in Java"
       ],
@@ -136,7 +136,7 @@
       "imgAlt": "Launchpad For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
-      "badge": "Starting this August",
+      "badge": "Starting August 12",
       "description": [
         "Programming Fundamentals in C+"
       ],
@@ -166,7 +166,7 @@
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
-      "badge": "Starting this August",
+      "badge": "Starting August 19",
       "description": [
         "DS & Algorithms in C++"
       ],
@@ -191,7 +191,7 @@
     {
       "id": "course12",
       "name": "DS-Algo in C++ Online",
-	  "badge": "Starting June 4",
+	  "badge": "Starting Aug 5",
       "price": "9,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "Launchpad Online",
@@ -258,7 +258,7 @@
       "id": "course15",
       "name": "NodeJS Web Development Online",
       "price": "12,000",
-	  "badge": "Starting June 12",
+	    "badge": "Starting Aug 15",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "web development course logo",
       "lectures": "",
@@ -275,7 +275,7 @@
       "id": "course16",
       "name": "Competitive programming Online",
       "price": "10,000",
-	  "badge": "Starting June 18",
+	    "badge": "Starting Aug 20",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
       "lectures": "",
@@ -300,7 +300,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
       "imgAlt": "android course logo",
       "lectures": "",
-	  "badge": "Starting June 15",
+	  "badge": "Starting Aug 20",
       "link": "/online-courses/android-app-development.html",
       "description": [
         "Building Android Apps",
@@ -315,7 +315,7 @@
       "name": "DS-Algo in Java Online",
       "price": "9,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
-	  "badge": "Starting June 11",
+	  "badge": "Starting Aug 15",
       "imgAlt": "java online course logo",
       "lectures": "",
       "link": "/online-courses/java.html",
@@ -422,7 +422,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "",
       "link": "/online-courses/machine-learning.html",
-	  "badge": "Starting This August",
+	  "badge": "Starting July 15",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -441,7 +441,7 @@
       "imgAlt": "Python for Developers Logo",
       "lectures": "(11 lectures)",
       "link": "/classroom-courses/python-for-beginners.html",
-	  "badge": "Starting this August",
+	  "badge": "Starting August 19",
       "description": [
         "Programming Fundamentals in Python"
       ]
@@ -449,7 +449,7 @@
     {
       "id": "course26",
       "name": "Advanced DS-Algo in C++",
-	  "badge": "Starting June 20",
+	  "badge": "Starting Aug 5",
       "price": "7,000",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "Launchpad Online",
@@ -484,12 +484,13 @@
 	  "off-price": "",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Prep course logo",
-	  "badge": "Starting May 15",
+	  "badge": "Starting Aug 5",
       "lectures": "",
       "link": "/online-courses/coding-interview-preparation-online-bootcamp.html",
       "description": [
 		  "Ace that Technical Interview"
-      ]
+      ],
+      "online-link": "https://online.codingblocks.com/courses/26"
     },
     {
       "id": "webdj",

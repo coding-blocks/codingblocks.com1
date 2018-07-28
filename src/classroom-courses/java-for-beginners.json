@@ -107,104 +107,55 @@
 	},
 	"schedule": [
 		{
-			"center": "Pitampura",
-			"startdate": "May 27",
-			"enddate": "Jun 12",
-			"daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
-			"center": "Pitampura",
-			"startdate": "Jun 08",
-			"enddate": "Jun 29",
-			"daytime": "Fri, Mon (09:00 AM - 01:30 PM); Thurs (12:15 PM - 03:30 PM)",
-			"batchtype": "Regular"
-		},
-		{
-			"center": "Dwarka",
-			"startdate": "May 28",
-			"enddate": "Jun 12",
-			"daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
-			"center": "Dwarka",
-			"startdate": "Jun 09",
-			"enddate": "Jun 30",
-			"daytime": "Sat, Tue, Thu (10:00 AM - 02:00 PM)",
-			"batchtype": "Regular"
-		},
-		{
-			"center": "Noida",
-			"startdate": "Jun 12",
-			"enddate": "Jun 28",
-			"daytime": "Tue, Thu, Fri, Sat (09:30 AM - 01:30 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
-			"center": "Noida",
-			"startdate": "Jun 12",
-			"enddate": "Jun 28",
-			"daytime": "Tue, Thu, Sat, Sun (02:30 PM - 06:30 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
 			"center": "Dehradun",
-			"startdate": "July 1",
-			"enddate": "July 17",
-			"daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
+			"startdate": "Aug 18",
+			"enddate": "Sep 22",
+			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
 			"batchtype": "Fast Track"
 		}
 	],
 	"scheduleCrux": [
 		{
 			"center": "Pitampura",
-			"startdate": "Aug 12",
+			"startdate": "Aug 19",
 			"enddate": "Nov 03",
-			"daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
+			"daytime": "Sat, Sun (08:00 AM - 11:30 AM)",
 			"batchtype": "Morning"
 		},
 		{
 			"center": "Pitampura",
-			"startdate": "Aug 12",
-			"enddate": "Nov 03",
-			"daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
+			"startdate": "Aug 25",
+			"enddate": "Nov 10",
+			"daytime": "Sat, Sun (12:15 PM - 03:45 PM)",
 			"batchtype": "Afternoon"
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "Aug 12",
+			"startdate": "Aug 19",
 			"enddate": "Nov 03",
-			"daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
-			"batchtype": "Morning"
+			"daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
+			"batchtype": "Evening"
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "Aug 12",
-			"enddate": "Nov 03",
-			"daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
-			"batchtype": "Afternoon"
-		},
-		{
-			"center": "Noida",
-			"startdate": "Aug 12",
-			"enddate": "Nov 03",
-			"daytime": "Sat, Sun (08:00 AM - 12:00 PM)",
+			"startdate": "Aug 25",
+			"enddate": "Nov 10",
+			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
 			"batchtype": "Morning"
 		},
 		{
 			"center": "Noida",
-			"startdate": "Aug 12",
+			"startdate": "Aug 19",
 			"enddate": "Nov 03",
-			"daytime": "Sat, Sun (12:00 PM - 04:00 PM)",
-			"batchtype": "Afternoon"
+			"daytime": "Sat, Sun (02:00 PM - 06:00 PM)",
+			"batchtype": "Evening"
 		},
 		{
 			"center": "Dehradun",
-			"startdate": "July 1",
-			"enddate": "Aug 11",
-			"daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
-			"batchtype": "Regular"
+			"startdate": "Aug 19",
+			"enddate": "Oct 20",
+			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
+			"batchtype": "Morning"
 		}
 	],
 	"courseReviews": [
@@ -213,11 +164,9 @@
 		"GAGARIN DASH",
 		"KSHITIJ BANSAL"
 	],
-	"registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=169",
-	"frame-id-dehradun": "169",
 
-	"registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=169",
-  	"frame-id-dehradun-lp": "169",
+	"registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=169",
+  	"frame-id-dehradun": "169",
 
 	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=171",
 	"frame-id-pitampura-lp": "171",
@@ -229,5 +178,8 @@
 	"frame-id-noida-lp": "182",
 
 	"registerLinkPitampuraBasic": "https://students.codingblocks.com/payment/iframe?item_id=112",
-	"frame-id-delhi-basic": "112"
+	"frame-id-delhi-basic": "112",
+
+	"registerLinkDehradunBasic": "https://students.codingblocks.com/payment/iframe?item_id=203",
+	"frame-id-dehradun-basic": "203"
 }

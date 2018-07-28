@@ -8,19 +8,14 @@
   ],
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
+      "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "Presenting the country's best online courses",
-      "content": "Learn at your own pace, Best mentors from IITS - NIT - DTU - NSIT - BITS, with all the benefits of classroom courses and 24/7 mentor support. <br> Rs. 1800 off on all courses, use EARLY18",
+      "heading": "Results declared for CAST held on July 22",
+      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this fall",
       "button": [
         {
-          "link": "/online-courses/",
-          "text": "Get Rs 1800 discount",
-          "filled": "true"
-        },
-        {
-          "link": "tel:9599247216",
-          "text": "Call us now : 9599247216",
+          "link": "http://students.codingblocks.com/admission_test_online/CASTJ18/result_letter",
+          "text": "Check Result",
           "filled": "true"
         }
       ]
@@ -33,12 +28,25 @@
       "button": [
         {
           "link": "/cast.html",
-          "text": "Test for basic courses",
+          "text": "Test for foundation courses",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
+      "imgAlt": "",
+      "heading": "Presenting the country's best online courses",
+      "content": "Learn at your own pace, Best mentors from IITS - NIT - DTU - NSIT - BITS, with all the benefits of classroom courses and 24/7 mentor support. <br> Rs. 1000 off on all courses, use FLAT1000",
+      "button": [
+        {
+          "link": "/online-courses/",
+          "text": "Get Rs 1000 discount",
           "filled": "true"
         },
         {
-          "link": "/apat.html",
-          "text": "Test for advanced courses",
+          "link": "tel:9599247216",
+          "text": "Call us now : 9599247216",
           "filled": "true"
         }
       ]
@@ -52,19 +60,6 @@
         {
           "link": "/courses",
           "text": "Courses",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/nathan-anderson-223103.jpg",
-      "imgAlt": "",
-      "heading": "BOSS is Back!",
-      "content": "Contribute to the Coding Blocks code repository with BOSS 2018 and stand a chance to win a laptop, smartphones, Play Stations and much more.",
-      "button": [
-        {
-          "link": "https://lab.codingblocks.com/boss",
-          "text": "Details",
           "filled": "true"
         }
       ]
@@ -91,19 +86,6 @@
         {
           "link": "/courses/online/interviewprep.html",
           "text": "Online Course",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
-      "imgAlt": "",
-      "heading": "Competitive Programming Study Material, Now on Amazon!",
-      "content": "Our hugely successful, exclusive Competitive Programming study package is now available on Amazon.",
-      "button": [
-        {
-          "link": "https://www.amazon.in/dp/8193754301",
-          "text": "Purchase on Amazon",
           "filled": "true"
         }
       ]
@@ -167,16 +149,16 @@
       "id": "course25"
     },
     {
-      "id": "course04",
+      "id": "course30",
       "odd": true
     },
     {
-      "id": "course03"
+      "id": "course04"
     }
   ],
   "coursesRow4": [
     {
-      "id": "course27",
+      "id": "course03",
       "odd": true
     },
     {
@@ -190,13 +172,6 @@
   "coursesRow5": [
     {
       "id": "course14"
-    },
-    {
-      "id": "webdj",
-      "odd": true
-    },
-    {
-      "id": "course30"
     }
   ],
   "cppInterviewRow": [
@@ -258,6 +233,9 @@
     },
   {
       "id": "course24"
+  },{
+    "id": "course28",
+    "odd": true
   }
   ],
   "coursesSection": {
@@ -282,8 +260,9 @@
       "PRATEEK NARANG",
       "Varun Hasija",
       "RAJESH SACHDEV",
-      "ANKIT MALIK",
       "VARUN KOHLI",
+      "GARIMA CHHIKARA",
+      "Rishab Kapoor",
       "ANUJ GARG"
     ]
   },

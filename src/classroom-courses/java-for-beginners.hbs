@@ -13,7 +13,7 @@
     {{> overview}}
     {{> coursehighlights}}
 
-	<a id="crux-bundle-content" class="in-page-link"></a>
+	<a id="contents" class="in-page-link"></a>
 	<section>
         <div class="container">
             <div class="row">
@@ -25,6 +25,11 @@
                                                                                          aria-controls="profile"
                                                                                          role="tab"
                                                                                          data-toggle="tab">Crux (Complete Bundle)</a>
+                            </li>
+                            <li role="presentation" class="wide-tab" id="tab-basic"><a href="#content-basic"
+                                                                                              aria-controls="home"
+                                                                                              role="tab"
+                                                                                              data-toggle="tab">Basic</a>
                             </li>
                         </ul>
 
@@ -130,10 +135,9 @@
 										</div>
 
 									</div>
-
-              </section>
-              {{> courseschedule schedule=scheduleCrux}}
-              <a id="advance-register" class="in-page-link"></a>
+								</section>
+				              {{> courseschedule schedule=scheduleCrux}}
+				              <a id="advance-register" class="in-page-link"></a>
                                 <section>
                                     <div class="text-center">
                                         <h3>REGISTER NOW</h3></div>
@@ -148,9 +152,9 @@
                                                         role="tab"
                                                         data-toggle="tab"
                                                         aria-expanded="true">Pitampura</a></li>
-                                                <li role="presentation" class="wide-tab" id="tab-noida"><a href="#noida-adv" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida</a></li>
-                                                <li role="presentation" class="wide-tab" id="tab-dehradun"><a href="#dehradun-adv" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dehradun (50% inaugural discount)</a></li>
                                                 <li role="presentation" class="wide-tab" id="tab-dwarka"><a href="#dwarka-adv" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dwarka</a></li>
+                                                <li role="presentation" class="wide-tab" id="tab-noida"><a href="#noida-adv" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida (Early bird discount)</a></li>
+                                                <li role="presentation" class="wide-tab" id="tab-dehradun"><a href="#dehradun-adv" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dehradun (50% inaugural discount)</a></li>
                                             </ul>
                                             <div class="tab-content">
                                                 <div role="tabpanel" class="tab-pane active" id="delhi-adv">
@@ -178,6 +182,103 @@
                                     </div>
                                 </section>
 							</div>
+							<div role="tabpanel" class="tab-pane" id="content-basic">
+                                <div>
+                                    <div class="course-card-container">
+                                        <div class="content-row">
+                                            <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                                <h3 class="topic">Problem Solving and Programming Fundamentals</h3>
+                                                <hr>
+                                                <ul class="points-list">
+                                                    <li>Flowcharts, pseudo-code and brain teasers</li>
+                                                    <li>IDE installation and familiarization</li>
+                                                    <li>Debugging</li>
+                                                    <li>Input-Output</li>
+                                                    <li>Data Types and Variables</li>
+                                                    <li>Typecasting</li>
+                                                    <li>Loops and Decision constructs</li>
+                                                    <li>Functions and operators</li>
+                                                    <li>Arrays, multi-dimensional arrays and dynamic arrays</li>
+                                                    <li>String and String Buffer</li>
+                                                </ul>
+                                            </div>
+                                            <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                                <h3 class="topic">Recursion</h3>
+                                                <hr>
+                                                <ul class="points-list">
+                                                    <li>Introduction to Recursion</li>
+                                                    <li>Classical Recursion Problems</li>
+                                                </ul>
+                                            </div>
+                                            <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                                <h3 class="topic">Basics of Data Structures</h3>
+                                                <hr>
+                                                <ul class="points-list">
+                                                    <li>Time and Space Complexity</li>
+                                                    <li>Stacks and OOPs (Classes and Objects, Exceptions and Data member
+                                                        modifiers)
+                                                    </li>
+                                                    <li>Queues and OOPs (Encapsulation, Inheritance and Polymorphism)
+                                                    </li>
+                                                    <li>Linked List and OOPs (Abstract classes, Interfaces and
+                                                        Packages)
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <section>
+                                    <div class="col-md-10 col-md-offset-1 complete-course-box bg-secondary">
+                                        <h2 class="heading">Enroll in Complete Java Course</h2>
+                                        <p class="description">Embark upon this journey from being an amateur coder to a DS-Algo expert with our complete Java course.</p>
+										<a href="#crux-bundle-content"
+											id="tab-advance-toggle"
+											class="btn btn-filled">Crux (Complete Bundle)</a>
+                                    </div>
+                                </section>
+                                <a id="basic-enroll" class="in-page-link"></a>
+								<section class="tabbed-enroll-section">
+								  <div class="container">
+									<div class="row v-align-children">
+									  <div class="col-md-4 col-sm-6">
+										<div class="pricing-table pt-1 text-center emphasis">
+										  <h5 class="uppercase">
+											Regular Batch
+
+										  </h5>
+										  <span class="price">₹8,000</span>
+										  <p class="lead">(10 lectures)</p>
+										  <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+										  <p>
+											<a href="/contactus">Contact Us</a>
+											<br>Call(Toll-free): 1800-2744-504
+										  </p>
+										</div>
+									  </div>
+									</div>
+								  </div>
+								</section>
+								{{> courseschedule}}
+                                <a id="basic-register" class="in-page-link"></a>
+                                <section>
+                                    <div class="text-center">
+                                        <h3>REGISTER NOW</h3>
+                                    </div>
+                                    <div class="container">
+                                        <div class="course-tabs" id="adv">
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li role="presentation" class="wide-tab active" id="tab-dehradun"><a href="#dehradun-bas" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Dehradun (Inaugral discount of 50%)</a></li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div role="tabpanel" class="tab-pane active" id="dehradun-bas">
+                                                    	<iframe class="payment-widget" {{#if frame-id-dehradun-basic}}id="{{frame-id-dehradun-basic}}"{{/if}} frameborder="0" src="{{{registerLinkDehradunBasic}}}"></iframe>
+													</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
                         </div>
 
                     </div>
