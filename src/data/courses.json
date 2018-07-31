@@ -9,7 +9,7 @@
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
       "off-price": "3,000",
-      "badge": "Starting this August",
+      "badge": "Starting Aug 19",
       "description": [
         "C++ Complete Course",
         "Data Structures & Algorithms in C++",
@@ -29,7 +29,7 @@
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
       "off-price": "3,000",
-      "badge": "Starting this August",
+      "badge": "Starting Aug 19",
       "description": [
         "Java Complete Course",
         "Data Structures & Algorithms in Java",
@@ -47,7 +47,7 @@
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
       "link": "/classroom-courses/android-app-development-using-kotlin-and-java.html",
-      "badge": "Starting August 19",
+      "badge": "Starting Aug 19",
       "description": [
         "Building Android Apps",
         "UI and Animations",
@@ -66,7 +66,7 @@
       "imgAlt": "web development course logo",
       "lectures": "(22 lectures)",
       "link": "/classroom-courses/web-development-nodejs.html",
-      "badge": "Starting August 19",
+      "badge": "Starting Aug 19",
       "description": [
         "Web Design",
         "Real time Web Apps",
@@ -103,7 +103,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "(23 lectures)",
       "link": "/classroom-courses/machine-learning-with-deep-learning.html",
-	  "badge": "Starting August 19",
+	  "badge": "Starting Aug 25",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -121,7 +121,7 @@
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
-      "badge": "Starting August 12",
+      "badge": "Starting Aug 19",
       "description": [
         "Programming Fundamentals in Java"
       ],
@@ -136,7 +136,7 @@
       "imgAlt": "Launchpad For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
-      "badge": "Starting August 12",
+      "badge": "Starting Aug 19",
       "description": [
         "Programming Fundamentals in C+"
       ],
@@ -166,7 +166,7 @@
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
-      "badge": "Starting August 19",
+      "badge": "Starting Sep 15",
       "description": [
         "DS & Algorithms in C++"
       ],
@@ -181,7 +181,7 @@
       "imgAlt": "Data Structures and Algorithms Using Java",
       "lectures": "(15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-using-java.html",
-      "badge": "Starting this August",
+      "badge": "Starting Sep 15",
       "description": [
         "DS & Algorithms in Java"
       ],
@@ -212,7 +212,7 @@
       "imgAlt": "Launchpad Online",
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/advanced-java.html",
-	  "badge": "Starting this August",
+	  "badge": "Starting this Aug",
       "description": [
         "App Development in Java"
       ],
@@ -242,7 +242,7 @@
       "price": "6,000",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Preparation Bootcamp logo",
-	  "badge": "Starting this August",
+	  "badge": "Starting this Aug",
       "lectures": "(10 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html",
       "description": [
@@ -275,7 +275,7 @@
       "id": "course16",
       "name": "Competitive programming Online",
       "price": "10,000",
-	    "badge": "Starting Aug 20",
+      "badge": "Starting Aug 15",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
       "lectures": "",
@@ -352,8 +352,8 @@
       "price": "14,000",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming Course Logo",
-      "lectures": "(12-15 lectures)",
-	  "badge": "Starting this August",
+      "lectures": "(10-12 lectures)",
+	  "badge": "Starting Sep 1",
       "link": "/classroom-courses/competitive-programming.html",
       "description": [
         "",
@@ -375,7 +375,7 @@
 	  "off-price": "1,000",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
-	  "badge": "Starting this August",
+	  "badge": "Starting this Aug",
       "lectures": "(22-25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#cpp-bundle",
       "description": [
@@ -391,7 +391,7 @@
 	  "off-price": "1,000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Competitive Programming course logo",
-	  "badge": "Starting this August",
+	  "badge": "Starting this Aug",
       "lectures": "(22-25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#java-bundle",
       "description": [
@@ -406,7 +406,7 @@
 	  "off-price": "",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Prep course logo",
-	  "badge": "Starting May 15",
+	  "badge": "Starting Aug 5",
       "lectures": "",
       "link": "/online-courses/coding-interview-preparation-online.html",
       "description": [
@@ -441,7 +441,7 @@
       "imgAlt": "Python for Developers Logo",
       "lectures": "(11 lectures)",
       "link": "/classroom-courses/python-for-beginners.html",
-	  "badge": "Starting August 19",
+	  "badge": "Starting Aug 25",
       "description": [
         "Programming Fundamentals in Python"
       ]
@@ -470,7 +470,7 @@
       "imgAlt": "Unity Game Development",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/unity-game-development.html",
-      "badge": "Starting this August",
+      "badge": "Starting this Aug",
       "description": [
         "Game Development with Unity"
       ],
@@ -500,7 +500,7 @@
       "imgAlt": "django web development course logo",
       "lectures": "(15 lectures)",
       "link": "/classroom-courses/web-development-django.html",
-      "badge": "Starting this August",
+      "badge": "Starting this Aug",
       "description": [
         "Web Design",
         "Deployment &amp; System Adminstration",
@@ -511,13 +511,13 @@
     },
     {
       "id": "course30",
-      "name": "Python App Development",
+      "name": "Python - Django",
       "price": "12,000",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "Python app development course logo",
       "lectures": "(15 lectures)",
       "link": "/classroom-courses/python-app-dev.html",
-      "badge": "Starting June 13",
+      "badge": "Starting Aug 19",
       "description": [
         "Python fundamentals",
         "Web scrapping",
