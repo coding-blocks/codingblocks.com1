@@ -130,6 +130,13 @@
 			"batchtype": "Afternoon"
 		},
 		{
+			"center": "Pitampura",
+			"startdate": "Aug 25",
+			"enddate": "Nov 10",
+			"daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
+			"batchtype": "Evening"
+		},
+		{
 			"center": "Dwarka",
 			"startdate": "Aug 19",
 			"enddate": "Nov 03",
