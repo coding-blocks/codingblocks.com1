@@ -14,7 +14,7 @@
       "content": "",
       "button": [
         {
-          "link": "/apat-result.html",
+          "link": "/apat-results.html",
           "text": "Check Result",
           "filled": "true"
         }
