@@ -19,7 +19,7 @@
   },
   "header": {
     "heading": "Python App Development",
-    "subHeading": "Programming Fundamentals and Desktop apps in Python",
+    "subHeading": "Programming Fundamentals and Web apps in Python",
     "breadcrumbs": [
       {
         "linkText": "Highlights",
@@ -37,7 +37,7 @@
     "bgSrc": "../../../assets/images/cb/cover/covergcp.jpg"
   },
   "overview": {
-    "content": "<p>The Python Application Development course is designed to help students new to programming or otherwise to learn python from ground up to level of making interesting desktop applications and games. The first part of the course help students to understand how python syntax works, related concepts and the latter part deals with automating mundane tasks using python. Through this course, students will be made comfortable with python for computations, object-oriented python, python standard template library, databases and desktop application.</p><p>This course includes multiple activities through which students will have hands-on experience of python programming. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to learn data Science, Machine Learning or web development using Django in future.</p>",
+    "content": "<p>The Python Application Development course is designed to help students new to programming or otherwise to learn python from ground up to level of making interesting web applications. The first part of the course help students to understand how python syntax works, related concepts and the latter part deals with automating mundane tasks using python. Through this course, students will be made comfortable with python for computations, object-oriented python, python standard template library, databases and web application.</p><p>This course includes multiple activities through which students will have hands-on experience of python programming. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to learn data Science, Machine Learning or web development using Django in future.</p>",
 	"buttonLink": "#register"
   },
   "courseHighlights": [
@@ -58,8 +58,8 @@
     },
     {
       "icon": "fa fa-laptop",
-      "title": "Desktop Apps",
-      "content": "We take a deep dive into Python's extensive built in standard library and use them to make feature efficient desktop UI applications."
+      "title": "Web Apps",
+      "content": "We take a deep dive into Python's extensive built in standard library and use them to make feature efficient Web applications."
     }
   ],
   "courseContents": [
@@ -137,8 +137,8 @@
       "ans": "This course will cover programming principles from scratch using Python. If you already know one of the aforementioned programming languages, it will only be easier for you to pick up the concepts taught in the course, but knowledge is in no way a prerequisite."
     },
     {
-      "ques": "Will this help me in making desktop apps?",
-      "ans": "This course is designed to give you a solid foundation in programming wrapped up with Desktop Application Development. It will help you discover further with Web Development, Data Science, and other fields."
+      "ques": "Will this help me in making web apps?",
+      "ans": "This course is designed to give you a solid foundation in programming wrapped up with Web Application Development. It will help you discover further with Web Development, Data Science, and other fields."
     }
   ],
   "mentors": {
