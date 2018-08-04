@@ -18,7 +18,7 @@
     "description": "Learn Python at Coding Blocks, best Python training institute in Delhi, Noida, Jalandhar and Amritsar. We offer Python course for beginners."
   },
   "header": {
-    "heading": "Python App Development",
+    "heading": "Python Web Development",
     "subHeading": "Programming Fundamentals and Web apps in Python",
     "breadcrumbs": [
       {
@@ -167,12 +167,12 @@
 		  "startdate": "Aug 19",
 		  "enddate": "Sep 30",
 		  "daytime": "Sat, Sun (10:30 AM - 02:00 PM)",
-		  "batchtype": "Evening"
+		  "batchtype": "Morning"
     },
     {
 		  "center": "Noida",
-		  "startdate": "Aug 12",
-		  "enddate": "Sep 30",
+		  "startdate": "Aug 25",
+		  "enddate": "Oct 14",
 		  "daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
 		  "batchtype": "Morning"
 	  }
