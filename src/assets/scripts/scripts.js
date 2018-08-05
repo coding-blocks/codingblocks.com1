@@ -962,9 +962,9 @@ window.initializeMaps = function () {
                         stylers: [{hue: "#ffff00"}, {lightness: -25}, {saturation: -97}]
                     }],
                     zoomLevel = typeof $(this).attr("data-map-zoom") !== "undefined" && $(this).attr("data-map-zoom") !== "" ? $(this).attr("data-map-zoom") * (window.innerHeight < 768 ? 0.9 : 1) : 17,
-                    latlong = typeof $(this).attr("data-latlong") != "undefined" ? $(this).attr("data-latlong") : false,
-                    latitude = latlong ? 1 * latlong.substr(0, latlong.indexOf(",")) : false,
-                    longitude = latlong ? 1 * latlong.substr(latlong.indexOf(",") + 1) : false,
+                    latlong = typeof $(this).attr("data-latlong") != "undefined" ? $(this).attr("data-latlong").split(";") : [""],
+                    latitude = [],
+                    longitude = [],
                     geocoder = new google.maps.Geocoder,
                     address = typeof $(this).attr("data-address") !== "undefined" ? $(this).attr("data-address").split(";") : [""],
                     markerTitle = "We Are Here", isDraggable = $(document).width() > 766 ? true : false, map, marker,
@@ -975,6 +975,10 @@ window.initializeMaps = function () {
                         disableDefaultUI: false,
                         styles: mapStyle
                     };
+                latlong.forEach(function (currlatlong) {
+                    latitude.push(currlatlong ? 1 * currlatlong.substr(0, currlatlong.indexOf(",")) : false)
+                    longitude.push(currlatlong ? 1 * currlatlong.substr(currlatlong.indexOf(",") + 1) : false)
+                })
                 if ($(this).attr("data-marker-title") != undefined && $(this).attr("data-marker-title") != "") {
                     markerTitle = $(this).attr("data-marker-title")
                 }
@@ -1016,15 +1020,29 @@ window.initializeMaps = function () {
                             console.log("There was a problem geocoding the address.")
                         }
                     })
-                } else if (latitude != undefined && latitude != "" && latitude != false && longitude != undefined && longitude != "" && longitude != false) {
-                    mapOptions.center = {lat: latitude, lng: longitude};
+                } else if (latitude.length > 0 && longitude.length > 0){
+                    markerImage = {
+                        url: "/assets/images/cb/cb_marker.png",
+                        scaledSize: new google.maps.Size(60, 100),
+                        origin: new google.maps.Point(0, 0)
+                    };
+
                     map = new google.maps.Map(mapInstance, mapOptions);
-                    marker = new google.maps.Marker({
-                        position: {lat: latitude, lng: longitude},
-                        map: map,
-                        icon: markerImage,
-                        title: markerTitle
-                    })
+                    var markedOnce = false;
+                    for (var i = 0; i < latlong.length; i++) {
+                        if (latitude[i] != undefined && latitude[i] != "" && latitude[i] != false && longitude[i] != undefined && longitude[i] != "" && longitude[i] != false) {
+                            if(markedOnce === false) {
+                                map.setCenter({lat: latitude[i], lng: longitude[i]});
+                                markedOnce = true
+                            }
+                            marker = new google.maps.Marker({
+                                position: {lat: latitude[i], lng: longitude[i]},
+                                map: map,
+                                icon: markerImage,
+                                title: markerTitle
+                            })
+                        }
+                    }
                 }
             })
         }
