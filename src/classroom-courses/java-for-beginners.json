@@ -52,8 +52,8 @@
 		},
 		{
 			"icon": "et-line-layers",
-			"title": "OOP Concepts &amp; Project",
-			"content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready. Students will also build a game with Java Swing Libraries to strengthen their OOPS concepts."
+			"title": "OOP Concepts",
+			"content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready."
 		},
 		{
 			"icon": "et-line-linegraph",
@@ -128,6 +128,13 @@
 			"enddate": "Nov 10",
 			"daytime": "Sat, Sun (12:15 PM - 03:45 PM)",
 			"batchtype": "Afternoon"
+		},
+		{
+			"center": "Pitampura",
+			"startdate": "Aug 25",
+			"enddate": "Nov 10",
+			"daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
+			"batchtype": "Evening"
 		},
 		{
 			"center": "Dwarka",

@@ -102,18 +102,25 @@
   },
   "schedule": [
     {
+      "center": "Pitampura",
+      "startdate": "Sep 15",
+      "enddate": "Nov 03",
+      "daytime": "Sat, Sun (08:00 AM - 11:30 AM)",
+      "batchtype": "Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "Aug 13",
+      "enddate": "Oct 05",
+      "daytime": "Tue, Thu, Fri (5:00 PM - 7:30 PM)",
+      "batchtype": "Evening"
+    },
+    {
       "center": "Dehradun",
       "startdate": "Sep 27",
       "enddate": "Oct 20",
       "daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
       "batchtype": "Morning"
-    },
-    {
-      "center": "Noida",
-      "startdate": "Aug 20",
-      "enddate": "Oct 06",
-      "daytime": "Mon, Tue, Thu, Fri (5:00 PM - 7:00 PM)",
-      "batchtype": "Evening"
     }
   ],
   "courseReviews": [
@@ -122,6 +129,8 @@
     "GAGARIN DASH",
     "KSHITIJ BANSAL"
   ],
+  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=213",
+  "frame-id-pitampura": "213",
   "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=204",
   "frame-id-dehradun": "204",
   "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=202",

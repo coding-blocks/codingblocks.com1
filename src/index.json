@@ -10,12 +10,17 @@
     {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "Results declared for CAST held on July 22",
-      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this fall",
+      "heading": "Admission Tests for August Batches are here!",
+      "content": "Win upto 75% scholarship on courses at Coding Blocks this fall",
       "button": [
         {
-          "link": "http://students.codingblocks.com/admission_test_online/CASTJ18/result_letter",
-          "text": "Check Result",
+          "link": "/apat.html",
+          "text": "Apply for APAT",
+          "filled": "true"
+        },
+        {
+          "link": "/cast.html",
+          "text": "Apply for CAST",
           "filled": "true"
         }
       ]
@@ -23,12 +28,17 @@
     {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "Admission tests for August batches are here!",
-      "content": "Win upto 75% scholarship on foundation courses at Coding Blocks this fall",
+      "heading": "Results declared for CAST and APAT held in July",
+      "content": "",
       "button": [
         {
-          "link": "/cast.html",
-          "text": "Test for foundation courses",
+          "link": "http://students.codingblocks.com/admission_test_online/CASTJ18/result_letter",
+          "text": "CAST Results",
+          "filled": "true"
+        },
+        {
+          "link": "/apat-results.html",
+          "text": "APAT Results",
           "filled": "true"
         }
       ]

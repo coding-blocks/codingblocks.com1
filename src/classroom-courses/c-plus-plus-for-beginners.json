@@ -83,9 +83,9 @@
     "contentCenter": true,
     "teamMembers": [
       "Prateek Narang",
-      "Deepak Aggarwal",
       "Rajesh Sachdev",
       "Kartik Mathur",
+      "Deepak Aggarwal",
       "Raj Kumar Saini",
       "Raunaq Verma"
     ]
@@ -111,7 +111,7 @@
 			"center": "Pitampura",
 			"startdate": "Aug 25",
 			"enddate": "Nov 10",
-			"daytime": "Sat, Sun (08:00 PM - 11:30 PM)",
+			"daytime": "Sat, Sun (08:00 AM - 11:30 AM)",
 			"batchtype": "Morning"
 		},
 		{
@@ -132,7 +132,7 @@
       "center": "Noida",
       "startdate": "Aug 19",
       "enddate": "Nov 03",
-      "daytime": "Sat, Sun (02:00 PM - 06:00 PM)",
+      "daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
       "batchtype": "Evening"
     },
     {
