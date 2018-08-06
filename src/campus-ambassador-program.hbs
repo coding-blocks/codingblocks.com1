@@ -133,12 +133,12 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<form id="ca-form" onsubmit="save_data()" action="https://cbemail.herokuapp.com/campus" method="POST" data-success="Thank you for signing up. We will get in touch with you shortly." data-error="Please fill all fields correctly.">
 						<input type="text" required name="name" placeholder="Name (Required)" />
-						<input type="text" required name="phone" placeholder="Phone Number (Exactly 10 Digits) (Required)" />
-						<input type="text" required name="email" placeholder="Email (Required)" />
+						<input type="text" required name="phone" placeholder="Phone Number (Exactly 10 Digits) (Required)" pattern="[789][0-9]{9}" />
+						<input type="email" required name="email" placeholder="Email (Required)" />
 						<input type="text" required name="college" placeholder="College (Required)" />
 						<input type="text" required name="state" placeholder="State (Required)" />
 						<input type="text" required name="branch" placeholder="Branch (Required)" />
-						<input type="text" required name="year" placeholder="Year of Graduation (Required)" />
+						<input type="number" required name="year" placeholder="Year of Graduation (Required)" min="1972" max="2030" />
 
 						<div class="form-group">
 							<div class="row">
@@ -162,7 +162,7 @@
 							</div>
 						</div>
 
-						<input type="text" required name="facebook_url" placeholder="Link to your Facebook profile (Required)" />
+						<input type="url" required name="facebook_url" placeholder="Link to your Facebook profile (Required)" />
 						<textarea name="other_profiles" placeholder="Any other profiles? (Github/LinkedIn/Twitter)" rows="5"></textarea>
 
 						<textarea name="better_fit" placeholder="Why do you think you will be a better fit for this opportunity, as compared to your college mates?" rows="5"></textarea>
