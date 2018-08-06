@@ -1019,6 +1019,11 @@ window.initializeMaps = function () {
                 } else if (latitude != undefined && latitude != "" && latitude != false && longitude != undefined && longitude != "" && longitude != false) {
                     mapOptions.center = {lat: latitude, lng: longitude};
                     map = new google.maps.Map(mapInstance, mapOptions);
+                    markerImage = {
+                        url: "/assets/images/cb/cb_marker.png",
+                        scaledSize: new google.maps.Size(60, 100),
+                        origin: new google.maps.Point(0, 0)
+                    };
                     marker = new google.maps.Marker({
                         position: {lat: latitude, lng: longitude},
                         map: map,
