@@ -37,7 +37,8 @@
     "email": "varun@codingblocks.com",
     "mapAddress": "A-73, A Block, Sector 2, Noida, Uttar Pradesh 201301",
     "isSection": true,
-    "isFilled": true
+    "isFilled": true,
+    "latitudeLongitude": "28.585288,77.312703"
   },
   "coursesSection": {
     "coursesList": []
