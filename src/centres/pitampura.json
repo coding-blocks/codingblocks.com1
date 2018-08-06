@@ -37,7 +37,9 @@
     "email": "priyanka.dagar@codingblocks.com",
     "mapAddress": "Coding Blocks, Pitampura",
     "isSection": true,
-    "isFilled": true
+    "isFilled": true,
+    "latitude": "28.6969421",
+    "longitude": "77.1423825"
   },
   "coursesSection": {
     "coursesList": [
