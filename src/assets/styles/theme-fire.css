@@ -590,9 +590,9 @@ form.halves button{width:100%;margin-bottom:8px;float:left;margin-left:0;}
 .accordion-1 .title:hover{background:#eee;}
 .accordion-1 .active .title:hover{background:#fc4f4f;}
 .accordion-2 .title{font-size:16px;font-weight:500;padding:16px 0;border-bottom:1px solid #ccc;transition:all 0.3s ease;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;opacity:.7;}
-.accordion-2 .title:before{content:"\e622";font-family:'themify';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;}
+.accordion-2 .title:before{content:"\e61a";font-family:'themify';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;}
 .accordion-2 .active .title{opacity:1;}
-.accordion-2 .active .title:before{content:'\e61a';}
+.accordion-2 .active .title:before{content:'\e622';}
 .accordion-2 .content p{padding:16px 0;}
 .accordion-2 .title:hover{opacity:1;}
 .tabs{overflow:hidden;}
