@@ -90,11 +90,17 @@
 							<div class="container">
 					<div class="course-tabs">
 						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation" class="wide-tab active" id="tab-noida"><a href="#noida" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida</a></li>
+							<li role="presentation" class="wide-tab active" id="tab-pitampura"><a href="#pitampura" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Pitampura</a></li>
+							<li role="presentation" class="wide-tab" id="tab-noida"><a href="#noida" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida (Early bird discount)</a></li>
 							<li role="presentation" class="wide-tab" id="tab-dehradun"><a href="#dehradun" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dehradun (50% inaugural discount)</a></li>
 						</ul>
 						<div class="tab-content">
-							<div role="tabpanel" class="tab-pane active" id="noida">
+							<div role="tabpanel" class="tab-pane active" id="pitampura">
+								<div class="container widget-container" data-widget-id="{{frame-id-pitampura}}">
+									<iframe class="payment-widget" {{#if frame-id-pitampura}}id="{{frame-id-pitampura}}"{{/if}} frameborder="0" src="{{{registerLinkPitampura}}}"></iframe>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="noida">
 								<div class="container widget-container" data-widget-id="{{frame-id-noida}}">
 									<iframe class="payment-widget" {{#if frame-id-noida}}id="{{frame-id-noida}}"{{/if}} frameborder="0" src="{{{registerLinkNoida}}}"></iframe>
 								</div>

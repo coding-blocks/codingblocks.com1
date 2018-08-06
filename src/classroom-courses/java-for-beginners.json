@@ -52,8 +52,8 @@
 		},
 		{
 			"icon": "et-line-layers",
-			"title": "OOP Concepts &amp; Project",
-			"content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready. Students will also build a game with Java Swing Libraries to strengthen their OOPS concepts."
+			"title": "OOP Concepts",
+			"content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready."
 		},
 		{
 			"icon": "et-line-linegraph",
@@ -107,97 +107,62 @@
 	},
 	"schedule": [
 		{
-			"center": "Pitampura",
-			"startdate": "May 27",
-			"enddate": "Jun 12",
-			"daytime": "Sun, Tue, Thu, Sat (08:00 AM - 12:00 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
-			"center": "Pitampura",
-			"startdate": "Jun 08",
-			"enddate": "Jun 29",
-			"daytime": "Fri, Mon (09:00 AM - 01:30 PM); Thurs (12:15 PM - 03:30 PM)",
-			"batchtype": "Regular"
-		},
-		{
-			"center": "Dwarka",
-			"startdate": "May 28",
-			"enddate": "Jun 12",
-			"daytime": "Mon, Tue, Thu, Sat (03:00 PM - 07:00 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
-			"center": "Dwarka",
-			"startdate": "Jun 09",
-			"enddate": "Jun 30",
-			"daytime": "Sat, Tue, Thu (10:00 AM - 02:00 PM)",
-			"batchtype": "Regular"
-		},
-		{
-			"center": "Noida",
-			"startdate": "Jun 12",
-			"enddate": "Jun 28",
-			"daytime": "Tue, Thu, Fri, Sat (09:30 AM - 01:30 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
-			"center": "Noida",
-			"startdate": "Jun 12",
-			"enddate": "Jun 28",
-			"daytime": "Tue, Thu, Sat, Sun (02:30 PM - 06:30 PM)",
-			"batchtype": "Fast Track"
-		},
-		{
 			"center": "Dehradun",
-			"startdate": "July 1",
-			"enddate": "July 17",
-			"daytime": "Tue, Thu, Sat, Sun (10:00 AM - 02:00 PM)",
+			"startdate": "Aug 18",
+			"enddate": "Sep 22",
+			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
 			"batchtype": "Fast Track"
 		}
 	],
 	"scheduleCrux": [
 		{
 			"center": "Pitampura",
-			"startdate": "Aug 12",
+			"startdate": "Aug 19",
 			"enddate": "Nov 03",
 			"daytime": "Sat, Sun (08:00 AM - 11:30 AM)",
 			"batchtype": "Morning"
 		},
 		{
 			"center": "Pitampura",
-			"startdate": "Aug 19",
+			"startdate": "Aug 25",
 			"enddate": "Nov 10",
 			"daytime": "Sat, Sun (12:15 PM - 03:45 PM)",
 			"batchtype": "Afternoon"
 		},
 		{
+			"center": "Pitampura",
+			"startdate": "Aug 25",
+			"enddate": "Nov 10",
+			"daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
+			"batchtype": "Evening"
+		},
+		{
 			"center": "Dwarka",
-			"startdate": "Aug 12",
+			"startdate": "Aug 19",
 			"enddate": "Nov 03",
 			"daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
 			"batchtype": "Evening"
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "Aug 19",
+			"startdate": "Aug 25",
 			"enddate": "Nov 10",
 			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
 			"batchtype": "Morning"
 		},
 		{
 			"center": "Noida",
-			"startdate": "Aug 12",
+			"startdate": "Aug 19",
 			"enddate": "Nov 03",
 			"daytime": "Sat, Sun (02:00 PM - 06:00 PM)",
 			"batchtype": "Evening"
 		},
 		{
 			"center": "Dehradun",
-			"startdate": "Aug 12",
-			"enddate": "Nov 3",
-			"daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
-			"batchtype": "Afternoon"
+			"startdate": "Aug 19",
+			"enddate": "Oct 20",
+			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
+			"batchtype": "Morning"
 		}
 	],
 	"courseReviews": [
@@ -220,5 +185,8 @@
 	"frame-id-noida-lp": "182",
 
 	"registerLinkPitampuraBasic": "https://students.codingblocks.com/payment/iframe?item_id=112",
-	"frame-id-delhi-basic": "112"
+	"frame-id-delhi-basic": "112",
+
+	"registerLinkDehradunBasic": "https://students.codingblocks.com/payment/iframe?item_id=203",
+	"frame-id-dehradun-basic": "203"
 }

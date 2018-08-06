@@ -175,10 +175,10 @@
   "schedule": [
 	  {
 		  "center": "Pitampura",
-		  "startdate": "Aug 19",
+		  "startdate": "Aug 25",
       "enddate": "Nov 10",
-		  "daytime": "Sat, Sun (12:15 PM - 03:45 PM)",
-		  "batchtype": "Afternoon"
+		  "daytime": "Sat, Sun (04:15 PM - 07:30 PM)",
+		  "batchtype": "Evening"
 	  }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=174"
