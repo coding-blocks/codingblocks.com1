@@ -1,0 +1,20 @@
+{
+  "title": "Python workshop | Coding Blocks",
+  "frame-id-pitampura": "215",
+  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=215",
+  "slides": [
+    {
+      "imgSrc": "/assets/images/cb/cover/cover_online.jpg",
+      "imgAlt": "Python Workshop",
+      "heading": "Python Workshop",
+      "content": "Register for the event now",
+      "button": [
+        {
+          "link": "#register",
+          "text": "Register Now",
+          "noNewTab": true
+        }
+      ]
+    }
+  ]
+}
