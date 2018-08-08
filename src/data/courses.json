@@ -511,7 +511,7 @@
     },
     {
       "id": "course30",
-      "name": "Python - Django",
+      "name": "Python App Development",
       "price": "12,000",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "Python app development course logo",
