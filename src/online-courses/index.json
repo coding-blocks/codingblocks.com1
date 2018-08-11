@@ -38,7 +38,11 @@
     },
 	{
       "id": "course24"
-	}
+	},
+  {
+    "id": "course28",
+    "odd": true
+  }
   ],
   "courseReviews": [
     "Naman Kumar",
