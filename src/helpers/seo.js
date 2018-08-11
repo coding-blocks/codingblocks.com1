@@ -1,4 +1,4 @@
-const seo = (courses, current, options) => {
+const seo = module.exports = (courses, current, options) => {
     
     if (current === "courses") {
         let data = {}
@@ -73,5 +73,3 @@ const seo = (courses, current, options) => {
          return JSON.stringify(data)
     }
 }
-
-module.exports seo;
