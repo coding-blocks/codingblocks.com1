@@ -1,4 +1,4 @@
-const seo = module.exports = (courses, current, options) => {
+module.exports = (courses, current, options) => {
     
     if (current === "courses") {
         let data = {}
