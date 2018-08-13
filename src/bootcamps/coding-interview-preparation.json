@@ -29,7 +29,7 @@
   "schedule": [
 	  {
 		  "center": "Noida",
-		  "startdate": "Aug 13",
+		  "startdate": "Aug 21",
       "enddate": "Nov 03",
 		  "daytime": "Tue,Thu,Fri (05:00 PM - 07:30 PM)",
 		  "batchtype": "Evening"
