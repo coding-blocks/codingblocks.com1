@@ -20,7 +20,7 @@
         <span class="price">{{#if price}}₹{{{price}}}{{/if}}</span>
         <p class="description">{{description.[0]}}</p>
         <p class="lead">{{{lectures}}}</p>
-        <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
+        <a class="btn btn-white btn-filled btn-lg" href="{{online-link}}{{/relativePath}}">{{#unless
                 linkText}}
             Register Now{{else}}{{{linkText}}}{{/unless}}</a>
             <br>
