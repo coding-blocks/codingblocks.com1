@@ -1205,9 +1205,9 @@ window.initializeMaps = function(){
                         mapJSON       = typeof $(this).attr('data-map-style') !== "undefined" ? $(this).attr('data-map-style'): false,
                         mapStyle      = JSON.parse(mapJSON) || [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}],
                         zoomLevel     = (typeof $(this).attr('data-map-zoom') !== "undefined" && $(this).attr('data-map-zoom') !== "") ? $(this).attr('data-map-zoom') * 1: 17,
-                        latlong       = typeof $(this).attr('data-latlong') != "undefined" ? $(this).attr('data-latlong') : false,
-                        latitude      = latlong ? 1 *latlong.substr(0, latlong.indexOf(',')) : false,
-                        longitude     = latlong ? 1 * latlong.substr(latlong.indexOf(",") + 1) : false,
+                        latlong       = typeof $(this).attr("data-latlong") != "undefined" ? $(this).attr("data-latlong").split(";") : [""],
+                        latitude      = [],
+                        longitude     = [],
                         geocoder      = new google.maps.Geocoder(),
                         address       = typeof $(this).attr('data-address') !== "undefined" ? $(this).attr('data-address').split(';'): [""],
                         markerTitle   = "We Are Here",
@@ -1220,6 +1220,11 @@ window.initializeMaps = function(){
                             disableDefaultUI: false,
                             styles: mapStyle
                         };
+
+                    latlong.forEach(function (currlatlong) {
+                        latitude.push(currlatlong ? 1 * currlatlong.substr(0, currlatlong.indexOf(",")) : false)
+                        longitude.push(currlatlong ? 1 * currlatlong.substr(currlatlong.indexOf(",") + 1) : false)
+                    })
 
                     if($(this).attr('data-marker-title') != undefined && $(this).attr('data-marker-title') != "" )
                     {
@@ -1271,17 +1276,30 @@ window.initializeMaps = function(){
                                 console.log('There was a problem geocoding the address.');
                             }
                         });
-                    }
-                    else if(latitude != undefined && latitude != "" && latitude != false && longitude != undefined && longitude != "" && longitude != false ){
-                        mapOptions.center   = { lat: latitude, lng: longitude};
-                        map = new google.maps.Map(mapInstance, mapOptions);
-                        marker              = new google.maps.Marker({
-                                                    position: { lat: latitude, lng: longitude },
-                                                    map: map,
-                                                    icon: markerImage,
-                                                    title: markerTitle
-                                                });
+                    } else if (latitude.length > 0 && longitude.length > 0) {
+                        markerImage = {
+                            url: "/assets/images/cb/cb_marker.png",
+                            scaledSize: new google.maps.Size(60, 100),
+                            origin: new google.maps.Point(0, 0)
+                        };
 
+                        map                 = new google.maps.Map(mapInstance, mapOptions);
+                        var markedOnce      = false;
+
+                        for (var i = 0; i < latlong.length; i++) {
+                            if (latitude[i] != undefined && latitude[i] != "" && latitude[i] != false && longitude[i] != undefined && longitude[i] != "" && longitude[i] != false) {
+                                if(markedOnce === false) {
+                                    map.setCenter({lat: latitude[i], lng: longitude[i]});
+                                    markedOnce = true
+                                }
+                                marker      = new google.maps.Marker({
+                                                position: { lat: latitude, lng: longitude },
+                                                map: map,
+                                                icon: markerImage,
+                                                title: markerTitle
+                                            });
+                            }
+                        }
                     }
 
                 });

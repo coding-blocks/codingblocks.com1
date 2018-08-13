@@ -2192,7 +2192,7 @@ button[type="submit"] .form-loading {
   opacity: .7;
 }
 .accordion-2 .title:before {
-  content: "\e622";
+  content: "\e61a";
   font-family: 'themify';
   speak: none;
   font-style: normal;
@@ -2205,7 +2205,7 @@ button[type="submit"] .form-loading {
   opacity: 1;
 }
 .accordion-2 .active .title:before {
-  content: '\e61a';
+  content: '\e622';
 }
 .accordion-2 .content p {
   padding: 16px 0;

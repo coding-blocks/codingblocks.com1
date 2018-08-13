@@ -37,7 +37,9 @@
     "email": "rajesh@codingblocks.com",
     "mapAddress": "Coding Blocks, Dehradun",
     "isSection": true,
-    "isFilled": true
+    "isFilled": true,
+    "latitude": "30.3098438",
+    "longitude": "78.0211684"
   },
   "coursesSection": {
     "coursesList": []
