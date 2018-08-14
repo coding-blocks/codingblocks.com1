@@ -25,7 +25,15 @@
             Register Now{{else}}{{{linkText}}}{{/unless}}</a>
             <br>
         {{#if online-link}}
+          <a class="btn btn-white btn-filled btn-lg" href="{{online-link}}">
+            {{#unless linkText}}Register Now{{else}}{{{linkText}}}{{/unless}}
+          </a>
+          <br>
             <a href="{{online-link}}">Try For Free</a>
+        {{else}}
+          <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">
+            {{#unless linkText}}Register Now{{else}}{{{linkText}}}{{/unless}}
+          </a>
         {{/if}}
     </div>
 </div>
