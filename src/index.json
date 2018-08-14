@@ -44,6 +44,19 @@
       ]
     },
     {
+      "imgSrc": "/assets/images/cb/cover/cast.jpg",
+      "imgAlt": "",
+      "heading": "Success stories",
+      "content": "Got an internship/placement ? Here is a chance to share your success story with others, get featured on our Facebook, Instagram and Hall of Fame pages and get rewarded.",
+      "button": [
+        {
+          "link": "https://cb.lk/ss",
+          "text": "Submit Success Story",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/cover3.jpg",
       "imgAlt": "",
       "heading": "Presenting the country's best online courses",

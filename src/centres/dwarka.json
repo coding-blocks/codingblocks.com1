@@ -37,7 +37,9 @@
     "email": "rajesh@codingblocks.com",
     "mapAddress": "Coding Blocks, Dwarka",
     "isSection": true,
-    "isFilled": true
+    "isFilled": true,
+    "latitude": "28.5864285",
+    "longitude": "77.0478732"
   },
   "coursesSection": {
     "coursesList": [
