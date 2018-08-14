@@ -21,10 +21,10 @@
         <p class="description">{{description.[0]}}</p>
         <p class="lead">{{{lectures}}}</p>
         {{#if online-link}}
-            <a class="btn btn-white btn-filled btn-lg" href="{{online-link}}">{{#unless
+            <a class="btn btn-white btn-filled btn-lg" target="_blank" href="{{online-link}}">{{#unless
                 linkText}}Register Now{{else}}{{{linkText}}}{{/unless}}</a>
             <br>
-            <a href="{{online-link}}">Try For Free</a>
+            <a target="_blank" href="{{online-link}}">Try For Free</a>
         {{else}}
             <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
                 linkText}}Register Now{{else}}{{{linkText}}}{{/unless}}</a>
