@@ -109,6 +109,13 @@
       "batchtype": "Morning"
     },
     {
+      "center": "Dwarka",
+      "startdate": "Sep 15",
+      "enddate": "Nov 03",
+      "daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
+      "batchtype": "Morning"
+    },
+    {
       "center": "Noida",
       "startdate": "Aug 13",
       "enddate": "Oct 05",
