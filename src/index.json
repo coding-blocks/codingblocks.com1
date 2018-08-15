@@ -26,24 +26,6 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
-      "imgAlt": "",
-      "heading": "Results declared for CAST and APAT held in July",
-      "content": "",
-      "button": [
-        {
-          "link": "http://students.codingblocks.com/admission_test_online/CASTJ18/result_letter",
-          "text": "CAST Results",
-          "filled": "true"
-        },
-        {
-          "link": "/apat-results.html",
-          "text": "APAT Results",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "/assets/images/cb/cover/cast.jpg",
       "imgAlt": "",
       "heading": "Success stories",
