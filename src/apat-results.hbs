@@ -16,8 +16,11 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active">
-                        <a href="#algoplusplus" aria-controls="algoplusplus" role="tab" data-toggle="tab">Algo++/Algo.Java</a>
+                        <a href="#algoplusplus" aria-controls="algoplusplus" role="tab" data-toggle="tab">Algo++</a>
                     </li>
+					<li role="presentation">
+						<a href="#algojava" aria-controls="algojava" role="tab" data-toggle="tab">Algo.Java</a>
+					</li>
                     <li role="presentation">
                         <a href="#machine-learning" aria-controls="machine-learning" role="tab" data-toggle="tab">Machine Learning</a>
                     </li>
@@ -36,6 +39,9 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="algoplusplus">
 						{{> contestresults results=algoresults}}
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="algojava">
+						{{> contestresults results=algojavaresults}}
                     </div>
                     <div role="tabpanel" class="tab-pane" id="machine-learning">
 						{{> contestresults results=mlresults}}

@@ -10,17 +10,17 @@
     {
       "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
       "imgAlt": "",
-      "heading": "Admission Tests for August Batches are here!",
+      "heading": "Results for CAST and APAT are out!",
       "content": "Win upto 75% scholarship on courses at Coding Blocks this fall",
       "button": [
         {
-          "link": "/apat.html",
-          "text": "Apply for APAT",
+          "link": "/apat-results.html",
+          "text": "APAT Results",
           "filled": "true"
         },
         {
-          "link": "/cast.html",
-          "text": "Apply for CAST",
+          "link": "http://students.codingblocks.com/admission_test_online/CASTA18/result_letter",
+          "text": "CAST Results",
           "filled": "true"
         }
       ]
