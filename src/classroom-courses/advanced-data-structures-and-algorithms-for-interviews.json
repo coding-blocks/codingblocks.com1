@@ -214,5 +214,8 @@
   "frame-id-noida-lp": "196",
 
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=196",
-  "frame-id-dehradun-lp": "196"
+  "frame-id-dehradun-lp": "196",
+
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=216",
+  "frame-id-dwarka-lp": "216"
 }
