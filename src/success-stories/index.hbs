@@ -58,8 +58,16 @@
             text-overflow: ellipsis;
         }
 
+        .courses {
+            margin-bottom: 5px;
+        }
+
         .ellipsis {
-            height: 100px;
+            padding-top: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 10px;  
+            height: 150px;
             line-height: 20px;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -968,7 +976,7 @@
                             <div id="story${stories[i].id}" class="ssCard">
                                 <div class="title mb0 text-center">
                                     <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
-                                    <h5>${stories[i].coursesAttended}<br></h5>
+                                    <h5 class="courses">${stories[i].coursesAttended}<br></h5>
                                 </div>
                                 <div class="ssLogo">
                                     <img width="64px" src="${company}" >
@@ -986,7 +994,6 @@
                             <div id="story${stories[i].id}" class="ssCard">
                                 <div class="title mb0 text-center">
                                     <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
-                                    <h5>${stories[i].coursesAttended}<br></h5>
                                     <div class="ellipsis">${stories[i].stories}</div>
                                 </div>
                             </div>
