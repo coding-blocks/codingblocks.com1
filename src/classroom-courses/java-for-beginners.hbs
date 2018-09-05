@@ -268,10 +268,18 @@
                                     <div class="container">
                                         <div class="course-tabs" id="adv">
                                             <ul class="nav nav-tabs" role="tablist">
-                                                <li role="presentation" class="wide-tab active" id="tab-dehradun"><a href="#dehradun-bas" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Dehradun (Inaugral discount of 50%)</a></li>
+                                            	<li role="presentation" class="wide-tab active" id="tab-dwarka"><a href="#dwarka-bas" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Dwarka</a></li>
+                                            	<li role="presentation" class="wide-tab" id="tab-noida"><a href="#noida-bas" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Noida</a></li>
+                                                <li role="presentation" class="wide-tab" id="tab-dehradun"><a href="#dehradun-bas" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Dehradun (Inaugral discount of 50%)</a></li>
                                             </ul>
                                             <div class="tab-content">
-                                                <div role="tabpanel" class="tab-pane active" id="dehradun-bas">
+                                                <div role="tabpanel" class="tab-pane active" id="dwarka-bas">
+                                                    	<iframe class="payment-widget" {{#if frame-id-dwarka-basic}}id="{{frame-id-dwarka-basic}}"{{/if}} frameborder="0" src="{{{registerLinkDwarkaBasic}}}"></iframe>
+													</div>
+													<div role="tabpanel" class="tab-pane " id="noida-bas">
+                                                    	<iframe class="payment-widget" {{#if frame-id-noida-basic}}id="{{frame-id-noida-basic}}"{{/if}} frameborder="0" src="{{{registerLinkNoidaBasic}}}"></iframe>
+													</div>
+													<div role="tabpanel" class="tab-pane " id="dehradun-bas">
                                                     	<iframe class="payment-widget" {{#if frame-id-dehradun-basic}}id="{{frame-id-dehradun-basic}}"{{/if}} frameborder="0" src="{{{registerLinkDehradunBasic}}}"></iframe>
 													</div>
                                             </div>
