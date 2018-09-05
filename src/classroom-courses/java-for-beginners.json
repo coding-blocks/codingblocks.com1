@@ -151,6 +151,13 @@
 			"batchtype": "Evening"
 		},
 		{
+			"center": "Noida",
+			"startdate": "Sep 09",
+			"enddate": "Nov 20",
+			"daytime": "Sat, Sun (02:00 PM - 06:00 PM)",
+			"batchtype": "Evening"
+		},
+		{
 			"center": "Dehradun",
 			"startdate": "Aug 19",
 			"enddate": "Oct 20",
