@@ -968,7 +968,6 @@
 
               container.append(
                 `
-
                 <div class="flippy col-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="front">    
                         <div class="ssContainer">    
@@ -977,7 +976,7 @@
                             </div>
                             <div id="story${stories[i].id}" class="ssCard">
                                 <div class="title mb0 text-center">
-                                    <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
+                                    <h4 class="uppercase mb0 bold">${stories[i].fullName}</h4>
                                     <h5 class="courses">${stories[i].coursesAttended}<br></h5>
                                 </div>
                                 <div class="ssLogo">
@@ -995,7 +994,7 @@
                             </div>
                             <div id="story${stories[i].id}" class="ssCard">
                                 <div class="title mb0 text-center">
-                                    <h4 class="uppercase mb0 bold">${stories[i].user.firstName} ${stories[i].user.lastName}</h4>
+									<h4 class="uppercase mb0 bold">${stories[i].fullName}</h4>
                                     <div class="ellipsis">${stories[i].stories}</div>
                                 </div>
                             </div>

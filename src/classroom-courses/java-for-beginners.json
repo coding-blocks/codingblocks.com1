@@ -107,6 +107,20 @@
 	},
 	"schedule": [
 		{
+			"center": "Dwarka",
+			"startdate": "Sep 09",
+			"enddate": "Oct 13",
+			"daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
+			"batchtype": "Evening"
+		},
+		{
+			"center": "Noida",
+			"startdate": "Sep 09",
+			"enddate": "Oct 13",
+			"daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
+			"batchtype": "Morning"
+		},
+		{
 			"center": "Dehradun",
 			"startdate": "Aug 18",
 			"enddate": "Sep 22",
@@ -174,6 +188,12 @@
 
 	"registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=169",
   	"frame-id-dehradun": "169",
+
+  	"registerLinkNoidaBasic": "https://students.codingblocks.com/payment/iframe?item_id=225",
+  	"frame-id-noida-basic": "225",
+
+  	"registerLinkDwarkaBasic": "https://students.codingblocks.com/payment/iframe?item_id=223",
+  	"frame-id-dwarka-basic": "223",
 
 	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=171",
 	"frame-id-pitampura-lp": "171",
