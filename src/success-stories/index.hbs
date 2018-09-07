@@ -11,6 +11,8 @@
 
         .flippy{
             max-width: 360px;
+            margin-left: 1%;
+            margin-right: 1%;
         }
 
         .front{
@@ -946,18 +948,22 @@
 
                 let internship = stories[i].internships
                 let placement = stories[i].placements
-                let company = null
+                let company = []
 
                 if (placement[0]) {
-                    company = placement[0].company.logoUrl
-                    if (!company) {
-                        company = 'http://logo.clearbit.com/' + placement[0].company.companyUrl
+                    let logo = placement[0].company.logoUrl
+                    if (!logo) {
+                        logo = 'http://logo.clearbit.com/' + placement[0].company.companyUrl
                     }
-                } else {
-                    company = internship[0].company.logoUrl
-                    if (!company) {
-                        company = 'http://logo.clearbit.com/' + internship[0].company.companyUrl
+                    company.push (logo)
+                }
+
+                if (internship[0]) {
+                    let logo = internship[0].company.logoUrl
+                    if (!logo) {
+                        logo = 'http://logo.clearbit.com/' + internship[0].company.companyUrl
                     }
+                    company.push (logo)
                 }
 
                 let pic = stories[i].photo
@@ -966,44 +972,45 @@
                 }
 
 
-              container.append(
-                `
-                <div class="flippy col-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="front">    
+                company.forEach (function (logo) {
+                  container.append(
+                    `
+                    <div class="flippy col-4 col-md-4 col-sm-6 col-xs-12">
+                      <div class="front">    
                         <div class="ssContainer">    
-                            <div class="ssImage">
-                                <img class="round-img" src="${pic}" >
+                          <div class="ssImage">
+                            <img class="round-img" src="${pic}" >
+                          </div>
+                          <div id="story${stories[i].id}" class="ssCard">
+                            <div class="title mb0 text-center">
+                              <h4 class="uppercase mb0 bold">${stories[i].fullName}</h4>
+                              <h5 class="courses">${stories[i].coursesAttended}<br></h5>
                             </div>
-                            <div id="story${stories[i].id}" class="ssCard">
-                                <div class="title mb0 text-center">
-                                    <h4 class="uppercase mb0 bold">${stories[i].fullName}</h4>
-                                    <h5 class="courses">${stories[i].coursesAttended}<br></h5>
-                                </div>
-                                <div class="ssLogo">
-                                    <img width="64px" src="${company}" >
-                                </div>
-                                <div class="bold ssData">View Testimonial > </div>
-                            </div>
+                          <div class="ssLogo">
+                            <img width="64px" src="${logo}" >
+                          </div>
+                          <div class="bold ssData">View Testimonial > </div>
                         </div>
+                      </div>
                     </div>
 
                     <div class="back">    
-                        <div class="ssContainer">
-                            <div class="ssImage">
-                                <img class="round-img" src="${pic}" >
-                            </div>
-                            <div id="story${stories[i].id}" class="ssCard">
-                                <div class="title mb0 text-center">
-									<h4 class="uppercase mb0 bold">${stories[i].fullName}</h4>
-                                    <div class="ellipsis">${stories[i].stories}</div>
-                                </div>
-                            </div>
+                      <div class="ssContainer">
+                        <div class="ssImage">
+                          <img class="round-img" src="${pic}" >
                         </div>
-                    </div>
-                </div>  
-                
-                `
-              )
+                        <div id="story${stories[i].id}" class="ssCard">
+                          <div class="title mb0 text-center">
+                            <h4 class="uppercase mb0 bold">${stories[i].fullName}</h4>
+                            <div class="ellipsis">${stories[i].stories}</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>  
+
+                    `
+                  )
+                })
             }
             $('.flippy').flip({
                 axis: 'y',
