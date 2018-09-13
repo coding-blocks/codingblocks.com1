@@ -15,6 +15,12 @@
             margin-right: 1%;
         }
 
+        .no-flippy{
+            max-width: 360px;
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+
         .front{
             width: calc(100% - 30px) !important;
         }
@@ -969,13 +975,17 @@
                 let pic = stories[i].photo
                 if (! pic) {
                     pic = "../assets/images/default-avatar.jpg"
+               }
+
+                let flipClass = 'no-flippy'
+                if ((!! stories[i].stories) || stories[i].stories === "") {
+                  flipClass = 'flippy' 
                 }
 
-
-                company.forEach (function (logo) {
+              company.forEach (function (logo) {
                   container.append(
                     `
-                    <div class="flippy col-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="${flipClass} col-4 col-md-4 col-sm-6 col-xs-12">
                       <div class="front">    
                         <div class="ssContainer">    
                           <div class="ssImage">
@@ -1012,10 +1022,13 @@
                   )
                 })
             }
+
             $('.flippy').flip({
                 axis: 'y',
                 trigger: 'click'
             })
+          $('.no-flippy .ssData').remove ()
+          $('.no-flippy > .back').remove ()
         }
     })
 </script>
