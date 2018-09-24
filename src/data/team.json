@@ -85,13 +85,6 @@
       "bio": "Renowned for his “awesome” puns and stash of shwags, Harshit is a Google Certified Android Developer. He has been a GSoC participant with FOSSASIA and will also be mentoring students under GSoC 2017. He is an open source enthusiast and is also passionate about Data Science."
     },
     {
-      "name": "Rajkishor Ranjan",
-      "role": "",
-      "imgSrc": "/assets/images/cb/team/Raj Final.jpg",
-      "imgAlt": "Rajkishor Ranjan",
-      "bio": "An IIT-Patna graduate in Computer Science, Rajkishor is a Mathematics wizard and an avid competitive coder. Having taught Mathematics to top batches of Vidya Mandir Classes, Rajkishor will now be taking classes at Coding Blocks for Launchpad, Competitive Coding and more C++ based courses."
-    },
-    {
       "name": "Garima Chhikara",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/Garima Final.jpg",
@@ -106,20 +99,6 @@
       "bio": "Always ready for a Chess match and a cup of coffee, Aayush is a team member and an active contributor in Open Source organizations like CloudCV, FOSSASIA and Open Design. He is an avid web developer and will also be mentoring students in Google Summer of Code 2017."
     },
     {
-      "name": "Ankit Malik",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/wankit.jpg",
-      "imgAlt": "Ankit Malik",
-      "bio": "IIT Delhi graduate passionate about web application design and web programming. Has worked with companies like Facebook, Barclays and WorldQuant. Co-founder of a technology consultancy firm with 3+ years experience of building data-intensive web solutions for US based pharma cos."
-    },
-    {
-      "name": "Shubham Dokania",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/c_shubham.JPG",
-      "imgAlt": "Shubham Dokania",
-      "bio": "A Mathematics and Computing Engineer from DTU, Shubham is an avid Machine learning researcher, data scientist and web developer. He has presented a paper at IEEE CISS 2017 at the John Hopkins University, and aims to push forward the boundaries of what machines can achieve."
-    },
-    {
       "name": "Anuj Garg",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/c_anuj.jpg",
@@ -127,32 +106,11 @@
       "bio": "Anuj is an open-source enthusiast and a GSoCer under the RedHat Foundation. He has worked in the core teams of various products by RedHat and is an expert in Enterprise Java and web services. He is also a mentor in GSoC '17 under the umbrella of JBoss for Servers and IoT monitoring."
     },
     {
-      "name": "Ashish Aapan",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/Ashish.JPG",
-      "imgAlt": "Ashish Aapan",
-      "bio": "Ashish is a 2017 Computer Science graduate from IIIT Delhi. Throughout his life, he has loved video games, and now is a successful game developer, with special expertise in Unity based development. He has built Applications for multiple platforms including VR, and loves to drive and race when he's not busy doing the same on video games."
-    },
-    {
-      "name": "Rishabh Khanna",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/Rishabh.jpg",
-      "imgAlt": "Rishabh Khanna",
-      "bio": "Rishabh has studied at Jaypee Noida and University of Florida, and is an expert developer. A long time associate of Coding Blocks in the measure of intern and TA, he will now be mentoring students for Android and web development. He has multiple apps on the Play Store, out of which one got over 5,000 downloads in no time at all."
-    },
-    {
       "name": "Raj Kumar Saini",
       "role": "Mentor & Centre Head (Dehradun)",
       "imgSrc": "/assets/images/cb/team/RajKumar.jpg",
       "imgAlt": "Raj Kumar Saini",
       "bio": "Raj Kumar Saini is a Computer Science graduate from DTU who has previously worked with Adobe, Amazon and DE Shaw among others. A robotics enthusiast, he is also proficient with data structures and algorithms. He has had multiple papers published in IEEE and reputed international journals, and had one of the top placements when he graduated from DTU."
-    },
-    {
-      "name": "Raunaq Verma",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/Raunaq.jpg",
-      "imgAlt": "Raunaq Verma",
-      "bio": "Raunaq Verma is currently mentoring students all over the globe on Udacity. A dev scholar on Google, he's an expert in Android and is a data science and machine learning enthusiast. When not indulging in app development, he can be found indulging in coffee. He has been associated with CB as a TA for a long time."
     },
     {
       "name": "Kartik Mathur",
@@ -181,13 +139,6 @@
       "imgSrc": "/assets/images/cb/team/Sid Final.jpg",
       "imgAlt": "Siddharth Jain Coding Blocks Designer",
       "bio": "A UI/UX Designer by profession, Siddharth loves converting ideas digital. He enjoys turning complex problems into easy, eye-catching and pixel perfect interfaces. Injected with creative juices and a lot of caffeine; whenever he is not making pleasing designs, he is criticizing bad ones."
-    },
-    {
-      "name": "Mohd Fahad",
-      "role": "Head of Marketing",
-      "imgSrc": "/assets/images/cb/team/fahad.jpg",
-      "imgAlt": "Mohd Fahad",
-      "bio": "Fahad is a DTU graduate and is passionate about quizzing, public speaking and food. An engineer by qualification but not by interest, he chose a career in marketing and business development. He tries to be the Blocks in Coding Blocks by contributing towards every non-Coding aspect."
     },
     {
       "name": "Mansi Marwaha",
@@ -232,10 +183,6 @@
     {
       "name": "Apoorvaa Gupta",
       "imgSrc": "/assets/images/cb/team/Apoorvaa.jpg"
-    },
-    {
-      "name": "Siddarth Dungarwal",
-      "imgSrc": "/assets/images/cb/team/Dungerzone.jpg"
     },
     {
       "name": "Abhishek Gupta",
