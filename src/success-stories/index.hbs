@@ -38,7 +38,7 @@
         }
 
 		.ssCard > h4 {
-			height: 3rem;
+			height: 2.9rem;
 		}
 
 		.ssCard > h5 {
@@ -209,6 +209,13 @@
 
 		.ssLogo {
 			height: 7rem;
+		}
+
+		.ssLogo > p {
+			padding-top: 2rem;
+			margin-bottom: 1rem;
+			text-transform: uppercase;
+			font-weight: bold;
 		}
 
 		.title .ellipsis {
@@ -996,8 +1003,15 @@
 
                 if (placement[0]) {
                     let logo = placement[0].company.logoUrl
+
                     if (!logo) {
-                        logo = 'http://logo.clearbit.com/' + placement[0].company.companyUrl
+						let companyUrl = placement[0].company.companyUrl
+						if ((! companyUrl) || companyUrl === 'example.com') {
+							logo = placement[0].customCompany
+						}
+						else {
+							logo = 'http://logo.clearbit.com/' + companyUrl
+						}
                     }
                     company.push (logo)
                 }
@@ -1005,7 +1019,13 @@
                 if (internship[0]) {
                     let logo = internship[0].company.logoUrl
                     if (!logo) {
-                        logo = 'http://logo.clearbit.com/' + internship[0].company.companyUrl
+						let companyUrl = internship[0].company.companyUrl
+						if ((! companyUrl) || companyUrl === 'example.com') {
+							logo = internship[0].customCompany
+						}
+						else {
+							logo = 'http://logo.clearbit.com/' + companyUrl
+						}
                     }
                     company.push (logo)
                 }
@@ -1021,6 +1041,13 @@
                 }
 
               company.forEach (function (logo) {
+				  if (/^http/.test (logo)) {
+					  logo = `<img width="64px" src="${logo}" />`
+				  }
+				  else {
+					  logo = `<p>${logo}</p>`
+				  }
+
                   container.append(
                     `
                     <div class="${flipClass} col-4 col-md-4 col-sm-6 col-xs-12">
@@ -1035,7 +1062,7 @@
                               <h5 class="courses">${stories[i].coursesAttended}<br></h5>
                             </div>
                           <div class="ssLogo">
-                            <img width="64px" src="${logo}" >
+						    ${logo}
                           </div>
                           <div class="bold ssData">View Testimonial</div>
                         </div>
