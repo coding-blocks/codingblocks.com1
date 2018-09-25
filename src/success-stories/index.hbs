@@ -33,9 +33,17 @@
             margin-bottom: 40px;
             margin-left: 10px;
             margin-right: 10px;
-            height: 300px;
+            height: fit-content;
             width: 95%;
         }
+
+		.ssCard > h4 {
+			height: 3rem;
+		}
+
+		.ssCard > h5 {
+			height: 3rem;
+		}
 
         .ssImage {
             position: absolute;
@@ -77,7 +85,6 @@
             padding-bottom: 10px;  
             height: 150px;
             line-height: 20px;
-            overflow: hidden;
             text-overflow: ellipsis;
         }
         
@@ -180,7 +187,38 @@
             box-shadow: 0px 0px 35px 4px rgba(256, 256, 256, 0.5);
             transition: all 300ms linear
         }
-    </style>
+
+		.ssCard {
+			height: 33rem;
+			padding-right: 1rem;
+			padding-left: 1rem;
+		}	
+
+		.ssCard > .title > h4 {
+			height: 4rem;
+			overflow: hidden;
+		}
+
+		.ssCard > .title > h5 {
+			height: 3rem;
+			vertical-align: center;
+			margin-bottom: 1rem;
+			font-size: 1.2rem;
+			overflow: hidden;
+		}
+
+		.ssLogo {
+			height: 7rem;
+		}
+
+		.title .ellipsis {
+			font-size: 1.5rem;
+			height: 11rem;
+			overflow: hidden;
+			white-space: normal;
+			text-overflow: ellipsis;
+		}
+	</style>
 </head>
 <body class="scroll-assist">
 {{> navbar}}
@@ -999,7 +1037,7 @@
                           <div class="ssLogo">
                             <img width="64px" src="${logo}" >
                           </div>
-                          <div class="bold ssData">View Testimonial > </div>
+                          <div class="bold ssData">View Testimonial</div>
                         </div>
                       </div>
                     </div>
@@ -1014,6 +1052,7 @@
                             <h4 class="uppercase mb0 bold">${stories[i].fullName}</h4>
                             <div class="ellipsis">${stories[i].stories}</div>
                           </div>
+                          <div class="bold ssData readMore">Read More</div>
                         </div>
                       </div>
                     </div>  
