@@ -262,6 +262,24 @@
         <div class="row text-center" style="margin-bottom: 40px;">
             <h3 class="uppercase text-center">Our Achievers</h3>
         </div>
+
+		<div id="ss-modal" class="modal fade" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body">
+						<p class="modal-text"></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
         <div class="highlight highlightOverlay" style="margin-bottom: 0px;">
             <div class="container">
                 <div class="row text-center" style="margin-bottom: 40px;">
@@ -1050,7 +1068,7 @@
 
                   container.append(
                     `
-                    <div class="${flipClass} col-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="${flipClass} col-4 col-md-4 col-sm-6 col-xs-12" data-name="${stories[i].fullName}" data-story="${stories[i].stories}">
                       <div class="front">    
                         <div class="ssContainer">    
                           <div class="ssImage">
@@ -1095,6 +1113,22 @@
             })
           $('.no-flippy .ssData').remove ()
           $('.no-flippy > .back').remove ()
+
+			$('.readMore').click (function (e) {
+				let card = $(this).closest ('.flippy'),
+					data = card.data (),
+					modal = $('#ss-modal')
+				;
+
+				card.flip (false)
+
+				modal.modal('show') 
+
+				modal.find ('.modal-title').html (`${data.name}'s Story`)
+				modal.find ('.modal-text').html (data.story)
+
+				e.preventDefault ()
+			})
         }
     })
 </script>
