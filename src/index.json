@@ -57,19 +57,6 @@
 		  ]
 	  },
 	  {
-		  "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
-		  "imgAlt": "",
-		  "heading": "Admissions open for August batches",
-		  "content": "Get enrolled now !",
-		  "button": [
-			  {
-				  "link": "/courses",
-				  "text": "Courses",
-				  "filled": "true"
-			  }
-		  ]
-	  },
-	  {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
 		  "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
