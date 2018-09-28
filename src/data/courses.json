@@ -12,7 +12,7 @@
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
       "off-price": "3,000",
-      "badge": "Starting Aug 19",
+      "badge": "Starting Dec",
       "description": [
         "C++ Complete Course",
         "Data Structures & Algorithms in C++",
@@ -35,7 +35,7 @@
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
       "off-price": "3,000",
-      "badge": "Starting Aug 19",
+      "badge": "Starting Dec",
       "description": [
         "Java Complete Course",
         "Data Structures & Algorithms in Java",
@@ -56,7 +56,7 @@
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
       "link": "/classroom-courses/android-app-development-using-kotlin-and-java.html",
-      "badge": "Starting Aug 19",
+      "badge": "Starting Dec",
       "description": [
         "Building Android Apps",
         "UI and Animations",
@@ -78,7 +78,7 @@
       "imgAlt": "web development course logo",
       "lectures": "(22 lectures)",
       "link": "/classroom-courses/web-development-nodejs.html",
-      "badge": "Starting Aug 19",
+      "badge": "Starting Dec",
       "description": [
         "Web Design",
         "Real time Web Apps",
@@ -95,7 +95,7 @@
       "name": "Algo++",
       "price": "12,000",
       "priceint": "12000",
-      "badge": "Starting June 8",
+      "badge": "Starting Dec",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "algo++ course logo",
       "lectures": "(15 lectures)",
@@ -121,7 +121,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "(23 lectures)",
       "link": "/classroom-courses/machine-learning-with-deep-learning.html",
-      "badge": "Starting Aug 25",
+      "badge": "Starting Dec",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -142,7 +142,7 @@
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
-      "badge": "Starting Aug 19",
+      "badge": "Starting Dec",
       "description": [
         "Programming Fundamentals in Java"
       ],
@@ -160,7 +160,7 @@
       "imgAlt": "Launchpad For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
-      "badge": "Starting Aug 19",
+      "badge": "Starting Dec",
       "description": [
         "Programming Fundamentals in C+"
       ],
@@ -178,7 +178,7 @@
       "imgAlt": "Certified Python Developer Logo",
       "lectures": "(6 lectures)",
       "link": "/coming-soon.html",
-      "badge": "Starting March 24",
+      "badge": "Starting Dec",
       "description": [
         "Complete Python Course"
       ],
@@ -196,7 +196,7 @@
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
-      "badge": "Starting Sep 15",
+      "badge": "Starting Dec",
       "description": [
         "DS & Algorithms in C++"
       ],
@@ -214,7 +214,7 @@
       "imgAlt": "Data Structures and Algorithms Using Java",
       "lectures": "(15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-using-java.html",
-      "badge": "Starting Sep 15",
+      "badge": "Starting Dec",
       "description": [
         "DS & Algorithms in Java"
       ],
@@ -416,7 +416,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming Course Logo",
       "lectures": "(10-12 lectures)",
-      "badge": "Starting Sep 1",
+      "badge": "Starting Dec",
       "link": "/classroom-courses/competitive-programming.html",
       "description": [
         "",
@@ -519,7 +519,7 @@
       "imgAlt": "Python for Developers Logo",
       "lectures": "(11 lectures)",
       "link": "/classroom-courses/python-for-beginners.html",
-      "badge": "Starting Aug 25",
+      "badge": "Starting Dec",
       "description": [
         "Programming Fundamentals in Python"
       ]
@@ -529,7 +529,7 @@
       "rating": "4.1",
       "ratingCount": "422",
       "name": "Advanced DS-Algo in C++",
-      "badge": "Starting Aug 5",
+      "badge": "Starting Aug 15",
       "price": "7,000",
       "priceint": "7000",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
@@ -610,7 +610,7 @@
       "imgAlt": "Python app development course logo",
       "lectures": "(15 lectures)",
       "link": "/classroom-courses/python-app-dev.html",
-      "badge": "Starting Aug 19",
+      "badge": "Starting Dec",
       "description": [
         "Python fundamentals",
         "Web scrapping",

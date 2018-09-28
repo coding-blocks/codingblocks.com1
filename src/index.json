@@ -7,89 +7,81 @@
     }
   ],
   "slides": [
-    {
-      "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
-      "imgAlt": "",
-      "heading": "Due to overwhelming response in August, we present you September batches.",
-      "content": "Get enrolled now !",
-      "button": [
-        {
-          "link": "/classroom-courses/",
-          "text": "Explore more",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cast.jpg",
-      "imgAlt": "",
-      "heading": "Success stories",
-      "content": "Got an internship/placement ? Here is a chance to share your success story with others, get featured on our Facebook, Instagram and Hall of Fame pages and get rewarded.",
-      "button": [
-        {
-          "link": "https://cb.lk/ss",
-          "text": "Submit Success Story",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
-      "imgAlt": "",
-      "heading": "Presenting the country's best online courses",
-      "content": "Learn at your own pace, Best mentors from IITS - NIT - DTU - NSIT - BITS, with all the benefits of classroom courses and 24/7 mentor support. <br> Rs. 1000 off on all courses, use FLAT1000",
-      "button": [
-        {
-          "link": "/online-courses/",
-          "text": "Get Rs 1000 discount",
-          "filled": "true"
-        },
-        {
-          "link": "tel:9599247216",
-          "text": "Call us now : 9599247216",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
-      "imgAlt": "",
-      "heading": "Admissions open for August batches",
-      "content": "Get enrolled now !",
-      "button": [
-        {
-          "link": "/courses",
-          "text": "Courses",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
-      "imgAlt": "",
-      "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
-      "content": "Do the best summer internship this year by becoming a Coding Blocks Ambassador for your campus, and win coupons, merchandise, certificates, and CASH.",
-      "button": [
-        {
-          "link": "http://cb.lk/CA",
-          "text": "Details & Registration",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cast.jpg",
-      "imgAlt": "",
-      "heading": "Interview Preparation Course",
-      "content": "Master the concepts and topics required to ace interview procedures of tech giants.",
-      "button": [
-        {
-          "link": "/courses/online/interviewprep.html",
-          "text": "Online Course",
-          "filled": "true"
-        }
-      ]
-    }
+	  {
+		  "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
+		  "imgAlt": "",
+		  "heading": "Admission Tests for August Batches are here!",
+		  "content": "Win upto 75% scholarship on courses at Coding Blocks this fall",
+		  "button": [
+			  {
+				  "link": "/apat.html",
+				  "text": "Apply for APAT",
+				  "filled": "true"
+			  },
+			  {
+				  "link": "/cast.html",
+				  "text": "Apply for CAST",
+				  "filled": "true"
+			  }
+		  ]
+	  },
+	  {
+		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
+		  "imgAlt": "",
+		  "heading": "Success stories",
+		  "content": "Got an internship/placement ? Here is a chance to share your success story with others, get featured on our Facebook, Instagram and Hall of Fame pages and get rewarded.",
+		  "button": [
+			  {
+				  "link": "https://cb.lk/ss",
+				  "text": "Submit Success Story",
+				  "filled": "true"
+			  }
+		  ]
+	  },
+	  {
+		  "imgSrc": "/assets/images/cb/cover/cover3.jpg",
+		  "imgAlt": "",
+		  "heading": "Presenting the country's best online courses",
+		  "content": "Learn at your own pace, Best mentors from IITS - NIT - DTU - NSIT - BITS, with all the benefits of classroom courses and 24/7 mentor support. <br> Rs. 1000 off on all courses, use FLAT1000",
+		  "button": [
+			  {
+				  "link": "/online-courses/",
+				  "text": "Get Rs 1000 discount",
+				  "filled": "true"
+			  },
+			  {
+				  "link": "tel:9899870106",
+				  "text": "Call us now : 9899870106",
+				  "filled": "true"
+			  }
+		  ]
+	  },
+	  {
+		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+		  "imgAlt": "",
+		  "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
+		  "content": "Do the best summer internship this year by becoming a Coding Blocks Ambassador for your campus, and win coupons, merchandise, certificates, and CASH.",
+		  "button": [
+			  {
+				  "link": "http://cb.lk/CA",
+				  "text": "Details & Registration",
+				  "filled": "true"
+			  }
+		  ]
+	  },
+	  {
+		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
+		  "imgAlt": "",
+		  "heading": "Interview Preparation Course",
+		  "content": "Master the concepts and topics required to ace interview procedures of tech giants.",
+		  "button": [
+			  {
+				  "link": "/courses/online/interviewprep.html",
+				  "text": "Online Course",
+				  "filled": "true"
+			  }
+		  ]
+	  }
   ],
   "events": {
     "upcoming": true,
