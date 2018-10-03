@@ -148,6 +148,13 @@
       "bio": "Abhishek has worked as freelancer on many challenging projects. He is well versed with various web/backend technologies like Javascript / Node, Go, Ember.js. He is also computer networking enthusiast. Other than this, he is also interested in Physics, Mathematics and Machine learning."
     },
     {
+      "name": "Vibhu Dujari",
+      "role": "Developer",
+      "imgSrc": "/assets/images/cb/team/vibhud.jpeg",
+      "imgAlt": "Vibhu Dujari",
+      "bio": "Vibhu is a Full Stack Developer and has worked with various startups and projects involving web technologies like JavaScript / Node / Express, Ember, Angular. He has a keen interest in CSS and is intrigued by the way different machines work."
+    },
+    {
       "name": "Siddharth Jain",
       "role": "Designer",
       "imgSrc": "/assets/images/cb/team/Sid Final.jpg",
