@@ -52,24 +52,6 @@
 		  ]
 	  },
 	  {
-		  "imgSrc": "/assets/images/cb/cover/cover3.jpg",
-		  "imgAlt": "",
-		  "heading": "Presenting the country's best online courses",
-		  "content": "Learn at your own pace, Best mentors from IITS - NIT - DTU - NSIT - BITS, with all the benefits of classroom courses and 24/7 mentor support. <br> Rs. 1000 off on all courses, use FLAT1000",
-		  "button": [
-			  {
-				  "link": "/online-courses/",
-				  "text": "Get Rs 1000 discount",
-				  "filled": "true"
-			  },
-			  {
-				  "link": "tel:9899870106",
-				  "text": "Call us now : 9899870106",
-				  "filled": "true"
-			  }
-		  ]
-	  },
-	  {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
 		  "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",

@@ -17,6 +17,7 @@
 		{{else}}
 			<h4 class="uppercase bold name">{{{name}}}</h4>
 		{{/if}}
+        {{#if slashed-price}}<span class="slashed-price">₹{{slashed-price}}</span><br>{{/if}}
         <span class="price">{{#if price}}₹{{{price}}}{{/if}}</span>
         <p class="description">{{description.[0]}}</p>
         <p class="lead">{{{lectures}}}</p>
