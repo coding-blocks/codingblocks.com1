@@ -131,17 +131,17 @@
 	"scheduleCrux": [
 		{
 			"center": "Pitampura",
-			"startdate": "Aug 19",
-			"enddate": "Nov 03",
-			"daytime": "Sat, Sun (08:00 AM - 11:30 AM)",
-			"batchtype": "Morning"
+			"startdate": "Dec 08",
+			"enddate": "Jan 27",
+			"daytime": "Sat, Tue, Wed, Fri (03:00 PM - 06:30 PM)",
+			"batchtype": "Evening"
 		},
 		{
 			"center": "Pitampura",
-			"startdate": "Aug 25",
-			"enddate": "Nov 10",
-			"daytime": "Sat, Sun (12:15 PM - 03:45 PM)",
-			"batchtype": "Afternoon"
+			"startdate": "Dec 22",
+			"enddate": "Mar 10",
+			"daytime": "Sat, Sun, Tue (09:30 AM- 01:00 PM)",
+			"batchtype": "Morning"
 		},
 		{
 			"center": "Dwarka",
@@ -195,8 +195,8 @@
   	"registerLinkDwarkaBasic": "https://students.codingblocks.com/payment/iframe?item_id=223",
   	"frame-id-dwarka-basic": "223",
 
-	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=171",
-	"frame-id-pitampura-lp": "171",
+	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=234",
+	"frame-id-pitampura-lp": "234",
 
 	"registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=178",
 	"frame-id-dwarka-lp": "178",

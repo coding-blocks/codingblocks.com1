@@ -36,9 +36,9 @@
   "schedule": [
 	  {
 		  "center": "Pitampura",
-		  "startdate": "Sep 01",
-		  "enddate": "Oct 06",
-		  "daytime": "Sat, Sun (04:15 PM - 07:30 PM)",
+		  "startdate": "Dec 08",
+		  "enddate": "Dec 25",
+		  "daytime": "Sat, Sun, Tue, Thu (03:00 PM - 06:30 PM)",
 		  "batchtype": "Evening"
 	  }
   ],
@@ -59,6 +59,6 @@
       "Deepak Aggarwal"
     ]
   },
-  "frame-id-pitampura": "214",
-  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=214"
+  "frame-id-pitampura": "227",
+  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=227"
 }
