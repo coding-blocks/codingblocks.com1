@@ -122,7 +122,11 @@
 		  "File Manipulation",
 		  "Data Compression & Archiving",
 		  "Basic Network Programming",
-		  "Data Encryption"
+		  "Data Encryption",
+      "Web scraping",
+      "Flask",
+      "Data science introduction",
+      "Selenium with project"
       ]
     }
   ],
