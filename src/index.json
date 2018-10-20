@@ -7,19 +7,6 @@
     }
   ],
   "slides": [
-    {
-      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
-      "imgAlt": "",
-      "heading": "The big CB sale is on !",
-      "content": "Discounts upto Rs. 6500 on all our online courses.",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/",
-          "text": "Avail discount now !",
-          "filled": "true"
-        }
-      ]
-    },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
 		  "imgAlt": "",
