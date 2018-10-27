@@ -52,14 +52,14 @@
 		  ]
 	  },
 	  {
-		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
+		  "imgSrc": "/assets/images/cb/cover/diwalibanner.jpg",
 		  "imgAlt": "",
-		  "heading": "Interview Preparation Course",
-		  "content": "Master the concepts and topics required to ace interview procedures of tech giants.",
+		  "heading": "Diwali Sale is Live!",
+		  "content": "Grab amazing discounts on all our Online Courses",
 		  "button": [
 			  {
-				  "link": "/courses/online/interviewprep.html",
-				  "text": "Online Course",
+				  "link": "https://online.codingblocks.com/",
+				  "text": "Browse Courses",
 				  "filled": "true"
 			  }
 		  ]
