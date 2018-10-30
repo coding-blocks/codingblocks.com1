@@ -169,10 +169,10 @@
   "schedule": [
     {
       "center": "Dwarka",
-      "startdate": "Dec onwards",
-      "enddate": "",
-      "daytime": "TBD",
-      "batchtype": "TBD"
+      "startdate": "Dec 16",
+      "enddate": "Jan 05",
+      "daytime": "Weekdays (10:00 AM - 02:00 PM)",
+      "batchtype": "Morning"
     },
     {
       "center": "Dehradun",
