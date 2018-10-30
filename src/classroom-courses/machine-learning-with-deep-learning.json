@@ -179,6 +179,13 @@
       "enddate": "Feb 17",
 		  "daytime": "Sat, Tue, Thu (10:00 AM - 01:30 PM)",
 		  "batchtype": "Morning"
+	  },
+	  {
+		  "center": "Dwarka",
+		  "startdate": "Dec 20",
+		  "enddate": "Mar 03",
+		  "daytime": "Weekends (03:00 PM - 07:00 PM)",
+		  "batchtype": "Evening"
 	  }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=226"

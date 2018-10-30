@@ -40,6 +40,13 @@
 		  "enddate": "Dec 25",
 		  "daytime": "Sat, Sun, Tue, Thu (03:00 PM - 06:30 PM)",
 		  "batchtype": "Evening"
+	  },
+	  {
+		  "center": "Dwarka",
+		  "startdate": "Dec 26",
+		  "enddate": "Jan 08",
+		  "daytime": "Weekdays (03:00 PM - 07:00PM)",
+		  "batchtype": "Evening"
 	  }
   ],
   "courseReviews": [
