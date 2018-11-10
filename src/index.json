@@ -10,17 +10,17 @@
 	  {
 		  "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
 		  "imgAlt": "",
-		  "heading": "Admission Test Results for December Batches announced!",
-		  "content": "Win upto 75% scholarship on courses at Coding Blocks this fall",
+		  "heading": "Registrations open for scholarship tests this December",
+		  "content": "Win upto 75% scholarship on courses at Coding Blocks this Winter",
 		  "button": [
 			  {
-				  "link": "https://app.codingblocks.com/apat_registrations/new",
-				  "text": "Check APAT Result",
+				  "link": "https://cb.lk/apat",
+				  "text": "Register for APAT",
 				  "filled": "true"
 			  },
 			  {
-				  "link": "https://app.codingblocks.com/cast_registrations/new",
-				  "text": "Check CAST Result",
+				  "link": "https://cb.lk/cast",
+				  "text": "Register for CAST",
 				  "filled": "true"
 			  }
 		  ]
