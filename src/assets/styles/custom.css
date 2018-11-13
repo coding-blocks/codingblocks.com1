@@ -1205,3 +1205,47 @@ input[type="email"], input[type="number"], input[type="url"] {
     border-radius: 0;
 }
 /* --- /Forms] -- */
+
+.bg-red{
+    background-color: #ff6666;
+}
+
+.free-access-banner{
+    color: white;
+    padding: 30px 7%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 575px){
+    .free-access-banner{
+        display: block;
+    }
+}
+
+.free-access-banner .bold{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.1;
+}
+
+.free-access-banner > div{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.free-access-banner .image{
+    height: 80px;
+}
+
+.text-align-justify{
+    text-align: justify !important;
+}
+
+.text-align-right{
+    text-align: right !important;
+}
+
+.text-align-center{
+    text-align: center !important;
+}
