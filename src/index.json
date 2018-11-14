@@ -11,16 +11,16 @@
 		  "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
 		  "imgAlt": "",
 		  "heading": "Registrations open for scholarship tests this December",
-		  "content": "Win upto 95% scholarship on courses at Coding Blocks this Winter",
+		  "content": "Take this test for FREE and win upto 95% scholarship on courses at Coding Blocks this Winter",
 		  "button": [
 			  {
 				  "link": "https://cb.lk/apat",
-				  "text": "Register for APAT",
+				  "text": "Register for APAT <br> Test for advanced courses",
 				  "filled": "true"
 			  },
 			  {
 				  "link": "https://cb.lk/cast",
-				  "text": "Register for CAST",
+				  "text": "Register for CAST <br> Test for basic courses",
 				  "filled": "true"
 			  }
 		  ]
