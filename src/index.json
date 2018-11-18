@@ -7,6 +7,19 @@
     }
   ],
   "slides": [
+    {
+		  "imgSrc": "/assets/images/cb/cover/cover_blackfriday2.jpg",
+		  "imgAlt": "",
+		  "heading": "FLAT 25% OFF",
+		  "content": "ON ALL CLASSROOM COURSES",
+		  "button": [
+			  {
+				  "link": "/classroom-courses",
+				  "text": "REGISTER NOW! LIMITED SEATS!",
+				  "filled": true
+			  }
+		  ]
+	  },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
 		  "imgAlt": "",
