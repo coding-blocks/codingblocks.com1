@@ -15,12 +15,12 @@
 		  "button": [
 			  {
 				  "link": "https://cb.lk/apat",
-				  "text": "Register for APAT, Test for advanced courses",
+				  "text": "Register for APAT (Test for advanced courses)",
 				  "filled": "true"
 			  },
 			  {
 				  "link": "https://cb.lk/cast",
-				  "text": "Register for CAST, Test for basic courses",
+				  "text": "Register for CAST (Test for basic courses)",
 				  "filled": "true"
 			  }
 		  ]
