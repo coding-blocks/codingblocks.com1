@@ -2,12 +2,17 @@
     <h5 class="uppercase">
         {{#if registerBoxHeading}}
             {{{registerBoxHeading}}}
-        {{else}} {{#if priceCut}}
-            <span class="slashed-price"> ₹{{{priceCut}}} </span>
         {{else}}
             Regular Batch
-        {{/if}} {{/if}}
+        {{/if}}
     </h5>
+
+	{{#if priceCut}}
+		<div>
+			<span class="slashed-price">₹{{{priceCut}}}</span>
+		</div>
+	{{/if}}
+
     {{#if price}}
         <span class="price">₹{{{price}}}</span>
         <p class="lead">{{{lectures}}}</p>

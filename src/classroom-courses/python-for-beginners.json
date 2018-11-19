@@ -151,14 +151,15 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-		"Himank Bhalla",
-      "Raj Kumar Saini",
-      "Raunaq Verma"
+	  "Himank Bhalla",
+      "Raj Kumar Saini"
     ]
   },
   "courseEnroll": {
+	  "registerBoxHeading": "Regular Batches",
 	  "upcomingBatches": "Registrations closed !",
-	  "price": "8,000",
+	  "priceCut": "8,000",
+	  "price": "6,000",
 	  "highlights": [
 	  ],
 	  "registerButton": {
@@ -171,15 +172,15 @@
       "center": "Dwarka",
       "startdate": "Dec 16",
       "enddate": "Jan 05",
-      "daytime": "Weekdays (10:00 AM - 02:00 PM)",
-      "batchtype": "Morning"
+      "daytime": "Tue, Thu, Sun (03:00 PM - 06:30 PM)",
+      "batchtype": "Evening"
     },
     {
       "center": "Dehradun",
-      "startdate": "Aug 19",
-      "enddate": "Sep 30",
-      "daytime": "Sat, Sun (02:00 PM - 05:30 PM)",
-      "batchtype": "Evening"
+      "startdate": "Dec 20",
+      "enddate": "TBD",
+      "daytime": "TBD",
+      "batchtype": "TBD"
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=131",

@@ -38,7 +38,7 @@
   },
   "courseEnroll": {
     "upcomingBatches": "",
-    "priceCut": "",
+    "priceCut": "12,000",
     "highlights": [
       {
         "icon": "et-line-search",
@@ -110,24 +110,24 @@
     },
     {
       "center": "Dwarka",
-      "startdate": "Dec onwards",
-      "enddate": "",
-      "daytime": "TBD",
-      "batchtype": "TBD"
+      "startdate": "Jan 05",
+      "enddate": "Mar 03",
+      "daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
+      "batchtype": "Evening"
     },
     {
       "center": "Noida",
-      "startdate": "Dec onwards",
-      "enddate": "",
-      "daytime": "TBD",
-      "batchtype": "TBD"
+      "startdate": "Dec 30",
+      "enddate": "Feb 16",
+      "daytime": "Sat, Sun (09:30 AM - 01:30 PM)",
+      "batchtype": "Morning"
     },
     {
       "center": "Dehradun",
-      "startdate": "Sep 27",
-      "enddate": "Oct 20",
-      "daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
-      "batchtype": "Morning"
+      "startdate": "Dec 20",
+	  "enddate": "TBD",
+      "daytime": "TBD",
+      "batchtype": "TBD"
     }
   ],
   "courseReviews": [

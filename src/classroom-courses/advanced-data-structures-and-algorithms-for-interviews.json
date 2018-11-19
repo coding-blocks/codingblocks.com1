@@ -165,9 +165,9 @@
     "contentCenter": true,
     "teamMembers": [
       "Prateek Narang",
-      "Deepak Aggarwal",
-      "Raj Kumar Saini",
-      "Raunaq Verma"
+	  "Rajesh Sachdev",
+      "Kartik Mathur",
+      "Raj Kumar Saini"
     ]
   },
   "schedule": [
@@ -178,27 +178,27 @@
 		  "daytime": "Fri, Sun, Mon, Wed (10:00 AM - 01:30 PM)",
 		  "batchtype": "Morning"
 	  },
-    {
-      "center": "Dwarka",
-      "startdate": "Dec onwards",
-      "enddate": "",
-      "daytime": "TBD",
-      "batchtype": "TBD"
-    },
 	  {
-      "center": "Noida",
-      "startdate": "Dec onwards",
-      "enddate": "",
-      "daytime": "TBD",
-      "batchtype": "TBD"
-    },
-    {
-      "center": "Dehradun",
-      "startdate": "Sep 16",
-      "enddate": "Oct 28",
-      "daytime": "Sat, Sun (02:30 PM - 06:00 PM)",
-      "batchtype": "Evening"
-    }
+		  "center": "Dwarka",
+		  "startdate": "Jan 05",
+		  "enddate": "Mar 03",
+		  "daytime": "Sat, Sun (10:00 AM - 01:30 PM)",
+		  "batchtype": "Morning"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "Dec 16",
+		  "enddate": "Jan 20",
+		  "daytime": "Tue, Thu (03:00 PM - 06:30 PM) | Sun (09:30 AM - 01:30 PM)",
+		  "batchtype": "Evening"
+	  },
+	  {
+		  "center": "Dehradun",
+		  "startdate": "Dec 20",
+		  "enddate": "TBD",
+		  "daytime": "TBD",
+		  "batchtype": "TBD"
+	  }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",
   "courseReviews": [

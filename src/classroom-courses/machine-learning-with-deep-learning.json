@@ -154,6 +154,7 @@
     }
   ],
   "courseEnroll": {
+	"priceCut": "22,000",
     "upcomingBatches": "Upcoming <strong>Weekend</strong> Batch",
     "highlights": [
       {
@@ -176,10 +177,18 @@
 	  {
 		  "center": "Pitampura",
 		  "startdate": "Dec 15",
-      "enddate": "Feb 17",
+		  "enddate": "Feb 17",
 		  "daytime": "Sat, Tue, Thu (10:00 AM - 01:30 PM)",
+		  "batchtype": "Morning"
+	  },
+	  {
+		  "center": "Dwarka",
+		  "startdate": "Dec 23",
+		  "enddate": "Mar 03",
+		  "daytime": "Sat, Sun (10:00 AM - 01:30 PM)",
 		  "batchtype": "Morning"
 	  }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=226"
+  "widget-id-pitampura": "226",
+  "widget-id-dwarka": "247"
 }

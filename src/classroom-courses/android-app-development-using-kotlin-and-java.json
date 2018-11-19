@@ -171,8 +171,7 @@
     "teamMembers": [
       "Arnav Gupta",
       "Harshit Dwivedi",
-      "Raj Kumar Saini",
-      "Raunaq Verma"
+      "Raj Kumar Saini"
     ]
   },
   "courseReviews": [
@@ -193,17 +192,17 @@
 	  },
 	  {
 		  "center": "Noida",
-		  "startdate": "Aug 19",
-		  "enddate": "Nov 10",
-		  "daytime": "Sat, Sun (09:00 AM - 01:00 PM)",
-		  "batchtype": "Morning"
+		  "startdate": "Dec 17",
+		  "enddate": "Feb 02",
+		  "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 06:30 PM)",
+		  "batchtype": "Evening"
 	  },
     {
       "center": "Dehradun",
-      "startdate": "Aug 18",
-      "enddate": "Oct 13",
-      "daytime": "Sat, Sun (10:00 AM - 01:15 PM)",
-      "batchtype": "Morning"
+      "startdate": "Dec 20",
+      "enddate": "TBD",
+      "daytime": "TBD",
+      "batchtype": "TBD"
     }
   ],
   "reviewSlug": "Android App Development Course",
@@ -217,6 +216,6 @@
 	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=228",
 	"frame-id-pitampura-lp": "228",
 
-	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=184",
-	"frame-id-noida-lp": "184"
+	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=249",
+	"frame-id-noida-lp": "249"
 }
