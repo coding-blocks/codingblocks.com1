@@ -195,33 +195,33 @@
 		  "batchtype": "Evening"
 	  },
 	  {
-      "center": "Dwarka",
-      "startdate": "Dec 23",
-      "enddate": "Mar 03",
-      "daytime": "Weekends (10:00 AM - 02:00 PM)",
-      "batchtype": "Morning"
-    },
+		  "center": "Dwarka",
+		  "startdate": "Dec 23",
+		  "enddate": "Mar 03",
+		  "daytime": "Wed, Sat, Sun (10:00 AM - 01:30 PM)",
+		  "batchtype": "Morning"
+	  },
 	  {
-      "center": "Noida",
-      "startdate": "Dec onwards",
-      "enddate": "",
-      "daytime": "TBD",
-      "batchtype": "TBD"
-    }
+		  "center": "Noida",
+		  "startdate": "Dec 17",
+		  "enddate": "Feb 02",
+		  "daytime": "Mon, Tue, Thu, Fri (03:00 PM - 06:30 PM)",
+		  "batchtype": "Evening"
+	  }
   ],
   "reviewSlug": "Web Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=116",
   "frame-id": "116",
 
-  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=169",
-  "frame-id-dehradun-lp": "169",
+  "registerLinkDehradunWD": "https://students.codingblocks.com/payment/iframe?item_id=169",
+  "frame-id-dehradun-wd": "169",
 
-	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=231",
-	"frame-id-pitampura-lp": "231",
+	"registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=231",
+	"frame-id-pitampura-wd": "231",
 
-	"registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=230",
-	"frame-id-dwarka-lp": "230",
+	"registerLinkDwarkaWD": "https://students.codingblocks.com/payment/iframe?item_id=230",
+	"frame-id-dwarka-wd": "230",
 
-	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=229",
-	"frame-id-noida-lp": "229"
+	"registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=229",
+	"frame-id-noida-wd": "229"
 }

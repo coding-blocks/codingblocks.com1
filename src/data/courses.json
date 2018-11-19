@@ -12,7 +12,7 @@
       "imgAlt": "C++ course logo",
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
-      "off-price": "3,000",
+      "off-price": "4,250",
       "badge": "Starting Dec",
       "description": [
         "C++ Complete Course",
@@ -36,7 +36,7 @@
       "imgAlt": "java course logo",
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
-      "off-price": "3,000",
+      "off-price": "4,250",
       "badge": "Starting Dec",
       "description": [
         "Java Complete Course",
@@ -125,7 +125,7 @@
       "priceint": "16500",
       "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
       "imgAlt": "machine learning course logo",
-      "lectures": "(23 lectures)",
+      "lectures": "(22-24 lectures)",
       "link": "/classroom-courses/machine-learning-with-deep-learning.html",
       "badge": "Starting Dec",
       "description": [
@@ -222,7 +222,7 @@
       "priceint": "9000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Data Structures and Algorithms Using Java",
-      "lectures": "(15 lectures)",
+      "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-using-java.html",
       "badge": "Starting Dec",
       "description": [

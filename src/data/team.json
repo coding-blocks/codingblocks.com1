@@ -127,6 +127,13 @@
       "bio": "Jatin has worked with various start-ups in the field of HCI and IoT. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack."
     },
     {
+      "name": "Nikhil Singh",
+      "role": "Mentor",
+      "imgSrc": "https://minio.cb.lk/amoeba/618d3c39-d916-45b6-b6aa-790501ebb1b3",
+      "imgAlt": "Nikhil Singh",
+      "bio": "A final year undergraduate at DTU, Nikhil is an avid pythonista who loves to create utilities and automate the boring stuff. He is passionate about teaching and has organized workshops on various Python topics. He also maintains his own YouTube channel and blog which goes by the name \"Indian Pythonista\"."
+    },
+    {
       "name": "Prajjwal Singh",
       "role": "Senior Developer",
       "imgSrc": "/assets/images/cb/team/c_prajjwal.JPG",

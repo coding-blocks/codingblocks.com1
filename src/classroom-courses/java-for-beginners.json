@@ -101,8 +101,7 @@
 			"Rishab Kapoor",
 			"Garima Chhikara",
 			"ANUJ GARG",
-			"Raj Kumar Saini",
-			"Raunaq Verma"
+			"Raj Kumar Saini"
 	]
 	},
 	"schedule": [
@@ -133,7 +132,7 @@
 			"center": "Pitampura",
 			"startdate": "Dec 08",
 			"enddate": "Jan 27",
-			"daytime": "Sat, Tue, Wed, Fri (03:00 PM - 06:30 PM)",
+			"daytime": "Sat, Tue, Wed, Fri (03:00 PM - 07:00 PM)",
 			"batchtype": "Evening"
 		},
 		{
@@ -145,24 +144,24 @@
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "Dec 16",
+			"startdate": "Dec 15",
 			"enddate": "Mar 03",
-			"daytime": "Weekends (10:00 AM - 02:00 PM)",
-			"batchtype": "Morning"
+			"daytime": "Tue, Thu, Sat (03:00 PM - 07:00 PM)",
+			"batchtype": "Evening"
 		},
 		{
 			"center": "Noida",
-			"startdate": "Dec onwards",
-			"enddate": "",
-			"daytime": "TBD",
-			"batchtype": "TBD"
+			"startdate": "Dec 16",
+			"enddate": "Feb 16",
+			"daytime": "Sun, Tue, Thu, Sat (09:30 AM - 01:30 PM)",
+			"batchtype": "Morning"
 		},
 		{
 			"center": "Dehradun",
-			"startdate": "Aug 19",
-			"enddate": "Oct 20",
-			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
-			"batchtype": "Morning"
+			"startdate": "Dec 20",
+			"enddate": "TBD",
+			"daytime": "TBD",
+			"batchtype": "TBD"
 		}
 	],
 	"courseReviews": [

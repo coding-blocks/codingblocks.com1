@@ -193,10 +193,10 @@
   "schedule": [
 	  {
 		  "center": "Dehradun",
-		  "startdate": "Sep 29",
-		  "enddate": "Oct 27",
-		  "daytime": "Sat, Sun (02:00 PM - 05:30 PM)",
-		  "batchtype": "Evening"
+		  "startdate": "Dec 20",
+		  "enddate": "TBD",
+		  "daytime": "TBD",
+		  "batchtype": "TBD"
 	  }
   ],
   "reviewSlug": "Web Development Course",

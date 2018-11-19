@@ -148,7 +148,8 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-		"Anuj Garg"
+		"Jatin Katyal",
+		"Nikhil Singh"
     ]
   },
   "courseEnroll": {
@@ -167,14 +168,14 @@
 		  "startdate": "Dec 14",
 		  "enddate": "Jan 13",
 		  "daytime": "Fri, Sun, Wed (03:00 PM - 06:30 PM)",
-		  "batchtype": "Afternoon"
+		  "batchtype": "Evening"
     },
     {
       "center": "Noida",
-      "startdate": "Dec onwards",
-      "enddate": "",
-      "daytime": "TBD",
-      "batchtype": "TBD"
+      "startdate": "Dec 16",
+      "enddate": "Jan 05",
+      "daytime": "Sun, Tue, Thu, Sat (09:30 AM - 01:00 PM)",
+      "batchtype": "Morning"
     }
   ],
   "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=239",

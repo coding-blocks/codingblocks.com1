@@ -15,9 +15,9 @@
     "description": "Hone your CP skills by attending 1-week Competitive Programming Course. Learn new concepts by solving over 150 complex problems of varying difficulty level and brighten up you chances of getting selected in APAC and ACM-ICPC."
   },
   "courseEnroll": {
-    "price": "14,000",
-    "lectures": "",
-    "upcomingBatches": "Registrations closed !",
+    "priceCut": "14,000",
+    "price": "10,500",
+    "lectures": "(10 lectures)",
     "registerBoxHeading": "",
     "registerButton": {
       "buttonText": "Register Now"
@@ -43,9 +43,9 @@
 	  },
 	  {
 		  "center": "Dwarka",
-		  "startdate": "Dec 26",
-		  "enddate": "Jan 08",
-		  "daytime": "Weekdays (03:00 PM - 07:00PM)",
+		  "startdate": "Dec 22",
+		  "enddate": "Jan 09",
+		  "daytime": "Sat, Mon, Wed, Fri (03:00 PM - 06:30 PM)",
 		  "batchtype": "Evening"
 	  }
   ],
@@ -62,10 +62,9 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-      "Prateek Narang",
-      "Deepak Aggarwal"
+      "Prateek Narang"
     ]
   },
-  "frame-id-pitampura": "227",
-  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=227"
+  "widget-id-pitampura": "227",
+  "widget-id-dwarka": "248"
 }
