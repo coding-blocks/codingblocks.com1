@@ -129,8 +129,7 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming Batches:",
-	"price": "7,500",
-	"priceCut": "10,000",
+	"price": "10,000",
     "registerButton":{
       "buttonText": "Register Now"
     }
