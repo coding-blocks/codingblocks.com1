@@ -29,7 +29,7 @@
 		}
 		.info-container h2 > small {
 			display: block;
-			font-size: 1.7rem;
+			font-size: 1.5rem;
 			margin-top: 1.2rem;
 		}
 
@@ -45,9 +45,17 @@
 			border-left: 1px solid #e3e3e3;
 		}
 
-		.info-container {
-		  margin-left: 3.5rem;
-		  padding-left: 2.5rem;
+		@media (max-width: 900px) {
+			.thin-border-left {
+				border-left: none;
+			}
+		}
+
+		@media (min-width: 900px) {
+			.info-container {
+				margin-left: 3.5rem;
+				padding-left: 2.5rem;
+			}
 		}
 		</style>
 		<script type="text/javascript">
