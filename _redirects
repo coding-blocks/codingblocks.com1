@@ -71,7 +71,9 @@
 /courses/classroom/bootcamps/									/classroom-courses/
 /courses/classroom/           									/classroom-courses/
 
-
+# APAT / CAST
+/apat.html	/scholarship-tests.html
+/cast.html  /scholarship-tests.html
 
 ## Centre redirect
 /centres/greater-noida.html	               /centres/noida.html					
