@@ -55,6 +55,10 @@
       "link": "/classroom-courses",
       "sublinks": [
         {
+          "title": "Industrial Training",
+          "link": "/classroom-courses/six_months_ind_training"
+        },
+        {
           "title": "Junior",
           "sublinks": [
             {
