@@ -56,7 +56,11 @@
       "sublinks": [
         {
           "title": "Industrial Training",
-          "link": "/classroom-courses/six_months_ind_training"
+          "link": "/classroom-courses/six_months_ind_training.html"
+        },
+        {
+          "title": "Hybrid Course in C++",
+          "link": "/classroom-courses/c-plus-plus-hybrid.html"
         },
         {
           "title": "Junior",
