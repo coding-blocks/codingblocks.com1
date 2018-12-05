@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    <style>
+        #competitiveheader {
+            background-image: url("../assets/images/cb/cover/cover_admission.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .flex-container {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            justify-content: center;
+            -webkit-justify-content: center;
+
+        }
+
+        .flex-item {
+            max-width: 600px;
+
+        }
+    </style>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 858471704;
+        var google_conversion_language = "en";
+        var google_conversion_format = "3";
+        var google_conversion_color = "ffffff";
+        var google_conversion_label = "QBMcCNHlqG8QmPqsmQM";
+        var google_remarketing_only = false;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/858471704/?label=QBMcCNHlqG8QmPqsmQM&amp;guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+    <script src="/js/fbpixel.js"></script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1669664786661021&ev=PageView&noscript=1" />
+    </noscript>
+</head>
+
+<body class="scroll-assist">
+    {{> navbar}}
+    <div class="main-container">
+        <a id="course-header" class="in-page-link"></a>
+
+        <section class="page-title page-title-2 bg-secondary bg-dark" id="competitiveheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <h2 class="uppercase mb8">Coding Blocks Industrial Training Program</h2>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <ol class="breadcrumb breadcrumb-2"></ol>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <a id="course-overview" class="in-page-link"></a>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 text-center">
+                        <h3 class="uppercase color-primary mb40 mb-xs-24">Overview</h3>
+                        <p class="lead"><strong>Coding Blocks</strong> was founded in 2014 with a mission to create
+                            skilled software engineers for our country and the world. We aim to bridge the gap between
+                            the quality of skills demanded by industry and the quality of skills imparted by
+                            conventional institutes.
+                            <br /> <br />
+                            Apart from acquiring technological skills, adapting to an industrial environment is of
+                            utmost importance. Keeping this in mind, Coding Blocks has introduced a brand new
+                            Industrial Training program. This will be a five-six month long program wherein you'll
+                            learn some important as well as exciting technologies such as Python development, Web
+                            Development, App Development as well as Advanced Java. This will help you gain the skill
+                            set required by the industry these days, while working in a startup environment. In the
+                            last two months of the program, the top performers will even be eligible for a <strong>stipend
+                                of up to ₹10,000 per month</strong>.
+                            <br /> <br />
+                            The enrollment cum scholarship test will be held on <strong>December 24</strong>. <strong>Scholarships
+                                of up to 75% will be offered</strong>. This is a once in a lifetime opportunity
+                            which we think you wouldn't want to miss. So, go ahead and register at the link below for
+                            an exciting educational journey through the world of technology. All the best!</p>
+                        <div class="mt40">
+                            <a class="btn btn-lg btn-filled uppercase" href="#registration-form">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        {{> coursehighlights}}
+
+        {{> freeAccessBanner}}
+
+
+        <section style="">
+            <div class="container">
+                <div class="row v-align-children">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="pricing-table pt-1 text-center emphasis">
+                            <h5 class="uppercase">
+                                Fast Track Batch
+                            </h5>
+                            <div><span class="slashed-price">₹42,000</span></div>
+                            <div><span class="price">₹35,000</span></div>
+                            <p class="lead">(70-75 lectures)</p>
+                            <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+                            <p>
+                                <a href="/contactus">Contact Us</a>
+                                <br>Call(Toll-free): 1800-2744-504
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        {{> courseschedule schedule=scheduleTraining}}
+
+        <a id="registration-form" class="in-page-link" data-scroll-id="registration-form"></a>
+
+        <section>
+            <div class="text-center">
+                <h3>REGISTER NOW</h3>
+            </div>
+            <div class="container">
+                <div class="course-tabs" id="adv">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="wide-tab" id="tab-dwarka"><a href="#dwarka-adv"
+                                aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dwarka</a></li>
+                        <li role="presentation" class="wide-tab active" id="tab-noida"><a href="#noida-adv" aria-controls="profile"
+                                role="tab" data-toggle="tab" aria-expanded="false">Noida</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="noida-adv">
+                            <div class="widget-container" {{#if frame-id-noida-training}} data-widget-id="{{frame-id-noida-training}}"
+                                {{/if}}>
+                                <iframe class="payment-widget" {{#if frame-id-noida-training}} id="{{frame-id-noida-training}}"
+                                    {{/if}} frameborder="0" src="{{{registerLinkNoidaTraining}}}"></iframe>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="dwarka-adv">
+                            <div class="widget-container" {{#if frame-id-dwarka-training}} data-widget-id="{{frame-id-dwarka-training}}"
+                                {{/if}}>
+                                <iframe class="payment-widget" {{#if frame-id-dwarka-training}} id="{{frame-id-dwarka-training}}"
+                                    {{/if}} frameborder="0" src="{{{registerLinkDwarkaTraining}}}"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        {{> team team=mentors}}
+
+
+        <!-- SECTION: Course FAQ -->
+        <a id="course-faq" class="in-page-link" data-scroll-id="course-faq"></a>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h4 class="mb16">FAQ</h4>
+                        <p class="lead mb64">(Drop a line at admissions@codingblocks.com if you have further queries)</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <ul class="accordion accordion-2 one-open">
+
+                            <li>
+                                <div class="title">
+                                    <h4 class="inline-block mb0"> I am not from CSE/IT background. Is this training
+                                        suitable for me?</h4>
+                                </div>
+                                <div class="content">
+                                    <p> We intiate the program from ground zero for strong foundation of each trainee
+                                        belonging to different educational backgrounds.
+                                        We make sure that by end of training you are proficient enough with programming
+                                        to crack interview of dream technical companies.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="title">
+                                    <h4 class="inline-block mb0"> Will I get a job after this course?</h4>
+                                </div>
+                                <div class="content">
+                                    <p> We offer Placement assistance to all candidates in Coding Blocks. In the
+                                        Industrial training program, we stress more on Job drives since it is the need
+                                        of the hour.
+                                        As soon as the first phase of the course is through, we start pushing students
+                                        towards opportunities which Coding Blocks offers.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="title">
+                                    <h4 class="inline-block mb0">What is the duration of the training program?</h4>
+                                </div>
+                                <div class="content">
+                                    <p>The program duration is of about 5-6 months. This is a long term training
+                                        program for students who have an entire
+                                        semester dedicated to industrial training, or are willing to manage the
+                                        training with their regular college.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">
+                                    <h4 class="inline-block mb0">Will I be awarded a training certificate after the
+                                        program?</h4>
+                                </div>
+                                <div class="content">
+                                    <p>Yes, you will get completetion certificates for training program.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title">
+                                    <h4 class="inline-block mb0"> What world be my skill level after this training
+                                        program?</h4>
+                                </div>
+                                <div class="content">
+                                    <p>It would bring up excellence in both field of problem solving using best of data
+                                        structures and algorithms as well as development.
+                                        In other words you would be job ready in all aspects, be it interviews in big
+                                        multinationals or startups of your wished to join.
+                                    </p>
+                                </div>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a id="course-testimonials" class="in-page-link"></a>
+        {{> review-course-section}}
+        {{> map}}
+        {{> footer}}
+    </div>
+    {{> scripts}}
+</body>
+
+</html>
