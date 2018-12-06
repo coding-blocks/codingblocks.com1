@@ -177,15 +177,15 @@
     },
     {
       "center": "Dehradun",
-      "startdate": "Dec 20",
-      "enddate": "TBD",
-      "daytime": "TBD",
-      "batchtype": "TBD"
+      "startdate": "Dec 15",
+      "enddate": "Jan 05",
+      "daytime": "Tue, Thu, Sat & Sun (02:00 PM - 05:00 PM)",
+      "batchtype": "Evening"
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=131",
-  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=207",
-  "frame-id-dehradun": "207",
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=256",
+  "frame-id-dehradun": "256",
   "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=198",
   "frame-id-pitampura": "198",
   "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=242",
