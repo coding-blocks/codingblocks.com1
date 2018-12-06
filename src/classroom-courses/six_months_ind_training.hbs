@@ -26,8 +26,13 @@
 
         .flex-item {
             max-width: 600px;
-
         }
+
+		.v-align {
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		}
     </style>
     <script type="text/javascript">
         /* <![CDATA[ */
@@ -148,8 +153,8 @@
                     </div>
                     <!--endcourse-->
 
-                    <div class="pricing-card courses-card col-md-2 col-sm-6 text-center">
-                        <h2 class="uppercase color-primary mb40 mb-xs-20">OR</h2>
+                    <div class="pricing-card courses-card col-md-2 col-sm-6 v-align">
+                        <h2 class="uppercase color-primary">OR</h2>
                     </div>
 
                     <!--course-->
@@ -192,8 +197,8 @@
                     </div>
                     <!--endcourse-->
 
-                    <div class="pricing-card courses-card col-md-2 col-sm-6 text-center">
-                        <h2 class="uppercase color-primary mb40 mb-xs-20">OR</h2>
+                    <div class="pricing-card courses-card col-md-2 col-sm-6 v-align">
+                        <h2 class="uppercase color-primary">OR</h2>
                     </div>
 
                     <!--course-->
@@ -221,7 +226,7 @@
 
                 <div class="row">
                     <!--course-->
-                    <div class="pricing-card courses-card col-md-5 col-sm-6">
+					<div class="pricing-card courses-card ohgodwhy col-md-5 col-md-offset-3 col-sm-6">
                         <div class="pricing-table courses-card pt-2 text-center boxed">
                             <img alt="Interview Prep course logo" class="course logo" src="../assets/images/cb/r_final.png">
                             <h4 class="uppercase bold name">Interview Prep Bootcamp</h4>
@@ -401,6 +406,13 @@
     {{> footer}}
     </div>
     {{> scripts}}
+<style>
+@media (min-width: 900px) {
+	.ohgodwhy {
+		margin-left: 35rem;
+	}
+}
+</style>
 </body>
 
 </html>
