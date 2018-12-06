@@ -629,6 +629,27 @@
       ]
     },
     {
+      "id": "course31",
+      "rating": "4.3",
+      "ratingCount": "436",
+      "name": "DS and Algorithm in C++ - Hybrid",
+      "slashed-price": "12,000",
+      "price": "9,000",
+      "priceint": "9000",
+      "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+      "imgAlt": "C++ course logo",
+      "lectures": "(10 lectures)",
+      "link": "/classroom-courses/c-plus-plus-hybrid.html",
+      "badge": "Starting Dec",
+      "description": [
+        "C++ Fundamentals",
+        "Recursion",
+        "Object Oriented Programming"
+      ],
+      "batches": [
+      ]
+    },
+    {
       "id": "course40",
       "rating": "4.8",
       "ratingCount": "236",
