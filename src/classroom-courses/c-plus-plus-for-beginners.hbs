@@ -130,9 +130,9 @@
 													<div class="col-md-4 col-sm-6">
 														<div class="pricing-table pt-1 text-center emphasis">
 															<h5 class="uppercase">regular batch</h5>
-															<span class="price">₹17,000</span><br />
+															<span class="price">₹8,500</span><br />
 															<!-- <span class="price">₹12,750</span> -->
-															<p class="lead">(24-26 lectures)</p>
+															<p class="lead">(24 lectures)</p>
 															<a class="btn btn-white btn-lg" href="#register-advance">Enroll Now</a>
 			   												<p><a href="/contactus">Contact Us</a><br>Call(Toll-free):1800-2744-504</p>
 			   											</div>
@@ -232,15 +232,34 @@
 													<div class="col-md-4 col-sm-6">
 														<div class="pricing-table pt-1 text-center emphasis"><h5
 				   class="uppercase">Regular Batch</h5><span
-	   class="price">₹8,000</span>
-			   <p class="lead">(10 lectures)</p>
+	   class="price">₹4,000</span>
+			   <p class="lead">(12 lectures)</p>
 			   <p><a href="/contactus">Contact Us</a><br>Call(Toll-free):
 				   1800-2744-504</p></div>
 													</div>
 												</div>
 											</div>
 										</section>
+										{{> courseschedule schedule=scheduleCpp}}
 										<a id="register-beginner" class="in-page-link"></a>
+										<section>
+											<div class="text-center">
+												<h3>REGISTER NOW</h3></div>
+											<div class="container">
+												<div class="course-tabs" id="adv">
+													<ul class="nav nav-tabs" role="tablist">
+														<li role="presentation" class="wide-tab" id="tab-dehradun"><a href="#dehradun-beg" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dehradun (50% inaugural discount)</a></li>
+													</ul>
+													<div class="tab-content">
+														<div role="tabpanel" class="tab-pane active" id="dehradun-beg">
+															<div class="widget-container" {{#if frame-id-dehradun}}data-widget-id="{{frame-id-dehradun}}"{{/if}}>
+																	<iframe class="payment-widget" {{#if frame-id-dehradun}}id="{{frame-id-dehradun}}"{{/if}} frameborder="0" src="{{{registerLinkDehradun}}}"></iframe>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</section>
 									</div>
 								</div>
 							</div>
