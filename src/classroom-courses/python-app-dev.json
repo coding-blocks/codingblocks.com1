@@ -64,66 +64,79 @@
   ],
   "courseContents": [
     {
-      "active": true,
-      "title": "Basics of Python",
-      "contentTitle": "Basics of Python",
-      "description": "",
-      "lectures": "2 Lectures",
-      "points": [
-		  "A Brief Overview of Python",
-		  "Setting up Python",
-		  "Interactive Python",
-		  "Built-In Data Types",
-		  "Control Flow"
-      ]
-    },
-    {
-      "title": "Data Structures & Functions",
+      "title": "Getting started with Python",
       "contentTitle": "Data Structures & Functions",
       "description": "",
       "lectures": "2 Lectures",
       "points": [
-		  "Defining & Using Functions",
-		  "Some Common and Useful Functions",
-		  "Argument Unpacking, Annotations",
-		  "Lists, and Tuples"
+        "Why Python?",
+        "Setting up Python on windows, mac, linux",
+        "Basic Python syntax",
+        "Variables, data structures, functions",
+        "Conditionals and loops",
+        "Basic file handling",
+        "Dealing with errors in Python"
       ]
     },
     {
-      "active": true,
-      "title": "Writing Interactive Programs",
-      "contentTitle": "Writing Interactive Programs",
+      "title": "Intermediate Python",
+      "contentTitle": "Data Structures & Functions",
       "description": "",
       "lectures": "2 Lectures",
       "points": [
-		  "Handling Input & Output",
-		  "Error & Exception Handling",
-		  "Organizing Code with Modules"
+        "Basic Python modules (time, datetime, random, os, sys, collections, etc)",
+        "Iterators, generators and decorators",
+        "Object oriented programming",
+        "Working with files (CSV/ZIP/PDF/JSON/XML) "
       ]
     },
     {
-      "title": "Object Oriented Programming",
-      "contentTitle": "Object Oriented Programming",
+      "title": "Python for web",
+      "contentTitle": "Data Structures & Functions",
       "description": "",
       "lectures": "2 Lectures",
       "points": [
-		  "Object Oriented Programming Concepts",
-		  "Using Classes & Objects",
-		  "Commonly Used built-in Classes",
-		  "Inheritance"
+        "Introduction to web APIs",
+        "Interacting with web APIs (GET and POST requests)",
+        "File downloader using Python",
+        "Web scraping using requests and BeautifulSoup",
+        "Web crawling",
+        "Web automation using selenium "
       ]
     },
     {
-      "title": "Standard Template Library",
-      "contentTitle": "Stardard Template Library",
+      "title": "Web development using Flask",
+      "contentTitle": "Data Structures & Functions",
       "description": "",
-      "lectures": "3 Lectures",
+      "lectures": "2 Lectures",
       "points": [
-		  "Number Crunching",
-		  "File Manipulation",
-		  "Data Compression & Archiving",
-		  "Basic Network Programming",
-		  "Data Encryption"
+        "Introduction to Flask",
+        "Setting up python environment",
+        "Basic web application using Flask",
+        "Authentication using Flask",
+        "Integrating SQL and Non-SQL databases to Flask app",
+        "Deploying Flask app on Heroku"
+      ]
+    },
+    {
+      "title": "Python for data science",
+      "contentTitle": "Data Structures & Functions",
+      "description": "",
+      "lectures": "2 Lectures",
+      "points": [
+        "Introduction to Numpy",
+        "Introduction to Matplotlib",
+        "Introduction to Pandas "
+      ]
+    },
+    {
+      "title": "Creating CLI for your application",
+      "contentTitle": "Data Structures & Functions",
+      "description": "",
+      "lectures": "2 Lectures",
+      "points": [
+        "Introduction to argparse",
+        "Using placeholders and helpers"
       ]
     }
   ],
