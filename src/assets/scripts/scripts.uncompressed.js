@@ -1010,7 +1010,7 @@ $(document).ready(function() {
             var script = document.createElement('script');
             var apiKey = $('[data-maps-api-key]:first').attr('data-maps-api-key');
             script.type = 'text/javascript';
-            script.src = 'https://maps.googleapis.com/maps/api/js?key='+apiKey+'&callback=initializeMaps';
+            script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCCWGBs10nA4PvDo0mUUw2MmI3JdbJ5ntM&callback=initializeMaps';
             script.className = 'gMapsAPI';
             document.body.appendChild(script);
         }
