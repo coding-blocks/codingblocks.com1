@@ -26,8 +26,13 @@
 
         .flex-item {
             max-width: 600px;
-
         }
+
+		.v-align {
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		}
     </style>
     <script type="text/javascript">
         /* <![CDATA[ */
@@ -108,160 +113,306 @@
 
         {{> freeAccessBanner}}
 
+        <br>
 
-        <section style="">
-            <div class="container">
-                <div class="row v-align-children">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="pricing-table pt-1 text-center emphasis">
-                            <h5 class="uppercase">
-                                Fast Track Batch
-                            </h5>
-                            <div><span class="slashed-price">₹42,000</span></div>
-                            <div><span class="price">₹35,000</span></div>
-                            <p class="lead">(70-75 lectures)</p>
-                            <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
-                            <p>
-                                <a href="/contactus">Contact Us</a>
-                                <br>Call(Toll-free): 1800-2744-504
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
+        <div class="row">
+            <div class="col-xs-12 text-align-center">
+                <img class="image" src="../../assets/images/cb/training/flow.png" alt="">
             </div>
-        </section>
+        </div>
 
-        {{> courseschedule schedule=scheduleTraining}}
+        <br>
 
-        <a id="registration-form" class="in-page-link" data-scroll-id="registration-form"></a>
-
-        <section>
-            <div class="text-center">
-                <h3>REGISTER NOW</h3>
-            </div>
-            <div class="container">
-                <div class="course-tabs" id="adv">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="wide-tab" id="tab-dwarka"><a href="#dwarka-adv"
-                                aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dwarka</a></li>
-                        <li role="presentation" class="wide-tab active" id="tab-noida"><a href="#noida-adv" aria-controls="profile"
-                                role="tab" data-toggle="tab" aria-expanded="false">Noida</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="noida-adv">
-                            <div class="widget-container" {{#if frame-id-noida-training}} data-widget-id="{{frame-id-noida-training}}"
-                                {{/if}}>
-                                <iframe class="payment-widget" {{#if frame-id-noida-training}} id="{{frame-id-noida-training}}"
-                                    {{/if}} frameborder="0" src="{{{registerLinkNoidaTraining}}}"></iframe>
-                            </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="dwarka-adv">
-                            <div class="widget-container" {{#if frame-id-dwarka-training}} data-widget-id="{{frame-id-dwarka-training}}"
-                                {{/if}}>
-                                <iframe class="payment-widget" {{#if frame-id-dwarka-training}} id="{{frame-id-dwarka-training}}"
-                                    {{/if}} frameborder="0" src="{{{registerLinkDwarkaTraining}}}"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        {{> team team=mentors}}
-
-
-        <!-- SECTION: Course FAQ -->
-        <a id="course-faq" class="in-page-link" data-scroll-id="course-faq"></a>
         <section>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <h4 class="mb16">FAQ</h4>
-                        <p class="lead mb64">(Drop a line at admissions@codingblocks.com if you have further queries)</p>
+                        <h2 class="uppercase color-primary mb40 mb-xs-24">COURSE CONTENTS</h2>
+                        <p class="lead mb64">Training would be devided into three phases</p>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1">
-                        <ul class="accordion accordion-2 one-open">
+                    <div class="col-sm-12 text-center">
+                        <h2 class="uppercase mb8">Phase 1</h2>
+                    </div>
+                </div>
 
-                            <li>
-                                <div class="title">
-                                    <h4 class="inline-block mb0"> I am not from CSE/IT background. Is this training
-                                        suitable for me?</h4>
-                                </div>
-                                <div class="content">
-                                    <p> We intiate the program from ground zero for strong foundation of each trainee
-                                        belonging to different educational backgrounds.
-                                        We make sure that by end of training you are proficient enough with programming
-                                        to crack interview of dream technical companies.
-                                    </p>
-                                </div>
-                            </li>
+                <br>
 
-                            <li>
-                                <div class="title">
-                                    <h4 class="inline-block mb0"> Will I get a job after this course?</h4>
-                                </div>
-                                <div class="content">
-                                    <p> We offer Placement assistance to all candidates in Coding Blocks. In the
-                                        Industrial training program, we stress more on Job drives since it is the need
-                                        of the hour.
-                                        As soon as the first phase of the course is through, we start pushing students
-                                        towards opportunities which Coding Blocks offers.
-                                    </p>
-                                </div>
-                            </li>
+                <div class="row">
+                    <!--course-->
+                    <div class="pricing-card courses-card col-md-5 col-sm-6">
+                        <div class="pricing-table courses-card pt-2 text-center boxed">
+                            <img alt="C++ course logo" class="course logo" src="../assets/images/cb/logosc/color_cpp.svg">
+                            <h4 class="uppercase bold name">Launchpad</h4> <span class="slashed-price">₹17,000</span>
+                            <br>
+                            <p class="description">C++ Complete Course</p>
+                            <p class="lead">(30 lectures)</p><a class="btn btn-white btn-filled btn-lg" href="../classroom-courses/c-plus-plus-for-beginners.html">Explore</a>
+                        </div>
+                    </div>
+                    <!--endcourse-->
 
-                            <li>
-                                <div class="title">
-                                    <h4 class="inline-block mb0">What is the duration of the training program?</h4>
-                                </div>
-                                <div class="content">
-                                    <p>The program duration is of about 5-6 months. This is a long term training
-                                        program for students who have an entire
-                                        semester dedicated to industrial training, or are willing to manage the
-                                        training with their regular college.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="title">
-                                    <h4 class="inline-block mb0">Will I be awarded a training certificate after the
-                                        program?</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Yes, you will get completetion certificates for training program.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="title">
-                                    <h4 class="inline-block mb0"> What would be my skill level after this training
-                                        program?</h4>
-                                </div>
-                                <div class="content">
-                                    <p>It would bring up excellence in both field of problem solving using best of data
-                                        structures and algorithms as well as development.
-                                        In other words you would be job ready in all aspects, be it interviews in big
-                                        multinationals or startups of your wish to join.
-                                    </p>
-                                </div>
-                            </li>
+                    <div class="pricing-card courses-card col-md-2 col-sm-6 v-align">
+                        <h2 class="uppercase color-primary">OR</h2>
+                    </div>
+
+                    <!--course-->
+                    <div class="pricing-card courses-card col-md-5 col-sm-6">
+                        <div class="pricing-table courses-card pt-2 text-center boxed">
+                            <img alt="java course logo" class="course logo" src="../assets/images/cb/logosc/color_java.svg">
+                            <h4 class="uppercase bold name">Crux</h4> <span class="slashed-price">₹17,000</span>
+                            <br>
+                            <p class="description">Java Complete Course</p>
+                            <p class="lead">(30 lectures)</p><a class="btn btn-white btn-filled btn-lg" href="../classroom-courses/java-for-beginners.html">Explore</a>
+
+                        </div>
+                    </div>
+                    <!--endcourse-->
+                </div>
+
+                <br><br>
 
 
-                        </ul>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h2 class="uppercase mb8">Phase 2</h2>
+                    </div>
+                </div>
+
+                <br>
+
+
+                <div class="row">
+                    <!--course-->
+                    <div class="pricing-card courses-card col-md-5 col-sm-6">
+                        <div class="pricing-table courses-card pt-2 text-center boxed">
+                            <img alt="android course logo" class="course logo" src="../assets/images/cb/logosc/color_android.svg">
+                            <h4 class="uppercase bold name">Android App Development</h4> <span class="slashed-price">₹20,000</span>
+                            <br>
+                            <p class="description">Building Android Apps</p>
+                            <p class="lead">(30 lectures)</p><a class="btn btn-white btn-filled btn-lg" href="../classroom-courses/android-app-development-using-kotlin-and-java.html">Explore</a>
+
+                        </div>
+                    </div>
+                    <!--endcourse-->
+
+                    <div class="pricing-card courses-card col-md-2 col-sm-6 v-align">
+                        <h2 class="uppercase color-primary">OR</h2>
+                    </div>
+
+                    <!--course-->
+                    <div class="pricing-card courses-card col-md-5 col-sm-6">
+                        <div class="pricing-table courses-card pt-2 text-center boxed">
+                            <img alt="web development course logo" class="course logo" src="../assets/images/cb/logosc/color_nodejs.svg">
+                            <h4 class="uppercase bold name">NodeJS Web Development</h4> <span class="slashed-price">₹20,000</span>
+                            <br>
+                            <p class="description">Web Design</p>
+                            <p class="lead">(30 lectures)</p><a class="btn btn-white btn-filled btn-lg" href="../classroom-courses/web-development-nodejs.html">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br>
+
+
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h2 class="uppercase mb8">Phase 3</h2>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <!--course-->
+					<div class="pricing-card courses-card ohgodwhy col-md-5 col-md-offset-3 col-sm-6">
+                        <div class="pricing-table courses-card pt-2 text-center boxed">
+                            <img alt="Interview Prep course logo" class="course logo" src="../assets/images/cb/r_final.png">
+                            <h4 class="uppercase bold name">Interview Prep Bootcamp</h4>
+                            <span class="slashed-price">₹5,999</span>
+                            <br>
+                            <p class="description">Ace that Technical Interview</p>
+                            <p class="lead">(15 lectures)</p><a class="btn btn-white btn-filled btn-lg" href="https://online.codingblocks.com/courses/coding-interview-preparation-online">Explore</a>
+                        </div>
+                    </div>
+                    <!--endcourse-->
+                </div>
+
+
+
+            </div>
+            <!--endcourse-->
+    </div>
+
+
+
+    <br /><br />
+
+
+    </div>
+    </section>
+
+    <section style="">
+        <div class="container">
+            <div class="row v-align-children">
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricing-table pt-1 text-center emphasis">
+                        <h5 class="uppercase">
+                            Fast Track Batch
+                        </h5>
+                        <div><span class="slashed-price">₹42,000</span></div>
+                        <div><span class="price">₹30,000</span></div>
+                        <p class="lead">(70-75 lectures)</p>
+                        <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+                        <p>
+                            <a href="/contactus">Contact Us</a>
+                            <br>Call(Toll-free): 1800-2744-504
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <a id="course-testimonials" class="in-page-link"></a>
-        {{> review-course-section}}
-        {{> map}}
-        {{> footer}}
+        </div>
+    </section>
+
+    {{> courseschedule schedule=scheduleTraining}}
+
+    <a id="registration-form" class="in-page-link" data-scroll-id="registration-form"></a>
+
+    <section>
+        <div class="text-center">
+            <h3>REGISTER NOW</h3>
+        </div>
+        <div class="container">
+            <div class="course-tabs" id="adv">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="wide-tab" id="tab-dwarka"><a href="#dwarka-adv" aria-controls="profile"
+                            role="tab" data-toggle="tab" aria-expanded="false">Dwarka</a></li>
+                    <li role="presentation" class="wide-tab active" id="tab-noida"><a href="#noida-adv" aria-controls="profile"
+                            role="tab" data-toggle="tab" aria-expanded="false">Noida</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="noida-adv">
+                        <div class="widget-container" {{#if frame-id-noida-training}} data-widget-id="{{frame-id-noida-training}}"
+                            {{/if}}>
+                            <iframe class="payment-widget" {{#if frame-id-noida-training}} id="{{frame-id-noida-training}}"
+                                {{/if}} frameborder="0" src="{{{registerLinkNoidaTraining}}}"></iframe>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="dwarka-adv">
+                        <div class="widget-container" {{#if frame-id-dwarka-training}} data-widget-id="{{frame-id-dwarka-training}}"
+                            {{/if}}>
+                            <iframe class="payment-widget" {{#if frame-id-dwarka-training}} id="{{frame-id-dwarka-training}}"
+                                {{/if}} frameborder="0" src="{{{registerLinkDwarkaTraining}}}"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    {{> team team=mentors}}
+
+
+    <!-- SECTION: Course FAQ -->
+    <a id="course-faq" class="in-page-link" data-scroll-id="course-faq"></a>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4 class="mb16">FAQ</h4>
+                    <p class="lead mb64">(Drop a line at admissions@codingblocks.com if you have further queries)</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <ul class="accordion accordion-2 one-open">
+
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0"> I am not from CSE/IT background. Is this training
+                                    suitable for me?</h4>
+                            </div>
+                            <div class="content">
+                                <p> We intiate the program from ground zero for strong foundation of each trainee
+                                    belonging to different educational backgrounds.
+                                    We make sure that by end of training you are proficient enough with programming
+                                    to crack interview of dream technical companies.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0"> Will I get a job after this course?</h4>
+                            </div>
+                            <div class="content">
+                                <p> We offer Placement assistance to all candidates in Coding Blocks. In the
+                                    Industrial training program, we stress more on Job drives since it is the need
+                                    of the hour.
+                                    As soon as the first phase of the course is through, we start pushing students
+                                    towards opportunities which Coding Blocks offers.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0">What is the duration of the training program?</h4>
+                            </div>
+                            <div class="content">
+                                <p>The program duration is of about 5-6 months. This is a long term training
+                                    program for students who have an entire
+                                    semester dedicated to industrial training, or are willing to manage the
+                                    training with their regular college.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0">Will I be awarded a training certificate after the
+                                    program?</h4>
+                            </div>
+                            <div class="content">
+                                <p>Yes, you will get completetion certificates for training program.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0"> What would be my skill level after this training
+                                    program?</h4>
+                            </div>
+                            <div class="content">
+                                <p>It would bring up excellence in both field of problem solving using best of data
+                                    structures and algorithms as well as development.
+                                    In other words you would be job ready in all aspects, be it interviews in big
+                                    multinationals or startups of your wish to join.
+                                </p>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a id="course-testimonials" class="in-page-link"></a>
+    {{> review-course-section}}
+    {{> map}}
+    {{> footer}}
     </div>
     {{> scripts}}
+<style>
+@media (min-width: 900px) {
+	.ohgodwhy {
+		margin-left: 35rem;
+	}
+}
+</style>
 </body>
 
 </html>

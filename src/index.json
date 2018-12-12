@@ -8,49 +8,31 @@
   ],
   "slides": [
 	  {
-		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
+		  "imgSrc": "/assets/images/cb/cover/ad.jpg",
 		  "imgAlt": "",
-		  "heading": "Six months Industrial Training",
-		  "content": "Wholesome development training program spanning six months combined with placement assistance. You'll learn data structures and algorithms, as well as some important and exciting technologies such as Web Development and Android app Development.",
+		  "heading": "CODERS ADMISSION AND SCHOLARSHIP TEST ( CAST )",
+		  "content": "Get upto 75% off on our all online/offline courses",
 		  "button": [
 			  {
-				  "link": "/classroom-courses/six_months_ind_training",
-				  "text": "Explore more",
+				  "link": "/scholarship-tests.html",
+				  "text": "Register Now!",
 				  "filled": "true"
 			  }
 		  ]
 	  },{
 		  "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
 		  "imgAlt": "",
-		  "heading": "Registrations open for scholarship tests this December",
-		  "content": "Take this test for FREE and win upto 95% scholarship on courses at Coding Blocks this Winter",
+		  "heading": "DS and Algorithms in C++ - Hybrid",
+		  "content": "This will be a beginners’ course including basic programming fundamentals, object oriented programming and in-depth coverage of data structures and algorithms. The user can opt for the complete bundle, or just the advanced part of the course.",
 		  "button": [
 			  {
-				  "link": "https://cb.lk/apat",
-				  "text": "Register for APAT (Test for advanced courses)",
-				  "filled": "true"
-			  },
-			  {
-				  "link": "https://cb.lk/cast",
-				  "text": "Register for CAST (Test for basic courses)",
+				  "link": "https://codingblocks.com/classroom-courses/c-plus-plus-hybrid.html",
+				  "text": "Explore More",
 				  "filled": "true"
 			  }
 		  ]
 	  },
-	  {
-		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
-		  "imgAlt": "",
-		  "heading": "Success stories",
-		  "content": "Got an internship/placement ? Here is a chance to share your success story with others, get featured on our Facebook, Instagram and Hall of Fame pages and get rewarded.",
-		  "button": [
-			  {
-				  "link": "https://cb.lk/ss",
-				  "text": "Submit Success Story",
-				  "filled": "true"
-			  }
-		  ]
-	  },
-	  {
+    {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
 		  "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
@@ -62,7 +44,20 @@
 				  "filled": "true"
 			  }
 		  ]
-	  }
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/cast.jpg",
+      "imgAlt": "",
+      "heading": "Success stories",
+      "content": "Got an internship/placement ? Here is a chance to share your success story with others, get featured on our Facebook, Instagram and Hall of Fame pages and get rewarded.",
+      "button": [
+        {
+          "link": "https://cb.lk/ss",
+          "text": "Submit Success Story",
+          "filled": "true"
+        }
+      ]
+    }
   ],
   "events": {
     "upcoming": true,

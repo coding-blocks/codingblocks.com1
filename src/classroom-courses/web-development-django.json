@@ -192,13 +192,13 @@
   "schedule": [
 	  {
 		  "center": "Dehradun",
-		  "startdate": "Dec 20",
-		  "enddate": "TBD",
-		  "daytime": "TBD",
-		  "batchtype": "TBD"
+		  "startdate": "Dec 15",
+		  "enddate": "Jan 29",
+		  "daytime": "Tue, Thu, Sat & Sun (02:00 PM - 05:00 PM)",
+		  "batchtype": "Evening"
 	  }
   ],
   "reviewSlug": "Web Development Course",
-  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=208",
-  "frame-id-dehradun": "208"
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=257",
+  "frame-id-dehradun": "257"
 }
