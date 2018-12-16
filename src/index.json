@@ -20,6 +20,18 @@
 			  }
 		  ]
 	  },{
+		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
+		  "imgAlt": "",
+		  "heading": "Six months Industrial Training",
+		  "content": "Wholesome development training program spanning six months combined with placement assistance. You'll learn data structures and algorithms, as well as some important and exciting technologies such as Web Development and Android app Development.",
+		  "button": [
+			  {
+				  "link": "/classroom-courses/six_months_ind_training",
+				  "text": "Explore more",
+				  "filled": "true"
+			  }
+		  ]
+	  },{
 		  "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
 		  "imgAlt": "",
 		  "heading": "DS and Algorithms in C++ - Hybrid",
