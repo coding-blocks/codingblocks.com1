@@ -10,47 +10,56 @@
 {{> navbar}}
 <div class="main-container">
     {{> header}}
-    <div style="padding:30px" align="center">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/XrPHG9PBCZU" frameborder="0"
-                allowfullscreen></iframe>
-    </div>
     {{> overview}}
-    <section class="bg-secondary">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h4 class="uppercase mb16"> YOUR MENTORS FOR BOOTCAMP</h4>
-                <!--<p class="lead mb64">-->
-                <!--Write something about the team-->
-                <!--</p>-->
-                <br><br>
-            </div>
-        </div>
-        <div class="flex-container">
-            <div class="flex-item">
-                <div class="col-md-offset-2 col-md-2 col-sm-12">
-                    <img alt="Prateek Mugshot" src="../assets/images/cb/team/wprateek.jpg" opacity="0.7" class="img-circle">
-                </div>
-                <div class="col-sm-12 col-md-offset-1 col-md-5">
-                    <p class="mb0" align="justify-content">
-                        <b>Prateek Narang</b> <br> He Passionate about teaching, Prateek is a CS graduate from DTU.
-                        He has previously worked with SanDisk, HackerEarth.
-                        He has also won various hackathons including Google’s Code For India,
-                        Smart City Hackathon, qualified ACM-ICPC regionals
-                        and published papers in International Journals.
-                        His interactive CV (www.prateeknarang.com) is also popular in 120+ countries.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
     {{> coursehighlights}}
+
+    <section class="tabbed-enroll-section">
+		<div class="container">
+		    <div class="row v-align-children">
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricing-table pt-1 text-center emphasis">
+                        <h5 class="uppercase">Bootcamp</h5>
+                        <span class="slashed-price">₹1,000</span><br />
+                        <span class="price">₹500</span><br />
+                        <p class="lead">(3 lectures)</p>
+                        <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+                        <p><a href="/contactus">Contact Us</a><br>Call(Toll-free):1800-2744-504</p>
+                    </div>
+                </div>
+		    </div>
+		</div>
+	</section>
+
+    {{> courseschedule schedule=scheduleGame}}
+
+    <section>
+		<a id="register"></a>
+        <div class="text-center">
+            <h3>REGISTER NOW</h3>
+		</div>
+		<div class="container">
+					<div class="course-tabs">
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="wide-tab active" id="tab-noida"><a href="#noida" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida</a></li>
+						</ul>
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="noida">
+								<div class="container widget-container" data-widget-id="{{frame-id-noida}}">
+									<iframe class="payment-widget" {{#if frame-id-noida}}id="{{frame-id-noida}}"{{/if}} frameborder="0" src="{{{registerLinkNoida}}}"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+		</div>
+	</section>
+
+    {{> team team=mentors}}
     {{> coursefaq}}
     <!-- SECTION: Testimonials -->
     <a id="course-testimonials" class="in-page-link"></a>
+
+
     <section class="bg-secondary">
-        <div id="register">
-			{{> registration register-comingSoon = true}}
-        </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
