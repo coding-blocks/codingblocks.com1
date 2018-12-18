@@ -168,6 +168,10 @@
 			{
 			  "title": "AngularJS",
 			  "link": "/coming-soon.html"
+			},
+			{
+			  "title": "Game Development",
+			  "link": "/bootcamps/gamedev.html"
 			}
           ]
         }
