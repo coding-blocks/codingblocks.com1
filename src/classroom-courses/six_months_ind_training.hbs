@@ -304,8 +304,6 @@
         <div class="container">
             <div class="course-tabs" id="adv">
                 <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="wide-tab" id="tab-dwarka"><a href="#dwarka-adv" aria-controls="profile"
-                            role="tab" data-toggle="tab" aria-expanded="false">Dwarka</a></li>
                     <li role="presentation" class="wide-tab active" id="tab-noida"><a href="#noida-adv" aria-controls="profile"
                             role="tab" data-toggle="tab" aria-expanded="false">Noida</a></li>
                 </ul>
@@ -315,13 +313,6 @@
                             {{/if}}>
                             <iframe class="payment-widget" {{#if frame-id-noida-training}} id="{{frame-id-noida-training}}"
                                 {{/if}} frameborder="0" src="{{{registerLinkNoidaTraining}}}"></iframe>
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="dwarka-adv">
-                        <div class="widget-container" {{#if frame-id-dwarka-training}} data-widget-id="{{frame-id-dwarka-training}}"
-                            {{/if}}>
-                            <iframe class="payment-widget" {{#if frame-id-dwarka-training}} id="{{frame-id-dwarka-training}}"
-                                {{/if}} frameborder="0" src="{{{registerLinkDwarkaTraining}}}"></iframe>
                         </div>
                     </div>
                 </div>
