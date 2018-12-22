@@ -31,18 +31,6 @@
 				  "filled": "true"
 			  }
 		  ]
-	  },{
-		  "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
-		  "imgAlt": "",
-		  "heading": "DS and Algorithms in C++ - Hybrid",
-		  "content": "This will be a beginners’ course including basic programming fundamentals, object oriented programming and in-depth coverage of data structures and algorithms. The user can opt for the complete bundle, or just the advanced part of the course.",
-		  "button": [
-			  {
-				  "link": "https://codingblocks.com/classroom-courses/c-plus-plus-hybrid.html",
-				  "text": "Explore More",
-				  "filled": "true"
-			  }
-		  ]
 	  },
     {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
