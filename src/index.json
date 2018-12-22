@@ -8,10 +8,10 @@
   ],
   "slides": [
 	  {
-		  "imgSrc": "/assets/images/cb/cover/ad.jpg",
+		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
 		  "heading": "CODERS ADMISSION AND SCHOLARSHIP TEST ( CAST )",
-		  "content": "Get upto 75% off on our all online/offline courses",
+		  "content": "Get upto 95% off on our all online/offline courses",
 		  "button": [
 			  {
 				  "link": "/scholarship-tests.html",
@@ -44,6 +44,19 @@
 				  "filled": "true"
 			  }
 		  ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
+      "imgAlt": "",
+      "heading": "Game dev bootcamp (NOIDA)",
+      "content": "Learn To Build Exciting Web Games",
+      "button": [
+        {
+          "link": "https://codingblocks.com/bootcamps/gamedev.html",
+          "text": "Explore",
+          "filled": "true"
+        }
+      ]
     },
     {
       "imgSrc": "/assets/images/cb/cover/cast.jpg",
