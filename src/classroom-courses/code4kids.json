@@ -1,7 +1,7 @@
 {
   "name": "code4kids",
   "title": "Code4Kids: Get the coding edge for your kids. Courses in Delhi NCR | Coding Blocks",
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=158",
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=259",
   "schedule": [
 	  {
 		"center": "Dwarka",
@@ -12,7 +12,7 @@
 	  }
 	],
   "courseEnroll": {
-    "upcomingBatches": "New batch starting 4th June",
+  "upcomingBatches": "New batch starting 4th June",
 	"priceCut": "5,000",
 	"price": "4,000",
 	"registerButton": {
@@ -25,5 +25,4 @@
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
   ]
-
 }
