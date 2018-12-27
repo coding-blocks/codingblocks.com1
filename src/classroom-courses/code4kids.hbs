@@ -48,7 +48,7 @@
             <!-- Title -->
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="thin">Learn making web game in 6 days</h1>
+                    <h1 class="thin">Learn to Make a Web Game in 6 Days</h1>
                 </div>
             </div>
 
@@ -56,8 +56,7 @@
             <div class="row mb-xs-0">
                 <div class="col-sm-12">
                     <p class="lead">
-                        Code4Kids especially designed for school kids who are beginning their journey in programming. Computer programming skill is one of the most essential skill in this century. 
-It is a programming campaign of 6 days in which a kid will learn - Designing of HTML websites, Styles and Animations with CSS, Programming with JavaScript and last but not the least building Games like Flappy Bird, Tic tak toe. This course will be for the students of classes VI to VIII so that they create a strong base in Computer Programming which help them in many stages of life.
+						Learn making Web games in 6 days. Computer programming is the most essential and desired skill of the 21st  century. Whatever career one decides, this skill comes in handy, not just because it equips a student with programming skills, but also because it improves decision making. Code for Kids - Winter Camp is a special 6 day bootcamp in which kids will learn - HTML, CSS, JavaScript libraries, and will be able to make HTML websites, styles &amp; animations, and build cool games like <strong>Flappy Bird</strong>, <strong>Tic Tac Toe</strong>, etc. This course will be for the students of classes VI to X and will instill a strong foundation in Computer Programming which will help them in many stages of life.
                     </p>
                 </div>
             </div>
@@ -111,7 +110,33 @@ It is a programming campaign of 6 days in which a kid will learn - Designing of 
             </div>
         </div>
     </section>
-    {{> freeAccessBanner}}
+    
+    {{> courseschedule}}
+    {{> courseenroll courseEnroll=courseEnroll}}
+	<a id="register"></a>
+	<section>
+		<div class="text-center">
+			<h3>REGISTER NOW</h3>
+		</div>
+		<div class="container">
+			<div class="course-tabs">
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="wide-tab active" id="tab-dwarka">
+						<a href="#dwarka" aria-controls="profile" role="tab" data-toggle="tab">Dwarka</a>
+					</li>
+				</ul>
+
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="dwarka">
+						<div class="container widget-container" data-widget-id='{{frame-id-dwarka}}'>
+							<iframe class="payment-widget" {{#if frame-id-dwarka}}id="{{frame-id-dwarka}}"{{/if}} frameborder="0" src="{{{registerLinkDwarka}}}"></iframe>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
     <a name="faqs"></a>
     <section class="bg-secondary">
         <div class="container">
@@ -184,44 +209,6 @@ It is a programming campaign of 6 days in which a kid will learn - Designing of 
         </div>
 
     </section>
-    
-    <section class="bg-white">
-        <div class="container">
-            <div class="row v-align-children">
-                <div class="col-sm-5">
-                    <h3>Join Coding Blocks and
-                        <br> get ahead of the curve. Dates and schedule coming soon.</h3>
-                        
-                    <p class="lead mb40">
-                    </p>
-                    <div class="overflow-hidden mb32 mb-xs-24">
-                        <div class="row">
-                            <div class="col-sm-1">
-                                <i class="ti-package icon icon-sm pull-left"></i>
-                            </div>
-                            <div class="col-sm-11">
-                                <h6 class="uppercase mb0 inline-block p32">Enroll with Code4Kids and get special offer</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="overflow-hidden mb32 mb-xs-24">
-                        <div class="row">
-                            <div class="col-sm-1">
-                                <i class="ti-medall-alt icon icon-sm pull-left"></i>
-                            </div>
-                            <div class="col-sm-11">
-                                <h6 class="uppercase mb0 inline-block p32">Exciting Prizes and Goodies for all kids</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-    {{> courseenroll courseEnroll=courseEnroll}}
-    {{> registration}}
     <!-- Footer -->
     {{> review-course-section}}
     {{> map}}

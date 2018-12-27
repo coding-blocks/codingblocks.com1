@@ -1,7 +1,8 @@
 {
   "name": "code4kids",
   "title": "Code4Kids: Get the coding edge for your kids. Courses in Delhi NCR | Coding Blocks",
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=259",
+  "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=259",
+  "frame-id-dwarka": "259",
   "schedule": [
 	  {
 		"center": "Dwarka",
@@ -24,5 +25,14 @@
     "SHREYA GUPTA",
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
+  ],
+  "schedule": [
+	  {
+		  "center": "Dwarka",
+		  "startdate": "Jan 02",
+		  "enddate": "Jan 07",
+		  "daytime": "Wed - Mon (10:30 AM - 12:30 AM)",
+		  "batchtype": "Morning"
+	  }
   ]
 }
