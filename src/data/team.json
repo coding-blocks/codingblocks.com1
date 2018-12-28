@@ -5,210 +5,241 @@
       "role": "Founder",
       "imgSrc": "/assets/images/cb/team/wmanmohan.jpg",
       "imgAlt": "Manmohan Gupta",
-      "bio": "Manmohan Gupta (Munna Bhaiya), an IIT-Delhi graduate, is an ace programmer, technocrat, an entrepreneurial doyen and a mathematician. He has co-founded Software giant, <b>Nagarro</b> and <b>Vidyamandir Classes(VMC)</b>. Having seen both the industries from up close, he could identify a key gap between college education and industry needs and has now set out to carve the path that will turn even ordinary students into industry-ready coders."
+      "bio":
+        "Manmohan Gupta (Munna Bhaiya), an IIT-Delhi graduate, is an ace programmer, technocrat, an entrepreneurial doyen and a mathematician. He has co-founded Software giant, <b>Nagarro</b> and <b>Vidyamandir Classes(VMC)</b>. Having seen both the industries from up close, he could identify a key gap between college education and industry needs and has now set out to carve the path that will turn even ordinary students into industry-ready coders."
     },
     {
       "name": "Brij Mohan",
       "role": "Co-Founder",
       "imgSrc": "/assets/images/cb/team/c_badebhayia.jpg",
       "imgAlt": "Brij Mohan Gupta",
-      "bio": "Brij Mohan or Bade bhaiya, as everyone calls him, is always full of energy and keeps everyone on feet with his motivation. He has vast experience of teaching and is the founder of Vidyamandir Classes. <br> Bade Bhaiya, through his personal and professional growth helps in motivating and mentoring students at Coding Blocks. He is an IIT Delhi alumnus. <br>"
+      "bio":
+        "Brij Mohan or Bade bhaiya, as everyone calls him, is always full of energy and keeps everyone on feet with his motivation. He has vast experience of teaching and is the founder of Vidyamandir Classes. <br> Bade Bhaiya, through his personal and professional growth helps in motivating and mentoring students at Coding Blocks. He is an IIT Delhi alumnus. <br>"
     },
     {
       "name": "Anushray Gupta",
       "role": "Co-Founder",
       "imgSrc": "/assets/images/cb/team/wanushray.jpg",
       "imgAlt": "Anushray Gupta",
-      "bio": "A code lover, with an undying passion for teaching, Anushray has done his Bachelor’s in CSE from IIIT Hyderabad. He has worked with major tech companies like Facebook and Directi and played major role in many successful start-ups. <br> He is one of the Co-Founders of Coding Blocks. He has received amazing feedbacks for his teaching and is now serving as Programme Designer at Coding Blocks."
+      "bio":
+        "A code lover, with an undying passion for teaching, Anushray has done his Bachelor’s in CSE from IIIT Hyderabad. He has worked with major tech companies like Facebook and Directi and played major role in many successful start-ups. <br> He is one of the Co-Founders of Coding Blocks. He has received amazing feedbacks for his teaching and is now serving as Programme Designer at Coding Blocks."
     },
     {
       "name": "Priyanshu Agrawal",
       "role": "Founding Member",
       "imgSrc": "/assets/images/cb/team/wpriyanshu.jpg",
       "imgAlt": "Priyanshu Agrawal",
-      "bio": "Priyanshu did his bachelors in Computer Science and is a MBA graduate from MDI, Gurgaon. He has experience of working in Management &amp; Consulting domain with Boston Analytics &amp; Novozymes. He has also worked for Vidyamandir Classes and Nagarro in the past."
+      "bio":
+        "Priyanshu did his bachelors in Computer Science and is a MBA graduate from MDI, Gurgaon. He has experience of working in Management &amp; Consulting domain with Boston Analytics &amp; Novozymes. He has also worked for Vidyamandir Classes and Nagarro in the past."
     },
     {
       "name": "Prateek Narang",
       "role": "Founding Member",
       "imgSrc": "/assets/images/cb/team/wprateek.jpg",
       "imgAlt": "Prateek Narang",
-      "bio": "Passionate about teaching, Prateek is a CS graduate from DTU. He has previously worked with SanDisk, HackerEarth. He has also won various hackathons including Google’s Code For India, Smart City Hackathon, qualified ACM-ICPC regionals and published papers in International Journals. His interactive CV (www.prateeknarang.com) is also popular in 120+ countries."
+      "bio":
+        "Passionate about teaching, Prateek is a CS graduate from DTU. He has previously worked with SanDisk, HackerEarth. He has also won various hackathons including Google’s Code For India, Smart City Hackathon, qualified ACM-ICPC regionals and published papers in International Journals. His interactive CV (www.prateeknarang.com) is also popular in 120+ countries."
     },
     {
       "name": "Arnav Gupta",
       "role": "Founding Member",
       "imgSrc": "/assets/images/cb/team/warnav.jpg",
       "imgAlt": "Arnav Gupta",
-      "bio": "Arnav Gupta, also popular as @ChampionSwimmer, is an acclaimed Android developer and two timer GSoC-er. He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf. He has also worked with Sony, Micromax, Cyanogen and the likes. Arnav has also active contributed int the development of Android OS, Linux Kernel and will also be mentoring students in GSoC’17."
+      "bio":
+        "Arnav Gupta, also popular as @ChampionSwimmer, is an acclaimed Android developer and two timer GSoC-er. He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf. He has also worked with Sony, Micromax, Cyanogen and the likes. Arnav has also active contributed int the development of Android OS, Linux Kernel and will also be mentoring students in GSoC’17."
     },
     {
       "name": "Varun Hasija",
       "role": "Head of Engineering",
       "imgSrc": "/assets/images/cb/team/Varun Final.jpg",
       "imgAlt": "Varun Hasija",
-      "bio": "A graduate from DTU, Varun has worked as a software developer for Practo and as an operations manager for a startup. He published two research papers in international IEEE conferences and also received acknowledgments from the likes of Michael Bernstein in papers published by Stanford graduates."
+      "bio":
+        "A graduate from DTU, Varun has worked as a software developer for Practo and as an operations manager for a startup. He published two research papers in international IEEE conferences and also received acknowledgments from the likes of Michael Bernstein in papers published by Stanford graduates."
     },
     {
       "name": "Rajesh Sachdev",
       "role": "Mentor & Centre Head (Dwarka)",
       "imgSrc": "/assets/images/cb/team/wrajesh.jpg",
       "imgAlt": "Rajesh Sachdev",
-      "bio": "Rajesh has 20+ years of experience in IT/Corporate sector. He has previously worked with corporates like Nagarro, Cadence, American Express. He left IT industry in 2013 and moved to education with a passion to help students accomplishing their career goals. He did MS from BITS Pilani."
+      "bio":
+        "Rajesh has 20+ years of experience in IT/Corporate sector. He has previously worked with corporates like Nagarro, Cadence, American Express. He left IT industry in 2013 and moved to education with a passion to help students accomplishing their career goals. He did MS from BITS Pilani."
     },
     {
       "name": "Varun Kohli",
       "role": "Center Head (Noida)",
       "imgSrc": "/assets/images/cb/team/wvarun.jpg",
       "imgAlt": "Varun Kohli",
-      "bio": "Varun has been associated with the Software industry for more than 12 years & is considered an expert in the EdTech space. He has worked on multiple large scale applications and has piloted several Startups. He now dedicates his energy and experience to the design of Programs & business in Coding Blocks."
+      "bio":
+        "Varun has been associated with the Software industry for more than 12 years & is considered an expert in the EdTech space. He has worked on multiple large scale applications and has piloted several Startups. He now dedicates his energy and experience to the design of Programs & business in Coding Blocks."
     },
     {
       "name": "Deepak Aggarwal",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/c_deepak.jpg",
       "imgAlt": "Deepak Aggarwal",
-      "bio": "Popular for his creative thinking style, Deepak tries to offer creative solutions to problems. He is a succesful competitive programmer, having qualified for ACM-ICPC Regionals won the International Problem Solving Competition by Dyalog APL. He likes to spend his free time reading."
+      "bio":
+        "Popular for his creative thinking style, Deepak tries to offer creative solutions to problems. He is a succesful competitive programmer, having qualified for ACM-ICPC Regionals won the International Problem Solving Competition by Dyalog APL. He likes to spend his free time reading."
     },
     {
       "name": "Rishab Kapoor",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/c_rishab.jpg",
       "imgAlt": "Rishab Kapoor",
-      "bio": "A graduate from Guru Nanak Dev University, Rishab has worked with Harman Connected Services as a software engineer. He is proficient with web development related technologies like HTML, CSS, Javascript along with Internet of Things development, OSGi framework, Spring and Hibernate."
+      "bio":
+        "A graduate from Guru Nanak Dev University, Rishab has worked with Harman Connected Services as a software engineer. He is proficient with web development related technologies like HTML, CSS, Javascript along with Internet of Things development, OSGi framework, Spring and Hibernate."
     },
     {
       "name": "Harshit Dwivedi",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/c_harshit.jpg",
       "imgAlt": "Harshit Dwivedi",
-      "bio": "Renowned for his “awesome” puns and stash of shwags, Harshit is a Google Certified Android Developer. He has been a GSoC participant with FOSSASIA and will also be mentoring students under GSoC 2017. He is an open source enthusiast and is also passionate about Data Science."
+      "bio":
+        "Renowned for his “awesome” puns and stash of shwags, Harshit is a Google Certified Android Developer. He has been a GSoC participant with FOSSASIA and will also be mentoring students under GSoC 2017. He is an open source enthusiast and is also passionate about Data Science."
     },
     {
       "name": "Garima Chhikara",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/Garima Final.jpg",
       "imgAlt": "Garima Chhikara",
-      "bio": "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining."
+      "bio":
+        "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining."
     },
     {
       "name": "Aayush Arora",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/c_aayush.JPG",
       "imgAlt": "Aayush Arora",
-      "bio": "Always ready for a Chess match and a cup of coffee, Aayush is a team member and an active contributor in Open Source organizations like CloudCV, FOSSASIA and Open Design. He is an avid web developer and will also be mentoring students in Google Summer of Code 2017."
+      "bio":
+        "Always ready for a Chess match and a cup of coffee, Aayush is a team member and an active contributor in Open Source organizations like CloudCV, FOSSASIA and Open Design. He is an avid web developer and will also be mentoring students in Google Summer of Code 2017."
     },
     {
       "name": "Anuj Garg",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/c_anuj.jpg",
       "imgAlt": "Anuj Garg",
-      "bio": "Anuj is an open-source enthusiast and a GSoC mentor and admin with JBoss Community under the RedHat Foundation. He has worked in the core teams of various products by RedHat and is an expert in Enterprise Java and web services. He will also be administrating in GSoC'19 under the umbrella of JBoss for Servers and IoT monitoring."
+      "bio":
+        "Anuj is an open-source enthusiast and a GSoC mentor and admin with JBoss Community under the RedHat Foundation. He has worked in the core teams of various products by RedHat and is an expert in Enterprise Java and web services. He will also be administrating in GSoC'19 under the umbrella of JBoss for Servers and IoT monitoring."
     },
     {
       "name": "Raj Kumar Saini",
       "role": "Mentor & Centre Head (Dehradun)",
       "imgSrc": "/assets/images/cb/team/RajKumar.jpg",
       "imgAlt": "Raj Kumar Saini",
-      "bio": "Raj Kumar Saini is a Computer Science graduate from DTU who has previously worked with Adobe, Amazon and DE Shaw among others. A robotics enthusiast, he is also proficient with data structures and algorithms. He has had multiple papers published in IEEE and reputed international journals, and had one of the top placements when he graduated from DTU."
+      "bio":
+        "Raj Kumar Saini is a Computer Science graduate from DTU who has previously worked with Adobe, Amazon and DE Shaw among others. A robotics enthusiast, he is also proficient with data structures and algorithms. He has had multiple papers published in IEEE and reputed international journals, and had one of the top placements when he graduated from DTU."
     },
     {
       "name": "Kartik Mathur",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/Kartik.JPG",
       "imgAlt": "Kartik Mathur",
-      "bio": "An NSIT graduate, Kartik has worked with companies like DRDO and BEL. He has immense interest in technologies like IoT, DBMS, home automation and embedded systems. He has come to Coding Blocks to fulfill his passion for teaching. In his free time he likes to read books and play chess."
+      "bio":
+        "An NSIT graduate, Kartik has worked with companies like DRDO and BEL. He has immense interest in technologies like IoT, DBMS, home automation and embedded systems. He has come to Coding Blocks to fulfill his passion for teaching. In his free time he likes to read books and play chess."
     },
     {
       "name": "Jatin Katyal",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/jatin-katyal.jpg",
       "imgAlt": "Jatin Katyal",
-      "bio": "Jatin has worked with various start-ups in the field of HCI and IoT. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack."
+      "bio":
+        "Jatin has worked with various start-ups in the field of HCI and IoT. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack."
     },
     {
       "name": "Nikhil Singh",
       "role": "Mentor",
-      "imgSrc": "https://minio.cb.lk/amoeba/618d3c39-d916-45b6-b6aa-790501ebb1b3",
+      "imgSrc":
+        "https://minio.cb.lk/amoeba/618d3c39-d916-45b6-b6aa-790501ebb1b3",
       "imgAlt": "Nikhil Singh",
-      "bio": "A final year undergraduate at DTU, Nikhil is an avid pythonista who loves to create utilities and automate the boring stuff. He is passionate about teaching and has organized workshops on various Python topics. He also maintains his own YouTube channel and blog which goes by the name \"Indian Pythonista\"."
+      "bio":
+        "A final year undergraduate at DTU, Nikhil is an avid pythonista who loves to create utilities and automate the boring stuff. He is passionate about teaching and has organized workshops on various Python topics. He also maintains his own YouTube channel and blog which goes by the name \"Indian Pythonista\"."
     },
     {
       "name": "Prajjwal Singh",
       "role": "Senior Developer",
       "imgSrc": "/assets/images/cb/team/c_prajjwal.JPG",
       "imgAlt": "Prajjwal Singh",
-      "bio": "Prajjwal is guilty of programming and other cybershenanigans. Experienced with Ruby / Rails / Sinatra, as well as JavaScript / Node / Express. Other than that, he is into UNIX, Number Theory, Machine Learning, Declarative Programming, and trolling Emacs users on IRC."
+      "bio":
+        "Prajjwal is guilty of programming and other cybershenanigans. Experienced with Ruby / Rails / Sinatra, as well as JavaScript / Node / Express. Other than that, he is into UNIX, Number Theory, Machine Learning, Declarative Programming, and trolling Emacs users on IRC."
     },
     {
       "name": "Himank Bhalla",
       "role": "Developer & Mentor",
       "imgSrc": "/assets/images/cb/team/Himank Final.jpg",
       "imgAlt": "Himank Bhalla",
-      "bio": "An enthusiastic full-stack web developer, Himank has worked at multiple Delhi based startups. He also designed the website for International Conference on Computational Techniques in Information and Communication Technologies (ICCTICT)."
+      "bio":
+        "An enthusiastic full-stack web developer, Himank has worked at multiple Delhi based startups. He also designed the website for International Conference on Computational Techniques in Information and Communication Technologies (ICCTICT)."
     },
     {
       "name": "Abhishek Gupta",
       "role": "Developer",
       "imgSrc": "/assets/images/cb/team/Abhishake.jpg",
       "imgAlt": "Abhishek Gupta",
-      "bio": "Abhishek has worked as freelancer on many challenging projects. He is well versed with various web/backend technologies like Javascript / Node, Go, Ember.js. He is also computer networking enthusiast. Other than this, he is also interested in Physics, Mathematics and Machine learning."
+      "bio":
+        "Abhishek has worked as freelancer on many challenging projects. He is well versed with various web/backend technologies like Javascript / Node, Go, Ember.js. He is also computer networking enthusiast. Other than this, he is also interested in Physics, Mathematics and Machine learning."
     },
     {
       "name": "Vibhu Dujari",
       "role": "Developer",
       "imgSrc": "/assets/images/cb/team/vibhud.jpeg",
       "imgAlt": "Vibhu Dujari",
-      "bio": "Vibhu is a Full Stack Developer and has worked with various startups and projects involving web technologies like JavaScript / Node / Express, Ember, Angular. He has a keen interest in CSS and is intrigued by the way different machines work."
+      "bio":
+        "Vibhu is a Full Stack Developer and has worked with various startups and projects involving web technologies like JavaScript / Node / Express, Ember, Angular. He has a keen interest in CSS and is intrigued by the way different machines work."
     },
     {
       "name": "Siddharth Jain",
       "role": "Designer",
       "imgSrc": "/assets/images/cb/team/Sid Final.jpg",
       "imgAlt": "Siddharth Jain Coding Blocks Designer",
-      "bio": "A UI/UX Designer by profession, Siddharth loves converting ideas digital. He enjoys turning complex problems into easy, eye-catching and pixel perfect interfaces. Injected with creative juices and a lot of caffeine; whenever he is not making pleasing designs, he is criticizing bad ones."
+      "bio":
+        "A UI/UX Designer by profession, Siddharth loves converting ideas digital. He enjoys turning complex problems into easy, eye-catching and pixel perfect interfaces. Injected with creative juices and a lot of caffeine; whenever he is not making pleasing designs, he is criticizing bad ones."
     },
     {
       "name": "Ishan Abrol",
       "role": "Sales head",
       "imgSrc": "/assets/images/cb/team/ishan.jpg",
       "imgAlt": "Ishan Abrol",
-      "bio": "Ishan Abrol is a MBA by education and a musician by heart. He is having 7 years of experience with various industries and has been helping them increasing their market worth. He is now using that experience in helping grow the online vertical of Coding Blocks."
+      "bio":
+        "Ishan Abrol is a MBA by education and a musician by heart. He is having 7 years of experience with various industries and has been helping them increasing their market worth. He is now using that experience in helping grow the online vertical of Coding Blocks."
     },
     {
       "name": "Asif Khan",
       "role": "Product Specialist",
       "imgSrc": "/assets/images/cb/team/asifk.jpg",
       "imgAlt": "Asif Khan",
-      "bio": "Asif is Product Specialist at Coding Blocks, supporting both sales and technical activities. He is responsible for working closely with operations and R&D teams. He earned his bachelor's degree in Information Technology from MAIT."
+      "bio":
+        "Asif is Product Specialist at Coding Blocks, supporting both sales and technical activities. He is responsible for working closely with operations and R&D teams. He earned his bachelor's degree in Information Technology from MAIT."
     },
     {
       "name": "Bhavana",
       "role": "Business Developer",
       "imgSrc": "/assets/images/cb/team/bhavana.png",
       "imgAlt": "Bhavana",
-      "bio": "She is a computer science engineer and believes in seeking new opportunities. Having exposure in Android App development and content writing. She's currently working with us as a Business Developer to help CB achieve new heights."
+      "bio":
+        "She is a computer science engineer and believes in seeking new opportunities. Having exposure in Android App development and content writing. She's currently working with us as a Business Developer to help CB achieve new heights."
     },
     {
       "name": "KP Kushal",
       "role": "Motion Designer",
       "imgSrc": "/assets/images/cb/team/kushal.png",
       "imgAlt": "KP Kushal",
-      "bio": "An awesome motion and graphic designer. He believes that less is more and likes to keep it animated."
+      "bio":
+        "An awesome motion and graphic designer. He believes that less is more and likes to keep it animated."
     },
     {
       "name": "Rishabh Nigam",
       "role": "Sales executive",
       "imgSrc": "/assets/images/cb/team/rishabhn.png",
       "imgAlt": "Rishabh Nigam",
-      "bio": "A Journalism graduate, he's contributed articles in various media portals (national issues, feature writing and sports). With more than 3 years of experience in sales, he now handles sales of online vertical of Coding Blocks."
+      "bio":
+        "A Journalism graduate, he's contributed articles in various media portals (national issues, feature writing and sports). With more than 3 years of experience in sales, he now handles sales of online vertical of Coding Blocks."
     },
     {
       "name": "Vidushi Lohia",
       "role": "Sales executive",
       "imgSrc": "/assets/images/cb/team/vidushil.png",
       "imgAlt": "Vidushi Lohia",
-      "bio": "Having 6+ years of experience in guiding students into multiple domains. She's done her M.Com. and MBA in Marketing and Media. Other than shopping, she loves to interact with new people."
+      "bio":
+        "Having 6+ years of experience in guiding students into multiple domains. She's done her M.Com. and MBA in Marketing and Media. Other than shopping, she loves to interact with new people."
     },
     {
       "name": "Mansi Marwaha",
@@ -251,7 +282,11 @@
     },
     {
       "name": "Naman Kumar",
-      "imgSrc": "/assets/images/cb/team/Naman.jpg"
+      "role": "Mentor",
+      "imgSrc": "/assets/images/cb/team/namankumar.jpg",
+      "imgAlt": "Naman Kumar (hereisnaman)",
+      "bio":
+        "Naman is a growing software engineer and an indie maker who loves to ideate and build cool products. He has worked with various startups and large scale projects involving technologies like React, NodeJs, and Graphql. He likes to work in teams, build pixel perfect interfaces, and scalable services."
     }
   ]
 }
