@@ -1,0 +1,190 @@
+{
+    "id": "bootcamp_angular",
+    "name": "Angular Complete Course",
+    "title": "Angular Compelte Course | Coding Blocks India",
+    "metas": [
+      {
+        "name": "description",
+        "content":
+          "Update content"
+      },
+      {
+        "name": "keywords",
+        "content":
+          "angular,components,angular,web,webdev,development,nodejs,node,javascript,html,codingblocks,coding,blocks,course,delhi,india"
+      }
+    ],
+    "openGraph": {
+      "url": "https://codingblocks.com/bootcamps/angular.html",
+      "title": "Angular Complete Course",
+      "image":
+        "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14058603_1077770128976987_1865333049_n.jpg",
+      "description":
+        "Update description"
+    },
+    "header": {
+      "heading": "Angular Bootcamp",
+      "subHeading": "",
+      "breadcrumbs": [
+        {
+          "linkText": "Highlights",
+          "link": "#highlights"
+        },
+        {
+          "linkText": "Contents",
+          "link": "#contents"
+        },
+        {
+          "linkText": "FAQ",
+          "link": "#faq"
+        }
+      ],
+      "bgSrc": "/assets/images/cb/cover/angular.jpg"
+    },
+    "overview": {
+      "content":
+        "Update content"
+    },
+    "courseHighlights": [
+      {
+        "icon": "",
+        "title": "Module Architecture",
+        "content":
+          "Before learning the framework, it’s always suggested to get the whole picture out of it. Our course covers the understanding of the Angular Architecture to help you with the basics building blocks of Angular."
+      },
+      {
+        "icon": "",
+        "title": "Component Driven Architecture",
+        "content":
+          "Angular is a great example of component driven Architecture, this course will help you to grasp the basic knowledge of Component Architecture along with the understanding of Angular components in depth."
+      },
+      {
+        "icon": "",
+        "title": "Integrating Third Party API",
+        "content":
+          "Understanding Services and Observables will help you to integrate your applications with the third party apps in the most easiest and effective way. This course will help you in making Network Requests to a REST API and to represent real-time results in intuitive frontend design."
+      }
+    ],
+    "courseContents": [
+      {
+        "active": true,
+        "title": "Angular Basics",
+        "contentTitle": "Angular Basics",
+        "description": "Update description",
+        "lectures": "Lecture 1",
+        "points": [
+          "Typescript Basics",
+          "Angular vs AngularJS",
+          "Angular Architecture",
+          "Installations and Tooling",
+          "Creating your first Angular Application"
+        ]
+      },
+      {
+        "title": "Introduction to Components",
+        "contentTitle": "Introduction to Components",
+        "description": "Update description",
+        "lectures": "Lecture: 2",
+        "points": [
+          "Template Bindings",
+          "One way bindings using property and Event",
+          "Two way Data Binding",
+          "Interaction between the components"
+        ]
+      },
+      {
+        "title": "Components & Routing",
+        "contentTitle": "Components & Routing",
+        "description":
+          "Update description.",
+        "lectures": "Lecture 3",
+        "points": [
+          "Routing Basics",
+          "Child Routes and Parent Routes",
+          "Smart and Dumb Components"
+        ]
+      },
+      {
+        "title": "Directives and Pipes",
+        "contentTitle": "Directives and Pipes",
+        "description":
+          "Update description.",
+        "lectures": "Lecture 4",
+        "points": [
+          "Inbuilt Directives such as *ngIf, *ngFor",
+          "Attribute vs Structural Directives",
+          "Creating your own Directive",
+          "Introduction to Pipes"
+        ]
+      },
+      {
+        "title": "Understanding Forms",
+        "contentTitle": "Understanding Forms",
+        "description":
+          "Update description",
+        "lectures": "Lecture 5",
+        "points": [
+          "Template Driven Forms, Input and Validation",
+          "ngForm and ngModel",
+          "Binding to Radio Buttons and Checkboxes",
+          "ngSubmit and Error states"
+        ]
+      },
+      {
+        "title": "Services and HTTP",
+        "contentTitle": "Services and HTTP",
+        "lectures": "Lecture 6",
+        "description":
+          "Update description",
+        "points": [
+          "Dependency Injection and understanding @Injectable",
+          "Understanding Observables",
+          "Using a REST API"
+        ]
+      }
+    ],
+    "courseEnroll": {
+      "upcomingBatches": "Upcoming Batches:",
+      "registerButton": {
+        "buttonText": "Register Now"
+      },
+      "priceCut": "6,999",
+      "price": "5,999",
+      "lectures": "(6 lectures)",
+      "highlights": [
+        {
+          "icon": "et-line-search",
+          "content": "Online code Submission &amp; Evaluation"
+        },
+        {
+          "icon": "pe-7s-cup",
+          "content": "2 Hacakthons"
+        }
+      ]
+    },
+    "mentors": {
+      "heading": "Mentors",
+      "noHeading": true,
+      "content": "",
+      "flip": true,
+      "companies": false,
+      "contentCenter": true,
+      "teamMembers": ["Aayush Arora"]
+    },
+    "courseReviews": [
+      "RISHABH MENDIRATTA",
+      "SHIVAM GANDHI",
+      "SANDEEP RANJAN",
+      "RISHABH KHANNA"
+    ],
+    "schedule": [
+      {
+        "center": "Dwarka",
+        "startdate": "Jan 20",
+        "daytime": "Sat, Sun",
+        "batchtype": "TBA"
+      }
+    ],
+    "reviewSlug": "Web Development Course"
+  }
+  
