@@ -10,12 +10,12 @@
 	  {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
-		  "heading": "CAST Results Are Out!",
-		  "content": "Get upto 95% off on our all online/offline courses.",
+		  "heading": "APAT for Development Courses is Back!",
+		  "content": "Get upto 95% off on our Advanced Courses.",
 		  "button": [
 			  {
 				  "link": "/scholarship-tests.html",
-				  "text": "View Details",
+				  "text": "Register Now",
 				  "filled": "true"
 			  }
 		  ]
