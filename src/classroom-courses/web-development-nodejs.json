@@ -187,11 +187,11 @@
     "SANDEEP RANJAN"
   ],
   "schedule": [
-	  {
+    {
 		  "center": "Pitampura",
-		  "startdate": "Dec 15",
-		  "enddate": "Feb 09",
-		  "daytime": "Sat, Sun, Tue (03:00 PM - 06:30 PM)",
+		  "startdate": "Jan 20",
+		  "enddate": "Apr 07",
+		  "daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
 		  "batchtype": "Evening"
 	  },
 	  {
@@ -216,8 +216,8 @@
   "registerLinkDehradunWD": "https://students.codingblocks.com/payment/iframe?item_id=169",
   "frame-id-dehradun-wd": "169",
 
-	"registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=231",
-	"frame-id-pitampura-wd": "231",
+	"registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=263",
+	"frame-id-pitampura-wd": "263",
 
 	"registerLinkDwarkaWD": "https://students.codingblocks.com/payment/iframe?item_id=230",
 	"frame-id-dwarka-wd": "230",
