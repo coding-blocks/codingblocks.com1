@@ -6,7 +6,7 @@
       {
         "name": "description",
         "content":
-          "Update content"
+          "The Angular course is designed to help students with the latest Angular changes along with the industrial needs. The course starts from the very basics of Angular and dives deep into the concepts of Components, Routing, Directives and Services. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to explore and learn other Frontend frameworks themselves along with building the effective Single Page Applications."
       },
       {
         "name": "keywords",
@@ -20,7 +20,7 @@
       "image":
         "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14058603_1077770128976987_1865333049_n.jpg",
       "description":
-        "Update description"
+        "The Angular course is designed to help students with the latest Angular changes along with the industrial needs. The course starts from the very basics of Angular and dives deep into the concepts of Components, Routing, Directives and Services. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to explore and learn other Frontend frameworks themselves along with building the effective Single Page Applications."
     },
     "header": {
       "heading": "Angular Bootcamp",
@@ -43,7 +43,7 @@
     },
     "overview": {
       "content":
-        "Update content"
+        "The Angular course is designed to help students with the latest Angular changes along with the industrial needs. The course starts from the very basics of Angular and dives deep into the concepts of Components, Routing, Directives and Services. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to explore and learn other Frontend frameworks themselves along with building the effective Single Page Applications."
     },
     "courseHighlights": [
       {
@@ -70,7 +70,7 @@
         "active": true,
         "title": "Angular Basics",
         "contentTitle": "Angular Basics",
-        "description": "Update description",
+        "description": "",
         "lectures": "Lecture 1",
         "points": [
           "Typescript Basics",
@@ -83,7 +83,7 @@
       {
         "title": "Introduction to Components",
         "contentTitle": "Introduction to Components",
-        "description": "Update description",
+        "description": "",
         "lectures": "Lecture: 2",
         "points": [
           "Template Bindings",
@@ -96,7 +96,7 @@
         "title": "Components & Routing",
         "contentTitle": "Components & Routing",
         "description":
-          "Update description.",
+          ".",
         "lectures": "Lecture 3",
         "points": [
           "Routing Basics",
@@ -108,7 +108,7 @@
         "title": "Directives and Pipes",
         "contentTitle": "Directives and Pipes",
         "description":
-          "Update description.",
+          ".",
         "lectures": "Lecture 4",
         "points": [
           "Inbuilt Directives such as *ngIf, *ngFor",
@@ -121,7 +121,7 @@
         "title": "Understanding Forms",
         "contentTitle": "Understanding Forms",
         "description":
-          "Update description",
+          "",
         "lectures": "Lecture 5",
         "points": [
           "Template Driven Forms, Input and Validation",
@@ -135,7 +135,7 @@
         "contentTitle": "Services and HTTP",
         "lectures": "Lecture 6",
         "description":
-          "Update description",
+          "",
         "points": [
           "Dependency Injection and understanding @Injectable",
           "Understanding Observables",
@@ -182,7 +182,7 @@
         "center": "Dwarka",
         "startdate": "Jan 20",
         "daytime": "Sat, Sun",
-        "batchtype": "TBA"
+        "batchtype": "Weekend"
       }
     ],
     "reviewSlug": "Web Development Course"
