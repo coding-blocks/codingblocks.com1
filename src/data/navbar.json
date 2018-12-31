@@ -146,6 +146,10 @@
           "link": "#",
           "sublinks": [
 			{
+			  "title": "ReactJS",
+			  "link": "/bootcamps/react.html"
+			},
+			{
 			  "title": "Interview Preparation",
 			  "link": "/bootcamps/coding-interview-preparation.html"
 			},

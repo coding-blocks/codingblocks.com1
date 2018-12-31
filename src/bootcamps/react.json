@@ -1,0 +1,237 @@
+{
+  "id": "bootcamp_react",
+  "name": "React Complete Course",
+  "title": "Advanced React and Redux Compelte Course | Coding Blocks India",
+  "metas": [
+    {
+      "name": "description",
+      "content":
+        "The advanced React and Redux complete course helps you become an industry ready React developer. Learn how to build scalabe and performant React applications from scratch."
+    },
+    {
+      "name": "keywords",
+      "content":
+        "react,redux,react router,web,webdev,development,nodejs,node,javascript,html,codingblocks,coding,blocks,course,delhi,india"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/bootcamps/react.html",
+    "title": "Advanced React and Redux Complete Course",
+    "image":
+      "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14058603_1077770128976987_1865333049_n.jpg",
+    "description":
+      "The advanced React and Redux complete course helps you become an industry ready React developer. Learn how to build scalabe and performant React applications from scratch."
+  },
+  "header": {
+    "heading": "Advanced React and Redux Bootcamp",
+    "subHeading": "",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "/assets/images/cb/cover/cover_react.jpg"
+  },
+  "overview": {
+    "content":
+      "React is one of the fastest growing and most used web framework in the industry, developed and maintained by Facebook and a community of developers. The top tech companies including AirBnb, Netflix, Twitter, Uber, and Reddit are using React.<br/><br/> The advanced react and redux course is designed to help you learn how to build scalable and performant React applications for scratch. Through this course, students will be made well aware of the industry standards and the best practices for building web applications.<br/><br/> Our course is a project based react and redux course. The course will start with learning the fundamentals of web development & Javascript and how different frontend web frameworks work. Students will then learn fundamentals of React, application state management with Redux, and routing with React Router, while building many projects."
+  },
+  "courseHighlights": [
+    {
+      "icon": "",
+      "title": "Javascript Fundamentals",
+      "content":
+        "A good React developer must have a strong hand on Javascript. This couse makes it sure that you gain all the required knowledge and skills. It covers the fundamentals and advanced concepts of Javascript including ES6 and ES7 features."
+    },
+    {
+      "icon": "",
+      "title": "Advanced React Concepts",
+      "content":
+        "You will learn all the concepts and features of React in-depth. During the course you will build many components in React while learning different design patterns and React APIs."
+    },
+    {
+      "icon": "",
+      "title": "Redux State Management",
+      "content":
+        "Redux is a library for state management. Our course includes application and fundamentals of Redux and React Router for routing in React applications. You will also learn how to create Redux middlewares like logger."
+    },
+    {
+      "icon": "",
+      "title": "Code Spliting & Webpack",
+      "content":
+        "You'll learn how to implement Code Splitting in React & setting up Webpack project from scratch. The course also includes the latest features of React including Suspense & lazy, Hooks, and Memo."
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Javascript Fundamentals",
+      "contentTitle": "Javascript Fundamentals",
+      "description":
+        "Before we start with developing React Application, we will learn all the fundamental concepts  and features of Javascript including: ",
+      "lectures": "Lecture 1",
+      "points": [
+        "Scope",
+        "Closures",
+        "Hoisting",
+        "Classes, Constructors, Prototypes",
+        "Arrays, Strings functions"
+      ]
+    },
+    {
+      "title": "How the Web Frameworks Works",
+      "contentTitle": "How the Web Frameworks Works",
+      "description":
+        "Having the in-depth understanding of Javascript we will learn for different frontend web frameworks work. We will also cover the latest ES6 & ES7 features of Javascript in this lecture.",
+      "lectures": "Lecture: 2",
+      "points": [
+        "Event Loops, Promises",
+        "Object, Array destruct and rest operator",
+        "Fat-arrow functions, this, call, apply, bind",
+        "Template Literatls, Default Params",
+        "DOM manipulation",
+        "Virtual DOM",
+        "Webpack Project setup from scratch"
+      ]
+    },
+    {
+      "title": "Introduction to React",
+      "contentTitle": "Introduction to React",
+      "description":
+        "Now we will start learning how React works. This lecture will include fundamentals of React.",
+      "lectures": "Lecture 3",
+      "points": [
+        "Introduction to ES6 modules",
+        "Components and elements in React",
+        "Component Lifecycle",
+        "Introduction to JSX",
+        "Functional components",
+        "Component state management"
+      ]
+    },
+    {
+      "title": "React Fundamentals 2",
+      "contentTitle": "React Fundamentals 2",
+      "description":
+        "In this lecture we will cover more React concepts and features.",
+      "lectures": "Lecture 4",
+      "points": [
+        "Error Boundaries",
+        "Fragments",
+        "Refs",
+        "Handling events & building forms",
+        "Pure class components & React.Memo (new)",
+        "React Context API",
+        "Typechecking With PropTypes"
+      ]
+    },
+    {
+      "title": "State Management with Redux",
+      "contentTitle": "State Management with Redux",
+      "description":
+        "Building upon the React context API is previous lecture we will learn how to use Redux to implement application level state management. We will also learn the principles of Flux pattern.",
+      "lectures": "Lecture 5",
+      "points": [
+        "Redux fundamentals",
+        "Combined reducers",
+        "Creating Redux middlewares like logger and state persistance",
+        "Async actions with Redux thunk middlewares",
+        "Building forms with Redux forms"
+      ]
+    },
+    {
+      "title": "Routing & Code Splitting",
+      "contentTitle": "Routing & Code Splitting",
+      "lectures": "Lecture 6",
+      "description":
+        "Finally we will learn how to implement routing using React Router & code splitting in React.",
+      "points": [
+        "React Router V4",
+        "Code Splitting with Webpack",
+        "Code Splitting with React Loadable",
+        "Code Splitting with suspense & lazy (new)",
+        "Precache & Preload concepts",
+        "Hooks in React (new)"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "What are the pre-requisites?",
+      "ans":
+        "Familarity with basic web technologies including HTML and CSS is must. Experience of basic Javascript is recommended."
+    },
+    {
+      "ques":
+        "How much knowledge of Data Structures and Algorithms do I need to take this course?",
+      "ans":
+        "You need to have good command of data structures like Stacks, Queues and Lists. Also a basic idea of algorithms like sorting, searching, string manupulations. Also it is imperative to have good concepts of Object Oriented Programming"
+    },
+    {
+      "ques": "I have to idea of Javascript, can I join?",
+      "ans":
+        "This is not a problem if the aforementioned concepts are clear and you have coded in some language like C++ before. We will cover concepts of Javascript in the first 2 classes."
+    },
+    {
+      "ques": "Will there by any projects?",
+      "ans":
+        "Definitely. No course in web development is complete without projects, and we focus a lot on working on live projects and practical topics. We start with small projects like TodoList Managers and go up to creating e-Commerce websites."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "Upcoming Batches:",
+    "registerButton": {
+      "buttonText": "Register Now"
+    },
+    "priceCut": "6,999",
+    "price": "5,999",
+    "lectures": "(6 lectures)",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "2 Hacakthons"
+      }
+    ]
+  },
+  "mentors": {
+    "heading": "Mentors",
+    "noHeading": true,
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": ["Naman Kumar"]
+  },
+  "courseReviews": [
+    "RISHABH MENDIRATTA",
+    "SHIVAM GANDHI",
+    "SANDEEP RANJAN",
+    "RISHABH KHANNA"
+  ],
+  "schedule": [
+    {
+      "center": "Pitampura",
+      "startdate": "Jan 20",
+      "enddate": "Feb 16",
+      "daytime": "Sat, Sun",
+      "batchtype": "TBA"
+    }
+  ],
+  "reviewSlug": "Web Development Course",
+  "registerLinkPitampura":
+    "https://students.codingblocks.com/payment/iframe?item_id=260",
+  "frame-id-pitampura": "260"
+}
