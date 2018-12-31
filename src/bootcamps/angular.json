@@ -39,7 +39,7 @@
           "link": "#faq"
         }
       ],
-      "bgSrc": "/assets/images/cb/cover/angular.jpg"
+      "bgSrc": "/assets/images/cb/cover/cover3.jpg"
     },
     "overview": {
       "content":
@@ -63,6 +63,11 @@
         "title": "Integrating Third Party API",
         "content":
           "Understanding Services and Observables will help you to integrate your applications with the third party apps in the most easiest and effective way. This course will help you in making Network Requests to a REST API and to represent real-time results in intuitive frontend design."
+      },
+      {
+        "icon": "",
+        "title": "Understanding Routing and Navigation in Angular",
+        "content": "You'll also get hands on experience on how routing and navigation works in Angular. Even if you don't have experience with any other frontend frameworks, you'll be able to pickup an important part of web development quickly."
       }
     ],
     "courseContents": [
@@ -96,7 +101,7 @@
         "title": "Components & Routing",
         "contentTitle": "Components & Routing",
         "description":
-          ".",
+          "",
         "lectures": "Lecture 3",
         "points": [
           "Routing Basics",
@@ -108,7 +113,7 @@
         "title": "Directives and Pipes",
         "contentTitle": "Directives and Pipes",
         "description":
-          ".",
+          "",
         "lectures": "Lecture 4",
         "points": [
           "Inbuilt Directives such as *ngIf, *ngFor",
@@ -185,6 +190,8 @@
         "batchtype": "Weekend"
       }
     ],
-    "reviewSlug": "Web Development Course"
+    "reviewSlug": "Web Development Course",
+    "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=261",
+    "frame-id-pitampura": "261"
   }
   
