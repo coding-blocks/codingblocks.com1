@@ -34,19 +34,6 @@
 		  ]
 	  },
 	  {
-		  "imgSrc": "/assets/images/cb/cover/billy-huynh-278252.jpg",
-		  "imgAlt": "",
-		  "heading": "Game dev bootcamp (NOIDA)",
-		  "content": "Learn To Build Exciting Web Games",
-		  "button": [
-			  {
-				  "link": "https://codingblocks.com/bootcamps/gamedev.html",
-				  "text": "Explore",
-				  "filled": "true"
-			  }
-		  ]
-	  },
-	  {
 		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
 		  "imgAlt": "",
 		  "heading": "Six months Industrial Training",
