@@ -1,0 +1,85 @@
+{
+    "id": "bootcamp10",
+    "name": "Open Source (Insights and Hacks)",
+    "title": "Open Source Bootcamp | Coding Blocks",
+    "metas": [
+      {
+        "name": "desciption",
+        "content": ""
+      }
+    ],
+    "header": {
+      "bgSrc": "../assets/images/cb/cover/cover_lanuchpad.jpg",
+      "heading": "Open Source (Insights and Hacks)",
+      "subHeading": "Get started with world of Open Source"
+    },
+    "overview": {
+      "content": "Coding Blocks brings to you an exciting two-days bootcamp where you will learn how to get involved in open source organizations and to make industry grade applications. It will be an extremely informative and interactive bootcamp and will help you to get up and running for working with open source organizations like RedHat, Linux, Fedora and more from the comfort of your dorm.",
+      "buttonText": "Get Tickets"
+    },
+    "mentors": {
+      "heading": "Mentors",
+      "content": "",
+      "flip": true,
+      "companies": false,
+      "contentCenter": true,
+      "teamMembers": [
+        "Anuj Garg"
+      ]
+    },
+  
+    "scheduleGame": [
+          {
+              "center": "Noida",
+              "startdate": "Jan 19",
+              "enddate": "Jan 20",
+              "daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
+              "batchtype": "Evening"
+          }
+  
+      ],
+    "courseHighlights": [
+      {
+        "icon": "et-line-edit",
+        "title": "Deep peek",
+        "content": "Open source with its pros and cons, with tips on how to approach open source organizations"
+      },
+      {
+        "icon": "pe-7s-download",
+        "title": "Issues Management",
+        "content": "Requesting, creating, getting assigned, closing issues on GitHub. Binding issue to pull request on GitHub"
+      },
+      {
+        "icon": "et-line-speedometer",
+        "title": "GitHub and Integrations",
+        "content": "Git command line instructions, GitHub pull requests, Circle CI integration"
+      },
+      {
+        "icon": "pe-7s-network",
+        "title": "Bonus Content",
+        "content": "Contributing with JBoss Community, Learn to hands on a GSoC idea by sampling on last 3 years JBoss Community GSoC Ideas."
+      }
+    ],
+    "faqs": [
+      {
+        "ques": "Who should do this bootcamp?",
+        "ans": "Whoever is interested with getting industry level software development expose and want to participate in open source events like GSoC, Outreachy and RGSoC"
+      },
+      {
+        "ques": "Will this bootcamp help if I already do development?",
+        "ans": "Yes, absolutely. There is a lot more to learn in the bootcamp. You will get familiar with development in team and manage issues and features more effectively."
+      },
+      {
+        "ques": "What are the pre-requisites for this bootcamp?",
+        "ans": "Any one who have some programming fundamentals or development skillset."
+      },
+      {
+        "ques": "Can I start my own open source project after bootcamp?",
+        "ans": "This course will help you become smarter in approaching open source projects, as well as about starting your own projects in OSS realm."
+      }
+    ],
+  
+        "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=270",
+        "frame-id-noida": "270"
+  }
+  

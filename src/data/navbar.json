@@ -172,6 +172,10 @@
 			{
 			  "title": "Game Development",
 			  "link": "/bootcamps/gamedev.html"
+			},
+			{
+			  "title": "Open Source",
+			  "link": "/bootcamps/opensource.html"
 			}
           ]
         }
