@@ -207,6 +207,13 @@
 		  "enddate": "Feb 02",
 		  "daytime": "Mon, Tue, Thu, Fri (03:00 PM - 06:30 PM)",
 		  "batchtype": "Evening"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "Jan 27",
+		  "enddate": "April 07",
+		  "daytime": "Sat, Sun (10:00 AM - 01:30 PM)",
+		  "batchtype": "Morning"
 	  }
   ],
   "reviewSlug": "Web Development Course",
@@ -222,6 +229,6 @@
 	"registerLinkDwarkaWD": "https://students.codingblocks.com/payment/iframe?item_id=230",
 	"frame-id-dwarka-wd": "230",
 
-	"registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=229",
-	"frame-id-noida-wd": "229"
+	"registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=274",
+	"frame-id-noida-wd": "274"
 }

@@ -164,6 +164,13 @@
 			"batchtype": "Morning"
 		},
 		{
+			"center": "Noida",
+			"startdate": "Jan 27",
+			"enddate": "April 20",
+			"daytime": "Sat, Sun (04:00 PM - 07:00 PM)",
+			"batchtype": "Evening"
+		},
+		{
 			"center": "Dehradun",
 			"startdate": "Dec 20",
 			"enddate": "TBD",
@@ -193,8 +200,8 @@
 	"registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=233",
 	"frame-id-dwarka-lp": "233",
 
-	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=232",
-	"frame-id-noida-lp": "232",
+	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=272",
+	"frame-id-noida-lp": "272",
 
 	"registerLinkPitampuraBasic": "https://students.codingblocks.com/payment/iframe?item_id=112",
 	"frame-id-delhi-basic": "112",
