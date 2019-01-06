@@ -46,7 +46,6 @@
 					<div class="course-tabs">
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation" class="wide-tab active" id="tab-delhi"><a href="#delhi" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Pitampura</a></li>
-							<li role="presentation" class="wide-tab" id="tab-noida"><a href="#noida" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida (Early bird discount)</a></li>
 							<!-- <li role="presentation" class="wide&#45;tab" id="tab&#45;dehradun"><a href="#dehradun" aria&#45;controls="profile" role="tab" data&#45;toggle="tab" aria&#45;expanded="false">Dehradun (50% inaugural discount)</a></li> -->
 							{{!-- <li role="presentation" class="wide-tab" id="tab-dwarka"><a href="#dwarka" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Dwarka</a></li> --}}
 						</ul>
@@ -54,11 +53,6 @@
 							<div role="tabpanel" class="tab-pane active" id="delhi">
 								<div class="container widget-container" data-widget-id="{{frame-id-pitampura-lp}}">
 									<iframe class="payment-widget" {{#if frame-id-pitampura-lp}}id="{{frame-id-pitampura-lp}}"{{/if}} frameborder="0" src="{{{registerLinkPitampuraLP}}}"></iframe>
-								</div>
-							</div>
-							<div role="tabpanel" class="tab-pane" id="noida">
-								<div class="container widget-container" data-widget-id="{{frame-id-noida-lp}}">
-									<iframe class="payment-widget" {{#if frame-id-noida-lp}}id="{{frame-id-noida-lp}}"{{/if}} frameborder="0" src="{{{registerLinkNoidaLP}}}"></iframe>
 								</div>
 							</div>
 							{{!-- <div role="tabpanel" class="tab-pane" id="dwarka">

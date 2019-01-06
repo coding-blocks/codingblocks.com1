@@ -172,25 +172,11 @@
   },
   "schedule": [
 	  {
-		  "center": "Pitampura",
-		  "startdate": "Dec 14",
-		  "enddate": "Jan 04",
-		  "daytime": "Fri, Sun, Mon, Wed (10:00 AM - 01:30 PM)",
-		  "batchtype": "Morning"
-	  },
-	  {
 		  "center": "Dwarka",
 		  "startdate": "Jan 05",
 		  "enddate": "Mar 03",
 		  "daytime": "Sat, Sun (10:00 AM - 01:30 PM)",
 		  "batchtype": "Morning"
-	  },
-	  {
-		  "center": "Noida",
-		  "startdate": "Dec 16",
-		  "enddate": "Jan 20",
-		  "daytime": "Tue, Thu (03:00 PM - 06:30 PM) | Sun (09:30 AM - 01:30 PM)",
-		  "batchtype": "Evening"
 	  },
 	  {
 		  "center": "Noida",

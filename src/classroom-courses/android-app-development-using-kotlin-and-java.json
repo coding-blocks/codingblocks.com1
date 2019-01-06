@@ -183,39 +183,20 @@
     "DHRUV ANAND"
   ],
   "schedule": [
-    {
+	  {
 		  "center": "Pitampura",
 		  "startdate": "Jan 20",
 		  "enddate": "Apr 7",
 		  "daytime": "Sun, Sat (10:00 AM - 01:30 PM)",
 		  "batchtype": "Morning"
-	  },
-	  {
-		  "center": "Noida",
-		  "startdate": "Dec 17",
-		  "enddate": "Feb 02",
-		  "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 06:30 PM)",
-		  "batchtype": "Evening"
-	  },
-    {
-      "center": "Dehradun",
-      "startdate": "Dec 20",
-      "enddate": "TBD",
-      "daytime": "TBD",
-      "batchtype": "TBD"
-    }
+	  }
   ],
   "reviewSlug": "Android App Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=114",
-  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=154",
   "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=206",
   "frame-id": "114",
-  "frame-id-noida": "154",
   "frame-id-dehradun": "206",
 
 	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=262",
-	"frame-id-pitampura-lp": "262",
-
-	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=249",
-	"frame-id-noida-lp": "249"
+	"frame-id-pitampura-lp": "262"
 }
