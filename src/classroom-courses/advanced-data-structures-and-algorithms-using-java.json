@@ -101,13 +101,6 @@
   },
   "schedule": [
     {
-      "center": "Pitampura",
-      "startdate": "Dec 25",
-      "enddate": "Jan 27",
-      "daytime": "Sat, Tue, Wed, Fri (03:00 PM - 06:30 PM)",
-      "batchtype": "Evening"
-    },
-    {
       "center": "Dwarka",
       "startdate": "Jan 05",
       "enddate": "Mar 03",
@@ -116,17 +109,10 @@
     },
     {
       "center": "Noida",
-      "startdate": "Dec 30",
-      "enddate": "Feb 16",
-      "daytime": "Sat, Sun (09:30 AM - 01:30 PM)",
-      "batchtype": "Morning"
-    },
-    {
-      "center": "Dehradun",
-      "startdate": "Dec 20",
-	  "enddate": "TBD",
-      "daytime": "TBD",
-      "batchtype": "TBD"
+      "startdate": "Feb 24",
+      "enddate": "April 20",
+      "daytime": "Sat, Sun (4:00-7:00 pm)",
+      "batchtype": "Evening"
     }
   ],
   "courseReviews": [
@@ -139,8 +125,8 @@
   "frame-id-pitampura": "241",
   "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=204",
   "frame-id-dehradun": "204",
-  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=246",
-  "frame-id-noida": "246",
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=277",
+  "frame-id-noida": "277",
   "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=245",
   "frame-id-dwarka-lp": "245"
 }

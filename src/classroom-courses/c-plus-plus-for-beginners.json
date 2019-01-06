@@ -100,31 +100,17 @@
 	"scheduleLaunchpad": [
 		{
 			"center": "Pitampura",
-			"startdate": "Dec 08",
-			"enddate": "Jan 27",
-			"daytime": "Sat, Mon, Wed, Fri (09:30 AM - 01:00 PM)",
-			"batchtype": "Morning"
-		},
-		{
-			"center": "Pitampura",
 			"startdate": "Dec 29",
 			"enddate": "Mar 10",
 			"daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
 			"batchtype": "Evening"
-    },
-    {
+		},
+		{
 			"center": "Pitampura",
 			"startdate": "Jan 27",
 			"enddate": "Apr 28",
 			"daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
 			"batchtype": "Evening"
-		},
-		{
-			"center": "Dwarka",
-			"startdate": "Dec 17",
-			"enddate": "Mar 03",
-			"daytime": "Mon, Wed, Fri (10:00 AM - 01:30 PM)",
-			"batchtype": "Morning"
 		},
 		{
 			"center": "Dwarka",
@@ -135,19 +121,11 @@
 		},
 		{
 			"center": "Noida",
-			"startdate": "Dec 16",
-			"enddate": "Feb 16",
-			"daytime": "Sat, Sun (03:00 PM - 07:00 PM) | Tue, Thu (09:30 AM - 01:30 PM)",
+			"startdate": "Jan 27",
+			"enddate": "April 07",
+			"daytime": "Sat, Sun (03:00 - 07:00 PM)",
 			"batchtype": "Evening"
-		},
-		{
-			"center": "Dehradun",
-			"startdate": "Dec 15",
-			"enddate": "Jan 29",
-			"daytime": "Tue, Thu, Sat & Sun (10:00 AM - 01:00 PM)",
-			"batchtype": "Morning"
 		}
-
 	],
   "courseReviews": [
     "NAVDEEP SINGH",
@@ -174,7 +152,7 @@
   "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=236",
   "frame-id-dwarka-lp": "236",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=235",
-  "frame-id-noida-lp": "235"
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=271",
+  "frame-id-noida-lp": "271"
 
 }

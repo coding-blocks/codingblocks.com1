@@ -170,16 +170,9 @@
   "schedule": [
     {
       "center": "Dwarka",
-      "startdate": "Dec 16",
-      "enddate": "Jan 05",
-      "daytime": "Tue, Thu, Sun (03:00 PM - 06:30 PM)",
-      "batchtype": "Evening"
-    },
-    {
-      "center": "Dehradun",
-      "startdate": "Dec 15",
-      "enddate": "Jan 05",
-      "daytime": "Tue, Thu, Sat & Sun (02:00 PM - 05:00 PM)",
+      "startdate": "Feb 03",
+      "enddate": "Mar 30",
+      "daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
       "batchtype": "Evening"
     }
   ],

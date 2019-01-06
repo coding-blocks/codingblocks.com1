@@ -130,13 +130,6 @@
 	"scheduleCrux": [
 		{
 			"center": "Pitampura",
-			"startdate": "Dec 08",
-			"enddate": "Jan 27",
-			"daytime": "Sat, Tue, Wed, Fri (03:00 PM - 07:00 PM)",
-			"batchtype": "Evening"
-		},
-		{
-			"center": "Pitampura",
 			"startdate": "Dec 29",
 			"enddate": "Mar 10",
 			"daytime": "Sat, Sun, Tue (09:30 AM- 01:00 PM)",
@@ -151,24 +144,17 @@
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "Dec 15",
-			"enddate": "Mar 03",
-			"daytime": "Tue, Thu, Sat (03:00 PM - 07:00 PM)",
-			"batchtype": "Evening"
+			"startdate": "Starting Soon",
+			"enddate": "TBA",
+			"daytime": "",
+			"batchtype": ""
 		},
 		{
 			"center": "Noida",
-			"startdate": "Dec 16",
-			"enddate": "Feb 16",
-			"daytime": "Sun, Tue, Thu, Sat (09:30 AM - 01:30 PM)",
-			"batchtype": "Morning"
-		},
-		{
-			"center": "Dehradun",
-			"startdate": "Dec 20",
-			"enddate": "TBD",
-			"daytime": "TBD",
-			"batchtype": "TBD"
+			"startdate": "Jan 27",
+			"enddate": "April 20",
+			"daytime": "Sat, Sun (04:00 PM - 07:00 PM)",
+			"batchtype": "Evening"
 		}
 	],
 	"courseReviews": [
@@ -193,8 +179,8 @@
 	"registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=233",
 	"frame-id-dwarka-lp": "233",
 
-	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=232",
-	"frame-id-noida-lp": "232",
+	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=272",
+	"frame-id-noida-lp": "272",
 
 	"registerLinkPitampuraBasic": "https://students.codingblocks.com/payment/iframe?item_id=112",
 	"frame-id-delhi-basic": "112",
