@@ -170,8 +170,8 @@
   "schedule": [
     {
       "center": "Dwarka",
-      "startdate": "Feb 03",
-      "enddate": "Mar 30",
+      "startdate": "Feb 24",
+      "enddate": "Apr 04",
       "daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
       "batchtype": "Evening"
     }
@@ -181,6 +181,6 @@
   "frame-id-dehradun": "256",
   "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=198",
   "frame-id-pitampura": "198",
-  "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=242",
-  "frame-id-dwarka": "242"
+  "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=279",
+  "frame-id-dwarka": "279"
 }
