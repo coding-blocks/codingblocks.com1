@@ -7,6 +7,32 @@
     }
   ],
   "slides": [
+  	  {
+		  "imgSrc": "/assets/images/cb/cover/angularad.jpg",
+		  "imgAlt": "",
+		  "heading": "Angular BOOTCAMP",
+		  "content": "Learn to build the effective Single Page Applications",
+		  "button": [
+			  {
+				  "link": "/bootcamps/angular.html",
+				  "text": "Register Now",
+				  "filled": "true"
+			  }
+		  ]
+	  },
+	  {
+		  "imgSrc": "/assets/images/cb/cover/reactad.jpg",
+		  "imgAlt": "",
+		  "heading": "React BOOTCAMP",
+		  "content": "Learn how to build production ready, scalable, and performant React applications from scratch!",
+		  "button": [
+			  {
+				  "link": "/bootcamps/react.html",
+				  "text": "Register Now",
+				  "filled": "true"
+			  }
+		  ]
+	  },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
