@@ -94,23 +94,11 @@
       "odd": true
     },
     {
-      "id": "bootcamp07"
+      "id": "bootcamp06"
     },
-    {
-      "id": "bootcamp05",
-      "odd": true
-    }
-  ],
-  "coursesRow7": [
     {
       "id": "bootcamp08",
       "odd": true
-    },
-    {
-      "id": "bootcamp09"
-    },
-    {
-      "id": "bootcamp04"
     }
   ],
   "courseReviews": [
