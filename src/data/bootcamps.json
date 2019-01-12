@@ -53,16 +53,14 @@
     {
       "id": "bootcamp06",
       "name": "ReactJS<br/>Bootcamp",
-      "price": "5,000",
+      "price": "5,799",
       "imgSrc": "/assets/images/cb/logosc/color_react.svg",
       "imgAlt": "react js Bootcamp logo",
-      "lectures": "(8 lectures)",
-      "link": "/coming-soon.html",
-      "linkText": "See Details",
+      "lectures": "",
+      "link": "/bootcamps/react.html",
+      "linkText": "Register Now",
       "description": [
-        "Getting Started",
-        "Hands on with React",
-        "Projects"
+        "Hands on with React"
       ]
     },
     {
@@ -80,15 +78,15 @@
     },
     {
       "id": "bootcamp08",
-      "name": "AngularJS",
-      "price": "",
+      "name": "Angular",
+      "price": "5,799",
       "imgSrc": "/assets/images/cb/logosc/angular.svg",
-      "imgAlt": "AngularJS logo",
+      "imgAlt": "Angular logo",
       "lectures": "",
-      "link": "/coming-soon.html",
-      "linkText": "Coming Soon",
+      "link": "/bootcamps/angular.html",
+      "linkText": "Register Now",
       "description": [
-        "Frontend Dev with AngularJs"
+        "Frontend Dev with Angular"
       ]
     },
     {

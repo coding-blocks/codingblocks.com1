@@ -45,16 +45,21 @@
 				  "filled": "true"
 			  }
 		  ]
-	  },
-	  {
-		  "imgSrc": "/assets/images/cb/cover/code4kids.jpg",
+    },
+    {
+		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
-		  "heading": "Code4Kids Winter Bootcamp",
-		  "content": "Learn To Build A Web Game In 6 Days!",
+		  "heading": "React and Angular Bootcamps are here !",
+		  "content": "Get hands on experience on latest web dev technologies !",
 		  "button": [
 			  {
-				  "link": "/classroom-courses/code4kids.html",
-				  "text": "Register Now!",
+				  "link": "/bootcamps/react.html",
+				  "text": "Register for React",
+				  "filled": "true"
+        },
+        {
+				  "link": "/bootcamps/angular.html",
+				  "text": "Register for Angular",
 				  "filled": "true"
 			  }
 		  ]
