@@ -224,10 +224,10 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "Jan 20",
-      "enddate": "Feb 16",
-      "daytime": "Sat, Sun",
-      "batchtype": "TBA"
+      "startdate": "Feb 10",
+      "enddate": "Mar 02",
+      "daytime": "Sat, Sun (04:00 PM - 07:30 PM)",
+      "batchtype": "Weekend"
     }
   ],
   "reviewSlug": "Web Development Course",
