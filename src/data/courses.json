@@ -666,7 +666,26 @@
         "Full span Industrial Training"
       ],
       "batches": [
-      ]
+      ],
+      {
+      "id": "course20",
+      "rating": "4.8",
+      "ratingCount": "471",
+      "name": "Deep Learning",
+      "slashed-price": "20,000",
+      "price": "22,000",
+      "priceint": "22000",
+      "off-price": "",
+      "imgSrc": "/assets/images/cb/r_final.png",
+      "imgAlt": "Deep Learning Logo",
+      "badge": "Starting Jan",
+      "lectures": "",
+      "link": "/online-courses/coding-interview-preparation-online-bootcamp.html",
+      "description": [
+        "Ace that Technical Interview"
+      ],
+      "online-link": "https://online.codingblocks.com/courses/coding-interview-preparation-online"
+    }
     }
   ]
 }
