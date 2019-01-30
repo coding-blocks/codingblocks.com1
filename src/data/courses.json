@@ -667,6 +667,38 @@
       ],
       "batches": [
       ]
+    },
+    {
+      "id": "course41",
+      "rating": "4.6",
+      "ratingCount": "421",
+      "name": "Industrial training in Python",
+      "price": "6,500",
+      "priceint": "6500",
+      "imgSrc": "/assets/images/cb/logosc/color_python.svg",
+      "imgAlt": "Industrial training in python",
+      "lectures": "(12 lectures)",
+      "link": "/classroom-courses/industrial-training-python.html",
+      "badge": "Starting Feb",
+      "description": [
+        "Programming Fundamentals in Python"
+      ]
+    },
+    {
+      "id": "course42",
+      "rating": "4.7",
+      "ratingCount": "416",
+      "name": "Industrial training in C++",
+      "price": "6,500",
+      "priceint": "6500",
+      "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+      "imgAlt": "Industrial training in python",
+      "lectures": "(12 lectures)",
+      "link": "/classroom-courses/industrial-training-python.html",
+      "badge": "Starting Feb",
+      "description": [
+        "Programming Fundamentals in Python"
+      ]
     }
   ]
 }
