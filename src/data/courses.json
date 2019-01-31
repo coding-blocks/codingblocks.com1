@@ -11,7 +11,7 @@
       "imgAlt": "C++ course logo",
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
-      "off-price": "4,250",
+      "off-price": "3,000",
       "badge": "Starting Jan",
       "description": [
         "C++ Complete Course",
@@ -34,7 +34,7 @@
       "imgAlt": "java course logo",
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
-      "off-price": "4,250",
+      "off-price": "3,000",
       "badge": "Starting Jan",
       "description": [
         "Java Complete Course",
@@ -678,7 +678,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "Industrial training in python",
       "lectures": "(12 lectures)",
-      "link": "/classroom-courses/industrial-training-python.html",
+      "link": "/classroom-courses/industrial-training-in-python.html",
       "badge": "Starting Feb",
       "description": [
         "Programming Fundamentals in Python"
@@ -688,16 +688,16 @@
       "id": "course42",
       "rating": "4.7",
       "ratingCount": "416",
-      "name": "Industrial training in C++",
+      "name": "Industrial training in C/C++",
       "price": "6,500",
       "priceint": "6500",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
-      "imgAlt": "Industrial training in python",
+      "imgAlt": "Industrial training in C/C++",
       "lectures": "(12 lectures)",
-      "link": "/classroom-courses/industrial-training-python.html",
+      "link": "/classroom-courses/industrial-training-in-c-plus-plus.html",
       "badge": "Starting Feb",
       "description": [
-        "Programming Fundamentals in Python"
+        "Programming Fundamentals in C/C++"
       ]
     }
   ]
