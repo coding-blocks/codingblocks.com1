@@ -173,10 +173,10 @@
   "schedule": [
 	  {
 		  "center": "Dwarka",
-		  "startdate": "Jan 05",
-		  "enddate": "Mar 03",
-		  "daytime": "Sat, Sun (10:00 AM - 01:30 PM)",
-		  "batchtype": "Morning"
+		  "startdate": "Feb 17",
+		  "enddate": "Apr 30",
+		  "daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
+		  "batchtype": "Evening"
 	  },
 	  {
 		  "center": "Noida",
@@ -186,11 +186,18 @@
 		  "batchtype": "Evening"
 	  },
 	  {
+		  "center": "Pitampura",
+		  "startdate": "Feb 24",
+		  "enddate": "April 30",
+		  "daytime": "Sat, Sun (09:30 AM - 01:30 PM)",
+		  "batchtype": "Evening"
+	  },
+	  {
 		  "center": "Dehradun",
-		  "startdate": "Jan 05",
-		  "enddate": "Jan 29",
-		  "daytime": "Tue, Thu, Sat & Sun (10:00 AM - 01:00 PM)",
-		  "batchtype": "Morning"
+		  "startdate": "TBD",
+		  "enddate": "TBD",
+		  "daytime": "",
+		  "batchtype": ""
 	  }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",
@@ -200,8 +207,8 @@
 	  "Dhruv Kulshreshtha",
 	  "Parth Dhamija"
   ],
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=240",
-  "frame-id-pitampura-lp": "240",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=282",
+  "frame-id-pitampura-lp": "282",
 
   "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=276",
   "frame-id-noida-lp": "276",
@@ -209,6 +216,6 @@
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=255",
   "frame-id-dehradun-lp": "255",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=243",
-  "frame-id-dwarka-lp": "243"
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=283",
+  "frame-id-dwarka-lp": "283"
 }

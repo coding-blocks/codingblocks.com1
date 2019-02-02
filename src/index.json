@@ -8,14 +8,14 @@
   ],
   "slides": [
 	  {
-		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+		  "imgSrc": "/assets/images/cb/cover/reactad.jpg",
 		  "imgAlt": "",
-		  "heading": "Results for APAT (January 2019) declared!",
-		  "content": "Get upto 75% off on our Advanced Courses",
+		  "heading": "React BOOTCAMP",
+		  "content": "Learn how to build production ready, scalable, and performant React applications from scratch!",
 		  "button": [
 			  {
-				  "link": "/scholarship-tests.html",
-				  "text": "View Details",
+				  "link": "/bootcamps/react.html",
+				  "text": "Register Now",
 				  "filled": "true"
 			  }
 		  ]
@@ -33,32 +33,6 @@
 			  }
 		  ]
 	  },
-	  {
-		  "imgSrc": "/assets/images/cb/cover/reactad.jpg",
-		  "imgAlt": "",
-		  "heading": "React BOOTCAMP",
-		  "content": "Learn how to build production ready, scalable, and performant React applications from scratch!",
-		  "button": [
-			  {
-				  "link": "/bootcamps/react.html",
-				  "text": "Register Now",
-				  "filled": "true"
-			  }
-		  ]
-	  },
-	  {
-		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
-		  "imgAlt": "",
-		  "heading": "Scholarship Tests for Development Courses are Back!",
-		  "content": "Get upto 75% off on our Beginners/Advanced Courses.",
-		  "button": [
-			  {
-				  "link": "/scholarship-tests.html",
-				  "text": "Register Now",
-				  "filled": "true"
-			  }
-		  ]
-    },
     {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
