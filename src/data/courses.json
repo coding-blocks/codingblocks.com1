@@ -524,7 +524,7 @@
       "priceint": "8000",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "Python for Developers Logo",
-      "lectures": "(11 lectures)",
+      "lectures": "(10 lectures)",
       "link": "/classroom-courses/python-for-beginners.html",
       "badge": "Starting Feb",
       "description": [
@@ -617,9 +617,9 @@
       "priceint": "12000",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "Python app development course logo",
-      "lectures": "(15 lectures)",
+      "lectures": "(12 lectures)",
       "link": "/classroom-courses/python-app-dev.html",
-      "badge": "Starting Feb",
+      "badge": "Starting Mar",
       "description": [
         "Python fundamentals",
         "Web scrapping",
