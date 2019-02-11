@@ -7,46 +7,20 @@
     }
   ],
   "slides": [
-	  {
-		  "imgSrc": "/assets/images/cb/cover/reactad.jpg",
-		  "imgAlt": "",
-		  "heading": "React BOOTCAMP",
-		  "content": "Learn how to build production ready, scalable, and performant React applications from scratch!",
-		  "button": [
-			  {
-				  "link": "/bootcamps/react.html",
-				  "text": "Register Now",
-				  "filled": "true"
-			  }
-		  ]
-	  },
-  	  {
-		  "imgSrc": "/assets/images/cb/cover/angularad.jpg",
-		  "imgAlt": "",
-		  "heading": "Angular BOOTCAMP",
-		  "content": "Learn to build the effective Single Page Applications",
-		  "button": [
-			  {
-				  "link": "/bootcamps/angular.html",
-				  "text": "Register Now",
-				  "filled": "true"
-			  }
-		  ]
-	  },
     {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
-		  "heading": "React and Angular Bootcamps are here !",
-		  "content": "Get hands on experience on latest web dev technologies !",
+		  "heading": "Python App Dev & DS-Algo Courses Are Here!",
+		  "content": "Get hands on experience on DS & Algorithms in C++ and Python!",
 		  "button": [
 			  {
-				  "link": "/bootcamps/react.html",
-				  "text": "Register for React",
+				  "link": "/classroom-courses/python-app-dev.html",
+				  "text": "Register For Python",
 				  "filled": "true"
         },
         {
-				  "link": "/bootcamps/angular.html",
-				  "text": "Register for Angular",
+				  "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
+				  "text": "Register For Algo++",
 				  "filled": "true"
 			  }
 		  ]
