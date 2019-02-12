@@ -88,41 +88,32 @@
       "Raj Kumar Saini"
     ]
   },
-	"scheduleCpp": [
-		{
-			"center": "Dehradun",
-			"startdate": "Aug 18",
-			"enddate": "Sep 15",
-			"daytime": "Sat, Sun (02:30 PM - 06:00 PM)",
-			"batchtype": "Evening"
-		}
-	],
 	"scheduleLaunchpad": [
 		{
 			"center": "Pitampura",
-			"startdate": "Dec 29",
-			"enddate": "Mar 10",
+			"startdate": "May 26",
+			"enddate": "First Week of July",
 			"daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
 			"batchtype": "Evening"
 		},
 		{
 			"center": "Pitampura",
-			"startdate": "Jan 27",
-			"enddate": "Apr 28",
+			"startdate": "Jun 10",
+			"enddate": "Fourth Week of July",
 			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
-			"batchtype": "Evening"
+			"batchtype": "Morning"
 		},
 		{
 			"center": "Dwarka",
-			"startdate": "Jan 20",
-			"enddate": "Apr 23",
+			"startdate": "Jun 10",
+			"enddate": "Fourth Week of July",
 			"daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
 			"batchtype": "Evening"
 		},
 		{
 			"center": "Noida",
-			"startdate": "Jan 27",
-			"enddate": "April 07",
+			"startdate": "Jun 10",
+			"enddate": "Fourth Week of July",
 			"daytime": "Sat, Sun (03:00 - 07:00 PM)",
 			"batchtype": "Evening"
 		}
@@ -134,25 +125,16 @@
     "DEEPAK KUMAR"
   ],
   
-  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=254",
-  "frame-id-dehradun": "254",
-
-  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=224",
-  "frame-id-pitampura": "224",
-
-  "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=269",
-  "frame-id-dwarka": "269",
-
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=253",
   "frame-id-dehradun-lp": "253",
 
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=265",
-  "frame-id-pitampura-lp": "265",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=285",
+  "frame-id-pitampura-lp": "285",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=236",
-  "frame-id-dwarka-lp": "236",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=286",
+  "frame-id-dwarka-lp": "286",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=271",
-  "frame-id-noida-lp": "271"
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=287",
+  "frame-id-noida-lp": "287"
 
 }
