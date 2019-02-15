@@ -113,6 +113,27 @@
       "enddate": "April 20",
       "daytime": "Sat, Sun (4:00-7:00 pm)",
       "batchtype": "Evening"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "Jun 30",
+      "enddate": "2nd Week of July",
+      "daytime": "TBD",
+      "batchtype": "Normal"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "Jun 30",
+      "enddate": "4th Week of July",
+      "daytime": "TBD",
+      "batchtype": "Normal"
+    },
+    {
+      "center": "Noida",
+      "startdate": "Jun 30",
+      "enddate": "4th Week of July",
+      "daytime": "TBD",
+      "batchtype": "Normal"
     }
   ],
   "courseReviews": [
@@ -121,8 +142,8 @@
     "GAGARIN DASH",
     "KSHITIJ BANSAL"
   ],
-  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=241",
-  "frame-id-pitampura": "241",
+  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=305",
+  "frame-id-pitampura": "305",
   "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=204",
   "frame-id-dehradun": "204",
   "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=277",

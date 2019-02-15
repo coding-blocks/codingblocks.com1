@@ -93,29 +93,29 @@
 			"center": "Pitampura",
 			"startdate": "May 26",
 			"enddate": "First Week of July",
-			"daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
-			"batchtype": "Evening"
+			"daytime": "TBD",
+			"batchtype": "Fast Track"
 		},
 		{
 			"center": "Pitampura",
 			"startdate": "Jun 10",
 			"enddate": "Fourth Week of July",
-			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
-			"batchtype": "Morning"
+			"daytime": "TBD",
+			"batchtype": "Normal"
 		},
 		{
 			"center": "Dwarka",
 			"startdate": "Jun 10",
 			"enddate": "Fourth Week of July",
-			"daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
-			"batchtype": "Evening"
+			"daytime": "TBD",
+			"batchtype": "Fast Track"
 		},
 		{
 			"center": "Noida",
 			"startdate": "Jun 10",
 			"enddate": "Fourth Week of July",
-			"daytime": "Sat, Sun (03:00 - 07:00 PM)",
-			"batchtype": "Evening"
+			"daytime": "TBD",
+			"batchtype": "Fast Track"
 		}
 	],
   "courseReviews": [

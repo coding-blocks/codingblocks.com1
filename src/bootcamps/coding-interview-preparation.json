@@ -17,7 +17,7 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "<strong>Upcoming Batches</strong><ul class=\"course-list\"><li>Regular batch at Pitampura starting June 9</li><li>Regular batch at Pitampura starting July 10</li></ul>",
-	"price": "6,000",
+	"price": "6,500",
     "priceCut": "",
     "highlights": [
       {
@@ -26,14 +26,34 @@
       }
     ]
   },
-  "schedule": [
-	  {
-		  "center": "Noida",
-		  "startdate": "Aug 21",
-      "enddate": "Nov 03",
-		  "daytime": "Tue,Thu,Fri (05:00 PM - 07:30 PM)",
-		  "batchtype": "Evening"
-	  }
+  "scheduleCpp": [
+    {
+      "center": "Pitampura",
+      "startdate": "Jun 14",
+      "enddate": "4th Week of July",
+      "daytime": "TBD",
+      "batchtype": "Normal"
+    }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=200"
+  "scheduleJava": [
+    {
+      "center": "Pitampura",
+      "startdate": "Jun 14",
+      "enddate": "4th Week of July",
+      "daytime": "TBD",
+      "batchtype": "Normal"
+    }
+  ],
+  "scheduleBootcamp": [
+    {
+      "center": "Pitampura",
+      "startdate": "Jun 14",
+      "enddate": "4th Week of July",
+      "daytime": "TBD",
+      "batchtype": "Normal"
+    }
+  ],
+  "widget-id-basic": 310,
+  "widget-id-cpp": 312,
+  "widget-id-java": 311
 }

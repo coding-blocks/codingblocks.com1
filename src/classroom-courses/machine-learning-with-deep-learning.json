@@ -177,21 +177,21 @@
 		  "center": "Pitampura",
 		  "startdate": "Jun 15",
 		  "enddate": "3rd Week of July",
-		  "daytime": "Sat, Sun (10:00 AM - 01:30 PM)",
+		  "daytime": "TBD",
 		  "batchtype": "Morning"
 	  },
 	  {
 		  "center": "Dwarka",
 		  "startdate": "Jun 15",
 		  "enddate": "3rd Week of July",
-		  "daytime": "Sat, Sun (10:00 AM - 01:30 PM)",
+		  "daytime": "TBD",
 		  "batchtype": "Morning"
 	  },
 	  {
 		  "center": "Noida",
 		  "startdate": "Jun 15",
 		  "enddate": "3rd Week of July",
-		  "daytime": "Sat, Sun (12:30 PM - 03:30 PM)",
+		  "daytime": "TBD",
 		  "batchtype": "Morning"
 	  }
   ],

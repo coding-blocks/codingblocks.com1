@@ -184,11 +184,18 @@
 		  "batchtype": "Evening"
     },
     {
+      "center": "Pitampura",
+      "startdate": "Jun 12",
+      "enddate": "1st Week of July",
+      "daytime": "TBD",
+      "batchtype": "Normal"
+    },
+    {
       "center": "Noida",
       "startdate": "Jun 14",
       "enddate": "2nd Week of July",
-      "daytime": "Sat, Sun (03:00 - 07:00 PM)",
-      "batchtype": "Evening"
+      "daytime": "TBD",
+      "batchtype": "Normal"
     }
   ],
   "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=264",

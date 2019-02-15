@@ -41,17 +41,44 @@
     "latitude": "28.5864285",
     "longitude": "77.0478732"
   },
-  "coursesSection": {
-    "coursesList": [
-      "course01",
-      "course02",
-      "course03",
-      "course04",
-      "course05",
-      "course40",
-      "course31"
-    ]
-  },
+  "coursesRow1": [
+    {
+      "id": "course08"
+    },
+    {
+      "id": "course10",
+      "odd": true
+    },
+    {
+      "id": "course01",
+      "combo": true
+    }
+  ],
+  "coursesRow2": [
+    {
+      "id": "course07",
+      "odd": true
+    },
+    {
+      "id": "course11"
+    },
+    {
+      "id": "course02",
+      "combo": true
+    }
+  ],
+  "coursesRow3": [
+    {
+      "id": "course25"
+    },
+    {
+      "id": "course04",
+      "odd": true
+    },
+    {
+      "id": "course06"
+    }
+  ],
   "teamCentre": {
     "heading": "team",
     "content": "",
@@ -74,7 +101,7 @@
       "RISHAB KAPOOR",
       "AAYUSH ARORA",
       "HARSHIT DWIVEDI",
-      "Deepak Aggarwal"
+      "Himank Bhalla"
     ]
   },
   "courseReviews": [

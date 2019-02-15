@@ -120,32 +120,27 @@
   ],
   "coursesRow3": [
     {
-      "id": "course25"
-    },
-    {
-      "id": "course30",
+      "id": "course25",
       "odd": true
     },
     {
-      "id": "course04"
+      "id": "course30"
+    },
+    {
+      "id": "course04",
+      "odd": true
     }
   ],
   "coursesRow4": [
     {
-      "id": "course03",
+      "id": "course03"
+    },
+    {
+      "id": "course06",
       "odd": true
     },
     {
-      "id": "course06"
-    },
-    {
-      "id": "course20",
-      "odd": true
-    }
-  ],
-  "coursesRow5": [
-    {
-      "id": "course14"
+      "id": "course20"
     }
   ],
   "cppInterviewRow": [
@@ -159,6 +154,18 @@
     {
       "id": "course21",
 	  "combo": true
+    }
+  ],
+  "interviewPrepRow": [
+    {
+      "id": "bootcamp02"
+    },
+    {
+      "id": "course21",
+      "odd": true
+    },
+    {
+      "id": "course22"
     }
   ],
   "javaInterviewRow": [
