@@ -290,7 +290,7 @@
       "imgAlt": "Interview Preparation Bootcamp logo",
       "badge": "Starting Jun",
       "lectures": "(10 lectures)",
-      "link": "/bootcamps/coding-interview-preparation.html",
+      "link": "/bootcamps/coding-interview-preparation.html#basic",
       "description": [
         "Non Coding Questions",
         "DBMS",
@@ -448,7 +448,7 @@
       "imgAlt": "Competitive Programming course logo",
       "badge": "Starting Jun",
       "lectures": "(25 lectures)",
-      "link": "/bootcamps/coding-interview-preparation.html",
+      "link": "/bootcamps/coding-interview-preparation.html#cpp-bundle",
       "description": [
 		  "Adv Interview Questions"
       ],

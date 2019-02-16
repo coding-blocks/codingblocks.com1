@@ -200,33 +200,6 @@
 								<section class="tabbed-enroll-section">
 									<div class="container">
 										<div class="row v-align-children">
-											<div class="col-sm-5"><h3>Come, Fall in <strong>Love</strong><br /> with <strong>Coding</strong></h3>
-												<p class="lead"></p>
-												<p>Upcoming Batches:</p>
-												<ul class="course-list">
-													<li>Regular batch at Pitampura starting June 9</li>
-													<li>Regular batch at Pitampura starting July 10</li>
-												</ul>
-												<p></p>
-												<div class="overflow-hidden mb32 mb-xs-24">
-													<div class="row">
-														<div class="col-sm-1"><i
-																class="icon pull-left et-line-search icon-sm"></i></div>
-														<div class="col-sm-11"><h6
-																class="uppercase mb0 inline-block p32">online code
-																submission &amp; evaluation</h6></div>
-													</div>
-												</div>
-												<div class="overflow-hidden mb32 mb-xs-24">
-													<div class="row">
-														<div class="col-sm-1"><i
-																class="icon pull-left pe-7s-cup icon-sm"></i></div>
-														<div class="col-sm-11"><h6
-																class="uppercase mb0 inline-block p32">special sessions
-																on competitive coding</h6></div>
-													</div>
-												</div>
-											</div>
 											<div class="col-md-4 col-sm-6">
 												<div class="pricing-table pt-1 text-center emphasis"><h5
 														class="uppercase">Regular Batch</h5><span
@@ -281,33 +254,6 @@
 								<section class="tabbed-enroll-section">
 									<div class="container">
 										<div class="row v-align-children">
-											<div class="col-sm-5"><h3>Come, Fall in <strong>Love</strong><br /> with <strong>Coding</strong></h3>
-												<p class="lead"></p>
-												<p>Upcoming Batches:</p>
-												<ul class="course-list">
-													<li>Regular batch at Pitampura starting June 9</li>
-													<li>Regular batch at Pitampura starting July 10</li>
-												</ul>
-												<p></p>
-												<div class="overflow-hidden mb32 mb-xs-24">
-													<div class="row">
-														<div class="col-sm-1"><i
-																class="icon pull-left et-line-search icon-sm"></i></div>
-														<div class="col-sm-11"><h6
-																class="uppercase mb0 inline-block p32">online code
-																submission &amp; evaluation</h6></div>
-													</div>
-												</div>
-												<div class="overflow-hidden mb32 mb-xs-24">
-													<div class="row">
-														<div class="col-sm-1"><i
-																class="icon pull-left pe-7s-cup icon-sm"></i></div>
-														<div class="col-sm-11"><h6
-																class="uppercase mb0 inline-block p32">special sessions
-																on competitive coding</h6></div>
-													</div>
-												</div>
-											</div>
 											<div class="col-md-4 col-sm-6">
 												<div class="pricing-table pt-1 text-center emphasis"><h5
 														class="uppercase">Regular Batch</h5><span
@@ -337,7 +283,6 @@
 				</div>
 			</div>
 		</div>
-
 	</section>
 
 	<section class="bg-secondary">
@@ -441,25 +386,24 @@
 {{> scripts}}
 <script>
     $(document).ready(function () {
-        var hash = window.location.hash;
+        const targetTabName = window.location.hash.slice (1);
+		const tabs = [
+			'#tab-basic',
+			'#basic',
+			'#tab-cpp-bundle',
+			'#cpp-bundle',
+			'#tab-java-bundle',
+			'#java-bundle'
+		].map (id => $(id))
 
-        if (hash === '#cpp-bundle') {
-            $('#tab-basic').removeClass ('active');
-            $('#basic').removeClass ('active');
-			$('#tab-cpp-bundle').addClass ('active');
-			$('#cpp-bundle').addClass ('active');
-			$('#tab-java-bundle').removeClass ('active');
-			$('#java-bundle').removeClass ('active');
-        }
+		if (! targetTabName) {
+			return;
+		}
 
-        if (hash === '#java-bundle') {
-            $('#tab-basic').removeClass ('active');
-            $('#basic').removeClass ('active');
-			$('#tab-java-bundle').addClass ('active');
-			$('#java-bundle').addClass ('active');
-			$('#tab-cpp-bundle').removeClass ('active');
-			$('#cpp-bundle').removeClass ('active');
-        }
+		tabs.map (tab => tab.removeClass ('active'))
+
+		$(`#${targetTabName}`).addClass ('active')
+		$(`#tab-${targetTabName}`).addClass ('active')
     })
 </script>
 </body>
