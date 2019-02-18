@@ -701,6 +701,63 @@
       "description": [
         "Programming Fundamentals in C/C++"
       ]
+    },
+    {
+      "id": "course43",
+      "rating": "4.7",
+      "ratingCount": "471",
+      "name": "Algo.Java Online",
+      "slashed-price": "9,999",
+      "price": "6,999",
+      "priceint": "6999",
+      "off-price": "",
+      "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+      "imgAlt": "Java Course",
+      "badge": "Starting Feb 10",
+      "lectures": "",
+      "link": "",
+      "description": [
+        "Advanced DS and Algo in Java"
+      ],
+      "online-link": "https://online.codingblocks.com/courses/data-structures-and-algorithms-online-course-java-algo"
+    },
+    {
+      "id": "course44",
+      "rating": "4.7",
+      "ratingCount": "481",
+      "name": "Complete Angular Course",
+      "slashed-price": "4,999",
+      "price": "1,999",
+      "priceint": "1999",
+      "off-price": "",
+      "imgSrc": "/assets/images/cb/logosc/angular.svg",
+      "imgAlt": "Angular Course",
+      "badge": "Starting Feb 10",
+      "lectures": "",
+      "link": "",
+      "description": [
+        "Web development with Angular"
+      ],
+      "online-link": "https://online.codingblocks.com/courses/angular-node-js"
+    },
+    {
+      "id": "course45",
+      "rating": "4.7",
+      "ratingCount": "491",
+      "name": "Deep learning Course",
+      "slashed-price": "4,999",
+      "price": "1,999",
+      "priceint": "1999",
+      "off-price": "",
+      "imgSrc": "/assets/images/cb/logosc/dlml.svg",
+      "imgAlt": "Deep Learning Course",
+      "badge": "Starting Feb 10",
+      "lectures": "",
+      "link": "",
+      "description": [
+        "Dive deep into neural networks."
+      ],
+      "online-link": "https://online.codingblocks.com/courses/deep-learning-neural-networks"
     }
   ]
 }
