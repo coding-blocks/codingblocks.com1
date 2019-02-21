@@ -4,19 +4,13 @@
   "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=313",
   "frame-id-dwarka": "313",
   "courseEnroll": {
-  "upcomingBatches": "New batch starting 16th March",
-	"priceCut": "6,999",
-	"price": "4,999",
-	"registerButton": {
-		"buttonText": "Register Now"
-	}
+    "upcomingBatches": "New batch starting 16th March",
+    "priceCut": "6,999",
+    "price": "4,999",
+    "registerButton": {
+      "buttonText": "Register Now"
+    }
   },
-  "courseReviews": [
-    "NAVDEEP SINGH",
-    "SHREYA GUPTA",
-    "ANIRUDH GUPTA",
-    "DEEPAK KUMAR"
-  ],
   "schedule": [
 	  {
 		  "center": "Dwarka",
@@ -25,5 +19,9 @@
 		  "daytime": "10:30 AM - 01:00 PM",
 		  "batchtype": "Morning"
 	  }
-  ]
+  ],
+  "sample": {
+    "heading": "What our students say ?",
+    "url": "https://www.youtube.com/embed/WhQuk_STPB8"
+  }
 }
