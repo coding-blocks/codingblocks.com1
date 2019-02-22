@@ -208,9 +208,9 @@
 	  },
 	  {
 		  "center": "Noida",
-		  "startdate": "Jun 30",
-		  "enddate": "4th Week of July",
-		  "daytime": "TBD",
+		  "startdate": "Jun 5",
+		  "enddate": "3rd Week of June",
+		  "daytime": "Mon, Wed, Fri, Sat (9.00 AM - 12.00 Noon)",
 		  "batchtype": "Normal"
 	  }
   ],
@@ -224,8 +224,8 @@
   "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=282",
   "frame-id-pitampura-lp": "282",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=276",
-  "frame-id-noida-lp": "276",
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=304",
+  "frame-id-noida-lp": "304",
 
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=255",
   "frame-id-dehradun-lp": "255",
