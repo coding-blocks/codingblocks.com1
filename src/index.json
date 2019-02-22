@@ -26,6 +26,19 @@
 		  ]
 	  },
 	  {
+		  "imgSrc": "/assets/images/cb/cover/code4kids.jpg",
+		  "imgAlt": "",
+		  "heading": "Code For Kids",
+		  "content": "Get an early start to programming!",
+		  "button": [
+			  {
+				  "link": "/classroom-courses/code4kids.html",
+				  "text": "Register Now!",
+				  "filled": "true"
+			  }
+		  ]
+	  },
+	  {
 		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
 		  "imgAlt": "",
 		  "heading": "Six months Industrial Training",
