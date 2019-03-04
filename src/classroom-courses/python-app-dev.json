@@ -162,6 +162,7 @@
     "contentCenter": true,
     "teamMembers": [
 		"Jatin Katyal",
+		"Himank Bhalla",
 		"Nikhil Singh"
     ]
   },
@@ -177,18 +178,18 @@
   },
   "schedule": [
     {
-		  "center": "Pitampura",
-		  "startdate": "Mar 03",
-		  "enddate": "Apr 07",
-		  "daytime": "Sun, Sat (03:30 PM - 07:00 PM)",
-		  "batchtype": "Evening"
-    },
-    {
       "center": "Pitampura",
       "startdate": "Jun 12",
       "enddate": "1st Week of July",
       "daytime": "TBD",
       "batchtype": "Normal"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "Mar 09",
+      "enddate": "Apr 14",
+      "daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
+      "batchtype": "Evening"
     },
     {
       "center": "Noida",
@@ -198,9 +199,8 @@
       "batchtype": "Normal"
     }
   ],
-  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=264",
-  "frame-id-pitampura": "264",
 
-  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=292",
-  "frame-id-noida": "292"
+  "frame-id-pitampura": "291",
+  "frame-id-noida": "292",
+  "frame-id-dwarka": "314"
 }

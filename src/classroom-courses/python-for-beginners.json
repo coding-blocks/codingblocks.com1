@@ -170,13 +170,6 @@
   "schedule": [
     {
       "center": "Dwarka",
-      "startdate": "Mar 09",
-      "enddate": "Apr 14",
-      "daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
-      "batchtype": "Evening"
-    },
-    {
-      "center": "Dwarka",
       "startdate": "Jun 14",
       "enddate": "2nd Week of July",
       "daytime": "TBD",

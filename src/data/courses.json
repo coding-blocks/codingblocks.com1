@@ -95,7 +95,7 @@
       "name": "Algo++",
       "price": "12,000",
       "priceint": "12000",
-      "badge": "Starting Feb",
+      "badge": "Starting Jun",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "algo++ course logo",
       "lectures": "(15 lectures)",
@@ -196,7 +196,7 @@
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
-      "badge": "Starting Feb",
+      "badge": "Starting Jun",
       "description": [
         "DS & Algorithms in C++"
       ],
@@ -214,7 +214,7 @@
       "imgAlt": "Data Structures and Algorithms Using Java",
       "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-using-java.html",
-      "badge": "Starting Feb",
+      "badge": "Starting Jun",
       "description": [
         "DS & Algorithms in Java"
       ],
@@ -226,7 +226,7 @@
       "rating": "4.3",
       "ratingCount": "453",
       "name": "DS-Algo in C++ Online",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "slashed-price": "11,999",
       "price": "8,999",
       "priceint": "8999",
@@ -308,7 +308,7 @@
       "slashed-price": "12,999",
       "price": "10,999",
       "priceint": "10999",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "web development course logo",
       "lectures": "",
@@ -329,7 +329,7 @@
       "slashed-price": "11,999",
       "price": "7,499",
       "priceint": "7499",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
       "lectures": "",
@@ -358,7 +358,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
       "imgAlt": "android course logo",
       "lectures": "",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "link": "/online-courses/android-app-development.html",
       "description": [
         "Building Android Apps",
@@ -377,7 +377,7 @@
       "price": "8,999",
       "priceint": "8999",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "imgAlt": "java online course logo",
       "lectures": "",
       "link": "/online-courses/java.html",
@@ -486,7 +486,7 @@
       "off-price": "",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Prep course logo",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "lectures": "",
       "link": "/online-courses/coding-interview-preparation-online.html",
       "description": [
@@ -506,7 +506,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "",
       "link": "/online-courses/machine-learning.html",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -528,7 +528,7 @@
       "imgAlt": "Python for Developers Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/python-for-beginners.html",
-      "badge": "Starting Feb",
+      "badge": "Starting Mar",
       "description": [
         "Programming Fundamentals in Python"
       ]
@@ -538,7 +538,7 @@
       "rating": "4.1",
       "ratingCount": "422",
       "name": "Advanced DS-Algo in C++",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "slashed-price": "9,999",
       "price": "6,999",
       "priceint": "6999",
@@ -582,7 +582,7 @@
       "off-price": "",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Prep course logo",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "lectures": "",
       "link": "/online-courses/coding-interview-preparation-online-bootcamp.html",
       "description": [
@@ -621,7 +621,7 @@
       "imgAlt": "Python app development course logo",
       "lectures": "(12 lectures)",
       "link": "/classroom-courses/python-app-dev.html",
-      "badge": "Starting Mar",
+      "badge": "Starting Jun",
       "description": [
         "Python fundamentals",
         "Web scrapping",
@@ -713,7 +713,7 @@
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Java Course",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "lectures": "",
       "link": "",
       "description": [
@@ -732,7 +732,7 @@
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/angular.svg",
       "imgAlt": "Angular Course",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "lectures": "",
       "link": "",
       "description": [
@@ -751,7 +751,7 @@
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/dlml.svg",
       "imgAlt": "Deep Learning Course",
-      "badge": "Starting Feb 10",
+      "badge": "Starting Mar 10",
       "lectures": "",
       "link": "",
       "description": [
