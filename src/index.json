@@ -24,6 +24,19 @@
 				  "filled": "true"
         }
 		  ]
+    },
+    {
+		  "imgSrc": "/assets/images/cb/cover/womens_day.jpeg",
+		  "imgAlt": "",
+		  "heading": "100% scholarship for women !",
+		  "content": "8 lucky women get 100% scholarships!",
+		  "button": [
+			  {
+				  "link": "https://cb.lk/IWD",
+				  "text": "Register now !",
+				  "filled": "true"
+        }
+		  ]
 	  },
     {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
