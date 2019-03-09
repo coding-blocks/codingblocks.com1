@@ -10,7 +10,7 @@
     {
 		  "imgSrc": "/assets/images/cb/cover/holi_banner.jpg",
 		  "imgAlt": "",
-		  "heading": "Big Holi sale is coming soon !",
+		  "heading": "Big Holi sale is live !",
 		  "content": "Upto 50% discount on our courses from 10th - 22nd March !",
 		  "button": [
 			  {
@@ -25,37 +25,6 @@
         }
 		  ]
     },
-    {
-		  "imgSrc": "/assets/images/cb/cover/womens_day.jpeg",
-		  "imgAlt": "",
-		  "heading": "100% scholarship for women !",
-		  "content": "8 lucky women get 100% scholarships!",
-		  "button": [
-			  {
-				  "link": "https://cb.lk/IWD",
-				  "text": "Register now !",
-				  "filled": "true"
-        }
-		  ]
-	  },
-    {
-		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
-		  "imgAlt": "",
-		  "heading": "Python App Dev & DS-Algo Courses Are Here!",
-		  "content": "Get hands on experience on DS & Algorithms in C++ and Python!",
-		  "button": [
-			  {
-				  "link": "/classroom-courses/python-app-dev.html",
-				  "text": "Register For Python",
-				  "filled": "true"
-        },
-        {
-				  "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
-				  "text": "Register For Algo++",
-				  "filled": "true"
-			  }
-		  ]
-	  },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/code4kids.jpg",
 		  "imgAlt": "",
@@ -65,19 +34,6 @@
 			  {
 				  "link": "/classroom-courses/code4kids.html",
 				  "text": "Register Now!",
-				  "filled": "true"
-			  }
-		  ]
-	  },
-	  {
-		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
-		  "imgAlt": "",
-		  "heading": "Six months Industrial Training",
-		  "content": "Wholesome development training program spanning six months combined with placement assistance. You'll learn data structures and algorithms, as well as some important and exciting technologies such as Web Development and Android app Development.",
-		  "button": [
-			  {
-				  "link": "/classroom-courses/six_months_ind_training",
-				  "text": "Explore more",
 				  "filled": "true"
 			  }
 		  ]
