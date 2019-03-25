@@ -15,7 +15,7 @@
     "description": "Hone your CP skills by attending 1-week Competitive Programming Course. Learn new concepts by solving over 150 complex problems of varying difficulty level and brighten up you chances of getting selected in APAC and ACM-ICPC."
   },
   "courseEnroll": {
-    "slashed-price": "15,000",
+    "price": "15,000",
     "lectures": "(10 lectures)",
     "registerBoxHeading": "",
     "registerButton": {
