@@ -4,7 +4,7 @@
   "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=313",
   "frame-id-dwarka": "313",
   "courseEnroll": {
-    "upcomingBatches": "New batch starting 16th March",
+    "upcomingBatches": "New batch starting 27th May",
     "priceCut": "6,999",
     "price": "4,999",
     "registerButton": {
@@ -14,8 +14,8 @@
   "schedule": [
 	  {
 		  "center": "Dwarka",
-		  "startdate": "Mar 16",
-		  "enddate": "Mar 27",
+		  "startdate": "May 27",
+		  "enddate": "June 14",
 		  "daytime": "10:30 AM - 01:00 PM",
 		  "batchtype": "Morning"
 	  }
