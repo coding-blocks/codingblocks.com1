@@ -145,8 +145,7 @@
     }
   ],
   "courseEnroll": {
-    "slashed-price": "22,000",
-    "price": "16,500",
+    "price": "22,000",
     "upcomingBatches": "Upcoming Courses:",
     "registerButton":{
         "disabled": true,

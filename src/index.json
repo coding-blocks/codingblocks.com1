@@ -7,24 +7,19 @@
     }
   ],
   "slides": [
-    {
-		  "imgSrc": "/assets/images/cb/cover/holi_banner.jpg",
+	  {
+		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
-		  "heading": "Big Holi sale is live !",
-		  "content": "Upto 50% discount on our courses from 10th - 22nd March !",
+		  "heading": "Scholarship Tests for summer courses are here!",
+		  "content": "Get upto 95% off on our Basic and Advanced Courses.",
 		  "button": [
 			  {
-				  "link": "/classroom-courses",
-				  "text": "Classroom courses",
+				  "link": "/scholarship-tests.html",
+				  "text": "View Details",
 				  "filled": "true"
-        },
-        {
-				  "link": "/online-courses",
-				  "text": "Online courses",
-				  "filled": "true"
-        }
+			  }
 		  ]
-    },
+	  },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/code4kids.jpg",
 		  "imgAlt": "",
