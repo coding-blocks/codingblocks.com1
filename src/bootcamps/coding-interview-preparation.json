@@ -17,8 +17,8 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "<strong>Upcoming Batches</strong><ul class=\"course-list\"><li>Regular batch at Pitampura starting June 9</li><li>Regular batch at Pitampura starting July 10</li></ul>",
-	"priceCut": "6,500",
-    "price": "4,875",
+	<!-- "priceCut": "6,500", -->
+    "price": "6,500",
     "highlights": [
       {
         "icon": "pe-7s-cup",
