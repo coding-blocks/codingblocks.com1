@@ -171,34 +171,48 @@
     ]
   },
   "schedule": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "Jun 15",
-		  "enddate": "2nd Week of July",
-		  "daytime": "TBD",
-		  "batchtype": "Normal"
-	  },
-	  {
-		  "center": "Dwarka",
-		  "startdate": "Jun 30",
-		  "enddate": "4th Week of July",
-		  "daytime": "TBD",
-		  "batchtype": "Normal"
-	  },
-	  {
-		  "center": "Noida",
-		  "startdate": "Jun 5",
-		  "enddate": "3rd Week of June",
-		  "daytime": "Mon, Wed, Fri, Sat (9.00 AM - 12.00 Noon)",
-		  "batchtype": "Normal"
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "6th June",
+      "enddate": "6th July",
+      "daytime": "Thu (4:15 - 7:45 PM), Sat(4:15 - 7:45 PM), Mon (4:15 - 7:45 PM)",
+      "batchtype": "Evening"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "16th June",
+      "enddate": "19th July",
+      "daytime": "Sun (4:00 PM - 7.30 PM), Wed (4:00 PM - 7.30 PM), Fri (4:00 PM - 7.30 PM)",
+      "batchtype": "Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "7th June",
+      "enddate": "29th June",
+      "daytime": "Mon (9:00 AM - 12:00 Noon), Wed (9:00 AM - 12:00 Noon), Fri (9:00 AM - 12:00 Noon), Sat (9:00 AM - 12:00 Noon)",
+      "batchtype": "Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "22nd June",
+      "enddate": "13th July",
+      "daytime": "Mon (12:30 PM - 3:30 PM), Wed (12:30 PM - 3:30 PM), Fri (12:30 PM - 3:30 PM), Sat (12:30 PM - 3:30 PM)",
+      "batchtype": "Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "26th June",
+      "enddate": "20th July",
+      "daytime": "Mon (4:00 PM - 7:00 PM), Wed (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
+      "batchtype": "Evening"
+    }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",
   "courseReviews": [
-	  "Manish Sundriyal",
-	  "Gagan Bhayana",
-	  "Dhruv Kulshreshtha",
-	  "Parth Dhamija"
+    "Manish Sundriyal",
+    "Gagan Bhayana",
+    "Dhruv Kulshreshtha",
+    "Parth Dhamija"
   ],
   "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=302",
   "frame-id-pitampura-lp": "302",

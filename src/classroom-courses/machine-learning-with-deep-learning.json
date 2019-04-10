@@ -173,27 +173,27 @@
     "SHIVANSHU CHAUDHARY"
   ],
   "schedule": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "Jun 15",
-		  "enddate": "3rd Week of July",
-		  "daytime": "TBD",
-		  "batchtype": "Morning"
-	  },
-	  {
-		  "center": "Dwarka",
-		  "startdate": "Jun 15",
-		  "enddate": "3rd Week of July",
-		  "daytime": "TBD",
-		  "batchtype": "Morning"
-	  },
-	  {
-		  "center": "Noida",
-		  "startdate": "Jun 15",
-		  "enddate": "3rd Week of July",
-		  "daytime": "TBD",
-		  "batchtype": "Morning"
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "7th June",
+      "enddate": "26th July",
+      "daytime": "Fri (12:15 PM - 3:45 PM), Mon (12:15 PM - 3:45 PM), Wed (12:15 PM - 3:45 PM)",
+      "batchtype": "Noon"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "11th June",
+      "enddate": "17th July",
+      "daytime": "Tue (4:00 PM - 7:30 PM), Wed (4:00 PM - 7:30 PM), Fri (4:00 PM - 7:30 PM), Sat (4:00 PM - 7:30 PM)",
+      "batchtype": "Fast Track"
+    },
+    {
+      "center": "Noida",
+      "startdate": "4th June",
+      "enddate": "30th July",
+      "daytime": "Tue  (4:00 PM - 7:00 PM), Thu  (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
+      "batchtype": "Evening"
+    }
   ],
   "widget-id-pitampura": "299",
   "widget-id-dwarka": "300",

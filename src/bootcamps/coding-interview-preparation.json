@@ -17,7 +17,6 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "<strong>Upcoming Batches</strong><ul class=\"course-list\"><li>Regular batch at Pitampura starting June 9</li><li>Regular batch at Pitampura starting July 10</li></ul>",
-	<!-- "priceCut": "6,500", -->
     "price": "6,500",
     "highlights": [
       {
@@ -47,10 +46,10 @@
   "scheduleBootcamp": [
     {
       "center": "Pitampura",
-      "startdate": "Jun 14",
-      "enddate": "4th Week of July",
-      "daytime": "TBD",
-      "batchtype": "Normal"
+      "startdate": "11th July",
+      "enddate": "30th July",
+      "daytime": "Thu (3:30 PM - 6:30 PM), Sun (3:30 PM - 6:30 PM), Tue (3:30 PM - 6:30 PM)",
+      "batchtype": "Evening"
     }
   ],
   "widget-id-basic": 310,

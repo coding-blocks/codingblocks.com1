@@ -190,13 +190,13 @@
     "RISHABH KHANNA"
   ],
   "schedule": [
-	  {
-		  "center": "Dehradun",
-		  "startdate": "Dec 15",
-		  "enddate": "Jan 29",
-		  "daytime": "Tue, Thu, Sat & Sun (02:00 PM - 05:00 PM)",
-		  "batchtype": "Evening"
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "1st July",
+      "enddate": "31st July",
+      "daytime": "Mon (10:00 AM - 2:00 PM), Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM)",
+      "batchtype": "Morning"
+    }
   ],
   "reviewSlug": "Web Development Course",
   "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=257",
