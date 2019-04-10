@@ -33,13 +33,20 @@
     ]
   },
   "schedule": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "Jun 16",
-		  "enddate": "3rd Week of July",
-		  "daytime": "TBD",
-		  "batchtype": "Normal"
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "10th June",
+      "enddate": "11th July",
+      "daytime": "Mon (3:30 PM - 7:00 PM), Thu (3:30 PM  - 7:00 PM)",
+      "batchtype": "Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "3rd June",
+      "enddate": "12th July",
+      "daytime": "Mon (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM)",
+      "batchtype": "Evening"
+    }
   ],
   "courseReviews": [
     "SHIKHAR PAHADIA",
