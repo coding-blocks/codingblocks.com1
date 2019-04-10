@@ -184,6 +184,13 @@
       "daytime": "Sun (4:00 PM - 7.30 PM), Wed (4:00 PM - 7.30 PM), Fri (4:00 PM - 7.30 PM)",
       "batchtype": "Evening"
     },
+	{
+		"center": "Dwarka",
+		"startdate": "TBD",
+		"enddate": "TBD",
+		"daytime": "TBD",
+		"batchtype": "TBD"
+	},
     {
       "center": "Noida",
       "startdate": "18th May",

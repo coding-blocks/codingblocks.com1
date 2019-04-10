@@ -107,6 +107,13 @@
       "daytime": "Mon (2:00 PM - 6:00 PM), Tue (2:00 PM - 6:00 PM), Thu (2:00 PM - 6:00 PM)",
       "batchtype": "Noon"
     },
+	{
+		"center": "Dwarka",
+		"startdate": "Jun 30",
+		"enddate": "2nd Week of July",
+		"daytime": "TBD",
+		"batchtype": "Normal"
+	},
     {
       "center": "Noida",
       "startdate": "7th June",

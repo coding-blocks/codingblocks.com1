@@ -187,6 +187,13 @@
       "daytime": "Tue (4:00 PM - 7:30 PM), Wed (4:00 PM - 7:30 PM), Fri (4:00 PM - 7:30 PM), Sat (4:00 PM - 7:30 PM)",
       "batchtype": "Fast Track"
     },
+	{
+		"center": "Dwarka",
+		"startdate": "Jun 15",
+		"enddate": "3rd Week of July",
+		"daytime": "TBD",
+		"batchtype": "Morning"
+	},
     {
       "center": "Noida",
       "startdate": "4th June",
