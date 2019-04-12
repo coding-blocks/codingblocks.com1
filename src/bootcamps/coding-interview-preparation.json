@@ -28,19 +28,26 @@
   "scheduleCpp": [
     {
       "center": "Pitampura",
-      "startdate": "Jun 14",
-      "enddate": "4th Week of July",
-      "daytime": "TBD",
-      "batchtype": "Normal"
+      "startdate": "6th June",
+      "enddate": "6th July",
+      "daytime": "Thu (4:15 - 7:45 PM), Sat(4:15 - 7:45 PM), Mon (4:15 - 7:45 PM)",
+      "batchtype": "Evening"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "16th June",
+      "enddate": "19th July",
+      "daytime": "Sun (4:00 PM - 7.30 PM), Wed (4:00 PM - 7.30 PM), Fri (4:00 PM - 7.30 PM)",
+      "batchtype": "Evening"
     }
   ],
   "scheduleJava": [
     {
       "center": "Pitampura",
-      "startdate": "Jun 14",
-      "enddate": "4th Week of July",
-      "daytime": "TBD",
-      "batchtype": "Normal"
+      "startdate": "10th June",
+      "enddate": "11th July",
+      "daytime": "Mon (2:00 PM - 6:00 PM), Tue (2:00 PM - 6:00 PM), Thu (2:00 PM - 6:00 PM)",
+      "batchtype": "Noon"
     }
   ],
   "scheduleBootcamp": [

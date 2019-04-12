@@ -168,6 +168,7 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming Batches:",
+	"priceCut": "17,000",
     "registerButton":{
       "disabled": false,
       "buttonText": "Register Now"
@@ -200,5 +201,6 @@
   ],
   "reviewSlug": "Web Development Course",
   "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=257",
-  "frame-id-dehradun": "257"
+  "frame-id-dehradun": "257",
+  "frame-id-pitampura": "316"
 }
