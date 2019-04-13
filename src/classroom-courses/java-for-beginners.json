@@ -139,6 +139,13 @@
         "enddate": "13th July",
         "daytime": "Mon (12:30 PM - 3:30 PM), Wed (12:30 PM - 3:30 PM), Fri (12:30 PM - 3:30 PM), Sat (12:30 PM - 3:30 PM)",
         "batchtype": "Noon"
+      },
+      {
+        "center": "Dehradun",
+        "startdate": "27th May",
+        "enddate": "7th July",
+        "daytime": "Mon (10:00 AM – 1:00 PM), Tue (10:00 AM – 1:00 PM), Thu (10:00 AM – 1:00 PM), Fri (10:00 AM – 1:00 PM)",
+        "batchtype": "Morning"
       }
     ],
     "courseReviews": [
@@ -148,12 +155,15 @@
       "KSHITIJ BANSAL"
     ],
 
-    "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=288",
-    "frame-id-pitampura-lp": "288",
+	"registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=319",
+	"frame-id-dehradun-lp": "319",
 
-    "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=289",
-    "frame-id-dwarka-lp": "289",
+	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=288",
+	"frame-id-pitampura-lp": "288",
 
-    "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=290",
-    "frame-id-noida-lp": "290"
+	"registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=289",
+	"frame-id-dwarka-lp": "289",
+
+	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=290",
+	"frame-id-noida-lp": "290"
 }

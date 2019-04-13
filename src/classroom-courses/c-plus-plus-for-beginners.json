@@ -130,6 +130,13 @@
       "enddate": "20th July",
       "daytime": "Mon (4:00 PM - 7:00 PM), Wed (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
       "batchtype": "Evening"
+    },
+    {
+      "center": "Dehradun",
+      "startdate": "26th May",
+      "enddate": "07th July",
+      "daytime": "Mon (10:00 AM – 1:00 PM), Wed (10:00 AM – 1:00 PM), Sat (10:00 AM – 1:00 PM), Sun (10:00 AM – 1:00 PM)",
+      "batchtype": "Morning"
     }
   ],
   "courseReviews": [
@@ -139,8 +146,8 @@
     "DEEPAK KUMAR"
   ],
 
-  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=253",
-  "frame-id-dehradun-lp": "253",
+  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=320",
+  "frame-id-dehradun-lp": "320",
 
   "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=285",
   "frame-id-pitampura-lp": "285",
