@@ -185,13 +185,20 @@
       "daytime": "Sun (4:00 PM - 7.30 PM), Wed (4:00 PM - 7.30 PM), Fri (4:00 PM - 7.30 PM)",
       "batchtype": "Evening"
     },
-	{
-		"center": "Dwarka",
-		"startdate": "Jun 30",
-		"enddate": "4th Week of July",
-		"daytime": "TBD",
-		"batchtype": "Normal"
-	},
+    {
+      "center": "Dwarka",
+      "startdate": "19th June",
+      "enddate": "22nd July",
+      "daytime": "Wed (3:00 PM - 7:00 PM), Fri (3:00 PM - 7:00 PM), Mon (3:00 PM - 7:00 PM)",
+      "batchtype": "Normal"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "23rd June",
+      "enddate": "20th July",
+      "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM), Mon (10:00 AM - 2:00 PM)",
+      "batchtype": "Fast Track"
+    },
     {
       "center": "Noida",
       "startdate": "7th June",
