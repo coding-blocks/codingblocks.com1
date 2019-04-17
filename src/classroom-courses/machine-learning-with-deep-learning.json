@@ -180,13 +180,13 @@
       "daytime": "Fri (12:15 PM - 3:45 PM), Mon (12:15 PM - 3:45 PM), Wed (12:15 PM - 3:45 PM)",
       "batchtype": "Noon"
     },
-	{
-		"center": "Dwarka",
-		"startdate": "Jun 15",
-		"enddate": "3rd Week of July",
-		"daytime": "TBD",
-		"batchtype": "Morning"
-	},
+    {
+      "center": "Dwarka",
+      "startdate": "12th June",
+      "enddate": "25th July",
+      "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
+      "batchtype": "Noon"
+    },
     {
       "center": "Noida",
       "startdate": "4th June",
