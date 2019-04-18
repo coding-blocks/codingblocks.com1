@@ -104,18 +104,18 @@
 		  "batchtype": "Normal"
 	  },
 	  {
-		  "center": "LaunchPad",
-		  "startdate": "Dwarka",
-		  "enddate": "5th June",
-		  "daytime": "22nd July, Wed (3:00 PM - 7:00 PM), Fri (3:00 PM - 7:00 PM), Mon (3:00 PM - 7:00 PM)",
-		  "batchtype": ""
+		  "center": "Dwarka",
+		  "startdate": "5th June",
+		  "enddate": "22nd July",
+		  "daytime": "Wed (3:00 PM - 7:00 PM), Fri (3:00 PM - 7:00 PM), Mon (3:00 PM - 7:00 PM)",
+		  "batchtype": "Normal"
 	  },
 	  {
-		  "center": "LaunchPad",
-		  "startdate": "Dwarka",
-		  "enddate": "12th June",
-		  "daytime": "20th July, Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
-		  "batchtype": "Mon (10:00 AM - 2:00 PM)"
+		  "center": "Dwarka",
+		  "startdate": "12th June",
+		  "enddate": "20th July",
+		  "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM), Mon (10:00 AM - 2:00 PM)",
+		  "batchtype": "Fast Track"
 	  },
 	  {
 		  "center": "Noida",
