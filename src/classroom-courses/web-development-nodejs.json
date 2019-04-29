@@ -191,15 +191,15 @@
       "center": "Pitampura",
       "startdate": "8th June",
       "enddate": "21st July",
-      "daytime": "Sat (4:00 PM - 7:30 PM), Sun (4:00 PM - 7:30 PM), Thu (10:30 AM - 1:30 PM)",
-      "batchtype": "Weekend"
+      "daytime": "Sat (4:00 PM - 7:30 PM), Sun (4:00 PM - 7:30 PM), Thu (4:00 PM - 7:30 PM)",
+      "batchtype": "Evening"
     },
     {
       "center": "Dwarka",
       "startdate": "12th June",
       "enddate": "25th July",
       "daytime": "Mon (3:00 PM - 7:00 PM), Wed (3:00 PM - 7:00 PM), Fri (3:00 PM - 7:00 PM)",
-      "batchtype": "Evening"
+      "batchtype": "Weekday"
     },
     {
       "center": "Noida",
