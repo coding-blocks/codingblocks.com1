@@ -188,26 +188,26 @@
   ],
   "schedule": [
     {
-		  "center": "Pitampura",
-		  "startdate": "Jun 14",
-		  "enddate": "3rd Week of July",
-		  "daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
-		  "batchtype": "Evening"
-	  },
-	  {
-		  "center": "Dwarka",
-		  "startdate": "Jun 14",
-		  "enddate": "3rd Week of July",
-		  "daytime": "Wed, Sat, Sun (03:00 PM - 07:00 PM)",
-		  "batchtype": "Evening"
-	  },
-	  {
-		  "center": "Noida",
-		  "startdate": "Jun 14",
-		  "enddate": "3rd Week of July",
-		  "daytime": "Sat, Sun (10:00 AM - 01:30 PM)",
-		  "batchtype": "Morning"
-	  }
+      "center": "Pitampura",
+      "startdate": "8th June",
+      "enddate": "21st July",
+      "daytime": "Sat (4:00 PM - 7:30 PM), Sun (4:00 PM - 7:30 PM), Thu (4:00 PM - 7:30 PM)",
+      "batchtype": "Evening"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "12th June",
+      "enddate": "25th July",
+      "daytime": "Mon (3:00 PM - 7:00 PM), Wed (3:00 PM - 7:00 PM), Fri (3:00 PM - 7:00 PM)",
+      "batchtype": "Weekday"
+    },
+    {
+      "center": "Noida",
+      "startdate": "4th June",
+      "enddate": "23rd July",
+      "daytime": "Tue  (4:00 PM - 7:00 PM), Thu  (4:00 PM - 7:00 PM), Sat  (4:00 PM - 7:00 PM)",
+      "batchtype": "Evening"
+    }
   ],
   "reviewSlug": "Web Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=116",
@@ -216,12 +216,12 @@
   "registerLinkDehradunWD": "https://students.codingblocks.com/payment/iframe?item_id=169",
   "frame-id-dehradun-wd": "169",
 
-	"registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=294",
-	"frame-id-pitampura-wd": "294",
+  "registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=294",
+  "frame-id-pitampura-wd": "294",
 
-	"registerLinkDwarkaWD": "https://students.codingblocks.com/payment/iframe?item_id=295",
-	"frame-id-dwarka-wd": "295",
+  "registerLinkDwarkaWD": "https://students.codingblocks.com/payment/iframe?item_id=295",
+  "frame-id-dwarka-wd": "295",
 
-	"registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=296",
-	"frame-id-noida-wd": "296"
+  "registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=296",
+  "frame-id-noida-wd": "296"
 }

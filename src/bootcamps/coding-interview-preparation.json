@@ -17,8 +17,7 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "<strong>Upcoming Batches</strong><ul class=\"course-list\"><li>Regular batch at Pitampura starting June 9</li><li>Regular batch at Pitampura starting July 10</li></ul>",
-	"price": "6,000",
-    "priceCut": "",
+    "price": "6,500",
     "highlights": [
       {
         "icon": "pe-7s-cup",
@@ -26,14 +25,41 @@
       }
     ]
   },
-  "schedule": [
-	  {
-		  "center": "Noida",
-		  "startdate": "Aug 21",
-      "enddate": "Nov 03",
-		  "daytime": "Tue,Thu,Fri (05:00 PM - 07:30 PM)",
-		  "batchtype": "Evening"
-	  }
+  "scheduleCpp": [
+    {
+      "center": "Pitampura",
+      "startdate": "6th June",
+      "enddate": "6th July",
+      "daytime": "Thu (4:15 - 7:45 PM), Sat(4:15 - 7:45 PM), Mon (4:15 - 7:45 PM)",
+      "batchtype": "Evening"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "9th June",
+      "enddate": "12th July",
+      "daytime": "Sun (4:00 PM - 7.30 PM), Wed (4:00 PM - 7.30 PM), Fri (4:00 PM - 7.30 PM)",
+      "batchtype": "Evening"
+    }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=200"
+  "scheduleJava": [
+    {
+      "center": "Pitampura",
+      "startdate": "10th June",
+      "enddate": "11th July",
+      "daytime": "Mon (2:00 PM - 6:00 PM), Tue (2:00 PM - 6:00 PM), Thu (2:00 PM - 6:00 PM)",
+      "batchtype": "Noon"
+    }
+  ],
+  "scheduleBootcamp": [
+    {
+      "center": "Pitampura",
+      "startdate": "11th July",
+      "enddate": "30th July",
+      "daytime": "Thu (3:30 PM - 6:30 PM), Sun (3:30 PM - 6:30 PM), Tue (3:30 PM - 6:30 PM)",
+      "batchtype": "Evening"
+    }
+  ],
+  "widget-id-basic": 310,
+  "widget-id-cpp": 312,
+  "widget-id-java": 311
 }

@@ -7,33 +7,28 @@
     }
   ],
   "slides": [
-    {
+	  {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
-		  "heading": "Python App Dev & DS-Algo Courses Are Here!",
-		  "content": "Get hands on experience on DS & Algorithms in C++ and Python!",
+		  "heading": "Register for CAST and APAT",
+		  "content": "Get upto 95% off on our Basic or Advanced Courses this summer.",
 		  "button": [
 			  {
-				  "link": "/classroom-courses/python-app-dev.html",
-				  "text": "Register For Python",
-				  "filled": "true"
-        },
-        {
-				  "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
-				  "text": "Register For Algo++",
+				  "link": "/scholarship-tests.html",
+				  "text": "View Details",
 				  "filled": "true"
 			  }
 		  ]
 	  },
 	  {
-		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
+		  "imgSrc": "/assets/images/cb/cover/code4kids.jpg",
 		  "imgAlt": "",
-		  "heading": "Six months Industrial Training",
-		  "content": "Wholesome development training program spanning six months combined with placement assistance. You'll learn data structures and algorithms, as well as some important and exciting technologies such as Web Development and Android app Development.",
+		  "heading": "Code For Kids",
+		  "content": "Get an early start to programming!",
 		  "button": [
 			  {
-				  "link": "/classroom-courses/six_months_ind_training",
-				  "text": "Explore more",
+				  "link": "/classroom-courses/code4kids.html",
+				  "text": "Register Now!",
 				  "filled": "true"
 			  }
 		  ]
@@ -120,32 +115,27 @@
   ],
   "coursesRow3": [
     {
-      "id": "course25"
-    },
-    {
       "id": "course30",
       "odd": true
     },
     {
-      "id": "course04"
+      "id": "webdj"
+    },
+    {
+      "id": "course04",
+      "odd": true
     }
   ],
   "coursesRow4": [
     {
-      "id": "course03",
+      "id": "course03"
+    },
+    {
+      "id": "course06",
       "odd": true
     },
     {
-      "id": "course06"
-    },
-    {
-      "id": "course20",
-      "odd": true
-    }
-  ],
-  "coursesRow5": [
-    {
-      "id": "course14"
+      "id": "course20"
     }
   ],
   "cppInterviewRow": [
@@ -159,6 +149,18 @@
     {
       "id": "course21",
 	  "combo": true
+    }
+  ],
+  "interviewPrepRow": [
+    {
+      "id": "bootcamp02"
+    },
+    {
+      "id": "course21",
+      "odd": true
+    },
+    {
+      "id": "course22"
     }
   ],
   "javaInterviewRow": [
@@ -211,6 +213,19 @@
     "id": "course28",
     "odd": true
   }
+  ],
+  "onlineCoursesRow4": [
+    {
+      "id": "course43",
+      "odd": true
+    },
+    {
+      "id": "course44"
+    },
+    {
+      "id": "course45",
+      "odd": true
+    }
   ],
   "coursesSection": {
     "showAll": true

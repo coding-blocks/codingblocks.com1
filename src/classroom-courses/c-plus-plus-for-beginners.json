@@ -88,45 +88,73 @@
       "Raj Kumar Saini"
     ]
   },
-	"scheduleLaunchpad": [
-		{
-			"center": "Pitampura",
-			"startdate": "May 26",
-			"enddate": "First Week of July",
-			"daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
-			"batchtype": "Evening"
-		},
-		{
-			"center": "Pitampura",
-			"startdate": "Jun 10",
-			"enddate": "Fourth Week of July",
-			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
-			"batchtype": "Morning"
-		},
-		{
-			"center": "Dwarka",
-			"startdate": "Jun 10",
-			"enddate": "Fourth Week of July",
-			"daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
-			"batchtype": "Evening"
-		},
-		{
-			"center": "Noida",
-			"startdate": "Jun 10",
-			"enddate": "Fourth Week of July",
-			"daytime": "Sat, Sun (03:00 - 07:00 PM)",
-			"batchtype": "Evening"
-		}
-	],
+  "scheduleLaunchpad": [
+	  {
+		  "center": "Pitampura",
+		  "startdate": "29th May",
+		  "enddate": "7th July",
+		  "daytime": "Sun (8:00 AM - 11:45 AM), Tue (8:00 AM - 11:45 AM), Thu (8:00 AM - 11:45 AM), Sat (8:00 AM - 11:45 AM)",
+		  "batchtype": "Fast Track"
+	  },
+	  {
+		  "center": "Pitampura",
+		  "startdate": "5th June",
+		  "enddate": "28th July",
+		  "daytime": "Wed (8:00 AM - 11:45 AM), Sat (12:00 Noon - 3:45 PM), Sun (12:00 Noon - 3:45 PM)",
+		  "batchtype": "Normal"
+	  },
+	  {
+		  "center": "Dwarka",
+		  "startdate": "5th June",
+		  "enddate": "22nd July",
+		  "daytime": "Wed (3:00 PM - 7:00 PM), Fri (3:00 PM - 7:00 PM), Mon (3:00 PM - 7:00 PM)",
+		  "batchtype": "Normal"
+	  },
+	  {
+		  "center": "Dwarka",
+		  "startdate": "12th June",
+		  "enddate": "20th July",
+		  "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM), Mon (10:00 AM - 2:00 PM)",
+		  "batchtype": "Fast Track"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "18th May",
+		  "enddate": "29th June",
+		  "daytime": "Mon (9:00 AM - 12:00 Noon), Wed (9:00 AM - 12:00 Noon), Fri (9:00 AM - 12:00 Noon), Sat (9:00 AM - 12:00 Noon)",
+		  "batchtype": "Morning"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "3rd June",
+		  "enddate": "13th July",
+		  "daytime": "Mon (12:30 PM - 3:30 PM), Wed (12:30 PM - 3:30 PM), Fri (12:30 PM - 3:30 PM), Sat (12:30 PM - 3:30 PM)",
+		  "batchtype": "Noon"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "10th June",
+		  "enddate": "20th July",
+		  "daytime": "Mon (4:00 PM - 7:00 PM), Wed (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
+		  "batchtype": "Evening"
+	  },
+	  {
+		  "center": "Dehradun",
+		  "startdate": "26th May",
+		  "enddate": "07th July",
+		  "daytime": "Mon (10:00 AM – 1:00 PM), Wed (10:00 AM – 1:00 PM), Sat (10:00 AM – 1:00 PM), Sun (10:00 AM – 1:00 PM)",
+		  "batchtype": "Morning"
+	  }
+  ],
   "courseReviews": [
     "NAVDEEP SINGH",
     "SHREYA GUPTA",
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
   ],
-  
-  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=253",
-  "frame-id-dehradun-lp": "253",
+
+  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=320",
+  "frame-id-dehradun-lp": "320",
 
   "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=285",
   "frame-id-pitampura-lp": "285",

@@ -5,13 +5,6 @@
 		{{> meta}}
 		{{> head}}
 		<style>
-		#competitiveheader {
-			background-color: transparent;
-			background-image: url("../assets/images/cb/cover/cast-banner.jpg");
-			background-repeat: no-repeat;
-			background-position: top;
-			background-size: contain;
-		}
 
 		.flex-container {
 			display: -webkit-flex;
@@ -93,15 +86,17 @@
 		<div class="main-container">
 			<a id="course-header" class="in-page-link"></a>
 
-			<section class="page-title page-title-2 bg-secondary bg-dark" id="competitiveheader">
-				<div class="container">
+			<section class="page-title page-title-2 bg-secondary bg-dark">
 					<div class="row">
+						<picture>
+							<source media="(max-width: 1000px)" srcset="../assets/images/cb/cover/cast-small.jpg">
+							<img src="../assets/images/cb/cover/cast-banner.jpg" alt="Scholarship tests" style="width:100%;">
+						</picture>
 						<div class="col-md-6 text-center">
 						</div>
 						<div class="col-md-6 text-right">
 						</div>
 					</div>
-				</div>
 			</section>
 
 			<section>
@@ -120,16 +115,16 @@
 								</div>
 							</div>
 
-							<!-- <div class="row"> -->
-							<!-- 	<div class="alert alert&#45;info"> -->
-							<!-- 		<h4>Results for CAST (held on December 23) have been declared!</h4> -->
-							<!-- 		<p>Please check your registered email for your result letter.</p> -->
-							<!-- 	</div> -->
-							<!-- </div> -->
+							{{!-- <div class="row">
+								<div class="alert alert-info">
+									<h4>Results for CAST (held on April 07) have been declared!</h4>
+									<p>Please check your registered email for your result letter.</p>
+								</div>
+							</div> --}}
 
 							<div class="row">
 								<div class="col-md-12">
-									<p>Coding Blocks is proud to introduce you the Coders' Admission &amp; Scholarship Test (CAST) for our beginners'courses, starting this December. Students appearing for CAST can win scholarships of up to a whopping 75% off the entire course fees of our foundation courses in basic <strong>C++</strong>, <strong>Java</strong>, and <strong>Python</strong> (Online & Classroom courses) and for Industrial training programmes as well.</p>
+									<p>Coding Blocks is pleased to announce the date for Coders' Admission &amp; Scholarship Test (CAST) for our foundation courses, starting this Summer. Students appearing for CAST can win scholarships of up to a whopping 95% off the entire course fees of our foundation courses in basic <strong>C++</strong>, <strong>Java</strong>, and <strong>Python</strong> (Online & Classroom courses) at all centers.</p>
 								</div>
 							</div>
 
@@ -138,10 +133,10 @@
 									<p>
 										<strong>When:</strong>
 										<span class="text-red semi-bold">
-											Sunday, Jan 20 2019
+											Saturday, May 11 2019
 										</span>
 										<span class="text-muted">
-											Registrations close at 01:00 PM on Jan 19, 2019.
+											<!-- Registrations close at 01:00 PM on April 06, 2019. -->
 										</span>
 									</p>
 								</div>
@@ -177,7 +172,7 @@
 								<div class="col-md-12">
 									<p>
 										<strong>Applicable Courses:</strong>
-										<span class="text-red semi-bold">C++ for Beginners, Java for Beginners, Python for Beginners, Python Application Development, Industrial training</span>
+										<span class="text-red semi-bold">Launchpad (Complete C++), Crux (Complete Java), Python Application Development</span>
 									</p>
 								</div>
 							</div>
@@ -200,8 +195,20 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Slot 1</td>
-										<td>09:00 PM - 10:00 PM</td>
+										<!-- <td>Slot 1</td> -->
+										<!-- <td>4:30 PM - 5:30 PM</td> -->
+									</tr>
+									<tr>
+										<td>Python App Development</td>
+										<td>07:00 PM - 08:00 PM</td>
+									</tr>
+									<tr>
+										<td>Launchpad (C++)</td>
+										<td>07:00 PM - 08:00 PM</td>
+									</tr>
+									<tr>
+										<td>Crux (Java)</td>
+										<td>07:00 PM - 08:00 PM</td>
 									</tr>
 								</tbody>
 							</table>
@@ -221,20 +228,20 @@
 									</h2>
 								</div>
 								<div class="col-md-4">
-									<a class="btn btn-filled" disabled href="https://app.codingblocks.com/apat_registrations/new">Register Now</a>
+									<a class="btn btn-filled" href="https://app.codingblocks.com/apat_registrations/new">Register Now</a>
 								</div>
 							</div>
 
-							<div class="row">
+							{{!-- <div class="row">
 								<div class="alert alert-info">
-									<h4>Results for APAT (held on December 23) have been declared!</h4>
+									<h4>Results for APAT (held on Apr 07 & 08) have been declared!</h4>
 									<p>Please check your registered email for your result letter.</p>
 								</div>
-							</div>
+							</div> --}}
 
 							<div class="row">
 								<div class="col-md-12">
-									<p>Coding Blocks is proud to introduce to you APAT, the Advanced Programs Admission (and Scholarship) Test for our advanced and development courses, starting this December. Students will be tested on their coding and algorithmic skills and scholarships worth up to 75% will be on offer.</p>
+									<p>Coding Blocks is pleased to announce the date for Advanced Programs Admission (and Scholarship) Test (APAT) for our advanced batches starting this June. The admission cum scholarship test will be for all our development and advanced courses namely <strong>Web Development</strong>, <strong>Android Development</strong>, <strong>Algo++</strong>, <strong>Algo.Java</strong>, <strong>Competitive Programming</strong>, <strong>Interview Preparation Courses in C++/Java</strong> and <strong>Machine Learning</strong>. Students will be tested on their coding and algorithmic skills. The timed test would be conducted on our portal - HackerBlocks and scholarships of up to 95% will be on offer.</p>
 								</div>
 							</div>
 
@@ -243,7 +250,7 @@
 									<p>
 										<strong>When:</strong>
 										<span class="text-red semi-bold">
-											TBA
+											Saturday, May 11 2019
 										</span>
 										<span class="text-muted">
 										</span>
@@ -281,8 +288,8 @@
 								<div class="col-md-12">
 									<p>
 										<strong>Applicable Courses:</strong>
-										<!-- <span class="text&#45;red semi&#45;bold">Web/Android Development, Android Development, Machine Learning, Data Structures using C++/Java, Competitive Coding</span> -->
-										<span class="text-red semi-bold">Web Development, Android App Development</span>
+										<span class="text&#45;red semi&#45;bold">Web Development, Android Development, Machine Learning, Competitive Coding, Algo++, Algo.Java, Interview Preparation Courses in C++/Java</span>
+										<!-- <span class="text-red semi-bold">Web Development, Android App Development</span> -->
 									</p>
 								</div>
 							</div>
@@ -313,23 +320,28 @@
 									<!-- 	<td>(-)</td> -->
 									<!-- </tr> -->
 									<tr>
-										<td>Slot 1</td>
-										<td>03:00 PM - 04:00 PM</td>
+										<td>Algo++/Algo.Java</td>
+										<td>08:30 PM - 09:30 PM</td>
 									</tr>
 									<tr>
-										<td>Slot 2</td>
-										<td>09:00 PM - 10:00 PM</td>
+									<tr>
+										<td>Web Development/ Android Development/ Python-Django</td>
+										<td>08:30 PM - 09:30 PM</td>
 									</tr>
-									<!-- <tr> -->
-									<!-- 	<td>Machine Learning</td> -->
-									<!-- 	<td>(-)</td> -->
-									<!-- </tr> -->
+									<tr>
+										<td>Competitive Programming/ Interview Prep in C++/Java</td>
+										<td>10:00 PM - 11:00 PM</td>
+									</tr>
+									<tr>
+										<td>Machine Learning</td>
+										<td>10:00 PM - 11:00 PM</td>
+									</tr>
 								</tbody>
 							</table>
 
 							<div class="row">
 								<div class="col-md-12 register-button-container">
-									<a class="btn btn-filled" disabled href="https://app.codingblocks.com/apat_registrations/new">Register Now</a>
+									<a class="btn btn-filled" href="https://app.codingblocks.com/apat_registrations/new">Register Now</a>
 								</div>
 							</div>
 						</div>
@@ -342,4 +354,4 @@
 		</div>
 		{{> scripts}}
 	</body>
-</html>
+

@@ -171,51 +171,72 @@
     ]
   },
   "schedule": [
-	  {
-		  "center": "Dwarka",
-		  "startdate": "Feb 17",
-		  "enddate": "Apr 30",
-		  "daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
-		  "batchtype": "Evening"
-	  },
-	  {
-		  "center": "Noida",
-		  "startdate": "Feb 24",
-		  "enddate": "April 30",
-		  "daytime": "Sat, Sun (03:00 PM - 07:00 PM)",
-		  "batchtype": "Evening"
-	  },
-	  {
-		  "center": "Pitampura",
-		  "startdate": "Feb 24",
-		  "enddate": "April 30",
-		  "daytime": "Sat, Sun (09:30 AM - 01:30 PM)",
-		  "batchtype": "Evening"
-	  },
-	  {
-		  "center": "Dehradun",
-		  "startdate": "TBD",
-		  "enddate": "TBD",
-		  "daytime": "",
-		  "batchtype": ""
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "6th June",
+      "enddate": "6th July",
+      "daytime": "Thu (4:15 - 7:45 PM), Sat(4:15 - 7:45 PM), Mon (4:15 - 7:45 PM)",
+      "batchtype": "Evening"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "9th June",
+      "enddate": "12th July",
+      "daytime": "Sun (4:00 PM - 7.30 PM), Wed (4:00 PM - 7.30 PM), Fri (4:00 PM - 7.30 PM)",
+      "batchtype": "Evening"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "19th June",
+      "enddate": "22nd July",
+      "daytime": "Wed (3:00 PM - 7:00 PM), Fri (3:00 PM - 7:00 PM), Mon (3:00 PM - 7:00 PM)",
+      "batchtype": "Normal"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "23rd June",
+      "enddate": "20th July",
+      "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM), Mon (10:00 AM - 2:00 PM)",
+      "batchtype": "Fast Track"
+    },
+    {
+      "center": "Noida",
+      "startdate": "7th June",
+      "enddate": "29th June",
+      "daytime": "Mon (9:00 AM - 12:00 Noon), Wed (9:00 AM - 12:00 Noon), Fri (9:00 AM - 12:00 Noon), Sat (9:00 AM - 12:00 Noon)",
+      "batchtype": "Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "22nd June",
+      "enddate": "13th July",
+      "daytime": "Mon (12:30 PM - 3:30 PM), Wed (12:30 PM - 3:30 PM), Fri (12:30 PM - 3:30 PM), Sat (12:30 PM - 3:30 PM)",
+      "batchtype": "Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "26th June",
+      "enddate": "20th July",
+      "daytime": "Mon (4:00 PM - 7:00 PM), Wed (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
+      "batchtype": "Evening"
+    }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",
   "courseReviews": [
-	  "Manish Sundriyal",
-	  "Gagan Bhayana",
-	  "Dhruv Kulshreshtha",
-	  "Parth Dhamija"
+    "Manish Sundriyal",
+    "Gagan Bhayana",
+    "Dhruv Kulshreshtha",
+    "Parth Dhamija"
   ],
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=282",
-  "frame-id-pitampura-lp": "282",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=302",
+  "frame-id-pitampura-lp": "302",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=276",
-  "frame-id-noida-lp": "276",
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=304",
+  "frame-id-noida-lp": "304",
 
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=255",
   "frame-id-dehradun-lp": "255",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=283",
-  "frame-id-dwarka-lp": "283"
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=303",
+  "frame-id-dwarka-lp": "303"
 }

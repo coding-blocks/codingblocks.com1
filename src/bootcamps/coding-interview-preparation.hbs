@@ -157,10 +157,17 @@
 								</div>
 								<a id="basic-enroll" class="in-page-link"></a>
 								{{> courseenroll}}
-								{{> courseschedule}}
-								<div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
-                                                       <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Coming Soon!</p>
-                                                   </div>
+								{{> courseschedule schedule=scheduleBootcamp}}
+                                <section class="mt-xs-64">
+                                  <div class="text-center"><h3>REGISTER NOW</h3></div>
+                                  <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="wide-tab active"><a taria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Pitampura</a></li>
+                                  </ul>
+                                  <div class="container widget-container" data-widget-id='{{widget-id-basic}}'>
+                                    <iframe class="payment-widget" frameborder="0"
+                                                                   src="https://students.codingblocks.com/payment/iframe?item_id={{widget-id-basic}}"></iframe>
+                                  </div>
+                                </section>
 							</div>
 							<div role="tabpanel" class="tab-pane active" id="cpp-bundle">
 								<div class="course-card-container">
@@ -193,37 +200,10 @@
 								<section class="tabbed-enroll-section">
 									<div class="container">
 										<div class="row v-align-children">
-											<div class="col-sm-5"><h3>Come, Fall in <strong>Love</strong><br /> with <strong>Coding</strong></h3>
-												<p class="lead"></p>
-												<p>Upcoming Batches:</p>
-												<ul class="course-list">
-													<li>Regular batch at Pitampura starting June 9</li>
-													<li>Regular batch at Pitampura starting July 10</li>
-												</ul>
-												<p></p>
-												<div class="overflow-hidden mb32 mb-xs-24">
-													<div class="row">
-														<div class="col-sm-1"><i
-																class="icon pull-left et-line-search icon-sm"></i></div>
-														<div class="col-sm-11"><h6
-																class="uppercase mb0 inline-block p32">online code
-																submission &amp; evaluation</h6></div>
-													</div>
-												</div>
-												<div class="overflow-hidden mb32 mb-xs-24">
-													<div class="row">
-														<div class="col-sm-1"><i
-																class="icon pull-left pe-7s-cup icon-sm"></i></div>
-														<div class="col-sm-11"><h6
-																class="uppercase mb0 inline-block p32">special sessions
-																on competitive coding</h6></div>
-													</div>
-												</div>
-											</div>
 											<div class="col-md-4 col-sm-6">
 												<div class="pricing-table pt-1 text-center emphasis"><h5
 														class="uppercase">Regular Batch</h5><span
-														class="price">₹17,000</span>
+														class="price">₹20,000</span>
 													<a class="btn btn-white btn-lg" href="#register-cpp">Enroll Now</a>
 													<p><a href="/contactus">Contact Us</a><br>Call(Toll-free):
 														1800-2744-504</p></div>
@@ -231,16 +211,16 @@
 										</div>
 									</div>
 								</section>
-								{{> courseschedule}}
+								{{> courseschedule schedule=scheduleCpp}}
 								<a id="register-cpp" class="in-page-link"></a>
 								<section class="mt-xs-64">
 									<div class="text-center"><h3>REGISTER NOW</h3></div>
 									<ul class="nav nav-tabs" role="tablist">
-														<li role="presentation" class="wide-tab active"><a taria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Noida</a></li>
+														<li role="presentation" class="wide-tab active"><a taria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Pitampura</a></li>
 									</ul>
-									<div class="container widget-container" data-widget-id='200'>
+                                    <div class="container widget-container" data-widget-id='{{widget-id-cpp}}'>
 										<iframe class="payment-widget" frameborder="0"
-											src="https://students.codingblocks.com/payment/iframe?item_id=200"></iframe>
+											src="https://students.codingblocks.com/payment/iframe?item_id={{widget-id-cpp}}"></iframe>
 									</div>
 								</section>
 							</div>
@@ -274,37 +254,10 @@
 								<section class="tabbed-enroll-section">
 									<div class="container">
 										<div class="row v-align-children">
-											<div class="col-sm-5"><h3>Come, Fall in <strong>Love</strong><br /> with <strong>Coding</strong></h3>
-												<p class="lead"></p>
-												<p>Upcoming Batches:</p>
-												<ul class="course-list">
-													<li>Regular batch at Pitampura starting June 9</li>
-													<li>Regular batch at Pitampura starting July 10</li>
-												</ul>
-												<p></p>
-												<div class="overflow-hidden mb32 mb-xs-24">
-													<div class="row">
-														<div class="col-sm-1"><i
-																class="icon pull-left et-line-search icon-sm"></i></div>
-														<div class="col-sm-11"><h6
-																class="uppercase mb0 inline-block p32">online code
-																submission &amp; evaluation</h6></div>
-													</div>
-												</div>
-												<div class="overflow-hidden mb32 mb-xs-24">
-													<div class="row">
-														<div class="col-sm-1"><i
-																class="icon pull-left pe-7s-cup icon-sm"></i></div>
-														<div class="col-sm-11"><h6
-																class="uppercase mb0 inline-block p32">special sessions
-																on competitive coding</h6></div>
-													</div>
-												</div>
-											</div>
 											<div class="col-md-4 col-sm-6">
 												<div class="pricing-table pt-1 text-center emphasis"><h5
 														class="uppercase">Regular Batch</h5><span
-														class="price">₹17,000</span>
+														class="price">₹20,000</span>
 													<a class="btn btn-white btn-lg" href="#register-java">Enroll Now</a>
 													<p><a href="/contactus">Contact Us</a><br>Call(Toll-free):
 														1800-2744-504</p></div>
@@ -312,16 +265,16 @@
 										</div>
 									</div>
 								</section>
-								{{> courseschedule}}
+								{{> courseschedule schedule=scheduleJava}}
 								<a id="register-java" class="in-page-link"></a>
 								<section class="mt-xs-64">
 									<div class="text-center"><h3>REGISTER NOW</h3></div>
 									<ul class="nav nav-tabs" role="tablist">
-														<li role="presentation" class="wide-tab active"><a taria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Noida</a></li>
+														<li role="presentation" class="wide-tab active"><a taria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Pitampura</a></li>
 									</ul>
-									<div class="container widget-container" data-widget-id='201'>
+                                    <div class="container widget-container" data-widget-id='{{widget-id-java}}'>
 										<iframe class="payment-widget" frameborder="0"
-											src="https://students.codingblocks.com/payment/iframe?item_id=201"></iframe>
+                                         src="https://students.codingblocks.com/payment/iframe?item_id={{widget-id-java}}"></iframe>
 									</div>
 								</section>
 							</div>
@@ -330,7 +283,6 @@
 				</div>
 			</div>
 		</div>
-
 	</section>
 
 	<section class="bg-secondary">
@@ -434,25 +386,24 @@
 {{> scripts}}
 <script>
     $(document).ready(function () {
-        var hash = window.location.hash;
+        const targetTabName = window.location.hash.slice (1);
+		const tabs = [
+			'#tab-basic',
+			'#basic',
+			'#tab-cpp-bundle',
+			'#cpp-bundle',
+			'#tab-java-bundle',
+			'#java-bundle'
+		].map (id => $(id))
 
-        if (hash === '#cpp-bundle') {
-            $('#tab-basic').removeClass ('active');
-            $('#basic').removeClass ('active');
-			$('#tab-cpp-bundle').addClass ('active');
-			$('#cpp-bundle').addClass ('active');
-			$('#tab-java-bundle').removeClass ('active');
-			$('#java-bundle').removeClass ('active');
-        }
+		if (! targetTabName) {
+			return;
+		}
 
-        if (hash === '#java-bundle') {
-            $('#tab-basic').removeClass ('active');
-            $('#basic').removeClass ('active');
-			$('#tab-java-bundle').addClass ('active');
-			$('#java-bundle').addClass ('active');
-			$('#tab-cpp-bundle').removeClass ('active');
-			$('#cpp-bundle').removeClass ('active');
-        }
+		tabs.map (tab => tab.removeClass ('active'))
+
+		$(`#${targetTabName}`).addClass ('active')
+		$(`#tab-${targetTabName}`).addClass ('active')
     })
 </script>
 </body>

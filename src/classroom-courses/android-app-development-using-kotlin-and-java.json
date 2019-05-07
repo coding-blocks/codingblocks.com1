@@ -145,6 +145,7 @@
     }
   ],
   "courseEnroll": {
+    "price": "22,000",
     "upcomingBatches": "Upcoming Courses:",
     "registerButton":{
         "disabled": true,
@@ -171,7 +172,8 @@
     "teamMembers": [
       "Arnav Gupta",
       "Harshit Dwivedi",
-      "Raj Kumar Saini"
+      "Raj Kumar Saini",
+	  "Arpit Gupta"
     ]
   },
   "courseReviews": [
@@ -183,22 +185,31 @@
     "DHRUV ANAND"
   ],
   "schedule": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "Jun 14",
-		  "enddate": "3rd Week of July",
-		  "daytime": "Sun, Sat (10:00 AM - 01:30 PM)",
-		  "batchtype": "Morning"
-	  },
-	  {
-		  "center": "Noida",
-		  "startdate": "Jun 15",
-		  "enddate": "3rd Week of July",
-		  "daytime": "Sun, Sat (10:00 AM - 01:30 PM)",
-		  "batchtype": "Morning"
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "8th June",
+      "enddate": "27th July",
+      "daytime": "Sat (11:00 AM - 2:30 PM), Sun (11:00 AM - 2:30 PM), Wed (11:00 AM - 2:30 PM)",
+      "batchtype": "Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "3rd June",
+      "enddate": "24th July",
+      "daytime": "Mon (12:30 PM - 3:30 PM), Wed (12:30 PM - 3:30 PM), Fri (12:30 PM - 3:30 PM)",
+      "batchtype": "Noon"
+    },
+    {
+      "center": "Dehradun",
+      "startdate": "26th May",
+      "enddate": "7th July",
+      "daytime": "Mon (2:30 PM – 5:30 PM), Wed (2:30 PM – 5:30 PM), Sat (2:30 PM – 5:30 PM), Sun (2:30 PM – 5:30 PM)",
+      "batchtype": "Evening"
+    }
   ],
   "reviewSlug": "Android App Development Course",
+  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=321",
+  "frame-id-dehradun-lp": "321",
   "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=297",
   "frame-id-pitampura-lp": "297",
   "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=298",

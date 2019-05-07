@@ -34,6 +34,7 @@
     <title>{{title}}</title>
     {{> meta}}
     {{> head}}
+     <meta name="B-verify" content="20e6f5e136a370d1852170f4312ba928947cc540" /> 
 </head>
 <body class="scroll-assist">
 {{> navbar}}
@@ -50,6 +51,7 @@
             </div>
             {{> coursesRow courses=coursesRow1}}
             {{> coursesRow courses=coursesRow2}}
+			{{> coursesRow courses=interviewPrepRow}}
             {{> coursesRow courses=coursesRow3}}
             {{> coursesRow courses=coursesRow4}}
         </div>
@@ -66,6 +68,7 @@
             {{> coursesRow courses=onlineCoursesRow1}}
             {{> coursesRow courses=onlineCoursesRow2}}
             {{> coursesRow courses=onlineCoursesRow3}}
+            {{> coursesRow courses=onlineCoursesRow4}}
         </div>
     </section>
     {{> numbers}}

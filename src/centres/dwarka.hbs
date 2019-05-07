@@ -12,7 +12,19 @@
     {{> centerlocation}}
     {{> review-course-section}}
     {{> teamCentre}}
-    {{> courses}}
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2 class="uppercase mb16">Classroom courses</h2>
+            <p class="lead mb64">Courses for all stages, with equal focus on theory and implementation</p>
+          </div>
+        </div>
+        {{> coursesRow courses=coursesRow1}}
+        {{> coursesRow courses=coursesRow2}}
+        {{> coursesRow courses=coursesRow3}}
+      </div>
+    </section>
     {{> footer}}
 </div>
 {{> scripts}}
