@@ -38,7 +38,6 @@
   },
   "courseEnroll": {
     "upcomingBatches": "",
-    "priceCut": "",
     "highlights": [
       {
         "icon": "et-line-search",
@@ -103,31 +102,38 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "Sep 15",
-      "enddate": "Nov 03",
-      "daytime": "Sat, Sun (08:00 AM - 11:30 AM)",
-      "batchtype": "Morning"
+      "startdate": "10th June",
+      "enddate": "11th July",
+      "daytime": "Mon (2:00 PM - 6:00 PM), Tue (2:00 PM - 6:00 PM), Thu (2:00 PM - 6:00 PM)",
+      "batchtype": "Noon"
     },
     {
       "center": "Dwarka",
-      "startdate": "Sep 15",
-      "enddate": "Nov 03",
-      "daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
+      "startdate": "15th June",
+      "enddate": "15th July",
+      "daytime": "Tue (3:00 PM - 7:00 PM), Thu (3:00 PM - 7:00 PM), Sat (3:00 PM - 7:00 PM), Sun (3:00 PM - 7:00 PM)",
+      "batchtype": "Fast Track"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "25th June",
+      "enddate": "25th July",
+      "daytime": "Tue (10:00 AM - 2:00 PM), Thu (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
+      "batchtype": "Normal"
+    },
+    {
+      "center": "Noida",
+      "startdate": "7th June",
+      "enddate": "29th June",
+      "daytime": "Mon (9:00 AM - 12:00 Noon), Wed (9:00 AM - 12:00 Noon), Fri (9:00 AM - 12:00 Noon), Sat (9:00 AM - 12:00 Noon)",
       "batchtype": "Morning"
     },
     {
       "center": "Noida",
-      "startdate": "Aug 13",
-      "enddate": "Oct 05",
-      "daytime": "Tue, Thu, Fri (5:00 PM - 7:30 PM)",
-      "batchtype": "Evening"
-    },
-    {
-      "center": "Dehradun",
-      "startdate": "Sep 27",
-      "enddate": "Oct 20",
-      "daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
-      "batchtype": "Morning"
+      "startdate": "22nd June",
+      "enddate": "13th July",
+      "daytime": "Mon (12:30 PM - 3:30 PM), Wed (12:30 PM - 3:30 PM), Fri (12:30 PM - 3:30 PM), Sat (12:30 PM - 3:30 PM)",
+      "batchtype": "Noon"
     }
   ],
   "courseReviews": [
@@ -136,10 +142,12 @@
     "GAGARIN DASH",
     "KSHITIJ BANSAL"
   ],
-  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=213",
-  "frame-id-pitampura": "213",
+  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=305",
+  "frame-id-pitampura": "305",
   "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=204",
   "frame-id-dehradun": "204",
-  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=202",
-  "frame-id-noida": "202"
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=307",
+  "frame-id-noida": "307",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=306",
+  "frame-id-dwarka-lp": "306"
 }

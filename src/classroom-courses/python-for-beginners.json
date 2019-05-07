@@ -122,7 +122,11 @@
 		  "File Manipulation",
 		  "Data Compression & Archiving",
 		  "Basic Network Programming",
-		  "Data Encryption"
+		  "Data Encryption",
+      "Web scraping",
+      "Flask",
+      "Data science introduction",
+      "Selenium with project"
       ]
     }
   ],
@@ -147,14 +151,15 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-		"Himank Bhalla",
-      "Raj Kumar Saini",
-      "Raunaq Verma"
+	  "Himank Bhalla",
+      "Raj Kumar Saini"
     ]
   },
   "courseEnroll": {
+	  "registerBoxHeading": "Regular Batches",
 	  "upcomingBatches": "Registrations closed !",
-	  "price": "8,000",
+	  "priceCut": "8,000",
+	  "price": "6,000",
 	  "highlights": [
 	  ],
 	  "registerButton": {
@@ -165,24 +170,17 @@
   "schedule": [
     {
       "center": "Dwarka",
-      "startdate": "Aug 25",
-      "enddate": "Sep 30",
-      "daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
-      "batchtype": "Morning"
-    },
-    {
-      "center": "Dehradun",
-      "startdate": "Aug 19",
-      "enddate": "Sep 30",
-      "daytime": "Sat, Sun (02:00 PM - 05:30 PM)",
-      "batchtype": "Evening"
+      "startdate": "Jun 14",
+      "enddate": "2nd Week of July",
+      "daytime": "TBD",
+      "batchtype": "Normal"
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=131",
-  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=207",
-  "frame-id-dehradun": "207",
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=256",
+  "frame-id-dehradun": "256",
   "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=198",
   "frame-id-pitampura": "198",
-  "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=199",
-  "frame-id-dwarka": "199"
+  "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=279",
+  "frame-id-dwarka": "279"
 }

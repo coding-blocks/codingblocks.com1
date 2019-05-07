@@ -1,0 +1,57 @@
+{
+  "title": "Six Months Industrial Training Program | Coding Blocks",
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/six_months_ind_training.html",
+    "title": "Six Months Industrial Training Program | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/18034230_1882557925295875_1998869145399567979_n.jpg?oh=c49b8f92e73c6ceb528e47ff05962b6d&oe=5996F9D6",
+    "description": "Coding Blocks presents to you an exciting industrial training opportunity with the Summer Training Program."
+  },
+  "courseReviews": [
+    "Naman Kumar",
+    "RISHABH KHANNA",
+    "YAMINI GAUR",
+    "ISHPREET SINGH",
+    "SUNEET SRIVASTAVA",
+    "RISHABH MENDIRATTA",
+    "GAGAN BHAYANA",
+    "ANIRUDH GUPTA",
+    "SHREYA GUPTA",
+    "KANIKA BHOOKER",
+    "GURLEEN KAILEY",
+    "PURUJIT BANSAL"
+  ],
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Arnav Gupta",
+      "Prateek Narang",
+      "Rajesh Sachdev",
+      "Anuj Garg",
+      "Kartik Mathur",
+      "Harshit Dwivedi",
+      "Aayush Arora",
+      "Rishab Kapoor"
+    ]
+  },
+	"scheduleTraining": [
+
+    {
+			"center": "Noida",
+			"startdate": "Jan 16 / Jan 28",
+			"enddate": "Jun 15 / Jun 27",
+			"daytime": "Tue, Wed, Thr, Fri (09:30 AM - 01:30 PM)",
+			"batchtype": "Morning"
+		}
+	],
+
+  "registerLinkDwarkaTraining": "https://students.codingblocks.com/payment/iframe?item_id=251",
+  "frame-id-dwarka-training": "251",
+
+  "registerLinkNoidaTraining": "https://students.codingblocks.com/payment/iframe?item_id=250",
+  "frame-id-noida-training": "250"
+
+}

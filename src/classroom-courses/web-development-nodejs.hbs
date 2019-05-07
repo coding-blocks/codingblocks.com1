@@ -12,10 +12,32 @@
 			{{> header}}
 			{{> overview}}
 			{{> coursehighlights}}
+			{{> freeAccessBanner}}
 			{{> coursecontents}}
-			{{> courseenroll}}
+			<section style="">
+				<div class="container">
+					<div class="row v-align-children">
+						<div class="col-md-4 col-sm-6">
+							<div class="pricing-table pt-1 text-center emphasis">
+								<h5 class="uppercase">
+									Regular Batch
+								</h5>
+								<div><span class="price">₹22,000</div>
+								<p class="lead">(20-22 lectures)</p>
+								<a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+								<p>
+									<a href="/contactus">Contact Us</a>
+									<br>Call(Toll-free): 1800-2744-504
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
 			{{> courseschedule}}
 			<section>
+				<a id="register"></a>
 				<div class="text-center">
 					<h3>REGISTER NOW</h3>
 				</div>
@@ -28,23 +50,23 @@
 						</ul>
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active" id="delhi">
-								<div class="container widget-container" data-widget-id="{{frame-id-pitampura-lp}}">
-									<iframe class="payment-widget" {{#if frame-id-pitampura-lp}}id="{{frame-id-pitampura-lp}}"{{/if}} frameborder="0" src="{{{registerLinkPitampuraLP}}}"></iframe>
+								<div class="container widget-container" data-widget-id="{{frame-id-pitampura-wd}}">
+									<iframe class="payment-widget" {{#if frame-id-pitampura-wd}}id="{{frame-id-pitampura-wd}}"{{/if}} frameborder="0" src="{{{registerLinkPitampuraWD}}}"></iframe>
 								</div>
 							</div>
 							<div role="tabpanel" class="tab-pane" id="noida">
-								<div class="container widget-container" data-widget-id="{{frame-id-noida-lp}}">
-									<iframe class="payment-widget" {{#if frame-id-noida-lp}}id="{{frame-id-noida-lp}}"{{/if}} frameborder="0" src="{{{registerLinkNoidaLP}}}"></iframe>
+								<div class="container widget-container" data-widget-id="{{frame-id-noida-wd}}">
+									<iframe class="payment-widget" {{#if frame-id-noida-wd}}id="{{frame-id-noida-wd}}"{{/if}} frameborder="0" src="{{{registerLinkNoidaWD}}}"></iframe>
 								</div>
 							</div>
 							<div role="tabpanel" class="tab-pane" id="dehradun">
 								<div class="container widget-container" data-widget-id="{{frame-id-dehradun}}">
-									<iframe class="payment-widget" {{#if frame-id-dehradun}}id="{{frame-id-dehradun}}"{{/if}} frameborder="0" src="{{{registerLinkDehradunLP}}}"></iframe>
+									<iframe class="payment-widget" {{#if frame-id-dehradun}}id="{{frame-id-dehradun}}"{{/if}} frameborder="0" src="{{{registerLinkDehradunWD}}}"></iframe>
 								</div>
 							</div>
 							<div role="tabpanel" class="tab-pane" id="dwarka">
-								<div class="container widget-container" data-widget-id="{{frame-id-dwarka-lp}}">
-									<iframe class="payment-widget" {{#if frame-id-dwarka-lp}}id="{{frame-id-dwarka-lp}}"{{/if}} frameborder="0" src="{{{registerLinkDwarkaLP}}}"></iframe>
+								<div class="container widget-container" data-widget-id="{{frame-id-dwarka-wd}}">
+									<iframe class="payment-widget" {{#if frame-id-dwarka-wd}}id="{{frame-id-dwarka-wd}}"{{/if}} frameborder="0" src="{{{registerLinkDwarkaWD}}}"></iframe>
 								</div>
 							</div>
 						</div>

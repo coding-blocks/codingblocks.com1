@@ -173,13 +173,29 @@
     "SHIVANSHU CHAUDHARY"
   ],
   "schedule": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "Aug 25",
-      "enddate": "Nov 10",
-		  "daytime": "Sat, Sun (04:15 PM - 07:30 PM)",
-		  "batchtype": "Evening"
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "7th June",
+      "enddate": "26th July",
+      "daytime": "Fri (12:15 PM - 3:45 PM), Mon (12:15 PM - 3:45 PM), Wed (12:15 PM - 3:45 PM)",
+      "batchtype": "Noon"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "12th June",
+      "enddate": "25th July",
+      "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
+      "batchtype": "Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "4th June",
+      "enddate": "30th July",
+      "daytime": "Tue  (4:00 PM - 7:00 PM), Thu  (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
+      "batchtype": "Evening"
+    }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=174"
+  "widget-id-pitampura": "299",
+  "widget-id-dwarka": "300",
+  "widget-id-noida": "301"
 }

@@ -1,0 +1,181 @@
+{
+    "id": "course41",
+    "title": "Industrial training in python | Coding Blocks",
+    "metas": [
+      {
+        "name": "description",
+        "content": "Learn Python at Coding Blocks, best Python training institute in Delhi,  Noida, Jalandhar, Amritsar and Dehradun. We offer Industrial training in Python."
+      },
+      {
+        "name": "keywords",
+        "content": "python,data structures,algorithms,ds,graphs,trees,codingblocks,course,delhi,dehradun,india"
+      }
+    ],
+    "openGraph": {
+      "url": "https://codingblocks.com/classroom-courses/industrial-training-in-python.html",
+      "title": "Industrial training in python | Coding Blocks",
+      "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
+      "description": "Learn Python at Coding Blocks, best Python training institute in Delhi,  Noida, Jalandhar, Amritsar and Dehradun. We offer Python course for beginners."
+    },
+    "header": {
+      "heading": "Industrial training in python",
+      "subHeading": "Certified training in Programming Fundamentals in Python",
+      "breadcrumbs": [
+        {
+          "linkText": "Highlights",
+          "link": "#highlights"
+        },
+        {
+          "linkText": "Contents",
+          "link": "#contents"
+        },
+        {
+          "linkText": "FAQ",
+          "link": "#faq"
+        }
+      ],
+      "bgSrc": "../../../assets/images/cb/cover/covergcp.jpg"
+    },
+    "overview": {
+        "content": "Get certified by Coding Blocks in Python and Django.<p class=\"lead\">Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source. Django was designed to help developers take applications from concept to completion as quickly as possible. It takes security seriously and helps developers avoid many common security mistakes. The most important advantage is its scalability. Some of the busiest sites on the Web leverage Django’s ability to quickly and flexibly scale.</p>"
+    },
+    "courseHighlights": [
+        {
+          "icon": "et-line-edit",
+          "title": "Web Design",
+          "content": "A website with great functionality must be complemented by top notch User Experience and a neat Responsive User Interface. Our course covers building both common and upcoming UI/UX patterns in Bootstrap."
+        },
+        {
+          "icon": "et-line-pictures",
+          "title": "MVC Architecture",
+          "content": "All modern web frameworks are built upon the solid foundations of MVC. We will learn how to impelement MVC within Django apps"
+        },
+        {
+          "icon": "fa fa-database",
+          "title": "Databases",
+          "content": "You will learn how to use both relational and non-relational databases with MySQL and MongoDB. We also cover Django-Admin which makes the database query writing process a little easier!"
+        },
+        {
+          "icon": "et-line-profile-male",
+          "title": "Basics of GitHub",
+          "content": "You'll learn how to use GitHub and basics of git."
+        }
+      ],
+    "courseContents": [
+      {
+        "active": true,
+        "title": "Basics",
+        "contentTitle": "",
+        "description": "",
+        "lectures": "Lectures 1-2",
+        "points": [
+            "Basics of Python",
+            "Working with packages",
+            "OOPS in Python",
+            "Basics of Github"
+        ]
+      },
+      {
+        "title": "Django Model Layer",
+        "contentTitle": "Django Model Layer",
+        "description": "",
+        "lectures": "Lectures 3-6",
+        "points": [
+            "What is MVC",
+            "Introduction to Django",
+            "Working with Interactive Shell",
+            "Model Layer - Introduction to models, Field Types, Meta options, Model Class",
+            "Query Set - Executing Queries, Queryset Method Reference",
+            "Migrations - Introduction to Migrations, Writing Migrations"
+        ]
+      },
+      {
+        "active": true,
+        "title": "View Layer",
+        "contentTitle": "View Layer",
+        "description": "",
+        "lectures": "Lectures 7-10",
+        "points": [
+            "View Layer - The basics, URLConfs, View Functions, Decorators",
+            "Request / Response objects",
+            "Class Based Views",
+            "File Uploads",
+            "Template Layer",
+            "Built in tags and filters",
+            "Custom tags and filters",
+            "Forms",
+            "Built in fields and widgets",
+            "Forms for models",
+            "Customizing validation"
+        ]
+      },
+      {
+        "title": "Generics, Code Organization",
+        "contentTitle": "Generics, Code Organization",
+        "description": "",
+        "lectures": "Lectures 11-12",
+        "points": [
+            "Django Generic package",
+            "Working with generic Views",
+            "Working with CRUD View",
+            "Using Mixins"
+        ]
+      }
+    ],
+    "faqs": [
+        {
+          "ques": "What are the pre-requisites ?",
+          "ans": "Familiarity with any programming language is must. Experience of basic Python is recommended."
+        },
+        {
+          "ques": "Who can do this course ?",
+          "ans": "Any one who wants to learn the Python-Django framework and build fully functional web-apps with backend can do this course."
+        },
+        {
+          "ques": "Should I choose NodeJS or Python for web-development ?",
+          "ans": "If you are looking forward for building Machine Learning Based Web Apps or chatbots then you must take this course. Python is the hottest language of the century and has a strong Machine Learning Ecosystem. We will also spend 1 class on data visualization and creating/saving Machine Learning Models on your server."
+        },
+        {
+          "ques": "Will I work on projects during the course ?",
+          "ans": "Yes, you build 2-3 projects of various difficulty in this course. You will also learn about deployment."
+        },
+        {
+          "ques": "Will I get a course certificate ?",
+          "ans": "If you complete your projects and assignments within the given timeframe, then you will get CB Python Developer Certificate."
+        }
+    ],
+    "mentors": {
+      "heading": "Mentors",
+      "content": "",
+      "flip": true,
+      "companies": false,
+      "contentCenter": true,
+      "teamMembers": [
+        "Raj Kumar Saini"
+      ]
+    },
+    "courseEnroll": {
+        "registerBoxHeading": "Regular Batches",
+        "upcomingBatches": "",
+        "priceCut": "8,000",
+        "price": "6,500",
+        "highlights": [
+        ],
+        "registerButton": {
+            "disabled": true,
+            "buttonText": "Register Now"
+        }
+    },
+    "schedule": [
+      {
+        "center": "Dehradun",
+        "startdate": "Feb 03",
+        "enddate": "Mar 16",
+        "daytime": "Sat, Sun (10:00 AM - 01:00 PM)",
+        "batchtype": "Morning"
+      }
+    ],
+    "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=281",
+    "frame-id-dehradun": "281"
+  }
+  

@@ -15,9 +15,8 @@
     "description": "Hone your CP skills by attending 1-week Competitive Programming Course. Learn new concepts by solving over 150 complex problems of varying difficulty level and brighten up you chances of getting selected in APAC and ACM-ICPC."
   },
   "courseEnroll": {
-    "price": "14,000",
-    "lectures": "",
-    "upcomingBatches": "Upcoming Batches",
+    "price": "15,000",
+    "lectures": "(10 lectures)",
     "registerBoxHeading": "",
     "registerButton": {
       "buttonText": "Register Now"
@@ -34,13 +33,20 @@
     ]
   },
   "schedule": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "Sep 01",
-		  "enddate": "Oct 06",
-		  "daytime": "Sat, Sun (04:15 PM - 07:30 PM)",
-		  "batchtype": "Evening"
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "10th June",
+      "enddate": "11th July",
+      "daytime": "Mon (3:30 PM - 7:00 PM), Thu (10:30 AM  - 2:30 PM)",
+      "batchtype": "Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "3rd June",
+      "enddate": "12th July",
+      "daytime": "Mon (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM)",
+      "batchtype": "Evening"
+    }
   ],
   "courseReviews": [
     "SHIKHAR PAHADIA",
@@ -55,10 +61,9 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-      "Prateek Narang",
-      "Deepak Aggarwal"
+      "Prateek Narang"
     ]
   },
-  "frame-id-pitampura": "214",
-  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=214"
+  "widget-id-pitampura": "308",
+  "widget-id-noida": "315"
 }

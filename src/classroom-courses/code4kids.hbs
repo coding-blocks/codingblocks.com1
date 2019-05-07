@@ -21,10 +21,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2 class="mb0 bold uppercase">CODE4KIDS</h2>
+                    <h2 class="mb0 bold uppercase">CODE4KIDS summer bootcamp</h2>
                 </div>
             </div>
-
         </div>
 
         <ol class="breadcrumb breadcrumb-2">
@@ -48,7 +47,7 @@
             <!-- Title -->
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="thin">Develop Android app using app inventor</h1>
+                    <h1 class="thin">Python bootcamp for class 7 - 10 students</h1>
                 </div>
             </div>
 
@@ -56,7 +55,7 @@
             <div class="row mb-xs-0">
                 <div class="col-sm-12">
                     <p class="lead">
-                        Computer programming is the most important skill of the twenty first century, and the earlier a kid starts, the better he will get. Coding Blocks brings to you Code4Kids, a one of its kind computer programming course for school kids. Through this course, your child will get an insight into the beautiful world of computer programming, as well as learn the basics of Andrid Application Development. This is the ideal course to enrol your child into, as it will cover all basic concepts that a child need to strengthen. The course will be taught by industry experts.
+                        Python is one of those rare languages which can claim to be both simple and powerful. You will find yourself pleasantly surprised to see how easy it is to concentrate on the solution to the problem rather than the syntax and structure of the language you are programming in. Children will be able to focus more on programming constructs than syntax.
                     </p>
                 </div>
             </div>
@@ -70,51 +69,68 @@
             <div class="row mt40 pt20">
                 <div class="col-md-3 col-sm-6 mb-xs-24">
                     <i class="icon mb32 ti ti-game"></i>
-                    <h6 class="uppercase">Fundamental of App Designing</h6>
+                    <h6 class="uppercase">Introduction to Computers</h6>
                     <ul>
-                        <li>Introduction to coding & app inventor</li>
-                        <li>Computational thinking</li>
-                        <li>Ux Design and Paper Prototyping</li>
-                        <li>Flowcharts</li>
-                        <li>User interface components on app inventor</li>
-                    </ul>
-                </div>
-
-                <div class="col-md-3 col-sm-6 mb-xs-24">
-                    <i class="icon mb32 ti ti-file"></i>
-                    <h6 class="uppercase">Connecting to different component</h6>
-                    <ul>
-                        <li>Media components Like speech recognition, sounds, text to speech</li>
-                        <li>Social components like sharing buttons</li>
-                        <li>Code for Sensors like accelometer, proximity, location etc</li>
-                        <li>Connecting to the web</li>
-                        <li>Code challenge with related example apps</li>
+                        <li>History</li>
+                        <li>Hardware/Software devices</li>
+                        <li>Inside your PC</li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-xs-24">
                     <i class="icon mb32 ti ti-write"></i>
-                    <h6 class="uppercase">Creating apps with social impact</h6>
+                    <h6 class="uppercase">Introduction to programming languages</h6>
                     <ul>
-                        <li>Design UI of app for idea finalised</li>
-                        <li>Start planning the code for app</li>
-                        <li>Progress Bar</li>
-                        <li>Coding</li>
-                        <li>Testing</li>
-                        <li>Debugging</li>
+                        <li>Variables</li>
+                        <li>Flowcharts</li>
+                        <li>Loops</li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-xs-24">
                     <i class="icon mb32 fa fa-file-code-o"></i>
-                    <h6 class="uppercase">Project Submission</h6>
+                    <h6 class="uppercase">Do more with less in python</h6>
                     <ul>
-                        <li>Demo Video</li>
-                        <li>Pitch Video</li>
-                        <li>Final Demo</li>
+                        <li>Master variables, loops and functions</li>
+                        <li>Learn to create games for all Operating systems</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-xs-24">
+                    <i class="icon mb32 ti ti-file"></i>
+                    <h6 class="uppercase">Build Interesting Projects</h6>
+                    <ul>
+                        <li>Python's turtle module</li>
+                        <li>Rock-Paper-Scissors</li>
+                        <li>Tic-Tac-Toe</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+    
+    {{> courseschedule}}
+    {{> courseenroll courseEnroll=courseEnroll}}
+	<a id="register"></a>
+	<section>
+		<div class="text-center">
+			<h3>REGISTER NOW</h3>
+		</div>
+		<div class="container">
+			<div class="course-tabs">
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="wide-tab active" id="tab-dwarka">
+						<a href="#dwarka" aria-controls="profile" role="tab" data-toggle="tab">Dwarka</a>
+					</li>
+				</ul>
+
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="dwarka">
+						<div class="container widget-container" data-widget-id='{{frame-id-dwarka}}'>
+							<iframe class="payment-widget" {{#if frame-id-dwarka}}id="{{frame-id-dwarka}}"{{/if}} frameborder="0" src="{{{registerLinkDwarka}}}"></iframe>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
     <a name="faqs"></a>
     <section class="bg-secondary">
@@ -137,7 +153,7 @@
                             </div>
                             <div class="content">
                                 <p>
-                                    School kids from classes VII-IX looking to start computer programming.
+                                    Students from classes 7 to 10 looking to get started with programming. This course has no prerequisite for knowledge.
                                 </p>
                             </div>
                         </li>
@@ -149,62 +165,34 @@
                             </div>
                             <div class="content">
                                 <p>
-                                    Yes, it certainly will help as computer programming is the most basic skill
-                                    required.
+                                    Yes, Python is used by hundreds of thousands of programmers, in fields like Web development, Scientific programming, Desktop GUIs, Network programming, Game programming.
                                 </p>
                             </div>
                         </li>
                         <li>
                             <div class="title">
                                 <h4 class="inline-block mb0">
-                                    Will my child be able to build his own Android application after this course ?
+                                    Why is Python suitable for young students?
                                 </h4>
                             </div>
                             <div class="content">
                                 <p>
-                                    Yes, each student will be able to build a basic functional application after the course.
+                                    Python is a good programming language for beginners. It is a high-level language, which means a programmer can focus on what to do instead of how to do it with easy to write syntax.
                                 </p>
                             </div>
                         </li>
                         <li>
                             <div class="title">
                                 <h4 class="inline-block mb0">
-                                    Will my child be able to learn languages like C, Java after this course?
+                                    Will this course help in building websites and apps?
                                 </h4>
                             </div>
                             <div class="content">
                                 <p>
-                                    This course will make it easier for the child to apply logic to computer
-                                    programming, and that will go a long way in helping him/her learn new languages.
+                                   This course is designed to give you a solid foundation upon which you can build further skills in Application Development, Web Development.
                                 </p>
                             </div>
                         </li>
-                        <li>
-                            <div class="title">
-                                <h4 class="inline-block mb0">
-                                    Will this course be helpful if my child wants to pursue computer engineering later?
-                                </h4>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Yes, with a stronghold on basics as well as good amount of effort, the child will be
-                                    able to do well as a computer engineer.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="title">
-                                <h4 class="inline-block mb0">
-                                    What is App Inventor?
-                                </h4>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    MIT App Inventor is an intuitive, visual programming environment that allows everyone, even children to build fully functional apps for smartphones and tablets. App Inventor is a visual, blocks language for building Android Apps.
-                                </p>
-                            </div>
-                        </li>
-
                     </ul>
 
                 </div>
@@ -213,42 +201,8 @@
         </div>
 
     </section>
-    <section class="bg-white">
-        <div class="container">
-            <div class="row v-align-children">
-                <div class="col-sm-5">
-                    <h3>Join Coding Blocks and
-                        <br> get ahead of the curve. Dates and schedule coming soon.</h3>
-                    <p class="lead mb40">
-                    </p>
-                    <div class="overflow-hidden mb32 mb-xs-24">
-                        <div class="row">
-                            <div class="col-sm-1">
-                                <i class="ti-package icon icon-sm pull-left"></i>
-                            </div>
-                            <div class="col-sm-11">
-                                <h6 class="uppercase mb0 inline-block p32">Enroll with Code4Kids and get special offer</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="overflow-hidden mb32 mb-xs-24">
-                        <div class="row">
-                            <div class="col-sm-1">
-                                <i class="ti-medall-alt icon icon-sm pull-left"></i>
-                            </div>
-                            <div class="col-sm-11">
-                                <h6 class="uppercase mb0 inline-block p32">Exciting Prizes and Goodies for all kids</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
     <!-- Footer -->
-    {{> review-course-section}}
+    {{> coursesample}}
     {{> map}}
     {{> footer}}
 </div>

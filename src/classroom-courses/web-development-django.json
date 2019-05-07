@@ -37,6 +37,17 @@
     ],
     "bgSrc": "/assets/images/cb/cover/cover_node.jpg"
   },
+  "mentors": {
+	  "heading": "Mentors",
+	  "content": "",
+	  "flip": true,
+	  "companies": false,
+	  "contentCenter": true,
+	  "teamMembers": [
+		  "Jatin Katyal",
+		  "Raj Kumar Saini"
+	  ]
+  },
   "overview": {
     "content": "<p class=\"lead\">Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source. Django was designed to help developers take applications from concept to completion as quickly as possible. It takes security seriously and helps developers avoid many common security mistakes. The most important advantage is its scalability. Some of the busiest sites on the Web leverage Django’s ability to quickly and flexibly scale.</p>",
 	"buttonDisabled": false,
@@ -168,7 +179,7 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming Batches:",
-	"priceCut": "15,000",
+	"priceCut": "17,000",
     "registerButton":{
       "disabled": false,
       "buttonText": "Register Now"
@@ -191,15 +202,23 @@
     "RISHABH KHANNA"
   ],
   "schedule": [
-	  {
-		  "center": "Dehradun",
-		  "startdate": "Sep 29",
-		  "enddate": "Oct 27",
-		  "daytime": "Sat, Sun (02:00 PM - 05:30 PM)",
-		  "batchtype": "Evening"
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "1st July",
+      "enddate": "31st July",
+      "daytime": "Mon (10:00 AM - 2:00 PM), Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM)",
+      "batchtype": "Morning"
+    },
+    {
+      "center": "Dehradun",
+      "startdate": "27th May",
+      "enddate": "7th July",
+      "daytime": "Tue (2:30 PM – 5:30 PM), Thu (2:30 PM – 5:30 PM), Fri (2:30 PM – 5:30 PM), Sun (2:30 PM – 5:30 PM)",
+      "batchtype": "Evening"
+    }
   ],
   "reviewSlug": "Web Development Course",
-  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=208",
-  "frame-id-dehradun": "208"
+  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=257",
+  "frame-id-dehradun": "318",
+  "frame-id-pitampura": "316"
 }
