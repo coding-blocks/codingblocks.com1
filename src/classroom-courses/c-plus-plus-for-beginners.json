@@ -91,9 +91,9 @@
   "scheduleLaunchpad": [
 	  {
 		  "center": "Pitampura",
-		  "startdate": "26th May",
+		  "startdate": "29th May",
 		  "enddate": "7th July",
-		  "daytime": "Sun (8:00 AM - 11:45 AM), Tue (8:00 AM - 11:00 AM), Thu (8:00 AM - 11:00 AM), Sat (8:00 AM - 11:45 AM)",
+		  "daytime": "Sun (8:00 AM - 11:45 AM), Tue (8:00 AM - 11:45 AM), Thu (8:00 AM - 11:45 AM), Sat (8:00 AM - 11:45 AM)",
 		  "batchtype": "Fast Track"
 	  },
 	  {
