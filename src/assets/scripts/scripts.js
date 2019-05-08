@@ -639,7 +639,7 @@ $(document).ready(function () {
                         break
                 }
                 if (true) {
-                    host = "https://cbcom.cb.lk"
+                    host = "https://cbcom.codingblocks.com"
                 } else {
                     host = "http://localhost:3000";
                     console.log("form data = " + thisForm.serialize())
