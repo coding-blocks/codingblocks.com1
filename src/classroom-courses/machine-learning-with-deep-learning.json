@@ -193,6 +193,13 @@
       "enddate": "30th July",
       "daytime": "Tue  (4:00 PM - 7:00 PM), Thu  (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
       "batchtype": "Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "7th June",
+      "enddate": "2nd August",
+      "daytime": "Mon  (4:00 PM - 7:00 PM), Wed  (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM)",
+      "batchtype": "Evening"
     }
   ],
   "widget-id-pitampura": "299",
