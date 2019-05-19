@@ -120,6 +120,13 @@
       "batchtype": "Normal"
     },
     {
+      "center": "Pitampura",
+      "startdate": "6th June",
+      "enddate": "3rd Aug",
+      "daytime": "Mon (2:00 PM - 6:00 PM), Tue (2:00 PM - 6:00 PM), Thu (2:00 PM - 6:00 PM)",
+      "batchtype": "Normal"
+    },
+    {
       "center": "Dwarka",
       "startdate": "4th June",
       "enddate": "15th July",

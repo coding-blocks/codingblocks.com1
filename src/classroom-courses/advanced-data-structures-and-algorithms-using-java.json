@@ -102,8 +102,15 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "10th June",
-      "enddate": "11th July",
+      "startdate": "7th June",
+      "enddate": "10th July",
+      "daytime": "Fri (8:00 AM - 11:45 AM), Sun (8:00 AM - 11:45 AM), Tue (8:00 AM - 11:45 AM), Wed (8:00 AM - 11:45 AM)",
+      "batchtype": "Morning"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "20th June",
+      "enddate": "3rd Aug",
       "daytime": "Mon (2:00 PM - 6:00 PM), Tue (2:00 PM - 6:00 PM), Thu (2:00 PM - 6:00 PM)",
       "batchtype": "Noon"
     },
