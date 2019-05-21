@@ -146,6 +146,13 @@
 		  "batchtype": "Evening"
 	  },
 	  {
+		  "center": "Noida",
+		  "startdate": "11th June",
+		  "enddate": "23rd July",
+		  "daytime": "Mon (9:00 AM - 12:00 Noon), Wed (9:00 PM - 12:00 Noon), Fri (9:00 AM - 12:00 Noon), Sat (9:00 AM - 12:00 Noon)",
+		  "batchtype": "Morning"
+	  },
+	  {
 		  "center": "Dehradun",
 		  "startdate": "26th May",
 		  "enddate": "07th July",
