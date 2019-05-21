@@ -92,7 +92,7 @@
 	  {
 		  "center": "Pitampura",
 		  "startdate": "29th May",
-		  "enddate": "7th July",
+		  "enddate": "9th July",
 		  "daytime": "Sun (8:00 AM - 11:45 AM), Tue (8:00 AM - 11:45 AM), Thu (8:00 AM - 11:45 AM), Sat (8:00 AM - 11:45 AM)",
 		  "batchtype": "Fast Track"
 	  },
@@ -144,6 +144,13 @@
 		  "enddate": "20th July",
 		  "daytime": "Mon (4:00 PM - 7:00 PM), Wed (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
 		  "batchtype": "Evening"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "11th June",
+		  "enddate": "23rd July",
+		  "daytime": "Mon (9:00 AM - 12:00 Noon), Wed (9:00 PM - 12:00 Noon), Fri (9:00 AM - 12:00 Noon), Sat (9:00 AM - 12:00 Noon)",
+		  "batchtype": "Morning"
 	  },
 	  {
 		  "center": "Dehradun",
