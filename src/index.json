@@ -7,6 +7,19 @@
     }
   ],
   "slides": [
+    {
+		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
+		  "imgAlt": "",
+		  "heading": "New Online Course on Data Science is live now !",
+		  "content": "Use code DS1500- Extra 1500 OFF ",
+		  "button": [
+			  {
+				  "link": "https://online.codingblocks.com/courses/data-science-online-course-python",
+				  "text": "Explore",
+				  "filled": "true"
+			  }
+		  ]
+	  },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
