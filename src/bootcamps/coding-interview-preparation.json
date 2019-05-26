@@ -28,6 +28,13 @@
   "scheduleCpp": [
     {
       "center": "Pitampura",
+      "startdate": "3rd June",
+      "enddate": "30th July",
+      "daytime": "Mon (8:00 AM - 11:45 AM), Tue(8:00 AM - 11:45 AM), Sat (3:30 PM - 7:00 PM)",
+      "batchtype": "Morning"
+    },
+    {
+      "center": "Pitampura",
       "startdate": "6th June",
       "enddate": "30th July",
       "daytime": "Thu (4:15 - 7:45 PM), Sat(4:15 - 7:45 PM), Mon (4:15 - 7:45 PM)",
