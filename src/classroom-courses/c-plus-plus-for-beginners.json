@@ -92,7 +92,7 @@
 	  {
 		  "center": "Pitampura",
 		  "startdate": "29th May",
-		  "enddate": "7th July",
+		  "enddate": "9th July",
 		  "daytime": "Sun (8:00 AM - 11:45 AM), Tue (8:00 AM - 11:45 AM), Thu (8:00 AM - 11:45 AM), Sat (8:00 AM - 11:45 AM)",
 		  "batchtype": "Fast Track"
 	  },
@@ -107,7 +107,14 @@
 		  "center": "Pitampura",
 		  "startdate": "10th June",
 		  "enddate": "3rd August",
-		  "daytime": "Mon (12:00 Noon - 3:45 PM), Tue (12:00 Noon - 3:45 PM), Thu (12:00 Noon - 3:45 PM)",
+		  "daytime": "Mon (4:00 PM - 7:30 PM), Tue (4:00 PM - 7:30 PM), Thu (12:05 PM - 3:50 PM)",
+		  "batchtype": "Normal"
+	  },
+	  {
+		  "center": "Pitampura",
+		  "startdate": "12th June",
+		  "enddate": "4th August",
+		  "daytime": "Wed (11:00 AM - 3:00 PM), Fri (11:00 AM - 3:00 PM), Sun (8:00 AM - 12:00 Noon)",
 		  "batchtype": "Normal"
 	  },
 	  {
@@ -144,6 +151,13 @@
 		  "enddate": "20th July",
 		  "daytime": "Mon (4:00 PM - 7:00 PM), Wed (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
 		  "batchtype": "Evening"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "11th June",
+		  "enddate": "23rd July",
+		  "daytime": "Tue (9:00 AM - 12:00 Noon), Thu (9:00 PM - 12:00 Noon), Sat (9:00 AM - 12:00 Noon), Sun (9:00 AM - 12:00 Noon)",
+		  "batchtype": "Morning"
 	  },
 	  {
 		  "center": "Dehradun",
