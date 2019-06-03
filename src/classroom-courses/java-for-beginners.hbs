@@ -150,9 +150,15 @@
                                             </ul>
                                             <div class="tab-content">
                                                 <div role="tabpanel" class="tab-pane active" id="delhi-adv">
-													<div class="container widget-container" data-widget-id="{{frame-id-pitampura-lp}}">
-                                                    	<iframe class="payment-widget" {{#if frame-id-pitampura-lp}}id="{{frame-id-pitampura-lp}}"{{/if}} frameborder="0" src="{{{registerLinkPitampuraLP}}}"></iframe>
-													</div>
+													{{#if frame-id-pitampura-lp}}
+														<div class="container widget-container" data-widget-id="{{frame-id-pitampura-lp}}">
+															<iframe class="payment-widget" {{#if frame-id-pitampura-lp}}id="{{frame-id-pitampura-lp}}"{{/if}} frameborder="0" src="{{{registerLinkPitampuraLP}}}"></iframe>
+														</div>
+													{{else}}
+															<div class="col-xs-12 text-center bg-secondary" style="height: 100%;">
+        														<p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Seats full. Admissions closed.</p>
+    														</div> 
+													{{/if}}
 												</div>
                                                 <div role="tabpanel" class="tab-pane" id="noida-adv">
 													<div class="container widget-container" data-widget-id="{{frame-id-noida-lp}}">
