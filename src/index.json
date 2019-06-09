@@ -8,6 +8,19 @@
   ],
   "slides": [
     {
+		  "imgSrc": "/assets/images/cb/cover/india-vs-aus-blur.jpg",
+		  "imgAlt": "",
+		  "heading": "Coding Blocks Cricket Cup is Live !",
+		  "content": "Make 3 easy predictions on today's match and get a chance to win free courses !",
+		  "button": [
+			  {
+				  "link": "https://online.codingblocks.com/cricket_cup",
+				  "text": "Make Predictions now !",
+				  "filled": "true"
+			  }
+		  ]
+	  },
+    {
 		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
 		  "imgAlt": "",
 		  "heading": "New Online Course on Data Science is live now !",
