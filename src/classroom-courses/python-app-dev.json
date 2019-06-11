@@ -204,6 +204,13 @@
       "enddate": "8th July",
       "daytime": "Tue (12:30 PM - 3:30 PM), Thu (12:30 PM - 3:30 PM), Sat (12:30 PM - 3:30 PM)",
       "batchtype": "Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "18th June",
+      "enddate": "16th July",
+      "daytime": "Tue (9:00 AM - 12:00 Noon), Thu (9:00 AM - 12:00 Noon), Sun (9:00 AM - 12:00 Noon)",
+      "batchtype": "Noon"
     }
   ],
 
