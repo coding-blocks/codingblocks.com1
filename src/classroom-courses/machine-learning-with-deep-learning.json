@@ -175,38 +175,24 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "7th June",
-      "enddate": "26th July",
-      "daytime": "Fri (12:15 PM - 3:45 PM), Mon (12:15 PM - 3:45 PM), Wed (12:15 PM - 3:45 PM)",
-      "batchtype": "Noon"
-    },
-    {
-      "center": "Pitampura",
-      "startdate": "11th June",
-      "enddate": "17th July",
-      "daytime": "Tue (4:00 PM - 7:30 PM), Wed (4:00 PM - 7:30 PM), Fri (4:00 PM - 7:30 PM), Sun (12:00 Noon - 3:50 PM)",
-      "batchtype": "Evening"
+      "startdate": "11th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (12:10 PM - 3:40 PM), Sat (12:10 PM - 3:40 PM)",
+      "batchtype": "Weekend-Noon"
     },
     {
       "center": "Dwarka",
-      "startdate": "12th June",
-      "enddate": "25th July",
-      "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
-      "batchtype": "Morning"
+      "startdate": "11th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (10:00 AM - 1:30 PM), Sat (10:00 AM - 1:30 PM)",
+      "batchtype": "Weekend-Morning"
     },
     {
       "center": "Noida",
-      "startdate": "4th June",
-      "enddate": "30th July",
-      "daytime": "Tue  (4:00 PM - 7:00 PM), Thu  (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
-      "batchtype": "Evening"
-    },
-    {
-      "center": "Noida",
-      "startdate": "7th June",
-      "enddate": "2nd August",
-      "daytime": "Mon  (4:00 PM - 7:00 PM), Wed  (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM)",
-      "batchtype": "Evening"
+      "startdate": "11 Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (12:30 PM - 3:30 PM), Fri (12:30 PM - 3:30 PM)",
+      "batchtype": "Weekend-Noon"
     }
   ],
   "widget-id-pitampura": "332",
