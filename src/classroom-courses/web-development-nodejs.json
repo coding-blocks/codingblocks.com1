@@ -189,31 +189,17 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "8th June",
-      "enddate": "21st July",
-      "daytime": "Sat (4:00 PM - 7:30 PM), Sun (4:00 PM - 7:30 PM), Thu (4:00 PM - 7:30 PM)",
-      "batchtype": "Evening"
-    },
-    {
-      "center": "Pitampura",
-      "startdate": "11th June",
-      "enddate": "30th July",
-      "daytime": "Mon (8:00 AM - 11:45 AM), Tue (12:05 PM - 3:50 PM), Fri (8:00 AM - 11:45 AM)",
-      "batchtype": "Morning"
-    },
-    {
-      "center": "Dwarka",
-      "startdate": "12th June",
-      "enddate": "25th July",
-      "daytime": "Mon (3:00 PM - 7:00 PM), Wed (3:00 PM - 7:00 PM), Fri (3:00 PM - 7:00 PM)",
-      "batchtype": "Weekday"
+      "startdate": "11th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (4:10 PM - 7:30 PM), Sat (4:10 PM - 7:30 PM)",
+      "batchtype": "Weekend-Evening"
     },
     {
       "center": "Noida",
-      "startdate": "4th June",
-      "enddate": "23rd July",
-      "daytime": "Tue  (4:00 PM - 7:00 PM), Thu  (4:00 PM - 7:00 PM), Sat  (4:00 PM - 7:00 PM)",
-      "batchtype": "Evening"
+      "startdate": "11th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun  (12:10 PM - 3:40 PM), Sat  (12:10 PM - 3:40 PM)",
+      "batchtype": "Weekend-Noon"
     }
   ],
   "reviewSlug": "Web Development Course",
