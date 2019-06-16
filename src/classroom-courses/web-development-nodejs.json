@@ -178,7 +178,7 @@
     "teamMembers": [
       "Arnav Gupta",
       "Aayush Arora",
-      "Rishabh Khanna"	    
+      "Rishabh Khanna"
     ]
   },
   "courseReviews": [
@@ -223,12 +223,12 @@
   "registerLinkDehradunWD": "https://students.codingblocks.com/payment/iframe?item_id=169",
   "frame-id-dehradun-wd": "169",
 
-  "registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=294",
-  "frame-id-pitampura-wd": "294",
+  "registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=335",
+  "frame-id-pitampura-wd": "335",
 
   "registerLinkDwarkaWD": "https://students.codingblocks.com/payment/iframe?item_id=295",
   "frame-id-dwarka-wd": "295",
 
-  "registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=296",
-  "frame-id-noida-wd": "296"
+  "registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=336",
+  "frame-id-noida-wd": "336"
 }

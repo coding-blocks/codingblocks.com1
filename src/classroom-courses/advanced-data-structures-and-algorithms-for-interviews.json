@@ -220,15 +220,15 @@
     "Dhruv Kulshreshtha",
     "Parth Dhamija"
   ],
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=302",
-  "frame-id-pitampura-lp": "302",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=329",
+  "frame-id-pitampura-lp": "329",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=304",
-  "frame-id-noida-lp": "304",
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=331",
+  "frame-id-noida-lp": "331",
 
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=255",
   "frame-id-dehradun-lp": "255",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=303",
-  "frame-id-dwarka-lp": "303"
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=330",
+  "frame-id-dwarka-lp": "330"
 }

@@ -177,13 +177,13 @@
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=320",
   "frame-id-dehradun-lp": "320",
 
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=285",
-  "frame-id-pitampura-lp": "285",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=323",
+  "frame-id-pitampura-lp": "323",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=286",
-  "frame-id-dwarka-lp": "286",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=324",
+  "frame-id-dwarka-lp": "324",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=287",
-  "frame-id-noida-lp": "287"
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=325",
+  "frame-id-noida-lp": "325"
 
 }
