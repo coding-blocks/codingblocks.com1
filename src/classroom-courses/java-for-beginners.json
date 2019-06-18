@@ -107,52 +107,17 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "28th May",
-      "enddate": "10th July",
-      "daytime": "Sun (8:00 AM - 11:45 AM), Tue (8:00 AM - 11:45 AM), Wed (8:00 AM - 11:45 AM), Fri (8:00 AM - 11:45 AM)",
-      "batchtype": "Fast Track"
-    },
-    {
-      "center": "Pitampura",
-      "startdate": "5th June",
-      "enddate": "2nd Aug",
-      "daytime": "Wed (12:15 PM - 3:45 PM), Fri (12:15 PM - 3:45 PM), Mon (8:00 AM - 1:00 PM)",
-      "batchtype": "Normal"
-    },
-    {
-      "center": "Pitampura",
-      "startdate": "6th June",
-      "enddate": "3rd Aug",
-      "daytime": "Mon (12:05 PM - 3:50 PM), Tue (12:05 PM - 3:50 PM), Thu (12:05 PM - 3:50 PM)",
-      "batchtype": "Normal"
+      "startdate": "11th Aug",
+      "enddate": "TBD",
+      "daytime": "Sat (8:00 AM - 11:30 AM), Sun (8:00 AM - 11:30 AM)",
+      "batchtype": "Weekend - Morning"
     },
     {
       "center": "Dwarka",
-      "startdate": "4th June",
-      "enddate": "15th July",
-      "daytime": "Tue (3:00 PM - 7:00 PM), Thu (3:00 PM - 7:00 PM), Sat (3:00 PM - 7:00 PM), Sun (3:00 PM - 7:00 PM)",
-      "batchtype": "Fast Track"
-    },
-    {
-      "center": "Dwarka",
-      "startdate": "11th June",
-      "enddate": "25th July",
-      "daytime": "Tue (10:00 AM - 2:00 PM), Thu (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
-      "batchtype": "Normal"
-    },
-    {
-      "center": "Noida",
-      "startdate": "18th May",
-      "enddate": "29th June",
-      "daytime": "Mon (9:00 AM - 12:00 Noon), Wed (9:00 AM - 12:00 Noon), Fri (9:00 AM - 12:00 Noon), Sat (9:00 AM - 12:00 Noon)",
-      "batchtype": "Morning"
-    },
-    {
-      "center": "Noida",
-      "startdate": "3rd June",
-      "enddate": "13th July",
-      "daytime": "Mon (12:30 PM - 3:30 PM), Wed (12:30 PM - 3:30 PM), Fri (12:30 PM - 3:30 PM), Sat (12:30 PM - 3:30 PM)",
-      "batchtype": "Noon"
+      "startdate": "11th Aug",
+      "enddate": "TBD",
+      "daytime": "Sat (3:00 PM - 6:30 PM), Sun (3:00 PM - 6:30 PM)",
+      "batchtype": "Weekend - Evening"
     },
     {
       "center": "Noida",
@@ -162,11 +127,11 @@
       "batchtype": "Morning"
     },
     {
-      "center": "Dehradun",
-      "startdate": "27th May",
-      "enddate": "7th July",
-      "daytime": "Mon (10:00 AM – 1:00 PM), Tue (10:00 AM – 1:00 PM), Thu (10:00 AM – 1:00 PM), Fri (10:00 AM – 1:00 PM)",
-      "batchtype": "Morning"
+      "center": "Noida",
+      "startdate": "11th Aug",
+      "enddate": "TBD",
+      "daytime": "Sat (9:00 AM - 11:50 AM), Sun (9:00 AM - 11:50 AM)",
+      "batchtype": "Weekend - Morning"
     }
   ],
   "courseReviews": [
@@ -179,8 +144,11 @@
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=319",
   "frame-id-dehradun-lp": "319",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=289",
-  "frame-id-dwarka-lp": "289",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=326",
+  "frame-id-pitampura-lp": "326",
+
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=327",
+  "frame-id-dwarka-lp": "327",
 
   "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=290",
   "frame-id-noida-lp": "290"

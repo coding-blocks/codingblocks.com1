@@ -35,17 +35,10 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "11th June",
-      "enddate": "2nd July",
-      "daytime": "Tue (3:30 PM - 7:00 PM), Thu (3:30 PM  - 7:00 PM), Sat (11:00 AM - 2:30 PM)",
-      "batchtype": "Evening"
-    },
-    {
-      "center": "Noida",
-      "startdate": "3rd June",
-      "enddate": "12th July",
-      "daytime": "Mon (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM)",
-      "batchtype": "Evening"
+      "startdate": "11th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (8:00 AM - 11:30 AM), Sat (8:00 AM - 11:30 AM)",
+      "batchtype": "Weekend-Morning"
     }
   ],
   "courseReviews": [
@@ -64,6 +57,6 @@
       "Prateek Narang"
     ]
   },
-  "widget-id-pitampura": "308",
+  "widget-id-pitampura": "341",
   "widget-id-noida": "315"
 }
