@@ -154,6 +154,24 @@
         "A final year undergraduate at DTU, Nikhil is an avid pythonista who loves to create utilities and automate the boring stuff. He is passionate about teaching and has organized workshops on various Python topics. He also maintains his own YouTube channel and blog which goes by the name \"Indian Pythonista\"."
     },
     {
+      "name": "Iti Jain",
+      "role": "Mentor",
+      "imgSrc":
+        "/assets/images/cb/team/iti_jain.png",
+      "imgAlt": "Iti Jain",
+      "bio":
+        "A data science enthusiast and a competitive programmer, Iti is a passionate developer working on technologies like NodeJS, React and Angular. She has worked with Coding blocks and VLYOP Technologies, an Ed-Tech startup as a lead developer.  She likes to spare time with NGOs like Light de literacy and always looks forward to a noble cause."
+    },
+    {
+      "name": "Shubham Rawat",
+      "role": "Mentor",
+      "imgSrc":
+        "/assets/images/cb/team/shubham1.png",
+      "imgAlt": "Shubham Rawat",
+      "bio":
+      "Shubham Rawat is an Open Source geek and a fitness freak. He was a Google Code-In mentor with JBoss Community under RedHat. He has worked with Debezium Project under Redhat and also with Vlyop technology . He loves to solve puzzles and generally found dwelling with Spring Boot applications."
+    },
+    {
       "name": "Prajjwal Singh",
       "role": "Senior Developer",
       "imgSrc": "/assets/images/cb/team/c_prajjwal.JPG",
