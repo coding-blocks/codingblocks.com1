@@ -1,33 +1,33 @@
-{{!-- <!--teammember-->
+<!--teammember-->
 {{#if flip}}
     {{# if small }}
         <div class="flip-card team-card col-sm-4 col-md-2">
     {{else}}
         <div class="flip-card team-card col-sm-6 col-md-3">
     {{/if}}
-        <div class="front">
+    <div class="front">
+        <div class="img-holder">
+            <img alt="{{{imgAlt}}}" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
+        </div>
+        <div class="title mb16">
+            <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
+            <span class="bold">{{{role}}}</span>
+        </div>
+    </div>
+    <div class="back">
+        <div class="title mb16">
             <div class="img-holder">
                 <img alt="{{{imgAlt}}}" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
             </div>
-            <div class="title mb16">
-                <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
-                <span class="bold">{{{role}}}</span>
-            </div>
+            <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
+            <span class="bold">{{{role}}}</span>
         </div>
-        <div class="back">
-            <div class="title mb16">
-                <div class="img-holder">
-                    <img alt="{{{imgAlt}}}" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
-                </div>
-                <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
-                <span class="bold">{{{role}}}</span>
-            </div>
-            <p class="mb0">
-                {{{bio}}}
-            </p>
-        </div>
+        <p class="mb0">
+            {{{bio}}}
+        </p>
     </div>
-{{else}} --}}
+</div>
+{{else}}
     {{# if small }}
     <div class="col-sm-4 col-md-2">
     {{else}}
@@ -46,5 +46,5 @@
             </p>
         </div>
     </div>
-{{!-- {{/if}}
-<!--endteammember--> --}}
+{{/if}}
+<!--endteammember-->
