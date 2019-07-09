@@ -33,7 +33,20 @@
 				  "filled": "true"
         }
 		  ]
-	  },
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+      "imgAlt": "",
+      "heading": "Register for CAST & APAT",
+      "content": "Get upto 95% off on our Basic or Advanced Courses this summer.",
+      "button": [
+        {
+          "link": "/scholarship-tests.html",
+          "text": "View Details",
+          "filled": "true"
+        }
+      ]
+    },
     {
 		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
 		  "imgAlt": "",
@@ -43,19 +56,6 @@
 			  {
 				  "link": "https://online.codingblocks.com/courses/data-science-online-course-python",
 				  "text": "Explore",
-				  "filled": "true"
-			  }
-		  ]
-	  },
-	  {
-		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
-		  "imgAlt": "",
-		  "heading": "CAST & APAT Results Declared",
-		  "content": "Get upto 95% off on our Basic or Advanced Courses this summer.",
-		  "button": [
-			  {
-				  "link": "/scholarship-tests.html",
-				  "text": "View Details",
 				  "filled": "true"
 			  }
 		  ]
