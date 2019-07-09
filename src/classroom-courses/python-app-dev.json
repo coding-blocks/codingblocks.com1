@@ -179,36 +179,28 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "11th Aug",
+      "startdate": "18th Aug",
       "enddate": "TBD",
       "daytime": "Sun (4:10 PM - 7.30 PM),  Sat (4:10 PM - 7.30 PM)",
       "batchtype": "Weekend-Evening"
     },
     {
       "center": "Dwarka",
-      "startdate": "11th Aug",
+      "startdate": "25th Aug",
       "enddate": "TBD",
-      "daytime": "Sun (10:00 AM - 1:30 PM), Sat (10:00 AM - 1:30 PM)",
+      "daytime": "Sun (9:30 AM - 1:00 PM), Sat (9:30 AM - 1:00 PM)",
       "batchtype": "Weekend-Morning"
     },
     {
       "center": "Noida",
-      "startdate": "11th Aug",
+      "startdate": "18th Aug",
       "enddate": "TBD",
       "daytime": "Sun (9:00 AM - 11:50 AM), Sat (9:00 AM - 11:50 AM)",
       "batchtype": "Morning"
-    },
-    {
-      "center": "Noida",
-      "startdate": "18th June",
-      "enddate": "16th July",
-      "daytime": "Tue (9:00 AM - 12:00 Noon), Thu (9:00 AM - 12:00 Noon), Sun (9:00 AM - 12:00 Noon)",
-      "batchtype": "Noon"
     }
-  
   ],
 
   "frame-id-pitampura": "337",
-  "frame-id-noida": "292",
+  "frame-id-noida": "339",
   "frame-id-dwarka": "338"
 }

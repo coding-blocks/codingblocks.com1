@@ -180,24 +180,17 @@
     },
     {
       "center": "Pitampura",
-      "startdate": "11th Aug",
+      "startdate": "18th Aug",
       "enddate": "TBD",
-      "daytime": "Sun (4:10 PM - 7.30 PM), Sat (4:10 PM - 7.30 PM)",
+      "daytime": "Sun (12:10 PM - 3:40 PM), Sat (12:10 PM - 3:40 PM)",
       "batchtype": "Weekend-Evening"
     },
     {
-      "center": "Dwarka",
-      "startdate": "19th June",
-      "enddate": "22nd July",
-      "daytime": "Wed (3:00 PM - 7:00 PM), Fri (3:00 PM - 7:00 PM), Mon (3:00 PM - 7:00 PM)",
-      "batchtype": "Normal"
-    },
-    {
-      "center": "Dwarka",
-      "startdate": "23rd June",
-      "enddate": "20th July",
-      "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM), Mon (10:00 AM - 2:00 PM)",
-      "batchtype": "Fast Track"
+      "center": "Pitampura",
+      "startdate": "1st Sep",
+      "enddate": "TBD",
+      "daytime": "Sun (4:10 PM - 7:30 PM), Sat (4:10 PM - 7:30 PM)",
+      "batchtype": "Weekend-Evening"
     },
     {
       "center": "Dwarka",
@@ -222,7 +215,7 @@
     "Parth Dhamija"
   ],
   "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=322",
-  "frame-id-pitampura-lp": "322",
+  "frame-id-pitampura-lp": "329",
 
   "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=331",
   "frame-id-noida-lp": "331",

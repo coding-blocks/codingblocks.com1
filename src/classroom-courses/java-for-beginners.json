@@ -114,25 +114,32 @@
       "batchtype": "Weekend - Morning"
     },
     {
+      "center": "Pitampura",
+      "startdate": "18th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (12:05 PM - 3:50 PM),  Sat (12:05 PM - 3:50 PM)",
+      "batchtype": "Weekend - Morning"
+    },
+    {
       "center": "Dwarka",
-      "startdate": "11th Aug",
+      "startdate": "18th Aug",
       "enddate": "TBD",
       "daytime": "Sat (3:00 PM - 6:30 PM), Sun (3:00 PM - 6:30 PM)",
       "batchtype": "Weekend - Evening"
     },
     {
       "center": "Noida",
-      "startdate": "18th June",
-      "enddate": "31st July",
-      "daytime": "Tue (9:00 AM - 12:00 Noon), Thu (9:00 AM - 12:00 Noon), Sun (9:00 AM - 12:00 Noon)",
-      "batchtype": "Morning"
+      "startdate": "18th August",
+      "enddate": "TBD",
+      "daytime": "Sun (9:00 AM - 11:50 AM), Sat (9:00 AM - 11:50 AM)",
+      "batchtype": "Weekend - Morning"
     },
     {
       "center": "Noida",
-      "startdate": "11th Aug",
+      "startdate": "25th Aug",
       "enddate": "TBD",
-      "daytime": "Sat (9:00 AM - 11:50 AM), Sun (9:00 AM - 11:50 AM)",
-      "batchtype": "Weekend - Morning"
+      "daytime": "Sun (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
+      "batchtype": "Weekend - Evening"
     }
   ],
   "courseReviews": [
@@ -152,5 +159,5 @@
   "frame-id-dwarka-lp": "327",
 
   "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=290",
-  "frame-id-noida-lp": "290"
+  "frame-id-noida-lp": "328"
 }
