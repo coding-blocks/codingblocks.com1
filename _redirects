@@ -87,3 +87,4 @@
 /img/*        https://coding-blocks.github.io/img/:splat        200
 /boss/*       https://lab.codingblocks.com/boss                 301
 /login        https://account.codingblocks.com                  301
+/coding-blocks/tic-tac-toe      https://github.com/coding-blocks/tic-tac-toe   301
