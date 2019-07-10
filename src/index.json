@@ -9,6 +9,19 @@
 
   "slides": [
     {
+      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+      "imgAlt": "",
+      "heading": "Register for CAST & APAT",
+      "content": "Get upto 95% off on our Basic or Advanced Courses this monsoon.",
+      "button": [
+        {
+          "link": "/scholarship-tests.html",
+          "text": "View Details",
+          "filled": "true"
+        }
+      ]
+    },
+    {
 		  "imgSrc": "/assets/images/cb/cover/india-vs-aus-blur.jpg",
 		  "imgAlt": "",
 		  "heading": "This world cup it's not just India who's winning !",
@@ -33,19 +46,6 @@
 				  "filled": "true"
         }
 		  ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
-      "imgAlt": "",
-      "heading": "Register for CAST & APAT",
-      "content": "Get upto 95% off on our Basic or Advanced Courses this summer.",
-      "button": [
-        {
-          "link": "/scholarship-tests.html",
-          "text": "View Details",
-          "filled": "true"
-        }
-      ]
     },
     {
 		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
