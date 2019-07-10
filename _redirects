@@ -77,7 +77,8 @@
 /cast.html  /scholarship-tests.html
 
 ## Centre redirect
-/centres/greater-noida.html	               /centres/noida.html					
+/centres/greater-noida.html	               /centres/noida.html
+/centres/gurugram.html                     /centres/
 
 # Outside Redirects for Netlify 
 
