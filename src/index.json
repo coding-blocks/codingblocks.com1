@@ -9,32 +9,6 @@
 
   "slides": [
     {
-		  "imgSrc": "/assets/images/cb/cover/india-vs-aus-blur.jpg",
-		  "imgAlt": "",
-		  "heading": "This world cup it's not just India who's winning !",
-		  "content": "Get a chance to win free courses! Use code ICC2019 to get an additional ₹2500 discount on our Online Courses.  100% Scholarship will be given to 5 students every day.",
-		  "button": [
-			  {
-				  "link": "https://online.codingblocks.com/",
-				  "text": "Start with a free trial now !",
-				  "filled": "true"
-        }
-		  ]
-	  },
-    {
-		  "imgSrc": "/assets/images/cb/cover/india-vs-aus-blur.jpg",
-		  "imgAlt": "",
-		  "heading": "This world cup it's not just India who's winning !",
-		  "content": "Make 3 easy predictions on today's match and get a chance to win free courses!",
-		  "button": [
-			  {
-				  "link": "https://online.codingblocks.com/cricket_cup",
-				  "text": "Make Predictions now !",
-				  "filled": "true"
-        }
-		  ]
-    },
-    {
       "imgSrc": "/assets/images/cb/cover/cover2.jpg",
       "imgAlt": "",
       "heading": "Register for CAST & APAT",
@@ -42,11 +16,37 @@
       "button": [
         {
           "link": "/scholarship-tests.html",
-          "text": "View Details",
+          "text": "Register Now",
           "filled": "true"
         }
       ]
     },
+    {
+      "imgSrc": "/assets/images/cb/cover/india-vs-aus-blur.jpg",
+      "imgAlt": "",
+      "heading": "This world cup its not just India who's winning !",
+      "content": "Make 3 easy predictions on today's match and get a chance to win free courses!",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/cricket_cup",
+          "text": "Make Predictions now !",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+		  "imgSrc": "/assets/images/cb/cover/cover_admission.png",
+		  "imgAlt": "",
+		  "heading": "Weekend Classroom Courses Starting this August",
+		  "content": "Courses for all stages, with equal focus on theory and implementation",
+		  "button": [
+			  {
+				  "link": "/classroom-courses",
+				  "text": "Register Now",
+				  "filled": "true"
+        }
+		  ]
+	  },
     {
 		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
 		  "imgAlt": "",
@@ -56,19 +56,6 @@
 			  {
 				  "link": "https://online.codingblocks.com/courses/data-science-online-course-python",
 				  "text": "Explore",
-				  "filled": "true"
-			  }
-		  ]
-	  },
-	  {
-		  "imgSrc": "/assets/images/cb/cover/code4kids.jpg",
-		  "imgAlt": "",
-		  "heading": "Code For Kids",
-		  "content": "Get an early start to programming!",
-		  "button": [
-			  {
-				  "link": "/classroom-courses/code4kids.html",
-				  "text": "Register Now!",
 				  "filled": "true"
 			  }
 		  ]
@@ -159,7 +146,7 @@
       "odd": true
     },
     {
-      "id": "webdj"
+      "id": "course03"
     },
     {
       "id": "course04",
@@ -168,7 +155,7 @@
   ],
   "coursesRow4": [
     {
-      "id": "course03"
+      "id": "webdj"
     },
     {
       "id": "course06",
@@ -250,7 +237,7 @@
   {
       "id": "course24"
   },{
-    "id": "course28",
+    "id": "course29",
     "odd": true
   }
   ],
