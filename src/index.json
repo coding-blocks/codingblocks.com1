@@ -50,25 +50,25 @@
     {
 		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
 		  "imgAlt": "",
+		  "heading": "Weekend Classroom Courses Starting this August",
+		  "content": "Courses for all stages, with equal focus on theory and implementation",
+		  "button": [
+			  {
+				  "link": "/classroom-courses",
+				  "text": "Register Now",
+				  "filled": "true"
+        }
+		  ]
+	  },
+    {
+		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
+		  "imgAlt": "",
 		  "heading": "New Online Course on Data Science is live now !",
 		  "content": "Use code DS1500- Extra 1500 OFF ",
 		  "button": [
 			  {
 				  "link": "https://online.codingblocks.com/courses/data-science-online-course-python",
 				  "text": "Explore",
-				  "filled": "true"
-			  }
-		  ]
-	  },
-	  {
-		  "imgSrc": "/assets/images/cb/cover/code4kids.jpg",
-		  "imgAlt": "",
-		  "heading": "Code For Kids",
-		  "content": "Get an early start to programming!",
-		  "button": [
-			  {
-				  "link": "/classroom-courses/code4kids.html",
-				  "text": "Register Now!",
 				  "filled": "true"
 			  }
 		  ]
@@ -159,7 +159,7 @@
       "odd": true
     },
     {
-      "id": "webdj"
+      "id": "course03"
     },
     {
       "id": "course04",
@@ -168,7 +168,7 @@
   ],
   "coursesRow4": [
     {
-      "id": "course03"
+      "id": "webdj"
     },
     {
       "id": "course06",
@@ -250,7 +250,7 @@
   {
       "id": "course24"
   },{
-    "id": "course28",
+    "id": "course29",
     "odd": true
   }
   ],
