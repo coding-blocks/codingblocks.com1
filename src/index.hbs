@@ -72,9 +72,46 @@
                         The interactive learning for aspiring and experienced developers</p>
                 </div>
             </div>
+	    <div class="container slider-container">
+   <div class="row">
+      <div class="col-md-12 slider-left">
+         <section class="flexslider-wrapper">
+            <div id="main-slider" class="flexslider" data-transition="fade" data-page-class="slider-full-width">
+               <div class="slides">
+                  <div data-slide-alt="alt" data-slide-bg-stretch=true class="slide slide-bg" data-slide-bg="images/slide1.jpg">
+                     <div class="slide-caption">
+                        <div class="row">
+                           <div class="col-md-12">
             {{> coursesRow courses=onlineCoursesRow1}}
+                            
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div data-slide-alt="alt" data-slide-bg-stretch=true class="slide slide-bg" data-slide-bg="images/slide2.jpg">
+                     <div class="slide-caption">
+                        <div class="row">
+                           <div class="col-md-12">
             {{> coursesRow courses=onlineCoursesRow2}}
-            {{> coursesRow courses=onlineCoursesRow3}}
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div data-slide-alt="alt" data-slide-bg-stretch=true class="slide slide-bg" data-slide-bg="images/slide3.jpg">
+                     <div class="slide-caption">
+                        <div class="row">
+                           <div class="col-md-12">
+            {{> coursesRow courses=onlineCoursesRow3}}			   
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         </section>
+         </div>
+      </div>
+   </div>
+</div>
             {{!-- {{> coursesRow courses=onlineCoursesRow4}} --}}
         </div>
     </section>
@@ -109,6 +146,50 @@
   sendgrid.load("e2880aff-3f35-494f-b331-d4f322e6f8e5"),
   sendgrid.page()
   }}(window,document);
+  
+ //Courses Hero slider JS
+$(document).ready(function () {
+if (jQuery().flexslider) {
+    //flexslider ticker
+    $('.flexslider-ticker').each(function() {
+      var tickerSettings =  {
+        animation: "slide",
+        animationLoop: false,
+        selector: ".items > .item",
+        move: 1,
+        controlNav: false,
+        slideshow: true,
+        direction: 'vertical'
+      };
+      $(this).flexslider(tickerSettings);
+    });
+    // flexsliders
+    $('.flexslider').each(function() {
+      var sliderSettings =  {
+        animation: $(this).attr('data-transition'),
+        selector: ".slides > .slide",
+        controlNav: false,
+        smoothHeight: true,
+        prevText: "",
+        nextText: "",
+        sync: $(this).data('slidernav') || '',
+        start: function(slider) {
+          if (slider.find('[data-slide-bg-stretch=true]').length > 0) {
+            slider.find('[data-slide-bg-stretch=true]').each(function() {
+              if ($(this).data('slide-bg')) {
+                $(this).backstretch($(this).data('slide-bg'));
+                // $(this).data('slide-bg');
+              }
+            });
+          }
+        }
+      };
+      
+      $('html').addClass('has-flexslider');
+      $(this).flexslider(sliderSettings);
+    });
+    $(window).delay(1000).trigger('resize'); //make sure height is right load assets loaded
+}})
 </script>
 </body>
 </html>
