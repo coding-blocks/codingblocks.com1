@@ -123,7 +123,7 @@
      {
       "name": "Sanket Singh",
       "role": "Mentor",
-      "imgSrc":"LINK",
+      "imgSrc":"/assets/images/cb/team/Sanket.png",
       "imgAlt": "Sanket Singh",
       "bio":
         "Sanket is a sharp competitive programmer with a strong hold in Algorithms. He is a Google Summer Of Code student developer for Berkman Klein Centre at Harvard University. He has worked as a Deep Learning Researcher at Indian Space Research Organization(ISRO) & displayed exemplary leadership and coding skills. A multi-hackathon winner, Sanket loves to mentor students in free time and is also interested in building cool machine learning and web applications."
@@ -147,7 +147,7 @@
     {
       "name": "Sarthak Jain",
       "role": "Tester and SEO & Content Specialist",
-      "imgSrc":"LINK",
+      "imgSrc":"/assets/images/cb/team/Sarthak.jpeg",
       "imgAlt": "Sarthak Jain",
       "bio":
         "Sarthak is an Active OnePlus Community Expert, a recognised XDA Developer and Contributor. He was an Intern at AIR. He is a Keen Tester for Mobile ROMs of OnePlus and ZUK Z1. He has also been an Associate Mentor at LPU - Jalandhar. He was also a speaker at Google I/O Extended 2019"
