@@ -70,13 +70,15 @@
 /courses/classroom/foundation/									/classroom-courses/
 /courses/classroom/bootcamps/									/classroom-courses/
 /courses/classroom/           									/classroom-courses/
+/bootcamps/                                                     /classroom-courses/#bootcamps
 
 # APAT / CAST
 /apat.html	/scholarship-tests.html
 /cast.html  /scholarship-tests.html
 
 ## Centre redirect
-/centres/greater-noida.html	               /centres/noida.html					
+/centres/greater-noida.html	               /centres/noida.html
+/centres/gurugram.html                     /centres/
 
 # Outside Redirects for Netlify 
 
@@ -84,3 +86,5 @@
 /resources/*	https://coding-blocks.github.io/resources/:splat	200
 /img/*        https://coding-blocks.github.io/img/:splat        200
 /boss/*       https://lab.codingblocks.com/boss                 301
+/login        https://account.codingblocks.com                  301
+/coding-blocks/tic-tac-toe      https://github.com/coding-blocks/tic-tac-toe   301

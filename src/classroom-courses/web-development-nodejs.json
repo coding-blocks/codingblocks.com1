@@ -178,7 +178,7 @@
     "teamMembers": [
       "Arnav Gupta",
       "Aayush Arora",
-      "Rishabh Khanna"	    
+      "Rishabh Khanna"
     ]
   },
   "courseReviews": [
@@ -187,27 +187,27 @@
     "SANDEEP RANJAN"
   ],
   "schedule": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "Dec 15",
-		  "enddate": "Feb 09",
-		  "daytime": "Sat, Sun, Tue (03:00 PM - 06:30 PM)",
-		  "batchtype": "Evening"
-	  },
-	  {
-		  "center": "Dwarka",
-		  "startdate": "Dec 23",
-		  "enddate": "Mar 03",
-		  "daytime": "Wed, Sat, Sun (10:00 AM - 01:30 PM)",
-		  "batchtype": "Morning"
-	  },
-	  {
-		  "center": "Noida",
-		  "startdate": "Dec 17",
-		  "enddate": "Feb 02",
-		  "daytime": "Mon, Tue, Thu, Fri (03:00 PM - 06:30 PM)",
-		  "batchtype": "Evening"
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "18th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (4:10 PM - 7:30 PM), Sat (4:10 PM - 7:30 PM)",
+      "batchtype": "Weekend-Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "25th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (12:30 PM - 3:30 PM), Sat (12:30 PM - 3:30 PM)",
+      "batchtype": "Weekend-Noon"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "25th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (4:00 PM - 7:30 PM), Sat (4:00 PM - 7:30 PM)",
+      "batchtype": "Weekend-Evening"
+    }
   ],
   "reviewSlug": "Web Development Course",
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=116",
@@ -216,12 +216,12 @@
   "registerLinkDehradunWD": "https://students.codingblocks.com/payment/iframe?item_id=169",
   "frame-id-dehradun-wd": "169",
 
-	"registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=231",
-	"frame-id-pitampura-wd": "231",
+  "registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=335",
+  "frame-id-pitampura-wd": "335",
 
-	"registerLinkDwarkaWD": "https://students.codingblocks.com/payment/iframe?item_id=230",
-	"frame-id-dwarka-wd": "230",
+  "registerLinkDwarkaWD": "https://students.codingblocks.com/payment/iframe?item_id=295",
+  "frame-id-dwarka-wd": "295",
 
-	"registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=229",
-	"frame-id-noida-wd": "229"
+  "registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=336",
+  "frame-id-noida-wd": "336"
 }

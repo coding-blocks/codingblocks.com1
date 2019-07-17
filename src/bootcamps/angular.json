@@ -1,0 +1,197 @@
+{
+    "id": "bootcamp_angular",
+    "name": "Angular Complete Course",
+    "title": "Angular Complete Course | Coding Blocks India",
+    "metas": [
+      {
+        "name": "description",
+        "content":
+          "The Angular course is designed to help students with the latest Angular changes along with the industrial needs. The course starts from the very basics of Angular and dives deep into the concepts of Components, Routing, Directives and Services. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to explore and learn other Frontend frameworks themselves along with building the effective Single Page Applications."
+      },
+      {
+        "name": "keywords",
+        "content":
+          "angular,components,angular,web,webdev,development,nodejs,node,javascript,html,codingblocks,coding,blocks,course,delhi,india"
+      }
+    ],
+    "openGraph": {
+      "url": "https://codingblocks.com/bootcamps/angular.html",
+      "title": "Angular Complete Course",
+      "image":
+        "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14058603_1077770128976987_1865333049_n.jpg",
+      "description":
+        "The Angular course is designed to help students with the latest Angular changes along with the industrial needs. The course starts from the very basics of Angular and dives deep into the concepts of Components, Routing, Directives and Services. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to explore and learn other Frontend frameworks themselves along with building the effective Single Page Applications."
+    },
+    "header": {
+      "heading": "Angular Bootcamp",
+      "subHeading": "",
+      "breadcrumbs": [
+        {
+          "linkText": "Highlights",
+          "link": "#highlights"
+        },
+        {
+          "linkText": "Contents",
+          "link": "#contents"
+        },
+        {
+          "linkText": "FAQ",
+          "link": "#faq"
+        }
+      ],
+      "bgSrc": "/assets/images/cb/cover/cover3.jpg"
+    },
+    "overview": {
+      "content":
+        "The Angular course is designed to help students with the latest Angular changes along with the industrial needs. The course starts from the very basics of Angular and dives deep into the concepts of Components, Routing, Directives and Services. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to explore and learn other Frontend frameworks themselves along with building the effective Single Page Applications."
+    },
+    "courseHighlights": [
+      {
+        "icon": "",
+        "title": "Module Architecture",
+        "content":
+          "Before learning the framework, it’s always suggested to get the whole picture out of it. Our course covers the understanding of the Angular Architecture to help you with the basics building blocks of Angular."
+      },
+      {
+        "icon": "",
+        "title": "Component Driven Architecture",
+        "content":
+          "Angular is a great example of component driven Architecture, this course will help you to grasp the basic knowledge of Component Architecture along with the understanding of Angular components in depth."
+      },
+      {
+        "icon": "",
+        "title": "Integrating Third Party API",
+        "content":
+          "Understanding Services and Observables will help you to integrate your applications with the third party apps in the most easiest and effective way. This course will help you in making Network Requests to a REST API and to represent real-time results in intuitive frontend design."
+      },
+      {
+        "icon": "",
+        "title": "Understanding Routing and Navigation in Angular",
+        "content": "You'll also get hands on experience on how routing and navigation works in Angular. Even if you don't have experience with any other frontend frameworks, you'll be able to pickup an important part of web development quickly."
+      }
+    ],
+    "courseContents": [
+      {
+        "active": true,
+        "title": "Angular Basics",
+        "contentTitle": "Angular Basics",
+        "description": "",
+        "lectures": "Lecture 1",
+        "points": [
+          "Typescript Basics",
+          "Angular vs AngularJS",
+          "Angular Architecture",
+          "Installations and Tooling",
+          "Creating your first Angular Application"
+        ]
+      },
+      {
+        "title": "Introduction to Components",
+        "contentTitle": "Introduction to Components",
+        "description": "",
+        "lectures": "Lecture: 2",
+        "points": [
+          "Template Bindings",
+          "One way bindings using property and Event",
+          "Two way Data Binding",
+          "Interaction between the components"
+        ]
+      },
+      {
+        "title": "Components & Routing",
+        "contentTitle": "Components & Routing",
+        "description":
+          "",
+        "lectures": "Lecture 3",
+        "points": [
+          "Routing Basics",
+          "Child Routes and Parent Routes",
+          "Smart and Dumb Components"
+        ]
+      },
+      {
+        "title": "Directives and Pipes",
+        "contentTitle": "Directives and Pipes",
+        "description":
+          "",
+        "lectures": "Lecture 4",
+        "points": [
+          "Inbuilt Directives such as *ngIf, *ngFor",
+          "Attribute vs Structural Directives",
+          "Creating your own Directive",
+          "Introduction to Pipes"
+        ]
+      },
+      {
+        "title": "Understanding Forms",
+        "contentTitle": "Understanding Forms",
+        "description":
+          "",
+        "lectures": "Lecture 5",
+        "points": [
+          "Template Driven Forms, Input and Validation",
+          "ngForm and ngModel",
+          "Binding to Radio Buttons and Checkboxes",
+          "ngSubmit and Error states"
+        ]
+      },
+      {
+        "title": "Services and HTTP",
+        "contentTitle": "Services and HTTP",
+        "lectures": "Lecture 6",
+        "description":
+          "",
+        "points": [
+          "Dependency Injection and understanding @Injectable",
+          "Understanding Observables",
+          "Using a REST API"
+        ]
+      }
+    ],
+    "courseEnroll": {
+      "upcomingBatches": "Upcoming Batches:",
+      "registerButton": {
+        "buttonText": "Register Now"
+      },
+      "priceCut": "6,999",
+      "price": "5,799",
+      "lectures": "(6 lectures)",
+      "highlights": [
+        {
+          "icon": "et-line-search",
+          "content": "Online code Submission &amp; Evaluation"
+        },
+        {
+          "icon": "pe-7s-cup",
+          "content": "2 Hacakthons"
+        }
+      ]
+    },
+    "mentors": {
+      "heading": "Mentors",
+      "noHeading": true,
+      "content": "",
+      "flip": true,
+      "companies": false,
+      "contentCenter": true,
+      "teamMembers": ["Aayush Arora"]
+    },
+    "courseReviews": [
+      "RISHABH MENDIRATTA",
+      "SHIVAM GANDHI",
+      "SANDEEP RANJAN",
+      "RISHABH KHANNA"
+    ],
+    "schedule": [
+      {
+        "center": "Dwarka",
+        "startdate": "Jan 20",
+        "enddate": "Feb 16",
+        "daytime": "Sat, Sun (3:00 PM - 7:00 PM)",
+        "batchtype": "Weekend"
+      }
+    ],
+    "reviewSlug": "Web Development Course",
+    "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=268",
+    "frame-id-pitampura": "268"
+  }

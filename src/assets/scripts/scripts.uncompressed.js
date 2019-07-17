@@ -843,7 +843,7 @@ $(document).ready(function() {
                 }
 
                 if (true) {
-                    host = "https://cbcom.cb.lk";
+                    host = "https://cbcom.codingblocks.com";
                 } else {
                     host = "http://localhost:3000";
                     console.log("form data = " + thisForm.serialize());
@@ -1010,7 +1010,7 @@ $(document).ready(function() {
             var script = document.createElement('script');
             var apiKey = $('[data-maps-api-key]:first').attr('data-maps-api-key');
             script.type = 'text/javascript';
-            script.src = 'https://maps.googleapis.com/maps/api/js?key='+apiKey+'&callback=initializeMaps';
+            script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD9miWyXZzVoL5wLraLJPrQJICNKRAa6Vs&callback=initializeMaps';
             script.className = 'gMapsAPI';
             document.body.appendChild(script);
         }

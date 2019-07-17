@@ -54,16 +54,22 @@ $(document).ready(function () {
     "use strict";
     var innerLinks = $("a.inner-link");
     var success = getParameterByName('success') == 1;
-    var error = getParameterByName('success') == 0;
+    var error = getParameterByName('error') == 1;
+    var emailError = getParameterByName('error') == 2;
+
     if(success) {
         set_and_delete_data(!success);
         $('#success').removeClass("display-none");
         $('#success').addClass('color-primary');
+    } else if(emailError) {
+        set_and_delete_data(error);
+        $('#emailError').removeClass("display-none");
+        $('#emailError').addClass('color-primary');
     } else if(error) {
         set_and_delete_data(error);
         $('#error').removeClass("display-none");
         $('#error').addClass('color-primary');
-    }
+    } 
     if (innerLinks.length) {
         innerLinks.each(function () {
             var link = $(this);
@@ -639,7 +645,7 @@ $(document).ready(function () {
                         break
                 }
                 if (true) {
-                    host = "https://cbcom.cb.lk"
+                    host = "https://cbcom.codingblocks.com"
                 } else {
                     host = "http://localhost:3000";
                     console.log("form data = " + thisForm.serialize())
@@ -764,7 +770,7 @@ $(document).ready(function () {
             var script = document.createElement("script");
             var apiKey = $("[data-maps-api-key]:first").attr("data-maps-api-key");
             script.type = "text/javascript";
-            script.src = "https://maps.googleapis.com/maps/api/js?key=" + apiKey + "&callback=initializeMaps";
+            script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyD9miWyXZzVoL5wLraLJPrQJICNKRAa6Vs&callback=initializeMaps";
             script.className = "gMapsAPI";
             document.body.appendChild(script)
         }

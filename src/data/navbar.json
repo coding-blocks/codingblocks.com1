@@ -59,10 +59,6 @@
           "link": "/classroom-courses/six_months_ind_training.html"
         },
         {
-          "title": "Hybrid Course in C++",
-          "link": "/classroom-courses/c-plus-plus-hybrid.html"
-        },
-        {
           "title": "Junior",
           "sublinks": [
             {
@@ -86,10 +82,6 @@
             {
               "title": "Java for Beginners / Crux",
               "link": "/classroom-courses/java-for-beginners.html"
-            },
-            {
-              "title": "Python For Beginners",
-              "link": "/classroom-courses/python-for-beginners.html"
             },
             {
               "title": "Python App Development",
@@ -147,8 +139,12 @@
         },
         {
           "title": "Bootcamps",
-          "link": "#",
+          "link": "#bootcamps",
           "sublinks": [
+			{
+			  "title": "ReactJS",
+			  "link": "/bootcamps/react.html"
+			},
 			{
 			  "title": "Interview Preparation",
 			  "link": "/bootcamps/coding-interview-preparation.html"
@@ -166,8 +162,16 @@
 			  "link": "/bootcamps/chatbots.html"
 			},
 			{
-			  "title": "AngularJS",
-			  "link": "/coming-soon.html"
+			  "title": "Angular",
+			  "link": "/bootcamps/angular.html"
+			},
+			{
+			  "title": "Game Development",
+			  "link": "/bootcamps/gamedev.html"
+			},
+			{
+			  "title": "Open Source",
+			  "link": "/bootcamps/opensource.html"
 			}
           ]
         }

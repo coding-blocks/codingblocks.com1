@@ -6,33 +6,74 @@
       "content": "India's best Programming and software training institute offers courses in Java, C++, Android, NodeJS and more. Registration open for coding classes in Delhi."
     }
   ],
+
   "slides": [
-	  {
-		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
+    {
+      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+      "imgAlt": "",
+      "heading": "Register for CAST & APAT",
+      "content": "Get upto 95% off on our Basic or Advanced Courses this monsoon.",
+      "button": [
+        {
+          "link": "/scholarship-tests.html",
+          "text": "View Details",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+		  "imgSrc": "/assets/images/cb/cover/india-vs-aus-blur.jpg",
 		  "imgAlt": "",
-		  "heading": "Six months Industrial Training",
-		  "content": "Wholesome development training program spanning six months combined with placement assistance. You'll learn data structures and algorithms, as well as some important and exciting technologies such as Web Development and Android app Development.",
+		  "heading": "This world cup it's not just India who's winning !",
+		  "content": "Get a chance to win free courses! Use code ICC2019 to get an additional ₹2500 discount on our Online Courses.  100% Scholarship will be given to 5 students every day.",
 		  "button": [
 			  {
-				  "link": "/classroom-courses/six_months_ind_training",
-				  "text": "Explore more",
+				  "link": "https://online.codingblocks.com/",
+				  "text": "Start with a free trial now !",
 				  "filled": "true"
-			  }
+        }
 		  ]
-	  },{
-		  "imgSrc": "/assets/images/cb/cover/dark-metal.jpg",
+	  },
+    {
+		  "imgSrc": "/assets/images/cb/cover/india-vs-aus-blur.jpg",
 		  "imgAlt": "",
-		  "heading": "DS and Algorithms in C++ - Hybrid",
-		  "content": "This will be a beginners’ course including basic programming fundamentals, object oriented programming and in-depth coverage of data structures and algorithms. The user can opt for the complete bundle, or just the advanced part of the course.",
+		  "heading": "This world cup it's not just India who's winning !",
+		  "content": "Make 3 easy predictions on today's match and get a chance to win free courses!",
 		  "button": [
 			  {
-				  "link": "https://codingblocks.com/classroom-courses/c-plus-plus-hybrid.html",
-				  "text": "Explore More",
+				  "link": "https://online.codingblocks.com/cricket_cup",
+				  "text": "Make Predictions now !",
+				  "filled": "true"
+        }
+		  ]
+    },
+    {
+		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
+		  "imgAlt": "",
+		  "heading": "Weekend Classroom Courses Starting this August",
+		  "content": "Courses for all stages, with equal focus on theory and implementation",
+		  "button": [
+			  {
+				  "link": "/classroom-courses",
+				  "text": "Register Now",
+				  "filled": "true"
+        }
+		  ]
+	  },
+    {
+		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
+		  "imgAlt": "",
+		  "heading": "New Online Course on Data Science is live now !",
+		  "content": "Use code DS1500- Extra 1500 OFF ",
+		  "button": [
+			  {
+				  "link": "https://online.codingblocks.com/courses/data-science-online-course-python",
+				  "text": "Explore",
 				  "filled": "true"
 			  }
 		  ]
 	  },
-    {
+	  {
 		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
 		  "imgAlt": "",
 		  "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
@@ -44,20 +85,20 @@
 				  "filled": "true"
 			  }
 		  ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cast.jpg",
-      "imgAlt": "",
-      "heading": "Success stories",
-      "content": "Got an internship/placement ? Here is a chance to share your success story with others, get featured on our Facebook, Instagram and Hall of Fame pages and get rewarded.",
-      "button": [
-        {
-          "link": "https://cb.lk/ss",
-          "text": "Submit Success Story",
-          "filled": "true"
-        }
-      ]
-    }
+	  },
+	  {
+		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
+		  "imgAlt": "",
+		  "heading": "Success stories",
+		  "content": "Got an internship/placement ? Here is a chance to share your success story with others, get featured on our Facebook, Instagram and Hall of Fame pages and get rewarded.",
+		  "button": [
+			  {
+				  "link": "https://cb.lk/ss",
+				  "text": "Submit Success Story",
+				  "filled": "true"
+			  }
+		  ]
+	  }
   ],
   "events": {
     "upcoming": true,
@@ -114,32 +155,27 @@
   ],
   "coursesRow3": [
     {
-      "id": "course25"
-    },
-    {
       "id": "course30",
       "odd": true
     },
     {
-      "id": "course04"
+      "id": "course03"
+    },
+    {
+      "id": "course04",
+      "odd": true
     }
   ],
   "coursesRow4": [
     {
-      "id": "course03",
+      "id": "webdj"
+    },
+    {
+      "id": "course06",
       "odd": true
     },
     {
-      "id": "course06"
-    },
-    {
-      "id": "course20",
-      "odd": true
-    }
-  ],
-  "coursesRow5": [
-    {
-      "id": "course14"
+      "id": "course20"
     }
   ],
   "cppInterviewRow": [
@@ -153,6 +189,18 @@
     {
       "id": "course21",
 	  "combo": true
+    }
+  ],
+  "interviewPrepRow": [
+    {
+      "id": "bootcamp02"
+    },
+    {
+      "id": "course21",
+      "odd": true
+    },
+    {
+      "id": "course22"
     }
   ],
   "javaInterviewRow": [
@@ -202,9 +250,22 @@
   {
       "id": "course24"
   },{
-    "id": "course28",
+    "id": "course29",
     "odd": true
   }
+  ],
+  "onlineCoursesRow4": [
+    {
+      "id": "course43",
+      "odd": true
+    },
+    {
+      "id": "course44"
+    },
+    {
+      "id": "course45",
+      "odd": true
+    }
   ],
   "coursesSection": {
     "showAll": true

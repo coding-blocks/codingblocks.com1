@@ -145,6 +145,7 @@
     }
   ],
   "courseEnroll": {
+    "price": "22,000",
     "upcomingBatches": "Upcoming Courses:",
     "registerButton":{
         "disabled": true,
@@ -171,7 +172,8 @@
     "teamMembers": [
       "Arnav Gupta",
       "Harshit Dwivedi",
-      "Raj Kumar Saini"
+      "Raj Kumar Saini",
+	  "Arpit Gupta"
     ]
   },
   "courseReviews": [
@@ -183,39 +185,19 @@
     "DHRUV ANAND"
   ],
   "schedule": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "Dec 14",
-		  "enddate": "Feb 16",
-		  "daytime": "Fri, Sun, Wed (10:00 AM - 01:30 PM)",
-		  "batchtype": "Morning"
-	  },
-	  {
-		  "center": "Noida",
-		  "startdate": "Dec 17",
-		  "enddate": "Feb 02",
-		  "daytime": "Mon, Tue, Thu, Sat (03:00 PM - 06:30 PM)",
-		  "batchtype": "Evening"
-	  },
     {
-      "center": "Dehradun",
-      "startdate": "Dec 20",
+      "center": "Pitampura",
+      "startdate": "18th Aug",
       "enddate": "TBD",
-      "daytime": "TBD",
-      "batchtype": "TBD"
+      "daytime": "Sun (12:10 PM - 3:40 PM), Sat (12:10 PM - 3:40 PM)",
+      "batchtype": "Weekend Noon"
     }
   ],
   "reviewSlug": "Android App Development Course",
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=114",
-  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=154",
-  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=206",
-  "frame-id": "114",
-  "frame-id-noida": "154",
-  "frame-id-dehradun": "206",
-
-	"registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=228",
-	"frame-id-pitampura-lp": "228",
-
-	"registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=249",
-	"frame-id-noida-lp": "249"
+  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=321",
+  "frame-id-dehradun-lp": "321",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=340",
+  "frame-id-pitampura-lp": "340",
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=298",
+  "frame-id-noida": "298"
 }

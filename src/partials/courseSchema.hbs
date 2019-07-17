@@ -57,7 +57,9 @@
   "offers": {
     "@type": "Offer",
     "priceCurrency": "INR",
+    {{#if price}}
         "price": "{{#removeComma this.price}}{{/removeComma}}",
+        {{/if}}
     "seller": {
       "@type": "Organization",
       "name": "Coding Blocks"
@@ -70,7 +72,9 @@
   "offers": {
     "@type": "Offer",
     "priceCurrency": "INR",
+    {{#if price}}
         "price": "{{#removeComma this.price}}{{/removeComma}}",
+        {{/if}}
     "seller": {
       "@type": "Organization",
       "name": "Coding Blocks"

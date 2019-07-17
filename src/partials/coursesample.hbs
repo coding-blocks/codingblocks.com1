@@ -2,7 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
+                {{#if sample.heading}}
+                <h2 class="uppercase mb80 text-center">{{sample.heading}}</h2>
+                {{else}}
                 <h2 class="uppercase mb80 text-center">Sample Class</h2>
+                {{/if}}
                 <iframe width="720" height="405" src="{{sample.url}}" frameborder="0"
                         allowfullscreen></iframe>
             </div>

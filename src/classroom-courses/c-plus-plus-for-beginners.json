@@ -85,82 +85,71 @@
       "Prateek Narang",
       "Rajesh Sachdev",
       "Kartik Mathur",
-      "Raj Kumar Saini"
+      "Raj Kumar Saini",
+      "Iti Jain"
     ]
   },
-	"scheduleCpp": [
-		{
-			"center": "Dehradun",
-			"startdate": "Aug 18",
-			"enddate": "Sep 15",
-			"daytime": "Sat, Sun (02:30 PM - 06:00 PM)",
-			"batchtype": "Evening"
-		}
-	],
-	"scheduleLaunchpad": [
-		{
-			"center": "Pitampura",
-			"startdate": "Dec 08",
-			"enddate": "Jan 27",
-			"daytime": "Sat, Mon, Wed, Fri (09:30 AM - 01:00 PM)",
-			"batchtype": "Morning"
-		},
-		{
-			"center": "Pitampura",
-			"startdate": "Dec 29",
-			"enddate": "Mar 10",
-			"daytime": "Sat, Sun (03:00 PM - 06:30 PM)",
-			"batchtype": "Evening"
-		},
-		{
-			"center": "Dwarka",
-			"startdate": "Dec 17",
-			"enddate": "Mar 03",
-			"daytime": "Mon, Wed, Fri (10:00 AM - 01:30 PM)",
-			"batchtype": "Morning"
-		},
-		{
-			"center": "Noida",
-			"startdate": "Dec 16",
-			"enddate": "Feb 16",
-			"daytime": "Sat, Sun (03:00 PM - 07:00 PM) | Tue, Thu (09:30 AM - 01:30 PM)",
-			"batchtype": "Evening"
-		},
-		{
-			"center": "Dehradun",
-			"startdate": "Dec 15",
-			"enddate": "Jan 29",
-			"daytime": "Tue, Thu, Sat & Sun (10:00 AM - 01:00 PM)",
-			"batchtype": "Morning"
-		}
-
-	],
+  "scheduleLaunchpad": [
+	  {
+		  "center": "Pitampura",
+		  "startdate": "11th Aug",
+		  "enddate": "TBD",
+		  "daytime": "Sat (8:00 AM - 11:30 AM), Sun (8:00 AM - 11:30 AM)",
+		  "batchtype": "Weekend - Morning"
+    },
+    {
+		  "center": "Pitampura",
+		  "startdate": "18th Aug",
+		  "enddate": "TBD",
+		  "daytime": "Sun (12:05 PM - 3:50 PM),  Sat (12:05 PM - 3:50 PM)",
+		  "batchtype": "Weekend - Noon"
+	  },
+	  {
+		  "center": "Dwarka",
+		  "startdate": "18th Aug",
+		  "enddate": "TBD",
+		  "daytime": "Sat (10:00 AM - 1:30 PM), Sun (10:00 AM - 1:30 PM)",
+		  "batchtype": "Weekend - Morning"
+    },
+    {
+		  "center": "Dwarka",
+		  "startdate": "25th Aug",
+		  "enddate": "TBD",
+		  "daytime": "Sun (3:00 PM - 7:00 PM), Sat (3:00 PM - 7:00 PM)",
+		  "batchtype": "Weekend - Evening"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "18th Aug",
+		  "enddate": "TBD",
+		  "daytime": "Sat (9:00 AM - 11:50 AM), Sun (9:00 AM - 11:50 AM)",
+		  "batchtype": "Weekend - Morning"
+	  },
+	  {
+		  "center": "Noida",
+		  "startdate": "25th Aug",
+		  "enddate": "TBD",
+		  "daytime": "Sun (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
+		  "batchtype": "Weekend - Evening"
+	  }
+  ],
   "courseReviews": [
     "NAVDEEP SINGH",
     "SHREYA GUPTA",
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
   ],
-  
-  "registerLinkDehradun": "https://students.codingblocks.com/payment/iframe?item_id=254",
-  "frame-id-dehradun": "254",
 
-  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=224",
-  "frame-id-pitampura": "224",
+  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=320",
+  "frame-id-dehradun-lp": "320",
 
-  "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=222",
-  "frame-id-dwarka": "222",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=323",
+  "frame-id-pitampura-lp": "323",
 
-  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=253",
-  "frame-id-dehradun-lp": "253",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=324",
+  "frame-id-dwarka-lp": "324",
 
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=237",
-  "frame-id-pitampura-lp": "237",
-
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=236",
-  "frame-id-dwarka-lp": "236",
-
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=235",
-  "frame-id-noida-lp": "235"
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=325",
+  "frame-id-noida-lp": "325"
 
 }

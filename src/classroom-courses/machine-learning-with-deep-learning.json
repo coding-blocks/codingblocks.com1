@@ -173,21 +173,29 @@
     "SHIVANSHU CHAUDHARY"
   ],
   "schedule": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "Dec 15",
-		  "enddate": "Feb 17",
-		  "daytime": "Sat, Tue, Thu (10:00 AM - 01:30 PM)",
-		  "batchtype": "Morning"
-	  },
-	  {
-		  "center": "Dwarka",
-		  "startdate": "Dec 23",
-		  "enddate": "Mar 03",
-		  "daytime": "Sat, Sun (10:00 AM - 01:30 PM)",
-		  "batchtype": "Morning"
-	  }
+    {
+      "center": "Pitampura",
+      "startdate": "11th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (12:10 PM - 3:40 PM), Sat (12:10 PM - 3:40 PM)",
+      "batchtype": "Weekend-Noon"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "11th Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (10:00 AM - 1:30 PM), Sat (10:00 AM - 1:30 PM)",
+      "batchtype": "Weekend-Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "11 Aug",
+      "enddate": "TBD",
+      "daytime": "Sun (12:30 PM - 3:30 PM), Fri (12:30 PM - 3:30 PM)",
+      "batchtype": "Weekend-Noon"
+    }
   ],
-  "widget-id-pitampura": "226",
-  "widget-id-dwarka": "247"
+  "widget-id-pitampura": "332",
+  "widget-id-dwarka": "333",
+  "widget-id-noida": "334"
 }

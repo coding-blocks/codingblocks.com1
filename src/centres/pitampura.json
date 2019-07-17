@@ -41,17 +41,6 @@
     "latitude": "28.6969421",
     "longitude": "77.1423825"
   },
-  "coursesSection": {
-    "coursesList": [
-      "course01",
-      "course02",
-      "course03",
-      "course04",
-      "course05",
-      "course06",
-      "course30"
-    ]
-  },
   "team": {
     "heading": "team",
     "content": "",
@@ -76,5 +65,68 @@
     "Divyam Shah",
     "Gagan Bhayana",
     "Rishabh Khanna"
+  ],
+  "interviewPrepRow": [
+    {
+      "id": "bootcamp02"
+    },
+    {
+      "id": "course21",
+      "odd": true
+    },
+    {
+      "id": "course22"
+    }
+  ],
+  "coursesRow1": [
+    {
+      "id": "course08"
+    },
+    {
+      "id": "course10",
+      "odd": true
+    },
+    {
+      "id": "course01",
+      "combo": true
+    }
+  ],
+  "coursesRow2": [
+    {
+      "id": "course07",
+      "odd": true
+    },
+    {
+      "id": "course11"
+    },
+    {
+      "id": "course02",
+      "combo": true
+    }
+  ],
+  "coursesRow3": [
+    {
+      "id": "course30",
+      "odd": true
+    },
+    {
+      "id": "webdj"
+    },
+    {
+      "id": "course04",
+      "odd": true
+    }
+  ],
+  "coursesRow4": [
+    {
+      "id": "course03"
+    },
+    {
+      "id": "course06",
+      "odd": true
+    },
+    {
+      "id": "course20"
+    }
   ]
 }

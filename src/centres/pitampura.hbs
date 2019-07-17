@@ -8,12 +8,27 @@
 <body class="scroll-assist">
 {{> navbar}}
 <div class="main-container">
-    {{> header}}
-    {{> centerlocation}}
-    {{> review-course-section}}
-    {{> team}}
-    {{> courses}}
-    {{> footer}}
+  {{> header}}
+  {{> centerlocation}}
+  {{> review-course-section}}
+  {{> team}}
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1 class="uppercase mb16">Classroom Courses</h1>
+          <p class="lead mb64">
+            Classroom courses for all stages, with equal focus on theory and implementation</p>
+        </div>
+      </div>
+      {{> coursesRow courses=coursesRow1}}
+      {{> coursesRow courses=coursesRow2}}
+      {{> coursesRow courses=interviewPrepRow}}
+      {{> coursesRow courses=coursesRow3}}
+      {{> coursesRow courses=coursesRow4}}
+    </div>
+  </section>
+  {{> footer}}
 </div>
 {{> scripts}}
 </body>

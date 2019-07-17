@@ -19,89 +19,19 @@
         <div class="container">
           <h2 class="uppercase mb16 text-center color-primary">Course Contents</h2>
           <div class="course-card-container">
-            <div class="content-row">
-              <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <h3 class="topic">Basics of Python</h3>
-                <hr>
-                <ul class="points-list">
-                  <li>A Brief Overview of Python</li>
-                  <li>Setting up Python</li>
-                  <li>Interactive Python</li>
-                  <li>Built-In Data Types</li>
-                  <li>Control Flow</li>
-                </ul>
+              <div class="content-row">
+                {{#each courseContents}}
+                  <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h3 class="topic">{{ this.title }}</h3>
+                    <hr>
+                    <ul class="points-list">
+                      {{#each this.points}}
+                        <li>{{ this }}</li>
+                      {{/each}}
+                    </ul>
+                  </div>
+                {{/each}}
               </div>
-              <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <h3 class="topic">Data Structures &amp; Functions</h3>
-                <hr>
-                <ul class="points-list">
-                  <li>Defining &amp; Using Functions</li>
-                  <li>Some Common and Useful Functions</li>
-                  <li>Argument Unpacking, Annotations</li>
-                  <li>Lists, and Tuples</li>
-                </ul>
-              </div>
-
-              <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <h3 class="topic">Django app dev</h3>
-                <hr>
-                <ul class="points-list">
-                  <li>Django basics</li>
-                  <li>Model layer</li>
-                  <li>View layer</li>
-                  <li>Code organisation</li>
-                </ul>
-              </div>
-
-            </div>
-            <div class="content-row">
-
-              <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <h3 class="topic">Writing Interactive Programs</h3>
-                <hr>
-                <ul class="points-list">
-                  <li>Handling Input &amp; Output</li>
-                  <li>Error &amp; Exception Handling</li>
-                  <li>Organizing Code with Modules</li>
-                </ul>
-              </div>
-
-              <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <h3 class="topic">Object Oriented Programming</h3>
-                <hr>
-                <ul class="points-list">
-                  <li>Object Oriented Programming Concepts</li>
-                  <li>Using Classes &amp; Objects</li>
-                  <li>Commonly Used built-in Classes</li>
-                  <li>Inheritance</li>
-                </ul>
-              </div>
-
-              <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <h3 class="topic">Standard Template Library</h3>
-                <hr>
-                <ul class="points-list">
-                  <li>Number Crunching</li>
-                  <li>File Manipulation</li>
-                  <li>Data Compression &amp; Archiving</li>
-                  <li>Basic Network Programming</li>
-                  <li>Data Encryption</li>
-                </ul>
-              </div>
-
-            </div>
-            <div class="content-row">
-              <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <h3 class="topic">PIP Packaging and setuptools</h3>
-                <hr>
-                <ul class="points-list">
-                  <li>Creating builds</li>
-                  <li>Creating libs</li>
-                  <li>Uploading into pypi</li>
-                  <li>Manage dependencies with sepuptools</li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -118,7 +48,6 @@
 							Regular Batch
 						</h5>
 						<div><span class="price">₹12,000</span></div>
-						<!-- <span class="price">₹9,000</span> -->
 						<p class="lead">(10-12 lectures)</p>
 						<a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
 						<p>
@@ -140,14 +69,18 @@
           <div class="course-tabs">
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation" class="wide-tab active" id="tab-pitampura"><a href="#pitampura" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="true">Pitampura</a></li>
+              <li role="presentation" class="wide-tab" id="tab-dwarka"><a href="#dwarka" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="true">Dwarka</a></li>
               <li role="presentation" class="wide-tab" id="tab-noida"><a href="#noida" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="true">Noida (Early bird discount)</a></li>
             </ul>
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="pitampura">
-                <div class="container widget-container" data-widget-id="239"><iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id=198"></iframe></div>
+				  <div class="container widget-container" data-widget-id="{{frame-id-pitampura}}"><iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id={{frame-id-pitampura}}"></iframe></div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="dwarka">
+				  <div class="container widget-container" data-widget-id="{{frame-id-dwarka}}"><iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id={{frame-id-dwarka}}"></iframe></div>
               </div>
               <div role="tabpanel" class="tab-pane" id="noida">
-                <div class="container widget-container" data-widget-id="238"><iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id=197"></iframe></div>
+				  <div class="container widget-container" data-widget-id="{{frame-id-noida}}"><iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id={{frame-id-noida}}"></iframe></div>
               </div>
             </div>
           </div>
