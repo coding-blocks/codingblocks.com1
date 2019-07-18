@@ -120,7 +120,15 @@
       "bio":
         "Anuj is an open-source enthusiast and a GSoC mentor and admin with JBoss Community under the RedHat Foundation. He has worked in the core teams of various products by RedHat and is an expert in Enterprise Java and web services. He will also be administrating in GSoC'19 under the umbrella of JBoss for Servers and IoT monitoring."
     },
-    {
+     {
+      "name": "Sanket Singh",
+      "role": "Mentor",
+      "imgSrc":"/assets/images/cb/team/Sanket.png",
+      "imgAlt": "Sanket Singh",
+      "bio":
+        "Sanket is a sharp competitive programmer with a strong hold in Algorithms. He is a Google Summer Of Code student developer for Berkman Klein Centre at Harvard University. He has worked as a Deep Learning Researcher at Indian Space Research Organization(ISRO) & displayed exemplary leadership and coding skills. A multi-hackathon winner, Sanket loves to mentor students in free time and is also interested in building cool machine learning and web applications."
+    },
+       {
       "name": "Raj Kumar Saini",
       "role": "Mentor & Centre Head (Dehradun)",
       "imgSrc": "/assets/images/cb/team/RajKumar.jpg",
@@ -135,6 +143,14 @@
       "imgAlt": "Kartik Mathur",
       "bio":
         "An NSIT graduate, Kartik has worked with companies like DRDO and BEL. He has immense interest in technologies like IoT, DBMS, home automation and embedded systems. He has come to Coding Blocks to fulfill his passion for teaching. In his free time he likes to read books and play chess."
+    },
+    {
+      "name": "Sarthak Jain",
+      "role": "Tester and SEO & Content Specialist",
+      "imgSrc":"/assets/images/cb/team/Sarthak.jpg",
+      "imgAlt": "Sarthak Jain",
+      "bio":
+        "Sarthak is an Active OnePlus Community Expert, a recognised XDA Developer and Contributor. He was an Intern at AIR. He is a Keen Tester for Mobile ROMs of OnePlus and ZUK Z1. He has also been an Associate Mentor at LPU,Jalandhar. He was also a speaker at Google I/O Extended 2019"
     },
     {
       "name": "Jatin Katyal",
