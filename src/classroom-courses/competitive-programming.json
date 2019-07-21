@@ -35,10 +35,17 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "11th Aug",
+      "startdate": "18th Aug",
       "enddate": "TBD",
       "daytime": "Sun (8:00 AM - 11:30 AM), Sat (8:00 AM - 11:30 AM)",
       "batchtype": "Weekend-Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "1st Sept",
+      "enddate": "TBD",
+      "daytime": "Sun (12:30 PM - 03:30 PM), Sat (12:30 PM - 03:30 PM)",
+      "batchtype": "Weekend - Noon"
     }
   ],
   "courseReviews": [
@@ -58,5 +65,5 @@
     ]
   },
   "widget-id-pitampura": "341",
-  "widget-id-noida": "315"
+  "widget-id-noida": "345"
 }
