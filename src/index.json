@@ -11,14 +11,9 @@
     {
       "imgSrc": "/assets/images/cb/cover/cover2.jpg",
       "imgAlt": "",
-      "heading": "Register for CAST & APAT",
+      "heading": "Results of CAST declared",
       "content": "Get upto 95% off on our Basic or Advanced Courses this monsoon.",
       "button": [
-        {
-          "link": "https://hack.codingblocks.com/contests/upcoming/c/961",
-          "text": "Go to CAST test",
-          "filled": "true"
-        },
         {
           "link": "/scholarship-tests.html",
           "text": "View Details",
