@@ -11,12 +11,12 @@
     {
       "imgSrc": "/assets/images/cb/cover/cover2.jpg",
       "imgAlt": "",
-      "heading": "Results of CAST and APAT declared",
+      "heading": "Register for CAST and APAT",
       "content": "Get upto 95% off on our Basic or Advanced Courses this monsoon.",
       "button": [
         {
           "link": "/scholarship-tests.html",
-          "text": "View Details",
+          "text": "Register Now",
           "filled": "true"
         }
       ]
