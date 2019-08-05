@@ -21,6 +21,19 @@
         }
       ]
     },
+    {
+      "imgSrc": "/assets/images/cb/cover/coding_orientation.jpg",
+      "imgAlt": "",
+      "heading": "Coding Orientation",
+      "content": "Start early and launch yourself into the world of programming",
+      "button": [
+        {
+          "link": "http://bit.ly/cb-orient2",
+          "text": "Register Now",
+          "filled": "true"
+        }
+      ]
+    },
    
    
     {
