@@ -9,6 +9,19 @@
 
   "slides": [
     {
+      "imgSrc": "/assets/images/cb/cover/ads_square.jpg",
+      "imgAlt": "",
+      "heading": "Independence Day Sale",
+      "content": "Get Flat 50% off on all our courses",
+      "button": [
+        {
+          "link": "http://bit.ly/cb-ids19",
+          "text": "Hurry Up",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/apatcast_an.jpg",
       "imgAlt": "",
       "heading": "Register for CAST and APAT",
