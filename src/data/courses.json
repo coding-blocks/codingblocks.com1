@@ -762,6 +762,24 @@
         "Dive deep into neural networks."
       ],
       "online-link": "https://online.codingblocks.com/courses/deep-learning-neural-networks"
+    },
+    {
+      "id": "course46",
+      "rating": "4.7",
+      "ratingCount": "471",
+      "name": "Data Science with Python",
+      "price": "25,000",
+      "priceint": "25,000",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg ",
+      "imgAlt": "Data Science with Python",
+      "lectures": "(24 lectures)",
+      "link": "/classroom-courses/data-science-with-python.html",
+      "badge": "Starting Sep",
+      "description": [
+        "Ace Data Sciences"
+      ],
+      "batches": [
+      ]
     }
   ]
 }
