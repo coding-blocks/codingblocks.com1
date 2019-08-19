@@ -9,14 +9,14 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/ads_square.jpg",
+      "imgSrc": "/assets/images/cb/cover/datascience.jpg",
       "imgAlt": "",
-      "heading": "Independence Day Sale",
-      "content": "Get Flat 50% off on all our courses",
+      "heading": "New Classroom Course !",
+      "content": "Data Science using Python !",
       "button": [
         {
-          "link": "http://bit.ly/cb-ids19",
-          "text": "Hurry Up",
+          "link": "/classroom-courses/data-science-with-python.html",
+          "text": "Enroll Now !",
           "filled": "true"
         }
       ]
