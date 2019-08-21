@@ -21,33 +21,7 @@
         }
       ]
     },
-    {
-      "imgSrc": "/assets/images/cb/cover/apatcast_an.jpg",
-      "imgAlt": "",
-      "heading": "Register for CAST and APAT",
-      "content": "Get upto 95% off on our Basic or Advanced Courses this monsoon.",
-      "button": [
-        {
-          "link": "/scholarship-tests.html",
-          "text": "Register Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/coding_orientation.jpg",
-      "imgAlt": "",
-      "heading": "Coding Orientation",
-      "content": "Start early and launch yourself into the world of programming",
-      "button": [
-        {
-          "link": "http://bit.ly/cb-orient2",
-          "text": "Register Now",
-          "filled": "true"
-        }
-      ]
-    },
-   
+  
    
     {
 		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
@@ -76,7 +50,7 @@
 		  ]
 	  },
 	  {
-		  "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+		  "imgSrc": "/assets/images/cb/cover/cover5.jpg",
 		  "imgAlt": "",
 		  "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
 		  "content": "Do the best summer internship this year by becoming a Coding Blocks Ambassador for your campus, and win coupons, merchandise, certificates, and CASH.",
