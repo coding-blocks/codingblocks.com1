@@ -21,6 +21,19 @@
         }
       ]
     },
+	   {
+		  "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
+		  "imgAlt": "",
+		  "heading": "Code n Counter 4.0",
+		  "content": "Most popular and coolest National level Hackathon-get T-shirts, bags and cool swags.",
+		  "button": [
+			  {
+				  "link": "https://cb.lk/cncgf",
+				  "text": "Register Now",
+				  "filled": "true"
+       			  }
+		  	    ]
+	  },
   
    
     {
