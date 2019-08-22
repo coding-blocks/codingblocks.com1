@@ -21,6 +21,19 @@
         }
       ]
     },
+	   {
+		  "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
+		  "imgAlt": "",
+		  "heading": "",
+		  "content": "",
+		  "button": [
+			  {
+				  "link": "https://cb.lk/cncgf",
+				  "text": "Register Now",
+				  "filled": "true"
+       			  }
+		  	    ]
+	  },
   
    
     {
