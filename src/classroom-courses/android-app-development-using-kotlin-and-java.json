@@ -189,14 +189,7 @@
       "center": "Pitampura",
       "startdate": "24th Aug",
       "enddate": "TBD",
-      "daytime": "Sun (08:00 AM -11:30 AM), Sat (08:00 AM - 11:30 AM)",
-      "batchtype": "Weekend"
-    },
-    {
-      "center": "Noida",
-      "startdate": "25th Aug",
-      "enddate": "TBD",
-      "daytime": "Sun (04:00 PM -07:30 PM), Sat (04:00 PM - 07:30 AM)",
+      "daytime": "Sun (09:00 AM -12:00 PM), Sat (09:00 AM - 12:00 PM)",
       "batchtype": "Weekend"
     }
   ],
