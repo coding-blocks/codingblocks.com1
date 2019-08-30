@@ -191,13 +191,6 @@
       "enddate": "TBD",
       "daytime": "Sun (10:00 AM - 1:30 PM), Sat (10:00 AM - 1:30 PM)",
       "batchtype": "Weekend-Morning"
-    },
-    {
-      "center": "Noida",
-      "startdate": "7th Sept",
-      "enddate": "TBD",
-      "daytime": "Sun (9:00 AM - 11:50 AM), Sat (9:00 AM - 11:50 AM)",
-      "batchtype": "Weekend-Morning"
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",
