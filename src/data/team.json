@@ -136,6 +136,15 @@
       "bio":
         "Sanket is a sharp competitive programmer with a strong hold in Algorithms. He is a Google Summer Of Code student developer for Berkman Klein Centre at Harvard University. He has worked as a Deep Learning Researcher at Indian Space Research Organization(ISRO) & displayed exemplary leadership and coding skills. A multi-hackathon winner, Sanket loves to mentor students in free time and is also interested in building cool machine learning and web applications."
     },
+   	{
+      "name": "Pulkit Aggarwal",
+      "role": "Developer & Mentor",
+      "imgSrc":
+        "/assets/images/cb/team/Pulkit.png",
+      "imgAlt": "Pulkit Aggarwal",
+      "bio":
+        "Pulkit is currently pursuing masters from DU. Have a keen interest in building mobile applications in android and iOS. He has worked with different startups in past wich has been a resourceful experience and have helped to shape his skills. He is also an open source enthusiast and also have quite knowledge about firebase platform."
+    },
     {
       "name": "Iti Jain",
       "role": "Mentor",
