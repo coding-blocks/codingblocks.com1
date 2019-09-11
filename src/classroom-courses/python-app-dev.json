@@ -193,13 +193,6 @@
     },
     {
       "center": "Noida",
-      "startdate": "18th Aug",
-      "enddate": "TBD",
-      "daytime": "Sun (9:00 AM - 11:50 AM), Sat (9:00 AM - 11:50 AM)",
-      "batchtype": "Weekend-Morning"
-    },
-    {
-      "center": "Noida",
       "startdate": "29th Sept",
       "enddate": "TBD",
       "daytime": "Sun (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
@@ -208,6 +201,6 @@
   ],
 
   "frame-id-pitampura": "337",
-  "frame-id-noida": "339",
+  "frame-id-noida": "349",
   "frame-id-dwarka": "338"
 }
