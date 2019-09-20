@@ -9,57 +9,35 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/datascience.jpg",
+      "imgSrc": "/assets/images/cb/cover/online.jpg",
       "imgAlt": "",
-      "heading": "New Classroom Course !",
-      "content": "Data Science using Python !",
+      "heading": "LEARN FROM HOME | LEARN ONLINE!",
+      "content": "Introducing Online Programming Courses!",
       "button": [
         {
-          "link": "/classroom-courses/data-science-with-python.html",
-          "text": "Enroll Now !",
+          "link": "https://cb.lk/cb-online",
+          "text": "LEARN MORE",
           "filled": "true"
         }
       ]
     },
-	   {
-		  "imgSrc": "/assets/images/cb/cover/codencounter.jpg",
-		  "imgAlt": "",
-		  "heading": "",
-		  "content": "",
-		  "button": [
-			  {
-				  "link": "https://cb.lk/cncgf",
-				  "text": "Register Now",
-				  "filled": "true"
-       			  }
-		  	    ]
-	  },
-  
-   
+
     {
-		  "imgSrc": "/assets/images/cb/cover/cb_chatbot.jpg",
+		  "imgSrc": "/assets/images/cb/cover/datascience.jpg",
 		  "imgAlt": "",
-		  "heading": "Weekend Classroom Courses Starting this August",
-		  "content": "Courses for all stages, with equal focus on theory and implementation",
-		  "button": [
-			  {
-				  "link": "/classroom-courses",
-				  "text": "Register Now",
-				  "filled": "true"
-        }
-		  ]
-	  },
-    {
-		  "imgSrc": "/assets/images/cb/cover/data_science.jpg",
-		  "imgAlt": "",
-		  "heading": "New Online Course on Data Science is live now !",
-		  "content": "Use code DS1500- Extra 1500 OFF ",
+		  "heading": "DATA SCIENCE ONLINE | CLASSROOM COURSES",
+		  "content": "Start from basics, become an industry ready Data Scientist!",
 		  "button": [
 			  {
 				  "link": "https://online.codingblocks.com/courses/data-science-online-course-python",
-				  "text": "Explore",
+				  "text": "Explore Online Course",
 				  "filled": "true"
-			  }
+			  },
+            {
+              "link": "https://codingblocks.com/classroom-courses/data-science-with-python.html",
+              "text": "Explore Classroom Course",
+              "filled": "true"
+            }
 		  ]
 	  },
 	  {
