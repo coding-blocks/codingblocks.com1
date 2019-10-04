@@ -12,7 +12,7 @@
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
       "off-price": "3,000",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "description": [
         "C++ Complete Course",
         "Data Structures & Algorithms in C++",
@@ -35,7 +35,7 @@
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
       "off-price": "3,000",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "description": [
         "Java Complete Course",
         "Data Structures & Algorithms in Java",
@@ -56,7 +56,7 @@
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
       "link": "/classroom-courses/android-app-development-using-kotlin-and-java.html",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "description": [
         "Building Android Apps",
         "UI and Animations",
@@ -78,7 +78,7 @@
       "imgAlt": "web development course logo",
       "lectures": "(20-22 lectures)",
       "link": "/classroom-courses/web-development-nodejs.html",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "description": [
         "Web Design",
         "Real time Web Apps",
@@ -95,7 +95,7 @@
       "name": "Algo++",
       "price": "12,000",
       "priceint": "12000",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "algo++ course logo",
       "lectures": "(15 lectures)",
@@ -121,7 +121,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "(22-24 lectures)",
       "link": "/classroom-courses/machine-learning-with-deep-learning.html",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -142,7 +142,7 @@
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "description": [
         "Programming Fundamentals in Java"
       ],
@@ -160,7 +160,7 @@
       "imgAlt": "Launchpad For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "description": [
         "Programming Fundamentals in C+"
       ],
@@ -178,7 +178,7 @@
       "imgAlt": "Certified Python Developer Logo",
       "lectures": "(6 lectures)",
       "link": "/coming-soon.html",
-      "badge": "Starting Jan",
+      "badge": "Starting Dec",
       "description": [
         "Complete Python Course"
       ],
@@ -196,7 +196,7 @@
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "description": [
         "DS & Algorithms in C++"
       ],
@@ -214,7 +214,7 @@
       "imgAlt": "Data Structures and Algorithms Using Java",
       "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-using-java.html",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "description": [
         "DS & Algorithms in Java"
       ],
@@ -288,7 +288,7 @@
       "priceint": "6500",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Preparation Bootcamp logo",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "lectures": "(10 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#basic",
       "description": [
@@ -421,7 +421,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming Course Logo",
       "lectures": "(10-12 lectures)",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "link": "/classroom-courses/competitive-programming.html",
       "description": [
         "",
@@ -446,7 +446,7 @@
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "lectures": "(25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#cpp-bundle",
       "description": [
@@ -466,7 +466,7 @@
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Competitive Programming course logo",
-      "badge": "Starting Aug",
+      "badge": "Starting Dec",
       "lectures": "(25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#java-bundle",
       "description": [
@@ -561,7 +561,7 @@
       "imgAlt": "Unity Game Development",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/unity-game-development.html",
-      "badge": "Starting this Aug",
+      "badge": "Starting this Dec",
       "description": [
         "Game Development with Unity"
       ],
@@ -592,7 +592,7 @@
       "name": "Data Sciences Master Course",
       "off-price": "",
       "slashed-price": "24,999",
-      "price": "15,999",
+      "price": "16,499",
       "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg ",
       "imgAlt": "Data Sciences Master Course",
       "badge": "Starting First week of every Month",
@@ -614,7 +614,7 @@
       "imgAlt": "django web development course logo",
       "lectures": "(14 lectures)",
       "link": "/classroom-courses/web-development-django.html",
-      "badge": "Starting this Sept",
+      "badge": "Starting this Dec",
       "description": [
         "Web Design",
         "Deployment &amp; System Adminstration",
@@ -634,7 +634,7 @@
       "imgAlt": "Python app development course logo",
       "lectures": "(12 lectures)",
       "link": "/classroom-courses/python-app-dev.html",
-      "badge": "Starting Sept",
+      "badge": "Starting Dec",
       "description": [
         "Python fundamentals",
         "Web scrapping",
@@ -774,7 +774,7 @@
       "imgAlt": "Data Science with Python",
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/data-science-with-python.html",
-      "badge": "Starting Sep",
+      "badge": "Starting Dec",
       "description": [
         "Ace Data Sciences"
       ],
