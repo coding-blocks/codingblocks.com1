@@ -41,8 +41,7 @@
 
 /*!---------- 1. GLOBAL STYLES ----------*/
 html {
-  
- ;
+  scroll-behavior: smooth;
 }
 body {
   -webkit-font-smoothing: antialiased;
