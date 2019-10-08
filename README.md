@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="600" height="200" src="https://user-images.githubusercontent.com/33978990/66423578-996b1000-ea29-11e9-9a51-fab3b70eb981.png">
+</p>
+
 # coding-blocks.github.io
 
 ## Deploys
