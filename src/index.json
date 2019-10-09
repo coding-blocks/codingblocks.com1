@@ -10,7 +10,7 @@
   "slides": [
     {
       "imgSrc": "/assets/images/cb/cover/online.jpg",
-      "imgAlt": "",
+      "imgAlt": "Coding Blocks : Best programming Courses in Delhi-NCR | Coding Blocks",
       "heading": "LEARN FROM HOME | LEARN ONLINE!",
       "content": "Introducing Online Programming Courses!",
       "button": [
@@ -24,7 +24,7 @@
 
     {
 		  "imgSrc": "/assets/images/cb/cover/datascience.jpg",
-		  "imgAlt": "",
+		  "imgAlt": "Coding Blocks : Best programming Courses in Delhi-NCR | Coding Blocks | Learn Data Science",
 		  "heading": "DATA SCIENCE ONLINE | CLASSROOM COURSES",
 		  "content": "Start from basics, become an industry ready Data Scientist!",
 		  "button": [
@@ -42,7 +42,7 @@
 	  },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/cover5.jpg",
-		  "imgAlt": "",
+		  "imgAlt": "Coding Blocks : Best programming Courses in Delhi-NCR | Coding Blocks | Campus Ambassador Program",
 		  "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
 		  "content": "Do the best summer internship this year by becoming a Coding Blocks Ambassador for your campus, and win coupons, merchandise, certificates, and CASH.",
 		  "button": [
@@ -55,7 +55,7 @@
 	  },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/cast.jpg",
-		  "imgAlt": "",
+		  "imgAlt": "Coding Blocks : Best programming Courses in Delhi-NCR | Coding Blocks | Success Stories",
 		  "heading": "Success stories",
 		  "content": "Got an internship/placement ? Here is a chance to share your success story with others, get featured on our Facebook, Instagram and Hall of Fame pages and get rewarded.",
 		  "button": [
