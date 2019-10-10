@@ -856,7 +856,7 @@ $(document).ready(function() {
                     url: host + url,
                     data: thisForm.serialize()+"&url="+window.location.href,
                     success: function(response) {
-                        // Swiftmailer always sends back a number representing numner of emails sent.
+                        // Swiftmailer always sends back a number representing number of emails sent.
                         // If this is numeric (not Swift Mailer error text) AND greater than 0 then show success message.
 
                         submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');

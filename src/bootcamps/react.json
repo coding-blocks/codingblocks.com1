@@ -50,7 +50,7 @@
       "icon": "",
       "title": "Javascript Fundamentals",
       "content":
-        "A good React developer must have a strong hand on Javascript. This couse makes it sure that you gain all the required knowledge and skills. It covers the fundamentals and advanced concepts of Javascript including ES6 and ES7 features."
+        "A good React developer must have a strong hand on Javascript. This course makes it sure that you gain all the required knowledge and skills. It covers the fundamentals and advanced concepts of Javascript including ES6 and ES7 features."
     },
     {
       "icon": "",
@@ -66,7 +66,7 @@
     },
     {
       "icon": "",
-      "title": "Code Spliting & Webpack",
+      "title": "Code Splitting & Webpack",
       "content":
         "You'll learn how to implement Code Splitting in React & setting up Webpack project from scratch. The course also includes the latest features of React including Suspense & lazy, Hooks, and Memo."
     }
@@ -143,7 +143,7 @@
       "points": [
         "Redux fundamentals",
         "Combined reducers",
-        "Creating Redux middlewares like logger and state persistance",
+        "Creating Redux middlewares like logger and state persistence",
         "Async actions with Redux thunk middlewares",
         "Building forms with Redux forms"
       ]
@@ -174,7 +174,7 @@
       "ques":
         "How much knowledge of Data Structures and Algorithms do I need to take this course?",
       "ans":
-        "You need to have good command of data structures like Stacks, Queues and Lists. Also a basic idea of algorithms like sorting, searching, string manupulations. Also it is imperative to have good concepts of Object Oriented Programming"
+        "You need to have good command of data structures like Stacks, Queues and Lists. Also a basic idea of algorithms like sorting, searching, string manipulations. Also it is imperative to have good concepts of Object Oriented Programming"
     },
     {
       "ques": "I have no idea of Javascript, can I join?",

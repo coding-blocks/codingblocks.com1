@@ -90,7 +90,7 @@
     },
     {
       "title": "OOP",
-      "contentTitle": "Object Oriented Programming, Complexity Analyis",
+      "contentTitle": "Object Oriented Programming, Complexity Analysis",
       "description": "In this part we learn about how to compute space-time complexity of our solution and how can we optimise our solutions. We will also learn about OOPs and recommended coding practices.",
       "points": [
         "Classes and objects",
