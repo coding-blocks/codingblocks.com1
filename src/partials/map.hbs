@@ -17,10 +17,14 @@
               data-success="Thanks for your submission, we will be in touch shortly."
               data-error="Please fill all fields correctly.">
             <h6 class="uppercase text-center">Send A Message</h6>
-            <input class="validate-required" name="name" placeholder="Your Name" type="text">
-            <input class="validate-required validate-email" name="email" placeholder="Email Address" type="text">
-            <input class="validate-required" name="subject" placeholder="Subject" type="text">
-            <textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
+            <label for="name">Your Name</label>
+            <input class="validate-required" name="name" id="name" placeholder="Your Name" type="text">
+            <label for="email">Email Address</label>
+            <input class="validate-required validate-email" name="email" id="email" placeholder="Email Address" type="text">
+            <label for="subject">Subject</label>
+            <input class="validate-required" name="subject" id="subject" placeholder="Subject" type="text">
+            <label for="message">Message</label>
+            <textarea class="validate-required" name="message" id="message" rows="4" placeholder="Message"></textarea>
             <div class="g-recaptcha" data-sitekey="6Ldha0sUAAAAADc7aZwm0lJRamTVadFKIpiy90Qi"></div>
             <button type="submit">Send Message</button>
         </form>
