@@ -12,9 +12,7 @@ let cached = require('gulp-cached')
 const gulpif = require('gulp-if')
 const embedlr = require('gulp-embedlr')
 
-
 gulp.task('html', function () {
-
     return new Promise((resolve, reject) => {
         let stream = gulp.src([config.src + '/**/*.hbs', "!" + config.partialsSrc + '/**/*.hbs'])
             .pipe(gulpData(function (file) {
