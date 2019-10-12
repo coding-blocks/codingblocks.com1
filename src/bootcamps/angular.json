@@ -33,10 +33,6 @@
         {
           "linkText": "Contents",
           "link": "#contents"
-        },
-        {
-          "linkText": "FAQ",
-          "link": "#faq"
         }
       ],
       "bgSrc": "/assets/images/cb/cover/cover3.jpg"
