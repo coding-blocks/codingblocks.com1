@@ -9,7 +9,7 @@ Commits to master and PRs are automatically built and deployed by Netlify
 ## Contributions and PR
 
  - PRs should be generated against `master`
- - Wait for `@codingblocks-bot` to deploy site and paste link of preview 
+ - Wait for `@codingblocks-bot` to deploy the site and paste the link of preview 
  - Check preview. If all good, then only `PR -> master` merge is made
 
 ## Build Setup
