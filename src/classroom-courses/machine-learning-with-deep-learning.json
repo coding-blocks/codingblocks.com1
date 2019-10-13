@@ -175,9 +175,9 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "18th Aug",
-      "enddate": "TBD",
-      "daytime": "Sun (04:15 PM - 7:45 PM), Sat (04:15 PM - 7:45 PM)",
+      "startdate": "22nd Dec",
+      "enddate": "15th Mar",
+      "daytime": "Sun (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM)",
       "batchtype": "Weekend-Evening"
     },
     {
@@ -195,7 +195,7 @@
       "batchtype": "Weekend - Evening"
     }
   ],
-  "widget-id-pitampura": "332",
+  "widget-id-pitampura": "354",
   "widget-id-dwarka": "333",
   "widget-id-noida": "334"
 }
