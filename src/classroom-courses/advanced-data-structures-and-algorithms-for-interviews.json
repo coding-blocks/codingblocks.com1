@@ -173,17 +173,10 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "18th Aug",
-      "enddate": "TBD",
-      "daytime": "Sun (12:10 PM - 3:40 PM), Sat (12:10 PM - 3:40 PM)",
-      "batchtype": "Weekend-Noon"
-    },
-    {
-      "center": "Pitampura",
-      "startdate": "1st Sep",
-      "enddate": "TBD",
-      "daytime": "Sun (4:10 PM - 7:30 PM), Sat (4:10 PM - 7:30 PM)",
-      "batchtype": "Weekend-Evening"
+      "startdate": "16th Dec",
+      "enddate": "3rd Jan",
+      "daytime": "Mon (3:00 PM - 7:30 PM), Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Fri (3:00 PM - 7:30 PM)",
+      "batchtype": "Weekdays-Noon"
     },
     {
       "center": "Dwarka",
@@ -200,8 +193,8 @@
     "Dhruv Kulshreshtha",
     "Parth Dhamija"
   ],
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=322",
-  "frame-id-pitampura-lp": "329",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=353",
+  "frame-id-pitampura-lp": "353",
 
   "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=331",
   "frame-id-noida-lp": "331",
