@@ -1,7 +1,7 @@
 {
   "name": "coding-blocks.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Official Website of codingblocks.com, a programming bootcamp based in Delhi",
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build",
