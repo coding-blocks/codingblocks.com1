@@ -49,7 +49,7 @@
     {
       "icon": "et-line-chat",
       "title": "Real Time Web Apps",
-      "content": "Socket.IO is a javascript library for real-time applications. You'll learn how to enable real-time communication between web clients and servers to build some awesome chat systems and multiplayer games."
+      "content": "Socket.IO is a Javascript library for real-time applications. You'll learn how to enable real-time communication between web clients and servers to build some awesome chat systems and multiplayer games."
     },
     {
       "icon": "fa fa-database",
@@ -165,7 +165,7 @@
       },
       {
         "icon": "pe-7s-cup",
-        "content": "2 Hacakthons"
+        "content": "2 Hackathons"
       }
     ]
   },
