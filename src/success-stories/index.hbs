@@ -1058,9 +1058,11 @@
                   flipClass = 'flippy' 
                 }
 
+              let imgError = true;  
+
               company.forEach (function (logo) {
 				  if (/^http/.test (logo)) {
-					  logo = `<img width="64px" src="${logo}" />`
+					  logo = imgError ? `<img width="64px" onerror={() => imgError = false} src="${logo}" />` : `<p>${logo}</p>`
 				  }
 				  else {
 					  logo = `<p>${logo}</p>`
