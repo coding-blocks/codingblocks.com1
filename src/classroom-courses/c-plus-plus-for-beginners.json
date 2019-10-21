@@ -92,31 +92,17 @@
   "scheduleLaunchpad": [
 	  {
 		  "center": "Pitampura",
-		  "startdate": "8th Dec",
-		  "enddate": "25th Jan",
-		  "daytime": "Sun (9:30 AM - 2:00 PM), Tue (9:30 AM - 2:00 PM), Thu (9:30 AM - 2:00 PM), Sat (9:30 AM - 2:00 PM)",
+		  "startdate": "16th Dec",
+		  "enddate": "3rd Jadn",
+		  "daytime": "Mon (9:30 AM - 2:00 PM), Wed (9:30 AM - 2:00 PM), Fri (9:30 AM - 2:00 PM)",
 		  "batchtype": "Weekdays - Morning"
     },
     {
-		  "center": "Pitampura",
-		  "startdate": "29th Dec",
-		  "enddate": "22nd Mar",
-		  "daytime": "Sun (3:00 PM - 7:30 PM),  Sat (3:00 PM - 7:30 PM)",
-		  "batchtype": "Weekend - Evening"
-	  },
-	  {
-		  "center": "Dwarka",
-		  "startdate": "22 Dec",
-		  "enddate": "TBD",
-		  "daytime": "Sat (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM), Wed (10:00 AM - 2:00 PM)",
-		  "batchtype": "Weekend - Morning"
-    },
-    {
 		  "center": "Noida",
-		  "startdate": "29th Dec",
-		  "enddate": "TBD",
-		  "daytime": "Sun (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM)",
-		  "batchtype": "Weekend - Evening"
+		  "startdate": "22nd Dec",
+		  "enddate": "10th Jan",
+		  "daytime": "Sun (12:15 PM - 3:45 PM), Thu (12:15 PM - 3:45 PM), Sat (12:15 PM - 3:45 PM)",
+		  "batchtype": "Weekend - Noon"
 	  }
   ],
   "courseReviews": [
