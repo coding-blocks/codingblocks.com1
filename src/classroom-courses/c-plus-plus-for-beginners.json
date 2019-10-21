@@ -106,16 +106,16 @@
 	  },
 	  {
 		  "center": "Dwarka",
-		  "startdate": "18th Aug",
+		  "startdate": "22 Dec",
 		  "enddate": "TBD",
-		  "daytime": "Sat (10:00 AM - 1:30 PM), Sun (10:00 AM - 1:30 PM)",
+		  "daytime": "Sat (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM), Wed (10:00 AM - 2:00 PM)",
 		  "batchtype": "Weekend - Morning"
     },
     {
 		  "center": "Noida",
-		  "startdate": "1st Sep",
+		  "startdate": "29th Dec",
 		  "enddate": "TBD",
-		  "daytime": "Sun (3:00 PM - 7:00 PM), Sat (3:00 PM - 7:00 PM)",
+		  "daytime": "Sun (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM)",
 		  "batchtype": "Weekend - Evening"
 	  }
   ],
