@@ -190,11 +190,11 @@
   "schedule": [
     {
       "center": "Noida",
-      "startdate": "1st Sep",
-      "enddate": "30th Nov",
-      "daytime": "Sat (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
-      "batchtype": "Weekend - Morming"
+      "startdate": "24th Dec",
+      "enddate": "TBD",
+      "daytime": "Sat (12:15 PM - 3:45 PM), Sun (12:15 PM - 3:45 PM)",
+      "batchtype": "Weekend - Noon"
     }
   ],
-  "widget-id-noida": "348"
+  "widget-id-noida": "369"
 }

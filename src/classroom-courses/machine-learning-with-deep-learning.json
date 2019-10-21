@@ -182,20 +182,20 @@
     },
     {
       "center": "Dwarka",
-      "startdate": "25th Aug",
+      "startdate": "29th Dec",
       "enddate": "TBD",
       "daytime": "Sun (10:00 AM - 1:30 PM), Sat (10:00 AM - 1:30 PM)",
       "batchtype": "Weekend-Morning"
     },
     {
       "center": "Noida",
-      "startdate": "25th Aug",
+      "startdate": "22nd Dec",
       "enddate": "TBD",
       "daytime": "Sun (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
       "batchtype": "Weekend - Evening"
     }
   ],
   "widget-id-pitampura": "354",
-  "widget-id-dwarka": "333",
-  "widget-id-noida": "334"
+  "widget-id-dwarka": "366",
+  "widget-id-noida": "367"
 }
