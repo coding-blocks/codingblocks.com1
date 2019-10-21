@@ -142,8 +142,8 @@
       "rating": "4.9",
       "ratingCount": "484",
       "name": "Java For Beginners",
-	"price": "8,000",
-	"priceint": "8000",
+      "price": "7,000",
+      "priceint": "7000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(10 lectures)",
@@ -160,8 +160,8 @@
       "rating": "4.3",
       "ratingCount": "468",
       "name": "C++ For Beginners",
-	"price": "8,000",
-	"priceint": "8000",
+      "price": "7,000",
+      "priceint": "7000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "Launchpad For Beginners Course Logo",
       "lectures": "(10 lectures)",
@@ -234,7 +234,7 @@
       "rating": "4.3",
       "ratingCount": "453",
       "name": "DS-Algo in C++ Online",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "slashed-price": "14,999",
 	  "price": "7,499",
       "priceint": "8999",
@@ -316,7 +316,7 @@
       "slashed-price": "12,999",
       "price": "6,499",
       "priceint": "6499",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "web development course logo",
       "lectures": "",
@@ -337,7 +337,7 @@
       "slashed-price": "14,999",
       "price": "7,499",
       "priceint": "7499",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
       "lectures": "",
@@ -366,7 +366,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
       "imgAlt": "android course logo",
       "lectures": "",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "link": "/online-courses/android-app-development.html",
       "description": [
         "Building Android Apps",
@@ -385,7 +385,7 @@
       "price": "6,499",
       "priceint": "9499",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "imgAlt": "java online course logo",
       "lectures": "",
       "link": "/online-courses/java.html",
@@ -456,7 +456,7 @@
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
-      "badge": "Starting Dec",
+      "badge": "Coming Soon",
       "lectures": "(25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#cpp-bundle",
       "description": [
@@ -476,7 +476,7 @@
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Competitive Programming course logo",
-      "badge": "Starting Dec",
+      "badge": "Coming Soon",
       "lectures": "(25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#java-bundle",
       "description": [
@@ -495,7 +495,7 @@
       "price": "9,999",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Prep course logo",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "lectures": "",
       "link": "/online-courses/coding-interview-preparation-online.html",
       "description": [
@@ -514,7 +514,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "",
       "link": "/online-courses/machine-learning.html",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -548,7 +548,7 @@
       "name": "Advanced DS-Algo in C++",
       "slashed-price": "12,999",
       "price": "6,499",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "Launchpad Online",
       "lectures": "",
@@ -587,7 +587,7 @@
       "price": "1,000",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Prep course logo",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "lectures": "",
       "link": "/online-courses/coding-interview-preparation-online-bootcamp.html",
       "description": [
@@ -605,7 +605,7 @@
       "price": "12,499",
       "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg ",
       "imgAlt": "Data Sciences Master Course",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "lectures": "",
       "link": "/online-courses/data-science-online-course-python",
       "description": [
@@ -624,7 +624,7 @@
       "imgAlt": "django web development course logo",
       "lectures": "(14 lectures)",
       "link": "/classroom-courses/web-development-django.html",
-      "badge": "Starting this Dec",
+      "badge": "Coming Soon",
       "description": [
         "Web Design",
         "Deployment &amp; System Adminstration",
@@ -750,7 +750,7 @@
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/angular.svg",
       "imgAlt": "Angular Course",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "lectures": "",
       "link": "",
       "description": [
@@ -766,7 +766,7 @@
       "price": "2,000",
       "imgSrc": "/assets/images/cb/logosc/dlml.svg",
       "imgAlt": "Deep Learning Course",
-      "badge": "Starting First week of every Month",
+      "badge": "Starting Every Month",
       "lectures": "",
       "link": "",
       "description": [
@@ -793,6 +793,25 @@
       ],
       "batches": [
       ]
+    },
+    {
+      "id": "course47",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Dynamic Programmning",
+      "slashed-price": "9,999",
+      "price":"4,999",
+      "badge": "Starting Every Month",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
+      "imgAlt": "Dynamic Programming",
+      "lectures": "",
+      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "description": [
+        "Become a DP Champion"
+      ],
+      "batches": [
+      ],
+      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
     }
   ]
 }

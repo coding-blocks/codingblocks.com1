@@ -15,12 +15,12 @@
       "content": "Upto 35% off on Classroom courses and flat 50% off on online courses",
       "button": [
         {
-          "link": "https://cb.lk/cb-online",
+          "link": "https://online.codingblocks.com/",
           "text": "EXPLORE ONLINE",
           "filled": "true"
         },
         {
-          "link": "https://cb.lk/",
+          "link": "/classroom-courses/",
           "text": "EXPLORE CLASSROOM",
           "filled": "true"
         }
@@ -140,27 +140,39 @@
   ],
   "coursesRow3": [
     {
-      "id": "course30",
+      "id": "course30"
+    },
+    {
+      "id": "course03",
       "odd": true
     },
     {
-      "id": "course03"
-    },
-    {
-      "id": "course04",
-      "odd": true
+      "id": "course04"
     }
   ],
   "coursesRow4": [
     {
-      "id": "webdj"
-    },
-    {
-      "id": "course06",
+      "id": "course46",
       "odd": true
     },
     {
-      "id": "course20"
+      "id": "course06"
+    },
+    {
+      "id": "course20",
+      "odd": true
+    }
+  ],
+  "interviewPrepRow": [
+    {
+      "id": "webdj"
+    },
+    {
+      "id": "course21",
+      "odd": true
+    },
+    {
+      "id": "course22"
     }
   ],
   "cppInterviewRow": [
@@ -174,18 +186,6 @@
     {
       "id": "course21",
 	  "combo": true
-    }
-  ],
-  "interviewPrepRow": [
-    {
-      "id": "course46"
-    },
-    {
-      "id": "course21",
-      "odd": true
-    },
-    {
-      "id": "course22"
     }
   ],
   "javaInterviewRow": [
@@ -224,7 +224,7 @@
       "odd": true
     },
     {
-      "id": "course23"
+      "id": "course47"
     }
   ],
   "onlineCoursesRow3": [

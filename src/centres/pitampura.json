@@ -112,23 +112,20 @@
       "odd": true
     },
     {
-      "id": "webdj"
+      "id": "course04"
     },
     {
-      "id": "course04",
+      "id": "course03",
       "odd": true
     }
   ],
   "coursesRow4": [
     {
-      "id": "course03"
+      "id": "course06"
     },
     {
-      "id": "course06",
+      "id": "course20",
       "odd": true
-    },
-    {
-      "id": "course20"
     }
   ]
 }
