@@ -106,18 +106,39 @@
 	  },
 	  {
 		  "center": "Dwarka",
-		  "startdate": "18th Aug",
+		  "startdate": "22nd Dec",
 		  "enddate": "TBD",
-		  "daytime": "Sat (10:00 AM - 1:30 PM), Sun (10:00 AM - 1:30 PM)",
-		  "batchtype": "Weekend - Morning"
+		  "daytime": "Sat (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM), Wed (10:00 AM - 2:00 PM)",
+		  "batchtype": "Morning"
     },
     {
 		  "center": "Dwarka",
-		  "startdate": "1st Sep",
+		  "startdate": "5th Jan",
 		  "enddate": "TBD",
-		  "daytime": "Sun (3:00 PM - 7:00 PM), Sat (3:00 PM - 7:00 PM)",
-		  "batchtype": "Weekend - Evening"
-	  }
+		  "daytime": "Sun (3:00 PM - 7:30 PM),  Sat (3:00 PM - 7:30 PM)",
+		  "batchtype": "Evening"
+    },
+    {
+		  "center": "Noida",
+		  "startdate": "22nd Dec",
+		  "enddate": "TBD",
+		  "daytime": "Sun (9:00 AM - 12:00 PM), Tue (9:00 AM - 12:00 PM), Thu (9:00 AM - 12:00 PM), Sat (9:00 AM - 12:00 PM)",
+		  "batchtype": "Weekdays - Morning"
+    },
+    {
+		  "center": "Noida",
+		  "startdate": "22nd Dec",
+		  "enddate": "TBD",
+		  "daytime": "Sun (12:15 PM - 3:45 PM), Tue (12:15 PM - 3:45 PM), Thu (12:15 PM - 3:45 PM), Sat (12:15 PM - 3:45 PM)",
+		  "batchtype": "Weekdays - Noon"
+    },
+    {
+		  "center": "Noida",
+		  "startdate": "29th Dec",
+		  "enddate": "TBD",
+		  "daytime": "Sun (04:00 PM - 07:00 PM), Tue (04:00 PM - 07:00 PM), Thu (04:00 PM - 07:00 PM), Sat (04:00 PM - 07:00 PM)",
+		  "batchtype": "Weekdays - Evening"
+    }
   ],
   "courseReviews": [
     "NAVDEEP SINGH",
@@ -132,10 +153,10 @@
   "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=350",
   "frame-id-pitampura-lp": "350",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=324",
-  "frame-id-dwarka-lp": "324",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=359",
+  "frame-id-dwarka-lp": "359",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=325",
-  "frame-id-noida-lp": "325"
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=360",
+  "frame-id-noida-lp": "360"
 
 }
