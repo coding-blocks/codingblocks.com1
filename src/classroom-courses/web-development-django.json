@@ -179,10 +179,11 @@
   ],
   "courseEnroll": {
     "upcomingBatches": "Upcoming Batches:",
-	"priceCut": "17,000",
+    "priceCut": "17,000",
+    "price": "15,000",
     "registerButton":{
-      "disabled": false,
-      "buttonText": "Register Now"
+      "disabled": true,
+      "buttonText": "Coming Soon"
     },
     "highlights": [
       {

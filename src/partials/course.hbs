@@ -26,7 +26,7 @@
                 linkText}}Register Now{{else}}{{{linkText}}}{{/unless}}</a>
             <br>
             <a target="_blank" href="{{online-link}}">Try For Free</a>
-        {{else}}
+        {{else if link}}
             <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
                 linkText}}Register Now{{else}}{{{linkText}}}{{/unless}}</a>
         {{/if}}

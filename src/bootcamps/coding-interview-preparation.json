@@ -16,14 +16,13 @@
     "PURUJIT BANSAL"
   ],
   "courseEnroll": {
-    "upcomingBatches": "<strong>Upcoming Batches</strong><ul class=\"course-list\"><li>Regular batch at Pitampura starting June 9</li><li>Regular batch at Pitampura starting July 10</li></ul>",
-    "price": "6,500",
-    "highlights": [
-      {
-        "icon": "pe-7s-cup",
-        "content": "Special Session on resume building and group discussions"
-      }
-    ]
+    "upcomingBatches": "Upcoming Batches:",
+    "priceCut": "20,000",
+    "price": "18,000",
+    "registerButton":{
+      "disabled": true,
+      "buttonText": "Coming Soon"
+    }
   },
   "scheduleCpp": [
     {
