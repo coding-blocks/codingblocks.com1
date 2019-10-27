@@ -23,12 +23,12 @@
     {
       "icon": "pe-7s-download",
       "title": "JavaScript | Phaser",
-      "content": "In the bootcamp, you will learn the basics as well as advanced topics like implementing event listeners, object oriented programming in JS. You will also learn how to use Phaser framework to build uber cool games"
+      "content": "In the bootcamp, you will learn the basics as well as advanced topics like implementing event listeners, object oriented programming in JS. You will also learn how to use Phaser framework to build uber cool games."
     },
     {
       "icon": "et-line-speedometer",
       "title": "Multilevel Games",
-      "content": "Not just single state games, you will also learn to create multi-level games using Phaser State Managar and switch between them"
+      "content": "Not just single state games, you will also learn to create multi-level games using Phaser State Managar and switch between them."
     },
     {
       "icon": "pe-7s-network",
@@ -50,7 +50,7 @@
       "ans": "You just need to have prior programming in any one language like C++, Java, Python, JS etc and basic understanding of HTML tags. That's it."
     },
     {
-      "ques": "Can I build my own games after this bootcamp ?",
+      "ques": "Can I build my own games after this bootcamp?",
       "ans": "This course will help you become smarter in writing codes. You’ll be able to build 2-d multilevel games involving physics on your own. Also this will take your JS skills to the next level. Learning Phaser will be a plus-point for your CV too."
     }
   ],
