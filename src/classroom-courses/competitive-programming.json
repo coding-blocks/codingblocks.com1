@@ -38,14 +38,14 @@
       "startdate": "16th Dec",
       "enddate": "3rd Jan",
       "daytime": "Mon (9:30 AM - 2:00 PM), Wed (9:30 AM - 2:00 PM), Fri (9:30 AM - 2:00 PM)",
-      "batchtype": "Weekdays - Morning"
+      "batchtype": "Morning"
     },
     {
       "center": "Noida",
-      "startdate": "1st Sept",
-      "enddate": "TBD",
-      "daytime": "Sun (12:30 PM - 03:30 PM), Sat (12:30 PM - 03:30 PM)",
-      "batchtype": "Weekend - Noon"
+      "startdate": "22nd Dec",
+      "enddate": "10th Jan",
+      "daytime": "Sun (12:15 PM - 03:45 PM), Thu (12:15 PM - 03:45 PM), Sat (12:15 PM - 03:45 PM)",
+      "batchtype": "Noon"
     }
   ],
   "courseReviews": [
@@ -65,5 +65,5 @@
     ]
   },
   "widget-id-pitampura": "355",
-  "widget-id-noida": "345"
+  "widget-id-noida": "365"
 }
