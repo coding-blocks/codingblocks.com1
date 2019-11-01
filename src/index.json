@@ -9,24 +9,6 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/webbenner_diwali.jpg",
-      "imgAlt": "",
-      "heading": "Get amazing discount on our courses in Diwali Sale !",
-      "content": "Upto 35% off on Classroom courses and flat 50% off on online courses",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/",
-          "text": "EXPLORE ONLINE",
-          "filled": "true"
-        },
-        {
-          "link": "/classroom-courses/",
-          "text": "EXPLORE CLASSROOM",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "/assets/images/cb/cover/online.jpg",
       "imgAlt": "",
       "heading": "LEARN FROM HOME | LEARN ONLINE!",
