@@ -68,23 +68,23 @@
       "title": "Activities and UI",
       "contentTitle": "Activities and UI",
       "description": "The basic building blocks of an Android app - 'the Activity'. Learn to make beautifully designed apps, with all kinds of screen sizes and all types of layouts. Learn how to build 'ListViews' for showing lists of data, in the form of beautiful cards, common Android design patterns such as Navigation Drawer, Action Bar, Floating Action Buttons and all Material Design Concepts",
-      "lectures": "Lectures 1-2",
+      "lectures": "Lectures 1-3",
       "points": [
-        "Object Oriented Programming Concepts in Java",
+        "Object Oriented Programming Concepts in Java and Kotlin",
         "Getting Started with Android App Development Tools",
+	"Getting Familiar With Syntax of Kotlin",
         "Activities and Basic UI Building"
       ]
     },
     {
-      "title": "Background and Services",
-      "contentTitle": "Background and Services",
+      "title": "Working with List of Data",
+      "contentTitle": "Working with List of Data",
       "description": "Not everything happens on the screen; learn to create services that run in the background. AsyncTasks use multi-threading to run parallel operations on separate threads so the user doesn't notice any work being done, and the app remains ever responsive.",
-      "lectures": "Lecture: 3-10",
+      "lectures": "Lecture: 4-10",
       "points": [
-        " Adapters and ListViews",
-        "Intents",
-        "Fragments, ViewPagers and Navigation Drawer",
-        "Services",
+	"Intents",
+        "Adapters and ListViews",
+        "Understanding",
         "Permission Management",
         "Menus and Preferences"
       ]
@@ -104,7 +104,7 @@
       "title": "Network",
       "contentTitle": "Network",
       "description": "A mobile app is nothing without connectivity. Learn to add network connectivity and integrate your app with remote servers. the course will also cover how to use backend services like Firebase to create real-time databases and push notifications to create chat based applications.",
-      "lectures": "Lecture 12-18",
+      "lectures": "Lecture 14-16",
       "points": [
         "Network and Data Fetching",
         "BroadcastReceivers",
@@ -115,14 +115,40 @@
       ]
     },
     {
-      "title": "3rd Party Libs",
-      "contentTitle": "3rd Party Libs",
-      "description": "Learn to integrate the most commonly used libraries that are used to make powerful and interactive apps like",
+      "title": "Firebase",
+      "contentTitle": "Getting Started With Firebase",
+      "description": "Learn to integrate the most widely used platform for Mobile Developers 'FIREBASE'.Add login functionality with PhoneNo,Gmail,Facebook with adding just a bunch of lines to your code.Get Hands on Machine Learning on Mobile and Sending Notifications Using Firebase.",
+      "lectures": "Lectures 16-18",
+      "points": [
+        "Firebase Console",
+        "Storing Data and fetching Data in Realtime",
+	"Add Login Feature Using Phone With Otp,Email,Gmail etc"      
+	"Sending Push Notificationns Using Console"
+        "Using MLkit for Machine Learning in Mobile"
+      ]
+    },
+    {
+      "title": "Background Services And Architecture Patterns",
+      "contentTitle": "Background Services and MVVM",
+      "description": "Learn to understand background services and Architecture Pattersn Techniques which are followed in industries",
       "lectures": "Lectures 19-22",
       "points": [
-        "Google Maps",
-        "Retrofit for REST APIs",
-        "Picasso and Glide for showing images"
+        "WorkManager for Background Task",
+        "Architecture Patterns",
+        "Model View ViewModel(MVVM)"
+      ]
+    },
+    {
+      "title": "Projects",
+      "contentTitle": "Projects",
+	  "description": "Students will get hands on knowledge of the underlying material by building several projects that use the techniques taught in this course to solve a real life problem.",
+      "points": [
+        "TicTacToe",
+        "Whatsapp Opener",
+	"Todo App",
+	"Weather App",
+	"Group Chat App"      
+        "Image classification and Object detection Using MLkit"
       ]
     }
   ],
