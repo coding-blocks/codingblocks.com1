@@ -9,18 +9,13 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/webbenner_diwali.jpg",
+      "imgSrc": "/assets/images/cb/cover/Webbanner.jpg",
       "imgAlt": "",
-      "heading": "Get amazing discount on our courses in Diwali Sale !",
-      "content": "Upto 35% off on Classroom courses and flat 50% off on online courses",
+      "heading": "Presenting Winter batches !",
+      "content": "Starting this December.",
       "button": [
         {
-          "link": "https://cb.lk/cb-online",
-          "text": "EXPLORE ONLINE",
-          "filled": "true"
-        },
-        {
-          "link": "https://cb.lk/",
+          "link": "https://codingblocks.com/classroom-courses/",
           "text": "EXPLORE CLASSROOM",
           "filled": "true"
         }
