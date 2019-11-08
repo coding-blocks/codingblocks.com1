@@ -135,27 +135,39 @@
   ],
   "coursesRow3": [
     {
-      "id": "course30",
+      "id": "course30"
+    },
+    {
+      "id": "course03",
       "odd": true
     },
     {
-      "id": "course03"
-    },
-    {
-      "id": "course04",
-      "odd": true
+      "id": "course04"
     }
   ],
   "coursesRow4": [
     {
-      "id": "webdj"
-    },
-    {
-      "id": "course06",
+      "id": "course46",
       "odd": true
     },
     {
-      "id": "course20"
+      "id": "course06"
+    },
+    {
+      "id": "course20",
+      "odd": true
+    }
+  ],
+  "interviewPrepRow": [
+    {
+      "id": "webdj"
+    },
+    {
+      "id": "course21",
+      "odd": true
+    },
+    {
+      "id": "course22"
     }
   ],
   "cppInterviewRow": [
@@ -169,18 +181,6 @@
     {
       "id": "course21",
 	  "combo": true
-    }
-  ],
-  "interviewPrepRow": [
-    {
-      "id": "course46"
-    },
-    {
-      "id": "course21",
-      "odd": true
-    },
-    {
-      "id": "course22"
     }
   ],
   "javaInterviewRow": [
@@ -219,7 +219,7 @@
       "odd": true
     },
     {
-      "id": "course23"
+      "id": "course47"
     }
   ],
   "onlineCoursesRow3": [
