@@ -4,7 +4,7 @@
   "title": "Game Development Bootcamp | Coding Blocks",
   "metas": [
     {
-      "name": "desciption",
+      "name": "description",
       "content": ""
     }
   ],
@@ -53,7 +53,7 @@
     {
       "icon": "et-line-speedometer",
       "title": "Multilevel Games",
-      "content": "Not just single state games, you will also learn to create multi-level games using Phaser State Managar and switch between them"
+      "content": "Not just single state games, you will also learn to create multi-level games using Phaser State Manager and switch between them"
     },
     {
       "icon": "pe-7s-network",

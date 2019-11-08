@@ -62,7 +62,7 @@
     {
       "icon": "et-line-pictures",
       "title": "MVC Architecture",
-      "content": "All modern web frameworks are built upon the solid foundations of MVC. We will learn how to impelement MVC within Django apps"
+      "content": "All modern web frameworks are built upon the solid foundations of MVC. We will learn how to implement MVC within Django apps"
     },
     {
       "icon": "fa fa-database",
