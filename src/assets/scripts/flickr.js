@@ -21,7 +21,7 @@
             $.each(data.items, function (index, item) {
                 var link = item.media.m.replace('_m', '_b');
 
-                $("<img />")
+                $("<img>")
                     .attr("src", item.media.m)
                     .appendTo($el)
                     .wrap(options.container || '')
