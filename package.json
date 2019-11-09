@@ -1,7 +1,7 @@
 {
   "name": "coding-blocks.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Deploys",
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build",
@@ -44,5 +44,13 @@
   "engines": {
     "node": ">= 8",
     "npm": ">= 5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpit9667/codingblocks.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arpit9667/codingblocks.com/issues"
+  },
+  "homepage": "https://github.com/arpit9667/codingblocks.com#readme"
 }
