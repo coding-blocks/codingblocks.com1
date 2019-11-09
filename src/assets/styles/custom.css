@@ -1259,15 +1259,15 @@ input[type="email"], input[type="number"], input[type="url"] {
     right: 93%; 
     color: black !important;
     position: fixed; /* Fixed/sticky position */
-    z-index: 99; /* Make sure it does not overlap */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-} */
+    /* z-index: 99; /* Make sure it does not overlap */
+    /* cursor: pointer; /* Add a mouse pointer on hover */
+    /* border-radius: 10px; /* Rounded corners */
+    /* font-size: 18px; /* Increase font size */
+/* }  */
 .button_code {
     position: fixed;
-    bottom: 6%;
-    right: 93%;
+    bottom:6%;
+     right: 4%; 
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
     width: 50px;
