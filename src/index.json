@@ -9,6 +9,32 @@
 
   "slides": [
     {
+      "imgSrc": "/assets/images/cb/cover/apatbg.jpg",
+      "imgAlt": "",
+      "heading": "Scholarship tests are back !",
+      "content": "A chance to get upto 95% scholarship for batches starting this December.",
+      "button": [
+        {
+          "link": "https://codingblocks.com/scholarship-tests.html",
+          "text": "Register Now !",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/Webbanner.jpg",
+      "imgAlt": "",
+      "heading": "Presenting Winter batches !",
+      "content": "Starting this December.",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-courses/",
+          "text": "EXPLORE CLASSROOM",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/online.jpg",
       "imgAlt": "",
       "heading": "LEARN FROM HOME | LEARN ONLINE!",
@@ -122,27 +148,39 @@
   ],
   "coursesRow3": [
     {
-      "id": "course30",
+      "id": "course30"
+    },
+    {
+      "id": "course03",
       "odd": true
     },
     {
-      "id": "course03"
-    },
-    {
-      "id": "course04",
-      "odd": true
+      "id": "course04"
     }
   ],
   "coursesRow4": [
     {
-      "id": "webdj"
-    },
-    {
-      "id": "course06",
+      "id": "course46",
       "odd": true
     },
     {
-      "id": "course20"
+      "id": "course06"
+    },
+    {
+      "id": "course20",
+      "odd": true
+    }
+  ],
+  "interviewPrepRow": [
+    {
+      "id": "webdj"
+    },
+    {
+      "id": "course21",
+      "odd": true
+    },
+    {
+      "id": "course22"
     }
   ],
   "cppInterviewRow": [
@@ -156,18 +194,6 @@
     {
       "id": "course21",
 	  "combo": true
-    }
-  ],
-  "interviewPrepRow": [
-    {
-      "id": "course46"
-    },
-    {
-      "id": "course21",
-      "odd": true
-    },
-    {
-      "id": "course22"
     }
   ],
   "javaInterviewRow": [
@@ -206,7 +232,7 @@
       "odd": true
     },
     {
-      "id": "course23"
+      "id": "course47"
     }
   ],
   "onlineCoursesRow3": [
