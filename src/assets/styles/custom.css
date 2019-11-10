@@ -1266,10 +1266,9 @@ input[type="email"], input[type="number"], input[type="url"] {
 /* }  */
 .button_code {
     position: fixed;
-    bottom:6%;
-     right: 4%; 
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
+    bottom: 26%;
+    right: 27px; 
+    background: rgb(252, 79, 79);
     width: 50px;
     height: 50px;
     display: block;
