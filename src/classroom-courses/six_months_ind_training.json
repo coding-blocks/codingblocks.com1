@@ -98,7 +98,7 @@
   "scheduleCPP": [
 	  {
 		  "center": "Noida",
-		  "startdate": "16th Jan",
+		  "startdate": "13th Jan",
 		  "enddate": "TBD",
 		  "daytime": "(10:00 AM - 2:00 PM) On (Mon, Tue, Thr, Fri)",
 		  "batchtype": "Morning"
@@ -107,7 +107,7 @@
   "scheduleJava": [
 	  {
 		  "center": "Noida",
-		  "startdate": "16th Jan",
+		  "startdate": "13th Jan",
 		  "enddate": "TBD",
 		  "daytime": "(10:00 AM - 2:00 PM) On (Mon, Tue, Thr, Fri)",
 		  "batchtype": "Morning"
@@ -116,7 +116,7 @@
   "schedulePython": [
 	  {
 		  "center": "Noida",
-		  "startdate": "16th Jan",
+		  "startdate": "13th Jan",
 		  "enddate": "TBD",
 		  "daytime": "(10:00 AM - 2:00 PM) On (Mon, Tue, Thr, Fri)",
 		  "batchtype": "Morning"
