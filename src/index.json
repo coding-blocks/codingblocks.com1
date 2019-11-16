@@ -22,6 +22,19 @@
       ]
     },
     {
+      "imgSrc": "/assets/images/cb/cover/algo_2.jpg",
+      "imgAlt": "Six months indutrial training program",
+      "heading": "Six months indutrial training program !",
+      "content": "Start from basics and become an expert.",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-courses/six_months_ind_training.html",
+          "text": "Explore",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/Webbanner.jpg",
       "imgAlt": "",
       "heading": "Presenting Winter batches !",
@@ -47,25 +60,6 @@
         }
       ]
     },
-
-    {
-		  "imgSrc": "/assets/images/cb/cover/datascience.jpg",
-		  "imgAlt": "",
-		  "heading": "DATA SCIENCE ONLINE | CLASSROOM COURSES",
-		  "content": "Start from basics, become an industry ready Data Scientist!",
-		  "button": [
-			  {
-				  "link": "https://online.codingblocks.com/courses/data-science-online-course-python",
-				  "text": "Explore Online Course",
-				  "filled": "true"
-			  },
-            {
-              "link": "https://codingblocks.com/classroom-courses/data-science-with-python.html",
-              "text": "Explore Classroom Course",
-              "filled": "true"
-            }
-		  ]
-	  },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/cover5.jpg",
 		  "imgAlt": "",
