@@ -10,44 +10,58 @@
 {{> navbar}}
 <div class="main-container">
     {{> header}}
-    <div style="padding:30px" align="center">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qksw9Gf2BLQ" frameborder="0"
-                allowfullscreen></iframe>
-    </div>
     <div class="text-center">
         <mark>Note: This bootcamp will not cover automation. It will focus only on chatbots powered by AI.</mark>
     </div>
     {{> overview}}
-    <section class="bg-secondary">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h4 class="uppercase mb16"> YOUR MENTORS FOR BOOTCAMP</h4>
-                <!--<p class="lead mb64">-->
-                <!--Write something about the team-->
-                <!--</p>-->
-                <br><br>
-            </div>
-        </div>
-        <div class="flex-container">
-            <div class="flex-item">
-                <div class="col-md-offset-2 col-md-2 col-sm-12">
-                    <img alt="Nikhil Mugshot" src="../assets/images/cb/nikhil_circle.png" opacity="0.7">
-                </div>
-                <div class="col-sm-12 col-md-offset-1 col-md-5">
-                    <p class="mb0" align="justify-content">
-                        <b>Nikhil Kumar</b> <br/>
-                        Nikil is a Python enthusiast and a CS undergrad from DTU. He is an avid pythonista, who loves to
-                        develop anything and everything in Python. He is also an ML enthusiast, hobbyist, blogger, and
-                        YouTuber who aims to build smarter products.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
     {{> coursehighlights}}
+
+    <section class="tabbed-enroll-section">
+		<div class="container">
+		    <div class="row v-align-children">
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricing-table pt-1 text-center emphasis">
+                        <h5 class="uppercase">Bootcamp</h5>
+                        <span class="slashed-price">₹1,500</span><br />
+                        <span class="price">₹1,000</span><br />
+                        <p class="lead">(2 lectures)</p>
+                        <a class="btn btn-white btn-lg" href="#register">Enroll Now</a>
+                        <p><a href="/contactus">Contact Us</a><br>Call(Toll-free):1800-2744-504</p>
+                    </div>
+                </div>
+		    </div>
+		</div>
+	</section>
+    
     <!-- SECTION: Testimonials -->
     <a id="course-testimonials" class="in-page-link"></a>
-    {{> registration register-comingSoon = true}}
+    {{> team team=mentors}}
+
+
+    {{> courseschedule schedule=scheduleBot}}
+
+    <section>
+		<a id="register"></a>
+        <div class="text-center">
+            <h3>REGISTER NOW</h3>
+		</div>
+		<div class="container">
+					<div class="course-tabs">
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="wide-tab active" id="tab-noida"><a href="#noida" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Noida</a></li>
+						</ul>
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="noida">
+								<div class="container widget-container" data-widget-id="{{frame-id-noida}}">
+									<iframe class="payment-widget" {{#if frame-id-noida}}id="{{frame-id-noida}}"{{/if}} frameborder="0" src="{{{registerLinkNoida}}}"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+		</div>
+	</section>
+
+
     {{> coursefaq}}
     {{> map}}
     {{> footer}}

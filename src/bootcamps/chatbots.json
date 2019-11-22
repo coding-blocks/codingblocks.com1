@@ -17,6 +17,31 @@
 	"content": "A chatbot is a computer program which conducts a conversation via auditory or textual methods. Chatbots are part of virtual assistants such as Google Assistant, and are accessed via many organizations' apps, websites, and on instant messaging platforms such as Facebook Messenger. Last year has been hailed as the year of bots with Facebook, FB launching their own Messenger platform. This lets businesses (Facebook pages) automatically talk to users/customers to answer questions ranging from simple to complex. The platform is currently in beta but with close to a billion active users, it is by far the biggest messaging platform out there. We will list all the basic steps to get a simple keyword based bot powered by Python working on Facebook messenger and then will add AI capabilities to our bot.<br><br><strong>CONTENTS:</strong><ul><li>Basic FB messenger echo bot</li><li>API.AI / WIT.AI integration</li><li>MongoDB integration</li><li>FB messenger templates, buttons quick replies, etc.</li><li>Chatbot deployment on Heroku</li><ul>",
     "buttonText": "Get Tickets"
   },
+
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang",
+      "Anuj Garg",
+      "Kartik Mathur"
+    ]
+  },
+
+  "scheduleBot": [
+		{
+			"center": "Noida",
+			"startdate": "Dec 30",
+			"enddate": "Jan 1",
+			"daytime": "Sat, Sun (3:00 PM - 07:00 PM)",
+			"batchtype": "Evening"
+		}
+
+  ],
+  
   "courseHighlights": [
     {
       "icon": "et-line-edit",
@@ -57,5 +82,9 @@
       "ans": "Most definitely. We give you all the tools necessary to get started on your own projects."
     }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=52"
+
+  
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=378",
+  "frame-id-noida": "378"
+  
 }
