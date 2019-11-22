@@ -34,8 +34,8 @@
   "scheduleBot": [
 		{
 			"center": "Noida",
-			"startdate": "Dec 30",
-			"enddate": "Jan 1",
+			"startdate": "Nov 30",
+			"enddate": "Dec 1",
 			"daytime": "Sat, Sun (3:00 PM - 07:00 PM)",
 			"batchtype": "Evening"
 		}

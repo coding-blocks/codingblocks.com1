@@ -31,8 +31,8 @@
   "scheduleGame": [
 		{
 			"center": "Noida",
-			"startdate": "Dec 30",
-			"enddate": "Jan 1",
+			"startdate": "Nov 30",
+			"enddate": "Dec 1",
 			"daytime": "Sat, Sun (10:00 AM - 02:00 PM)",
 			"batchtype": "Morning"
 		}
