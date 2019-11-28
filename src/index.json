@@ -9,14 +9,14 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/apatbg.jpg",
+      "imgSrc": "/assets/images/cb/cover/webbanner.jpg",
       "imgAlt": "",
-      "heading": "Scholarship tests are back !",
-      "content": "A chance to get upto 95% scholarship for batches starting this December.",
+      "heading": "Black friday sale is here !",
+      "content": "Use Coupon Code BLACKFRIDAY to get 25% discount on Online courses",
       "button": [
         {
-          "link": "https://codingblocks.com/scholarship-tests.html",
-          "text": "Register Now !",
+          "link": "https://online.codingblocks.com",
+          "text": "Buy Now !",
           "filled": "true"
         }
       ]
