@@ -22,6 +22,19 @@
       ]
     },
     {
+      "imgSrc": "/assets/images/cb/cover/cast-banner-online.jpg",
+      "imgAlt": "",
+      "heading": "CAST APAT Results Declared",
+      "content": "",
+      "button": [
+        {
+          "link": "/scholarship-tests.html",
+          "text": "Check Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/algo_2.jpg",
       "imgAlt": "Six months industrial training program",
       "heading": "Six months industrial training program !",
