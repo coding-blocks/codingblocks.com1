@@ -36,14 +36,14 @@
     {
       "center": "Pitampura",
       "startdate": "16th Dec",
-      "enddate": "3rd Jan",
+      "enddate": "10th Jan",
       "daytime": "Mon (9:30 AM - 2:00 PM), Wed (9:30 AM - 2:00 PM), Fri (9:30 AM - 2:00 PM)",
       "batchtype": "Morning"
     },
     {
       "center": "Noida",
-      "startdate": "22nd Dec",
-      "enddate": "10th Jan",
+      "startdate": "29th Dec",
+      "enddate": "25th Jan",
       "daytime": "Sun (12:15 PM - 03:45 PM), Thu (12:15 PM - 03:45 PM), Sat (12:15 PM - 03:45 PM)",
       "batchtype": "Noon"
     }

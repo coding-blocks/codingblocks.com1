@@ -179,8 +179,8 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "16th Dec",
-      "enddate": "3rd Jan",
+      "startdate": "23rd Dec",
+      "enddate": "10th Jan",
       "daytime": "Mon (3:00 PM - 7:30 PM),  Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Fri (3:00 PM - 7:30 PM)",
       "batchtype": "Evening"
     },

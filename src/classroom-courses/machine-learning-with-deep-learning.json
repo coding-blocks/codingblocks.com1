@@ -175,10 +175,10 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "22nd Dec",
+      "startdate": "28th Dec",
       "enddate": "15th Mar",
-      "daytime": "Sun (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM)",
-      "batchtype": "Evening"
+      "daytime": "Sat (12:30 PM - 4:00 PM), Sun (12:30 PM - 4:00 PM)",
+      "batchtype": "Noon"
     },
     {
       "center": "Dwarka",
