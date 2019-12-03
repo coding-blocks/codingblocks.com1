@@ -106,14 +106,14 @@
 	  },
 	  {
 		  "center": "Dwarka",
-		  "startdate": "22nd Dec",
+		  "startdate": "29th Dec",
 		  "enddate": "TBD",
 		  "daytime": "Sun (10:00 AM - 2:00 PM), Wed (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
 		  "batchtype": "Morning"
     },
     {
 		  "center": "Dwarka",
-		  "startdate": "5th Jan",
+		  "startdate": "12th Jan",
 		  "enddate": "TBD",
 		  "daytime": "Sun (3:00 PM - 7:30 PM),  Sat (3:00 PM - 7:30 PM)",
 		  "batchtype": "Evening"
