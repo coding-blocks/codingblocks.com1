@@ -136,6 +136,14 @@
       "bio":
         "Sanket is a sharp competitive programmer with a strong hold in Algorithms. He is a Google Summer Of Code student developer for Berkman Klein Centre at Harvard University. He has worked as a Deep Learning Researcher at Indian Space Research Organization(ISRO) & displayed exemplary leadership and coding skills. A multi-hackathon winner, Sanket loves to mentor students in free time and is also interested in building cool machine learning and web applications."
     },
+    {
+      "name": "Pranav Khandelwal",
+      "role": "Mentor",
+      "imgSrc":"/assets/images/cb/team/pranav.jpg",
+      "imgAlt": "Pranav Khandelwal",
+      "bio":
+        "Pranav Khandelwal has worked with various Delhi based start-ups. He has worked as a data science intern Lifcare(Pharmaceutical Industry) as well as a software developer intern/Data Science instructor at Acadview(An E-learning startup, now owned by UpGrad). Python is his first language followed by sarcasm. He is well versed with C++ and Java. He always finds the most constructive and unique ways to teach in his class using the most basic of examples. Pranav has prior teaching experience in Java,C++, Python as well as in machine learning."
+    },
    	{
       "name": "Pulkit Aggarwal",
       "role": "Developer & Mentor",
