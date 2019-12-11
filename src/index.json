@@ -9,14 +9,14 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/cast-banner-online.jpg",
+      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
       "imgAlt": "",
-      "heading": "CAST APAT Results Declared",
-      "content": "",
+      "heading": "Presenting Winter batches !",
+      "content": "Starting this December.",
       "button": [
         {
-          "link": "/scholarship-tests.html",
-          "text": "Check Now",
+          "link": "https://codingblocks.com/classroom-courses/",
+          "text": "EXPLORE CLASSROOM",
           "filled": "true"
         }
       ]
@@ -30,19 +30,6 @@
         {
           "link": "https://codingblocks.com/classroom-courses/six_months_ind_training.html",
           "text": "Explore",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/Webbanner.jpg",
-      "imgAlt": "",
-      "heading": "Presenting Winter batches !",
-      "content": "Starting this December.",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-courses/",
-          "text": "EXPLORE CLASSROOM",
           "filled": "true"
         }
       ]
