@@ -202,7 +202,7 @@
 		.ssCard > .title > h5 {
 			height: 3rem;
 			vertical-align: center;
-			margin-bottom: 1rem;
+			margin-bottom: 0rem;
 			font-size: 1.2rem;
 			overflow: hidden;
 		}
@@ -1031,7 +1031,7 @@
 							logo = 'http://logo.clearbit.com/' + companyUrl
 						}
                     }
-                    company.push (logo)
+                    company.push ({logo, type: 'Placed at:'})
                 }
 
                 if (internship[0]) {
@@ -1045,7 +1045,7 @@
 							logo = 'http://logo.clearbit.com/' + companyUrl
 						}
                     }
-                    company.push (logo)
+                    company.push ({logo, type: 'Intern at:'})
                 }
 
                 let pic = stories[i].photo
@@ -1058,12 +1058,12 @@
                   flipClass = 'flippy' 
                 }
 
-              company.forEach (function (logo) {
-				  if (/^http/.test (logo)) {
-					  logo = `<img width="64px" src="${logo}" />`
+              company.forEach (function (companyObj) {
+				  if (/^http/.test (companyObj.logo)) {
+					  logo = `<img width="64px" src="${companyObj.logo}" />`
 				  }
 				  else {
-					  logo = `<p>${logo}</p>`
+					  logo = `<p>${companyObj.logo}</p>`
 				  }
 
                   container.append(
@@ -1078,6 +1078,7 @@
                             <div class="title mb0 text-center">
                               <h4 class="uppercase mb0 bold">${stories[i].fullName}</h4>
                               <h5 class="courses">${stories[i].coursesAttended}<br></h5>
+                              <h5 class="">${companyObj.type}<br></h5>
                             </div>
                           <div class="ssLogo">
 						    ${logo}
