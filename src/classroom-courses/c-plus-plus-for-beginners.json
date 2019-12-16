@@ -137,8 +137,22 @@
 		  "center": "Noida",
 		  "startdate": "29th Dec",
 		  "enddate": "TBD",
-		  "daytime": "Sun (04:00 PM - 07:00 PM), Tue (04:00 PM - 07:00 PM), Thu (04:00 PM - 07:00 PM), Sat (04:00 PM - 07:00 PM)",
-		  "batchtype": "Evening"
+		  "daytime": "Sun (09:00 AM - 12:00 PM), Sat (09:00 AM - 12:00 PM)",
+		  "batchtype": "Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "29th Dec",
+      "enddate": "TBD",
+      "daytime": "Sun (12:30 PM - 03:30 PM), Sat (12:30 PM - 03:30 PM)",
+      "batchtype": "Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "29th Dec",
+      "enddate": "TBD",
+      "daytime": "Sun (04:00 PM - 07:00 PM), Sat (04:00 PM - 07:00 PM)",
+      "batchtype": "Evening"
     }
   ],
   "courseReviews": [
