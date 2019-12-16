@@ -193,20 +193,6 @@
     },
     {
       "center": "Noida",
-      "startdate": "22nd Dec",
-      "enddate": "TBD",
-      "daytime": "Sun (09:00 AM - 12:00 PM), Tue (09:00 AM - 12:00 PM), Thu (09:00 AM - 12:00 PM), Sat (09:00 AM - 12:00 PM)",
-      "batchtype": "Morning"
-    },
-    {
-      "center": "Noida",
-      "startdate": "24th Dec",
-      "enddate": "TBD",
-      "daytime": "Tue (12:15 PM - 3:45 PM), Thu (12:15 PM - 3:45 PM), Sat (12:15 PM - 3:45 PM),  Sun (12:15 PM - 3:45 PM)",
-      "batchtype": "Noon"
-    },
-    {
-      "center": "Noida",
       "startdate": "5th Jan",
       "enddate": "TBD",
       "daytime": "Sun (09:00 AM - 12:00 PM), Sat (09:00 AM - 12:00 PM)",

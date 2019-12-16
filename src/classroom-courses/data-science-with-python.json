@@ -191,13 +191,6 @@
   "schedule": [
     {
       "center": "Noida",
-      "startdate": "24th Dec",
-      "enddate": "TBD",
-      "daytime": "Tue (12:15 PM - 3:45 PM), Thu (12:15 PM - 3:45 PM), Sat (12:15 PM - 3:45 PM), Sun (12:15 PM - 3:45 PM)",
-      "batchtype": "Noon"
-    },
-    {
-      "center": "Noida",
       "startdate": "29th Dec",
       "enddate": "TBD",
       "daytime": "Sun (10:00 AM - 02:00 PM), Sat (10:00 AM - 02:00 PM)",
