@@ -199,6 +199,13 @@
       "enddate": "TBD",
       "daytime": "Sat (4.15 PM -7.30 PM), Sun (4.15 PM -7.30 PM)",
       "batchtype": "Weekday - Evening"
+    },
+     {
+      "center": "Noida",
+      "startdate": "12th Jan",
+      "enddate": "TBD",
+      "daytime": "Sat (4.00 PM -7.00 PM), Sun (4.00 PM -7.00 PM)",
+      "batchtype": "Evening"
     }
   ],
   "reviewSlug": "Android App Development Course",

@@ -140,6 +140,20 @@
       "enddate": "TBD",
       "daytime": "Wed (04:00 PM - 07:00 PM), Fri (04:00 PM - 07:00 PM), Sun (04:00 PM - 07:00 PM), Mon (04:00 PM - 07:00 PM)",
       "batchtype": "Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "29th Dec",
+      "enddate": "TBD",
+      "daytime": "Sun (09:00 AM - 12:00 PM), Sat (09:00 AM - 12:00 PM)",
+      "batchtype": "Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "12th Jan",
+      "enddate": "TBD",
+      "daytime": "Sun (09:00 AM - 12:00 PM), Sat (09:00 AM - 12:00 PM)",
+      "batchtype": "Morning"
     }
   ],
   "courseReviews": [

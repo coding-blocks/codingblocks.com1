@@ -205,6 +205,27 @@
       "enddate": "TBD",
       "daytime": "Sat (04:00 PM - 07:00 PM), Sun (04:00 PM - 7:00 PM)",
       "batchtype": "Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "2nd Feb",
+      "enddate": "TBD",
+      "daytime": "Sat (09:00 PM - 12:00 PM), Sun (09:00 PM - 12:00 PM)",
+      "batchtype": "Morning"
+    },
+     {
+      "center": "Noida",
+      "startdate": "2nd Feb",
+      "enddate": "TBD",
+      "daytime": "Sat (12:30 PM - 03:30 PM), Sun (12:30 PM - 03:30 PM)",
+      "batchtype": "Noon"
+    },
+     {
+      "center": "Noida",
+      "startdate": "2nd Feb",
+      "enddate": "TBD",
+      "daytime": "Sat (04:00 PM - 07:00 PM), Sun (04:00 PM - 07:00 PM)",
+      "batchtype": "Evening"
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",
