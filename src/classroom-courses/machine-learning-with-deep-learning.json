@@ -189,9 +189,9 @@
     },
     {
       "center": "Noida",
-      "startdate": "22nd Dec",
+      "startdate": "29nd Dec",
       "enddate": "TBD",
-      "daytime": "Sun (4:00 PM - 7:00 PM), Mon (4:00 PM - 7:00 PM), Wed (4:00 PM - 7:00 PM), Fri (4:00 PM - 7:00 PM),",
+      "daytime": "Sun (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM),",
       "batchtype": "Evening"
     }
   ],
