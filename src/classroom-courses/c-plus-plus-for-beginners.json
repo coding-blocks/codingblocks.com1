@@ -127,13 +127,6 @@
 		  "batchtype": "Evening"
     },
     {
-		  "center": "Noida",
-		  "startdate": "29th Dec",
-		  "enddate": "TBD",
-		  "daytime": "Sun (09:00 AM - 12:00 PM), Sat (09:00 AM - 12:00 PM)",
-		  "batchtype": "Morning"
-    },
-    {
       "center": "Noida",
       "startdate": "29th Dec",
       "enddate": "TBD",

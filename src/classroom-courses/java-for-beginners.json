@@ -117,7 +117,14 @@
       "center": "Pitampura",
       "startdate": "29th Dec",
       "enddate": "22nd Mar",
-      "daytime": "Sun (3:00 PM - 7:30 PM),  Sat (3:00 PM - 7:30 PM)",
+      "daytime": "Sun (12:15 PM - 4:00 PM),  Sat (12:15 PM - 4:00 PM)",
+      "batchtype": "Noon"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "25th Jan",
+      "enddate": "TBD",
+      "daytime": "Sat (4:15 PM - 8:00 PM),  Sun (4:15 PM - 8:00 PM)",
       "batchtype": "Evening"
     },
     {
