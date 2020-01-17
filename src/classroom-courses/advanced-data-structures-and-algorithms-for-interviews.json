@@ -164,19 +164,19 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-      "Prateek Narang",
+      "Pranav Khandelwal",
 	    "Rajesh Sachdev",
       "Kartik Mathur",
-      "Pranav Khandelwal"
+      "Prateek Narang"
     ]
   },
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "16th Dec",
-      "enddate": "10th Jan",
-      "daytime": "Mon (3:00 PM - 7:30 PM), Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Fri (3:00 PM - 7:30 PM)",
-      "batchtype": "Evening"
+      "startdate": "16th Feb",
+      "enddate": "30th Apr",
+      "daytime": "Sun (8:00 AM - 11:30 AM), Sat (8:00 AM - 11:30 AM)",
+      "batchtype": "Morning"
     },
     {
       "center": "Dwarka",
@@ -207,8 +207,8 @@
     "Dhruv Kulshreshtha",
     "Parth Dhamija"
   ],
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=353",
-  "frame-id-pitampura-lp": "353",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=381",
+  "frame-id-pitampura-lp": "381",
 
   "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=373",
   "frame-id-noida-lp": "373",
