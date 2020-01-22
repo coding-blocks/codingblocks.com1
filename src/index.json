@@ -8,6 +8,51 @@
   ],
 
   "slides": [
+	      {
+      "imgSrc": "/assets/images/cb/cover/Web_banner.jpg",
+      "imgAlt": "",
+      "heading": "Learn NOW! Pay Nothing Until You Get A Job",
+      "content": "Career Bootcamp by Coding Blocks is a 6-month long program which trains students at ZERO upfront fee.",
+      "button": [
+        {
+          "link": "https://cb.lk/cmp/mban",
+          "text": "Register For Eligibility Test",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+      "imgAlt": "",
+      "heading": "Presenting Winter batches !",
+      "content": "Starting this December.",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-courses/",
+          "text": "EXPLORE CLASSROOM",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/algo_2.jpg",
+      "imgAlt": "Six months industrial training program",
+      "heading": "Six months industrial training program !",
+      "content": "Start from basics and become an expert.",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-courses/six_months_ind_training.html",
+          "text": "Explore",
+          "filled": "true"
+        },
+        {
+          "link": "https://codingblocks.com/six-month-industrial-training.html",
+          "text": "Scholarship Test",
+          "filled": "true"
+        }
+
+      ]
+    },
     {
       "imgSrc": "/assets/images/cb/cover/online.jpg",
       "imgAlt": "",
@@ -21,25 +66,6 @@
         }
       ]
     },
-
-    {
-		  "imgSrc": "/assets/images/cb/cover/datascience.jpg",
-		  "imgAlt": "",
-		  "heading": "DATA SCIENCE ONLINE | CLASSROOM COURSES",
-		  "content": "Start from basics, become an industry ready Data Scientist!",
-		  "button": [
-			  {
-				  "link": "https://online.codingblocks.com/courses/data-science-online-course-python",
-				  "text": "Explore Online Course",
-				  "filled": "true"
-			  },
-            {
-              "link": "https://codingblocks.com/classroom-courses/data-science-with-python.html",
-              "text": "Explore Classroom Course",
-              "filled": "true"
-            }
-		  ]
-	  },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/cover5.jpg",
 		  "imgAlt": "",
@@ -122,27 +148,39 @@
   ],
   "coursesRow3": [
     {
-      "id": "course30",
+      "id": "course30"
+    },
+    {
+      "id": "course03",
       "odd": true
     },
     {
-      "id": "course03"
-    },
-    {
-      "id": "course04",
-      "odd": true
+      "id": "course04"
     }
   ],
   "coursesRow4": [
     {
-      "id": "webdj"
-    },
-    {
-      "id": "course06",
+      "id": "course46",
       "odd": true
     },
     {
-      "id": "course20"
+      "id": "course06"
+    },
+    {
+      "id": "course20",
+      "odd": true
+    }
+  ],
+  "interviewPrepRow": [
+    {
+      "id": "webdj"
+    },
+    {
+      "id": "course21",
+      "odd": true
+    },
+    {
+      "id": "course22"
     }
   ],
   "cppInterviewRow": [
@@ -156,18 +194,6 @@
     {
       "id": "course21",
 	  "combo": true
-    }
-  ],
-  "interviewPrepRow": [
-    {
-      "id": "course46"
-    },
-    {
-      "id": "course21",
-      "odd": true
-    },
-    {
-      "id": "course22"
     }
   ],
   "javaInterviewRow": [
@@ -206,7 +232,7 @@
       "odd": true
     },
     {
-      "id": "course23"
+      "id": "course47"
     }
   ],
   "onlineCoursesRow3": [

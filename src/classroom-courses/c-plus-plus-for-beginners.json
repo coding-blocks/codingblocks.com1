@@ -86,38 +86,60 @@
       "Rajesh Sachdev",
       "Kartik Mathur",
       "Raj Kumar Saini",
-      "Iti Jain"
+      "Iti Jain",
+      "Pranav Khandelwal"
     ]
   },
   "scheduleLaunchpad": [
 	  {
 		  "center": "Pitampura",
-		  "startdate": "8th Dec",
+		  "startdate": "12th Dec",
 		  "enddate": "25th Jan",
-		  "daytime": "Sun (9:30 AM - 2:00 PM), Tue (9:30 AM - 2:00 PM), Thu (9:30 AM - 2:00 PM), Sat (9:30 AM - 2:00 PM)",
-		  "batchtype": "Weekdays - Morning"
+		  "daytime": "Sub (9:30 AM - 2:00 PM), Tue (9:30 AM - 2:00 PM), Thu (9:30 AM - 2:00 PM), Sat (9:30 AM - 2:00 PM)",
+		  "batchtype": "Morning"
     },
     {
 		  "center": "Pitampura",
 		  "startdate": "29th Dec",
 		  "enddate": "22nd Mar",
-		  "daytime": "Sun (3:00 PM - 7:30 PM),  Sat (3:00 PM - 7:30 PM)",
-		  "batchtype": "Weekend - Evening"
+		  "daytime": "Sun (12:10 PM - 3:55 PM),  Sat (12:10 PM - 3:55 PM)",
+		  "batchtype": "Noon"
+    },
+    {
+		  "center": "Pitampura",
+		  "startdate": "12th Jan",
+		  "enddate": "5th Apr",
+		  "daytime": "Sun (4:10 PM - 7:45 PM),  Sat (4:10 PM - 7:45 PM)",
+		  "batchtype": "Evening"
 	  },
 	  {
 		  "center": "Dwarka",
-		  "startdate": "18th Aug",
+		  "startdate": "29th Dec",
 		  "enddate": "TBD",
-		  "daytime": "Sat (10:00 AM - 1:30 PM), Sun (10:00 AM - 1:30 PM)",
-		  "batchtype": "Weekend - Morning"
+		  "daytime": "Sun (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
+		  "batchtype": "Morning"
     },
     {
 		  "center": "Dwarka",
-		  "startdate": "1st Sep",
+		  "startdate": "12th Jan",
 		  "enddate": "TBD",
-		  "daytime": "Sun (3:00 PM - 7:00 PM), Sat (3:00 PM - 7:00 PM)",
-		  "batchtype": "Weekend - Evening"
-	  }
+		  "daytime": "Sun (3:00 PM - 7:30 PM),  Sat (3:00 PM - 7:30 PM)",
+		  "batchtype": "Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "29th Dec",
+      "enddate": "TBD",
+      "daytime": "Sun (12:30 PM - 03:30 PM), Sat (12:30 PM - 03:30 PM)",
+      "batchtype": "Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "29th Dec",
+      "enddate": "TBD",
+      "daytime": "Sun (04:00 PM - 07:00 PM), Sat (04:00 PM - 07:00 PM)",
+      "batchtype": "Evening"
+    }
   ],
   "courseReviews": [
     "NAVDEEP SINGH",
@@ -132,10 +154,10 @@
   "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=350",
   "frame-id-pitampura-lp": "350",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=324",
-  "frame-id-dwarka-lp": "324",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=359",
+  "frame-id-dwarka-lp": "359",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=325",
-  "frame-id-noida-lp": "325"
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=360",
+  "frame-id-noida-lp": "360"
 
 }

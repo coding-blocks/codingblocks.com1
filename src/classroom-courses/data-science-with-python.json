@@ -179,7 +179,8 @@
         "icon": "pe-7s-cup",
         "content": "2 Hacakthons"
       }
-    ]
+    ],
+    "priceCut": "25000"
   },
   "courseReviews": [
     "KARTIK AGGARWAL",
@@ -190,11 +191,18 @@
   "schedule": [
     {
       "center": "Noida",
-      "startdate": "1st Sep",
-      "enddate": "30th Nov",
-      "daytime": "Sat (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
-      "batchtype": "Weekend - Morming"
+      "startdate": "29th Dec",
+      "enddate": "TBD",
+      "daytime": "Sun (10:00 AM - 02:00 PM), Sat (10:00 AM - 02:00 PM)",
+      "batchtype": "Morning"
+    },
+     {
+      "center": "Noida",
+      "startdate": "19th Jan",
+      "enddate": "TBD",
+      "daytime": "Sun (03:00 PM - 07:00 PM), Sat (03:00 PM - 07:00 PM)",
+      "batchtype": "Noon"
     }
   ],
-  "widget-id-noida": "348"
+  "widget-id-noida": "369"
 }

@@ -164,26 +164,40 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-      "Prateek Narang",
-	  "Rajesh Sachdev",
+      "Pranav Khandelwal",
+	    "Rajesh Sachdev",
       "Kartik Mathur",
-      "Raj Kumar Saini"
+      "Prateek Narang"
     ]
   },
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "16th Dec",
-      "enddate": "3rd Jan",
-      "daytime": "Mon (3:00 PM - 7:30 PM), Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Fri (3:00 PM - 7:30 PM)",
-      "batchtype": "Weekdays-Noon"
+      "startdate": "16th Feb",
+      "enddate": "30th Apr",
+      "daytime": "Sun (8:00 AM - 11:30 AM), Sat (8:00 AM - 11:30 AM)",
+      "batchtype": "Morning"
     },
     {
       "center": "Dwarka",
-      "startdate": "7th Sept",
+      "startdate": "25th Jan",
       "enddate": "TBD",
-      "daytime": "Sun (10:00 AM - 1:30 PM), Sat (10:00 AM - 1:30 PM)",
-      "batchtype": "Weekend-Morning"
+      "daytime": "Sat (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
+      "batchtype": "Morning"
+    },
+     {
+      "center": "Noida",
+      "startdate": "2nd Feb",
+      "enddate": "TBD",
+      "daytime": "Sat (12:30 PM - 03:30 PM), Sun (12:30 PM - 03:30 PM)",
+      "batchtype": "Noon"
+    },
+     {
+      "center": "Noida",
+      "startdate": "2nd Feb",
+      "enddate": "TBD",
+      "daytime": "Sat (04:00 PM - 07:00 PM), Sun (04:00 PM - 07:00 PM)",
+      "batchtype": "Evening"
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",
@@ -193,15 +207,15 @@
     "Dhruv Kulshreshtha",
     "Parth Dhamija"
   ],
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=353",
-  "frame-id-pitampura-lp": "353",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=381",
+  "frame-id-pitampura-lp": "381",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=331",
-  "frame-id-noida-lp": "331",
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=373",
+  "frame-id-noida-lp": "373",
 
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=255",
   "frame-id-dehradun-lp": "255",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=330",
-  "frame-id-dwarka-lp": "330"
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=370",
+  "frame-id-dwarka-lp": "370"
 }

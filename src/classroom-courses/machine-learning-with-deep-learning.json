@@ -175,27 +175,27 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "22nd Dec",
+      "startdate": "28th Dec",
       "enddate": "15th Mar",
-      "daytime": "Sun (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM)",
-      "batchtype": "Weekend-Evening"
+      "daytime": "Sat (12:30 PM - 4:00 PM), Sun (12:30 PM - 4:00 PM)",
+      "batchtype": "Noon"
     },
     {
       "center": "Dwarka",
-      "startdate": "25th Aug",
-      "enddate": "TBD",
+      "startdate": "5th Jan",
+      "enddate": "22nd Mar",
       "daytime": "Sun (10:00 AM - 1:30 PM), Sat (10:00 AM - 1:30 PM)",
-      "batchtype": "Weekend-Morning"
+      "batchtype": "Morning"
     },
     {
       "center": "Noida",
-      "startdate": "25th Aug",
+      "startdate": "29nd Dec",
       "enddate": "TBD",
-      "daytime": "Sun (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM)",
-      "batchtype": "Weekend - Evening"
+      "daytime": "Sun (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM),",
+      "batchtype": "Evening"
     }
   ],
   "widget-id-pitampura": "354",
-  "widget-id-dwarka": "333",
-  "widget-id-noida": "334"
+  "widget-id-dwarka": "366",
+  "widget-id-noida": "367"
 }
