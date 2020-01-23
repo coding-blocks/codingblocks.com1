@@ -91,6 +91,19 @@
 				  "filled": "true"
 			  }
 		  ]
+    },
+    {
+		  "imgSrc": "/assets/images/cb/cover/republic-day-banner.jpg",
+		  "imgAlt": "Code Karega India",
+		  "heading": "Code Karega India",
+		  "content": "Get Assured Free Online Course by clearing a Simple Aptitude Test on Hacker Blocks",
+		  "button": [
+			  {
+				  "link": "https://cb.lk/rdcb",
+				  "text": "Participate Now",
+				  "filled": "true"
+			  }
+		  ]
 	  }
   ],
   "events": {
