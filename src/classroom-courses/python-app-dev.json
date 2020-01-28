@@ -179,9 +179,9 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "23rd Dec",
-      "enddate": "10th Jan",
-      "daytime": "Mon (3:00 PM - 7:30 PM),  Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Fri (3:00 PM - 7:30 PM)",
+      "startdate": "24th Feb",
+      "enddate": "TBD",
+      "daytime": "Mon (4:30 PM – 8:00 PM), Wed (4:30 PM – 8:00 PM), Fri (4:30 PM – 8:00 PM)",
       "batchtype": "Evening"
     },
     {
@@ -200,7 +200,7 @@
     }
   ],
 
-  "frame-id-pitampura": "352",
+  "frame-id-pitampura": "382",
   "frame-id-noida": "364",
   "frame-id-dwarka": "363"
 }
