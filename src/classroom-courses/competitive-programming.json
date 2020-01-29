@@ -35,10 +35,10 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "16th Dec",
-      "enddate": "10th Jan",
-      "daytime": "Mon (9:30 AM - 2:00 PM), Wed (9:30 AM - 2:00 PM), Fri (9:30 AM - 2:00 PM)",
-      "batchtype": "Morning"
+      "startdate": "25th Feb",
+      "enddate": "TBD",
+      "daytime": "Tue (5:00 PM – 8:00 PM), Thu (5:00 PM – 8:00 PM)",
+      "batchtype": "Evening"
     },
     {
       "center": "Noida",
@@ -64,6 +64,6 @@
       "Prateek Narang"
     ]
   },
-  "widget-id-pitampura": "355",
+  "widget-id-pitampura": "383",
   "widget-id-noida": "365"
 }
