@@ -186,7 +186,7 @@
     },
     {
       "center": "Dwarka",
-      "startdate": "11th Jan",
+      "startdate": "23rd Feb",
       "enddate": "TBD",
       "daytime": "Sun (10:00 AM - 1:30 PM), Sat (10:00 AM - 1:30 PM)",
       "batchtype": "Morning"
@@ -202,5 +202,5 @@
 
   "frame-id-pitampura": "382",
   "frame-id-noida": "364",
-  "frame-id-dwarka": "363"
+  "frame-id-dwarka": "384"
 }
