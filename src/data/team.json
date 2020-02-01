@@ -180,6 +180,14 @@
         "Jatin has worked with various start-ups in the field of HCI and IoT. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack."
     },
     {
+      "name": "Bipin Kalra",
+      "role": "Mentor and Developer",
+      "imgSrc": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/bipin.jpeg",
+      "imgAlt": "Bipin Kalra",
+      "bio":
+        "Bipin is an avid web developer and machine learning enthusiast. He has also worked extensively on the Office Suite and won various accolades in the same, presented by Microsoft. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack."
+    },
+    {
       "name": "Deepak Aggarwal",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/c_deepak.jpg",
