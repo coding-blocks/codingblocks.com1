@@ -9,6 +9,19 @@
 
   "slides": [
 	      {
+      "imgSrc": "/assets/images/cb/cover/Web_Banner_new.jpg",
+      "imgAlt": "",
+      "heading": "We Learn Time! Make coding your first love.",
+      "content": "",
+      "button": [
+        {
+          "link": "https://cb.lk/vdon",
+          "text": "Explore",
+          "filled": "true"
+        }
+      ]
+    },
+	      {
       "imgSrc": "/assets/images/cb/cover/Web_banner.jpg",
       "imgAlt": "",
       "heading": "Learn NOW! Pay Nothing Until You Get A Job",
