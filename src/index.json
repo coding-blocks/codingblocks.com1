@@ -24,6 +24,19 @@
     {
       "imgSrc": "/assets/images/cb/cover/cover2.jpg",
       "imgAlt": "",
+      "heading": "Industrial Training Results Declared",
+      "content": "Check your email !",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-courses/six_months_ind_training.html",
+          "text": "Course Details",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+      "imgAlt": "",
       "heading": "Presenting Winter batches !",
       "content": "Starting this December.",
       "button": [
