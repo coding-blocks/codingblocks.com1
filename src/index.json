@@ -9,14 +9,14 @@
 
   "slides": [
 	      {
-      "imgSrc": "/assets/images/cb/cover/Web_banner.jpg",
+      "imgSrc": "/assets/images/cb/cover/Web_Banner_new.jpg",
       "imgAlt": "",
-      "heading": "Learn NOW! Pay Nothing Until You Get A Job",
-      "content": "Career Bootcamp by Coding Blocks is a 6-month long program which trains students at ZERO upfront fee.",
+      "heading": "We Learn Time! Make coding your first love.",
+      "content": "",
       "button": [
         {
-          "link": "https://cb.lk/cmp/mban",
-          "text": "Register For Eligibility Test",
+          "link": "https://cb.lk/vdon",
+          "text": "Explore",
           "filled": "true"
         }
       ]
@@ -91,20 +91,7 @@
 				  "filled": "true"
 			  }
 		  ]
-    },
-    {
-		  "imgSrc": "/assets/images/cb/cover/republic-day-banner.jpg",
-		  "imgAlt": "Code Karega India",
-		  "heading": "Code Karega India",
-		  "content": "Get Assured Free Online Course by clearing a Simple Aptitude Test on Hacker Blocks",
-		  "button": [
-			  {
-				  "link": "https://cb.lk/rdcb",
-				  "text": "Participate Now",
-				  "filled": "true"
-			  }
-		  ]
-	  }
+    }
   ],
   "events": {
     "upcoming": true,
