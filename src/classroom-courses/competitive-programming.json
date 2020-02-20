@@ -16,7 +16,7 @@
   },
   "courseEnroll": {
     "price": "15,000",
-    "lectures": "(10 lectures)",
+    "lectures": "(12 - 14 lectures)",
     "registerBoxHeading": "",
     "registerButton": {
       "buttonText": "Register Now"
@@ -33,13 +33,6 @@
     ]
   },
   "schedule": [
-    {
-      "center": "Pitampura",
-      "startdate": "25th Feb",
-      "enddate": "TBD",
-      "daytime": "Tue (5:00 PM – 8:00 PM), Thu (5:00 PM – 8:00 PM)",
-      "batchtype": "Evening"
-    },
     {
       "center": "Noida",
       "startdate": "29th Dec",

@@ -179,10 +179,10 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "24th Feb",
+      "startdate": "1st Mar",
       "enddate": "TBD",
-      "daytime": "Mon (4:30 PM – 8:00 PM), Wed (4:30 PM – 8:00 PM), Fri (4:30 PM – 8:00 PM)",
-      "batchtype": "Evening"
+      "daytime": "Sun (8:00 AM – 11:30 AM), Sat (8:00 AM – 11:30 AM)",
+      "batchtype": "Morning"
     },
     {
       "center": "Dwarka",
