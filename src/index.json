@@ -9,13 +9,13 @@
 
   "slides": [
 	      {
-      "imgSrc": "/assets/images/cb/cover/Web_Banner_new.jpg",
+      "imgSrc": "/assets/images/cb/cover/Web_banner.jpg",
       "imgAlt": "",
-      "heading": "We Learn Time! Make coding your first love.",
+      "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://cb.lk/vdon",
+          "link": "http://career-bootcamp.codingblocks.com/application-form.html",
           "text": "Explore",
           "filled": "true"
         }
