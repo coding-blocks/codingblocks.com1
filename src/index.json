@@ -10,8 +10,8 @@
   "slides": [
 	      {
       "imgSrc": "/assets/images/cb/cover/Web_banner.jpg",
-      "imgAlt": "",
-      "heading": "",
+      "imgAlt": "Study Now, Pay Later",
+      "heading": "Study Now, Pay Later",
       "content": "",
       "button": [
         {
@@ -22,10 +22,10 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+      "imgSrc": "/assets/images/cb/cover/summer_batches.jpg",
       "imgAlt": "",
-      "heading": "Presenting Winter batches !",
-      "content": "Starting this December.",
+      "heading": "Introducing Summer batches !",
+      "content": "",
       "button": [
         {
           "link": "https://codingblocks.com/classroom-courses/",
@@ -35,22 +35,16 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/algo_2.jpg",
-      "imgAlt": "Six months industrial training program",
-      "heading": "Six months industrial training program !",
-      "content": "Start from basics and become an expert.",
+      "imgSrc": "/assets/images/cb/cover/Holi_Web_banner.jpg",
+      "imgAlt": "Get a whopping 50% off on Holi on 8th March ",
+      "heading": "Get a whopping 50% off on Holi on 8th March ",
+      "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/classroom-courses/six_months_ind_training.html",
+          "link": "https://online.codingblocks.com",
           "text": "Explore",
           "filled": "true"
-        },
-        {
-          "link": "https://codingblocks.com/six-month-industrial-training.html",
-          "text": "Scholarship Test",
-          "filled": "true"
         }
-
       ]
     },
     {
