@@ -173,49 +173,35 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "16th Feb",
-      "enddate": "30th Apr",
-      "daytime": "Sun (8:00 AM - 11:30 AM), Sat (8:00 AM - 11:30 AM)",
-      "batchtype": "Morning"
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon (12:10 PM - 3:50 PM), Wed(12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
+      "batchtype": "Normal Noon"
     },
     {
-      "center": "Dwarka",
-      "startdate": "15th Feb",
-      "enddate": "TBD",
-      "daytime": "Sat (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
-      "batchtype": "Morning"
-    },
-     {
       "center": "Noida",
-      "startdate": "2nd Feb",
+      "startdate": "12th June",
       "enddate": "TBD",
-      "daytime": "Sat (12:30 PM - 03:30 PM), Sun (12:30 PM - 03:30 PM)",
-      "batchtype": "Noon"
-    },
-     {
-      "center": "Noida",
-      "startdate": "2nd Feb",
-      "enddate": "TBD",
-      "daytime": "Sat (04:00 PM - 07:00 PM), Sun (04:00 PM - 07:00 PM)",
-      "batchtype": "Evening"
+      "daytime": "Mon (9:00 AM - 12:00 PM), Wed (9:00 AM - 12:00 PM), Fri (9:00 AM - 12:00 PM), Sat (9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
     }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",
   "courseReviews": [
     "Manish Sundriyal",
     "Gagan Bhayana",
     "Dhruv Kulshreshtha",
     "Parth Dhamija"
   ],
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=381",
-  "frame-id-pitampura-lp": "381",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=399",
+  "frame-id-pitampura-lp": "399",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=373",
-  "frame-id-noida-lp": "373",
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=401",
+  "frame-id-noida-lp": "401",
 
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=255",
   "frame-id-dehradun-lp": "255",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=370",
-  "frame-id-dwarka-lp": "370"
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=400",
+  "frame-id-dwarka-lp": "400"
 }

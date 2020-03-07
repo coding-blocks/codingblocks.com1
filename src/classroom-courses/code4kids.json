@@ -1,8 +1,8 @@
 {
   "name": "code4kids",
   "title": "Code4Kids: Get the coding edge for your kids. Courses in Delhi NCR | Coding Blocks",
-  "registerLinkDwarka": "https://students.codingblocks.com/payment/iframe?item_id=313",
-  "frame-id-dwarka": "313",
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=412",
+  "frame-id-noida": "412",
   "courseEnroll": {
     "upcomingBatches": "New batch starting 27th May",
     "priceCut": "6,999",
@@ -13,12 +13,19 @@
   },
   "schedule": [
 	  {
-		  "center": "Dwarka",
-		  "startdate": "May 27",
-		  "enddate": "June 14",
-		  "daytime": "10:30 AM - 01:30 PM",
-		  "batchtype": "Morning"
-	  }
+		  "center": "Noida",
+		  "startdate": "18th May",
+		  "enddate": "TBD",
+		  "daytime": "Tue(9:00 AM - 12:00 PM), Thurs(9:00 AM - 12:00 PM), Sun(9:00 AM - 12:00 PM)",
+		  "batchtype": "C4K- Noida - Morning - 18May'20"
+	  },
+    {
+      "center": "Noida",
+      "startdate": "1st June",
+      "enddate": "TBD",
+      "daytime": "Mon(04:00 PM - 07:00 PM), Wed(04:00 PM - 07:00 PM), Fri(04:00 PM - 07:00 PM)",
+      "batchtype": "C4K - Noida - Evening - 1Jun'20"
+    }
   ],
   "sample": {
     "heading": "What our students say ?",
