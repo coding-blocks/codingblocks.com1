@@ -10,7 +10,7 @@
   "slides": [
 	      {
       "imgSrc": "/assets/images/cb/cover/Web_banner.jpg",
-      "imgAlt": "Study Now, Pay Later",
+      "imgAlt": "",
       "heading": "Study Now, Pay Later",
       "content": "",
       "button": [
@@ -36,8 +36,8 @@
     },
     {
       "imgSrc": "/assets/images/cb/cover/Holi_Web_banner.jpg",
-      "imgAlt": "Get a whopping 50% off on Holi on 8th March ",
-      "heading": "Get a whopping 50% off on Holi on 8th March ",
+      "imgAlt": "Get a whopping 50% off from 9th to 13th March",
+      "heading": "Get a whopping 50% off from 9th to 13th March",
       "content": "",
       "button": [
         {
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/online.jpg",
+      "imgSrc": "/assets/images/cb/cover/online_banner.jpg",
       "imgAlt": "",
       "heading": "LEARN FROM HOME | LEARN ONLINE!",
       "content": "Introducing Online Programming Courses!",
