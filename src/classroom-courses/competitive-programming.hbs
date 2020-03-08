@@ -299,14 +299,9 @@
 
 				</div>
 			</section>
-	{{!-- {{> courseschedule}} --}}
+	{{> courseschedule schedule=schedule}} 
+	 <a id="register-advance" class="in-page-link"></a>
 	<section>
-		<div id="register" class="col-xs-12 text-center bg-secondary" style="height: 100%;">
-			<p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Coming Soon!</p>
-		</div>
-	</section>
-	{{!-- <a id="register-advance" class="in-page-link"></a> --}}
-	{{!-- <section>
 		<a id="register"></a>
 		<div class="text-center">
 			<h3>REGISTER NOW</h3></div>
@@ -323,6 +318,11 @@
 							<iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id={{widget-id-pitampura}}"></iframe>
 						</div>
 					</div>
+					<div role="tabpanel" class="tab-pane active" id="dwarka">
+						<div class="container widget-container" data-widget-id='{{widget-id-dwarka}}'>
+							<iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id={{widget-id-dwarka}}"></iframe>
+						</div>
+					</div>
 					<div role="tabpanel" class="tab-pane active" id="noida">
 						<div class="container widget-container" data-widget-id='{{widget-id-noida}}'>
 							<iframe class="payment-widget" frameborder="0" src="https://students.codingblocks.com/payment/iframe?item_id={{widget-id-noida}}"></iframe>
@@ -331,7 +331,7 @@
 				</div>
 			</div>
 		</div>
-	</section> --}}
+	</section>
     {{> team team=mentors}}
 	<!-- SECTION: Course FAQ -->
 	<a id="course-faq" class="in-page-link" data-scroll-id="course-faq"></a>

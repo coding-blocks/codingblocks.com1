@@ -12,7 +12,7 @@
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
       "off-price": "3,000",
-      "badge": "Starting Dec",
+      "badge": "Starting Jun",
       "description": [
         "C++ Complete Course",
         "Data Structures & Algorithms in C++",
@@ -95,7 +95,7 @@
       "name": "Algo++",
       "price": "12,000",
       "priceint": "12000",
-      "badge": "Starting Dec",
+      "badge": "Starting Jun",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "algo++ course logo",
       "lectures": "(15 lectures)",
@@ -121,7 +121,7 @@
       "imgAlt": "machine learning course logo",
       "lectures": "(22-24 lectures)",
       "link": "/classroom-courses/machine-learning-with-deep-learning.html",
-      "badge": "Starting Dec",
+      "badge": "Starting Jun",
       "description": [
         "Code Machine Learning Algorithms",
         "Artificial Intelligence",
@@ -142,7 +142,7 @@
       "imgAlt": "Java For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
-      "badge": "Starting Dec",
+      "badge": "Starting Jun",
       "description": [
         "Programming Fundamentals in Java"
       ],
@@ -160,7 +160,7 @@
       "imgAlt": "Launchpad For Beginners Course Logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/c-plus-plus-for-beginners.html",
-      "badge": "Starting Dec",
+      "badge": "Starting Jun",
       "description": [
         "Programming Fundamentals in C+"
       ],
@@ -178,7 +178,7 @@
       "imgAlt": "Certified Python Developer Logo",
       "lectures": "(6 lectures)",
       "link": "/coming-soon.html",
-      "badge": "Starting Dec",
+      "badge": "Starting Jun",
       "description": [
         "Complete Python Course"
       ],
@@ -214,7 +214,7 @@
       "imgAlt": "Data Structures and Algorithms Using Java",
       "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-using-java.html",
-      "badge": "Starting Dec",
+      "badge": "Starting Jun",
       "description": [
         "DS & Algorithms in Java"
       ],
@@ -287,7 +287,7 @@
       "priceint": "6500",
       "imgSrc": "/assets/images/cb/r_final.png",
       "imgAlt": "Interview Preparation Bootcamp logo",
-      "badge": "Starting Dec",
+      "badge": "Starting Jun",
       "lectures": "(10 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#basic",
       "description": [
@@ -767,7 +767,7 @@
       "imgAlt": "Data Science with Python",
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/data-science-with-python.html",
-      "badge": "Starting Dec",
+      "badge": "Starting Jun",
       "description": [
         "Ace Data Sciences"
       ],
