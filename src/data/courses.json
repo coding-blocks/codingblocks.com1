@@ -35,7 +35,7 @@
       "lectures": "(24 lectures)",
       "link": "/classroom-courses/java-for-beginners.html",
       "off-price": "3,000",
-      "badge": "Starting Jan",
+      "badge": "Starting Jun",
       "description": [
         "Java Complete Course",
         "Data Structures & Algorithms in Java",
@@ -56,7 +56,7 @@
       "imgAlt": "android course logo",
       "lectures": "(22 lectures)",
       "link": "/classroom-courses/android-app-development-using-kotlin-and-java.html",
-      "badge": "Starting Feb",
+      "badge": "Starting Jun",
       "description": [
         "Building Android Apps",
         "UI and Animations",
@@ -78,7 +78,7 @@
       "imgAlt": "web development course logo",
       "lectures": "(20-22 lectures)",
       "link": "/classroom-courses/web-development-nodejs.html",
-      "badge": "Starting Feb",
+      "badge": "Starting Jun",
       "description": [
         "Web Design",
         "Real time Web Apps",
@@ -196,7 +196,7 @@
       "imgAlt": "Data Structures and Algorithms Using C++",
       "lectures": "(12-15 lectures)",
       "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
-      "badge": "Starting Feb",
+      "badge": "Starting Jun",
       "description": [
         "DS & Algorithms in C++"
       ],
@@ -416,7 +416,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming Course Logo",
       "lectures": "(10-12 lectures)",
-      "badge": "Starting Feb",
+      "badge": "Starting Jun",
       "link": "/classroom-courses/competitive-programming.html",
       "description": [
         "",
@@ -436,12 +436,12 @@
       "ratingCount": "475",
       "name": "C++ Bundle",
       "combo-card-name": "Interview Prep Course in C++",
-      "price":"15,999",
-      "priceint":"15999",
+      "price":"20,000",
+      "priceint":"20000",
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
-      "badge": "Coming Soon",
+      "badge": "Starting Jun",
       "lectures": "(25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#cpp-bundle",
       "description": [
@@ -456,12 +456,12 @@
       "ratingCount": "491",
       "name": "Java Bundle",
       "combo-card-name": "Interview Prep Course in Java",
-      "price": "15,999",
-      "priceint": "15999",
+      "price": "20,000",
+      "priceint": "20000",
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "Competitive Programming course logo",
-      "badge": "Coming Soon",
+      "badge": "Starting Jun",
       "lectures": "(25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#java-bundle",
       "description": [
@@ -606,7 +606,7 @@
       "imgAlt": "django web development course logo",
       "lectures": "(14 lectures)",
       "link": "/classroom-courses/web-development-django.html",
-      "badge": "Coming Soon",
+      "badge": "Starting Jun",
       "description": [
         "Web Design",
         "Deployment &amp; System Adminstration",
@@ -626,7 +626,7 @@
       "imgAlt": "Python app development course logo",
       "lectures": "(12 lectures)",
       "link": "/classroom-courses/python-app-dev.html",
-      "badge": "Starting Feb",
+      "badge": "Starting Jun",
       "description": [
         "Python fundamentals",
         "Web scrapping",
@@ -646,7 +646,7 @@
       "imgAlt": "C++ course logo",
       "lectures": "(10 lectures)",
       "link": "/classroom-courses/c-plus-plus-hybrid.html",
-      "badge": "Starting Jan",
+      "badge": "Starting Jun",
       "description": [
         "C++ Fundamentals",
         "Recursion",
@@ -666,7 +666,7 @@
       "imgAlt": "Six Months Industrial Training course logo",
       "lectures": "(70 - 75 lectures)",
       "link": "/classroom-courses/six_months_ind_training.html",
-      "badge": "Starting Jan",
+      "badge": "Starting Jun",
       "description": [
         "Full span Industrial Training"
       ],
@@ -684,7 +684,7 @@
       "imgAlt": "Industrial training in python",
       "lectures": "(12 lectures)",
       "link": "/classroom-courses/industrial-training-in-python.html",
-      "badge": "Starting Feb",
+      "badge": "Starting Jun",
       "description": [
         "Programming Fundamentals in Python"
       ]
@@ -700,7 +700,7 @@
       "imgAlt": "Industrial training in C/C++",
       "lectures": "(12 lectures)",
       "link": "/classroom-courses/industrial-training-in-c-plus-plus.html",
-      "badge": "Starting Feb",
+      "badge": "Starting Jun",
       "description": [
         "Programming Fundamentals in C/C++"
       ]
