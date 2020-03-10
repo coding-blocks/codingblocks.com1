@@ -237,6 +237,13 @@
       "enddate": "TBD",
       "daytime": "Tue(04:00 PM - 07:00 PM), Thurs(04:00 PM - 07:00 PM), Sat(04:00 PM - 07:00 PM), Sun(04:00 PM - 07:00 PM)",
       "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "9th June",
+      "enddate": "TBD",
+      "daytime": "Tue (10:00 AM - 2:00 PM), Thu (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
+      "batchtype": "Normal Morning"
     }
   ],
   "widget-id-pitampura": "409",
