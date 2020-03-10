@@ -190,6 +190,27 @@
   ],
   "schedule": [
     {
+      "center": "Pitampura",
+      "startdate": "4th June",
+      "enddate": "TBD",
+      "daytime": "Thu (12:10 PM - 3:50 PM), Sun (12:10 PM - 3:50 PM), Tue (12:10 PM - 3:50 PM)",
+      "batchtype": "Normal Noon"
+    },
+     {
+      "center": "Pitampura",
+      "startdate": "7th June",
+      "enddate": "TBD",
+      "daytime": "Sun (8:00 AM - 11:50 AM), Sat (8:00 AM - 11:50 AM)",
+      "batchtype": "Weekend Morning"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "11th June",
+      "enddate": "TBD",
+      "daytime": "Thu (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM), Mon (4:10 PM - 7:50 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
       "center": "Noida",
       "startdate": "20th May",
       "enddate": "TBD",
