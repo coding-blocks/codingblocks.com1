@@ -168,6 +168,20 @@
       "enddate": "TBD",
       "daytime": "Tue(12:30 PM - 03:30 PM), Thurs(12:30 PM - 03:30 PM), Sat(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
       "batchtype": "Fast Track Noon"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "29th May",
+      "enddate": "TBD",
+      "daytime": "Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM), Sun (3:00 PM - 7:30 PM)",
+      "batchtype": "Fast Track Evening"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "10th June",
+      "enddate": "TBD",
+      "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
+      "batchtype": "Normal Morning"
     }
   ],
   "courseReviews": [

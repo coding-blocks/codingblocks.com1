@@ -200,6 +200,13 @@
       "enddate": "TBD",
       "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM)",
       "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon (3:00 PM - 7:30 PM), Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM)",
+      "batchtype": "Normal Evening"
     }
   ],
   "reviewSlug": "Web Development Course",

@@ -25,6 +25,13 @@
       "enddate": "TBD",
       "daytime": "Mon(04:00 PM - 07:00 PM), Wed(04:00 PM - 07:00 PM), Fri(04:00 PM - 07:00 PM)",
       "batchtype": "C4K - Noida - Evening - 1Jun'20"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "27th May",
+      "enddate": "TBD",
+      "daytime": "Mon (10:00 AM - 2:00 PM), Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM)",
+      "batchtype": "Normal Morning"
     }
   ],
   "sample": {
