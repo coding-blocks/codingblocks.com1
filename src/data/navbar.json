@@ -138,6 +138,10 @@
             {
               "title": "Competitive Programming",
               "link": "/classroom-courses/competitive-programming.html"
+            },
+            {
+              "title": "Interview Preparation",
+              "link": "/classroom-courses/coding-interview-preparation.html"
             }
           ]
         },
@@ -148,10 +152,6 @@
 			{
 			  "title": "ReactJS",
 			  "link": "/bootcamps/react.html"
-			},
-			{
-			  "title": "Interview Preparation",
-			  "link": "/bootcamps/coding-interview-preparation.html"
 			},
 			{
 			  "title": "Blockchain",

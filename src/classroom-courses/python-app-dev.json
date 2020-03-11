@@ -205,11 +205,18 @@
       "daytime": "Mon(04:00 PM - 07:00 PM), Wed(04:00 PM - 07:00 PM), Fri(04:00 PM - 07:00 PM)",
       "batchtype": "Normal Evening"
     },
-     {
+    {
       "center": "Noida",
       "startdate": "16th June",
       "enddate": "TBD",
       "daytime": "Tue(9:00 AM - 12:00 PM), Thurs(9:00 AM - 12:00 PM), Sun(9:00 AM - 12:00 PM)",
+      "batchtype": "Normal Morning"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "10th June",
+      "enddate": "TBD",
+      "daytime": "Mon (10:00 AM - 2:00 PM), Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM)",
       "batchtype": "Normal Morning"
     }
   ],
