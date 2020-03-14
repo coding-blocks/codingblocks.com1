@@ -35,14 +35,14 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/Holi_Web_banner.jpg",
-      "imgAlt": "Get a whopping 50% off from 9th to 13th March",
-      "heading": "Get a whopping 50% off from 9th to 13th March",
+      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
+      "imgAlt": "",
+      "heading": "Get up to 95% Scholarship! Register for the Scholarship Test Now ",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com",
-          "text": "Explore",
+          "link": "cb.lk/test",
+          "text": "Register Now",
           "filled": "true"
         }
       ]
