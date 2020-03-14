@@ -164,65 +164,51 @@
     "companies": false,
     "contentCenter": true,
     "teamMembers": [
-      "Prateek Narang",
-	  "Rajesh Sachdev",
+      "Pranav Khandelwal",
+	    "Rajesh Sachdev",
       "Kartik Mathur",
-      "Raj Kumar Saini"
+      "Prateek Narang"
     ]
   },
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "16th Dec",
-      "enddate": "3rd Jan",
-      "daytime": "Mon (3:00 PM - 7:30 PM), Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Fri (3:00 PM - 7:30 PM)",
-      "batchtype": "Evening"
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon (12:10 PM - 3:50 PM), Wed(12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "12th June",
+      "enddate": "TBD",
+      "daytime": "Mon (9:00 AM - 12:00 PM), Wed (9:00 AM - 12:00 PM), Fri (9:00 AM - 12:00 PM), Sat (9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
     },
     {
       "center": "Dwarka",
-      "startdate": "11th Jan",
+      "startdate": "19th June",
       "enddate": "TBD",
-      "daytime": "Sat (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
-      "batchtype": "Morning"
-    },
-    {
-      "center": "Noida",
-      "startdate": "11th Jan",
-      "enddate": "TBD",
-      "daytime": "Sat (09:00 AM - 12:00 PM), Sun (09:00 AM - 12:00 PM)",
-      "batchtype": "Morning"
-    },
-    {
-      "center": "Noida",
-      "startdate": "11th Jan",
-      "enddate": "TBD",
-      "daytime": "Sat (12:15 PM - 12:45 PM), Sun (12:15 PM - 12:45 PM)",
-      "batchtype": "Noon"
-    },
-    {
-      "center": "Noida",
-      "startdate": "17th Jan",
-      "enddate": "TBD",
-      "daytime": "Sat (04:00 PM - 07:00 PM), Sun (04:00 PM - 7:00 PM)",
-      "batchtype": "Evening"
+      "daytime": "Mon (10:00 AM - 2:00 PM), Tue (10:00 AM - 2:00 PM), Thu (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
+      "batchtype": "Normal Morning"
     }
   ],
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=113",
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",
   "courseReviews": [
     "Manish Sundriyal",
     "Gagan Bhayana",
     "Dhruv Kulshreshtha",
     "Parth Dhamija"
   ],
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=353",
-  "frame-id-pitampura-lp": "353",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=399",
+  "frame-id-pitampura-lp": "399",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=373",
-  "frame-id-noida-lp": "373",
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=401",
+  "frame-id-noida-lp": "401",
 
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=255",
   "frame-id-dehradun-lp": "255",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=370",
-  "frame-id-dwarka-lp": "370"
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=400",
+  "frame-id-dwarka-lp": "400"
 }

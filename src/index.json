@@ -8,24 +8,24 @@
   ],
 
   "slides": [
-    {
-      "imgSrc": "/assets/images/cb/cover/apatbg.jpg",
+	      {
+      "imgSrc": "/assets/images/cb/cover/Web_banner.jpg",
       "imgAlt": "",
-      "heading": "Scholarship tests are back !",
-      "content": "A chance to get upto 95% scholarship for batches starting this December.",
+      "heading": "Study Now, Pay Later",
+      "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/scholarship-tests.html",
-          "text": "Register Now !",
+          "link": "http://career-bootcamp.codingblocks.com/application-form.html",
+          "text": "Explore",
           "filled": "true"
         }
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/Webbanner.jpg",
+      "imgSrc": "/assets/images/cb/cover/summer_batches.jpg",
       "imgAlt": "",
-      "heading": "Presenting Winter batches !",
-      "content": "Starting this December.",
+      "heading": "Introducing Summer batches !",
+      "content": "",
       "button": [
         {
           "link": "https://codingblocks.com/classroom-courses/",
@@ -35,7 +35,20 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/online.jpg",
+      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
+      "imgAlt": "",
+      "heading": "Get up to 95% Scholarship! Register for the Scholarship Test Now ",
+      "content": "",
+      "button": [
+        {
+          "link": "https://cb.lk/test",
+          "text": "Register Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/online_banner.jpg",
       "imgAlt": "",
       "heading": "LEARN FROM HOME | LEARN ONLINE!",
       "content": "Introducing Online Programming Courses!",
@@ -47,25 +60,6 @@
         }
       ]
     },
-
-    {
-		  "imgSrc": "/assets/images/cb/cover/datascience.jpg",
-		  "imgAlt": "",
-		  "heading": "DATA SCIENCE ONLINE | CLASSROOM COURSES",
-		  "content": "Start from basics, become an industry ready Data Scientist!",
-		  "button": [
-			  {
-				  "link": "https://online.codingblocks.com/courses/data-science-online-course-python",
-				  "text": "Explore Online Course",
-				  "filled": "true"
-			  },
-            {
-              "link": "https://codingblocks.com/classroom-courses/data-science-with-python.html",
-              "text": "Explore Classroom Course",
-              "filled": "true"
-            }
-		  ]
-	  },
 	  {
 		  "imgSrc": "/assets/images/cb/cover/cover5.jpg",
 		  "imgAlt": "",
@@ -91,7 +85,7 @@
 				  "filled": "true"
 			  }
 		  ]
-	  }
+    }
   ],
   "events": {
     "upcoming": true,

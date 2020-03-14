@@ -50,7 +50,7 @@
     },
     {
       "name": "Varun Kohli",
-      "role": "Center Head (Noida)",
+      "role": "Head of Sales & Marketing",
       "imgSrc": "/assets/images/cb/team/wvarun.jpg",
       "imgAlt": "Varun Kohli",
       "bio":
@@ -66,7 +66,7 @@
     },
     {
       "name": "Rajesh Sachdev",
-      "role": "Mentor & Centre Head (Dwarka)",
+      "role": "Founding member",
       "imgSrc": "/assets/images/cb/team/wrajesh.jpg",
       "imgAlt": "Rajesh Sachdev",
       "bio":
@@ -136,6 +136,14 @@
       "bio":
         "Sanket is a sharp competitive programmer with a strong hold in Algorithms. He is a Google Summer Of Code student developer for Berkman Klein Centre at Harvard University. He has worked as a Deep Learning Researcher at Indian Space Research Organization(ISRO) & displayed exemplary leadership and coding skills. A multi-hackathon winner, Sanket loves to mentor students in free time and is also interested in building cool machine learning and web applications."
     },
+    {
+      "name": "Pranav Khandelwal",
+      "role": "Mentor",
+      "imgSrc":"/assets/images/cb/team/pranav.jpg",
+      "imgAlt": "Pranav Khandelwal",
+      "bio":
+        "Pranav Khandelwal has worked with various Delhi based start-ups. He has worked as a data science intern Lifcare(Pharmaceutical Industry) as well as a software developer intern/Data Science instructor at Acadview(An E-learning startup, now owned by UpGrad). Python is his first language followed by sarcasm. He is well versed with C++ and Java. He always finds the most constructive and unique ways to teach in his class using the most basic of examples. Pranav has prior teaching experience in Java,C++, Python as well as in machine learning."
+    },
    	{
       "name": "Pulkit Aggarwal",
       "role": "Developer & Mentor",
@@ -170,6 +178,14 @@
       "imgAlt": "Jatin Katyal",
       "bio":
         "Jatin has worked with various start-ups in the field of HCI and IoT. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack."
+    },
+    {
+      "name": "Bipin Kalra",
+      "role": "Mentor and Developer",
+      "imgSrc": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/bipin.jpeg",
+      "imgAlt": "Bipin Kalra",
+      "bio":
+        "Bipin is an avid web developer and machine learning enthusiast. He has also worked extensively on the Office Suite and won various accolades in the same, presented by Microsoft. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack."
     },
     {
       "name": "Deepak Aggarwal",

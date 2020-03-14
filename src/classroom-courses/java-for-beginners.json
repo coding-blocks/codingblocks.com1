@@ -108,38 +108,80 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "8th Dec",
-      "enddate": "25th Jan",
-      "daytime": "Sun (9:30 AM - 2:00 PM), Tue (9:30 AM - 2:00 PM), Thu (9:30 AM - 2:00 PM), Sat (9:30 AM - 2:00 PM)",
-      "batchtype": "Morning"
+      "startdate": "25th May",
+      "enddate": "TBD",
+      "daytime": "Mon (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Sat (8:00 AM - 11:50 AM)",
+      "batchtype": "Fast Track Morning"
     },
     {
       "center": "Pitampura",
-      "startdate": "29th Dec",
-      "enddate": "22nd Mar",
-      "daytime": "Sun (3:00 PM - 7:30 PM),  Sat (3:00 PM - 7:30 PM)",
-      "batchtype": "Evening"
+      "startdate": "3rd June",
+      "enddate": "TBD",
+      "daytime": "Mon (8:00 AM - 11:50 AM), Wed (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM)",
+      "batchtype": "Normal Morning"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "6th June",
+      "enddate": "TBD",
+      "daytime": "Sat (12:10 PM - 3:50 PM), Sun (12:10 PM - 3:50 PM), Tue (12:10 PM - 3:50 PM)",
+      "batchtype": "Weekend Noon"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "10th June",
+      "enddate": "TBD",
+      "daytime": "Wed (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "20th May",
+      "enddate": "TBD",
+      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "5th June",
+      "enddate": "TBD",
+      "daytime": "Mon(04:00 PM - 07:00 PM), Wed(04:00 PM - 07:00 PM), Fri(04:00 PM - 07:00 PM), Sat(04:00 PM - 07:00 PM)",
+      "batchtype": "Fast Track Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "6th June",
+      "enddate": "TBD",
+      "daytime": "Tue(9:00 AM - 12:00 PM), Thurs(9:00 AM - 12:00 PM), Sun(9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "6th June",
+      "enddate": "TBD",
+      "daytime": "Sat(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "9th June",
+      "enddate": "TBD",
+      "daytime": "Tue(12:30 PM - 03:30 PM), Thurs(12:30 PM - 03:30 PM), Sat(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
+      "batchtype": "Fast Track Noon"
     },
     {
       "center": "Dwarka",
-      "startdate": "22nd Dec",
+      "startdate": "29th May",
       "enddate": "TBD",
-      "daytime": "Sat (2:30 PM - 7:00 PM), Sun (2:30 PM - 7:00 PM), Wed (2:30 PM - 7:00 PM)",
-      "batchtype": "Evening"
+      "daytime": "Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM), Sun (3:00 PM - 7:30 PM)",
+      "batchtype": "Fast Track Evening"
     },
     {
-      "center": "Noida",
-      "startdate": "22nd Dec",
+      "center": "Dwarka",
+      "startdate": "10th June",
       "enddate": "TBD",
-      "daytime": "Sun (9:00 AM - 12 Noon), Tue (9:00 AM - 12 Noon), Thu (9:00 AM - 12 Noon), Sat (9:00 AM - 12 Noon)",
-      "batchtype": "Morning"
-    },
-    {
-      "center": "Noida",
-      "startdate": "25th Dec",
-      "enddate": "TBD",
-      "daytime": "Wed (04:00 PM - 07:00 PM), Fri (04:00 PM - 07:00 PM), Sun (04:00 PM - 07:00 PM), Mon (04:00 PM - 07:00 PM)",
-      "batchtype": "Evening"
+      "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
+      "batchtype": "Normal Morning"
     }
   ],
   "courseReviews": [
@@ -149,12 +191,12 @@
     "KSHITIJ BANSAL"
   ],
 
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=351",
-  "frame-id-pitampura-lp": "351",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=388",
+  "frame-id-pitampura-lp": "388",
 
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=361",
-  "frame-id-dwarka-lp": "361",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=389",
+  "frame-id-dwarka-lp": "389",
 
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=362",
-  "frame-id-noida-lp": "362"
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=390",
+  "frame-id-noida-lp": "390"
 }
