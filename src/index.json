@@ -41,7 +41,7 @@
       "content": "",
       "button": [
         {
-          "link": "cb.lk/test",
+          "link": "https://cb.lk/test",
           "text": "Register Now",
           "filled": "true"
         }
