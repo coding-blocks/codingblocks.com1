@@ -791,6 +791,150 @@
       "batches": [
       ],
       "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+    },
+     {
+      "id": "course48",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Data structures & Algo using C++",
+      "price":"9,999",
+      "badge": "Starting Every Month",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
+      "imgAlt": "Dynamic Programming",
+      "lectures": "",
+      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "description": [
+        "Become a DP Champion"
+      ],
+      "batches": [
+      ],
+      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+    },
+    {
+      "id": "course49",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Data structures & Algo using Java",
+      "price":"9,999",
+      "badge": "Starting Every Month",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
+      "imgAlt": "Dynamic Programming",
+      "lectures": "",
+      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "description": [
+        "Become a DP Champion"
+      ],
+      "batches": [
+      ],
+      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+    },
+    {
+      "id": "course50",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Full stack Web dev using node js",
+      "price":"9,999",
+      "badge": "Starting Every Month",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
+      "imgAlt": "Dynamic Programming",
+      "lectures": "",
+      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "description": [
+        "Become a DP Champion"
+      ],
+      "batches": [
+      ],
+      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+    },
+    {
+      "id": "course51",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Android App dev using Kotlin",
+      "price":"9,999",
+      "badge": "Starting Every Month",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
+      "imgAlt": "Dynamic Programming",
+      "lectures": "",
+      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "description": [
+        "Become a DP Champion"
+      ],
+      "batches": [
+      ],
+      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+    },
+    {
+      "id": "course52",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Data Science with Python",
+      "price":"9,999",
+      "badge": "Starting Every Month",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
+      "imgAlt": "Dynamic Programming",
+      "lectures": "",
+      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "description": [
+        "Become a DP Champion"
+      ],
+      "batches": [
+      ],
+      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+    },
+    {
+      "id": "course53",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Data Science with Python",
+      "price":"9,999",
+      "badge": "Starting Every Month",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
+      "imgAlt": "Dynamic Programming",
+      "lectures": "",
+      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "description": [
+        "Become a DP Champion"
+      ],
+      "batches": [
+      ],
+      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+    },
+    {
+      "id": "course54",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Python with App dev",
+      "price":"9,999",
+      "badge": "Starting Every Month",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
+      "imgAlt": "Dynamic Programming",
+      "lectures": "",
+      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "description": [
+        "Become a DP Champion"
+      ],
+      "batches": [
+      ],
+      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+    },
+    {
+      "id": "course55",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Interview Preparation for Jobs in Bigwigs",
+      "price":"9,999",
+      "badge": "Starting Every Month",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
+      "imgAlt": "Dynamic Programming",
+      "lectures": "",
+      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "description": [
+        "Become a DP Champion"
+      ],
+      "batches": [
+      ],
+      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
     }
   ]
 }
