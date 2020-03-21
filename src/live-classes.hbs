@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{{title}}</title>
+		{{> meta}}
+		{{> head}}
+		{{> courseSchema}}
+	</head>
+	<body class="scroll-assist">
+		{{> navbar}}
+		<div class="main-container">
+			{{> header}}
+			{{> overview}}
+			<div class="bg-red row free-access-banner">
+			  <div class="col-xs-12 col-sm-1 text-align-center">
+			    <img class="image" src="/assets/images/icons/web.svg" alt="">
+			  </div>
+			  <div class="col-xs-12 col-sm-3 bold">
+			    WHY LIVE CLASSES FROM Coding Blocks
+			  </div>
+			  <div class="col-xs-12 col-sm-8 text-align-justify">
+			    Coding Blocks has always been on the fore front when it comes to innovation. With Physical classrooms being restricted, the two way, interactive live classes by Coding Blocks offers a perfect replacement to the Classroom program with additional benefits. It even allows students in the remotest areas of our country to gain access to teaching by the highly experienced mentors of Coding Blocks.
+			  </div>
+			</div>
+
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<h3 class="mb16 text-center uppercase"></h3>
+								<table class="table table-hover table-striped calendar">
+									<thead>
+										<tr>
+											<th></th>
+											<th></th>
+											<th>Live Course</th>
+											<th>Classroom Course</th>
+											<th>Online Course</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="text-center" style="color: #fc4f4f"><i class="fa fa-circle"></i></td>
+											<td>Closed progress monitoring and tracking</td>
+											<td>Yes</td>
+											<td>Yes</td>
+											<td>Yes</td>
+										</tr>
+										<tr>
+											<td class="text-center" style="color: #fc4f4f"><i class="fa fa-circle"></i></td>
+											<td>Certificate course</td>
+											<td>Yes</td>
+											<td>Yes</td>
+											<td>Yes</td>
+										</tr>
+										<tr>
+											<td class="text-center" style="color: #fc4f4f"><i class="fa fa-circle"></i></td>
+											<td>Instructors deliver the content live to the batch of students</td>
+											<td>Yes</td>
+											<td>Yes</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td class="text-center" style="color: #fc4f4f"><i class="fa fa-circle"></i></td>
+											<td>Schedule is set for the classes to be conducted</td>
+											<td>Yes</td>
+											<td>Yes</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td class="text-center" style="color: #fc4f4f"><i class="fa fa-circle"></i></td>
+											<td>Students can ask doubts from the instructor while session is in progress</td>
+											<td>Yes</td>
+											<td>Yes</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td class="text-center" style="color: #fc4f4f"><i class="fa fa-circle"></i></td>
+											<td>Questions or problems are given in the class for hands-on for coding</td>
+											<td>Yes</td>
+											<td>Yes</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td class="text-center" style="color: #fc4f4f"><i class="fa fa-circle"></i></td>
+											<td>Teachers help students while solving problems during the class</td>
+											<td>Yes</td>
+											<td>Yes</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td class="text-center" style="color: #fc4f4f"><i class="fa fa-circle"></i></td>
+											<td>Students can clarify their doubts after the class is over</td>
+											<td>Yes</td>
+											<td>Yes</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td class="text-center" style="color: #fc4f4f"><i class="fa fa-circle"></i></td>
+											<td>Students can clarify doubts face to face from home when class is not there</td>
+											<td>Yes</td>
+											<td>No</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td class="text-center" style="color: #fc4f4f"><i class="fa fa-circle"></i></td>
+											<td>Saving of time required to travel to classroom for scheduled class</td>
+											<td>Yes</td>
+											<td>No</td>
+											<td>No</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1 class="uppercase mb16">Live Courses</h1>
+                    <p class="lead mb64">
+                        Live courses for all stages, with equal focus on theory and implementation</p>
+                </div>
+            </div>
+            {{> coursesRow courses=onlineCoursesRow1}}
+            {{> coursesRow courses=onlineCoursesRow2}}
+            {{> coursesRow courses=onlineCoursesRow3}}
+        </div>
+    </section>
+
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			{{> team team=mentors}}
+			{{> coursefaq}}
+			{{> review-course-section}}
+			{{> footer}}
+		</div>
+		{{> scripts}}
+		<script>
+			$(document).ready(function () {
+				var hash = window.location.hash;
+				if (hash === '#launchpad-bundle-content' || hash === '#advance') {
+					$('#tab-basic').toggleClass('active');
+					$('#tab-advance').toggleClass('active');
+					$('#content-basic').toggleClass('active');
+					$('#launchpad-bundle').toggleClass('active');
+				}
+
+				$('#tab-advance-toggle').click (function (e) {
+					$('#tab-basic').toggleClass('active');
+					$('#tab-advance').toggleClass('active');
+					$('#content-basic').toggleClass('active');
+					$('#launchpad-bundle').toggleClass('active');
+				})
+			})
+		</script>
+
+		<script>
+		</script>
+	</body>
+</html>
