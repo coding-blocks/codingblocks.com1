@@ -19,20 +19,6 @@
   "header": {
     "heading": "",
     "subHeading": "",
-    "breadcrumbs": [
-      {
-        "linkText": "",
-        "link": ""
-      },
-      {
-        "linkText": "",
-        "link": ""
-      },
-      {
-        "linkText": "",
-        "link": ""
-      }
-    ],
     "bgSrc": "../../../assets/images/cb/cover/live_class.jpg"
   },
   "overview": {
@@ -40,41 +26,41 @@
   "buttonLink": "#register-advance"
   },
 
-  "coursesRow1": [
+   "onlineCoursesRow1": [
     {
-      "id": "course48"
+      "id": "course48",
+      "odd": true
     },
     {
-      "id": "course49",
-      "odd": true
+      "id": "course49"
     },
     {
       "id": "course50",
-      "combo": true
-    }
-  ],
-  "coursesRow2": [
-    {
-      "id": "course51",
-      "odd": true
-    },
-    {
-      "id": "course52"
-    },
-    {
-      "id": "course53",
-      "combo": true
-    }
-  ],
-  "coursesRow3": [
-    {
-      "id": "course54"
-    },
-    {
-      "id": "course55",
       "odd": true
     }
   ],
+  "onlineCoursesRow2": [
+    {
+      "id": "course51"
+    },
+    {
+      "id": "course52",
+      "odd": true
+    },
+    {
+      "id": "course53"
+    }
+  ],
+  "onlineCoursesRow3": [
+    {
+      "id": "course54",
+      "odd": true
+    },
+  {
+      "id": "course55"
+  }
+  ],
+ 
   "courseHighlights": [
     {
       "icon": "fa fa-code",

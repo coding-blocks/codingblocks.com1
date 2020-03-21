@@ -796,145 +796,144 @@
       "id": "course48",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Master Data structures & Algo using C++",
-      "price":"9,999",
-      "badge": "Starting Every Month",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
-      "imgAlt": "Dynamic Programming",
+      "name": "Live C++ - DS & Algo - Apr 2020",
+      "price":"11,000",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
+      "imgAlt": "",
       "lectures": "",
-      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "link": "https://dukaan.codingblocks.com/buy?productId=1506",
       "description": [
-        "Become a DP Champion"
+        ""
       ],
       "batches": [
       ],
-      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+      "online-link": ""
     },
     {
       "id": "course49",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Master Data structures & Algo using Java",
-      "price":"9,999",
-      "badge": "Starting Every Month",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
-      "imgAlt": "Dynamic Programming",
+      "name": "Live Java - DS & Algo - Apr 2020",
+      "price":"11,000",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+      "imgAlt": "",
       "lectures": "",
-      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "link": "https://dukaan.codingblocks.com/buy?productId=1511",
       "description": [
-        "Become a DP Champion"
       ],
       "batches": [
       ],
-      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+      "online-link": ""
     },
     {
       "id": "course50",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Master Full stack Web dev using node js",
-      "price":"9,999",
-      "badge": "Starting Every Month",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
-      "imgAlt": "Dynamic Programming",
+      "name": "Live Python App Dev - Apr 2020",
+      "price":"8,000",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/color_python.svg",
+      "imgAlt": "",
       "lectures": "",
-      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "link": "https://dukaan.codingblocks.com/buy?productId=1518",
       "description": [
-        "Become a DP Champion"
+        ""
       ],
       "batches": [
       ],
-      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+      "online-link": ""
     },
     {
       "id": "course51",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Master Android App dev using Kotlin",
-      "price":"9,999",
-      "badge": "Starting Every Month",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
-      "imgAlt": "Dynamic Programming",
+      "name": "Live Web Dev using Node.Js - Apr 2020",
+      "price":"15,000",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
+      "imgAlt": "",
       "lectures": "",
-      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "link": "https://dukaan.codingblocks.com/buy?productId=1512",
       "description": [
-        "Become a DP Champion"
+        ""
       ],
       "batches": [
       ],
-      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+      "online-link": ""
     },
     {
       "id": "course52",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Master Data Science with Python",
-      "price":"9,999",
-      "badge": "Starting Every Month",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
-      "imgAlt": "Dynamic Programming",
+      "name": "Live Android App Dev - Apr 2020",
+      "price":"15,000",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/color_android.svg",
+      "imgAlt": "",
       "lectures": "",
-      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "link": "https://dukaan.codingblocks.com/buy?productId=1513",
       "description": [
-        "Become a DP Champion"
+        ""
       ],
       "batches": [
       ],
-      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+      "online-link": ""
     },
     {
       "id": "course53",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Master Data Science with Python",
-      "price":"9,999",
-      "badge": "Starting Every Month",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
-      "imgAlt": "Dynamic Programming",
+      "name": "Live Data Science - Apr 2020",
+      "price":"19000",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
+      "imgAlt": "",
       "lectures": "",
-      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "link": "https://dukaan.codingblocks.com/buy?productId=1514",
       "description": [
-        "Become a DP Champion"
+        ""
       ],
       "batches": [
       ],
-      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+      "online-link": ""
     },
     {
       "id": "course54",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Master Python with App dev",
-      "price":"9,999",
-      "badge": "Starting Every Month",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
+      "name": "Live Machine Learning - Apr 2020",
+      "price":"17,000",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
       "imgAlt": "Dynamic Programming",
       "lectures": "",
-      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "link": "https://dukaan.codingblocks.com/buy?productId=1515",
       "description": [
-        "Become a DP Champion"
+        ""
       ],
       "batches": [
       ],
-      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+      "online-link": ""
     },
     {
       "id": "course55",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Master Interview Preparation for Jobs in Bigwigs",
-      "price":"9,999",
-      "badge": "Starting Every Month",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
-      "imgAlt": "Dynamic Programming",
+      "name": "Live Interview Prep - Apr 2020",
+      "price":"12,500",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
+      "imgAlt": "",
       "lectures": "",
-      "link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course",
+      "link": "https://dukaan.codingblocks.com/buy?productId=1519",
       "description": [
-        "Become a DP Champion"
+        ""
       ],
       "batches": [
       ],
-      "online-link": "https://online.codingblocks.com/app/courses/learn-dynamic-programming-online-course"
+      "online-link": ""
     }
   ]
 }
