@@ -16,7 +16,7 @@
   "buttonLink": "#register-advance"
   },
 
-   "onlineCoursesRow1": [
+   "liveCoursesRow1": [
     {
       "id": "course48",
       "odd": true
@@ -29,7 +29,7 @@
       "odd": true
     }
   ],
-  "onlineCoursesRow2": [
+  "liveCoursesRow2": [
     {
       "id": "course51"
     },
@@ -41,7 +41,7 @@
       "id": "course53"
     }
   ],
-  "onlineCoursesRow3": [
+  "liveCoursesRow3": [
     {
       "id": "course54",
       "odd": true
