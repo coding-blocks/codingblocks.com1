@@ -798,10 +798,12 @@
       "ratingCount": "206",
       "name": "Live C++ - DS & Algo - Apr 2020",
       "price":"11,000",
+      "slashed-price":"15,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "",
       "lectures": "",
+      "badge": "STARTS 6 APRIL",
       "link": "https://dukaan.codingblocks.com/buy?productId=1506",
       "description": [
         ""
@@ -816,10 +818,12 @@
       "ratingCount": "206",
       "name": "Live Java - DS & Algo - Apr 2020",
       "price":"11,000",
+      "slashed-price":"15,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "",
       "lectures": "",
+      "badge": "STARTS 6 APRIL",
       "link": "https://dukaan.codingblocks.com/buy?productId=1511",
       "description": [
       ],
@@ -833,10 +837,12 @@
       "ratingCount": "206",
       "name": "Live Python App Dev - Apr 2020",
       "price":"8,000",
+      "slashed-price":"10,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "",
       "lectures": "",
+      "badge": "STARTS 6 APRIL",
       "link": "https://dukaan.codingblocks.com/buy?productId=1518",
       "description": [
         ""
@@ -851,10 +857,12 @@
       "ratingCount": "206",
       "name": "Live Web Dev using Node.Js - Apr 2020",
       "price":"15,000",
+      "slashed-price":"19,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "",
       "lectures": "",
+      "badge": "STARTS 6 APRIL",
       "link": "https://dukaan.codingblocks.com/buy?productId=1512",
       "description": [
         ""
@@ -869,10 +877,12 @@
       "ratingCount": "206",
       "name": "Live Android App Dev - Apr 2020",
       "price":"15,000",
+      "slashed-price":"19,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
       "imgAlt": "",
       "lectures": "",
+      "badge": "STARTS 6 APRIL",
       "link": "https://dukaan.codingblocks.com/buy?productId=1513",
       "description": [
         ""
@@ -887,10 +897,12 @@
       "ratingCount": "206",
       "name": "Live Data Science - Apr 2020",
       "price":"19000",
+      "slashed-price":"23,000",
       "badge": "",
       "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
       "imgAlt": "",
       "lectures": "",
+      "badge": "STARTS 6 APRIL",
       "link": "https://dukaan.codingblocks.com/buy?productId=1514",
       "description": [
         ""
@@ -905,10 +917,12 @@
       "ratingCount": "206",
       "name": "Live Machine Learning - Apr 2020",
       "price":"17,000",
+      "slashed-price":"21,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
       "imgAlt": "Dynamic Programming",
       "lectures": "",
+      "badge": "STARTS 6 APRIL",
       "link": "https://dukaan.codingblocks.com/buy?productId=1515",
       "description": [
         ""
@@ -923,10 +937,12 @@
       "ratingCount": "206",
       "name": "Live Interview Prep - Apr 2020",
       "price":"12,500",
+      "slashed-price":"16,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "",
       "lectures": "",
+      "badge": "STARTS 6 APRIL",
       "link": "https://dukaan.codingblocks.com/buy?productId=1519",
       "description": [
         ""
