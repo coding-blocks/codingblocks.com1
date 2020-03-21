@@ -1,15 +1,5 @@
 {
   "title": "Live classes | Coding Blocks",
-  "metas": [
-    {
-      "name": "description",
-      "content": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
-    },
-    {
-      "name": "keywords",
-      "content": "c++,cpp,c plus plus,programming,course,delhi,india,data structures,algorithms,prateek,narang"
-    }
-  ],
   "openGraph": {
     "url": "https://codingblocks.com/classroom-courses/c-plus-plus-for-beginners.html",
     "title": "C++ Beginner & Advanced Courses | Coding Blocks",
@@ -85,16 +75,12 @@
   ],
   "faqs": [
     {
-      "ques": "Who should do this course?",
-      "ans": "Anybody who is interested in learning C++ programming can do this course. C++ is a powerful language and is pretty easy to learn. Coding in its most essential form is nothing but problem solving. It deals with figuring out logical solutions and implementing them optimally. The process of learning to code transforms a person into an analytical thinker with strong mathematical and logical skills."
+      "ques": "I wanted to enrol for Classroom program in Summers. Should I opt for Live class program?",
+      "ans": "Live class program has been introduced by Coding Blocks to ensure students do not loose their precious time in the Covid-19 prevention phase. Live class program is an enriched replacement of the Classroom program, which offers you all the benefits of the Classroom program and saves your time and money."
     },
     {
-      "ques": "Will this course help if I had C++ in class 12?",
-      "ans": "Yes, absolutely. There is a lot more to learn in C++ than the school curriculum."
-    },
-    {
-      "ques": "I didn’t have C++ in class 12 ? Can I do this course ?",
-      "ans": "Yes. Our instructors will start the C++ course from beginner's level. You don’t need any prior programming knowledge to attend this course. What we need is dedication and passion to learn programming from your side."
+      "ques": "What is the Difference between Classroom and Live program?",
+      "ans": "Live class program is a replacement of the Classroom program with added benefits of time and money. Our mentors will take live classes, just like the Classroom program. For a student, the only difference would be that the mentor would not be present physically. Since classes are two way interactive, you can ask doubts while the lecture is in progress. In addition, all Classroom program benefits are there in this program."
     }
   ],
   "mentors": {
@@ -105,11 +91,15 @@
     "contentCenter": true,
     "teamMembers": [
       "Prateek Narang",
+      "Arnav Gupta",
       "Rajesh Sachdev",
       "Kartik Mathur",
-      "Raj Kumar Saini",
-      "Iti Jain",
-      "Pranav Khandelwal"
+      "Anuj Garg",
+      "Rishab Kapoor",
+      "Garima Chhikara",
+      "Anuj Garg",
+      "Pranav Khandelwal",
+      "Shubham Rawat"
     ]
   },
   "scheduleLaunchpad": [
