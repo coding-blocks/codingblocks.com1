@@ -53,9 +53,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h1 class="uppercase mb16">Live Courses</h1>
+                    <h1 class="uppercase mb16">Classroom Courses</h1>
                     <p class="lead mb64">
-                        Live courses for all stages, with equal focus on theory and implementation</p>
+                        Classroom courses for all stages, with equal focus on theory and implementation</p>
                 </div>
             </div>
             {{> coursesRow courses=coursesRow1}}
@@ -63,6 +63,22 @@
             {{> coursesRow courses=coursesRow3}}
             {{> coursesRow courses=coursesRow4}}
 			{{> coursesRow courses=interviewPrepRow}}
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1 class="uppercase mb16">Live Courses</h1>
+                    <p class="lead mb64">
+                        Live courses for all stages, with equal focus on theory and implementation</p>
+                </div>
+            </div>
+            <a id="register-advance" class="in-page-link"></a>
+            {{> coursesRow courses=liveCoursesRow1}}
+            {{> coursesRow courses=liveCoursesRow2}}
+            {{> coursesRow courses=liveCoursesRow3}}
+
         </div>
     </section>
     <section>

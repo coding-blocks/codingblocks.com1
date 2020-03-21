@@ -254,6 +254,41 @@
       "odd": true
     }
   ],
+  "liveCoursesRow1": [
+    {
+      "id": "course48",
+      "odd": true
+    },
+    {
+      "id": "course49"
+    },
+    {
+      "id": "course50",
+      "odd": true
+    }
+  ],
+  "liveCoursesRow2": [
+    {
+      "id": "course51",
+      "odd": true
+    },
+    {
+      "id": "course52"
+    },
+    {
+      "id": "course53",
+      "odd": true
+    }
+  ],
+  "liveCoursesRow3": [
+    {
+      "id": "course54",
+      "odd": true
+    },
+    {
+      "id": "course55"
+    }
+  ],
   "coursesSection": {
     "showAll": true
   },
