@@ -35,14 +35,14 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/cover3.jpg",
+      "imgSrc": "/assets/images/cb/cover/stay_home.jpg",
       "imgAlt": "",
-      "heading": "Get up to 95% Scholarship! Register for the Scholarship Test Now ",
+      "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/scholarship-tests.html",
-          "text": "Register Now",
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore",
           "filled": "true"
         }
       ]
