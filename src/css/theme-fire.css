@@ -128,7 +128,7 @@ a:visited,
 a:focus,
 a:active,
 a:hover{text-decoration:none;outline:none;}
-a{font-weight:600;color:#fc4f4f;transition:all 0.3s ease;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;cursor:poitner;}
+a{font-weight:600;color:pink;transition:all 0.3s ease;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;cursor:poitner;}
 .image-bg a,
 .bg-primary a{color:#fff;}
 .image-bg a:hover,
