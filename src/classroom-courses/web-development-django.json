@@ -166,7 +166,7 @@
     },
     {
       "ques": "Should I choose NodeJS or Python for web-development ?",
-      "ans": "If you are looking forward for building Machine Learning Based Web Apps or chatbots then you must take this course. Python is the hottest language of the century and has a strong Machine Learning Ecosystem. We will also spend 1 class on data visualization and creating/saving Machine Learning Models on your server."
+      "ans": "If you are looking forward to building Machine Learning Based Web Apps or chatbots then you must take this course. Python is the hottest language of the century and has a strong Machine Learning Ecosystem. We will also spend 1 class on data visualization and creating/saving Machine Learning Models on your server."
     },
     {
       "ques": "Will I work on projects during the course ?",
@@ -174,7 +174,7 @@
     },
     {
       "ques": "Will I get a course certificate ?",
-      "ans": "If you complete your projects and assignments within the given timeframe, then you will get CB Python Developer Certificate."
+      "ans": "If you complete your projects and assignments within the given timeframe, then you will get a CB Python Developer Certificate."
     }
   ],
   "courseEnroll": {
@@ -191,7 +191,7 @@
       },
       {
         "icon": "pe-7s-cup",
-        "content": "2 Hacakthons"
+        "content": "2 Hackathons"
       }
     ]
   },

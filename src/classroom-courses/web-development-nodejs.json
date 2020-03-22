@@ -38,7 +38,7 @@
     "bgSrc": "/assets/images/cb/cover/cover_node.jpg"
   },
   "overview": {
-    "content": "The Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with java script for both Frontend as well as backend use-cases.<br /><br />Our course is a project-based web development Full Stack course with backend in Node.JS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor who will guide them while they work on web development projects. Our FullStack Web Development course enables students to go live with their websites and add flair to their resumes."
+    "content": "The Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with Javascript for both Frontend as well as backend use-cases.<br /><br />Our course is a project-based web development Full Stack course with backend in NodeJS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor who will guide them while they work on web development projects. Our FullStack Web Development course enables students to go live with their websites and add flair to their resumes."
   },
   "courseHighlights": [
     {
@@ -49,7 +49,7 @@
     {
       "icon": "et-line-chat",
       "title": "Real Time Web Apps",
-      "content": "Socket.IO is a javascript library for real-time applications. You'll learn how to enable real-time communication between web clients and servers to build some awesome chat systems and multiplayer games."
+      "content": "Socket.IO is a Javascript library for real-time applications. You'll learn how to enable real-time communication between web clients and servers to build some awesome chat systems and multiplayer games."
     },
     {
       "icon": "fa fa-database",
@@ -165,7 +165,7 @@
       },
       {
         "icon": "pe-7s-cup",
-        "content": "2 Hacakthons"
+        "content": "2 Hackathons"
       }
     ]
   },
