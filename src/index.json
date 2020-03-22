@@ -9,14 +9,14 @@
 
   "slides": [
 	      {
-      "imgSrc": "/assets/images/cb/cover/Web_banner.jpg",
+      "imgSrc": "/assets/images/cb/cover/live_class_banner.jpg",
       "imgAlt": "",
-      "heading": "Study Now, Pay Later",
-      "content": "",
+      "heading": "WE BRING THE CLASSROOM TO YOUR HOME THIS COVID-19",
+      "content": "Live classes are a perfect alternative to Classroom courses with two way interactive lectures and all the benefits. Learn from your favorite mentors & make the most of your time in this Covid-19 phase.",
       "button": [
         {
-          "link": "http://career-bootcamp.codingblocks.com/application-form.html",
-          "text": "Explore",
+          "link": "http://codingblocks.com/live-classes.html",
+          "text": "Explore Live classes",
           "filled": "true"
         }
       ]
@@ -37,7 +37,7 @@
     {
       "imgSrc": "/assets/images/cb/cover/stay_home.jpg",
       "imgAlt": "",
-      "heading": "",
+      "heading": "This Covid-19 season, don’t get stressed. Coding Blocks will support you!",
       "content": "",
       "button": [
         {
