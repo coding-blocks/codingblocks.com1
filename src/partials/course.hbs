@@ -30,6 +30,10 @@
             <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
                 linkText}}Register Now{{else}}{{{linkText}}}{{/unless}}</a>
         {{/if}}
+        {{#if live-link}}
+            <br>
+            <a target="_blank" href="{{live-link}}">Take Demo Class</a>
+        {{/if}}
     </div>
 </div>
 <script type="application/ld+json">
