@@ -102,33 +102,25 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "24th Dec",
-      "enddate": "25th Jan",
-      "daytime": "Tue (09:30 AM - 02:00 PM), Thu (09:30 AM - 02:00 PM), Sat (09:30 AM - 02:00 PM), Sun (09:30 AM - 02:00 PM)",
-      "batchtype": "Morning"
+      "startdate": "15th June",
+      "enddate": "TBD",
+      "daytime": "Mon (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Sat (8:00 AM - 11:50 AM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "12th June",
+      "enddate": "TBD",
+      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM)",
+      "batchtype": "Normal Noon"
     },
     {
       "center": "Dwarka",
-      "startdate": "25th Jan",
+      "startdate": "24th June",
       "enddate": "TBD",
-      "daytime": "Sat (02:30 PM - 07:00 PM), Sun (02:30 PM - 07:00 PM)",
-      "batchtype": "Evening"
-    },
-    {
-      "center": "Noida",
-      "startdate": "2nd Feb",
-      "enddate": "TBD",
-      "daytime": "Sat (09:00 AM - 12:00 PM), Sun (09:00 PM - 12:00 PM)",
-      "batchtype": "Morning"
-    },
-    {
-      "center": "Noida",
-      "startdate": "23rd Feb",
-      "enddate": "TBD",
-      "daytime": "Sat (12:30 PM - 03:30 PM), Sun (12:30 PM - 03:30 PM)",
-      "batchtype": "Noon"
+      "daytime": "Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM), Sun (3:00 PM - 7:30 PM)",
+      "batchtype": "Normal Evening"
     }
-
   ],
   "courseReviews": [
     "YAMINI GAUR",
@@ -136,10 +128,10 @@
     "GAGARIN DASH",
     "KSHITIJ BANSAL"
   ],
-  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=358",
-  "frame-id-pitampura": "358",
-  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=371",
-  "frame-id-noida": "371",
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=372",
-  "frame-id-dwarka-lp": "372"
+  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=402",
+  "frame-id-pitampura": "402",
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=404",
+  "frame-id-noida": "404",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=403",
+  "frame-id-dwarka-lp": "403"
 }

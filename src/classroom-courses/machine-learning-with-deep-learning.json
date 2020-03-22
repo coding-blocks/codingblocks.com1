@@ -49,81 +49,104 @@
   "courseContents": [
     {
       "active": true,
-      "title": "Mathematical Concepts",
-      "contentTitle": "Introduction to ML and mathematical concepts",
+      "title": "Python Introduction",
+      "contentTitle": "Introduction to Python Programming",
       "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
-      "lectures": "Lectures 1-4",
+      "lectures": "Lectures 1-5",
       "points": [
-        "Introduction to Machine Learning",
-        "Python 3.5 overview",
+        "Data Science Quickstart Mode",
+        "Python 3.7 overview",
+        "Python Basics",
+        "Control Flow",
+        "Data Structures",
+        "Functions",
+        "OOPS and Modules",
+        "File Handling in Python"
+      ]
+    },
+    {
+      "title": "Mathematical Concepts and Data Visualisation",
+      "contentTitle": "Acquisition, Processing, Visualisation and Handling of Data",
+      "description": "Data visualization is about the presentation of data in a pictorial or graphical format. Further mininga and warehouses is key to have successful data science application.",
+      "lectures": "Lecture: 6-10",
+      "points": [
         "Linear Algebra",
-        "Statistics and Probability",
-        "Numpy, Scipy, and Scientific computation with Python"
-      ]
-    },
-    {
-      "title": "Algorithms and Data Handling",
-      "contentTitle": "Simple Machine Learning Algorithms and Data Handling",
-      "description": "Then we will take a look at some advanced algorithms such as K-means clustering and Random Forest Classifiers.",
-      "lectures": "Lecture: 5-7",
-      "points": [
-        "Nearest Neighbour search and K-means clustering.",
-        "Decision trees and Naive Bayes.",
+        "Data Visualisation",
+        "Probability Distribution & Statistics",
+        "Numpy, Scipy, and Scientific computation with Python",
+        "Data Analysis using Pandas",
+        "Data Acquisition - Web Scrapping, Web APIs",
         "Data Scraping, Handling, Cleaning",
-        "Random Forest Classifiers."
+        "Importing/Exporting Data from/to various sources",
+        "Identify missing/outliers data",
+        "Normalizing and Formatting data"
       ]
     },
     {
-      "title": "Features and Dimensions",
-      "contentTitle": "Features and Dimensions",
-      "description": "In this section, you will gain insight into core Machine Learning topics, mainly Features. We discuss in depth their importance and application.",
-      "lectures": "Lecture 8-9",
+      "title": "Machine Learning Algorithms",
+      "contentTitle": "Machine Learning Algorithms",
+      "description": "Simple to Advanced Machine Learning Algorithms. Includes all useful traditional supervised and unsupervised algorithms.",
+      "lectures": "Lecture 11-15",
       "points": [
-        "Features and Importance",
-        "Feature scaling",
-        "The Curse of Dimensionality",
+        "K-Nearest Neighbour search",
+        "K-means clustering",
+        "Linear Regression",
+        "Logistic Regression",
+        "Decision trees and Naive Bayes",
+        "Random Forest Classifiers",
+        "Manual Ensembling Vs. Automated Ensembling",
+        "Bagging, Boosting of trees",
+        "Ada Boost and XGBoost",
+        "Support Vector Machines",
         "SVD and Principal Component Analysis"
       ]
     },
     {
-      "title": "Machine Learning",
-      "contentTitle": "Diving Deep into ML",
-      "description": "In this exciting part of the course, we dive deep into Regression Techniques, and also introduce you to Neural Networks.",
-      "lectures": "Lecture 10-14",
+      "title": "Segmentation and Time Series",
+      "contentTitle": "Segmentation and Time Series Forcasting",
+      "description": "Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data.",
+      "lectures": "Lecture 16-20",
       "points": [
-        "Regression Techniques",
-        "Numerical Optimization",
-        "Introduction to Neural Networks"
+        "Introduction to Segmentation",
+        "Subjective Vs Objective, Heuristic Vs. Statistical",
+        "Heuristic, Behavioral Segmentation Techniques",
+        "Hierarchical Clustering vs Spectral Clustering",
+        "Feature selection and importance",
+        "Principle component Analysis (PCA)",
+        "Time Series -  Components",
+        "Time Series - Averages, Smoothening, AR Models",
+        "Understanding Forecasting Accuracy - MAPE, MAD, MSE, etc"
       ]
     },
     {
       "title": "Deep Learning",
       "contentTitle": "Deep Learning",
       "description": "In this final classes of our course, we will learn about more complex Machine Learning topics and algorithms which help you in solving and optimising solutions of lots of real world problems.",
-      "lectures": "Lectures 15-22",
+      "lectures": "Lectures 21-24",
       "points": [
         "Neural Architectures and Training",
         "Deep learning methods",
         "Convolutions and the GoogLe Net",
         "Dimensions revisited: The Auto-encoder",
         "Recurrent and Combined Architectures",
-        "Support Vector Machines",
-        "Introduction to Unsupervised and Reinforcement Learning",
         "Transfer Learning"
       ]
     },
     {
-      "title": "Projects",
+      "title": "Projects and case studies",
       "contentTitle": "Projects",
-	  "description": "Students will get hands on knowledge of the underlying material by building several projects that use the techniques taught in this course to solve a real life problem.",
+      "description": "Students will get hands on knowledge of the underlying material by building several projects that use the techniques taught in this course to solve a real life problem.",
+      "lectures": "Across Lectures",
       "points": [
-        "Handwritten digit classification",
         "Face Recognition",
         "Image classification and Object detection",
-        "Automated music generation",
         "Text/Poem generating bot",
         "Recommender systems",
-        "Emotion/Sentiment Analysis"
+        "PokeMon Classification",
+        "Web Crawler",
+        "Cartpole Player",
+        "Dominant Color Extraction",
+        "Fashion Retailing Forecasting"
       ]
     }
   ],
@@ -175,27 +198,55 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "28th Dec",
-      "enddate": "15th Mar",
-      "daytime": "Sat (12:30 PM - 4:00 PM), Sun (12:30 PM - 4:00 PM)",
-      "batchtype": "Noon"
+      "startdate": "4th June",
+      "enddate": "TBD",
+      "daytime": "Thu (12:10 PM - 3:50 PM), Sun (12:10 PM - 3:50 PM), Tue (12:10 PM - 3:50 PM)",
+      "batchtype": "Normal Noon"
+    },
+     {
+      "center": "Pitampura",
+      "startdate": "7th June",
+      "enddate": "TBD",
+      "daytime": "Sun (8:00 AM - 11:50 AM), Sat (8:00 AM - 11:50 AM)",
+      "batchtype": "Weekend Morning"
     },
     {
-      "center": "Dwarka",
-      "startdate": "5th Jan",
-      "enddate": "22nd Mar",
-      "daytime": "Sun (10:00 AM - 1:30 PM), Sat (10:00 AM - 1:30 PM)",
-      "batchtype": "Morning"
+      "center": "Pitampura",
+      "startdate": "11th June",
+      "enddate": "TBD",
+      "daytime": "Thu (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM), Mon (4:10 PM - 7:50 PM)",
+      "batchtype": "Normal Evening"
     },
     {
       "center": "Noida",
-      "startdate": "29nd Dec",
+      "startdate": "20th May",
       "enddate": "TBD",
-      "daytime": "Sun (4:00 PM - 7:00 PM), Sat (4:00 PM - 7:00 PM),",
-      "batchtype": "Evening"
+      "daytime": "Mon (9:00 AM - 12:00 PM), Wed(9:00 AM - 12:00 PM), Fri(9:00 AM - 12:00 PM), Sat(9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+     {
+      "center": "Noida",
+      "startdate": "5th June",
+      "enddate": "TBD",
+      "daytime": "Sat(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "9th June",
+      "enddate": "TBD",
+      "daytime": "Tue(04:00 PM - 07:00 PM), Thurs(04:00 PM - 07:00 PM), Sat(04:00 PM - 07:00 PM), Sun(04:00 PM - 07:00 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "9th June",
+      "enddate": "TBD",
+      "daytime": "Tue (10:00 AM - 2:00 PM), Thu (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
+      "batchtype": "Normal Morning"
     }
   ],
-  "widget-id-pitampura": "354",
-  "widget-id-dwarka": "366",
-  "widget-id-noida": "367"
+  "widget-id-pitampura": "409",
+  "widget-id-dwarka": "410",
+  "widget-id-noida": "411"
 }

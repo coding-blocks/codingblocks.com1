@@ -188,24 +188,24 @@
   "schedule": [
     {
       "center": "Pitampura",
-      "startdate": "28th Dec",
-      "enddate": "23rd Feb",
-      "daytime": "Sat (09:00 AM -12 Noon), Sun (09:00 AM - 12 Noon)",
-      "batchtype": "Weekend - Morning"
+      "startdate": "6th Jan",
+      "enddate": "TBD",
+      "daytime": "Sat (8:30 AM - 11:50 AM), Mon (8:30 AM - 11:50 AM), Wed (8:30 AM - 11:50 AM)",
+      "batchtype": "Normal Morning"
     },
      {
       "center": "Noida",
-      "startdate": "12th Jan",
+      "startdate": "6th Jan",
       "enddate": "TBD",
-      "daytime": "Sat (4.00 PM -7.00 PM), Sun (4.00 PM -7.00 PM)",
-      "batchtype": "Evening"
+      "daytime": "Tue(04:00 PM - 07:00 PM), Thurs(04:00 PM - 07:00 PM), Sun(04:00 PM - 07:00 PM)",
+      "batchtype": "Normal Evening"
     }
   ],
   "reviewSlug": "Android App Development Course",
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=321",
   "frame-id-dehradun-lp": "321",
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=356",
-  "frame-id-pitampura-lp": "356",
-  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=377",
-  "frame-id-noida": "377"
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=394",
+  "frame-id-pitampura-lp": "394",
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=395",
+  "frame-id-noida": "395"
 }

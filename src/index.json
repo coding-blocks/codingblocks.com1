@@ -11,21 +11,21 @@
 	      {
       "imgSrc": "/assets/images/cb/cover/Web_banner.jpg",
       "imgAlt": "",
-      "heading": "Learn NOW! Pay Nothing Until You Get A Job",
-      "content": "Career Bootcamp by Coding Blocks is a 6-month long program which trains students at ZERO upfront fee.",
+      "heading": "Study Now, Pay Later",
+      "content": "",
       "button": [
         {
-          "link": "https://cb.lk/cmp/mban",
-          "text": "Register For Eligibility Test",
+          "link": "http://career-bootcamp.codingblocks.com/application-form.html",
+          "text": "Explore",
           "filled": "true"
         }
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/cover2.jpg",
+      "imgSrc": "/assets/images/cb/cover/summer_batches.jpg",
       "imgAlt": "",
-      "heading": "Presenting Winter batches !",
-      "content": "Starting this December.",
+      "heading": "Introducing Summer batches !",
+      "content": "",
       "button": [
         {
           "link": "https://codingblocks.com/classroom-courses/",
@@ -35,26 +35,20 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/algo_2.jpg",
-      "imgAlt": "Six months industrial training program",
-      "heading": "Six months industrial training program !",
-      "content": "Start from basics and become an expert.",
+      "imgSrc": "/assets/images/cb/cover/stay_home.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/classroom-courses/six_months_ind_training.html",
+          "link": "https://online.codingblocks.com/courses",
           "text": "Explore",
           "filled": "true"
-        },
-        {
-          "link": "https://codingblocks.com/six-month-industrial-training.html",
-          "text": "Scholarship Test",
-          "filled": "true"
         }
-
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/online.jpg",
+      "imgSrc": "/assets/images/cb/cover/online_banner.jpg",
       "imgAlt": "",
       "heading": "LEARN FROM HOME | LEARN ONLINE!",
       "content": "Introducing Online Programming Courses!",
@@ -91,7 +85,7 @@
 				  "filled": "true"
 			  }
 		  ]
-	  }
+    }
   ],
   "events": {
     "upcoming": true,
@@ -258,6 +252,41 @@
     {
       "id": "course45",
       "odd": true
+    }
+  ],
+  "liveCoursesRow1": [
+    {
+      "id": "course48",
+      "odd": true
+    },
+    {
+      "id": "course49"
+    },
+    {
+      "id": "course50",
+      "odd": true
+    }
+  ],
+  "liveCoursesRow2": [
+    {
+      "id": "course51",
+      "odd": true
+    },
+    {
+      "id": "course52"
+    },
+    {
+      "id": "course53",
+      "odd": true
+    }
+  ],
+  "liveCoursesRow3": [
+    {
+      "id": "course54",
+      "odd": true
+    },
+    {
+      "id": "course55"
     }
   ],
   "coursesSection": {
