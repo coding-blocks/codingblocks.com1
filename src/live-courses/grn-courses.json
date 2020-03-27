@@ -1,0 +1,38 @@
+{
+  "name": "Noida Courses",
+  "title": "Training in Delhi, Noida | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Course is designed to help students hone skill of coding."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/grn-courses.html",
+    "title": "Noida Courses",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
+    "description": "Learn to code"
+  },
+  "header": {
+    "heading": "Noida Courses",
+    "subHeading": "Learn to code",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/covergcp.jpg"
+  },
+  "overview": {
+    "content": "Begin your career in software development with the introduction to Data Structures and Algorithms in Java. Java, an Object Oriented Programming is one of the most sought after programming language and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements.Designed for beginners, CRUX is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+  }
+}

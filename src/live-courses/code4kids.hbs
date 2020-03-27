@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    <style>
+        #c4kheader {
+            background-image: url("/assets/images/cb/cover/c4k_cover.jpg");
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: cover;
+
+        }
+    </style>
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    <section class="page-title page-title-1 bg-dark" id="c4kheader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="mb0 bold uppercase">CODE4KIDS summer bootcamp</h2>
+                </div>
+            </div>
+        </div>
+
+        <ol class="breadcrumb breadcrumb-2">
+            <li>
+                <a href="#web-track" target="_self">Intro</a>
+            </li>
+            <li>
+                <a href="#syllabus">Elements</a>
+            </li>
+            <li>
+                <a href="#faqs">FAQ</a>
+            </li>
+            <li>
+                <a href="#register">Register</a>
+            </li>
+        </ol>
+    </section>
+    <a name="web-track"></a>
+    <section class="bg-white">
+        <div class="container text-center">
+            <!-- Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="thin">Python bootcamp for class 7 - 10 students</h1>
+                </div>
+            </div>
+
+            <!-- Description -->
+            <div class="row mb-xs-0">
+                <div class="col-sm-12">
+                    <p class="lead">
+                        Python is one of those rare languages which can claim to be both simple and powerful. You will find yourself pleasantly surprised to see how easy it is to concentrate on the solution to the problem rather than the syntax and structure of the language you are programming in. Children will be able to focus more on programming constructs than syntax.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark">
+        <div class="container text-center">
+            <a name="syllabus"></a>
+            <!-- Sub items-->
+            <div class="row mt40 pt20">
+                <div class="col-md-3 col-sm-6 mb-xs-24">
+                    <i class="icon mb32 ti ti-game"></i>
+                    <h6 class="uppercase">Introduction to Computers</h6>
+                    <ul>
+                        <li>History</li>
+                        <li>Hardware/Software devices</li>
+                        <li>Inside your PC</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-xs-24">
+                    <i class="icon mb32 ti ti-write"></i>
+                    <h6 class="uppercase">Introduction to programming languages</h6>
+                    <ul>
+                        <li>Variables</li>
+                        <li>Flowcharts</li>
+                        <li>Loops</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-xs-24">
+                    <i class="icon mb32 fa fa-file-code-o"></i>
+                    <h6 class="uppercase">Do more with less in python</h6>
+                    <ul>
+                        <li>Master variables, loops and functions</li>
+                        <li>Learn to create games for all Operating systems</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-xs-24">
+                    <i class="icon mb32 ti ti-file"></i>
+                    <h6 class="uppercase">Build Interesting Projects</h6>
+                    <ul>
+                        <li>Python's turtle module</li>
+                        <li>Rock-Paper-Scissors</li>
+                        <li>Tic-Tac-Toe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    {{> courseschedule}}
+    {{> courseenroll courseEnroll=courseEnroll}}
+	<a id="register"></a>
+	<section>
+		<div class="text-center">
+			<h3>REGISTER NOW</h3>
+		</div>
+		<div class="container">
+			<div class="course-tabs">
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="wide-tab active" id="tab-noida">
+						<a href="#noida" aria-controls="profile" role="tab" data-toggle="tab">Noida</a>
+					</li>
+				</ul>
+
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="noida">
+						<div class="container widget-container" data-widget-id='{{frame-id-noida}}'>
+							<iframe class="payment-widget" {{#if frame-id-noida}}id="{{frame-id-noida}}"{{/if}} frameborder="0" src="{{{registerLinkNoida}}}"></iframe>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <a name="faqs"></a>
+    <section class="bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4 class="mb16">FAQ</h4>
+                    <p class="lead mb64">(Drop a line at admissions@codingblocks.com if you have further queries)</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <ul class="accordion accordion-2 one-open">
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0">
+                                    Who should do this course?
+                                </h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Students from classes 7 to 10 looking to get started with programming. This course has no prerequisite for knowledge.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0">
+                                    Will this course help if my child wants a career in technology?
+                                </h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Yes, Python is used by hundreds of thousands of programmers, in fields like Web development, Scientific programming, Desktop GUIs, Network programming, Game programming.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0">
+                                    Why is Python suitable for young students?
+                                </h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Python is a good programming language for beginners. It is a high-level language, which means a programmer can focus on what to do instead of how to do it with easy to write syntax.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                <h4 class="inline-block mb0">
+                                    Will this course help in building websites and apps?
+                                </h4>
+                            </div>
+                            <div class="content">
+                                <p>
+                                   This course is designed to give you a solid foundation upon which you can build further skills in Application Development, Web Development.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Footer -->
+    {{> coursesample}}
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>

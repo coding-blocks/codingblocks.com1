@@ -1,0 +1,99 @@
+{
+  "title": "Best Computer Programming Courses in Delhi | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks offer programming and software training courses in Java, C++, Android, NodeJS and more. Registration open for coding classes in Delhi."
+    }
+  ],
+  "coursesRow1": [
+    {
+      "id": "course08"
+    },
+    {
+      "id": "course10",
+      "odd": true
+    },
+    {
+      "id": "course01",
+      "combo": true
+    }
+  ],
+  "coursesRow2": [
+    {
+      "id": "course07",
+      "odd": true
+    },
+    {
+      "id": "course11"
+    },
+    {
+      "id": "course02",
+      "combo": true
+    }
+  ],
+  "coursesRow3": [
+    {
+      "id": "course30"
+    },
+    {
+      "id": "course03",
+      "odd": true
+    },
+    {
+      "id": "course04"
+    }
+  ],
+  "coursesRow4": [
+    {
+      "id": "course46",
+      "odd": true
+    },
+    {
+      "id": "course06"
+    },
+    {
+      "id": "course20",
+      "odd": true
+    }
+  ],
+  "interviewPrepRow": [
+    {
+      "id": "webdj"
+    },
+    {
+      "id": "course21",
+      "odd": true
+    },
+    {
+      "id": "course22"
+    }
+  ],
+  "coursesRow6": [
+    {
+      "id": "bootcamp02",
+      "odd": true
+    },
+    {
+      "id": "bootcamp06"
+    },
+    {
+      "id": "bootcamp08",
+      "odd": true
+    }
+  ],
+  "courseReviews": [
+    "Naman Kumar",
+    "RISHABH KHANNA",
+    "YAMINI GAUR",
+    "ISHPREET SINGH",
+    "SUNEET SRIVASTAVA",
+    "RISHABH MENDIRATTA",
+    "GAGAN BHAYANA",
+    "ANIRUDH GUPTA",
+    "SHREYA GUPTA",
+    "KANIKA BHOOKER",
+    "GURLEEN KAILEY",
+    "PURUJIT BANSAL"
+  ]
+}

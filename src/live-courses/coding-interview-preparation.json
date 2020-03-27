@@ -1,0 +1,100 @@
+{
+  "id": "bootcamp02",
+  "title": "Interview Prep BootCamp | Coding Blocks",
+  "courseReviews": [
+    "Naman Kumar",
+    "RISHABH KHANNA",
+    "YAMINI GAUR",
+    "ISHPREET SINGH",
+    "SUNEET SRIVASTAVA",
+    "RISHABH MENDIRATTA",
+    "GAGAN BHAYANA",
+    "ANIRUDH GUPTA",
+    "SHREYA GUPTA",
+    "KANIKA BHOOKER",
+    "GURLEEN KAILEY",
+    "PURUJIT BANSAL"
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "<strong>Upcoming Batches</strong><ul class=\"course-list\"><li>Regular batch at Pitampura starting June 9</li><li>Regular batch at Pitampura starting July 10</li></ul>",
+    "price": "20,000",
+    "highlights": [
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Session on resume building and group discussions"
+      }
+    ]
+  },
+  "scheduleCpp": [
+    {
+      "center": "Pitampura",
+      "startdate": "3rd June",
+      "enddate": "30th July",
+      "daytime": "Mon (12:10 PM - 3:50 PM), Wed(12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
+      "batchtype": "Morning"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "6th June",
+      "enddate": "30th July",
+      "daytime": "Thu (4:15 - 7:45 PM), Sat(4:15 - 7:45 PM), Mon (4:15 - 7:45 PM)",
+      "batchtype": "Evening"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "9th June",
+      "enddate": "30th July",
+      "daytime": "Sun (4:00 PM - 7.30 PM), Wed (4:00 PM - 7.30 PM), Fri (4:00 PM - 7.30 PM)",
+      "batchtype": "Evening"
+    }
+  ],
+  "scheduleJava": [
+    {
+      "center": "Pitampura",
+      "startdate": "7th June",
+      "enddate": "30th July",
+      "daytime": " Fri (8:00 AM - 11:45 AM), Sun (8:00 AM - 11:45 AM), Tue (8:00 AM - 11:45 AM), Wed (8:00 AM - 11:45 AM)",
+      "batchtype": "Normal"
+    }
+  ],
+  "scheduleBootcamp": [
+    {
+      "center": "Pitampura",
+      "startdate": "11th July",
+      "enddate": "30th July",
+      "daytime": "Thu (3:30 PM - 6:30 PM), Sun (3:30 PM - 6:30 PM), Tue (3:30 PM - 6:30 PM)",
+      "batchtype": "Evening"
+    }
+  ],
+  "schedule": [
+    {
+      "center": "Pitampura",
+      "startdate": "3rd June",
+      "enddate": "TBD",
+      "daytime": "Mon (12:10 PM - 3:50 PM), Wed (12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
+      "batchtype": "Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "2nd June",
+      "enddate": "TBD",
+      "daytime": "Tue(12:30 PM - 03:30 PM), Thurs(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
+      "batchtype": "Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "9th June",
+      "enddate": "TBD",
+      "daytime": "Tue(04:00 PM - 07:00 PM), Thurs(04:00 PM - 07:00 PM), Sun(04:00 PM - 07:00 PM)",
+      "batchtype": "Noon"
+    }
+  ],
+  "widget-id-basic": 310,
+  "widget-id-cpp": 312,
+  "widget-id-java": 311,
+  "registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=408",
+  "frame-id-pitampura-wd": "408",
+  "registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=414",
+  "frame-id-noida-wd": "414"
+
+}

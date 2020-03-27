@@ -1,0 +1,60 @@
+<tr><td>Lecture 1 </td>
+<tr><td>Lecture 2 </td>
+<tr><td>Lecture 3 </td>
+<tr><td>Lecture 4 </td>
+<tr><td>Lecture 5 </td>
+<tr><td>Lecture 6 </td>
+<tr><td>Lecture 7 </td>
+<tr><td>Lecture 8 </td>
+<tr><td>Lecture 9 </td>
+<tr><td>Lecture 10</td>
+<tr><td>Lecture 11</td>
+<tr><td>Lecture 12</td>
+<tr><td>Lecture 13</td>
+<tr><td>Lecture 14</td>
+<tr><td>Lecture 15</td>
+<tr><td>Lecture 16</td>
+<tr><td>Lecture 17</td>
+<tr><td>Lecture 18</td>
+<tr><td>Lecture 19</td>
+<tr><td>Lecture 20</td>
+<tr><td>Lecture 21</td>
+<tr><td>Lecture 22</td>
+<tr><td>Lecture 23</td>
+<tr><td>Lecture 24</td>
+<tr><td>Lecture 25</td>
+<tr><td>Lecture 26</td>
+<tr><td>Lecture 27</td>
+<tr><td>Lecture 28</td>
+<tr><td>Lecture 29</td>
+<tr><td>Lecture 30</td>
+<td>Data Science Quickstart Mode </td></tr>
+<td>Introduction to Python </td></tr>
+<td>Conditions, Loops and functions </td></tr>
+<td>String and other inbuilt data structures </td></tr>
+<td>Files Handling </td></tr>
+<td>Numpy </td></tr>
+<td>Exploratory data analysis with Pandas </td></tr>
+<td>Data visualization using Matplotlib </td></tr>
+<td>Linear Regression </td></tr>
+<td>Logistic Regression </td></tr>
+<td>KNN and related Classification </td></tr>
+<td>Face Recognition with KNN </td></tr>
+<td>K-Means and related clustering </td></tr>
+<td>Principle component Analysis (PCA)  </td></tr>
+<td>Decision tree, Random Forest </td></tr>
+<td>Manual Ensembling Vs.Automated Ensembling </td></tr>
+<td>Support Vector Machines </td></tr>
+<td>Markov Chain </td></tr>
+<td>NLTK and Naïve Bayes </td></tr>
+<td>Web Scraping and web api (Flask) </td></tr>
+<td>Intro to Neural Net and TensorFlow </td></tr>
+<td>First DNN with Keras </td></tr>
+<td>Functional Models </td></tr>
+<td>CNN Intro </td></tr>
+<td>Transfer Learning </td></tr>
+<td>Auto Encoders </td></tr>
+<td>Recurrent and Combined Architectures </td></tr>
+<td>Time Series - Averages, Smoothening, AR Models </td></tr>
+<td>Generative adversarial networks </td></tr>
+<td>Reinforcement learning and Genetic algorithm </td></tr>
