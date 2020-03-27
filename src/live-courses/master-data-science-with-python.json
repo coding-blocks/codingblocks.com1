@@ -1,0 +1,238 @@
+{
+  "id": "course46",
+  "name": "Data Science With Python",
+  "title": "Data Science With Python | Coding Blocks",
+  "header": {
+    "heading": "Data Science With Python",
+    "subHeading": "Ace Data Science",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "overview": {
+    "content": "Data Science is one of the hottest fields of the 21st century. It is in high demand across the globe with bigwigs like Amazon, Google, Microsoft paying handsome salaries and perks to data scientists. This course provides you with a great kick-start in your data science journey. <br/><br/> Starting with Python Basics, Data Visualization, Data Scraping, Building Web Scrappers using Scrapy, Data Cleaning and applying various machine learning algorithms like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes, Principal Component Analysis, Feature Engineering, T-SNE Visualizations, Deep Learning & Reinforcement Learning for video games. The complete course is very practical and makes sure you do sufficient hands-on practice on the concepts taught by solving assignments and challenges"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "Start from scratch",
+      "content": "Begins with Introduction to Python and do not requires to have prior understanding of python and machine learning. Course will create good foundation for becoming data science engineer."
+    },
+    {
+      "icon": "pe-7s-download",
+      "title": "Work on LIVE Projects",
+      "content": "This course covers a lot of basic &amp; advanced projects like face-recognition, sentiment analysis, recommendation system, coversational engine, AI music generator and much more."
+    },
+    {
+      "icon": "et-line-speedometer",
+      "title": "Deep Learning",
+      "content": " We will cover the latest advanced in deep learning - a growing field in Machine Learning.Deep learning applications are being used in computer vision, automatic speech recognition, natural language processing, audio recognition and bioinformatics"
+    },
+    {
+      "icon": "pe-7s-network",
+      "title": "Advanced Topics",
+      "content": "Many of the topics are advanced, up-to-date and require great patience and coding skills."
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Python Introduction",
+      "contentTitle": "Introduction to Python Programming",
+      "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
+      "lectures": "Lectures 1-5",
+      "points": [
+        "Data Science Quickstart Mode",
+        "Python 3.7 overview",
+        "Python Basics",
+        "Control Flow",
+        "Data Structures",
+        "Functions",
+        "OOPS and Modules",
+        "File Handling in Python"
+      ]
+    },
+    {
+      "title": "Mathematical Concepts and Data Visualisation",
+      "contentTitle": "Acquisition, Processing, Visualisation and Handling of Data",
+      "description": "Data visualization is about the presentation of data in a pictorial or graphical format. Further mininga and warehouses is key to have successful data science application.",
+      "lectures": "Lecture: 6-10",
+      "points": [
+        "Linear Algebra",
+        "Data Visualisation",
+        "Probability Distribution & Statistics",
+        "Numpy, Scipy, and Scientific computation with Python",
+        "Data Analysis using Pandas",
+        "Data Acquisition - Web Scrapping, Web APIs",
+        "Data Scraping, Handling, Cleaning",
+        "Importing/Exporting Data from/to various sources",
+        "Identify missing/outliers data",
+        "Normalizing and Formatting data"
+      ]
+    },
+    {
+      "title": "Machine Learning Algorithms",
+      "contentTitle": "Machine Learning Algorithms",
+      "description": "Simple to Advanced Machine Learning Algorithms. Includes all useful traditional supervised and unsupervised algorithms.",
+      "lectures": "Lecture 11-15",
+      "points": [
+        "K-Nearest Neighbour search",
+        "K-means clustering",
+        "Linear Regression",
+        "Logistic Regression",
+        "Decision trees and Naive Bayes",
+        "Random Forest Classifiers",
+        "Manual Ensembling Vs. Automated Ensembling",
+        "Bagging, Boosting of trees",
+        "Ada Boost and XGBoost",
+        "Support Vector Machines",
+        "SVD and Principal Component Analysis"
+      ]
+    },
+    {
+      "title": "Segmentation and Time Series",
+      "contentTitle": "Segmentation and Time Series Forcasting",
+      "description": "Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data.",
+      "lectures": "Lecture 16-20",
+      "points": [
+        "Introduction to Segmentation",
+        "Subjective Vs Objective, Heuristic Vs. Statistical",
+        "Heuristic, Behavioral Segmentation Techniques",
+        "Hierarchical Clustering vs Spectral Clustering",
+        "Feature selection and importance",
+        "Principle component Analysis (PCA)",
+        "Time Series -  Components",
+        "Time Series - Averages, Smoothening, AR Models",
+        "Understanding Forecasting Accuracy - MAPE, MAD, MSE, etc"
+      ]
+    },
+    {
+      "title": "Deep Learning",
+      "contentTitle": "Deep Learning",
+      "description": "In this final classes of our course, we will learn about more complex Machine Learning topics and algorithms which help you in solving and optimising solutions of lots of real world problems.",
+      "lectures": "Lectures 21-24",
+      "points": [
+        "Neural Architectures and Training",
+        "Deep learning methods",
+        "Convolutions and the GoogLe Net",
+        "Dimensions revisited: The Auto-encoder",
+        "Recurrent and Combined Architectures",
+        "Transfer Learning"
+      ]
+    },
+    {
+      "title": "Projects and case studies",
+      "contentTitle": "Projects",
+      "description": "Students will get hands on knowledge of the underlying material by building several projects that use the techniques taught in this course to solve a real life problem.",
+      "lectures": "Across Lectures",
+      "points": [
+        "Face Recognition",
+        "Image classification and Object detection",
+        "Text/Poem generating bot",
+        "Recommender systems",
+        "PokeMon Classification",
+        "Web Crawler",
+        "Cartpole Player",
+        "Dominant Color Extraction",
+        "Fashion Retailing Forecasting"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "This field intensively deals with mathematics, for analysis of data and algorithms. A decent mathematical background is a necessary and we engineers definitely excel at that! If you have had a mathematical background at school and covered engineering mathematics (such as probability, statistics, linear algebra etc/), you're good to go! Maybe you could just brush up the topics."
+    },
+    {
+      "ques": "I know competitive programming. should I do this course?",
+      "ans": "Machine Learning requires extensive knowledge of mathematics, which you also gain while handling problems in competitive programming. This course shall equip with the right tools to handle huge amounts of data and derive meaningful conclusions from data crunching. Handling real-world problems is exactly what machine learning is all about, a skill very useful in development tasks. competitive programming equips you with critical thinking, but machine learning teaches you how to apply that skill and solve complex problems."
+    },
+    {
+      "ques": "Will this help me in interviews?",
+      "ans": "Machine Learning and Data science has been called as the ‘Hottest job of the 21st century’. If you learn this course well, you’ll be able to impress quite a lot of interviewers across various interviews."
+    },
+    {
+      "ques": "I don’t pass all the prerequisite criteria. Should I enroll?",
+      "ans": "Even if you don’t possess understanding of all the prerequisites, we shall help you cover every topic in detail and provide overview before diving deep into machine learning and data science. Python is a relatively easy language to learn, and you can pick up the basics very quickly. Therefore, you’ll have ample amount of time before the course to brush-up/learn the fundamentals."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "Upcoming <strong>Weekend</strong> Batch",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "2 Hacakthons"
+      }
+    ],
+    "priceCut": "25000"
+  },
+  "courseReviews": [
+    "KARTIK AGGARWAL",
+    "ISHPREET SINGH",
+    "ANSHUL GARG",
+    "SHIVANSHU CHAUDHARY"
+  ],
+  "schedule": [
+    {
+      "center": "Pitampura",
+      "startdate": "4th June",
+      "enddate": "TBD",
+      "daytime": "Thu (12:10 PM - 3:50 PM), Sun (12:10 PM - 3:50 PM), Tue (12:10 PM - 3:50 PM)",
+      "batchtype": "Normal Noon"
+    },
+     {
+      "center": "Pitampura",
+      "startdate": "7th June",
+      "enddate": "TBD",
+      "daytime": "Sun (8:00 AM - 11:50 AM), Sat (8:00 AM - 11:50 AM)",
+      "batchtype": "Weekend Morning"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "11th June",
+      "enddate": "TBD",
+      "daytime": "Thu (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM), Mon (4:10 PM - 7:50 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "20th May",
+      "enddate": "TBD",
+      "daytime": "Mon (9:00 AM - 12:00 PM), Wed(9:00 AM - 12:00 PM), Fri(9:00 AM - 12:00 PM), Sat(9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+     {
+      "center": "Noida",
+      "startdate": "5th June",
+      "enddate": "TBD",
+      "daytime": "Sat(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "9th June",
+      "enddate": "TBD",
+      "daytime": "Tue(04:00 PM - 07:00 PM), Thurs(04:00 PM - 07:00 PM), Sat(04:00 PM - 07:00 PM), Sun(04:00 PM - 07:00 PM)",
+      "batchtype": "Normal Evening"
+    }
+  ],
+  "widget-id-pitampura": "409",
+  "widget-id-noida": "411",
+  "widget-id-dwarka": "410"
+}

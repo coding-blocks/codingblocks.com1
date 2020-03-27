@@ -1,0 +1,164 @@
+{
+  "id": "course27",
+  "name": "Unity Game Development",
+  "title": "Best Unity Game Development Course in Delhi | Coding Blocks India",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Learn Game Development with Unity in Delhi by best FullStack Game Development course in Delhi at Coding Blocks."
+    },
+    {
+      "name": "keywords",
+      "content": "game,gamedev,unity,2dgame,3dgame,pubg"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/unity-game-development.html",
+    "title": "Best Game Development Course with Unity in India",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14058603_1077770128976987_1865333049_n.jpg",
+    "description": "Game Development course is designed to help students develop professional websites/portals. This course will help students understand how game engines work."
+  },
+  "header": {
+    "heading": "Game Development with Unity",
+    "subHeading": "",
+    "breadcrumbs": [
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "/assets/images/cb/cover/dark-wood.jpg"
+  },
+  "overview": {
+    "content": "<p class=\"lead\">Do you know the engine on which world-renowned games such as Temple Run, NASCAR, Super Mario Run, Angry Birds 2, Bad Piggies, Tiger Woods Golf, Dead Trigger 2 and many more are made? Yes, you're right, it's Unity. Unity is a cross-platform game engine which is primarily used to develop both three-dimensional and two-dimensional video games and simulations for computers, consoles, and mobile devices. Kickstart your Game development journey by rapidly prototyping four different games using the most widely used game engine. Unity development is one of the most in-demand tech skills and has one of the highest forecasted growth rates, at over 35% over the next two years.</p><p class=\"lead\">This course will comprise 10 classes, with over forty hours of course coverage. A select few students from the early bird students will also get a very exclusive preview of VR game development for Android.</p>"
+  },
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Introduction",
+      "contentTitle": "Introduction",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "Improve problem solving skills in a fun way by creating games",
+		  "Get a solid grasp of the Unity Game Engine",
+		  "Learn about common video game design patterns",
+		  "Understand game design and balance",
+		  "Basics of Game Art and Audio",
+		  "Android and WebGL deployment",
+		  "Earning revenue from games using Unity Ads"
+      ]
+    },
+    {
+      "title": "Infinite Side Scroller Games (like Jetpack Joyride)",
+      "contentTitle": "Infinite Side Scroller Games (like Jetpack Joyride)",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "Learn about Sprites",
+		  "Sorting layers and general 2D workflow",
+		  "Particle systems",
+		  "Parallax Scrolling",
+		  "Generating game objects on the fly using prefabs",
+		  "Object pooling",
+		  "Collision detection"
+      ]
+    },
+    {
+      "title": "Physics Games (like Lunar Lander)",
+      "contentTitle": "Physics Games (like Lunar Lander)",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "In-depth tour of Unity physics system",
+		  "Separating design and code logic",
+		  "Data driven design using scriptable objects",
+		  "Profiling your game",
+		  "Dividing games into different levels",
+		  "Developing custom inspectors and editor windows",
+		  "Unity audio system",
+		  "Integrating both 2D and 3D objects together"
+      ]
+    },
+    {
+      "title": "Match 3 Games (like Candy Crush)",
+      "contentTitle": "Match 3 Games (like Candy Crush)",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "Using Unity UI system and touch system",
+		  "Creating animations and state transitions",
+		  "Creating particle effects",
+		  "Designing for multiple resolutions"
+      ]
+    },
+    {
+      "title": "Puzzle Based Platformer",
+      "contentTitle": "Puzzle Based Platformer",
+      "description": "",
+      "lectures": "",
+      "points": [
+		  "Create a robust character controller",
+		  "Create weapon system",
+		  "Implement jump and slope",
+		  "Enemy and interactable objects",
+		  "Ladders and portals",
+		  "Streaming assets",
+		  "Customizable control schemes",
+		  "Character animations and state machines"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "I do not know C#. Will I be able to cope up with the syllabus?",
+      "ans": "Experience with C# is not a pre-requisite. Working knowledge of any statically typed programming language (Java, C++, C) and OOPs concepts will suffice."
+    },
+    {
+      "ques": "Will we learn about 3D games?",
+      "ans": "The course will focus on general game programming concepts which are applicable to both 2D and 3D games."
+    },
+    {
+      "ques": "How will this course help me if I’m not interested in game development?",
+      "ans": "Video games belong to a broader class of Real Time Interactive Applications. The concepts learned will be applicable to many fields like architectural visualizations, military training, VR/AR simulations etc."
+    }
+  ],
+  "courseEnroll": {
+    "upcomingBatches": "Upcoming Batches:",
+	"price": "10,000",
+    "registerButton":{
+      "buttonText": "Register Now"
+    }
+  },
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+		""
+    ]
+  },
+  "courseReviews": [
+    "RISHABH MENDIRATTA",
+    "SHIVAM GANDHI",
+    "SANDEEP RANJAN",
+    "RISHABH KHANNA"
+  ],
+  "schedule": [
+	  {
+		  "center": "Pitampura",
+		  "startdate": "Jun 11",
+		  "enddate": "Jul 02",
+		  "daytime": "Mon, Thu, Sat (03:00 PM - 07:00 PM)",
+		  "batchtype": "Regular"
+	  }
+  ],
+  "reviewSlug": "Web Development Course",
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=176"
+}

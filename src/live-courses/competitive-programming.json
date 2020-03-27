@@ -1,0 +1,78 @@
+{
+  "id": "course20",
+  "name": "Competitive Programming",
+  "title": "Competitive Programming | Courses | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks offers competitve programming course for students aiming at ACM-ICPC, APAC, Google CodeJam and other such competitions."
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/competitive-programming.html",
+    "title": "Competitive Programming",
+    "image": "https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-9/18010116_1882476711970663_3462392790741446665_n.jpg?oh=7362f63db69c92e628877fd4908fe783&oe=599ACE4B",
+    "description": "Hone your CP skills by attending 1-week Competitive Programming Course. Learn new concepts by solving over 150 complex problems of varying difficulty level and brighten up you chances of getting selected in APAC and ACM-ICPC."
+  },
+  "courseEnroll": {
+    "price": "15,000",
+    "lectures": "(12 - 14 lectures)",
+    "registerBoxHeading": "",
+    "registerButton": {
+      "buttonText": "Register Now"
+    },
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "5 HackerBlocks Contests"
+      }
+    ]
+  },
+  "schedule": [
+    {
+      "center": "Pitampura",
+      "startdate": "9th June",
+      "enddate": "TBD",
+      "daytime": "Tue (8:00 AM - 11:50 AM), Thu (8:00 AM - 11:50 AM), Sun (8:00 AM - 11:50 AM)",
+      "batchtype": "Normal Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "5th June",
+      "enddate": "TBD",
+      "daytime": "Mon(9:00 AM - 12:00 PM), Wed(9:00 AM - 12:00 PM), Fri(9:00 AM - 12:00 PM)",
+      "batchtype": "Normal Morning"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon (3:00 PM - 7:30 PM), Wed (3:00 PM - 7:30 PM), Fri (3:00 PM - 7:30 PM)",
+      "batchtype": "Normal Evening"
+    }
+  ],
+  "courseReviews": [
+    "SHIKHAR PAHADIA",
+    "DIVYANK KAROLIA",
+    "PIYUSH GANDHI",
+    "AARUSH JUNEJA"
+  ],
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang"
+    ]
+  },
+  "widget-id-pitampura": "405",
+  "widget-id-noida": "407",
+  "widget-id-dwarka": "406"
+
+}

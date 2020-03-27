@@ -1,0 +1,142 @@
+{
+  "title": "Six Months Industrial Training Program | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best six months induxtrial training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join now."
+    },
+    {
+      "name": "keywords",
+      "content": "java, cpp, web, training, data science, machine learning, spark, hadoop"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/six_months_ind_training.html",
+    "title": "Six Months Industrial Training Program | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/18034230_1882557925295875_1998869145399567979_n.jpg?oh=c49b8f92e73c6ceb528e47ff05962b6d&oe=5996F9D6",
+    "description": "Coding Blocks presents to you an exciting industrial training opportunity with the Summer Training Program."
+  },
+  "header": {
+    "heading": "Industrial Training Program",
+    "subHeading": "",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "overview": {
+    "content": "Apart from acquiring technological skills, adapting to an industrial environment is of utmost importance. Keeping this in mind, Coding Blocks bring back to you once again Six Months Comprehensive Industrial Training program. This will be a five-six month long program wherein you'll learn some important as well as can choose for technologies such as Web Development or most wanted skill like Data Science. This will help you gain the skill set required by the industry these days, while working in a startup environment. In the last two months of the program. <br /> <br /> This is a once in a lifetime opportunity which we think you wouldn't want to miss. So, go ahead and register at the link below for an exciting educational journey through the world of technology. All the best!</p>",
+	"buttonLink": "#register-advance"
+  },
+  "courseHighlights": [
+    {
+      "icon": "fa fa-code",
+      "title": "Fundamentals",
+      "content": "We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+    },
+    {
+      "icon": "et-line-puzzle",
+      "title": "Problem Solving",
+      "content": "The C++ course is designed to sharpen the problem solving skills, using C++, of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+    },
+    {
+      "icon": "et-line-layers",
+      "title": "OOP Concepts &amp; Project",
+      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready C++ coders."
+    },
+    {
+      "icon": "et-line-linegraph",
+      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
+      "content": "This course entails more than 100 hours of teaching and hands on C++ coding. Students will be solving more than 200 complex problems in C++ and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "I am not from CSE/IT background. Is this training suitable for me?",
+      "ans": "We intiate the program from ground zero for strong foundation of each trainee belonging to different educational backgrounds. We make sure that by end of training you are proficient enough with programming to crack interview of dream technical companies."
+    },
+    {
+      "ques": "Will I get a job after this course?",
+      "ans": "We offer Placement assistance to all candidates in Coding Blocks. In the Industrial training program, we stress more on Job drives since it is the need of the hour. As soon as the first phase of the course is through, we start pushing students towards opportunities which Coding Blocks offers."
+    },
+    {
+      "ques": "What is the duration of the training program?",
+      "ans": "The program duration is of about 5-6 months. This is a long term training program for students who have an entire semester dedicated to industrial training, or are willing to manage the training with their regular college."
+    },
+    {
+      "ques": "Will I be awarded a training certificate after the program?",
+      "ans": "Yes, you will get completetion certificates for training program."
+    }
+  ],
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang",
+      "Arnav Gupta",
+      "Anuj Garg",
+      "Kartik Mathur",
+      "Rajesh Sachdev",
+      "Rishab Kapoor",
+      "Shubham Rawat"
+    ]
+  },
+  "scheduleCPP": [
+	  {
+		  "center": "Noida",
+		  "startdate": "13th Jan",
+		  "enddate": "TBD",
+		  "daytime": "(10:00 AM - 2:00 PM) On (Mon, Tue, Thr, Fri)",
+		  "batchtype": "Morning"
+    }
+  ],
+  "scheduleJava": [
+	  {
+		  "center": "Noida",
+		  "startdate": "13th Jan",
+		  "enddate": "TBD",
+		  "daytime": "(10:00 AM - 2:00 PM) On (Mon, Tue, Thr, Fri)",
+		  "batchtype": "Morning"
+    }
+  ],
+  "schedulePython": [
+	  {
+		  "center": "Noida",
+		  "startdate": "13th Jan",
+		  "enddate": "TBD",
+		  "daytime": "(10:00 AM - 2:00 PM) On (Mon, Tue, Thr, Fri)",
+		  "batchtype": "Morning"
+    }
+  ],
+  "courseReviews": [
+    "NAVDEEP SINGH",
+    "SHREYA GUPTA",
+    "ANIRUDH GUPTA",
+    "DEEPAK KUMAR"
+  ],
+
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=360",
+  "frame-id-noida-lp": "374",
+
+  "registerLinkNoidaCX": "https://students.codingblocks.com/payment/iframe?item_id=360",
+  "frame-id-noida-cx": "375",
+
+
+  "registerLinkNoidaPY": "https://students.codingblocks.com/payment/iframe?item_id=360",
+  "frame-id-noida-py": "376"
+
+}

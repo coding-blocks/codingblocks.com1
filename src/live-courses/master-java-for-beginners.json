@@ -1,0 +1,202 @@
+{
+  "title": "Best Java Training in Delhi,  Noida | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Learn Java at Coding Blocks, best Java training institute in Delhi,  Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
+    },
+    {
+      "name": "keywords",
+      "content": "java,data structures,algorithms,ds,graphs,trees,codingblocks,course,delhi,india"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/java-for-beginners.html",
+    "title": "Java Beginner & Advanced Course | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
+    "description": "Learn Java at Coding Blocks, best Java training institute in Delhi,  Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
+  },
+  "header": {
+    "heading": "Java - Crux",
+    "subHeading": "Data Structures & Algorithms in Java",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../../assets/images/cb/cover/covergcp.jpg"
+  },
+  "overview": {
+    "content": "<p>Begin your career in software development with the introduction to Data Structures and Algorithms in Java with the best Java institute in Delhi and learn from one of the most experienced mentors. Designed for beginners, this is a hands-on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java at Coding Blocks, the best institute for programming in Delhi-NCR.</p><p>The course content is firmly designed so as to suit the needs of the students and to help them combat as many obstacles as they’d encounter. The programme allows you to choose between Basic and Crux. You can also opt for <a href='/classroom-courses/advanced-java.html'>Web Development using Java</a> in one of the advanced Java courses.</p>",
+    "buttonLink": "#advance-register"
+  },
+  "courseHighlights": [
+    {
+      "icon": "fa fa-code",
+      "title": "Fundamentals",
+      "content": "We have designed our course keeping in mind the requirements of beginners.Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+    },
+    {
+      "icon": "et-line-puzzle",
+      "title": "Problem Solving",
+      "content": "The course is designed to sharpen the problem solving skills of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+    },
+    {
+      "icon": "et-line-layers",
+      "title": "OOP Concepts",
+      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready."
+    },
+    {
+      "icon": "et-line-linegraph",
+      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
+      "content": "This course entails more than 100 hours of teaching and hands on coding. Students will be solving more than 200 complex problems and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "Anybody who is interested in learning programming can take the Java training. Java is a powerful and elegant language, but still is pretty easy to learn. Also, this opens the path to enter Enterprise Java world for making powerful desktop and web applications or mobile apps using Android."
+    },
+    {
+      "ques": "I know C, should I do this course?",
+      "ans": "Yes. Absolutely. Not only will this course teach you Java, but also Object Oriented Programming which forms the base of most, if not all code running live across the globe. Besides it builds your problem solving skills, teaches you some fine data structures and helps you develop the thinking process to optimise your solutions."
+    },
+    {
+      "ques": "I know C++, should I do this course?",
+      "ans": "Depends. Knowing C++ generally means you know Object Oriented Programming well. If that is the case, you’ll be better served by learning some courses which teach you to create making mobile apps or web applications. Please check out our Pandora and Elixir course for those."
+    },
+    {
+      "ques": "Will this help me with competitive programming or can I apply to ACM-ICPC after doing this course?",
+      "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time. The last time we heard from capable competitive programmers, they said these skills made them capable."
+    },
+    {
+      "ques": "Will this course help me in Interviews?",
+      "ans": "Yes. If you learn well, all that the course intends to teach, you’ll be able to impress quite a few interviewers across quite a few fine companies."
+    },
+    {
+      "ques": "Will this help me in making websites and apps?",
+      "ans": "No. This is a fundamentals course. To make websites and apps, you need to learn more. Please check out our <strong>Pandora &amp; Elixir</strong> course for those."
+    },
+    {
+      "ques": "Is this CORE Java or Advanced Java?",
+      "ans": "This is not CORE java or Advanced Java. This is a course which teaches you problem solving, data structures and Object Oriented Programming. Though, most of what CORE java means is being covered. The aim of the course is to help you with a smarter beginning. For being able to make web and mobile apps you need to learn frameworks. Android is one such framework for mobile apps. Please check out our Pandora and Elixir course for more details on these lines."
+    }
+  ],
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Rishab Kapoor",
+      "Garima Chhikara",
+      "ANUJ GARG",
+      "Raj Kumar Saini",
+      "Shubham Rawat"
+    ]
+  },
+  "schedule": [
+    {
+      "center": "Pitampura",
+      "startdate": "25th May",
+      "enddate": "TBD",
+      "daytime": "Mon (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Sat (8:00 AM - 11:50 AM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "3rd June",
+      "enddate": "TBD",
+      "daytime": "Mon (8:00 AM - 11:50 AM), Wed (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM)",
+      "batchtype": "Normal Morning"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "6th June",
+      "enddate": "TBD",
+      "daytime": "Sat (12:10 PM - 3:50 PM), Sun (12:10 PM - 3:50 PM), Tue (12:10 PM - 3:50 PM)",
+      "batchtype": "Weekend Noon"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "10th June",
+      "enddate": "TBD",
+      "daytime": "Wed (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "20th May",
+      "enddate": "TBD",
+      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "5th June",
+      "enddate": "TBD",
+      "daytime": "Mon(04:00 PM - 07:00 PM), Wed(04:00 PM - 07:00 PM), Fri(04:00 PM - 07:00 PM), Sat(04:00 PM - 07:00 PM)",
+      "batchtype": "Fast Track Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "6th June",
+      "enddate": "TBD",
+      "daytime": "Tue(9:00 AM - 12:00 PM), Thurs(9:00 AM - 12:00 PM), Sun(9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "6th June",
+      "enddate": "TBD",
+      "daytime": "Sat(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "9th June",
+      "enddate": "TBD",
+      "daytime": "Tue(12:30 PM - 03:30 PM), Thurs(12:30 PM - 03:30 PM), Sat(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
+      "batchtype": "Fast Track Noon"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "29th May",
+      "enddate": "TBD",
+      "daytime": "Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM), Sun (3:00 PM - 7:30 PM)",
+      "batchtype": "Fast Track Evening"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "10th June",
+      "enddate": "TBD",
+      "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
+      "batchtype": "Normal Morning"
+    }
+  ],
+  "courseReviews": [
+    "YAMINI GAUR",
+    "ANSH SACHDEVA",
+    "GAGARIN DASH",
+    "KSHITIJ BANSAL"
+  ],
+
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=388",
+  "frame-id-pitampura-lp": "388",
+
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=389",
+  "frame-id-dwarka-lp": "389",
+
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=390",
+  "frame-id-noida-lp": "390"
+}

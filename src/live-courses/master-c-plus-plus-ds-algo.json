@@ -1,0 +1,212 @@
+{
+  "title": "Best C++ Training course in Delhi, Noida | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+    },
+    {
+      "name": "keywords",
+      "content": "c++,cpp,c plus plus,programming,course,delhi,india,data structures,algorithms,prateek,narang"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/c-plus-plus-for-beginners.html",
+    "title": "C++ Beginner & Advanced Courses | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+  },
+  "header": {
+    "heading": "C++ <br /> Launchpad",
+    "subHeading": "Master DS & Algorithms in C++",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "overview": {
+    "content": "This C++ training course is designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. The beginner's course will include programming fundamentals using C++, Loops, Functions, Arrays, Stacks, Queues, Linked List. <br/> <br/>The advanced course is for all those who are looking forward to sit for internships and placements. The course will involve rigorous practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. <br/><br/> The course will help you become smarter with solutions and ace your programming interviews. C++ is known to be a very powerful language. It allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ generally does better than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products.",
+	"buttonLink": "#register-advance"
+  },
+  "courseHighlights": [
+    {
+      "icon": "fa fa-code",
+      "title": "Fundamentals",
+      "content": "We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+    },
+    {
+      "icon": "et-line-puzzle",
+      "title": "Problem Solving",
+      "content": "The C++ course is designed to sharpen the problem solving skills, using C++, of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+    },
+    {
+      "icon": "et-line-layers",
+      "title": "OOP Concepts &amp; Project",
+      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready C++ coders."
+    },
+    {
+      "icon": "et-line-linegraph",
+      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
+      "content": "This course entails more than 100 hours of teaching and hands on C++ coding. Students will be solving more than 200 complex problems in C++ and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "Anybody who is interested in learning C++ programming can do this course. C++ is a powerful language and is pretty easy to learn. Coding in its most essential form is nothing but problem solving. It deals with figuring out logical solutions and implementing them optimally. The process of learning to code transforms a person into an analytical thinker with strong mathematical and logical skills."
+    },
+    {
+      "ques": "Will this course help if I had C++ in class 12?",
+      "ans": "Yes, absolutely. There is a lot more to learn in C++ than the school curriculum."
+    },
+    {
+      "ques": "I didn’t have C++ in class 12 ? Can I do this course ?",
+      "ans": "Yes. Our instructors will start the C++ course from beginner's level. You don’t need any prior programming knowledge to attend this course. What we need is dedication and passion to learn programming from your side."
+    }
+  ],
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang",
+      "Rajesh Sachdev",
+      "Kartik Mathur",
+      "Raj Kumar Saini",
+      "Iti Jain",
+      "Pranav Khandelwal"
+    ]
+  },
+  "scheduleLaunchpad": [
+	  {
+		  "center": "Pitampura",
+		  "startdate": "25th May",
+		  "enddate": "TBD",
+		  "daytime": "Mon (4:10 PM - 7:50 PM), Tue (4:10 PM - 7:50 PM), Thu (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM)",
+		  "batchtype": "Fast Track Evening"
+    },
+    {
+		  "center": "Pitampura",
+		  "startdate": "4th June",
+		  "enddate": "TBD",
+		  "daytime": "Thu (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM)",
+		  "batchtype": "Normal Morning"
+    },
+    {
+		  "center": "Pitampura",
+		  "startdate": "6th June",
+		  "enddate": "TBD",
+		  "daytime": "Sat (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM), Wed (4:10 PM - 7:50 PM)",
+		  "batchtype": "Weekend Evening"
+	  },
+    {
+      "center": "Pitampura",
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon (12:10 PM - 3:50 PM), Wed (12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "11th June",
+      "enddate": "TBD",
+      "daytime": "Mon (4:10 PM - 7:50 PM), Thu (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "20th May",
+      "enddate": "TBD",
+      "daytime": "Mon (9:00 AM - 12:00 PM), Wed (9:00 AM - 12:00 PM), Fri (9:00 AM - 12:00 PM), Sat (9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "5th June",
+      "enddate": "TBD",
+      "daytime": "Mon(9:00 AM - 12:00 PM), Wed(9:00 AM - 12:00 PM), Fri(9:00 AM - 12:00 PM), Sat(9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "6th June",
+      "enddate": "TBD",
+      "daytime": "Sat(04:00 PM - 07:00 PM), Sun(04:00 PM - 07:00 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "7th June",
+      "enddate": "TBD",
+      "daytime": "Tue(9:00 AM - 12:00 PM), Thurs(9:00 AM - 12:00 PM), Sun(9:00 AM - 12:00 PM)",
+      "batchtype": "Normal Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM), Sat(12:30 PM - 03:30 PM)",
+      "batchtype": "Fast Track Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon(04:00 PM - 07:00 PM), Wed(04:00 PM - 07:00 PM), Fri(04:00 PM - 07:00 PM), Sat(04:00 PM - 07:00 PM)",
+      "batchtype": "Fast Track Evening"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "5th June",
+      "enddate": "TBD",
+      "daytime": "Mon (3:00 PM - 7:30 PM), Wed (3:00 PM - 7:30 PM), Fri (3:00 PM - 7:30 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "28th May",
+      "enddate": "TBD",
+      "daytime": "Mon (10:00 AM - 2:00 PM), Tue (10:00 AM - 2:00 PM), Thu (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "11th June",
+      "enddate": "TBD",
+      "daytime": "Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM)",
+      "batchtype": "Normal Evening"
+    }
+  ],
+  "courseReviews": [
+    "NAVDEEP SINGH",
+    "SHREYA GUPTA",
+    "ANIRUDH GUPTA",
+    "DEEPAK KUMAR"
+  ],
+
+  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=320",
+  "frame-id-dehradun-lp": "320",
+
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=385",
+  "frame-id-pitampura-lp": "385",
+
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=386",
+  "frame-id-dwarka-lp": "386",
+
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=387",
+  "frame-id-noida-lp": "387"
+
+}
