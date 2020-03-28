@@ -7,6 +7,9 @@
                     <h2 class="uppercase color-primary mb40 mb-xs-24">Overview</h2>
                     <p class="lead">{{{content}}}</p><br>
 					<a class="btn btn-lg btn-filled" {{#if buttonDisabled}}disabled{{/if}} href="{{#if buttonLink}}{{{buttonLink}}}{{else}}#register{{/if}}">{{#if buttonText}}{{{buttonText}}}{{else}}Register Now{{/if}}</a>
+                    {{#if buttonLink2}}
+                    <a class="btn btn-lg btn-filled" href="{{{buttonLink2}}}">{{{buttonText2}}}</a>
+                    {{/if}}
                 </div>
             </div>
         </div>

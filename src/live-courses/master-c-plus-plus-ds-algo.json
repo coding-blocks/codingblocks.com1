@@ -36,8 +36,10 @@
     "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
   },
   "overview": {
-    "content": "This C++ training course is designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. The beginner's course will include programming fundamentals using C++, Loops, Functions, Arrays, Stacks, Queues, Linked List. <br/> <br/>The advanced course is for all those who are looking forward to sit for internships and placements. The course will involve rigorous practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. <br/><br/> The course will help you become smarter with solutions and ace your programming interviews. C++ is known to be a very powerful language. It allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ generally does better than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products.",
-	"buttonLink": "#register-advance"
+    "content": "Coding Blocks is here with Live C++ Classroom Program. The course has been launched to meet the requirements of all students during the quarantine period. The course is for all students who wish to take the first step into the amazing world of programming and software.<br/> <br/>The Live Interview Preparation Program would ensure that students get the best learning experience with the guidance of world-class mentors at the solace of their homes, sparing them from all travel bothers. <br/><br/> With our Live Program, you can avail benefits like on-spot doubt resolution, recorded video after each class, manually written tutor notes, and much more.<br/> <br/>The beginner's course will include programming fundamentals using C++, Loops, Functions, Arrays, Stacks, Queues, Linked List.<br/> <br/>The advanced Live program is for all those who are looking forward to sit for internships and placements. The program will involve rigorous practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc.</br> </br>The Live C++ Classroom Program will help you become smarter with solutions and ace your programming interviews. C++ is known to be a very powerful language. It allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ generally does better than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
+	  "buttonLink": "#register-advance",
+    "buttonLink2": "https://codingblocks.com/take-demo.html",
+    "buttonText2": "Take Demo Class"
   },
   "courseHighlights": [
     {
@@ -90,6 +92,12 @@
       "Pranav Khandelwal"
     ]
   },
+
+  "sample": {
+    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
+    "heading": " "
+  },
+
   "scheduleLaunchpad": [
 	  {
 		  "center": "Pitampura",

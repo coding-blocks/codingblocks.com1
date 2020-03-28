@@ -1,4 +1,4 @@
-{
+  {
   "title": "Best Java Training in Delhi,  Noida | Coding Blocks",
   "metas": [
     {
@@ -36,8 +36,10 @@
     "bgSrc": "../../../assets/images/cb/cover/covergcp.jpg"
   },
   "overview": {
-    "content": "<p>Begin your career in software development with the introduction to Data Structures and Algorithms in Java with the best Java institute in Delhi and learn from one of the most experienced mentors. Designed for beginners, this is a hands-on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java at Coding Blocks, the best institute for programming in Delhi-NCR.</p><p>The course content is firmly designed so as to suit the needs of the students and to help them combat as many obstacles as they’d encounter. The programme allows you to choose between Basic and Crux. You can also opt for <a href='/classroom-courses/advanced-java.html'>Web Development using Java</a> in one of the advanced Java courses.</p>",
-    "buttonLink": "#advance-register"
+    "content": "<p>Coding Blocks, the best Java institute in Delhi is here with the finest Live Java Classroom Program. The program, designed to be a replica of our Classroom Program, is meant to fulfil the needs of students and help them become a master in Java. Begin your career in software development with introduction to Data Structures and Algorithms in Java with the most experienced mentors.</p><p>With our Live Java Classroom Program, get hands-on programming experience right from the comfort of your home. Avail special benefits like live doubt resolution, recorded video after each class, manually written tutor notes, and much more.</p><p>The Live Java Classroom Program focus on developing core programming concepts and equip you to code solutions for complex problems using Java. The program allows you to choose between Basic and Crux. You can also opt for Web Development using Java in one of the advanced Java courses.</p>",
+    "buttonLink": "#advance-register",
+    "buttonLink2": "https://codingblocks.com/take-demo.html",
+    "buttonText2": "Take Demo Class"
   },
   "courseHighlights": [
     {
@@ -104,6 +106,10 @@
       "Raj Kumar Saini",
       "Shubham Rawat"
     ]
+  },
+   "sample": {
+    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
+    "heading": " "
   },
   "schedule": [
     {
