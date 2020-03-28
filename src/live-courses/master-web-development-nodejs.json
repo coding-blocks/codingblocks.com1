@@ -38,7 +38,9 @@
     "bgSrc": "/assets/images/cb/cover/cover_node.jpg"
   },
   "overview": {
-    "content": "The Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with Javascript for both Frontend as well as backend use-cases.<br /><br />Our course is a project-based web development Full Stack course with backend in NodeJS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor who will guide them while they work on web development projects. Our FullStack Web Development course enables students to go live with their websites and add flair to their resumes."
+    "content": "We introduce our Live Web Development Program this quarantine season. The Live Program is designed to help students develop professional websites/portals. This program will help students understand how the web engine works. Through this program, students will be made comfortable with JavaScript for both Frontend as well as Backend use-cases. <br /><br />With our Live Program, avail extra benefits like immediate doubt resolution from mentor, recorded video lecture after each class, hand-written mentor notes, and a lot more.</br></br>The Live Web Development Program is a project-based program with backend in NodeJS. In this program, students will start building their website from scratch and will need to think like professional developers. Our Live Full Stack Web Development Program enables students to go live with their websites and add flair to their resumes.",
+    "buttonLink2": "https://codingblocks.com/take-demo.html",
+    "buttonText2": "Take Demo Class"
   },
   "courseHighlights": [
     {
@@ -68,7 +70,6 @@
       "title": "HTML/CSS",
       "contentTitle": "HTML/CSS",
       "description": "The building blocks of web pages - HTML and CSS. Learn how to use the latest HTML5 web development technologies along with CSS3 stylesheets to create responsive eye-catching web sites. We also cover UI design patterns like:",
-      "lectures": "Lectures 1-2",
       "points": [
         "Table Layouts",
         "Flex Boxes",
@@ -81,7 +82,6 @@
       "title": "Javascript",
       "contentTitle": "Javascript",
       "description": "HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like 'clicks', 'hovers' and 'drag and drop'. Javascript is one of the most powerful and ubiquitious languages in modern software development and our course covers it in depth including:",
-      "lectures": "Lecture: 3-10",
       "points": [
         "ECMAScript 6 Syntax and Standards",
         "Function Closures and IIFEs",
@@ -93,7 +93,6 @@
       "title": "UNIX AND Git",
       "contentTitle": "UNIX AND Git",
       "description": "Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world's servers are hosted on Linux machines, and any web backend developer is expected to know basic DevOps and SysAdmin skills in order to manage a Linux OS. Also - Git, which is the most commonly used version control system - is one of the most helpful tools for working on large projects or in collaborative environments",
-      "lectures": "Lecture 11-12",
       "points": [
         "Unix and SysAdmin/Devops",
         "Schema Designing",
@@ -104,7 +103,6 @@
       "title": "NODEJS",
       "contentTitle": "NODEJS",
       "description": "Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is currently the fastest growing ecosystem. We will cover:",
-      "lectures": "Lecture 12-16",
       "points": [
         "NodeJS Modules",
         "Filesystem API, Events and Streams",
@@ -117,7 +115,6 @@
       "title": "Databases",
       "contentTitle": "Databases",
       "description": "What is a server if it cannot store data on databases. We will cover storing data in:",
-      "lectures": "Lectures 17-18",
       "points": [
         "Flat files on server",
         "MySQL",
@@ -128,7 +125,6 @@
     {
       "title": "Advanced Topics & Deployment",
       "contentTitle": "Advanced Topics & Deployment",
-      "lectures": "Lectures 19-25",
       "description": "Finally, we will cover adding basic security to websites including user authentication and authorization, SSL transport, checking for SQL injection and other vulnerabilities. We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
       "points": [
         "Security",
@@ -168,6 +164,10 @@
         "content": "2 Hackathons"
       }
     ]
+  },
+  "sample": {
+    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
+    "heading": " "
   },
   "mentors": {
     "heading": "Mentors",

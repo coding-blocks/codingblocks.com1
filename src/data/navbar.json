@@ -57,6 +57,26 @@
         {
           "title": "April 2020 Live Classes",
           "link": "/live-classes.html"
+        },
+        {
+          "title": "LIVE C++ - DS & ALGO - APR 2020",
+          "link": "/live-courses/master-c-plus-plus-ds-algo.html"
+        },
+        {
+          "title": "LIVE JAVA - DS & ALGO - APR 2020",
+          "link": "/live-courses/master-java-for-beginners.html"
+        },
+        {
+          "title": "LIVE PYTHON APP DEV - APR 2020",
+          "link": "/live-courses/master-data-science-with-python.html"
+        },
+        {
+          "title": "LIVE WEB DEV USING NODE.JS - APR 2020",
+          "link": "/live-courses/master-web-development-nodejs.html"
+        },
+        {
+          "title": "LIVE ANDROID APP DEV - APR 2020",
+          "link": "/live-courses/master-android-app-development-using-kotlin-and-java.html"
         }
       ]
     },
