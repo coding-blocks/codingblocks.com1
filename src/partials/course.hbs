@@ -27,8 +27,15 @@
             <br>
             <a target="_blank" href="{{online-link}}">Try For Free</a>
         {{else}}
-            <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
-                linkText}}Register Now{{else}}{{{linkText}}}{{/unless}}</a>
+
+                    {{#if live-link}}
+                        <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
+                             linkText}}View Description{{else}}{{{linkText}}}{{/unless}}</a>
+                    {{else}}
+                        
+                        <a class="btn btn-white btn-filled btn-lg" href="{{#relativePath @file.path link}}{{/relativePath}}">{{#unless
+                            linkText}}Register Now{{else}}{{{linkText}}}{{/unless}}</a>
+                    {{/if}}
         {{/if}}
         {{#if live-link}}
             <br>

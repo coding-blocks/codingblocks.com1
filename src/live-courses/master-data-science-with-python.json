@@ -22,7 +22,9 @@
     "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
   },
   "overview": {
-    "content": "Data Science is one of the hottest fields of the 21st century. It is in high demand across the globe with bigwigs like Amazon, Google, Microsoft paying handsome salaries and perks to data scientists. This course provides you with a great kick-start in your data science journey. <br/><br/> Starting with Python Basics, Data Visualization, Data Scraping, Building Web Scrappers using Scrapy, Data Cleaning and applying various machine learning algorithms like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes, Principal Component Analysis, Feature Engineering, T-SNE Visualizations, Deep Learning & Reinforcement Learning for video games. The complete course is very practical and makes sure you do sufficient hands-on practice on the concepts taught by solving assignments and challenges"
+    "content": "The Live Python Application Development Program is designed to help students new to programming or otherwise, learn Python from scratch and reach the level of making interesting web applications. The Live course has been launched to meet the needs of all students during the quarantine period. <br/><br/> Our Live Python Application Development Program is designed to provide a classroom like learning experience to all the students. In addition to the advantages of a Classroom Program, the Live Program gives benefits like recorded lectures, class notes, immediate doubt clearing etc. </br></br>The first part of the program helps students understand how python syntax works and related concepts. The latter part deals with automating mundane tasks using python. The program would make students comfortable with python for computations, object-oriented python, python standard template library, databases and web application.</br></br>The Live Python Application Development Program includes multiple activities through which students will have hands-on experience of python programming. The course would enable students to learn Data Science, Machine Learning or Web Development using Django in future.",
+    "buttonLink2": "https://codingblocks.com/take-demo.html",
+    "buttonText2": "Take Demo Class"
   },
   "courseHighlights": [
     {
@@ -52,7 +54,6 @@
       "title": "Python Introduction",
       "contentTitle": "Introduction to Python Programming",
       "description": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
-      "lectures": "Lectures 1-5",
       "points": [
         "Data Science Quickstart Mode",
         "Python 3.7 overview",
@@ -68,7 +69,6 @@
       "title": "Mathematical Concepts and Data Visualisation",
       "contentTitle": "Acquisition, Processing, Visualisation and Handling of Data",
       "description": "Data visualization is about the presentation of data in a pictorial or graphical format. Further mininga and warehouses is key to have successful data science application.",
-      "lectures": "Lecture: 6-10",
       "points": [
         "Linear Algebra",
         "Data Visualisation",
@@ -86,7 +86,6 @@
       "title": "Machine Learning Algorithms",
       "contentTitle": "Machine Learning Algorithms",
       "description": "Simple to Advanced Machine Learning Algorithms. Includes all useful traditional supervised and unsupervised algorithms.",
-      "lectures": "Lecture 11-15",
       "points": [
         "K-Nearest Neighbour search",
         "K-means clustering",
@@ -105,7 +104,6 @@
       "title": "Segmentation and Time Series",
       "contentTitle": "Segmentation and Time Series Forcasting",
       "description": "Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data.",
-      "lectures": "Lecture 16-20",
       "points": [
         "Introduction to Segmentation",
         "Subjective Vs Objective, Heuristic Vs. Statistical",
@@ -122,7 +120,6 @@
       "title": "Deep Learning",
       "contentTitle": "Deep Learning",
       "description": "In this final classes of our course, we will learn about more complex Machine Learning topics and algorithms which help you in solving and optimising solutions of lots of real world problems.",
-      "lectures": "Lectures 21-24",
       "points": [
         "Neural Architectures and Training",
         "Deep learning methods",
@@ -136,7 +133,6 @@
       "title": "Projects and case studies",
       "contentTitle": "Projects",
       "description": "Students will get hands on knowledge of the underlying material by building several projects that use the techniques taught in this course to solve a real life problem.",
-      "lectures": "Across Lectures",
       "points": [
         "Face Recognition",
         "Image classification and Object detection",
@@ -188,6 +184,10 @@
     "ANSHUL GARG",
     "SHIVANSHU CHAUDHARY"
   ],
+   "sample": {
+    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
+    "heading": " "
+  },
   "schedule": [
     {
       "center": "Pitampura",
