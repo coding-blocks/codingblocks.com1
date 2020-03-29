@@ -37,8 +37,14 @@
     "bgSrc": "../../../assets/images/cb/cover/covergcp.jpg"
   },
   "overview": {
-    "content": "<p>The Python Application Development course is designed to help students new to programming or otherwise to learn python from ground up to level of making interesting web applications. The first part of the course help students to understand how python syntax works, related concepts and the latter part deals with automating mundane tasks using python. Through this course, students will be made comfortable with python for computations, object-oriented python, python standard template library, databases and web application.</p><p>This course includes multiple activities through which students will have hands-on experience of python programming. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to learn data Science, Machine Learning or web development using Django in future.</p>",
-	"buttonLink": "#register"
+    "content": "<p> The Live Python Application Development Program is designed to help students new to programming or otherwise, learn Python from scratch and reach the level of making interesting web applications. The Live course has been launched to meet the needs of all students during the quarantine period.</p><p>Our Live Python Application Development Program is designed to provide a classroom like learning experience to all the students. In addition to the advantages of a Classroom Program, the Live Program gives benefits like recorded lectures, class notes, immediate doubt clearing etc.</p><p>The first part of the program helps students understand how python syntax works and related concepts. The latter part deals with automating mundane tasks using python. The program would make students comfortable with python for computations, object-oriented python, python standard template library, databases and web application.</p><p>The Live Python Application Development Program includes multiple activities through which students will have hands-on experience of python programming. The course would enable students to learn Data Science, Machine Learning or Web Development using Django in future.</p>",
+            "buttonLink": "#register-advance",
+    "buttonLink2": "https://codingblocks.com/take-demo.html",
+    "buttonText2": "Take Demo Class"
+  },
+   "sample": {
+    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
+    "heading": " "
   },
   "courseHighlights": [
     {
