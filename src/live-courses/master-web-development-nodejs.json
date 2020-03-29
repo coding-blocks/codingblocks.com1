@@ -39,7 +39,6 @@
   },
   "overview": {
     "content": "We introduce our Live Web Development Program this quarantine season. The Live Program is designed to help students develop professional websites/portals. This program will help students understand how the web engine works. Through this program, students will be made comfortable with JavaScript for both Frontend as well as Backend use-cases. <br /><br />With our Live Program, avail extra benefits like immediate doubt resolution from mentor, recorded video lecture after each class, hand-written mentor notes, and a lot more.</br></br>The Live Web Development Program is a project-based program with backend in NodeJS. In this program, students will start building their website from scratch and will need to think like professional developers. Our Live Full Stack Web Development Program enables students to go live with their websites and add flair to their resumes.",
-        "buttonLink": "#register-advance",
     "buttonLink2": "https://codingblocks.com/take-demo.html",
     "buttonText2": "Take Demo Class"
   },
