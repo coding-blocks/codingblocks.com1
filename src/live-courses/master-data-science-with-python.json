@@ -23,6 +23,7 @@
   },
   "overview": {
     "content": "Data Science is one of the hottest fields of the 21st century. It is in high demand across the globe with bigwigs like Amazon, Google, Microsoft paying handsome salaries and perks to data scientists. This course provides you with a great kick-start in your data science journey.</br></br>To help you learn the hottest skill, Coding Blocks introduces Live Data Science with Python Course. The course, designed to be a replica of our Classroom Program, would provide additional benefits like immediate doubt resolution from mentor, recorded video lecture after each class, hand-written mentor notes, and a lot more.</br></br>The course begins with Python Basics, Data Visualization, Data Scraping, Building Web Scrappers using Scrapy, Data Cleaning and applying various machine learning algorithms like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes, Principal Component Analysis, Feature Engineering, T-SNE Visualizations, Deep Learning & Reinforcement Learning for video games. The complete course is very practical and would ensure you do sufficient hands-on practice on the concepts taught by solving assignments and challenges.",
+    "buttonLink": "#register-advance",
     "buttonLink2": "https://codingblocks.com/take-demo.html",
     "buttonText2": "Take Demo Class"
   },

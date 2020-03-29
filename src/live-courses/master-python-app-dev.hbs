@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    {{> courseSchema}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    {{> header}}
+    {{> overview}}
+    {{> coursesample}}
+    {{> coursehighlights}}
+    {{> liveClassBanner}}
+
+    <a id="contents" class="in-page-link"></a>
+    <section>
+        <div class="container">
+          <h2 class="uppercase mb16 text-center color-primary">Course Contents</h2>
+          <div class="course-card-container">
+              <div class="content-row">
+                {{#each courseContents}}
+                  <div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h3 class="topic">{{ this.title }}</h3>
+                    <hr>
+                    <ul class="points-list">
+                      {{#each this.points}}
+                        <li>{{ this }}</li>
+                      {{/each}}
+                    </ul>
+                  </div>
+                {{/each}}
+              </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    {{> team team=mentors}}
+          <a id="register-advance" class="in-page-link"></a>
+
+	<section style="padding-top: 0; margin-top: -5rem;">
+		<div class="container">
+			<div class="row v-align-children">
+				<div class="col-md-4 col-sm-6">
+					<div class="pricing-table pt-1 text-center emphasis">
+            <div><span class="price">₹8,000</span></div>
+						<p class="lead">(16 lectures)</p>
+						<a class="btn btn-white btn-lg" href="https://dukaan.codingblocks.com/buy?productId=1518">Enroll Now</a>
+						<p>
+							<a href="/contactus">Contact Us</a>
+							<br>Call(Toll-free): 1800-2744-504
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+  <section>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h3 class="mb16 text-center uppercase">Course Schedule</h3>
+                          <table class="table table-hover table-striped calendar">
+                            <thead>
+                              <tr>
+                                
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr><td>Lecture 1 </td><td>About python, Installations</td></tr>
+                              <tr><td>Lecture 2 </td><td>Introduction to python, Primitive Data-Types, Memory allocation</td></tr>
+                              <tr><td>Lecture 3 </td><td>Conditions and loops </td></tr>
+                              <tr><td>Lecture 4 </td><td>String operations, iterables, Operators and Expressions</td></tr>
+                              <tr><td>Lecture 5 </td><td>Inbuild Data Structure intro & List operations</td></tr>
+                              <tr><td>Lecture 6 </td><td>Dictionary, set operations and internal structure, intro to Functions</td></tr>
+                              <tr><td>Lecture 7 </td><td>Functions, Modules</td></tr>
+                              <tr><td>Lecture 8 </td><td>Assignment Discussion and Doubts</td></tr>
+                              <tr><td>Lecture 9 </td><td>Object Oreinted Programming </td></tr>
+                              <tr><td>Lecture 10</td><td> File Handeling</td></tr>
+                              <tr><td>Lecture 11</td><td> Web Scrapping and web APIs</td></tr>
+                              <tr><td>Lecture 12</td><td> Doubts Class with Mentor</td></tr>
+                              <tr><td>Lecture 13</td><td> Web App (Flask intro) Model, View, Template</td></tr>
+                              <tr><td>Lecture 14</td><td> Creating new templates and Views, POST, GET requests, Query</td></tr>
+                              <tr><td>Lecture 15</td><td> Markov_chain text generator</td></tr>
+                              <tr><td>Lecture 16</td><td> Winding up with career related queries & intro to Data Science</td></tr>
+                            </tbody>
+                          </table>
+                      </div>
+                    </div>
+                  </div>
+      </section>
+
+    {{> coursefaq}}
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>

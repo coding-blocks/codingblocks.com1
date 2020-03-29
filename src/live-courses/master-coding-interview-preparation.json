@@ -25,6 +25,16 @@
       }
     ]
   },
+  "overview": {
+    "content": "<p>Coding Blocks introduces Live Interview Preparation Program. Our Live Classroom Program has been designed to be an exact replica of our Classroom Program. The course has been launched to cater to the needs of students at the time of the quarantine period. Our Live Interview Preparation Course is best suited for students looking to prepare for placements and internships.</p><p>The Live Interview Preparation Program would ensure that students get to learn from the best mentors at the comfort of their homes, saving them from all the traveling hassles. It would allow the students to get all benefits of classroom learning right inside their homes.</p><p>With our Live Program, you can avail benefits like immediate doubt resolution from mentor, recorded video lecture after each class, hand-written mentor notes, and a lot more.</p><p>Our Live Interview Preparation Program would cover topics such as Operating Systems, DBMS and System Design along with important coding interview questions asked in the interview process of companies like Google, Facebook, Amazon, Microsoft, Directi, Zomato etc. Resume building of this program will help you get shortlisted for the interview process.</p><p>Students can also opt for bundle sets for the bootcamp with C++ or JAVA. This is meant for the students willing to strengthen their Data Structures and Algorithm concepts. These will be a combination of Interview Preparation and one complete course on Advanced Data Structures and Algorithm using C++ or Advanced Data Structures and Algorithms using Java. Choose either of the Programme as a part of the bundle and avail a direct discount of ₹1000.</p>",
+        "buttonLink": "#register-advance",
+    "buttonLink2": "https://codingblocks.com/take-demo.html",
+    "buttonText2": "Take Demo Class"
+  },
+     "sample": {
+    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
+    "heading": " "
+  },
   "scheduleCpp": [
     {
       "center": "Pitampura",
