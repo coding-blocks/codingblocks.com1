@@ -31,6 +31,17 @@
     "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
     "heading": " "
   },
+   "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang",
+      "ANUJ GARG"
+    ]
+  },
   "courseHighlights": [
     {
       "icon": "et-line-edit",

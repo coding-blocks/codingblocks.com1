@@ -27,6 +27,17 @@
     "buttonLink2": "https://codingblocks.com/take-demo.html",
     "buttonText2": "Take Demo Class"
   },
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang",
+      "ANUJ GARG"
+    ]
+  },
   "courseHighlights": [
     {
       "icon": "et-line-edit",
