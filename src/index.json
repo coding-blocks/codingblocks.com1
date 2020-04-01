@@ -35,14 +35,14 @@
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/stay_home.jpg",
+      "imgSrc": "/assets/images/cb/cover/cast_banner.jpg",
       "imgAlt": "",
-      "heading": "This Covid-19 season, don’t get stressed. Coding Blocks will support you!",
+      "heading": "Test on 3rd April",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Explore",
+          "link": "https://cb.lk/test",
+          "text": "Register Now",
           "filled": "true"
         }
       ]
