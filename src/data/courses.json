@@ -793,7 +793,7 @@
       "online-link": "https://online.codingblocks.com/courses/learn-dynamic-programming-online-course"
     },
     {
-      "name": "Master Data Structures and Algo with C++",
+      "name": "Master DS and Algo with C++",
       "id": "live_course_cpp",
       "rating": "4.5",
       "ratingCount": "206",
@@ -812,7 +812,7 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "name": "Master Data Structures and Algo with Java",
+      "name": "Master DS and Algo with Java",
       "id": "live_course_java",
       "rating": "4.5",
       "ratingCount": "206",
@@ -851,7 +851,7 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "name": "Master Full Stack Web with NodeJS",
+      "name": "Master FullStack Web with NodeJS",
       "id": "live_course_nodejs",
       "rating": "4.5",
       "ratingCount": "206",
@@ -871,7 +871,7 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "name": "Live Android App Dev - Apr 2020",
+      "name": "Master Android with Kotlin",
       "id": "live_course_android",
       "rating": "4.5",
       "ratingCount": "206",
@@ -911,7 +911,7 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "name": "Master Interview Preparation for Dream Companies",
+      "name": "Master Interview Prep for Bigwigs",
       "id": "live_course_intprep",
       "rating": "4.5",
       "ratingCount": "206",
