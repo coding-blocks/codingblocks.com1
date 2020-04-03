@@ -1,6 +1,6 @@
-.idea
-node_modules
-dist
+.idea/
+node_modules/
+dist/
 .tmp
 yarn.lock
 /**/.DS_Store

@@ -46,7 +46,12 @@ gulp.task('html', function () {
             .pipe(hb({
                 partials: config.partialsSrc + '/**/*.hbs',
                 helpers: config.helpersSrc + '/**/*.js',
-                data: [config.src + '/**/*.json', config.dataSrc + '/**/*.json']
+                data: [config.src + '/**/*.json', config.dataSrc + '/**/*.json'],
+                templateOptions: {
+                    allowedProtoProperties: {
+                        'path': true
+                    }
+                }
             }))
             .pipe(using())
             .pipe(ext('.html'))

@@ -1142,7 +1142,6 @@ footer, section {
 
 @media all and (transform-3d), (-webkit-transform-3d) {
     .multi-item-carousel .carousel-inner > .item {
-        transition: 500ms ease-in-out left;
         transition: 500ms ease-in-out all;
         backface-visibility: visible;
         transform: none!important;
