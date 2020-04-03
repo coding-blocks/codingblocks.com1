@@ -1,6 +1,6 @@
 {
   "title": "Live classes | Coding Blocks",
-   "metas": [
+  "metas": [
     {
       "name": "description",
       "content": "Coding Blocks is the best live classes institute in India. Join beginner and advanced courses in C++, Java, Python, Machine learning, Data science, Web development, Android using Kotlin, Interview preparation for jobs and many more."
@@ -27,8 +27,51 @@
     "buttonLink2": "https://codingblocks.com/take-demo.html",
     "buttonText2": "Take Demo Class"
   },
-
-   "liveCoursesRow1": [
+  "courseSchedule": [
+    {
+      "name": "Master DS & Algo with C++",
+      "link": "/live-courses/master-c-plus-plus-ds-algo.html",
+      "timings": "Mon Tue Thu Fri | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master DS & Algo with Java",
+      "link": "live-courses/master-java-for-beginners.html",
+      "timings": "Mon Wed Fri Sat | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Web Dev with NodeJS",
+      "link": "live-courses/master-web-development-nodejs.html",
+      "timings": "Tue Thu Sat Sun | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Android with Kotlin",
+      "link": "live-courses/master-android-app-development-using-kotlin-and-java.html",
+      "timings": "Tue Thu Sat Sun | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Data Science with Python",
+      "link": "live-courses/master-data-science-with-python.html",
+      "timings": "Mon Thu Fri | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Python App Dev",
+      "link": "live-courses/master-python-app-dev.html",
+      "timings": "Mon Thu Fri | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Interview Preparation",
+      "link": "live-courses/master-coding-interview-preparation.html",
+      "timings": "Tue Thu Sat | 7-10 PM",
+      "starts": "6 APR"
+    }
+  ],
+  "liveCoursesRow1": [
     {
       "id": "live_course_cpp",
       "odd": true
@@ -58,11 +101,10 @@
       "id": "course54",
       "odd": true
     },
-  {
+    {
       "id": "live_course_intprep"
-  }
+    }
   ],
- 
   "faqs": [
     {
       "ques": "I wanted to enrol for Classroom program in Summers. Should I opt for Live class program?",

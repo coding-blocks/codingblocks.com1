@@ -34,84 +34,21 @@
           <table class="table table-hover table-striped calendar">
             <thead>
             <tr>
-              <th>Live Course name</th>
-              <th>Starts on</th>
-              <th>Schedule</th>
-              <th>Batch Type</th>
+              <th>Course</th>
+              <th>Starts</th>
+              <th>Timings</th>
               <th>Actions</th>
-              <th></th>
             </tr>
             </thead>
             <tbody>
-            <tr>
-              <td>Master Data structures & Algo using C++</td>
-              <td>6<sup>th</sup> April'20</td>
-              <td>Mon Tue Thu Fri | 7:00 PM-10:00 PM</td>
-              <td>Live Fast Track</td>
-              <td><a href="/live-courses/master-c-plus-plus-ds-algo.html">View Description</a>
-              </td>
-              <td><a href="/take-demo.html">Take Demo Class</a></td>
-
-            </tr>
-            <tr>
-              <td>Master Data structures & Algo using Java</td>
-              <td>6<sup>th</sup> April'20</td>
-              <td>Mon Wed Fri Sat | 7:00 PM-10:00 PM</td>
-              <td>Live Fast Track</td>
-              <td><a href="/live-courses/master-java-for-beginners.html">View Description</a>
-              </td>
-              <td><a href="/take-demo.html">Take Demo Class</a></td>
-
-            </tr>
-            <tr>
-              <td>Master Full stack Web dev using node js</td>
-              <td>6<sup>th</sup> April'20</td>
-              <td>Tue Thu Sat Sun | 7:00 PM-10:00 PM</td>
-              <td>Live Fast Track</td>
-              <td><a href="/live-courses/master-web-development-nodejs.html">View
-                Description</a></td>
-              <td><a href="/take-demo.html">Take Demo Class</a></td>
-            </tr>
-            <tr>
-              <td>Master Android App dev using Kotlin</td>
-              <td>6<sup>th</sup> April'20</td>
-              <td>Tue Thu Sat Sun | 7:00 PM-10:00 PM</td>
-              <td>Live Fast Track</td>
-              <td><a
-                  href="/live-courses/master-android-app-development-using-kotlin-and-java.html">View
-                Description</a></td>
-              <td><a href="/take-demo.html">Take Demo Class</a></td>
-
-            </tr>
-            <tr>
-              <td>Master Data Science with Python</td>
-              <td>6<sup>th</sup> April'20</td>
-              <td>Mon Thu Fri | 7:00 PM-10:00 PM</td>
-              <td>Live Fast Track</td>
-              <td><a href="/live-courses/master-data-science-with-python.html">View
-                Description</a></td>
-              <td><a href="/take-demo.html">Take Demo Class</a></td>
-
-            </tr>
-            <tr>
-              <td>Master Python with App dev</td>
-              <td>6<sup>th</sup> April'20</td>
-              <td>Mon Wed Fri Sat | 7:00 PM-10:00 PM</td>
-              <td>Live Fast Track</td>
-              <td><a href="/live-courses/master-python-app-dev.html">View Description</a></td>
-              <td><a href="/take-demo.html">Take Demo Class</a></td>
-
-            </tr>
-            <tr>
-              <td>Master Interview Preparation for Jobs in Bigwigs</td>
-              <td>6<sup>th</sup> April'20</td>
-              <td>Tue Thu Sat | 7:00 PM-10:00 PM</td>
-              <td>Live Fast Track</td>
-              <td><a href="/live-courses/master-coding-interview-preparation.html">View
-                Description</a></td>
-              <td><a href="/take-demo.html">Take Demo Class</a></td>
-
-            </tr>
+            {{#each courseSchedule as |c|}}
+              <tr>
+                <td><a href="{{c.link}}">{{c.name}}</a></td>
+                <td>{{c.starts}}</td>
+                <td>{{c.timings}}</td>
+                <td><a href="/take-demo.html">Take Demo</a></td>
+              </tr>
+            {{/each}}
             </tbody>
           </table>
         </div>
@@ -194,7 +131,6 @@
       </div>
     </div>
   </section>
-
 
   <div class="container">
     <div class="row">
