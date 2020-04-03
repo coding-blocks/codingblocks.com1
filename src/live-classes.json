@@ -30,27 +30,27 @@
 
    "liveCoursesRow1": [
     {
-      "id": "course48",
+      "id": "live_course_cpp",
       "odd": true
     },
     {
-      "id": "course49"
+      "id": "live_course_java"
     },
     {
-      "id": "course50",
+      "id": "live_course_pyapp",
       "odd": true
     }
   ],
   "liveCoursesRow2": [
     {
-      "id": "course51"
+      "id": "live_course_nodejs"
     },
     {
-      "id": "course52",
+      "id": "live_course_android",
       "odd": true
     },
     {
-      "id": "course53"
+      "id": "live_course_ds"
     }
   ],
   "liveCoursesRow3": [
@@ -59,7 +59,7 @@
       "odd": true
     },
   {
-      "id": "course55"
+      "id": "live_course_intprep"
   }
   ],
  
