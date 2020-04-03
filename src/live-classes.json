@@ -63,28 +63,6 @@
   }
   ],
  
-  "courseHighlights": [
-    {
-      "icon": "fa fa-code",
-      "title": "Fundamentals",
-      "content": "We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
-    },
-    {
-      "icon": "et-line-puzzle",
-      "title": "Problem Solving",
-      "content": "The C++ course is designed to sharpen the problem solving skills, using C++, of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
-    },
-    {
-      "icon": "et-line-layers",
-      "title": "OOP Concepts &amp; Project",
-      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready C++ coders."
-    },
-    {
-      "icon": "et-line-linegraph",
-      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
-      "content": "This course entails more than 100 hours of teaching and hands on C++ coding. Students will be solving more than 200 complex problems in C++ and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
-    }
-  ],
   "faqs": [
     {
       "ques": "I wanted to enrol for Classroom program in Summers. Should I opt for Live class program?",
@@ -112,18 +90,5 @@
       "Pranav Khandelwal",
       "Shubham Rawat"
     ]
-  },
-
-  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=320",
-  "frame-id-dehradun-lp": "320",
-
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=385",
-  "frame-id-pitampura-lp": "385",
-
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=386",
-  "frame-id-dwarka-lp": "386",
-
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=387",
-  "frame-id-noida-lp": "387"
-
+  }
 }

@@ -210,42 +210,15 @@
     {{> coursesRow courses=liveCoursesRow3}}
 
   </div>
-  </section>
-
 
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</section>
 
 {{> team team=mentors}}
 {{> coursefaq}}
 {{> review-course-section}}
 {{> footer}}
-</div>
 {{> scripts}}
-<script>
-  $(document).ready(function () {
-    var hash = window.location.hash
-    if (hash === '#launchpad-bundle-content' || hash === '#advance') {
-      $('#tab-basic').toggleClass('active')
-      $('#tab-advance').toggleClass('active')
-      $('#content-basic').toggleClass('active')
-      $('#launchpad-bundle').toggleClass('active')
-    }
 
-    $('#tab-advance-toggle').click(function (e) {
-      $('#tab-basic').toggleClass('active')
-      $('#tab-advance').toggleClass('active')
-      $('#content-basic').toggleClass('active')
-      $('#launchpad-bundle').toggleClass('active')
-    })
-  })
-</script>
 
 <script>
 </script>
