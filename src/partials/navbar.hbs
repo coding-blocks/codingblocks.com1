@@ -1,219 +1,244 @@
 <!--navbar-->
 <script src="https://unpkg.com/@coding-blocks/web-components@0.0.9/dist/index.js" async></script>
 <div class="col-12">
-        <promotion-banner>
-        </promotion-banner>
+  <promotion-banner>
+  </promotion-banner>
 </div>
 <div class="nav-container">
-    <nav>
-        <div class="nav-bar">
-            <div class="module left">
-                <a href="/">
-                    {{#with navBar}}
-                        <img class="logo logo-light" alt="Foundry"
-                             src={{logoLightSrc}}>
-                        <div class="vnu"><img class="logo logo-dark" alt="Foundry"
-                                              src={{logoDarkSrc}}>
-                        </div>
-                    {{/with}}
-                </a>
+  <nav>
+    <div class="nav-bar">
+      <div class="module left">
+        <a href="/">
+          {{#with navBar}}
+            <img class="logo logo-light" alt="Foundry"
+                 src={{logoLightSrc}}>
+            <div class="vnu"><img class="logo logo-dark" alt="Foundry"
+                                  src={{logoDarkSrc}}>
             </div>
-            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-                <i class="ti-menu"></i>
-            </div>
+          {{/with}}
+        </a>
+      </div>
+      <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+        <i class="ti-menu"></i>
+      </div>
 
-            <div class="module-group right">
-                <div class="module left">
-                    <ul class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-                        {{#each navLinks}}
-                        <li class="{{#if sublinks}}has-dropdown{{/if}}">
-                        <a href="{{link}}">{{title}}</a>
+      <div class="module-group right">
+        <div class="module left">
+          <ul class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+            {{#each navLinks}}
+              <li class="{{#if sublinks}}has-dropdown{{/if}}">
+                <a href="{{link}}">{{title}}</a>
+                {{#if sublinks}}
+                  <ul>
+                    {{#each sublinks}}
+                      <li itemprop="name" class="vpf {{#if sublinks}}has-dropdown{{/if}}">
+                        <a itemprop="url" href="{{link}}">{{title}}</a>
                         {{#if sublinks}}
-                        <ul>
+                          <ul>
                             {{#each sublinks}}
-                            <li itemprop="name" class="vpf {{#if sublinks}}has-dropdown{{/if}}">
+                              <li class="vpf" itemprop="name">
                                 <a itemprop="url" href="{{link}}">{{title}}</a>
-                                {{#if sublinks}}
-                                <ul>
-                                    {{#each sublinks}}
-                                    <li class="vpf" itemprop="name">
-                                        <a itemprop="url" href="{{link}}">{{title}}</a>
-                                    </li>
-                                    {{/each}}
-                                </ul>
-                                {{/if}}
-                            </li>
+                              </li>
                             {{/each}}
-                        </ul>
+                          </ul>
                         {{/if}}
-                        </li>
-                        {{/each}}
-						<li class="has-dropdown">
-						  <a target="_blank" href="https://online.codingblocks.com">ONLINE COURSES</a>
-						  <ul>
-							<li class="vpf" itemprop="name"></li>
-							<li class="vpf" itemprop="name">
-								<a itemprop="url" target="_blank"
-									href="https://online.codingblocks.com/courses/coding-interview-preparation-online#runs">Interview Prep Bootcamp</a>
-							</li>
-							<li class="vpf" itemprop="name">
-								<a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/coding-interview-preparation-course-online">Interview Prep Course</a>
-							</li>
-							<li class="vpf" itemprop="name">
-							  <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/c-plus-plus-online-course-for-beginners">Launchpad - C++ (Basic to Advanced)</a>
-							</li>
-                            <li class="vpf" itemprop="name">
-                              <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/data-structures-and-algorithms-online-course">Algo++ (Advanced DS &amp; Algo in C++)</a>
-                            </li>
-							<li class="vpf" itemprop="name">
-							  <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/complete-java-course-online">Java (DS &amp; Algo)</a>
-							</li>
-                            <li class="vpf" itemprop="name">
-							  <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/data-structures-and-algorithms-online-course-java-algo">Advanced DS &amp; Algo, Java</a>
-							</li>
-							<li class="vpf" itemprop="name">
-							  <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/web-development-online-course">Web Development (NodeJS)</a>
-							</li>
-							<li class="vpf" itemprop="name">
-							  <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/competitive-programming-course-online#runs">Competitive Programming</a>
-							</li>
-							<li class="vpf" itemprop="name">
-							  <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/machine-learning-course-online#runs">Machine Learning</a>
-							</li>
-							<li class="vpf" itemprop="name">
-							  <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/android-app-training-online#runs">Android Dev (Java &amp; Kotlin)</a>
-							</li>
-                            <li class="vpf" itemprop="name">
-							  <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/angular-node-js">Complete Angular Course: Beginner to Advanced</a>
-							</li>
-                             <li class="vpf" itemprop="name">
-							  <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/deep-learning-neural-networks">Deep Learning 01 - Neural Networks</a>
-							</li>
-						  </ul>
+                      </li>
+                    {{/each}}
+                  </ul>
+                {{/if}}
+              </li>
+            {{/each}}
+            <!-- Online Courses -->
+            <li class="has-dropdown">
+              <a target="_blank" href="https://online.codingblocks.com">ONLINE COURSES</a>
+              <ul>
+                <li class="vpf" itemprop="name"></li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/coding-interview-preparation-online#runs">Interview
+                    Prep Bootcamp</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/coding-interview-preparation-course-online">Interview
+                    Prep Course</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/c-plus-plus-online-course-for-beginners">Launchpad -
+                    C++ (Basic to Advanced)</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/data-structures-and-algorithms-online-course">Algo++
+                    (Advanced DS &amp; Algo in C++)</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/complete-java-course-online">Java (DS &amp; Algo)</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/data-structures-and-algorithms-online-course-java-algo">Advanced
+                    DS &amp; Algo, Java</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/web-development-online-course">Web Development
+                    (NodeJS)</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/competitive-programming-course-online#runs">Competitive
+                    Programming</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/machine-learning-course-online#runs">Machine
+                    Learning</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/android-app-training-online#runs">Android Dev (Java
+                    &amp; Kotlin)</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank" href="https://online.codingblocks.com/courses/angular-node-js">Complete
+                    Angular Course: Beginner to Advanced</a>
+                </li>
+                <li class="vpf" itemprop="name">
+                  <a itemprop="url" target="_blank"
+                     href="https://online.codingblocks.com/courses/deep-learning-neural-networks">Deep Learning 01 -
+                    Neural Networks</a>
+                </li>
+              </ul>
 
-						</li>
-                        <li class="has-dropdown">
-                            <a href="#">RESOURCES </a>
-                            <ul>
-                                <li itemprop="name"><a itemprop="url" href=
-                                        "https://hack.codingblocks.com"
-                                                       target="_blank">Hacker
-                                    Blocks</a>
-                                </li>
-                                <li itemprop="name"><a itemprop="url" href=
-                                        "https://codingblocks.com/resources">Tutorials
-                                </a></li>
-								<li itemprop="name">
-									<a itemprop="url" href="/online-courses/competitive-online-study-material.html">
-										Competitive Programming Study Material
-									</a>
-								</li>
-                                <li itemprop="name">
-                                    <a itemprop="url" href="https://ide.codingblocks.com">Online IDE</a>
-                                </li>
-                                <li itemprop="name"><a itemprop="url" href="https://blog.codingblocks.com"
-                                                       target="_blank">Blog</a>
-                                </li>
-                                <li class="has-dropdown toggle-sub vpf">
-                                    <a class="title">Apps </a>
-                                    <ul>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href="https://cb.lk/">Shortlr</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" target="_blank"
-                                               href="https://play.google.com/store/apps/details?id=in.tosc.digitaloceanapp">Digital
-                                                Ocean Dashboard</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href="https://angrycoders.codingblocks.com"
-                                               target="_blank">Angry
-                                                Coders
-                                                Game</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href="https://coding-blocks.github.io/tic-tac-toe/">Tic
-                                                Tac
-                                                Toe</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" target="_blank"
-                                               href="https://play.google.com/store/apps/details?id=com.developers.dictionary.flying">Flying
-                                                Dictionary</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" target="_blank"
-                                               href="https://play.google.com/store/apps/details?id=com.gamershq.FlyingModi">Fly
-                                                High Modi</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li itemprop="name"><a itemprop="url" href="https://bytecast.codingblocks.com/"
-                                                       target="_blank">Podcast</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="has-dropdown toggle-sub vpf">
-                            <a class="title">Competitions </a>
-                            <ul>
-                                <li itemprop="name">
-                                    <a itemprop="url" href="https://hack.codingblocks.com" target="_blank">
-                                        <i class="fa fa-flag-checkered"></i> Hacker Blocks
-                                    </a>
-                                </li>
-                                <li itemprop="name">
-                                    <a itemprop="url" href="https://boss.codingblocks.com" target="_blank">
-                                        <i class="fa fa-cubes"></i> BOSS
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="has-dropdown toggle-sub vpf contact-us-dropdown">
-                            <a class="title" href="/centres/">Contact Us</a>
-                            <ul>
-                                <li class="has-dropdown toggle-sub vpf">
-                                    <a href="/centres/">Centres</a>
-                                    <ul>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/centres/pitampura.html">Pitampura</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/centres/dwarka.html">Dwarka</a>
-                                        </li>
-                                        <li itemprop="name">
-                                            <a itemprop="url" href=
-                                                    "/centres/noida.html#default">
-                                                Noida</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li itemprop="name">
-                                    <a itemprop="url" href=
-                                            "/signup/job.html">Careers</a>
-                                </li>
-                                <li itemprop="name">
-                                    <a itemprop="url"
-                                       href="/signup/company.html">Hire
-                                        Students</a>
-                                </li>
-                                <li itemprop="name">
-                                    <a itemprop="url"
-                                       href="/signup/workshop.html">Request
-                                        A Workshop</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="toggle-sub vpf">
-                            <a target="_blank" href="https://account.codingblocks.com"
-                            onclick="dataLayer.push({'event': 'Login/Signup', 'location': 'Navbar'});">
-                            Login/Signup</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            </li>
+            <!-- Resources -->
+            <li class="has-dropdown">
+              <a href="#">RESOURCES </a>
+              <ul>
+                <li itemprop="name"><a itemprop="url" href=
+                    "https://hack.codingblocks.com"
+                                       target="_blank">Hacker
+                  Blocks</a>
+                </li>
+                <li itemprop="name"><a itemprop="url" href=
+                    "https://codingblocks.com/resources">Tutorials
+                </a></li>
+                <li itemprop="name">
+                  <a itemprop="url" href="/online-courses/competitive-online-study-material.html">
+                    Competitive Programming Study Material
+                  </a>
+                </li>
+                <li itemprop="name">
+                  <a itemprop="url" href="https://ide.codingblocks.com">Online IDE</a>
+                </li>
+                <li itemprop="name"><a itemprop="url" href="https://blog.codingblocks.com"
+                                       target="_blank">Blog</a>
+                </li>
+                <li class="has-dropdown toggle-sub vpf">
+                  <a class="title">Apps </a>
+                  <ul>
+                    <li itemprop="name">
+                      <a itemprop="url" href="https://cb.lk/">Shortlr</a>
+                    </li>
+                    <li itemprop="name">
+                      <a itemprop="url" target="_blank"
+                         href="https://play.google.com/store/apps/details?id=in.tosc.digitaloceanapp">Digital
+                        Ocean Dashboard</a>
+                    </li>
+                    <li itemprop="name">
+                      <a itemprop="url" href="https://angrycoders.codingblocks.com"
+                         target="_blank">Angry
+                        Coders
+                        Game</a>
+                    </li>
+                    <li itemprop="name">
+                      <a itemprop="url" href="https://coding-blocks.github.io/tic-tac-toe/">Tic
+                        Tac
+                        Toe</a>
+                    </li>
+                    <li itemprop="name">
+                      <a itemprop="url" target="_blank"
+                         href="https://play.google.com/store/apps/details?id=com.developers.dictionary.flying">Flying
+                        Dictionary</a>
+                    </li>
+                    <li itemprop="name">
+                      <a itemprop="url" target="_blank"
+                         href="https://play.google.com/store/apps/details?id=com.gamershq.FlyingModi">Fly
+                        High Modi</a>
+                    </li>
+                  </ul>
+                </li>
+                <li itemprop="name"><a itemprop="url" href="https://bytecast.codingblocks.com/"
+                                       target="_blank">Podcast</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Competitions -->
+            <li class="has-dropdown toggle-sub vpf">
+              <a class="title">Competitions </a>
+              <ul>
+                <li itemprop="name">
+                  <a itemprop="url" href="https://hack.codingblocks.com" target="_blank">
+                    <i class="fa fa-flag-checkered"></i> Hacker Blocks
+                  </a>
+                </li>
+                <li itemprop="name">
+                  <a itemprop="url" href="https://boss.codingblocks.com" target="_blank">
+                    <i class="fa fa-cubes"></i> BOSS
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- Contact Us -->
+            <li class="has-dropdown toggle-sub vpf contact-us-dropdown">
+              <a class="title" href="/centres/">Contact Us</a>
+              <ul>
+                <li class="has-dropdown toggle-sub vpf">
+                  <a href="/centres/">Centres</a>
+                  <ul>
+                    <li itemprop="name">
+                      <a itemprop="url" href=
+                          "/centres/pitampura.html">Pitampura</a>
+                    </li>
+                    <li itemprop="name">
+                      <a itemprop="url" href=
+                          "/centres/dwarka.html">Dwarka</a>
+                    </li>
+                    <li itemprop="name">
+                      <a itemprop="url" href=
+                          "/centres/noida.html#default">
+                        Noida</a>
+                    </li>
+                  </ul>
+                </li>
+                <li itemprop="name">
+                  <a itemprop="url" href=
+                      "/signup/job.html">Careers</a>
+                </li>
+                <li itemprop="name">
+                  <a itemprop="url"
+                     href="/signup/company.html">Hire
+                    Students</a>
+                </li>
+                <li itemprop="name">
+                  <a itemprop="url"
+                     href="/signup/workshop.html">Request
+                    A Workshop</a>
+                </li>
+              </ul>
+            </li>
+            <li class="toggle-sub vpf">
+              <a target="_blank" href="https://account.codingblocks.com"
+                 onclick="dataLayer.push({'event': 'Login/Signup', 'location': 'Navbar'});">
+                Login/Signup</a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 </div>
 <!--endnavbar-->

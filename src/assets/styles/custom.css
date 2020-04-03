@@ -1255,3 +1255,7 @@ input[type="email"], input[type="number"], input[type="url"] {
 
     min-height: 1060px;
 }
+
+div.contains-table {
+    overflow-x: auto;
+}

@@ -5,8 +5,8 @@
   },
   "navLinks": [
     {
-		"title": "Campus Ambassadors",
-		"link": "http://cb.lk/CA"
+      "title": "Campus Ambassadors",
+      "link": "http://cb.lk/CA"
     },
     {
       "title": "About Us",
@@ -52,38 +52,38 @@
     },
     {
       "title": "Live Classes",
-      "link": "",
+      "link": "/live-classes.html",
       "sublinks": [
         {
-          "title": "April 2020 Live Classes",
+          "title": "Information",
           "link": "/live-classes.html"
         },
         {
-          "title": "LIVE C++ - DS & ALGO - APR 2020",
+          "title": "DS & Algo with C++",
           "link": "/live-courses/master-c-plus-plus-ds-algo.html"
         },
         {
-          "title": "LIVE JAVA - DS & ALGO - APR 2020",
+          "title": "DS & Algo with Java",
           "link": "/live-courses/master-java-for-beginners.html"
         },
         {
-          "title": "LIVE DATA SCIENCE - APR 2020",
+          "title": "Data Science",
           "link": "/live-courses/master-data-science-with-python.html"
         },
         {
-          "title": "LIVE WEB DEV USING NODE.JS - APR 2020",
+          "title": "NodeJS FullStack Web",
           "link": "/live-courses/master-web-development-nodejs.html"
         },
         {
-          "title": "LIVE ANDROID APP DEV - APR 2020",
+          "title": "Android with Kotlin",
           "link": "/live-courses/master-android-app-development-using-kotlin-and-java.html"
         },
         {
-          "title": "LIVE PYTHON APP DEV - APR 2020",
+          "title": "Python App Development",
           "link": "/live-courses/master-python-app-dev.html"
         },
         {
-          "title": "LIVE INTERVIEW PREP - APR 2020",
+          "title": "Interview Preparation",
           "link": "/live-courses/master-coding-interview-preparation.html"
         },
         {
@@ -119,7 +119,7 @@
         },
         {
           "title": "Beginner",
-		  "link": "#",
+          "link": "#",
           "sublinks": [
             {
               "title": "C++ for Beginners / Launchpad",
@@ -137,7 +137,7 @@
         },
         {
           "title": "Development",
-		  "link": "#",
+          "link": "#",
           "sublinks": [
             {
               "title": "Android",
@@ -163,7 +163,7 @@
         },
         {
           "title": "Advanced",
-		  "link": "#",
+          "link": "#",
           "sublinks": [
             {
               "title": "Algo++",
@@ -195,34 +195,34 @@
           "title": "Bootcamps",
           "link": "#bootcamps",
           "sublinks": [
-			{
-			  "title": "ReactJS",
-			  "link": "/bootcamps/react.html"
-			},
-			{
-			  "title": "Blockchain",
-			  "link": "/bootcamps/blockchain.html"
-			},
-			{
-			  "title": "Machine Learning",
-			  "link": "/coming-soon.html"
-			},
-			{
-			  "title": "Chatbots",
-			  "link": "/bootcamps/chatbots.html"
-			},
-			{
-			  "title": "Angular",
-			  "link": "/bootcamps/angular.html"
-			},
-			{
-			  "title": "Game Development",
-			  "link": "/bootcamps/gamedev.html"
-			},
-			{
-			  "title": "Open Source",
-			  "link": "/bootcamps/opensource.html"
-			}
+            {
+              "title": "ReactJS",
+              "link": "/bootcamps/react.html"
+            },
+            {
+              "title": "Blockchain",
+              "link": "/bootcamps/blockchain.html"
+            },
+            {
+              "title": "Machine Learning",
+              "link": "/coming-soon.html"
+            },
+            {
+              "title": "Chatbots",
+              "link": "/bootcamps/chatbots.html"
+            },
+            {
+              "title": "Angular",
+              "link": "/bootcamps/angular.html"
+            },
+            {
+              "title": "Game Development",
+              "link": "/bootcamps/gamedev.html"
+            },
+            {
+              "title": "Open Source",
+              "link": "/bootcamps/opensource.html"
+            }
           ]
         }
       ]

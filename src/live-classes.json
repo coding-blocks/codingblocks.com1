@@ -1,6 +1,6 @@
 {
   "title": "Live classes | Coding Blocks",
-   "metas": [
+  "metas": [
     {
       "name": "description",
       "content": "Coding Blocks is the best live classes institute in India. Join beginner and advanced courses in C++, Java, Python, Machine learning, Data science, Web development, Android using Kotlin, Interview preparation for jobs and many more."
@@ -27,66 +27,82 @@
     "buttonLink2": "https://codingblocks.com/take-demo.html",
     "buttonText2": "Take Demo Class"
   },
-
-   "liveCoursesRow1": [
+  "courseSchedule": [
     {
-      "id": "course48",
+      "name": "Master DS & Algo with C++",
+      "link": "/live-courses/master-c-plus-plus-ds-algo.html",
+      "timings": "Mon Tue Thu Fri | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master DS & Algo with Java",
+      "link": "live-courses/master-java-for-beginners.html",
+      "timings": "Mon Wed Fri Sat | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Web Dev with NodeJS",
+      "link": "live-courses/master-web-development-nodejs.html",
+      "timings": "Tue Thu Sat Sun | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Android with Kotlin",
+      "link": "live-courses/master-android-app-development-using-kotlin-and-java.html",
+      "timings": "Tue Thu Sat Sun | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Data Science with Python",
+      "link": "live-courses/master-data-science-with-python.html",
+      "timings": "Mon Thu Fri | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Python App Dev",
+      "link": "live-courses/master-python-app-dev.html",
+      "timings": "Mon Thu Fri | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Interview Preparation",
+      "link": "live-courses/master-coding-interview-preparation.html",
+      "timings": "Tue Thu Sat | 7-10 PM",
+      "starts": "6 APR"
+    }
+  ],
+  "liveCoursesRow1": [
+    {
+      "id": "live_course_cpp",
       "odd": true
     },
     {
-      "id": "course49"
+      "id": "live_course_java"
     },
     {
-      "id": "course50",
+      "id": "live_course_pyapp",
       "odd": true
     }
   ],
   "liveCoursesRow2": [
     {
-      "id": "course51"
+      "id": "live_course_nodejs"
     },
     {
-      "id": "course52",
+      "id": "live_course_android",
       "odd": true
     },
     {
-      "id": "course53"
+      "id": "live_course_ds"
     }
   ],
   "liveCoursesRow3": [
     {
-      "id": "course56",
+      "id": "course54",
       "odd": true
     },
     {
-        "id": "course55"
-    },
-    {
-      "id": "course57",
-      "odd": true
-    }
-  ],
- 
-  "courseHighlights": [
-    {
-      "icon": "fa fa-code",
-      "title": "Fundamentals",
-      "content": "We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
-    },
-    {
-      "icon": "et-line-puzzle",
-      "title": "Problem Solving",
-      "content": "The C++ course is designed to sharpen the problem solving skills, using C++, of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
-    },
-    {
-      "icon": "et-line-layers",
-      "title": "OOP Concepts &amp; Project",
-      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready C++ coders."
-    },
-    {
-      "icon": "et-line-linegraph",
-      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
-      "content": "This course entails more than 100 hours of teaching and hands on C++ coding. Students will be solving more than 200 complex problems in C++ and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+      "id": "live_course_intprep"
     }
   ],
   "faqs": [
@@ -116,18 +132,5 @@
       "Pranav Khandelwal",
       "Shubham Rawat"
     ]
-  },
-
-  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=320",
-  "frame-id-dehradun-lp": "320",
-
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=385",
-  "frame-id-pitampura-lp": "385",
-
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=386",
-  "frame-id-dwarka-lp": "386",
-
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=387",
-  "frame-id-noida-lp": "387"
-
+  }
 }

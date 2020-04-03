@@ -18,60 +18,37 @@
 
    "liveCoursesRow1": [
     {
-      "id": "course48",
+      "id": "live_course_cpp",
       "odd": true
     },
     {
-      "id": "course49"
+      "id": "live_course_java"
     },
     {
-      "id": "course50",
+      "id": "live_course_pyapp",
       "odd": true
     }
   ],
   "liveCoursesRow2": [
     {
-      "id": "course51"
+      "id": "live_course_nodejs"
     },
     {
-      "id": "course52",
+      "id": "live_course_android",
       "odd": true
     },
     {
-      "id": "course53"
+      "id": "live_course_ds"
     }
   ],
-  "liveCoursesRow3ƒƒ": [
+  "liveCoursesRow3": [
     {
       "id": "course54",
       "odd": true
     },
   {
-      "id": "course55"
+      "id": "live_course_intprep"
   }
-  ],
- 
-  "courseHighlights": [
-    {
-      "icon": "fa fa-code",
-      "title": "Fundamentals",
-      "content": "We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
-    },
-    {
-      "icon": "et-line-puzzle",
-      "title": "Problem Solving",
-      "content": "The C++ course is designed to sharpen the problem solving skills, using C++, of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
-    },
-    {
-      "icon": "et-line-layers",
-      "title": "OOP Concepts &amp; Project",
-      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready C++ coders."
-    },
-    {
-      "icon": "et-line-linegraph",
-      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
-      "content": "This course entails more than 100 hours of teaching and hands on C++ coding. Students will be solving more than 200 complex problems in C++ and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
-    }
   ],
   "faqs": [
     {

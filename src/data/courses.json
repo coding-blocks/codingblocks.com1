@@ -1,10 +1,10 @@
 {
   "coursesList": [
     {
+      "name": "Launchpad",
       "id": "course01",
       "rating": "4.3",
       "ratingCount": "452",
-      "name": "Launchpad",
       "price": "17,000",
       "priceint": "17000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
@@ -24,10 +24,10 @@
       "odd": true
     },
     {
+      "name": "Crux",
       "id": "course02",
       "rating": "4.2",
       "ratingCount": "446",
-      "name": "Crux",
       "price": "17,000",
       "priceint": "17000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
@@ -46,10 +46,10 @@
       ]
     },
     {
+      "name": "Android App Development",
       "id": "course03",
       "rating": "4.4",
       "ratingCount": "429",
-      "name": "Android App Development",
       "price": "22,000",
       "priceint": "22000",
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
@@ -68,10 +68,10 @@
       "odd": true
     },
     {
+      "name": "NodeJS Web Development",
       "id": "course04",
       "rating": "4.8",
       "ratingCount": "454",
-      "name": "NodeJS Web Development",
       "price": "22,000",
       "priceint": "22000",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
@@ -89,10 +89,10 @@
       ]
     },
     {
+      "name": "Algo++",
       "id": "course05",
       "rating": "4.1",
       "ratingCount": "471",
-      "name": "Algo++",
       "price": "12,000",
       "priceint": "12000",
       "badge": "Starting Jun",
@@ -111,10 +111,10 @@
       ]
     },
     {
+      "name": "Machine Learning",
       "id": "course06",
       "rating": "4.3",
       "ratingCount": "400",
-      "name": "Machine Learning",
       "price": "25,000",
       "priceint": "25000",
       "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
@@ -132,10 +132,10 @@
       ]
     },
     {
+      "name": "Java For Beginners",
       "id": "course07",
       "rating": "4.9",
       "ratingCount": "484",
-      "name": "Java For Beginners",
       "price": "8,000",
       "priceint": "8000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
@@ -150,10 +150,10 @@
       ]
     },
     {
+      "name": "C++ For Beginners",
       "id": "course08",
       "rating": "4.3",
       "ratingCount": "468",
-      "name": "C++ For Beginners",
       "price": "8,000",
       "priceint": "8000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
@@ -168,10 +168,10 @@
       ]
     },
     {
+      "name": "Certified Python Developer",
       "id": "course09",
       "rating": "4.4",
       "ratingCount": "467",
-      "name": "Certified Python Developer",
       "price": "7,000",
       "priceint": "7000",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
@@ -186,10 +186,10 @@
       ]
     },
     {
+      "name": "Algo++",
       "id": "course10",
       "rating": "4.3",
       "ratingCount": "410",
-      "name": "Algo++",
       "price": "12,000",
       "priceint": "12000",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
@@ -204,10 +204,10 @@
       ]
     },
     {
+      "name": "Algo.Java",
       "id": "course11",
       "rating": "4.8",
       "ratingCount": "492",
-      "name": "Algo.Java",
       "price": "12,000",
       "priceint": "12000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
@@ -222,12 +222,12 @@
       ]
     },
     {
+      "name": "DS-Algo in C++ Online",
       "id": "course12",
       "rating": "4.3",
       "ratingCount": "453",
-      "name": "DS-Algo in C++ Online",
       "badge": "Starting Every Month",
-	    "price": "15,999",
+      "price": "15,999",
       "priceint": "15999",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "Launchpad Online",
@@ -241,10 +241,10 @@
       "online-link": "https://online.codingblocks.com/courses/c-plus-plus-online-course-for-beginners"
     },
     {
+      "name": "Advanced Java",
       "id": "course14",
       "rating": "4.6",
       "ratingCount": "482",
-      "name": "Advanced Java",
       "price": "20,000",
       "priceint": "20000",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
@@ -259,10 +259,10 @@
       ]
     },
     {
+      "name": "Competitive Programming Bootcamp",
       "id": "bootcamp01",
       "rating": "4.3",
       "ratingCount": "496",
-      "name": "Competitive programming",
       "price": "15,000",
       "priceint": "15000",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
@@ -279,10 +279,10 @@
       "odd": true
     },
     {
+      "name": "Interview Preparation",
       "id": "bootcamp02",
       "rating": "4.3",
       "ratingCount": "474",
-      "name": "Interview Preparation",
       "price": "6,500",
       "priceint": "6500",
       "imgSrc": "/assets/images/cb/r_final.png",
@@ -300,10 +300,10 @@
       ]
     },
     {
+      "name": "NodeJS Web Development Online",
       "id": "course15",
       "rating": "4.0",
       "ratingCount": "400",
-      "name": "NodeJS Web Development Online",
       "price": "15,999",
       "priceint": "15,999",
       "badge": "Starting Every Month",
@@ -320,10 +320,10 @@
       "online-link": "https://online.codingblocks.com/courses/web-development-online-course"
     },
     {
+      "name": "Competitive Programming Online",
       "id": "course16",
       "rating": "4.1",
       "ratingCount": "469",
-      "name": "Competitive programming Online",
       "price": "15,999",
       "priceint": "15,999",
       "badge": "Starting Every Month",
@@ -345,10 +345,10 @@
       "online-link": "https://online.codingblocks.com/courses/competitive-programming-course-online"
     },
     {
+      "name": "Android App Development Online",
       "id": "course17",
       "rating": "4.6",
       "ratingCount": "484",
-      "name": "Android App Development Online",
       "price": "15,999",
       "priceint": "15,999",
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
@@ -365,10 +365,10 @@
       "online-link": "https://online.codingblocks.com/courses/android-app-training-online"
     },
     {
+      "name": "DS-Algo in Java Online",
       "id": "course18",
       "rating": "4.8",
       "ratingCount": "409",
-      "name": "DS-Algo in Java Online",
       "price": "13,999",
       "priceint": "13,999",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
@@ -387,10 +387,10 @@
       "online-link": "https://online.codingblocks.com/courses/complete-java-course-online"
     },
     {
+      "name": "Competitive Programming Online Study Material",
       "id": "course19",
       "rating": "4.7",
       "ratingCount": "485",
-      "name": "Competitive Programming Online Study Material",
       "price": "999",
       "priceint": "999",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
@@ -407,10 +407,10 @@
       ]
     },
     {
+      "name": "Competitive Programming",
       "id": "course20",
       "rating": "4.3",
       "ratingCount": "438",
-      "name": "Competitive Programming",
       "price": "15,000",
       "priceint": "15000",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
@@ -431,13 +431,13 @@
       ]
     },
     {
+      "name": "C++ Bundle",
       "id": "course21",
       "rating": "4.8",
       "ratingCount": "475",
-      "name": "C++ Bundle",
       "combo-card-name": "Interview Prep Course in C++",
-      "price":"20,000",
-      "priceint":"20000",
+      "price": "20,000",
+      "priceint": "20000",
       "off-price": "",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "Competitive Programming course logo",
@@ -445,16 +445,16 @@
       "lectures": "(25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#cpp-bundle",
       "description": [
-		  "Adv Interview Questions"
+        "Adv Interview Questions"
       ],
       "batches": [
       ]
     },
     {
+      "name": "Java Bundle",
       "id": "course22",
       "rating": "4.5",
       "ratingCount": "491",
-      "name": "Java Bundle",
       "combo-card-name": "Interview Prep Course in Java",
       "price": "20,000",
       "priceint": "20000",
@@ -465,16 +465,16 @@
       "lectures": "(25 lectures)",
       "link": "/bootcamps/coding-interview-preparation.html#java-bundle",
       "description": [
-		  "Adv Interview Questions"
+        "Adv Interview Questions"
       ],
       "batches": [
       ]
     },
     {
+      "name": "Interview Prep Course",
       "id": "course23",
       "rating": "4.9",
       "ratingCount": "444",
-      "name": "Interview Prep Course",
       "off-price": "",
       "slashed-price": "12,999",
       "price": "9,999",
@@ -489,10 +489,10 @@
       "online-link": "https://online.codingblocks.com/courses/coding-interview-preparation-course-online-c-plus-plus"
     },
     {
+      "name": "Machine Learning Online",
       "id": "course24",
       "rating": "4.3",
       "ratingCount": "478",
-      "name": "Machine Learning Online",
       "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
       "price": "21,999",
       "imgAlt": "machine learning course logo",
@@ -510,12 +510,12 @@
       "online-link": "https://online.codingblocks.com/courses/machine-learning-course-online"
     },
     {
+      "name": "Python for Beginners",
       "id": "course25",
       "rating": "4.6",
       "ratingCount": "421",
-      "name": "Python for Beginners",
-	"price": "8,000",
-	"priceint": "8000",
+      "price": "8,000",
+      "priceint": "8000",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "Python for Developers Logo",
       "lectures": "(10 lectures)",
@@ -526,10 +526,10 @@
       ]
     },
     {
+      "name": "Advanced DS-Algo in C++",
       "id": "course26",
       "rating": "4.1",
       "ratingCount": "422",
-      "name": "Advanced DS-Algo in C++",
       "price": "13,999",
       "badge": "Starting Every Month",
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
@@ -544,10 +544,10 @@
       "online-link": "https://online.codingblocks.com/courses/data-structures-and-algorithms-online-course"
     },
     {
+      "name": "Unity Game Development",
       "id": "course27",
       "rating": "4.7",
       "ratingCount": "467",
-      "name": "Unity Game Development",
       "price": "7,500",
       "priceint": "7500",
       "imgSrc": "/assets/images/cb/logosc/unity.png",
@@ -562,10 +562,10 @@
       ]
     },
     {
+      "name": "Interview Prep Online Bootcamp",
       "id": "course28",
       "rating": "4.7",
       "ratingCount": "471",
-      "name": "Interview Prep Bootcamp",
       "off-price": "",
       "price": "1,000",
       "imgSrc": "/assets/images/cb/r_final.png",
@@ -579,10 +579,10 @@
       "online-link": "https://online.codingblocks.com/courses/coding-interview-preparation-online"
     },
     {
+      "name": "Data Sciences Master Course",
       "id": "course29",
       "rating": "4.7",
       "ratingCount": "471",
-      "name": "Data Sciences Master Course",
       "off-price": "",
       "price": "25,999",
       "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg ",
@@ -761,7 +761,7 @@
       "ratingCount": "471",
       "name": "Data Science with Python",
       "priceCut": "25,000",
-      "price":"25,000",
+      "price": "25,000",
       "priceint": "25,000",
       "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg ",
       "imgAlt": "Data Science with Python",
@@ -779,7 +779,7 @@
       "rating": "4.5",
       "ratingCount": "206",
       "name": "Dynamic Programmning",
-      "price":"12,999",
+      "price": "12,999",
       "badge": "Starting Every Month",
       "imgSrc": "https://minio.codingblocks.com/amoeba/bcbc38ad-abc5-4fc5-a27d-3b455130da51.svg",
       "imgAlt": "Dynamic Programming",
@@ -792,14 +792,13 @@
       ],
       "online-link": "https://online.codingblocks.com/courses/learn-dynamic-programming-online-course"
     },
-     {
-      "id": "course48",
+    {
+      "name": "Master DS and Algo with C++",
+      "id": "live_course_cpp",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Live C++ - DS & Algo - Apr 2020",
-      "price":"11,000",
-      "slashed-price":"15,000",
-      "badge": "",
+      "price": "11,000",
+      "slashed-price": "15,000",
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "",
       "lectures": "",
@@ -813,12 +812,12 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "id": "course49",
+      "name": "Master DS and Algo with Java",
+      "id": "live_course_java",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Live Java - DS & Algo - Apr 2020",
-      "price":"11,000",
-      "slashed-price":"15,000",
+      "price": "11,000",
+      "slashed-price": "15,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "",
@@ -832,12 +831,12 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "id": "course50",
+      "name": "Master Python App Develeopment",
+      "id": "live_course_pyapp",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Live Python App Dev - Apr 2020",
-      "price":"8,000",
-      "slashed-price":"10,000",
+      "price": "8,000",
+      "slashed-price": "10,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_python.svg",
       "imgAlt": "",
@@ -852,12 +851,12 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "id": "course51",
+      "name": "Master FullStack Web with NodeJS",
+      "id": "live_course_nodejs",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Live Web Dev using Node.Js - Apr 2020",
-      "price":"15,000",
-      "slashed-price":"19,000",
+      "price": "15,000",
+      "slashed-price": "19,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "",
@@ -872,12 +871,12 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "id": "course52",
+      "name": "Master Android with Kotlin",
+      "id": "live_course_android",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Live Android App Dev - Apr 2020",
-      "price":"15,000",
-      "slashed-price":"19,000",
+      "price": "15,000",
+      "slashed-price": "19,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_android.svg",
       "imgAlt": "",
@@ -892,12 +891,12 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "id": "course53",
+      "name": "Master Data Science with Python",
+      "id": "live_course_ds",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Live Data Science - Apr 2020",
-      "price":"19000",
-      "slashed-price":"23,000",
+      "price": "19000",
+      "slashed-price": "23,000",
       "badge": "",
       "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
       "imgAlt": "",
@@ -912,12 +911,12 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "id": "course55",
+      "name": "Master Interview Prep for Bigwigs",
+      "id": "live_course_intprep",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Live Interview Prep - Apr 2020",
-      "price":"12,500",
-      "slashed-price":"16,000",
+      "price": "12,500",
+      "slashed-price": "16,000",
       "badge": "",
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "",

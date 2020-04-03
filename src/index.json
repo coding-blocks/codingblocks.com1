@@ -256,41 +256,37 @@
   ],
   "liveCoursesRow1": [
     {
-      "id": "course48",
+      "id": "live_course_cpp",
       "odd": true
     },
     {
-      "id": "course49"
+      "id": "live_course_java"
     },
     {
-      "id": "course50",
+      "id": "live_course_pyapp",
       "odd": true
     }
   ],
   "liveCoursesRow2": [
     {
-      "id": "course51",
+      "id": "live_course_nodejs",
       "odd": true
     },
     {
-      "id": "course52"
+      "id": "live_course_android"
     },
     {
-      "id": "course53",
+      "id": "live_course_ds",
       "odd": true
     }
   ],
   "liveCoursesRow3": [
     {
-      "id": "course56",
+      "id": "course54",
       "odd": true
     },
     {
-      "id": "course55"
-    },
-    {
-      "id": "course57",
-      "odd": true
+      "id": "live_course_intprep"
     }
   ],
   "coursesSection": {

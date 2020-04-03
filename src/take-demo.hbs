@@ -1,42 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>{{title}}</title>
-		{{> meta}}
-		{{> head}}
-		{{> courseSchema}}
-	</head>
-	<body class="scroll-assist">
-		{{> navbar}}
-		<div class="main-container">
-			{{> header}}		
-				<section>
-					<iframe class="demo-widget" src="https://docs.google.com/forms/d/e/1FAIpQLSd7ZUwGJP3kTQXnlV-KovZFJZAZITkdBGDwyg_rjIWSmmRoyg/viewform" frameborder="0" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe> 
-				</section>
-			{{> review-course-section}}
-			{{> footer}}
-		</div>
-		{{> scripts}}
-		<script>
-			$(document).ready(function () {
-				var hash = window.location.hash;
-				if (hash === '#launchpad-bundle-content' || hash === '#advance') {
-					$('#tab-basic').toggleClass('active');
-					$('#tab-advance').toggleClass('active');
-					$('#content-basic').toggleClass('active');
-					$('#launchpad-bundle').toggleClass('active');
-				}
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  {{> courseSchema}}
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+  {{!-- {{> header}}  --}}
+  <section>
+    <iframe class="demo-widget"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSd7ZUwGJP3kTQXnlV-KovZFJZAZITkdBGDwyg_rjIWSmmRoyg/viewform"
+            frameborder="0" allowfullscreen
+            style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+  </section>
+  {{> review-course-section}}
+  {{> footer}}
+</div>
+{{> scripts}}
 
-				$('#tab-advance-toggle').click (function (e) {
-					$('#tab-basic').toggleClass('active');
-					$('#tab-advance').toggleClass('active');
-					$('#content-basic').toggleClass('active');
-					$('#launchpad-bundle').toggleClass('active');
-				})
-			})
-		</script>
-
-		<script>
-		</script>
-	</body>
+<script>
+</script>
+</body>
 </html>
