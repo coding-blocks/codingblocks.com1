@@ -50,7 +50,14 @@
     ]
   },
   "overview": {
-    "content": "Become a pro in Java with the Algo.Java course. Java, an Object Oriented Programming language is one of the most sought after programming languages and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements. Designed for programmers experienced in basic Data Structures and Algorithms, this is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+    "content": "Become a pro in Java with the Algo.Java course. Java, an Object Oriented Programming language is one of the most sought after programming languages and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements. Designed for programmers experienced in basic Data Structures and Algorithms, this is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java.",
+     "buttonLink": "#advance-register",
+    "buttonLink2": "https://codingblocks.com/take-demo.html",
+    "buttonText2": "Take Demo Class"
+  },
+  "sample": {
+    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
+    "heading": " "
   },
   "courseHighlights": [
     {

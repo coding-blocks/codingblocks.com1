@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    {{> meta}}
+    {{> head}}
+    {{> courseSchema}}
+    <style>
+        #page-header {
+            background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.5)),
+            url("/assets/images/cb/cover/algo_2.jpg") no-repeat 0 75% !important;
+            background-size: cover !important;
+        }
+    </style>
+</head>
+<body class="scroll-assist">
+{{> navbar}}
+<div class="main-container">
+    {{> header}}
+    {{> overview}}
+   	{{> coursesample}}
+    {{> coursehighlights}}
+	{{> liveClassBanner}}
+    {{> coursecontents}}
+    												<a id="advance-register" class="in-page-link"></a>
+
+	<section style="">
+		<div class="container">
+			<div class="row v-align-children">
+				<div class="col-md-4 col-sm-6">
+					<div class="pricing-table pt-1 text-center emphasis">
+						<div><span class="price">₹9,000</span></div>
+						<p class="lead">(12-15 lectures)</p>
+						<a class="btn btn-white btn-lg" href="https://dukaan.codingblocks.com/buy?productId=1635">Enroll Now</a>
+						<p>
+							<a href="/contactus">Contact Us</a>
+							<br>Call(Toll-free): 1800-2744-504
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+    {{> team team=mentors}}
+    {{> coursefaq}}
+    {{> review-course-section}}
+    {{> map}}
+    {{> footer}}
+</div>
+{{> scripts}}
+</body>
+</html>

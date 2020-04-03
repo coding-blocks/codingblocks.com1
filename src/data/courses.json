@@ -930,6 +930,46 @@
       "batches": [
       ],
       "live-link": "https://codingblocks.com/take-demo.html"
+    },
+    {
+      "id": "course56",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Live Algo.Java - Data Structures & Algorithms April 2020",
+      "price":"9,000",
+      "slashed-price":"11,000",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/color_java.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 6 APRIL",
+      "link": "https://codingblocks.com/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
+      "description": [
+        ""
+      ],
+      "batches": [
+      ],
+      "live-link": "https://codingblocks.com/take-demo.html"
+    },
+    {
+      "id": "course57",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Live Algo++ April 2020)",
+      "price":"9,000",
+      "slashed-price":"11,000",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 6 APRIL",
+      "link": "https://codingblocks.com/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
+      "description": [
+        ""
+      ],
+      "batches": [
+      ],
+      "live-link": "https://codingblocks.com/take-demo.html"
     }
   ]
 }
