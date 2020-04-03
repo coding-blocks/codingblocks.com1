@@ -29,15 +29,16 @@
     "gulp-plumber": "^1.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-using": "^0.1.1",
-    "gulp-watch": "^4.3.11",
+    "gulp-watch": "^5.0.1",
     "gulp-webserver": "^0.9.1",
     "moment": "^2.20.1",
     "require-dir": "^0.3.2"
   },
   "devDependencies": {
+    "fsevents": "^2.1.2",
     "gulp-cached": "^1.1.1",
     "gulp-embedlr": "^0.5.2",
-    "gulp-livereload": "^3.8.1",
+    "gulp-livereload": "^4.0.2",
     "gulp-serve": "^1.4.0",
     "opn": "^5.1.0"
   },
