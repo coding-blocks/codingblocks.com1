@@ -55,12 +55,16 @@
   ],
   "liveCoursesRow3": [
     {
-      "id": "course54",
+      "id": "course56",
       "odd": true
     },
-  {
-      "id": "course55"
-  }
+    {
+        "id": "course55"
+    },
+    {
+      "id": "course57",
+      "odd": true
+    }
   ],
  
   "courseHighlights": [

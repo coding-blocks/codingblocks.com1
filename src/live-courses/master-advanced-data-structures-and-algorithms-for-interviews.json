@@ -38,7 +38,14 @@
     "bgSrc": "../assets/images/cb/cover/algo_2.jpg"
   },
   "overview": {
-    "content": "Coding Blocks presents an Advanced course on Data Structures and Algorithms - Algo++. The course is for all those who aspire to gain expertise in DS and Algo, or are appearing for their internship/placement procedure. The course will involve rigorous practice of questions based on <strong>Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming</strong> along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. The course will help you become smarter with solutions and ace your programming interviews.<br>"
+    "content": "Coding Blocks presents an Advanced course on Data Structures and Algorithms - Algo++. The course is for all those who aspire to gain expertise in DS and Algo, or are appearing for their internship/placement procedure. The course will involve rigorous practice of questions based on <strong>Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming</strong> along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. The course will help you become smarter with solutions and ace your programming interviews.<br>",
+     "buttonLink": "#advance-register",
+    "buttonLink2": "https://codingblocks.com/take-demo.html",
+    "buttonText2": "Take Demo Class"
+  },
+  "sample": {
+    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
+    "heading": " "
   },
   "courseHighlights": [
     {
