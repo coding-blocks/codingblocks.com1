@@ -912,26 +912,6 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "id": "course54",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "name": "Live Machine Learning - Apr 2020",
-      "price":"17,000",
-      "slashed-price":"21,000",
-      "badge": "",
-      "imgSrc": "/assets/images/cb/logosc/color_ml.svg",
-      "imgAlt": "Dynamic Programming",
-      "lectures": "",
-      "badge": "STARTS 6 APRIL",
-      "link": "https://codingblocks.com/live-courses/master-machine-learning-with-deep-learning.html",
-      "description": [
-        ""
-      ],
-      "batches": [
-      ],
-      "live-link": "https://codingblocks.com/take-demo.html"
-    },
-    {
       "id": "course55",
       "rating": "4.5",
       "ratingCount": "206",
