@@ -1249,3 +1249,10 @@ input[type="email"], input[type="number"], input[type="url"] {
 .text-align-center{
     text-align: center !important;
 }
+.demo-widget {
+    margin-top: 8px;
+    width: 100%;
+        overflow:hidden;
+
+    min-height: 1060px;
+}
