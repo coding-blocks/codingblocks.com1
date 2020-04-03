@@ -35,7 +35,6 @@
     "require-dir": "^0.3.2"
   },
   "devDependencies": {
-    "fsevents": "^2.1.2",
     "gulp-cached": "^1.1.1",
     "gulp-embedlr": "^0.5.2",
     "gulp-livereload": "^4.0.2",
