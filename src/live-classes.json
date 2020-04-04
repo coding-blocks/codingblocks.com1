@@ -69,6 +69,18 @@
       "link": "live-courses/master-coding-interview-preparation.html",
       "timings": "Tue Thu Sat | 7-10 PM",
       "starts": "6 APR"
+    },
+    {
+      "name": "Master Algo.Java",
+      "link": "live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
+      "timings": "Tue Thu Sat | 7-10 PM",
+      "starts": "6 APR"
+    },
+    {
+      "name": "Master Algo++",
+      "link": "live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
+      "timings": "Tue Thu Sat | 7-10 PM",
+      "starts": "6 APR"
     }
   ],
   "liveCoursesRow1": [
@@ -97,13 +109,17 @@
     }
   ],
   "liveCoursesRow3": [
-    {
-      "id": "course54",
-      "odd": true
+     {
+      "id": "live_course_alg_java"
     },
     {
-      "id": "live_course_intprep"
-    }
+      "id": "live_course_intprep",
+      "odd": true
+
+    },
+    {
+      "id": "live_course_alg_plus_plus"
+    } 
   ],
   "faqs": [
     {

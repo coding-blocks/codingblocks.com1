@@ -50,7 +50,7 @@
     ]
   },
   "overview": {
-    "content": "Become a pro in Java with the Algo.Java course. Java, an Object Oriented Programming language is one of the most sought after programming languages and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements. Designed for programmers experienced in basic Data Structures and Algorithms, this is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java.",
+    "content": "It’s time to improvise how you learn with Coding Blocks Live Classroom Program. Our Live Classroom Program has been designed to be an exact replica of our Classroom Program.. The course has been launched to cater to the needs of students at the time of the quarantine period.. Our Algo.java Live Program the best solution for all budding programmers who want to gain expertise in DS & Algo or are appearing for their internship/placement interviews.</p><p>The Live Algo.java Program would ensure that students get to learn from the best mentors at the comfort of their homes, saving them from all the traveling hassles. It would allow the students to get all benefits of classroom learning right inside their homes.</p><p>With our Live Program, you can avail benefits like immediate doubt resolution from mentor, recorded video lecture after each class, hand-written mentor notes, and a lot more.</p><p>The classes start with a basic revision of recursion and Arrays. Advanced topics such as OOP(s), Complexity Analysis, Data Structures & Algorithms will be covered in the following classes.</p>",
      "buttonLink": "#advance-register",
     "buttonLink2": "https://codingblocks.com/take-demo.html",
     "buttonText2": "Take Demo Class"
@@ -106,27 +106,98 @@
       "ANUJ GARG"
     ]
   },
-  "schedule": [
+    "schedule": [
     {
-      "center": "Pitampura",
-      "startdate": "15th June",
-      "enddate": "TBD",
-      "daytime": "Mon (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Sat (8:00 AM - 11:50 AM)",
-      "batchtype": "Fast Track Morning"
+      "lecture": "Lecture 01",
+      "description": "Space Time Complexity"
     },
     {
-      "center": "Noida",
-      "startdate": "12th June",
-      "enddate": "TBD",
-      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM)",
-      "batchtype": "Normal Noon"
+      "lecture":"Lecture 02",
+      "description": "Recursion 1"
     },
     {
-      "center": "Dwarka",
-      "startdate": "24th June",
-      "enddate": "TBD",
-      "daytime": "Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM), Sun (3:00 PM - 7:30 PM)",
-      "batchtype": "Normal Evening"
+      "lecture":"Lecture 03",
+      "description": "Recursion 2"
+    },
+    {
+      "lecture":"Lecture 04",
+      "description": "Recursion 3"
+    },
+    {
+      "lecture":"Lecture 05",
+      "description": "Backtracking"
+    },
+    {
+      "lecture":"Lecture 06",
+      "description": "Divide and Conquer 1"
+    },
+    {
+      "lecture":"Lecture 07",
+      "description": "Divide and Conquer 2"
+    },
+    {
+      "lecture":"Lecture 08",
+      "description": "OOPS"
+    },
+    {
+      "lecture":"Lecture 09",
+      "description": "Stacks/Queues"
+    },
+    {
+      "lecture":"Lecture 10",
+      "description": "Stacks/Queues"
+    },
+    {
+      "lecture":"Lecture 11",
+      "description": "Linked List 1"
+    },
+    {
+      "lecture":"Lecture 12",
+      "description": "Linked List 2"
+    },
+    {
+      "lecture":"Lecture 13",
+      "description": "Binary Tree 1"
+    },
+    {
+      "lecture":"Lecture 14",
+      "description": "Binary Tree 2"
+    },
+    {
+      "lecture":"Lecture 15",
+      "description": "HashMap"
+    },
+    {
+      "lecture":"Lecture 16",
+      "description": "HashMap/Heaps"
+    },
+    {
+      "lecture":"Lecture 17",
+      "description": "Heaps"
+    },
+    {
+      "lecture":"Lecture 18",
+      "description": "DP 1"
+    },
+    {
+      "lecture":"Lecture 19",
+      "description": "DP 2"
+    },
+    {
+      "lecture":"Lecture 20",
+      "description": "DP 3"
+    },
+    {  
+      "lecture":"Lecture 21",
+      "description": "Trie"
+    },
+    {
+      "lecture":"Lecture 22",
+      "description": "Graph 1"
+    },
+    {
+      "lecture":"Lecture 23",
+      "description": "Graph 2 "
     }
   ],
   "courseReviews": [
@@ -134,11 +205,5 @@
     "ANSH SACHDEVA",
     "GAGARIN DASH",
     "KSHITIJ BANSAL"
-  ],
-  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=402",
-  "frame-id-pitampura": "402",
-  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=404",
-  "frame-id-noida": "404",
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=403",
-  "frame-id-dwarka-lp": "403"
+  ]
 }

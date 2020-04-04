@@ -35,76 +35,102 @@
     "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
     "heading": " "
   },
-  "scheduleCpp": [
-    {
-      "center": "Pitampura",
-      "startdate": "3rd June",
-      "enddate": "30th July",
-      "daytime": "Mon (12:10 PM - 3:50 PM), Wed(12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
-      "batchtype": "Morning"
-    },
-    {
-      "center": "Pitampura",
-      "startdate": "6th June",
-      "enddate": "30th July",
-      "daytime": "Thu (4:15 - 7:45 PM), Sat(4:15 - 7:45 PM), Mon (4:15 - 7:45 PM)",
-      "batchtype": "Evening"
-    },
-    {
-      "center": "Pitampura",
-      "startdate": "9th June",
-      "enddate": "30th July",
-      "daytime": "Sun (4:00 PM - 7.30 PM), Wed (4:00 PM - 7.30 PM), Fri (4:00 PM - 7.30 PM)",
-      "batchtype": "Evening"
-    }
-  ],
-  "scheduleJava": [
-    {
-      "center": "Pitampura",
-      "startdate": "7th June",
-      "enddate": "30th July",
-      "daytime": " Fri (8:00 AM - 11:45 AM), Sun (8:00 AM - 11:45 AM), Tue (8:00 AM - 11:45 AM), Wed (8:00 AM - 11:45 AM)",
-      "batchtype": "Normal"
-    }
-  ],
-  "scheduleBootcamp": [
-    {
-      "center": "Pitampura",
-      "startdate": "11th July",
-      "enddate": "30th July",
-      "daytime": "Thu (3:30 PM - 6:30 PM), Sun (3:30 PM - 6:30 PM), Tue (3:30 PM - 6:30 PM)",
-      "batchtype": "Evening"
-    }
-  ],
   "schedule": [
     {
-      "center": "Pitampura",
-      "startdate": "3rd June",
-      "enddate": "TBD",
-      "daytime": "Mon (12:10 PM - 3:50 PM), Wed (12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
-      "batchtype": "Noon"
+      "lecture": "Lecture 01",
+      "description": "Introduction to Data Structures & Algorithms"
     },
     {
-      "center": "Noida",
-      "startdate": "2nd June",
-      "enddate": "TBD",
-      "daytime": "Tue(12:30 PM - 03:30 PM), Thurs(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
-      "batchtype": "Noon"
+      "lecture":"Lecture 02",
+      "description": "Standard Template Library"
     },
     {
-      "center": "Noida",
-      "startdate": "9th June",
-      "enddate": "TBD",
-      "daytime": "Tue(04:00 PM - 07:00 PM), Thurs(04:00 PM - 07:00 PM), Sun(04:00 PM - 07:00 PM)",
-      "batchtype": "Noon"
+      "lecture":"Lecture 03",
+      "description": "Arrays"
+    },
+    {
+      "lecture":"Lecture 04",
+      "description": "Strings"
+    },
+    {
+      "lecture":"Lecture 05",
+      "description": "Maths"
+    },
+    {
+      "lecture":"Lecture 06",
+      "description": "Maths II"
+    },
+    {
+      "lecture":"Lecture 07",
+      "description": "Bit Manipulation"
+    },
+    {
+      "lecture":"Lecture 08",
+      "description": "Number Theory"
+    },
+    {
+      "lecture":"Lecture 09",
+      "description": "Recursion & Backtracking"
+    },
+    {
+      "lecture":"Lecture 10",
+      "description": "Divide & Conquer and meet in the middle"
+    },
+    {
+      "lecture":"Lecture 11",
+      "description": "OOPs Concepts "
+    },
+    {
+      "lecture":"Lecture 12",
+      "description": "Stack & Queue"
+    },
+    {
+      "lecture":"Lecture 13",
+      "description": "Linked Lists"
+    },
+    {
+      "lecture":"Lecture 14",
+      "description": "Binary Tree"
+    },
+    {
+      "lecture":"Lecture 15",
+      "description": "BST"
+    },
+    {
+      "lecture":"Lecture 16",
+      "description": "Heap Questions"
+    },
+    {
+      "lecture":"Lecture 17",
+      "description": "Graphs I"
+    },
+    {
+      "lecture":"Lecture 18",
+      "description": "Graphs II"
+    },
+    {
+      "lecture":"Lecture 19",
+      "description": "Greedy Algorithms, Sorting"
+    },
+    {
+      "lecture":"Lecture 20",
+      "description": "DP I"
+    },
+    {  
+      "lecture":"Lecture 21",
+      "description": "DP   II"
+    },
+    {
+      "lecture":"Lecture 22",
+      "description": "Advance DS(Segment Tree and Fenwick Tree and DSU)"
+    },
+    {
+      "lecture":"Lecture 23",
+      "description": "Interview Questions"
+    },
+    {
+      "lecture":"Lecture 24",
+      "description": "Interview Questions"
     }
-  ],
-  "widget-id-basic": 310,
-  "widget-id-cpp": 312,
-  "widget-id-java": 311,
-  "registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=408",
-  "frame-id-pitampura-wd": "408",
-  "registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=414",
-  "frame-id-noida-wd": "414"
-
+  ]
 }

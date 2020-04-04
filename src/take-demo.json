@@ -43,12 +43,16 @@
   ],
   "liveCoursesRow3": [
     {
-      "id": "course54",
-      "odd": true
+      "id": "live_course_alg_java"
     },
-  {
-      "id": "live_course_intprep"
-  }
+    {
+      "id": "live_course_intprep",
+      "odd": true
+
+    },
+    {
+      "id": "live_course_alg_plus_plus"
+    }
   ],
   "faqs": [
     {

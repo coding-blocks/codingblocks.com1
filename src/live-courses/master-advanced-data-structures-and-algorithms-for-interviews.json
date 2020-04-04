@@ -38,7 +38,7 @@
     "bgSrc": "../assets/images/cb/cover/algo_2.jpg"
   },
   "overview": {
-    "content": "Coding Blocks presents an Advanced course on Data Structures and Algorithms - Algo++. The course is for all those who aspire to gain expertise in DS and Algo, or are appearing for their internship/placement procedure. The course will involve rigorous practice of questions based on <strong>Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming</strong> along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. The course will help you become smarter with solutions and ace your programming interviews.<br>",
+    "content": "<p>Let’s get the learning started. Coding Blocks is super excited to introduce Algo++ Live Classroom Program. The uniquely designed Algo++ Live Classroom Program covers advanced topics of Data Structures & Algorithms & is a complete package for all the budding programmers who aspire to gain expertise in Data Structures and Algorithms or are appearing for their internship/placement interviews. </p><p>The Live Algo ++ Program would ensure that students get to learn from the best mentors at the comfort of their homes, saving them from all the traveling hassles. It would allow the students to get all benefits of classroom learning right inside their homes.</p><p>With our Live Program, you can avail benefits like immediate doubt resolution from mentor, recorded video lecture after each class, hand-written mentor notes, and a lot more.</p><p>The Algo++ Live Program would cover practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with a comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc.</p>",
      "buttonLink": "#advance-register",
     "buttonLink2": "https://codingblocks.com/take-demo.html",
     "buttonText2": "Take Demo Class"
@@ -177,27 +177,98 @@
       "Prateek Narang"
     ]
   },
-  "schedule": [
+   "schedule": [
     {
-      "center": "Pitampura",
-      "startdate": "8th June",
-      "enddate": "TBD",
-      "daytime": "Mon (12:10 PM - 3:50 PM), Wed(12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
-      "batchtype": "Normal Noon"
+      "lecture": "Lecture 01",
+      "description": "Space Time Complexity"
     },
     {
-      "center": "Noida",
-      "startdate": "12th June",
-      "enddate": "TBD",
-      "daytime": "Mon (9:00 AM - 12:00 PM), Wed (9:00 AM - 12:00 PM), Fri (9:00 AM - 12:00 PM), Sat (9:00 AM - 12:00 PM)",
-      "batchtype": "Fast Track Morning"
+      "lecture":"Lecture 02",
+      "description": "Recursion 1"
     },
     {
-      "center": "Dwarka",
-      "startdate": "19th June",
-      "enddate": "TBD",
-      "daytime": "Mon (10:00 AM - 2:00 PM), Tue (10:00 AM - 2:00 PM), Thu (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
-      "batchtype": "Normal Morning"
+      "lecture":"Lecture 03",
+      "description": "Recursion 2"
+    },
+    {
+      "lecture":"Lecture 04",
+      "description": "Recursion 3"
+    },
+    {
+      "lecture":"Lecture 05",
+      "description": "Backtracking"
+    },
+    {
+      "lecture":"Lecture 06",
+      "description": "Divide and Conquer 1"
+    },
+    {
+      "lecture":"Lecture 07",
+      "description": "Divide and Conquer 2"
+    },
+    {
+      "lecture":"Lecture 08",
+      "description": "OOPS"
+    },
+    {
+      "lecture":"Lecture 09",
+      "description": "Stacks/Queues"
+    },
+    {
+      "lecture":"Lecture 10",
+      "description": "Stacks/Queues"
+    },
+    {
+      "lecture":"Lecture 11",
+      "description": "Linked List 1"
+    },
+    {
+      "lecture":"Lecture 12",
+      "description": "Linked List 2"
+    },
+    {
+      "lecture":"Lecture 13",
+      "description": "Binary Tree 1"
+    },
+    {
+      "lecture":"Lecture 14",
+      "description": "Binary Tree 2"
+    },
+    {
+      "lecture":"Lecture 15",
+      "description": "HashMap"
+    },
+    {
+      "lecture":"Lecture 16",
+      "description": "HashMap/Heaps"
+    },
+    {
+      "lecture":"Lecture 17",
+      "description": "Heaps"
+    },
+    {
+      "lecture":"Lecture 18",
+      "description": "DP 1"
+    },
+    {
+      "lecture":"Lecture 19",
+      "description": "DP 2"
+    },
+    {
+      "lecture":"Lecture 20",
+      "description": "DP 3"
+    },
+    {  
+      "lecture":"Lecture 21",
+      "description": "Trie"
+    },
+    {
+      "lecture":"Lecture 22",
+      "description": "Graph 1"
+    },
+    {
+      "lecture":"Lecture 23",
+      "description": "Graph 2 "
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",
@@ -206,16 +277,5 @@
     "Gagan Bhayana",
     "Dhruv Kulshreshtha",
     "Parth Dhamija"
-  ],
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=399",
-  "frame-id-pitampura-lp": "399",
-
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=401",
-  "frame-id-noida-lp": "401",
-
-  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=255",
-  "frame-id-dehradun-lp": "255",
-
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=400",
-  "frame-id-dwarka-lp": "400"
+  ]
 }
