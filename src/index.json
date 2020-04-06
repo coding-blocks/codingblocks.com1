@@ -250,33 +250,25 @@
       "id": "live_course_java"
     },
     {
-      "id": "live_course_pyapp",
+      "id": "live_course_nodejs",
       "odd": true
     }
   ],
   "liveCoursesRow2": [
     {
-      "id": "live_course_nodejs",
-      "odd": true
-    },
-    {
-      "id": "live_course_android"
-    },
-    {
       "id": "live_course_ds",
       "odd": true
-    }
-  ],
-  "liveCoursesRow3": [
-     {
+    },
+    {
       "id": "live_course_alg_java"
     },
     {
       "id": "live_course_intprep",
       "odd": true
-
-    },
-    {
+    }
+  ],
+  "liveCoursesRow3": [
+     {
       "id": "live_course_alg_plus_plus"
     }
   ],

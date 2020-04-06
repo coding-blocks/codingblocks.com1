@@ -802,7 +802,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_cpp.svg",
       "imgAlt": "",
       "lectures": "",
-      "badge": "STARTS 6 APRIL",
+      "badge": "STARTS 13 APRIL",
       "link": "https://codingblocks.com/live-courses/master-c-plus-plus-ds-algo.html",
       "description": [
         ""
@@ -822,29 +822,9 @@
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "",
       "lectures": "",
-      "badge": "STARTS 6 APRIL",
+      "badge": "STARTS 13 APRIL",
       "link": "https://codingblocks.com/live-courses/master-java-for-beginners.html",
       "description": [
-      ],
-      "batches": [
-      ],
-      "live-link": "https://codingblocks.com/take-demo.html"
-    },
-    {
-      "name": "Master Python App Develeopment",
-      "id": "live_course_pyapp",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "price": "8,000",
-      "slashed-price": "10,000",
-      "badge": "",
-      "imgSrc": "/assets/images/cb/logosc/color_python.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 6 APRIL",
-      "link": "https://codingblocks.com/live-courses/master-python-app-dev.html",
-      "description": [
-        ""
       ],
       "batches": [
       ],
@@ -861,28 +841,8 @@
       "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
       "imgAlt": "",
       "lectures": "",
-      "badge": "STARTS 6 APRIL",
+      "badge": "STARTS 13 APRIL",
       "link": "https://codingblocks.com/live-courses/master-web-development-nodejs.html",
-      "description": [
-        ""
-      ],
-      "batches": [
-      ],
-      "live-link": "https://codingblocks.com/take-demo.html"
-    },
-    {
-      "name": "Master Android with Kotlin",
-      "id": "live_course_android",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "price": "15,000",
-      "slashed-price": "19,000",
-      "badge": "",
-      "imgSrc": "/assets/images/cb/logosc/color_android.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 6 APRIL",
-      "link": "https://codingblocks.com/live-courses/master-android-app-development-using-kotlin-and-java.html",
       "description": [
         ""
       ],
@@ -901,7 +861,7 @@
       "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
       "imgAlt": "",
       "lectures": "",
-      "badge": "STARTS 6 APRIL",
+      "badge": "STARTS 13 APRIL",
       "link": "https://codingblocks.com/live-courses/master-data-science-with-python.html",
       "description": [
         ""
@@ -921,7 +881,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
       "imgAlt": "",
       "lectures": "",
-      "badge": "STARTS 6 APRIL",
+      "badge": "STARTS 13 APRIL",
       "link": "https://codingblocks.com/live-courses/master-coding-interview-preparation.html",
       "description": [
         ""
@@ -941,7 +901,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_java.svg",
       "imgAlt": "",
       "lectures": "",
-      "badge": "STARTS 6 APRIL",
+      "badge": "STARTS 24 APRIL",
       "link": "https://codingblocks.com/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
       "description": [
         ""
@@ -961,7 +921,7 @@
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "",
       "lectures": "",
-      "badge": "STARTS 6 APRIL",
+      "badge": "STARTS 23 APRIL",
       "link": "https://codingblocks.com/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
       "description": [
         ""

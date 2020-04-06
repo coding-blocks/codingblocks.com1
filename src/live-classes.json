@@ -32,55 +32,43 @@
       "name": "Master DS & Algo with C++",
       "link": "/live-courses/master-c-plus-plus-ds-algo.html",
       "timings": "Mon Tue Thu Fri | 7-10 PM",
-      "starts": "6 APR"
+      "starts": "13 APRIL"
     },
     {
       "name": "Master DS & Algo with Java",
       "link": "live-courses/master-java-for-beginners.html",
       "timings": "Mon Wed Fri Sat | 7-10 PM",
-      "starts": "6 APR"
+      "starts": "13 APRIL"
     },
     {
       "name": "Master Web Dev with NodeJS",
       "link": "live-courses/master-web-development-nodejs.html",
       "timings": "Tue Thu Sat Sun | 7-10 PM",
-      "starts": "6 APR"
-    },
-    {
-      "name": "Master Android with Kotlin",
-      "link": "live-courses/master-android-app-development-using-kotlin-and-java.html",
-      "timings": "Tue Thu Sat Sun | 7-10 PM",
-      "starts": "6 APR"
+      "starts": "13 APRIL"
     },
     {
       "name": "Master Data Science with Python",
       "link": "live-courses/master-data-science-with-python.html",
       "timings": "Mon Thu Fri | 7-10 PM",
-      "starts": "6 APR"
-    },
-    {
-      "name": "Master Python App Dev",
-      "link": "live-courses/master-python-app-dev.html",
-      "timings": "Mon Thu Fri | 7-10 PM",
-      "starts": "6 APR"
+      "starts": "13 APRIL"
     },
     {
       "name": "Master Interview Preparation",
       "link": "live-courses/master-coding-interview-preparation.html",
       "timings": "Tue Thu Sat | 7-10 PM",
-      "starts": "6 APR"
+      "starts": "13 APRIL"
     },
     {
       "name": "Master Algo.Java",
       "link": "live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
       "timings": "Tue Thu Sat | 7-10 PM",
-      "starts": "6 APR"
+      "starts": "24 APRIL"
     },
     {
       "name": "Master Algo++",
       "link": "live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
       "timings": "Tue Thu Sat | 7-10 PM",
-      "starts": "6 APR"
+      "starts": "23 APRIL"
     }
   ],
   "liveCoursesRow1": [
@@ -92,34 +80,26 @@
       "id": "live_course_java"
     },
     {
-      "id": "live_course_pyapp",
+      "id": "live_course_nodejs",
       "odd": true
     }
   ],
   "liveCoursesRow2": [
     {
-      "id": "live_course_nodejs"
+      "id": "live_course_ds"
     },
     {
-      "id": "live_course_android",
+      "id": "live_course_alg_java",
       "odd": true
     },
     {
-      "id": "live_course_ds"
+      "id": "live_course_intprep"
     }
   ],
   "liveCoursesRow3": [
      {
-      "id": "live_course_alg_java"
-    },
-    {
-      "id": "live_course_intprep",
-      "odd": true
-
-    },
-    {
       "id": "live_course_alg_plus_plus"
-    } 
+    }
   ],
   "faqs": [
     {
