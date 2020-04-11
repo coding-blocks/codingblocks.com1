@@ -32,6 +32,10 @@
 <link rel="stylesheet" href="{{#relativePath @file.path "/assets/styles/pe-icon-7-stroke.css"}}{{/relativePath}}">
 <link rel="stylesheet" href="{{#relativePath @file.path "/assets/styles/et-line-icons.css"}}{{/relativePath}}">
 
+{{#each head.links}}
+  <link rel="{{this.rel}}" href="{{this.href}}">
+{{/each}}
+
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 
