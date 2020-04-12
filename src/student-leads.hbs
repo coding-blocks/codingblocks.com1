@@ -13,10 +13,10 @@
 <body class="scroll-assist">
   {{> navbar}}
   <div class="main-container">
-    <div class="bg-gradient-dark-purple p-5">
+    <div class="bg-gradient-dark-purple p-md-5">
       <div class="container">
         <div class="row justify-content-between ">
-          <div class="col-md-6 col-12 white">
+          <div class="col-md-6 order-2 order-md-1 col-12 white">
             <h2 class="white">Welcome to Live Classes Program by Coding Blocks</h2>
             <div class="font-md">Bringing the same classroom experience now at your home!</div>
 
@@ -70,19 +70,57 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 col-12 mt-md-0 mt-5">
+          <div class="col-md-5 order-1 order-md-2 col-12 mt-md-0 mt-5">
             <div class="border-card p-5 bg-white p-5 t-align-l">
-              <h6>Take FREE Demo Class Now!</h6>
-              <div class="font-sm mb-4">Register for Free Demo session by our mentors!</div>
+              <div id="lead-form">
+                <h6>Take FREE Demo Class Now!</h6>
+                <div class="font-sm mb-4">Register for Free Demo session by our mentors!</div>
 
-              <input class="underline-input" type="text" name="firstname" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="First Name *" required>
-              <input class="underline-input" type="text" name="lastname" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="Last Name *" required>
-              <input class="underline-input" type="email" name="email" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="Your Email *" required>
-              <input class="underline-input" type="text" name="phoneNumber" class="underline-input font-sm w-100 pb-2 mb-5" pattern="[0-9]{10}" placeholder="Contact Number *" required>
-              <input class="underline-input" type="text" name="" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="Hiring Position *" required>
+                <form id="student-lead-form" action="http://localhost:3000/student_leads" method="POST">
+                  <input class="underline-input" type="text" name="firstname" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="First Name *" required>
 
-              <div class="t-align-c">
-                <button class="button-solid button-orange mx-auto">Send Details</button>
+                  <input class="underline-input" type="text" name="lastname" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="Last Name *" required>
+                  
+                  <input class="underline-input" type="email" name="email" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="Your Email *" required>
+                  
+                  <select class="mb-4" name="preferredCourse" id="" required>
+                    <option value="" selected>Select Course</option>
+                    {{#each liveCourses}}
+                      {{#each @root.coursesList}}
+                        {{#ifEquals this.id ../this.id}}
+                          <option value="{{this.name}}">{{this.name}}</option>
+                        {{/ifEquals}}
+                      {{/each}}
+                    {{/each}}
+                  </select>
+
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <input class="underline-input m-0" id="phoneNumber" type="text" name="phoneNumber" class="underline-input font-sm w-100 pb-2 mb-5" pattern="[0-9]{10}" placeholder="Contact Number *" required>
+                      <div id="otp-error" class="card-md red display-none">Error occured while sending OTP. Please try again.</div>
+                      <div id="invalid-mobile-error" class="card-md red display-none">This Mobile number is already registered</div>
+                    </div>  
+                    <div class="col-4">
+                      <button class="button-solid" type="button" onclick="requestOtp()">Request OTP</button>
+                    </div>
+                  </div>
+
+                  <div id="otp-and-submit" class="display-none mt-3">
+                    
+                    <input class="underline-input m-0" type="text" id="otp" name="otp" placeholder="Enter OTP" required />
+                    <div id="invalid-otp-error" class="card-md red display-none">Invalid Otp</div>
+                  
+                    <input id="otpId" type="hidden" name="otpId" value="">
+                  
+                    <div class="t-align-c mt-4">
+                      <button type="submit" class="button-solid button-orange mx-auto">Send Details</button>
+                    </div>
+                  </div>
+                </form>
+
+              </div>
+              <div id="lead-success" class="t-align-c display-none">
+                <h4>Your Details have been saved successfully.</h4>
               </div>
             </div>
           </div>
@@ -119,7 +157,7 @@
     <div class="container my-5">
       <section>
         <div class="t-align-c">
-          <h5>Benefits of Live Classes</h5>
+          <h5 class="mb-2">Benefits of Live Classes</h5>
           <div class="font-sm mb-5">How our platform stands out from all other platforms</div>
         </div>
 
@@ -211,7 +249,7 @@
     <div class="container my-5">
       <section>
         <div class="t-align-c">
-          <h5>50+ Combined Teaching Experience</h5>
+          <h5 class="mb-2">50+ Combined Teaching Experience</h5>
           <div class="font-sm mb-5">World Class mentors from IIT, IIIT and NSUT</div>
         </div>
 
@@ -223,7 +261,7 @@
     <div class="pt-5" style="background: #F9F9F9;">
       <div class="container pt-5">
         <div class="t-align-c">
-          <h5>Courses Offered</h5>
+          <h5 class="mb-2">Courses Offered</h5>
           <div class="font-sm mb-5">We have variety of courses to be offered!!</div>
         </div>
 
@@ -231,5 +269,7 @@
       </div>
     </div>
   </div>
+
+{{> scripts}}
 </body>
 </html>

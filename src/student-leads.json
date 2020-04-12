@@ -5,6 +5,11 @@
         "href": "https://unpkg.com/@coding-blocks/motley@0.7.5/dist/app.min.css",
         "rel": "stylesheet"
       }
+    ],
+    "scripts": [
+      {
+        "src": "/assets/scripts/student-leads.js"
+      }
     ]
   },
   "header": {
