@@ -2,12 +2,13 @@ $(function() {
   var $regexname = /^[0][1-9]\d{9}$|^[1-9]\d{9}$/g;
   $('#phoneNumber').on('keypress keydown keyup', function () {
     if (!$(this).val().match($regexname)) {
-      // there is a mismatch, hence show the error message
+      $('#otp-error').addClass('display-none')
+      $('#invalid-otp-error').addClass('display-none')
+      $('#invalid-mobile-error').addClass('display-none')
       $('#invalid-phone-number-error').removeClass('display-none');
       $('#invalid-phone-number-error').show();
     }
     else {
-      // else, do not display message
       $('#invalid-phone-number-error').addClass('display-none');
     }
   });
