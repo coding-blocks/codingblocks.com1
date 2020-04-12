@@ -1,0 +1,52 @@
+{
+  "head": {
+    "links": [
+      {
+        "href": "https://unpkg.com/@coding-blocks/motley@0.7.5/dist/app.min.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
+  "header": {
+    "heading": "Live Classes",
+    "subHeading": ""
+  },
+
+  "liveCourses": [
+    {
+      "id": "live_course_cpp",
+      "odd": true
+    },
+    {
+      "id": "live_course_java"
+    },
+    {
+      "id": "live_course_nodejs",
+      "odd": true
+    },
+    {
+      "id": "live_course_ds"
+    },
+    {
+      "id": "live_course_alg_java",
+      "odd": true
+    },
+    {
+      "id": "live_course_intprep"
+    },
+    {
+      "id": "live_course_alg_plus_plus"
+    }
+  ],
+  "mentors": [
+    "Prateek Narang",
+    "Arnav Gupta",
+    "Rajesh Sachdev",
+    "Kartik Mathur",
+    "Anuj Garg",
+    "Rishab Kapoor",
+    "Garima Chhikara",
+    "Pranav Khandelwal",
+    "Shubham Rawat"
+  ]
+}

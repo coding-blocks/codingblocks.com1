@@ -1,0 +1,12 @@
+<div class="img-desc">
+  <img class="s-100x100 round pr-3" src="{{#relativePath @file.path imgSrc}}{{/relativePath}}" alt="{{{imgAlt}}}">
+  <div class="description justify-content-center w-100">
+    <h5>{{{name}}}</h5>
+    <div class="d-flex justify-content-between">
+      <a href="{{link}}" class="orange">View Course</a>
+      {{#if live-link}}
+        <a class="green" href="{{live-link}}">Take Demo Class</a>
+      {{/if}}
+    </div>
+  </div>
+</div>
