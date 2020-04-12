@@ -76,7 +76,7 @@
                 <h6>Take FREE Demo Class Now!</h6>
                 <div class="font-sm mb-4">Register for Free Demo session by our mentors!</div>
 
-                <form id="student-lead-form" action="http://localhost:3000/student_leads" method="POST">
+                <form id="student-lead-form" action="https://app.codingblocks.com/student_leads" method="POST">
                   <input class="underline-input" type="text" name="firstname" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="First Name *" required>
 
                   <input class="underline-input" type="text" name="lastname" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="Last Name *" required>
@@ -99,6 +99,7 @@
                       <input class="underline-input m-0" id="phoneNumber" type="text" name="phoneNumber" class="underline-input font-sm w-100 pb-2 mb-5" pattern="[0-9]{10}" placeholder="Contact Number *" required>
                       <div id="otp-error" class="card-md red display-none">Error occured while sending OTP. Please try again.</div>
                       <div id="invalid-mobile-error" class="card-md red display-none">This Mobile number is already registered</div>
+                      <div id="invalid-phone-number-error" class="card-md red display-none">Mobile number must be 10 digit number</div>
                     </div>  
                     <div class="col-4">
                       <button class="button-solid" type="button" onclick="requestOtp()">Request OTP</button>
@@ -119,7 +120,7 @@
                 </form>
 
               </div>
-              <div id="lead-success" class="t-align-c display-none">
+              <div id="student-lead-form-success" class="t-align-c display-none">
                 <h4>Your Details have been saved successfully.</h4>
               </div>
             </div>
@@ -271,5 +272,6 @@
   </div>
 
 {{> scripts}}
+<script src="/assets/scripts/student-leads.js"></script>
 </body>
 </html>
