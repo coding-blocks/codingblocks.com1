@@ -7,9 +7,11 @@ $(function() {
       $('#invalid-mobile-error').addClass('display-none')
       $('#invalid-phone-number-error').removeClass('display-none');
       $('#invalid-phone-number-error').show();
+      $('#otp-btn').prop('disabled', true)
     }
     else {
       $('#invalid-phone-number-error').addClass('display-none');
+      $('#otp-btn').prop('disabled', false)
     }
   });
 
@@ -54,7 +56,7 @@ function requestOtp() {
     return
   }
 
-  var request = $.ajax('https://app.codingblocks.com/student_leads/get_otp', {
+  var request = $.ajax('http://localhost:3000/student_leads/get_otp', {
     method: "POST",
     data: {
       mobile: $('#phoneNumber')[0].value

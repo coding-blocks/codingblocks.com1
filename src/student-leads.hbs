@@ -76,7 +76,7 @@
                 <h6>Take FREE Demo Class Now!</h6>
                 <div class="font-sm mb-4">Register for Free Demo session by our mentors!</div>
 
-                <form id="student-lead-form" action="https://app.codingblocks.com/student_leads" method="POST">
+                <form id="student-lead-form" action="http://localhost:3000/student_leads" method="POST">
                   <input class="underline-input" type="text" name="firstname" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="First Name *" required>
 
                   <input class="underline-input" type="text" name="lastname" class="underline-input font-sm w-100 pb-2 mb-5" placeholder="Last Name *" required>
@@ -102,7 +102,7 @@
                       <div id="invalid-phone-number-error" class="card-md red display-none">Mobile number must be 10 digit number</div>
                     </div>  
                     <div class="col-4">
-                      <button class="button-solid" type="button" onclick="requestOtp()">Request OTP</button>
+                      <button id="otp-btn" class="button-solid" type="button" onclick="requestOtp()" disabled>Request OTP</button>
                     </div>
                   </div>
 
