@@ -56,7 +56,7 @@ function requestOtp() {
     return
   }
 
-  var request = $.ajax('http://localhost:3000/student_leads/get_otp', {
+  var request = $.ajax('https://app.codingblocks.com/student_leads/get_otp', {
     method: "POST",
     data: {
       mobile: $('#phoneNumber')[0].value
