@@ -1011,7 +1011,8 @@
     $.ajax ({
         url: "https://app.codingblocks.com/public_stories",
         type: "GET",
-        success: function (stories) {
+        success: function (response) {
+            let stories = response.results
             var container = $('.team-2')
             for (i in stories) {
 
