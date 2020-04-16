@@ -9,8 +9,8 @@ function setCookie(name, value, days) {
 }
 function saveUtmParamsToCookie() {
     if (window.location.search) {
-        const params = new URLSearchParams(window.location.search);
-        const cbutm = {};
+        var params = new URLSearchParams(window.location.search);
+        var cbutm = {};
         [
             "utm_campaign",
             "utm_source",
@@ -18,12 +18,12 @@ function saveUtmParamsToCookie() {
             "utm_keyword",
             "utm_content",
             "utm_coupon",
-        ].forEach((key) => {
+        ].forEach(function (key) {
             if (params.get(key)) {
                 cbutm[key] = params.get(key);
             }
         });
-        const cookieValue = btoa(JSON.stringify(cbutm));
+        var cookieValue = btoa(JSON.stringify(cbutm));
         setCookie('_cbutm', cookieValue, 7)
     }
 }
