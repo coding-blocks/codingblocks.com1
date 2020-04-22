@@ -1,0 +1,11 @@
+<div class="row">
+  {{#each courses}}
+    <div class="col-12 col-md-4 mb-4">
+      {{#each @root.coursesList}}
+        {{#ifEquals this.id ../this.id}}
+          {{> newCourse options=../this}}
+        {{/ifEquals}}
+      {{/each}}
+    </div>
+  {{/each}}
+</div>

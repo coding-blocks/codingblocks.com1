@@ -1259,3 +1259,11 @@ input[type="email"], input[type="number"], input[type="url"] {
 div.contains-table {
     overflow-x: auto;
 }
+
+.br-white {
+    border: solid 1px white;
+}
+
+.bg-gradient-dark-purple {
+    background: linear-gradient(90deg, #00205B 0%, #84358E 100%);
+}

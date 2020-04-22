@@ -32,6 +32,22 @@
 <link rel="stylesheet" href="{{#relativePath @file.path "/assets/styles/pe-icon-7-stroke.css"}}{{/relativePath}}">
 <link rel="stylesheet" href="{{#relativePath @file.path "/assets/styles/et-line-icons.css"}}{{/relativePath}}">
 
+{{#if head.links}}
+  {{#each head.links}}
+    <link rel="{{this.rel}}" href="{{this.href}}">
+  {{/each}}
+{{/if}}
+
+{{#if head.scripts}}
+  {{#each head.scripts}}
+    <script src="{{this.src}}"></script>
+  {{/each}}
+{{/if}}
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+<!-- DO NOT MODIFY -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83327907-12"></script>
@@ -43,46 +59,65 @@
   gtag('config', 'UA-83327907-12');
 </script>
 
-<script src='https://www.google.com/recaptcha/api.js'></script>
 
-
-<script type="text/javascript">
-    !function (q, e, v, n, t, s) {
-        if (q.qp) return;
-        n = q.qp = function () {
-            n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments);
-        };
-        n.queue = [];
-        t = document.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = document.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-    }(window, 'script', 'https://a.quora.com/qevents.js');
-    qp('init', '886f78f74e0c41a3b01908c17b630a29');
-    qp('track', 'ViewContent');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-               src="https://q.quora.com/_/ad/886f78f74e0c41a3b01908c17b630a29/pixel?tag=ViewContent&noscript=1"/>
-</noscript>
 <!-- Facebook Pixel Code -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '1947467048859851');
-fbq('track', 'PageView');
-fbq('track', 'ViewContent');
-fbq('track', 'Lead');
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1947467048859851');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent');
+  fbq('track', 'Lead');
 </script>
 <noscript>
- <img height="1" width="1"
-src="https://www.facebook.com/tr?id=1947467048859851&ev=PageView
+  <img height="1" width="1"
+       src="https://www.facebook.com/tr?id=1947467048859851&ev=PageView
 &noscript=1"/>
 </noscript>
 <!-- End Facebook Pixel Code -->
+
+
+<!-- Quora Pixel Code (JS Helper) -->
+<script>
+  !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
+  qp('init', '0e6543f4ed0047658c67c5d04a8ace8d');
+  qp('track', 'ViewContent');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/0e6543f4ed0047658c67c5d04a8ace8d/pixel?tag=ViewContent&noscript=1"/></noscript>
+<!-- End of Quora Pixel Code -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TWLQ78S');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Begin Inspectlet Asynchronous Code -->
+<script type="text/javascript">
+  (function() {
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 1725807676]);
+    var ldinsp = function(){
+      if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1725807676&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    setTimeout(ldinsp, 0);
+  })();
+</script>
+<!-- End Inspectlet Asynchronous Code -->
+<!-- Begin OneSignal Code -->
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "bdcf9cde-838b-4254-8d98-eb50b73c7a16",
+    });
+  });
+</script>
+<!-- End OneSignal Code -->
