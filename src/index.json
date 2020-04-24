@@ -22,6 +22,19 @@
       ]
     },
     {
+      "imgSrc": "/assets/images/cb/cover/cast_banner.jpg",
+      "imgAlt": "",
+      "heading": "Test on 3rd May",
+      "content": "",
+      "button": [
+        {
+          "link": "/scholarship-tests.html",
+          "text": "Register Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/summer_batches.jpg",
       "imgAlt": "",
       "heading": "Introducing Summer batches !",
