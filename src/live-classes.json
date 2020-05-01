@@ -98,7 +98,12 @@
   ],
   "liveCoursesRow3": [
      {
-      "id": "live_course_alg_plus_plus"
+      "id": "live_course_alg_plus_plus",
+      "odd": true
+
+    },
+    {
+      "id": "live_course_digital_mark"
     }
   ],
   "faqs": [

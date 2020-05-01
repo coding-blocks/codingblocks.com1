@@ -894,7 +894,7 @@
       "id": "live_course_alg_java",
       "rating": "4.5",
       "ratingCount": "206",
-      "name": "Live Algo.Java - Data Structures & Algorithms April 2020",
+      "name": "Master Algo.Java - Data Structures & Algorithms April 2020",
       "price":"9,000",
       "slashed-price":"11,000",
       "badge": "",
@@ -923,6 +923,26 @@
       "lectures": "",
       "badge": "STARTS 01 JUNE",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
+      "description": [
+        ""
+      ],
+      "batches": [
+      ],
+      "live-link": "https://codingblocks.com/take-demo.html"
+    },
+    {
+      "id": "live_course_digital_mark",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Digital Marketing",
+      "price":"12,000",
+      "slashed-price":"15,000",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/digital_marketing.png",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "https://online.codingblocks.com/courses/digital-marketing-live",
       "description": [
         ""
       ],
