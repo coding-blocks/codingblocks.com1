@@ -1,0 +1,22 @@
+<div class="row mx-0 c-card-carousel-lg" style="padding-top: 4rem;">
+  {{#each studentsSay}}
+      <div class="col-lg-4 col-md-6 col-sm-8 col-12">
+        <div class="border-card img-review-card p-md-5 p-4" style="height:100%">
+          <div class="author">
+            <div class="img-ring s-100x100">
+              <img class="round img"
+                src="{{image}}">
+            </div>
+          </div>
+          <div class="icon">
+            <i class="fas fa-quote-left fa-3x orange"></i>
+          </div>
+
+          <h5 class="bold t-align-c mb-4">{{name}}</h5>
+          <div class="review-body">
+            {{story}}
+          </div>
+        </div>
+      </div>      
+  {{/each}}
+</div>
