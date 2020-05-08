@@ -1,0 +1,137 @@
+{
+  "title": "Live classes | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best live classes institute in India. Join beginner and advanced courses in C++, Java, Python, Machine learning, Data science, Web development, Android using Kotlin, Interview preparation for jobs and many more."
+    },
+    {
+      "name": "keywords",
+      "content": "c++,cpp,c plus plus,programming,course,delhi,india,data structures,algorithms,prateek,narang"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/live-classes.html",
+    "title": "Live classes for Covid-19 phase for students | Exact replica of Classroom courses | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "Coding Blocks is the best live classes institute in India. Join beginner and advanced courses in C++, Java, Python, Machine learning, Data science, Web development, Android using Kotlin, Interview preparation for jobs and many more."
+  },
+  "header": {
+    "heading": "",
+    "subHeading": "",
+    "bgSrc": "../../../assets/images/cb/cover/live_class.jpg"
+  },
+  "overview": {
+    "content": "COVID-19 has hit the entire world pretty badly and has disrupted almost all realms of life, including education. With all educational institutions being shut for a fairly long time, students are losing precious time which was meant for education. <br/> <br/>So what if students cannot come to the classrooms, Coding blocks will take the classrooms to the home of students. Presenting Live classes by Coding Blocks, a whole new way to learn from your home by your favorite teachers. Live class programs are just Classroom courses, just that you can attend the classes without having to travel to the center. Weekly schedule, timing, Mentor, Course schedule, everything is the same as Classroom program. The Mentor takes live classes at the scheduled date and time, students attend the sessions, skillify themselves, ask their doubts and get prepped up. Since the classes are two way interactive, you can see the teacher and can ask your doubts anytime you need during the session. What’s more, each class is recorded and given to you for later reference. <br/><br/> Live classes are a version of your classroom program with added benefits like saving the travel time each day, access to recorded video of each class, live doubt resolution when you study and many many more. </br></br> The first batch of Live classes for all programs at Coding Blocks will start on 6th April 2020. These live classes are specially being introduced to ensure students do not lose on their education and skillify themselves well in time.",
+    "buttonLink": "#register-advance",
+    "buttonLink2": "https://codingblocks.com/take-demo.html",
+    "buttonText2": "Take Demo Class"
+  },
+  "courseSchedule": [
+    {
+      "name": "Master DS & Algo with C++",
+      "link": "/live-courses/master-c-plus-plus-ds-algo.html",
+      "timings": "Mon Tue Thu Fri | 7-10 PM",
+      "starts": "1st June"
+    },
+    {
+      "name": "Master DS & Algo with Java",
+      "link": "live-courses/master-java-for-beginners.html",
+      "timings": "Mon Wed Fri Sat | 7-10 PM",
+      "starts": "1st June"
+    },
+    {
+      "name": "Master Web Dev with NodeJS",
+      "link": "live-courses/master-web-development-nodejs.html",
+      "timings": "Tue Thu Sat Sun | 7-10 PM",
+      "starts": "1st June"
+    },
+    {
+      "name": "Master Data Science with Python",
+      "link": "live-courses/master-data-science-with-python.html",
+      "timings": "Mon Thu Fri | 7-10 PM",
+      "starts": "1st June"
+    },
+    {
+      "name": "Master Interview Preparation",
+      "link": "live-courses/master-coding-interview-preparation.html",
+      "timings": "Tue Thu Sat | 7-10 PM",
+      "starts": "1st June"
+    },
+    {
+      "name": "Master Algo.Java",
+      "link": "live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
+      "timings": "Tue Thu Sat | 7-10 PM",
+      "starts": "1st June"
+    },
+    {
+      "name": "Master Algo++",
+      "link": "live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
+      "timings": "Tue Thu Sat | 7-10 PM",
+      "starts": "1st June"
+    }
+  ],
+  "liveCoursesRow1": [
+    {
+      "id": "live_course_cpp",
+      "odd": true
+    },
+    {
+      "id": "live_course_java"
+    },
+    {
+      "id": "live_course_nodejs",
+      "odd": true
+    }
+  ],
+  "liveCoursesRow2": [
+    {
+      "id": "live_course_ds"
+    },
+    {
+      "id": "live_course_alg_java",
+      "odd": true
+    },
+    {
+      "id": "live_course_intprep"
+    }
+  ],
+  "liveCoursesRow3": [
+     {
+      "id": "live_course_alg_plus_plus",
+      "odd": true
+
+    },
+    {
+      "id": "live_course_digital_mark"
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "I wanted to enrol for Classroom program in Summers. Should I opt for Live class program?",
+      "ans": "Live class program has been introduced by Coding Blocks to ensure students do not loose their precious time in the Covid-19 prevention phase. Live class program is an enriched replacement of the Classroom program, which offers you all the benefits of the Classroom program and saves your time and money."
+    },
+    {
+      "ques": "What is the Difference between Classroom and Live program?",
+      "ans": "Live class program is a replacement of the Classroom program with added benefits of time and money. Our mentors will take live classes, just like the Classroom program. For a student, the only difference would be that the mentor would not be present physically. Since classes are two way interactive, you can ask doubts while the lecture is in progress. In addition, all Classroom program benefits are there in this program."
+    }
+  ],
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+      "Prateek Narang",
+      "Arnav Gupta",
+      "Rajesh Sachdev",
+      "Kartik Mathur",
+      "Anuj Garg",
+      "Rishab Kapoor",
+      "Garima Chhikara",
+      "Pranav Khandelwal",
+      "Shubham Rawat"
+    ]
+  }
+}

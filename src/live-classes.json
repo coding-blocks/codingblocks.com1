@@ -10,6 +10,18 @@
       "content": "c++,cpp,c plus plus,programming,course,delhi,india,data structures,algorithms,prateek,narang"
     }
   ],
+  "head": {
+    "links": [
+      {
+        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "rel": "stylesheet"
+      },
+      {
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
   "openGraph": {
     "url": "https://codingblocks.com/live-classes.html",
     "title": "Live classes for Covid-19 phase for students | Exact replica of Classroom courses | Coding Blocks",
@@ -27,48 +39,175 @@
     "buttonLink2": "https://codingblocks.com/take-demo.html",
     "buttonText2": "Take Demo Class"
   },
-  "courseSchedule": [
+  "studentsSay":[
     {
-      "name": "Master DS & Algo with C++",
+      "name":"Anshul Mittal",
+      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+    },
+    {
+      "name":"Sidharth Bansal",
+      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+    },
+    {
+      "name":"Samarth Jain",
+      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+    }
+  ],
+  "liveCourseCards": [
+    {
+      "name": "Master DS and Algo with C++",
+      "id": "live_course_cpp",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "price": "12,499",
+      "slashed-price": "15,999",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
       "link": "/live-courses/master-c-plus-plus-ds-algo.html",
-      "timings": "Mon Tue Thu Fri | 7-10 PM",
-      "starts": "1st June"
+      "live-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Prateek Narang,Kartik Mathur",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
+      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91"
+
     },
     {
-      "name": "Master DS & Algo with Java",
-      "link": "live-courses/master-java-for-beginners.html",
-      "timings": "Mon Wed Fri Sat | 7-10 PM",
-      "starts": "1st June"
+      "name": "Master DS and Algo with Java",
+      "id": "live_course_java",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "price": "12,499",
+      "slashed-price": "15,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "/live-courses/master-java-for-beginners.html",
+      "live-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Rishab Kapoor,Garima Chhikara",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/4078be4e-72e1-451a-9c4e-9223d2bbcc2c",
+      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48"
+
     },
     {
-      "name": "Master Web Dev with NodeJS",
-      "link": "live-courses/master-web-development-nodejs.html",
-      "timings": "Tue Thu Sat Sun | 7-10 PM",
-      "starts": "1st June"
+      "name": "Master FullStack Web with NodeJS",
+      "id": "live_course_nodejs",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "price": "16,999",
+      "slashed-price": "19,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/8363cfd5-40f7-499a-bd8d-33541baa0a5f.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "/live-courses/master-web-development-nodejs.html",
+      "live-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Arnav Gupta",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
+      "mentor-img-2" : ""
+
+
     },
     {
-      "name": "Master Data Science with Python",
-      "link": "live-courses/master-data-science-with-python.html",
-      "timings": "Mon Thu Fri | 7-10 PM",
-      "starts": "1st June"
+     "name": "Master Data Science with Python",
+      "id": "live_course_ds",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "price": "19,999",
+      "slashed-price": "26,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "/live-courses/master-data-science-with-python.html",
+      "live-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Prateek Narang,Anuj Garg",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
+      "mentor-img-2" : "/assets/images/cb/team/c_anuj.jpg"
+
+    },
+    {"name": "Master Interview Prep for Bigwigs",
+      "id": "live_course_intprep",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "price": "14,999",
+      "slashed-price": "16,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/215fa6ed-14f3-4d1e-87d5-d9d71cf0d0dd.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "/live-courses/master-coding-interview-preparation.html",
+      "live-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Prateek Narang,Arnav Gupta",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
+      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff"
+
+
     },
     {
-      "name": "Master Interview Preparation",
-      "link": "live-courses/master-coding-interview-preparation.html",
-      "timings": "Tue Thu Sat | 7-10 PM",
-      "starts": "1st June"
+      "id": "live_course_alg_java",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Algo.Java-Data Structures & Algo",
+      "price":"10,999",
+      "slashed-price":"12,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
+      "live-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Garima Chhikara, Anuj Garg",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48",
+      "mentor-img-2" : "/assets/images/cb/team/c_anuj.jpg"
+
     },
     {
-      "name": "Master Algo.Java",
-      "link": "live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
-      "timings": "Tue Thu Sat | 7-10 PM",
-      "starts": "1st June"
-    },
-    {
+     "id": "live_course_alg_plus_plus",
+      "rating": "4.5",
+      "ratingCount": "206",
       "name": "Master Algo++",
-      "link": "live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
-      "timings": "Tue Thu Sat | 7-10 PM",
-      "starts": "1st June"
+      "price":"10,999",
+      "slashed-price":"12,999",
+      "badge": "",
+      "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
+      "live-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Pranav Khandelwal, Prateek Narang",
+      "mentor-img-1": "/assets/images/cb/team/pranav.jpg",
+      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9"
+
+    },
+    {
+      "id": "live_course_digital_mark",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Digital Marketing",
+      "price":"9,999",
+      "slashed-price":"13,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/b8955c5d-ebaa-4667-a9bd-84bd0c664063.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "https://dukaan.codingblocks.com/buy?productId=2016",
+      "live-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Ishan Manchanda",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/044d2224-7cc3-4aac-967f-f28d508af814",
+      "mentor-img-2" : ""
+
     }
   ],
   "liveCoursesRow1": [
