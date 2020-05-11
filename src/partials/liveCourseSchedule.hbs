@@ -1,23 +1,22 @@
-<section>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h3 class="mb16 text-center uppercase">Course Schedule</h3>
-				<table class="table table-hover table-striped calendar">
-					<thead>
-						<tr>
-						</tr>
-					</thead>
-					<tbody>
-						{{#each schedule}}
-						<tr>
-							<td>{{lecture}}</td>
-							<td>{{description}}</td>
-						</tr>
-						{{/each}}
-					</tbody>
-				</table>
-			</div>
-		</div>
+<div class="row no-gutters align-items-center justify-content-between mb-5">
+	<div class="flex-1 pr-4">
+	    <h2 class="bold">Lectures Schedule</h2>
+	    <h4 class="gradient-text-orange mt-2">Mon Tue Wed Fri | 7PM - 10PM</h4>
 	</div>
-</section>
+	    <a href="#" class="bg-gradient-orange white br-10 p-3 t-align-c">
+	      <i class="far fa-file-pdf fa-lg"></i>
+	      <div class="card-md mt-2">Syllabus</div>
+	    </a>
+</div>
+{{#each schedule}}
+<div class="col-md-6 border-right">
+      <div class="row align-items-center mb-2">
+        <div class="col-4">
+          <div class="font-mds gradient-text-orange text-ellipses">{{lecture}}</div>
+        </div>
+        <div class="col-8">
+          <div class="font-mds bold text-ellipses">{{description}}</div>
+        </div>
+      </div>
+</div>
+{{/each}}

@@ -10,199 +10,209 @@
       "content": "java,data structures,algorithms,ds,graphs,trees,codingblocks,course,delhi,india"
     }
   ],
+   "head": {
+    "links": [
+      {
+        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "rel": "stylesheet"
+      },
+      {
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
   "openGraph": {
     "url": "https://codingblocks.com/classroom-courses/java-for-beginners.html",
     "title": "Java Beginner & Advanced Course | Coding Blocks",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
     "description": "Learn Java at Coding Blocks, best Java training institute in Delhi,  Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
   },
-  "header": {
-    "heading": "Java - Crux",
-    "subHeading": "Data Structures & Algorithms in Java",
-    "breadcrumbs": [
-      {
-        "linkText": "Highlights",
-        "link": "#highlights"
-      },
-      {
-        "linkText": "Contents",
-        "link": "#contents"
-      },
-      {
-        "linkText": "FAQ",
-        "link": "#faq"
-      }
-    ],
-    "bgSrc": "../../../assets/images/cb/cover/covergcp.jpg"
+  "courseMeta": {
+    "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+    "title": "Master DS and Algo with Java",
+    "price": "12,499",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=2028",
+    "demo-link": "https://codingblocks.com/take-demo.html"
   },
-  "overview": {
-    "content": "<p>Coding Blocks, the best Java institute in Delhi is here with the finest Live Java Classroom Program. The program, designed to be a replica of our Classroom Program, is meant to fulfil the needs of students and help them become a master in Java. Begin your career in software development with introduction to Data Structures and Algorithms in Java with the most experienced mentors.</p><p>With our Live Java Classroom Program, get hands-on programming experience right from the comfort of your home. Avail special benefits like live doubt resolution, recorded video after each class, manually written tutor notes, and much more.</p><p>The Live Java Classroom Program focus on developing core programming concepts and equip you to code solutions for complex problems using Java. The program allows you to choose between Basic and Crux. You can also opt for Web Development using Java in one of the advanced Java courses.</p>",
-    "buttonLink": "#advance-register",
-    "buttonLink2": "https://codingblocks.com/take-demo.html",
-    "buttonText2": "Take Demo Class"
-  },
-  "courseHighlights": [
+  "demoClass":[
     {
-      "icon": "fa fa-code",
-      "title": "Fundamentals",
-      "content": "We have designed our course keeping in mind the requirements of beginners.Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+      "youtubeID":"V5wv2j7aNe8"
     },
     {
-      "icon": "et-line-puzzle",
-      "title": "Problem Solving",
-      "content": "The course is designed to sharpen the problem solving skills of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+      "youtubeID":"Xw33YZiVAz8"
     },
     {
-      "icon": "et-line-layers",
-      "title": "OOP Concepts",
-      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready."
-    },
-    {
-      "icon": "et-line-linegraph",
-      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
-      "content": "This course entails more than 100 hours of teaching and hands on coding. Students will be solving more than 200 complex problems and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+      "youtubeID":"ZGe5MdEXsvQ"
     }
   ],
-  "faqs": [
+  "studentsSay":[
     {
-      "ques": "Who should do this course?",
-      "ans": "Anybody who is interested in learning programming can take the Java training. Java is a powerful and elegant language, but still is pretty easy to learn. Also, this opens the path to enter Enterprise Java world for making powerful desktop and web applications or mobile apps using Android."
+      "name":"Anshul Mittal",
+      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
     },
     {
-      "ques": "I know C, should I do this course?",
-      "ans": "Yes. Absolutely. Not only will this course teach you Java, but also Object Oriented Programming which forms the base of most, if not all code running live across the globe. Besides it builds your problem solving skills, teaches you some fine data structures and helps you develop the thinking process to optimise your solutions."
+      "name":"Sidharth Bansal",
+      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
     },
     {
-      "ques": "I know C++, should I do this course?",
-      "ans": "Depends. Knowing C++ generally means you know Object Oriented Programming well. If that is the case, you’ll be better served by learning some courses which teach you to create making mobile apps or web applications. Please check out our Pandora and Elixir course for those."
-    },
-    {
-      "ques": "Will this help me with competitive programming or can I apply to ACM-ICPC after doing this course?",
-      "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time. The last time we heard from capable competitive programmers, they said these skills made them capable."
-    },
-    {
-      "ques": "Will this course help me in Interviews?",
-      "ans": "Yes. If you learn well, all that the course intends to teach, you’ll be able to impress quite a few interviewers across quite a few fine companies."
-    },
-    {
-      "ques": "Will this help me in making websites and apps?",
-      "ans": "No. This is a fundamentals course. To make websites and apps, you need to learn more. Please check out our <strong>Pandora &amp; Elixir</strong> course for those."
-    },
-    {
-      "ques": "Is this CORE Java or Advanced Java?",
-      "ans": "This is not CORE java or Advanced Java. This is a course which teaches you problem solving, data structures and Object Oriented Programming. Though, most of what CORE java means is being covered. The aim of the course is to help you with a smarter beginning. For being able to make web and mobile apps you need to learn frameworks. Android is one such framework for mobile apps. Please check out our Pandora and Elixir course for more details on these lines."
+      "name":"Samarth Jain",
+      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
-  "mentors": {
-    "heading": "Mentors",
-    "content": "",
-    "flip": true,
-    "companies": false,
-    "contentCenter": true,
-    "teamMembers": [
-      "Rishab Kapoor",
-      "Garima Chhikara",
-      "ANUJ GARG",
-      "Raj Kumar Saini",
-      "Shubham Rawat"
-    ]
+  "highlights":[{
+    "head":"Opportunities unlocked for learner",
+    "description":"Students will develop core programming concepts and get equipped to code solutions for complex problems using Java.Practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming.Comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc.",
+    "icon":""
   },
-   "sample": {
-    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
-    "heading": " "
+  {
+    "head":"Hands on Projects and Problems:",
+    "description":"Build real-world applications in Java like Google Maps PathFinder, build games like Tic Tac Toe, Sudoku.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
+    "icon":""
   },
-  "schedule": [
+  {
+    "head":"Why choose CB Live:",
+    "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+    "icon":""
+  },
+  {
+    "head":"This course is essential for you:",
+    "description":"If you want to begin with coding as a career.If you have no prior knowledge on coding.If you love solving real-world problems and want to create a solution",
+    "icon":""
+  }
+  ], "schedule": [
     {
-      "center": "Pitampura",
-      "startdate": "25th May",
-      "enddate": "TBD",
-      "daytime": "Mon (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Sat (8:00 AM - 11:50 AM)",
-      "batchtype": "Fast Track Morning"
+      "lecture": "Lecture 01",
+      "description": "Programming Fundamentals 1"
     },
     {
-      "center": "Pitampura",
-      "startdate": "3rd June",
-      "enddate": "TBD",
-      "daytime": "Mon (8:00 AM - 11:50 AM), Wed (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM)",
-      "batchtype": "Normal Morning"
+      "lecture":"Lecture 02",
+      "description": "Programming Fundamentals 2"
     },
     {
-      "center": "Pitampura",
-      "startdate": "6th June",
-      "enddate": "TBD",
-      "daytime": "Sat (12:10 PM - 3:50 PM), Sun (12:10 PM - 3:50 PM), Tue (12:10 PM - 3:50 PM)",
-      "batchtype": "Weekend Noon"
+      "lecture":"Lecture 03",
+      "description": "Programming Fundamentals 3/Pointer"
     },
     {
-      "center": "Pitampura",
-      "startdate": "10th June",
-      "enddate": "TBD",
-      "daytime": "Wed (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM)",
-      "batchtype": "Normal Evening"
+      "lecture":"Lecture 04",
+      "description": "Arrays 1"
     },
     {
-      "center": "Noida",
-      "startdate": "20th May",
-      "enddate": "TBD",
-      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM)",
-      "batchtype": "Normal Noon"
+      "lecture":"Lecture 05",
+      "description": "Arrays 2"
     },
     {
-      "center": "Noida",
-      "startdate": "5th June",
-      "enddate": "TBD",
-      "daytime": "Mon(04:00 PM - 07:00 PM), Wed(04:00 PM - 07:00 PM), Fri(04:00 PM - 07:00 PM), Sat(04:00 PM - 07:00 PM)",
-      "batchtype": "Fast Track Evening"
+      "lecture":"Lecture 06",
+      "description": "Bitmasking/Sliding Window/Strings"
     },
     {
-      "center": "Noida",
-      "startdate": "6th June",
-      "enddate": "TBD",
-      "daytime": "Tue(9:00 AM - 12:00 PM), Thurs(9:00 AM - 12:00 PM), Sun(9:00 AM - 12:00 PM)",
-      "batchtype": "Fast Track Morning"
+      "lecture":"Lecture 07",
+      "description": "STL and 2D arrays/Strings"
     },
     {
-      "center": "Noida",
-      "startdate": "6th June",
-      "enddate": "TBD",
-      "daytime": "Sat(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
-      "batchtype": "Normal Noon"
+      "lecture":"Lecture 08",
+      "description": "Space Time Complexity"
     },
     {
-      "center": "Noida",
-      "startdate": "9th June",
-      "enddate": "TBD",
-      "daytime": "Tue(12:30 PM - 03:30 PM), Thurs(12:30 PM - 03:30 PM), Sat(12:30 PM - 03:30 PM), Sun(12:30 PM - 03:30 PM)",
-      "batchtype": "Fast Track Noon"
+      "lecture":"Lecture 09",
+      "description": "Recursion 1"
     },
     {
-      "center": "Dwarka",
-      "startdate": "29th May",
-      "enddate": "TBD",
-      "daytime": "Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM), Sun (3:00 PM - 7:30 PM)",
-      "batchtype": "Fast Track Evening"
+      "lecture":"Lecture 10",
+      "description": "Recursion 2"
     },
     {
-      "center": "Dwarka",
-      "startdate": "10th June",
-      "enddate": "TBD",
-      "daytime": "Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM), Sun (10:00 AM - 2:00 PM)",
-      "batchtype": "Normal Morning"
+      "lecture":"Lecture 11",
+      "description": "Recursion 3"
+    },
+    {
+      "lecture":"Lecture 12",
+      "description": "Backtracking"
+    },
+    {
+      "lecture":"Lecture 13",
+      "description": "Divide and Conquer 1"
+    },
+    {
+      "lecture":"Lecture 14",
+      "description": "Divide and Conquer 2"
+    },
+    {
+      "lecture":"Lecture 15",
+      "description": "OOP"
+    },
+    {
+      "lecture":"Lecture 16",
+      "description": "Stack"
+    },
+    {
+      "lecture":"Lecture 17",
+      "description": "Queue"
+    },
+    {
+      "lecture":"Lecture 18",
+      "description": "Linked List 1"
+    },
+    {
+      "lecture":"Lecture 19",
+      "description": "Linked List 2"
+    },
+    {
+      "lecture":"Lecture 20",
+      "description": "Binary Tree 1"
+    },
+    {  
+      "lecture":"Lecture 21",
+      "description": "Binary Tree 2"
+    },
+    {
+      "lecture":"Lecture 22",
+      "description": "Binary Search Tree 1"
+    },
+    {
+      "lecture":"Lecture 23",
+      "description": "Binary Search Tree 2"
+    },
+    {
+      "lecture":"Lecture 24",
+      "description": "HashMap"
+    },
+     {
+      "lecture":"Lecture 25",
+      "description": "HashMap/Heaps"
+    },
+    {
+      "lecture":"Lecture 26",
+      "description": "Heaps"
+    },
+    {
+      "lecture":"Lecture 27",
+      "description": "DP1"
+    },
+    {
+      "lecture":"Lecture 28",
+      "description": "DP2"
+    },
+    {
+      "lecture":"Lecture 29",
+      "description": "DP3"
+    },
+    {
+      "lecture":"Lecture 30",
+      "description": "Trie"
+    },
+    {
+      "lecture":"Lecture 31",
+      "description": "Graph1"
+    },
+    {
+      "lecture":"Lecture 32",
+      "description": "Graph2"
     }
-  ],
-  "courseReviews": [
-    "YAMINI GAUR",
-    "ANSH SACHDEVA",
-    "GAGARIN DASH",
-    "KSHITIJ BANSAL"
-  ],
+  ]
 
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=388",
-  "frame-id-pitampura-lp": "388",
-
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=389",
-  "frame-id-dwarka-lp": "389",
-
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=390",
-  "frame-id-noida-lp": "390"
+ 
 }

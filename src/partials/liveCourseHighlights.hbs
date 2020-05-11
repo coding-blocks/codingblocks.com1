@@ -1,0 +1,17 @@
+<div class="row">
+    {{#each highlights}}
+    <div class="col-sm-6 mb-5">
+      <div class="border-card p-md-5 p-4 h-100">
+        <div class="flex-col justify-content-between h-100">
+          <div class="row no-gutters align-items-center justify-content-between mb-4 w-100">
+            <h5 class="bold flex-1">{{head}}</h5>
+            <i class="fas fa-play-circle fa-2x"></i>
+          </div>
+          <div class="card-md">
+            {{description}}
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+</div>

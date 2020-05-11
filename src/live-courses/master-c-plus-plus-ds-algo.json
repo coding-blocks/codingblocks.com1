@@ -10,211 +10,209 @@
       "content": "c++,cpp,c plus plus,programming,course,delhi,india,data structures,algorithms,prateek,narang"
     }
   ],
+  "head": {
+    "links": [
+      {
+        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "rel": "stylesheet"
+      },
+      {
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
   "openGraph": {
     "url": "https://codingblocks.com/classroom-courses/c-plus-plus-for-beginners.html",
     "title": "C++ Beginner & Advanced Courses | Coding Blocks",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
     "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
   },
-  "header": {
-    "heading": "C++ <br /> Launchpad",
-    "subHeading": "Master DS & Algorithms in C++",
-    "breadcrumbs": [
-      {
-        "linkText": "Highlights",
-        "link": "#highlights"
-      },
-      {
-        "linkText": "Contents",
-        "link": "#contents"
-      },
-      {
-        "linkText": "FAQ",
-        "link": "#faq"
-      }
-    ],
-    "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
+  "courseMeta": {
+    "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
+	  "title": "Master DS and Algo with C++",
+    "price": "12,499",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=2020&amp",
+    "demo-link": "https://codingblocks.com/take-demo.html"
   },
-  "overview": {
-    "content": "Coding Blocks is here with Live C++ Classroom Program. The course has been launched to meet the requirements of all students during the quarantine period. The course is for all students who wish to take the first step into the amazing world of programming and software.<br/> <br/>The Live Interview Preparation Program would ensure that students get the best learning experience with the guidance of world-class mentors at the solace of their homes, sparing them from all travel bothers. <br/><br/> With our Live Program, you can avail benefits like on-spot doubt resolution, recorded video after each class, manually written tutor notes, and much more.<br/> <br/>The beginner's course will include programming fundamentals using C++, Loops, Functions, Arrays, Stacks, Queues, Linked List.<br/> <br/>The advanced Live program is for all those who are looking forward to sit for internships and placements. The program will involve rigorous practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc.</br> </br>The Live C++ Classroom Program will help you become smarter with solutions and ace your programming interviews. C++ is known to be a very powerful language. It allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ generally does better than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
-	  "buttonLink": "#register-advance",
-    "buttonLink2": "https://codingblocks.com/take-demo.html",
-    "buttonText2": "Take Demo Class"
-  },
-  "courseHighlights": [
+  "demoClass":[
     {
-      "icon": "fa fa-code",
-      "title": "Fundamentals",
-      "content": "We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+      "youtubeID":"mOtc5JrZT0o"
     },
     {
-      "icon": "et-line-puzzle",
-      "title": "Problem Solving",
-      "content": "The C++ course is designed to sharpen the problem solving skills, using C++, of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+      "youtubeID":"JTKvNx7c8xE"
     },
     {
-      "icon": "et-line-layers",
-      "title": "OOP Concepts &amp; Project",
-      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready C++ coders."
-    },
-    {
-      "icon": "et-line-linegraph",
-      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
-      "content": "This course entails more than 100 hours of teaching and hands on C++ coding. Students will be solving more than 200 complex problems in C++ and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+      "youtubeID":"tl9jpnzOTNE"
     }
   ],
-  "faqs": [
+  "studentsSay":[
     {
-      "ques": "Who should do this course?",
-      "ans": "Anybody who is interested in learning C++ programming can do this course. C++ is a powerful language and is pretty easy to learn. Coding in its most essential form is nothing but problem solving. It deals with figuring out logical solutions and implementing them optimally. The process of learning to code transforms a person into an analytical thinker with strong mathematical and logical skills."
+      "name":"Anshul Mittal",
+      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
     },
     {
-      "ques": "Will this course help if I had C++ in class 12?",
-      "ans": "Yes, absolutely. There is a lot more to learn in C++ than the school curriculum."
+      "name":"Sidharth Bansal",
+      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
     },
     {
-      "ques": "I didn’t have C++ in class 12 ? Can I do this course ?",
-      "ans": "Yes. Our instructors will start the C++ course from beginner's level. You don’t need any prior programming knowledge to attend this course. What we need is dedication and passion to learn programming from your side."
+      "name":"Samarth Jain",
+      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
-  "mentors": {
-    "heading": "Mentors",
-    "content": "",
-    "flip": true,
-    "companies": false,
-    "contentCenter": true,
-    "teamMembers": [
-      "Prateek Narang",
-      "Rajesh Sachdev",
-      "Kartik Mathur",
-      "Raj Kumar Saini",
-      "Iti Jain",
-      "Pranav Khandelwal"
-    ]
+  "highlights":[{
+    "head":"Opportunities unlocked for learner",
+    "description":"Develop a strong approach to coding languages and learn any language further.Learn from scratch with standard libraries and inner algorithms to understand what goes “under the hood”.Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
+    "icon":""
   },
-
-  "sample": {
-    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
-    "heading": " "
+  {
+    "head":"Hands on Projects and Problems:",
+    "description":"Build real-world applications in C++ like Google Maps PathFinder, build games like Tic Tac Toe, Sudoku.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm.",
+    "icon":""
   },
-
-  "scheduleLaunchpad": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "25th May",
-		  "enddate": "TBD",
-		  "daytime": "Mon (4:10 PM - 7:50 PM), Tue (4:10 PM - 7:50 PM), Thu (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM)",
-		  "batchtype": "Fast Track Evening"
+  {
+    "head":"Why choose CB Live:",
+    "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+    "icon":""
+  },
+  {
+    "head":"This course is essential for you:",
+    "description":"If you want to begin with coding as a career.If you have no prior knowledge on coding.If you love solving real-world problems and want to create a solution",
+    "icon":""
+  }
+  ],
+ "schedule": [
+    {
+      "lecture": "Lecture 01",
+      "description": "Programming Fundamentals 1"
     },
     {
-		  "center": "Pitampura",
-		  "startdate": "4th June",
-		  "enddate": "TBD",
-		  "daytime": "Thu (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM)",
-		  "batchtype": "Normal Morning"
+      "lecture":"Lecture 02",
+      "description": "Programming Fundamentals 2"
     },
     {
-		  "center": "Pitampura",
-		  "startdate": "6th June",
-		  "enddate": "TBD",
-		  "daytime": "Sat (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM), Wed (4:10 PM - 7:50 PM)",
-		  "batchtype": "Weekend Evening"
-	  },
-    {
-      "center": "Pitampura",
-      "startdate": "8th June",
-      "enddate": "TBD",
-      "daytime": "Mon (12:10 PM - 3:50 PM), Wed (12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
-      "batchtype": "Normal Noon"
+      "lecture":"Lecture 03",
+      "description": "Programming Fundamentals 3/Pointer"
     },
     {
-      "center": "Pitampura",
-      "startdate": "11th June",
-      "enddate": "TBD",
-      "daytime": "Mon (4:10 PM - 7:50 PM), Thu (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM)",
-      "batchtype": "Normal Evening"
+      "lecture":"Lecture 04",
+      "description": "Arrays 1"
     },
     {
-      "center": "Noida",
-      "startdate": "20th May",
-      "enddate": "TBD",
-      "daytime": "Mon (9:00 AM - 12:00 PM), Wed (9:00 AM - 12:00 PM), Fri (9:00 AM - 12:00 PM), Sat (9:00 AM - 12:00 PM)",
-      "batchtype": "Fast Track Morning"
+      "lecture":"Lecture 05",
+      "description": "Arrays 2"
     },
     {
-      "center": "Noida",
-      "startdate": "5th June",
-      "enddate": "TBD",
-      "daytime": "Mon(9:00 AM - 12:00 PM), Wed(9:00 AM - 12:00 PM), Fri(9:00 AM - 12:00 PM), Sat(9:00 AM - 12:00 PM)",
-      "batchtype": "Fast Track Morning"
+      "lecture":"Lecture 06",
+      "description": "Bitmasking/Sliding Window/Strings"
     },
     {
-      "center": "Noida",
-      "startdate": "6th June",
-      "enddate": "TBD",
-      "daytime": "Sat(04:00 PM - 07:00 PM), Sun(04:00 PM - 07:00 PM)",
-      "batchtype": "Normal Evening"
+      "lecture":"Lecture 07",
+      "description": "STL and 2D arrays/Strings"
     },
     {
-      "center": "Noida",
-      "startdate": "7th June",
-      "enddate": "TBD",
-      "daytime": "Tue(9:00 AM - 12:00 PM), Thurs(9:00 AM - 12:00 PM), Sun(9:00 AM - 12:00 PM)",
-      "batchtype": "Normal Morning"
+      "lecture":"Lecture 08",
+      "description": "Space Time Complexity"
     },
     {
-      "center": "Noida",
-      "startdate": "8th June",
-      "enddate": "TBD",
-      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM), Sat(12:30 PM - 03:30 PM)",
-      "batchtype": "Fast Track Noon"
+      "lecture":"Lecture 09",
+      "description": "Recursion 1"
     },
     {
-      "center": "Noida",
-      "startdate": "8th June",
-      "enddate": "TBD",
-      "daytime": "Mon(04:00 PM - 07:00 PM), Wed(04:00 PM - 07:00 PM), Fri(04:00 PM - 07:00 PM), Sat(04:00 PM - 07:00 PM)",
-      "batchtype": "Fast Track Evening"
+      "lecture":"Lecture 10",
+      "description": "Recursion 2"
     },
     {
-      "center": "Dwarka",
-      "startdate": "5th June",
-      "enddate": "TBD",
-      "daytime": "Mon (3:00 PM - 7:30 PM), Wed (3:00 PM - 7:30 PM), Fri (3:00 PM - 7:30 PM)",
-      "batchtype": "Normal Evening"
+      "lecture":"Lecture 11",
+      "description": "Recursion 3"
     },
     {
-      "center": "Dwarka",
-      "startdate": "28th May",
-      "enddate": "TBD",
-      "daytime": "Mon (10:00 AM - 2:00 PM), Tue (10:00 AM - 2:00 PM), Thu (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
-      "batchtype": "Fast Track Morning"
+      "lecture":"Lecture 12",
+      "description": "Backtracking"
     },
     {
-      "center": "Dwarka",
-      "startdate": "11th June",
-      "enddate": "TBD",
-      "daytime": "Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM)",
-      "batchtype": "Normal Evening"
+      "lecture":"Lecture 13",
+      "description": "Divide and Conquer 1"
+    },
+    {
+      "lecture":"Lecture 14",
+      "description": "Divide and Conquer 2"
+    },
+    {
+      "lecture":"Lecture 15",
+      "description": "OOP"
+    },
+    {
+      "lecture":"Lecture 16",
+      "description": "Stack"
+    },
+    {
+      "lecture":"Lecture 17",
+      "description": "Queue"
+    },
+    {
+      "lecture":"Lecture 18",
+      "description": "Linked List 1"
+    },
+    {
+      "lecture":"Lecture 19",
+      "description": "Linked List 2"
+    },
+    {
+      "lecture":"Lecture 20",
+      "description": "Binary Tree 1"
+    },
+    {  
+      "lecture":"Lecture 21",
+      "description": "Binary Tree 2"
+    },
+    {
+      "lecture":"Lecture 22",
+      "description": "Binary Search Tree 1"
+    },
+    {
+      "lecture":"Lecture 23",
+      "description": "Binary Search Tree 2"
+    },
+    {
+      "lecture":"Lecture 24",
+      "description": "HashMap"
+    },
+     {
+      "lecture":"Lecture 25",
+      "description": "DP1"
+    },
+    {
+      "lecture":"Lecture 26",
+      "description": "DP2"
+    },
+    {
+      "lecture":"Lecture 27",
+      "description": "DP3"
+    },
+    {
+      "lecture":"Lecture 28",
+      "description": "Heap1"
+    },
+    {
+      "lecture":"Lecture 29",
+      "description": "Heap2"
+    },
+    {
+      "lecture":"Lecture 30",
+      "description": "Trie"
+    },
+    {
+      "lecture":"Lecture 31",
+      "description": "Graph1"
+    },
+    {
+      "lecture":"Lecture 32",
+      "description": "Graph2"
     }
-  ],
-  "courseReviews": [
-    "NAVDEEP SINGH",
-    "SHREYA GUPTA",
-    "ANIRUDH GUPTA",
-    "DEEPAK KUMAR"
-  ],
-
-  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=320",
-  "frame-id-dehradun-lp": "320",
-
-  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=385",
-  "frame-id-pitampura-lp": "385",
-
-  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=386",
-  "frame-id-dwarka-lp": "386",
-
-  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=387",
-  "frame-id-noida-lp": "387"
+  ]
 
 }

@@ -1,0 +1,28 @@
+{{#with courseMeta}}
+  <div class="row no-gutters justify-content-between align-items-center pb-5 border-bottom mb-5">
+    <div class="col-md-8 col-12 mb-md-0 mb-4">
+      <div class="row no-gutters align-items-center d-sm-flex d-none">
+        <div class="p-5 all-center" style="height: 200px; width: 200px;">
+          <img src="{{icon}}">
+        </div>
+        <div class="flex-1 pl-5">
+          <h1>{{title}}</h1>
+          <h2 class="gradient-text-orange">&#8377; {{price}}</h2>
+        </div>
+      </div>
+      <div class="row no-gutters align-items-center d-sm-none d-flex">
+        <div class="round border p-4 all-center" style="height: 100px; width: 100px;">
+          <img src="{{icon}}">
+        </div>
+        <div class="flex-1 pl-4">
+          <h2>{{title}}</h2>
+          <h4 class="gradient-text-orange">&#8377; {{price}}</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row no-gutters justify-content-center flex-1">
+      <a class="button-orange button-solid mr-4" href="{{course-link}}">Register Now</a>
+      <a href="/take-demo.html" class="button-orange button-dashed">Take Demo</a>
+    </div>
+  </div>
+{{/with}}
