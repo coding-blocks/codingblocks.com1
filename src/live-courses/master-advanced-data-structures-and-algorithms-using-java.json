@@ -17,95 +17,74 @@
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
     "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
   },
-  "header": {
-    "heading": "Algo.Java",
-    "subHeading": "Advanced Data Structures & Algorithms in Java",
-    "breadcrumbs": [
+  "head": {
+    "links": [
       {
-        "linkText": "Highlights",
-        "link": "#highlights"
+        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "rel": "stylesheet"
       },
       {
-        "linkText": "Contents",
-        "link": "#contents"
-      },
-      {
-        "linkText": "FAQ",
-        "link": "#faq"
-      }
-    ],
-    "bgSrc": "/assets/images/cb/cover/covergcp.jpg"
-  },
-  "courseEnroll": {
-    "upcomingBatches": "",
-    "highlights": [
-      {
-        "icon": "et-line-search",
-        "content": "Online code Submission &amp; Evaluation"
-      },
-      {
-        "icon": "pe-7s-cup",
-        "content": "Special Session on Java Game Development"
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
       }
     ]
   },
-  "overview": {
-    "content": "It’s time to improvise how you learn with Coding Blocks Live Classroom Program. Our Live Classroom Program has been designed to be an exact replica of our Classroom Program.. The course has been launched to cater to the needs of students at the time of the quarantine period.. Our Algo.java Live Program the best solution for all budding programmers who want to gain expertise in DS & Algo or are appearing for their internship/placement interviews.</p><p>The Live Algo.java Program would ensure that students get to learn from the best mentors at the comfort of their homes, saving them from all the traveling hassles. It would allow the students to get all benefits of classroom learning right inside their homes.</p><p>With our Live Program, you can avail benefits like immediate doubt resolution from mentor, recorded video lecture after each class, hand-written mentor notes, and a lot more.</p><p>The classes start with a basic revision of recursion and Arrays. Advanced topics such as OOP(s), Complexity Analysis, Data Structures & Algorithms will be covered in the following classes.</p>",
-     "buttonLink": "#advance-register",
-    "buttonLink2": "https://codingblocks.com/take-demo.html",
-    "buttonText2": "Take Demo Class"
+  "courseMeta": {
+    "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+    "title": "Master Algo.Java-Data Structures",
+    "price": "10,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=2035",
+    "demo-link": "https://codingblocks.com/take-demo.html"
   },
-  "sample": {
-    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
-    "heading": " "
-  },
-  "courseHighlights": [
+  "demoClass":[
     {
-      "icon": "et-line-puzzle",
-      "title": "Problem Solving",
-      "content": "The course is designed to sharpen the problem solving skills of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+      "youtubeID":"ZGe5MdEXsvQ"
     },
     {
-      "icon": "et-line-layers",
-      "title": "OOP Concepts &amp; Project",
-      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready. Students will also build a game with Java Swing Libraries to strengthen their OOPS concepts."
+      "youtubeID":"p7BbU7Q9GU0"
     },
     {
-      "icon": "et-line-linegraph",
-      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
-      "content": "This course entails more than 100 hours of teaching and hands on coding. Students will be solving more than 200 complex problems and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+      "youtubeID":"hkrPkOJAiog"
     }
   ],
-  "faqs": [
+  "highlights":[{
+    "head":"Opportunities unlocked for learner",
+    "description":"Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc. ",
+    "icon":""
+  },
+  {
+    "head":"Hands on Projects and Problems:",
+    "description":"Build real-world applications like Tic Tac Toe, Sudoku, Tower of Hanoi.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
+    "icon":""
+  },
+  {
+    "head":"Why choose CB Live:",
+    "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+    "icon":""
+  },
+  {
+    "head":"This course is essential for you:",
+    "description":"Someone who loves solving real world problems and wants to create a solution.",
+    "icon":""
+  }
+  ],
+  "studentsSay":[
     {
-      "ques": "Will this help me with competitive programming or can I apply to ACM-ICPC after doing this course?",
-      "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time. The last time we heard from capable competitive programmers, they said these skills made them capable."
+      "name":"Anshul Mittal",
+      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
     },
     {
-      "ques": "Will this course help me in Interviews?",
-      "ans": "Yes. If you learn well, all that the course intends to teach, you’ll be able to impress quite a few interviewers across quite a few fine companies."
+      "name":"Sidharth Bansal",
+      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
     },
     {
-      "ques": "Will this help me in making websites and apps?",
-      "ans": "No. This is a fundamentals course. To make websites and apps, you need to learn more. Please check out our <strong>Pandora &amp; Elixir</strong> course for those."
-    },
-    {
-      "ques": "Is this CORE Java or Advanced Java?",
-      "ans": "This is not CORE java or Advanced Java. This is a course which teaches you problem solving, data structures and Object Oriented Programming. Though, most of what CORE java means is being covered. The aim of the course is to help you with a smarter beginning. For being able to make web and mobile apps you need to learn frameworks. Android is one such framework for mobile apps. Please check out our Pandora and Elixir course for more details on these lines."
+      "name":"Samarth Jain",
+      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
-  "mentors": {
-    "heading": "Mentors",
-    "content": "",
-    "flip": true,
-    "companies": false,
-    "contentCenter": true,
-    "teamMembers": [
-      "Rishab Kapoor",
-      "Garima Chhikara",
-      "ANUJ GARG"
-    ]
-  },
     "schedule": [
     {
       "lecture": "Lecture 01",
@@ -198,12 +177,10 @@
     {
       "lecture":"Lecture 23",
       "description": "Graph 2 "
+    },
+    {
+      "lecture":"Lecture 24",
+      "description": "Graph 3 "
     }
-  ],
-  "courseReviews": [
-    "YAMINI GAUR",
-    "ANSH SACHDEVA",
-    "GAGARIN DASH",
-    "KSHITIJ BANSAL"
   ]
 }

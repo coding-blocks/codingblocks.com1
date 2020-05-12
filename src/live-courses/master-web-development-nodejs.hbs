@@ -1,126 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>{{title}}</title>
-		{{> meta}}
-		{{> head}}
-		{{> courseSchema}}
-	</head>
-	<body class="scroll-assist">
-		{{> navbar}}
-		<div class="main-container">
-			{{> header}}
-			{{> overview}}
-		    {{> coursesample}}
-			{{> coursehighlights}}
-			{{> liveClassBanner}}
-			{{> coursecontents}}
-						<a id="register-advance" class="in-page-link"></a>
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  <style>
+    body {
+      padding: 0
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Gilroy","Nunito Sans",sans-serif;
+    }
+  </style>
+</head>
 
-			<section style="">
-				<div class="container">
-					<div class="row v-align-children">
-						<div class="col-md-4 col-sm-6">
-							<div class="pricing-table pt-1 text-center emphasis">
-								<div><span class="price">₹16,999</div>
-								<p class="lead">(25 lectures)</p>
-								<a class="btn btn-white btn-lg" href="https://dukaan.codingblocks.com/buy?productId=2039">Enroll Now</a>
-								<p>
-									<a href="/contactus">Contact Us</a>
-									<br>Call(Toll-free): 1800-2744-504
-								</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</section>
-
-			<section>
-				<div class="container">
-						<h3 class="mb16 text-center uppercase">Demo class recordings</h3>
-						
-						<div class="col-md-4">
-							 <div class="panel panel-default hover-card"> <div class="panel-body"> <h3 class="panel-title pull-left"> </h3> 
-							 </div>
-							 <iframe width="100%" height="300px" src="https://www.youtube.com/embed/I2AcovnUHnU/" frameborder="0" allowfullscreen=""></iframe>
-							 <div class="panel-body"> <b> Session First </b> 
-							 </div> 
-							</div>
-						</div>
-
-						<div class="col-md-4">
-							 <div class="panel panel-default hover-card"> <div class="panel-body"> <h3 class="panel-title pull-left"> </h3> 
-							 </div>
-							 <iframe width="100%" height="300px"  src="https://www.youtube.com/embed/dI6Xzh3JYjg/" frameborder="0" allowfullscreen=""></iframe>
-							 <div class="panel-body"> <b> Session Second </b> 
-							 </div> 
-							</div>
-						</div>
-
-
-						<div class="col-md-4">
-							 <div class="panel panel-default hover-card"> <div class="panel-body"> <h3 class="panel-title pull-left"> </h3> 
-							 </div>
-							 <iframe width="100%" height="300px"  src="https://www.youtube.com/embed/1H81005Ll14/" frameborder="0" allowfullscreen=""></iframe>
-							 <div class="panel-body"> <b> Session Third </b> 
-							 </div> 
-							</div>
-						</div>
-				</div>
-			</section>
-
-			<section>
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<h3 class="mb16 text-center uppercase">Course Schedule</h3>
-									<table class="table table-hover table-striped calendar">
-										<thead>
-											<tr>
-												<th class="col-md-6"></th>
-												<th class="col-md-6"></th>
-											</tr>
-										</thead>
-												<tbody>
-													<tr><td>Lecture 1	</td><td>HTML - I:  Text, List, Table, Media Tags</td></tr>
-													<tr><td>Lecture 2	</td><td>HTML - II: Forms, Tables, Frames</td></tr>
-													<tr><td>Lecture 3	</td><td>CSS - I: Stylesheets, selectors, color, background, box</td></tr>
-													<tr><td>Lecture 4	</td><td>CSS - II: Combinators, pseudo classes, visibility</td></tr>
-													<tr><td>Lecture 5	</td><td>CSS - III: Flexboxes, Media Queries, Responsive Design</td></tr>
-													<tr><td>Lecture 6	</td><td>JS Basics: variables, functions, classes, objects</td></tr>
-													<tr><td>Lecture 7	</td><td>JS DOM, BOM, events, basic interactions</td></tr>
-													<tr><td>Lecture 8	</td><td>Advanced JS: closures, higher order functions</td></tr>
-													<tr><td>Lecture 9	</td><td>Advanced JS: array, string, map, set, iterator operations</td></tr>
-													<tr><td>Lecture 10</td><td>	Advanced JS: setTimeout, setInterval, callback functions</td></tr>
-													<tr><td>Lecture 11</td><td>	Advanced JS: Event loop,Promises, async-await</td></tr>
-													<tr><td>Lecture 12</td><td>	NodeJS: Intro, installation, basic scripting, fs operations</td></tr>
-													<tr><td>Lecture 13</td><td>	NodeJS: module, require, NPM, packages</td></tr>
-													<tr><td>Lecture 14</td><td>	ExpressJS: Introduction, basic web server</td></tr>
-													<tr><td>Lecture 15</td><td>	ExpressJS: Middlewares, routers, REST API</td></tr>
-													<tr><td>Lecture 16</td><td>	ExpressJS: HBS, Server rendering, form submission</td></tr>
-													<tr><td>Lecture 17</td><td>	ExpressJS: Rest API, AJAX</td></tr>
-													<tr><td>Lecture 18</td><td>	SQL Basics, MySQL, Sequelize </td></tr>
-													<tr><td>Lecture 19</td><td>	Sequelize Advanced, Relationships, REST API with DB</td></tr>
-													<tr><td>Lecture 20</td><td>	SQL vs NoSQL, CAP THeorem MongoDB</td></tr>
-													<tr><td>Lecture 21</td><td>	Socket.IO, Chat app, Realtime interactions</td></tr>
-													<tr><td>Lecture 22</td><td>	Sessions, Cookies, User Management</td></tr>
-													<tr><td>Lecture 23</td><td>	PassportJS, 3rd party logins</td></tr>
-													<tr><td>Lecture 24</td><td>	Unit Testing, Coverage, Mocha, Chai</td></tr>
-													<tr><td>Lecture 25</td><td>	Deploying to Heroku and Digital Ocean</td></tr>
-												</tbody>
-									</table>
-							</div>
-						</div>
-					</div>
-			</section>
-			
-			{{> team team=mentors}}
-			{{> coursefaq}}
-			{{> review-course-section}}
-			{{> map}}
-			{{> footer}}
+<body class="scroll-assist">
+{{> navbar}}
+	<!-- start new  -->
+<div class="p-md-5 p-4">
+	{{> courseMeta}}
+  	{{> liveCourseHighlights}}
+	{{> liveCourseSchedule}}											
+	{{> demoClass}}				
+ </div>
+<div class="main-container">
+	{{>alumniBanner}}
+	<div class="p-md-5 p-4 mb-5">
+		<h2 class="mb-5">What the students have to say?</h2>
+		<div class="all-center bg-gradient-orange mb-5" style="height: 450px;">
+		          <iframe data-v-43339ea6="" src="https://www.youtube.com/embed/1TytVIYYFVw" frameborder="0" loading="lazy"
+		            data-v-03fd9cc6="" class="w-100" style="height: 450px;"></iframe>
 		</div>
-		{{> scripts}}
-	</body>
+	{{> studentsSay}}
+	{{> floatingFooter}}
+</div>
+{{> scripts}}
+</body>
 </html>

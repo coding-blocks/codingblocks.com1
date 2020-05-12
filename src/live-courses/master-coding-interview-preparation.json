@@ -15,26 +15,74 @@
     "GURLEEN KAILEY",
     "PURUJIT BANSAL"
   ],
-  "courseEnroll": {
-    "upcomingBatches": "<strong>Upcoming Batches</strong><ul class=\"course-list\"><li>Regular batch at Pitampura starting June 9</li><li>Regular batch at Pitampura starting July 10</li></ul>",
-    "price": "20,000",
-    "highlights": [
+   "head": {
+    "links": [
       {
-        "icon": "pe-7s-cup",
-        "content": "Special Session on resume building and group discussions"
+        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "rel": "stylesheet"
+      },
+      {
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
       }
     ]
   },
-  "overview": {
-    "content": "<p>Coding Blocks introduces Live Interview Preparation Program. Our Live Classroom Program has been designed to be an exact replica of our Classroom Program. The course has been launched to cater to the needs of students at the time of the quarantine period. Our Live Interview Preparation Course is best suited for students looking to prepare for placements and internships.</p><p>The Live Interview Preparation Program would ensure that students get to learn from the best mentors at the comfort of their homes, saving them from all the traveling hassles. It would allow the students to get all benefits of classroom learning right inside their homes.</p><p>With our Live Program, you can avail benefits like immediate doubt resolution from mentor, recorded video lecture after each class, hand-written mentor notes, and a lot more.</p><p>Our Live Interview Preparation Program would cover topics such as Operating Systems, DBMS and System Design along with important coding interview questions asked in the interview process of companies like Google, Facebook, Amazon, Microsoft, Directi, Zomato etc. Resume building of this program will help you get shortlisted for the interview process.</p><p>Students can also opt for bundle sets for the bootcamp with C++ or JAVA. This is meant for the students willing to strengthen their Data Structures and Algorithm concepts. These will be a combination of Interview Preparation and one complete course on Advanced Data Structures and Algorithm using C++ or Advanced Data Structures and Algorithms using Java. Choose either of the Programme as a part of the bundle and avail a direct discount of ₹1000.</p>",
-        "buttonLink": "#register-advance",
-    "buttonLink2": "https://codingblocks.com/take-demo.html",
-    "buttonText2": "Take Demo Class"
+  "courseMeta": {
+    "icon": "https://minio.codingblocks.com/amoeba/215fa6ed-14f3-4d1e-87d5-d9d71cf0d0dd.svg",
+    "title": "Master Interview Prep for Bigwigs",
+    "price": "14,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=2047",
+    "demo-link": "https://codingblocks.com/take-demo.html"
   },
-     "sample": {
-    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
-    "heading": " "
+  "demoClass":[
+    {
+      "youtubeID":"kaHkyw_tAuk"
+    },
+    {
+      "youtubeID":"KHs6APbrTow"
+    },
+    {
+      "youtubeID":"DP7EFvFIGoY"
+    }
+  ],
+  "highlights":[{
+    "head":"Opportunities unlocked for learner",
+    "description":"Designed to bridge the gap between theoretical knowledge and industry-specific coding skills. Programmers will be well preparde for the interview processes of various big-wigs.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get placed at companies like Amazon, Google, Microsoft, Directi etc.",
+    "icon":""
   },
+  {
+    "head":"Hands on Projects and Problems:",
+    "description":"In-depth Discussion on Important Computer Science Topics Like OS, DBMS etc.Extensive Data Structures & Algorithmic Coverage.Assignments on the questions asked in Google and other BigWigs.",
+    "icon":""
+  },
+  {
+    "head":"Why choose CB Live:",
+    "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+    "icon":""
+  },
+  {
+    "head":"This course is essential for you:",
+    "description":" Any student with prior knowledge of fundamentals in either C++ or Java.Who do not have idea how to start preparing for BigWigs.Who wants the material at one place and needs expert help.",
+    "icon":""
+  }
+  ],
+  "studentsSay":[
+    {
+      "name":"Anshul Mittal",
+      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+    },
+    {
+      "name":"Sidharth Bansal",
+      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+    },
+    {
+      "name":"Samarth Jain",
+      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+    }
+  ],
   "schedule": [
     {
       "lecture": "Lecture 01",

@@ -1,114 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{{title}}</title>
-    {{> meta}}
-    {{> head}}
-    {{> courseSchema}}
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  <style>
+    body {
+      padding: 0
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Gilroy","Nunito Sans",sans-serif;
+    }
+  </style>
 </head>
+
 <body class="scroll-assist">
 {{> navbar}}
+    <!-- start new  -->
+<div class="p-md-5 p-4">
+    {{> courseMeta}}
+    {{> liveCourseHighlights}}
+    {{> liveCourseSchedule}}                                            
+    {{> demoClass}}             
+ </div>
 <div class="main-container">
-    {{> header}}
-    {{> overview}}
-    {{> coursesample}}
-	<a id="highlights" class="in-page-link" data-scroll-id="course-features"></a>
-	<section class="bg-dark">
-		<div class="container">
-			<div class="row">
-				{{#each courseHighlights}}
-					<div class="text-center col-sm-4">
-						<div class="feature">
-							<i class="icon fade-3-4 inline-block mb16 {{{icon}}}"></i>
-							<h3>{{{title}}}</h3>
-							<p>{{{content}}}</p>
-						</div>
-					</div>
-				{{/each}}
-			</div>
-		</div>
-	</section>
-	{{> liveClassBanner}}
-
-	<a id="contents" class="in-page-link"></a>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="uppercase mb64 text-center color-primary">Course Contents</h2>
-                    <div>
-						<div class="course-card-container">
-							<div class="content-row">
-								<div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-									<h3 class="topic">Recursion and Optimization</h3>
-									<hr>
-									<ul class="points-list">
-										<li>Recursion</li>
-										<li>Backtracking</li>
-										<li>Bitmasking</li>
-									</ul>
-								</div>
-								<div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-									<h3 class="topic">Data Structures and Algorithms</h3>
-									<hr>
-									<ul class="points-list">
-										<li>Stacks and Queues – Adva Questions</li>
-										<li>Linked Lists – Advanced Questions</li>
-										<li>Generic Trees</li>
-										<li>Binary Trees</li>
-										<li>Binary Search Trees</li>
-									</ul>
-								</div>
-								<div class="course-card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-									<h3 class="topic">Non Linear Data Structures</h3>
-									<hr>
-									<ul class="points-list">
-										<li>Heaps</li>
-										<li>Hash Tables</li>
-										<li>Generics</li>
-										<li>Graphs – Traversals, Minimum Spanning trees, Shortest path
-											algorithms
-										</li>
-										<li>Text Processing – Text Matching, Compression</li>
-										<li>Dynamic Programming</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-												<a id="advance-register" class="in-page-link"></a>
-
-						<section style="">
-							<div class="container">
-								<div class="row v-align-children">
-									<div class="col-md-4 col-sm-6">
-										<div class="pricing-table pt-1 text-center emphasis">
-											<div><span class="price">₹10,999</span></div>
-											<p class="lead">(23 lectures)</p>
-											<a class="btn btn-white btn-lg" href="https://dukaan.codingblocks.com/buy?productId=2035">Enroll Now</a>
-											<p>
-												<a href="/contactus">Contact Us</a>
-												<br>Call(Toll-free): 1800-2744-504
-											</p>
-										</div>
-									</div>
-								</div>
-
-							</div>
-						</section>
-					{{> liveCourseSchedule}}					
-                    </div>
-                </div>
-            </div>
+    {{>alumniBanner}}
+    <div class="p-md-5 p-4 mb-5">
+        <h2 class="mb-5">What the students have to say?</h2>
+        <div class="all-center bg-gradient-orange mb-5" style="height: 450px;">
+                  <iframe data-v-43339ea6="" src="https://www.youtube.com/embed/1TytVIYYFVw" frameborder="0" loading="lazy"
+                    data-v-03fd9cc6="" class="w-100" style="height: 450px;"></iframe>
         </div>
-
-    </section>
-
-    {{> team team=mentors}}
-    {{> coursefaq}}
-    {{> review-course-section}}
-    {{> map}}
-    {{> footer}}
+    {{> studentsSay}}
+    {{> floatingFooter}}
 </div>
+
 {{> scripts}}
 </body>
 </html>

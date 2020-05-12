@@ -18,165 +18,74 @@
     "image": "https://scontent.fdel1-2.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/17616635_1264424223627348_3167714152336588800_n.jpg",
     "description": "Introducing our newest courses on Data Structures and Algorithms starting this 2 June - 15 July. The course will all important data structures and algorithmic knowledge required for interviews."
   },
-  "header": {
-    "heading": "ALGO++",
-    "subHeading": "Advanced Data Structures and Algorithms in C++",
-    "breadcrumbs": [
+ "head": {
+    "links": [
       {
-        "linkText": "Highlights",
-        "link": "#highlights"
+        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "rel": "stylesheet"
       },
       {
-        "linkText": "Contents",
-        "link": "#contents"
-      },
-      {
-        "linkText": "FAQ",
-        "link": "#faq"
-      }
-    ],
-    "bgSrc": "../assets/images/cb/cover/algo_2.jpg"
-  },
-  "overview": {
-    "content": "<p>Let’s get the learning started. Coding Blocks is super excited to introduce Algo++ Live Classroom Program. The uniquely designed Algo++ Live Classroom Program covers advanced topics of Data Structures & Algorithms & is a complete package for all the budding programmers who aspire to gain expertise in Data Structures and Algorithms or are appearing for their internship/placement interviews. </p><p>The Live Algo ++ Program would ensure that students get to learn from the best mentors at the comfort of their homes, saving them from all the traveling hassles. It would allow the students to get all benefits of classroom learning right inside their homes.</p><p>With our Live Program, you can avail benefits like immediate doubt resolution from mentor, recorded video lecture after each class, hand-written mentor notes, and a lot more.</p><p>The Algo++ Live Program would cover practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with a comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc.</p>",
-     "buttonLink": "#advance-register",
-    "buttonLink2": "https://codingblocks.com/take-demo.html",
-    "buttonText2": "Take Demo Class"
-  },
-  "sample": {
-    "url": "https://www.youtube.com/embed/7L-X2YK6hKQ?controls=0",
-    "heading": " "
-  },
-  "courseHighlights": [
-    {
-      "icon": "et-line-edit",
-      "title": "Recursion &amp; Backtracking",
-      "content": "The course will start with complex recursion and back-tracking problems. You will be able to think recursively and implement the same in your code. You will be able to solve back-tracking problems."
-    },
-    {
-      "icon": "pe-7s-download",
-      "title": "Less Theory &amp; More Questions",
-      "content": "The course will lay emphasis on solving more no of questions based on data structures including topics likes bitmasking, DP, Graphs."
-    },
-    {
-      "icon": "et-line-speedometer",
-      "title": "Algorithmic Analysis",
-      "content": "You will learn the various problem solving paradigms like Divide and Conquer, Greedy Algorithms, Brute Force and Dynamic Programming. With ample no of questions, we will make ¬sure you will hit the right approach when solving problems in future."
-    },
-    {
-      "icon": "pe-7s-network",
-      "title": "Interview Preparation",
-      "content": "The main idea of the course is to get you ahead in interviews of IT companies. With rigorous practice of problems based on DS and Algorithms, the course will make sure you will do well in most of your interviews."
-    }
-  ],
-  "courseContents": [
-    {
-      "active": true,
-      "title": "Recursion &amp; Backtracking",
-      "contentTitle": "Recursion &amp; Backtracking",
-      "description": "The course will start with complex recursion and back-tracking problems. You will be able to think recursively and implement the same in your code. You will be able to solve recursion &amp; back-tracking problems.",
-      "points": [
-        "Recursion",
-        "Back-tracking",
-        "Space Time Complexity Analysis"
-      ]
-    },
-    {
-      "title": "Foundational DS",
-      "contentTitle": "",
-      "description": "We begin our journey by building a strong foundation for Data Structures.",
-      "points": [
-		  "Arrays & Bitmasking, Vectors",
-		  "Stacks, Queues Problems",
-		  "Linked Lists"
-      ]
-    },
-    {
-      "title": "Sorting, Searching and Hashing",
-      "contentTitle": "Sorting, Searching and Hashing",
-      "description": "We will learn various sorting and searching algorithms, we will learn to use Hashtables and solve various problems on the same. We will also see various variants of Binary Search.",
-      "points": [
-        "Divide & Conquer",
-        "Sorting Algorithms",
-        "Binary Search Variants",
-        "Bitmasking and Hashing"
-      ]
-    },
-    {
-      "title": "Advanced Data Structures",
-      "contentTitle": "Advanced Data Structures",
-      "description": "In this part we learn about how to solve complex problems using data structures.",
-      "points": [
-        "Stacks, Queues, Linked Lists",
-        "Trees &amp; Tries",
-        "Graphs",
-        "Heaps and Priority Queues",
-        "Binary Search Trees"
-      ]
-    },
-    {
-      "title": "DP vs Greedy Techniques",
-      "contentTitle": "DP vs Greedy Techniques",
-      "description": "This is the most important challenging part. Most students find DP problems tough to solve, with ample practice of problems on Dynamic Programming, students will find interview questions easy to solve. We will also see how Greedy algorithms are different from DP and when to use them by solving a number of problems.",
-      "points": [
-        "Greedy Techniques",
-        "Dynamic Programming"
-      ]
-    },
-    {
-      "title": "STL | Interview Problems",
-      "contentTitle": "STL | Interview Problems",
-      "description": "At the end of the course we will keep one hackathon on Interview Problems, We will provide you quick booklet on STL so that you can revise C++ Standard Template Library codes.",
-      "points": [
-        "Complete C++ STL",
-        "Interview Problems"
-      ]
-    }
-  ],
-  "faqs": [
-    {
-      "ques": "Who should do this course?",
-      "ans": "Students in 2nd-4th year looking forward to sit for internship/placement exams can pursue this course. Student must have prior programming experience in C++ and basic knowledge of data structures like arrays, stacks, queues, linked list."
-    },
-    {
-      "ques": "I had C++ in class 12th. Can I do this course?",
-      "ans": "If you are first year student, then we will recommend you to join our Launchpad Program which will cover data structures and algorithms in great detail. This course is not recommended for first years unless you have studied data structures."
-    },
-    {
-      "ques": "I didn’t have C++ in class 12 ? Can I do this course ?",
-      "ans": "No, this course is not for beginners in programming. You must have good hands on practice of programming fundamentals like arrays, stacks,queues, linked lists,pointers etc."
-    },
-    {
-      "ques": "Will this help me with Interviews ?",
-      "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time. Optimising space &amp; time is what most interviewers look for. If you are looking forward for only Competititve Programming Topics, then you should join our Competitive Programming bootcamp specially designed for ACM-ICPC."
-    }
-  ],
-  "courseEnroll": {
-    "registerBoxHeading": "",
-    "highlights": [
-      {
-        "icon": "et-line-search",
-        "content": "Online code Submission &amp; Evaluation"
-      },
-      {
-        "icon": "pe-7s-cup",
-        "content": "After course Hacakthon"
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
       }
     ]
   },
-  "mentors": {
-    "heading": "Mentors",
-    "content": "",
-    "flip": true,
-    "companies": false,
-    "contentCenter": true,
-    "teamMembers": [
-      "Pranav Khandelwal",
-	    "Rajesh Sachdev",
-      "Kartik Mathur",
-      "Prateek Narang"
-    ]
+  "courseMeta": {
+    "icon": "/assets/images/cb/logosc/color_algo.svg",
+    "title": "Master Algo++",
+    "price": "10,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=2024",
+    "demo-link": "https://codingblocks.com/take-demo.html"
   },
+  "demoClass":[
+    {
+      "youtubeID":"ZAZXvGWpccs"
+    },
+    {
+      "youtubeID":"_5uZWn1efa0"
+    },
+    {
+      "youtubeID":"HKqtOlHzD1M"
+    }
+  ],
+  "highlights":[{
+    "head":"Opportunities unlocked for learner",
+    "description":"Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc.",
+    "icon":""
+  },
+  {
+    "head":"Hands on Projects and Problems:",
+    "description":"Build real-world applications like Tic Tac Toe, Sudoku, Tower of Hanoi.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
+    "icon":""
+  },
+  {
+    "head":"Why choose CB Live:",
+    "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+    "icon":""
+  },
+  {
+    "head":"This course is essential for you:",
+    "description":"Someone who loves solving real world problems and wants to create a solution.",
+    "icon":""
+  }
+  ],
+  "studentsSay":[
+    {
+      "name":"Anshul Mittal",
+      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+    },
+    {
+      "name":"Sidharth Bansal",
+      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+    },
+    {
+      "name":"Samarth Jain",
+      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+    }
+  ],
    "schedule": [
     {
       "lecture": "Lecture 01",
@@ -269,6 +178,10 @@
     {
       "lecture":"Lecture 23",
       "description": "Graph 2 "
+    },
+    {
+      "lecture":"Lecture 24",
+      "description": "Graph 3 "
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",
