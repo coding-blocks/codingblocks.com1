@@ -28,7 +28,10 @@ $(function() {
       method: "POST",
       url: url,
       data: form.serialize(),
-      json: true
+      json: true,
+      xhrFields: {
+      withCredentials: true
+      }
     })
     
     request.done(function(response) { 
