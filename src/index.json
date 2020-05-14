@@ -300,7 +300,12 @@
 
     },
     {
-      "id": "live_course_digital_mark"
+      "id": "live_course_digital_mark",
+      "odd": true
+    },
+    {
+      "id": "live_competitive_programming",
+      "odd": true
     }
   ],
   "coursesSection": {

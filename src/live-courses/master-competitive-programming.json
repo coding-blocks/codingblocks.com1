@@ -1,0 +1,198 @@
+{
+  "id": "course46",
+  "name": "Master Competitive Programming",
+  "title": "Master Competitive Programming",
+  "header": {
+    "heading": "Competitive Programming",
+    "subHeading": "Ace Programming skills",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+   "head": {
+    "links": [
+      {
+        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "rel": "stylesheet"
+      },
+      {
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
+   "courseMeta": {
+    "icon": "https://minio.codingblocks.com/amoeba/587ae53b-6f4e-4afb-a2c5-b328a4dfbdf1.svg",
+    "title": "Master Competitive Programming",
+    "price": "14,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=2054",
+    "demo-link": "https://codingblocks.com/take-demo.html"
+  },
+   "demoClass":[
+    {
+      "youtubeID":"8GPxpeO81Hg"
+    },
+    {
+      "youtubeID":"8GPxpeO81Hg"
+    },
+    {
+      "youtubeID":"8GPxpeO81Hg"
+    }
+  ],
+  "studentsSay":[
+    {
+      "name":"Anshul Mittal",
+      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+    },
+    {
+      "name":"Sidharth Bansal",
+      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+    },
+    {
+      "name":"Samarth Jain",
+      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+    }
+  ],
+  "highlights":[{
+    "head":"Opportunities unlocked for learner",
+    "description":"To ensure your success in challenges such as Google CodeJam, Google Kickstart, ACM-ICPC, and more. You will master commonly used problem solving techniques, hone your mathematical analysis skills, and push the boundaries of your reasoning abilities.You will be able to construct algorithms involving Dynamic Programming, Bitmasking, Greedy Algorithms, and Divide & Conquer.The learner will learn optimizing their problem-solving process, and new algorithmic skills which will help them to solve problems quickly.",
+    "icon":""
+  },
+  {
+    "head":"Hands on Projects and Problems:",
+    "description":" Number Theory : Topics like Prime Sieve, Segmented Sieve, Euler's Totient Fn, Chinese Remainder Theorem etc.Birthday Paradox Problem, Pigeonhole Principle, Inclusion-Exclusion Principle and much more.DP and Graph Algorithms, Greedy Strategy, Segment Trees an important data structure for solving problems",
+    "icon":""
+  },
+  {
+    "head":"Why choose CB Live:",
+    "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook. ",
+    "icon":""
+  },
+  {
+    "head":"This course is essential for you:",
+    "description":" For all the coders who are looking forward to optimizing their problem-solving process, and learn new algorithmic skills which will help them to solve problems quickly.Who want to crack challenges such as Google CodeJam, Google Kickstart, ACM-ICPC, and more.Who wants the material at one place and needs expert help",
+    "icon":""
+  }
+ ],
+   "schedule": [
+    {
+      "lecture": "Lecture 01",
+      "description": "STL"
+    },
+    {
+      "lecture":"Lecture 02",
+      "description": "Mathematics"
+    },
+    {
+      "lecture":"Lecture 03",
+      "description": "Bitmanipulation"
+    },
+    {
+      "lecture":"Lecture 04",
+      "description": "Number Theory - 1"
+    },
+    {
+      "lecture":"Lecture 05",
+      "description": "Number Theory - 2"
+    },
+    {
+      "lecture":"Lecture 06",
+      "description": "Recursion and Backtracking - 1"
+    },
+    {
+      "lecture":"Lecture 07",
+      "description": "Recursion and Backtracking - 2"
+    },
+    {
+      "lecture":"Lecture 08",
+      "description": "Greedy and sorting based"
+    },
+    {
+      "lecture":"Lecture 09",
+      "description": "Divide and Conquer"
+    },
+    {
+      "lecture":"Lecture 10",
+      "description": "Stacks and Queue"
+    },
+    {
+      "lecture":"Lecture 11",
+      "description": "Stacks and Queue"
+    },
+    {
+      "lecture":"Lecture 12",
+      "description": "segment tree - 1"
+    },
+    {
+      "lecture":"Lecture 13",
+      "description": "segment tree - 2"
+    },
+    {
+      "lecture":"Lecture 14",
+      "description": "Fenwick tree"
+    },
+    {
+      "lecture":"Lecture 15",
+      "description": "DSU and Trie"
+    },
+    {
+      "lecture":"Lecture 16",
+      "description": "Mo's Algorithm"
+    },
+    {
+      "lecture":"Lecture 17",
+      "description": "Hash map and Heaps"
+    },
+    {
+      "lecture":"Lecture 18",
+      "description": "Trees"
+    },
+    {
+      "lecture":"Lecture 19",
+      "description": "Graphs"
+    },
+    {
+      "lecture":"Lecture 20",
+      "description": "Graphs"
+    },
+    {  
+      "lecture":"Lecture 21",
+      "description": "Dynamic Programming"
+    },
+    {
+      "lecture":"Lecture 22",
+      "description": "Dynamic Programming"
+    },
+    {
+      "lecture":"Lecture 23",
+      "description": "Dynamic Programming"
+    },
+    {
+      "lecture":"Lecture 24",
+      "description": "Dynamic Programming"
+    },
+    {
+      "lecture":"Lecture 25",
+      "description": "Dynamic Programming"
+    },
+     {
+      "lecture":"Lecture 26",
+      "description": "FFT"
+    }
+  ]
+}

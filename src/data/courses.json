@@ -949,6 +949,26 @@
       "batches": [
       ],
       "live-link": ""
+    },
+    {
+      "id": "live_competitive_programming",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Competitive Programming",
+      "price":"14,999",
+      "slashed-price":"16,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/587ae53b-6f4e-4afb-a2c5-b328a4dfbdf1.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "/live-courses/master-competitive-programming.html",
+      "description": [
+        ""
+      ],
+      "batches": [
+      ],
+      "live-link": "https://codingblocks.com/take-demo.html"
     }
   ]
 }

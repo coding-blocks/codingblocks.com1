@@ -208,6 +208,24 @@
       "mentor-img-1": "https://minio.codingblocks.com/amoeba/044d2224-7cc3-4aac-967f-f28d508af814",
       "mentor-img-2" : ""
 
+    },
+     {
+      "id": "live_competitive_programming",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Competitive Programming",
+      "price":"14,999",
+      "slashed-price":"16,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/587ae53b-6f4e-4afb-a2c5-b328a4dfbdf1.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "/live-courses/master-competitive-programming.html",
+      "live-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Prateek Narang, Apaar Kamal",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
+      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/61b35bc9-b2d2-494a-9740-c5057e89faba"
     }
   ],
   "liveCoursesRow1": [
@@ -242,7 +260,12 @@
 
     },
     {
-      "id": "live_course_digital_mark"
+      "id": "live_course_digital_mark",
+      "odd": true
+    },
+    {
+      "id": "live_competitive_programming",
+      "odd": true
     }
   ],
   "faqs": [
