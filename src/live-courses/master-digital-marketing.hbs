@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  <style>
+    body {
+      padding: 0
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Gilroy","Nunito Sans",sans-serif;
+    }
+  </style>
+</head>
+
+<body class="scroll-assist">
+{{> navbar}}
+    <!-- start new  -->
+<div class="p-md-5 p-4">
+    {{> courseMeta}}
+    {{> liveCourseHighlights}}
+    {{> liveCourseSchedule}}                                            
+    {{> demoClass}}             
+ </div>
+<div class="main-container">
+    {{>alumniBanner}}
+    <div class="p-md-5 p-4 mb-5">
+        <h2 class="mb-5">What the students have to say?</h2>
+        <div class="all-center bg-gradient-orange mb-5" style="height: 450px;">
+                  <iframe data-v-43339ea6="" src="https://www.youtube.com/embed/1TytVIYYFVw" frameborder="0" loading="lazy"
+                    data-v-03fd9cc6="" class="w-100" style="height: 450px;"></iframe>
+        </div>
+    {{> studentsSay}}
+    {{> floatingFooter}}
+</div>
+
+{{> scripts}}
+</body>
+</html>

@@ -1,0 +1,139 @@
+{
+  "id": "course46",
+  "name": "Master Digital Marketing",
+  "title": "Master Digital Marketing",
+  "header": {
+    "heading": "Digital Marketing",
+    "subHeading": "Ace Digital Marketing",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+   "head": {
+    "links": [
+      {
+        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "rel": "stylesheet"
+      },
+      {
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
+   "courseMeta": {
+    "icon": "https://minio.codingblocks.com/amoeba/b8955c5d-ebaa-4667-a9bd-84bd0c664063.svg",
+    "title": "Master Digital Marketing",
+    "price": "9,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=2016",
+    "demo-link": "https://codingblocks.com/take-demo.html"
+  },
+   "demoClass":[
+    {
+      "youtubeID":"4dGzvxTapaM"
+    },
+    {
+      "youtubeID":"7eIwTj2xGHQ"
+    }
+  ],
+  "studentsSay":[
+    {
+      "name":"Anshul Mittal",
+      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+    },
+    {
+      "name":"Sidharth Bansal",
+      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+    },
+    {
+      "name":"Samarth Jain",
+      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+    }
+  ],
+  "highlights":[{
+    "head":"Opportunities unlocked for learner",
+    "description":"You will get proficient in all aspects of Digital and Growth hacking, such as organic, paid, ads optimization, nurturing, marketing analytics, etc.You will learn a data-driven marketing approach & unconventional growth-hack strategies.You will learn advanced topics such as Google Tag Manager, Data Studio, Fb and AdWords ad scripts.You will get 100% Placement assistance in reputed organizations through our specialized hiring portal Hiring Blocks after completing the course.",
+    "icon":""
+  },
+  {
+    "head":"Hands on Projects and Problems:",
+    "description":"Build Live Ad Campaigns on FB & AdWords with significant Live budget.Make your own website and learn how to promote it.Use plethora of marketing tools (over 50+) ",
+    "icon":""
+  },
+  {
+    "head":"Why choose CB Live:",
+    "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step. Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook. ",
+    "icon":""
+  },
+  {
+    "head":"This course is essential for you:",
+    "description":"Who does not have familiarity and ability to write code in any programming language.Who wants to advance their career as an overall marketeer.Who loves to play with data and has analytical skills.Who wants to start their entrepreneurial journey .",
+    "icon":""
+  }
+ ],
+   "schedule": [
+    {
+      "lecture": "Lecture 01",
+      "description": "Marketing Framework"
+    },
+    {
+      "lecture":"Lecture 02",
+      "description": "Content Marketing"
+    },
+    {
+      "lecture":"Lecture 03",
+      "description": "Search Engine Optimization"
+    },
+    {
+      "lecture":"Lecture 04",
+      "description": "World Of Websites"
+    },
+    {
+      "lecture":"Lecture 05",
+      "description": "Search Engine Marketing"
+    },
+    {
+      "lecture":"Lecture 06",
+      "description": "Social Media Marketing"
+    },
+    {
+      "lecture":"Lecture 07",
+      "description": "Email Marketing"
+    },
+    {
+      "lecture":"Lecture 08",
+      "description": "Target Your Customers Again: Remarketing"
+    },
+    {
+      "lecture":"Lecture 09",
+      "description": "Google Analytics: Track and Optimize"
+    },
+    {
+      "lecture":"Lecture 10",
+      "description": "Google Tag Manager"
+    },
+    {
+      "lecture":"Lecture 11",
+      "description": "Adwords Conversion Tracking using GTM"
+    },
+    {
+      "lecture":"Lecture 12",
+      "description": "Digital Marketing Strategy"
+    }
+  ]
+}
