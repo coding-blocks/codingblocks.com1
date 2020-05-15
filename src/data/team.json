@@ -269,6 +269,14 @@
         "Asif is Product Specialist at Coding Blocks, supporting both sales and technical activities. He is responsible for working closely with operations and R&D teams. He earned his bachelor's degree in Information Technology from MAIT."
     },
     {
+      "name": "Avantika Srivastava",
+      "role": "Instructor cum Product Engineer",
+      "imgSrc":"/assets/images/cb/team/avantika.png",
+      "imgAlt": "Avantika Jain",
+      "bio":
+        "Sarthak is an Active Machine Learning Expert. She had completed her masters from IIIT DELHI, and now working as Machine Learning engineer at Qualcomm."
+    },
+    {
       "name": "Sarthak Jain",
       "role": "Tester and Company Growth Strategist",
       "imgSrc":"/assets/images/cb/team/Sarthak.jpg",
@@ -287,12 +295,24 @@
       "imgSrc": "/assets/images/cb/team/Mansi.jpg",
       "imgAlt": "Mansi Marwaha"
     },
+    {
+      "name": "Neelam Sharma",
+      "role": "Teaching Assistant",
+      "imgSrc": "/assets/images/cb/team/neelam.jpg.png",
+      "imgAlt": "Neelam Sharma"
+    },
     
+    {
+      "name": "Jatin Virmani",
+      "role": "Community Manager",
+      "imgSrc": "/assets/images/cb/team/jatin.png"
+    },
     {
       "name": "Samuel",
       "role": "Support Staff",
       "imgSrc": "/assets/images/cb/team/staff03.jpg"
     },
+    
     {
       "name": "Manish",
       "role": "Support Staff",
