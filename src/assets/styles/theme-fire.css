@@ -230,8 +230,6 @@ footer.bg-dark li,
 .parallax .slides li > .background-image-holder{top:0 !important;transform:none !important;-webkit-transform:none !important;}
 }
 .btn{font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;border:2px solid #fc4f4f;padding:0 26px;height:40px;min-width:150px;line-height:36px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;border-radius:0;color:#fc4f4f;text-align:center;transition:all 0.3s ease;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;margin-right:8px;margin-bottom:24px;}
-.btn:last-child,
-.btn:last-of-type{margin-right:0;}
 .btn:hover{background:#fc4f4f;color:#fff;}
 .btn-icon{width:40px;height:40px;font-size:20px;min-width:0;padding:0;line-height:38px;}
 .btn-lg{height:50px;line-height:46px;min-width:200px;}
