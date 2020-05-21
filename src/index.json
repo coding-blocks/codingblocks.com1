@@ -250,36 +250,18 @@
       "id": "live_course_java"
     },
     {
-      "id": "live_course_nodejs",
+      "id": "live_course_ds",
       "odd": true
     }
   ],
   "liveCoursesRow2": [
     {
-      "id": "live_course_ds",
+      "id": "live_course_alg_java",
       "odd": true
     },
-    {
-      "id": "live_course_alg_java"
-    },
-    {
-      "id": "live_course_intprep",
-      "odd": true
-    }
-  ],
-  "liveCoursesRow3": [
-     {
-      "id": "live_course_alg_plus_plus",
-      "odd": true
+   {
+      "id": "live_course_alg_plus_plus"
 
-    },
-    {
-      "id": "live_course_digital_mark",
-      "odd": true
-    },
-    {
-      "id": "live_competitive_programming",
-      "odd": true
     }
   ],
   "coursesSection": {

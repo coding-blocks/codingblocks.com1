@@ -71,28 +71,12 @@
           "link": "/live-courses/master-data-science-with-python.html"
         },
         {
-          "title": "NodeJS FullStack Web",
-          "link": "/live-courses/master-web-development-nodejs.html"
-        },
-        {
-          "title": "Interview Preparation",
-          "link": "/live-courses/master-coding-interview-preparation.html"
-        },
-        {
           "title": "LIVE ALGO.JAVA - DATA STRUCTURES & ALGORITHMS",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
         },
         {
           "title": "LIVE AlGO++",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html"
-        },
-        {
-          "title": "LIVE COMPETITIVE PROGRAMMING",
-          "link": "live-courses/master-Competitive-programming.html"
-        },
-        {
-          "title": "LIVE DIGITAL MARKETING",
-          "link": "live-courses/master-digital-marketing.html"
         }
       ]
     },

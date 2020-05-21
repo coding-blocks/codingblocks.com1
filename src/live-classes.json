@@ -95,26 +95,6 @@
 
     },
     {
-      "name": "Master FullStack Web with NodeJS",
-      "id": "live_course_nodejs",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "price": "16,999",
-      "slashed-price": "19,999",
-      "badge": "",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/8363cfd5-40f7-499a-bd8d-33541baa0a5f.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 01 JUNE",
-      "link": "/live-courses/master-web-development-nodejs.html",
-      "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Arnav Gupta",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
-      "mentor-img-2" : ""
-
-
-    },
-    {
      "name": "Master Data Science with Python",
       "id": "live_course_ds",
       "rating": "4.5",
@@ -131,25 +111,6 @@
       "mentors": "Prateek Narang,Anuj Garg",
       "mentor-img-1": "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
       "mentor-img-2" : "/assets/images/cb/team/c_anuj.jpg"
-
-    },
-    {"name": "Master Interview Prep for Bigwigs",
-      "id": "live_course_intprep",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "price": "14,999",
-      "slashed-price": "16,999",
-      "badge": "",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/215fa6ed-14f3-4d1e-87d5-d9d71cf0d0dd.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 01 JUNE",
-      "link": "/live-courses/master-coding-interview-preparation.html",
-      "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Prateek Narang,Arnav Gupta",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
-      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff"
-
 
     },
     {
@@ -189,43 +150,6 @@
       "mentor-img-1": "/assets/images/cb/team/pranav.jpg",
       "mentor-img-2" : "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9"
 
-    },
-    {
-      "id": "live_course_digital_mark",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "name": "Master Digital Marketing",
-      "price":"9,999",
-      "slashed-price":"13,999",
-      "badge": "",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/b8955c5d-ebaa-4667-a9bd-84bd0c664063.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 01 JUNE",
-      "link": "/live-courses/master-digital-marketing.html",
-      "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Ishan Manchanda",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/044d2224-7cc3-4aac-967f-f28d508af814",
-      "mentor-img-2" : ""
-
-    },
-     {
-      "id": "live_competitive_programming",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "name": "Master Competitive Programming",
-      "price":"14,999",
-      "slashed-price":"16,999",
-      "badge": "",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/587ae53b-6f4e-4afb-a2c5-b328a4dfbdf1.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 01 JUNE",
-      "link": "/live-courses/master-competitive-programming.html",
-      "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Prateek Narang, Apaar Kamal",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
-      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/61b35bc9-b2d2-494a-9740-c5057e89faba"
     }
   ],
   "liveCoursesRow1": [

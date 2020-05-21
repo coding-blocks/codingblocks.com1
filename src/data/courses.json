@@ -831,26 +831,6 @@
       "live-link": "https://codingblocks.com/take-demo.html"
     },
     {
-      "name": "Master FullStack Web with NodeJS",
-      "id": "live_course_nodejs",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "price": "16,999",
-      "slashed-price": "19,999",
-      "badge": "",
-      "imgSrc": "/assets/images/cb/logosc/color_nodejs.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 01 JUNE",
-      "link": "/live-courses/master-web-development-nodejs.html",
-      "description": [
-        ""
-      ],
-      "batches": [
-      ],
-      "live-link": "https://codingblocks.com/take-demo.html"
-    },
-    {
       "name": "Master Data Science with Python",
       "id": "live_course_ds",
       "rating": "4.5",
@@ -863,26 +843,6 @@
       "lectures": "",
       "badge": "STARTS 01 JUNE",
       "link": "/live-courses/master-data-science-with-python.html",
-      "description": [
-        ""
-      ],
-      "batches": [
-      ],
-      "live-link": "https://codingblocks.com/take-demo.html"
-    },
-    {
-      "name": "Master Interview Prep for Bigwigs",
-      "id": "live_course_intprep",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "price": "14,999",
-      "slashed-price": "16,999",
-      "badge": "",
-      "imgSrc": "/assets/images/cb/logosc/color_cp.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 01 JUNE",
-      "link": "/live-courses/master-coding-interview-preparation.html",
       "description": [
         ""
       ],
@@ -923,46 +883,6 @@
       "lectures": "",
       "badge": "STARTS 01 JUNE",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
-      "description": [
-        ""
-      ],
-      "batches": [
-      ],
-      "live-link": "https://codingblocks.com/take-demo.html"
-    },
-    {
-      "id": "live_course_digital_mark",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "name": "Master Digital Marketing",
-      "price":"9,999",
-      "slashed-price":"13,999",
-      "badge": "",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/b8955c5d-ebaa-4667-a9bd-84bd0c664063.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 01 JUNE",
-      "link": "/live-courses/master-digital-marketing.html",
-      "description": [
-        ""
-      ],
-      "batches": [
-      ],
-      "live-link": "https://codingblocks.com/take-demo.html"
-    },
-    {
-      "id": "live_competitive_programming",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "name": "Master Competitive Programming",
-      "price":"14,999",
-      "slashed-price":"16,999",
-      "badge": "",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/587ae53b-6f4e-4afb-a2c5-b328a4dfbdf1.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 01 JUNE",
-      "link": "/live-courses/master-competitive-programming.html",
       "description": [
         ""
       ],
