@@ -889,6 +889,26 @@
       "batches": [
       ],
       "live-link": "https://codingblocks.com/take-demo.html"
+    },
+    {
+      "id": "live_course_digital_mark",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Digital Marketing",
+      "price":"9,999",
+      "slashed-price":"13,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/b8955c5d-ebaa-4667-a9bd-84bd0c664063.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "/live-courses/master-digital-marketing.html",
+      "description": [
+        ""
+      ],
+      "batches": [
+      ],
+      "live-link": "https://codingblocks.com/take-demo.html"
     }
   ]
 }

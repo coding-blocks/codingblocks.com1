@@ -150,6 +150,25 @@
       "mentor-img-1": "/assets/images/cb/team/pranav.jpg",
       "mentor-img-2" : "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9"
 
+    },
+    {
+      "id": "live_course_digital_mark",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Digital Marketing",
+      "price":"9,999",
+      "slashed-price":"13,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/b8955c5d-ebaa-4667-a9bd-84bd0c664063.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 01 JUNE",
+      "link": "/live-courses/master-digital-marketing.html",
+      "live-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Ishan Manchanda",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/044d2224-7cc3-4aac-967f-f28d508af814",
+      "mentor-img-2" : ""
+
     }
   ],
   "liveCoursesRow1": [
