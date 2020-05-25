@@ -1,0 +1,28 @@
+{
+  "title": "Events | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": ""
+    }
+  ],
+  "head": {
+    "scripts": [
+      {
+        "src": "/assets/scripts/events-register.js"
+      }
+    ]
+  },
+  "header": {
+    "heading": "Events",
+    "subHeading": "Coding Blocks",
+    "bgSrc": "../assets/images/cb/cover/algo_2.jpg"
+  },
+  "events": {
+    "upcoming": true,
+    "upcomingHeading": "Upcoming Events",
+    "past": true,
+    "pastHeading": "Past Events",
+    "pastLimit": 6
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> scripts}}
+  {{> head}}
+</head>
+
+<body class="scroll-assist">
+  {{> navbar}}
+  <div class="main-container">
+    {{> header}}
+    <div class="container mb-5" style="margin-bottom: 5rem;">
+      <div class="event-registration">
+        <img src="" alt="event-banner">
+
+        <p class="about"></p>
+        <p class="description"></p>
+        <p class="certificate-note bold">Note: Certificate will be provided for this event</p>
+
+        <form id="event-registration-form" action="" method="POST">
+          <input class="underline-input font-sm w-100 pb-2 mb-5" type="text" name="firstname" placeholder="First Name" required>
+          <input class="underline-input font-sm w-100 pb-2 mb-5" type="text" name="lastname" placeholder="Last Name">
+          <input class="underline-input font-sm w-100 pb-2 mb-5" type="email" name="email" placeholder="Email">
+
+          
+          <button type="submit">Register</button>
+          
+        </form>
+        <div id="registration-error" class="red display-none">
+          An error occured while registering you. Please try again later.
+        </div>
+
+        <h3 class="green display-none" id="event-registration-form-success">
+          Your Registration has been received successfully
+        </h3>
+      </div>
+    </div>
+    {{> map}}
+    {{> footer}}
+  </div>
+  {{> eventsScript}}
+</body>
+
+</html>
