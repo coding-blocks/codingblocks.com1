@@ -10,15 +10,15 @@
 
 <body class="scroll-assist">
   {{> navbar}}
-  <div class="main-container">
-    {{> header}}
+  <div class="main-container" style="margin-top: 5rem;">
     <div class="container mb-5" style="margin-bottom: 5rem;">
-      <div class="event-registration">
+      <h3 id="registrations-closed" class="display-none text-align-center">Registrations for this event has been closed</h3>
+      <div class="event-registration display-none">
         <img src="" alt="event-banner">
 
         <p class="about"></p>
         <p class="description"></p>
-        <p class="certificate-note bold">Note: Certificate will be provided for this event</p>
+        <p class="certificate-note bold display-none">Note: Certificate will be provided for this event</p>
 
         <form id="event-registration-form" action="" method="POST">
           <input class="underline-input font-sm w-100 pb-2 mb-5" type="text" name="firstname" placeholder="First Name" required>

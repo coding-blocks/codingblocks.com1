@@ -8,14 +8,20 @@ $(function(){
   })
 
   event.done(function (response) {
-    $('.event-registration > img').attr('src', response.event.banner)
-    $('.event-registration > form').attr('action', 'https://app.codingblocks.com/events/' + response.event.id + '/register')
-    $('.event-registration > .about').html(response.event.about)
-    $('.event-registration > .description').html(response.event.description)
-    if(response.event.is_certificate_event) {
-      $('event-registration > .certificate-note').show()      
+    var event = response.event
+    if(event.is_registration_closed || event.status === 'unpublished') {
+      $('#registrations-closed').removeClass('display-none')
+    } else {
+      $('.event-registration').removeClass('display-none')
+    }
+    $('.event-registration > img').attr('src', event.banner)
+    $('.event-registration > form').attr('action', 'https://app.codingblocks.com/events/' + event.id + '/register')
+    $('.event-registration > .about').html(event.about)
+    $('.event-registration > .description').html(event.description)
+    if(event.is_certificate_event) {
+      $('.certificate-note').removeClass('display-none')
     } else {      
-      $('event-registration > .certificate-note').hide()
+      $('.certificate-note').addClass('display-none')
     }    
   })
 
