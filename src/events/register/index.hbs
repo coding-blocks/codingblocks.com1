@@ -21,9 +21,10 @@
         <p class="certificate-note bold display-none">Note: Certificate will be provided for this event</p>
 
         <form id="event-registration-form" action="" method="POST">
-          <input class="underline-input font-sm w-100 pb-2 mb-5" type="text" name="firstname" placeholder="First Name" required>
+          <input class="underline-input font-sm w-100 pb-2 mb-5" type="text" name="firstname" placeholder="First Name *" required>
           <input class="underline-input font-sm w-100 pb-2 mb-5" type="text" name="lastname" placeholder="Last Name">
-          <input class="underline-input font-sm w-100 pb-2 mb-5" type="email" name="email" placeholder="Email">
+          <input class="underline-input font-sm w-100 pb-2 mb-5" type="email" name="email" placeholder="Email *" required>
+          <input type="text" name="phoneNumber" class="underline-input font-sm w-100 pb-2 mb-5" pattern="[0-9]{10}" placeholder="10 digit Contact Number *" required>
 
           
           <button type="submit">Register</button>
