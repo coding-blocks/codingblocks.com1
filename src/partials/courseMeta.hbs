@@ -1,28 +1,34 @@
 {{#with courseMeta}}
-  <div class="row no-gutters justify-content-between align-items-center pb-5 border-bottom mb-5">
-    <div class="col-md-8 col-12 mb-md-0 mb-4">
-      <div class="row no-gutters align-items-center d-sm-flex d-none">
-        <div class="p-5 all-center" style="height: 200px; width: 200px;">
-          <img src="{{icon}}">
-        </div>
-        <div class="flex-1 pl-5">
-          <h1>{{title}}</h1>
-          <h2 class="gradient-text-orange">&#8377; {{price}}</h2>
+  <div class="border-card p-md-5 p-4 bg-gradient-cyan white mb-5">
+    <div class="row no-gutters justify-content-between">
+      <div class="col-sm-8 order-sm-1 order-2">
+        <div class="bold" style="font-size: 2.85rem;">{{title}}</div>
+        <div class="mt-4 font-lg">Start from Basics, become a C++ Master!</div>
+        <div class="my-5">
+          <div class="mentor-row d-flex align-items-center">
+            <div class="mentor-row__image-container">
+              <img src="{{icon}}"
+                alt="photo ofRishab Kapoor" class="mentor-row__image-container__mentor-image s-60x60">
+              <img src="https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48"
+                alt="photo ofGarima Chhikara" class="mentor-row__image-container__mentor-image s-60x60"></div>
+            <div class="mentor-row__text-container">
+              <div class="font-md">Instructors</div>
+              <h4 class="bold">Rishab Kapoor, Garima Chhikara</h4>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row no-gutters align-items-center d-sm-none d-flex">
-        <div class="round border p-4 all-center" style="height: 100px; width: 100px;">
-          <img src="{{icon}}">
-        </div>
-        <div class="flex-1 pl-4">
-          <h2>{{title}}</h2>
-          <h4 class="gradient-text-orange">&#8377; {{price}}</h4>
-        </div>
+      <div class="order-sm-2 order-1 mb-sm-0 mb-3">
+        <img src="https://minio.codingblocks.com/amoeba/e5171581-41d8-46f5-97bf-c47db8214f22.png"
+          class="round border b-white border-2 s-130x130">
       </div>
     </div>
-    <div class="row no-gutters justify-content-center flex-1">
-      <a class="button-orange button-solid mr-4" href="{{course-link}}">Register Now</a>
-      <a href="/take-demo.html" class="button-orange button-dashed">Take Demo</a>
+    <div class="row no-gutters align-items-center justify-content-between">
+      <h4 class="bold">Batch Starts 1st June 2020</h4>
+      <div class="d-inline-flex align-items-center">
+        <span class="font-mdxl bold">&#8377;&nbsp;{{price}}</span>
+        <span class="font-xl bold del-text-grey pl-3"><del>&#8377;&nbsp;18999</del></span>
+      </div>
     </div>
   </div>
 {{/with}}

@@ -13,7 +13,7 @@
   "head": {
     "links": [
       {
-        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "href": "https://unpkg.com/@coding-blocks/motley@0.9.0/dist/app.min.css",
         "rel": "stylesheet"
       },
       {
@@ -46,6 +46,33 @@
       "youtubeID":"tl9jpnzOTNE"
     }
   ],
+  "buyDemoSyllabus":{
+        "demo-link": "/take-demo.html",
+        "buy-link":"https://dukaan.codingblocks.com/buy?productId=2020",
+        "syllabus-link":"",
+        "highlights":[
+          {
+            "head":"Opportunities unlocked for learner",
+            "description":"Develop a strong approach to coding languages and learn any language further.Learn from scratch with standard libraries and inner algorithms to understand what goes “under the hood”.Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
+                "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+          },
+          {
+            "head":"Hands on Projects and Problems:",
+            "description":"Build real-world applications in C++ like Google Maps PathFinder, build games like Tic Tac Toe, Sudoku.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm.",
+            "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+          },
+          {
+            "head":"Why choose CB Live:",
+            "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+            "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+          },
+          {
+            "head":"Certificate Course",
+            "description":"Learners will get Course certificate from Coding Blocks upon completion of the program. Both e-certificate and physical copies of the certificate are provided and can be used on LinkedIn profiles and resumes.",
+            "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
+          }
+        ]
+  },
   "studentsSay":[
     {
       "name":"Anshul Mittal",

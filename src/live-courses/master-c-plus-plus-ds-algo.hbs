@@ -10,29 +10,116 @@
     }
     h1, h2, h3, h4, h5, h6 {
       font-family: "Gilroy","Nunito Sans",sans-serif;
+      font-color: #ffffff;
+    }
+    justify-content{
+      space-between !important
     }
   </style>
 </head>
 
-<body class="scroll-assist">
+<body>
 {{> navbar}}
-	<!-- start new  -->
-<div class="p-md-5 p-4">
-	{{> courseMeta}}
-  	{{> liveCourseHighlights}}
-	{{> liveCourseSchedule}}											
-	{{> demoClass}}				
- </div>
-<div class="main-container">
-	{{>alumniBanner}}
-	<div class="p-md-5 p-4 mb-5">
-		<h2 class="mb-5">What the students have to say?</h2>
-		<div class="all-center bg-gradient-orange mb-5" style="height: 450px;">
-		          <iframe data-v-43339ea6="" src="https://www.youtube.com/embed/1TytVIYYFVw" frameborder="0" loading="lazy"
-		            data-v-03fd9cc6="" class="w-100" style="height: 450px;"></iframe>
-		</div>
-	{{> studentsSay}}
-	{{> floatingFooter}}
+<br>
+<br>	
+<br>
+<br>
+<div class="px-md-5 px-4 live-courses mb-5">
+  <div class="border-card p-md-5 p-4 bg-gradient-cyan white mb-5">
+    <div class="row no-gutters justify-content-between">
+      <div class="col-sm-8 order-sm-1 order-2">
+        <div class="bold" style="font-size: 2.85rem;">Master DS and Algo with C++</div>
+        <div class="mt-4 font-lg">Start from Basics, become a C++ Master!</div>
+        <div class="my-5">
+          <div class="mentor-row d-flex align-items-center">
+            <div class="mentor-row__image-container">
+              <img src="https://minio.codingblocks.com/amoeba/4078be4e-72e1-451a-9c4e-9223d2bbcc2c"
+                alt="photo ofRishab Kapoor" class="mentor-row__image-container__mentor-image s-60x60">
+              <img src="https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48"
+                alt="photo ofGarima Chhikara" class="mentor-row__image-container__mentor-image s-60x60"></div>
+            <div class="mentor-row__text-container">
+              <div class="font-md">Instructors</div>
+              <h4 class="bold">Rishab Kapoor, Garima Chhikara</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-sm-2 order-1 mb-sm-0 mb-3">
+        <img src="https://minio.codingblocks.com/amoeba/e5171581-41d8-46f5-97bf-c47db8214f22.png"
+          class="round border b-white border-2 s-130x130">
+      </div>
+    </div>
+    <div class="row no-gutters align-items-center justify-content-between">
+      <h4 class="bold">Batch Starts 1st June 2020</h4>
+      <div class="d-inline-flex align-items-center">
+        <span class="font-mdxl bold">&#8377;&nbsp;12499</span>
+        <span class="font-xl bold del-text-grey pl-3"><del>&#8377;&nbsp;18999</del></span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-8 mb-lg-0 mb-5">
+      <div class="border-card p-md-5 p-4 mb-5">
+        <div class="font-md">
+          <strong>Summary</strong>
+          <br /><br />
+          First of its kind, our C++ Live course for beginners is a uniquely designed course in Data Structures and
+          Algorithms to aid your journey right from the beginning to the very end in becoming the most skilled software
+          engineers across the globe.Through these Live classes, the students will not only become more efficient with
+          their solutions by optimizing space and time but will also provide them a firm base to excel in all their
+          programming interviews. The core focus of these C++ classes is to maintain an equilibrium between theory and
+          practical, thus providing the programmers with an ample amount of practice of questions based on Sorting,
+          Searching, Greedy Algorithms, Divide and Conquer Algorithms and more.
+          <br /><br />
+          <strong>Highlights</strong>
+          <br /><br />
+          <ul class="list-style-gradient-bullet my-0">
+            <li>Extensive Data Structures & Algorithmic Coverage</li>
+            <li>500+ Video Lectures and Code Challenges</li>
+            <li>Hint Videos for Complex Problems</li>
+            <li>Lifetime Assignment Access</li>
+            <li>Basics & Advanced Coding Topics for Interviews</li>
+            <li>Expert Doubt Support</li>
+          </ul>
+          <br />
+          <strong>Pre-requisites</strong>
+          <br /><br />
+          There are no pre-requisites to join this course.
+          </pre>
+        </div>
+      </div>
+    	{{>liveCourseSchedule}}
+      <div class="border-card bg-grey p-md-5 p-4">
+        <div class="font-md bold mb-5">About Mentors</div>
+        <div class="row no-gutters instructor-row">
+          <img src="https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9" class="s-50x50 round">
+          <div class="ml-3 flex-1">
+            <div class="font-mds bold">Prateek Narang</div>
+            <a href="mailto:prateek@codingblocks.com" class="med-grey mb-2">prateek@codingblocks.com</a>
+            <div class="t-align-j">
+              <div class="markdown-body">
+                <p>Currently doing his Masters in Machine Learning from IIT Delhi, Prateek is an ace programmer who has
+                  worked with SanDisk and HackerEarth in the past. He has also won prestigious hackathons including
+                  Google’s Code For India and Smart City Hackathon. A Computer Science Graduate from DTU, he is highly
+                  popular among students for his teaching methods. His interactive CV (<a
+                    href="http://www.prateeknarang.com">www.prateeknarang.com</a>) is also well known in 120+ countries.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{>buyDemoSyllabus}}
+
+      <!--   <h2 class="mb-5">What the students have to say?</h2>
+
+       <div class="border-card all-center bg-gradient- mb-5" style="height: 450px;">
+                  <iframe data-v-43339ea6="" src="https://www.youtube.com/embed/1TytVIYYFVw" frameborder="0" loading="lazy"
+                    data-v-03fd9cc6="" class="w-100" style="height: 450px;"></iframe>
+       </div>
+    {{> studentsSay}} -->
+    {{> floatingFooter}}
 </div>
 
 {{> scripts}}
