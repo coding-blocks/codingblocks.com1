@@ -70,9 +70,9 @@
       "badge": "STARTS 01 JUNE",
       "link": "/live-courses/master-c-plus-plus-ds-algo.html",
       "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Prateek Narang,Kartik Mathur",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
-      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91"
+      "mentors": "Sharad Nailwal,Pranav Khandelwal",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/c1b7b119-4116-4e1c-9ba5-e111b314b60c",
+      "mentor-img-2" : "/assets/images/cb/team/pranav.jpg"
 
     },
     {
@@ -86,12 +86,12 @@
       "imgSrc": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
       "imgAlt": "",
       "lectures": "",
-      "badge": "STARTS 01 JUNE",
+      "badge": "STARTS 02 JUNE",
       "link": "/live-courses/master-java-for-beginners.html",
       "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Rishab Kapoor,Garima Chhikara",
+      "mentors": "Rishab Kapoor,Shubham Rawat",
       "mentor-img-1": "https://minio.codingblocks.com/amoeba/4078be4e-72e1-451a-9c4e-9223d2bbcc2c",
-      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48"
+      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/ba0a964a-593f-4066-832f-2f47c0e05e4b"
 
     },
     {
@@ -108,9 +108,9 @@
       "badge": "STARTS 01 JUNE",
       "link": "/live-courses/master-data-science-with-python.html",
       "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Prateek Narang,Anuj Garg",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
-      "mentor-img-2" : "/assets/images/cb/team/c_anuj.jpg"
+      "mentors": "Mohit Uniyal,Manu Pillai",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d",
+      "mentor-img-2" : ""
 
     },
     {
@@ -124,12 +124,12 @@
       "imgSrc": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
       "imgAlt": "",
       "lectures": "",
-      "badge": "STARTS 01 JUNE",
+      "badge": "STARTS 16 JUNE",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
       "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Garima Chhikara, Anuj Garg",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48",
-      "mentor-img-2" : "/assets/images/cb/team/c_anuj.jpg"
+      "mentors": "Shubham Rawat,Rishab Kapoor",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/ba0a964a-593f-4066-832f-2f47c0e05e4b",
+      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/4078be4e-72e1-451a-9c4e-9223d2bbcc2c"
 
     },
     {
@@ -143,12 +143,12 @@
       "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
       "imgAlt": "",
       "lectures": "",
-      "badge": "STARTS 01 JUNE",
+      "badge": "STARTS 15 JUNE",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
       "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Pranav Khandelwal, Prateek Narang",
-      "mentor-img-1": "/assets/images/cb/team/pranav.jpg",
-      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9"
+       "mentors": "Sharad Nailwal,Pranav Khandelwal",
+      "mentor-img-1": "https://minio.codingblocks.com/amoeba/c1b7b119-4116-4e1c-9ba5-e111b314b60c",
+      "mentor-img-2" : "/assets/images/cb/team/pranav.jpg"
 
     },
     {
