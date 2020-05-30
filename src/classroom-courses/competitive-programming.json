@@ -1,11 +1,15 @@
 {
   "id": "course20",
   "name": "Competitive Programming",
-  "title": "Competitive Programming | Courses | Coding Blocks",
+  "title": "Competitive Programming Training Course in Delhi, Noida, Dwarka | Courses | Coding Blocks",
   "metas": [
     {
       "name": "description",
-      "content": "Coding Blocks offers competitve programming course for students aiming at ACM-ICPC, APAC, Google CodeJam and other such competitions."
+      "content": "Best way to Learn Competitive Programming Course where you will learn advanced competitive topics. Enhance programming skills to boost your career."
+    },
+    {
+      "name": "keywords",
+      "content": "competitive programming, competitive coding, competitive programming course, competitive programming training, topcoder competitive programming, coding contest"
     }
   ],
   "openGraph": {
