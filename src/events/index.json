@@ -6,6 +6,26 @@
       "content": ""
     }
   ],
+  "head": {
+    "links": [
+      {
+        "href": "https://unpkg.com/@coding-blocks/motley@1.0.2/dist/app.min.css",
+        "rel": "stylesheet"
+      },
+      {
+        "href": "/assets/styles/flexslider-2.css",
+        "rel": "stylesheet"
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"
+      },
+      {
+        "src": "/assets/scripts/jquery.flexslider-min.js"
+      }
+    ]
+  },
   "header": {
     "heading": "Events",
     "subHeading": "Coding Blocks",

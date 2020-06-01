@@ -1,19 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>{{title}}</title>
-    {{> meta}}
-    {{> head}}
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> scripts}}
+  {{> head}}
 </head>
+
 <body class="scroll-assist">
-{{> navbar}}
-<div class="main-container">
-    {{> header}}
+  {{> navbar}}
+  <div class="main-container">
+    {{!-- {{> header}} --}}
+    {{> events-slider}}
     {{> events}}
     {{> map}}
     {{> footer}}
-</div>
-{{> scripts}}
-{{> eventsScript}}
+  </div>
+  {{> eventsScript}}
+  <script>
+    $(function () {
+      var topEvents = $.ajax('http://localhost:3000/events/top', {
+        method: "GET",
+        json: true
+      })
+
+      topEvents.done(function(events) {
+        events.forEach(function(event) {
+          var title = event.title
+          var about = event.about
+          var banner = event.banner
+          var description = event.description
+          var is_registration_closed = event.is_registration_closed
+          var registrationLink = 'http://localhost:4567/events/register/?id=' + event.slug
+          var startDate = moment(event.startDate)
+          var endDate = moment(event.endDate)
+
+          var slide = `
+            <li class="">
+                <div class="background-image-holder" style="opacity: 1;">
+                    <img alt="${title}}" class="background-image" src="${banner}">
+                  </div>
+                <div class="container v-align-transform">
+                    <div class="row text-center">
+                        <div class="col-md-10 col-md-offset-1">
+                            <!--for custom html "customContent"-->
+                            <h2 class="mb-xs-16 all-caps">${title}</h2>
+                            <h4></h4>
+                            <p class="bold">${about}</p>
+                            <p class="lead mb60">${description}</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+          `
+
+          var eventSlides = $('#event-slider > .slides')
+          eventSlides.append(slide)
+
+          $('.flexslider').flexslider({
+            animation: "slide"
+          });
+        })
+      })
+
+      var upcomingEvents = $.ajax('http://localhost:3000/events/upcoming', {
+        method: "GET",
+        json: true
+      })
+
+      upcomingEvents.done(function (events) {
+        if(!events.length) {
+          $('.upcoming-events > .no-events').removeClass('display-none')
+        }
+        var eventList = $('.upcoming-events > .events-list > .row')
+        events.forEach(function (event) {
+          var title = event.title
+          var about = event.about
+          var banner = event.banner
+          var description = event.description
+          var is_registration_closed = event.is_registration_closed
+          var registrationLink = 'http://localhost:4567/events/register/?id=' + event.slug
+
+          var cardMarkup = `
+                        <div class="col-12 col-md-4">
+                            <div class="border-card my-4"> 
+                                <img src="${banner}">
+                                <h3>${title}</h3> 
+                                <p>${about}</p> 
+                                <p>${description}</p>
+                        `
+
+          if (!is_registration_closed) {
+            cardMarkup = cardMarkup + '<a class="button-solid button-orange" href="' + registrationLink + '"> Register Now </a>'
+          }
+
+          cardMarkup += '</div></div>'
+
+          eventList.append(cardMarkup)
+        })
+      })
+
+      upcomingEvents.fail(function (xhr, textStatus, errorThrown) {
+        if (xhr.status == 500) {
+          $('#registration-error').removeClass('display-none')
+        }
+      })
+
+      var pastEvents = $.ajax('http://localhost:3000/events/past', {
+        method: "GET",
+        json: true
+      })
+
+      pastEvents.done(function (events) {
+        if (!events.length) {
+          $('.past-events > .no-events').removeClass('display-none')
+        }
+
+        var eventList = $('.past-events > .events-list > .row')
+        events.forEach(function (event) {
+          var title = event.title
+          var about = event.about
+          var banner = event.banner
+          var description = event.description
+
+          var cardMarkup = `
+                        <div class="col-12 col-md-4">
+                            <div class="border-card my-4"> 
+                                <img src="${banner}">
+                                <h3>${title}</h3> 
+                                <p>${about}</p> 
+                                <p>${description}</p>
+                            </div>
+                        </div>
+                        `
+
+          eventList.append(cardMarkup)
+        })
+      })
+
+      pastEvents.fail(function (xhr, textStatus, errorThrown) {
+        if (xhr.status == 500) {
+          $('#registration-error').removeClass('display-none')
+        }
+      })
+    })
+  </script>
 </body>
+
 </html>

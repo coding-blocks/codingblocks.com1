@@ -1,45 +1,30 @@
-<!--
-PLEASE DO NOT EDIT THIS
-PLEASE DO NOT EDIT THIS
-PLEASE DO NOT EDIT THIS
-PLEASE DO NOT EDIT THIS
-PLEASE DO NOT EDIT THIS
--->
+<div class="container mt-5">
+  <h3>Workshops and Contests</h3>
+  <div>Get all the updates from right here!</div>
 
-{{#with events}}
+  <section class="events-listing">
+    <div class="upcoming-events">
+      <h3 class="gradient-orange">Upcoming Events</h3>
 
-    {{#ifEquals upcoming true}}
+      <p class="no-events display-none">No Upcomimng Events</p>
 
-        <section class="bg-secondary container-fluid text-center pad-b15">
-            <a id="upcoming" class="in-page-link"></a>
-            <h2>{{upcomingHeading}}</h2>
-            <div class="container">
-                <div class="row" id="upcoming-events-list-wrapper"></div>
-            </div>
+      <div class="events-list">
+        <div class="row">
 
-         {{#ifEquals past false}}
-            <div>
-            Oops! No events available :(
-            </div>
-          {{/ifEquals}}
+        </div>
+      </div>
+    </div>
 
-            {{#if moreEvents}}
-                <div class="row text-center">
-                    <a href="{{#relativePath @file.path '/events/'}}{{/relativePath}}"
-                       class="btn btn-white btn-filled btn-lg">More Events</a>
-                </div>
-            {{/if}}
-        </section>
-    {{/ifEquals}}
+    <div class="past-events">
+      <h3 class="gradient-orange">Past Events</h3>
 
-    {{#ifEquals past true}}
+      <p class="no-events display-none">No Past Events</p>
 
-        <section class="bg-secondary container-fluid text-center pad-t15">
-            <a id="past" class="in-page-link"></a>
-            <h2>{{pastHeading}}</h2>
-            <div class="container">
-                <div class="row" id="past-events-list-wrapper"></div>
-            </div>
-        </section>
-    {{/ifEquals}}
-{{/with}}
+      <div class="events-list">
+        <div class="row">
+
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
