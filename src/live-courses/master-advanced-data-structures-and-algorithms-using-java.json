@@ -20,10 +20,6 @@
   "head": {
     "links": [
       {
-        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
-        "rel": "stylesheet"
-      },
-      {
         "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
         "rel": "stylesheet"
       }
