@@ -20,7 +20,7 @@
   {{> eventsScript}}
   <script>
     $(function () {
-      var topEvents = $.ajax('http://localhost:3000/events/top', {
+      var topEvents = $.ajax('https://codingblocks.com/events/top', {
         method: "GET",
         json: true
       })
@@ -64,7 +64,7 @@
         })
       })
 
-      var upcomingEvents = $.ajax('http://localhost:3000/events/upcoming', {
+      var upcomingEvents = $.ajax('https://codingblocks.com/events/upcoming', {
         method: "GET",
         json: true
       })
@@ -107,7 +107,7 @@
         }
       })
 
-      var pastEvents = $.ajax('http://localhost:3000/events/past', {
+      var pastEvents = $.ajax('https://codingblocks.com/events/past', {
         method: "GET",
         json: true
       })
