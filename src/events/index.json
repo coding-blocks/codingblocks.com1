@@ -15,6 +15,14 @@
       {
         "href": "/assets/styles/flexslider-2.css",
         "rel": "stylesheet"
+      },
+      {
+        "href": "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css",
+        "rel": "stylesheet"
+      },
+      {
+        "href": "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
+        "rel": "stylesheet"
       }
     ],
     "scripts": [
@@ -23,6 +31,12 @@
       },
       {
         "src": "/assets/scripts/jquery.flexslider-min.js"
+      },
+      {
+        "src": "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.amd.js"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
       }
     ]
   },
