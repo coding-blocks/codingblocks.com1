@@ -72,7 +72,7 @@
   </style>
 </head>
 
-<body class="scroll-assist a-ocb">
+<body class="scroll-assist a-ocb p-0">
   {{> navbar}}
   <div class="main-container events-page">
     {{!-- {{> header}} --}}
@@ -90,8 +90,43 @@
 
   <script id="event-card-template" type="text/x-handlebars-template">
     <div class="col-12 col-md-4 mt-5">
-      <div class="img-card mb-4">
-        <div class="top-tag">\{{event.event_type}}</div>
+      <div class="br-10 label-card">
+        <div class="br-10 label-card__head" style="background: url(\{{event.banner}});">
+          {{!-- <img src="\{{event.banner}}" alt=""> --}}
+        </div>
+        <div class="br-10 label-card__foot px-md-5 px-4">
+          <div class="label-card__foot__tag s-100x100">
+            <div class="t-align-c">
+              <div class="font-mdxl bold gradient-text-orange">\{{event.startDay}}</div>
+              <div class="bold">\{{event.startMonth}}</div>
+            </div>
+          </div>
+
+          <h4 class="bold">\{{event.title}}</h4>
+          <div class="mt-1">\{{event.about}}</div>
+          <div class="mentor-row my-4">
+            <div class="mentor-row__image-container">
+              \{{#each event.instructors}}
+                <img src="\{{this.photo}}" alt="photo ofRishab Kapoor"
+                  class="mentor-row__image-container__mentor-image s-60x60">
+              \{{/each}}
+              <div class="mentor-row__text-container">
+                <div>By</div>
+                <div class="bold">\{{event.instructorsName}}</div>
+              </div>
+            </div>
+          </div>
+          \{{#if allowRegister}}
+            \{{#unless event.is_registration_closed}}
+              <div class="row no-gutters justify-content-between align-items-center">
+                <div class="font-sm">\{{event.startTime}} Onwards</div>
+                    <a href="\{{event.registrationLink}}" class="button-solid button-orange">Register</a>
+              </div>
+            \{{/unless}}
+          \{{/if}}
+        </div>
+      </div>
+        {{!-- <div class="top-tag">\{{event.event_type}}</div>
         <div class="head" style="background: url(\{{event.banner}}); height: 230px;">
           <div class="head__course-logo">
             <div class="font-xl gradient-orange bold">
@@ -129,7 +164,7 @@
               </div>
             \{{/unless}}
           \{{/if}}
-        </div>
+        </div> --}}
       </div>
 
       
@@ -156,7 +191,7 @@
             <div class="row align-items-center justify-content-between">
               <div class="col-12 col-md-6">
                 <h1 class="white">${announcement.title}</h1>
-                <h4 class="gradient-orange my-4">${moment(announcement.startDate).format('DD MMM YYYY')}</h4>
+                <h4 class="gradient-orange my-4">${moment(announcement.start_date).format('DD MMM YYYY')}</h4>
                 <p class="bold">${announcement.about}</p>
                 <p>${announcement.description}</p>
                 <a href="${announcement.registrationLink}" class="button-solid button-orange">Register Now</a>
@@ -191,7 +226,7 @@
           var description = event.description
           var is_registration_closed = event.is_registration_closed
           event.registrationLink = 'https://codingblocks.com/events/register/?id=' + event.slug
-          var startDate = moment(event.startDate)
+          var startDate = moment(event.start_date)
           event.startDay = startDate.format('DD')
           event.startMonth = startDate.format('MMM')
           var endDate = moment(event.endDate)
@@ -264,7 +299,7 @@
           var description = event.description
           var is_registration_closed = event.is_registration_closed
           event.registrationLink = 'https://codingblocks.com/events/register/?id=' + event.slug
-          var startDate = moment(event.startDate)
+          var startDate = moment(event.start_date)
           event.startDay = startDate.format('DD')
           event.startMonth = startDate.format('MMM')
           event.startTime = startDate.format('hh:mm a')
@@ -307,12 +342,14 @@
           var description = event.description
           var is_registration_closed = event.is_registration_closed
           event.registrationLink = 'https://codingblocks.com/events/register/?id=' + event.slug
-          var startDate = moment(event.startDate)
+          var startDate = moment(event.start_date)
           event.startDay = startDate.format('DD')
           event.startMonth = startDate.format('MMM')
+          event.startTime = startDate.format('hh:mm a')
           var endDate = moment(event.endDate)
           event.endDay = endDate.format('DD')
           event.endMonth = endDate.format('MMM')
+          event.endTime = endDate.format('hh:mm a')
           event.instructorsName = event.instructors.map(m => m.name).join(', ')
           var data = {
             event
