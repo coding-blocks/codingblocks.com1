@@ -13,7 +13,7 @@
       overflow: hidden
     }
 
-    h2, h3, h4, h5, h6 {
+    h3, h4, h5, h6 {
       line-height: inherit;
     }
 
@@ -74,7 +74,7 @@
 
 <body class="scroll-assist a-ocb">
   {{> navbar}}
-  <div class="main-container">
+  <div class="main-container events-page">
     {{!-- {{> header}} --}}
     <div class="event-announcement display-none">
       <div class="container py-5">
@@ -141,7 +141,7 @@
       var eventCardSource = $('#event-card-template').html();
       var eventCardTemplate = Handlebars.compile(eventCardSource);
 
-      var announcement = $.ajax('https://app.codingblocks.com/events/announcement', {
+      var announcement = $.ajax('http://localhost:3000/events/announcement', {
         method: "GET",
         json: true
       })
@@ -153,7 +153,7 @@
           announcement.registrationLink = 'https://codingblocks.com/events/register?id=' + announcement.slug
 
           var announcementMarkup = `  
-            <div class="row align-items-center">
+            <div class="row align-items-center justify-content-between">
               <div class="col-12 col-md-6">
                 <h1 class="white">${announcement.title}</h1>
                 <h4 class="gradient-orange my-4">${moment(announcement.startDate).format('DD MMM YYYY')}</h4>
@@ -161,9 +161,11 @@
                 <p>${announcement.description}</p>
                 <a href="${announcement.registrationLink}" class="button-solid button-orange">Register Now</a>
               </div>
-              <div class="col-12 col-md-6">
+              
+              <div class="col-12 col-md-6 t-align-c">
                 <img src="/assets/images/icons/tests.png">
               </div>
+              
             </div>
           `
 
@@ -173,12 +175,15 @@
       })
       
 
-      var topEvents = $.ajax('https://app.codingblocks.com/events/top', {
+      var topEvents = $.ajax('http://localhost:3000/events/top', {
         method: "GET",
         json: true
       })
 
       topEvents.done(function(events) {
+        if(events.length) {
+          $('#event-slider').removeClass('display-none')
+        }
         events.forEach(function(event) {
           var title = event.title
           var about = event.about
@@ -197,31 +202,35 @@
           }
           
           var slide = `
-            <div class="img-card carousel-img-card mx-4">
-                <div class="head" style="background-image: url(${banner}); height: 400px;">
-                  <div class="head__course-logo bg-white">
-                      <div class="font-xl gradient-orange bold">
-                        ${startDate.format('DD')}
+            <div class="br-10 events-page__event-card border mx-3">
+                <div class="bg-grey events-page__event-card__head" style="background-image: url(${banner}); height: 400px;">
+                  <div class="events-page__event-card__head__date-tag s-100x100 round">                    
+                      <div class="t-align-c">
+                        <div class="font-mdxl bold gradient-text-orange">
+                          ${startDate.format('DD')}
                         </div>
-                      <div class="bold black"> 
-                        ${startDate.format('MMM')}
+                        <div class="bold black"> 
+                          ${startDate.format('MMM')}
+                        </div>
                       </div>
                   </div>
                 </div>
-                <div class="d-flex justify-content-between align-items-center px-6 py-4">
-                  <div class="col-8 p-0">
-                    <h2 class="gradient-orange">${title}</h2>
-                    <div class="font-sm"> 
-                      ${about}
-                    </div>
-                    <div class="divider-h my-3"> </div>
+                <div class="py-4 px-md-5 px-4">
+                  <div class="row no-gutters justify-content-between align-items-center">
+                    <div class="flex-1">
+                      <h2 class="gradient-orange">${title}</h2>
+                      <div class="font-sm pb-3 mb-3 border-bottom">
+                        ${about}
+                      </div>
 
-                    <p>
-                      ${description}
-                    </p>
+                      <p class="card-sm">
+                        ${description}
+                      </p>
+                    </div>
+
+                    <div class="font-mds"> ${startDate.format('hh:mm')} Onwards</div>
 
                   </div>
-                  <div> ${startDate.format('hh:mm')} Onwards</div>
                 </div>
             </div>
           `          
@@ -238,7 +247,7 @@
         });
       })
 
-      var upcomingEvents = $.ajax('https://app.codingblocks.com/events/upcoming', {
+      var upcomingEvents = $.ajax('http://localhost:3000/events/upcoming', {
         method: "GET",
         json: true
       })
@@ -280,7 +289,7 @@
         }
       })
 
-      var pastEvents = $.ajax('https://app.codingblocks.com/events/past', {
+      var pastEvents = $.ajax('http://localhost:3000/events/past', {
         method: "GET",
         json: true
       })

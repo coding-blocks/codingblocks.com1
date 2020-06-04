@@ -9,11 +9,7 @@
   "head": {
     "links": [
       {
-        "href": "https://unpkg.com/@coding-blocks/motley@1.0.2/dist/app.min.css",
-        "rel": "stylesheet"
-      },
-      {
-        "href": "/assets/styles/flexslider-2.css",
+        "href": "/assets/styles/motley.min.css",
         "rel": "stylesheet"
       },
       {
