@@ -17,6 +17,16 @@
       line-height: inherit;
     }
 
+    .events-page__event-card__head {
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .event-card__about {
+      max-height: 150px;
+      overflow-y: scroll;
+    }
+
     .img-card .head__course-logo {
       position: absolute;
       border-radius: 50%;
@@ -93,7 +103,7 @@
       <div class="br-10 label-card">
         <div class="br-10 label-card__head" style="background: url(\{{event.banner}});">
           <div class="label-card__label all-center">
-            <div class="white bold font-sm" style="text-transform: uppercase;">\{{event.event_type}}</div>
+            <div class="white bold font-xs" style="text-transform: uppercase;">\{{event.event_type}}</div>
           </div>
         </div>
         <div class="br-10 label-card__foot px-md-5 px-4">
@@ -105,7 +115,7 @@
           </div>
 
           <h4 class="bold">\{{event.title}}</h4>
-          <div class="mt-1">\{{event.about}}</div>
+          <div class="event-card__about mt-1">\{{event.about}}</div>
           <div class="mentor-row my-4">
             <div class="mentor-row__image-container">
               \{{#each event.instructors}}
@@ -254,9 +264,9 @@
                 </div>
                 <div class="py-4 px-md-5 px-4">
                   <div class="row no-gutters justify-content-between align-items-center">
-                    <div class="flex-1">
+                    <div class="w-100">
                       <h2 class="gradient-orange">${title}</h2>
-                      <div class="font-sm pb-3 mb-3 border-bottom">
+                      <div class="font-sm pb-3 mb-3 border-bottom text-ellipses">
                         ${about}
                       </div>
 
@@ -274,9 +284,9 @@
           var eventSlides = $('#event-slider > .slides')
           eventSlides.append(slide)
         })
-        $('.slides').slick({
+        $('#event-slider .slides').slick({
           dots: true,
-          autoplay: true,
+          {{!-- autoplay: true, --}}
           autoplaySpeed: 3000,
           centerMode: true,
           infinite: true,
