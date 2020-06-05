@@ -1284,7 +1284,7 @@ div.contains-table {
 
 .slick-next, .slick-prev {
     position: absolute !important;
-    top: 30% !important;
+    top: 31% !important;
     z-index: 1;
     cursor: pointer !important;
     background: #fff !important;

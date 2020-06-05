@@ -22,6 +22,12 @@
       background-size: cover;
     }
 
+    .events-page__event-card__head__date-tag-text {
+      position: absolute;
+      right: 4%;
+      bottom: -90px;
+    }
+
     .event-card__about {
       max-height: 150px;
       overflow-y: scroll;
@@ -99,7 +105,7 @@
   {{> eventsScript}}
 
   <script id="event-card-template" type="text/x-handlebars-template">
-    <div class="col-12 col-md-4 mt-5">
+    <div class="col-12 col-md-4 mt-5 mb-4">
       <div class="br-10 label-card">
         <div class="br-10 label-card__head" style="background: url(\{{event.banner}});">
           <div class="label-card__label all-center">
@@ -261,23 +267,19 @@
                         </div>
                       </div>
                   </div>
+                  <div class="events-page__event-card__head__date-tag-text font-mds dsp-none-md"> ${startDate.format('hh:mm')} Onwards</div>
                 </div>
-                <div class="py-4 px-md-5 px-4">
-                  <div class="row no-gutters justify-content-between align-items-center">
-                    <div class="w-100">
-                      <h2 class="gradient-orange">${title}</h2>
-                      <div class="font-sm pb-3 mb-3 border-bottom text-ellipses">
-                        ${about}
-                      </div>
-
-                      <p class="card-sm">
-                        ${description}
-                      </p>
+                <div class="py-4 px-md-5 px-4">                  
+                  <div class="col-12 col-md-10">
+                    <h2 class="gradient-orange">${title}</h2>
+                    <div class="font-sm pb-3 mb-3 border-bottom text-ellipses">
+                      ${about}
                     </div>
 
-                    <div class="font-mds"> ${startDate.format('hh:mm')} Onwards</div>
-
-                  </div>
+                    <p class="card-sm">
+                      ${description}
+                    </p>
+                  </div>        
                 </div>
             </div>
           `          
