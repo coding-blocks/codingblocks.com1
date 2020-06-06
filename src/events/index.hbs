@@ -99,7 +99,6 @@
     </div>
     {{> events-slider}}
     {{> events}}
-    {{> map}}
     {{> footer}}
   </div>
   {{> eventsScript}}
@@ -136,7 +135,7 @@
           </div>
           \{{#if allowRegister}}
             \{{#unless event.is_registration_closed}}
-              <div class="row no-gutters justify-content-between align-items-center">
+              <div class="d-flex justify-content-between align-items-center">
                 <div class="font-sm">\{{event.startTime}} Onwards</div>
                     <a href="\{{event.registrationLink}}" class="button-solid button-orange">Register</a>
               </div>
@@ -144,45 +143,6 @@
           \{{/if}}
         </div>
       </div>
-        {{!-- <div class="top-tag">\{{event.event_type}}</div>
-        <div class="head" style="background: url(\{{event.banner}}); height: 230px;">
-          <div class="head__course-logo">
-            <div class="font-xl gradient-orange bold">
-              \{{event.startDay}}
-            </div>
-            <div class="bold black">
-              \{{event.startMonth}}
-            </div>
-          </div>
-        </div>
-        <div class="foot">
-          <h3 class="mb-2">\{{event.title}}</h3>
-          <div class="bold">\{{event.about}}</div>
-          <div>\{{event.description}}</div>
-          <div class="card-mentor">
-            <div class="card-mentor-image mr-3 mt-2">
-              \{{#each event.instructors}}
-                  <img class="card-mentors" src="\{{this.photo}}" alt="">
-              \{{/each}}
-              
-            </div>
-            <div class="pl-4">
-              <div class="grey">By</div>
-              <div class="bold">\{{event.instructorsName}}</div>
-            </div>
-          </div>
-
-          \{{#if allowRegister}}
-            \{{#unless event.is_registration_closed}}
-              <div class="d-flex justify-content-between">
-                <div>
-                  \{{event.startTime}}
-                </div>
-                <a href="\{{event.registrationLink}}" class="button-solid button-orange">Register</a>
-              </div>
-            \{{/unless}}
-          \{{/if}}
-        </div> --}}
       </div>
 
       
