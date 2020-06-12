@@ -22,6 +22,10 @@
       background-size: cover;
     }
 
+    .events-page__event-card__head__date-tag {
+      z-index: 1;
+    }
+
     .events-page__event-card__head__date-tag-text {
       position: absolute;
       right: 4%;
@@ -30,7 +34,7 @@
 
     .event-card__about {
       max-height: 150px;
-      overflow-y: scroll;
+      overflow-y: auto;
     }
 
     .img-card .head__course-logo {
@@ -94,7 +98,6 @@
     {{!-- {{> header}} --}}
     <div class="event-announcement display-none">
       <div class="container py-5">
-
       </div>
     </div>
     {{> events-slider}}
@@ -108,7 +111,9 @@
       <div class="br-10 label-card">
         <div class="br-10 label-card__head" style="background: url(\{{event.banner}});">
           <div class="label-card__label all-center">
-            <div class="white bold font-xs" style="text-transform: uppercase;">\{{event.event_type}}</div>
+            <div class="position-relative all-center wh-100">
+              <div class="white bold font-xs" style="text-transform: uppercase;">\{{event.event_type}}</div>
+            </div>
           </div>
         </div>
         <div class="br-10 label-card__foot px-md-5 px-4">
@@ -154,7 +159,7 @@
       var eventCardSource = $('#event-card-template').html();
       var eventCardTemplate = Handlebars.compile(eventCardSource);
 
-      var announcement = $.ajax('https://app.codingblocks.com/events/announcement', {
+      var announcement = $.ajax('http://localhost:3000/events/announcement', {
         method: "GET",
         json: true
       })
@@ -166,18 +171,29 @@
           announcement.registrationLink = 'https://codingblocks.com/events/register?id=' + announcement.slug
 
           var announcementMarkup = `  
-            <div class="row align-items-center justify-content-between">
-              <div class="col-12 col-md-6">
-                <h1 class="white">${announcement.title}</h1>
-                <h4 class="gradient-orange my-4">${moment(announcement.start_date).format('DD MMM YYYY')}</h4>
-                <p class="bold">${announcement.about}</p>
+            <div class="row no-gutters justify-content-between align-items-center">
+              <div class="flex-1 white pr-xl-5 t-align-xl-l t-align-c">
+                <img src="${announcement.announcement_image ? announcement.announcement_image : '/assets/images/icons/tests.png'}" class="d-xl-none d-block mb-5 mx-auto w-40">
+                <div class="bold" style="font-size: 5vw;">${announcement.title}</div>
+                <h2 class="mt-2 gradient-text-orange bold">${moment(announcement.start_date).format('DD MMM YYYY')}</h2>
+                <div class="font-md mt-4">
+                  ${announcement.about}
+                </div>
                 <p>${announcement.description}</p>
+                {{!-- <h1 class="white">${announcement.title}</h1>
+                <h4 class="gradient-orange my-4">${moment(announcement.start_date).format('DD MMM YYYY')}</h4>
+                <p class="bold">${announcement.about}</p> --}}
                 <a href="${announcement.registrationLink}" class="button-solid button-orange">Register Now</a>
+              </div>
+
+              <img src="${announcement.announcement_image ? announcement.announcement_image : '/assets/images/icons/tests.png'}" class="d-xl-block d-none w-40">
+              
+              {{!-- <div class="col-12 col-md-6">
               </div>
               
               <div class="col-12 col-md-6 t-align-c">
                 <img src="${announcement.announcement_image ? announcement.announcement_image : '/assets/images/icons/tests.png'}">
-              </div>
+              </div> --}}
               
             </div>
           `
@@ -188,7 +204,7 @@
       })
       
 
-      var topEvents = $.ajax('https://app.codingblocks.com/events/top', {
+      var topEvents = $.ajax('http://localhost:3000/events/top', {
         method: "GET",
         json: true
       })
@@ -232,7 +248,7 @@
                   </div>
                   <div class="events-page__event-card__head__date-tag-text font-mds dsp-none-md"> ${startDate.format('hh:mm')} Onwards</div>
                 </div>
-                <div class="py-4 px-md-5 px-4">                  
+                <div class="events-page__event-card__foot">                  
                   <div class="col-12 col-md-10">
                     <h2 class="gradient-orange">${title}</h2>
                     <div class="font-sm pb-3 mb-3 border-bottom text-ellipses">
@@ -251,7 +267,7 @@
         })
         $('#event-slider .slides').slick({
           dots: true,
-          {{!-- autoplay: true, --}}
+          autoplay: true,
           autoplaySpeed: 3000,
           centerMode: true,
           infinite: true,
@@ -259,7 +275,7 @@
         });
       })
 
-      var upcomingEvents = $.ajax('https://app.codingblocks.com/events/upcoming', {
+      var upcomingEvents = $.ajax('http://localhost:3000/events/upcoming', {
         method: "GET",
         json: true
       })
@@ -301,7 +317,7 @@
         }
       })
 
-      var pastEvents = $.ajax('https://app.codingblocks.com/events/past', {
+      var pastEvents = $.ajax('http://localhost:3000/events/past', {
         method: "GET",
         json: true
       })
