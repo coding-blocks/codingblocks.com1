@@ -159,7 +159,7 @@
       var eventCardSource = $('#event-card-template').html();
       var eventCardTemplate = Handlebars.compile(eventCardSource);
 
-      var announcement = $.ajax('http://localhost:3000/events/announcement', {
+      var announcement = $.ajax('https://app.codingblocks.com/events/announcement', {
         method: "GET",
         json: true
       })
@@ -204,7 +204,7 @@
       })
       
 
-      var topEvents = $.ajax('http://localhost:3000/events/top', {
+      var topEvents = $.ajax('https://app.codingblocks.com/events/top', {
         method: "GET",
         json: true
       })
@@ -275,7 +275,7 @@
         });
       })
 
-      var upcomingEvents = $.ajax('http://localhost:3000/events/upcoming', {
+      var upcomingEvents = $.ajax('https://app.codingblocks.com/events/upcoming', {
         method: "GET",
         json: true
       })
@@ -317,7 +317,7 @@
         }
       })
 
-      var pastEvents = $.ajax('http://localhost:3000/events/past', {
+      var pastEvents = $.ajax('https://app.codingblocks.com/events/past', {
         method: "GET",
         json: true
       })
