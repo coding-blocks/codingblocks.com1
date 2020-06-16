@@ -14,8 +14,9 @@ $(function(){
     } else {
       $('.event-registration').removeClass('display-none')
     }
-    $('.event-registration > img').attr('src', event.banner)
+    $('.event-registration .event-banner').attr('src', event.banner)
     $('.event-registration > form').attr('action', 'https://app.codingblocks.com/events/' + event.id + '/register')
+    $('.event-registration > .title').html(event.title)
     $('.event-registration > .about').html(event.about)
     $('.event-registration > .description').html(event.description)
     if(event.is_certificate_event) {

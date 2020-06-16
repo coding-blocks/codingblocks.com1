@@ -23,6 +23,9 @@
     ],
     "scripts": [
       {
+        "src": "/assets/scripts/text-collapser.js"
+      },
+      {
         "src": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"
       },
       {
@@ -30,9 +33,6 @@
       },
       {
         "src": "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.amd.js"
-      },
-      {
-        "src": "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
       }
     ]
   },

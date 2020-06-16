@@ -4,7 +4,6 @@
 <head>
   <title>{{title}}</title>
   {{> meta}}
-  {{> scripts}}
   {{> head}}
 </head>
 
@@ -14,9 +13,11 @@
     <div class="container mb-5" style="margin-bottom: 5rem;">
       <h3 id="registrations-closed" class="display-none text-align-center">Registrations for this event has been closed</h3>
       <div class="event-registration display-none">
-        <img src="" alt="event-banner">
-
-        <p class="about"></p>
+        <h3 class="title"></h3>
+        <div class="d-flex justify-content-center">
+          <img class="my-4 event-banner" src="" alt="event-banner">
+        </div>
+        <p class="about bold"></p>
         <p class="description"></p>
         <p class="certificate-note bold display-none">Note: Certificate will be provided for this event</p>
 
@@ -24,6 +25,7 @@
           <input class="underline-input font-sm w-100 pb-2 mb-5" type="text" name="firstname" placeholder="First Name *" required>
           <input class="underline-input font-sm w-100 pb-2 mb-5" type="text" name="lastname" placeholder="Last Name">
           <input class="underline-input font-sm w-100 pb-2 mb-5" type="email" name="email" placeholder="Email *" required>
+          <input class="underline-input font-sm w-100 pb-2 mb-5" type="text" name="college" placeholder="College *" required>
           <input type="text" name="phoneNumber" class="underline-input font-sm w-100 pb-2 mb-5" pattern="[0-9]{10}" placeholder="10 digit Contact Number *" required>
 
           
@@ -41,6 +43,7 @@
     </div>
     {{> footer}}
   </div>
+  {{> scripts}}
   {{> eventsScript}}
 </body>
 

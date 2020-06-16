@@ -4,7 +4,6 @@
 <head>
   <title>{{title}}</title>
   {{> meta}}
-  {{> scripts}}
   {{> head}}
 
   <style>
@@ -89,6 +88,17 @@
     .mb-6 {
       margin-bottom: 5rem;
     }
+
+    .max-lines {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+
+    .max-lines-2 {
+      -webkit-line-clamp: 2;
+    }
   </style>
 </head>
 
@@ -104,7 +114,10 @@
     {{> events}}
     {{> footer}}
   </div>
+
+  {{> scripts}}
   {{> eventsScript}}
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <script id="event-card-template" type="text/x-handlebars-template">
     <div class="col-12 col-md-4 mt-5 mb-4">
@@ -125,7 +138,7 @@
           </div>
 
           <h4 class="bold">\{{event.title}}</h4>
-          <div class="event-card__about mt-1">\{{event.about}}</div>
+          <div class="event-card__about mt-1 collapsable-text max-words-10">\{{event.about}}</div>
           <div class="mentor-row my-4">
             <div class="mentor-row__image-container">
               \{{#each event.instructors}}
@@ -214,10 +227,10 @@
           $('#event-slider').removeClass('display-none')
         }
         events.forEach(function(event) {
-          var title = event.title
-          var about = event.about
+          var title = event.title.trim()
+          var about = event.about.trim()
           var banner = event.banner
-          var description = event.description
+          var description = event.description.trim()
           var is_registration_closed = event.is_registration_closed
           event.registrationLink = 'https://codingblocks.com/events/register/?id=' + event.slug
           var startDate = moment(event.start_date)
@@ -255,7 +268,7 @@
                       ${about}
                     </div>
 
-                    <p class="card-sm">
+                    <p class="card-sm collapsable-text max-words-40">
                       ${description}
                     </p>
                   </div>        
@@ -265,6 +278,7 @@
           var eventSlides = $('#event-slider > .slides')
           eventSlides.append(slide)
         })
+        triggerTextCollapser()
         $('#event-slider .slides').slick({
           dots: true,
           autoplay: true,
@@ -286,10 +300,10 @@
         }
         var eventList = $('.upcoming-events > .events-list > .row')
         events.forEach(function (event) {
-          var title = event.title
-          var about = event.about
+          var title = event.title.trim()
+          var about = event.about.trim()
           var banner = event.banner
-          var description = event.description
+          var description = event.description.trim()
           var is_registration_closed = event.is_registration_closed
           event.registrationLink = 'https://codingblocks.com/events/register/?id=' + event.slug
           var startDate = moment(event.start_date)
@@ -309,6 +323,7 @@
         
           eventList.append(eventCardTemplate(data))
         })
+        triggerTextCollapser()
       })
 
       upcomingEvents.fail(function (xhr, textStatus, errorThrown) {
@@ -329,10 +344,10 @@
 
         var eventList = $('.past-events > .events-list > .row')
         events.forEach(function (event) {
-          var title = event.title
-          var about = event.about
+          var title = event.title.trim()
+          var about = event.about.trim()
           var banner = event.banner
-          var description = event.description
+          var description = event.description.trim()
           var is_registration_closed = event.is_registration_closed
           event.registrationLink = 'https://codingblocks.com/events/register/?id=' + event.slug
           var startDate = moment(event.start_date)
@@ -349,6 +364,7 @@
           }
           eventList.append(eventCardTemplate(data))
         })
+        triggerTextCollapser()
       })
 
       pastEvents.fail(function (xhr, textStatus, errorThrown) {

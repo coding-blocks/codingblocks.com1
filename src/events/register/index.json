@@ -9,7 +9,16 @@
   "head": {
     "scripts": [
       {
+        "src": "/assets/scripts/jquery.min.js"
+      },
+      {
         "src": "/assets/scripts/events-register.js"
+      }
+    ],
+    "links": [
+      {
+        "href": "/assets/styles/motley.min.css",
+        "rel": "stylesheet"
       }
     ]
   },
