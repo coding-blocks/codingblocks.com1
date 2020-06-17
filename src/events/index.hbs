@@ -32,7 +32,7 @@
     }
 
     .event-card__about {
-      max-height: 150px;
+      max-height: 80px;
       overflow-y: auto;
     }
 
@@ -99,6 +99,21 @@
     .max-lines-2 {
       -webkit-line-clamp: 2;
     }
+
+    @media all and (min-width: 767px)  {
+      .events-page__event-card {
+        height: 596px;
+      }
+
+      .label-card__foot {
+        height: 300px;
+      }
+
+      .registrable .label-card__foot {
+        height: 350px;
+      }
+    }
+  
   </style>
 </head>
 
@@ -121,7 +136,7 @@
 
   <script id="event-card-template" type="text/x-handlebars-template">
     <div class="col-12 col-md-4 mt-5 mb-4">
-      <div class="br-10 label-card">
+      <div class="br-10 label-card \{{#if allowRegister}} registrable \{{/if}}">
         <div class="br-10 label-card__head" style="background: url(\{{event.banner}});">
           <div class="label-card__label all-center">
             <div class="position-relative all-center wh-100">
