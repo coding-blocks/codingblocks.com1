@@ -9,6 +9,10 @@ $(function(){
 
   event.done(function (response) {
     var event = response.event
+    if(!event) {
+      $('#not-found').removeClass('display-none')
+      return 
+    }
     if(event.is_registration_closed || event.status === 'unpublished') {
       $('#registrations-closed').removeClass('display-none')
     } else {

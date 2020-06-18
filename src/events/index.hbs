@@ -100,7 +100,31 @@
       -webkit-line-clamp: 2;
     }
 
-    @media all and (min-width: 767px)  {
+    .button-dashed {
+      border: solid 1px grey;
+    }
+
+    .gradient-green {
+      background-image: linear-gradient(30deg,#82da3b,#27a87c);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+
+    .gradient-pink {
+      background-image: linear-gradient(30deg,#f24f5f,#a3076c);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+    .gradient-purple {
+      background-image: linear-gradient(30deg,#8108da,#350ed8);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+
+    @media all and (min-width: 768px)  {
       .events-page__event-card {
         height: 596px;
       }
@@ -111,6 +135,10 @@
 
       .registrable .label-card__foot {
         height: 350px;
+      }
+
+      .text-md-right {
+        text-align: right;
       }
     }
   
@@ -127,6 +155,9 @@
     </div>
     {{> events-slider}}
     {{> events}}
+    <div class="container">
+      <div id="news" class="mb-5"></div>
+    </div>
     {{> footer}}
   </div>
 
@@ -169,8 +200,13 @@
           \{{#if allowRegister}}
             \{{#unless event.is_registration_closed}}
               <div class="d-flex justify-content-between align-items-center">
-                <div class="font-sm">\{{event.startTime}} Onwards</div>
-                    <a href="\{{event.registrationLink}}" class="button-solid button-orange">Register</a>
+                <div class="font-sm">
+                  \{{event.startTime}} Onwards
+                  \{{#if event.registrations_count}}
+                    <div class="orange card-md">\{{event.registrations_count}} Registrations Received</div>
+                  \{{/if}}
+                </div>
+                <a href="\{{event.registrationLink}}" class="button-solid button-orange">Register</a>
               </div>
             \{{/unless}}
           \{{/if}}
@@ -182,12 +218,47 @@
       
   </script>
 
+  <script id="news-template" type="text/x-handlebars-template">
+    <h3 class="t-align-c mb-4">\{{news.heading}}</h3>
+    <div class="border-card p-5 bg-black white">
+      <div class="row p-4 justify-content-between">
+        <div class="col-12 col-md-6">
+          <div class="text-uppercase">\{{news.label}}</div>
+          <h1 class="text-uppercase gradient-\{{news.theme}}">\{{news.title}}</h1>
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-right">
+          <img src="\{{news.image}}" alt="">
+        </div>
+
+      </div>
+
+      <div class="row justify-content-between align-items-center p-4">
+        <div class="col-12 col-md-7">
+          <div class="mentor-row my-4">
+            <div class="mentor-row__image-container">
+              \{{#each news.instructors}}
+              <img src="\{{this.photo}}" alt="photo ofRishab Kapoor" class="mentor-row__image-container__mentor-image s-60x60">
+              \{{/each}}
+              <div class="mentor-row__text-container">
+                <div>By</div>
+                <div class="bold">\{{news.instructorsName}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 t-align-r">
+          <a class="button-dashed gradient-\{{news.theme}}" href="\{{news.link}}">Explore</a>
+        </div>
+      </div>
+    </div>
+  </script>
+
   <script>
     $(function () {
       var eventCardSource = $('#event-card-template').html();
       var eventCardTemplate = Handlebars.compile(eventCardSource);
 
-      var announcement = $.ajax('https://app.codingblocks.com/events/announcement', {
+      var announcement = $.ajax('http://localhost:3000/events/announcement', {
         method: "GET",
         json: true
       })
@@ -232,7 +303,7 @@
       })
       
 
-      var topEvents = $.ajax('https://app.codingblocks.com/events/top', {
+      var topEvents = $.ajax('http://localhost:3000/events/top', {
         method: "GET",
         json: true
       })
@@ -304,7 +375,7 @@
         });
       })
 
-      var upcomingEvents = $.ajax('https://app.codingblocks.com/events/upcoming', {
+      var upcomingEvents = $.ajax('http://localhost:3000/events/upcoming', {
         method: "GET",
         json: true
       })
@@ -347,7 +418,7 @@
         }
       })
 
-      var pastEvents = $.ajax('https://app.codingblocks.com/events/past', {
+      var pastEvents = $.ajax('http://localhost:3000/events/past', {
         method: "GET",
         json: true
       })
@@ -386,6 +457,22 @@
         if (xhr.status == 500) {
           $('#registration-error').removeClass('display-none')
         }
+      })
+
+      var fetchNews = $.ajax('http://localhost:3000/news', {
+        method: "GET",
+        json: true
+      })
+
+      fetchNews.done(function({news}) {
+        if(!news) {
+          return
+        }
+        
+        news.instructorsName = news.instructors.map(m => m.name).join(', ')
+        var newsTemplateHtml = $('#news-template').html();
+        var newsTemplate = Handlebars.compile(newsTemplateHtml);
+        $('#news').append(newsTemplate({news}))
       })
     })
   </script>
