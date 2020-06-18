@@ -30,6 +30,12 @@ $(function(){
     }    
   })
 
+  event.fail(function (xhr, textStatus, errorThrown) {
+    if (xhr.status == 500) {
+      $('#not-found').removeClass('display-none')
+    }
+  })
+
   $('#event-registration-form').submit(function (e) {
     $('#registration-error').addClass('display-none')
 
