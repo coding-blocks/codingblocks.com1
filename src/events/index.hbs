@@ -274,13 +274,13 @@
               <div class="flex-1 white pr-xl-5 t-align-xl-l t-align-c">
                 <img src="${announcement.announcement_image ? announcement.announcement_image : '/assets/images/icons/tests.png'}" class="d-xl-none d-block mb-5 mx-auto w-40">
                 <h1 class="white">${announcement.title}</h1>
-                <h2 class="mt-2 gradient-text-orange bold">${moment(announcement.start_date).format('DD MMM YYYY')}</h2>
+                <h2 class="mt-2 gradient-text-orange bold">${moment(announcement.start_date).utcOffset(0).format('DD MMM YYYY')}</h2>
                 <div class="font-md mt-4">
                   ${announcement.about}
                 </div>
                 <p>${announcement.description}</p>
                 {{!-- <h1 class="white">${announcement.title}</h1>
-                <h4 class="gradient-orange my-4">${moment(announcement.start_date).format('DD MMM YYYY')}</h4>
+                <h4 class="gradient-orange my-4">${moment(announcement.start_date).utcOffset(0).format('DD MMM YYYY')}</h4>
                 <p class="bold">${announcement.about}</p> --}}
                 <a href="${announcement.registrationLink}" class="button-solid button-orange">Register Now</a>
               </div>
@@ -319,10 +319,10 @@
           var description = event.description.trim()
           var is_registration_closed = event.is_registration_closed
           event.registrationLink = 'https://codingblocks.com/events/register/?id=' + event.id
-          var startDate = moment(event.start_date)
+          var startDate = moment(event.start_date).utcOffset(0)
           event.startDay = startDate.format('DD')
           event.startMonth = startDate.format('MMM')
-          var endDate = moment(event.endDate)
+          var endDate = moment(event.endDate).utcOffset(0)
           event.endDay = endDate.format('DD')
           event.endMonth = endDate.format('MMM')
           var data = {
@@ -392,11 +392,11 @@
           var description = event.description.trim()
           var is_registration_closed = event.is_registration_closed
           event.registrationLink = 'https://codingblocks.com/events/register/?id=' + event.id
-          var startDate = moment(event.start_date)
+          var startDate = moment(event.start_date).utcOffset(0)
           event.startDay = startDate.format('DD')
           event.startMonth = startDate.format('MMM')
           event.startTime = startDate.format('hh:mm a')
-          var endDate = moment(event.endDate)
+          var endDate = moment(event.endDate).utcOffset(0)
           event.endDay = endDate.format('DD')
           event.endMonth = endDate.format('MMM')
           event.endTime = endDate.format('hh:mm a')
@@ -436,11 +436,11 @@
           var description = event.description.trim()
           var is_registration_closed = event.is_registration_closed
           event.registrationLink = 'https://codingblocks.com/events/register/?id=' + event.id
-          var startDate = moment(event.start_date)
+          var startDate = moment(event.start_date).utcOffset(0)
           event.startDay = startDate.format('DD')
           event.startMonth = startDate.format('MMM')
           event.startTime = startDate.format('hh:mm a')
-          var endDate = moment(event.endDate)
+          var endDate = moment(event.endDate).utcOffset(0)
           event.endDay = endDate.format('DD')
           event.endMonth = endDate.format('MMM')
           event.endTime = endDate.format('hh:mm a')
