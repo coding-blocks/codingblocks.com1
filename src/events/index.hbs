@@ -273,7 +273,7 @@
         if(announcement.id) {
           $('.event-announcement').removeClass('display-none')
 
-          announcement.registrationLink = 'https://codingblocks.com/events/register?c=' + announcement.id
+          announcement.registrationLink = 'https://codingblocks.com/events/register?' + announcement.code + '-' + announcement.id
 
           var announcementMarkup = `  
             <div class="row no-gutters justify-content-between align-items-center">
@@ -324,7 +324,7 @@
           var banner = event.banner
           var description = event.description.trim()
           var is_registration_closed = event.is_registration_closed
-          event.registrationLink = 'https://codingblocks.com/events/register/?c=' + event.id
+          event.registrationLink = 'https://codingblocks.com/events/register/?'+ event.code + '-' + event.id
           var startDate = moment(event.start_date).utcOffset(0)
           event.startDay = startDate.format('DD')
           event.startMonth = startDate.format('MMM')
@@ -397,7 +397,7 @@
           var banner = event.banner
           var description = event.description.trim()
           var is_registration_closed = event.is_registration_closed
-          event.registrationLink = 'https://codingblocks.com/events/register/?c=' + event.id
+          event.registrationLink = 'https://codingblocks.com/events/register/?' + event.code + '-' + event.id
           var startDate = moment(event.start_date).utcOffset(0)
           event.startDay = startDate.format('DD')
           event.startMonth = startDate.format('MMM')
@@ -441,7 +441,7 @@
           var banner = event.banner
           var description = event.description.trim()
           var is_registration_closed = event.is_registration_closed
-          event.registrationLink = 'https://codingblocks.com/events/register/?c=' + event.id
+          event.registrationLink = 'https://codingblocks.com/events/register/?c=' + event.code + '-' + event.id
           var startDate = moment(event.start_date).utcOffset(0)
           event.startDay = startDate.format('DD')
           event.startMonth = startDate.format('MMM')
@@ -465,7 +465,7 @@
         }
       })
 
-      var fetchNews = $.ajax('http://localhost:3000/news', {
+      var fetchNews = $.ajax('https://app.codingblocks.com/news', {
         method: "GET",
         json: true
       })

@@ -1,9 +1,9 @@
 $(function(){
-  var code = getUrlParameter('c')
-  var eventId = code.split('-')[0]
-  var slug = code.split('-')[1]
+  var urlCode = window.location.href.split('?')[1].split('&')[0]
+  var eventCode = urlCode.split('-')[0]
+  var slug = urlCode.split('-')[1]
 
-  var event = $.ajax('https://app.codingblocks.com/events/' + eventId, { 
+  var event = $.ajax('https://app.codingblocks.com/events/' + eventCode, { 
     method: 'GET',
     contentType: 'application/json; charset=UTF-8',
     dataType: "json"
@@ -21,7 +21,7 @@ $(function(){
       $('.event-registration').removeClass('display-none')
     }
     $('.event-registration .event-banner').attr('src', event.banner)
-    $('.event-registration > form').attr('action', 'https://app.codingblocks.com/events/' + code + '/register')
+    $('.event-registration > form').attr('action', 'https://app.codingblocks.com/events/' + urlCode + '/register')
     $('.event-registration > .title').html(event.title)
     $('.event-registration > .about').html(event.about)
     $('.event-registration > .description').html(event.description)
