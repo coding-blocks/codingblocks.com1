@@ -15,8 +15,10 @@ $(function(){
       $('#not-found').removeClass('display-none')
       return 
     }
-    if(event.is_registration_closed || event.status === 'unpublished') {
+    var eventStartDate = moment(event.start_date + ' ' + event.start_time)
+    if(event.is_registration_closed || event.status === 'unpublished' || eventStartDate.isBefore(moment())) {
       $('#registrations-closed').removeClass('display-none')
+      return
     } else {
       $('.event-registration').removeClass('display-none')
     }
