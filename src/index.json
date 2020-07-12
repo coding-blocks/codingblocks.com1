@@ -13,19 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/monsoon_web_banner.jpg",
-      "imgAlt": "",
-      "heading": "This monsoon Grab a whopping 50% off on All online courses. Use Code RAIN50",
-      "content": "Available till 12th July",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Explore",
-          "filled": "true"
-        }
-      ]
-    },
-        {
       "imgSrc": "/assets/images/cb/cover/live_class_banner.jpg",
       "imgAlt": "",
       "heading": "WE BRING THE CLASSROOM TO YOUR HOME THIS COVID-19",
