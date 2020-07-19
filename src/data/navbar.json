@@ -54,10 +54,7 @@
       "title": "Live Classes",
       "link": "/live-classes.html",
       "sublinks": [
-        {
-          "title": "Information",
-          "link": "/live-classes.html"
-        },
+       
         {
           "title": "DS & Algo with C++",
           "link": "/live-courses/master-c-plus-plus-ds-algo.html"
