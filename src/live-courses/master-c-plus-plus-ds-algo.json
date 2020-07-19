@@ -13,15 +13,25 @@
   "head": {
     "links": [
       {
-        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
-        "rel": "stylesheet"
-      },
-      {
         "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
         "rel": "stylesheet"
       }
     ]
   },
+  "aboutMentor":[
+    {
+      "name":"Sanjeet Boora",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/49d69e1b-ccd1-4a39-afd9-fe3cf766e876",
+      "summary": "Always ready to solve new challenges, Sanjeet holds a Bachelor's degree in Electronics & Communication and is well versed with C++, Java, Angular, React.JS, VueJS, Python and Ruby on Rails. She has previously worked with DRDO and MyHQ Workspaces as a Fullstack Developer. She is an open-source enthusiast and is also passionate about problem solving and learning new algorithms. She has mentored at communities like PyJaipur and Learn IT, Girl!. She works closely with teaching assistants to enhance the student experience.",
+      "email": "Sanjeet@codingblocks.com"
+    },
+    {
+      "name":"Sharad Nailwal",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/c1b7b119-4116-4e1c-9ba5-e111b314b60c",
+      "summary": "",
+      "email": "Sharad@codingblocks.com"
+    }
+  ],
   "openGraph": {
     "url": "https://codingblocks.com/classroom-courses/c-plus-plus-for-beginners.html",
     "title": "C++ Beginner & Advanced Courses | Coding Blocks",
@@ -31,9 +41,13 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
 	  "title": "Master DS and Algo with C++",
-    "price": "12,499",
+    "price": "15,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2020&amp",
-    "demo-link": "https://codingblocks.com/take-demo.html"
+    "demo-link": "https://codingblocks.com/take-demo.html",
+    "mentors": "Sanjeet Boora,Sharad Nailwal",
+    "description": "Start from Basics, become a C++ Master!",
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/49d69e1b-ccd1-4a39-afd9-fe3cf766e876",
+    "mentor-img-2" : "https://minio.codingblocks.com/amoeba/c1b7b119-4116-4e1c-9ba5-e111b314b60c"
   },
   "demoClass":[
     {
@@ -46,6 +60,42 @@
       "youtubeID":"tl9jpnzOTNE"
     }
   ],
+  "testTimelines":{
+        "demo-link": "/take-demo.html",
+        "buy-link":"https://dukaan.codingblocks.com/buy?productId=2020",
+        "testLinks":[
+          {
+            "link":"TRIAL",
+            "date":""
+          },
+          {
+            "link":"",
+            "date":""
+          }
+        ],        
+        "highlights":[
+          {
+            "head":"Opportunities unlocked for learner",
+            "description":"Develop a strong approach to coding languages and learn any language further.Learn from scratch with standard libraries and inner algorithms to understand what goes “under the hood”.Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
+                "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+          },
+          {
+            "head":"Hands on Projects and Problems:",
+            "description":"Build real-world applications in C++ like Google Maps PathFinder, build games like Tic Tac Toe, Sudoku.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm.",
+            "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+          },
+          {
+            "head":"Why choose CB Live:",
+            "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+            "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+          },
+          {
+            "head":"Certificate Course",
+            "description":"Learners will get Course certificate from Coding Blocks upon completion of the program. Both e-certificate and physical copies of the certificate are provided and can be used on LinkedIn profiles and resumes.",
+            "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
+          }
+        ]
+  },
   "studentsSay":[
     {
       "name":"Anshul Mittal",

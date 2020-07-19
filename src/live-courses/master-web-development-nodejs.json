@@ -21,10 +21,6 @@
   "head": {
     "links": [
       {
-        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
-        "rel": "stylesheet"
-      },
-      {
         "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
         "rel": "stylesheet"
       }
@@ -33,10 +29,28 @@
    "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/8363cfd5-40f7-499a-bd8d-33541baa0a5f.svg",
     "title": "Master FullStack Web with NodeJS",
-    "price": "16,999",
+    "price": "15,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2039",
-    "demo-link": "https://codingblocks.com/take-demo.html"
+    "demo-link": "https://codingblocks.com/take-demo.html",
+     "mentors": "Arnav Gupta,Tathagat Thapliyal",
+    "description": "Learn building servers with NodeJS including MySQL, MongoDB, OAuth and WebSockets",
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
+    "mentor-img-2": "https://minio.codingblocks.com/amoeba/e44da84c-cfc2-482b-8ff1-c99b5e548fd9"
   },
+  "aboutMentor":[
+    {
+      "name":"Arnav Gupta",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
+      "summary": "Arnav Gupta, also popular as ChampionSwimmer, is an acclaimed Android developer and two timer GSoC-er. He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf. He has also worked with Sony, Micromax, Cyanogen and the likes. Arnav has also active contributed in the development of Android OS, Linux Kernel and has been a former student and a mentor in GSoC.",
+      "email": "arnav@codingblocks.com"
+    },
+    {
+      "name":"Tathagat Thapliyal",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/e44da84c-cfc2-482b-8ff1-c99b5e548fd9",
+      "summary": "A Full-Stack Engineer and has worked with many amazing startups. He Always loves to build products and see it impacting people's needs. He has built applications using web technologies like React.js, React-Native, Ember.js, Node.js, GraphQL. He has given various talks on web technologies in Big conferences such as React Summit Amsterdam.",
+      "email": "tathagat.thapliyal@codingblocks.com"
+    }
+  ],
    "demoClass":[
     {
       "youtubeID":"I2AcovnUHnU"

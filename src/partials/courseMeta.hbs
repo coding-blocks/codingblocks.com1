@@ -1,28 +1,45 @@
 {{#with courseMeta}}
-  <div class="row no-gutters justify-content-between align-items-center pb-5 border-bottom mb-5">
-    <div class="col-md-8 col-12 mb-md-0 mb-4">
-      <div class="row no-gutters align-items-center d-sm-flex d-none">
-        <div class="p-5 all-center" style="height: 200px; width: 200px;">
-          <img src="{{icon}}">
-        </div>
-        <div class="flex-1 pl-5">
-          <h1>{{title}}</h1>
-          <h2 class="gradient-text-orange">&#8377; {{price}}</h2>
+   <div class="border-card p-md-5 white p-4 bg-gradient-cyan white mb-5">
+    <div class="d-flex flex-wrap no-gutters justify-content-between">
+      <div class="col-12 col-sm-8 order-sm-1 order-2">
+        <div class="bold" style="font-size: 2.85rem;">{{title}}</div>
+        <div class="mt-4 font-lg">{{description}}</div>
+        <div class="my-5">
+          <div class="mentor-row d-flex align-items-center">
+            <div class="mentor-row__image-container">
+              <img src="{{mentor-img-1}}"
+               class="mentor-row__image-container__mentor-image s-60x60">
+              {{#if mentor-img-2}}
+              <img src="{{mentor-img-2}}"
+                alt="" class="mentor-row__image-container__mentor-image s-60x60">
+              {{/if}}
+              </div>
+            <div class="mentor-row__text-container">
+              <div class="font-md">Instructors</div>
+              <h4 class="bold white">{{mentors}}</h4>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row no-gutters align-items-center d-sm-none d-flex">
-        <div class="round border p-4 all-center" style="height: 100px; width: 100px;">
-          <img src="{{icon}}">
-        </div>
-        <div class="flex-1 pl-4">
-          <h2>{{title}}</h2>
-          <h4 class="gradient-text-orange">&#8377; {{price}}</h4>
-        </div>
+      <div class="order-sm-2 order-1 mb-sm-0 mb-3">
+        <img src="{{icon}}"
+          class="round border b-white border-2 s-130x130">
       </div>
     </div>
-    <div class="row no-gutters justify-content-center flex-1">
-      <a class="button-orange button-solid mr-4" href="{{course-link}}">Register Now</a>
-      <a href="/take-demo.html" class="button-orange button-dashed">Take Demo</a>
+    <div class="row no-gutters align-items-center justify-content-between">
+      <div class="col-xl-8 col-sm-6">
+        <div class="bold backdrop font-mds v-align-ma mb-xl-0 mb-5">
+          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/user-white.svg" class="mr-2tea">
+          Enrollment through Selection process only
+        </div>
+        <div class="bold backdrop font-mds v-align-ma ml-xl-5 mb-md-0 mb-5">
+          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/group-white.svg" class="mr-2">
+          50 Students
+        </div>
+      </div>
+      <div class="d-inline-flex align-items-center">
+        <span class="font-mdxl bold">&#8377;&nbsp;{{price}}</span>
+      </div>
     </div>
   </div>
 {{/with}}

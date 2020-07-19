@@ -36,10 +36,21 @@
    "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/b8955c5d-ebaa-4667-a9bd-84bd0c664063.svg",
     "title": "Master Digital Marketing",
-    "price": "9,999",
+    "price": "14,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2016",
-    "demo-link": "https://codingblocks.com/take-demo.html"
+    "demo-link": "https://codingblocks.com/take-demo.html",
+    "mentors": "Ishan Manchanda",
+    "description": "Start from basics become job-ready, data-driven Digital Marketer",
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/044d2224-7cc3-4aac-967f-f28d508af814"
   },
+  "aboutMentor":[
+    {
+      "name":"Ishan Manchanda",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d",
+      "summary": "Ishan holds an MBA from NMIMS and has an experience of over 5+ years in Digital and Product strategies. Ishan has trained 1000+ students in Digital Marketing. He also runs a digital consultancy that has helped many organizations find their gaps in user funnel and scale revenue.",
+      "email": "ishan.manchanda100@gmail.com"
+    }
+  ],
    "demoClass":[
     {
       "youtubeID":"4dGzvxTapaM"

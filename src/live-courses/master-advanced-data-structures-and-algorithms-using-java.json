@@ -20,10 +20,6 @@
   "head": {
     "links": [
       {
-        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
-        "rel": "stylesheet"
-      },
-      {
         "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
         "rel": "stylesheet"
       }
@@ -32,10 +28,28 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
     "title": "Master Algo.Java-Data Structures",
-    "price": "10,999",
+    "price": "13,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2035",
-    "demo-link": "https://codingblocks.com/take-demo.html"
+    "demo-link": "https://codingblocks.com/take-demo.html",
+     "mentors": "Rishab Kapoor, Garima Chhikara",
+    "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/4078be4e-72e1-451a-9c4e-9223d2bbcc2c",
+    "mentor-img-2" : "https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48"
   },
+   "aboutMentor":[
+    {
+      "name":"Rishab Kapoor",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/4078be4e-72e1-451a-9c4e-9223d2bbcc2c",
+      "summary": "Rishab is a graduate from Guru Nanak Dev University, Rishab has worked with Harman Connected Services as a software engineer. He is proficient with web development related technologies like HTML, CSS, Javascript along with Internet of Things development, OSGi framework, Spring and Hibernate.",
+      "email": "rishab.kapoor@codingblocks.com"
+    },
+    {
+      "name":"Garima Chhikara",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48",
+      "summary": "Garima pursued her masters from IIIT-Delhi and joined Coding Blocks to pursue her passion for teaching.",
+      "email": "garima.chhikara@codingblocks.com"
+    }
+  ],
   "demoClass":[
     {
       "youtubeID":"ZGe5MdEXsvQ"
