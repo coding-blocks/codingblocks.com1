@@ -21,22 +21,29 @@
  "head": {
     "links": [
       {
-        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
-        "rel": "stylesheet"
-      },
-      {
         "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
         "rel": "stylesheet"
       }
     ]
   },
   "courseMeta": {
-    "icon": "/assets/images/cb/logosc/color_algo.svg",
+    "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
     "title": "Master Algo++",
-    "price": "10,999",
+    "price": "14,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2024",
-    "demo-link": "https://codingblocks.com/take-demo.html"
+    "demo-link": "https://codingblocks.com/take-demo.html",
+     "mentors": "Prateek Narang",
+    "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9"
   },
+  "aboutMentor":[
+    {
+      "name":"Prateek Narang",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
+      "summary": "Currently doing his Masters in Machine Learning from IIT Delhi, Prateek is an ace programmer who has worked with SanDisk and HackerEarth in the past. He has also won prestigious hackathons including Google’s Code For India and Smart City Hackathon. A Computer Science Graduate from DTU, he is highly popular among students for his teaching methods. His interactive CV (www.prateeknarang.com) is also well known in 120+ countries.",
+      "email": "prateek@codingblocks.com"
+    }
+  ],
   "demoClass":[
     {
       "youtubeID":"ZAZXvGWpccs"

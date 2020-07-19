@@ -24,47 +24,7 @@
 <br>
 <br>
 <div class="px-md-5 px-4 live-courses mb-5">
-  <div class="border-card p-md-5 white p-4 bg-gradient-cyan white mb-5">
-    <div class="d-flex flex-wrap no-gutters justify-content-between">
-      <div class="col-12 col-sm-8 order-sm-1 order-2">
-        <div class="bold" style="font-size: 2.85rem;">Master DS and Algo with C++</div>
-        <div class="mt-4 font-lg">Start from Basics, become a C++ Master!</div>
-        <div class="my-5">
-          <div class="mentor-row d-flex align-items-center">
-            <div class="mentor-row__image-container">
-              <img src="https://minio.codingblocks.com/amoeba/4078be4e-72e1-451a-9c4e-9223d2bbcc2c"
-                alt="photo ofRishab Kapoor" class="mentor-row__image-container__mentor-image s-60x60">
-              <img src="https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48"
-                alt="photo ofGarima Chhikara" class="mentor-row__image-container__mentor-image s-60x60"></div>
-            <div class="mentor-row__text-container">
-              <div class="font-md">Instructors</div>
-              <h4 class="bold white">Rishab Kapoor, Garima Chhikara</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="order-sm-2 order-1 mb-sm-0 mb-3">
-        <img src="https://minio.codingblocks.com/amoeba/e5171581-41d8-46f5-97bf-c47db8214f22.png"
-          class="round border b-white border-2 s-130x130">
-      </div>
-    </div>
-    <div class="row no-gutters align-items-center justify-content-between">
-      <div class="col-xl-8 col-sm-6">
-        <div class="bold backdrop font-mds v-align-ma mb-xl-0 mb-5">
-          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/user-white.svg" class="mr-2tea">
-          Enrollment through Selection process only
-        </div>
-        <div class="bold backdrop font-mds v-align-ma ml-xl-5 mb-md-0 mb-5">
-          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/group-white.svg" class="mr-2">
-          50 Students
-        </div>
-      </div>
-      <div class="d-inline-flex align-items-center">
-        <span class="font-mdxl bold">&#8377;&nbsp;12499</span>
-        <span class="font-xl bold del-text-grey pl-3"><del>&#8377;&nbsp;18999</del></span>
-      </div>
-    </div>
-  </div>
+  {{> courseMeta}}
   <div class="row">
     <div class="col-lg-8 mb-lg-0 mb-5">
       <div class="border-card p-md-5 p-4 mb-5">
@@ -97,35 +57,90 @@
         </div>
       </div>
     	{{>liveCourseSchedule}}
-      <div class="border-card bg-grey p-md-5 p-4">
-        <div class="font-md bold mb-5">About Mentors</div>
-        <div class="row no-gutters instructor-row">
-          <img src="https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9" class="s-50x50 round">
-          <div class="ml-3 flex-1">
-            <div class="font-mds bold">Prateek Narang</div>
-            <a href="mailto:prateek@codingblocks.com" class="med-grey mb-2">prateek@codingblocks.com</a>
-            <div class="t-align-j">
-              <div class="markdown-body">
-                <p>Currently doing his Masters in Machine Learning from IIT Delhi, Prateek is an ace programmer who has
-                  worked with SanDisk and HackerEarth in the past. He has also won prestigious hackathons including
-                  Google’s Code For India and Smart City Hackathon. A Computer Science Graduate from DTU, he is highly
-                  popular among students for his teaching methods. His interactive CV (<a
-                    href="http://www.prateeknarang.com">www.prateeknarang.com</a>) is also well known in 120+ countries.
-                </p>
-              </div>
+      {{>aboutMentor}}
+    </div>
+    <div class="col-lg-4 mb-lg-0 mb-5">
+      <div class="br-10 overflow-hidden white mb-5">
+        <div class="row no-gutters align-items-center bg-gradient-green px-lg-5 px-4 py-4">
+          <div class="round s-60x60 border b-white border-2 all-center" style="background: inherit;">
+            <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/master-tropgy.svg">
+          </div>
+          <div class="flex-1 pl-4">
+            <div class="card-md mb-1">
+              Get free access to
+            </div>
+            <div class="bold">
+              Master Interview Questions for FAANG & Product Companies
             </div>
           </div>
         </div>
       </div>
+      <div class="border-card p-lg-5 p-4 bg-gradient-orange white position-relative mb-5">
+        <div class="font-md bold">Selection Tests</div>
+        <div class="card-md mt-1">Choose your preffered Test Date</div>
+        <div class="mt-5">
+          <a href="https://hack.codingblocks.com/app/contests/1719" target="_blank" class="button-dashed button-white">25th July</a>
+          <a href="https://hack.codingblocks.com/app/contests/1721" target= "_blank" class="button-solid orange button-white ml-xl-3 ml-lg-2 ml-4">31st July</a>
+        </div>
+        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/victory.svg" class="victory-vector">
+      </div>
+      <div class="border-card p-lg-5 p-4 b-orange mb-5">
+        <div class="font-mds bold">
+          Timeline
+        </div>
+        <div class="border-left mt-5" style="padding-left: 1.5rem;">
+          <div class="position-relative mb-4">
+            <div class="card-md">
+              Pre Booking Starts on
+              <br />
+              <strong>25th July</strong>
+            </div>
+            <div class="indicator">&#8226;</div>
+          </div>
+          <div class="position-relative mb-4">
+            <div class="card-md">
+              Pre Booking Starts on
+              <br />
+              <strong>25th July</strong>
+            </div>
+            <div class="indicator">&#8226;</div>
+          </div>
+          <div class="position-relative mb-4">
+            <div class="card-md">
+              Pre Booking Starts on
+              <br />
+              <strong>25th July</strong>
+            </div>
+            <div class="indicator">&#8226;</div>
+          </div>
+          <div class="position-relative">
+            <div class="card-md">
+              Pre Booking Starts on
+              <br />
+              <strong>25th July</strong>
+            </div>
+            <div class="indicator">&#8226;</div>
+          </div>
+        </div>
+      </div>
+      <div class="border-card p-md-5 p-4 mb-5">
+        {{#each highlights}}
+          <div class="row no-gutters align-items-center justify-content-between">
+            <h5 class="bold flex-1">{{head}}</h5>
+            <img src="{{icon}}">
+          </div>
+          <div class="mt-2 mb-4 card-md">
+           {{description}}
+          </div>
+        {{/each}}
+      </div>
+      <div class="border-card bg-gradient-purple white p-md-5 p-4">
+        <h2 class="bold" style="color: #ffffff">Land your dream job</h2>
+        <div class="mb-4 font-sm">Making you ready for grade A companies</div>
+                  <img src="https://online.codingblocks.com/_nuxt/img/c1b47b5.svg" alt loading="lazy" />
+      </div>
     </div>
-    {{>buyDemoSyllabus}}
-      <!--   <h2 class="mb-5">What the students have to say?</h2>
-
-       <div class="border-card all-center bg-gradient- mb-5" style="height: 450px;">
-                  <iframe data-v-43339ea6="" src="https://www.youtube.com/embed/1TytVIYYFVw" frameborder="0" loading="lazy"
-                    data-v-03fd9cc6="" class="w-100" style="height: 450px;"></iframe>
-       </div>
-    {{> studentsSay}} -->
+    {{> studentsSay}}
     {{> floatingFooter}}
   </div>
 </div>

@@ -67,6 +67,10 @@
           "link": "/live-courses/master-java-for-beginners.html"
         },
         {
+          "title": "Master Full Stack Web with NodeJS",
+          "link": "/live-courses/master-web-development-nodejs.html"
+        },
+        {
           "title": "Data Science",
           "link": "/live-courses/master-data-science-with-python.html"
         },
@@ -80,7 +84,7 @@
         },
         {
           "title": "LIVE DIGITAL MARKETING",
-          "link": "live-courses/master-digital-marketing.html"
+          "link": "/live-courses/master-digital-marketing.html"
         }
       ]
     },

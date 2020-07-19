@@ -4,35 +4,128 @@
   <title>{{title}}</title>
   {{> meta}}
   {{> head}}
-  <style>
-    body {
-      padding: 0
-    }
-    h1, h2, h3, h4, h5, h6 {
-      font-family: "Gilroy","Nunito Sans",sans-serif;
-    }
-  </style>
 </head>
-
-<body class="scroll-assist">
+<body>
 {{> navbar}}
-	<!-- start new  -->
-<div class="p-md-5 p-4">
-	{{> courseMeta}}
-  	{{> liveCourseHighlights}}
-	{{> liveCourseSchedule}}											
-	{{> demoClass}}				
- </div>
-<div class="main-container">
-	{{>alumniBanner}}
-	<div class="p-md-5 p-4 mb-5">
-		<h2 class="mb-5">What the students have to say?</h2>
-		<div class="all-center bg-gradient-orange mb-5" style="height: 450px;">
-		          <iframe data-v-43339ea6="" src="https://www.youtube.com/embed/1TytVIYYFVw" frameborder="0" loading="lazy"
-		            data-v-03fd9cc6="" class="w-100" style="height: 450px;"></iframe>
-		</div>
-	{{> studentsSay}}
-	{{> floatingFooter}}
+<br>
+<br>  
+<br>
+<br>
+<div class="px-md-5 px-4 live-courses mb-5">
+  {{> courseMeta}}
+  <div class="row">
+    <div class="col-lg-8 mb-lg-0 mb-5">
+      <div class="border-card p-md-5 p-4 mb-5">
+        <div class="font-md">
+          <strong>Summary</strong>
+          <br /><br />
+          The Live course for Full Stack Web with NodeJS by Coding Blocks is deftly designed with an aim to familiarize the young coders with all the know-how of developing the most coherent and professional websites & web-portals. This Live course is a project-based Full Stack Web Development course with backend in Node JS. The course will start with topics such as HTML, CSS, and JS and then move on to important concepts such as version control, databases, Node JS and advanced topics such as security. The course would enable students to develop professional thinking ability to build their own websites from the scratch. 
+          <br /><br />
+          <strong>Highlights</strong>
+          <br /><br />
+          <ul class="list-style-gradient-bullet my-0">
+            <li>Extensive Data Structure & Algorithmic Coverage</li>
+            <li>Comfort of Home</li>
+            <li>Guidance by Industry-expert Mentors</li>
+            <li>Two-way Interactive Sessions</li>
+            <li>Recorded Videos after Live Lectures</li>
+            <li>Handwritten Mentor Notes</li>
+            <li>Immediate Doubt Resolution during Lectures</li>
+          </ul>
+          <br />
+          <strong>Pre-requisites</strong>
+          <br /><br />
+				Basic knowledge of programming concepts is required. We recommend to have a prior understanding of these langnguages: C++ and Java (along with DS and Algo).
+          </pre>
+        </div>
+      </div>
+      {{>liveCourseSchedule}}
+      {{>aboutMentor}}
+    </div>
+    <div class="col-lg-4 mb-lg-0 mb-5">
+      <div class="br-10 overflow-hidden white mb-5">
+        <div class="row no-gutters align-items-center bg-gradient-green px-lg-5 px-4 py-4">
+          <div class="round s-60x60 border b-white border-2 all-center" style="background: inherit;">
+            <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/master-tropgy.svg">
+          </div>
+          <div class="flex-1 pl-4">
+            <div class="card-md mb-1">
+              Get free access to
+            </div>
+            <div class="bold">
+              Master Interview Questions for FAANG & Product Companies
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-card p-lg-5 p-4 bg-gradient-orange white position-relative mb-5">
+        <div class="font-md bold">Selection Tests</div>
+        <div class="card-md mt-1">Choose your preffered Test Date</div>
+        <div class="mt-5">
+          <a href="https://hack.codingblocks.com/app/contests/1720" target="_blank" class="button-dashed button-white">25th July</a>
+          <a href="https://hack.codingblocks.com/app/contests/1722" target= "_blank" class="button-solid orange button-white ml-xl-3 ml-lg-2 ml-4">31st July</a>
+        </div>
+        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/victory.svg" class="victory-vector">
+      </div>
+      <div class="border-card p-lg-5 p-4 b-orange mb-5">
+        <div class="font-mds bold">
+          Timeline
+        </div>
+        <div class="border-left mt-5" style="padding-left: 1.5rem;">
+          <div class="position-relative mb-4">
+            <div class="card-md">
+              Pre Booking Starts on
+              <br />
+              <strong>25th July</strong>
+            </div>
+            <div class="indicator">&#8226;</div>
+          </div>
+          <div class="position-relative mb-4">
+            <div class="card-md">
+              Pre Booking Starts on
+              <br />
+              <strong>25th July</strong>
+            </div>
+            <div class="indicator">&#8226;</div>
+          </div>
+          <div class="position-relative mb-4">
+            <div class="card-md">
+              Pre Booking Starts on
+              <br />
+              <strong>25th July</strong>
+            </div>
+            <div class="indicator">&#8226;</div>
+          </div>
+          <div class="position-relative">
+            <div class="card-md">
+              Pre Booking Starts on
+              <br />
+              <strong>25th July</strong>
+            </div>
+            <div class="indicator">&#8226;</div>
+          </div>
+        </div>
+      </div>
+      <div class="border-card p-md-5 p-4 mb-5">
+        {{#each highlights}}
+          <div class="row no-gutters align-items-center justify-content-between">
+            <h5 class="bold flex-1">{{head}}</h5>
+            <img src="{{icon}}">
+          </div>
+          <div class="mt-2 mb-4 card-md">
+           {{description}}
+          </div>
+        {{/each}}
+      </div>
+      <div class="border-card bg-gradient-purple white p-md-5 p-4">
+        <h2 class="bold" style="color: #ffffff">Land your dream job</h2>
+        <div class="mb-4 font-sm">Making you ready for grade A companies</div>
+                  <img src="https://online.codingblocks.com/_nuxt/img/c1b47b5.svg" alt loading="lazy" />
+      </div>
+    </div>
+    {{> studentsSay}}
+    {{> floatingFooter}}
+  </div>
 </div>
 {{> scripts}}
 </body>
