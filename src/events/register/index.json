@@ -9,7 +9,19 @@
   "head": {
     "scripts": [
       {
+        "src": "/assets/scripts/jquery.min.js"
+      },
+      {
         "src": "/assets/scripts/events-register.js"
+      },
+      {
+        "src": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"
+      }
+    ],
+    "links": [
+      {
+        "href": "/assets/styles/motley.min.css",
+        "rel": "stylesheet"
       }
     ]
   },

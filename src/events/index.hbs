@@ -1,19 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>{{title}}</title>
-    {{> meta}}
-    {{> head}}
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+
+  <style>
+    #event-slider > .slides .border-card{
+      height: 650px;
+      overflow: hidden
+    }
+
+    h4, h5, h6 {
+      line-height: inherit;
+    }
+
+    .events-page__event-card__head {
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .events-page__event-card__head__date-tag {
+      z-index: 1;
+    }
+
+    .events-page__event-card__head__date-tag-text {
+      position: absolute;
+      right: 4%;
+      bottom: -90px;
+    }
+
+    .event-card__about {
+      max-height: 80px;
+      overflow-y: auto;
+    }
+
+    .img-card .head__course-logo {
+      position: absolute;
+      border-radius: 50%;
+      text-align: center;
+      background: white;
+      border: solid 1px #e74e4b;
+      bottom: -30px;
+      right: 30px;
+      width: 95px;
+      height: 95px;
+      bottom: -42.5px;
+      padding-top: 25px;
+    }
+
+    .img-card .foot {
+      padding: 3rem 2.5rem 3rem 2.5rem;
+      border-radius: 10px;
+    }
+
+    .img-card .top-tag {
+      min-width: 200px;
+      height: 30px;
+      border-radius: 15px 15px 0 0;
+      background-image: linear-gradient(to top, #e74e4b, #fb8133);
+      position: absolute;
+      top: -29px;
+      left: 26%;
+      margin: 0 auto;
+      color: white;
+      padding: 5px 0;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .carousel-img-card .head__course-logo{
+      right: 5rem;
+    }
+
+    .event-announcement {
+      color: white;
+      background-color: #000000 /* livesmatter */;
+    }
+
+    .px-6 {
+      padding-left: 5rem !important;
+      padding-right: 5rem !important;
+    }
+
+    .mb-6 {
+      margin-bottom: 5rem;
+    }
+
+    .max-lines {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+
+    .max-lines-2 {
+      -webkit-line-clamp: 2;
+    }
+
+    .button-dashed {
+      border: solid 1px grey;
+    }
+
+    .gradient-green {
+      background-image: linear-gradient(30deg,#82da3b,#27a87c);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+
+    .gradient-pink {
+      background-image: linear-gradient(30deg,#f24f5f,#a3076c);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+
+    .gradient-purple {
+      background-image: linear-gradient(30deg,#8108da,#350ed8);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+
+    .label-card__head {
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    @media all and (min-width: 768px)  {
+      .events-page__event-card {
+        height: 596px;
+      }
+
+      .label-card__foot {
+        height: 300px;
+      }
+
+      .registrable .label-card__foot {
+        height: 350px;
+      }
+
+      .text-md-right {
+        text-align: right;
+      }
+    }
+  
+  </style>
 </head>
-<body class="scroll-assist">
-{{> navbar}}
-<div class="main-container">
-    {{> header}}
+
+<body class="scroll-assist a-ocb p-0">
+  {{> navbar}}
+  <div class="main-container events-page">
+    {{!-- {{> header}} --}}
+    <div class="event-announcement display-none">
+      <div class="container py-5">
+      </div>
+    </div>
+    {{> events-slider}}
     {{> events}}
-    {{> map}}
+    <div class="container">
+      <div id="news" class="mb-5"></div>
+    </div>
     {{> footer}}
-</div>
-{{> scripts}}
-{{> eventsScript}}
+  </div>
+
+  {{> scripts}}
+  {{> eventsScript}}
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script id="event-card-template" type="text/x-handlebars-template">
+    <div class="col-12 col-md-4 mt-5 mb-4">
+      <div class="br-10 label-card \{{#if allowRegister}} registrable \{{/if}}">
+        <div class="br-10 label-card__head" style="background-image: url(\{{event.banner}});">
+          <div class="label-card__label all-center">
+            <div class="position-relative all-center wh-100">
+              <div class="white bold font-xs" style="text-transform: uppercase;">\{{event.event_type}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="br-10 label-card__foot px-md-5 px-4">
+          <div class="label-card__foot__tag s-100x100">
+            <div class="t-align-c">
+              <div class="font-mdxl bold gradient-text-orange">\{{event.startDay}}</div>
+              <div class="bold">\{{event.startMonth}}</div>
+            </div>
+          </div>
+
+          <h4 class="bold">\{{event.title}}</h4>
+          <div class="event-card__about mt-1 collapsable-text max-words-10">\{{event.about}}</div>
+          <div class="mentor-row my-4">
+            <div class="mentor-row__image-container">
+              \{{#each event.instructors}}
+                <img src="\{{this.photo}}" alt="photo ofRishab Kapoor"
+                  class="mentor-row__image-container__mentor-image s-60x60">
+              \{{/each}}
+              <div class="mentor-row__text-container">
+                <div>By</div>
+                <div class="bold">\{{event.instructorsName}}</div>
+              </div>
+            </div>
+          </div>
+          \{{#if allowRegister}}
+            \{{#unless event.is_registration_closed}}
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="font-sm">
+                  \{{event.startTime}} Onwards
+                  \{{#if event.registrations_count}}
+                    <div class="orange card-md">\{{event.registrations_count}} Registrations Received</div>
+                  \{{/if}}
+                </div>
+                <a href="\{{event.registrationLink}}" class="button-solid button-orange">Register</a>
+              </div>
+            \{{/unless}}
+          \{{/if}}
+        </div>
+      </div>
+      </div>
+
+      
+      
+  </script>
+
+  <script id="news-template" type="text/x-handlebars-template">
+    <h3 class="t-align-c mb-4">\{{news.heading}}</h3>
+    <div class="border-card p-5 bg-black white">
+      <div class="row p-4 justify-content-between">
+        <div class="col-12 col-md-6">
+          <div class="text-uppercase">\{{news.label}}</div>
+          <h1 class="text-uppercase gradient-\{{news.theme}}">\{{news.title}}</h1>
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-right">
+          <img src="\{{news.image}}" alt="">
+        </div>
+
+      </div>
+
+      <div class="row justify-content-between align-items-center p-4">
+        <div class="col-12 col-md-7">
+          <div class="mentor-row my-4">
+            <div class="mentor-row__image-container">
+              \{{#each news.instructors}}
+              <img src="\{{this.photo}}" alt="photo ofRishab Kapoor" class="mentor-row__image-container__mentor-image s-60x60">
+              \{{/each}}
+              <div class="mentor-row__text-container">
+                <div>By</div>
+                <div class="bold">\{{news.instructorsName}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 t-align-r">
+          <a class="button-dashed gradient-\{{news.theme}}" href="\{{news.link}}">Explore</a>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script>
+    $(function () {
+      var eventCardSource = $('#event-card-template').html();
+      var eventCardTemplate = Handlebars.compile(eventCardSource);
+
+      var announcement = $.ajax('https://app.codingblocks.com/events/announcement', {
+        method: "GET",
+        json: true
+      })
+
+      announcement.done(function(announcement) {
+        if(announcement.id) {
+          $('.event-announcement').removeClass('display-none')
+
+          announcement.registrationLink = 'https://codingblocks.com/events/register?' + announcement.code + '-' + announcement.id
+
+          var announcementMarkup = `  
+            <div class="row no-gutters justify-content-between align-items-center">
+              <div class="flex-1 white pr-xl-5 t-align-xl-l t-align-c">
+                <img src="${announcement.announcement_image ? announcement.announcement_image : '/assets/images/icons/tests.png'}" class="d-xl-none d-block mb-5 mx-auto w-40">
+                <h1 class="white">${announcement.title}</h1>
+                <h2 class="mt-2 gradient-text-orange bold">${moment(announcement.start_date).utcOffset(0).format('DD MMM YYYY')}</h2>
+                <div class="font-md mt-4">
+                  ${announcement.about}
+                </div>
+                <p>${announcement.description}</p>
+                {{!-- <h1 class="white">${announcement.title}</h1>
+                <h4 class="gradient-orange my-4">${moment(announcement.start_date).utcOffset(0).format('DD MMM YYYY')}</h4>
+                <p class="bold">${announcement.about}</p> --}}
+                <a href="${announcement.registrationLink}" class="button-solid button-orange">Register Now</a>
+              </div>
+
+              <img src="${announcement.announcement_image ? announcement.announcement_image : '/assets/images/icons/tests.png'}" class="d-xl-block d-none w-40">
+              
+              {{!-- <div class="col-12 col-md-6">
+              </div>
+              
+              <div class="col-12 col-md-6 t-align-c">
+                <img src="${announcement.announcement_image ? announcement.announcement_image : '/assets/images/icons/tests.png'}">
+              </div> --}}
+              
+            </div>
+          `
+
+          $('.event-announcement > .container').append(announcementMarkup)
+
+        }
+      })
+      
+
+      var topEvents = $.ajax('https://app.codingblocks.com/events/top', {
+        method: "GET",
+        json: true
+      })
+
+      topEvents.done(function(events) {
+        if(events.length) {
+          $('#event-slider').removeClass('display-none')
+        }
+        events.forEach(function(event) {
+          var title = event.title.trim()
+          var about = event.about.trim()
+          var banner = event.banner
+          var description = event.description.trim()
+          var is_registration_closed = event.is_registration_closed
+          event.registrationLink = 'https://codingblocks.com/events/register/?'+ event.code + '-' + event.id
+          var startDate = moment(event.start_date).utcOffset(0)
+          event.startDay = startDate.format('DD')
+          event.startMonth = startDate.format('MMM')
+          var endDate = moment(event.endDate).utcOffset(0)
+          event.endDay = endDate.format('DD')
+          event.endMonth = endDate.format('MMM')
+          var data = {
+            event
+          }
+          
+          var slide = `
+            <div class="br-10 events-page__event-card border mx-3">
+                <div class="bg-grey events-page__event-card__head" style="background-image: url(${banner}); height: 400px;">
+                  <div class="events-page__event-card__head__date-tag s-100x100 round">                    
+                      <div class="t-align-c">
+                        <div class="font-mdxl bold gradient-text-orange">
+                          ${startDate.format('DD')}
+                        </div>
+                        <div class="bold black"> 
+                          ${startDate.format('MMM')}
+                        </div>
+                        <div class="bold d-md-none">
+                          ${startDate.format('hh:mm A')}
+                        </div>
+                      </div>
+                  </div>
+                  <div class="events-page__event-card__head__date-tag-text font-mds dsp-none-md"> ${startDate.format('hh:mm')} Onwards</div>
+                </div>
+                <div class="events-page__event-card__foot">                  
+                  <div class="col-12 col-md-10">
+                    <h2 class="gradient-orange">${title}</h2>
+                    <div class="font-sm pb-3 mb-3 border-bottom text-ellipses">
+                      ${about}
+                    </div>
+
+                    <p class="card-sm collapsable-text max-words-40">
+                      ${description}
+                    </p>
+                  </div>        
+                </div>
+            </div>
+          `          
+          var eventSlides = $('#event-slider > .slides')
+          eventSlides.append(slide)
+        })
+        triggerTextCollapser()
+        $('#event-slider .slides').slick({
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          centerMode: true,
+          infinite: true,
+          arrows: true
+        });
+      })
+
+      var upcomingEvents = $.ajax('https://app.codingblocks.com/events/upcoming', {
+        method: "GET",
+        json: true
+      })
+
+      upcomingEvents.done(function (events) {
+        if(!events.length) {
+          $('.upcoming-events > .no-events').removeClass('display-none')
+        }
+        var eventList = $('.upcoming-events > .events-list > .row')
+        events.forEach(function (event) {
+          var title = event.title.trim()
+          var about = event.about.trim()
+          var banner = event.banner
+          var description = event.description.trim()
+          var is_registration_closed = event.is_registration_closed
+          event.registrationLink = 'https://codingblocks.com/events/register/?' + event.code + '-' + event.id
+          var startDate = moment(event.start_date).utcOffset(0)
+          event.startDay = startDate.format('DD')
+          event.startMonth = startDate.format('MMM')
+          event.startTime = startDate.format('hh:mm a')
+          var endDate = moment(event.endDate).utcOffset(0)
+          event.endDay = endDate.format('DD')
+          event.endMonth = endDate.format('MMM')
+          event.endTime = endDate.format('hh:mm a')
+          event.instructorsName = event.instructors.map(m => m.name).join(', ')
+          var data = {
+            event,
+            allowRegister: true
+          }
+          let source = $('#event-card-template').html();
+        
+          eventList.append(eventCardTemplate(data))
+        })
+        triggerTextCollapser()
+      })
+
+      upcomingEvents.fail(function (xhr, textStatus, errorThrown) {
+        if (xhr.status == 500) {
+          $('#registration-error').removeClass('display-none')
+        }
+      })
+
+      var pastEvents = $.ajax('https://app.codingblocks.com/events/past', {
+        method: "GET",
+        json: true
+      })
+
+      pastEvents.done(function (events) {
+        if (!events.length) {
+          $('.past-events > .no-events').removeClass('display-none')
+        }
+
+        var eventList = $('.past-events > .events-list > .row')
+        events.forEach(function (event) {
+          var title = event.title.trim()
+          var about = event.about.trim()
+          var banner = event.banner
+          var description = event.description.trim()
+          var is_registration_closed = event.is_registration_closed
+          event.registrationLink = 'https://codingblocks.com/events/register/?c=' + event.code + '-' + event.id
+          var startDate = moment(event.start_date).utcOffset(0)
+          event.startDay = startDate.format('DD')
+          event.startMonth = startDate.format('MMM')
+          event.startTime = startDate.format('hh:mm a')
+          var endDate = moment(event.endDate).utcOffset(0)
+          event.endDay = endDate.format('DD')
+          event.endMonth = endDate.format('MMM')
+          event.endTime = endDate.format('hh:mm a')
+          event.instructorsName = event.instructors.map(m => m.name).join(', ')
+          var data = {
+            event
+          }
+          eventList.append(eventCardTemplate(data))
+        })
+        triggerTextCollapser()
+      })
+
+      pastEvents.fail(function (xhr, textStatus, errorThrown) {
+        if (xhr.status == 500) {
+          $('#registration-error').removeClass('display-none')
+        }
+      })
+
+      var fetchNews = $.ajax('https://app.codingblocks.com/news', {
+        method: "GET",
+        json: true
+      })
+
+      fetchNews.done(function({news}) {
+        if(!news) {
+          return
+        }
+        
+        news.instructorsName = news.instructors.map(m => m.name).join(', ')
+        var newsTemplateHtml = $('#news-template').html();
+        var newsTemplate = Handlebars.compile(newsTemplateHtml);
+        $('#news').append(newsTemplate({news}))
+      })
+    })
+  </script>
 </body>
+
 </html>

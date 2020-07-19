@@ -1,7 +1,9 @@
 $(function(){
-  var id = getUrlParameter('id')
+  var urlCode = window.location.href.split('?')[1].split('&')[0]
+  var eventCode = urlCode.split('-')[0]
+  var slug = urlCode.split('-')[1]
 
-  var event = $.ajax('https://app.codingblocks.com/events/' + id, { 
+  var event = $.ajax('https://app.codingblocks.com/events/' + eventCode, { 
     method: 'GET',
     contentType: 'application/json; charset=UTF-8',
     dataType: "json"
@@ -9,13 +11,20 @@ $(function(){
 
   event.done(function (response) {
     var event = response.event
-    if(event.is_registration_closed || event.status === 'unpublished') {
+    if(!event) {
+      $('#not-found').removeClass('display-none')
+      return 
+    }
+    var eventEndDate = moment(event.end_date + ' ' + event.end_time)
+    if(event.is_registration_closed || event.status === 'unpublished' || eventEndDate.isBefore(moment())) {
       $('#registrations-closed').removeClass('display-none')
+      return
     } else {
       $('.event-registration').removeClass('display-none')
     }
-    $('.event-registration > img').attr('src', event.banner)
-    $('.event-registration > form').attr('action', 'https://app.codingblocks.com/events/' + event.id + '/register')
+    $('.event-registration .event-banner').attr('src', event.banner)
+    $('.event-registration > form').attr('action', 'https://app.codingblocks.com/events/' + urlCode + '/register')
+    $('.event-registration > .title').html(event.title)
     $('.event-registration > .about').html(event.about)
     $('.event-registration > .description').html(event.description)
     if(event.is_certificate_event) {
@@ -23,6 +32,12 @@ $(function(){
     } else {      
       $('.certificate-note').addClass('display-none')
     }    
+  })
+
+  event.fail(function (xhr, textStatus, errorThrown) {
+    if (xhr.status == 500) {
+      $('#not-found').removeClass('display-none')
+    }
   })
 
   $('#event-registration-form').submit(function (e) {

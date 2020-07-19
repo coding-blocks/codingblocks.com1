@@ -1267,3 +1267,47 @@ div.contains-table {
 .bg-gradient-dark-purple {
     background: linear-gradient(90deg, #00205B 0%, #84358E 100%);
 }
+
+/* SLICK */
+.slick-dots {
+    bottom: unset !important;
+    top: -40px !important;
+}
+
+.slick-dots li {
+    margin: 0 -4px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #e74e4b !important;
+}
+
+.slick-next, .slick-prev {
+    position: absolute !important;
+    top: 31% !important;
+    z-index: 1;
+    cursor: pointer !important;
+    background: #fff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.slick-next {
+    right: 40px !important;
+}
+
+.slick-next:before {
+    content: url("https://cb-thumbnails.s3.ap-south-1.amazonaws.com/right.svg") !important;
+}
+
+.slick-prev {
+    left: 40px !important;
+}
+
+.slick-prev:before {
+    content: url("https://cb-thumbnails.s3.ap-south-1.amazonaws.com/left.svg") !important;
+}
