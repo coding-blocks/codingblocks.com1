@@ -4,37 +4,90 @@
   <title>{{title}}</title>
   {{> meta}}
   {{> head}}
-  <style>
-    body {
-      padding: 0
-    }
-    h1, h2, h3, h4, h5, h6 {
-      font-family: "Gilroy","Nunito Sans",sans-serif;
-    }
-  </style>
 </head>
-
-<body class="scroll-assist">
+<body>
 {{> navbar}}
-    <!-- start new  -->
-<div class="p-md-5 p-4">
-    {{> courseMeta}}
-    {{> liveCourseHighlights}}
-    {{> liveCourseSchedule}}                                            
-    {{> demoClass}}             
- </div>
-<div class="main-container">
-    {{>alumniBanner}}
-    <div class="p-md-5 p-4 mb-5">
-        <h2 class="mb-5">What the students have to say?</h2>
-        <div class="all-center bg-gradient-orange mb-5" style="height: 450px;">
-                  <iframe data-v-43339ea6="" src="https://www.youtube.com/embed/1TytVIYYFVw" frameborder="0" loading="lazy"
-                    data-v-03fd9cc6="" class="w-100" style="height: 450px;"></iframe>
+<br>
+<br>  
+<br>
+<br>
+<div class="px-md-5 px-4 live-courses mb-5">
+  {{> courseMeta}}
+  <div class="row">
+    <div class="col-lg-8 mb-lg-0 mb-5">
+      <div class="border-card p-md-5 p-4 mb-5">
+        <div class="font-md">
+          <strong>Summary</strong>
+          <br /><br />
+          The Live Competitive Programming course by Coding Blocks is an ultimate competitive coding training program. The course is designed to prepare students for various online coding challenges and code-athons. The Live classes will cover concepts of Advanced Data Structures such as Segment Trees, Binary Index / Fenwick Trees. The students will be taught to construct algorithms involving Dynamic Programming, Bitmasking, Greedy Algorithms, and Divide & Conquer along with the essentials of advanced competitive programming topics. 
+          <br /><br />
+          <strong>Highlights</strong>
+          <br /><br />
+          <ul class="list-style-gradient-bullet my-0">
+            <li>Extensive Data Structure & Algorithmic Coverage</li>
+            <li>Comfort of Home</li>
+            <li>Guidance by Industry-expert Mentors</li>
+            <li>Two-way Interactive Sessions</li>
+            <li>Recorded Videos after Live Lectures</li>
+            <li>Handwritten Mentor Notes</li>
+            <li>Immediate Doubt Resolution during Lectures</li>
+          </ul>
+          <br />
+          <strong>Pre-requisites</strong>
+          <br /><br />
+            The pre-requisites for this course include prior problem solving hands-on-experience with Data Structures, knowledge of inbuilt functions in C++ STL (or Java Collections), Space Time Complexity Analysis.          </pre>
         </div>
+      </div>
+      {{>liveCourseSchedule}}
+      {{>aboutMentor}}
+    </div>
+    <div class="col-lg-4 mb-lg-0 mb-5">
+      <div class="br-10 overflow-hidden white mb-5">
+        <div class="row no-gutters align-items-center bg-gradient-green px-lg-5 px-4 py-4">
+          <div class="round s-60x60 border b-white border-2 all-center" style="background: inherit;">
+            <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/master-tropgy.svg">
+          </div>
+          <div class="flex-1 pl-4">
+            <div class="card-md mb-1">
+              Get free access to
+            </div>
+            <div class="bold">
+              Master Interview Questions for FAANG & Product Companies
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-card p-lg-5 p-4 bg-gradient-orange white position-relative mb-5">
+        <div class="font-md bold">Selection Tests</div>
+        <div class="card-md mt-1">Choose your preffered Test Date</div>
+        <div class="mt-5">
+          <a href="https://hack.codingblocks.com/app/contests/1720" target="_blank" class="button-dashed button-white">25th July</a>
+          <a href="https://hack.codingblocks.com/app/contests/1722" target= "_blank" class="button-solid orange button-white ml-xl-3 ml-lg-2 ml-4">31st July</a>
+        </div>
+        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/victory.svg" class="victory-vector">
+      </div>
+      {{>testTimelines}}
+      <div class="border-card p-md-5 p-4 mb-5">
+        {{#each highlights}}
+          <div class="row no-gutters align-items-center justify-content-between">
+            <h5 class="bold flex-1">{{head}}</h5>
+            <img src="{{icon}}">
+          </div>
+          <div class="mt-2 mb-4 card-md">
+           {{description}}
+          </div>
+        {{/each}}
+      </div>
+      <div class="border-card bg-gradient-purple white p-md-5 p-4">
+        <h2 class="bold" style="color: #ffffff">Land your dream job</h2>
+        <div class="mb-4 font-sm">Making you ready for grade A companies</div>
+                  <img src="https://online.codingblocks.com/_nuxt/img/c1b47b5.svg" alt loading="lazy" />
+      </div>
+    </div>
     {{> studentsSay}}
     {{> floatingFooter}}
+  </div>
 </div>
-
 {{> scripts}}
 </body>
 </html>

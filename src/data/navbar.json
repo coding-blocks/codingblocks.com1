@@ -52,7 +52,7 @@
     },
     {
       "title": "Live Classes",
-      "link": "/live-classes.html",
+      "link": "",
       "sublinks": [
        
         {
@@ -64,7 +64,11 @@
           "link": "/live-courses/master-java-for-beginners.html"
         },
         {
-          "title": "Master Full Stack Web with NodeJS",
+          "title": "Python App Development",
+          "link": "/live-courses/master-python-app-dev.html"
+        },
+        {
+          "title": "Full Stack Web with NodeJS",
           "link": "/live-courses/master-web-development-nodejs.html"
         },
         {
@@ -72,16 +76,16 @@
           "link": "/live-courses/master-data-science-with-python.html"
         },
         {
-          "title": "LIVE ALGO.JAVA - DATA STRUCTURES & ALGORITHMS",
+          "title": "ALGO.JAVA - DATA STRUCTURES & ALGORITHMS",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
         },
         {
-          "title": "LIVE AlGO++",
+          "title": "AlGO++",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html"
         },
         {
-          "title": "LIVE DIGITAL MARKETING",
-          "link": "/live-courses/master-digital-marketing.html"
+          "title": "Competitive Programming",
+          "link": "/live-courses/master-competitive-programming.html"
         }
       ]
     },

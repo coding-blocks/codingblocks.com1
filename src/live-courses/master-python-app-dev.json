@@ -1,0 +1,204 @@
+{
+  "title": "Python for Developers Master Course  in Delhi, Noida | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best Python for Developers institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+    },
+    {
+      "name": "keywords",
+      "content": "python"
+    }
+  ],
+  "head": {
+    "links": [
+      {
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
+  "aboutMentor":[
+    {
+      "name":"Rahul Jhangoo",
+      "profile_pic_link":"",
+      "summary": "Rahul is an open-source enthusiast and Google-Code-In mentor with JBoss community under Redhat foundation. He is a research scholar at IIT Kanpur in field of visual serving. He has worked with DRDO lab in IoT technology. He likes to speak on tech as well as philosophy. He is mad about table-tennis and is a solo traveller.",
+      "email": "rahul@codingblocks.com"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/c-plus-plus-for-beginners.html",
+    "title": "C++ Beginner & Advanced Courses | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+  },
+  "courseMeta": {
+    "icon": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
+    "title": "Master Python App Development",
+    "price": "15,999",
+    "demo-link": "https://codingblocks.com/take-demo.html",
+    "mentors": "Rahul Jhangoo",
+    "description": "Learn Python for Web Development, Data Science & ML",
+    "mentor-img-1": ""
+  },
+  "demoClass":[
+    {
+      "youtubeID":"mOtc5JrZT0o"
+    },
+    {
+      "youtubeID":"JTKvNx7c8xE"
+    },
+    {
+      "youtubeID":"tl9jpnzOTNE"
+    }
+  ],
+  "testTimelines":{
+        "demo-link": "/take-demo.html",
+        "buy-link":"https://dukaan.codingblocks.com/buy?productId=2020",
+        "testLinks":[
+          {
+            "link":"TRIAL",
+            "date":""
+          },
+          {
+            "link":"",
+            "date":""
+          }
+        ],        
+        "highlights":[
+          {
+            "head":"Opportunities unlocked for learner",
+            "description":"Develop a strong approach to coding languages and learn any language further.Learn from scratch with standard libraries and inner algorithms to understand what goes “under the hood”.Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
+                "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+          },
+          {
+            "head":"Hands on Projects and Problems:",
+            "description":"Build real-world applications in C++ like Google Maps PathFinder, build games like Tic Tac Toe, Sudoku.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm.",
+            "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+          },
+          {
+            "head":"Why choose CB Live:",
+            "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+            "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+          },
+          {
+            "head":"Certificate Course",
+            "description":"Learners will get Course certificate from Coding Blocks upon completion of the program. Both e-certificate and physical copies of the certificate are provided and can be used on LinkedIn profiles and resumes.",
+            "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
+          }
+        ]
+  },
+  "studentsSay":[
+    {
+      "name":"Anshul Mittal",
+      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+    },
+    {
+      "name":"Sidharth Bansal",
+      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+    },
+    {
+      "name":"Samarth Jain",
+      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+    }
+  ],
+  "highlights":[{
+    "head":"Opportunities unlocked for learner",
+    "description":"Develop a strong approach to coding languages and learn any language further.Learn from scratch with standard libraries and inner algorithms to understand what goes “under the hood”.Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
+    "icon":""
+  },
+  {
+    "head":"Hands on Projects and Problems:",
+    "description":"Build real-world applications in C++ like Google Maps PathFinder, build games like Tic Tac Toe, Sudoku.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm.",
+    "icon":""
+  },
+  {
+    "head":"Why choose CB Live:",
+    "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+    "icon":""
+  },
+  {
+    "head":"This course is essential for you:",
+    "description":"If you want to begin with coding as a career.If you have no prior knowledge on coding.If you love solving real-world problems and want to create a solution",
+    "icon":""
+  }
+  ],
+ "schedule": [
+    {
+      "lecture": "Lecture 01",
+      "description": "Python Basics "
+    },
+    {
+      "lecture":"Lecture 02",
+      "description": "Async Programming in Python "
+    },
+    {
+      "lecture":"Lecture 03",
+      "description": "Intermediate Python "
+    },
+    {
+      "lecture":"Lecture 04",
+      "description": "Data Science Libraries "
+    },
+    {
+      "lecture":"Lecture 05",
+      "description": "Python for Web (BS, Requests, Flask)  "
+    },
+    {
+      "lecture":"Lecture 06",
+      "description": "Python Chatbots "
+    },
+    {
+      "lecture":"Lecture 07",
+      "description": "Python Automation "
+    },
+    {
+      "lecture":"Lecture 08",
+      "description": "Machine Learning Introduction "
+    },
+    {
+      "lecture":"Lecture 09",
+      "description": "Web Apps in Flask "
+    },
+    {
+      "lecture":"Lecture 10",
+      "description": "Git/Github  "
+    },
+    {
+      "lecture":"Lecture 11",
+      "description": "Backend Development "
+    },
+    {
+      "lecture":"Lecture 12",
+      "description": "Backtracking"
+    },
+    {
+      "lecture":"Lecture 13",
+      "description": "Deploying ML Models "
+    },
+    {
+      "lecture":"Lecture 14",
+      "description": "REST API's  "
+    },
+    {
+      "lecture":"Lecture 15",
+      "description": "Projects  "
+    },
+    {
+      "lecture":"Lecture 16",
+      "description": "Capstone Project  "
+    },
+    {
+      "lecture":"Lecture 17",
+      "description": "Pre-requsites "
+    },
+    {
+      "lecture":"Lecture 18",
+      "description": "Addons  "
+    }
+  ]
+
+}

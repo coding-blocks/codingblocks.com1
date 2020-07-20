@@ -905,6 +905,63 @@
       "batches": [
       ],
       "live-link": "https://codingblocks.com/take-demo.html"
+    },
+    {
+      "id": "live_course_comp_programming",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Competitive Programming",
+      "price":"21,499",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/587ae53b-6f4e-4afb-a2c5-b328a4dfbdf1.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 16 AUGUST",
+      "link": "/live-courses/master-competitive-programming.html",
+      "description": [
+        ""
+      ],
+      "batches": [
+      ],
+      "live-link": "https://codingblocks.com/take-demo.html"
+    },
+    {
+      "id": "live_course_web_dev",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Full Stack Web Dev with Node JS",
+      "price":"15,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/8363cfd5-40f7-499a-bd8d-33541baa0a5f.svg",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 16 AUGUST",
+      "link": "/live-courses/master-web-development-nodejs.html",
+      "description": [
+        ""
+      ],
+      "batches": [
+      ],
+      "live-link": "https://codingblocks.com/take-demo.html"
+    },
+    {
+      "id": "live_course_py_app",
+      "rating": "4.5",
+      "ratingCount": "206",
+      "name": "Master Python App Development",
+      "price":"15,999",
+      "badge": "",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
+      "imgAlt": "",
+      "lectures": "",
+      "badge": "STARTS 16 AUGUST",
+      "link": "/live-courses/master-python-app-dev.html",
+      "description": [
+        ""
+      ],
+      "batches": [
+      ],
+      "live-link": "https://codingblocks.com/take-demo.html"
     }
   ]
 }
