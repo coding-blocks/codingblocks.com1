@@ -74,25 +74,29 @@
       "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
+  "testTimelines":{
+      "test_link_first" : "https://hack.codingblocks.com/app/contests/1720",
+      "test_link_second": "https://hack.codingblocks.com/app/contests/1722"
+    },
   "highlights":[{
     "head":"Opportunities unlocked for learner",
     "description":"To ensure your success in challenges such as Google CodeJam, Google Kickstart, ACM-ICPC, and more. You will master commonly used problem solving techniques, hone your mathematical analysis skills, and push the boundaries of your reasoning abilities.You will be able to construct algorithms involving Dynamic Programming, Bitmasking, Greedy Algorithms, and Divide & Conquer.The learner will learn optimizing their problem-solving process, and new algorithmic skills which will help them to solve problems quickly.",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
   },
   {
     "head":"Hands on Projects and Problems:",
     "description":" Number Theory : Topics like Prime Sieve, Segmented Sieve, Euler's Totient Fn, Chinese Remainder Theorem etc.Birthday Paradox Problem, Pigeonhole Principle, Inclusion-Exclusion Principle and much more.DP and Graph Algorithms, Greedy Strategy, Segment Trees an important data structure for solving problems",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
   },
   {
     "head":"Why choose CB Live:",
     "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook. ",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
   },
   {
     "head":"This course is essential for you:",
     "description":" For all the coders who are looking forward to optimizing their problem-solving process, and learn new algorithmic skills which will help them to solve problems quickly.Who want to crack challenges such as Google CodeJam, Google Kickstart, ACM-ICPC, and more.Who wants the material at one place and needs expert help",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
   }
  ],
    "schedule": [

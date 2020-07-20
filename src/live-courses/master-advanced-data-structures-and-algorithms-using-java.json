@@ -61,25 +61,29 @@
       "youtubeID":"hkrPkOJAiog"
     }
   ],
+  "testTimelines":{
+      "test_link_first" : "https://hack.codingblocks.com/app/contests/1720",
+      "test_link_second": "https://hack.codingblocks.com/app/contests/1722"
+    },
   "highlights":[{
     "head":"Opportunities unlocked for learner",
     "description":"Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc. ",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
   },
   {
     "head":"Hands on Projects and Problems:",
     "description":"Build real-world applications like Tic Tac Toe, Sudoku, Tower of Hanoi.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
   },
   {
     "head":"Why choose CB Live:",
     "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
   },
   {
     "head":"This course is essential for you:",
     "description":"Someone who loves solving real world problems and wants to create a solution.",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
   }
   ],
   "studentsSay":[

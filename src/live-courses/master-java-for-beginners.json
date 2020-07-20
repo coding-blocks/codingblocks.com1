@@ -70,27 +70,32 @@
       "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
+  "testTimelines":{
+      "test_link_first" : "https://hack.codingblocks.com/app/contests/1719",
+      "test_link_second": "https://hack.codingblocks.com/app/contests/1721"
+    },  
   "highlights":[{
     "head":"Opportunities unlocked for learner",
     "description":"Students will develop core programming concepts and get equipped to code solutions for complex problems using Java.Practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming.Comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc.",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
   },
   {
     "head":"Hands on Projects and Problems:",
     "description":"Build real-world applications in Java like Google Maps PathFinder, build games like Tic Tac Toe, Sudoku.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
   },
   {
     "head":"Why choose CB Live:",
     "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
   },
   {
     "head":"This course is essential for you:",
     "description":"If you want to begin with coding as a career.If you have no prior knowledge on coding.If you love solving real-world problems and want to create a solution",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
   }
-  ], "schedule": [
+  ], 
+  "schedule": [
     {
       "lecture": "Lecture 01",
       "description": "Programming Fundamentals 1"

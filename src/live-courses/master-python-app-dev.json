@@ -51,20 +51,11 @@
     {
       "youtubeID":"tl9jpnzOTNE"
     }
-  ],
+  ],      
   "testTimelines":{
-        "demo-link": "/take-demo.html",
-        "buy-link":"https://dukaan.codingblocks.com/buy?productId=2020",
-        "testLinks":[
-          {
-            "link":"TRIAL",
-            "date":""
-          },
-          {
-            "link":"",
-            "date":""
-          }
-        ],        
+    "test_link_first" : "https://hack.codingblocks.com/app/contests/1719",
+    "test_link_second": "https://hack.codingblocks.com/app/contests/1721"
+  },
         "highlights":[
           {
             "head":"Opportunities unlocked for learner",
@@ -86,8 +77,7 @@
             "description":"Learners will get Course certificate from Coding Blocks upon completion of the program. Both e-certificate and physical copies of the certificate are provided and can be used on LinkedIn profiles and resumes.",
             "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
           }
-        ]
-  },
+        ],
   "studentsSay":[
     {
       "name":"Anshul Mittal",

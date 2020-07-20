@@ -76,25 +76,29 @@
       "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
+  "testTimelines":{
+      "test_link_first" : "https://hack.codingblocks.com/app/contests/1720",
+      "test_link_second": "https://hack.codingblocks.com/app/contests/1722"
+    },
   "highlights":[{
     "head":"Opportunities unlocked for learner",
     "description":"You will learn one of the hottest fields of the 21st century and will get a Kickass Kickstart.Will be able to build Web Scrapers, Data Cleaning with python fundamentals.Will be able to apply various Machine Learning algorithms like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes, Principal Component Analysis, Feature Engineering, T-SNE Visualizations, Deep Learning & Reinforcement Learning for video games.",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
   },
   {
     "head":"Hands on Projects and Problems:",
     "description":"Web Crawler - will be able to build Spiders using Scrapy for Amazon, PepperFry etc.Pokedex- Will be able  to classify Pokemons using Transfer Learning. Emoji Predictor - Will be able to predict emojis using Recurrent Neural Networks.Many More- Face Recognition,Odd One Out, Titanic Survivor Prediction,Handwritten Digit Recognition, Language Generator.",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
   },
   {
     "head":"Why choose CB Live:",
     "description":"Two-way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook. ",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
   },
   {
     "head":"This course is essential for you:",
     "description":"Who has familiarity and ability to write code in any programming language.Who wants to work with bigwigs like Amazon, Google, Microsoft paying handsome salaries.Who wants to learn Data Analysis, Manipulation, and Visualization",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
   }
  ],
    "schedule": [

@@ -79,25 +79,29 @@
       "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
+   "testTimelines":{
+      "test_link_first" : "https://hack.codingblocks.com/app/contests/1719",
+      "test_link_second": "https://hack.codingblocks.com/app/contests/1721"
+    },  
     "highlights":[{
     "head":"Opportunities unlocked for learner",
     "description":"Students will develop various necessary skills to build professional websites/portals.Will get comfortable with JavaScript for both Frontend as well as Backend use-cases.Will be able to Build website from scratch and develop professional thinking ability.Will be able to build projects with backend in NodeJS.",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
   },
   {
     "head":"Hands on Projects and Problems:",
     "description":"ToDoList App - A task manager with features like 'mark as done', 'clear done tasks' and sorting tasks by their status.Shopping Cart- Build E-Commerce Website using ExpressJS, PostgreSQL and jQuery.Chat App -Realtime Chat Room using Socket.IO",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
   },
   {
     "head":"Why choose CB Live:",
     "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
   },
   {
     "head":"This course is essential for you:",
     "description":"Who has Basic Knowledge of Programming concepts.Who wants to step up as a Developer from a programmer.Who wants to work at product-based companies like Facebook, Amazon, Uber, etc. ",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
   }
  ],
 "schedule": [

@@ -60,24 +60,15 @@
       "youtubeID":"tl9jpnzOTNE"
     }
   ],
-  "testTimelines":{
-        "demo-link": "/take-demo.html",
-        "buy-link":"https://dukaan.codingblocks.com/buy?productId=2020",
-        "testLinks":[
-          {
-            "link":"TRIAL",
-            "date":""
-          },
-          {
-            "link":"",
-            "date":""
-          }
-        ],        
-        "highlights":[
+   "testTimelines":{
+      "test_link_first" : "https://hack.codingblocks.com/app/contests/1719",
+      "test_link_second": "https://hack.codingblocks.com/app/contests/1721"
+    },    
+    "highlights":[
           {
             "head":"Opportunities unlocked for learner",
             "description":"Develop a strong approach to coding languages and learn any language further.Learn from scratch with standard libraries and inner algorithms to understand what goes “under the hood”.Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
-                "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+             "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
           },
           {
             "head":"Hands on Projects and Problems:",
@@ -94,8 +85,7 @@
             "description":"Learners will get Course certificate from Coding Blocks upon completion of the program. Both e-certificate and physical copies of the certificate are provided and can be used on LinkedIn profiles and resumes.",
             "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
           }
-        ]
-  },
+    ],
   "studentsSay":[
     {
       "name":"Anshul Mittal",
