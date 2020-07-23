@@ -50,7 +50,7 @@
     },
     {
       "name": "Varun Kohli",
-      "role": "Head of Sales & Marketing",
+      "role": "Co-Founder",
       "imgSrc": "/assets/images/cb/team/wvarun.jpg",
       "imgAlt": "Varun Kohli",
       "bio":
@@ -89,20 +89,12 @@
         "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining."
     },
     {
-      "name": "Anuj Garg",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/c_anuj.jpg",
-      "imgAlt": "Anuj Garg",
-      "bio":
-        "Anuj is an open-source enthusiast and a GSoC mentor and admin with JBoss Community under the RedHat Foundation. He has worked in the core teams of various products by RedHat and is an expert in Enterprise Java and web services. He will also be administrating in GSoC'19 under the umbrella of JBoss for Servers and IoT monitoring."
-    },
-    {
       "name": "Kartik Mathur",
       "role": "Mentor",
       "imgSrc": "/assets/images/cb/team/Kartik.JPG",
       "imgAlt": "Kartik Mathur",
       "bio":
-        "An NSIT graduate, Kartik has worked with companies like DRDO and BEL. He has immense interest in technologies like IoT, DBMS, home automation and embedded systems. He has come to Coding Blocks to fulfill his passion for teaching. In his free time he likes to read books and play chess."
+        "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening."
     },
     {
       "name": "Himank Bhalla",
