@@ -13,14 +13,19 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/live_class_banner.jpg",
+      "imgSrc": "/assets/images/cb/cover/WebbannerCb.jpg",
       "imgAlt": "",
-      "heading": "WE BRING THE CLASSROOM TO YOUR HOME THIS COVID-19",
-      "content": "Live classes are a perfect alternative to Classroom courses with two way interactive lectures and all the benefits. Learn from your favorite mentors & make the most of your time in this Covid-19 phase.",
+      "heading": "Accelerate towards your Dreams",
+      "content": "Introducing CB Accelerate, a dedicated program to train you in becoming an elite coder | Apply for the selection Test to get enrolled, accepting only 50 students per batch.",
       "button": [
         {
-          "link": "/live-courses/master-c-plus-plus-ds-algo.html",
-          "text": "Explore Live classes",
+          "link": "https://hack.codingblocks.com/app/contests/1721",
+          "text": "Register For Foundation Course",
+          "filled": "true"
+        },
+        {
+          "link": "https://hack.codingblocks.com/app/contests/1722",
+          "text": "Register For Advanced Course",
           "filled": "true"
         }
       ]
