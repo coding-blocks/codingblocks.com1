@@ -1,35 +1,23 @@
 <div class="row">
   {{#each liveCourseCards}}
-      <div class="col-lg-4 col-md-6 mb-5">
-        <div class="border-card p-4">
-          <div class="d-flex no-gutters justify-content-between">
-            <img src="{{imgSrc}}"
-              style="max-width: 85px !important;">
-            <h4 class="gradient-text-orange">&#8377;&nbsp;{{price}}</h4>
-          </div>
-          <h2 class="bold mt-4">{{name}}</h2>
-          <div class="my-4 gradient-text-orange">
-            <h5 class="bold">{{badge}}</h5>
-          </div>
-          <div class="card-mentor d-flex align-items-center">
-            <div class="card-mentor-image">
-              <img src="{{mentor-img-1}}" class="card-mentors">
-              {{#if mentor-img-2}}
-              <img src="{{mentor-img-2}}"
-                class="card-mentors">
-              {{/if}}
+    <div class="col-md-4 col-sm-6 mb-5 h-inherit">
+    <a href="{{link}}" style="color:black">
+
+            <div class="border-card p-0 h-100">
+              <div class="bg-grey-light-3 flex-col justify-content-between p-lg-5 p-4" style="height: calc(100% - 25px);">
+                <div class="w-100">
+                  <img src="{{imgSrc}}"
+                    class="s-70x70 mb-4">
+                  <div class="heading-3 extra-bold">{{name}}</div>
+                </div>
+                <div class="mt-3 font-5 w-100">
+                  Regular Classes three times a week
+                </div>
+              </div>
+              <div style="height: 25px; background: linear-gradient(90deg, #19336E, #02ADC5);"></div>
             </div>
-            <div class="pl-3">
-              <div class="card-md font-normal">Instructors</div>
-              <div class="bold">{{mentors}}</div>
-            </div>
-          </div>
-          <div class="divider-h my-4"></div>
-          <div class="row no-gutters justify-content-around">
-            <a href="{{link}}" class="button-solid button-orange">View Description</a>
-            <a href="{{live-link}}" class="button-orange button-dashed">Take Demo</a>
-          </div>
-        </div>
-      </div>
+              </a>
+
+    </div>
  {{/each}}
 </div>

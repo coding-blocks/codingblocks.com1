@@ -13,7 +13,7 @@
   "head": {
     "links": [
       {
-        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "href": "https://unpkg.com/browse/@coding-blocks/motley@2.3.0/dist/coding-blocks/app.min.css",
         "rel": "stylesheet"
       },
       {
@@ -59,116 +59,43 @@
   "liveCourseCards": [
     {
       "name": "Master DS and Algo with C++",
-      "id": "live_course_cpp",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "price": "12,499",
-      "slashed-price": "15,999",
       "imgSrc": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 16 AUGUST",
-      "link": "/live-courses/master-c-plus-plus-ds-algo.html",
-      "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Sharad Nailwal,Pranav Khandelwal",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/c1b7b119-4116-4e1c-9ba5-e111b314b60c",
-      "mentor-img-2" : "/assets/images/cb/team/pranav.jpg"
-
+      "link": "/live-courses/master-c-plus-plus-ds-algo.html"
     },
     {
       "name": "Master DS and Algo with Java",
-      "id": "live_course_java",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "price": "12,499",
-      "slashed-price": "15,999",
-      "badge": "",
       "imgSrc": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 16 AUGUST",
-      "link": "/live-courses/master-java-for-beginners.html",
-      "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Rishab Kapoor,Shubham Rawat",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/4078be4e-72e1-451a-9c4e-9223d2bbcc2c",
-      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/ba0a964a-593f-4066-832f-2f47c0e05e4b"
-
+      "link": "/live-courses/master-java-for-beginners.html"
+    },
+    {
+     "name": "Master Python App Development",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
+      "link": "/live-courses/master-python-app-dev.html"
+    },
+    {
+     "name": "Master FullStack Web with NodeJS",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/8363cfd5-40f7-499a-bd8d-33541baa0a5f.svg",
+      "link": "/live-courses/master-web-development-nodejs.html"
     },
     {
      "name": "Master Data Science with Python",
-      "id": "live_course_ds",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "price": "19,999",
-      "slashed-price": "26,999",
-      "badge": "",
       "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 16 AUGUST",
-      "link": "/live-courses/master-data-science-with-python.html",
-      "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Mohit Uniyal,Manu Pillai",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d",
-      "mentor-img-2" : ""
-
+      "link": "/live-courses/master-data-science-with-python.html"
     },
     {
-      "id": "live_course_alg_java",
-      "rating": "4.5",
-      "ratingCount": "206",
       "name": "Master Algo.Java-Data Structures & Algo",
-      "price":"10,999",
-      "slashed-price":"12,999",
-      "badge": "",
       "imgSrc": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 16 AUGUST",
-      "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
-      "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Shubham Rawat,Rishab Kapoor",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/ba0a964a-593f-4066-832f-2f47c0e05e4b",
-      "mentor-img-2" : "https://minio.codingblocks.com/amoeba/4078be4e-72e1-451a-9c4e-9223d2bbcc2c"
-
+      "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
     },
     {
-     "id": "live_course_alg_plus_plus",
-      "rating": "4.5",
-      "ratingCount": "206",
       "name": "Master Algo++",
-      "price":"10,999",
-      "slashed-price":"12,999",
-      "badge": "",
-      "imgSrc": "/assets/images/cb/logosc/color_algo.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 16 AUGUST",
-      "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
-      "live-link": "https://codingblocks.com/take-demo.html",
-       "mentors": "Sharad Nailwal,Pranav Khandelwal",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/c1b7b119-4116-4e1c-9ba5-e111b314b60c",
-      "mentor-img-2" : "/assets/images/cb/team/pranav.jpg"
-
+      "imgSrc": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",      
+      "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html"
     },
     {
-      "id": "live_course_digital_mark",
-      "rating": "4.5",
-      "ratingCount": "206",
-      "name": "Master Digital Marketing",
-      "price":"9,999",
-      "slashed-price":"13,999",
-      "badge": "",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/b8955c5d-ebaa-4667-a9bd-84bd0c664063.svg",
-      "imgAlt": "",
-      "lectures": "",
-      "badge": "STARTS 16 AUGUST",
-      "link": "/live-courses/master-digital-marketing.html",
-      "live-link": "https://codingblocks.com/take-demo.html",
-      "mentors": "Ishan Manchanda",
-      "mentor-img-1": "https://minio.codingblocks.com/amoeba/044d2224-7cc3-4aac-967f-f28d508af814",
-      "mentor-img-2" : ""
-
+      "name": "Master Competitive Programming",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/587ae53b-6f4e-4afb-a2c5-b328a4dfbdf1.svg",
+      "link": "/live-courses//master-competitive-programming.html"
     }
   ],
   "liveCoursesRow1": [
@@ -213,12 +140,20 @@
   ],
   "faqs": [
     {
-      "ques": "I wanted to enrol for Classroom program in Summers. Should I opt for Live class program?",
-      "ans": "Live class program has been introduced by Coding Blocks to ensure students do not loose their precious time in the Covid-19 prevention phase. Live class program is an enriched replacement of the Classroom program, which offers you all the benefits of the Classroom program and saves your time and money."
+      "ques": "For Java, C++:",
+      "ans": "There are no prerequisites for this training as it is of beginner level except willingness and enthusiasm. Everything that you need to know about Programming would be taught from scratch."
     },
     {
-      "ques": "What is the Difference between Classroom and Live program?",
-      "ans": "Live class program is a replacement of the Classroom program with added benefits of time and money. Our mentors will take live classes, just like the Classroom program. For a student, the only difference would be that the mentor would not be present physically. Since classes are two way interactive, you can ask doubts while the lecture is in progress. In addition, all Classroom program benefits are there in this program."
+      "ques": "For Competitive:",
+      "ans": "Who has Basic Knowledge of Programming concepts and are looking forward to optimizing their problem-solving process, and learning new algorithmic skills which will help them to solve problems quickly."
+    },
+    {
+      "ques":"For Others:",
+      "ans":"Who is familiar with writing code in any programming language. Everything other than that you need to know about Programming would be taught from scratch. Since it is a special batch, we would conduct a simple selection test for all the students who are interested."
+    },
+    {
+      "ques":"How do I apply for this program? ",
+      "ans":"Since it is a special batch, we would conduct a simple selection test for all the students who are interested to maintain the quality of the batch and give students who are selected personalized attention. There are two entrance test on 31st July 2020 and 5th August 2020 you can apply for"
     }
   ],
   "mentors": {
