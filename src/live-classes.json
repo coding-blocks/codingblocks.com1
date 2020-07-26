@@ -13,7 +13,7 @@
   "head": {
     "links": [
       {
-        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
+        "href": "https://unpkg.com/browse/@coding-blocks/motley@2.3.0/dist/coding-blocks/app.min.css",
         "rel": "stylesheet"
       },
       {
