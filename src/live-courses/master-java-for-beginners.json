@@ -106,7 +106,7 @@
     },
     {
       "lecture":"Lecture 03",
-      "description": "Programming Fundamentals 3/Pointer"
+      "description": "Programming Fundamentals 3"
     },
     {
       "lecture":"Lecture 04",
@@ -122,7 +122,7 @@
     },
     {
       "lecture":"Lecture 07",
-      "description": "STL and 2D arrays/Strings"
+      "description": "2D arrays/Strings"
     },
     {
       "lecture":"Lecture 08",
