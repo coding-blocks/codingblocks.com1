@@ -4,37 +4,53 @@
   <title>{{title}}</title>
   {{> meta}}
   {{> head}}
-  <style>
-    body {
-      padding: 0
-    }
-    h1, h2, h3, h4, h5, h6 {
-      font-family: "Gilroy","Nunito Sans",sans-serif;
-    }
-  </style>
 </head>
-
-<body class="scroll-assist">
+<body>
 {{> navbar}}
-    <!-- start new  -->
-<div class="p-md-5 p-4">
-    {{> courseMeta}}
-    {{> liveCourseHighlights}}
-    {{> liveCourseSchedule}}                                            
-    {{> demoClass}}             
- </div>
-<div class="main-container">
-    {{>alumniBanner}}
-    <div class="p-md-5 p-4 mb-5">
-        <h2 class="mb-5">What the students have to say?</h2>
-        <div class="all-center bg-gradient-orange mb-5" style="height: 450px;">
-                  <iframe data-v-43339ea6="" src="https://www.youtube.com/embed/1TytVIYYFVw" frameborder="0" loading="lazy"
-                    data-v-03fd9cc6="" class="w-100" style="height: 450px;"></iframe>
+<br>
+<br>  
+<br>
+<br>
+<div class="px-md-5 px-4 live-courses mb-5">
+  {{> courseMeta}}
+  <div class="row">
+    <div class="col-lg-8 mb-lg-0 mb-5">
+      <div class="border-card p-md-5 p-4 mb-5">
+        <div class="font-md">
+          <strong>Summary</strong>
+          <br /><br />
+          Aspiring to get into a top Multi-National Company? Want a curriculum to give you a one-stop solution for all your programming interviews?<br/>
+
+          The online coding Interview Course by Coding Blocks is the place for you. This self-paced online Interview preparation course bridges the gap between the theoretical knowledge and the quick coding tricks and tips that the industry employers look for in their potential candidates. This online Bootcamp covers the topics such as Operating Systems, DBMS and System Design along with important coding questions asked in the interview process of companies like Google, Facebook, Amazon, Microsoft, Directi, Zomato, etc. Along with the technical know-how, non-technical aspects of programming interviews will also be covered as a part of the curriculum. This course provides the students with a unique opportunity to opt for bundle sets for the boot camp with either of the two- C++ or JAVA. With over 300 video lectures and several practice problems. Through these online classes, the students will not only become more efficient with their solutions by optimizing space and time but this course will also provide them a firm base to excel in all their programming interviews. This is meant for the students willing to strengthen their Data Structures and Algorithm concepts. These will be a combination of Interview Preparation and one complete course on Advanced Data Structures and Algorithm using C++ OR Java. The journey to get into your dream company starts here!
+          <br /><br />
+          <strong>Highlights</strong>
+          <br /><br />
+          <ul class="list-style-gradient-bullet my-0">
+            <li>Extensive Data Structure & Algorithmic Coverage</li>
+            <li>In-depth Discussion on Important Computer Science Topics Like OS, DBMS etc</li>
+            <li>500+ Video Lectures and Code Challenges</li>
+            <li>Hint Videos for Complex problems</li>
+            <li>Lifetime Assignment Access</li>
+            <li>Intermediate & Advanced Topics for Interviews</li>
+            <li>Expert Doubt Support</li>
+          </ul>
+          <br />
+          <strong>Pre-requisites</strong>
+          <br /><br />
+            Basic knowledge of fundamentals in any programming language either C++ or Java is required.
+          </pre>
         </div>
+      </div>
+      {{>liveCourseSchedule}}
+      {{>aboutMentor}}
+    </div>
+    <div class="col-lg-4 mb-lg-0 mb-5">
+      {{>testTimelines}}
+    </div>
     {{> studentsSay}}
     {{> floatingFooter}}
+  </div>
 </div>
-
 {{> scripts}}
 </body>
 </html>

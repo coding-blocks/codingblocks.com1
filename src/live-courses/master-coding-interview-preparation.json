@@ -1,26 +1,19 @@
 {
-  "id": "bootcamp02",
-  "title": "Interview Prep BootCamp | Coding Blocks",
-  "courseReviews": [
-    "Naman Kumar",
-    "RISHABH KHANNA",
-    "YAMINI GAUR",
-    "ISHPREET SINGH",
-    "SUNEET SRIVASTAVA",
-    "RISHABH MENDIRATTA",
-    "GAGAN BHAYANA",
-    "ANIRUDH GUPTA",
-    "SHREYA GUPTA",
-    "KANIKA BHOOKER",
-    "GURLEEN KAILEY",
-    "PURUJIT BANSAL"
+  "id": "course05",
+  "name": "Interview Prep",
+  "title": "Interview Prep: Courses on Interview Preparation in Delhi | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Summer courses on Interview Preparation at Coding Blocks Delhi & other centers. Don't miss this course If you're planning for internships or interviews."
+    },
+    {
+      "name": "keywords",
+      "content": "competitive,coding,algorithm,course,delhi,india,coding,blocks"
+    }
   ],
-   "head": {
+ "head": {
     "links": [
-      {
-        "href": "https://unpkg.com/@coding-blocks/motley@0.8.7/dist/app.min.css",
-        "rel": "stylesheet"
-      },
       {
         "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
         "rel": "stylesheet"
@@ -30,40 +23,55 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/215fa6ed-14f3-4d1e-87d5-d9d71cf0d0dd.svg",
     "title": "Master Interview Prep for Bigwigs",
-    "price": "14,999",
-    "course-link": "https://dukaan.codingblocks.com/buy?productId=2047",
-    "demo-link": "https://codingblocks.com/take-demo.html"
+    "price": "15,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=2024",
+    "demo-link": "https://codingblocks.com/take-demo.html",
+     "mentors": "Kartik Mathur",
+    "description": "Learn Data Structures Algorithms for Interviews, and non coding topics!",
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91"
   },
-  "demoClass":[
+  "aboutMentor":[
     {
-      "youtubeID":"kaHkyw_tAuk"
-    },
-    {
-      "youtubeID":"KHs6APbrTow"
-    },
-    {
-      "youtubeID":"DP7EFvFIGoY"
+      "name":"Kartik Mathur",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
+      "summary": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "email": "kartik.mathur@codingblocks.com"
     }
   ],
+  "demoClass":[
+    {
+      "youtubeID":"ZAZXvGWpccs"
+    },
+    {
+      "youtubeID":"_5uZWn1efa0"
+    },
+    {
+      "youtubeID":"HKqtOlHzD1M"
+    }
+  ],
+  "testTimelines":{
+    "test_link_first" : "https://hack.codingblocks.com/app/contests/1720",
+    "test_link_second": "https://hack.codingblocks.com/app/contests/1722"
+  },
   "highlights":[{
     "head":"Opportunities unlocked for learner",
-    "description":"Designed to bridge the gap between theoretical knowledge and industry-specific coding skills. Programmers will be well preparde for the interview processes of various big-wigs.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get placed at companies like Amazon, Google, Microsoft, Directi etc.",
-    "icon":""
+    "description":"Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc.",
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
   },
   {
     "head":"Hands on Projects and Problems:",
-    "description":"In-depth Discussion on Important Computer Science Topics Like OS, DBMS etc.Extensive Data Structures & Algorithmic Coverage.Assignments on the questions asked in Google and other BigWigs.",
-    "icon":""
+    "description":"Build real-world applications like Tic Tac Toe, Sudoku, Tower of Hanoi.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
   },
   {
     "head":"Why choose CB Live:",
     "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
-    "icon":""
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
   },
   {
     "head":"This course is essential for you:",
-    "description":" Any student with prior knowledge of fundamentals in either C++ or Java.Who do not have idea how to start preparing for BigWigs.Who wants the material at one place and needs expert help.",
-    "icon":""
+    "description":"Someone who loves solving real world problems and wants to create a solution.",
+    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
   }
   ],
   "studentsSay":[
@@ -83,102 +91,109 @@
       "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
-  "schedule": [
+   "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "Introduction to Data Structures & Algorithms"
+      "description": "Space Time Complexity"
     },
     {
       "lecture":"Lecture 02",
-      "description": "Standard Template Library"
+      "description": "Recursion 1"
     },
     {
       "lecture":"Lecture 03",
-      "description": "Arrays"
+      "description": "Recursion 2"
     },
     {
       "lecture":"Lecture 04",
-      "description": "Strings"
+      "description": "Recursion 3"
     },
     {
       "lecture":"Lecture 05",
-      "description": "Maths"
+      "description": "Backtracking"
     },
     {
       "lecture":"Lecture 06",
-      "description": "Maths II"
+      "description": "Divide and Conquer 1"
     },
     {
       "lecture":"Lecture 07",
-      "description": "Bit Manipulation"
+      "description": "Divide and Conquer 2"
     },
     {
       "lecture":"Lecture 08",
-      "description": "Number Theory"
+      "description": "OOPS"
     },
     {
       "lecture":"Lecture 09",
-      "description": "Recursion & Backtracking"
+      "description": "Stacks/Queues"
     },
     {
       "lecture":"Lecture 10",
-      "description": "Divide & Conquer and meet in the middle"
+      "description": "Stacks/Queues"
     },
     {
       "lecture":"Lecture 11",
-      "description": "OOPs Concepts "
+      "description": "Linked List 1"
     },
     {
       "lecture":"Lecture 12",
-      "description": "Stack & Queue"
+      "description": "Linked List 2"
     },
     {
       "lecture":"Lecture 13",
-      "description": "Linked Lists"
+      "description": "Binary Tree 1"
     },
     {
       "lecture":"Lecture 14",
-      "description": "Binary Tree"
+      "description": "Binary Tree 2"
     },
     {
       "lecture":"Lecture 15",
-      "description": "BST"
+      "description": "HashMap"
     },
     {
       "lecture":"Lecture 16",
-      "description": "Heap Questions"
+      "description": "HashMap/Heaps"
     },
     {
       "lecture":"Lecture 17",
-      "description": "Graphs I"
+      "description": "Heaps"
     },
     {
       "lecture":"Lecture 18",
-      "description": "Graphs II"
+      "description": "DP 1"
     },
     {
       "lecture":"Lecture 19",
-      "description": "Greedy Algorithms, Sorting"
+      "description": "DP 2"
     },
     {
       "lecture":"Lecture 20",
-      "description": "DP I"
+      "description": "DP 3"
     },
     {  
       "lecture":"Lecture 21",
-      "description": "DP   II"
+      "description": "Trie"
     },
     {
       "lecture":"Lecture 22",
-      "description": "Advance DS(Segment Tree and Fenwick Tree and DSU)"
+      "description": "Graph 1"
     },
     {
       "lecture":"Lecture 23",
-      "description": "Interview Questions"
+      "description": "Graph 2 "
     },
     {
       "lecture":"Lecture 24",
-      "description": "Interview Questions"
+      "description": "Graph 3 "
     }
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",
+  "courseReviews": [
+    "Manish Sundriyal",
+    "Gagan Bhayana",
+    "Dhruv Kulshreshtha",
+    "Parth Dhamija"
   ]
 }

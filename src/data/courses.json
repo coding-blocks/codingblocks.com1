@@ -962,6 +962,17 @@
       "batches": [
       ],
       "live-link": "https://codingblocks.com/take-demo.html"
+    },
+    {
+      "id": "live_course_interview",
+      "rating": "4.5",
+      "name": "Master Interview Prep for Bigwigs",
+      "price": "15,999",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/215fa6ed-14f3-4d1e-87d5-d9d71cf0d0dd.svg",
+      "badge": "STARTS 16 AUGUST",
+      "link": "/live-courses/master-coding-interview-preparation.html",
+            "live-link": "https://codingblocks.com/take-demo.html"
+
     }
   ]
 }
