@@ -96,6 +96,11 @@
       "name": "Master Competitive Programming",
       "imgSrc": "https://minio.codingblocks.com/amoeba/587ae53b-6f4e-4afb-a2c5-b328a4dfbdf1.svg",
       "link": "/live-courses//master-competitive-programming.html"
+    },
+    {
+      "name": "Master Interview Prep for Bigwigs",
+      "imgSrc": "https://minio.codingblocks.com/amoeba/215fa6ed-14f3-4d1e-87d5-d9d71cf0d0dd.svg",
+      "link": "/live-courses/master-coding-interview-preparation.html"     
     }
   ],
   "liveCoursesRow1": [

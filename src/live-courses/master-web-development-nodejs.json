@@ -32,10 +32,12 @@
     "price": "15,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2039",
     "demo-link": "https://codingblocks.com/take-demo.html",
-     "mentors": "Arnav Gupta,Tathagat Thapliyal",
+     "mentors": "Arnav Gupta,Tathagat Thapliyal,Kartik Mathur",
     "description": "Learn building servers with NodeJS including MySQL, MongoDB, OAuth and WebSockets",
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
-    "mentor-img-2": "https://minio.codingblocks.com/amoeba/e44da84c-cfc2-482b-8ff1-c99b5e548fd9"
+    "mentor-img-2": "https://minio.codingblocks.com/amoeba/e44da84c-cfc2-482b-8ff1-c99b5e548fd9",
+    "mentor-img-3": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91"
+
   },
   "aboutMentor":[
     {
@@ -49,6 +51,12 @@
       "profile_pic_link":"https://minio.codingblocks.com/amoeba/e44da84c-cfc2-482b-8ff1-c99b5e548fd9",
       "summary": "A Full-Stack Engineer and has worked with many amazing startups. He Always loves to build products and see it impacting people's needs. He has built applications using web technologies like React.js, React-Native, Ember.js, Node.js, GraphQL. He has given various talks on web technologies in Big conferences such as React Summit Amsterdam.",
       "email": "tathagat.thapliyal@codingblocks.com"
+    },
+    {
+      "name":"Kartik Mathur",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
+      "summary": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "email": "kartik.mathur@codingblocks.com"
     }
   ],
    "demoClass":[

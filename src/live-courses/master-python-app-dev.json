@@ -24,6 +24,12 @@
       "profile_pic_link":"",
       "summary": "Rahul is an open-source enthusiast and Google-Code-In mentor with JBoss community under Redhat foundation. He is a research scholar at IIT Kanpur in field of visual serving. He has worked with DRDO lab in IoT technology. He likes to speak on tech as well as philosophy. He is mad about table-tennis and is a solo traveller.",
       "email": "rahul@codingblocks.com"
+    },
+    {
+      "name":"Jatin Katyal",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/7196aedf-f3f5-4617-8e38-1390bf53cc48",
+      "summary":"Jatin is a full-stack web developer and has worked with various start-ups in the field of HCI and IoT. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack.",
+      "email": "jatin@cb.lk" 
     }
   ],
   "openGraph": {
@@ -37,9 +43,10 @@
     "title": "Master Python App Development",
     "price": "15,999",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Rahul Jhangoo",
+    "mentors": "Rahul Jhangoo,Jatin Katyal",
     "description": "Learn Python for Web Development, Data Science & ML",
-    "mentor-img-1": ""
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/23a800a7-1487-41eb-8ece-86682c465579",
+    "mentor-img-2":"https://minio.codingblocks.com/amoeba/7196aedf-f3f5-4617-8e38-1390bf53cc48"
   },
   "demoClass":[
     {
@@ -119,75 +126,75 @@
  "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "Python Basics "
+      "description": "About python, Installations"
     },
     {
       "lecture":"Lecture 02",
-      "description": "Async Programming in Python "
+      "description": "Introduction to python, Primitive Data-Types, Memory allocation"
     },
     {
       "lecture":"Lecture 03",
-      "description": "Intermediate Python "
+      "description": "Conditions and loops"
     },
     {
       "lecture":"Lecture 04",
-      "description": "Data Science Libraries "
+      "description": "String operations, iterables, Operators and Expressions"
     },
     {
       "lecture":"Lecture 05",
-      "description": "Python for Web (BS, Requests, Flask)  "
+      "description": "Inbuild Data Structure intro & List operations"
     },
     {
       "lecture":"Lecture 06",
-      "description": "Python Chatbots "
+      "description": "Dictionary, set operations and internal structure, intro to Functions"
     },
     {
       "lecture":"Lecture 07",
-      "description": "Python Automation "
+      "description": "Functions, Modules"
     },
     {
       "lecture":"Lecture 08",
-      "description": "Machine Learning Introduction "
+      "description": "Time space complexity and intro to Recursion"
     },
     {
       "lecture":"Lecture 09",
-      "description": "Web Apps in Flask "
+      "description": "Recursion continued"
     },
     {
       "lecture":"Lecture 10",
-      "description": "Git/Github  "
+      "description": "Assignment Discussion and Doubts"
     },
     {
       "lecture":"Lecture 11",
-      "description": "Backend Development "
+      "description": "Object Oriented Programming "
     },
     {
       "lecture":"Lecture 12",
-      "description": "Backtracking"
+      "description": "Stacks and Queue"
     },
     {
       "lecture":"Lecture 13",
-      "description": "Deploying ML Models "
+      "description": "Linked List"
     },
     {
       "lecture":"Lecture 14",
-      "description": "REST API's  "
+      "description": "File Handeling"
     },
     {
       "lecture":"Lecture 15",
-      "description": "Projects  "
+      "description": "Web Scrapping and web APIs  "
     },
     {
       "lecture":"Lecture 16",
-      "description": "Capstone Project  "
+      "description": "Doubts Class with Mentor"
     },
     {
       "lecture":"Lecture 17",
-      "description": "Pre-requsites "
+      "description": "Web App (Flask intro) Model, View, Template"
     },
     {
       "lecture":"Lecture 18",
-      "description": "Addons  "
+      "description": "Creating new templates and Views, POST, GET requests, Query  "
     }
   ]
 
