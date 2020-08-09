@@ -103,6 +103,10 @@
       "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
+  "schedule_days":{
+    "days":"Mon, Tue, Thu, Sat",
+    "timming":"7:00 PM - 10:00 PM"
+  },
     "schedule": [
     {
       "lecture": "Lecture 01",

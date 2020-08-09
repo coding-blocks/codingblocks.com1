@@ -1,13 +1,15 @@
 <div class="border-card p-0 mb-5">
+      {{#with schedule_days}}
         <div class="px-md-5 px-4 py-4 bg-grey">
           <div class="row no-gutters align-items-center justify-content-between">
             <h4 class="bold flex-1">Lecture Schedule</h4>
             <div class="t-align-r">
-              <h5 class="bold">Mon Tue Wed Fri</h5>
-              <div class="bold gradient-text mt-1">7 PM - 10 PM</div>
+              <h5 class="bold">{{days}}</h5>
+              <div class="bold gradient-text mt-1">{{timming}}</div>
             </div>
           </div>
         </div>
+      {{/with}}
 <div class="py-4 overflow-y-auto gradient-orange-scroll" style="max-height: 450px;">
 {{#each schedule}}
 	<div class="row no-gutters align-items-center justify-content-between py-3 hover-grey px-md-5 px-4">

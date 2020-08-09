@@ -123,6 +123,10 @@
     "icon":""
   }
   ],
+   "schedule_days":{
+    "days":"Tue, Wed, Fri, Sun",
+    "timming":"6:30 PM - 9:30 PM"
+  },
  "schedule": [
     {
       "lecture": "Lecture 01",

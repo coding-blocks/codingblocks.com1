@@ -102,6 +102,10 @@
     "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
   }
   ], 
+  "schedule_days":{
+    "days":"Mon, Tue, Thu, Sat",
+    "timming":"7:00 PM - 10:00 PM"
+  },
   "schedule": [
     {
       "lecture": "Lecture 01",
