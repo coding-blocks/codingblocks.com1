@@ -19,12 +19,12 @@
       "content": "Introducing CB Accelerate, a dedicated program to train you in becoming an elite coder | Apply for the selection Test to get enrolled, accepting only 50 students per batch.",
       "button": [
         {
-          "link": "https://hack.codingblocks.com/app/contests/1721",
+          "link": "https://cb.lk/test/fond",
           "text": "Register For Foundation Course",
           "filled": "true"
         },
         {
-          "link": "https://hack.codingblocks.com/app/contests/1722",
+          "link": "https://cb.lk/test/adv",
           "text": "Register For Advanced Course",
           "filled": "true"
         }
