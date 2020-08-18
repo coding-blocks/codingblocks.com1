@@ -67,18 +67,6 @@
           "link": "/live-courses/master-java-for-beginners.html"
         },
         {
-          "title": "Python App Development",
-          "link": "/live-courses/master-python-app-dev.html"
-        },
-        {
-          "title": "Full Stack Web with NodeJS",
-          "link": "/live-courses/master-web-development-nodejs.html"
-        },
-        {
-          "title": "Data Science",
-          "link": "/live-courses/master-data-science-with-python.html"
-        },
-        {
           "title": "ALGO.JAVA - DATA STRUCTURES & ALGORITHMS",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
         },
@@ -89,10 +77,6 @@
         {
           "title": "Competitive Programming",
           "link": "/live-courses/master-competitive-programming.html"
-        },
-        {
-          "title": "Interview Preparation",
-          "link": "/live-courses/master-coding-interview-preparation.html"
         }
       ]
     },

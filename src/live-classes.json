@@ -68,21 +68,6 @@
       "link": "/live-courses/master-java-for-beginners.html"
     },
     {
-     "name": "Master Python App Development",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
-      "link": "/live-courses/master-python-app-dev.html"
-    },
-    {
-     "name": "Master FullStack Web with NodeJS",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/8363cfd5-40f7-499a-bd8d-33541baa0a5f.svg",
-      "link": "/live-courses/master-web-development-nodejs.html"
-    },
-    {
-     "name": "Master Data Science with Python",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
-      "link": "/live-courses/master-data-science-with-python.html"
-    },
-    {
       "name": "Master Algo.Java-Data Structures & Algo",
       "imgSrc": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
@@ -96,11 +81,6 @@
       "name": "Master Competitive Programming",
       "imgSrc": "https://minio.codingblocks.com/amoeba/587ae53b-6f4e-4afb-a2c5-b328a4dfbdf1.svg",
       "link": "/live-courses//master-competitive-programming.html"
-    },
-    {
-      "name": "Master Interview Prep for Bigwigs",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/215fa6ed-14f3-4d1e-87d5-d9d71cf0d0dd.svg",
-      "link": "/live-courses/master-coding-interview-preparation.html"     
     }
   ],
   "liveCoursesRow1": [

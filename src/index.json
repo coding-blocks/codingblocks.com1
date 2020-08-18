@@ -259,34 +259,17 @@
       "id": "live_course_java"
     },
     {
-      "id": "live_course_web_dev",
+      "id": "live_course_alg_java",
       "odd": true
     }
   ],
   "liveCoursesRow2": [
     {
-      "id": "live_course_alg_java",
-      "odd": true
-    },
-    {
       "id": "live_course_alg_plus_plus"
 
     },
     {
-      "id": "live_course_py_app",
-      "odd":true
-    }
-  ],
-   "liveCoursesRow3": [
-    {
-      "id": "live_course_ds",
-      "odd": true
-    },
-    {
-      "id": "live_course_comp_programming"
-    },
-    {
-      "id": "live_course_interview",
+      "id": "live_course_comp_programming",
       "odd": true
     }
   ],

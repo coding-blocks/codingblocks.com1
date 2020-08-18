@@ -35,18 +35,6 @@
       "profile_pic_link":"https://minio.codingblocks.com/amoeba/61b35bc9-b2d2-494a-9740-c5057e89faba",
       "summary": "Apaar is enthusiastic competitive programmer, with years of experience in problem solving. He is rated 6 star on Codechef and has won various competitions like Code Gladiators, AlgoFlux, CodeWars etc.",
       "email": "apaarkamal@gmail.com"
-    },
-    {
-      "name":"Prateek Narang",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
-      "summary": "Currently doing his Masters in Machine Learning from IIT Delhi, Prateek is an ace programmer who has worked with SanDisk and HackerEarth in the past. He has also won prestigious hackathons including Google’s Code For India and Smart City Hackathon. A Computer Science Graduate from DTU, he is highly popular among students for his teaching methods. His interactive CV (www.prateeknarang.com) is also well known in 120+ countries",
-      "email": "prateek@codingblocks.com"
-    },
-    {
-      "name":"Pranav Khandelwal",
-      "profile_pic_link":"/assets/images/cb/team/pranav.jpg",
-      "summary":"Pranav Khandelwal has worked with various Delhi based start-ups. He has worked as a data science intern Lifcare(Pharmaceutical Industry) as well as a software developer intern/Data Science instructor at Acadview(An E-learning startup, now owned by UpGrad). Python is his first language followed by sarcasm. He is well versed with C++ and Java. He always finds the most constructive and unique ways to teach in his class using the most basic of examples. Pranav has prior teaching experience in Java,C++, Python as well as in machine learning.",
-      "email": "pranva@codingblocks.com"
     }
   ],
    "courseMeta": {
@@ -54,12 +42,9 @@
     "title": "Master Competitive Programming",
     "price": "20,999",
     "demo-link": "https://codingblocks.com/take-demo.html",
-     "mentors": "Apaar Kamal,Prateek Narang, Pranav Khandelwal",
+     "mentors": "Apaar Kamal",
     "description": "Ace Every Race - Master competitive coding skills for ACM ICPC, Google Kickstart & more",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/61b35bc9-b2d2-494a-9740-c5057e89faba",
-    "mentor-img-2":"https://minio.codingblocks.com/amoeba/ebd9bd9b-5cfc-45da-bee2-1b4b95dbe5d9",
-    "mentor-img-3" : "/assets/images/cb/team/pranav.jpg"
-
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/61b35bc9-b2d2-494a-9740-c5057e89faba"
   },
    "demoClass":[
     {

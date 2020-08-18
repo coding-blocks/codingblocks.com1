@@ -20,22 +20,10 @@
   },
   "aboutMentor":[
     {
-      "name":"Sanjeet Boora",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/49d69e1b-ccd1-4a39-afd9-fe3cf766e876",
-      "summary": "Always ready to solve new challenges, Sanjeet holds a Bachelor's degree in Electronics & Communication and is well versed with C++, Java, Angular, React.JS, VueJS, Python and Ruby on Rails. She has previously worked with DRDO and MyHQ Workspaces as a Fullstack Developer. She is an open-source enthusiast and is also passionate about problem solving and learning new algorithms. She has mentored at communities like PyJaipur and Learn IT, Girl!. She works closely with teaching assistants to enhance the student experience.",
-      "email": "Sanjeet@codingblocks.com"
-    },
-    {
-      "name":"Sharad Nailwal",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/c1b7b119-4116-4e1c-9ba5-e111b314b60c",
-      "summary": "",
-      "email": "Sharad@codingblocks.com"
-    },
-    {
       "name":"Pranav Khandelwal",
       "profile_pic_link":"/assets/images/cb/team/pranav.jpg",
       "summary":"Pranav Khandelwal has worked with various Delhi based start-ups. He has worked as a data science intern Lifcare(Pharmaceutical Industry) as well as a software developer intern/Data Science instructor at Acadview(An E-learning startup, now owned by UpGrad). Python is his first language followed by sarcasm. He is well versed with C++ and Java. He always finds the most constructive and unique ways to teach in his class using the most basic of examples. Pranav has prior teaching experience in Java,C++, Python as well as in machine learning.",
-      "email": "pranva@codingblocks.com"
+      "email": "pranav.khandelwal@codingblocks.com"
     }
   ],
   "openGraph": {
@@ -50,11 +38,9 @@
     "price": "15,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2020&amp",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Sanjeet Boora,Sharad Nailwal,Pranav Khandelwal",
+    "mentors": "Pranav Khandelwal",
     "description": "Start from Basics, become a C++ Master!",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/49d69e1b-ccd1-4a39-afd9-fe3cf766e876",
-    "mentor-img-2" : "https://minio.codingblocks.com/amoeba/c1b7b119-4116-4e1c-9ba5-e111b314b60c",
-    "mentor-img-3" : "/assets/images/cb/team/pranav.jpg"
+    "mentor-img-1" : "/assets/images/cb/team/pranav.jpg"
 
   },
   "demoClass":[
