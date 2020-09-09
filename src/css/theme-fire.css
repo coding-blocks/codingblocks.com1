@@ -355,7 +355,7 @@ nav .cart-overview a{height:auto;}
 .offscreen-container.reveal-nav{transform:translate3d(0vw, 0, 0);-webkit-transform:translate3d(0vw, 0, 0);-moz-transform:translate3d(0vw, 0, 0);}
 .main-container.reveal-nav{transform:none !important;}
 }
-@media all and (max-width:990px){nav.fixed{position:absolute !important;opacity:1 !important;visibility:visible !important;}
+@media all and (max-width:991px){nav.fixed{position:absolute !important;opacity:1 !important;visibility:visible !important;}
 nav.outOfSight{transform:translate3d(0, 0px, 0) !important;-webkit-transform:translate3d(0, 0px, 0) !important;-moz-transform:translate3d(0, 0px, 0) !important;}
 .nav-bar,
 .nav-bar .module-group,
