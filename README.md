@@ -1,4 +1,4 @@
-# coding-blocks.github.io
+# coding-blocks.github.io is Awesome project
 
 ## Deploys
 
