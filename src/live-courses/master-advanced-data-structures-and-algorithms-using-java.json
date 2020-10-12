@@ -28,7 +28,7 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
     "title": "Master Algo.Java-Data Structures",
-    "price": "13,999",
+    "price": "10,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2035",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Shubham Rawat",
@@ -55,8 +55,8 @@
     }
   ],
   "testTimelines":{
-      "test_link_first" : "https://cb.lk/test/adv",
-      "test_link_second": "https://cb.lk/test/adv"
+      "test_link_first" : "https://hack.codingblocks.com/app/contests/1904",
+      "test_link_second": "https://hack.codingblocks.com/app/contests/1904"
     },
   "highlights":[{
     "head":"Opportunities unlocked for learner",

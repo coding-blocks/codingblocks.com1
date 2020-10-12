@@ -24,6 +24,12 @@
       "profile_pic_link":"https://minio.codingblocks.com/amoeba/03dde726-a0c0-4da0-bcbd-c978668002b6",
       "summary":"",
       "email": "Sanjeet@codingblocks.com"
+    },
+    {
+      "name":"Mohit Pandey",
+      "profile_pic_link":"",
+      "summary":"",
+      "email": "mohit.pandey@codingblocks.com"
     }
   ],
   "openGraph": {
@@ -35,10 +41,10 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
 	  "title": "Master DS and Algo with C++",
-    "price": "15,999",
+    "price": "12,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2020&amp",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Sanjeet Boora",
+    "mentors": "Sanjeet Boora,Mohit Pandey",
     "description": "Start from Basics, become a C++ Master!",
     "mentor-img-1" : "https://minio.codingblocks.com/amoeba/03dde726-a0c0-4da0-bcbd-c978668002b6"
 
@@ -55,8 +61,8 @@
     }
   ],
    "testTimelines":{
-      "test_link_first" : "https://cb.lk/test/fond",
-      "test_link_second": "https://cb.lk/test/fond"
+      "test_link_first" : "https://hack.codingblocks.com/app/contests/1903",
+      "test_link_second": "https://hack.codingblocks.com/app/contests/1903"
     },    
     "highlights":[
           {

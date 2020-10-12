@@ -33,7 +33,7 @@
    "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
     "title": "Master Data Science with Python",
-    "price": "26,999",
+    "price": "15,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2043",
     "demo-link": "https://codingblocks.com/take-demo.html",
      "mentors": "Mohit Uniyal",
@@ -77,8 +77,8 @@
     }
   ],
   "testTimelines":{
-      "test_link_first" : "https://cb.lk/test/adv",
-      "test_link_second": "https://cb.lk/test/adv"
+      "test_link_first" : "https://hack.codingblocks.com/app/contests/1904",
+      "test_link_second": "https://hack.codingblocks.com/app/contests/1904"
     },
   "highlights":[{
     "head":"Opportunities unlocked for learner",

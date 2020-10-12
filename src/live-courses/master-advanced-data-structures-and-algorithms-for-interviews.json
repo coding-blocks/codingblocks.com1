@@ -29,7 +29,7 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
     "title": "Master Algo++",
-    "price": "13,999",
+    "price": "10,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2024",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Pranav Khandelwal",
@@ -56,8 +56,8 @@
     }
   ],
   "testTimelines":{
-    "test_link_first" : "https://cb.lk/test/adv",
-    "test_link_second": "https://cb.lk/test/adv"
+    "test_link_first" : "https://hack.codingblocks.com/app/contests/1904",
+    "test_link_second": "https://hack.codingblocks.com/app/contests/1904"
   },
   "highlights":[{
     "head":"Opportunities unlocked for learner",

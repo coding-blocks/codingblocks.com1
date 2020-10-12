@@ -27,12 +27,14 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
     "title": "Master DS and Algo with Java",
-    "price": "15,999",
+    "price": "12,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2028",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Shubham Rawat",
+    "mentors": "Shubham Rawat,Rishab Kapoor",
     "description": "Start from Basics, become a Java Master!",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/ba0a964a-593f-4066-832f-2f47c0e05e4b"
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/ba0a964a-593f-4066-832f-2f47c0e05e4b",
+    "mentor-img-2": "/assets/images/cb/team/c_rishab.jpg"
+
   },
   "aboutMentor":[
     {
@@ -40,6 +42,12 @@
       "profile_pic_link":"https://minio.codingblocks.com/amoeba/ba0a964a-593f-4066-832f-2f47c0e05e4b",
       "summary": "Shubham Rawat is an Open Source geek and a fitness freak. He was a Google Code-In mentor with JBoss Community under RedHat. He has worked with Debezium Project under Redhat and also with Vlyop technology . He loves to solve puzzles and generally found dwelling with Spring Boot applications.",
       "email": "shubham.rawat@codingblocks.com"
+    },
+    {
+      "name":"Rishab Kapoor",
+      "profile_pic_link":"/assets/images/cb/team/c_rishab.jpg",
+      "summary": "Rishab is a graduate from Guru Nanak Dev University, Rishab has worked with Harman Connected Services as a software engineer. He is proficient with web development related technologies like HTML, CSS, Javascript along with Internet of Things development, OSGi framework, Spring and Hibernate.",
+      "email": "rishab.kapoor@codingblocks.com"
     }
   ],
   "demoClass":[
@@ -71,8 +79,8 @@
     }
   ],
   "testTimelines":{
-      "test_link_first" : "https://cb.lk/test/fond",
-      "test_link_second": "https://cb.lk/test/fond"
+      "test_link_first" : "https://hack.codingblocks.com/app/contests/1903",
+      "test_link_second": "https://hack.codingblocks.com/app/contests/1903"
     },  
   "highlights":[{
     "head":"Opportunities unlocked for learner",
