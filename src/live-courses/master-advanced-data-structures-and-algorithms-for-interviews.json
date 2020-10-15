@@ -32,16 +32,16 @@
     "price": "10,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2024",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Pranav Khandelwal",
+    "mentors": "Sanjeet Boora",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
-    "mentor-img-1" : "/assets/images/cb/team/pranav.jpg"
+    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/03dde726-a0c0-4da0-bcbd-c978668002b6"
   },
   "aboutMentor":[
    {
-      "name":"Pranav Khandelwal",
-      "profile_pic_link":"/assets/images/cb/team/pranav.jpg",
-      "summary":"Pranav Khandelwal has worked with various Delhi based start-ups. He has worked as a data science intern Lifcare(Pharmaceutical Industry) as well as a software developer intern/Data Science instructor at Acadview(An E-learning startup, now owned by UpGrad). Python is his first language followed by sarcasm. He is well versed with C++ and Java. He always finds the most constructive and unique ways to teach in his class using the most basic of examples. Pranav has prior teaching experience in Java,C++, Python as well as in machine learning.",
-      "email": "pranav.khandelwal@codingblocks.com"
+      "name":"Sanjeet Boora",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/03dde726-a0c0-4da0-bcbd-c978668002b6",
+      "summary":"",
+      "email": "Sanjeet@codingblocks.com"
     }
   ],
   "demoClass":[
