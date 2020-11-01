@@ -32,16 +32,16 @@
     "price": "10,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2024",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Sanjeet Boora",
+    "mentors": "Mohit Pandey",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
-    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/03dde726-a0c0-4da0-bcbd-c978668002b6"
+    "mentor-img-1" : ""
   },
   "aboutMentor":[
    {
-      "name":"Sanjeet Boora",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/03dde726-a0c0-4da0-bcbd-c978668002b6",
+      "name":"Mohit Pandey",
+      "profile_pic_link":"",
       "summary":"",
-      "email": "Sanjeet@codingblocks.com"
+      "email": "Mohit@codingblocks.com"
     }
   ],
   "demoClass":[

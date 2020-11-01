@@ -20,12 +20,6 @@
   },
   "aboutMentor":[
     {
-      "name":"Sanjeet Boora",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/03dde726-a0c0-4da0-bcbd-c978668002b6",
-      "summary":"",
-      "email": "Sanjeet@codingblocks.com"
-    },
-    {
       "name":"Mohit Pandey",
       "profile_pic_link":"",
       "summary":"",
@@ -44,9 +38,9 @@
     "price": "12,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2020&amp",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Sanjeet Boora,Mohit Pandey",
+    "mentors": "Mohit Pandey",
     "description": "Start from Basics, become a C++ Master!",
-    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/03dde726-a0c0-4da0-bcbd-c978668002b6"
+    "mentor-img-1" : ""
 
   },
   "demoClass":[
