@@ -32,16 +32,16 @@
     "price": "10,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2024",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Mohit Pandey",
+    "mentors": "Kartik Mathur",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
-    "mentor-img-1" : ""
+    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91"
   },
   "aboutMentor":[
    {
-      "name":"Mohit Pandey",
-      "profile_pic_link":"",
-      "summary":"",
-      "email": "Mohit@codingblocks.com"
+      "name":"Kartik Mathur",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
+      "summary": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "email": "kartik.mathur@codingblocks.com"
     }
   ],
   "demoClass":[

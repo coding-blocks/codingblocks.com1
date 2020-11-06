@@ -36,7 +36,7 @@
     "price": "15,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2043",
     "demo-link": "https://codingblocks.com/take-demo.html",
-     "mentors": "Mohit Uniyal",
+     "mentors": "Mohit Uniyal, Manu S Pillai",
     "description": "Start from basics, become a industry ready data scientist!",
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d"
   },
@@ -47,6 +47,7 @@
       "summary": "Computer science graduate from Delhi University, highly skilled in Machine learning and deep learning. He has been practicing ML/DL for the last 3 years and have done various projects in the same domain. He has also won many coding competition, web development events, in tech fest across various colleges.",
       "email": "mohit.uniyal@codingblocks.com"
     }
+
   ],
    "demoClass":[
     {

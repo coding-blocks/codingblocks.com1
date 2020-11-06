@@ -25,22 +25,23 @@
       }
     ]
   },
+  
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
     "title": "Master Algo.Java-Data Structures",
     "price": "10,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2035",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Shubham Rawat",
+    "mentors": "Garima Chhikara",
     "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/ba0a964a-593f-4066-832f-2f47c0e05e4b"
+    "mentor-img-1": "/assets/images/cb/team/Garima Final.jpg"
   },
    "aboutMentor":[
     {
-      "name":"Shubham Rawat",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/ba0a964a-593f-4066-832f-2f47c0e05e4b",
-      "summary": "Shubham Rawat is an Open Source geek and a fitness freak. He was a Google Code-In mentor with JBoss Community under RedHat. He has worked with Debezium Project under Redhat and also with Vlyop technology . He loves to solve puzzles and generally found dwelling with Spring Boot applications.",
-      "email": "shubham.rawat@codingblocks.com"
+      "name":"Garima Chhikara",
+      "profile_pic_link":"/assets/images/cb/team/Garima Final.jpg",
+      "summary": "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining.",
+      "email": "garima.chhikara@codingblocks.com"
     }
   ],
   "demoClass":[
