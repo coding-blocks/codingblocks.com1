@@ -61,33 +61,66 @@
       "name": "Master DS and Algo with C++",
       "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
       "link": "/live-courses/master-c-plus-plus-ds-algo.html",
+      "mentors":"Kartik Mathur",
+      "interactiveClasses":"24 Live Interactive Classes",
+      "codingProblems":"200-300 hands on coding problems",
+      "projects":"5 Projects",
+      "classSchedule":"Classes thrice a week",
+      "price":"7,999",
+      "slashedPrice":"16,999",
+      "gradient":"card bg-gradient-blue-light t-align-c white"
+    },
+    {
+      "name": "Master DS and Algo with Java",
+      "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+      "link": "/live-courses/master-java-for-beginners.html",
+      "mentors":"Garima Chhikara",
+      "interactiveClasses":"24 Live Interactive Classes",
+      "codingProblems":"200-300 hands on coding problems",
+      "projects":"5 Projects",
+      "classSchedule":"Classes thrice a week",
+      "price":"7,999",
+      "slashedPrice":"16,999",
+      "gradient":"card bg-gradient-orange-light t-align-c white"
+    },
+    {
+      "name": "Master Algo.Java-Data Structures & Algo",
+      "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+      "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
       "mentors":"Garima Chhikara",
       "interactiveClasses":"21 Live Interactive Classes",
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
-      "price":"7,999",
-      "slashedPrice":"16,999"
-    },
-    {
-      "name": "Master DS and Algo with Java",
-      "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
-      "link": "/live-courses/master-java-for-beginners.html"
-    },
-    {
-      "name": "Master Algo.Java-Data Structures & Algo",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
-      "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
+      "price":"6,499",
+      "slashedPrice":"13,999",
+      "gradient":"card bg-gradient-green-light t-align-c white"
     },
     {
       "name": "Master Algo++",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",      
-      "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html"
+      "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",      
+      "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
+      "mentors":"Kartik Mathur",
+      "interactiveClasses":"24 Live Interactive Classes",
+      "codingProblems":"200-300 hands on coding problems",
+      "projects":"5 Projects",
+      "classSchedule":"Classes thrice a week",
+      "price":"6,499",
+      "slashedPrice":"13,999",
+      "gradient":"card bg-gradient-green-light t-align-c white"
     },
     {
       "name": "Master Data Science",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
-      "link": "/live-courses/master-data-science-with-python.html"
+      "icon": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
+      "link": "/live-courses/master-data-science-with-python.html",
+      "mentors":"Mohit Uniyal and Manu S Pillai ",
+      "interactiveClasses":"22 Live Interactive Classes",
+      "codingProblems":"200-300 hands on coding problems",
+      "projects":"5 Projects",
+      "classSchedule":"Classes thrice a week",
+      "price":"11,999",
+      "slashedPrice":"27,999",
+      "gradient":"card bg-gradient-blue-light t-align-c white"
     }
   ],
   "liveCoursesRow1": [

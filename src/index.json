@@ -13,31 +13,24 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/ipl.jpg",
+      "imgSrc": "/assets/images/cb/cover/diwalibanner.jpg",
       "imgAlt": "",
-      "heading": "PREDICT N WIN!",
-      "content": "Make 3 predictions about the match and win 75% discount on online courses!",
+      "heading": "Is Diwali karo ek acchi shuruaat",
+      "content": "with CB ki Diwali",
       "button": [
         {
-          "link": "https://online.codingblocks.com/cricket-cup",
-          "text": "Make Predictions",
+          "link": "/live-classes.html",
+          "text": "50% off on Live Courses",
+          "filled": "true"
+        },
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "75% off on Online Courses",
           "filled": "true"
         }
       ]
     },
-    {
-      "imgSrc": "/assets/images/cb/cover/summer_batches.jpg",
-      "imgAlt": "",
-      "heading": "Introducing Summer batches !",
-      "content": "",
-      "button": [
-        {
-          "link": "/classroom-courses/",
-          "text": "EXPLORE CLASSROOM",
-          "filled": "true"
-        }
-      ]
-    },
+    
     {
       "imgSrc": "/assets/images/cb/cover/online_banner.jpg",
       "imgAlt": "",
