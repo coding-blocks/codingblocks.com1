@@ -20,16 +20,10 @@
   },
   "aboutMentor":[
     {
-      "name":"Rahul Janghu",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/23a800a7-1487-41eb-8ece-86682c465579",
-      "summary": "Rahul is an open-source enthusiast and Google-Code-In mentor with JBoss community under Redhat foundation. He is a research scholar at IIT Kanpur in field of visual serving. He has worked with DRDO lab in IoT technology. He likes to speak on tech as well as philosophy. He is mad about table-tennis and is a solo traveller.",
-      "email": "rahul.janghu@codingblocks.com"
-    },
-    {
-      "name":"Jatin Katyal",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/7196aedf-f3f5-4617-8e38-1390bf53cc48",
-      "summary":"Jatin is a full-stack web developer and has worked with various start-ups in the field of HCI and IoT. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack.",
-      "email": "jatin@cb.lk" 
+      "name":"Manu S Pillai",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
+      "summary": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
+      "email": "manu.pillai@codingblocks.com"
     }
   ],
   "openGraph": {
@@ -41,13 +35,12 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
     "title": "Master Python App Development",
-    "price": "15,999",
+    "price": "7,999",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Rahul Janghu,Jatin Katyal",
+    "mentors": "Manu S Pillai",
     "description": "Learn Python for Web Development, Data Science & ML",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/23a800a7-1487-41eb-8ece-86682c465579",
-    "mentor-img-2":"https://minio.codingblocks.com/amoeba/7196aedf-f3f5-4617-8e38-1390bf53cc48"
-  },
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041"
+    },
   "demoClass":[
     {
       "youtubeID":"mOtc5JrZT0o"
@@ -60,8 +53,8 @@
     }
   ],      
   "testTimelines":{
-    "test_link_first" : "https://cb.lk/test/fond",
-    "test_link_second": "https://cb.lk/test/fond"
+    "test_link_first" : "",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3995"
   },
         "highlights":[
           {

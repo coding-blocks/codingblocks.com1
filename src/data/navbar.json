@@ -52,7 +52,7 @@
     },
     {
       "title": "Live Classes",
-      "link": "",
+      "link": "/live-classes.html",
       "sublinks": [
         {
           "title":"information",
@@ -65,6 +65,10 @@
         {
           "title": "DS & Algo with Java",
           "link": "/live-courses/master-java-for-beginners.html"
+        },
+        {
+          "title": "Python App Development",
+          "link":"/live-courses/master-python-app-dev.html"
         },
         {
           "title": "ALGO.JAVA - DATA STRUCTURES & ALGORITHMS",

@@ -62,7 +62,7 @@
       "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
       "link": "/live-courses/master-c-plus-plus-ds-algo.html",
       "mentors":"Kartik Mathur",
-      "interactiveClasses":"24 Live Interactive Classes",
+      "interactiveClasses":"45 Live Interactive Classes",
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
@@ -84,6 +84,19 @@
       "gradient":"card bg-gradient-orange-light t-align-c white"
     },
     {
+      "name": "Master Python App Development",
+      "icon": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
+      "link": "/live-courses/master-python-app-dev.html",
+      "mentors":"Manu S Pillai",
+      "interactiveClasses":"24 Live Interactive Classes",
+      "codingProblems":"200-300 hands on coding problems",
+      "projects":"5 Projects",
+      "classSchedule":"Classes thrice a week",
+      "price":"7,999",
+      "slashedPrice":"16,999",
+      "gradient":"card bg-gradient-green-light t-align-c white"
+    },
+    {
       "name": "Master Algo.Java-Data Structures & Algo",
       "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
@@ -94,7 +107,7 @@
       "classSchedule":"Classes thrice a week",
       "price":"6,499",
       "slashedPrice":"13,999",
-      "gradient":"card bg-gradient-green-light t-align-c white"
+      "gradient":"card bg-gradient-orange-light t-align-c white"
     },
     {
       "name": "Master Algo++",

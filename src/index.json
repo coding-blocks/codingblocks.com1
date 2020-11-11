@@ -15,8 +15,8 @@
     {
       "imgSrc": "/assets/images/cb/cover/diwalibanner.jpg",
       "imgAlt": "",
-      "heading": "Is Diwali karo ek acchi shuruaat",
-      "content": "with CB ki Diwali",
+      "heading": "",
+      "content": "",
       "button": [
         {
           "link": "/live-classes.html",
@@ -26,46 +26,6 @@
         {
           "link": "https://online.codingblocks.com/courses",
           "text": "75% off on Online Courses",
-          "filled": "true"
-        }
-      ]
-    },
-    
-    {
-      "imgSrc": "/assets/images/cb/cover/online_banner.jpg",
-      "imgAlt": "",
-      "heading": "LEARN FROM HOME | LEARN ONLINE!",
-      "content": "Introducing Online Programming Courses!",
-      "button": [
-        {
-          "link": "https://cb.lk/cb-online",
-          "text": "LEARN MORE",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cover5.jpg",
-      "imgAlt": "",
-      "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
-      "content": "Do the best summer internship this year by becoming a Coding Blocks Ambassador for your campus, and win coupons, merchandise, certificates, and CASH.",
-      "button": [
-        {
-          "link": "http://cb.lk/CA",
-          "text": "Details & Registration",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cast.jpg",
-      "imgAlt": "",
-      "heading": "Success stories",
-      "content": "Got an internship/placement ? Here is a chance to share your success story with others, get featured on our Facebook, Instagram and Hall of Fame pages and get rewarded.",
-      "button": [
-        {
-          "link": "https://cb.lk/ss",
-          "text": "Submit Success Story",
           "filled": "true"
         }
       ]
