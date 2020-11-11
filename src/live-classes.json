@@ -59,12 +59,19 @@
   "liveCourseCards": [
     {
       "name": "Master DS and Algo with C++",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
-      "link": "/live-courses/master-c-plus-plus-ds-algo.html"
+      "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
+      "link": "/live-courses/master-c-plus-plus-ds-algo.html",
+      "mentors":"Garima Chhikara",
+      "interactiveClasses":"21 Live Interactive Classes",
+      "codingProblems":"200-300 hands on coding problems",
+      "projects":"5 Projects",
+      "classSchedule":"Classes thrice a week",
+      "price":"7,999",
+      "slashedPrice":"16,999"
     },
     {
       "name": "Master DS and Algo with Java",
-      "imgSrc": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+      "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
       "link": "/live-courses/master-java-for-beginners.html"
     },
     {

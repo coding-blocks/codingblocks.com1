@@ -1,23 +1,32 @@
-<div class="row">
-  {{#each liveCourseCards}}
-    <div class="col-md-4 col-sm-6 mb-5 h-inherit">
-    <a href="{{link}}" style="color:black">
-
-            <div class="border-card p-0 h-100">
-              <div class="bg-grey-light-3 flex-col justify-content-between p-lg-5 p-4" style="height: calc(100% - 25px);">
-                <div class="w-100">
-                  <img src="{{imgSrc}}"
-                    class="s-70x70 mb-4">
-                  <div class="heading-3 extra-bold">{{name}}</div>
-                </div>
-                <div class="mt-3 font-5 w-100">
-                  Regular Classes three times a week
-                </div>
+{{#each liveCourseCards}}
+ <div class="col-lg-4 col-sm-6 mb-50">
+            <div class="card bg-gradient-blue-light t-align-c white">
+              <div class="round border border-2 b-white s-70x70 mx-auto">
+                <img src="{{icon}}">
               </div>
-              <div style="height: 25px; background: linear-gradient(90deg, #19336E, #02ADC5);"></div>
+              <div class="my-10 bold">
+                {{name}}
+              </div>
+              <div class="p-10 d-inline-block br-50" style="background-color: rgba(255, 255, 255, 0.2);">
+                Mentor - {{mentors}}
+              </div>
+              <div class="divider-h bg-white my-20" style="opacity: 0.2;"></div>
+              <div class="bold mb-15">{{interactiveClasses}} </div>
+              <div class="bold mb-15">{{codingProblems}}</div>
+              <div class="bold mb-15">{{projects}}</div>
+              <div class="bold">{{classSchedule}}</div>
+              <div class="divider-h bg-white my-20" style="opacity: 0.2;"></div>
+              <div class="row no-gutters align-items-center justify-content-between">
+                <div class="flex-1">
+                  <div class="row no-gutters align-items-center">
+                    <div class="heading-6 bold mr-10">
+                      {{price}}
+                    </div>
+                    <div class="font-5 grey-light-1 bold" style="text-decoration: line-through;">{{slashedPrice}}</div>
+                  </div>
+                </div>
+                <a class="button-primary bg-white black border-none" href="{{link}}">Explore More</a>
+              </div>
             </div>
-              </a>
-
-    </div>
- {{/each}}
-</div>
+          </div>
+{{/each}}

@@ -24,168 +24,145 @@
   {{> navbar}}
   <div class="a-cbm">
   <div class="events-page-landing">
-    <div class="events-page-landing__section position-relative">
+    
+    <div class="events-page-landing__section events-page-landing__section--first-section">
       <div class="all-center">
         <div class="t-align-c">
-          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/cb-accelerate.svg">
+          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/cb-accelerate-big.svg">
           <div class="t-align-c heading-5 mt-25">
             Live Interactive Classes to help you accelerate towards your Dream Job!
           </div>
-          <div class="bg-grey-light-3 br-5 mt-50 p-md-40 p-20 mx-auto" style="width: fit-content;">
-            <div class="row no-gutters align-items-center justify-content-center">
-              <div class="flex-1 d-sm-block d-none">
-                <div class="row no-gutters align-items-center">
-                  <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/trophy.svg">
-                  <div class="flex-1 pl-30 t-align-l">
-                    <div class="font-4">Get upto 95% OFF</div>
-                    <div class="heading-4 bold">Scholarship Test</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 d-sm-none d-block">
-                <div class="row no-gutters align-items-center">
-                  <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/trophy.svg">
-                  <div class="flex-1 pl-30 t-align-l">
-                    <div class="font-4">Get upto 95% OFF</div>
-                    <div class="heading-4 bold">Scholarship Test</div>
-                  </div>
-                </div>
-              </div>
-                <a class="button-primary ml-md-50 ml-sm-25 mt-sm-none mt-25" href="#register-advance">
-                Apply
-                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/button-icon-blue.svg" class="ml-2">
-              </a>
-            </div>
-          </div>
         </div>
       </div>
-      <div class="course-icons">
-        <img src="https://minio.codingblocks.com/amoeba/e5171581-41d8-46f5-97bf-c47db8214f22.png">
-        <img src="https://minio.codingblocks.com/amoeba/e2c13faa-f538-48d4-8ca1-88728a07c51a.svg">
-        <img src="https://minio.codingblocks.com/amoeba/ec081d05-c8a2-4095-8ba6-3ffa5a02ddf5.svg">
-        <img src="https://minio.codingblocks.com/amoeba/829a1a87-eafe-48ba-8d7f-4756a5edd19d.svg">
-        <img src="https://minio.codingblocks.com/amoeba/c794f2a2-6198-4078-979a-e10ad8ca8bfb.svg">
-      </div>
-    </div>  
-    <div class="events-page-landing__section">
-      <div class="heading-3 extra-bold">Features</div>
-      <div class="heading-5 bold mt-1">Kickstart your career the right way!</div>
-      <div class="row my-5 pt-4 justify-content-center">
-        <div class="col-md-4 col-sm-6 mb-md-0 mb-5 h-inherit">
-          <div class="border-card p-lg-5 p-4 bg-grey-light-3 h-100">
-            <div class="flex-col justify-content-between h-100">
-              <div class="w-100">
-                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/live-classes.svg">
-                <div class="my-4 heading-3 extra-bold">
-                  Interactive Live Classes
-                </div>
-              </div>
-              <div class="font-5 w-100">
-                Regular Classes three times a week
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 mb-md-0 mb-5 h-inherit">
-          <div class="border-card p-lg-5 p-4 bg-grey-light-3 h-100">
-            <div class="flex-col justify-content-between h-100">
-              <div class="w-100">
-                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/doubt-support.svg">
-                <div class="my-4 heading-3 extra-bold">
-                  24 x 7 Doubt Support
-                </div>
-              </div>
-              <div class="font-5 w-100">
-                Each student with individual attention
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 h-inherit">
-          <div class="border-card p-lg-5 p-4 bg-grey-light-3 h-100">
-            <div class="flex-col justify-content-between h-100">
-              <div class="w-100">
-                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/placement-ready.svg">
-                <div class="my-4 heading-3 extra-bold">
-                  Placement Ready
-                </div>
-              </div>
-              <div class="font-5 w-100">
-                Resume building and review mock interviews
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     
     </div>
+
+    <div class="events-page-landing__section events-page-landing__section--floating-section">
+      <div class="floating-section">
+        <div class="t-align-c mb-30 heading-5 bold">Courses</div>
+        <div class="row justify-content-center">
+          {{>liveCourseCards}}
+          <div class="col-sm-10">
+            <div class=" br-5 row no-gutters align-items-center justify-content-between bg-gradient-orange-light py-sm-35 py-25 px-md-50 px-sm-40 px-25">
+              <div class="flex-1">
+                <div class="font-5 white">
+                  Talk to our expert counsellors to know the perfect path for you
+                </div>
+              </div>
+              <div>
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/Vector+(1).svg">
+                <button class="button-primary bg-white border-none ml-10">9999579111</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="events-page-landing__section" style="background-color: #ffc41b;">
+      <div class="row">
+        <div class="col-md-5 t-align-c">
+          <div class="heading-5 bold">WHY CHOOSE</div>
+          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/accelerate-small.svg" class="mb-30">
+        </div>
+        <div class="col-md-7">
+          <div class="row align-items-center">
+            <div class="col-6 mb-30 h-inherit">
+              <div class="br-10 p-20 t-align-c h-100" style="background-color: #ffbd00;">
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/competitive.svg">
+                <div class="mt-10 heading-5 bold">
+                  Interview Preparation
+                </div>
+              </div>
+            </div>
+            <div class="col-6 mb-30 h-inherit">
+              <div class="br-10 p-20 t-align-c h-100" style="background-color: #ffbd00;">
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/resume.svg">
+                <div class="mt-10 heading-5 bold">
+                  Resume Building
+                </div>
+              </div>
+            </div>
+            <div class="col-6 mb-30 h-inherit">
+              <div class="br-10 p-20 t-align-c h-100" style="background-color: #ffbd00;">
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/doubts.svg">
+                <div class="mt-10 heading-5 bold">
+                  Weekly Doubt Classes
+                </div>
+              </div>
+            </div>
+            <div class="col-6 mb-30 h-inherit">
+              <div class="br-10 p-20 t-align-c h-100" style="background-color: #ffbd00;">
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/hands-on.svg">
+                <div class="mt-10 heading-5 bold">
+                  Hands-On Coding Classes
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="br-10 p-20 h-100" style="background-color: #ffbd00;">
+                <div class="row no-gutters align-items-center">
+                  <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/hands-on.svg">
+                  <div class="mt-10 heading-5 bold flex-1 pl-30">
+                    Hands-On Coding Classes
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
     <div class="events-page-landing__section">
       <div class="row">
-        <div class="col-lg-6 h-inherit">
-          <div class="heading-3 bold">Register for the</div>
-          <div class="bold mt-10" style="font-size: 40px;">Scholarship Test</div>
-          <div class="mt-30">
-            <div class="heading-5 bold">Date</div>
-            <div class="mt-5 heading-4">08th Nov 2020</div>
+        <div class="col-md-4 col-12">
+          <div class="heading-5 bold mb-10">Yash got placed at</div>
+          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/2000px-Amazon_logo_plain+1.png">
+          <div class="my-30 font-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce amet non purus accumsan porttitor justo,
+            iaculis viverra. Quam ultrices sodales mauris ac. Felis nunc et, diam mattis sit senectus. Hendrerit viverra
+            porta diam aliquam. Non dui nec, arcu feugiat felis, arcu. Mattis habitant curabitur natoque dignissim
+            integer cursus. Id sit suspendisse odio enim sodales mollis. Enim lacinia in in quis orci.
           </div>
-          <div class="mt-25">
-            <div class="heading-5 bold">Duration</div>
-            <div class="mt-5 heading-4">One Hour</div>
-          </div>
-          <div class="mt-25">
-            <div class="heading-5 bold">Type</div>
-            <div class="mt-5 heading-4">
-              Foundation or Advance
-            </div>
-          </div>
-          <div class="mt-50">
-            <a class="button-primary ml-md-50 ml-sm-25 mt-sm-none mt-25" href="#register-advance">
-                Apply
-                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/button-icon-blue.svg" class="ml-2">
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-6 h-inherit mt-lg-none mt-40">
-          <div class="row no-gutters align-items-center h-100">
-            <div class="yellow-card t-align-c p-30 col-sm-6">
-              <div class="heading-5 bold">Advance Courses</div>
-              <div class="mt-50 bold">
-                <div class="heading-6">Algo ++ </div>
-                <div class="heading-6 mt-30">Algo.Java</div>
-                <div class="heading-6 mt-30">Data Science</div>
-                <div class="heading-6 mt-30">Machine Learning</div>
-              </div>
-            </div>
-            <div class="yellow-card t-align-c p-30 col-sm-6">
-              <div class="heading-5 bold">Foundation Courses</div>
-              <div class="mt-50 bold">
-                <div class="heading-6">C++ Master</div>
-                <div class="heading-6 mt-30">Java Master</div>
-              </div>
-            </div>
+          <div class="heading-6 bold">
+            Yash Vardhan
           </div>
         </div>
       </div>
     </div>
+
+     <div class="events-page-landing__section t-align-c">
+      <div class="heading-5 bold mb-50">Where Our Alumini Work</div>
+      <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/companies_faang.png">
+      <div class="divider-h my-50 bg-grey-light-1"></div>
+      <div class="row t-align-l">
+        <div class="col-xl-4 col-lg-6 col-12 mg-lg-none mb-50">
+          <div class="heading-2 bold">
+            Learn from the Best in the industry!
+          </div>
+          <div class="mt-50 row no-gutters align-items-center">
+            <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/Group+420.svg">
+            <div class="flex-1 pl-30 font-4">Mentors from IIT, IIIT, NSIT, DTU and more..</div>
+          </div>
+          <div class="mt-40 row no-gutters align-items-center">
+            <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/Group+421.svg">
+            <div class="flex-1 pl-30 font-4">Total teaching experience of more than 60+ years</div>
+          </div>
+          <div class="mt-70 row no-gutters justify-content-between align-items-center">
+            <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/cb-accelerate-xs.svg">
+            <button class="button-primary">Enroll Now</button>
+          </div>
+        </div>
+        <div class="col-xl-8 col-lg-6 col-12 flex-col justify-content-end align-items-end">
+          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mentors.png">
+        </div>
+      </div>
+    </div>
+
     <a id="register-advance" class="in-page-link"></a>
     <div class="events-page-landing__section">
-      <div class="heading-3 extra-bold mb-5">Courses</div>
-              {{> liveCourseCards}}
-      </div>
-      
-    <div class="events-page-landing__section">
-      <div class="heading-3 extra-bold mb-5">
-        Let’s get you the success you deserve
-      </div>
-      <div>
-        <a class="button-primary mr-4" href="#register-advance">
-          Get Started
-          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/button-icon-blue.svg" class="ml-2">
-        </a>
-        <span class="font-4 bold d-sm-inline-block d-none">Limited seats per Batch</span>
-        <div class="font-4 bold mt-2 d-sm-none d-block">Limited seats per Batch</div>
-      </div>
-    </div>
+    
     <div class="events-page-landing__section">
               {{> coursefaq}}
               {{> floatingFooter}}
