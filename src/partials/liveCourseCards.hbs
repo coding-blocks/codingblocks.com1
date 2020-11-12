@@ -1,6 +1,7 @@
 {{#each liveCourseCards}}
  <div class="col-lg-4 col-sm-6 mb-50">
             <div class="{{gradient}}">
+              <div class="badge">{{badge}}</div>
               <div class="round border border-2 b-white s-70x70 mx-auto">
                 <img src="{{icon}}">
               </div>
@@ -14,13 +15,13 @@
               <div class="bold mb-15">{{interactiveClasses}} </div>
               <div class="bold mb-15">{{codingProblems}}</div>
               <div class="bold mb-15">{{projects}}</div>
-              <div class="bold">{{classSchedule}}</div>
+              <div class="bold">Classes Four times a week</div>
               <div class="divider-h bg-white my-20" style="opacity: 0.2;"></div>
               <div class="row no-gutters align-items-center justify-content-between">
                 <div class="flex-1">
                   <div class="row no-gutters align-items-center">
                     <div class="heading-6 bold mr-10">
-                      {{price}}
+                      &#8377;{{price}}
                     </div>
                     <div class="font-5 grey-light-1 bold" style="text-decoration: line-through;">{{slashedPrice}}</div>
                   </div>

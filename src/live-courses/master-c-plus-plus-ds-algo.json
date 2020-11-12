@@ -40,7 +40,9 @@
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Kartik Mathur",
     "description": "Start from Basics, become a C++ Master!",
-    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91"
+    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
+          "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3775"
+
 
   },
   "demoClass":[
@@ -119,137 +121,197 @@
   }
   ],
   "schedule_days":{
-    "days":"Mon, Wed, Fri, Sat",
-    "timming":"6:30 PM - 9:30 PM"
+      "days":"Wed, Sat and Sun",
+      "timming":"7:00 PM - 10:00 PM"
   },
  "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "Programming Fundamentals 1"
+      "description": "FlowChart And PsuedoCode"
     },
     {
       "lecture":"Lecture 02",
-      "description": "Programming Fundamentals 2"
+      "description": "Getting Started with Programming- Conditonals and Loops"
     },
     {
       "lecture":"Lecture 03",
-      "description": "Programming Fundamentals 3/Pointer"
+      "description": "Patterns and Operators"
     },
     {
       "lecture":"Lecture 04",
-      "description": "Arrays 1"
+      "description": "Programming Fundamentals - Bitwise Operators"
     },
     {
       "lecture":"Lecture 05",
-      "description": "Arrays 2"
+      "description": "Deep Diving into Programming - 1"
     },
     {
       "lecture":"Lecture 06",
-      "description": "Bitmasking/Sliding Window/Strings"
+      "description": "Arrays - 1D"
     },
     {
       "lecture":"Lecture 07",
-      "description": "STL and 2D arrays/Strings"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 08",
-      "description": "Space Time Complexity"
+      "description": "Functions and other Basics"
     },
     {
       "lecture":"Lecture 09",
-      "description": "Recursion 1"
+      "description": "Pointers"
     },
     {
       "lecture":"Lecture 10",
-      "description": "Recursion 2"
+      "description": "1D Character Arrays "
     },
     {
       "lecture":"Lecture 11",
-      "description": "Recursion 3"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 12",
-      "description": "Backtracking"
+      "description": "2D Character Arrays"
     },
     {
       "lecture":"Lecture 13",
-      "description": "Divide and Conquer 1"
+      "description": "Problem Solving on Arrays"
     },
     {
       "lecture":"Lecture 14",
-      "description": "Divide and Conquer 2"
+      "description": "Basics of Recursion "
     },
     {
       "lecture":"Lecture 15",
-      "description": "OOP"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 16",
-      "description": "Stack"
+      "description": "Recursion Problem Solving"
     },
     {
       "lecture":"Lecture 17",
-      "description": "Queue"
+      "description": "Recursion Backtracking"
     },
     {
       "lecture":"Lecture 18",
-      "description": "Linked List 1"
+      "description": "Advance Recursion Problem Solving"
     },
     {
       "lecture":"Lecture 19",
-      "description": "Linked List 2"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 20",
-      "description": "Binary Tree 1"
+      "description": "Dynamic Memory Allocation & OOPs - 1"
     },
     {  
       "lecture":"Lecture 21",
-      "description": "Binary Tree 2"
+      "description": "OOPs - 2"
     },
     {
       "lecture":"Lecture 22",
-      "description": "Binary Search Tree 1"
+      "description": "Space and Time Complexity"
     },
     {
       "lecture":"Lecture 23",
-      "description": "Binary Search Tree 2"
+      "description": "Divide and Conquer"
     },
     {
       "lecture":"Lecture 24",
-      "description": "HashMap"
+      "description": "Linked List - 1"
     },
      {
       "lecture":"Lecture 25",
-      "description": "DP1"
+      "description": "Linked List - 2"
     },
     {
       "lecture":"Lecture 26",
-      "description": "DP2"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 27",
-      "description": "DP3"
+      "description": "Binary Trees - 1"
     },
     {
       "lecture":"Lecture 28",
-      "description": "Heap1"
+      "description": "Binary Trees -2"
     },
     {
       "lecture":"Lecture 29",
-      "description": "Heap2"
+      "description": "Binary Search Trees"
     },
     {
       "lecture":"Lecture 30",
-      "description": "Trie"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 31",
-      "description": "Graph1"
+      "description": "Priority Queue/ Heap"
     },
     {
       "lecture":"Lecture 32",
-      "description": "Graph2"
+      "description": "Hashmaps Implementation"
+    },
+    {
+      "lecture":"Lecture 33",
+      "description":"1D - Dynamic Programming "
+    },
+    {
+      "lecture":"Lecture 34",
+      "description":"Question Practise Session"
+    },
+    {
+      "lecture":"Lecture 35",
+      "description":"2D Dynamic Programming"
+    },
+    {
+      "lecture":"Lecture 36",
+      "description":"Dynamic Programming, Problem Solving"
+    },
+    {
+      "lecture":"Lecture 37",
+      "description":"Graphs - 1"
+    },
+    {
+      "lecture":"Lecture 38",
+      "description":"Question Practise Session"
+    },
+    {
+      "lecture":"Lecture 39",
+      "description":"Graphs - 2"
+    },
+    {
+      "lecture":"Lecture 40",
+      "description":"Graphs & Basics of Tries"
+    },
+    {
+      "lecture":"Lecture 41",
+      "description":"Interview Questions using Tries"
+    },
+    {
+      "lecture":"Lecture 42",
+      "description":"Question Practise Session"
+    },
+    {
+      "lecture":"Lecture 43",
+      "description":"Starting with Leetcode"
+    },
+    {
+      "lecture":"Lecture 44",
+      "description":"Leetcode Problem Solving"
+    },
+    {
+      "lecture":"Lecture 45",
+      "description":"How to start with Codeforces"
+    },
+    {
+      "lecture":"Lecture 46",
+      "description":"Interview preparation and Competitive Programming sessions"
+    },
+    {
+      "lecture":"Lecture 47",
+      "description":"Tips on building resumes, Profile Building and Future Career Guidance"
     }
   ]
 

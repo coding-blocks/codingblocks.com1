@@ -62,78 +62,84 @@
       "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
       "link": "/live-courses/master-c-plus-plus-ds-algo.html",
       "mentors":"Kartik Mathur",
-      "interactiveClasses":"45 Live Interactive Classes",
+      "interactiveClasses":"47 Live Interactive Classes",
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
       "price":"7,999",
       "slashedPrice":"16,999",
-      "gradient":"card bg-gradient-blue-light t-align-c white"
+      "gradient":"card bg-gradient-blue-light t-align-c white",
+      "badge":"Beginner"
     },
     {
       "name": "Master DS and Algo with Java",
       "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
       "link": "/live-courses/master-java-for-beginners.html",
       "mentors":"Garima Chhikara",
-      "interactiveClasses":"24 Live Interactive Classes",
+      "interactiveClasses":"45 Live Interactive Classes",
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
       "price":"7,999",
       "slashedPrice":"16,999",
-      "gradient":"card bg-gradient-orange-light t-align-c white"
+      "gradient":"card bg-gradient-orange-light t-align-c white",
+      "badge":"Beginner"
     },
     {
       "name": "Master Python App Development",
       "icon": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
       "link": "/live-courses/master-python-app-dev.html",
       "mentors":"Manu S Pillai",
-      "interactiveClasses":"24 Live Interactive Classes",
+      "interactiveClasses":"19 Live Interactive Classes",
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
       "price":"7,999",
       "slashedPrice":"16,999",
-      "gradient":"card bg-gradient-green-light t-align-c white"
+      "gradient":"card bg-gradient-green-light t-align-c white",
+      "badge":"Beginner"
     },
     {
       "name": "Master Algo.Java-Data Structures & Algo",
       "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
       "mentors":"Garima Chhikara",
-      "interactiveClasses":"21 Live Interactive Classes",
+      "interactiveClasses":"37 Live Interactive Classes",
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
       "price":"6,499",
       "slashedPrice":"13,999",
-      "gradient":"card bg-gradient-orange-light t-align-c white"
+      "gradient":"card bg-gradient-orange-light t-align-c white",
+      "badge":"Advance"
     },
     {
       "name": "Master Algo++",
       "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",      
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
       "mentors":"Kartik Mathur",
-      "interactiveClasses":"24 Live Interactive Classes",
+      "interactiveClasses":"34 Live Interactive Classes",
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
       "price":"6,499",
       "slashedPrice":"13,999",
-      "gradient":"card bg-gradient-green-light t-align-c white"
+      "gradient":"card bg-gradient-green-light t-align-c white",
+      "badge":"Advance"
     },
     {
       "name": "Master Data Science",
       "icon": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
       "link": "/live-courses/master-data-science-with-python.html",
       "mentors":"Mohit Uniyal and Manu S Pillai ",
-      "interactiveClasses":"22 Live Interactive Classes",
+      "interactiveClasses":"41 Live Interactive Classes",
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
       "price":"11,999",
       "slashedPrice":"27,999",
-      "gradient":"card bg-gradient-blue-light t-align-c white"
+      "gradient":"card bg-gradient-blue-light t-align-c white",
+      "badge":"Advance"
     }
   ],
   "liveCoursesRow1": [
@@ -178,20 +184,28 @@
   ],
   "faqs": [
     {
-      "ques": "For Java, C++:",
-      "ans": "There are no prerequisites for this training as it is of beginner level except willingness and enthusiasm. Everything that you need to know about Programming would be taught from scratch."
+      "ques": "Why should i choose Live courses for learning?",
+      "ans": "Live courses are the closest similarity to the Classroom programs in this pandemic. All advantages of Classroom program viz personalised attention, classes on fixed schedule, specific focus on hands-on coding, placement assistance, special Doubt classes and problem solving classes and much more will be provided to the students opting for this mode."
     },
     {
-      "ques": "For Competitive:",
-      "ans": "Who has Basic Knowledge of Programming concepts and are looking forward to optimizing their problem-solving process, and learning new algorithmic skills which will help them to solve problems quickly."
+      "ques": "For Java, C++, Python?",
+      "ans": "There are no prerequisites for training in C++, Java or Python. As these courses are for students who are just starting their journey in coding so student needs willingness and enthusiasm. Everything that you need to know about Programming would be taught from scratch."
     },
     {
-      "ques":"For Others:",
-      "ans":"Who is familiar with writing code in any programming language. Everything other than that you need to know about Programming would be taught from scratch. Since it is a special batch, we would conduct a simple selection test for all the students who are interested."
+      "ques":"For Machine Learning and Data Science",
+      "ans":"Student needs to know basics of programming in Python. We will cover Python fundamentals but for revision purpose only. In this course, our focus will be on the algorithms of Machine Learning and Data Science."
     },
     {
-      "ques":"How do I apply for this program? ",
-      "ans":"Since it is a special batch, we would conduct a simple selection test for all the students who are interested to maintain the quality of the batch and give students who are selected personalized attention. There are two entrance test on 31st July 2020 and 5th August 2020 you can apply for"
+      "ques":"Will Data Structures be covered in C++ or Java course?",
+      "ans":"We will cover Data Structures and Algorithms in details in C++ and Java course. We will have 45 lectures on DS & Algo"
+    },
+    {
+      "ques":"Will there be any projects covered in the course?",
+      "ans":"We will have around 4-5 projects in each course. Please check the course syllabus for details"
+    },
+    {
+      "ques":"I am new to the World of Coding, which course is best for me?",
+      "ans":"To get enrolled in the most suitable course, based on your profile, we suggest you to talk to one of our counsellor. Please feel free to call us at 9999579111"
     }
   ],
   "mentors": {

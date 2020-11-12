@@ -39,7 +39,8 @@
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Manu S Pillai",
     "description": "Learn Python for Web Development, Data Science & ML",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041"
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3995"
     },
   "demoClass":[
     {
@@ -117,81 +118,85 @@
   }
   ],
    "schedule_days":{
-    "days":"Tue, Wed, Fri, Sun",
-    "timming":"6:30 PM - 9:30 PM"
+    "days":"Mon, Wed and Fri",
+    "timming":"7:00 PM - 10:00 PM"
   },
  "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "About python, Installations"
+      "description": "Introduction and Setting Up Python"
     },
     {
       "lecture":"Lecture 02",
-      "description": "Introduction to python, Primitive Data-Types, Memory allocation"
+      "description": "Data Types and Conditional Statements in Python"
     },
     {
       "lecture":"Lecture 03",
-      "description": "Conditions and loops"
+      "description": "Loops, Iterations and Functions in Python"
     },
     {
       "lecture":"Lecture 04",
-      "description": "String operations, iterables, Operators and Expressions"
+      "description": "Generators and Modules"
     },
     {
       "lecture":"Lecture 05",
-      "description": "Inbuild Data Structure intro & List operations"
+      "description": "Introduction to OOP and Classes in Python"
     },
     {
       "lecture":"Lecture 06",
-      "description": "Dictionary, set operations and internal structure, intro to Functions"
+      "description": "Exception Handling"
     },
     {
       "lecture":"Lecture 07",
-      "description": "Functions, Modules"
+      "description": "Interact with the system using Python"
     },
     {
       "lecture":"Lecture 08",
-      "description": "Time space complexity and intro to Recursion"
+      "description": "I/O Streams and Parallel Programming in Python"
     },
     {
       "lecture":"Lecture 09",
-      "description": "Recursion continued"
+      "description": "IPC Protocols and Multiprocessing module"
     },
     {
       "lecture":"Lecture 10",
-      "description": "Assignment Discussion and Doubts"
+      "description": "Introduction to Web APIs and requests module"
     },
     {
       "lecture":"Lecture 11",
-      "description": "Object Oriented Programming "
+      "description": "Web Scraping & Automation in Python"
     },
     {
       "lecture":"Lecture 12",
-      "description": "Stacks and Queue"
+      "description": "Project: Selenium Web Testing"
     },
     {
       "lecture":"Lecture 13",
-      "description": "Linked List"
+      "description": "Web Development with Python: Flask module"
     },
     {
       "lecture":"Lecture 14",
-      "description": "File Handeling"
+      "description": "Essential functions with Flask"
     },
     {
       "lecture":"Lecture 15",
-      "description": "Web Scrapping and web APIs  "
+      "description": "Databases and Deployment "
     },
     {
       "lecture":"Lecture 16",
-      "description": "Doubts Class with Mentor"
+      "description": "Project: Flask"
     },
     {
       "lecture":"Lecture 17",
-      "description": "Web App (Flask intro) Model, View, Template"
+      "description": "Encoding and Managed Attributes in Python"
     },
     {
       "lecture":"Lecture 18",
-      "description": "Creating new templates and Views, POST, GET requests, Query  "
+      "description": "Decorators and Metaclasses"
+    },
+    {
+      "lecture":"Lecture 19",
+      "description": "Python for DataScience"
     }
   ]
 

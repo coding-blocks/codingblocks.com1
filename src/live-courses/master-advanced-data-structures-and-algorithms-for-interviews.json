@@ -34,7 +34,9 @@
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Kartik Mathur",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
-    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91"
+    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
+        "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3777"
+
   },
   "aboutMentor":[
    {
@@ -98,49 +100,49 @@
     }
   ],
    "schedule_days":{
-    "days":"Mon, Wed, Fri, Sat",
-    "timming":"6:30 PM - 9:30 PM"
+    "days":"Tue, Wed, Sat and Sun",
+    "timming":"7:00 PM - 10:00 PM"
   },
    "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "Space Time Complexity"
+      "description": "Basics of Recursion "
     },
     {
       "lecture":"Lecture 02",
-      "description": "Recursion 1"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 03",
-      "description": "Recursion 2"
+      "description": "Recursion Problem Solving"
     },
     {
       "lecture":"Lecture 04",
-      "description": "Recursion 3"
+      "description": "Recursion Backtracking"
     },
     {
       "lecture":"Lecture 05",
-      "description": "Backtracking"
+      "description": "Advance Recursion Problem Solving"
     },
     {
       "lecture":"Lecture 06",
-      "description": "Divide and Conquer 1"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 07",
-      "description": "Divide and Conquer 2"
+      "description": "Dynamic Memory Allocation & OOPs - 1"
     },
     {
       "lecture":"Lecture 08",
-      "description": "OOPS"
+      "description": "OOPs - 2"
     },
     {
       "lecture":"Lecture 09",
-      "description": "Stacks/Queues"
+      "description": "Space and Time Complexity"
     },
     {
       "lecture":"Lecture 10",
-      "description": "Stacks/Queues"
+      "description": "Divide and Conquer"
     },
     {
       "lecture":"Lecture 11",
@@ -152,51 +154,91 @@
     },
     {
       "lecture":"Lecture 13",
-      "description": "Binary Tree 1"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 14",
-      "description": "Binary Tree 2"
+      "description": "Binary Trees - 1"
     },
     {
       "lecture":"Lecture 15",
-      "description": "HashMap"
+      "description": "Binary Trees - 2"
     },
     {
       "lecture":"Lecture 16",
-      "description": "HashMap/Heaps"
+      "description": "Binary Search Trees"
     },
     {
       "lecture":"Lecture 17",
-      "description": "Heaps"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 18",
-      "description": "DP 1"
+      "description": "Priority Queue/ Heap"
     },
     {
       "lecture":"Lecture 19",
-      "description": "DP 2"
+      "description": "Hashmaps Implementation"
     },
     {
       "lecture":"Lecture 20",
-      "description": "DP 3"
+      "description": "1D - Dynamic Programming "
     },
     {  
       "lecture":"Lecture 21",
-      "description": "Trie"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 22",
-      "description": "Graph 1"
+      "description": "2D Dynamic Programming"
     },
     {
       "lecture":"Lecture 23",
-      "description": "Graph 2 "
+      "description": "Dynamic Programming, Problem Solving"
     },
     {
       "lecture":"Lecture 24",
-      "description": "Graph 3 "
+      "description": "Graphs - 1"
+    },
+    {
+      "lecture":"Lecture 25",
+      "description": "Question Practise Session"
+    },
+    {
+      "lecture":"Lecture 26",
+      "description": "Graphs - 2"
+    },
+    {
+      "lecture":"Lecture 27",
+      "description": "Graphs & Basics of Tries"
+    },
+    {
+      "lecture":"Lecture 28",
+      "description": "Interview Questions using Tries"
+    },
+    {
+      "lecture":"Lecture 29",
+      "description": "Question Practise Session"
+    },
+    {
+      "lecture":"Lecture 30",
+      "description": "Starting with Leetcode"
+    },
+     {
+      "lecture":"Lecture 31",
+      "description": "Leetcode Problem Solving"
+    },
+    {
+      "lecture":"Lecture 32",
+      "description": "How to start with Codeforces"
+    },
+    {
+      "lecture":"Lecture 33",
+      "description": "Interview preparation and Competitive Programming sessions"
+    },
+    {
+      "lecture":"Lecture 34",
+      "description":"Tips on building resumes, Profile Building and Future Career Guidance"
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",

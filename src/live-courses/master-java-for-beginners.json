@@ -32,7 +32,8 @@
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Garima Chhikara",
     "description": "Start from Basics, become a Java Master!",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48"
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/27d05ebd-4820-4abf-a5f5-0846676bac48",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3776"
   },
   "aboutMentor":[
     {
@@ -96,137 +97,189 @@
   }
   ], 
   "schedule_days":{
-    "days":"Mon, Tue, Thu, Sat",
+    "days":"Wed, Sat and Sun",
     "timming":"7:00 PM - 10:00 PM"
   },
-  "schedule": [
+ "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "Programming Fundamentals 1"
+      "description": "Variables, Loops"
     },
     {
       "lecture":"Lecture 02",
-      "description": "Programming Fundamentals 2"
+      "description": "Data Types"
     },
     {
       "lecture":"Lecture 03",
-      "description": "Programming Fundamentals 3"
+      "description": "Functions"
     },
     {
       "lecture":"Lecture 04",
-      "description": "Arrays 1"
+      "description": "1D Arrays"
     },
     {
       "lecture":"Lecture 05",
-      "description": "Arrays 2"
+      "description": "1D Arrays"
     },
     {
       "lecture":"Lecture 06",
-      "description": "Bitmasking/Sliding Window/Strings"
+      "description": "2D Arrays"
     },
     {
       "lecture":"Lecture 07",
-      "description": "2D arrays/Strings"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 08",
-      "description": "Space Time Complexity"
+      "description": "Strings"
     },
     {
       "lecture":"Lecture 09",
-      "description": "Recursion 1"
+      "description": "Recursion"
     },
     {
       "lecture":"Lecture 10",
-      "description": "Recursion 2"
+      "description": "Recursion"
     },
     {
       "lecture":"Lecture 11",
-      "description": "Recursion 3"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 12",
-      "description": "Backtracking"
+      "description": "Recursion"
     },
     {
       "lecture":"Lecture 13",
-      "description": "Divide and Conquer 1"
+      "description": "Backtracking"
     },
     {
       "lecture":"Lecture 14",
-      "description": "Divide and Conquer 2"
+      "description": "Backtracking"
     },
     {
       "lecture":"Lecture 15",
-      "description": "OOP"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 16",
-      "description": "Stack"
+      "description": "Divide & Conquer"
     },
     {
       "lecture":"Lecture 17",
-      "description": "Queue"
+      "description": "Time & Space Complexity"
     },
     {
       "lecture":"Lecture 18",
-      "description": "Linked List 1"
+      "description": "OOPS"
     },
     {
       "lecture":"Lecture 19",
-      "description": "Linked List 2"
+      "description": "Stack"
     },
     {
       "lecture":"Lecture 20",
-      "description": "Binary Tree 1"
+      "description": "Queue"
     },
     {  
       "lecture":"Lecture 21",
-      "description": "Binary Tree 2"
+      "description": "Linked List"
     },
     {
       "lecture":"Lecture 22",
-      "description": "Binary Search Tree 1"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 23",
-      "description": "Binary Search Tree 2"
+      "description": "Linked List"
     },
     {
       "lecture":"Lecture 24",
-      "description": "HashMap"
+      "description": "Binary Tree"
     },
      {
       "lecture":"Lecture 25",
-      "description": "HashMap/Heaps"
+      "description": "Binary Tree"
     },
     {
       "lecture":"Lecture 26",
-      "description": "Heaps"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 27",
-      "description": "DP1"
+      "description": "BST"
     },
     {
       "lecture":"Lecture 28",
-      "description": "DP2"
+      "description": "BST"
     },
     {
       "lecture":"Lecture 29",
-      "description": "DP3"
+      "description": "Generics & Interfaces"
     },
     {
       "lecture":"Lecture 30",
-      "description": "Trie"
+      "description": "HashMap"
     },
     {
       "lecture":"Lecture 31",
-      "description": "Graph1"
+      "description": "Heap"
     },
     {
       "lecture":"Lecture 32",
-      "description": "Graph2"
+      "description": "DP"
+    },
+    {
+      "lecture":"Lecture 33",
+      "description":"Question Practise Session"
+    },
+    {
+      "lecture":"Lecture 34",
+      "description":"DP"
+    },
+    {
+      "lecture":"Lecture 35",
+      "description":"DP"
+    },
+    {
+      "lecture":"Lecture 36",
+      "description":"DP"
+    },
+    {
+      "lecture":"Lecture 37",
+      "description":"Question Practise Session"
+    },
+    {
+      "lecture":"Lecture 38",
+      "description":"Graph"
+    },
+    {
+      "lecture":"Lecture 39",
+      "description":"Graph"
+    },
+    {
+      "lecture":"Lecture 40",
+      "description":"Trie"
+    },
+    {
+      "lecture":"Lecture 41",
+      "description":"Starting with Leetcode"
+    },
+    {
+      "lecture":"Lecture 42",
+      "description":"Leetcode Problem Solving"
+    },
+    {
+      "lecture":"Lecture 43",
+      "description":"How to start with Codeforces"
+    },
+    {
+      "lecture":"Lecture 44",
+      "description":"Interview preparation and Competitive Programming sessions"
+    },
+    {
+      "lecture":"Lecture 45",
+      "description":"Tips on building resumes, Profile Building and Future Career Guidance"
     }
   ]
 

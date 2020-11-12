@@ -38,7 +38,9 @@
     "demo-link": "https://codingblocks.com/take-demo.html",
      "mentors": "Mohit Uniyal, Manu S Pillai",
     "description": "Start from basics, become a industry ready data scientist!",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d"
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d",
+          "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3779"
+
   },
   "aboutMentor":[
     {
@@ -103,129 +105,173 @@
   }
  ],
   "schedule_days":{
-    "days":"Mon, Wed, Fri, Sun",
-    "timming":"7:30 PM - 10:30 PM"
+    "days":"Tues, Sat and Sun",
+    "timming":"7:00 PM - 10:00 PM"
   },
-   "schedule": [
+ "schedule": [
     {
       "lecture": "Lecture 01",
       "description": "Data Science Quickstart Mode"
     },
     {
       "lecture":"Lecture 02",
-      "description": "Introduction to Python"
+      "description": "Introduction to Python, Conditions, Loops and functions"
     },
     {
       "lecture":"Lecture 03",
-      "description": "Conditions, Loops and functions"
-    },
-    {
-      "lecture":"Lecture 04",
       "description": "String and other inbuilt data structures"
     },
     {
-      "lecture":"Lecture 05",
+      "lecture":"Lecture 04",
       "description": "Files Handling"
     },
     {
+      "lecture":"Lecture 05",
+      "description": "Numpy, Matplotlib, Pandas"
+    },
+    {
       "lecture":"Lecture 06",
-      "description": "Numpy"
+      "description": "Simple Linear Regression"
     },
     {
       "lecture":"Lecture 07",
-      "description": "Exploratory data analysis with Pandas"
+      "description": "Multiple Linear Regression"
     },
     {
       "lecture":"Lecture 08",
-      "description": "Data visualization using Matplotlib"
-    },
-    {
-      "lecture":"Lecture 09",
-      "description": "Linear Regression"
-    },
-    {
-      "lecture":"Lecture 10",
       "description": "Logistic Regression"
     },
     {
-      "lecture":"Lecture 11",
+      "lecture":"Lecture 09",
       "description": "KNN and related Classification"
     },
     {
-      "lecture":"Lecture 12",
-      "description": "Face Recognition with KNN"
+      "lecture":"Lecture 10",
+      "description": "Face Detection + Face Recognition"
     },
     {
-      "lecture":"Lecture 13",
+      "lecture":"Lecture 11",
+      "description": "Project Discussion"
+    },
+    {
+      "lecture":"Lecture 12",
       "description": "K-Means and related clustering"
     },
     {
-      "lecture":"Lecture 14",
-      "description": "Principle component Analysis (PCA)"
-    },
-    {
-      "lecture":"Lecture 15",
-      "description": "Decision tree, Random Forest"
-    },
-    {
-      "lecture":"Lecture 16",
-      "description": "Manual Ensembling Vs.Automated Ensembling"
-    },
-    {
-      "lecture":"Lecture 17",
-      "description": "Support Vector Machines"
-    },
-    {
-      "lecture":"Lecture 18",
-      "description": "Markov Chain"
-    },
-    {
-      "lecture":"Lecture 19",
+      "lecture":"Lecture 13",
       "description": "NLTK and Naïve Bayes"
     },
     {
+      "lecture":"Lecture 14",
+      "description": "Decision tree"
+    },
+    {
+      "lecture":"Lecture 15",
+      "description": "Ensemble Learning"
+    },
+    {
+      "lecture":"Lecture 16",
+      "description": "Stats and Probability"
+    },
+    {
+      "lecture":"Lecture 17",
+      "description": "Exploratory data analysis with Pandas"
+    },
+    {
+      "lecture":"Lecture 18",
+      "description": "Principle component Analysis (PCA)"
+    },
+    {
+      "lecture":"Lecture 19",
+      "description": "Support Vector Machines"
+    },
+    {
       "lecture":"Lecture 20",
-      "description": "Web Scraping and web api (Flask)"
+      "description": "Markov Chains"
     },
     {  
       "lecture":"Lecture 21",
-      "description": "Intro to Neural Net and TensorFlow"
+      "description": "web api and Web Scraping "
     },
     {
       "lecture":"Lecture 22",
-      "description": "First DNN with Keras"
+      "description": "Recommender Systems"
     },
     {
       "lecture":"Lecture 23",
-      "description": "Functional Models"
+      "description": "Project Discussion"
     },
     {
       "lecture":"Lecture 24",
-      "description": "CNN Intro"
+      "description": "Intro to Neural Net and TensorFlow"
     },
      {
       "lecture":"Lecture 25",
-      "description": "Transfer Learning"
+      "description": "First DNN with Keras"
     },
     {
       "lecture":"Lecture 26",
-      "description": "Auto Encoders"
+      "description": "Neural Nets from Scratch"
     },
     {
       "lecture":"Lecture 27",
-      "description": "Recurrent and Combined Architectures"
+      "description": "CNN"
     },
     {
       "lecture":"Lecture 28",
-      "description": "Time Series - Averages, Smoothening, AR Models"
+      "description": "CNN Architectures"
     },
     {
       "lecture":"Lecture 29",
-      "description": "Generative adversarial networks9"
+      "description": "Transfer Learning"
     },
     {
       "lecture":"Lecture 30",
-      "description": "Reinforcement learning and Gene10ic algorith30"
+      "description": "Project Discussion"
+    },
+    {
+      "lecture":"Lecture 31",
+      "description": "Auto Encoders"
+    },
+    {
+      "lecture":"Lecture 32",
+      "description": "Recurrent and Sequence Models"
+    },
+    {
+      "lecture":"Lecture 33",
+      "description":"Generative adversarial networks"
+    },
+    {
+      "lecture":"Lecture 34",
+      "description":"Model Deployment using Flask and Heroku"
+    },
+    {
+      "lecture":"Lecture 35",
+      "description":"Time Series - Averages, Smoothening, AR Models"
+    },
+    {
+      "lecture":"Lecture 36",
+      "description":"Yolo for Object Detection"
+    },
+    {
+      "lecture":"Lecture 37",
+      "description":"Attention Models"
+    },
+    {
+      "lecture":"Lecture 38",
+      "description":"Image Captioning"
+    },
+    {
+      "lecture":"Lecture 39",
+      "description":"Kaggling"
+    },
+    {
+      "lecture":"Lecture 40",
+      "description":"Project Discussion"
+    },
+    {
+      "lecture":"Lecture 41",
+      "description":"Intro to Reinforcement learning"
     }
   ]
 }

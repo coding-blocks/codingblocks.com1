@@ -34,7 +34,9 @@
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Garima Chhikara",
     "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
-    "mentor-img-1": "/assets/images/cb/team/Garima Final.jpg"
+    "mentor-img-1": "/assets/images/cb/team/Garima Final.jpg",
+          "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3778"
+
   },
    "aboutMentor":[
     {
@@ -104,19 +106,19 @@
     "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "Space Time Complexity"
+      "description": "Recursion"
     },
     {
       "lecture":"Lecture 02",
-      "description": "Recursion 1"
+      "description": "Recursion"
     },
     {
       "lecture":"Lecture 03",
-      "description": "Recursion 2"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 04",
-      "description": "Recursion 3"
+      "description": "Recursion"
     },
     {
       "lecture":"Lecture 05",
@@ -124,79 +126,132 @@
     },
     {
       "lecture":"Lecture 06",
-      "description": "Divide and Conquer 1"
+      "description": "Backtracking"
     },
     {
       "lecture":"Lecture 07",
-      "description": "Divide and Conquer 2"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 08",
-      "description": "OOPS"
+      "description": "Divide & Conquer"
     },
     {
       "lecture":"Lecture 09",
-      "description": "Stacks/Queues"
+      "description": "Time & Space Complexity"
     },
     {
       "lecture":"Lecture 10",
-      "description": "Stacks/Queues"
+      "description": "OOPS"
     },
     {
       "lecture":"Lecture 11",
-      "description": "Linked List 1"
+      "description": "Stack"
     },
     {
       "lecture":"Lecture 12",
-      "description": "Linked List 2"
+      "description": "Queue"
     },
     {
       "lecture":"Lecture 13",
-      "description": "Binary Tree 1"
+      "description": "Linked List"
     },
     {
       "lecture":"Lecture 14",
-      "description": "Binary Tree 2"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 15",
-      "description": "HashMap"
+      "description": "Linked List"
     },
     {
       "lecture":"Lecture 16",
-      "description": "HashMap/Heaps"
+      "description": "Binary Tree"
     },
     {
       "lecture":"Lecture 17",
-      "description": "Heaps"
+      "description": "Binary Tree"
     },
     {
       "lecture":"Lecture 18",
-      "description": "DP 1"
+      "description": "Question Practise Session"
     },
     {
       "lecture":"Lecture 19",
-      "description": "DP 2"
+      "description": "BST"
     },
     {
       "lecture":"Lecture 20",
-      "description": "DP 3"
+      "description": "BST"
     },
     {  
       "lecture":"Lecture 21",
-      "description": "Trie"
+      "description": "Generics & Interfaces"
     },
     {
       "lecture":"Lecture 22",
-      "description": "Graph 1"
+      "description": "HashMap"
     },
     {
       "lecture":"Lecture 23",
-      "description": "Graph 2 "
+      "description": "Heap"
     },
     {
       "lecture":"Lecture 24",
-      "description": "Graph 3 "
+      "description": "DP"
+    },
+    {
+      "lecture":"Lecture 25",
+      "description": "Question Practise Session"
+    },
+    {
+      "lecture":"Lecture 26",
+      "description": "DP"
+    },
+    {
+      "lecture":"Lecture 27",
+      "description": "DP"
+    },
+    {
+      "lecture":"Lecture 28",
+      "description": "DP"
+    },
+    {
+      "lecture":"Lecture 29",
+      "description": "Question Practise Session"
+    },
+    {
+      "lecture":"Lecture 30",
+      "description": "Graph"
+    },
+    {
+      "lecture":"Lecture 31",
+      "description": "Graph"
+    },
+    {
+      "lecture":"Lecture 32",
+      "description": "Trie"
+    },
+    {
+      "lecture":"Lecture 33",
+      "description": "Starting with Leetcode"
+    },
+    {
+      "lecture":"Lecture 34",
+      "description":"Leetcode Problem Solving"
+    },
+    {
+      "lecture":"Lecture 35",
+      "description":"How to start with Codeforces"
+    },
+    {
+      "lecture":"Lecture 36",
+      "description":"Interview preparation and Competitive Programming sessions"
+    },
+    {
+      "lecture":"Lecture 37",
+      "description":"Tips on building resumes, Profile Building and Future Career Guidance"
     }
+
   ]
 }
