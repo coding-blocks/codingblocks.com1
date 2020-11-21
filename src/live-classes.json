@@ -66,8 +66,8 @@
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
-      "price":"7,999",
-      "slashedPrice":"16,999",
+      "price":"15,999",
+      "slashedPrice":"",
       "gradient":"card bg-gradient-blue-light t-align-c white",
       "badge":"Beginner"
     },
@@ -80,8 +80,8 @@
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
-      "price":"7,999",
-      "slashedPrice":"16,999",
+      "price":"15,999",
+      "slashedPrice":"",
       "gradient":"card bg-gradient-orange-light t-align-c white",
       "badge":"Beginner"
     },
@@ -94,8 +94,8 @@
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
-      "price":"7,999",
-      "slashedPrice":"16,999",
+      "price":"15,999",
+      "slashedPrice":"",
       "gradient":"card bg-gradient-green-light t-align-c white",
       "badge":"Beginner"
     },
@@ -108,8 +108,8 @@
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
-      "price":"6,499",
-      "slashedPrice":"13,999",
+      "price":"12,999",
+      "slashedPrice":"",
       "gradient":"card bg-gradient-orange-light t-align-c white",
       "badge":"Advance"
     },
@@ -122,8 +122,8 @@
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
-      "price":"6,499",
-      "slashedPrice":"13,999",
+      "price":"12,999",
+      "slashedPrice":"",
       "gradient":"card bg-gradient-green-light t-align-c white",
       "badge":"Advance"
     },
@@ -136,8 +136,8 @@
       "codingProblems":"200-300 hands on coding problems",
       "projects":"5 Projects",
       "classSchedule":"Classes thrice a week",
-      "price":"11,999",
-      "slashedPrice":"27,999",
+      "price":"27,999",
+      "slashedPrice":"",
       "gradient":"card bg-gradient-blue-light t-align-c white",
       "badge":"Advance"
     }
