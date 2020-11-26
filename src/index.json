@@ -13,6 +13,19 @@
 
   "slides": [
     {
+      "imgSrc": "/assets/images/cb/cover/bl_fr.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/black-friday",
+          "text": "Explore",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/mentors.jpg",
       "imgAlt": "",
       "heading": "Learn programming from the best mentor",
