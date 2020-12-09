@@ -95,30 +95,21 @@
       "Shubham Rawat"
     ]
   },
-  "scheduleCPP": [
-	  {
-		  "center": "Noida",
-		  "startdate": "27th Jan",
-		  "enddate": "TBD",
-		  "daytime": "(10:00 AM - 2:00 PM) On (Mon, Tue, Thr, Fri)",
-		  "batchtype": "Morning"
-    }
-  ],
   "scheduleJava": [
 	  {
 		  "center": "Noida",
-		  "startdate": "13th Jan",
+		  "startdate": "27th Jan 2021",
 		  "enddate": "TBD",
-		  "daytime": "(10:00 AM - 2:00 PM) On (Mon, Tue, Thr, Fri)",
+		  "daytime": "(11:00 AM - 2:00 PM) On (Mon, Wed, Fri)",
 		  "batchtype": "Morning"
     }
   ],
   "schedulePython": [
 	  {
 		  "center": "Noida",
-		  "startdate": "13th Jan",
+		  "startdate": "27th Jan 2021",
 		  "enddate": "TBD",
-		  "daytime": "(10:00 AM - 2:00 PM) On (Mon, Tue, Thr, Fri)",
+		  "daytime": "(11:00 AM - 2:00 PM) On (Mon, Wed, Fri)",
 		  "batchtype": "Morning"
     }
   ],
@@ -133,10 +124,10 @@
   "frame-id-noida-lp": "374",
 
   "registerLinkNoidaCX": "https://students.codingblocks.com/payment/iframe?item_id=360",
-  "frame-id-noida-cx": "375",
+  "frame-id-noida-cx": "425",
 
 
   "registerLinkNoidaPY": "https://students.codingblocks.com/payment/iframe?item_id=360",
-  "frame-id-noida-py": "376"
+  "frame-id-noida-py": "424"
 
 }
