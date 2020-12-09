@@ -13,27 +13,53 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/mentors.jpg",
+      "imgSrc": "/assets/images/cb/cover/prog_career.jpg",
       "imgAlt": "",
-      "heading": "Learn programming from the best mentor",
+      "heading": "",
       "content": "",
       "button": [
         {
-          "link": "/live-classes.html",
-          "text": "Live Courses",
+          "link": "https://codingblocks.com/live-courses/master-c-plus-plus-ds-algo.html",
+          "text": "Explore",
           "filled": "true"
         }
       ]
     },
     {
-      "imgSrc": "/assets/images/cb/cover/online_banner.jpg",
+      "imgSrc": "/assets/images/cb/cover/interview_prep_bootcamp.jpg",
       "imgAlt": "",
-      "heading": "LEARN FROM HOME | LEARN ONLINE!",
-      "content": "Introducing Online Programming Courses!",
+      "heading": "",
+      "content": "",
       "button": [
         {
-          "link": "https://cb.lk/cb-online",
+          "link": "https://pages.razorpay.com/pl_G5K4xzFU19q6VO/view?utm_medium=smm&utm_campaign=Placement%20Bootcamp",
           "text": "LEARN MORE",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/learning_dec.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/nagarro_bootcamp.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "http://bootcamp.codingblocks.com/",
+          "text": "Details & Registration",
           "filled": "true"
         }
       ]
