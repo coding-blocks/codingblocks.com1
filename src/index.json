@@ -13,14 +13,14 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/prog_career.jpg",
+      "imgSrc": "/assets/images/cb/cover/start50.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/live-courses/master-c-plus-plus-ds-algo.html",
-          "text": "Explore",
+          "link": "https://cb.lk/vmcc",
+          "text": "Use START50 to get  50% Discount",
           "filled": "true"
         }
       ]
