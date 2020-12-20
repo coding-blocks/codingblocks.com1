@@ -20,10 +20,10 @@
   },
   "aboutMentor":[
     {
-      "name":"Manu S Pillai",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
-      "summary": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
-      "email": "manu.pillai@codingblocks.com"
+      "name":"Shubham",
+      "profile_pic_link":"",
+      "summary": "",
+      "email": "Shubham@codingblocks.com"
     }
   ],
   "openGraph": {
@@ -35,12 +35,12 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
     "title": "Master Python App Development",
-    "price": "8,999",
+    "price": "4,499",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Manu S Pillai",
+    "mentors": "Shubham",
     "description": "Learn Python for Web Development, Data Science & ML",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3995"
+    "mentor-img-1": "",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4246"
     },
   "demoClass":[
     {

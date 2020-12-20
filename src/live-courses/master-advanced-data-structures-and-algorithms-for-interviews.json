@@ -29,21 +29,21 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
     "title": "Master Algo++",
-    "price": "12,999",
+    "price": "6,499",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2024",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Kartik Mathur",
+    "mentors": "Kartik Sapra",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
-    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
-        "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3777"
+    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
+        "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4241"
 
   },
   "aboutMentor":[
    {
-      "name":"Kartik Mathur",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
-      "summary": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
-      "email": "kartik.mathur@codingblocks.com"
+      "name":"Kartik Sapra",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
+      "summary": "",
+      "email": "kartik.sapra@codingblocks.com"
     }
   ],
   "demoClass":[

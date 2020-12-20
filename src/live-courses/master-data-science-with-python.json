@@ -33,20 +33,20 @@
    "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
     "title": "Master Data Science with Python",
-    "price": "27,999",
+    "price": "13,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2043",
     "demo-link": "https://codingblocks.com/take-demo.html",
-     "mentors": "Mohit Uniyal, Manu S Pillai",
+     "mentors": "Manu S Pillai",
     "description": "Start from basics, become a industry ready data scientist!",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d",
-          "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3779"
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
+          "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4245"
 
   },
   "aboutMentor":[
     {
-      "name":"Mohit Uniyal",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d",
-      "summary": "Computer science graduate from Delhi University, highly skilled in Machine learning and deep learning. He has been practicing ML/DL for the last 3 years and have done various projects in the same domain. He has also won many coding competition, web development events, in tech fest across various colleges.",
+      "name":"Manu S Pillai",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
+      "summary": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
       "email": "mohit.uniyal@codingblocks.com"
     }
 

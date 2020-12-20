@@ -29,21 +29,21 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
     "title": "Master Algo.Java-Data Structures",
-    "price": "12,999",
+    "price": "6,499",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2035",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Garima Chhikara",
+    "mentors": "Kartik Sapra",
     "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
-    "mentor-img-1": "/assets/images/cb/team/Garima Final.jpg",
-          "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3778"
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
+          "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4244 "
 
   },
    "aboutMentor":[
     {
-      "name":"Garima Chhikara",
-      "profile_pic_link":"/assets/images/cb/team/Garima Final.jpg",
-      "summary": "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining.",
-      "email": "garima.chhikara@codingblocks.com"
+      "name":"Kartik Sapra",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
+      "summary": "",
+      "email": "kartik.sapra@codingblocks.com"
     }
   ],
   "demoClass":[
