@@ -35,6 +35,32 @@
       }
     }
   </style>
+
+  <script>
+    window.smoothScroll = function (target) {
+      var scrollContainer = target;
+      do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
+
+      var targetY = 0;
+      do {
+        // Find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+      } while (target = target.offsetParent);
+
+      scroll = function (c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () { scroll(c, a, b, i); }, 20);
+      }
+      // Scroll to target
+      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+  </script>
 </head>
 
 <body class="scroll-assist" style="line-height: unset;">
@@ -79,9 +105,10 @@
           </div>
         </div>
         <div class="position-absolute tr cyan-backdrop d-md-block d-none">
-          <a class="round round-button-grey all-center d-lg-flex d-none" href="">
+          <button class="round round-button-grey all-center d-lg-flex d-none" type="button"
+            onclick="smoothScroll(document.getElementById('explore'))">
             <div class="font-5 bold white">Enroll Now</div>
-          </a>
+          </button>
         </div>
         <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/hero-1.svg" class="position-absolute h-90 hero-1">
         <a class="round round-button-cyan all-center d-sm-flex d-none" href="https://codingblocks.com/centres/"
@@ -195,7 +222,7 @@
           <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/hero-2.svg"
             class="position-absolute d-md-block d-none hero-2">
         </div>
-        <div class="mb-xl-100 mb-80 position-relative">
+        <div class="mb-xl-100 mb-80 position-relative" id="explore">
           <div class="row no-gutters position-relative justify-content-end">
             <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/hero-3.svg"
               class="position-absolute hero-3 d-sm-block d-none">
@@ -215,10 +242,11 @@
                       </div>
                       <div>
                         <div class="font-4 cyan mb-40">View Syllabus</div>
-                        <button class="button-primary button-grey">
+                        <a class="button-primary button-grey"
+                          href="https://online.codingblocks.com/courses/nagarro-bootcamp" target="_blank">
                           Enroll in C++
                           <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/button-icon.svg" class="ml-10">
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -235,10 +263,11 @@
                       </div>
                       <div>
                         <div class="font-4 cyan mb-40">View Syllabus</div>
-                        <button class="button-primary button-grey">
+                        <a class="button-primary button-grey"
+                          href="https://online.codingblocks.com/courses/nagarro-bootcamp-java" target="_blank">
                           Enroll in Java
                           <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/button-icon.svg" class="ml-10">
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -338,9 +367,9 @@
             At
             Nagarro, we excel at digital product engineering and deliver on our promise of thinking breakthroughs.
           </div>
-          <button class="button-primary button-cyan">
+          <a class="button-primary button-cyan" href="https://www.nagarro.com/en" target="_blank">
             Check our Website
-          </button>
+          </a>
         </div>
         <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/flow-vector.svg"
           class="position-absolute z-neg w-100 tl">
