@@ -118,7 +118,7 @@
   }
   ],
    "schedule_days":{
-    "days":"Mon, Wed and Fri",
+    "days":"Wed,Sat and Sunday",
     "timming":"7:00 PM - 10:00 PM"
   },
  "schedule": [
