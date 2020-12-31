@@ -32,51 +32,63 @@
     {{/each}}
   </ul>
 </section> --}}
-
 <div class="banner-carousel-container px-25">
   <div class="banner-carousel" aria-label="Gallery">
     <ol class="banner-carousel__viewport">
-      <li id="banner-carousel__slide1" tabindex="0" class="banner-carousel__slide"
-        style="background: url(https://images.all-free-download.com/images/graphiclarge/pollution_banner_vector_illustration_with_cartoon_style_6824136.jpg);">
+      {{#each slides}}
+      <li id="banner-carousel__slide{{@index + 1}}" tabindex="0" class="banner-carousel__slide"
+        style="background: url({{#relativePath @file.path imgSrc}}{{/relativePath}});">
         <div class="banner-carousel__snapper">
-          <a href="#banner-carousel__slide4" class="banner-carousel__prev">Go to last slide</a>
-          <a href="#banner-carousel__slide2" class="banner-carousel__next">Go to next slide</a>
+          <a href="#banner-carousel__slide{{5 - @index + 1}}" class="banner-carousel__prev">Go to last slide</a>
+          <a href="#banner-carousel__slide{{@index + 2}}" class="banner-carousel__next">Go to next slide</a>
         </div>
       </li>
-      <li id="banner-carousel__slide2" tabindex="0" class="banner-carousel__slide">
-        <div class="banner-carousel__snapper">
-          <a href="#banner-carousel__slide1" class="banner-carousel__prev">Go to previous slide</a>
-          <a href="#banner-carousel__slide3" class="banner-carousel__next">Go to next slide</a>
-        </div>
-      </li>
-      <li id="banner-carousel__slide3" tabindex="0" class="banner-carousel__slide">
-        <div class="banner-carousel__snapper">
-          <a href="#banner-carousel__slide2" class="banner-carousel__prev">Go to previous slide</a>
-          <a href="#banner-carousel__slide4" class="banner-carousel__next">Go to next slide</a>
-        </div>
-      </li>
-      <li id="banner-carousel__slide4" tabindex="0" class="banner-carousel__slide">
-        <div class="banner-carousel__snapper">
-          <a href="#banner-carousel__slide3" class="banner-carousel__prev">Go to previous slide</a>
-          <a href="#banner-carousel__slide1" class="banner-carousel__next">Go to first slide</a>
-        </div>
-      </li>
+      {{/each}}
     </ol>
     <div class="banner-carousel__navigation">
       <ol class="banner-carousel__navigation-list">
+        {{#each slides}}
         <li class="banner-carousel__navigation-item">
-          <a href="#banner-carousel__slide1" class="banner-carousel__navigation-button">Go to slide 1</a>
+          <a href="#banner-carousel__slide{{@index}}" class="banner-carousel__navigation-button">Go to slide
+            {{@index}}</a>
         </li>
-        <li class="banner-carousel__navigation-item">
-          <a href="#banner-carousel__slide2" class="banner-carousel__navigation-button">Go to slide 2</a>
-        </li>
-        <li class="banner-carousel__navigation-item">
-          <a href="#banner-carousel__slide3" class="banner-carousel__navigation-button">Go to slide 3</a>
-        </li>
-        <li class="banner-carousel__navigation-item">
-          <a href="#banner-carousel__slide4" class="banner-carousel__navigation-button">Go to slide 4</a>
-        </li>
+        {{/each}}
       </ol>
     </div>
   </div>
 </div>
+
+
+<section class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
+  <ul class="slides">
+    {{#each slides}}
+    <li class="{{#unless noOverlay}}overlay{{/unless}} image-bg">
+      <div class="background-image-holder">
+        <img alt="{{{imgAlt}}}" class="background-image" src="{{#relativePath @file.path imgSrc}}{{/relativePath}} ">
+      </div>
+      <div class="container v-align-transform">
+        <div class="row text-center">
+          <div class="col-md-10 col-md-offset-1">
+            <!--for custom html "customContent"-->
+            {{#unless customContent}}
+            <h2 class="mb-xs-16 all-caps">{{{heading}}}</h2>
+            <h4>{{{subHeading}}}</h4>
+            <p class="bold lead mb60">{{{content}}}</p>
+            <br />
+            {{#each button}}
+            {{#if filled}}
+            <a class="btn btn-lg btn-filled" href="{{link}}" target="_blank">{{text}}</a>
+            {{else}}
+            <a class="btn btn-lg" href="{{link}}" {{#unless noNewTab}}target="_blank" {{/unless}}>{{text}}</a>
+            {{/if}}
+            {{/each}}
+            {{else}}
+            {{{customContent}}}
+            {{/unless}}
+          </div>
+        </div>
+      </div>
+    </li>
+    {{/each}}
+  </ul>
+</section>
