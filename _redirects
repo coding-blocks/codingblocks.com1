@@ -1,90 +1,67 @@
-# Inside redirects (for old links)
-
-## Bundles and rebundling
-/courses/crux.html                                /classroom-courses/advanced-data-structures-and-algorithms-using-java.html
-/courses/launchpad.html                           /classroom-courses/c-plus-plus-for-beginners.html#launchpad-bundle-content
-/courses/c++-for-beginners                        /classroom-courses/c-plus-plus-for-beginners.html
-/courses/classroom/java.html#advance              /classroom-courses/advanced-data-structures-and-algorithms-using-java.html
-
-## VSAT is now online
-/courses/lpvsat.html                              /classroom-courses/c-plus-plus-for-beginners.html
-
-## Bootcamps that are now courses
-/bootcamps/machinelearning.html                   /classroom-courses/machine-learning-with-deep-learning.html
-/bootcamps/competitiveprogramming.html            /classroom-courses/competitive-programming.html
-/bootcamps/interviewprep.html					  /bootcamps/coding-interview-preparation.html
-/courses/classroom/machine-learning.html          /classroom-courses/machine-learning-with-deep-learning.html
-/courses/classroom/competitive-programming.html   /classroom-courses/competitive-programming.html
-
-## Renamed Dev courses
-/courses/pandora.html                             /classroom-courses/android-app-development-using-kotlin-and-java.html
-/courses/elixir.html                              /classroom-courses/web-development-nodejs.html
-/courses/elixirlive.html                          /online-courses/web-development-nodejs.html
-/courses/perceptron.html                          /classroom-courses/machine-learning-with-deep-learning.html
-/courses/perceptron-live.html					  /classroom-courses/machine-learning-with-deep-learning.html
-
-
-/courses/algo++.html                              /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html
-/courses/mathsgeeks.html                          /classroom-courses/mathsgeeks.html
-/courses/junior/mathsgeeks.html                   /classroom-courses/mathsgeeks.html
-/courses/code4kids.html                           /classroom-courses/code4kids.html
-/courses/junior/code4kids.html                    /classroom-courses/code4kids.html
-/courses/classroom/algo++.html                    /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html
-/courses/classroom/algo-java.html                 /classroom-courses/advanced-data-structures-and-algorithms-using-java.html
-/courses/classroom/web-development-nodejs.html    /classroom-courses/web-development-nodejs.html
-/courses/classroom/android-app-development.html   /classroom-courses/android-app-development-using-kotlin-and-java.html
-/courses/advanced/algo-plus-plus.html			  /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html
-/courses/classroom/java.html					  /classroom-courses/advanced-data-structures-and-algorithms-using-java.html
-/courses/classroom/c++.html					      /classroom-courses/c-plus-plus-for-beginners.html
-/courses/classroom/foundation/java.html           /classroom-courses/advanced-data-structures-and-algorithms-using-java.html
-/courses/classroom/foundation/c-plus-plus.html    /classroom-courses/c-plus-plus-for-beginners.html
-
-## Online Courses
-/courses/online/interviewprep.html				  /online-courses/coding-interview-preparation-online.html
-/courses/online/coding-interview-preparation-online.html         /online-courses/coding-interview-preparation-online.html
-
-## SEO changes
-
-/courses/classroom/foundation/java.html#crux-bundle                 /classroom-courses/java-for-beginners.html#crux-bundle
-/courses/classroom/development/android-app-development.html          /classroom-courses/android-app-development-using-kotlin-and-java.html
-/courses/classroom/development/web-development-nodejs.html           /classroom-courses/web-development-nodejs.html
-/courses/classroom/advanced/algo-plus-plus.html               /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html
-/courses/classroom/advanced/machine-learning.html              /classroom-courses/machine-learning-with-deep-learning.html
-/courses/classroom/advanced/algo-java.html              /classroom-courses/advanced-data-structures-and-algorithms-using-java.html
-/courses/classroom/development/advancedjava.html            /classroom-courses/advanced-java.html
-/courses/online/web-development-nodejs.html             /online-courses/web-development-nodejs.html
-/courses/competitive-online.html             /online-courses/competitive-online.html
-/courses/online/android-app-development.html          /online-courses/android-app-development.html
-/courses/online/java.html            /online-courses/java.html
-/courses/competitive-online-study-material.html           /online-courses/competitive-online-study-material.html
-/courses/classroom/advanced/competitive-programming.html                /classroom-courses/competitive-programming.html
-/courses/online/machine-learning.html                  /online-courses/machine-learning.html
-/courses/classroom/foundation/python-for-beginners.html                /classroom-courses/python-for-beginners.html
-/courses/launchpad-online.html                /online-courses/c-plus-plus#advanced.html
-/courses/classroom/development/unity-game-development.html            /classroom-courses/unity-game-development.html
-/courses/online/coding-interview-preparation-online-bootcamp.html        /online-courses/coding-interview-preparation-online-bootcamp.html
-/courses/classroom/development/web-development-django.html            /classroom-courses/web-development-django.html
-/courses/														/classroom-courses/
-/courses/classroom/development/									/classroom-courses/
-/courses/classroom/advanced/									/classroom-courses/
-/courses/classroom/foundation/									/classroom-courses/
-/courses/classroom/bootcamps/									/classroom-courses/
-/courses/classroom/           									/classroom-courses/
-/bootcamps/                                                     /classroom-courses/#bootcamps
-
-# APAT / CAST
-/apat.html	/scholarship-tests.html
-/cast.html  /scholarship-tests.html
-
-## Centre redirect
-/centres/greater-noida.html	               /centres/noida.html
-/centres/gurugram.html                     /centres/
-
-# Outside Redirects for Netlify 
-
-/ide/*    	  https://ide.codingblocks.com/:splat     		      301
-/resources/*	https://coding-blocks.github.io/resources/:splat	200
-/img/*        https://coding-blocks.github.io/img/:splat        200
-/boss/*       https://lab.codingblocks.com/boss                 301
-/login        https://account.codingblocks.com                  301
-/coding-blocks/tic-tac-toe      https://github.com/coding-blocks/tic-tac-toe   301
+rewrite ^/courses/crux.html$ /classroom-courses/advanced-data-structures-and-algorithms-using-java.html redirect;
+rewrite ^/courses/launchpad.html$ /classroom-courses/c-plus-plus-for-beginners.html#launchpad-bundle-content redirect;
+rewrite ^/courses/c++-for-beginners$ /classroom-courses/c-plus-plus-for-beginners.html redirect;
+rewrite ^/courses/classroom/java.html$ /classroom-courses/advanced-data-structures-and-algorithms-using-java.html redirect;
+rewrite ^/courses/lpvsat.html$ /classroom-courses/c-plus-plus-for-beginners.html redirect;
+rewrite ^/bootcamps/machinelearning.html$ /classroom-courses/machine-learning-with-deep-learning.html redirect;
+rewrite ^/bootcamps/competitiveprogramming.html$ /classroom-courses/competitive-programming.html redirect;
+rewrite ^/bootcamps/interviewprep.html$ /bootcamps/coding-interview-preparation.html redirect;
+rewrite ^/courses/classroom/machine-learning.html$ /classroom-courses/machine-learning-with-deep-learning.html redirect;
+rewrite ^/courses/classroom/competitive-programming.html$ /classroom-courses/competitive-programming.html redirect;
+rewrite ^/courses/pandora.html$ /classroom-courses/android-app-development-using-kotlin-and-java.html redirect;
+rewrite ^/courses/elixir.html$ /classroom-courses/web-development-nodejs.html redirect;
+rewrite ^/courses/elixirlive.html$ /online-courses/web-development-nodejs.html redirect;
+rewrite ^/courses/perceptron.html$ /classroom-courses/machine-learning-with-deep-learning.html redirect;
+rewrite ^/courses/perceptron-live.html$ /classroom-courses/machine-learning-with-deep-learning.html redirect;
+rewrite ^/courses/algo++.html$ /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html redirect;
+rewrite ^/courses/mathsgeeks.html$ /classroom-courses/mathsgeeks.html redirect;
+rewrite ^/courses/junior/mathsgeeks.html$ /classroom-courses/mathsgeeks.html redirect;
+rewrite ^/courses/code4kids.html$ /classroom-courses/code4kids.html redirect;
+rewrite ^/courses/junior/code4kids.html$ /classroom-courses/code4kids.html redirect;
+rewrite ^/courses/classroom/algo++.html$ /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html redirect;
+rewrite ^/courses/classroom/algo-java.html$ /classroom-courses/advanced-data-structures-and-algorithms-using-java.html redirect;
+rewrite ^/courses/classroom/web-development-nodejs.html$ /classroom-courses/web-development-nodejs.html redirect;
+rewrite ^/courses/classroom/android-app-development.html$ /classroom-courses/android-app-development-using-kotlin-and-java.html redirect;
+rewrite ^/courses/advanced/algo-plus-plus.html$ /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html redirect;
+rewrite ^/courses/classroom/java.html$ /classroom-courses/advanced-data-structures-and-algorithms-using-java.html redirect;
+rewrite ^/courses/classroom/c++.html$ /classroom-courses/c-plus-plus-for-beginners.html redirect;
+rewrite ^/courses/classroom/foundation/java.html$ /classroom-courses/advanced-data-structures-and-algorithms-using-java.html redirect;
+rewrite ^/courses/classroom/foundation/c-plus-plus.html$ /classroom-courses/c-plus-plus-for-beginners.html redirect;
+rewrite ^/courses/online/interviewprep.html$ /online-courses/coding-interview-preparation-online.html redirect;
+rewrite ^/courses/online/coding-interview-preparation-online.html$ /online-courses/coding-interview-preparation-online.html redirect;
+rewrite ^/courses/classroom/foundation/java.html$ /classroom-courses/java-for-beginners.html#crux-bundle redirect;
+rewrite ^/courses/classroom/development/android-app-development.html$ /classroom-courses/android-app-development-using-kotlin-and-java.html redirect;
+rewrite ^/courses/classroom/development/web-development-nodejs.html$ /classroom-courses/web-development-nodejs.html redirect;
+rewrite ^/courses/classroom/advanced/algo-plus-plus.html$ /classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html redirect;
+rewrite ^/courses/classroom/advanced/machine-learning.html$ /classroom-courses/machine-learning-with-deep-learning.html redirect;
+rewrite ^/courses/classroom/advanced/algo-java.html$ /classroom-courses/advanced-data-structures-and-algorithms-using-java.html redirect;
+rewrite ^/courses/classroom/development/advancedjava.html$ /classroom-courses/advanced-java.html redirect;
+rewrite ^/courses/online/web-development-nodejs.html$ /online-courses/web-development-nodejs.html redirect;
+rewrite ^/courses/competitive-online.html$ /online-courses/competitive-online.html redirect;
+rewrite ^/courses/online/android-app-development.html$ /online-courses/android-app-development.html redirect;
+rewrite ^/courses/online/java.html$ /online-courses/java.html redirect;
+rewrite ^/courses/competitive-online-study-material.html$ /online-courses/competitive-online-study-material.html redirect;
+rewrite ^/courses/classroom/advanced/competitive-programming.html$ /classroom-courses/competitive-programming.html redirect;
+rewrite ^/courses/online/machine-learning.html$ /online-courses/machine-learning.html redirect;
+rewrite ^/courses/classroom/foundation/python-for-beginners.html$ /classroom-courses/python-for-beginners.html redirect;
+rewrite ^/courses/launchpad-online.html$ /online-courses/c-plus-plus#advanced.html redirect;
+rewrite ^/courses/classroom/development/unity-game-development.html$ /classroom-courses/unity-game-development.html redirect;
+rewrite ^/courses/online/coding-interview-preparation-online-bootcamp.html$ /online-courses/coding-interview-preparation-online-bootcamp.html redirect;
+rewrite ^/courses/classroom/development/web-development-django.html$ /classroom-courses/web-development-django.html redirect;
+rewrite ^/courses/$ /classroom-courses/ redirect;
+rewrite ^/courses/classroom/development/$ /classroom-courses/ redirect;
+rewrite ^/courses/classroom/advanced/$ /classroom-courses/ redirect;
+rewrite ^/courses/classroom/foundation/$ /classroom-courses/ redirect;
+rewrite ^/courses/classroom/bootcamps/$ /classroom-courses/ redirect;
+rewrite ^/courses/classroom/$ /classroom-courses/ redirect;
+rewrite ^/bootcamps/$ /classroom-courses/#bootcamps redirect;
+rewrite ^/apat.html$ /scholarship-tests.html redirect;
+rewrite ^/cast.html$ /scholarship-tests.html redirect;
+rewrite ^/centres/greater-noida.html$ /centres/noida.html redirect;
+rewrite ^/centres/gurugram.html$ /centres/ redirect;
+rewrite ^/ide/*$ https://ide.codingblocks.com/:splat redirect;
+rewrite ^/resources/*$ https://coding-blocks.github.io/resources/:splat redirect;
+rewrite ^/img/*$ https://coding-blocks.github.io/img/:splat redirect;
+rewrite ^/boss/*$ https://lab.codingblocks.com/boss redirect;
+rewrite ^/login$ https://account.codingblocks.com redirect;
+rewrite ^/coding-blocks/tic-tac-toe$ https://github.com/coding-blocks/tic-tac-toe redirect;
