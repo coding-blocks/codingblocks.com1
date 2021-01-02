@@ -31,7 +31,8 @@
 		</div>
 		{{/each}}
 
-		<div class="slideshow-container__navigation-dots position-absolute br d-md-block d-none" style="z-index: 20;">
+		<div class="slideshow-container__navigation-dots position-absolute br d-md-block d-none"
+			style="z-index: 20; bottom: 50px; right: 80px;">
 			{{#each slides}}
 			<span class="dot" onclick="currentSlide({{@index}})"></span>
 			{{/each}}
@@ -39,7 +40,7 @@
 
 		<a class="slideshow-container__prev" onclick="plusSlides(-1)">&#10094;</a>
 		<a class="slideshow-container__next" onclick="plusSlides(1)">&#10095;</a>
-		
+
 		<div class="p-25 t-align-c d-md-none d-block">
 			{{#each slides}}
 			{{#unless customContent}}
