@@ -28,19 +28,21 @@
             {{{customContent}}}
             {{/unless}}
           </div>
-          <div class="slideshow-container__navigation-dots">
-            {{#each slides}}
-            <span class="dot" onclick="currentSlide({{@index}})"></span>
-            {{/each}}
-          </div>
         </div>
       </div>
       {{/each}}
+
+      <div class="slideshow-container__navigation-dots position-absolute br d-md-block d-none" style="z-index: 20;">
+        {{#each slides}}
+        <span class="dot" onclick="currentSlide({{@index}})"></span>
+        {{/each}}
+      </div>
 
       <a class="slideshow-container__prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="slideshow-container__next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <div class="p-25 t-align-c d-md-none d-block">
+      {{#each slides}}
       {{#unless customContent}}
       <div class="font-5-5 bold">{{{heading}}}</div>
       <div class="mt-10">{{{subHeading}}} <br /> {{{content}}}</div>
@@ -58,6 +60,8 @@
       {{else}}
       {{{customContent}}}
       {{/unless}}
+      {{/each}}
+
       <div class="slideshow-container__navigation-dots">
         {{#each slides}}
         <span class="dot" onclick="currentSlide({{@index}})"></span>
