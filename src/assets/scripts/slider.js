@@ -1,9 +1,6 @@
-/*
-$(document).ready(() => {
-  const sliderContainer = $("slider-container");
-  sliderContainer.children().forEach(child => {
-    console.log(child)
-  });
+document.addEventListener("DOMContentLoaded", function(event) { 
+  const sliderContainer = document.getElementById("slider-container");
+
   var slideIndex = 1;
   showSlides(slideIndex);
   
@@ -12,7 +9,6 @@ $(document).ready(() => {
   }
   
   function currentSlide(n) {
-    debugger
     showSlides(slideIndex = n + 1);
   }
   
@@ -31,5 +27,20 @@ $(document).ready(() => {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
   }
+
+  const prev = sliderContainer.getElementsByClassName("slideshow-container__prev")[0];
+  const next = sliderContainer.getElementsByClassName("slideshow-container__next")[0];
+
+  prev.addEventListener('click', () => {
+    plusSlides(-1);
+  });
+  next.addEventListener('click', () => {
+    plusSlides(1);
+  });
+
+  [...sliderContainer.getElementsByClassName("dot")].forEach((dot, i) => {
+    dot.addEventListener('click', () => {
+      currentSlide(i)
+    });
+  })
 });
-*/
