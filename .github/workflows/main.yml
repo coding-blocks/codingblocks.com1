@@ -1,0 +1,39 @@
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request 
+# events but only for the master branch
+on:
+  push:
+    branches: [ pipeline ]
+    
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Install Dependencies
+      run: npm install
+    - name: Build
+      run: npm run build 
+    - name: Create temp Directory
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.PRIVATE_KEY }}
+        script: mkdir -p ~/frontends/codingblocks.com/temp
+    - name: Upload Build
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.PRIVATE_KEY }}
+        source: "dist"
+        target: "frontends/codingblocks.com/temp"
+    - name: Replace New Build
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.PRIVATE_KEY }}
+        script: ln -sfn ~/frontends/codingblocks.com/temp ~/frontends/codingblocks.com/current && rm -rf ~/frontends/codingblocks.com/live/* && cp -rf ~/frontends/codingblocks.com/temp/* ~/frontends/codingblocks.com/live/ && ln -sfn ~/frontends/codingblocks.com/live ~/frontends/codingblocks.com/current && rm -rf ~/frontends/codingblocks.com/temp
