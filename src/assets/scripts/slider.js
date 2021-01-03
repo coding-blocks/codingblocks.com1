@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
-  const sliderContainer = document.getElementById("slider-container");
-
+  var sliderContainer = document.getElementById("slider-container");
   var slideIndex = 1;
+
   showSlides(slideIndex);
   
   function plusSlides(n) {
@@ -28,18 +28,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
     dots[slideIndex-1].className += " active";
   }
 
-  const prev = sliderContainer.getElementsByClassName("slideshow-container__prev")[0];
-  const next = sliderContainer.getElementsByClassName("slideshow-container__next")[0];
+  var prev = sliderContainer.getElementsByClassName("slideshow-container__prev")[0];
+  var next = sliderContainer.getElementsByClassName("slideshow-container__next")[0];
 
-  prev.addEventListener('click', () => {
+  prev.addEventListener('click', function () {
     plusSlides(-1);
   });
-  next.addEventListener('click', () => {
+  next.addEventListener('click', function () {
     plusSlides(1);
   });
 
-  [...sliderContainer.getElementsByClassName("dot")].forEach((dot, i) => {
-    dot.addEventListener('click', () => {
+  new Array(sliderContainer.getElementsByClassName("dot")).forEach(function (dot, i) {
+    dot.addEventListener('click', function () {
       currentSlide(i)
     });
   })
