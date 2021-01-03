@@ -31,7 +31,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.PRIVATE_KEY }}
-        source: "dist"
+        source: "dist/*"
         target: "frontends/codingblocks.com/temp"
     - name: Replace New Build
       uses: appleboy/ssh-action@master
