@@ -31,12 +31,12 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.PRIVATE_KEY }}
-        source: "dist/*"
-        target: "frontends/codingblocks.com/temp"
+        source: "dist"
+        target: "frontends/codingblocks.com"
     - name: Replace New Build
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.PRIVATE_KEY }}
-        script: ln -sfn ~/frontends/codingblocks.com/temp ~/frontends/codingblocks.com/current && rm -rf ~/frontends/codingblocks.com/live/* && cp -rf ~/frontends/codingblocks.com/temp/* ~/frontends/codingblocks.com/live/ && ln -sfn ~/frontends/codingblocks.com/live ~/frontends/codingblocks.com/current && rm -rf ~/frontends/codingblocks.com/temp
+        script: ln -sfn ~/frontends/codingblocks.com/dist ~/frontends/codingblocks.com/current && rm -rf ~/frontends/codingblocks.com/live/* && cp -rf ~/frontends/codingblocks.com/dist/* ~/frontends/codingblocks.com/live/ && ln -sfn ~/frontends/codingblocks.com/live ~/frontends/codingblocks.com/current && rm -rf ~/frontends/codingblocks.com/dist
