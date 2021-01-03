@@ -28,11 +28,29 @@
 					</div>
 				</div>
 			</div>
+			<div class="p-25 t-align-c d-md-none d-block">
+				{{#unless customContent}}
+				<div class="font-5-5 bold">{{{heading}}}</div>
+				<div class="mt-10">{{{subHeading}}} <br /> {{{content}}}</div>
+				<div class="mt-30">
+					{{#each button}}
+					{{#if filled}}
+					<a class="button-primary mr-20" href="{{link}}" target="_blank">{{text}}</a>
+					{{else}}
+					<a class="button-primary mr-20" href="{{link}}" {{#unless noNewTab}}target="_blank" {{/unless}}>
+						{{text}}
+					</a>
+					{{/if}}
+					{{/each}}
+				</div>
+				{{else}}
+				{{{customContent}}}
+				{{/unless}}
+			</div>
 		</div>
 		{{/each}}
 
-		<div class="slideshow-container__navigation-dots position-absolute br d-md-block d-none"
-			style="z-index: 20; bottom: 50px; right: 80px;">
+		<div class="slideshow-container__navigation-dots" style="z-index: 20;">
 			{{#each slides}}
 			<span class="dot" onclick="currentSlide({{@index}})"></span>
 			{{/each}}
