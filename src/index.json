@@ -13,24 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/new_year.jpg",
-      "imgAlt": "",
-      "heading": "75% off on all Online Courses",
-      "content": "50% off on Live Courses",
-      "button": [
-        {
-          "link": "/live-classes.html",
-          "text": "Live Courses",
-          "filled": "true"
-        },
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Online Courses",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "/assets/images/cb/cover/start50.jpg",
       "imgAlt": "",
       "heading": "",
