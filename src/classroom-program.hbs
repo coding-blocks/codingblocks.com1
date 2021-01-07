@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  <style>
+    body {
+      padding: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Gilroy", "Nunito Sans", sans-serif;
+    }
+  </style>
+
+  <script>
+    window.scrollNow = function (target) {
+      var scrollContainer = target;
+      do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
+
+      var targetY = 0;
+      do {
+        // Find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+      } while (target = target.offsetParent);
+
+      scroll = function (c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () { scroll(c, a, b, i); }, 20);
+      }
+      // Scroll to target
+      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+  </script>
+</head>
+
+<body class="scroll-assist" style="line-height: unset;">
+  {{> navbar}}
+  </br>
+  </br>
+  </br>
+  </br>
+  <div class="a-cbm">
+    <div class="classroom-courses-page">
+      <div style="background: #007DFE;" class="py-50 white">
+        <div class="container">
+          <div class="row no-gutters align-items-center justify-content-between">
+            <div class="col-lg-6 col-md-4">
+              <div class="heading-3 mb-20">Much Awaited</div>
+              <div class="bold mb-20" style="font-size: 4rem;">Classroom Courses are back</div>
+              <div class="font-5 bold v-align-ma mb-20">
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/map-pin.svg">
+                <span>Noida</span>
+              </div>
+              <button class="button-primary button-primary--white mb-20">Enroll Now</button>
+              <div class="font-4">
+                Only limited seats as a precautionary measure
+              </div>
+            </div>
+            <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-vector-final.svg"
+              style="margin-right: -75px;">
+          </div>
+        </div>
+      </div>
+      <div class="container py-50">
+        <div class="heading-3 bold t-align-c mb-30">Courses</div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-sm-10 col-12 h-inherit mb-md-none mb-25">
+            <div class="card card--theme-orange t-align-c h-100">
+              <div class="flex-col h-100 w-100 justify-content-between">
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-ml.svg" class="mb-25">
+                <div class="w-100">
+                  <div class="heading-6 bold mb-10">Data Science Classroom Program</div>
+                  <div class="mb-20 font-1">
+                    This course will revolve around the concepts of Python, Machine Learning, Data Cleaning and Data
+                    Analysis.
+                  </div>
+                  <div class="round s-40x40 mb-10 mx-auto">
+                    <img src="https://minio.codingblocks.com/amoeba/jatin-min.webp">
+                  </div>
+                  <div class="font-1 mb-20">
+                    Mentor <br />
+                    <strong>Manu S Pilai</strong>
+                  </div>
+                  <div class="mb-10">
+                    Starting on
+                    <strong>27th Jan</strong>
+                  </div>
+                  <div class="font-1 highlight-text mb-20">Weekend Batch</div>
+                  <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                    <div class="text-grey bold heading-6 mr-10">&#8377; 8999</div>
+                    <div class="text-grey-light-1 bold font-4">&#8377; 8999</div>
+                  </div>
+                  <button class="button-primary mb-10">Enroll Now</button>
+                  <a href="#" class="highlight-text d-block">View Syllabus</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-12 h-inherit mb-md-none mb-25">
+            <div class="card card--theme-blue t-align-c h-100">
+              <div class="flex-col h-100 w-100 justify-content-between">
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-cpp.svg" class="mb-25">
+                <div class="w-100">
+                  <div class="heading-6 bold mb-10">C++ Classroom Program</div>
+                  <div class="mb-20 font-1">
+                    Learn in-depth the algorithms of one of the most powerful and portable programming languages C++
+                  </div>
+                  <div class="round s-40x40 mb-10 mx-auto">
+                    <img src="https://minio.codingblocks.com/amoeba/jatin-min.webp">
+                  </div>
+                  <div class="font-1 mb-20">
+                    Mentor <br />
+                    <strong>Manu S Pilai</strong>
+                  </div>
+                  <div class="mb-10">
+                    Starting on
+                    <strong>27th Jan</strong>
+                  </div>
+                  <div class="font-1 highlight-text mb-20">Weekend Batch</div>
+                  <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                    <div class="text-grey bold heading-6 mr-10">&#8377; 8999</div>
+                    <div class="text-grey-light-1 bold font-4">&#8377; 8999</div>
+                  </div>
+                  <button class="button-primary mb-10">Enroll Now</button>
+                  <a href="#" class="highlight-text d-block">View Syllabus</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-12 h-inherit">
+            <div class="card card--theme-purple t-align-c h-100">
+              <div class="flex-col w-100 h-100 justify-content-between">
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-java.svg" class="mb-25">
+                <div class="w-100">
+                  <div class="heading-6 bold mb-10">Java Classroom Program</div>
+                  <div class="mb-20 font-1">
+                    This course offers concepts of DS and Algorithms with the right grasp of the rich API and powerful
+                    development tools of programming
+                  </div>
+                  <div class="round s-40x40 mb-10 mx-auto">
+                    <img src="https://minio.codingblocks.com/amoeba/jatin-min.webp">
+                  </div>
+                  <div class="font-1 mb-20">
+                    Mentor <br />
+                    <strong>Manu S Pilai</strong>
+                  </div>
+                  <div class="mb-10">
+                    Starting on
+                    <strong>27th Jan</strong>
+                  </div>
+                  <div class="font-1 highlight-text mb-20">Weekend Batch</div>
+                  <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                    <div class="text-grey bold heading-6 mr-10">&#8377; 8999</div>
+                    <div class="text-grey-light-1 bold font-4">&#8377; 8999</div>
+                  </div>
+                  <button class="button-primary mb-10">Enroll Now</button>
+                  <a href="#" class="highlight-text d-block">View Syllabus</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="t-align-c my-50">
+          <div class="heading-3 bold mb-15">With the ultimate safety measures</div>
+          <div class="font-4">
+            Keeping in mind the current <strong>COVID - 19</strong> scenario, we have made sure that we provide the
+            safest
+            environment for students
+          </div>
+        </div>
+        <div class="position-relative class-flow">
+          <div class="class-flow__text-1 position-absolute">Classroom sanitized<br />before every class!</div>
+          <div class="class-flow__text-2 position-absolute">Temperature<br />Monitoring</div>
+          <div class="class-flow__text-3 position-absolute">Mandatory sanitizing<br />before entering the classroom
+          </div>
+          <div class="class-flow__text-4 position-absolute">Maintaining the<br />6 - feet apart rule</div>
+          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-class-flow.svg" class="w-100">
+        </div>
+      </div>
+      <div style="background: #007DFE;" class="py-50 white">
+        <div class="container">
+          <div class="heading-3 bold t-align-c">Were you missing the classroom experience?</div>
+          <div class="row align-items-center my-50">
+            <div class="col-sm-4 col-12 mb-sm-none mb-25">
+              <div class="card bg-white all-center t-align-c">
+                <div>
+                  <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-hands-on.svg" class="mb-15">
+                  <div class="font-4 bold black">Hands on Coding sessions</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-12 mb-sm-none mb-25">
+              <div class="card bg-white all-center t-align-c">
+                <div>
+                  <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-atmosphere.svg" class="mb-15">
+                  <div class="font-4 bold black">Competetive Atmosphere</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-12">
+              <div class="card bg-white all-center t-align-c">
+                <div>
+                  <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-doubts.svg" class="mb-15">
+                  <div class="font-4 bold black">After Class Doubt Sessions</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t-align-c">
+            <button class="button-primary button-primary--white mb-20">Enroll Now</button>
+            <div class="font-2">Only limited seats available<br />as a precautionary measure</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{> scripts}}
+
+</body>
+
+</html>
