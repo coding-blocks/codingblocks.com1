@@ -13,14 +13,40 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/start50.jpg",
+      "imgSrc": "/assets/images/cb/cover/classroom.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://cb.lk/vmcc",
-          "text": "Use START50 to get  50% Discount",
+          "link": "/classroom-program.html",
+          "text": "Explore",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/live.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "/live-classes.html",
+          "text": "Enroll Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/cb/cover/indst.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "/classroom-courses/six_months_ind_training.html",
+          "text": "Register",
           "filled": "true"
         }
       ]
