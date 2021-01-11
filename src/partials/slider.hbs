@@ -1,36 +1,91 @@
 <!--slider-->
-<a id="slider" class="in-page-link"></a>
-<section class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
-	<ul class="slides">
+<a class="in-page-link"></a>
+<div class="a-cbm">
+	<div class="slideshow-container" id="slider-container">
 		{{#each slides}}
-		<li class="{{#unless noOverlay}}overlay{{/unless}} image-bg">
-			<div class="background-image-holder">
-				<img alt="{{{imgAlt}}}" class="background-image" src="{{#relativePath @file.path imgSrc}}{{/relativePath}} ">
-			</div>
-			<div class="container v-align-transform">
-				<div class="row text-center">
-					<div class="col-md-10 col-md-offset-1">
-						<!--for custom html "customContent"-->
+		<div class="slideshow-container__slide">
+			<img src="{{#relativePath @file.path imgSrc}}{{/relativePath}} " class="w-100" alt="{{{imgAlt}}}">
+			<div class="position-absolute bl w-100 px-80 pb-50 d-md-block d-none" style="z-index: 10;">
+				<div class="row no-gutters justify-content-between align-items-end">
+					<div class="flex-1">
 						{{#unless customContent}}
-						<h2 class="mb-xs-16 all-caps">{{{heading}}}</h2>
-						<h4>{{{subHeading}}}</h4>
-						<p class="bold lead mb60">{{{content}}}</p>
-						<br />
-						{{#each button}}
-						{{#if filled}}
-						<a class="btn btn-lg btn-filled" href="{{link}}" target="_blank">{{text}}</a>
-						{{else}}
-						<a class="btn btn-lg" href="{{link}}" {{#unless noNewTab}}target="_blank" {{/unless}}>{{text}}</a>
-						{{/if}}
-						{{/each}}
+						<div class="heading-5 bold white">{{{heading}}}</div>
+						<div class="mt-10 white font-4">{{{subHeading}}} <br /> {{{content}}}</div>
+						<div class="mt-30">
+							{{#each button}}
+							{{#if filled}}
+							<a class="button-primary mr-20" href="{{link}}" target="_blank">{{text}}</a>
+							{{else}}
+							<a class="button-primary mr-20" href="{{link}}" {{#unless noNewTab}}target="_blank" {{/unless}}>
+								{{text}}
+							</a>
+							{{/if}}
+							{{/each}}
+						</div>
 						{{else}}
 						{{{customContent}}}
 						{{/unless}}
 					</div>
 				</div>
 			</div>
-		</li>
+			<div class="p-25 t-align-c d-md-none d-block">
+				{{#unless customContent}}
+				<div class="font-5-5 bold">{{{heading}}}</div>
+				<div class="mt-10">{{{subHeading}}} <br /> {{{content}}}</div>
+				<div class="mt-30">
+					{{#each button}}
+					{{#if filled}}
+					<a class="button-primary mr-20" href="{{link}}" target="_blank">{{text}}</a>
+					{{else}}
+					<a class="button-primary mr-20" href="{{link}}" {{#unless noNewTab}}target="_blank" {{/unless}}>
+						{{text}}
+					</a>
+					{{/if}}
+					{{/each}}
+				</div>
+				{{else}}
+				{{{customContent}}}
+				{{/unless}}
+			</div>
+		</div>
 		{{/each}}
-	</ul>
-</section>
+
+		<div class="slideshow-container__navigation-dots" style="z-index: 20;">
+			{{#each slides}}
+			<span class="dot" onclick="currentSlide({{@index}})"></span>
+			{{/each}}
+		</div>
+
+		<a class="slideshow-container__prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="slideshow-container__next" onclick="plusSlides(1)">&#10095;</a>
+
+		<div class="p-25 t-align-c d-md-none d-block">
+			{{#each slides}}
+			{{#unless customContent}}
+			<div class="font-5-5 bold">{{{heading}}}</div>
+			<div class="mt-10">{{{subHeading}}} <br /> {{{content}}}</div>
+			<div class="mt-30">
+				{{#each button}}
+				{{#if filled}}
+				<a class="button-primary mr-20" href="{{link}}" target="_blank">{{text}}</a>
+				{{else}}
+				<a class="button-primary mr-20" href="{{link}}" {{#unless noNewTab}}target="_blank" {{/unless}}>
+					{{text}}
+				</a>
+				{{/if}}
+				{{/each}}
+			</div>
+			{{else}}
+			{{{customContent}}}
+			{{/unless}}
+			{{/each}}
+
+			<div class="slideshow-container__navigation-dots">
+				{{#each slides}}
+				<span class="dot" onclick="currentSlide({{@index}})"></span>
+				{{/each}}
+			</div>
+		</div>
+	</div>
+</div>
 <!--endslider-->
