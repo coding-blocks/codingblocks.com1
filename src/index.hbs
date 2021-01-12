@@ -1,80 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="manifest" href="/manifest.json" />
+    <script src="/assets/scripts/slider.js"></script>
     <title>{{title}}</title>
     {{> meta}}
     {{> head}}
-     <meta name="p:domain_verify" content="a5c7b03763ef4e1edc5763434ebd9e33"/>
-     <meta name="B-verify" content="20e6f5e136a370d1852170f4312ba928947cc540" /> 
+    <meta name="p:domain_verify" content="a5c7b03763ef4e1edc5763434ebd9e33" />
+    <meta name="B-verify" content="20e6f5e136a370d1852170f4312ba928947cc540" />
 </head>
-<body class="scroll-assist" style="margin-top: -70px;">
-{{> navbar}}
-<div class="main-container">
-    {{> slider}}
-      <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h1 class="uppercase mb16">Live Courses</h1>
-                    <p class="lead mb64">
-                        Live courses for all stages, with equal focus on theory and implementation</p>
-                </div>
-            </div>
-            <a id="register-advance" class="in-page-link"></a>
-            {{> coursesRow courses=liveCoursesRow1}}
-            {{> coursesRow courses=liveCoursesRow2}}
-            {{> coursesRow courses=liveCoursesRow3}}
 
-        </div>
-    </section>
-    
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h1 class="uppercase mb16">Online Courses</h1>
-                    <p class="lead mb64">
-                        The interactive learning for aspiring and experienced developers</p>
-                </div>
-            </div>
-            {{> coursesRow courses=onlineCoursesRow1}}
-            {{> coursesRow courses=onlineCoursesRow2}}
-            {{> coursesRow courses=onlineCoursesRow3}}
-            {{!-- {{> coursesRow courses=onlineCoursesRow4}} --}}
-        </div>
-    </section>
-    {{> numbers}}
-    <div class="hidden-xs">
-        {{> team}}
-    </div>
-    <div class="visible-xs">
+<body class="scroll-assist" style="margin-top: -70px;">
+    {{> navbar}}
+    <div class="main-container">
+        {{> slider}}
         <section>
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <div style="padding: 10px">
-                        <h1 class="uppercase mb16">Our Team</h1>
-                        <p class="lead mb64"> The backbone of Coding Blocks is the team of enthusiastic and talented
-                            mentors. Our best-in-class team comprises of mentors with vast industrial experience, people
-                            who have published papers in international journals, and developers associated with GSoC and
-                            Google Code-in.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h1 class="uppercase mb16">Live Courses</h1>
+                        <p class="lead mb64">
+                            Live courses for all stages, with equal focus on theory and implementation</p>
                     </div>
                 </div>
+                <a id="register-advance" class="in-page-link"></a>
+                {{> coursesRow courses=liveCoursesRow1}}
+                {{> coursesRow courses=liveCoursesRow2}}
+                {{> coursesRow courses=liveCoursesRow3}}
+
             </div>
         </section>
-    </div>
-    {{> review-course-section}}
-    {{> map}}
-    {{> footer}}
-</div>
-{{> scripts}}
 
-{{> eventsScript}}
-<script>
-  !function(t,o){function a(t){return function(){return sendgrid.push({m:t,args:Array.prototype.slice.call(arguments)}),sendgrid}}var sendgrid=t.sendgrid=t.sendgrid||[];if(!sendgrid.initialize){if(sendgrid.invoked)return void(t.console&&console.error&&console.error("sendgrid snippet included twice."));sendgrid.invoked=!0;for(var c=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"],i=0;i<c.length;i++){var p=c[i];sendgrid[p]=a(p)}sendgrid.load=function(id){var t=o.createElement("script"),a="https:"===o.location.protocol?"https://":"http://";t.type="text/javascript",t.async=!0,t.src=a+"js.labs.sendgrid.com/analytics/"+id+"/sendgrid.min.js";var c=o.getElementsByTagName("script")[0];c.parentNode.insertBefore(t,c)},sendgrid.SNIPPET_VERSION="1.0.0",
-  sendgrid.load("e2880aff-3f35-494f-b331-d4f322e6f8e5"),
-  sendgrid.page()
-  }}(window,document);
-</script>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h1 class="uppercase mb16">Online Courses</h1>
+                        <p class="lead mb64">
+                            The interactive learning for aspiring and experienced developers</p>
+                    </div>
+                </div>
+                {{> coursesRow courses=onlineCoursesRow1}}
+                {{> coursesRow courses=onlineCoursesRow2}}
+                {{> coursesRow courses=onlineCoursesRow3}}
+                {{!-- {{> coursesRow courses=onlineCoursesRow4}} --}}
+            </div>
+        </section>
+        {{> numbers}}
+        <div class="hidden-xs">
+            {{> team}}
+        </div>
+        <div class="visible-xs">
+            <section>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div style="padding: 10px">
+                            <h1 class="uppercase mb16">Our Team</h1>
+                            <p class="lead mb64"> The backbone of Coding Blocks is the team of enthusiastic and talented
+                                mentors. Our best-in-class team comprises of mentors with vast industrial experience,
+                                people
+                                who have published papers in international journals, and developers associated with GSoC
+                                and
+                                Google Code-in.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        {{> review-course-section}}
+        {{> map}}
+        {{> footer}}
+    </div>
+    {{> scripts}}
+
+    {{> eventsScript}}
+    <script>
+        !function (t, o) {
+            function a(t) { return function () { return sendgrid.push({ m: t, args: Array.prototype.slice.call(arguments) }), sendgrid } } var sendgrid = t.sendgrid = t.sendgrid || []; if (!sendgrid.initialize) {
+                if (sendgrid.invoked) return void (t.console && console.error && console.error("sendgrid snippet included twice.")); sendgrid.invoked = !0; for (var c = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "group", "track", "ready", "alias", "page", "once", "off", "on"], i = 0; i < c.length; i++) { var p = c[i]; sendgrid[p] = a(p) } sendgrid.load = function (id) { var t = o.createElement("script"), a = "https:" === o.location.protocol ? "https://" : "http://"; t.type = "text/javascript", t.async = !0, t.src = a + "js.labs.sendgrid.com/analytics/" + id + "/sendgrid.min.js"; var c = o.getElementsByTagName("script")[0]; c.parentNode.insertBefore(t, c) }, sendgrid.SNIPPET_VERSION = "1.0.0",
+                    sendgrid.load("e2880aff-3f35-494f-b331-d4f322e6f8e5"),
+                    sendgrid.page()
+            }
+        }(window, document);
+    </script>
 </body>
+
 </html>
