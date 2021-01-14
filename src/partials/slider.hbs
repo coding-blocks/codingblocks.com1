@@ -10,13 +10,13 @@
 					<div class="flex-1">
 						{{#unless customContent}}
 						<div class="heading-5 bold white">{{{heading}}}</div>
-						<div class="mt-10 white font-4">{{{subHeading}}} <br /> {{{content}}}</div>
+						<div class="mt-10 white font-5">{{{subHeading}}} <br /> {{{content}}}</div>
 						<div class="mt-30">
 							{{#each button}}
 							{{#if filled}}
-							<a class="button-primary mr-20" href="{{link}}" target="_blank">{{text}}</a>
+							<a class="button-primary mr-20 px-40 py-20 heading-6" href="{{link}}" target="_blank">{{text}}</a>
 							{{else}}
-							<a class="button-primary mr-20" href="{{link}}" {{#unless noNewTab}}target="_blank" {{/unless}}>
+							<a class="button-primary mr-20 px-40 py-20 heading-6" href="{{link}}" {{#unless noNewTab}}target="_blank" {{/unless}}>
 								{{text}}
 							</a>
 							{{/if}}
@@ -30,14 +30,14 @@
 			</div>
 			<div class="p-25 t-align-c d-md-none d-block">
 				{{#unless customContent}}
-				<div class="font-5-5 bold">{{{heading}}}</div>
-				<div class="mt-10">{{{subHeading}}} <br /> {{{content}}}</div>
+				<div class="heading-5 bold">{{{heading}}}</div>
+				<div class="font-5 mt-10">{{{subHeading}}} <br /> {{{content}}}</div>
 				<div class="mt-30">
 					{{#each button}}
 					{{#if filled}}
-					<a class="button-primary mr-20" href="{{link}}" target="_blank">{{text}}</a>
+					<a class="button-primary mr-20 px-40 py-20 heading-6" href="{{link}}" target="_blank">{{text}}</a>
 					{{else}}
-					<a class="button-primary mr-20" href="{{link}}" {{#unless noNewTab}}target="_blank" {{/unless}}>
+					<a class="button-primary mr-20 px-40 py-20 heading-6" href="{{link}}" {{#unless noNewTab}}target="_blank" {{/unless}}>
 						{{text}}
 					</a>
 					{{/if}}
