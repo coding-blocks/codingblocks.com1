@@ -1,0 +1,141 @@
+{
+  "title": "Best Java Training course in Delhi, Noida | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best Java training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+    },
+    {
+      "name": "keywords",
+      "content": "java,interview,faang,programming,course,delhi,india,data structures,algorithms,prateek,narang,kartik,mathur"
+    }
+  ],
+  "head": {
+    "links": [
+      {
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
+  "aboutMentor": [
+    {
+      "name":"Kartik Sapra",
+      "profile_pic_link":"https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
+      "summary": " ",
+      "email": "kartik.sapra@codingblocks.com"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/live-courses/interview-preparation-java.html",
+    "title": "Java Beginner & Advanced Courses | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "Coding Blocks is the best Java training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+  },
+  "courseMeta": {
+    "icon": "https://minio.codingblocks.com/amoeba/215fa6ed-14f3-4d1e-87d5-d9d71cf0d0dd.svg",
+    "title": "Interview Preparation Java Course",
+    "price": "13,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=4548",
+    "demo-link": "https://codingblocks.com/take-demo.html",
+    "mentors": "Kartik Sapra",
+    "description": "Start from Basics, become a Java expert!",
+    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4548"
+  },
+  "demoClass": [
+    {
+      "youtubeID": "mOtc5JrZT0o"
+    },
+    {
+      "youtubeID": "JTKvNx7c8xE"
+    },
+    {
+      "youtubeID": "tl9jpnzOTNE"
+    }
+  ],
+  "testTimelines": {
+    "test_link_first": "https://hack.codingblocks.com/app/contests/1938",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4240"
+  },
+  "studentsSay": [
+    {
+      "name": "Anshul Mittal",
+      "story": "Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+    },
+    {
+      "name": "Sidharth Bansal",
+      "story": "Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+    },
+    {
+      "name": "Samarth Jain",
+      "story": "My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+    }
+  ],
+  "highlights": [
+    {
+      "head": "Opportunities unlocked for learner",
+      "description": "This Live Java Interview Preparation course covers the topics such as Operating Systems, DBMS, and System Design along with important coding questions asked in the interview process of companies like Google, Facebook, Amazon, Microsoft, Directi, Zomato, etc. Along with the technical know-how, non-technical aspects of programming interviews will also be covered as a part of the curriculum.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+    },
+    {
+      "head": "Hands on Projects and Problems:",
+      "description": "315+ Problems from Leetcode, Codeforces, SPOJ, Hackerrank etc. Non-Coding Subjects Concepts that are asked in Top Tech Companies like Operating Systems, System Design, DBMS and Networking",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+    },
+    {
+      "head": "Why choose CB Live:",
+      "description": "Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+    },
+    {
+      "head": "This course is essential for you:",
+      "description": "If you have basic knowledge of fundamentals in the programming language Java and want to prepare for the interview of companies like Google, Facebook, Amazon, Microsoft, Directi, Zomato, etc. ",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
+    }
+  ],
+  "schedule_days": {
+    "days": "Wed, Sat and Sun",
+    "timming": ""
+  },
+  "schedule": [
+    { "lecture": "Lecture 1", "description": "Arrays - 1" },
+    { "lecture": "Lecture 2", "description": "Arrays - 2" },
+    { "lecture": "Lecture 3", "description": "Strings - 1" },
+    { "lecture": "Lecture 4", "description": "Strings - 2" },
+    { "lecture": "Lecture 5", "description": "Stack" },
+    { "lecture": "Lecture 6", "description": "Queue" },
+    { "lecture": "Lecture 7", "description": "Binary Trees" },
+    { "lecture": "Lecture 8", "description": "Binary Trees & BInary Search Trees" },
+    { "lecture": "Lecture 9", "description": "Bitmasking" },
+    { "lecture": "Lecture 10", "description": "Recursion - 1" },
+    { "lecture": "Lecture 11", "description": "Recursion - 2" },
+    { "lecture": "Lecture 12", "description": "Mathematics" },
+    { "lecture": "Lecture 13", "description": "Dynamic Programming - 1" },
+    { "lecture": "Lecture 14", "description": "Dynamic Programming - 2" },
+    { "lecture": "Lecture 15", "description": "Dynamic Programming - 3" },
+    { "lecture": "Lecture 16", "description": "Dynamic Programming - 4" },
+    { "lecture": "Lecture 17", "description": "Dynamic Programming - 5" },
+    { "lecture": "Lecture 18", "description": "Priority Queue" },
+    { "lecture": "Lecture 19", "description": "Graphs - 1" },
+    { "lecture": "Lecture 20", "description": "Graphs - 2" },
+    { "lecture": "Lecture 21", "description": "Graphs - 3" },
+    { "lecture": "Lecture 22", "description": "Graphs - 4" },
+    { "lecture": "Lecture 23", "description": "Tries" },
+    { "lecture": "Lecture 24", "description": "Segment Trees" },
+    { "lecture": "Lecture 25", "description": "Operating Systems" },
+    { "lecture": "Lecture 26", "description": "Process Synchronization and Classical Problems in Operating System" },
+    { "lecture": "Lecture 27", "description": "DBMS" },
+    { "lecture": "Lecture 28", "description": "Normalization And Lossless Join Decomposition" },
+    { "lecture": "Lecture 29", "description": "Transaction and Concurrency Control and Transaction Isolation Levels" },
+    { "lecture": "Lecture 30", "description": "My-SQL" },
+    { "lecture": "Lecture 31", "description": "Introduction of Computer Networking" },
+    { "lecture": "Lecture 32", "description": "Network layer and Routing Protocols" },
+    { "lecture": "Lecture 33", "description": "Flow Control and Access Control" },
+    { "lecture": "Lecture 34", "description": "System Designs" },
+    { "lecture": "Lecture 35", "description": "Case Study on System Design" }
+  ]
+}

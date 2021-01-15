@@ -1,0 +1,139 @@
+{
+  "title": "Best NodeJS Training course in Delhi, Noida | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best NodeJS training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+    },
+    {
+      "name": "keywords",
+      "content": "nodejs,react,javascript,programming,course,delhi,india,data structures,algorithms,prateek,narang"
+    }
+  ],
+  "head": {
+    "links": [
+      {
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
+  "aboutMentor": [
+    {
+      "name": "Sabeel Khan",
+      "profile_pic_link": "https://minio.cb.lk/public/sabeel-khan.jpeg",
+      "summary": "Sabeel is a CS Graduate from JMI.A competitive programmar, with an undying passion for teaching.He is proficient with C++ and Web Development related technologies like HTML, CSS, Javascript,NodeJS along with Python development.Web Series lover and always ready to explore new appetizing food.",
+      "email": "sabeel.khan@codingblocks.com"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/live-courses/web-development-nodejs.html",
+    "title": "Web Development with NodeJS | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "Coding Blocks is the best NodeJS training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced NodeJS courses."
+  },
+  "courseMeta": {
+    "icon": "https://minio.codingblocks.com/amoeba/e2c13faa-f538-48d4-8ca1-88728a07c51a.svg",
+    "title": "Web Development with NodeJS",
+    "price": "12,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=4546",
+    "demo-link": "https://codingblocks.com/take-demo.html",
+    "mentors": "Sabeel Khan",
+    "description": "Learn building both backends and frontends with Javascript",
+    "mentor-img-1": "https://minio.cb.lk/public/sabeel-khan.jpeg",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4546"
+  },
+  "demoClass": [
+    {
+      "youtubeID": "mOtc5JrZT0o"
+    },
+    {
+      "youtubeID": "JTKvNx7c8xE"
+    },
+    {
+      "youtubeID": "tl9jpnzOTNE"
+    }
+  ],
+  "testTimelines": {
+    "test_link_first": "https://hack.codingblocks.com/app/contests/1938",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4240"
+  },
+  "studentsSay": [
+    {
+      "name": "Anshul Mittal",
+      "story": "Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+    },
+    {
+      "name": "Sidharth Bansal",
+      "story": "Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+    },
+    {
+      "name": "Samarth Jain",
+      "story": "My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+    }
+  ],
+  "highlights": [
+    {
+      "head": "Opportunities unlocked for learner",
+      "description": "This Live Web Development course is a project-based Full-Stack web development course with a backend in Node.JS. As a part of these Web Development classes, the students will start off with the fundamentals of building basic websites and will go on to create more functional and complex portals using Node js and React also",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+    },
+    {
+      "head": "Hands on Projects and Problems:",
+      "description": "Build real-world applications like Create a responsive website using Bootstrap, Implementation of JS concepts to create a game similar like Mario, Blog Site using mySQL and REST API, Social Media app using MongoDB and Mongoose, React Basics and TODO list using React JS etc.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+    },
+    {
+      "head": "Why choose CB Live:",
+      "description": "Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+    },
+    {
+      "head": "This course is essential for you:",
+      "description": "If you want to have Web dev as a career.If you love solving real-world problems and want to create a solution.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
+    }
+  ],
+  "schedule_days": {
+    "days": "Mon, Thu and Sun",
+    "timming": ""
+  },
+  "schedule": [
+    { "lecture": "Lecture 1", "description": "Introduction to HTML, HTML Tags, Block and inline elements,Tables, inputs, forms" },
+    { "lecture": "Lecture 2", "description": "Advance HTML Tags and Media tags, Understanding CSS Basics, Psuedo classes, Combinators, Selectors and CSS Properties, Precedence" },
+    { "lecture": "Lecture 3", "description": "CSS Units and Box Model, Pseudo classes & Elements, Font-Families, List and Shadows, Adding Image and text, Pseudo Classes " },
+    { "lecture": "Lecture 4", "description": "Flex Boxes, Media Queries " },
+    { "lecture": "Lecture 5", "description": "Border, Background, Transitions,Transforms, 3D Transform & Animations " },
+    { "lecture": "Lecture 6", "description": "Grids + Flexboxes Layouts" },
+    { "lecture": "Lecture 7", "description": "Creating a website using Bootstrap " },
+    { "lecture": "Lecture 8", "description": "Introduction to JavaScript, Strongly v/s Weakly v/s Static vs Dynamic Typed, Loops in JS, JS datatypes ,Objects, Type Casting, Higher Order Functions, Scopes, Hoisting, Closure" },
+    { "lecture": "Lecture 9", "description": "Async Functions and OOP, Prototypes, this keyword, Class Syntax, Try and Catch" },
+    { "lecture": "Lecture 10", "description": "Different programming and paradigms, Lambda Functions, Scopes in JS, inbuilt functions in JS " },
+    { "lecture": "Lecture 11", "description": "Introduction to DOM, window element,events and Event Listener and BOM" },
+    { "lecture": "Lecture 12", "description": "Creating a Game using JS concepts" },
+    { "lecture": "Lecture 13", "description": "Creating Todo List using Jquery " },
+    { "lecture": "Lecture 14", "description": "Making XMLHttpRequest using JS and API creation" },
+    { "lecture": "Lecture 15", "description": "Git and GitHub" },
+    { "lecture": "Lecture 16", "description": "Understanding what is  NodeJs, Exploring Centralised Package Manager, NPM modules, Terminal application, Destructuring, Dependency Graph, Advance File System, async and await " },
+    { "lecture": "Lecture 17", "description": "Express, Status Code, Creating Servers with Express. Requests using Express,, CRUD Operations, Routers" },
+    { "lecture": "Lecture 18", "description": "Understanding Templating Language HBS.Passing data from the server to template and vice versa, Creating layouts/partials with HBS, Understanding Databases, Data Relationships, Designing a Data Model.  " },
+    { "lecture": "Lecture 19", "description": "Understanding RESTful APIs and Get/POST request" },
+    { "lecture": "Lecture 20", "description": "Understanding SQL and CRUD operations, via Blog Site Project" },
+    { "lecture": "Lecture 21", "description": "Why Mongo, Installing Mongo, Mongo Shell, Inserting , Finding, Updating and Deleting with Mongo, What is Mongoose, Insert Many, Finding, Updating and Deleting with Mongoose" },
+    { "lecture": "Lecture 22", "description": "Implementation of Social Media App via Moongoose and Express " },
+    { "lecture": "Lecture 23", "description": "Understanding Middlewares and E-Commerce Site-1" },
+    { "lecture": "Lecture 24", "description": "E-Commerce Site- 2 (Adding features like comments, reviews etc.)" },
+    { "lecture": "Lecture 25", "description": "Learning Cookies and Adding more features to our E-Commerce site" },
+    { "lecture": "Lecture 26", "description": "Learning Authentication and store data securely in databases" },
+    { "lecture": "Lecture 27", "description": "Learning Authentication(OAUTH) and Adding Login via Google, Facebook, Twitter to E-Commerce Site" },
+    { "lecture": "Lecture 28", "description": "Adding Styles to Site and How to store multimedia in our E-Commerce Site. " },
+    { "lecture": "Lecture 29", "description": "Creating Landing Page and Deployment" },
+    { "lecture": "Lecture 30", "description": "Creating a Chatting Application via sockets " },
+    { "lecture": "Lecture 31", "description": "Chai and Mocha" },
+    { "lecture": "Lecture 32", "description": "Basics of ReactJS" },
+    { "lecture": "Lecture 33", "description": "React Project and Web-Dev way forward" }
+  ]
+}
