@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  <style>
+    body {
+      padding: 0
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Gilroy","Nunito Sans",sans-serif;
+      font-color: #ffffff;
+    }
+    justify-content{
+      space-between !important
+    }
+  </style>
+</head>
+<body>
+{{> navbar}}
+<br>
+<br>	
+<br>
+<br>
+<div class="px-md-5 px-4 live-courses mb-5">
+  {{> courseMeta}}
+  <div class="row">
+    <div class="col-lg-8 mb-lg-0 mb-5">
+      <div class="border-card p-md-5 p-4 mb-5">
+        <div class="font-md">
+          <strong>Summary</strong>
+          <br /><br />
+          First of its kind, The Live course for Web Development by Coding Blocks is deftly designed with an aim to familiarize the young coders with all the know-how of developing the most coherent and professional websites & web-portals. The course will start with topics such as HTML, CSS, and JS and then move on to important concepts such as version control, databases, Node.Js and advanced topics such as security. Throughout the course, the students will be mentored in a manner that they develop proficiency with javascript for both Front-end as well as back-end use-cases. By the end of this online Web Development training, the students should be equipped with all the essentials to bring into play their full-fledged live web projects such as e-commerce websites. Anyone with a good command of data structures like Stacks, Queues, and Lists, basics of algorithms like sorting, searching, string manipulations, and OOP(s) is good to go!
+          <br /><br />
+          <strong>Highlights</strong>
+          <br /><br />
+          <ul class="list-style-gradient-bullet my-0">
+            <li>Extensive coverage of NodeJS</li>
+            <li>Project-Based Learning Approach</li>
+            <li>Lessons on Deploying your Application</li>
+            <li>500+ Video Lectures and Code Challenges</li>
+            <li>Hint Videos for Complex Problems</li>
+            <li>Lifetime Assignment Access</li>
+            <li>Basics &amp; Advanced Coding Topics for Interviews</li>
+            <li>Expert Doubt Support</li>
+          </ul>
+          <br />
+          <strong>Pre-requisites</strong>
+          <br /><br />
+          Basic Knowledge of Programming concepts is required. 
+          </pre>
+        </div>
+      </div>
+    	{{>liveCourseSchedule}}
+      {{>aboutMentor}}
+    </div>
+    <div class="col-lg-4 mb-lg-0 mb-5">
+            {{>testTimelines}}
+    </div>
+    {{> studentsSay}}
+    {{> floatingFooter}}
+  </div>
+</div>
+{{> scripts}}
+</body>
+</html>
