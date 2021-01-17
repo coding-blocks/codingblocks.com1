@@ -13,7 +13,7 @@
 
   "slides": [
     {
-      "imgSrc": "/assets/images/cb/cover/classroom.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/Classroom_Website%20Banner.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "Limited 15 seats only per batch",
