@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     showSlides(slideIndex = n + 1);
   }
 
+  window.currentSlide = currentSlide;
+
   function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("slideshow-container__slide");
@@ -25,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex-1].style.display = "block";  
-    // dots[slideIndex-1].className += " active";
+    dots[slideIndex-1].className += " active";
   }
 
   var prev = sliderContainer.getElementsByClassName("slideshow-container__prev")[0];
@@ -37,10 +39,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   next.addEventListener('click', function () {
     plusSlides(1);
   });
-
   new Array(sliderContainer.getElementsByClassName("dot")).forEach(function (dot, i) {
     dot.addEventListener('click', function () {
-      currentSlide(i)
+      window.currentSlide(i)
     });
   })
 });
