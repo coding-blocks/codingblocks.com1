@@ -1,40 +1,56 @@
 {{#with courseMeta}}
-<div class="border-card p-md-5 white p-4 bg-gradient-cyan white mb-5">
-  <div class="d-flex flex-wrap no-gutters justify-content-between">
-    <div class="col-12 col-sm-8 order-sm-1 order-2">
-      <div class="bold" style="font-size: 2.85rem;">{{title}}</div>
-      <div class="mt-4 font-lg">{{description}}</div>
-      <div class="my-5">
-        <div class="mentor-row d-flex align-items-center">
-          <div class="mentor-row__image-container">
-            <img src="{{mentor-img-1}}" class="mentor-row__image-container__mentor-image s-60x60">
-            {{#if mentor-img-2}}
-            <img src="{{mentor-img-2}}" alt="" class="mentor-row__image-container__mentor-image s-60x60">
-            {{/if}}
-            {{#if mentor-img-3}}
-            <img src="{{mentor-img-3}}" alt="" class="mentor-row__image-container__mentor-image s-60x60">
-            {{/if}}
-          </div>
-          <div class="mentor-row__text-container">
-            <div class="font-md">Instructors</div>
-            <h4 class="bold white" style="margin: unset;">{{mentors}}</h4>
+<div class="a-cbm" style="line-height: unset;">
+  <div class="border-card p-md-5 white p-4 bg-gradient-cyan white mb-5">
+    <div class="d-flex flex-wrap no-gutters justify-content-between">
+      <div class="col-12 col-sm-8 order-sm-1 order-2">
+        <div class="bold" style="font-size: 2.85rem;">{{title}}</div>
+        <div class="mt-4 font-lg">{{description}}</div>
+        <div class="my-5">
+          <div class="mentor-row d-flex align-items-center">
+            <div class="mentor-row__image-container">
+              <img src="{{mentor-img-1}}" class="mentor-row__image-container__mentor-image s-60x60">
+              {{#if mentor-img-2}}
+              <img src="{{mentor-img-2}}" alt="" class="mentor-row__image-container__mentor-image s-60x60">
+              {{/if}}
+              {{#if mentor-img-3}}
+              <img src="{{mentor-img-3}}" alt="" class="mentor-row__image-container__mentor-image s-60x60">
+              {{/if}}
+            </div>
+            <div class="mentor-row__text-container">
+              <div class="font-md">Instructors</div>
+              <h4 class="bold white" style="margin: unset;">{{mentors}}</h4>
+            </div>
           </div>
         </div>
       </div>
+      <div class="order-sm-2 order-1 mb-sm-0 mb-3">
+        <img src="{{icon}}" class="round border b-white border-2 s-130x130">
+      </div>
     </div>
-    <div class="order-sm-2 order-1 mb-sm-0 mb-3">
-      <img src="{{icon}}" class="round border b-white border-2 s-130x130">
+    <div class="p-15 font-5 br-50 d-sm-none d-block mb-20 t-align-c bold" style="background-color: rgba(255, 255, 255, 0.2);">
+      Dedicated Placement Support
     </div>
-  </div>
-  <div class="row no-gutters align-items-center justify-content-between">
-    <div class="col-xl-8 col-sm-6">
-
-
-    </div>
-    <div class="flex-1 row no-gutters align-items-center justify-content-end">
-      <span class="bold" style="font-size: 24px;">&#8377;&nbsp;{{price}}</span>
-      <a href="{{test_link_second}}" target="_blank" class="button-solid cyan button-white ml-xl-3 ml-lg-2 ml-4">Buy
-        Now</a>
+    <div class="row no-gutters align-items-center justify-content-between">
+      {{!-- <div class="col-xl-8 col-sm-6"></div> --}}
+      <div class="p-15 font-5 br-50 d-sm-block d-none bold" style="background-color: rgba(255, 255, 255, 0.2);">
+        Dedicated Placement Support
+      </div>
+      <div class="flex-1 row no-gutters align-items-center justify-content-end">
+        <div>
+          <div class="row no-gutters align-items-center justify-content-end">
+            <div class="bold heading-5">
+              &#8377;&nbsp;{{price}}
+            </div>
+            <div style="text-decoration: line-through;" class="text-grey-light-1 bold heading-6">
+              {{slashedPrice}}
+            </div>
+          </div>
+          <div class="mt-2 font-2">Starting from <strong>31st Jan</strong></div>
+        </div>
+        <a href="{{test_link_second}}" target="_blank" class="button-solid cyan button-white ml-20">
+          Buy Now
+        </a>
+      </div>
     </div>
   </div>
 </div>

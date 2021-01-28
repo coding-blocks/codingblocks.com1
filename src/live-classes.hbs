@@ -23,6 +23,22 @@
       padding-top: 28px !important;
       padding-bottom: 5px !important;
     }
+
+    .yellow-underline {
+      position: relative;
+      z-index: 2;
+    }
+
+    .yellow-underline::after {
+      content: "";
+      width: 100%;
+      height: 5px;
+      background-color: #FFC001;
+      z-index: -1;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
   </style>
 </head>
 
@@ -36,8 +52,10 @@
           <div class="t-align-c">
             <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/cb-accelerate-big.svg">
             <div class="t-align-c heading-5 mt-25">
-              Live Interactive Classes to help you accelerate towards your Dream Job!</br></br>
-              Batches starting from 30th Jan 2021
+              <div class="d-inline-block position-relative yellow-underline">
+                Direct placement support
+              </div>
+              to help you accelerate towards your Dream Job!
             </div>
           </div>
         </div>
@@ -46,7 +64,7 @@
       <div class="events-page-landing__section events-page-landing__section--floating-section">
         <div class="floating-section">
           <a id="register-advance" class="in-page-link"></a>
-          <div class="t-align-c mb-30 heading-5 bold">Courses</div>
+          <div class="t-align-c mb-70 heading-5 bold">Courses</div>
           <div class="row justify-content-center">
             {{>liveCourseCards}}
             <div class="col-sm-10">
