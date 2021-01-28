@@ -23,6 +23,22 @@
       padding-top: 28px !important;
       padding-bottom: 5px !important;
     }
+
+    .yellow-underline {
+      position: relative;
+      z-index: 2;
+    }
+
+    .yellow-underline::after {
+      content: "";
+      width: 100%;
+      height: 5px;
+      background-color: #FFC001;
+      z-index: -1;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
   </style>
 </head>
 
@@ -36,11 +52,10 @@
           <div class="t-align-c">
             <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/cb-accelerate-big.svg">
             <div class="t-align-c heading-5 mt-25">
-              <div class="d-inline-block position-relative"
-              style="text-decoration: underline; text-decoration-color: #FFC001; text-decoration-thickness: 5px;">
+              <div class="d-inline-block position-relative yellow-underline">
                 Direct placement support
               </div>
-               to help you accelerate towards your Dream Job!
+              to help you accelerate towards your Dream Job!
             </div>
           </div>
         </div>
