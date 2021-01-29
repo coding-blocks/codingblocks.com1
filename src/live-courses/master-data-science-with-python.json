@@ -21,257 +21,256 @@
     ],
     "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
   },
-   "head": {
+  "head": {
     "links": [
-      
       {
         "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
         "rel": "stylesheet"
       }
     ]
   },
-   "courseMeta": {
+  "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
     "title": "Master Data Science with Python",
     "price": "13,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2043",
     "demo-link": "https://codingblocks.com/take-demo.html",
-     "mentors": "Manu S Pillai",
+    "mentors": "Manu S Pillai",
     "description": "Start from basics, become a industry ready data scientist!",
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
-          "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4245"
-
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4245",
+    "startDate": "13th Feb"
   },
-  "aboutMentor":[
+  "aboutMentor": [
     {
-      "name":"Manu S Pillai",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
+      "name": "Manu S Pillai",
+      "profile_pic_link": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
       "summary": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
       "email": "mohit.uniyal@codingblocks.com"
     }
-
   ],
-   "demoClass":[
+  "demoClass": [
     {
-      "youtubeID":"3xilD0Pi9Tk"
+      "youtubeID": "3xilD0Pi9Tk"
     },
     {
-      "youtubeID":"_y-Gl8ZJVfA"
+      "youtubeID": "_y-Gl8ZJVfA"
     },
     {
-      "youtubeID":"aDQKUa6zcZk"
+      "youtubeID": "aDQKUa6zcZk"
     }
   ],
-  "studentsSay":[
+  "studentsSay": [
     {
-      "name":"Anshul Mittal",
-      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
-      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+      "name": "Anshul Mittal",
+      "story": "Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
     },
     {
-      "name":"Sidharth Bansal",
-      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
-      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+      "name": "Sidharth Bansal",
+      "story": "Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
     },
     {
-      "name":"Samarth Jain",
-      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
-      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+      "name": "Samarth Jain",
+      "story": "My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
-  "testTimelines":{
-      "test_link_first" : "https://hack.codingblocks.com/app/contests/1939",
-      "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3779"
+  "testTimelines": {
+    "test_link_first": "https://hack.codingblocks.com/app/contests/1939",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3779"
+  },
+  "highlights": [
+    {
+      "head": "Opportunities unlocked for learner",
+      "description": "You will learn one of the hottest fields of the 21st century and will get a Kickass Kickstart.Will be able to build Web Scrapers, Data Cleaning with python fundamentals.Will be able to apply various Machine Learning algorithms like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes, Principal Component Analysis, Feature Engineering, T-SNE Visualizations, Deep Learning & Reinforcement Learning for video games.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
     },
-  "highlights":[{
-    "head":"Opportunities unlocked for learner",
-    "description":"You will learn one of the hottest fields of the 21st century and will get a Kickass Kickstart.Will be able to build Web Scrapers, Data Cleaning with python fundamentals.Will be able to apply various Machine Learning algorithms like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes, Principal Component Analysis, Feature Engineering, T-SNE Visualizations, Deep Learning & Reinforcement Learning for video games.",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+    {
+      "head": "Hands on Projects and Problems:",
+      "description": "Web Crawler - will be able to build Spiders using Scrapy for Amazon, PepperFry etc.Pokedex- Will be able  to classify Pokemons using Transfer Learning. Emoji Predictor - Will be able to predict emojis using Recurrent Neural Networks.Many More- Face Recognition,Odd One Out, Titanic Survivor Prediction,Handwritten Digit Recognition, Language Generator.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+    },
+    {
+      "head": "Why choose CB Live:",
+      "description": "Two-way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook. ",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+    },
+    {
+      "head": "This course is essential for you:",
+      "description": "Who has familiarity and ability to write code in any programming language.Who wants to work with bigwigs like Amazon, Google, Microsoft paying handsome salaries.Who wants to learn Data Analysis, Manipulation, and Visualization",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
+    }
+  ],
+  "schedule_days": {
+    "days": "Tues, Sat and Sun",
+    "timming": "7:00 PM - 10:00 PM"
   },
-  {
-    "head":"Hands on Projects and Problems:",
-    "description":"Web Crawler - will be able to build Spiders using Scrapy for Amazon, PepperFry etc.Pokedex- Will be able  to classify Pokemons using Transfer Learning. Emoji Predictor - Will be able to predict emojis using Recurrent Neural Networks.Many More- Face Recognition,Odd One Out, Titanic Survivor Prediction,Handwritten Digit Recognition, Language Generator.",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
-  },
-  {
-    "head":"Why choose CB Live:",
-    "description":"Two-way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook. ",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
-  },
-  {
-    "head":"This course is essential for you:",
-    "description":"Who has familiarity and ability to write code in any programming language.Who wants to work with bigwigs like Amazon, Google, Microsoft paying handsome salaries.Who wants to learn Data Analysis, Manipulation, and Visualization",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
-  }
- ],
-  "schedule_days":{
-    "days":"Tues, Sat and Sun",
-    "timming":"7:00 PM - 10:00 PM"
-  },
- "schedule": [
+  "schedule": [
     {
       "lecture": "Lecture 01",
       "description": "Data Science Quickstart Mode"
     },
     {
-      "lecture":"Lecture 02",
+      "lecture": "Lecture 02",
       "description": "Introduction to Python, Conditions, Loops and functions"
     },
     {
-      "lecture":"Lecture 03",
+      "lecture": "Lecture 03",
       "description": "String and other inbuilt data structures"
     },
     {
-      "lecture":"Lecture 04",
+      "lecture": "Lecture 04",
       "description": "Files Handling"
     },
     {
-      "lecture":"Lecture 05",
+      "lecture": "Lecture 05",
       "description": "Numpy, Matplotlib, Pandas"
     },
     {
-      "lecture":"Lecture 06",
+      "lecture": "Lecture 06",
       "description": "Simple Linear Regression"
     },
     {
-      "lecture":"Lecture 07",
+      "lecture": "Lecture 07",
       "description": "Multiple Linear Regression"
     },
     {
-      "lecture":"Lecture 08",
+      "lecture": "Lecture 08",
       "description": "Logistic Regression"
     },
     {
-      "lecture":"Lecture 09",
+      "lecture": "Lecture 09",
       "description": "KNN and related Classification"
     },
     {
-      "lecture":"Lecture 10",
+      "lecture": "Lecture 10",
       "description": "Face Detection + Face Recognition"
     },
     {
-      "lecture":"Lecture 11",
+      "lecture": "Lecture 11",
       "description": "Project Discussion"
     },
     {
-      "lecture":"Lecture 12",
+      "lecture": "Lecture 12",
       "description": "K-Means and related clustering"
     },
     {
-      "lecture":"Lecture 13",
+      "lecture": "Lecture 13",
       "description": "NLTK and Naïve Bayes"
     },
     {
-      "lecture":"Lecture 14",
+      "lecture": "Lecture 14",
       "description": "Decision tree"
     },
     {
-      "lecture":"Lecture 15",
+      "lecture": "Lecture 15",
       "description": "Ensemble Learning"
     },
     {
-      "lecture":"Lecture 16",
+      "lecture": "Lecture 16",
       "description": "Stats and Probability"
     },
     {
-      "lecture":"Lecture 17",
+      "lecture": "Lecture 17",
       "description": "Exploratory data analysis with Pandas"
     },
     {
-      "lecture":"Lecture 18",
+      "lecture": "Lecture 18",
       "description": "Principle component Analysis (PCA)"
     },
     {
-      "lecture":"Lecture 19",
+      "lecture": "Lecture 19",
       "description": "Support Vector Machines"
     },
     {
-      "lecture":"Lecture 20",
+      "lecture": "Lecture 20",
       "description": "Markov Chains"
     },
-    {  
-      "lecture":"Lecture 21",
+    {
+      "lecture": "Lecture 21",
       "description": "web api and Web Scraping "
     },
     {
-      "lecture":"Lecture 22",
+      "lecture": "Lecture 22",
       "description": "Recommender Systems"
     },
     {
-      "lecture":"Lecture 23",
+      "lecture": "Lecture 23",
       "description": "Project Discussion"
     },
     {
-      "lecture":"Lecture 24",
+      "lecture": "Lecture 24",
       "description": "Intro to Neural Net and TensorFlow"
     },
-     {
-      "lecture":"Lecture 25",
+    {
+      "lecture": "Lecture 25",
       "description": "First DNN with Keras"
     },
     {
-      "lecture":"Lecture 26",
+      "lecture": "Lecture 26",
       "description": "Neural Nets from Scratch"
     },
     {
-      "lecture":"Lecture 27",
+      "lecture": "Lecture 27",
       "description": "CNN"
     },
     {
-      "lecture":"Lecture 28",
+      "lecture": "Lecture 28",
       "description": "CNN Architectures"
     },
     {
-      "lecture":"Lecture 29",
+      "lecture": "Lecture 29",
       "description": "Transfer Learning"
     },
     {
-      "lecture":"Lecture 30",
+      "lecture": "Lecture 30",
       "description": "Project Discussion"
     },
     {
-      "lecture":"Lecture 31",
+      "lecture": "Lecture 31",
       "description": "Auto Encoders"
     },
     {
-      "lecture":"Lecture 32",
+      "lecture": "Lecture 32",
       "description": "Recurrent and Sequence Models"
     },
     {
-      "lecture":"Lecture 33",
-      "description":"Generative adversarial networks"
+      "lecture": "Lecture 33",
+      "description": "Generative adversarial networks"
     },
     {
-      "lecture":"Lecture 34",
-      "description":"Model Deployment using Flask and Heroku"
+      "lecture": "Lecture 34",
+      "description": "Model Deployment using Flask and Heroku"
     },
     {
-      "lecture":"Lecture 35",
-      "description":"Time Series - Averages, Smoothening, AR Models"
+      "lecture": "Lecture 35",
+      "description": "Time Series - Averages, Smoothening, AR Models"
     },
     {
-      "lecture":"Lecture 36",
-      "description":"Yolo for Object Detection"
+      "lecture": "Lecture 36",
+      "description": "Yolo for Object Detection"
     },
     {
-      "lecture":"Lecture 37",
-      "description":"Attention Models"
+      "lecture": "Lecture 37",
+      "description": "Attention Models"
     },
     {
-      "lecture":"Lecture 38",
-      "description":"Image Captioning"
+      "lecture": "Lecture 38",
+      "description": "Image Captioning"
     },
     {
-      "lecture":"Lecture 39",
-      "description":"Kaggling"
+      "lecture": "Lecture 39",
+      "description": "Kaggling"
     },
     {
-      "lecture":"Lecture 40",
-      "description":"Project Discussion"
+      "lecture": "Lecture 40",
+      "description": "Project Discussion"
     },
     {
-      "lecture":"Lecture 41",
-      "description":"Intro to Reinforcement learning"
+      "lecture": "Lecture 41",
+      "description": "Intro to Reinforcement learning"
     }
   ]
 }

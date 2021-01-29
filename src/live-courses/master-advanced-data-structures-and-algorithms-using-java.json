@@ -25,7 +25,7 @@
       }
     ]
   },
-  
+
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
     "title": "Master Algo.Java-Data Structures",
@@ -35,223 +35,223 @@
     "mentors": "Kartik Sapra",
     "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
-          "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4244 "
-
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4244",
+    "startDate": "20th Feb"
   },
-   "aboutMentor":[
+  "aboutMentor": [
     {
-      "name":"Kartik Sapra",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
+      "name": "Kartik Sapra",
+      "profile_pic_link": "https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
       "summary": "",
       "email": "kartik.sapra@codingblocks.com"
     }
   ],
-  "demoClass":[
+  "demoClass": [
     {
-      "youtubeID":"ZGe5MdEXsvQ"
+      "youtubeID": "ZGe5MdEXsvQ"
     },
     {
-      "youtubeID":"p7BbU7Q9GU0"
+      "youtubeID": "p7BbU7Q9GU0"
     },
     {
-      "youtubeID":"hkrPkOJAiog"
+      "youtubeID": "hkrPkOJAiog"
     }
   ],
-  "testTimelines":{
-      "test_link_first" : "https://hack.codingblocks.com/app/contests/1939",
-      "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3778"
-    },
-  "highlights":[{
-    "head":"Opportunities unlocked for learner",
-    "description":"Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc. ",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+  "testTimelines": {
+    "test_link_first": "https://hack.codingblocks.com/app/contests/1939",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3778"
   },
-  {
-    "head":"Hands on Projects and Problems:",
-    "description":"Build real-world applications like Tic Tac Toe, Sudoku, Tower of Hanoi.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
-  },
-  {
-    "head":"Why choose CB Live:",
-    "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
-  },
-  {
-    "head":"This course is essential for you:",
-    "description":"Someone who loves solving real world problems and wants to create a solution.",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
-  }
-  ],
-  "studentsSay":[
+  "highlights": [
     {
-      "name":"Anshul Mittal",
-      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
-      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+      "head": "Opportunities unlocked for learner",
+      "description": "Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc. ",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
     },
     {
-      "name":"Sidharth Bansal",
-      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
-      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+      "head": "Hands on Projects and Problems:",
+      "description": "Build real-world applications like Tic Tac Toe, Sudoku, Tower of Hanoi.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
     },
     {
-      "name":"Samarth Jain",
-      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
-      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+      "head": "Why choose CB Live:",
+      "description": "Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+    },
+    {
+      "head": "This course is essential for you:",
+      "description": "Someone who loves solving real world problems and wants to create a solution.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
     }
   ],
-  "schedule_days":{
-    "days":"Mon, Tue, Thu, Sat",
-    "timming":"7:00 PM - 10:00 PM"
+  "studentsSay": [
+    {
+      "name": "Anshul Mittal",
+      "story": "Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+    },
+    {
+      "name": "Sidharth Bansal",
+      "story": "Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+    },
+    {
+      "name": "Samarth Jain",
+      "story": "My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+    }
+  ],
+  "schedule_days": {
+    "days": "Mon, Tue, Thu, Sat",
+    "timming": "7:00 PM - 10:00 PM"
   },
-    "schedule": [
+  "schedule": [
     {
       "lecture": "Lecture 01",
       "description": "Recursion"
     },
     {
-      "lecture":"Lecture 02",
+      "lecture": "Lecture 02",
       "description": "Recursion"
     },
     {
-      "lecture":"Lecture 03",
+      "lecture": "Lecture 03",
       "description": "Question Practise Session"
     },
     {
-      "lecture":"Lecture 04",
+      "lecture": "Lecture 04",
       "description": "Recursion"
     },
     {
-      "lecture":"Lecture 05",
+      "lecture": "Lecture 05",
       "description": "Backtracking"
     },
     {
-      "lecture":"Lecture 06",
+      "lecture": "Lecture 06",
       "description": "Backtracking"
     },
     {
-      "lecture":"Lecture 07",
+      "lecture": "Lecture 07",
       "description": "Question Practise Session"
     },
     {
-      "lecture":"Lecture 08",
+      "lecture": "Lecture 08",
       "description": "Divide & Conquer"
     },
     {
-      "lecture":"Lecture 09",
+      "lecture": "Lecture 09",
       "description": "Time & Space Complexity"
     },
     {
-      "lecture":"Lecture 10",
+      "lecture": "Lecture 10",
       "description": "OOPS"
     },
     {
-      "lecture":"Lecture 11",
+      "lecture": "Lecture 11",
       "description": "Stack"
     },
     {
-      "lecture":"Lecture 12",
+      "lecture": "Lecture 12",
       "description": "Queue"
     },
     {
-      "lecture":"Lecture 13",
+      "lecture": "Lecture 13",
       "description": "Linked List"
     },
     {
-      "lecture":"Lecture 14",
+      "lecture": "Lecture 14",
       "description": "Question Practise Session"
     },
     {
-      "lecture":"Lecture 15",
+      "lecture": "Lecture 15",
       "description": "Linked List"
     },
     {
-      "lecture":"Lecture 16",
+      "lecture": "Lecture 16",
       "description": "Binary Tree"
     },
     {
-      "lecture":"Lecture 17",
+      "lecture": "Lecture 17",
       "description": "Binary Tree"
     },
     {
-      "lecture":"Lecture 18",
+      "lecture": "Lecture 18",
       "description": "Question Practise Session"
     },
     {
-      "lecture":"Lecture 19",
+      "lecture": "Lecture 19",
       "description": "BST"
     },
     {
-      "lecture":"Lecture 20",
+      "lecture": "Lecture 20",
       "description": "BST"
     },
-    {  
-      "lecture":"Lecture 21",
+    {
+      "lecture": "Lecture 21",
       "description": "Generics & Interfaces"
     },
     {
-      "lecture":"Lecture 22",
+      "lecture": "Lecture 22",
       "description": "HashMap"
     },
     {
-      "lecture":"Lecture 23",
+      "lecture": "Lecture 23",
       "description": "Heap"
     },
     {
-      "lecture":"Lecture 24",
+      "lecture": "Lecture 24",
       "description": "DP"
     },
     {
-      "lecture":"Lecture 25",
+      "lecture": "Lecture 25",
       "description": "Question Practise Session"
     },
     {
-      "lecture":"Lecture 26",
+      "lecture": "Lecture 26",
       "description": "DP"
     },
     {
-      "lecture":"Lecture 27",
+      "lecture": "Lecture 27",
       "description": "DP"
     },
     {
-      "lecture":"Lecture 28",
+      "lecture": "Lecture 28",
       "description": "DP"
     },
     {
-      "lecture":"Lecture 29",
+      "lecture": "Lecture 29",
       "description": "Question Practise Session"
     },
     {
-      "lecture":"Lecture 30",
+      "lecture": "Lecture 30",
       "description": "Graph"
     },
     {
-      "lecture":"Lecture 31",
+      "lecture": "Lecture 31",
       "description": "Graph"
     },
     {
-      "lecture":"Lecture 32",
+      "lecture": "Lecture 32",
       "description": "Trie"
     },
     {
-      "lecture":"Lecture 33",
+      "lecture": "Lecture 33",
       "description": "Starting with Leetcode"
     },
     {
-      "lecture":"Lecture 34",
-      "description":"Leetcode Problem Solving"
+      "lecture": "Lecture 34",
+      "description": "Leetcode Problem Solving"
     },
     {
-      "lecture":"Lecture 35",
-      "description":"How to start with Codeforces"
+      "lecture": "Lecture 35",
+      "description": "How to start with Codeforces"
     },
     {
-      "lecture":"Lecture 36",
-      "description":"Interview preparation and Competitive Programming sessions"
+      "lecture": "Lecture 36",
+      "description": "Interview preparation and Competitive Programming sessions"
     },
     {
-      "lecture":"Lecture 37",
-      "description":"Tips on building resumes, Profile Building and Future Career Guidance"
+      "lecture": "Lecture 37",
+      "description": "Tips on building resumes, Profile Building and Future Career Guidance"
     }
-
   ]
 }
