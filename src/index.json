@@ -13,13 +13,13 @@
 
   "slides": [
     {
-      "imgSrc": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/rd-banner.jpg",
+      "imgSrc": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/nagarro-banner.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses",
+          "link": "https://codingblocks.com/nagarro-bootcamp.html",
           "text": "Explore",
           "filled": "true"
         }
@@ -204,7 +204,7 @@
     },
     {
       "id": "course21",
-    "combo": true
+      "combo": true
     }
   ],
   "javaInterviewRow": [
@@ -218,7 +218,7 @@
     {
       "id": "course22",
       "odd": true,
-    "combo": true
+      "combo": true
     }
   ],
   "onlineCoursesRow1": [
@@ -251,12 +251,13 @@
       "id": "course17",
       "odd": true
     },
-  {
+    {
       "id": "course24"
-  },{
-    "id": "course29",
-    "odd": true
-  }
+    },
+    {
+      "id": "course29",
+      "odd": true
+    }
   ],
   "onlineCoursesRow4": [
     {
@@ -287,7 +288,6 @@
   "liveCoursesRow2": [
     {
       "id": "live_course_alg_plus_plus"
-
     },
     {
       "id": "live_course_alg_java"
