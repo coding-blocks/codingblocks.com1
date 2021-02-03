@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  <style>
+    body {
+      padding: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Gilroy", "Nunito Sans", sans-serif;
+    }
+
+    .cyan-underline {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 6px;
+        bottom: 0;
+        left: 0;
+        background: #47D7AC;
+        border-radius: 25px;
+      }
+    }
+
+    .cyan-scroll::-webkit-scrollbar-thumb:hover {
+      background: #58D3AF;
+    }
+  </style>
+
+  <script>
+    window.scrollNow = function (target) {
+      var scrollContainer = target;
+      do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
+
+      var targetY = 0;
+      do {
+        // Find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+      } while (target = target.offsetParent);
+
+      scroll = function (c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () { scroll(c, a, b, i); }, 20);
+      }
+      // Scroll to target
+      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+  </script>
+</head>
+
+<body class="scroll-assist" style="line-height: unset;">
+  {{> navbar}}
+  </br>
+  </br>
+  </br>
+  </br>
+  <div class="a-cbm">
+    <div class="container nagarro-landing" style="margin-top: 70px;">
+      <div class="bold cyan-underline mb-60 d-inline-block" style="font-size: 3.5rem;">
+        Syllabus
+      </div>
+      <div class="row">
+        <div class="col-8">
+          <div class="card">
+            <div class="py-4 overflow-y-auto" style="max-height: 700px;">
+              {{#each syllabus}}
+              <div class="row no-gutters align-items-center justify-content-between py-3 hover-grey px-md-5 px-4">
+                <div class="col-5">
+                  <div class="bold font-5">{{lecture}}</div>
+                </div>
+                <div class="bold cyan flex-1 pl-4 heading-6">{{topic}}</div>
+              </div>
+              <div class="divider-h px-md-5 px-4 content-divider"></div>
+              {{/each}}
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card mb-30">
+            <div class="heading-6 bold mb-15">Enroll Now</div>
+            <div class="font-4 text-grey-light-1 mb-15">
+              With the effective fees reduced by 10,000, it makes it a once in a life time opportunity!
+            </div>
+            <button class="button-primary button-grey">Enroll Now</button>
+          </div>
+          <div class="card mb-30">
+            <div class="position-sticky tr pb-20 bg-white heading-6 bold">
+              Projects
+            </div>
+            <div class="py-4 overflow-y-auto" style="max-height: 450px;">
+              {{#each projects}}
+              <div class="hover-grey py-15">
+                <div class="bold cyan font-5 mb-10">
+                  {{projectTitle}}
+                </div>
+                <div class="text-grey-light-1 font-3">
+                  {{projectDescription}}
+                </div>
+              </div>
+              <div class="divider-h px-md-5 px-4 content-divider"></div>
+              {{/each}}
+            </div>
+          </div>
+          <div class="card mb-30 bg-cyan">
+            <div class="row no-gutters align-items-center justify-content-between">
+              <div class="flex-1">
+                <div class="font-4">In case of query, give us a call on</div>
+                <div class="bold heading-6">9999579111</div>
+              </div>
+              <a href="tel:9999579111">
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/phonecall.svg">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{> footer}}
+  {{> scripts}}
+
+</body>
+
+</html>
