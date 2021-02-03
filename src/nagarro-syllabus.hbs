@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  <style>
+    body {
+      padding: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Gilroy", "Nunito Sans", sans-serif;
+    }
+
+    .cyan-underline {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 6px;
+        bottom: 0;
+        left: 0;
+        background: #47d7ac;
+        border-radius: 25px;
+      }
+    }
+
+    .cyan-scroll::-webkit-scrollbar-thumb:hover {
+      background: #58D3AF;
+    }
+  </style>
+
+  <script>
+    window.scrollNow = function (target) {
+      var scrollContainer = target;
+      do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
+
+      var targetY = 0;
+      do {
+        // Find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+      } while (target = target.offsetParent);
+
+      scroll = function (c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () { scroll(c, a, b, i); }, 20);
+      }
+      // Scroll to target
+      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+  </script>
+</head>
+
+<body class="scroll-assist" style="line-height: unset;">
+  {{> navbar}}
+  </br>
+  </br>
+  </br>
+  </br>
+  <div class="a-cbm">
+    <div class="container">
+      <div class="bold cyan-underline mb-60" style="font-size: 3.5rem;">
+        Syllabus
+      </div>
+    </div>
+  </div>
+  {{> footer}}
+  {{> scripts}}
+
+</body>
+
+</html>
