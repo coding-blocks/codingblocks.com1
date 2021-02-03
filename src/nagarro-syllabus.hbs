@@ -29,7 +29,7 @@
         height: 6px;
         bottom: 0;
         left: 0;
-        background: #47d7ac;
+        background: #47D7AC;
         border-radius: 25px;
       }
     }
@@ -73,9 +73,59 @@
   </br>
   </br>
   <div class="a-cbm">
-    <div class="container">
-      <div class="bold cyan-underline mb-60" style="font-size: 3.5rem;">
+    <div class="container nagarro-landing" style="margin-top: 70px;">
+      <div class="bold cyan-underline mb-60 d-inline-block" style="font-size: 3.5rem;">
         Syllabus
+      </div>
+      <div class="row">
+        <div class="col-8">
+          <div class="card">
+            <div class="py-4 overflow-y-auto" style="max-height: 450px;">
+              {{#each syllabus}}
+              <div class="row no-gutters align-items-center justify-content-between py-3 hover-grey px-md-5 px-4">
+                <div class="col-5">
+                  <div class="bold font-5">{{lecture}}</div>
+                </div>
+                <div class="bold cyan flex-1 pl-4 heading-6">{{topic}}</div>
+              </div>
+              <div class="divider-h px-md-5 px-4 content-divider"></div>
+              {{/each}}
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card mb-30">
+            <div class="heading-6 bold mb-15">Enroll Now</div>
+            <div class="font-4 text-grey-light-1 mb-15">
+              With the effective fees reduced by 10,000, it makes it a once in a life time opportunity!
+            </div>
+            <button class="button-primary button-grey">Enroll Now</button>
+          </div>
+          <div class="card mb-30">
+            <div class="py-4 overflow-y-auto" style="max-height: 450px;">
+              {{#each projects}}
+              <div class="row no-gutters align-items-center justify-content-between py-3 hover-grey px-md-5 px-4">
+                <div class="col-2">
+                  <div class="bold font-5">{{lecture}} -> </div>
+                </div>
+                <div class="bold cyan flex-1 pl-4 heading-6">{{projectTitle}}</div>
+              </div>
+              <div class="divider-h px-md-5 px-4 content-divider"></div>
+              {{/each}}
+            </div>
+          </div>
+          <div class="card mb-30 bg-cyan">
+            <div class="row no-gutters align-items-center justify-content-between">
+              <div class="flex-1">
+                <div class="font-4">In case of query, give us a call on</div>
+                <div class="bold heading-6">9999579111</div>
+              </div>
+              <a href="tel:9999579111">
+                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/phonecall.svg">
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
