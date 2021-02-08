@@ -3,14 +3,14 @@
 ## Deploys
 
 [![Netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)](https://app.netlify.com/sites/cb-netlify-prod)  
-Commits to master and PRs are automatically built and deployed by Netlify
+Commits to master and PRs are automatically built and deployed by Netlify.
 
 
 ## Contributions and PR
 
- - PRs should be generated against `master`
- - Wait for `@codingblocks-bot` to deploy site and paste link of preview 
- - Check preview. If all good, then only `PR -> master` merge is made
+ - PRs should be generated against `master`.
+ - Wait for `@codingblocks-bot` to deploy site and paste link of preview. 
+ - Check preview. If all good, then only `PR -> master` merge is made.
 
 ## Build Setup
 
@@ -70,7 +70,7 @@ gulp clean
 
 ## Data
 
-Common JSON data for all pages
+Common JSON data for all pages.
 
     .
     ├── ...
@@ -113,7 +113,7 @@ module.exports = function (..., options) {
 
 ## Partials
 
-Handlebars Template files
+Handlebars Template files.
 
     .
     ├── ...
