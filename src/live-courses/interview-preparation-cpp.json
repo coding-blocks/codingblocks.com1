@@ -20,12 +20,6 @@
   },
   "aboutMentor": [
     {
-      "name":"Kartik Mathur",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
-      "summary": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
-      "email": "kartik.mathur@codingblocks.com"
-    },
-    {
       "name":"Mosina Ashraf",
       "profile_pic_link":"https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
       "summary": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
@@ -44,7 +38,7 @@
     "price": "13,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=4547",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Kartik Mathur , Mosina Ashraf",
+    "mentors": "Mosina Ashraf",
     "description": "Start from Basics, become a C++ Master!",
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
     "mentor-img-2": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
