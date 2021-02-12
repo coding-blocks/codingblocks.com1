@@ -35,7 +35,7 @@
     "price": "27,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2043",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Manu S Pillai",
+    "mentors": "Manu S Pillai, Princey Yadav",
     "description": "Start from basics, become a industry ready data scientist!",
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4245",
@@ -47,6 +47,12 @@
       "profile_pic_link": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
       "summary": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
       "email": "mohit.uniyal@codingblocks.com"
+    },
+    {
+      "name": "Princey Yadav",
+      "profile_pic_link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/princey-yadav.jpeg",
+      "summary": "Princey is a post graduate from IIIT Delhi and joined Coding Blocks due to her passion for teaching. She has prior experience as a Software Engineer and doing research in the field of Computational Biology. Her interests include machine learning, data science and game development. She is a pythonista who likes to draw and watch anime for fun.",
+      "email": "princey.yadav@codingblocks.com"
     }
   ],
   "demoClass": [
