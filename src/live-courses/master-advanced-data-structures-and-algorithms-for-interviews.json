@@ -32,18 +32,18 @@
     "price": "12,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2024",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Kartik Sapra",
+    "mentors": "Mohit Pandey",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
+    "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4241",
     "startDate": "14th Feb"
   },
   "aboutMentor": [
     {
-      "name": "Kartik Sapra",
-      "profile_pic_link": "https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
-      "summary": "",
-      "email": "kartik.sapra@codingblocks.com"
+      "name": "Mohit Pandey",
+      "profile_pic_link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
+      "summary": "Mohit Pandey is a competitive programmer, has an awesome understanding of Data Structure And Algorithm. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand what he is teaching.",
+      "email": "mohit.pandey@codingblocks.com"
     }
   ],
   "demoClass": [

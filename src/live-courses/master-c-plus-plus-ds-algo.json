@@ -20,10 +20,10 @@
   },
   "aboutMentor": [
     {
-      "name": "Mosina Ashraf",
-      "profile_pic_link": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
-      "summary": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
-      "email": "mosina.ashraf@codingblocks.com"
+      "name": "Mohit Pandey",
+      "profile_pic_link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
+      "summary": "Mohit Pandey is a competitive programmer, has an awesome understanding of Data Structure And Algorithm. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand what he is teaching.",
+      "email": "mohit.pandey@codingblocks.com"
     }
   ],
   "openGraph": {
@@ -38,9 +38,9 @@
     "price": "15,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2020&amp",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Mosina Ashraf",
+    "mentors": "Mohit Pandey",
     "description": "Start from Basics, become a C++ Master!",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
+    "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4240",
     "startDate": "31st Jan"
   },
