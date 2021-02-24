@@ -13,14 +13,14 @@
 
   "slides": [
     {
-      "imgSrc": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/nagarro-banner.jpg",
+      "imgSrc": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/feb-offer-banner.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/nagarro-bootcamp.html",
-          "text": "Explore",
+          "link": "https://online.codingblocks.com/",
+          "text": "Grab the Offer",
           "filled": "true"
         }
       ]
@@ -47,19 +47,6 @@
         {
           "link": "/live-classes.html",
           "text": "Enroll Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/indst.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "/classroom-courses/six_months_ind_training.html",
-          "text": "Register",
           "filled": "true"
         }
       ]
