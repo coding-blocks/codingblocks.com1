@@ -13,6 +13,19 @@
 
   "slides": [
     {
+      "imgSrc": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/web-banner-womens-day.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/Classroom_Website%20Banner.jpg",
       "imgAlt": "",
       "heading": "",
