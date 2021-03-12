@@ -13,14 +13,40 @@
 
   "slides": [
     {
-      "imgSrc": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/web-banner-womens-day.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/career_boot.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses",
+          "link": "/nagarro-bootcamp.html",
           "text": "Explore",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/intr_prep_java.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://cb.lk/pb",
+          "text": "Register",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/rapid_compet.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://cb.lk/rpc",
+          "text": "Register",
           "filled": "true"
         }
       ]
