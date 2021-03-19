@@ -13,6 +13,19 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/holi-%20banner.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/career_boot.jpg",
       "imgAlt": "",
       "heading": "",
@@ -25,19 +38,7 @@
         }
       ]
     },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/intr_prep_java.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://cb.lk/pb",
-          "text": "Register",
-          "filled": "true"
-        }
-      ]
-    },
+    
     {
       "imgSrc": "https://images.codingblocks.com/img/rapid_apr.jpg",
       "imgAlt": "",
