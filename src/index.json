@@ -11,42 +11,15 @@
     }
   ],
 
-  "slides": [
+  "slides": [    
     {
-      "imgSrc": "https://images.codingblocks.com/img/holi-%20banner.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Explore",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/career_boot.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "/nagarro-bootcamp.html",
-          "text": "Explore",
-          "filled": "true"
-        }
-      ]
-    },
-    
-    {
-      "imgSrc": "https://images.codingblocks.com/img/rapid_apr.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://cb.lk/rpc",
+          "link": "http://career-bootcamp.codingblocks.com",
           "text": "Register",
           "filled": "true"
         }
