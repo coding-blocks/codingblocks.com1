@@ -13,14 +13,14 @@
 
   "slides": [    
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner.png",
+      "imgSrc": "https://images.codingblocks.com/img/learningspree-banner.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "http://career-bootcamp.codingblocks.com",
-          "text": "Register",
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore",
           "filled": "true"
         }
       ]
