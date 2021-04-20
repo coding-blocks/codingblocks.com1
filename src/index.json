@@ -11,7 +11,20 @@
     }
   ],
 
-  "slides": [    
+  "slides": [  
+    {
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "http://career-bootcamp.codingblocks.com/",
+          "text": "Register",
+          "filled": "true"
+        }
+      ]
+    },  
     {
       "imgSrc": "https://images.codingblocks.com/img/learningspree-bannerd.jpg",
       "imgAlt": "",
