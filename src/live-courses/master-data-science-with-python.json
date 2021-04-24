@@ -35,19 +35,13 @@
     "price": "27,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2043",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Manu S Pillai, Princey Yadav",
+    "mentors": "Princey Yadav",
     "description": "Start from basics, become a industry ready data scientist!",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4245",
-    "startDate": "13th Feb"
+    "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/princey-yadav.jpeg",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5204",
+    "startDate": "24th May"
   },
   "aboutMentor": [
-    {
-      "name": "Manu S Pillai",
-      "profile_pic_link": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
-      "summary": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
-      "email": "mohit.uniyal@codingblocks.com"
-    },
     {
       "name": "Princey Yadav",
       "profile_pic_link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/princey-yadav.jpeg",
@@ -110,7 +104,7 @@
     }
   ],
   "schedule_days": {
-    "days": "Tues, Sat and Sun",
+    "days": "Mon, Tue, Thu and Sat",
     "timming": "7:00 PM - 10:00 PM"
   },
   "schedule": [
