@@ -41,6 +41,11 @@
                 <h5 class="uppercase mb0 bold">{{{name}}}<br></h5>
                 <span class="bold">{{{role}}}</span>
             </div>
+            <div class="my-3 row no-gutters align-items-center justify-content-center">
+                {{#each highlights}}
+                    <img src="{{link}}" style="width: 75px; margin: 0px 5px">
+                {{/each}}
+            </div>
             <p class="mb0">
                 {{{bio}}}
             </p>
