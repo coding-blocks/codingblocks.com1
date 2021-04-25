@@ -268,7 +268,7 @@
       "id": "live_course_java"
     },
     {
-      "id": "live_course_py_app",
+      "id": "live_course_alg_java",
       "odd": true
     }
   ],
@@ -277,11 +277,7 @@
       "id": "live_course_alg_plus_plus"
     },
     {
-      "id": "live_course_alg_java"
-    },
-    {
-      "id": "live_course_ds",
-      "odd": true
+      "id": "live_course_ds"
     }
   ],
   "coursesSection": {

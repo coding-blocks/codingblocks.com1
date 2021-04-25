@@ -32,19 +32,13 @@
     "price": "12,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2035",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Lakshya Singh, Monu Kumar",
+    "mentors": "Monu Kumar",
     "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
-    "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/lakshya-singh.jpeg",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4244",
-    "startDate": "20th Feb"
+    "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/monu-kumar.jpeg",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5198",
+    "startDate": "24th May"
   },
   "aboutMentor": [
-    {
-      "name": "Lakshya Singh",
-      "profile_pic_link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/lakshya-singh.jpeg",
-      "summary": "Lakshya is an IIITD Btech graduate who has a strong coding background in Java and Python. He is known for his unique understanding of concepts and loves to pursue Deep Learning and Cognitive Neuropsychology in his spare time.",
-      "email": "lakshya.singh@codingblocks.com"
-    },
     {
       "name": "Monu Kumar",
       "profile_pic_link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/monu-kumar.jpeg",
@@ -107,7 +101,7 @@
     }
   ],
   "schedule_days": {
-    "days": "Mon, Tue, Thu, Sat",
+    "days": "Mon, Wed, Thu, Sat",
     "timming": "7:00 PM - 10:00 PM"
   },
   "schedule": [
