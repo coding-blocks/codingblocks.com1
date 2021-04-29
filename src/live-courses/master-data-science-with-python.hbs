@@ -11,43 +11,55 @@
 <br>	
 <br>
 <br>
-<div class="px-md-5 px-4 live-courses mb-5">
+<div class="live-courses">
   {{> courseMeta}}
-  <div class="row">
-    <div class="col-lg-8 mb-lg-0 mb-5">
-      <div class="border-card p-md-5 p-4 mb-5">
-        <div class="font-md">
-          <strong>Summary</strong>
-          <br /><br />
-          Data Science is one of the hottest fields of the 21st century. It is in high demand across the globe with bigwigs like Amazon, Google, Microsoft paying handsome salaries and perks to data scientists. This course aims to provide you with a great kick-start in your data science journey.
-          <br /><br />
-          <strong>Highlights</strong>
-          <br /><br />
-          <ul class="list-style-gradient-bullet my-0">
-            <li>Learning fundamentals like Python Basics, Data Visualization, Data Scraping</li>
-            <li>Building Web Scrappers using Scrapy, Data Cleaning</li>
-            <li>Applying various Machine Learning algorithms like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes, Principal Component Analysis, Feature Engineering, T-SNE Visualizations, Deep Learning & Reinforcement Learning for video games. </li>
-            <li>The complete course is very practical and would ensure you do sufficient hands-on practice on the concepts taught by solving assignments and challenges.</li>
-            Note - Data Science Master Course also includes Live Machine Learning Master Course.
+  <div class="width-limiter">
+    <div class="row px-md-5 px-4">
+      <div class="col-lg-8 mb-lg-0 mb-5">
+        <div class="border-card p-md-5 p-4 mb-5">
+          <div class="font-md">
+            <strong>Summary</strong>
+            <br /><br />
+            Data Science is one of the hottest fields of the 21st century. It is in high demand across the globe with bigwigs like Amazon, Google, Microsoft paying handsome salaries and perks to data scientists. This course aims to provide you with a great kick-start in your data science journey.
+            <br /><br />
+            <strong>Highlights</strong>
+            <br /><br />
+            <ul class="list-style-gradient-bullet my-0">
+              <li>Learning fundamentals like Python Basics, Data Visualization, Data Scraping</li>
+              <li>Building Web Scrappers using Scrapy, Data Cleaning</li>
+              <li>Applying various Machine Learning algorithms like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes, Principal Component Analysis, Feature Engineering, T-SNE Visualizations, Deep Learning & Reinforcement Learning for video games. </li>
+              <li>The complete course is very practical and would ensure you do sufficient hands-on practice on the concepts taught by solving assignments and challenges.</li>
+              Note - Data Science Master Course also includes Live Machine Learning Master Course.
 
-          </ul>
-          <br />
-          <strong>Pre-requisites</strong>
-          <br /><br />
-          There are no pre-requisites to join this course.
-          </pre>
+            </ul>
+            <br />
+            <strong>Pre-requisites</strong>
+            <br /><br />
+            There are no pre-requisites to join this course.
+            </pre>
+          </div>
+        </div>
+        {{>aboutMentor}}
+      </div>
+      <div class="col-lg-4 mb-lg-0 mb-5">
+        {{>liveCourseSchedule}}
+        {{>testTimelines}}
+      </div>
+    </div>
+  </div>
+  {{> studentsSay}}
+  <div class="a-cbm">
+    <div class="width-limiter">
+      <div class="py-50 px-md-5 px-4">
+        <div class="t-align-c mb-30">
+          <div class="heading-5 bold mb-30">Where our Alumni Work</div>
+        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/alumni-companies.png">
         </div>
       </div>
-    	{{>liveCourseSchedule}}
-      {{>aboutMentor}}
     </div>
-    <div class="col-lg-4 mb-lg-0 mb-5">
-            {{>testTimelines}}
-    </div>
-    {{> studentsSay}}
-    {{> floatingFooter}}
   </div>
 </div>
+{{> footer}}
 {{> scripts}}
 </body>
 </html>

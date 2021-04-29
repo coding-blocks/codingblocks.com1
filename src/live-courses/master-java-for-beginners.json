@@ -25,7 +25,7 @@
     "description": "Learn Java at Coding Blocks, best Java training institute in Delhi,  Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
   },
   "courseMeta": {
-    "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+    "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
     "title": "Master DS and Algo with Java",
     "price": "15,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2028",
@@ -34,7 +34,11 @@
     "description": "Start from Basics, become a Java Master!",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/monu-kumar.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5202",
-    "startDate": "24th May"
+    "startDate": "24th May",
+    "gradient": "bg-gradient-blue-light",
+    "interactiveClasses": "45 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "5 Projects"
   },
   "aboutMentor": [
     {

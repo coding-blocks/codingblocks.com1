@@ -1,55 +1,100 @@
 {{#with courseMeta}}
-<div class="a-cbm" style="line-height: unset;">
-  <div class="border-card p-md-5 white p-4 bg-gradient-cyan white mb-5">
-    <div class="d-flex flex-wrap no-gutters justify-content-between">
-      <div class="col-12 col-sm-8 order-sm-1 order-2">
-        <div class="bold" style="font-size: 2.85rem;">{{title}}</div>
-        <div class="mt-4 font-lg">{{description}}</div>
-        <div class="my-5">
-          <div class="mentor-row d-flex align-items-center">
-            <div class="mentor-row__image-container">
-              <img src="{{mentor-img-1}}" class="mentor-row__image-container__mentor-image s-60x60">
-              {{#if mentor-img-2}}
-              <img src="{{mentor-img-2}}" alt="" class="mentor-row__image-container__mentor-image s-60x60">
-              {{/if}}
-              {{#if mentor-img-3}}
-              <img src="{{mentor-img-3}}" alt="" class="mentor-row__image-container__mentor-image s-60x60">
-              {{/if}}
+<div class="a-cbm">
+  <div class="width-limiter">
+    <div class="px-md-5 px-4">
+      <div class="card overflow-hidden p-none mb-50">
+        <div class="position-relative bg-blue pt-sm-40 pt-20 pb-sm-40 pb-70 px-sm-50 px-20 white {{gradient}}">
+          <div class="t-align-c heading-3 bold position-relative py-30">
+            {{title}}
+            <div class="mentor-badge d-lg-block d-none position-absolute" style="right: 0; top: 18px">
+              <div class="row no-gutters align-items-center justify-content-end">
+                <div class="bold pr-20 font-3 t-align-r">
+                  <div>Mentor</div>
+                  <div>{{mentors}}</div>
+                </div>
+                <div class="s-50x50 round">
+                  <img src="https://clinicforspecialchildren.org/wp-content/uploads/2016/08/avatar-placeholder.gif">
+                </div>
+              </div>
             </div>
-            <div class="mentor-row__text-container">
-              <div class="font-md">Instructors</div>
-              <h4 class="bold white" style="margin: unset;">{{mentors}}</h4>
+          </div>
+          <div class="d-lg-none d-block mx-auto" style="width: fit-content;">
+            <div class="row no-gutters align-items-center">
+              <div class="flex-1 bold pl-20 pr-10">
+                <div>Mentor</div>
+                <div>{{mentors}}</div>
+              </div>
+              <div class="s-50x50 round">
+                <img src="https://clinicforspecialchildren.org/wp-content/uploads/2016/08/avatar-placeholder.gif">
+              </div>
+            </div>
+          </div>
+          <div class="s-120x120 round border b-white border-2 position-absolute p-20" style="bottom: -60px; left: 5%; background: inherit;">
+            <img src="{{icon}}">
+          </div>
+        </div>
+        <div class="pt-60 pb-md-60 pb-30 pr-md-50 pr-30 d-sm-block d-none" style="padding-left: calc(5% + 150px);">
+          <div class="row no-gutters align-items-center justify-content-between">
+            <div class="col-lg-7 col-12 mb-lg-none mb-25">
+              <div class="row no-gutters align-items-center">
+                <div class="bold text-gradient-orange col-sm-6 mb-10 pr-15">{{interactiveClasses}}</div>
+                <div class="bold text-gradient-orange col-sm-6 mb-10">{{projects}}</div>
+              </div>
+              <div class="row no-gutters align-items-center">
+                <div class="bold text-gradient-orange col-sm-6 mb-10 pr-15">{{codingProblems}}</div>
+                <div class="bold text-gradient-orange col-sm-6 mb-10">Classes Thrice a week</div>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="d-sm-none d-block mb-20 t-align-r">
+                <span class="heading-5 bold">{{price}}</span>
+                <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
+                {{!-- <span class="heading-6 text-grey-light-1"
+                  style="text-decoration: line-through;">&nbsp;&nbsp;16999</span> --}}
+              </div>
+              <div class="row no-gutters align-items-center justify-content-end">
+                <div class="flex-1 t-align-r v-align-ma d-sm-block d-none">
+                  <span class="heading-5 bold">{{price}}</span>
+                  <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
+                  {{!-- <span class="heading-6 text-grey-light-1"
+                    style="text-decoration: line-through;">&nbsp;&nbsp;16999</span> --}}
+                </div>
+                <button class="button-primary ml-30 mb-none">Buy Now</button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="order-sm-2 order-1 mb-sm-0 mb-3">
-        <img src="{{icon}}" class="round border b-white border-2 s-130x130">
-      </div>
-    </div>
-    <div class="p-15 font-5 br-50 d-sm-none d-block mb-20 t-align-c bold" style="background-color: rgba(255, 255, 255, 0.2);">
-      Dedicated Placement Support
-    </div>
-    <div class="row no-gutters align-items-center justify-content-between">
-      {{!-- <div class="col-xl-8 col-sm-6"></div> --}}
-      <div class="p-15 font-5 br-50 d-sm-block d-none bold" style="background-color: rgba(255, 255, 255, 0.2);">
-        Dedicated Placement Support
-      </div>
-      <div class="flex-1 row no-gutters align-items-center justify-content-end">
-        <div>
-          <div class="row no-gutters align-items-center justify-content-end">
-            <div class="bold heading-5">
-              &#8377;&nbsp;{{price}}
+        <div class="pt-80 pb-20 px-20 d-sm-none d-block">
+          <div class="row no-gutters align-items-center justify-content-between">
+            <div class="col-lg-7 col-12 mb-lg-none mb-25">
+              <div class="row no-gutters align-items-center">
+                <div class="bold text-gradient-orange col-sm-6 mb-10 pr-15">{{interactiveClasses}}</div>
+                <div class="bold text-gradient-orange col-sm-6 mb-10">{{projects}}</div>
+              </div>
+              <div class="row no-gutters align-items-center">
+                <div class="bold text-gradient-orange col-sm-6 mb-10 pr-15">{{codingProblems}}</div>
+                <div class="bold text-gradient-orange col-sm-6 mb-10">Classes Thrice a week</div>
+              </div>
             </div>
-            <div style="text-decoration: line-through;" class="text-grey-light-1 bold heading-6">
-              {{slashedPrice}}
+            <div class="flex-1">
+              <div class="d-sm-none d-block mb-20 t-align-r">
+                <span class="heading-5 bold">{{price}}</span>
+                <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
+                {{!-- <span class="heading-6 text-grey-light-1"
+                  style="text-decoration: line-through;">&nbsp;&nbsp;16999</span> --}}
+              </div>
+              <div class="row no-gutters align-items-center justify-content-end">
+                <div class="flex-1 t-align-r v-align-ma d-sm-block d-none">
+                  <span class="heading-5 bold">{{price}}</span>
+                  <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
+                  {{!-- <span class="heading-6 text-grey-light-1"
+                    style="text-decoration: line-through;">&nbsp;&nbsp;16999</span> --}}
+                </div>
+                <a href="{{test_link_second}}" class="button-primary ml-30 mb-none">Buy Now</a>
+              </div>
             </div>
           </div>
-          <div class="mt-2 font-2">Starting from <strong>{{startDate}}</strong></div>
         </div>
-        <a href="{{test_link_second}}" target="_blank" class="button-solid cyan button-white ml-20">
-          Buy Now
-        </a>
       </div>
     </div>
   </div>

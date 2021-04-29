@@ -1,16 +1,19 @@
-      <div class="border-card p-md-5 p-4 mb-5">
-        {{#each highlights}}
-          <div class="row no-gutters align-items-center justify-content-between">
-            <h5 class="bold flex-1">{{head}}</h5>
-            <img src="{{icon}}">
-          </div>
-          <div class="mt-2 mb-4 " style="font-size: 16px">
-           {{description}}
-          </div>
-        {{/each}}
+<div class="a-cbm">
+  <div class="border-card p-md-5 p-4 mb-30">
+    {{#each highlights}}
+      <div class="row no-gutters align-items-center justify-content-between mb-20">
+        <div class="bold flex-1 font-5 pr-20">{{head}}</div>
+        <img src="{{icon}}">
       </div>
-      <div class="border-card bg-gradient-purple white p-md-5 p-4">
-        <h2 class="bold" style="color: #ffffff">Land your dream job</h2>
-        <div class="mb-4 font-sm">Making you ready for grade A companies</div>
-                  <img src="https://online.codingblocks.com/_nuxt/img/c1b47b5.svg" alt loading="lazy" />
+      <div class="mt-2 mb-4 " style="font-size: 16px">
+        {{description}}
       </div>
+    {{/each}}
+  </div>
+  {{!-- <div class="border-card bg-gradient-purple white p-md-5 p-4">
+    <h2 class="bold" style="color: #ffffff">Land your dream job</h2>
+    <div class="mb-4 font-sm">Making you ready for grade A companies</div>
+    <img src="https://online.codingblocks.com/_nuxt/img/c1b47b5.svg" alt loading="lazy" />
+  </div> --}}
+
+</div>

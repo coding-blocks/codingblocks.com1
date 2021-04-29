@@ -27,7 +27,7 @@
   },
 
   "courseMeta": {
-    "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+    "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
     "title": "Master Algo.Java-Data Structures",
     "price": "12,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2035",
@@ -36,7 +36,11 @@
     "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/monu-kumar.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5198",
-    "startDate": "24th May"
+    "startDate": "24th May",
+    "interactiveClasses": "37 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "5 Projects",
+    "gradient": "bg-gradient-green-light"
   },
   "aboutMentor": [
     {

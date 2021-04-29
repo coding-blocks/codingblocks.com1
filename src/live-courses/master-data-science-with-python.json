@@ -30,7 +30,7 @@
     ]
   },
   "courseMeta": {
-    "icon": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
+    "icon": "https://images.codingblocks.com/img/newcourse_logo/Python_white.png",
     "title": "Master Data Science with Python",
     "price": "27,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2043",
@@ -39,7 +39,11 @@
     "description": "Start from basics, become a industry ready data scientist!",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/princey-yadav.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5204",
-    "startDate": "24th May"
+    "startDate": "24th May",
+    "interactiveClasses": "41 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "5 Projects",
+    "gradient": "bg-gradient-yellow"
   },
   "aboutMentor": [
     {

@@ -33,16 +33,20 @@
     "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
   },
   "courseMeta": {
-    "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
+    "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
     "title": "Master DS and Algo with C++",
-    "price": "15,999",
+    "price": "17,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2020&amp",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Mohit Pandey",
     "description": "Start from Basics, become a C++ Master!",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5189",
-    "startDate": "24th May"
+    "startDate": "24th May",
+    "gradient": "bg-gradient-blue-dark",
+    "interactiveClasses": "47 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "5 Projects"
   },
   "demoClass": [
     {
@@ -96,28 +100,6 @@
       "name": "Samarth Jain",
       "story": "My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
       "image": "https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
-    }
-  ],
-  "highlights": [
-    {
-      "head": "Opportunities unlocked for learner",
-      "description": "Develop a strong approach to coding languages and learn any language further.Learn from scratch with standard libraries and inner algorithms to understand what goes “under the hood”.Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
-      "icon": ""
-    },
-    {
-      "head": "Hands on Projects and Problems:",
-      "description": "Build real-world applications in C++ like Google Maps PathFinder, build games like Tic Tac Toe, Sudoku.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm.",
-      "icon": ""
-    },
-    {
-      "head": "Why choose CB Live:",
-      "description": "Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
-      "icon": ""
-    },
-    {
-      "head": "This course is essential for you:",
-      "description": "If you want to begin with coding as a career.If you have no prior knowledge on coding.If you love solving real-world problems and want to create a solution",
-      "icon": ""
     }
   ],
   "schedule_days": {

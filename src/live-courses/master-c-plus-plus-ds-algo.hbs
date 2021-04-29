@@ -23,49 +23,61 @@
 <br>	
 <br>
 <br>
-<div class="px-md-5 px-4 live-courses mb-5">
+<div class="live-courses">
   {{> courseMeta}}
-  <div class="row">
-    <div class="col-lg-8 mb-lg-0 mb-5">
-      <div class="border-card p-md-5 p-4 mb-5">
-        <div class="font-md">
-          <strong>Summary</strong>
-          <br /><br />
-          First of its kind, our C++ Live course for beginners is a uniquely designed course in Data Structures and
-          Algorithms to aid your journey right from the beginning to the very end in becoming the most skilled software
-          engineers across the globe.Through these Live classes, the students will not only become more efficient with
-          their solutions by optimizing space and time but will also provide them a firm base to excel in all their
-          programming interviews. The core focus of these C++ classes is to maintain an equilibrium between theory and
-          practical, thus providing the programmers with an ample amount of practice of questions based on Sorting,
-          Searching, Greedy Algorithms, Divide and Conquer Algorithms and more.
-          <br /><br />
-          <strong>Highlights</strong>
-          <br /><br />
-          <ul class="list-style-gradient-bullet my-0">
-            <li>Extensive Data Structures & Algorithmic Coverage</li>
-            <li>500+ Video Lectures and Code Challenges</li>
-            <li>Hint Videos for Complex Problems</li>
-            <li>Lifetime Assignment Access</li>
-            <li>Basics & Advanced Coding Topics for Interviews</li>
-            <li>Expert Doubt Support</li>
-          </ul>
-          <br />
-          <strong>Pre-requisites</strong>
-          <br /><br />
-          There are no pre-requisites to join this course.
-          </pre>
+  <div class="width-limiter">
+    <div class="row px-md-5 px-4">
+      <div class="col-lg-8 mb-lg-0 mb-5">
+        <div class="border-card p-md-5 p-4 mb-5">
+          <div class="font-md">
+            <strong>Summary</strong>
+            <br /><br />
+            First of its kind, our C++ Live course for beginners is a uniquely designed course in Data Structures and
+            Algorithms to aid your journey right from the beginning to the very end in becoming the most skilled software
+            engineers across the globe.Through these Live classes, the students will not only become more efficient with
+            their solutions by optimizing space and time but will also provide them a firm base to excel in all their
+            programming interviews. The core focus of these C++ classes is to maintain an equilibrium between theory and
+            practical, thus providing the programmers with an ample amount of practice of questions based on Sorting,
+            Searching, Greedy Algorithms, Divide and Conquer Algorithms and more.
+            <br /><br />
+            <strong>Highlights</strong>
+            <br /><br />
+            <ul class="list-style-gradient-bullet my-0">
+              <li>Extensive Data Structures & Algorithmic Coverage</li>
+              <li>500+ Video Lectures and Code Challenges</li>
+              <li>Hint Videos for Complex Problems</li>
+              <li>Lifetime Assignment Access</li>
+              <li>Basics & Advanced Coding Topics for Interviews</li>
+              <li>Expert Doubt Support</li>
+            </ul>
+            <br />
+            <strong>Pre-requisites</strong>
+            <br /><br />
+            There are no pre-requisites to join this course.
+            </pre>
+          </div>
+        </div>
+        {{>aboutMentor}}
+      </div>
+      <div class="col-lg-4 mb-lg-0 mb-5">
+        {{>liveCourseSchedule}}
+        {{>testTimelines}}
+      </div>
+    </div>
+  </div>
+  {{> studentsSay}}
+  <div class="a-cbm">
+    <div class="width-limiter">
+      <div class="py-50 px-md-5 px-4">
+        <div class="t-align-c mb-30">
+          <div class="heading-5 bold mb-30">Where our Alumni Work</div>
+        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/alumni-companies.png">
         </div>
       </div>
-    	{{>liveCourseSchedule}}
-      {{>aboutMentor}}
     </div>
-    <div class="col-lg-4 mb-lg-0 mb-5">
-            {{>testTimelines}}
-    </div>
-    {{> studentsSay}}
-    {{> floatingFooter}}
   </div>
 </div>
+{{> footer}}
 {{> scripts}}
 </body>
 </html>
