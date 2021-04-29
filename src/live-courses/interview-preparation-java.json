@@ -20,8 +20,8 @@
   },
   "aboutMentor": [
     {
-      "name":"Kartik Sapra",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
+      "name": "Kartik Sapra",
+      "profile_pic_link": "https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
       "summary": " ",
       "email": "kartik.sapra@codingblocks.com"
     }
@@ -33,14 +33,14 @@
     "description": "Coding Blocks is the best Java training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
   },
   "courseMeta": {
-    "icon": "https://minio.codingblocks.com/amoeba/215fa6ed-14f3-4d1e-87d5-d9d71cf0d0dd.svg",
+    "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
     "title": "Interview Preparation Java Course",
     "price": "13,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=4548",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Kartik Sapra",
     "description": "Start from Basics, become a Java expert!",
-    "mentor-img-1" : "https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/7d39f651-5693-42df-858d-f2c2d1d6a1a4",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4548",
     "startDate": "28th Feb"
   },
@@ -110,7 +110,10 @@
     { "lecture": "Lecture 5", "description": "Stack" },
     { "lecture": "Lecture 6", "description": "Queue" },
     { "lecture": "Lecture 7", "description": "Binary Trees" },
-    { "lecture": "Lecture 8", "description": "Binary Trees & BInary Search Trees" },
+    {
+      "lecture": "Lecture 8",
+      "description": "Binary Trees & BInary Search Trees"
+    },
     { "lecture": "Lecture 9", "description": "Bitmasking" },
     { "lecture": "Lecture 10", "description": "Recursion - 1" },
     { "lecture": "Lecture 11", "description": "Recursion - 2" },
@@ -128,14 +131,32 @@
     { "lecture": "Lecture 23", "description": "Tries" },
     { "lecture": "Lecture 24", "description": "Segment Trees" },
     { "lecture": "Lecture 25", "description": "Operating Systems" },
-    { "lecture": "Lecture 26", "description": "Process Synchronization and Classical Problems in Operating System" },
+    {
+      "lecture": "Lecture 26",
+      "description": "Process Synchronization and Classical Problems in Operating System"
+    },
     { "lecture": "Lecture 27", "description": "DBMS" },
-    { "lecture": "Lecture 28", "description": "Normalization And Lossless Join Decomposition" },
-    { "lecture": "Lecture 29", "description": "Transaction and Concurrency Control and Transaction Isolation Levels" },
+    {
+      "lecture": "Lecture 28",
+      "description": "Normalization And Lossless Join Decomposition"
+    },
+    {
+      "lecture": "Lecture 29",
+      "description": "Transaction and Concurrency Control and Transaction Isolation Levels"
+    },
     { "lecture": "Lecture 30", "description": "My-SQL" },
-    { "lecture": "Lecture 31", "description": "Introduction of Computer Networking" },
-    { "lecture": "Lecture 32", "description": "Network layer and Routing Protocols" },
-    { "lecture": "Lecture 33", "description": "Flow Control and Access Control" },
+    {
+      "lecture": "Lecture 31",
+      "description": "Introduction of Computer Networking"
+    },
+    {
+      "lecture": "Lecture 32",
+      "description": "Network layer and Routing Protocols"
+    },
+    {
+      "lecture": "Lecture 33",
+      "description": "Flow Control and Access Control"
+    },
     { "lecture": "Lecture 34", "description": "System Designs" },
     { "lecture": "Lecture 35", "description": "Case Study on System Design" }
   ]
