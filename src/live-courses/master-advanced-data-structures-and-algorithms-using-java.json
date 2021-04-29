@@ -36,7 +36,11 @@
     "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/monu-kumar.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5198",
-    "startDate": "24th May"
+    "startDate": "24th May",
+    "interactiveClasses": "37 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "5 Projects",
+    "gradient": "card bg-gradient-blue-light t-align-c white"
   },
   "aboutMentor": [
     {

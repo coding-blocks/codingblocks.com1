@@ -11,44 +11,56 @@
 <br>	
 <br>
 <br>
-<div class="px-md-5 px-4 live-courses mb-5">
+<div class="live-courses">
   {{> courseMeta}}
-  <div class="row">
-    <div class="col-lg-8 mb-lg-0 mb-5">
-      <div class="border-card p-md-5 p-4 mb-5">
-        <div class="font-md">
-          <strong>Summary</strong>
-          <br /><br />
-          First of its kind, our Java Live course for beginners is a uniquely designed Live course in Data Structures and Algorithms to aid your journey right from the beginning to the very end in becoming the most skilled software engineers across the globe. The Live course, designed in absolute coherence with our Online course, is to help students become more efficient with their solutions by optimizing time and space. The course provides a firm base for students to excel in all their programming interviews. The core focus of these Live Java classes would be to maintain an equilibrium between theory and practice, thus providing programmers with ample amount of practice questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming and more.
-          <br /><br />
-          <strong>Highlights</strong>
-          <br /><br />
-          <ul class="list-style-gradient-bullet my-0">
-            <li>Extensive Data Structures & Algorithmic Coverage</li>
-            <li>Comfort of Home</li>
-            <li>Guidance by Industry-expert Mentors</li>
-            <li>Two-way Interactive Sessions</li>
-            <li>Recorded Videos after Live Lectures</li>
-            <li>Handwritten Mentor Notes</li>
-            <li>Immediate Doubt Resolution during Lectures</li>
-          </ul>
-          <br />
-          <strong>Pre-requisites</strong>
-          <br /><br />
-          There are no pre-requisites to join this course.
-          </pre>
+  <div class="width-limiter">
+    <div class="row px-md-5 px-4">
+      <div class="col-lg-8 mb-lg-0 mb-5">
+        <div class="border-card p-md-5 p-4 mb-5">
+          <div class="font-md">
+            <strong>Summary</strong>
+            <br /><br />
+            First of its kind, our Java Live course for beginners is a uniquely designed Live course in Data Structures and Algorithms to aid your journey right from the beginning to the very end in becoming the most skilled software engineers across the globe. The Live course, designed in absolute coherence with our Online course, is to help students become more efficient with their solutions by optimizing time and space. The course provides a firm base for students to excel in all their programming interviews. The core focus of these Live Java classes would be to maintain an equilibrium between theory and practice, thus providing programmers with ample amount of practice questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming and more.
+            <br /><br />
+            <strong>Highlights</strong>
+            <br /><br />
+            <ul class="list-style-gradient-bullet my-0">
+              <li>Extensive Data Structures & Algorithmic Coverage</li>
+              <li>Comfort of Home</li>
+              <li>Guidance by Industry-expert Mentors</li>
+              <li>Two-way Interactive Sessions</li>
+              <li>Recorded Videos after Live Lectures</li>
+              <li>Handwritten Mentor Notes</li>
+              <li>Immediate Doubt Resolution during Lectures</li>
+            </ul>
+            <br />
+            <strong>Pre-requisites</strong>
+            <br /><br />
+            There are no pre-requisites to join this course.
+            </pre>
+          </div>
+        </div>
+        {{>aboutMentor}}
+      </div>
+      <div class="col-lg-4 mb-lg-0 mb-5">
+        {{>liveCourseSchedule}}
+        {{>testTimelines}}
+      </div>
+    </div>
+  </div>
+  {{> studentsSay}}
+  <div class="a-cbm">
+    <div class="width-limiter">
+      <div class="py-50 px-md-5 px-4">
+        <div class="t-align-c mb-30">
+          <div class="heading-5 bold mb-30">Where our Alumni Work</div>
+        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/alumni-companies.png">
         </div>
       </div>
-    	{{>liveCourseSchedule}}
-      {{>aboutMentor}}
     </div>
-    <div class="col-lg-4 mb-lg-0 mb-5">
-            {{>testTimelines}}
-    </div>
-    {{> studentsSay}}
-    {{> floatingFooter}}
   </div>
 </div>
+{{> footer}}
 {{> scripts}}
 </body>
 </html>
