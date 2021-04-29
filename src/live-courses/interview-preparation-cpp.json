@@ -20,8 +20,8 @@
   },
   "aboutMentor": [
     {
-      "name":"Mosina Ashraf",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
+      "name": "Mosina Ashraf",
+      "profile_pic_link": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
       "summary": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
       "email": "mosina.ashraf@codingblocks.com"
     }
@@ -43,7 +43,8 @@
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
     "mentor-img-2": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4547",
-    "startDate": "28th Feb"
+    "startDate": "24th May",
+    "gradient": "bg-gradient-blue-dark"
   },
   "demoClass": [
     {
@@ -111,7 +112,10 @@
     { "lecture": "Lecture 5", "description": "Stack" },
     { "lecture": "Lecture 6", "description": "Queue" },
     { "lecture": "Lecture 7", "description": "Binary Trees" },
-    { "lecture": "Lecture 8", "description": "Binary Trees & BInary Search Trees" },
+    {
+      "lecture": "Lecture 8",
+      "description": "Binary Trees & BInary Search Trees"
+    },
     { "lecture": "Lecture 9", "description": "Bitmasking" },
     { "lecture": "Lecture 10", "description": "Recursion - 1" },
     { "lecture": "Lecture 11", "description": "Recursion - 2" },
@@ -129,14 +133,32 @@
     { "lecture": "Lecture 23", "description": "Tries" },
     { "lecture": "Lecture 24", "description": "Segment Trees" },
     { "lecture": "Lecture 25", "description": "Operating Systems" },
-    { "lecture": "Lecture 26", "description": "Process Synchronization and Classical Problems in Operating System" },
+    {
+      "lecture": "Lecture 26",
+      "description": "Process Synchronization and Classical Problems in Operating System"
+    },
     { "lecture": "Lecture 27", "description": "DBMS" },
-    { "lecture": "Lecture 28", "description": "Normalization And Lossless Join Decomposition" },
-    { "lecture": "Lecture 29", "description": "Transaction and Concurrency Control and Transaction Isolation Levels" },
+    {
+      "lecture": "Lecture 28",
+      "description": "Normalization And Lossless Join Decomposition"
+    },
+    {
+      "lecture": "Lecture 29",
+      "description": "Transaction and Concurrency Control and Transaction Isolation Levels"
+    },
     { "lecture": "Lecture 30", "description": "My-SQL" },
-    { "lecture": "Lecture 31", "description": "Introduction of Computer Networking" },
-    { "lecture": "Lecture 32", "description": "Network layer and Routing Protocols" },
-    { "lecture": "Lecture 33", "description": "Flow Control and Access Control" },
+    {
+      "lecture": "Lecture 31",
+      "description": "Introduction of Computer Networking"
+    },
+    {
+      "lecture": "Lecture 32",
+      "description": "Network layer and Routing Protocols"
+    },
+    {
+      "lecture": "Lecture 33",
+      "description": "Flow Control and Access Control"
+    },
     { "lecture": "Lecture 34", "description": "System Designs" },
     { "lecture": "Lecture 35", "description": "Case Study on System Design" }
   ]
