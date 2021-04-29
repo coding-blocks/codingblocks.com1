@@ -33,16 +33,20 @@
     "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
   },
   "courseMeta": {
-    "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
+    "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
     "title": "Master DS and Algo with C++",
-    "price": "15,999",
+    "price": "17,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2020&amp",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Mohit Pandey",
     "description": "Start from Basics, become a C++ Master!",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5189",
-    "startDate": "24th May"
+    "startDate": "24th May",
+    "gradient": "bg-gradient-blue-dark",
+    "interactiveClasses": "47 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "5 Projects"
   },
   "demoClass": [
     {

@@ -1,60 +1,95 @@
 {{#with courseMeta}}
-<div class="card overflow-hidden p-none mb-70">
-  <div class="position-relative bg-gradient-blue-light pt-sm-40 pt-20 pb-sm-40 pb-70 px-sm-50 px-20 white {{gradient}}">
-    <div class="t-align-c heading-3 bold">
-      {{title}}
-    </div>
-    <div class="d-lg-none d-block mx-auto mt-25" style="width: fit-content;">
-      <div class="row no-gutters align-items-center">
-        <div class="flex-1 bold pl-20 pr-10">
-          <div>Mentor</div>
-          <div>{{mentors}}</div>
-        </div>
-        <div class="s-50x50 round">
-          <img src="https://minio.cb.lk/oneauth-assets/user27931_1585818284983.jpg">
-        </div>
-      </div>
-    </div>
-    <div class="mentor-badge d-lg-block d-none">
-      <div class="row no-gutters align-items-center">
-        <div class="flex-1 bold pl-20 pr-10">
-          <div>Mentor</div>
-          <div>{{mentors}}</div>
-        </div>
-        <div class="s-50x50 round">
-          <img src="https://minio.cb.lk/oneauth-assets/user27931_1585818284983.jpg">
-        </div>
-      </div>
-    </div>
-    <div class="s-120x120 round border b-white border-2 position-absolute" style="bottom: -60px; left: 5%;">
-      <img src="https://minio.codingblocks.com/amoeba/e5171581-41d8-46f5-97bf-c47db8214f22.png">
-    </div>
-  </div>
-  <div class="py-60 pr-sm-50 pr-20" style="padding-left: calc(5% + 150px);">
-    <div class="row no-gutters align-items-center justify-content-between">
-      <div class="col-lg-5 col-12 mb-lg-none mb-25">
-        <div class="row no-gutters align-items-center">
-          <div class="col-sm-6 mb-10 pr-10">24 Live Interactive Classes</div>
-          <div class="col-sm-6 mb-10">5 Projects</div>
-        </div>
-        <div class="row no-gutters align-items-center">
-          <div class="col-sm-6 mb-10 pr-10">250-300 hands on coding problems</div>
-          <div class="col-sm-6 mb-10">Classes Thrice a week</div>
-        </div>
-      </div>
-      <div class="flex-1">
-        <div class="d-sm-none d-block mb-20 t-align-r">
-          <span class="heading-5 bold">12999</span>
-          <span class="heading-6 text-grey-light-1"
-            style="text-decoration: line-through;">&nbsp;&nbsp;16999</span>
-        </div>
-        <div class="row no-gutters align-items-center justify-content-end">
-          <div class="flex-1 t-align-r v-align-ma d-sm-block d-none">
-            <span class="heading-5 bold">12999</span>
-            <span class="heading-6 text-grey-light-1"
-              style="text-decoration: line-through;">&nbsp;&nbsp;16999</span>
+<div class="a-cbm">
+  <div class="card overflow-hidden p-none mb-50">
+    <div class="position-relative bg-blue pt-sm-40 pt-20 pb-sm-40 pb-70 px-sm-50 px-20 white {{gradient}}">
+      <div class="t-align-c heading-3 bold position-relative py-30">
+        {{title}}
+        <div class="mentor-badge d-lg-block d-none position-absolute" style="right: 0; top: 18px">
+          <div class="row no-gutters align-items-center justify-content-end">
+            <div class="bold pr-20 font-3 t-align-r">
+              <div>Mentor</div>
+              <div>{{mentors}}</div>
+            </div>
+            <div class="s-50x50 round">
+              <img src="https://minio.cb.lk/oneauth-assets/user27931_1585818284983.jpg">
+            </div>
           </div>
-          <button class="button-primary ml-30">Buy Now</button>
+        </div>
+      </div>
+      <div class="d-lg-none d-block mx-auto" style="width: fit-content;">
+        <div class="row no-gutters align-items-center">
+          <div class="flex-1 bold pl-20 pr-10">
+            <div>Mentor</div>
+            <div>{{mentors}}</div>
+          </div>
+          <div class="s-50x50 round">
+            <img src="https://minio.cb.lk/oneauth-assets/user27931_1585818284983.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="s-120x120 round border b-white border-2 position-absolute p-20" style="bottom: -60px; left: 5%; background: inherit;">
+        <img src="{{icon}}">
+      </div>
+    </div>
+    <div class="pt-60 pb-md-60 pb-30 pr-md-50 pr-30 d-sm-block d-none" style="padding-left: calc(5% + 150px);">
+      <div class="row no-gutters align-items-center justify-content-between">
+        <div class="col-lg-7 col-12 mb-lg-none mb-25">
+          <div class="row no-gutters align-items-center">
+            <div class="bold text-gradient-orange col-sm-6 mb-10 pr-15">{{interactiveClasses}}</div>
+            <div class="bold text-gradient-orange col-sm-6 mb-10">{{projects}}</div>
+          </div>
+          <div class="row no-gutters align-items-center">
+            <div class="bold text-gradient-orange col-sm-6 mb-10 pr-15">{{codingProblems}}</div>
+            <div class="bold text-gradient-orange col-sm-6 mb-10">Classes Thrice a week</div>
+          </div>
+        </div>
+        <div class="flex-1">
+          <div class="d-sm-none d-block mb-20 t-align-r">
+            <span class="heading-5 bold">{{price}}</span>
+            <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
+            {{!-- <span class="heading-6 text-grey-light-1"
+              style="text-decoration: line-through;">&nbsp;&nbsp;16999</span> --}}
+          </div>
+          <div class="row no-gutters align-items-center justify-content-end">
+            <div class="flex-1 t-align-r v-align-ma d-sm-block d-none">
+              <span class="heading-5 bold">{{price}}</span>
+              <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
+              {{!-- <span class="heading-6 text-grey-light-1"
+                style="text-decoration: line-through;">&nbsp;&nbsp;16999</span> --}}
+            </div>
+            <button class="button-primary ml-30 mb-none">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pt-80 pb-20 px-20 d-sm-none d-block">
+      <div class="row no-gutters align-items-center justify-content-between">
+        <div class="col-lg-7 col-12 mb-lg-none mb-25">
+          <div class="row no-gutters align-items-center">
+            <div class="bold text-gradient-orange col-sm-6 mb-10 pr-15">{{interactiveClasses}}</div>
+            <div class="bold text-gradient-orange col-sm-6 mb-10">{{projects}}</div>
+          </div>
+          <div class="row no-gutters align-items-center">
+            <div class="bold text-gradient-orange col-sm-6 mb-10 pr-15">{{codingProblems}}</div>
+            <div class="bold text-gradient-orange col-sm-6 mb-10">Classes Thrice a week</div>
+          </div>
+        </div>
+        <div class="flex-1">
+          <div class="d-sm-none d-block mb-20 t-align-r">
+            <span class="heading-5 bold">{{price}}</span>
+            <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
+            {{!-- <span class="heading-6 text-grey-light-1"
+              style="text-decoration: line-through;">&nbsp;&nbsp;16999</span> --}}
+          </div>
+          <div class="row no-gutters align-items-center justify-content-end">
+            <div class="flex-1 t-align-r v-align-ma d-sm-block d-none">
+              <span class="heading-5 bold">{{price}}</span>
+              <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
+              {{!-- <span class="heading-6 text-grey-light-1"
+                style="text-decoration: line-through;">&nbsp;&nbsp;16999</span> --}}
+            </div>
+            <button class="button-primary ml-30 mb-none">Buy Now</button>
+          </div>
         </div>
       </div>
     </div>

@@ -35,7 +35,7 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
     "title": "Interview Preparation C++ Course",
-    "price": "13,999",
+    "price": "17,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=4547",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Mosina Ashraf",
@@ -44,7 +44,10 @@
     "mentor-img-2": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4547",
     "startDate": "24th May",
-    "gradient": "bg-gradient-blue-dark"
+    "gradient": "bg-gradient-blue-dark",
+    "interactiveClasses": "47 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "5 Projects"
   },
   "demoClass": [
     {
