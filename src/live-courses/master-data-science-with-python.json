@@ -39,7 +39,11 @@
     "description": "Start from basics, become a industry ready data scientist!",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/princey-yadav.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5204",
-    "startDate": "24th May"
+    "startDate": "24th May",
+    "interactiveClasses": "41 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "5 Projects",
+    "gradient": "bg-gradient-yellow"
   },
   "aboutMentor": [
     {
