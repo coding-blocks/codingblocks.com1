@@ -34,7 +34,11 @@
     "description": "Start from Basics, become a Java Master!",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/monu-kumar.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5202",
-    "startDate": "24th May"
+    "startDate": "24th May",
+    "gradient": "bg-gradient-blue-light",
+    "interactiveClasses": "45 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "5 Projects"
   },
   "aboutMentor": [
     {

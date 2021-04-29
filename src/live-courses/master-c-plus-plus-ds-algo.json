@@ -102,28 +102,6 @@
       "image": "https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
-  "highlights": [
-    {
-      "head": "Opportunities unlocked for learner",
-      "description": "Develop a strong approach to coding languages and learn any language further.Learn from scratch with standard libraries and inner algorithms to understand what goes “under the hood”.Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
-      "icon": ""
-    },
-    {
-      "head": "Hands on Projects and Problems:",
-      "description": "Build real-world applications in C++ like Google Maps PathFinder, build games like Tic Tac Toe, Sudoku.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm.",
-      "icon": ""
-    },
-    {
-      "head": "Why choose CB Live:",
-      "description": "Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
-      "icon": ""
-    },
-    {
-      "head": "This course is essential for you:",
-      "description": "If you want to begin with coding as a career.If you have no prior knowledge on coding.If you love solving real-world problems and want to create a solution",
-      "icon": ""
-    }
-  ],
   "schedule_days": {
     "days": "Mon, Wed, Thu and Sat",
     "timming": "7:00 PM - 10:00 PM"
