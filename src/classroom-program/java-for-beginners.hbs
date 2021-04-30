@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+
+<head>
   <title>{{title}}</title>
   {{> meta}}
   {{> head}}
@@ -80,7 +81,8 @@
                   </div>
                   <div class="d-sm-block d-none">
                     {{!-- This button would scroll down to the sections where batches are listed --}}
-                    <button class="button-primary buy-scroll-button" type="button" onclick="scrollNow(document.getElementById('courses'))">
+                    <button class="button-primary buy-scroll-button" type="button"
+                      onclick="scrollNow(document.getElementById('courses'))">
                       Choose Batch
                     </button>
                   </div>
@@ -156,10 +158,10 @@
             </div>
             <a href="#" class="button-secondary">Download Syllabus</a>
           </div>
-        <div class="row no-gutters align-items-center syllabus-grid-section">
+          <div class="row no-gutters align-items-center syllabus-grid-section">
             {{#each syallabus}}
-          <div class="col-md-4 col-sm-6 col-12 h-inherit syllabus-grid-card">
-            <div class="card br-none flex-col h-100 p-sm-30 p-20">
+            <div class="col-md-4 col-sm-6 col-12 h-inherit syllabus-grid-card">
+              <div class="card br-none flex-col h-100 p-sm-30 p-20">
                 <div class="font-5 bold text-clamp-ellipses text-clamp-ellipses--2 pb-20 border-bottom w-100">{{ title}}
                 </div>
                 <ul class="list-style-gradient-bullet mt-20 w-100 mb-none">
@@ -205,7 +207,8 @@
               </div>
             </div>
             <div class="flex-1 pl-20 row no-gutters justify-content-end">
-              <a href="https://dukaan.codingblocks.com/buy?productId={{product_id}}" class="button-primary ml-20">Enroll</a>
+              <a href="https://dukaan.codingblocks.com/buy?productId={{product_id}}"
+                class="button-primary ml-20">Enroll</a>
             </div>
           </div>
           {{/each}}
@@ -239,26 +242,31 @@
       <div class="width-limiter">
         <div class="py-50 px-md-5 px-4">
           <div class="row mx-0 c-card-carousel-lg" style="padding-top: 4rem;">
-            {{!-- {{#each studentsSay}} --}}
+            {{#each courseReviews}}
+            {{#each @root.reviews.reviewsList}}
+            {{#ifEquals ../this this.name}}
+
             <div class="col-lg-4 col-md-6 col-sm-8 col-12">
               <div class="border-card img-review-card p-md-5 p-4" style="height:100%">
                 <div class="author">
                   <div class="img-ring s-100x100">
-                    <img class="round img" src="https://images.codingblocks.com/img/mentor/Kartik%20Sapra.png">
+                    <img class="round img" alt="coding-blocks-reviews"
+                      src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
                   </div>
                 </div>
                 <div class="icon">
                   <i class="fas fa-quote-left orange" style="font-size:3rem;"></i>
                 </div>
 
-                <h5 class="bold t-align-c mb-4">Some Name</h5>
+                <h5 class="bold t-align-c mb-4">{{name}}</h5>
                 <div class="review-body">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s,
+                  {{review}}
                 </div>
               </div>
             </div>
-            {{!-- {{/each}} --}}
+            {{/ifEquals}}
+            {{/each}}
+            {{/each}}
           </div>
         </div>
       </div>
@@ -280,7 +288,7 @@
           </div>
         </div>
         {{#each faqs}}
-         <div class="faq-element-container pointer">
+        <div class="faq-element-container pointer">
           <div class="faq-question row no-gutters align-items-center justify-content-between p-20">
             <div class="font-4 bold flex-1">
               {{ques}}
@@ -288,7 +296,7 @@
             {{!-- <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/plus.svg" class="sign" /> --}}
           </div>
           <div class="faq-answer p-20">
-              {{ans}}
+            {{ans}}
           </div>
         </div>
         {{/each}}
@@ -299,4 +307,4 @@
   {{> scripts}}
 </body>
 
-</html> 
+</html>

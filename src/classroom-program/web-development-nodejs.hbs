@@ -235,30 +235,35 @@
         </div>
       </div>
     </div>
-    <div class="bg-grey-light-3">
+ <div class="bg-grey-light-3">
       <div class="width-limiter">
         <div class="py-50 px-md-5 px-4">
           <div class="row mx-0 c-card-carousel-lg" style="padding-top: 4rem;">
-            {{!-- {{#each studentsSay}} --}}
+            {{#each courseReviews}}
+            {{#each @root.reviews.reviewsList}}
+            {{#ifEquals ../this this.name}}
+
             <div class="col-lg-4 col-md-6 col-sm-8 col-12">
               <div class="border-card img-review-card p-md-5 p-4" style="height:100%">
                 <div class="author">
                   <div class="img-ring s-100x100">
-                    <img class="round img" src="https://images.codingblocks.com/img/mentor/Kartik%20Sapra.png">
+                    <img class="round img" alt="coding-blocks-reviews"
+                      src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
                   </div>
                 </div>
                 <div class="icon">
                   <i class="fas fa-quote-left orange" style="font-size:3rem;"></i>
                 </div>
 
-                <h5 class="bold t-align-c mb-4">Some Name</h5>
+                <h5 class="bold t-align-c mb-4">{{name}}</h5>
                 <div class="review-body">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s,
+                  {{review}}
                 </div>
               </div>
             </div>
-            {{!-- {{/each}} --}}
+            {{/ifEquals}}
+            {{/each}}
+            {{/each}}
           </div>
         </div>
       </div>
