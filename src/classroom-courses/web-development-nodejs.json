@@ -12,6 +12,7 @@
       "content": "full stack developer course, full stack developer course, node js training, mean stack course, full stack developer training, full stack java developer course"
     }
   ],
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
   "openGraph": {
     "url": "https://codingblocks.com/classroom-courses/web-development-nodejs.html",
     "title": "Best Web Development with NodeJS in India",
@@ -40,7 +41,7 @@
   "overview": {
     "content": "The Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with Javascript for both Frontend as well as backend use-cases.<br /><br />Our course is a project-based web development Full Stack course with backend in NodeJS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor who will guide them while they work on web development projects. Our FullStack Web Development course enables students to go live with their websites and add flair to their resumes."
   },
-  "courseHighlights": [
+  "highlights": [
     {
       "icon": "et-line-edit",
       "title": "Web Design",
@@ -62,81 +63,47 @@
       "content": "You'll learn how to implement a Login System as well as Authentication using social logins using Passport.JS."
     }
   ],
-  "courseContents": [
-    {
-      "active": true,
-      "title": "HTML/CSS",
-      "contentTitle": "HTML/CSS",
-      "description": "The building blocks of web pages - HTML and CSS. Learn how to use the latest HTML5 web development technologies along with CSS3 stylesheets to create responsive eye-catching web sites. We also cover UI design patterns like:",
-      "lectures": "Lectures 1-2",
-      "points": [
-        "Table Layouts",
-        "Flex Boxes",
-        "Bootstrap Columns",
-        "Media Queries and Mobile Responsive Design",
-        "Grids"
-      ]
-    },
-    {
-      "title": "Javascript",
-      "contentTitle": "Javascript",
-      "description": "HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like 'clicks', 'hovers' and 'drag and drop'. Javascript is one of the most powerful and ubiquitious languages in modern software development and our course covers it in depth including:",
-      "lectures": "Lecture: 3-10",
-      "points": [
-        "ECMAScript 6 Syntax and Standards",
-        "Function Closures and IIFEs",
-        "Classes, Constructors and Prototypes",
-        "Lexical Scopes, Arrow Functions and Variable spreading"
-      ]
-    },
-    {
-      "title": "UNIX AND Git",
-      "contentTitle": "UNIX AND Git",
-      "description": "Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world's servers are hosted on Linux machines, and any web backend developer is expected to know basic DevOps and SysAdmin skills in order to manage a Linux OS. Also - Git, which is the most commonly used version control system - is one of the most helpful tools for working on large projects or in collaborative environments",
-      "lectures": "Lecture 11-12",
-      "points": [
-        "Unix and SysAdmin/Devops",
-        "Schema Designing",
-        "Git"
-      ]
-    },
-    {
-      "title": "NODEJS",
-      "contentTitle": "NODEJS",
-      "description": "Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is currently the fastest growing ecosystem. We will cover:",
-      "lectures": "Lecture 12-16",
-      "points": [
-        "NodeJS Modules",
-        "Filesystem API, Events and Streams",
-        "ExpressJS Framework for creating REST APIs",
-        "Handlebars for server side web rendering",
-        "Socket.IO for realtime communication"
-      ]
-    },
-    {
-      "title": "Databases",
-      "contentTitle": "Databases",
-      "description": "What is a server if it cannot store data on databases. We will cover storing data in:",
-      "lectures": "Lectures 17-18",
-      "points": [
-        "Flat files on server",
-        "MySQL",
-        "Using ORMs like Sequelize",
-        "MongoDB"
-      ]
-    },
-    {
-      "title": "Advanced Topics & Deployment",
-      "contentTitle": "Advanced Topics & Deployment",
-      "lectures": "Lectures 19-25",
-      "description": "Finally, we will cover adding basic security to websites including user authentication and authorization, SSL transport, checking for SQL injection and other vulnerabilities. We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
-      "points": [
-        "Security",
-        "Scaling",
-        "Using Frontend Templates",
-        "3rd Party Libraries and Frameworks",
-        "Deploying a live web project"
-      ]
+  "difficulty": "Beginner",
+  "batches": [
+      {
+          "course": "Web Dev",
+          "timings": "4:00PM-7:00PM",
+          "mentor": "Kartik Mathur/Sabeel",
+          "strength": 35,
+          "days": "T T Sat",
+          "start_date": "5th June",
+          "runcode": "WDPP21MAY",
+          "product_id": 5169,
+          "location": "Pitampura"
+      },
+      {
+          "course": "Web Dev",
+          "timings": "4:00PM-7:00PM",
+          "mentor": "Sabeel",
+          "strength": 35,
+          "days": "M W F Sat",
+          "start_date": "7th June",
+          "runcode": "WDND21MAY",
+          "product_id": 5166,
+          "location": "Noida"
+      }
+  ],
+  "mentors": [
+      {
+          "name": "Sabeel Khan",
+          "contact": "sabeel.khan@codingblocks.com",
+          "img": "https://minio.cb.lk/public/sabeel-khan.jpeg",
+          "description": "Sabeel is a CS Graduate from JMI.A competitive programmar, with an undying passion for teaching.He is proficient with C++ and Web Development related technologies like HTML, CSS, Javascript,NodeJS along with Python development.Web Series lover and always ready to explore new appetizing food.",
+          "designation": "Mentor",
+          "highlights": null
+      },
+      {
+        "name": "Kartik Mathur",
+        "contact": "kartik.mathur@codingblocks.com",
+        "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+        "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+        "designation": "Mentor",
+        "highlights": null
     }
   ],
   "faqs": [
@@ -169,23 +136,130 @@
       }
     ]
   },
-  "mentors": {
-    "heading": "Mentors",
-    "content": "",
-    "flip": true,
-    "companies": false,
-    "contentCenter": true,
-    "teamMembers": [
-      "Arnav Gupta",
-      "Aayush Arora",
-      "Rishabh Khanna"
-    ]
-  },
   "courseReviews": [
     "RISHABH MENDIRATTA",
     "SHIVAM GANDHI",
     "SANDEEP RANJAN"
   ],
+  "syallabus": [
+    {
+        "title": "HTML/CSS",
+        "lecture_count": "1-7",
+        "sectionDescription": "The building blocks of web pages - HTML and CSS. Learn how to use the latest HTML5 web development technologies along with CSS3 stylesheets to create responsive eye-catching web sites. We also cover UI design patterns like:",
+        "sectionContent": [
+            "Table Layouts",
+            "HTML Forms",
+            "Flex Boxes",
+            "Media Queries and Mobile Responsive Design",
+            "Animations",
+            "3D Transform",
+            "Grids",
+            "Bootstrap"
+        ]
+    },
+    {
+        "title": " Javascript",
+        "lecture_count": " 8-14",
+        "sectionDescription": " HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like 'clicks', 'hovers' and 'drag and drop'. Javascript is one of the most powerful and ubiquitious languages in modern software development and our course covers it in depth including:",
+        "sectionContent": [
+            "ECMAScript 6 Syntax and Standards",
+            "Function and Closures",
+            "Classes, Constructors and Prototypes",
+            "Lexical Scopes, Arrow Functions and Variable spreading",
+            "Asynchronous Programming",
+            "DOM Manipulation",
+            "jQuery",
+            "AJAX and APIs"
+        ]
+    },
+    {
+        "title": " UNIX AND Git",
+        "lecture_count": " 15",
+        "sectionDescription": " Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world's servers are hosted on Linux machines, and any web backend developer is expected to know basic DevOps and SysAdmin skills in order to manage a Linux OS. Also - Git, which is the most commonly used version control system - is one of the most helpful tools for working on large projects or in collaborative environments",
+        "sectionContent": [
+            "Unix and SysAdmin/Devops",
+            "Schema Designing",
+            "Git"
+        ]
+    },
+    {
+        "title": " NODEJS",
+        "lecture_count": " 16-19",
+        "sectionDescription": " Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is currently the fastest growing ecosystem. We will cover:",
+        "sectionContent": [
+            "NodeJS Modules",
+            "Filesystem API, Events and Streams",
+            "ExpressJS Framework for creating REST APIs",
+            "Handlebars/EJS for server side web rendering",
+            "Socket.IO for realtime communication"
+        ]
+    },
+    {
+        "title": " Databases",
+        "lecture_count": " 20-21",
+        "sectionDescription": " What is a server if it cannot store data on databases. We will cover storing data in:",
+        "sectionContent": [
+            "Flat files on server",
+            "MySQL",
+            "Using ORMs like Sequelize",
+            "How to model NoSQL data",
+            "NoSQL Best Practices",
+            "Document Databases (MongoDB)",
+            "Mapping relationships with MongoDB",
+            "Using ODMs like Mongoose"
+        ]
+    },
+    {
+        "title": "Backend Projects",
+        "lecture_count": " 22-29",
+        "sectionDescription": " Understanding various concepts like authentication/authorization and full stack best practices by making full stack projects such as E-Commerce Website, Blog Website, Social Media App and Real Time Chat Application using sockets.",
+        "sectionContent": [
+            "Full Stack E-Commerce Web App",
+            "Blog Application",
+            "Social Media App",
+            "Chatting Application using sockets"
+        ]
+    },
+    {
+        "title": " Advanced Topics & Deployment",
+        "lecture_count": " 30",
+        "sectionDescription": " Finally, we will cover adding basic security to websites including user authentication and authorization, SSL transport, checking for SQL injection and other vulnerabilities. We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
+        "sectionContent": [
+            "Security",
+            "Scaling",
+            "Using Frontend Templates",
+            "3rd Party Libraries and Frameworks",
+            "Deploying a live web project"
+        ]
+    },
+    {
+        "title": " ReactJS",
+        "lecture_count": " 31-32",
+        "sectionDescription": " Learning front-end development with React and Creating Single Page Applications using React.",
+        "sectionContent": [
+            "Understand when and how to use React Components.",
+            "Learn to pass Props and work with them.",
+            "Learn to write JSX and understand JSX syntax.",
+            "Learn about the React DOM.",
+            "Learn State Management in React.",
+            "Making a Todo List Project using React"
+        ]
+    },
+    {
+        "title": " Frontend Projects",
+        "lecture_count": " Code Along",
+        "sectionDescription": " Creating frontend projects, understanding layout concepts and making the most robust and responsive frontend website. ",
+        "sectionContent": [
+            "Blog Page",
+            "3D Card",
+            "Car Animation",
+            "Calculator App",
+            "Snake Game",
+            "Todo List",
+            "Movie Search App"
+        ]
+    }
+],
   "schedule": [
     {
       "center": "Pitampura",
