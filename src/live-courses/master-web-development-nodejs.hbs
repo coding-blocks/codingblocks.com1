@@ -11,44 +11,69 @@
 <br>  
 <br>
 <br>
-<div class="px-md-5 px-4 live-courses mb-5">
+<div class="live-courses">
   {{> courseMeta}}
-  <div class="row">
-    <div class="col-lg-8 mb-lg-0 mb-5">
-      <div class="border-card p-md-5 p-4 mb-5">
-        <div class="font-md">
-          <strong>Summary</strong>
-          <br /><br />
-          The Live course for Full Stack Web with NodeJS by Coding Blocks is deftly designed with an aim to familiarize the young coders with all the know-how of developing the most coherent and professional websites & web-portals. This Live course is a project-based Full Stack Web Development course with backend in Node JS. The course will start with topics such as HTML, CSS, and JS and then move on to important concepts such as version control, databases, Node JS and advanced topics such as security. The course would enable students to develop professional thinking ability to build their own websites from the scratch. 
-          <br /><br />
-          <strong>Highlights</strong>
-          <br /><br />
-          <ul class="list-style-gradient-bullet my-0">
-            <li>Extensive Data Structure & Algorithmic Coverage</li>
-            <li>Comfort of Home</li>
-            <li>Guidance by Industry-expert Mentors</li>
-            <li>Two-way Interactive Sessions</li>
-            <li>Recorded Videos after Live Lectures</li>
-            <li>Handwritten Mentor Notes</li>
-            <li>Immediate Doubt Resolution during Lectures</li>
-          </ul>
-          <br />
-          <strong>Pre-requisites</strong>
-          <br /><br />
-				Basic knowledge of programming concepts is required. We recommend to have a prior understanding of these langnguages: C++ and Java (along with DS and Algo).
-          </pre>
+  <div class="width-limiter">
+    <div class="row px-md-5 px-4">
+      <div class="col-lg-8 mb-lg-0 mb-5">
+        <div class="a-cbm">
+          <div class="card mb-30" style="border: solid 1px #f26a3e;">
+            <div class="heading-3 bold text-gradient-orange mb-30">
+              Why choose CB Accelerate?
+            </div>
+            <div class="pb-15 mb-15 border-bottom font-5 bold">
+              32+ Lectures at Coding Blocks foundation courses
+            </div>
+            <div class="pb-15 mb-15 border-bottom font-5 bold">
+              Weekly Doubt Sessions
+            </div>
+            <div class="pb-15 mb-15 border-bottom font-5 bold">
+              Dedicated classes for project discussion
+            </div>
+            <div class="pb-15 mb-15 border-bottom font-5 bold">
+              Interactive Live Sessions
+            </div>
+            <div class="pb-15 mb-15 border-bottom font-5 bold">
+              10+ Projects during sessions using Node.JS, React.JS etcs
+            </div>
+          </div>
         </div>
+        <div class="border-card p-md-5 p-4 mb-5">
+          <div class="font-md">
+            <strong>Summary</strong>
+            <br /><br />
+            The Live course for Full Stack Web with NodeJS by Coding Blocks is deftly designed with an aim to familiarize the young coders with all the know-how of developing the most coherent and professional websites & web-portals. This Live course is a project-based Full Stack Web Development course with backend in Node JS. The course will start with topics such as HTML, CSS, and JS and then move on to important concepts such as version control, databases, Node JS and advanced topics such as security. The course would enable students to develop professional thinking ability to build their own websites from the scratch. 
+            <br /><br />
+            <strong>Highlights</strong>
+            <br /><br />
+            <ul class="list-style-gradient-bullet my-0">
+              <li>Extensive Data Structure & Algorithmic Coverage</li>
+              <li>Comfort of Home</li>
+              <li>Guidance by Industry-expert Mentors</li>
+              <li>Two-way Interactive Sessions</li>
+              <li>Recorded Videos after Live Lectures</li>
+              <li>Handwritten Mentor Notes</li>
+              <li>Immediate Doubt Resolution during Lectures</li>
+            </ul>
+            <br />
+            <strong>Pre-requisites</strong>
+            <br /><br />
+          Basic knowledge of programming concepts is required. We recommend to have a prior understanding of these langnguages: C++ and Java (along with DS and Algo).
+            </pre>
+          </div>
+        </div>
+        {{>aboutMentor}}
       </div>
-      {{>liveCourseSchedule}}
-      {{>aboutMentor}}
+      <div class="col-lg-4 mb-lg-0 mb-5">
+        {{>projectsLive}}
+        {{>liveCourseSchedule}}
+        {{>testTimelines}}
+      </div>
     </div>
-    <div class="col-lg-4 mb-lg-0 mb-5">
-            {{>testTimelines}}
-    </div>
-    {{> studentsSay}}
-    {{> floatingFooter}}
   </div>
+  {{> studentsSay}}
 </div>
+{{> footer}}
 {{> scripts}}
 </body>
 </html>

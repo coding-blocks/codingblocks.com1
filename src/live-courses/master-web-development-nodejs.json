@@ -26,200 +26,235 @@
       }
     ]
   },
-   "courseMeta": {
+  "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/8363cfd5-40f7-499a-bd8d-33541baa0a5f.svg",
     "title": "Master FullStack Web with NodeJS",
     "price": "19,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2039",
     "demo-link": "https://codingblocks.com/take-demo.html",
-     "mentors": "Arnav Gupta,Tathagat Thapliyal,Kartik Mathur",
+    "mentors": "Sabeel Khan",
+    "mentorImg": "https://minio.cb.lk/public/sabeel-khan.jpeg",
     "description": "Learn building servers with NodeJS including MySQL, MongoDB, OAuth and WebSockets",
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
     "mentor-img-2": "https://minio.codingblocks.com/amoeba/e44da84c-cfc2-482b-8ff1-c99b5e548fd9",
-    "mentor-img-3": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91"
-
+    "mentor-img-3": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
+    "startDate": "24th May",
+    "gradient": "bg-gradient-blue-light",
+    "interactiveClasses": "32 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "10 Projects"
   },
-  "aboutMentor":[
+  "aboutMentor": [
     {
-      "name":"Arnav Gupta",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
+      "name": "Arnav Gupta",
+      "profile_pic_link": "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
       "summary": "Arnav Gupta, also popular as ChampionSwimmer, is an acclaimed Android developer and two timer GSoC-er. He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf. He has also worked with Sony, Micromax, Cyanogen and the likes. Arnav has also active contributed in the development of Android OS, Linux Kernel and has been a former student and a mentor in GSoC.",
       "email": "arnav@codingblocks.com"
     },
     {
-      "name":"Tathagat Thapliyal",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/e44da84c-cfc2-482b-8ff1-c99b5e548fd9",
+      "name": "Tathagat Thapliyal",
+      "profile_pic_link": "https://minio.codingblocks.com/amoeba/e44da84c-cfc2-482b-8ff1-c99b5e548fd9",
       "summary": "A Full-Stack Engineer and has worked with many amazing startups. He Always loves to build products and see it impacting people's needs. He has built applications using web technologies like React.js, React-Native, Ember.js, Node.js, GraphQL. He has given various talks on web technologies in Big conferences such as React Summit Amsterdam.",
       "email": "tathagat.thapliyal@codingblocks.com"
     },
     {
-      "name":"Kartik Mathur",
-      "profile_pic_link":"https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
+      "name": "Kartik Mathur",
+      "profile_pic_link": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
       "summary": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
       "email": "kartik.mathur@codingblocks.com"
     }
   ],
-   "demoClass":[
+  "demoClass": [
     {
-      "youtubeID":"I2AcovnUHnU"
+      "youtubeID": "I2AcovnUHnU"
     },
     {
-      "youtubeID":"dI6Xzh3JYjg"
+      "youtubeID": "dI6Xzh3JYjg"
     },
     {
-      "youtubeID":"1H81005Ll14"
+      "youtubeID": "1H81005Ll14"
     }
   ],
-   "studentsSay":[
+  "studentsSay": [
     {
-      "name":"Anshul Mittal",
-      "story":"Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
-      "image":"https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+      "name": "Anshul Mittal",
+      "story": "Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
     },
     {
-      "name":"Sidharth Bansal",
-      "story":"Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
-      "image":"https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+      "name": "Sidharth Bansal",
+      "story": "Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
     },
     {
-      "name":"Samarth Jain",
-      "story":"My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
-      "image":"https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+      "name": "Samarth Jain",
+      "story": "My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
     }
   ],
-   "testTimelines":{
-      "test_link_first" : "https://cb.lk/test/fond",
-      "test_link_second": "https://cb.lk/test/fond"
-    },  
-    "highlights":[{
-    "head":"Opportunities unlocked for learner",
-    "description":"Students will develop various necessary skills to build professional websites/portals.Will get comfortable with JavaScript for both Frontend as well as Backend use-cases.Will be able to Build website from scratch and develop professional thinking ability.Will be able to build projects with backend in NodeJS.",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+  "testTimelines": {
+    "test_link_first": "https://cb.lk/test/fond",
+    "test_link_second": "https://cb.lk/test/fond"
   },
-  {
-    "head":"Hands on Projects and Problems:",
-    "description":"ToDoList App - A task manager with features like 'mark as done', 'clear done tasks' and sorting tasks by their status.Shopping Cart- Build E-Commerce Website using ExpressJS, PostgreSQL and jQuery.Chat App -Realtime Chat Room using Socket.IO",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+  "highlights": [
+    {
+      "head": "Opportunities unlocked for learner",
+      "description": "Students will develop various necessary skills to build professional websites/portals.Will get comfortable with JavaScript for both Frontend as well as Backend use-cases.Will be able to Build website from scratch and develop professional thinking ability.Will be able to build projects with backend in NodeJS.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+    },
+    {
+      "head": "Hands on Projects and Problems:",
+      "description": "ToDoList App - A task manager with features like 'mark as done', 'clear done tasks' and sorting tasks by their status.Shopping Cart- Build E-Commerce Website using ExpressJS, PostgreSQL and jQuery.Chat App -Realtime Chat Room using Socket.IO",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+    },
+    {
+      "head": "Why choose CB Live:",
+      "description": "Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+    },
+    {
+      "head": "This course is essential for you:",
+      "description": "Who has Basic Knowledge of Programming concepts.Who wants to step up as a Developer from a programmer.Who wants to work at product-based companies like Facebook, Amazon, Uber, etc. ",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
+    }
+  ],
+  "schedule_days": {
+    "days": "Mon, Wed, Sat",
+    "timming": "7:15 PM - 10:15 PM"
   },
-  {
-    "head":"Why choose CB Live:",
-    "description":"Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
-  },
-  {
-    "head":"This course is essential for you:",
-    "description":"Who has Basic Knowledge of Programming concepts.Who wants to step up as a Developer from a programmer.Who wants to work at product-based companies like Facebook, Amazon, Uber, etc. ",
-    "icon":"https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
-  }
- ],
-  "schedule_days":{
-    "days":"Mon, Wed, Sat",
-    "timming":"7:15 PM - 10:15 PM"
-  },
-"schedule": [
+  "schedule": [
     {
       "lecture": "Lecture 01",
       "description": "HTML - I: Text, List, Table, Media Tags"
     },
     {
-      "lecture":"Lecture 02",
+      "lecture": "Lecture 02",
       "description": "HTML - II: Forms, Tables, Frames"
     },
     {
-      "lecture":"Lecture 03",
+      "lecture": "Lecture 03",
       "description": "CSS - I: Stylesheets, selectors, color, background, box"
     },
     {
-      "lecture":"Lecture 04",
+      "lecture": "Lecture 04",
       "description": "CSS - II: Combinators, pseudo classes, visibility"
     },
     {
-      "lecture":"Lecture 05",
+      "lecture": "Lecture 05",
       "description": "CSS - III: Flexboxes, Media Queries, Responsive Design"
     },
     {
-      "lecture":"Lecture 06",
+      "lecture": "Lecture 06",
       "description": "JS Basics: variables, functions, classes, objects"
     },
     {
-      "lecture":"Lecture 07",
+      "lecture": "Lecture 07",
       "description": "JS DOM, BOM, events, basic interactions"
     },
     {
-      "lecture":"Lecture 08",
+      "lecture": "Lecture 08",
       "description": "Advanced JS: closures, higher order functions"
     },
     {
-      "lecture":"Lecture 09",
+      "lecture": "Lecture 09",
       "description": "Advanced JS: array, string, map, set, iterator operations"
     },
     {
-      "lecture":"Lecture 10",
+      "lecture": "Lecture 10",
       "description": "Advanced JS: setTimeout, setInterval, callback functions"
     },
     {
-      "lecture":"Lecture 11",
+      "lecture": "Lecture 11",
       "description": "Advanced JS: Event loop,Promises, async-await"
     },
     {
-      "lecture":"Lecture 12",
+      "lecture": "Lecture 12",
       "description": "NodeJS: Intro, installation, basic scripting, fs operations"
     },
     {
-      "lecture":"Lecture 13",
+      "lecture": "Lecture 13",
       "description": "NodeJS: module, require, NPM, packages"
     },
     {
-      "lecture":"Lecture 14",
+      "lecture": "Lecture 14",
       "description": "ExpressJS: Introduction, basic web server"
     },
     {
-      "lecture":"Lecture 15",
+      "lecture": "Lecture 15",
       "description": "ExpressJS: Middlewares, routers, REST API"
     },
     {
-      "lecture":"Lecture 16",
+      "lecture": "Lecture 16",
       "description": "ExpressJS: HBS, Server rendering, form submission"
     },
     {
-      "lecture":"Lecture 17",
+      "lecture": "Lecture 17",
       "description": "ExpressJS: Rest API, AJAX"
     },
     {
-      "lecture":"Lecture 18",
+      "lecture": "Lecture 18",
       "description": "  SQL Basics, MySQL, Sequelize"
     },
     {
-      "lecture":"Lecture 19",
+      "lecture": "Lecture 19",
       "description": "Sequelize Advanced, Relationships, REST API with DB"
     },
     {
-      "lecture":"Lecture 20",
+      "lecture": "Lecture 20",
       "description": "SQL vs NoSQL, CAP THeorem MongoDB"
     },
-    {  
-      "lecture":"Lecture 21",
+    {
+      "lecture": "Lecture 21",
       "description": "Socket.IO, Chat app, Realtime interactions"
     },
     {
-      "lecture":"Lecture 22",
+      "lecture": "Lecture 22",
       "description": "Sessions, Cookies, User Management"
     },
     {
-      "lecture":"Lecture 23",
+      "lecture": "Lecture 23",
       "description": "PassportJS, 3rd party logins"
     },
     {
-      "lecture":"Lecture 24",
+      "lecture": "Lecture 24",
       "description": "Unit Testing, Coverage, Mocha, Chai"
     },
-     {
-      "lecture":"Lecture 25",
+    {
+      "lecture": "Lecture 25",
       "description": "Deploying to Heroku"
     },
     {
-      "Lecture":"Lecture 26",
-      "description":"Deploying to Digital Ocean"
+      "Lecture": "Lecture 26",
+      "description": "Deploying to Digital Ocean"
+    }
+  ],
+  "projects": [
+    {
+      "project_name": "Movie Search App"
+    },
+    {
+      "project_name": "3D Card"
+    },
+    {
+      "project_name": "Snake Game"
+    },
+    {
+      "project_name": "Todo List App with jQuery"
+    },
+    {
+      "project_name": "Blog Website"
+    },
+    {
+      "project_name": "Social Media App"
+    },
+    {
+      "project_name": "E-Commerce Website(Major Project)"
+    },
+    {
+      "project_name": "Chatting Application"
+    },
+    {
+      "project_name": "Todo List Using ReactJS"
     }
   ]
 }

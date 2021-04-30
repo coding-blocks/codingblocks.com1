@@ -31,9 +31,9 @@
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2028",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Monu Kumar",
-    "mentorImg": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/monu-kumar.jpeg",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Monu.png",
     "description": "Start from Basics, become a Java Master!",
-    "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/monu-kumar.jpeg",
+    "mentor-img-1": "https://images.codingblocks.com/img/mentor/Monu.png",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5202",
     "startDate": "24th May",
     "gradient": "bg-gradient-blue-light",
@@ -44,7 +44,7 @@
   "aboutMentor": [
     {
       "name": "Monu Kumar",
-      "profile_pic_link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/monu-kumar.jpeg",
+      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Monu.png",
       "summary": "Monu Kumar is a competitive programmer, an expert in data structures and algorithms,  and an expert in Mathematics. He always amazes his students with his creative thinking to the problems and makes solutions to tough problems a cake walk. He has a strong grasp on the core subjects of computer science",
       "email": "monu.kumar@codingblocks.com"
     }
