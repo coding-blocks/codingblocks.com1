@@ -35,7 +35,8 @@
   "courseMeta": {
     "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
     "title": "Master DS and Algo with C++",
-    "price": "17,999",
+    "price": "15,999",
+    "slashedPrice": "7,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2020&amp",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Mohit Pandey",

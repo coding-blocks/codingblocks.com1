@@ -29,7 +29,8 @@
   "courseMeta": {
     "icon": "https://images.codingblocks.com/img/newcourse_logo/webdev_gradient.png",
     "title": "Master FullStack Web with NodeJS",
-    "price": "19,999",
+    "price": "15,999",
+    "slashedPrice": "7,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2039",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Sabeel Khan",
@@ -46,10 +47,10 @@
   },
   "aboutMentor": [
     {
-      "name": "Arnav Gupta",
-      "profile_pic_link": "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
-      "summary": "Arnav Gupta, also popular as ChampionSwimmer, is an acclaimed Android developer and two timer GSoC-er. He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf. He has also worked with Sony, Micromax, Cyanogen and the likes. Arnav has also active contributed in the development of Android OS, Linux Kernel and has been a former student and a mentor in GSoC.",
-      "email": "arnav@codingblocks.com"
+      "name": "Sabeel Khan",
+      "profile_pic_link": "https://minio.cb.lk/public/sabeel-khan.jpeg",
+      "summary": "Sabeel is a CS Graduate from JMI.A competitive programmar, with an undying passion for teaching.He is proficient with C++ and Web Development related technologies like HTML, CSS, Javascript,NodeJS along with Python development.Web Series lover and always ready to explore new appetizing food.",
+      "email": "sabeelkhan@codingblocks.com"
     },
     {
       "name": "Tathagat Thapliyal",
