@@ -67,8 +67,8 @@
       "projects": "5 Projects",
       "classSchedule": "Classes four a week",
       "price": "15,999",
-      "slashedPrice": "7,999",
-      "gradient": "card bg-gradient-blue-dark t-align-c white",
+      "slashedPrice": "7999",
+      "gradient": "bg-gradient-blue-light",
       "startDate": "24th May",
       "badge": "Beginner"
     },
@@ -83,7 +83,7 @@
       "classSchedule": "Classes four a week",
       "price": "15,999",
       "slashedPrice": "7,999",
-      "gradient": "card bg-gradient-blue-light t-align-c white",
+      "gradient": "bg-gradient-purple",
       "startDate": "24th May",
       "badge": "Beginner"
     },
@@ -98,7 +98,7 @@
       "classSchedule": "Classes four a week",
       "price": "12,999",
       "slashedPrice": "6,499",
-      "gradient": "card bg-gradient-blue-light t-align-c white",
+      "gradient": "bg-gradient-orange",
       "startDate": "24th May",
       "badge": "Advance"
     },
@@ -113,7 +113,7 @@
       "classSchedule": "Classes four a week",
       "price": "12,999",
       "slashedPrice": "6,499",
-      "gradient": "card bg-gradient-blue-dark t-align-c white",
+      "gradient": "bg-gradient-blue-dark",
       "startDate": "24th May",
       "badge": "Advance"
     },
@@ -126,9 +126,9 @@
       "codingProblems": "200-300 hands on coding problems",
       "projects": "8 Projects",
       "classSchedule": "Classes four a week",
-      "price": "19,999",
-      "slashedPrice": "19,999",
-      "gradient": "card bg-gradient-green-light t-align-c white",
+      "price": "27,999",
+      "slashedPrice": "13,999",
+      "gradient": "bg-gradient-green-light",
       "startDate": "24th May",
       "badge": "Advance"
     },
@@ -141,9 +141,9 @@
       "codingProblems": "200-300 hands on coding problems",
       "projects": "10 Projects",
       "classSchedule": "Classes four a week",
-      "price": "27,999",
-      "slashedPrice": "13,999",
-      "gradient": "card bg-gradient-pink t-align-c white",
+      "price": "15,999",
+      "slashedPrice": "7,999",
+      "gradient": "bg-gradient-pink",
       "startDate": "24th May",
       "badge": "Advance"
     }
