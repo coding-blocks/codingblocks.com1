@@ -1,227 +1,214 @@
 {
-  "id": "course04",
-  "name": "NodeJS Web Development",
-  "title": "Full Stack Web Development Course in Delhi, Noida, Dwarka | Coding Blocks India",
-  "metas": [
-    {
-      "name": "description",
-      "content": "Enroll Now Full Stack Web Development Course to become an expert in all the aspects. This course is made comfortable with JavaScript for both Frontend & Backend cases."
-    },
-    {
-      "name": "keywords",
-      "content": "full stack developer course, full stack developer course, node js training, mean stack course, full stack developer training, full stack java developer course"
-    }
-  ],
-  "openGraph": {
-    "url": "https://codingblocks.com/classroom-courses/web-development-nodejs.html",
-    "title": "Best Web Development with NodeJS in India",
-    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14058603_1077770128976987_1865333049_n.jpg",
-    "description": "Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works."
-  },
-  "header": {
-    "heading": "Full stack web app development with NodeJS",
-    "subHeading": "",
-    "breadcrumbs": [
-      {
-        "linkText": "Highlights",
-        "link": "#highlights"
-      },
-      {
-        "linkText": "Contents",
-        "link": "#contents"
-      },
-      {
-        "linkText": "FAQ",
-        "link": "#faq"
-      }
+    "title": "Master DS & Algorithms In C++",
+    "description": "This C++ training course is designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. The beginner's course will include programming fundamentals using C++, Loops, Functions, Arrays, Stacks, Queues, Linked List.  The advanced course is for all those who are looking forward to sit for internships and placements. The course will involve rigorous practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc.  The course will help you become smarter with solutions and ace your programming interviews. C++ is known to be a very powerful language. It allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ generally does better than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products.",
+    "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
+    "theme": "pink",
+    "rating": 5.0,
+    "number_ratings": 200,
+    "video_link": "https://www.youtube.com/embed/p1Ofe7eQ74o",
+    "languages": [
+        "English"
     ],
-    "bgSrc": "/assets/images/cb/cover/cover_node.jpg"
-  },
-  "overview": {
-    "content": "The Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works. Through this course, students will be made comfortable with Javascript for both Frontend as well as backend use-cases.<br /><br />Our course is a project-based web development Full Stack course with backend in NodeJS. In this course, students will start building their website from scratch and will need to think like professional developers. Students will be aligned with a mentor who will guide them while they work on web development projects. Our FullStack Web Development course enables students to go live with their websites and add flair to their resumes."
-  },
-  "courseHighlights": [
-    {
-      "icon": "et-line-edit",
-      "title": "Web Design",
-      "content": "A website with great functionality must be complemented by top notch User Experience and a neat Responsive User Interface. Our course covers building both common and upcoming UI/UX patterns in Bootstrap and how to get started with frontend frameworks like Ember and Vue."
-    },
-    {
-      "icon": "et-line-chat",
-      "title": "Real Time Web Apps",
-      "content": "Socket.IO is a Javascript library for real-time applications. You'll learn how to enable real-time communication between web clients and servers to build some awesome chat systems and multiplayer games."
-    },
-    {
-      "icon": "fa fa-database",
-      "title": "Databases",
-      "content": "You will learn how to use both relational and non-relational databases with MySQL and MongoDB. We also cover Sequelize which makes the database query writing process a little easier!"
-    },
-    {
-      "icon": "et-line-profile-male",
-      "title": "Authentication",
-      "content": "You'll learn how to implement a Login System as well as Authentication using social logins using Passport.JS."
-    }
-  ],
-  "courseContents": [
-    {
-      "active": true,
-      "title": "HTML/CSS",
-      "contentTitle": "HTML/CSS",
-      "description": "The building blocks of web pages - HTML and CSS. Learn how to use the latest HTML5 web development technologies along with CSS3 stylesheets to create responsive eye-catching web sites. We also cover UI design patterns like:",
-      "lectures": "Lectures 1-2",
-      "points": [
-        "Table Layouts",
-        "Flex Boxes",
-        "Bootstrap Columns",
-        "Media Queries and Mobile Responsive Design",
-        "Grids"
-      ]
-    },
-    {
-      "title": "Javascript",
-      "contentTitle": "Javascript",
-      "description": "HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like 'clicks', 'hovers' and 'drag and drop'. Javascript is one of the most powerful and ubiquitious languages in modern software development and our course covers it in depth including:",
-      "lectures": "Lecture: 3-10",
-      "points": [
-        "ECMAScript 6 Syntax and Standards",
-        "Function Closures and IIFEs",
-        "Classes, Constructors and Prototypes",
-        "Lexical Scopes, Arrow Functions and Variable spreading"
-      ]
-    },
-    {
-      "title": "UNIX AND Git",
-      "contentTitle": "UNIX AND Git",
-      "description": "Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world's servers are hosted on Linux machines, and any web backend developer is expected to know basic DevOps and SysAdmin skills in order to manage a Linux OS. Also - Git, which is the most commonly used version control system - is one of the most helpful tools for working on large projects or in collaborative environments",
-      "lectures": "Lecture 11-12",
-      "points": [
-        "Unix and SysAdmin/Devops",
-        "Schema Designing",
-        "Git"
-      ]
-    },
-    {
-      "title": "NODEJS",
-      "contentTitle": "NODEJS",
-      "description": "Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is currently the fastest growing ecosystem. We will cover:",
-      "lectures": "Lecture 12-16",
-      "points": [
-        "NodeJS Modules",
-        "Filesystem API, Events and Streams",
-        "ExpressJS Framework for creating REST APIs",
-        "Handlebars for server side web rendering",
-        "Socket.IO for realtime communication"
-      ]
-    },
-    {
-      "title": "Databases",
-      "contentTitle": "Databases",
-      "description": "What is a server if it cannot store data on databases. We will cover storing data in:",
-      "lectures": "Lectures 17-18",
-      "points": [
-        "Flat files on server",
-        "MySQL",
-        "Using ORMs like Sequelize",
-        "MongoDB"
-      ]
-    },
-    {
-      "title": "Advanced Topics & Deployment",
-      "contentTitle": "Advanced Topics & Deployment",
-      "lectures": "Lectures 19-25",
-      "description": "Finally, we will cover adding basic security to websites including user authentication and authorization, SSL transport, checking for SQL injection and other vulnerabilities. We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
-      "points": [
-        "Security",
-        "Scaling",
-        "Using Frontend Templates",
-        "3rd Party Libraries and Frameworks",
-        "Deploying a live web project"
-      ]
-    }
-  ],
-  "faqs": [
-    {
-      "ques": "How much knowledge of Data Structures and Algorithms do I need to take this course?",
-      "ans": "You need to have good command of data structures like Stacks, Queues and Lists. Also a basic idea of algorithms like sorting, searching, string manupulations. Also it is imperative to have good concepts of Object Oriented Programming"
-    },
-    {
-      "ques": "Do you have a test for admission into this course ?",
-      "ans": "We have a simple test covering OOP concepts, basic Data structures and array/string manipulation which you will need to take while registering for our fullstack web development course."
-    },
-    {
-      "ques": "Will there by any projects ?",
-      "ans": "Definitely. No course in web development is complete without projects, and we focus a lot on working on live projects and practical topics. We start with small projects like TodoList Managers and go up to creating e-Commerce websites."
-    }
-  ],
-  "courseEnroll": {
-    "upcomingBatches": "Upcoming Batches:",
-    "registerButton":{
-      "buttonText": "Register Now"
-    },
+    "duration": "6 Months",
+    "slug": "master-c-plus-plus-ds-algo",
+    "difficulty": "Beginner",
+    "batches": [
+        {
+			"course": "Web Dev",
+			"timings": "4:00PM-7:00PM",
+			"mentor": "Kartik Mathur/Sabeel",
+			"strength": 35,
+			"days": "T T Sat",
+			"start_date": "5th June",
+			"runcode": "WDPP21MAY",
+			"product_id": 5169,
+			"location": "Pitampura"
+		},
+        {
+			"course": "Web Dev",
+			"timings": "4:00PM-7:00PM",
+			"mentor": "Sabeel",
+			"strength": 35,
+			"days": "M W F Sat",
+			"start_date": "7th June",
+			"runcode": "WDND21MAY",
+			"product_id": 5166,
+			"location": "Noida"
+		}
+    ],
+    "mentors": [
+        {
+            "name": "Mohit Pandey",
+            "contact": "mohit.pandey@codingblocks.com",
+            "img": "https://images.codingblocks.com/img/mentor/Mohit%20Uniyal.png",
+            "description": "Mohit Pandey is a competitive programmer, has an awesome understanding of Data Structure And Algorithm. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand what he is teaching.",
+            "designation": "Mentor",
+            "highlights": null
+        }
+    ],
+    "projects": [
+        {
+            "title": "Some Project",
+            "img_url": "https://minio.codingblocks.com/amoeba/arnva-min.webp",
+            "description": "A task manager with features like 'mark as done', 'cear donetasks' and sorting tasks by their status."
+        },
+        {
+            "title": "Some Project",
+            "img_url": "https://minio.codingblocks.com/amoeba/arnva-min.webp",
+            "description": "A task manager with features like 'mark as done', 'cear donetasks' and sorting tasks by their status."
+        },
+        {
+            "title": "Some Project",
+            "img_url": "https://minio.codingblocks.com/amoeba/arnva-min.webp",
+            "description": "A task manager with features like 'mark as done', 'cear donetasks' and sorting tasks by their status."
+        },
+        {
+            "title": "Some Project",
+            "img_url": "https://minio.codingblocks.com/amoeba/arnva-min.webp",
+            "description": "A task manager with features like 'mark as done', 'cear donetasks' and sorting tasks by their status."
+        }
+    ],
+    "syallabus": [
+        {
+            "title": "HTML/CSS",
+            "lecture_count": "1-7",
+            "sectionDescription": "The building blocks of web pages - HTML and CSS. Learn how to use the latest HTML5 web development technologies along with CSS3 stylesheets to create responsive eye-catching web sites. We also cover UI design patterns like:",
+            "sectionContent": [
+                "Table Layouts",
+                "HTML Forms",
+                "Flex Boxes",
+                "Media Queries and Mobile Responsive Design",
+                "Animations",
+                "3D Transform",
+                "Grids",
+                "Bootstrap"
+            ]
+        },
+        {
+            "title": " Javascript",
+            "lecture_count": " 8-14",
+            "sectionDescription": " HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like 'clicks', 'hovers' and 'drag and drop'. Javascript is one of the most powerful and ubiquitious languages in modern software development and our course covers it in depth including:",
+            "sectionContent": [
+                "ECMAScript 6 Syntax and Standards",
+                "Function and Closures",
+                "Classes, Constructors and Prototypes",
+                "Lexical Scopes, Arrow Functions and Variable spreading",
+                "Asynchronous Programming",
+                "DOM Manipulation",
+                "jQuery",
+                "AJAX and APIs"
+            ]
+        },
+        {
+            "title": " UNIX AND Git",
+            "lecture_count": " 15",
+            "sectionDescription": " Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world's servers are hosted on Linux machines, and any web backend developer is expected to know basic DevOps and SysAdmin skills in order to manage a Linux OS. Also - Git, which is the most commonly used version control system - is one of the most helpful tools for working on large projects or in collaborative environments",
+            "sectionContent": [
+                "Unix and SysAdmin/Devops",
+                "Schema Designing",
+                "Git"
+            ]
+        },
+        {
+            "title": " NODEJS",
+            "lecture_count": " 16-19",
+            "sectionDescription": " Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is currently the fastest growing ecosystem. We will cover:",
+            "sectionContent": [
+                "NodeJS Modules",
+                "Filesystem API, Events and Streams",
+                "ExpressJS Framework for creating REST APIs",
+                "Handlebars/EJS for server side web rendering",
+                "Socket.IO for realtime communication"
+            ]
+        },
+        {
+            "title": " Databases",
+            "lecture_count": " 20-21",
+            "sectionDescription": " What is a server if it cannot store data on databases. We will cover storing data in:",
+            "sectionContent": [
+                "Flat files on server",
+                "MySQL",
+                "Using ORMs like Sequelize",
+                "How to model NoSQL data",
+                "NoSQL Best Practices",
+                "Document Databases (MongoDB)",
+                "Mapping relationships with MongoDB",
+                "Using ODMs like Mongoose"
+            ]
+        },
+        {
+            "title": "Backend Projects",
+            "lecture_count": " 22-29",
+            "sectionDescription": " Understanding various concepts like authentication/authorization and full stack best practices by making full stack projects such as E-Commerce Website, Blog Website, Social Media App and Real Time Chat Application using sockets.",
+            "sectionContent": [
+                "Full Stack E-Commerce Web App",
+                "Blog Application",
+                "Social Media App",
+                "Chatting Application using sockets"
+            ]
+        },
+        {
+            "title": " Advanced Topics & Deployment",
+            "lecture_count": " 30",
+            "sectionDescription": " Finally, we will cover adding basic security to websites including user authentication and authorization, SSL transport, checking for SQL injection and other vulnerabilities. We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
+            "sectionContent": [
+                "Security",
+                "Scaling",
+                "Using Frontend Templates",
+                "3rd Party Libraries and Frameworks",
+                "Deploying a live web project"
+            ]
+        },
+        {
+            "title": " ReactJS",
+            "lecture_count": " 31-32",
+            "sectionDescription": " Learning front-end development with React and Creating Single Page Applications using React.",
+            "sectionContent": [
+                "Understand when and how to use React Components.",
+                "Learn to pass Props and work with them.",
+                "Learn to write JSX and understand JSX syntax.",
+                "Learn about the React DOM.",
+                "Learn State Management in React.",
+                "Making a Todo List Project using React"
+            ]
+        },
+        {
+            "title": " Frontend Projects",
+            "lecture_count": " Code Along",
+            "sectionDescription": " Creating frontend projects, understanding layout concepts and making the most robust and responsive frontend website. ",
+            "sectionContent": [
+                "Blog Page",
+                "3D Card",
+                "Car Animation",
+                "Calculator App",
+                "Snake Game",
+                "Todo List",
+                "Movie Search App"
+            ]
+        }
+    ],
     "highlights": [
-      {
-        "icon": "et-line-search",
-        "content": "Online code Submission &amp; Evaluation"
-      },
-      {
-        "icon": "pe-7s-cup",
-        "content": "2 Hackathons"
-      }
-    ]
-  },
-  "mentors": {
-    "heading": "Mentors",
-    "content": "",
-    "flip": true,
-    "companies": false,
-    "contentCenter": true,
-    "teamMembers": [
-      "Arnav Gupta",
-      "Aayush Arora",
-      "Rishabh Khanna"
-    ]
-  },
-  "courseReviews": [
-    "RISHABH MENDIRATTA",
-    "SHIVAM GANDHI",
-    "SANDEEP RANJAN"
-  ],
-  "schedule": [
-    {
-      "center": "Pitampura",
-      "startdate": "6th June",
-      "enddate": "TBD",
-      "daytime": "Sat (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM), Wed (4:10 PM - 7:50 PM)",
-      "batchtype": "Normal Evening"
-    },
-    {
-      "center": "Noida",
-      "startdate": "5th June",
-      "enddate": "TBD",
-      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM)",
-      "batchtype": "Normal Noon"
-    },
-    {
-      "center": "Dwarka",
-      "startdate": "8th June",
-      "enddate": "TBD",
-      "daytime": "Mon (3:00 PM - 7:30 PM), Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM)",
-      "batchtype": "Normal Evening"
-    }
-  ],
-  "reviewSlug": "Web Development Course",
-  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=396",
-  "frame-id": "396",
-
-  "registerLinkDehradunWD": "https://students.codingblocks.com/payment/iframe?item_id=169",
-  "frame-id-dehradun-wd": "169",
-
-  "registerLinkPitampuraWD": "https://students.codingblocks.com/payment/iframe?item_id=396",
-  "frame-id-pitampura-wd": "396",
-
-  "registerLinkDwarkaWD": "https://students.codingblocks.com/payment/iframe?item_id=397",
-  "frame-id-dwarka-wd": "397",
-
-  "registerLinkNoidaWD": "https://students.codingblocks.com/payment/iframe?item_id=398",
-  "frame-id-noida-wd": "398"
+        {
+            "img": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg",
+            "title": "Fundamentals",
+            "body": " We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+        },
+        {
+            "img": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg",
+            "title": "Fundamentals",
+            "body": " We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+        },
+        {
+            "img": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg",
+            "title": "Fundamentals",
+            "body": " We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+        },
+        {
+            "img": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg",
+            "title": "Fundamentals",
+            "body": " We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+        }
+    ],
+    "faqs": null,
+    "syllabus_link": null
 }
