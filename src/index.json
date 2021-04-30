@@ -13,13 +13,13 @@
 
   "slides": [  
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner.png",
+      "imgSrc": "https://images.codingblocks.com/img/NPB-BANNER.jpeg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "http://career-bootcamp.codingblocks.com/",
+          "link": "https://codingblocks.com/nagarro-bootcamp.html",
           "text": "Register",
           "filled": "true"
         }
