@@ -253,5 +253,22 @@
     "Gagan Bhayana",
     "Dhruv Kulshreshtha",
     "Parth Dhamija"
+  ],
+  "projects": [
+    {
+      "project_name": "Painter's Problem"
+    },
+    {
+      "project_name": "NQUEEN"
+    },
+    {
+      "project_name": "SUDOKU SOLVER"
+    },
+    {
+      "project_name": "SPLITWISE ALGO"
+    },
+    {
+      "project_name": "RAT IN A MAZE"
+    }
   ]
 }
