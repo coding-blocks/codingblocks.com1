@@ -118,103 +118,127 @@
     },
     {
       "lecture": "Lecture 02",
-      "description": "HTML - II: Forms, Tables, Frames"
+      "description": "HTML - II and CSS - I: Forms, Tables, Frames, Stylesheets, selectors"
     },
     {
       "lecture": "Lecture 03",
-      "description": "CSS - I: Stylesheets, selectors, color, background, box"
+      "description": "CSS - II: Combinators, pseudo classes, Box Model"
     },
     {
       "lecture": "Lecture 04",
-      "description": "CSS - II: Combinators, pseudo classes, visibility"
-    },
-    {
-      "lecture": "Lecture 05",
       "description": "CSS - III: Flexboxes, Media Queries, Responsive Design"
     },
     {
+      "lecture": "Lecture 05",
+      "description": "CSS - IV: Grids + Flexboxes Layouts"
+    },
+    {
       "lecture": "Lecture 06",
-      "description": "JS Basics: variables, functions, classes, objects"
+      "description": "Bootstrap"
     },
     {
       "lecture": "Lecture 07",
-      "description": "JS DOM, BOM, events, basic interactions"
+      "description": "JS Basics: variables, functions, classes, objects"
     },
     {
       "lecture": "Lecture 08",
-      "description": "Advanced JS: closures, higher order functions"
+      "description": "Intro to JS-1: Functions, Scopes, Hoisting, Closures etc"
     },
     {
       "lecture": "Lecture 09",
-      "description": "Advanced JS: array, string, map, set, iterator operations"
+      "description": "Intro to JS-2: Async Functions, Prototypes, Classes"
     },
     {
       "lecture": "Lecture 10",
-      "description": "Advanced JS: setTimeout, setInterval, callback functions"
+      "description": "Advanced JS-1: Event loop,Promises, async-await"
     },
     {
       "lecture": "Lecture 11",
-      "description": "Advanced JS: Event loop,Promises, async-await"
+      "description": "Advanced JS-2: Understanding to DOM and BOM using JS"
     },
     {
       "lecture": "Lecture 12",
-      "description": "NodeJS: Intro, installation, basic scripting, fs operations"
+      "description": "Project: Game using JS"
     },
     {
       "lecture": "Lecture 13",
-      "description": "NodeJS: module, require, NPM, packages"
+      "description": "Learn AJAX requests and API creation"
     },
     {
       "lecture": "Lecture 14",
-      "description": "ExpressJS: Introduction, basic web server"
+      "description": "Learn Version Control System(Git and GitHub)"
     },
     {
       "lecture": "Lecture 15",
-      "description": "ExpressJS: Middlewares, routers, REST API"
+      "description": "NodeJS: Introduction to NodeJs, dependency graph, file handling"
     },
     {
       "lecture": "Lecture 16",
-      "description": "ExpressJS: HBS, Server rendering, form submission"
+      "description": "ExpressJS-1: CRUD Operations and Creating Web-Server"
     },
     {
       "lecture": "Lecture 17",
-      "description": "ExpressJS: Rest API, AJAX"
+      "description": "ExpressJS-2: Server and Client Side Rendering"
     },
     {
       "lecture": "Lecture 18",
-      "description": "  SQL Basics, MySQL, Sequelize"
+      "description": "ExpressJS-3: Understanding Rest APIs"
     },
     {
       "lecture": "Lecture 19",
-      "description": "Sequelize Advanced, Relationships, REST API with DB"
+      "description": "Database-1: Express JS with SQL and Sequelize-ORM"
     },
     {
       "lecture": "Lecture 20",
-      "description": "SQL vs NoSQL, CAP THeorem MongoDB"
+      "description": "Database-2: MongoDB and Moongoose-ODM"
     },
     {
       "lecture": "Lecture 21",
-      "description": "Socket.IO, Chat app, Realtime interactions"
+      "description": "Mongoose working with express"
     },
     {
       "lecture": "Lecture 22",
-      "description": "Sessions, Cookies, User Management"
+      "description": "Sequelize Advanced, Relationships, REST API with DB"
     },
     {
       "lecture": "Lecture 23",
-      "description": "PassportJS, 3rd party logins"
+      "description": "E-Commerce Site Project and Middlewares"
     },
     {
       "lecture": "Lecture 24",
-      "description": "Unit Testing, Coverage, Mocha, Chai"
+      "description": "E-Commerce Site- 2: Adding more features"
     },
     {
       "lecture": "Lecture 25",
-      "description": "Deploying to Heroku"
+      "description": "Sessions, Cookies, User Management"
     },
     {
-      "Lecture": "Lecture 26",
-      "description": "Deploying to Digital Ocean"
+      "lecture": "Lecture 26",
+      "description": "User Authentication: PassportJS, 3rd party logins"
+    },
+    {
+      "lecture": "Lecture 27",
+      "description": "Shopping Cart : Refactoring Product Controller and Star Rating"
+    },
+    {
+      "lecture": "Lecture 28",
+      "description": "Unit Testing, Coverage, Mocha, Chai"
+    },
+    {
+      "lecture": "Lecture 29",
+      "description": "Deployment to Heroku"
+    },
+    {
+      "lecture": "Lecture 30",
+      "description": "Sockets: Create Chatting Application"
+    },
+    {
+      "lecture": "Lecture 31",
+      "description": "Introduction to ReactJS-1"
+    },
+    {
+      "lecture": "Lecture 32",
+      "description": "Introduction to ReactJS-2"
     }
   ],
   "projects": [
