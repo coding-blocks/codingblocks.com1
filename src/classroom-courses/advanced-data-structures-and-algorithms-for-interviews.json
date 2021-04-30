@@ -79,9 +79,9 @@
       "contentTitle": "",
       "description": "We begin our journey by building a strong foundation for Data Structures.",
       "points": [
-		  "Arrays & Bitmasking, Vectors",
-		  "Stacks, Queues Problems",
-		  "Linked Lists"
+        "Arrays & Bitmasking, Vectors",
+        "Stacks, Queues Problems",
+        "Linked Lists"
       ]
     },
     {
@@ -157,19 +157,199 @@
       }
     ]
   },
-  "mentors": {
-    "heading": "Mentors",
-    "content": "",
-    "flip": true,
-    "companies": false,
-    "contentCenter": true,
-    "teamMembers": [
-      "Pranav Khandelwal",
-	    "Rajesh Sachdev",
-      "Kartik Mathur",
-      "Prateek Narang"
-    ]
-  },
+  "syallabus": [
+    {
+      "title": "Mathematics",
+      "lecture_count": "",
+      "sectionDescription": "",
+      "sectionContent": [
+        "Pigeonhole",
+        "Probability",
+        "Expectation",
+        "Coupon collector",
+        "Matrix exponentiation",
+        "Inclusion-Exclusion"
+      ]
+    },
+    {
+      "title": "Number Theory ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "LCM",
+        "GCD",
+        "Prime factorization",
+        "Totient",
+        "Sieves",
+        "Mathematical Theorems",
+        "CRT",
+        "Euclid’s method",
+        "Linear Diophantine Equations"
+      ]
+    },
+    {
+      "title": " Divide and Conquer",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Classical problems",
+        "Binary search applications",
+        "Google, Amazon Interview Problems"
+      ]
+    },
+    {
+      "title": " Recursion and Backtracking",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Advance Recursion Problems",
+        "Backtracking algorithms with Bitmasks"
+      ]
+    },
+    {
+      "title": "Dynamic Programming ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Linear recurrences",
+        "2-D and 3-D DP",
+        "DP using Bitmasks"
+      ]
+    },
+    {
+      "title": "Greedy Algorithms ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Classical and interesting problems Codeforces and SPOJ",
+        "Greedy Algorithms Techniques"
+      ]
+    },
+    {
+      "title": " Segment Trees",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Segment trees",
+        "Lazy propagation",
+        "Fenwick tree",
+        "BIT"
+      ]
+    },
+    {
+      "title": " Graphs",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Types",
+        "Implementation",
+        "Traversals",
+        "Shortest paths",
+        "Min spanning trees",
+        "Topological sorting",
+        "Bipartite graphs",
+        "Cycle detection",
+        "Union-find",
+        "Other Important algorithms for Interview"
+      ]
+    },
+    {
+      "title": " Advanced Topics and Algorithms",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "KMP Algorithm",
+        "MO's Algorithm",
+        "Boyer Moore Algorithm",
+        "Manacher Algorithm"
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "course": "Algo++, B1",
+      "timings": "9:00AM-12:00PM",
+      "mentor": "Mosina",
+      "strength": "",
+      "days": "M W F Sat",
+      "start_date": "19th June",
+      "runcode": "APND21MAY",
+      "product_id": 5164,
+      "location": "Noida"
+    },
+    {
+      "course": "Algo++, B2",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Mosina",
+      "strength": "",
+      "days": "M Thu F Sun",
+      "start_date": "21st June",
+      "runcode": "APND21JUNB2",
+      "product_id": 5190,
+      "location": "Noida"
+    },
+    {
+      "course": "Algo++, B3",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Mohit Pandey",
+      "strength": "",
+      "days": "T T S S",
+      "start_date": "20th June",
+      "runcode": "APND21JUNB3",
+      "product_id": 5191,
+      "location": "Noida"
+    },
+    {
+      "course": "Algo++, B2",
+      "timings": "9:00-12:00PM",
+      "mentor": "Kartik Mathur",
+      "strength": "According to the batch size",
+      "days": "M W F Sat",
+      "start_date": "19th June",
+      "runcode": "APPP21JUNB2",
+      "product_id": 5192,
+      "location": "Pitampura"
+    },
+    {
+      "course": "Algo++, B3",
+      "timings": "12:30-3:30PM",
+      "mentor": "Abhishek",
+      "strength": "According to the batch size",
+      "days": "M W F Sat",
+      "start_date": "19th June",
+      "runcode": "APPP21JUNB3",
+      "product_id": 5193,
+      "location": "Pitampura"
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Kartik Mathur",
+      "contact": "kartik.mathur@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+      "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
+      "name": "Mohit Pandey",
+      "contact": "mohit.pandey@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Mohit%20Uniyal.png",
+      "description": "Mohit Pandey is a competitive programmer, has an awesome understanding of Data Structure And Algorithm. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand what he is teaching.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
+      "name": "Mosina Ashraf",
+      "contact": "mosina.ashraf@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
+      "description": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
+      "designation": "Mentor",
+      "highlights": null
+    }
+  ],
+  "difficulty": "Intermediate",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
   "schedule": [
     {
       "center": "Pitampura",
@@ -202,13 +382,10 @@
   ],
   "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=399",
   "frame-id-pitampura-lp": "399",
-
   "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=401",
   "frame-id-noida-lp": "401",
-
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=255",
   "frame-id-dehradun-lp": "255",
-
   "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=400",
   "frame-id-dwarka-lp": "400"
 }

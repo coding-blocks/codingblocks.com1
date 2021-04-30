@@ -87,18 +87,158 @@
       "ans": "This is not CORE java or Advanced Java. This is a course which teaches you problem solving, data structures and Object Oriented Programming. Though, most of what CORE java means is being covered. The aim of the course is to help you with a smarter beginning. For being able to make web and mobile apps you need to learn frameworks. Android is one such framework for mobile apps. Please check out our Pandora and Elixir course for more details on these lines."
     }
   ],
-  "mentors": {
-    "heading": "Mentors",
-    "content": "",
-    "flip": true,
-    "companies": false,
-    "contentCenter": true,
-    "teamMembers": [
-      "Rishab Kapoor",
-      "Garima Chhikara",
-      "ANUJ GARG"
-    ]
-  },
+  "syallabus": [
+    {
+      "title": "Mathematics",
+      "lecture_count": "",
+      "sectionDescription": "",
+      "sectionContent": [
+        "Pigeonhole",
+        "Probability",
+        "Expectation",
+        "Coupon collector",
+        "Matrix exponentiation",
+        "Inclusion-Exclusion"
+      ]
+    },
+    {
+      "title": "Number Theory ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "LCM",
+        "GCD",
+        "Prime factorization",
+        "Totient",
+        "Sieves",
+        "Mathematical Theorems",
+        "CRT",
+        "Euclid’s method",
+        "Linear Diophantine Equations"
+      ]
+    },
+    {
+      "title": " Divide and Conquer",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Classical problems",
+        "Binary search applications",
+        "Google, Amazon Interview Problems"
+      ]
+    },
+    {
+      "title": " Recursion and Backtracking",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Advance Recursion Problems",
+        "Backtracking algorithms with Bitmasks"
+      ]
+    },
+    {
+      "title": "Dynamic Programming ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Linear recurrences",
+        "2-D and 3-D DP",
+        "DP using Bitmasks"
+      ]
+    },
+    {
+      "title": "Greedy Algorithms ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Classical and interesting problems Codeforces and SPOJ",
+        "Greedy Algorithms Techniques"
+      ]
+    },
+    {
+      "title": " Segment Trees",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Segment trees",
+        "Lazy propagation",
+        "Fenwick tree",
+        "BIT"
+      ]
+    },
+    {
+      "title": " Graphs",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Types",
+        "Implementation",
+        "Traversals",
+        "Shortest paths",
+        "Min spanning trees",
+        "Topological sorting",
+        "Bipartite graphs",
+        "Cycle detection",
+        "Union-find",
+        "Other Important algorithms for Interview"
+      ]
+    },
+    {
+      "title": " Advanced Topics and Algorithms",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "KMP Algorithm",
+        "MO's Algorithm",
+        "Boyer Moore Algorithm",
+        "Manacher Algorithm"
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "course": "Competitive Java",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Monu Kumar",
+      "strength": 35,
+      "days": "M W F",
+      "start_date": "7th June",
+      "runcode": "COJND21JUN",
+      "product_id": 5203,
+      "location": "Noida"
+    },
+    {
+      "course": "Competitive Java",
+      "timings": "9:00-12:00PM",
+      "mentor": "Kartik Sapra",
+      "strength": 35,
+      "days": "T T Sun",
+      "start_date": "6th June",
+      "runcode": "COJPP21MAY",
+      "product_id": 5171,
+      "location": "Pitampura"
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Kartik Mathur",
+      "contact": "kartik.mathur@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+      "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
+      "name": "Monu Kumar",
+      "contact": "monu.kumar@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Monu.png",
+      "description": "Monu Kumar is a competitive programmer, an expert in data structures and algorithms, and an expert in Mathematics. He always amazes his students with his creative thinking to the problems and makes solutions to tough problems a cake walk. He has a strong grasp on the core subjects of computer science",
+      "designation": "Mentor",
+      "highlights": null
+    }
+  ],
+  "difficulty": "Beginner",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
   "schedule": [
     {
       "center": "Pitampura",

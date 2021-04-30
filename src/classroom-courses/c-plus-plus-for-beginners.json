@@ -1,5 +1,6 @@
 {
   "title": "C++ Programming Training Institutes in Delhi, Noida, Dwarka | Coding Blocks",
+  "name": "C++ for Beginners",
   "metas": [
     {
       "name": "description",
@@ -37,8 +38,184 @@
   },
   "overview": {
     "content": "This C++ training course is designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. The beginner's course will include programming fundamentals using C++, Loops, Functions, Arrays, Stacks, Queues, Linked List. <br/> <br/>The advanced course is for all those who are looking forward to sit for internships and placements. The course will involve rigorous practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. <br/><br/> The course will help you become smarter with solutions and ace your programming interviews. C++ is known to be a very powerful language. It allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ generally does better than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products.",
-	"buttonLink": "#register-advance"
+    "buttonLink": "#register-advance"
   },
+  "syallabus": [
+    {
+      "title": "Getting Started",
+      "lecture_count": " 1-2",
+      "sectionDescription": "Learn how to get started with programming and building logic using pseudocode and flowchart.",
+      "sectionContent": [
+        "Flowchart",
+        "Pseudocode",
+        "Installation of IDE and C++ Compiler"
+      ]
+    },
+    {
+      "title": "Getting a Hold of C++",
+      "lecture_count": " 3-5",
+      "sectionDescription": "Learn how to write basic syntax and use loops. We will learn how to reduce repetition of code using Functions.",
+      "sectionContent": [
+        "Variables",
+        "Loops",
+        "Conditional Statements",
+        "Functions",
+        "Reference Variables"
+      ]
+    },
+    {
+      "title": "Foundation Data Structures",
+      "lecture_count": " 6-9",
+      "sectionDescription": "We will learn to use arrays, Sorting and Searching algorithms like Bubble, Selection and Insertion Sort.",
+      "sectionContent": [
+        "Arrays",
+        "Pointers",
+        "Strings, Character Array",
+        "2-D Arrays"
+      ]
+    },
+    {
+      "title": "Recursion & Backtracking",
+      "lecture_count": "10-13",
+      "sectionDescription": "It is one of the most important topics in programming, we learn the functioning of recursive function calls and in-depth understanding of comparing algorithms via Time and Space complexity.",
+      "sectionContent": [
+        "Recursion",
+        "Back-Tracking",
+        "Space-Time Complexity Analysis"
+      ]
+    },
+    {
+      "title": "OOPs and Basic Data Structures",
+      "lecture_count": "14-19",
+      "sectionDescription": "Learn about Object Oriented Programming, and get started with basic Data Structures LinkedList, Stack and Queue.",
+      "sectionContent": [
+        "Stacks",
+        "Queues",
+        "Linked Lists",
+        "LinkedList, Stack, and Queue Algorithms."
+      ]
+    },
+    {
+      "title": " Divide and Conquer & Bitmasking",
+      "lecture_count": " 20-21",
+      "sectionDescription": "Learn the most asked problems in the Interviews from Bit Masking & DNC, here we solve the problems asked in companies like Google, Amazon, Microsoft etc.",
+      "sectionContent": [
+        "Divide & Conquer",
+        "Binary Search Variants",
+        "Bitmasking"
+      ]
+    },
+    {
+      "title": "Advanced Data Structures",
+      "lecture_count": " 22-28",
+      "sectionDescription": " Learn the most important part of the Technical and Interview rounds. We cover each and every data structure in depth along with the algorithms complexity analysis, also STL of each DS is discussed.",
+      "sectionContent": [
+        "Binary Trees",
+        "Binary Search Trees",
+        "Heaps and Priority Queues",
+        "Hashmaps",
+        "Graphs",
+        "Tries"
+      ]
+    },
+    {
+      "title": "Dynamic Programming ",
+      "lecture_count": "29-31",
+      "sectionDescription": "Learn how to write the optimised code using Dynamic Programming.",
+      "sectionContent": [
+        "1D-DP",
+        "2D-DP",
+        "DP vs Greedy Techniques"
+      ]
+    },
+    {
+      "title": "STL | Interview Problems",
+      "lecture_count": "32-33",
+      "sectionDescription": "Get started with online coding platforms like Leetcode, Codeforces, etc. We will solve problems that are generally asked in the Interviews.",
+      "sectionContent": [
+        "C++ STL",
+        "Leetcode and Codeforces",
+        "Interview problems"
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "course": "C++, B1",
+      "timings": "9:00AM-12:00PM",
+      "mentor": "Mosina",
+      "strength": 35,
+      "days": "M W F Sat",
+      "start_date": "5th June",
+      "runcode": "LPND21MAY",
+      "product_id": 5162,
+      "location": "Noida"
+    },
+    {
+      "course": "C++, B2",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Mosina",
+      "strength": 35,
+      "days": "M Thu F Sun",
+      "start_date": "7th June",
+      "runcode": "LPND21JUNB2",
+      "product_id": 5185,
+      "location": "Noida"
+    },
+    {
+      "course": "C++, B3",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Mohit Pandey",
+      "strength": 35,
+      "days": "T T S S",
+      "start_date": "6th June",
+      "runcode": "LPND21JUNB3",
+      "product_id": 5186,
+      "location": "Noida"
+    },
+    {
+      "course": "C++, B2",
+      "timings": "9:00-12:00PM",
+      "mentor": "Kartik Mathur",
+      "strength": 35,
+      "days": "M W F Sat",
+      "start_date": "5th June",
+      "runcode": "LPPP21JUNB2",
+      "product_id": 5187,
+      "location": "Pitampura"
+    },
+    {
+      "course": "C++, B3",
+      "timings": "12:30-3:30PM",
+      "mentor": "Abhishek",
+      "strength": 35,
+      "days": "M W F Sat",
+      "start_date": "5th June",
+      "runcode": "LPPP21JUNB3",
+      "product_id": 5188,
+      "location": "Pitampura"
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Mohit Pandey",
+      "contact": "mohit.pandey@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Mohit%20Uniyal.png",
+      "description": "Mohit Pandey is a competitive programmer, has an awesome understanding of Data Structure And Algorithm. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand what he is teaching.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
+      "name": "Mosina Ashraf",
+      "contact": "mosina.ashraf@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
+      "description": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
+      "designation": "Mentor",
+      "highlights": null
+    }
+  ],
+  "difficulty": "Beginner",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
   "courseHighlights": [
     {
       "icon": "fa fa-code",
@@ -75,43 +252,28 @@
       "ans": "Yes. Our instructors will start the C++ course from beginner's level. You don’t need any prior programming knowledge to attend this course. What we need is dedication and passion to learn programming from your side."
     }
   ],
-  "mentors": {
-    "heading": "Mentors",
-    "content": "",
-    "flip": true,
-    "companies": false,
-    "contentCenter": true,
-    "teamMembers": [
-      "Prateek Narang",
-      "Rajesh Sachdev",
-      "Kartik Mathur",
-      "Raj Kumar Saini",
-      "Iti Jain",
-      "Pranav Khandelwal"
-    ]
-  },
   "scheduleLaunchpad": [
-	  {
-		  "center": "Pitampura",
-		  "startdate": "25th May",
-		  "enddate": "TBD",
-		  "daytime": "Mon (4:10 PM - 7:50 PM), Tue (4:10 PM - 7:50 PM), Thu (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM)",
-		  "batchtype": "Fast Track Evening"
+    {
+      "center": "Pitampura",
+      "startdate": "25th May",
+      "enddate": "TBD",
+      "daytime": "Mon (4:10 PM - 7:50 PM), Tue (4:10 PM - 7:50 PM), Thu (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM)",
+      "batchtype": "Fast Track Evening"
     },
     {
-		  "center": "Pitampura",
-		  "startdate": "4th June",
-		  "enddate": "TBD",
-		  "daytime": "Thu (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM)",
-		  "batchtype": "Normal Morning"
+      "center": "Pitampura",
+      "startdate": "4th June",
+      "enddate": "TBD",
+      "daytime": "Thu (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM)",
+      "batchtype": "Normal Morning"
     },
     {
-		  "center": "Pitampura",
-		  "startdate": "6th June",
-		  "enddate": "TBD",
-		  "daytime": "Sat (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM), Wed (4:10 PM - 7:50 PM)",
-		  "batchtype": "Weekend Evening"
-	  },
+      "center": "Pitampura",
+      "startdate": "6th June",
+      "enddate": "TBD",
+      "daytime": "Sat (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM), Wed (4:10 PM - 7:50 PM)",
+      "batchtype": "Weekend Evening"
+    },
     {
       "center": "Pitampura",
       "startdate": "8th June",
@@ -196,17 +358,12 @@
     "ANIRUDH GUPTA",
     "DEEPAK KUMAR"
   ],
-
   "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=320",
   "frame-id-dehradun-lp": "320",
-
   "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=385",
   "frame-id-pitampura-lp": "385",
-
   "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=386",
   "frame-id-dwarka-lp": "386",
-
   "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=387",
   "frame-id-noida-lp": "387"
-
 }
