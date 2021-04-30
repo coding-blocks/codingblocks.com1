@@ -1,32 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>{{title}}</title>
     {{> meta}}
     {{> head}}
     {{> courseSchema}}
 </head>
-<body class="scroll-assist" style="margin-top: -70px;">
-{{> navbar}}
-<div class="main-container">
-    {{> header}}
-    {{> overview}}
-    {{> coursehighlights}}
-    {{> freeAccessBanner}}
-    {{> coursecontents}}
-    {{> courseenroll}}
-    <section>
-    <div id="register" class="col-xs-12 text-center bg-secondary" style="height: 100%;">
-                                                       <p class="uppercase" style="margin-top: 100px;margin-bottom: 100px;">Coming Soon!</p>
-                                                   </div>
 
-    </section>
-	{{> team team=mentors}}
-    {{> coursefaq}}
-    {{> review-course-section}}
-    {{> map}}
-    {{> footer}}
-</div>
-{{> scripts}}
+<body class="scroll-assist" style="margin-top: -70px;">
+    {{> navbar}}
+    <div class="main-container a-cbm width-limiter">
+        <div class="row align-items-center no-gutters">
+            <div class="flex-1 pr-lg-50">
+                <div class="row no-gutters align-items-center justify-content-between">
+                    <div class="flex-1">
+                        <div class="row no-gutters align-items-center justify-content-between mb-20">
+                            <div class="card all-center s-120x120 course-logo-big-square p-sm-30 p-20 bg-gradient-pink">
+                                <img src="{{logo}}" />
+                            </div>
+                            <div class="flex-1 pl-sm-30 pl-20">
+                                <div class="heading-3 bold text-clamp-ellipses text-clamp-ellipses--3">
+                                    {{ name }}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="font-4 mb-20 text-clamp-ellipses text-clamp-ellipses--3 t-align-lg-l t-align-c">
+                            {{{ overview.content }}}
+                        </div>
+                        <div class="row no-gutters justify-content-sm-between justify-content-center">
+                            <div class="row no-gutters align-items-center">
+                                <div class="br-5 d-inline-block p-2 bg-gradient-orange-light mr-20 font-2 white">
+                                    <span class="v-align-m">
+                                        {{ difficulty }}
+                                    </span>
+                                </div>
+                                <div class="mr-20 t-align-sm-l t-align-c">
+                                    <div class="font-2">Course Language</div>
+                                    <div class="font-4 bold mt-1">
+                                        {{ languages }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{> coursehighlights}}
+        {{> freeAccessBanner}}
+        {{> coursecontents}}
+        {{> courseenroll}}
+        <div class="container" <div class="t-align-sm-l t-align-c mb-50">
+            <div class="heading-4 bold mb-10">Mentors</div>
+            <div class="font-4 text-grey">
+                About the mentors that will guide you through this course
+            </div>
+        </div>
+        <div>
+            <div class="row no-gutters align-items-center mentor-list-element">
+                {{#each mentors}}
+                <div class="s-150x150 round d-sm-block d-none">
+                    <img src="{{img}}" />
+                </div>
+                <div class="flex-1 pl-sm-30">
+                    <div class="heading-6 bold">{{ name }}</div>
+                    <div class="mt-10 mb-20 font-2 orange">{{ contact }}</div>
+                    <div class="font-4">
+                        {{ description }}
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        {{> footer}}
+    </div>
 </body>
+
 </html>
