@@ -13,6 +13,7 @@
                         {{#ifEquals ../this this.name}}
                             {{> review-card reviewSlug = ../../reviewSlug}}
                         {{/ifEquals}}
+                    {{/each}}
                     {{#ifDivisible @index 4 "end"}}
                     </li>
                     {{/ifDivisible}}
