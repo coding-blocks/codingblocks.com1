@@ -156,11 +156,12 @@
             </div>
             <a href="#" class="button-secondary">Download Syllabus</a>
           </div>
-        <div class="row no-gutters align-items-center syllabus-grid-section">
+        <div class="row no-gutters syllabus-grid-section">
             {{#each syallabus}}
-          <div class="col-md-4 col-sm-6 col-12 h-inherit syllabus-grid-card">
-            <div class="card br-none flex-col h-100 p-sm-30 p-20">
-                <div class="font-5 bold text-clamp-ellipses text-clamp-ellipses--2 pb-20 border-bottom w-100">{{ title}}
+          <div class="col-md-4 col-sm-6 col-12 h-inherit syllabus-grid-card flex-col">
+            <div class="card br-none h-100 p-sm-30 p-20 w-100">
+                <div class="font-5 bold text-clamp-ellipses text-clamp-ellipses--2 pb-20 border-bottom w-100">
+                  {{title}}
                 </div>
                 <ul class="list-style-gradient-bullet mt-20 w-100 mb-none">
                   {{#each sectionContent}}
@@ -178,15 +179,15 @@
             <div class="heading-4 bold flex-1">
               Center and Schedule
             </div>
-            <a href="#" class="button-secondary">Pitampura</a>
+            {{!-- <a href="#" class="button-secondary">Pitampura</a> --}}
           </div>
           {{#each batches}}
           <div class="row no-gutters align-items-center justify-content-between border-bottom py-20">
             <div class="col-8">
               <div class="row no-gutters align-items-center justify-content-between">
-                <div class="font-4 bold d-sm-block d-none">{{location}}</div>
+                <div class="flex-1 font-4 bold d-sm-block d-none t-align-l">{{location}}</div>
                 <div class="font-4 bold d-sm-none d-block col-12 mb-15">{{location}}</div>
-                <div class="font-4">
+                <div class="flex-1 font-4">
                   <div class="text-grey-light-1">
                     Starting from
                   </div>
@@ -194,7 +195,7 @@
                     {{start_date}}
                   </div>
                 </div>
-                <div class="font-4">
+                <div class="flex-1 font-4">
                   <div class="text-grey-light-1">
                     Weekend Batch
                   </div>
@@ -216,7 +217,7 @@
             Mentors
           </div>
           {{#each mentors}}
-          <div class="row no-gutters align-items-center mentor-list-element">
+          <div class="row no-gutters align-items-center mentor-list-element mb-30">
             <div class="s-150x150 round d-sm-block d-none">
               <img src="{{img}}" />
             </div>
@@ -235,15 +236,15 @@
         </div>
       </div>
     </div>
-  <div class="bg-grey-light-3">
+ <div class="bg-grey-light-3">
       <div class="width-limiter">
         <div class="py-50 px-md-5 px-4">
-          <div class="row mx-0 c-card-carousel-lg" style="padding-top: 4rem;">
+          <div class="row mx-0 c-card-carousel-lg">
             {{#each courseReviews}}
             {{#each @root.reviews.reviewsList}}
             {{#ifEquals ../this this.name}}
 
-            <div class="col-lg-4 col-md-6 col-sm-8 col-12">
+            <div class="col-lg-4 col-md-6 col-sm-8 col-12" style="padding-top: 4rem;">
               <div class="border-card img-review-card p-md-5 p-4" style="height:100%">
                 <div class="author">
                   <div class="img-ring s-100x100">
