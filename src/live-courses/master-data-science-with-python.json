@@ -36,9 +36,9 @@
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2043",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Princey Yadav",
-    "mentorImg": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/princey-yadav.jpeg",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
     "description": "Start from basics, become a industry ready data scientist!",
-    "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/princey-yadav.jpeg",
+    "mentor-img-1": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5204",
     "startDate": "24th May",
     "interactiveClasses": "41 Live Interactive Classes",
@@ -49,7 +49,7 @@
   "aboutMentor": [
     {
       "name": "Princey Yadav",
-      "profile_pic_link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/princey-yadav.jpeg",
+      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
       "summary": "Princey is a post graduate from IIIT Delhi and joined Coding Blocks due to her passion for teaching. She has prior experience as a Software Engineer and doing research in the field of Computational Biology. Her interests include machine learning, data science and game development. She is a pythonista who likes to draw and watch anime for fun.",
       "email": "princey.yadav@codingblocks.com"
     }
