@@ -93,129 +93,40 @@
       "link": "/classroom-program.html",
       "sublinks": [
         {
-          "title": "Industrial Training",
-          "link": "/classroom-courses/six_months_ind_training.html"
+          "title":"information",
+          "link":"/classroom-program.html"
         },
         {
-          "title": "Junior",
-          "sublinks": [
-            {
-              "title": "Code4Kids",
-              "link": "/classroom-courses/code4kids.html"
-            },
-            {
-              "title": "MathsGeeks",
-              "link": "/classroom-courses/mathsgeeks.html"
-            }
-          ]
+          "title": "C++ Launchpad",
+          "link": "/classroom-program/c-plus-plus-for-beginners.html"
         },
         {
-          "title": "Beginner",
-          "link": "#",
-          "sublinks": [
-            {
-              "title": "C++ for Beginners / Launchpad",
-              "link": "/classroom-courses/c-plus-plus-for-beginners.html"
-            },
-            {
-              "title": "Java for Beginners / Crux",
-              "link": "/classroom-courses/java-for-beginners.html"
-            },
-            {
-              "title": "Python App Development",
-              "link": "/classroom-courses/python-app-dev.html"
-            }
-          ]
+          "title": "Java Crux",
+          "link": "/classroom-program/java-for-beginners.html"
         },
         {
-          "title": "Development",
-          "link": "#",
-          "sublinks": [
-            {
-              "title": "Android",
-              "link": "/classroom-courses/android-app-development-using-kotlin-and-java.html"
-            },
-            {
-              "title": "Fullstack Web (NodeJS)",
-              "link": "/classroom-courses/web-development-nodejs.html"
-            },
-            {
-              "title": "Web Development (Django - Python)",
-              "link": "/classroom-courses/web-development-django.html"
-            },
-            {
-              "title": "Web Backend (Advanced Java)",
-              "link": "/classroom-courses/advanced-java.html"
-            },
-            {
-              "title": "Unity Game Development",
-              "link": "/classroom-courses/unity-game-development.html"
-            }
-          ]
+          "title": "Web Development with NodeJS",
+          "link": "/classroom-program/web-development-nodejs.html"
         },
         {
-          "title": "Advanced",
-          "link": "#",
-          "sublinks": [
-            {
-              "title": "Algo++",
-              "link": "/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html"
-            },
-            {
-              "title": "Algo.Java",
-              "link": "/classroom-courses/advanced-data-structures-and-algorithms-using-java.html"
-            },
-            {
-              "title": "Machine Learning",
-              "link": "/classroom-courses/machine-learning-with-deep-learning.html"
-            },
-            {
-              "title": "Data Science",
-              "link": "/classroom-courses/data-science-with-python.html"
-            },
-            {
-              "title": "Competitive Programming",
-              "link": "/classroom-courses/competitive-programming.html"
-            },
-            {
-              "title": "Interview Preparation",
-              "link": "/classroom-courses/coding-interview-preparation.html"
-            }
-          ]
+          "title": "Competitive C++",
+          "link": "/classroom-program/advanced-data-structures-and-algorithms-for-interviews.html"
         },
         {
-          "title": "Bootcamps",
-          "link": "#bootcamps",
-          "sublinks": [
-            {
-              "title": "ReactJS",
-              "link": "/bootcamps/react.html"
-            },
-            {
-              "title": "Blockchain",
-              "link": "/bootcamps/blockchain.html"
-            },
-            {
-              "title": "Machine Learning",
-              "link": "/coming-soon.html"
-            },
-            {
-              "title": "Chatbots",
-              "link": "/bootcamps/chatbots.html"
-            },
-            {
-              "title": "Angular",
-              "link": "/bootcamps/angular.html"
-            },
-            {
-              "title": "Game Development",
-              "link": "/bootcamps/gamedev.html"
-            },
-            {
-              "title": "Open Source",
-              "link": "/bootcamps/opensource.html"
-            }
-          ]
+          "title": "Competitive Java",
+          "link": "/classroom-program/advanced-data-structures-and-algorithms-using-java.html"
+        },
+        {
+          "title": "Machine Learning",
+          "link": "/classroom-program/machine-learning-with-deep-learning.html"
+        },
+        {
+          "title": "Python App Development",
+          "link": "/classroom-program/python-app-dev.html"
+        },
+        {
+          "title": "Data Science",
+          "link": "/classroom-program/data-science-with-python.html"
         }
       ]
     }
