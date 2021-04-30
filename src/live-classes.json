@@ -67,7 +67,7 @@
       "projects": "5 Projects",
       "classSchedule": "Classes four a week",
       "price": "15,999",
-      "slashedPrice": "15,999",
+      "slashedPrice": "7,999",
       "gradient": "card bg-gradient-blue-dark t-align-c white",
       "startDate": "24th May",
       "badge": "Beginner"
@@ -82,7 +82,7 @@
       "projects": "5 Projects",
       "classSchedule": "Classes four a week",
       "price": "15,999",
-      "slashedPrice": "15,999",
+      "slashedPrice": "7,999",
       "gradient": "card bg-gradient-blue-light t-align-c white",
       "startDate": "24th May",
       "badge": "Beginner"
@@ -97,7 +97,7 @@
       "projects": "5 Projects",
       "classSchedule": "Classes four a week",
       "price": "12,999",
-      "slashedPrice": "12,999",
+      "slashedPrice": "6,499",
       "gradient": "card bg-gradient-blue-light t-align-c white",
       "startDate": "24th May",
       "badge": "Advance"
@@ -112,7 +112,7 @@
       "projects": "5 Projects",
       "classSchedule": "Classes four a week",
       "price": "12,999",
-      "slashedPrice": "12,999",
+      "slashedPrice": "6,499",
       "gradient": "card bg-gradient-blue-dark t-align-c white",
       "startDate": "24th May",
       "badge": "Advance"
@@ -127,7 +127,7 @@
       "projects": "5 Projects",
       "classSchedule": "Classes four a week",
       "price": "27,999",
-      "slashedPrice": "27,999",
+      "slashedPrice": "13,999",
       "gradient": "card bg-gradient-pink t-align-c white",
       "startDate": "24th May",
       "badge": "Advance"
