@@ -38,7 +38,7 @@
   },
   "overview": {
     "content": "<p>The Python Application Development course is designed to help students new to programming or otherwise to learn python from ground up to level of making interesting web applications. The first part of the course help students to understand how python syntax works, related concepts and the latter part deals with automating mundane tasks using python. Through this course, students will be made comfortable with python for computations, object-oriented python, python standard template library, databases and web application.</p><p>This course includes multiple activities through which students will have hands-on experience of python programming. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to learn data Science, Machine Learning or web development using Django in future.</p>",
-	"buttonLink": "#register"
+    "buttonLink": "#register"
   },
   "courseHighlights": [
     {
@@ -154,27 +154,136 @@
       "ans": "This course is designed to give you a solid foundation in programming wrapped up with Web Application Development. It will help you discover further with Web Development, Data Science, and other fields."
     }
   ],
-  "mentors": {
-    "heading": "Mentors",
-    "content": "",
-    "flip": true,
-    "companies": false,
-    "contentCenter": true,
-    "teamMembers": [
-		"Jatin Katyal",
-		"Himank Bhalla",
-		"Nikhil Singh"
-    ]
-  },
+  "syallabus": [
+    {
+        "title": "Getting started with Python",
+        "lecture_count": "1-4",
+        "sectionDescription": "",
+        "sectionContent": [
+            "Why Python?",
+            "Setting up Python on windows, mac, linux",
+            "Basic Python syntax",
+            "Variables, data structures, functions",
+            "Conditionals and loops",
+            "Basic file handling",
+            "Dealing with errors in Python"
+        ]
+    },
+    {
+        "title": " Intermediate Python",
+        "lecture_count": " 5-6",
+        "sectionDescription": " ",
+        "sectionContent": [
+            "Basic Python modules (time, datetime, random, os, sys, collections, etc)",
+            "Iterators, generators and decorators",
+            "Object oriented programming",
+            "Working with files (CSV/ZIP/PDF/JSON/XML)"
+        ]
+    },
+    {
+        "title": " System Programming",
+        "lecture_count": " 7-9",
+        "sectionDescription": " ",
+        "sectionContent": [
+            "Interact with the system using Python",
+            "I/O Streams and Parallel Programming in Python",
+            "IPC Protocols and Multiprocessing module"
+        ]
+    },
+    {
+        "title": " Python for Web",
+        "lecture_count": " 10-14",
+        "sectionDescription": " ",
+        "sectionContent": [
+            "Introduction to web APIs",
+            "Interacting with web APIs (GET and POST requests)",
+            "File downloader using Python",
+            "Web scraping using requests and BeautifulSoup",
+            "Web crawling",
+            "Web automation using selenium"
+        ]
+    },
+    {
+        "title": " Web development using Flask",
+        "lecture_count": " 14-15",
+        "sectionDescription": " ",
+        "sectionContent": [
+            "Introduction to Flask",
+            "Setting up python environment",
+            "Basic web application using Flask",
+            "Authentication using Flask",
+            "Integrating SQL and Non-SQL databases to Flask app",
+            "Deploying Flask app on Heroku"
+        ]
+    },
+    {
+        "title": " Creating CLI for your application",
+        "lecture_count": " 15",
+        "sectionDescription": " ",
+        "sectionContent": [
+            "Introduction to argparse",
+            "Using placeholders and helpers"
+        ]
+    },
+    {
+        "title": " Extras",
+        "lecture_count": " ",
+        "sectionDescription": " ",
+        "sectionContent": [
+            "Unicode and Byte Strings",
+            "Managed Attributes",
+            "Decorators",
+            "Metaclass",
+            "Numpy",
+            "Pandas",
+            "Matplotlib"
+        ]
+    }
+],
+  "batches": [
+    {
+      "course": "Python App Dev",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Manu S Pillai",
+      "strength": 35,
+      "days": "M W Sun",
+      "start_date": "7th June",
+      "runcode": "PYND21MAY",
+      "product_id": 5182,
+      "location": "Noida"
+    },
+    {
+      "course": "Python App Dev",
+      "timings": "12.30 - 3:30PM",
+      "mentor": "Navika",
+      "strength": 35,
+      "days": "T T Sun",
+      "start_date": "6th June",
+      "runcode": "PYPP21MAY",
+      "product_id": 5183,
+      "location": "Pitampura"
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Manu S Pillai",
+      "contact": "mohit.uniyal@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Manu%20S%20Pillai.png",
+      "description": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
+      "designation": "Mentor",
+      "highlights": null
+    }
+  ],
+  "difficulty": "Intermediate",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
   "courseEnroll": {
-	  "upcomingBatches": "Batches Starting Soon at Noida",
-	  "price": "12,000",
-	  "highlights": [
-	  ],
-	  "registerButton": {
-		  "disabled": false,
-		  "buttonText": "Register Now"
-	  }
+    "upcomingBatches": "Batches Starting Soon at Noida",
+    "price": "12,000",
+    "highlights": [],
+    "registerButton": {
+      "disabled": false,
+      "buttonText": "Register Now"
+    }
   },
   "schedule": [
     {
@@ -220,9 +329,7 @@
       "batchtype": "Normal Morning"
     }
   ],
-
   "frame-id-pitampura": "391",
   "frame-id-noida": "393",
   "frame-id-dwarka": "392"
-  
 }

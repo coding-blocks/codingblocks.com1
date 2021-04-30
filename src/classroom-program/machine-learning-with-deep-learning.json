@@ -160,6 +160,116 @@
       ]
     }
   ],
+  "syallabus": [
+    {
+      "title": "Python Introduction",
+      "lecture_count": "1-5",
+      "sectionDescription": "Course will start with basic understanding of logic. We will be discussing about Flowcharts, PsudoCode and students will solve also some of the Puzzles in initial classes.",
+      "sectionContent": [
+        "Data Science Quickstart Mode",
+        "Python 3.7 overview",
+        "Python Basics",
+        "Control Flow",
+        "Data Structures",
+        "Functions",
+        "OOPS and Modules",
+        "File Handling in Python"
+      ]
+    },
+    {
+      "title": "Mathematical Concepts and Data Visualisation",
+      "lecture_count": "6-10",
+      "sectionDescription": "Data visualization is about the presentation of data in a pictorial or graphical format. Further mininga and warehouses is key to have successful data science application.",
+      "sectionContent": [
+        "Linear Algebra",
+        "Data Visualisation",
+        "Probability Distribution & Statistics",
+        "Numpy, Scipy, and Scientific computation with Python",
+        "Data Analysis using Pandas",
+        "Data Acquisition - Web Scrapping, Web APIs",
+        "Data Scraping, Handling, Cleaning",
+        "Importing/Exporting Data from/to various sources",
+        "Identify missing/outliers data",
+        "Normalizing and Formatting data"
+      ]
+    },
+    {
+      "title": " Machine Learning Algorithms",
+      "lecture_count": " 11-15",
+      "sectionDescription": "Simple to Advanced Machine Learning Algorithms. Includes all useful traditional supervised and unsupervised algorithms.",
+      "sectionContent": [
+        "K-Nearest Neighbour search",
+        "K-means clustering",
+        "Linear Regression",
+        "Logistic Regression",
+        "Decision trees and Naive Bayes",
+        "Random Forest Classifiers",
+        "Manual Ensembling Vs. Automated Ensembling",
+        "Bagging, Boosting of trees",
+        "Ada Boost and XGBoost",
+        "Support Vector Machines",
+        "SVD and Principal Component Analysis"
+      ]
+    },
+    {
+      "title": "Segmentation and Time Series",
+      "lecture_count": "16-20",
+      "sectionDescription": "Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data.",
+      "sectionContent": [
+        "Introduction to Segmentation",
+        "Subjective Vs Objective, Heuristic Vs. Statistical",
+        "Heuristic, Behavioral Segmentation Techniques",
+        "Hierarchical Clustering vs Spectral Clustering",
+        "Feature selection and importance",
+        "Principle component Analysis (PCA)",
+        "Time Series - Components",
+        "Time Series - Averages, Smoothening, AR Models",
+        "Understanding Forecasting Accuracy - MAPE, MAD, MSE, etc"
+      ]
+    },
+    {
+      "title": "Deep Learning",
+      "lecture_count": "21-24",
+      "sectionDescription": "In this final classes of our course, we will learn about more complex Machine Learning topics and algorithms which help you in solving and optimising solutions of lots of real world problems.",
+      "sectionContent": [
+        "Neural Architectures and Training",
+        "Deep learning methods",
+        "Convolutions and the GoogLe Net",
+        "Dimensions revisited: The Auto-encoder",
+        "Recurrent and Combined Architectures",
+        "Transfer Learning"
+      ]
+    },
+    {
+      "title": "Projects and case studies",
+      "lecture_count": "Across Lectures",
+      "sectionDescription": "Students will get hands on knowledge of the underlying material by building several projects that use the techniques taught in this course to solve a real life problem.",
+      "sectionContent": [
+        "Face Recognition",
+        "Image classification and Object detection",
+        "Text/Poem generating bot",
+        "Recommender systems",
+        "PokeMon Classification",
+        "Web Crawler",
+        "Cartpole Player",
+        "Dominant Color Extraction",
+        "Fashion Retailing Forecasting"
+      ]
+    }
+  ],
+  "batches": [],
+  "mentors": [
+    {
+      "name": "Manu S Pillai",
+      "contact": "mohit.uniyal@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Manu%20S%20Pillai.png",
+      "description": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
+      "designation": "Mentor",
+      "highlights": null
+    }
+  ],
+  "difficulty": "Intermediate",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
   "faqs": [
     {
       "ques": "Who should do this course?",
@@ -213,7 +323,7 @@
       "daytime": "Thu (12:10 PM - 3:50 PM), Sun (12:10 PM - 3:50 PM), Tue (12:10 PM - 3:50 PM)",
       "batchtype": "Normal Noon"
     },
-     {
+    {
       "center": "Pitampura",
       "startdate": "7th June",
       "enddate": "TBD",
@@ -234,7 +344,7 @@
       "daytime": "Mon (9:00 AM - 12:00 PM), Wed(9:00 AM - 12:00 PM), Fri(9:00 AM - 12:00 PM), Sat(9:00 AM - 12:00 PM)",
       "batchtype": "Fast Track Morning"
     },
-     {
+    {
       "center": "Noida",
       "startdate": "5th June",
       "enddate": "TBD",
