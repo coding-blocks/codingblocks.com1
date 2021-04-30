@@ -1,0 +1,228 @@
+{
+  "id": "course30",
+  "title": "Python Web Development Course in Delhi, Noida, Dwarka | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Get the best python programming training institute, courses, classes or coaching centres near me where you will learn python courses. Enroll Now or Call @ 9999579111, 9999579222."
+    },
+    {
+      "name": "keywords",
+      "content": "python classes near me, python training, python coaching classes near me, python programming classes near me, python web development, python web programming"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/python-app-dev.html",
+    "title": "Python App Development Course | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
+    "description": "Learn Python at Coding Blocks, best Python training institute in Delhi, Noida, Jalandhar and Amritsar. We offer Python course for beginners."
+  },
+  "header": {
+    "heading": "Python App Development",
+    "subHeading": "Programming Fundamentals and Web apps in Python",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../../assets/images/cb/cover/covergcp.jpg"
+  },
+  "overview": {
+    "content": "<p>The Python Application Development course is designed to help students new to programming or otherwise to learn python from ground up to level of making interesting web applications. The first part of the course help students to understand how python syntax works, related concepts and the latter part deals with automating mundane tasks using python. Through this course, students will be made comfortable with python for computations, object-oriented python, python standard template library, databases and web application.</p><p>This course includes multiple activities through which students will have hands-on experience of python programming. Students will be aligned with a mentor who will guide them throughout the course. This course enables students to learn data Science, Machine Learning or web development using Django in future.</p>",
+	"buttonLink": "#register"
+  },
+  "courseHighlights": [
+    {
+      "icon": "fa fa-code",
+      "title": "Fundamentals",
+      "content": "We have designed our course keeping in mind the requirements of beginners.Course starts with fundamentals of logic building and problem solving."
+    },
+    {
+      "icon": "et-line-layers",
+      "title": "OOP Concepts",
+      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready."
+    },
+    {
+      "icon": "fa fa-database",
+      "title": "Database ORM",
+      "content": "We cover relational databases as, Databases are most crucial part of application development as all the data related to objects of app need to be stored and queried in efficient way."
+    },
+    {
+      "icon": "fa fa-laptop",
+      "title": "Web Apps",
+      "content": "We take a deep dive into Python's extensive built in standard library and use them to make feature efficient Web applications."
+    }
+  ],
+  "courseContents": [
+    {
+      "title": "Getting started with Python",
+      "contentTitle": "Data Structures & Functions",
+      "description": "",
+      "lectures": "2 Lectures",
+      "points": [
+        "Why Python?",
+        "Setting up Python on windows, mac, linux",
+        "Basic Python syntax",
+        "Variables, data structures, functions",
+        "Conditionals and loops",
+        "Basic file handling",
+        "Dealing with errors in Python"
+      ]
+    },
+    {
+      "title": "Intermediate Python",
+      "contentTitle": "Data Structures & Functions",
+      "description": "",
+      "lectures": "2 Lectures",
+      "points": [
+        "Basic Python modules (time, datetime, random, os, sys, collections, etc)",
+        "Iterators, generators and decorators",
+        "Object oriented programming",
+        "Working with files (CSV/ZIP/PDF/JSON/XML) "
+      ]
+    },
+    {
+      "title": "Python for web",
+      "contentTitle": "Data Structures & Functions",
+      "description": "",
+      "lectures": "2 Lectures",
+      "points": [
+        "Introduction to web APIs",
+        "Interacting with web APIs (GET and POST requests)",
+        "File downloader using Python",
+        "Web scraping using requests and BeautifulSoup",
+        "Web crawling",
+        "Web automation using selenium "
+      ]
+    },
+    {
+      "title": "Web development using Flask",
+      "contentTitle": "Data Structures & Functions",
+      "description": "",
+      "lectures": "2 Lectures",
+      "points": [
+        "Introduction to Flask",
+        "Setting up python environment",
+        "Basic web application using Flask",
+        "Authentication using Flask",
+        "Integrating SQL and Non-SQL databases to Flask app",
+        "Deploying Flask app on Heroku"
+      ]
+    },
+    {
+      "title": "Python for data science",
+      "contentTitle": "Data Structures & Functions",
+      "description": "",
+      "lectures": "2 Lectures",
+      "points": [
+        "Introduction to Numpy",
+        "Introduction to Matplotlib",
+        "Introduction to Pandas "
+      ]
+    },
+    {
+      "title": "Creating CLI for your application",
+      "contentTitle": "Data Structures & Functions",
+      "description": "",
+      "lectures": "2 Lectures",
+      "points": [
+        "Introduction to argparse",
+        "Using placeholders and helpers"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "Anybody who wants to learn programming in Python from scratch, or those who wish to form a solid understanding of Python to pursue Data Science, Machine Learning, or other courses that require it should take this course. This course has no prerequisites."
+    },
+    {
+      "ques": "I know C, C++, or Java should I do this course?",
+      "ans": "This course will cover programming principles from scratch using Python. If you already know one of the aforementioned programming languages, it will only be easier for you to pick up the concepts taught in the course, but knowledge is in no way a prerequisite."
+    },
+    {
+      "ques": "Will this help me in making web apps?",
+      "ans": "This course is designed to give you a solid foundation in programming wrapped up with Web Application Development. It will help you discover further with Web Development, Data Science, and other fields."
+    }
+  ],
+  "mentors": {
+    "heading": "Mentors",
+    "content": "",
+    "flip": true,
+    "companies": false,
+    "contentCenter": true,
+    "teamMembers": [
+		"Jatin Katyal",
+		"Himank Bhalla",
+		"Nikhil Singh"
+    ]
+  },
+  "courseEnroll": {
+	  "upcomingBatches": "Batches Starting Soon at Noida",
+	  "price": "12,000",
+	  "highlights": [
+	  ],
+	  "registerButton": {
+		  "disabled": false,
+		  "buttonText": "Register Now"
+	  }
+  },
+  "schedule": [
+    {
+      "center": "Pitampura",
+      "startdate": "27th May",
+      "enddate": "TBD",
+      "daytime": "Tue (4:10 PM - 7:50 PM), Thu (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "9th June",
+      "enddate": "TBD",
+      "daytime": "Mon (12:10 PM - 3:50 PM), Wed (12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "29th May",
+      "enddate": "TBD",
+      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon(04:00 PM - 07:00 PM), Wed(04:00 PM - 07:00 PM), Fri(04:00 PM - 07:00 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "16th June",
+      "enddate": "TBD",
+      "daytime": "Tue(9:00 AM - 12:00 PM), Thurs(9:00 AM - 12:00 PM), Sun(9:00 AM - 12:00 PM)",
+      "batchtype": "Normal Morning"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "10th June",
+      "enddate": "TBD",
+      "daytime": "Mon (10:00 AM - 2:00 PM), Wed (10:00 AM - 2:00 PM), Fri (10:00 AM - 2:00 PM)",
+      "batchtype": "Normal Morning"
+    }
+  ],
+
+  "frame-id-pitampura": "391",
+  "frame-id-noida": "393",
+  "frame-id-dwarka": "392"
+  
+}

@@ -1,0 +1,391 @@
+{
+  "id": "course05",
+  "name": "Algo++",
+  "title": "Data Structures and Algorithms Course in Delhi, Noida, Dwarka | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Get the best way to learn data structures and algorithms in a c++ course where you will learn advanced data structures algo++ coding courses. Enroll Now!"
+    },
+    {
+      "name": "keywords",
+      "content": "advanced data structures course, data structures and algorithms in c++, learn data structures and algorithms, best course for data structures and algorithms, advanced data structures and algorithms"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
+    "title": "Algo++ Advanced DS & Algorithms Course by Coding Blocks",
+    "image": "https://scontent.fdel1-2.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/17616635_1264424223627348_3167714152336588800_n.jpg",
+    "description": "Introducing our newest courses on Data Structures and Algorithms starting this 2 June - 15 July. The course will all important data structures and algorithmic knowledge required for interviews."
+  },
+  "header": {
+    "heading": "ALGO++",
+    "subHeading": "Advanced Data Structures and Algorithms in C++",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../assets/images/cb/cover/algo_2.jpg"
+  },
+  "overview": {
+    "content": "Coding Blocks presents an Advanced course on Data Structures and Algorithms - Algo++. The course is for all those who aspire to gain expertise in DS and Algo, or are appearing for their internship/placement procedure. The course will involve rigorous practice of questions based on <strong>Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming</strong> along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. The course will help you become smarter with solutions and ace your programming interviews.<br>"
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-edit",
+      "title": "Recursion &amp; Backtracking",
+      "content": "The course will start with complex recursion and back-tracking problems. You will be able to think recursively and implement the same in your code. You will be able to solve back-tracking problems."
+    },
+    {
+      "icon": "pe-7s-download",
+      "title": "Less Theory &amp; More Questions",
+      "content": "The course will lay emphasis on solving more no of questions based on data structures including topics likes bitmasking, DP, Graphs."
+    },
+    {
+      "icon": "et-line-speedometer",
+      "title": "Algorithmic Analysis",
+      "content": "You will learn the various problem solving paradigms like Divide and Conquer, Greedy Algorithms, Brute Force and Dynamic Programming. With ample no of questions, we will make ¬sure you will hit the right approach when solving problems in future."
+    },
+    {
+      "icon": "pe-7s-network",
+      "title": "Interview Preparation",
+      "content": "The main idea of the course is to get you ahead in interviews of IT companies. With rigorous practice of problems based on DS and Algorithms, the course will make sure you will do well in most of your interviews."
+    }
+  ],
+  "courseContents": [
+    {
+      "active": true,
+      "title": "Recursion &amp; Backtracking",
+      "contentTitle": "Recursion &amp; Backtracking",
+      "description": "The course will start with complex recursion and back-tracking problems. You will be able to think recursively and implement the same in your code. You will be able to solve recursion &amp; back-tracking problems.",
+      "points": [
+        "Recursion",
+        "Back-tracking",
+        "Space Time Complexity Analysis"
+      ]
+    },
+    {
+      "title": "Foundational DS",
+      "contentTitle": "",
+      "description": "We begin our journey by building a strong foundation for Data Structures.",
+      "points": [
+        "Arrays & Bitmasking, Vectors",
+        "Stacks, Queues Problems",
+        "Linked Lists"
+      ]
+    },
+    {
+      "title": "Sorting, Searching and Hashing",
+      "contentTitle": "Sorting, Searching and Hashing",
+      "description": "We will learn various sorting and searching algorithms, we will learn to use Hashtables and solve various problems on the same. We will also see various variants of Binary Search.",
+      "points": [
+        "Divide & Conquer",
+        "Sorting Algorithms",
+        "Binary Search Variants",
+        "Bitmasking and Hashing"
+      ]
+    },
+    {
+      "title": "Advanced Data Structures",
+      "contentTitle": "Advanced Data Structures",
+      "description": "In this part we learn about how to solve complex problems using data structures.",
+      "points": [
+        "Stacks, Queues, Linked Lists",
+        "Trees &amp; Tries",
+        "Graphs",
+        "Heaps and Priority Queues",
+        "Binary Search Trees"
+      ]
+    },
+    {
+      "title": "DP vs Greedy Techniques",
+      "contentTitle": "DP vs Greedy Techniques",
+      "description": "This is the most important challenging part. Most students find DP problems tough to solve, with ample practice of problems on Dynamic Programming, students will find interview questions easy to solve. We will also see how Greedy algorithms are different from DP and when to use them by solving a number of problems.",
+      "points": [
+        "Greedy Techniques",
+        "Dynamic Programming"
+      ]
+    },
+    {
+      "title": "STL | Interview Problems",
+      "contentTitle": "STL | Interview Problems",
+      "description": "At the end of the course we will keep one hackathon on Interview Problems, We will provide you quick booklet on STL so that you can revise C++ Standard Template Library codes.",
+      "points": [
+        "Complete C++ STL",
+        "Interview Problems"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Who should do this course?",
+      "ans": "Students in 2nd-4th year looking forward to sit for internship/placement exams can pursue this course. Student must have prior programming experience in C++ and basic knowledge of data structures like arrays, stacks, queues, linked list."
+    },
+    {
+      "ques": "I had C++ in class 12th. Can I do this course?",
+      "ans": "If you are first year student, then we will recommend you to join our Launchpad Program which will cover data structures and algorithms in great detail. This course is not recommended for first years unless you have studied data structures."
+    },
+    {
+      "ques": "I didn’t have C++ in class 12 ? Can I do this course ?",
+      "ans": "No, this course is not for beginners in programming. You must have good hands on practice of programming fundamentals like arrays, stacks,queues, linked lists,pointers etc."
+    },
+    {
+      "ques": "Will this help me with Interviews ?",
+      "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time. Optimising space &amp; time is what most interviewers look for. If you are looking forward for only Competititve Programming Topics, then you should join our Competitive Programming bootcamp specially designed for ACM-ICPC."
+    }
+  ],
+  "courseEnroll": {
+    "registerBoxHeading": "",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "After course Hacakthon"
+      }
+    ]
+  },
+  "syallabus": [
+    {
+      "title": "Mathematics",
+      "lecture_count": "",
+      "sectionDescription": "",
+      "sectionContent": [
+        "Pigeonhole",
+        "Probability",
+        "Expectation",
+        "Coupon collector",
+        "Matrix exponentiation",
+        "Inclusion-Exclusion"
+      ]
+    },
+    {
+      "title": "Number Theory ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "LCM",
+        "GCD",
+        "Prime factorization",
+        "Totient",
+        "Sieves",
+        "Mathematical Theorems",
+        "CRT",
+        "Euclid’s method",
+        "Linear Diophantine Equations"
+      ]
+    },
+    {
+      "title": " Divide and Conquer",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Classical problems",
+        "Binary search applications",
+        "Google, Amazon Interview Problems"
+      ]
+    },
+    {
+      "title": " Recursion and Backtracking",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Advance Recursion Problems",
+        "Backtracking algorithms with Bitmasks"
+      ]
+    },
+    {
+      "title": "Dynamic Programming ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Linear recurrences",
+        "2-D and 3-D DP",
+        "DP using Bitmasks"
+      ]
+    },
+    {
+      "title": "Greedy Algorithms ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Classical and interesting problems Codeforces and SPOJ",
+        "Greedy Algorithms Techniques"
+      ]
+    },
+    {
+      "title": " Segment Trees",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Segment trees",
+        "Lazy propagation",
+        "Fenwick tree",
+        "BIT"
+      ]
+    },
+    {
+      "title": " Graphs",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Types",
+        "Implementation",
+        "Traversals",
+        "Shortest paths",
+        "Min spanning trees",
+        "Topological sorting",
+        "Bipartite graphs",
+        "Cycle detection",
+        "Union-find",
+        "Other Important algorithms for Interview"
+      ]
+    },
+    {
+      "title": " Advanced Topics and Algorithms",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "KMP Algorithm",
+        "MO's Algorithm",
+        "Boyer Moore Algorithm",
+        "Manacher Algorithm"
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "course": "Algo++, B1",
+      "timings": "9:00AM-12:00PM",
+      "mentor": "Mosina",
+      "strength": "",
+      "days": "M W F Sat",
+      "start_date": "19th June",
+      "runcode": "APND21MAY",
+      "product_id": 5164,
+      "location": "Noida"
+    },
+    {
+      "course": "Algo++, B2",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Mosina",
+      "strength": "",
+      "days": "M Thu F Sun",
+      "start_date": "21st June",
+      "runcode": "APND21JUNB2",
+      "product_id": 5190,
+      "location": "Noida"
+    },
+    {
+      "course": "Algo++, B3",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Mohit Pandey",
+      "strength": "",
+      "days": "T T S S",
+      "start_date": "20th June",
+      "runcode": "APND21JUNB3",
+      "product_id": 5191,
+      "location": "Noida"
+    },
+    {
+      "course": "Algo++, B2",
+      "timings": "9:00-12:00PM",
+      "mentor": "Kartik Mathur",
+      "strength": "According to the batch size",
+      "days": "M W F Sat",
+      "start_date": "19th June",
+      "runcode": "APPP21JUNB2",
+      "product_id": 5192,
+      "location": "Pitampura"
+    },
+    {
+      "course": "Algo++, B3",
+      "timings": "12:30-3:30PM",
+      "mentor": "Abhishek",
+      "strength": "According to the batch size",
+      "days": "M W F Sat",
+      "start_date": "19th June",
+      "runcode": "APPP21JUNB3",
+      "product_id": 5193,
+      "location": "Pitampura"
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Kartik Mathur",
+      "contact": "kartik.mathur@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+      "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
+      "name": "Mohit Pandey",
+      "contact": "mohit.pandey@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Mohit%20Uniyal.png",
+      "description": "Mohit Pandey is a competitive programmer, has an awesome understanding of Data Structure And Algorithm. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand what he is teaching.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
+      "name": "Mosina Ashraf",
+      "contact": "mosina.ashraf@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
+      "description": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
+      "designation": "Mentor",
+      "highlights": null
+    }
+  ],
+  "difficulty": "Intermediate",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
+  "schedule": [
+    {
+      "center": "Pitampura",
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon (12:10 PM - 3:50 PM), Wed(12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "12th June",
+      "enddate": "TBD",
+      "daytime": "Mon (9:00 AM - 12:00 PM), Wed (9:00 AM - 12:00 PM), Fri (9:00 AM - 12:00 PM), Sat (9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "19th June",
+      "enddate": "TBD",
+      "daytime": "Mon (10:00 AM - 2:00 PM), Tue (10:00 AM - 2:00 PM), Thu (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
+      "batchtype": "Normal Morning"
+    }
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",
+  "courseReviews": [
+    "Manish Sundriyal",
+    "Gagan Bhayana",
+    "Dhruv Kulshreshtha",
+    "Parth Dhamija"
+  ],
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=399",
+  "frame-id-pitampura-lp": "399",
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=401",
+  "frame-id-noida-lp": "401",
+  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=255",
+  "frame-id-dehradun-lp": "255",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=400",
+  "frame-id-dwarka-lp": "400"
+}

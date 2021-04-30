@@ -1,0 +1,277 @@
+{
+  "id": "course11",
+  "title": "Data Structures and Algorithms in Java Course in Delhi, Noida, Dwarka | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Get the best way to learn data structures and algorithms in java course where you will learn advanced data structures algo java courses. Enroll Now!!"
+    },
+    {
+      "name": "keywords",
+      "content": "advanced data structures and algorithms in java, algo java courses, data structure programs in java, data structures using java, data structures & algorithms in java"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/advanced-data-structures-and-algorithms-using-java.html",
+    "title": "Algo.Java | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
+    "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
+  },
+  "header": {
+    "heading": "Algo.Java",
+    "subHeading": "Advanced Data Structures & Algorithms in Java",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "/assets/images/cb/cover/covergcp.jpg"
+  },
+  "courseEnroll": {
+    "upcomingBatches": "",
+    "highlights": [
+      {
+        "icon": "et-line-search",
+        "content": "Online code Submission &amp; Evaluation"
+      },
+      {
+        "icon": "pe-7s-cup",
+        "content": "Special Session on Java Game Development"
+      }
+    ]
+  },
+  "overview": {
+    "content": "Become a pro in Java with the Algo.Java course. Java, an Object Oriented Programming language is one of the most sought after programming languages and is the foundation of the Android operating system. Java is a perfect computer language for being competitive in today’s industry requirements. Designed for programmers experienced in basic Data Structures and Algorithms, this is a hands on course where we focus on developing core programming concepts and equip you to code solutions for complex problems using Java."
+  },
+  "courseHighlights": [
+    {
+      "icon": "et-line-puzzle",
+      "title": "Problem Solving",
+      "content": "The course is designed to sharpen the problem solving skills of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+    },
+    {
+      "icon": "et-line-layers",
+      "title": "OOP Concepts &amp; Project",
+      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready. Students will also build a game with Java Swing Libraries to strengthen their OOPS concepts."
+    },
+    {
+      "icon": "et-line-linegraph",
+      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
+      "content": "This course entails more than 100 hours of teaching and hands on coding. Students will be solving more than 200 complex problems and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "Will this help me with competitive programming or can I apply to ACM-ICPC after doing this course?",
+      "ans": "This course will help you become smarter with your solutions. You’ll be able to write solutions that run in lesser space and time. The last time we heard from capable competitive programmers, they said these skills made them capable."
+    },
+    {
+      "ques": "Will this course help me in Interviews?",
+      "ans": "Yes. If you learn well, all that the course intends to teach, you’ll be able to impress quite a few interviewers across quite a few fine companies."
+    },
+    {
+      "ques": "Will this help me in making websites and apps?",
+      "ans": "No. This is a fundamentals course. To make websites and apps, you need to learn more. Please check out our <strong>Pandora &amp; Elixir</strong> course for those."
+    },
+    {
+      "ques": "Is this CORE Java or Advanced Java?",
+      "ans": "This is not CORE java or Advanced Java. This is a course which teaches you problem solving, data structures and Object Oriented Programming. Though, most of what CORE java means is being covered. The aim of the course is to help you with a smarter beginning. For being able to make web and mobile apps you need to learn frameworks. Android is one such framework for mobile apps. Please check out our Pandora and Elixir course for more details on these lines."
+    }
+  ],
+  "syallabus": [
+    {
+      "title": "Mathematics",
+      "lecture_count": "",
+      "sectionDescription": "",
+      "sectionContent": [
+        "Pigeonhole",
+        "Probability",
+        "Expectation",
+        "Coupon collector",
+        "Matrix exponentiation",
+        "Inclusion-Exclusion"
+      ]
+    },
+    {
+      "title": "Number Theory ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "LCM",
+        "GCD",
+        "Prime factorization",
+        "Totient",
+        "Sieves",
+        "Mathematical Theorems",
+        "CRT",
+        "Euclid’s method",
+        "Linear Diophantine Equations"
+      ]
+    },
+    {
+      "title": " Divide and Conquer",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Classical problems",
+        "Binary search applications",
+        "Google, Amazon Interview Problems"
+      ]
+    },
+    {
+      "title": " Recursion and Backtracking",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Advance Recursion Problems",
+        "Backtracking algorithms with Bitmasks"
+      ]
+    },
+    {
+      "title": "Dynamic Programming ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Linear recurrences",
+        "2-D and 3-D DP",
+        "DP using Bitmasks"
+      ]
+    },
+    {
+      "title": "Greedy Algorithms ",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Classical and interesting problems Codeforces and SPOJ",
+        "Greedy Algorithms Techniques"
+      ]
+    },
+    {
+      "title": " Segment Trees",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Segment trees",
+        "Lazy propagation",
+        "Fenwick tree",
+        "BIT"
+      ]
+    },
+    {
+      "title": " Graphs",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "Types",
+        "Implementation",
+        "Traversals",
+        "Shortest paths",
+        "Min spanning trees",
+        "Topological sorting",
+        "Bipartite graphs",
+        "Cycle detection",
+        "Union-find",
+        "Other Important algorithms for Interview"
+      ]
+    },
+    {
+      "title": " Advanced Topics and Algorithms",
+      "lecture_count": " ",
+      "sectionDescription": " ",
+      "sectionContent": [
+        "KMP Algorithm",
+        "MO's Algorithm",
+        "Boyer Moore Algorithm",
+        "Manacher Algorithm"
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "course": "Competitive Java",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Monu Kumar",
+      "strength": 35,
+      "days": "M W F",
+      "start_date": "7th June",
+      "runcode": "COJND21JUN",
+      "product_id": 5203,
+      "location": "Noida"
+    },
+    {
+      "course": "Competitive Java",
+      "timings": "9:00-12:00PM",
+      "mentor": "Kartik Sapra",
+      "strength": 35,
+      "days": "T T Sun",
+      "start_date": "6th June",
+      "runcode": "COJPP21MAY",
+      "product_id": 5171,
+      "location": "Pitampura"
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Kartik Mathur",
+      "contact": "kartik.mathur@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+      "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
+      "name": "Monu Kumar",
+      "contact": "monu.kumar@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Monu.png",
+      "description": "Monu Kumar is a competitive programmer, an expert in data structures and algorithms, and an expert in Mathematics. He always amazes his students with his creative thinking to the problems and makes solutions to tough problems a cake walk. He has a strong grasp on the core subjects of computer science",
+      "designation": "Mentor",
+      "highlights": null
+    }
+  ],
+  "difficulty": "Beginner",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
+  "schedule": [
+    {
+      "center": "Pitampura",
+      "startdate": "15th June",
+      "enddate": "TBD",
+      "daytime": "Mon (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Sat (8:00 AM - 11:50 AM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "12th June",
+      "enddate": "TBD",
+      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "24th June",
+      "enddate": "TBD",
+      "daytime": "Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM), Sun (3:00 PM - 7:30 PM)",
+      "batchtype": "Normal Evening"
+    }
+  ],
+  "courseReviews": [
+    "YAMINI GAUR",
+    "ANSH SACHDEVA",
+    "GAGARIN DASH",
+    "KSHITIJ BANSAL"
+  ],
+  "registerLinkPitampura": "https://students.codingblocks.com/payment/iframe?item_id=402",
+  "frame-id-pitampura": "402",
+  "registerLinkNoida": "https://students.codingblocks.com/payment/iframe?item_id=404",
+  "frame-id-noida": "404",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=403",
+  "frame-id-dwarka-lp": "403"
+}
