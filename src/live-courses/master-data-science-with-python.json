@@ -277,5 +277,31 @@
       "lecture": "Lecture 41",
       "description": "Intro to Reinforcement learning"
     }
+  ],
+  "projects": [
+    {
+      "project_name": "Face Recognition"
+    },
+    {
+      "project_name": "Image classification"
+    },
+    {
+      "project_name": "Text/Poem Generating bot"
+    },
+    {
+      "project_name": "Recommender Systems"
+    },
+    {
+      "project_name": "Pokemon Classification"
+    },
+    {
+      "project_name": "Web Crawler"
+    },
+    {
+      "project_name": "Dominant Color Extraction"
+    },
+    {
+      "project_name": "Fashion Retailing Forecasting"
+    }
   ]
 }

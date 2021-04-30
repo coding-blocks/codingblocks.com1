@@ -165,5 +165,22 @@
     },
     { "lecture": "Lecture 34", "description": "System Designs" },
     { "lecture": "Lecture 35", "description": "Case Study on System Design" }
+  ],
+  "projects": [
+    {
+      "project_name": "Painter's Problem"
+    },
+    {
+      "project_name": "NQUEEN"
+    },
+    {
+      "project_name": "SUDOKU SOLVER"
+    },
+    {
+      "project_name": "SPLITWISE ALGO"
+    },
+    {
+      "project_name": "RAT IN A MAZE"
+    }
   ]
 }

@@ -258,5 +258,22 @@
       "lecture": "Lecture 37",
       "description": "Tips on building resumes, Profile Building and Future Career Guidance"
     }
+  ],
+  "projects": [
+    {
+      "project_name": "Painter's Problem"
+    },
+    {
+      "project_name": "NQUEEN"
+    },
+    {
+      "project_name": "SUDOKU SOLVER"
+    },
+    {
+      "project_name": "SPLITWISE ALGO"
+    },
+    {
+      "project_name": "RAT IN A MAZE"
+    }
   ]
 }
