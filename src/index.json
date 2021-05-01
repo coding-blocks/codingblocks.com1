@@ -11,20 +11,33 @@
     }
   ],
 
-  "slides": [  
+  "slides": [ 
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner.png",
+      "imgSrc": "https://images.codingblocks.com/img/Classroom_Banner.jpeg",
       "imgAlt": "",
       "heading": "",
-      "content": "",
+      "content": "Limited seats per batch",
       "button": [
         {
-          "link": "http://career-bootcamp.codingblocks.com/",
-          "text": "Register",
+          "link": "/classroom-program.html",
+          "text": "Explore",
           "filled": "true"
         }
       ]
     },  
+    {
+      "imgSrc": "/assets/images/cb/cover/live.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "Starting 24th May 2021",
+      "button": [
+        {
+          "link": "/live-classes.html",
+          "text": "Enroll Now",
+          "filled": "true"
+        }
+      ]
+    },
     {
       "imgSrc": "https://images.codingblocks.com/img/learningspree-bannerd.jpg",
       "imgAlt": "",
@@ -39,53 +52,14 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/Classroom_Website%20Banner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "Limited 15 seats only per batch",
-      "button": [
-        {
-          "link": "/classroom-program.html",
-          "text": "Explore",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/live.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "/live-classes.html",
-          "text": "Enroll Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cover5.jpg",
-      "imgAlt": "",
-      "heading": "THE BEST CAMPUS AMBASSADOR PROGRAM IS HERE!",
-      "content": "Do the best summer internship this year by becoming a Coding Blocks Ambassador for your campus, and win coupons, merchandise, certificates, and CASH.",
-      "button": [
-        {
-          "link": "http://cb.lk/CA",
-          "text": "Details & Registration",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/cast.jpg",
-      "imgAlt": "",
-      "heading": "Success stories",
-      "content": "Got an internship/placement ? Here is a chance to share your success story with others, get featured on our Facebook, Instagram and Hall of Fame pages and get rewarded.",
-      "button": [
-        {
-          "link": "https://cb.lk/ss",
-          "text": "Submit Success Story",
+          "link": "http://career-bootcamp.codingblocks.com/",
+          "text": "Register",
           "filled": "true"
         }
       ]
@@ -321,5 +295,97 @@
     "KANIKA BHOOKER",
     "GURLEEN KAILEY",
     "PURUJIT BANSAL"
+  ],
+  "liveCourseCards": [
+    {
+      "name": "Master DS and Algo with C++",
+      "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
+      "link": "/live-courses/master-c-plus-plus-ds-algo.html",
+      "mentors": "Mohit Pandey",
+      "interactiveClasses": "47 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "projects": "5 Projects",
+      "classSchedule": "Classes four a week",
+      "price": "15,999",
+      "slashedPrice": "7999",
+      "gradient": "bg-gradient-blue-light",
+      "startDate": "24th May",
+      "badge": "Beginner"
+    },
+    {
+      "name": "Master DS and Algo with Java",
+      "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+      "link": "/live-courses/master-java-for-beginners.html",
+      "mentors": "Monu Kumar",
+      "interactiveClasses": "45 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "projects": "5 Projects",
+      "classSchedule": "Classes four a week",
+      "price": "15,999",
+      "slashedPrice": "7,999",
+      "gradient": "bg-gradient-purple",
+      "startDate": "24th May",
+      "badge": "Beginner"
+    },
+    {
+      "name": "Master Algo.Java",
+      "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
+      "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
+      "mentors": "Monu Kumar",
+      "interactiveClasses": "37 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "projects": "5 Projects",
+      "classSchedule": "Classes four a week",
+      "price": "12,999",
+      "slashedPrice": "6,499",
+      "gradient": "bg-gradient-orange",
+      "startDate": "24th May",
+      "badge": "Advance"
+    },
+    {
+      "name": "Master Algo++",
+      "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
+      "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
+      "mentors": "Mohit Pandey",
+      "interactiveClasses": "34 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "projects": "5 Projects",
+      "classSchedule": "Classes four a week",
+      "price": "12,999",
+      "slashedPrice": "6,499",
+      "gradient": "bg-gradient-blue-dark",
+      "startDate": "24th May",
+      "badge": "Advance"
+    },
+    {
+      "name": "Master Data Science",
+      "icon": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
+      "link": "/live-courses/master-data-science-with-python.html",
+      "mentors": "Princey Yadav",
+      "interactiveClasses": "41 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "projects": "8 Projects",
+      "classSchedule": "Classes four a week",
+      "price": "27,999",
+      "slashedPrice": "13,999",
+      "gradient": "bg-gradient-green-light",
+      "startDate": "24th May",
+      "badge": "Advance"
+    },
+    {
+      "name": "Web Development with Node.JS",
+      "icon": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
+      "link": "/live-courses/master-web-development-nodejs.html",
+      "mentors": "Sabeel Khan",
+      "interactiveClasses": "32 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "projects": "10 Projects",
+      "classSchedule": "Classes four a week",
+      "price": "15,999",
+      "slashedPrice": "7,999",
+      "gradient": "bg-gradient-pink",
+      "startDate": "24th May",
+      "badge": "Advance"
+    }
   ]
 }

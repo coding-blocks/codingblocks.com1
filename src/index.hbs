@@ -10,29 +10,315 @@
     {{> head}}
     <meta name="p:domain_verify" content="a5c7b03763ef4e1edc5763434ebd9e33" />
     <meta name="B-verify" content="20e6f5e136a370d1852170f4312ba928947cc540" />
+    <style>
+        body {
+        padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+        font-family: "Gilroy", "Nunito Sans", sans-serif;
+        }
+
+        .python-margin{
+        margin-top:80px;
+        }
+        .icon-height{
+        height: 90px;
+        }
+        
+    </style>
+
+    <script>
+        window.scrollNow = function (target) {
+        var scrollContainer = target;
+        do { //find scroll container
+            scrollContainer = scrollContainer.parentNode;
+            if (!scrollContainer) return;
+            scrollContainer.scrollTop += 1;
+        } while (scrollContainer.scrollTop == 0);
+
+        var targetY = 0;
+        do {
+            // Find the top of target relatively to the container
+            if (target == scrollContainer) break;
+            targetY += target.offsetTop;
+        } while (target = target.offsetParent);
+
+        scroll = function (c, a, b, i) {
+            i++; if (i > 30) return;
+            c.scrollTop = a + (b - a) / 30 * i;
+            setTimeout(function () { scroll(c, a, b, i); }, 20);
+        }
+        // Scroll to target
+        scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+        }
+    </script>
 </head>
 
-<body class="scroll-assist" style="margin-top: -70px;">
+<body class="scroll-assist" style="margin-top: -30px;">
     {{> navbar}}
     <div class="main-container">
         {{> slider}}
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <h1 class="uppercase mb16">Live Courses</h1>
-                        <p class="lead mb64">
-                            Live courses for all stages, with equal focus on theory and implementation</p>
+                    <div class="col-sm-12 text-center mt10">
+                        <h1 class="uppercase my-16">Summer Classroom Courses</h1>
+                        <p class="lead mb64"> 
+                            Batches starting from June'21 first week.
                     </div>
                 </div>
-                <a id="register-advance" class="in-page-link"></a>
-                {{> coursesRow courses=liveCoursesRow1}}
+                {{!-- <a id="register-advance" class="in-page-link"></a> --}}
+                {{!-- {{> coursesRow courses=liveCoursesRow1}}
                 {{> coursesRow courses=liveCoursesRow2}}
-                {{> coursesRow courses=liveCoursesRow3}}
-
+                {{> coursesRow courses=liveCoursesRow3}} --}}
             </div>
-        </section>
 
+        <div class="a-cbm" style="margin-top: -25px;">
+            <div1 class="classroom-courses-page">
+                <div class="container pt-50 pb-25" id="courses">
+                    {{!-- <div class="heading-3 bold t-align-c mb-50">Courses</div> --}}
+                    <div class="row justify-content-center" id="courses-noida">
+                        <div class="col-md-4 col-sm-10 col-12 h-inherit mb-25">
+                            <div class="card card--theme-blue t-align-c h-100">
+                                <div class="flex-col h-100 w-100 justify-content-between">
+                        {{!-- <div class="badge badge-primary mb-3">Noida</div> --}}
+                                    <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-cpp.svg" class="mb-25">
+                                    <div class="w-100">
+                                        <div class="heading-6 bold mb-10">Master Data Structures and Algorithms using C++</div>
+                                        <div class="mb-20 font-3">
+                                            Learn Data structures and Algorithms right from the basics and become an accomplished programmer using C++, one of the most popular programming languages in the world and brighten your chances of making it to the Top Tech organisations as an Intern or SDE.
+                                        </div>
+                                        <small>Starting</small>
+                                        <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                                            <div class="text-grey bold heading-6 mr-10">&#8377; 12750</div>
+                                            {{!-- <div class="text-grey-light-1 bold heading-6" style="text-decoration: line-through;">&#8377; 14750</div> --}}
+                                        </div>
+                                        <a href="/classroom-program/c-plus-plus-for-beginners.html" class="button-primary mb-10">
+                                            View Batches
+                                        </a>
+                                    {{!-- <div class="mt-10 font-3 bold text-grey-light-1">Filling Fast!</div> --}}
+                                    {{!-- <div class="highlight-text font-5 bold mt-20">BATCH FULL!</div> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-10 col-12 h-inherit mb-25">
+                            <div class="card card--theme-purple t-align-c h-100">
+                            <div class="flex-col h-100 w-100 justify-content-between">
+                                {{!-- <div class="badge badge-primary mb-3">Noida</div> --}}
+                                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-java.svg" class="mb-25">
+                                <div class="w-100">
+                                <div class="heading-6 bold mb-10">Master Data Structures and Algorithms using Java</div>
+                                <div class="mb-20 font-3">
+                                Learn Data structures and Algorithms right from the basics and become an accomplished programmer using Java, one of the most popular programming languages in the world and brighten your chances of making it to the Top Tech organisations as an Intern or SDE.
+                                </div>
+                                <small>Starting</small>
+                                <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                                    <div class="text-grey bold heading-6 mr-10">&#8377; 12750</div>
+                                    {{!-- <div class="text-grey-light-1 bold heading-6" style="text-decoration: line-through;">&#8377; 14750</div> --}}
+                                </div>
+                                <a href="/classroom-program/java-for-beginners.html" class="button-primary mb-10">
+                                    View Batches
+                                </a>
+                                {{!-- <div class="mt-10 font-3 bold text-grey-light-1">Filling Fast!</div> --}}
+                                {{!-- <div class="highlight-text font-5 bold mt-20">BATCH FULL!</div> --}}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-10 col-12 h-inherit mb-25">
+                            <div class="card card--theme-blue t-align-c h-100">
+                            <div class="flex-col h-100 w-100 justify-content-between">
+                                {{!-- <div class="badge badge-primary mb-3">Noida</div> --}}
+                                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-cpp.svg" class="mb-25">
+                                <div class="w-100">
+                                <div class="heading-6 bold mb-10">Algo++ Advanced Data Structures &amp; Algorithms</div>
+                                <div class="mb-20 font-3">
+                                    Algo++ deals with Advanced DSA and is for those who have basic knowledge of coding. It is the right choice for students looking to sharpen their Coding skills, prepare for Internships or go in for Placements. This also helps you prepare a good profile on Competitive sites.
+                                </div>
+                                {{!-- <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                                    *starting
+                                </div> --}}
+                                <small>Starting</small>
+                                <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                                    
+                                    <div class="text-grey bold heading-6 mr-10"> &#8377; 8999</div>
+                                    {{!-- <div class="text-grey-light-1 bold heading-6" style="text-decoration: line-through;">&#8377; 10999</div> --}}
+                                </div>
+                                <a href="/classroom-program/cpp-for-advance.html" class="button-primary mb-10">
+                                    View Batches
+                                </a>
+                                {{!-- <div class="mt-10 font-3 bold text-grey-light-1">Filling Fast!</div> --}}
+                                {{!-- <div class="highlight-text font-5 bold mt-20">BATCH FULL!</div> --}}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-10 col-12 h-inherit mb-25">
+                            <div class="card card--theme-purple t-align-c h-100">
+                            <div class="flex-col h-100 w-100 justify-content-between">
+                                {{!-- <div class="badge badge-primary mb-3">Noida</div> --}}
+                                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-java.svg" class="mb-25">
+                                <div class="w-100">
+                                <div class="heading-6 bold mb-10">Algo.Java Advanced Data Structures and Algorithms</div>
+                                <div class="mb-20 font-3">
+                                Algo.Java deals with Advanced DSA and is for those who have basic knowledge of coding. It is the right choice for students looking to sharpen their Coding skills, prepare for Internships or go in for Placements. This also helps you prepare a good profile on Competitive sites.
+                                </div>
+                                <small>Starting</small>
+                                <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                                    <div class="text-grey bold heading-6 mr-10">&#8377; 8999</div>
+                                    {{!-- <div class="text-grey-light-1 bold heading-6" style="text-decoration: line-through;">&#8377; 10999</div> --}}
+                                </div>
+                                <a href="/classroom-program/java-for-advance.html" class="button-primary mb-10">
+                                    View Batches
+                                </a>
+                                {{!-- <div class="mt-10 font-3 bold text-grey-light-1">Filling Fast!</div> --}}
+                                {{!-- <div class="highlight-text font-5 bold mt-20">BATCH FULL!</div> --}}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-10 col-12 h-inherit mb-25">
+                            <div class="card card--theme-orange t-align-c h-100">
+                            <div class="flex-col h-80 w-100 justify-content-between">
+                                {{!-- <div class="badge badge-primary mb-3">Noida</div> --}}
+                                <img src="https://images.codingblocks.com/img/newcourse_logo/Python_gradient.png" class="mb-2 icon-height">
+                                <div class="w-100">
+                                <div class="heading-6 bold mb-10 python-margin">Python App Development</div>
+                                <div class="mb-20 font-3">
+                                    This course will revolve around the concepts of Python, ranging from basic to advanced concepts and development of applications using this powerful language.
+                                </div>
+                                <div class="python-margin">
+                                    <small>Starting</small>
+                                    <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                                    <div class="text-grey bold heading-6 mr-10">&#8377; 12000</div>
+                                    {{!-- <div class="text-grey-light-1 bold heading-6" style="text-decoration: line-through;">&#8377; 14000</div> --}}
+                                    </div>
+                                    <a href="/classroom-program/python-app-dev.html" class="button-primary mb-10">
+                                    View Batches
+                                    </a>
+                                    {{!-- <div class="highlight-text font-5 bold mt-20">BATCH FULL!</div> --}}
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-10 col-12 h-inherit mb-25">
+                            <div class="card card--theme-orange t-align-c h-100">
+                            <div class="flex-col h-100 w-100 justify-content-between">
+                                {{!-- <div class="badge badge-primary mb-3">Noida</div> --}}
+                                <img src="https://images.codingblocks.com/img/newcourse_logo/webdev_white.png" class="mb-25" style="height: 100px;">
+                                <div class="w-100">
+                                <div class="heading-6 bold mb-10">Master Full Stack Web Development</div>
+                                <div class="mb-20 font-3">
+                                    This course help students aspiring to become Web devs learn FrontEnd and BackEnd Web development using HTML, CSS, Javascript, jQery, Bootstrap, ReactJs and NodeJS as the backend. Learn Deployment, Scalability and Security and learn by developing projects like Twitter clone, E-com website, Movie search app and so on. Also learn intro to React and build a live project on it.
+                                </div>
+                                <small>Starting</small>
+                                <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                                    <div class="text-grey bold heading-6 mr-10">&#8377; 15400</div>
+                                    {{!-- <div class="text-grey-light-1 bold heading-6" style="text-decoration: line-through;">&#8377; 24000</div> --}}
+                                </div>
+                                <a href="/classroom-program/web-development-nodejs.html" class="button-primary mb-10">
+                                    View Batches
+                                </a>
+                                {{!-- <div class="mt-10 font-3 bold text-grey-light-1">Filling Fast!</div> --}}
+                                {{!-- <div class="highlight-text font-5 bold mt-20">BATCH FULL!</div> --}}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-10 col-12 h-inherit mb-25">
+                            <div class="card card--theme-orange t-align-c h-100">
+                            <div class="flex-col h-100 w-100 justify-content-between">
+                                {{!-- <div class="badge badge-primary mb-3">Noida</div> --}}
+                                <img src="https://images.codingblocks.com/img/newcourse_logo/ml_gradient.png" class="mb-25 icon-height">
+                                <div class="w-100">
+                                <div class="heading-6 bold mb-10">Machine Learning Master Course</div>
+                                <div class="mb-20 font-3">
+                                    This course will provide a great kick-start by starting with Python, Data Visualization, Scraping, Data Cleaning and applying various ML Algos like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes & so on. The course is very practical and ensures sufficient hands-on practice by solving assignments & challenges.
+                                </div>
+                                <small>Starting</small>
+                                <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                                    <div class="text-grey bold heading-6 mr-10">&#8377; 18750</div>
+                                    {{!-- <div class="text-grey-light-1 bold heading-6" style="text-decoration: line-through;">&#8377; 20750</div> --}}
+                                </div>
+                                <a href="/classroom-program/machine-learning-with-deep-learning.html" class="button-primary mb-10">
+                                    View Batches
+                                </a>
+                                {{!-- <div class="highlight-text font-5 bold mt-20">BATCH FULL!</div> --}}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-10 col-12 h-inherit mb-25">
+                            <div class="card card--theme-orange t-align-c h-100">
+                            <div class="flex-col h-100 w-100 justify-content-between">
+                                {{!-- <div class="badge badge-primary mb-3">Noida</div> --}}
+                                <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-ml.svg" class="mb-25">
+                                <div class="w-100">
+                                <div class="heading-6 bold mb-10">Data Science Master Course</div>
+                                <div class="mb-20 font-3">
+                                    This course will provide a great kick-start by starting with Python, Data Visualization, Scraping, Data Cleaning and applying various ML Algos like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes & so on. The content covers a vast domain including Sentiment Analysis, Temporal Data Modelling, Database Management Systems.
+                                </div>
+                                <small>Starting</small>
+                                <div class="mb-10 row no-gutters align-items-center justify-content-center">
+                                    <div class="text-grey bold heading-6 mr-10">&#8377; 18750</div>
+                                    {{!-- <div class="text-grey-light-1 bold heading-6" style="text-decoration: line-through;">&#8377; 20750</div> --}}
+                                </div>
+                                <a href="/classroom-program/data-science-with-python.html" class="button-primary mb-10">
+                                    View Batches
+                                </a>
+                                {{!-- <div class="highlight-text font-5 bold mt-20">BATCH FULL!</div> --}}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div1>
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="a-cbm mt-10" style="margin-top: 5%;">
+        <div class="events-page-landing">
+            <div class="events-page-landing__section events-page-landing__section--floating-section">
+            <div class="floating-section">
+                <a id="register-advance" class="in-page-link"></a>
+                <div class="col-sm-12 text-center mt10">
+                    <h1 class="uppercase mt-16 mb-90 centre">Live Summer Courses</h1><br>
+                    {{!-- <div class="t-align-c mb-90 bold">Batches Starting from 24th May'21</div> --}}
+                </div>
+                
+                <div class="row justify-content-center">
+                {{>liveCourseCards}}
+                <div class="col-sm-10">
+                    <div
+                    class=" br-5 row no-gutters align-items-center justify-content-between bg-gradient-orange-light py-sm-35 py-25 px-md-50 px-sm-40 px-25">
+                    <div class="flex-1">
+                        <div class="font-5 white">
+                        Talk to our expert counsellors to know the perfect path for you
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/Vector+(1).svg">
+                        <button class="button-primary button-primary--white border-none ml-10">9999579111</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
         <section>
             <div class="container">
                 <div class="row">
