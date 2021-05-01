@@ -1,7 +1,13 @@
 {
   "id": "course46",
-  "name": "Data Science With Python",
-  "title": "Best Data Science Training Course in Delhi, Noida, Dwarka | Coding Blocks",
+  "name": "Data Science Master Course",
+  "title": "Best Data Science Training Course in Delhi, Noida | Coding Blocks",
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/data-science-with-python.html",
+    "title": "Data Science Master Course",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
+    "description": "This course will provide a great kick-start by starting with Python, Data Visualization, Scraping, Data Cleaning and applying various ML Algos like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes & so on. The content covers a vast domain including Sentiment Analysis, Temporal Data Modelling, Database Management Systems. The course is very practical and ensures sufficient hands-on practice by solving assignments & challenges."
+  },
   "metas": [
     {
       "name": "description",
@@ -161,39 +167,49 @@
   "batches": [
     {
       "course": "Data Science",
-      "timings": "9:00-12:00PM",
-      "mentor": "Manu S Pillai",
-      "strength": 35,
-      "days": "M W F Sat",
-      "start_date": "5th June",
-      "runcode": "DSND21MAY",
-      "product_id": 5180,
-      "location": "Noida"
-    },
-    {
-      "course": "Data Science",
-      "timings": "9:00-12:00PM",
+      "timings": "9:00AM-12:00PM",
       "mentor": "Princey Yadav",
       "strength": 35,
-      "days": "M W F Sat",
+      "days": "Mon Wed Fri Sat",
       "start_date": "5th June",
       "runcode": "DSPP21MAY",
       "product_id": 5181,
-      "location": "Pitampura"
+      "location": "Pitampura",
+      "price":"25000"
+    },
+    {
+      "course": "Data Science",
+      "timings": "9:00AM-12:00PM",
+      "mentor": "Manu S Pillai",
+      "strength": 35,
+      "days": "Mon Wed Fri Sat",
+      "start_date": "5th June",
+      "runcode": "DSND21MAY",
+      "product_id": 5180,
+      "location": "Noida",
+      "price":"18750"
     }
   ],
   "mentors": [
     {
       "name": "Manu S Pillai",
-      "contact": "mohit.uniyal@codingblocks.com",
+      "contact": "manu.pillai@codingblocks.com",
       "img": "https://images.codingblocks.com/img/mentor/Manu%20S%20Pillai.png",
       "description": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
+      "name": "Princey Yadav",
+      "contact": "princey.yadav@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
+      "description": "Princey is a post graduate from IIIT Delhi and did her graduation from NSIT Delhi. She joined Coding Blocks due to her passion for teaching. She has prior experience as a Software Engineer and has done research in the field of Computational Biology. Her interests include Machine learning, Data science and Game development. She is a pythonista and likes to draw and watch anime for fun.",
       "designation": "Mentor",
       "highlights": null
     }
   ],
   "difficulty": "Intermediate",
-  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/ds_white.png",
   "overview": {
     "content": "Data Science is one of the hottest fields of the 21st century. It is in high demand across the globe with bigwigs like Amazon, Google, Microsoft paying handsome salaries and perks to data scientists. This course provides you with a great kick-start in your data science journey. <br/><br/> Starting with Python Basics, Data Visualization, Data Scraping, Building Web Scrappers using Scrapy, Data Cleaning and applying various machine learning algorithms like Linear Regression, Logistic Regression, Decision Trees, Naive Bayes, Principal Component Analysis, Feature Engineering, T-SNE Visualizations, Deep Learning & Reinforcement Learning for video games. The complete course is very practical and makes sure you do sufficient hands-on practice on the concepts taught by solving assignments and challenges"
   },

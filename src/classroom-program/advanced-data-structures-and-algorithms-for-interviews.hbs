@@ -13,6 +13,10 @@
         url("/assets/images/cb/cover/algo_2.jpg") no-repeat 0 75% !important;
       background-size: cover !important;
     }
+    .height-correction{
+        height: 75px;
+        padding-top: 25px;
+    }
   </style>
 
   <script>
@@ -56,7 +60,7 @@
                     <img src="{{logo}}" />
                   </div>
                   <div class="flex-1 pl-sm-30 pl-20">
-                    <div class="heading-3 bold text-clamp-ellipses text-clamp-ellipses--3">
+                    <div class="heading-3 bold text-clamp-ellipses text-clamp-ellipses--3 height-correction">
                       {{ name }}
                     </div>
                   </div>
@@ -93,10 +97,11 @@
               Also get
             </div>
             <ul class="list-style-gradient-bullet my-none">
+              <li class="mb-15">Placement and Internship assistance through Hiring Blocks</li>
               <li class="mb-15">Resume building tips</li>
               <li class="mb-15">Interview preparation</li>
               <li class="mb-15">Free access to Online Course</li>
-              <li class="mb-15">Skill enhancement classes</li>
+              <li class="mb-15">Prepare for Online Competitions like ACM-ICPC, Hackercup, Kickstart etc.</li>
               <li class="mb-15">Start with online platforms like Leetcode, Codeforces etc.</li>
             </ul>
           </div>
@@ -106,7 +111,8 @@
             Also get
           </div>
           <ul class="list-style-gradient-bullet mx-auto" style="width: fit-content;">
-            <li class="mb-15">Resume building tips</li>
+            <li class="mb-15">Placement and Internship assistance through Hiring Blocks</li>
+              <li class="mb-15">Resume building tips</li>
             <li class="mb-15">Interview preparation</li>
             <li class="mb-15">Free access to Online Course</li>
             <li class="mb-15">Skill enhancement classes</li>
@@ -201,6 +207,30 @@
                   </div>
                   <div class="bold">
                     {{days}}
+                  </div>
+                </div>
+                <div class="flex-1 font-4">
+                  <div class="text-grey-light-1">
+                    Timings
+                  </div>
+                  <div class="bold">
+                    {{timings}}
+                  </div>
+                </div>
+                <div class="flex-1 font-4">
+                  <div class="text-grey-light-1">
+                    Mentor
+                  </div>
+                  <div class="bold">
+                    {{mentor}}
+                  </div>
+                </div>
+                <div class="flex-2 font-4">
+                  <div class="text-grey-light-1">
+                    Price
+                  </div>
+                  <div class="bold">
+                    {{price}}
                   </div>
                 </div>
               </div>

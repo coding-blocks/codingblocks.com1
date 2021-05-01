@@ -1,7 +1,7 @@
 {
   "id": "course04",
-  "name": "NodeJS Web Development",
-  "title": "Full Stack Web Development Course in Delhi, Noida, Dwarka | Coding Blocks India",
+  "name": "Master Full Stack Web Development",
+  "title": "Full Stack Web Development Course in Delhi, Noida | Coding Blocks India",
   "metas": [
     {
       "name": "description",
@@ -12,12 +12,12 @@
       "content": "full stack developer course, full stack developer course, node js training, mean stack course, full stack developer training, full stack java developer course"
     }
   ],
-  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/webdev_white.png",
   "openGraph": {
     "url": "https://codingblocks.com/classroom-courses/web-development-nodejs.html",
     "title": "Best Web Development with NodeJS in India",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14058603_1077770128976987_1865333049_n.jpg",
-    "description": "Web Development course is designed to help students develop professional websites/portals. This course will help students understand how the web engine works."
+    "description": "This course help students aspiring to become Web devs learn FrontEnd and BackEnd Web development using HTML, CSS, Javascript, jQery, Bootstrap, ReactJs and NodeJS as the backend. Learn Deployment, Scalability and Security and learn by developing projects like Twitter clone, E-com website, Movie search app and so on. Also learn intro to React and build a live project on it."
   },
   "header": {
     "heading": "Full stack web app development with NodeJS",
@@ -70,41 +70,43 @@
           "timings": "4:00PM-7:00PM",
           "mentor": "Kartik Mathur/Sabeel",
           "strength": 35,
-          "days": "T T Sat",
+          "days": "Tue Thu Sat",
           "start_date": "5th June",
           "runcode": "WDPP21MAY",
           "product_id": 5169,
-          "location": "Pitampura"
+          "location": "Pitampura",
+          "price":"22000"
       },
       {
           "course": "Web Dev",
           "timings": "4:00PM-7:00PM",
           "mentor": "Sabeel",
           "strength": 35,
-          "days": "M W F Sat",
+          "days": "Mon Wed Fri",
           "start_date": "7th June",
           "runcode": "WDND21MAY",
           "product_id": 5166,
-          "location": "Noida"
+          "location": "Noida",
+          "price":"15400"
       }
   ],
   "mentors": [
-      {
-          "name": "Sabeel Khan",
-          "contact": "sabeel.khan@codingblocks.com",
-          "img": "https://minio.cb.lk/public/sabeel-khan.jpeg",
-          "description": "Sabeel is a CS Graduate from JMI.A competitive programmar, with an undying passion for teaching.He is proficient with C++ and Web Development related technologies like HTML, CSS, Javascript,NodeJS along with Python development.Web Series lover and always ready to explore new appetizing food.",
-          "designation": "Mentor",
-          "highlights": null
-      },
-      {
-        "name": "Kartik Mathur",
-        "contact": "kartik.mathur@codingblocks.com",
-        "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
-        "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
-        "designation": "Mentor",
-        "highlights": null
-    }
+    {
+      "name": "Kartik Mathur",
+      "contact": "kartik.mathur@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+      "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "designation": "Mentor",
+      "highlights": null
+  },
+  {
+      "name": "Sabeel Khan",
+      "contact": "sabeel.khan@codingblocks.com",
+      "img": "https://minio.cb.lk/public/sabeel-khan.jpeg",
+      "description": "Sabeel is a CS Graduate from JAMIA competitive programmar, with an undying passion for teaching. He is proficient with C++ and Web Development related technologies like HTML, CSS, Javascript, NodeJS along with Python development. Web Series lover and always ready to explore new appetizing food.",
+      "designation": "Mentor",
+      "highlights": null
+  }
   ],
   "faqs": [
     {

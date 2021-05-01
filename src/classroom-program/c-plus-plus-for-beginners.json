@@ -1,6 +1,6 @@
 {
-  "title": "C++ Programming Training Institutes in Delhi, Noida, Dwarka | Coding Blocks",
-  "name": "C++ for Beginners",
+  "title": "C++ Programming Training Institutes in Delhi, Noida | Coding Blocks",
+  "name": "Master Data Structures and Algorithms using C++",
   "metas": [
     {
       "name": "description",
@@ -15,7 +15,7 @@
     "url": "https://codingblocks.com/classroom-courses/c-plus-plus-for-beginners.html",
     "title": "C++ Beginner & Advanced Courses | Coding Blocks",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
-    "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+    "description": "Learn Data structures and Algorithms right from the basics and become an accomplished programmer using C++, one of the most popular programming languages in the world and brighten your chances of making it to the Top Tech organisations as an Intern or SDE."
   },
   "header": {
     "heading": "C++ <br /> Launchpad",
@@ -141,66 +141,91 @@
   ],
   "batches": [
     {
+      "course": "C++, B2",
+      "timings": "9:00AM-12:00PM",
+      "mentor": "Kartik Mathur",
+      "strength": 35,
+      "days": "Mon Wed Fri Sat",
+      "start_date": "5th June",
+      "runcode": "LPPP21JUNB2",
+      "product_id": 5187,
+      "location": "Pitampura",
+      "prices": "17000"
+    },
+    {
       "course": "C++, B1",
       "timings": "9:00AM-12:00PM",
-      "mentor": "Mosina",
+      "mentor": "Abhishek Srivastava",
       "strength": 35,
-      "days": "M W F Sat",
+      "days": "Mon Wed Fri Sat",
+      "start_date": "5th June",
+      "runcode": "LPPP21MAY",
+      "product_id": 5163,
+      "location": "Pitampura",
+      "prices": "17000"
+    },
+    {
+      "course": "C++, B3",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Abhishek Srivastava",
+      "strength": 35,
+      "days": "Mon Wed Fri Sat",
+      "start_date": "5th June",
+      "runcode": "LPPP21JUNB3",
+      "product_id": 5188,
+      "location": "Pitampura",
+      "prices": "17000"
+    },
+    {
+      "course": "C++, B1",
+      "timings": "9:00AM-12:00PM",
+      "mentor": "Mosina Ashraf",
+      "strength": 35,
+      "days": "Mon Wed Fri Sat",
       "start_date": "5th June",
       "runcode": "LPND21MAY",
       "product_id": 5162,
-      "location": "Noida"
+      "location": "Noida",
+      "prices": "12750"
     },
     {
       "course": "C++, B2",
       "timings": "12:30PM-3:30PM",
-      "mentor": "Mosina",
+      "mentor": "Mosina Ashraf",
       "strength": 35,
-      "days": "M Thu F Sun",
+      "days": "Mon Thu Fri Sun",
       "start_date": "7th June",
       "runcode": "LPND21JUNB2",
       "product_id": 5185,
-      "location": "Noida"
+      "location": "Noida",
+      "prices": "12750"
     },
     {
       "course": "C++, B3",
       "timings": "12:30PM-3:30PM",
       "mentor": "Mohit Pandey",
       "strength": 35,
-      "days": "T T S S",
+      "days": "Tue Thu Sat Sun",
       "start_date": "6th June",
       "runcode": "LPND21JUNB3",
       "product_id": 5186,
-      "location": "Noida"
-    },
-    {
-      "course": "C++, B2",
-      "timings": "9:00-12:00PM",
-      "mentor": "Kartik Mathur",
-      "strength": 35,
-      "days": "M W F Sat",
-      "start_date": "5th June",
-      "runcode": "LPPP21JUNB2",
-      "product_id": 5187,
-      "location": "Pitampura"
-    },
-    {
-      "course": "C++, B3",
-      "timings": "12:30-3:30PM",
-      "mentor": "Abhishek",
-      "strength": 35,
-      "days": "M W F Sat",
-      "start_date": "5th June",
-      "runcode": "LPPP21JUNB3",
-      "product_id": 5188,
-      "location": "Pitampura"
+      "location": "Noida",
+      "prices": "12750"
     }
   ],
   "mentors": [
     {
+      "name": "Kartik Mathur",
+      "contact": "kartik.mathur@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+      "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
       "name": "Mohit Pandey",
       "contact": "mohit.pandey@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Mohit%20Uniyal.png",
+      "img": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
       "description": "Mohit Pandey is a competitive programmer, has an awesome understanding of Data Structure And Algorithm. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand what he is teaching.",
       "designation": "Mentor",
       "highlights": null
@@ -210,6 +235,14 @@
       "contact": "mosina.ashraf@codingblocks.com",
       "img": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
       "description": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
+      "name": "Abhishek Srivastava",
+      "contact": "abhishek.srivastava@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Abhishek%20Srivastava.png",
+      "description": "Abhishek has pursued his M.Tech in CSE from IIIT Delhi. He has previously worked at NII Tokyo as a researcher in the field of Artificial Intelligence and has a publication in one of the  top AI journals. His area of interest lies in the field of Machine learning, in particular, generative modelling through the application of deep learning. He strives for excellence in his work and has a knack for making complex topics simple. At Coding Blocks, he aims to share his experience with his students and make learning easy and fun.",
       "designation": "Mentor",
       "highlights": null
     }
