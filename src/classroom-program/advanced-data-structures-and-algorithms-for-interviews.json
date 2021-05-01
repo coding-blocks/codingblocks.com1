@@ -1,6 +1,6 @@
 {
   "id": "course05",
-  "name": "Algo++",
+  "name": "Master Competitive Programming C++",
   "title": "Data Structures and Algorithms Course in Delhi, Noida, Dwarka | Coding Blocks",
   "metas": [
     {
@@ -16,7 +16,7 @@
     "url": "https://codingblocks.com/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
     "title": "Algo++ Advanced DS & Algorithms Course by Coding Blocks",
     "image": "https://scontent.fdel1-2.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/17616635_1264424223627348_3167714152336588800_n.jpg",
-    "description": "Introducing our newest courses on Data Structures and Algorithms starting this 2 June - 15 July. The course will all important data structures and algorithmic knowledge required for interviews."
+    "description": "This course is for those who want to enter the realm of Competitive programming and achieve the next level in coding. Explore advanced concepts like Segment trees, Fenwick trees, Dynamic programming, Graph theory, Trie and string matching algorithms and much more."
   },
   "header": {
     "heading": "ALGO++",
@@ -267,59 +267,16 @@
   ],
   "batches": [
     {
-      "course": "Algo++, B1",
-      "timings": "9:00AM-12:00PM",
-      "mentor": "Mosina",
-      "strength": "",
-      "days": "M W F Sat",
-      "start_date": "19th June",
-      "runcode": "APND21MAY",
-      "product_id": 5164,
-      "location": "Noida"
-    },
-    {
-      "course": "Algo++, B2",
-      "timings": "12:30PM-3:30PM",
-      "mentor": "Mosina",
-      "strength": "",
-      "days": "M Thu F Sun",
-      "start_date": "21st June",
-      "runcode": "APND21JUNB2",
-      "product_id": 5190,
-      "location": "Noida"
-    },
-    {
-      "course": "Algo++, B3",
-      "timings": "12:30PM-3:30PM",
-      "mentor": "Mohit Pandey",
-      "strength": "",
-      "days": "T T S S",
-      "start_date": "20th June",
-      "runcode": "APND21JUNB3",
-      "product_id": 5191,
-      "location": "Noida"
-    },
-    {
-      "course": "Algo++, B2",
-      "timings": "9:00-12:00PM",
+      "course": "Competitive C++",
+      "timings": "4:00PM-7:00PM",
       "mentor": "Kartik Mathur",
-      "strength": "According to the batch size",
-      "days": "M W F Sat",
+      "strength": "",
+      "days": "Tue Thu Sun",
       "start_date": "19th June",
-      "runcode": "APPP21JUNB2",
-      "product_id": 5192,
-      "location": "Pitampura"
-    },
-    {
-      "course": "Algo++, B3",
-      "timings": "12:30-3:30PM",
-      "mentor": "Abhishek",
-      "strength": "According to the batch size",
-      "days": "M W F Sat",
-      "start_date": "19th June",
-      "runcode": "APPP21JUNB3",
-      "product_id": 5193,
-      "location": "Pitampura"
+      "runcode": "COCPP21MAY",
+      "product_id": 5170,
+      "location": "Pitampura",
+      "price":"15000"
     }
   ],
   "mentors": [
@@ -328,14 +285,6 @@
       "contact": "kartik.mathur@codingblocks.com",
       "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
       "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
-      "designation": "Mentor",
-      "highlights": null
-    },
-    {
-      "name": "Mohit Pandey",
-      "contact": "mohit.pandey@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Mohit%20Uniyal.png",
-      "description": "Mohit Pandey is a competitive programmer, has an awesome understanding of Data Structure And Algorithm. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand what he is teaching.",
       "designation": "Mentor",
       "highlights": null
     },

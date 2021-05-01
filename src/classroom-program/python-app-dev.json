@@ -1,6 +1,7 @@
 {
   "id": "course30",
-  "title": "Python Web Development Course in Delhi, Noida, Dwarka | Coding Blocks",
+  "title": "Python Web Development Course in Delhi, Noida | Coding Blocks",
+  "name": "Python App Development",
   "metas": [
     {
       "name": "description",
@@ -15,7 +16,7 @@
     "url": "https://codingblocks.com/classroom-courses/python-app-dev.html",
     "title": "Python App Development Course | Coding Blocks",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
-    "description": "Learn Python at Coding Blocks, best Python training institute in Delhi, Noida, Jalandhar and Amritsar. We offer Python course for beginners."
+    "description": "This course will revolve around the concepts of Python, ranging from basic to advanced concepts and development of applications using this powerful language."
   },
   "header": {
     "heading": "Python App Development",
@@ -243,25 +244,27 @@
   "batches": [
     {
       "course": "Python App Dev",
-      "timings": "12:30PM-3:30PM",
-      "mentor": "Manu S Pillai",
-      "strength": 35,
-      "days": "M W Sun",
-      "start_date": "7th June",
-      "runcode": "PYND21MAY",
-      "product_id": 5182,
-      "location": "Noida"
-    },
-    {
-      "course": "Python App Dev",
-      "timings": "12.30 - 3:30PM",
+      "timings": "12.30PM-3:30PM",
       "mentor": "Navika",
       "strength": 35,
-      "days": "T T Sun",
+      "days": "Tue Thu Sun",
       "start_date": "6th June",
       "runcode": "PYPP21MAY",
       "product_id": 5183,
-      "location": "Pitampura"
+      "location": "Pitampura",
+      "price":"12000"
+    },
+    {
+      "course": "Python App Dev",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Manu S Pillai",
+      "strength": 35,
+      "days": "Mon Wed Sun",
+      "start_date": "7th June",
+      "runcode": "PYND21MAY",
+      "product_id": 5182,
+      "location": "Noida",
+      "price":"9000"
     }
   ],
   "mentors": [
@@ -272,10 +275,18 @@
       "description": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
       "designation": "Mentor",
       "highlights": null
+    },
+    {
+      "name": "Princey Yadav",
+      "contact": "princey.yadav@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
+      "description": "Princey is a post graduate from IIIT Delhi and did her graduation from NSIT Delhi. She joined Coding Blocks due to her passion for teaching. She has prior experience as a Software Engineer and has done research in the field of Computational Biology. Her interests include Machine learning, Data science and Game development. She is a pythonista and likes to draw and watch anime for fun.",
+      "designation": "Mentor",
+      "highlights": null
     }
   ],
   "difficulty": "Intermediate",
-  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/Python_white.png",
   "courseEnroll": {
     "upcomingBatches": "Batches Starting Soon at Noida",
     "price": "12,000",

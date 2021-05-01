@@ -1,5 +1,6 @@
 {
   "id": "course11",
+  "name": "Master Competitive Programming Java",
   "title": "Data Structures and Algorithms in Java Course in Delhi, Noida, Dwarka | Coding Blocks",
   "metas": [
     {
@@ -13,13 +14,13 @@
   ],
   "openGraph": {
     "url": "https://codingblocks.com/classroom-courses/advanced-data-structures-and-algorithms-using-java.html",
-    "title": "Algo.Java | Coding Blocks",
+    "title": "Competitive Programming Java | Coding Blocks",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
-    "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
+    "description": "This course is for those who want to enter the realm of Competitive programming and achieve the next level in coding. Explore advanced concepts like Segment trees, Fenwick trees, Dynamic programming, Graph theory, Trie and string matching algorithms and much more."
   },
   "header": {
-    "heading": "Algo.Java",
-    "subHeading": "Advanced Data Structures & Algorithms in Java",
+    "heading": "Competitive Programming Java",
+    "subHeading": "Competitive Programming Java",
     "breadcrumbs": [
       {
         "linkText": "Highlights",
@@ -199,32 +200,34 @@
     {
       "course": "Competitive Java",
       "timings": "12:30PM-3:30PM",
-      "mentor": "Monu Kumar",
-      "strength": 35,
-      "days": "M W F",
-      "start_date": "7th June",
-      "runcode": "COJND21JUN",
-      "product_id": 5203,
-      "location": "Noida"
-    },
-    {
-      "course": "Competitive Java",
-      "timings": "9:00-12:00PM",
       "mentor": "Kartik Sapra",
       "strength": 35,
-      "days": "T T Sun",
+      "days": "Tue Thu Sun",
       "start_date": "6th June",
       "runcode": "COJPP21MAY",
       "product_id": 5171,
-      "location": "Pitampura"
+      "location": "Pitampura",
+      "price":"15000"
+    },
+    {
+      "course": "Competitive Java",
+      "timings": "12:30PM-3:30PM",
+      "mentor": "Monu Kumar",
+      "strength": 35,
+      "days": "Mon Wed Fri",
+      "start_date": "7th June",
+      "runcode": "COJND21JUN",
+      "product_id": 5203,
+      "location": "Noida",
+      "price":"13275"
     }
   ],
   "mentors": [
     {
-      "name": "Kartik Mathur",
-      "contact": "kartik.mathur@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
-      "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "name": "Kartik Sapra",
+      "contact": "kartik.sapra@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Sapra.png",
+      "description": "Kartik is an Open source enthusiast. He is a Competitive programmer and expert in Data structures, Algorithms and Java technologies. He is a GSoCer and is among top 20 contributors in fabric8-maven-plugin project by RedHat and contributed significantly to checkstyle. He has also mentored in Google code-in for two years consecutively. He is loved by students for his innovative style of teaching. He is also an experienced developer.",
       "designation": "Mentor",
       "highlights": null
     },
@@ -238,7 +241,7 @@
     }
   ],
   "difficulty": "Beginner",
-  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
   "schedule": [
     {
       "center": "Pitampura",

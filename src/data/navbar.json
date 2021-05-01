@@ -93,7 +93,7 @@
       "link": "/classroom-program.html",
       "sublinks": [
         {
-          "title":"information",
+          "title":"All Classroom Courses",
           "link":"/classroom-program.html"
         },
         {
@@ -105,7 +105,15 @@
           "link": "/classroom-program/java-for-beginners.html"
         },
         {
-          "title": "Web Development with NodeJS",
+          "title": "Algo++",
+          "link": "/classroom-program/cpp-for-advance.html"
+        },
+        {
+          "title": "Algo.Java",
+          "link": "/classroom-program/java-for-advance.html"
+        },
+        {
+          "title": "Master Full Stack Web Development",
           "link": "/classroom-program/web-development-nodejs.html"
         },
         {
@@ -117,7 +125,7 @@
           "link": "/classroom-program/advanced-data-structures-and-algorithms-using-java.html"
         },
         {
-          "title": "Machine Learning",
+          "title": "Machine Learning Master Course",
           "link": "/classroom-program/machine-learning-with-deep-learning.html"
         },
         {
@@ -125,7 +133,7 @@
           "link": "/classroom-program/python-app-dev.html"
         },
         {
-          "title": "Data Science",
+          "title": "Data Science Master Course",
           "link": "/classroom-program/data-science-with-python.html"
         }
       ]
