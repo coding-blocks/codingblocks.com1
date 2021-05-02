@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  <style>
+    body {
+      padding: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .description{
+      font-family: "Gilroy", "Nunito Sans", sans-serif;
+    }
+
+    .python-margin{
+       margin-top:80px;
+    }
+    .icon-height{
+      height: 90px;
+    }
+    .background-orange{
+        background: linear-gradient(to top left, #e9810b 0%, #f1a33c 100%);
+    }
+
+    .align-image{
+        float: left;
+    }
+ 
+    .days-hover-orange:hover{
+        background-color: orange;
+        color: white;
+    }
+    .days-hover-green:hover{
+        background-color: rgb(31, 223, 31);
+        color: white;
+    }
+    .days-hover-purple:hover{
+        background-color: rgb(93, 13, 240);
+        color: white;
+    }
+    .days-hover-yellow:hover{
+        background-color: yellow;
+        color: white;
+    }
+    .days-hover-blue:hover{
+        background-color: rgb(45, 135, 253);
+        color: white;
+    }
+    .clear-br{
+        clear: left;
+    }
+    .rotate-box{
+        display: inline-block;
+        position: absolute;
+        top: -20px;
+        left: -25px;
+        transform: rotate(-70deg);
+        border-radius: 50px;
+    }
+    .align-icon{
+        position: absolute;
+        top: 35px;
+        left: 10px;
+    }
+
+  </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script>
+    window.scrollNow = function (target) {
+      var scrollContainer = target;
+      do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
+
+      var targetY = 0;
+      do {
+        // Find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+      } while (target = target.offsetParent);
+
+      scroll = function (c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () { scroll(c, a, b, i); }, 20);
+      }
+      // Scroll to target
+      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+  </script>
+</head>
+
+<body style="line-height: unset;">
+  {{> navbar}}
+  </br>
+  </br>
+  </br>
+  </br>
+  
+
+  <div class="a-cbm" style="margin-top: -25px;">
+      {{!-- <div class="container"> --}}
+            <div class="classroom-courses-page" style="justify-content-between">
+                <div class="py-50 white">
+                    <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-7 col-md-4 ">
+                        <div class="display-1 text-dark bold mb-20 mt-5">Now Learn the best <br>from the best</div>
+                        <div class="bold mb-20 mt-4" style="font-size: 2rem;">
+                            <span class=" text-dark mr-2">Introducing Free Courses on</span>
+                            <img class="shadow-lg mb-3 bg-body rounded" style="height: 40px; margin-top:10px;" src="https://images.codingblocks.com/img/newcourse_logo/YoutubeSymbol.png"> 
+                        </div>
+                        <a href="#courses" style="text-decoration: none; color:white">
+                            <button class="button p-4 bold mb-20 bg-orange fs-5 mt-4" type="button"
+                                style="border-radius: 5px;">Get Started</button>
+                        </a>
+                        <span class="heading-6 text-dark">
+                            Only available for a limited time
+                        </span>
+                        </div>
+                        <div class="col-lg-5 text-dark col-md-4 justify-content-between">
+                            <img src="https://images.codingblocks.com/img/YUT-Header.png">
+                        </div>
+                        {{!-- <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/classroom-vector-final.svg" --}}
+                        {{!-- style="margin-right: 5px; height:400px; position:absolute; top:5%; left:30%"> --}}
+                    </div>
+                    <div class="row justify-content-between" style="margin-top: 5%;">
+                        <div class="col-md-3 col-sm-4 p-auto pt-4 shadow-lg p-3 mb-5 bg-body rounded" style="height: 350px;border:white solid 1px;">
+                            <img class="px-4" style="height:20%" src="https://images.codingblocks.com/img/ytheader-img1.png"> 
+                            <div class="display-5 bold mt-4 text-dark p-3 px-4">Absolutely Free to Join!</div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 p-auto pt-4 shadow-lg p-3 mb-5 bg-body rounded" style="height: 350px;border:white solid 1px;">
+                            <img class="px-4" style="height:20%" src="https://images.codingblocks.com/img/ytheader-img2.png"> 
+                            <div class="display-5 bold mt-4 text-dark p-3 px-4">Become a part of CB community.</div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 p-auto pt-4 shadow-lg p-3 mb-5 bg-body rounded" style="height: 350px;border:white solid 1px;">
+                            <img class="px-4" style="height:20%" src="https://images.codingblocks.com/img/ytheader-img3.png"> 
+                            <div class="display-5 bold mt-4 text-dark p-3 px-4">Internship &amp; Placement opportunities.</div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>    
+        {{!-- </div> --}}
+        <div class="container my-80">
+            <div class="text-center display-5 my-5 bold" id="courses">COURSES</div>
+            <div class="row shadow-lg mb-5 bg-body rounded" >
+                
+                <div class="col-md-4 col-sm-6 partition-1 bg-orange justify-content-between pl-0">
+                    <div class="content" style="overflow: hidden;">
+                        <div style="height: 160px;">
+                            <span class="rotate-box" style="height: 200px; width:200px; background: rgba(243, 248, 255, 0.1);">
+                        </span>
+                        <img src="https://images.codingblocks.com/img/newcourse_logo/c++_white.png" class="ml-5 mt-5 align-icon" style="height: 80px; display:inline-block">
+                        </div>
+                        <div class="heading-3 bold white mt-2 p-5 ml-4" >Data Structures and Algorithms using C++</div>
+                        <div class="price my-40 white px-5 pt-5 ml-4" style="margin-top: 10%;">
+                            <span class="fs-3 bold">FREE<br>&#8377;<strike>8999</strike></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-6 partition-2">
+                    <div class="content m-5">
+                        <div class="description fs-4 fw-light mt-5 mb-5">
+                            Getting started with your Coding journey? Enroll in this course to start learning coding using C++ with hands on problem solving approach, instructor driven sessions, lecture recordings, assignment and code submissions, doubt support, exclusive access to CB learning portal, Certificate of completion and much more. Learn Data structures and algorithms and embark on your Success driven journey now with no fee to attend the course!
+                        </div>
+                        <div class="class-schedule mt-4 fs-3">
+                            Classes: <span class="bold">9:00PM-10:00PM</span>
+                        </div>
+                        <div class="days m-2 mt-4">
+                            <span class="p-2 m-2 days-hover-orange" style="border: 1px solid rgb(250, 173, 7); border-radius:10px;">Tuesday</span>
+                            <span class="p-2 m-2 days-hover-orange" style="border: 1px solid rgb(250, 173, 7); border-radius:10px;">Thursday</span>
+                        </div>
+                        <div class="mentor-information mt-5 ml-3">
+                            <img class="align-image m-2" src="https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png" style="border-radius: 50%; height:60px;">
+                            <div class="mentor-description clear-image ml-2"><span class="fw-light">Mentor</span><br>Mosina Ashraf</div>
+                            <br class="clear-br">
+                        </div>
+                        <hr>
+                        <div class="coupon-information fs-5  nav justify-content-between">
+                            <div>
+                                <span class="fw-lighter mt-3">
+                                    USE coupon 
+                                    <span class="p-3 rounded-pill" style="border:1px dotted rgb(250, 165, 8);">
+                                        <img class="px-2" src="https://images.codingblocks.com/img/coupon-icon-yt-1.png">Youtube-CPP
+                                    </span> &nbsp;during checkout!
+                                </span>
+                                <a target="_blank" href="https://online.codingblocks.com/courses/cpp-yt-fundamentals" >
+                                    <button type="button"class="btn bg-orange white ml-3 mt-2">Enroll Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row shadow-lg mb-5 bg-body rounded" >
+                <div class="col-md-4 col-sm-6 partition-1 bg-blue">
+                    <div class="content" style="overflow: hidden;">
+                        <div style="height: 160px;">
+                            <span class="rotate-box" style="height: 200px; width:200px; background: rgba(243, 248, 255, 0.1);">
+                        </span>
+                        <img src="https://images.codingblocks.com/img/newcourse_logo/Java_white.png" class="ml-5 mt-5 align-icon" style="height: 80px; display:inline-block">
+                        </div>
+                        <div class="heading-3 bold white mt-2 p-5 ml-4">Data Structures and Algorithms using Java</div>
+                        <div class="price my-40 white px-5 pt-5 ml-4" style="margin-top: 10%;">
+                            <span class="fs-3 mt-1 bold">FREE<br>&#8377;<strike>8999</strike></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-6 partition-2">
+                    <div class="content m-5">
+                        <div class="description fs-4 fw-light mt-5 mb-5">
+                            Getting started with your Coding journey? Enroll in this course to start learning coding using Java with hands on problem solving approach, instructor driven sessions, lecture recordings, assignment and code submissions, doubt support, exclusive access to CB learning portal, Certificate of completion and much more. Learn Data structures and algorithms and embark on your Success driven journey now with no fee to attend the course!
+                        </div>
+                        <div class="class-schedule mt-4 fs-3">
+                            Classes: <span class="bold">7:00PM-8:00PM</span>
+                        </div>
+                        <div class="days m-2 mt-4">
+                            <span class="p-2 m-2 days-hover-blue" style="border: 1px solid rgb(8, 135, 240); border-radius:10px;">Wednesday</span>
+                            <span class="p-2 m-2 days-hover-blue" style="border: 1px solid rgb(8, 135, 240); border-radius:10px;">Sunday</span>
+                        </div>
+                        <div class="mentor-information mt-5 ml-3">
+                            <img class="align-image m-2" src="https://images.codingblocks.com/img/mentor/Kartik%20Sapra.png" style="border-radius: 50%; height:60px;">
+                            <div class="mentor-description clear-image ml-2"><span class="fw-light">Mentor</span><br>Kartik Sapra</div>
+                            <br class="clear-br">
+                        </div>
+                        <hr>
+                        <div class="coupon-information fs-5  nav justify-content-between">
+                            <div>
+                                <span class="fw-lighter mt-3">
+                                    USE coupon 
+                                    <span class="p-3 rounded-pill" style="border:1px dotted rgb(8, 135, 240);">
+                                        <img class="px-2" src="https://images.codingblocks.com/img/coupon-icon-yt-2.png">Youtube-Java
+                                    </span> &nbsp;during checkout!
+                                </span>
+                                <a target="_blank" href="https://online.codingblocks.com/courses/java-yt-fundamentals">
+                                    <button type="button" class="btn bg-blue white ml-3 mt-2">Enroll Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row shadow-lg mb-5 bg-body rounded" >
+                <div class="col-md-4 col-sm-6 partition-1 bg-green">
+                    <div class="content" style="overflow: hidden;">
+                        <div style="height: 160px;">
+                            <span class="rotate-box" style="height: 200px; width:200px; background: rgba(243, 248, 255, 0.1);">
+                        </span>
+                        <img src="https://images.codingblocks.com/img/newcourse_logo/ds_white.png" class="ml-5 mt-5 align-icon" style="height: 80px; display:inline-block">
+                        </div>
+                        <div class="heading-3 bold white mt-2 p-5 ml-4">Data Science Master Course</div>
+                        <div class="price my-40 white px-5 pt-5 ml-4" style="margin-top: 20%;">
+                            <span class="fs-3 mt-1 bold">FREE<br>&#8377;<strike>8999</strike></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-6 partition-2">
+                    <div class="content m-5">
+                        <div class="description fs-4 fw-light mt-5 mb-5">
+                            Confused whether to go in for ML and Data science OR go in for Development courses? Enroll in this course to start learning Data science with instructor driven sessions, lecture recordings, assignment and code submissions, doubt support, exclusive access to CB learning portal, Certificate of completion and much more. Embark on your Success driven journey now with no fee to attend the course!
+                        </div>
+                        <div class="class-schedule mt-4 fs-3">
+                            Classes: <span class="bold">7:00PM-8:00PM</span>
+                        </div>
+                        <div class="days m-2 mt-4">
+                            <span class="p-2 m-2 days-hover-green" style="border: 1px solid rgb(64, 139, 21); border-radius:10px;">Monday</span>
+                            <span class="p-2 m-2 days-hover-green" style="border: 1px solid rgb(64, 139, 21); border-radius:10px;">Friday</span>
+                        </div>
+                        <div class="mentor-information mt-5 ml-3">
+                            <img class="align-image m-2" src="https://images.codingblocks.com/img/mentor/Manu%20S%20Pillai.png" style="border-radius: 50%; height:60px;">
+                            <div class="mentor-description clear-image ml-2"><span class="fw-light">Mentor</span><br>Manu S Pillai</div>
+                            <br class="clear-br">
+                        </div>
+                        <hr>
+                        <div class="coupon-information fs-5  nav justify-content-between">
+                            <div>
+                                <span class="fw-lighter mt-3">
+                                    USE coupon 
+                                    <span class="p-3 rounded-pill" style="border:1px dotted rgb(64, 139, 21);">
+                                        <img class="px-2" src="https://images.codingblocks.com/img/coupon-icon-yt-1.png">Youtube-DS
+                                    </span> &nbsp;during checkout!
+                                </span>
+                                <a target="_blank" href="https://online.codingblocks.com/courses/ds-yt-fundamentals">
+                                    <button type="button" class="btn bg-green white ml-3 mt-2">Enroll Now</button> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row shadow-lg mb-5 bg-body rounded" >
+                <div class="col-md-4 col-sm-6 partition-1 bg-yellow">
+                    <div class="content">
+                        <div style="height: 160px;">
+                            <span class="rotate-box" style="height: 200px; width:200px; background: rgba(243, 248, 255, 0.1);">
+                        </span>
+                        <img src="https://images.codingblocks.com/img/newcourse_logo/WebDev-WithoutBG.png" class="ml-5 mt-5 align-icon" style="height: 80px; display:inline-block">
+                        </div>
+                        <div class="heading-3 bold white mt-2 p-5 ml-4">Full Stack Web-Dev</div>
+                        <div class="price my-40 white px-5 pt-5 ml-4" style="margin-top: 20%;">
+                            <span class="fs-3 mt-1 bold">FREE<br>&#8377;<strike>8999</strike></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-6 partition-2">
+                    <div class="content m-5">
+                        <div class="description fs-4 fw-light mt-5 mb-5">
+                            Planning to start Web development? Enroll in this course to start learning Front end and Back end Web dev with live projects, instructor driven sessions, lecture recordings, assignment and code submissions, doubt support, exclusive access to CB learning portal, Certificate of completion and much more. Embark on your Success driven journey now with no fee to attend the course!
+                        </div>
+                        <div class="class-schedule mt-4 fs-3">
+                            Classes: <span class="bold">7:00PM-8:00PM</span>
+                        </div>
+                        <div class="days m-2 mt-4">
+                            <span class="p-2 m-2 days-hover-orange" style="border: 1px solid rgb(250, 173, 7); border-radius:10px;">Tuesday</span>
+                            <span class="p-2 m-2 days-hover-orange" style="border: 1px solid rgb(250, 173, 7); border-radius:10px;">Saturday</span>
+                        </div>
+                        <div class="mentor-information mt-5 ml-3">
+                            <img class="align-image m-2" src="https://images.codingblocks.com/img/sabeel.jpeg" style="border-radius: 50%; height:60px;">
+                            <div class="mentor-description clear-image ml-2"><span class="fw-light">Mentor</span><br>Sabeel</div>
+                            <br class="clear-br">
+                        </div>
+                        <hr>
+                        <div class="coupon-information fs-5  nav justify-content-between">
+                            <div>
+                                <span class="fw-lighter mt-3">
+                                    USE coupon 
+                                    <span class="p-3 rounded-pill" style="border:1px dotted rgb(250, 165, 8);">
+                                        <img class="px-2" src="https://images.codingblocks.com/img/coupon-icon-yt-1.png">Youtube-Web
+                                    </span> &nbsp;during checkout!
+                                </span>
+                                <a target="_blank" href="https://online.codingblocks.com/courses/wd-yt-fundamentals">
+                                    <button type="button" class="btn bg-yellow white ml-3 mt-2">Enroll Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row shadow-lg mb-5 bg-body rounded" >
+                <div class="col-md-4 col-sm-6 partition-1 bg-purple">
+                    <div class="content">
+                        <div style="height: 160px;">
+                            <span class="rotate-box" style="height: 200px; width:200px; background: rgba(243, 248, 255, 0.1);">
+                        </span>
+                        <img src="https://images.codingblocks.com/img/newcourse_logo/Python_white.png" class="ml-5 mt-5 align-icon" style="height: 80px; display:inline-block">
+                        </div>
+                        <div class="heading-3 bold white mt-2 p-5 ml-4">Python Programming Course</div>
+                        <div class="price my-40 white px-5 pt-5 ml-4" style="margin-top: 20%;">
+                            <span class="fs-3 mt-1 bold">FREE<br>&#8377;<strike>8999</strike></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-6 partition-2">
+                    <div class="content m-5">
+                        <div class="description fs-4 fw-light mt-5 mb-5">
+                            Getting started with your Coding journey? Enroll in this course to start learning coding using Python with hands on problem solving approach, instructor driven sessions, lecture recordings, assignment and code submissions, doubt support, exclusive access to CB learning portal, Certificate of completion and much more. Embark on your Success driven journey now with no fee to attend the course!
+                        </div>
+                        <div class="class-schedule mt-4 fs-3">
+                            Classes: <span class="bold">9:00PM-10:00PM</span>
+                        </div>
+                        <div class="days m-2 mt-4">
+                            <span class="p-2 m-2 days-hover-purple" style="border: 1px solid rgb(93, 13, 240); border-radius:10px;">Wednesday</span>
+                            <span class="p-2 m-2 days-hover-purple" style="border: 1px solid rgb(93, 13, 240); border-radius:10px;">Friday</span>
+                        </div>
+                        <div class="mentor-information mt-5 ml-3">
+                            <img class="align-image m-2" src="https://images.codingblocks.com/img/mentor/Princey%20Yadav.png" style="border-radius: 50%; height:60px;">
+                            <div class="mentor-description clear-image ml-2"><span class="fw-light">Mentor</span><br>Princey Yadav</div>
+                            <br class="clear-br">
+                        </div>
+                        <hr>
+                        <div class="coupon-information fs-5  nav justify-content-between">
+                            <div>
+                                <span class="fw-lighter mt-3">
+                                    USE coupon 
+                                    <span class="p-3 rounded-pill" style="border:1px dotted rgb(93, 13, 240);">
+                                        <img class="px-2" src="https://images.codingblocks.com/img/coupon-icon-yt-1.png">Youtube-PY
+                                    </span> &nbsp;during checkout!
+                                </span>
+                                <a target="_blank" href="https://online.codingblocks.com/courses/py-yt-fundamentals">
+                                    <button type="button" class="btn bg-purple white ml-3 mt-2">Enroll Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    {{!-- ADDING VIDEO TESTIMONIAL --}}
+    <div class="container-fluid">
+        <div class="row shadow-lg mb-5 rounded justify-content-evenly" style="background-color: rgb(230, 227, 227);" >
+            <div class="col-md-5 col-sm-8 partition-1 p-5 text-dark">
+                <div class="display-5 mb-3 bold">Aditi got placed at</div>
+                <img style="height: 90px;" src="https://images.codingblocks.com/img/Company_logo/expedialogo.png">
+                <div class="testimonial fs-4 mt-5">
+                    Coding Blocks was a game changer for me during my internship preparation. Being from electronics department, I had very little prior experience of coding when I joined the Algo++ course at their Noida centre.The well structured, to-the point course content and the guidance of their topnotch faculty helped me prepare for the interviews in just 5-6 months which would not have been possible otherwise. The concept clarity and in-depth knowledge of DSA that I gathered from my mentor(Kartik Bhaiya) remains priceless.
+                </div>
+                <div class="complete-name bold fs-3 mt-5">
+                    Aditi
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-8 partition-2 p-5">
+                <iframe width="90%" height="90%" src="https://www.youtube.com/embed/4LJYYUJBgOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+    {{!-- Companies Details  --}}
+    <div class="events-page-landing__section t-align-c my-5">
+        <div class="heading-5 bold mb-50">Where Our Alumini Work</div>
+        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/companies_faang.png">
+    </div>
+  {{> footer}}
+  {{> scripts}}
+{{!-- 
+  <script>
+    const centerToggle = document.querySelector("#center-toggle")
+    const coursesNoida = document.querySelector("#courses-noida")    
+    const coursesPitampura = document.querySelector("#courses-pitampura")  
+
+    coursesPitampura.classList.add("d-none")
+
+    centerToggle.addEventListener("click", () => {
+      if (centerToggle.innerHTML === "Pitampura") {
+        centerToggle.innerHTML = "Noida"
+        coursesNoida.classList.remove("d-none")
+        coursesPitampura.classList.add("d-none")
+      } else {
+        centerToggle.innerHTML = "Pitampura"
+        coursesNoida.classList.add("d-none")
+        coursesPitampura.classList.remove("d-none")
+      }
+    })
+  </script> --}}
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+
+</html>
