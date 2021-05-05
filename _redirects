@@ -65,4 +65,4 @@ rewrite ^/img/*$ https://coding-blocks.github.io/img/:splat redirect;
 rewrite ^/boss/*$ https://lab.codingblocks.com/boss redirect;
 rewrite ^/login$ https://account.codingblocks.com redirect;
 rewrite ^/coding-blocks/tic-tac-toe$ https://github.com/coding-blocks/tic-tac-toe redirect;
-rewrite ^/events https://codingblocks.com/events/index.html
+rewrite ^/events$ https://codingblocks.com/events/index.html redirect;
