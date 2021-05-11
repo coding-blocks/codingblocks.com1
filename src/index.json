@@ -11,20 +11,7 @@
     }
   ],
 
-  "slides": [ 
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Classroom_Banner.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "Limited seats per batch",
-      "button": [
-        {
-          "link": "/classroom-program.html",
-          "text": "Explore",
-          "filled": "true"
-        }
-      ]
-    },  
+  "slides": [  
     {
       "imgSrc": "/assets/images/cb/cover/live.jpg",
       "imgAlt": "",
@@ -39,19 +26,6 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/learningspree-bannerd.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Explore",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/CareerBootcamp_Banner.jpeg",
       "imgAlt": "",
       "heading": "",
@@ -60,6 +34,19 @@
         {
           "link": "http://career-bootcamp.codingblocks.com/",
           "text": "Register",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/Classroom_Banner.jpeg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "Limited seats per batch",
+      "button": [
+        {
+          "link": "/classroom-program.html",
+          "text": "Explore",
           "filled": "true"
         }
       ]
