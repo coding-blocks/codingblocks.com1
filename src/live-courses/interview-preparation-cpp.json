@@ -3,7 +3,7 @@
   "metas": [
     {
       "name": "description",
-      "content": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+      "content": "Coding Blocks is the best C++ training institute in Delhi, Noida. Join beginner and advanced C++ courses."
     },
     {
       "name": "keywords",
@@ -20,10 +20,10 @@
   },
   "aboutMentor": [
     {
-      "name": "Mosina Ashraf",
-      "profile_pic_link": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
-      "summary": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
-      "email": "mosina.ashraf@codingblocks.com"
+      "name": "Apaar Kamal",
+      "profile_pic_link": "https://minio.codingblocks.com/amoeba/61b35bc9-b2d2-494a-9740-c5057e89faba",
+      "summary": "Apaar is an incoming SDE at Google and has also been a part of Codenation and Zomato. He is enthusiastic competitive programmer, with years of experience in problem solving. He is rated 6 star on Codechef and has won various competitions like Code Gladiators, AlgoFlux, CodeWars etc. ",
+      "email": "apaar.kamal@codingblocks.com"
     }
   ],
   "openGraph": {
@@ -34,20 +34,21 @@
   },
   "courseMeta": {
     "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
-    "title": "Interview Preparation C++ Course",
-    "price": "17,999",
+    "title": "Interview Preparation/Competitive Master C++ Course",
+    "price": "15,999",
+    "slashedPrice": "7,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=4547",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Mosina Ashraf",
-    "mentorImg": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
+    "mentors": "Apaar Kamal",
+    "mentorImg": "https://minio.codingblocks.com/amoeba/61b35bc9-b2d2-494a-9740-c5057e89faba",
     "description": "Start from Basics, become a C++ Master!",
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
     "mentor-img-2": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4547",
     "startDate": "24th May",
     "gradient": "bg-gradient-blue-dark",
-    "interactiveClasses": "47 Live Interactive Classes",
-    "codingProblems": "200-300 hands on coding problems",
+    "interactiveClasses": "25 Live Interactive Classes",
+    "codingProblems": "150+ hands on coding problems",
     "projects": "5 Projects"
   },
   "demoClass": [
@@ -85,12 +86,12 @@
   "highlights": [
     {
       "head": "Opportunities unlocked for learner",
-      "description": "This Live C++ Interview Preparation course covers the topics such as Operating Systems, DBMS, and System Design along with important coding questions asked in the interview process of companies like Google, Facebook, Amazon, Microsoft, Directi, Zomato, etc. Along with the technical know-how, non-technical aspects of programming interviews will also be covered as a part of the curriculum.",
+      "description": "This course covers the topics of Advanced Data Structures and Competitive concepts along with important coding questions asked in the interview process of companies like Google, Facebook, Codenation, Amazon, Microsoft, Directi, Uber etc.",
       "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
     },
     {
       "head": "Hands on Projects and Problems:",
-      "description": "315+ Problems from Leetcode, Codeforces, SPOJ, Hackerrank, etc. Non-Coding Subjects Concepts that are asked in Top Tech Companies like Operating Systems, System Design, DBMS and Networking",
+      "description": "150+ Problems from Leetcode, Codeforces, SPOJ, Hackerrank, etc.",
       "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
     },
     {
@@ -109,21 +110,21 @@
     "timming": ""
   },
   "schedule": [
-    { "lecture": "Lecture 1", "description": "Arrays - 1" },
-    { "lecture": "Lecture 2", "description": "Arrays - 2" },
-    { "lecture": "Lecture 3", "description": "Strings - 1" },
-    { "lecture": "Lecture 4", "description": "Strings - 2" },
+    { "lecture": "Lecture 1", "description": "Arrays" },
+    { "lecture": "Lecture 2", "description": "Strings" },
+    { "lecture": "Lecture 3", "description": "Mathematics" },
+    { "lecture": "Lecture 4", "description": "Number Theory" },
     { "lecture": "Lecture 5", "description": "Stack" },
     { "lecture": "Lecture 6", "description": "Queue" },
     { "lecture": "Lecture 7", "description": "Binary Trees" },
     {
       "lecture": "Lecture 8",
-      "description": "Binary Trees & BInary Search Trees"
+      "description": "Binary Search Trees"
     },
     { "lecture": "Lecture 9", "description": "Bitmasking" },
-    { "lecture": "Lecture 10", "description": "Recursion - 1" },
-    { "lecture": "Lecture 11", "description": "Recursion - 2" },
-    { "lecture": "Lecture 12", "description": "Mathematics" },
+    { "lecture": "Lecture 10", "description": "Recursion" },
+    { "lecture": "Lecture 11", "description": "Backtracking" },
+    { "lecture": "Lecture 12", "description": "Combinatorics" },
     { "lecture": "Lecture 13", "description": "Dynamic Programming - 1" },
     { "lecture": "Lecture 14", "description": "Dynamic Programming - 2" },
     { "lecture": "Lecture 15", "description": "Dynamic Programming - 3" },
@@ -135,7 +136,10 @@
     { "lecture": "Lecture 21", "description": "Graphs - 3" },
     { "lecture": "Lecture 22", "description": "Graphs - 4" },
     { "lecture": "Lecture 23", "description": "Tries" },
-    { "lecture": "Lecture 24", "description": "Segment Trees" },
+    { "lecture": "Lecture 24", "description": "Segment Trees & Fenwick Trees" },
+    { "lecture": "Lecture 25", "description": "STL" }
+  ],
+  "extra-Content": [
     { "lecture": "Lecture 25", "description": "Operating Systems" },
     {
       "lecture": "Lecture 26",
