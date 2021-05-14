@@ -1,0 +1,133 @@
+{
+    "courses":[
+        {
+            "name":"Data Structures and Algorithms using C++",
+            "price":"8999",
+            "description":"Getting started with your Coding journey? Enroll in this course to start learning coding using C++ with hands on problem solving approach, instructor driven sessions, lecture recordings, assignment and code submissions, doubt support, exclusive access to CB learning portal, Certificate of completion and much more. Learn Data structures and algorithms and embark on your Success driven journey now with no fee to attend the course!",
+            "timings":"9:00PM-10:00PM",
+            "mentor":"Mosina Ashraf",
+            "coupon":"YOUTUBE-CPP",
+            "img-logo":"https://images.codingblocks.com/img/Company_logo/google.png",
+            "img-mentor":"https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
+            "border-color":"rgb(250, 173, 7)",
+            "coupon-logo":"https://images.codingblocks.com/img/coupon-icon-yt-1.png",
+            "course-purchase-url":"https://online.codingblocks.com/courses/cpp-yt-fundamentals",
+            "info":[
+                {
+                    "day":"Tuesday",
+                    "hover-class":"days-hover-orange",
+                    "border-color":"rgb(250, 173, 7)"
+                },
+                {
+                    "day":"Thursday",
+                    "hover-class":"days-hover-orange",
+                    "border-color":"rgb(250, 173, 7)"
+                }
+            ],
+            "bg-color":"bg-orange"
+        },
+        {
+            "name":"Data Structures and Algorithms using Java",
+            "price":"8999",
+            "description":"Getting started with your Coding journey? Enroll in this course to start learning coding using Java with hands on problem solving approach, instructor driven sessions, lecture recordings, assignment and code submissions, doubt support, exclusive access to CB learning portal, Certificate of completion and much more. Learn Data structures and algorithms and embark on your Success driven journey now with no fee to attend the course!",
+            "timings":"7:00PM-8:00PM",
+            "mentor":"Kartik Sapra",
+            "coupon":"YOUTUBE-JAVA",
+            "img-logo":"https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
+            "img-mentor":"https://images.codingblocks.com/img/mentor/Kartik%20Sapra.png",
+            "coupon-logo":"https://images.codingblocks.com/img/coupon-icon-yt-2.png",
+            "course-purchase-url":"https://online.codingblocks.com/courses/java-yt-fundamentals",
+            "info":[
+                {
+                    "day":"Wednesday",
+                    "hover-class":"days-hover-blue",
+                    "border-color":"rgb(8, 135, 240)"
+                },
+                {
+                    "day":"Sunday",
+                    "hover-class":"days-hover-blue",
+                    "border-color":"rgb(8, 135, 240)"
+                }
+            ],
+            "bg-color":"bg-blue"
+        },
+        {
+            "name":"Data Science Master Course",
+            "price":"12999",
+            "description":"Confused whether to go in for ML and Data science OR go in for Development courses? Enroll in this course to start learning Data science with instructor driven sessions, lecture recordings, assignment and code submissions, doubt support, exclusive access to CB learning portal, Certificate of completion and much more. Embark on your Success driven journey now with no fee to attend the course!",
+            "timings":"7:00PM-8:00PM",
+            "mentor":"Manu S Pillai",
+            "coupon":"YOUTUBE-DS",
+            "img-logo":"https://images.codingblocks.com/img/newcourse_logo/ds_white.png",
+            "img-mentor":"https://images.codingblocks.com/img/mentor/Manu%20S%20Pillai.png",
+            "border-color":"rgb(64, 139, 21)",
+            "coupon-logo":"https://images.codingblocks.com/img/coupon-icon-yt-1.png",
+            "course-purchase-url":"https://online.codingblocks.com/courses/ds-yt-fundamentals",
+            "info":[
+                {
+                    "day":"Monday",
+                    "hover-class":"days-hover-green",
+                    "border-color":"rgb(64, 139, 21)"
+                },
+                {
+                    "day":"Friday",
+                    "hover-class":"days-hover-green",
+                    "border-color":"rgb(64, 139, 21)"
+                }
+            ],
+            "bg-color":"bg-green"
+        },
+        {
+            "name":"Full Stack Web-Dev",
+            "price":"10999",
+            "description":"Planning to start Web development? Enroll in this course to start learning Front end and Back end Web dev with live projects, instructor driven sessions, lecture recordings, assignment and code submissions, doubt support, exclusive access to CB learning portal, Certificate of completion and much more. Embark on your Success driven journey now with no fee to attend the course!",
+            "timings":"7:00PM-8:00PM",
+            "mentor":"Sabeel Khan",
+            "coupon":"YOUTUBE-WEB",
+            "img-logo":"https://images.codingblocks.com/img/newcourse_logo/WebDev-WithoutBG.png",
+            "img-mentor":"https://images.codingblocks.com/img/sabeel.jpeg",
+            "border-color":"rgb(250, 173, 7)",
+            "coupon-logo":"https://images.codingblocks.com/img/coupon-icon-yt-1.png",
+            "course-purchase-url":"https://online.codingblocks.com/courses/wd-yt-fundamentals",
+            "info":[
+                {
+                    "day":"Tuesday",
+                    "hover-class":"days-hover-orange",
+                    "border-color":"rgb(250, 173, 7)"
+                },
+                {
+                    "day":"Saturday",
+                    "hover-class":"days-hover-orange",
+                    "border-color":"rgb(250, 173, 7)"
+                }
+            ],
+            "bg-color":"bg-yellow"
+        },
+        {
+            "name":"Python Programming Course",
+            "price":"4999",
+            "description":"Getting started with your Coding journey? Enroll in this course to start learning coding using Python with hands on problem solving approach, instructor driven sessions, lecture recordings, assignment and code submissions, doubt support, exclusive access to CB learning portal, Certificate of completion and much more. Embark on your Success driven journey now with no fee to attend the course!",
+            "timings":"9:00PM-10:00PM",
+            "mentor":"Princey Yadav",
+            "coupon":"YOUTUBE-PY",
+            "img-logo":"https://images.codingblocks.com/img/newcourse_logo/Python_white.png",
+            "img-mentor":"https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
+            "border-color":"rgb(93, 13, 240)",
+            "coupon-logo":"https://images.codingblocks.com/img/coupon-icon-yt-2.png",
+            "course-purchase-url":"https://online.codingblocks.com/courses/py-yt-fundamentals",
+            "info":[
+                {
+                    "day":"Wednesday",
+                    "hover-class":"days-hover-purple",
+                    "border-color":"rgb(93, 13, 240)"
+                },
+                {
+                    "day":"Friday",
+                    "hover-class":"days-hover-purple",
+                    "border-color":"rgb(93, 13, 240)"
+                }
+            ],
+            "bg-color":"bg-purple"
+        }
+    ]
+}
