@@ -345,6 +345,21 @@
       "badge": "Advance"
     },
     {
+      "name": "Interview Preparation/Competitive Master Course",
+      "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
+      "link": "/live-courses/interview-preparation-cpp.html",
+      "mentors": "Apaar Kamal",
+      "interactiveClasses": "25 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "projects": "5 Projects",
+      "classSchedule": "Classes four a week",
+      "price": "15,999",
+      "slashedPrice": "7,999",
+      "gradient": "bg-gradient-orange",
+      "startDate": "24th May",
+      "badge": "Advanced"
+    },
+    {
       "name": "Master Data Science",
       "icon": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
       "link": "/live-courses/master-data-science-with-python.html",
