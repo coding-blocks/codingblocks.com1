@@ -69,7 +69,7 @@
       "price": "15,999",
       "slashedPrice": "7,999",
       "gradient": "bg-gradient-blue-light",
-      "startDate": "24th May",
+      "startDate": "31st May",
       "badge": "Beginner"
     },
     {
@@ -84,7 +84,7 @@
       "price": "15,999",
       "slashedPrice": "7,999",
       "gradient": "bg-gradient-purple",
-      "startDate": "24th May",
+      "startDate": "31st May",
       "badge": "Beginner"
     },
     {
@@ -99,7 +99,7 @@
       "price": "12,999",
       "slashedPrice": "6,499",
       "gradient": "bg-gradient-orange",
-      "startDate": "24th May",
+      "startDate": "31st May",
       "badge": "Advanced"
     },
     {
@@ -114,22 +114,7 @@
       "price": "12,999",
       "slashedPrice": "6,499",
       "gradient": "bg-gradient-blue-dark",
-      "startDate": "24th May",
-      "badge": "Advanced"
-    },
-    {
-      "name": "Interview Preparation/Competitive Master Course",
-      "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
-      "link": "/live-courses/interview-preparation-cpp.html",
-      "mentors": "Apaar Kamal",
-      "interactiveClasses": "25 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Classes four a week",
-      "price": "15,999",
-      "slashedPrice": "7,999",
-      "gradient": "bg-gradient-orange",
-      "startDate": "24th May",
+      "startDate": "31st May",
       "badge": "Advanced"
     },
     {
@@ -144,7 +129,7 @@
       "price": "27,999",
       "slashedPrice": "13,999",
       "gradient": "bg-gradient-green-light",
-      "startDate": "24th May",
+      "startDate": "31st May",
       "badge": "Advanced"
     },
     {
@@ -159,7 +144,7 @@
       "price": "15,999",
       "slashedPrice": "7,999",
       "gradient": "bg-gradient-pink",
-      "startDate": "24th May",
+      "startDate": "31st May",
       "badge": "Advanced"
     }
   ],
