@@ -13,6 +13,32 @@
 
   "slides": [  
     {
+      "imgSrc": "https://images.codingblocks.com/img/CAST%20APAT%20Web%20Banner%20With%20Button.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "/scholarship-tests.html",
+          "text": "Register",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%281%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Enroll Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "/assets/images/cb/cover/live.jpg",
       "imgAlt": "",
       "heading": "",
