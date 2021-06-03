@@ -37,58 +37,6 @@
           "filled": "true"
         }
       ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%281%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Enroll Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "/assets/images/cb/cover/live.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "Starting 31st May 2021",
-      "button": [
-        {
-          "link": "/live-classes.html",
-          "text": "Enroll Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/CareerBootcamp_Banner.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "http://career-bootcamp.codingblocks.com/",
-          "text": "Register",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Classroom_Banner.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "Limited seats per batch",
-      "button": [
-        {
-          "link": "/classroom-program.html",
-          "text": "Explore",
-          "filled": "true"
-        }
-      ]
     }
   ],
   "events": {
