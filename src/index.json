@@ -13,14 +13,27 @@
 
   "slides": [  
     {
-      "imgSrc": "https://images.codingblocks.com/img/CAST%20APAT%20Web%20Banner%20With%20Button.png",
+      "imgSrc": "https://images.codingblocks.com/img/co-banner1.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "/scholarship-tests.html",
+          "link": "https://cb.lk/coding",
           "text": "Register",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/NPB-BANNER%20copy-24th%20-%20java.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://cb.lk/npbon",
+          "text": "Enroll Now",
           "filled": "true"
         }
       ]
