@@ -33,12 +33,12 @@
     "slashedPrice": "6,499",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2024",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Mohit Pandey",
-    "mentorImg": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
+    "mentors": "Abhishek Srivastav",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Abhishek%20Srivastava.png",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5194",
-    "startDate": "31st May",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5944",
+    "startDate": "19th July",
     "interactiveClasses": "34 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",
     "projects": "5 Projects",
@@ -46,10 +46,10 @@
   },
   "aboutMentor": [
     {
-      "name": "Mohit Pandey",
-      "profile_pic_link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
-      "summary": "Mohit Pandey is a competitive programmer, has an awesome understanding of Data Structure And Algorithm. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand what he is teaching.",
-      "email": "mohit.pandey@codingblocks.com"
+      "name": "Abhishek Srivastav",
+      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Abhishek%20Srivastava.png",
+      "summary": "Abhishek has pursued his M.Tech in CSE from IIIT Delhi. He has previously worked at NII Tokyo as a researcher in the field of Artificial Intelligence and has a publication in one of the  top AI journals. His area of interest lies in the field of Machine learning, in particular, generative modelling through the application of deep learning. He strives for excellence in his work and has a knack for making complex topics simple. At Coding Blocks, he aims to share his experience with his students and make learning easy and fun.",
+      "email": "abhishek.srivastav@codingblocks.com"
     }
   ],
   "demoClass": [
