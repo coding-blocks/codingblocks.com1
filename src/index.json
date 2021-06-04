@@ -37,6 +37,19 @@
           "filled": "true"
         }
       ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/live-banner-june.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-classes",
+          "text": "Enroll Now",
+          "filled": "true"
+        }
+      ]
     }
   ],
   "events": {
