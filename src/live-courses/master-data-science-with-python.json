@@ -36,12 +36,12 @@
     "slashedPrice": "13,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2043",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Princey Yadav",
-    "mentorImg": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
+    "mentors": "Mohit Uniyal",
+    "mentorImg": "https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d",
     "description": "Start from basics, become a industry ready data scientist!",
-    "mentor-img-1": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5204",
-    "startDate": "31st May",
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5947",
+    "startDate": "28th June",
     "interactiveClasses": "41 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",
     "projects": "5 Projects",
@@ -49,10 +49,10 @@
   },
   "aboutMentor": [
     {
-      "name": "Princey Yadav",
-      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
-      "summary": "Princey is a post graduate from IIIT Delhi and joined Coding Blocks due to her passion for teaching. She has prior experience as a Software Engineer and doing research in the field of Computational Biology. Her interests include machine learning, data science and game development. She is a pythonista who likes to draw and watch anime for fun.",
-      "email": "princey.yadav@codingblocks.com"
+      "name": "Mohit Uniyal",
+      "profile_pic_link": "https://minio.codingblocks.com/amoeba/fda87ffc-47cf-491c-9355-4356688f2a2d",
+      "summary": "Computer science graduate from Delhi University, highly skilled in Machine learning and deep learning. He has been practicing ML/DL for the last 3 years and have done various projects in the same domain. He has also won many coding competition, web development events, in tech fest across various colleges.",
+      "email": "mohit.uniyal@codingblocks.com"
     }
   ],
   "demoClass": [
