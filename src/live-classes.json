@@ -116,21 +116,6 @@
       "gradient": "bg-gradient-blue-dark",
       "startDate": "19th July",
       "badge": "Advanced"
-    },
-    {
-      "name": "Master Data Science",
-      "icon": "https://minio.codingblocks.com/amoeba/0ee7474c-de3c-44d7-a704-646491c702e8.svg",
-      "link": "/live-courses/master-data-science-with-python.html",
-      "mentors": "Mohit Uniyal",
-      "interactiveClasses": "41 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "8 Projects",
-      "classSchedule": "Classes four a week",
-      "price": "27,999",
-      "slashedPrice": "13,999",
-      "gradient": "bg-gradient-green-light",
-      "startDate": "28th June",
-      "badge": "Advanced"
     }
   ],
   "liveCoursesRow1": [
