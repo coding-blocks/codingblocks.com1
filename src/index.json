@@ -13,6 +13,19 @@
 
   "slides": [  
     {
+      "imgSrc": "https://images.codingblocks.com/img/Monsoon-sale-Web-Banner-%281%29.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Register Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/co-banner1.png",
       "imgAlt": "",
       "heading": "",
