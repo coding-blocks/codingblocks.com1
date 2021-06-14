@@ -13,19 +13,6 @@
 
   "slides": [  
     {
-      "imgSrc": "https://images.codingblocks.com/img/co-banner1.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://cb.lk/coding",
-          "text": "Register",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/NPB-BANNER%20copy-24th-java.jpg",
       "imgAlt": "",
       "heading": "",
