@@ -13,6 +13,19 @@
 
   "slides": [  
     {
+      "imgSrc": "https://images.codingblocks.com/img/eoss-banner.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Register Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/NPB-BANNER%20copy-5%20-%20java.jpg",
       "imgAlt": "",
       "heading": "",
