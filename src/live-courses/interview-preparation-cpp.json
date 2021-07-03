@@ -20,10 +20,10 @@
   },
   "aboutMentor": [
     {
-      "name": "Apaar Kamal",
-      "profile_pic_link": "https://minio.codingblocks.com/amoeba/61b35bc9-b2d2-494a-9740-c5057e89faba",
-      "summary": "Apaar is an incoming SDE at Google and has also been a part of Codenation and Zomato. He is enthusiastic competitive programmer, with years of experience in problem solving. He is rated 6 star on Codechef and has won various competitions like Code Gladiators, AlgoFlux, CodeWars etc. ",
-      "email": "apaar.kamal@codingblocks.com"
+      "name": "Kartik Mathur",
+      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+      "summary": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "email": "kartik.mathur@codingblocks.com"
     }
   ],
   "openGraph": {
@@ -34,22 +34,23 @@
   },
   "courseMeta": {
     "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
-    "title": "Interview Preparation/Competitive Master C++ Course",
-    "price": "15,999",
-    "slashedPrice": "7,999",
-    "course-link": "https://dukaan.codingblocks.com/buy?productId=5674",
+    "title": "Interview Preparation/Master Competitive C++ Course",
+    "price": "13,999",
+    "slashedPrice": "6,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=6188",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Apaar Kamal",
-    "mentorImg": "https://minio.codingblocks.com/amoeba/61b35bc9-b2d2-494a-9740-c5057e89faba",
+    "mentors": "Kartik Mathur",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
     "description": "Start from Basics, become a C++ Master!",
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
     "mentor-img-2": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5674",
-    "startDate": "31st May",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=6188",
+    "startDate": "22 July 2021",
     "gradient": "bg-gradient-blue-dark",
-    "interactiveClasses": "25 Live Interactive Classes",
-    "codingProblems": "150+ hands on coding problems",
-    "projects": "5 Projects"
+    "interactiveClasses": "40 Live Interactive Classes",
+    "codingProblems": "250+ hands on coding problems",
+    "projects": "5 Projects",
+    "days":"(Tue, Fri, Sun)"
   },
   "demoClass": [
     {
