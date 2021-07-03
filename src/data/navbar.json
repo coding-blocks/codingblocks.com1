@@ -77,6 +77,11 @@
         {
           "title": "AlGO++",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html"
+        },
+        {
+          "title": "Interview Prep/Competitive-C++",
+          "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
+          "new-img":"https://images.codingblocks.com/misc/new-icon1.png"
         }
       ]
     },
