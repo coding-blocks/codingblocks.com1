@@ -31,14 +31,14 @@
     "title": "Master Algo.Java-Data Structures",
     "price": "12,999",
     "slashedPrice": "6,499",
-    "course-link": "https://dukaan.codingblocks.com/buy?productId=6192",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=5946",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Monu Kumar",
-    "mentorImg": "https://images.codingblocks.com/img/mentor/Monu.png",
+    "mentors": "Shubham Singhal",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Shubham%20Singhal.png",
     "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
     "mentor-img-1": "https://images.codingblocks.com/img/mentor/Monu.png",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=6192",
-    "startDate": "24 August 2021",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5946",
+    "startDate": "19 July 2021",
     "interactiveClasses": "37 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",
     "projects": "5 Projects",
@@ -46,10 +46,10 @@
   },
   "aboutMentor": [
     {
-      "name": "Monu Kumar",
-      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Monu.png",
-      "summary": "Monu is a Competitive programmer and an expert in Data structures, Algorithms and Mathematics. He always amazes his students with his creative thinking to solve the problems and makes solutions to tough problems a cake walk. He is witty and has a strong grasp on the core subjects of Computer science.",
-      "email": "monu.kumar@codingblocks.com"
+      "name": "Shubham Singhal",
+      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Shubham%20Singhal.png",
+      "summary": "Shubham is a Masters in AI specialization from IIIT-Delhi. He is well versed in C/C++, Java and Python coding languages as well as highly proficient in Data Structures and Algorithm. As a Data Science and machine learning enthusiast, he has deep knowledge about this field. He also published a paper related to Machine Learning in iconip conference.",
+      "email": "shubham.singhal@codingblocks.com"
     }
   ],
   "demoClass": [
