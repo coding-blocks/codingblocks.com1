@@ -13,6 +13,19 @@
 
   "slides": [  
     {
+      "imgSrc": "https://images.codingblocks.com/img/CA-Banner-new.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/scholarship-tests.html",
+          "text": "Enroll Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/Web%20Banner(1).png",
       "imgAlt": "",
       "heading": "",
