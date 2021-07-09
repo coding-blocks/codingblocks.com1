@@ -13,12 +13,6 @@
 
   "slides": [  
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%282%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/CA-Banner-new.jpg",
       "imgAlt": "",
       "heading": "",
@@ -43,7 +37,7 @@
           "filled": "true"
         }
       ]
-    },
+    }
   ],
   "events": {
     "upcoming": true,
