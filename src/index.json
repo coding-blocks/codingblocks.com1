@@ -44,19 +44,6 @@
         }
       ]
     },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/NPB-BANNER%20copy-5%20-%20java.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://cb.lk/npbon",
-          "text": "Enroll Now",
-          "filled": "true"
-        }
-      ]
-    }
   ],
   "events": {
     "upcoming": true,
