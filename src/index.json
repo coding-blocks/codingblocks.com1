@@ -13,6 +13,32 @@
 
   "slides": [  
     {
+      "imgSrc": "https://images.codingblocks.com/img/FLASH%2085%20Web%20Banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Enroll Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/JULY75%20Web%20Banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Enroll Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/CA-Banner-new.jpg",
       "imgAlt": "",
       "heading": "",
