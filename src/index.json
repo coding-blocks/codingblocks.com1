@@ -13,20 +13,7 @@
 
   "slides": [  
     {
-      "imgSrc": "https://images.codingblocks.com/img/FLASH%2085%20Web%20Banner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Enroll Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/JULY75%20Web%20Banner.png",
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%283%29.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -47,19 +34,6 @@
         {
           "link": "https://codingblocks.com/scholarship-tests.html",
           "text": "Enroll Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner(1).png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://cb.lk/ml",
-          "text": "Register Now",
           "filled": "true"
         }
       ]
