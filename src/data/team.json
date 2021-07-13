@@ -43,19 +43,7 @@
       ],
       "bio": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening."
     },     
-    {
-      "name": "Prateek Narang",
-      "role": "Founding Member",
-      "imgSrc": "/assets/images/cb/team/wprateek.jpg",
-      "imgAlt": "Prateek Narang",
-      "bio": "Passionate about teaching, Prateek is a CS graduate from DTU. He has previously worked with SanDisk, HackerEarth. He has also won various hackathons including Google’s Code For India, Smart City Hackathon, qualified ACM-ICPC regionals and published papers in International Journals. His interactive CV (www.prateeknarang.com) is also popular in 120+ countries.",
-      "highlights": [
-        {
-          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/dtu-logo.png"
-        },
-        { "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/UIET.png" }
-      ]      
-    },
+    
     {
       "name": "Garima Chhikara",
       "role": "Mentor",
