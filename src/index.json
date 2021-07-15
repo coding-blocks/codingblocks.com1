@@ -37,6 +37,19 @@
           "filled": "true"
         }
       ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/cpw-banner.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://cb.lk/cp",
+          "text": "Register Now",
+          "filled": "true"
+        }
+      ]
     }
   ],
   "events": {
