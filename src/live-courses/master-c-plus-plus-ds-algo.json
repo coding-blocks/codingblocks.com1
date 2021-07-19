@@ -20,10 +20,10 @@
   },
   "aboutMentor": [
     {
-      "name": "Abhishek Srivastav",
-      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Abhishek%20Srivastava.png",
-      "summary": "Abhishek has pursued his M.Tech in CSE from IIIT Delhi. He has previously worked at NII Tokyo as a researcher in the field of Artificial Intelligence and has a publication in one of the  top AI journals. His area of interest lies in the field of Machine learning, in particular, generative modelling through the application of deep learning. He strives for excellence in his work and has a knack for making complex topics simple. At Coding Blocks, he aims to share his experience with his students and make learning easy and fun.",
-      "email": "abhishek.srivastav@codingblocks.com"
+      "name": "Mosina Ashraf",
+      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
+      "summary": "Mosina Ashraf is a versatile coder and has an innate understanding of the concepts which makes her way of teaching almost like learning through osmosis. She is a competative programmer and a front end Web developer. Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice, warmhearted nature and coding skills she blends proficiently as a great mentor.",
+      "email": "mosina.ashraf@codingblocks.com"
     }
   ],
   "openGraph": {
@@ -37,14 +37,14 @@
     "title": "Master DS and Algo with C++",
     "price": "15,999",
     "slashedPrice": "7,999",
-    "course-link": "https://dukaan.codingblocks.com/buy?productId=2020&amp",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=6189",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Abhishek Srivastav",
-    "mentorImg": "https://images.codingblocks.com/img/mentor/Abhishek%20Srivastava.png",
+    "mentors": "Mosina Ashraf",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
     "description": "Start from Basics, become a C++ Master!",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5943",
-    "startDate": "28th June",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=6189",
+    "startDate": "1st Aug 2021",
     "gradient": "bg-gradient-blue-light",
     "interactiveClasses": "47 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",

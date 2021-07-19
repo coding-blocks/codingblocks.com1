@@ -32,7 +32,10 @@
                   <ul>
                     {{#each sublinks}}
                       <li itemprop="name" class="vpf {{#if sublinks}}has-dropdown{{/if}}">
-                        <a itemprop="url" href="{{link}}">{{title}}</a>
+                        <a itemprop="url" href="{{link}}"> 
+
+                          <img src="{{new-img}}" style="height: 18px;"> 
+                          {{title}}</a>
                         {{#if sublinks}}
                           <ul>
                             {{#each sublinks}}

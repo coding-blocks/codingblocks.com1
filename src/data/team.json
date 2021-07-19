@@ -15,79 +15,23 @@
       "bio": "Brij Mohan or Bade bhaiya, as everyone calls him, is always full of energy and keeps everyone on feet with his motivation. He has vast experience of teaching and is the founder of Vidyamandir Classes. <br> Bade Bhaiya, through his personal and professional growth helps in motivating and mentoring students at Coding Blocks. He is an IIT Delhi alumnus. <br>"
     },
     {
-      "name": "Anushray Gupta",
-      "role": "Co-Founder",
-      "imgSrc": "/assets/images/cb/team/wanushray.jpg",
-      "imgAlt": "Anushray Gupta",
-      "bio": "A code lover, with an undying passion for teaching, Anushray has done his Bachelor’s in CSE from IIIT Hyderabad. He has worked with major tech companies like Facebook and Directi and played major role in many successful start-ups. <br> He is one of the Co-Founders of Coding Blocks. He has received amazing feedbacks for his teaching and is now serving as Programme Designer at Coding Blocks."
-    },
-    {
-      "name": "Prateek Narang",
-      "role": "Founding Member",
-      "imgSrc": "/assets/images/cb/team/wprateek.jpg",
-      "imgAlt": "Prateek Narang",
-      "bio": "Passionate about teaching, Prateek is a CS graduate from DTU. He has previously worked with SanDisk, HackerEarth. He has also won various hackathons including Google’s Code For India, Smart City Hackathon, qualified ACM-ICPC regionals and published papers in International Journals. His interactive CV (www.prateeknarang.com) is also popular in 120+ countries."
-    },
-    {
       "name": "Varun Kohli",
       "role": "Founding Member",
       "imgSrc": "/assets/images/cb/team/wvarun.jpg",
       "imgAlt": "Varun Kohli",
       "bio": "Varun has been associated with the Software industry for more than 12 years & is considered an expert in the EdTech space. He has worked on multiple large scale applications and has piloted several Startups. He now dedicates his energy and experience to the design of Programs & business in Coding Blocks."
-    },
+    }, 
     {
-      "name": "Garima Chhikara",
-      "role": "Mentor",
-      "imgSrc": "/assets/images/cb/team/Garima Final.jpg",
-      "imgAlt": "Garima Chhikara",
-      "bio": "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining."
-    },
-    {
-      "name": "Pulkit Aggarwal",
-      "role": "Developer & Mentor",
-      "imgSrc": "/assets/images/cb/team/Pulkit.jpg",
-      "imgAlt": "Pulkit Aggarwal",
-      "bio": "Pulkit is currently pursuing masters from DU. Have a keen interest in building mobile applications in android and iOS. He has worked with different startups in past wich has been a resourceful experience and have helped to shape his skills. He is also an open source enthusiast and also have quite knowledge about firebase platform."
-    },
-    {
-      "name": "Jatin Katyal",
-      "role": "Developer & Mentor",
-      "imgSrc": "/assets/images/cb/team/jatin-katyal.jpg",
-      "imgAlt": "Jatin Katyal",
-      "bio": "Jatin has worked with various start-ups in the field of HCI and IoT. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack."
-    },
-    {
-      "name": "Bipin Kalra",
-      "role": "Developer & Mentor",
-      "imgSrc": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/bipin.jpeg",
-      "imgAlt": "Bipin Kalra",
-      "bio": "Bipin is an avid web developer and machine learning enthusiast. He has also worked extensively on the Office Suite and won various accolades in the same, presented by Microsoft. He has won more than 10 hackathons including Microsoft campus Hack, TATA Crucible Hackathon, and Angel Hack."
-    },
-    {
-      "name": "Vibhu Dujari",
-      "role": "Developer",
-      "imgSrc": "/assets/images/cb/team/vibhud.jpeg",
-      "imgAlt": "Vibhu Dujari",
-      "bio": "Vibhu is a Full Stack Developer and has worked with various startups and projects involving web technologies like JavaScript / Node / Express, Ember, Angular. He has a keen interest in CSS and is intrigued by the way different machines work."
-    },
-    {
-      "name": "Ishan Abrol",
-      "role": "Sales Lead",
-      "imgSrc": "/assets/images/cb/team/ishan.jpg",
-      "imgAlt": "Ishan Abrol",
-      "bio": "Ishan Abrol is a MBA by education and a musician by heart. He is having 7 years of experience with various industries and has been helping them increasing their market worth. He is now using that experience in helping grow the online vertical of Coding Blocks."
-    },
-    {
-      "name": "Rishabh Nigam",
-      "role": "Sales Executive",
-      "imgSrc": "/assets/images/cb/team/rishabhn.png",
-      "imgAlt": "Rishabh Nigam",
-      "bio": "A Journalism graduate, he's contributed articles in various media portals (national issues, feature writing and sports). With more than 3 years of experience in sales, he now handles sales of online vertical of Coding Blocks."
-    },
+      "name": "Anushray Gupta",
+      "role": "Co-Founder",
+      "imgSrc": "/assets/images/cb/team/wanushray.jpg",
+      "imgAlt": "Anushray Gupta",
+      "bio": "A code lover, with an undying passion for teaching, Anushray has done his Bachelor’s in CSE from IIIT Hyderabad. He has worked with major tech companies like Facebook and Directi and played major role in many successful start-ups. <br> He is one of the Co-Founders of Coding Blocks. He has received amazing feedbacks for his teaching and is now serving as Programme Designer at Coding Blocks."
+    },      
     {
       "name": "Kartik Mathur",
-      "role": "Academic Lead",
-      "imgSrc": "/assets/images/cb/team/Kartik.jpg",
+      "role": "Founding Member",
+      "imgSrc": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
       "imgAlt": "Kartik Mathur",
       "highlights": [
         {
@@ -98,21 +42,34 @@
         }
       ],
       "bio": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening."
-    },
+    },     
+    
     {
-      "name": "Princey Yadav",
+      "name": "Garima Chhikara",
       "role": "Mentor",
-      "imgSrc": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
-      "imgAlt": "Princey Yadav",
+      "imgSrc": "/assets/images/cb/team/Garima Final.jpg",
+      "imgAlt": "Garima Chhikara",
       "highlights": [
-        {
-          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/nsit-logo.png"
-        },
         {
           "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/iiitd-logo.png"
         }
+      ],      
+      "bio": "Garima pursued her masters from IIIT-Delhi and joined us to pursue her passion for teaching. She has worked with DRDO and has interest and experience in technologies like Virtual Reality, Internet of Things, Software Defined Networking, Cloud Services, Information Retrieval and Data Mining."
+    },
+    {
+      "name": "Mosina Ashraf",
+      "role": "Mentor",
+      "imgSrc": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
+      "imgAlt": "Mosina Ashraf",
+      "highlights": [
+        {
+          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/jamia-logo.png"
+        },
+        {
+          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/UIET.png"
+        }
       ],
-      "bio": "Princey is a post graduate from IIIT Delhi and did her graduation from NSIT Delhi. She joined Coding Blocks due to her passion for teaching. She has prior experience as a Software Engineer and has done research in the field of Computational Biology. Her interests include Machine learning, Data science and Game development. She is a pythonista and likes to draw and watch anime for fun."
+      "bio": "Mosina Ashraf is a versatile coder and has an innate understanding of the concepts which makes her way of teaching almost like learning through osmosis. She is a competative programmer and a front end Web developer. Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice, warmhearted nature and coding skills she blends proficiently as a great mentor."
     },
     {
       "name": "Monu Kumar",
@@ -126,49 +83,6 @@
         { "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/UIET.png" }
       ],
       "bio": "Monu is a Competitive programmer and an expert in Data structures, Algorithms and Mathematics. He always amazes his students with his creative thinking to solve the problems and makes solutions to tough problems a cake walk. He is witty and has a strong grasp on the core subjects of Computer science"
-    },
-    {
-      "name": "Abhishek Srivastava",
-      "role": "Mentor",
-      "imgSrc": "https://images.codingblocks.com/img/mentor/Abhishek%20Srivastava.png",
-      "imgAlt": "Abhishek Srivastava",
-      "highlights": [
-        {
-          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/iiitd-logo.png"
-        },
-        {
-          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/niitokyo-logo.png"
-        }
-      ],
-      "bio": "Abhishek has pursued his M.Tech in CSE from IIIT Delhi. He has previously worked at NII Tokyo as a researcher in the field of Artificial Intelligence and has a publication in one of the  top AI journals. His area of interest lies in the field of Machine learning, in particular, generative modelling through the application of deep learning. He strives for excellence in his work and has a knack for making complex topics simple. At Coding Blocks, he aims to share his experience with his students and make learning easy and fun."
-    },
-    {
-      "name": "Mayank Jha",
-      "role": "Mentor",
-      "imgSrc": "https://images.codingblocks.com/img/mentor/Mayank.png",
-      "imgAlt": "Mayank Jha",
-      "highlights": [
-        {
-          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/ggsipu-logo.png"
-        },
-        { "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/UIET.png" }
-      ],
-      "bio": "Mayank is a Fullstack Developer who loves Competitive coding to the heart. He is very well versed with technologies like Javacript and Node.js and has experience with various startups. His love for enigmatomy and CP (Competitive Coding) helps him create and solve puzzles in his free time. He is always up for learning new technologies that are trending in the world. He has won various Intercollege and Zonal competitions and is a former State level Volleyball player."
-    },
-    {
-      "name": "Manu S Pillai",
-      "role": "Mentor",
-      "imgSrc": "https://images.codingblocks.com/img/mentor/Manu%20S%20Pillai.png",
-      "imgAlt": "Manu S Pillai",
-      "highlights": [
-        {
-          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/ggsipu-logo.png"
-        },
-        {
-          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/smartodisha-hackathon.png"
-        }
-      ],
-      "bio": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and he is currently doing independant research in the this domain. He has won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in."
     },
     {
       "name": "Kartik Sapra",
@@ -199,6 +113,64 @@
         }
       ],
       "bio": "Sabeel is a Competitive programmer with an undying passion for teaching.He is proficient with C++ and Web Development related technologies like Javascript,NodeJS and ReactJS.He always amazes his students with his creative thinking to the problems and makes solutions to tough problems a cake walk."
+    },    
+    {
+      "name": "Princey Yadav",
+      "role": "Mentor",
+      "imgSrc": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
+      "imgAlt": "Princey Yadav",
+      "highlights": [
+        {
+          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/nsit-logo.png"
+        },
+        {
+          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/iiitd-logo.png"
+        }
+      ],
+      "bio": "Princey is a post graduate from IIIT Delhi and did her graduation from NSIT Delhi. She joined Coding Blocks due to her passion for teaching. She has prior experience as a Software Engineer and has done research in the field of Computational Biology. Her interests include Machine learning, Data science and Game development. She is a pythonista and likes to draw and watch anime for fun."
+    },
+    {
+      "name": "Abhishek Srivastava",
+      "role": "Mentor",
+      "imgSrc": "https://images.codingblocks.com/img/mentor/Abhishek%20Srivastava.png",
+      "imgAlt": "Abhishek Srivastava",
+      "highlights": [
+        {
+          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/iiitd-logo.png"
+        },
+        {
+          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/niitokyo-logo.png"
+        }
+      ],
+      "bio": "Abhishek has pursued his M.Tech in CSE from IIIT Delhi. He has previously worked at NII Tokyo as a researcher in the field of Artificial Intelligence and has a publication in one of the  top AI journals. His area of interest lies in the field of Machine learning, in particular, generative modelling through the application of deep learning. He strives for excellence in his work and has a knack for making complex topics simple. At Coding Blocks, he aims to share his experience with his students and make learning easy and fun."
+    },
+    {
+      "name": "Manu S Pillai",
+      "role": "Mentor",
+      "imgSrc": "https://images.codingblocks.com/img/mentor/Manu%20S%20Pillai.png",
+      "imgAlt": "Manu S Pillai",
+      "highlights": [
+        {
+          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/ggsipu-logo.png"
+        },
+        {
+          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/smartodisha-hackathon.png"
+        }
+      ],
+      "bio": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and he is currently doing independant research in the this domain. He has won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in."
+    },
+    {
+      "name": "Mayank Jha",
+      "role": "Mentor",
+      "imgSrc": "https://images.codingblocks.com/img/mentor/Mayank.png",
+      "imgAlt": "Mayank Jha",
+      "highlights": [
+        {
+          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/ggsipu-logo.png"
+        },
+        { "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/UIET.png" }
+      ],
+      "bio": "Mayank is a Fullstack Developer who loves Competitive coding to the heart. He is very well versed with technologies like Javacript and Node.js and has experience with various startups. His love for enigmatomy and CP (Competitive Coding) helps him create and solve puzzles in his free time. He is always up for learning new technologies that are trending in the world. He has won various Intercollege and Zonal competitions and is a former State level Volleyball player."
     },
     {
       "name": "Lakshya Singh",
@@ -225,34 +197,19 @@
       "bio": "Shubham is a Masters in AI specialization from IIIT-Delhi. He is well versed in C/C++, Java and Python coding languages as well as highly proficient in Data Structures and Algorithm. As a Data Science and machine learning enthusiast, he has deep knowledge about this field. He also published a paper related to Machine Learning in iconip conference."
     },
     {
-      "name": "Mohit Pandey",
-      "role": "Mentor",
-      "imgSrc": "https://images.codingblocks.com/img/mentor/Mohit%20Uniyal.png",
-      "imgAlt": "Mohit Pandey",
-      "highlights": [
-        {
-          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/dtu-logo.png"
-        },
-        { "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/UIET.png" }
-      ],
-      "bio": "Mohit Pandey is a competitive programmer and has an awesome understanding of Data structures and algorithms. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand the concepts and excel in their goals"
+      "name": "Vibhu Dujari",
+      "role": "Developer",
+      "imgSrc": "/assets/images/cb/team/vibhud.jpeg",
+      "imgAlt": "Vibhu Dujari",
+      "bio": "Vibhu is a Full Stack Developer and has worked with various startups and projects involving web technologies like JavaScript / Node / Express, Ember, Angular. He has a keen interest in CSS and is intrigued by the way different machines work."
     },
     {
-      "name": "Mosina Ashraf",
-      "role": "Mentor",
-      "imgSrc": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
-      "imgAlt": "Mosina Ashraf",
-      "highlights": [
-        {
-          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/jamia-logo.png"
-        },
-        {
-          "link": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/UIET.png"
-        }
-      ],
-      "bio": "Mosina Ashraf is a versatile coder and has an innate understanding of the concepts which makes her way of teaching almost like learning through osmosis. She is a competative programmer and a front end Web developer. Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice, warmhearted nature and coding skills she blends proficiently as a great mentor."
+      "name": "Rishabh Nigam",
+      "role": "Sales Lead",
+      "imgSrc": "/assets/images/cb/team/rishabhn.png",
+      "imgAlt": "Rishabh Nigam",
+      "bio": "A Journalism graduate, he's contributed articles in various media portals (national issues, feature writing and sports). With more than 3 years of experience in sales, he now handles sales of online vertical of Coding Blocks."
     },
-
     {
       "name": "Samuel",
       "role": "Support Staff",

@@ -1,21 +1,22 @@
 {
-  "id": "course11",
-  "title": "Best Java Training in Delhi, Greater Noida | Coding Blocks",
+  "id": "course05",
+  "name": "Algo++",
+  "title": "Algo++: Courses on Data Structures & Algorithms in Delhi | Coding Blocks",
   "metas": [
     {
       "name": "description",
-      "content": "Advanced Data Structures and Algorithms using Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
+      "content": "Summer courses on Algorithms & Advanced Data Structures at Coding Blocks Delhi & other centers. Don't miss this course If you're planning for internships or interviews."
     },
     {
       "name": "keywords",
-      "content": "java,data structures,algorithms,ds,graphs,trees,codingblocks,course,delhi,india"
+      "content": "competitive,coding,algorithm,course,delhi,india,coding,blocks"
     }
   ],
   "openGraph": {
-    "url": "https://codingblocks.com/classroom-courses/advanced-data-structures-and-algorithms-using-java.html",
-    "title": "Algo.Java | Coding Blocks",
-    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290441_860207530746322_1047836314_n.jpg",
-    "description": "Learn Java at Coding Blocks, best Java training institute in Delhi, Greater Noida, Jalandhar and Amritsar. We offer Crux - Java course for beginners."
+    "url": "https://codingblocks.com/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
+    "title": "Algo++ Advanced DS & Algorithms Course by Coding Blocks",
+    "image": "https://scontent.fdel1-2.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/17616635_1264424223627348_3167714152336588800_n.jpg",
+    "description": "Introducing our newest courses on Data Structures and Algorithms starting this 2 June - 15 July. The course will all important data structures and algorithmic knowledge required for interviews."
   },
   "head": {
     "links": [
@@ -25,52 +26,50 @@
       }
     ]
   },
-
   "courseMeta": {
-    "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
-    "title": "Master Algo.Java-Data Structures",
+    "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
+    "title": "Master Algo++",
     "price": "12,999",
     "slashedPrice": "6,499",
-    "course-link": "https://dukaan.codingblocks.com/buy?productId=6192",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=5944",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Monu Kumar",
-    "mentorImg": "https://images.codingblocks.com/img/mentor/Monu.png",
-    "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
-    "mentor-img-1": "https://images.codingblocks.com/img/mentor/Monu.png",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=6192",
-    "startDate": "24 August 2021",
-    "interactiveClasses": "37 Live Interactive Classes",
+    "mentors": "Kartik Mathur",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+    "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5944",
+    "startDate": "19 July 2021",
+    "interactiveClasses": "34 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",
     "projects": "5 Projects",
-    "gradient": "bg-gradient-orange"
+    "gradient": "bg-gradient-blue-dark"
   },
   "aboutMentor": [
     {
-      "name": "Monu Kumar",
-      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Monu.png",
-      "summary": "Monu is a Competitive programmer and an expert in Data structures, Algorithms and Mathematics. He always amazes his students with his creative thinking to solve the problems and makes solutions to tough problems a cake walk. He is witty and has a strong grasp on the core subjects of Computer science.",
-      "email": "monu.kumar@codingblocks.com"
+      "name": "Kartik Mathur",
+      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+      "summary": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
+      "email": "kartik.mathur@codingblocks.com"
     }
   ],
   "demoClass": [
     {
-      "youtubeID": "ZGe5MdEXsvQ"
+      "youtubeID": "ZAZXvGWpccs"
     },
     {
-      "youtubeID": "p7BbU7Q9GU0"
+      "youtubeID": "_5uZWn1efa0"
     },
     {
-      "youtubeID": "hkrPkOJAiog"
+      "youtubeID": "HKqtOlHzD1M"
     }
   ],
   "testTimelines": {
     "test_link_first": "https://hack.codingblocks.com/app/contests/1939",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3778"
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3777"
   },
   "highlights": [
     {
       "head": "Opportunities unlocked for learner",
-      "description": "Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc. ",
+      "description": "Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc.",
       "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
     },
     {
@@ -107,105 +106,105 @@
     }
   ],
   "schedule_days": {
-    "days": "Mon, Wed, Thu, Sat",
+    "days": "Mon, Wed, Thu and Sat",
     "timming": "7:00 PM - 10:00 PM"
   },
   "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "Recursion"
+      "description": "Basics of Recursion "
     },
     {
       "lecture": "Lecture 02",
-      "description": "Recursion"
+      "description": "Question Practise Session"
     },
     {
       "lecture": "Lecture 03",
-      "description": "Question Practise Session"
+      "description": "Recursion Problem Solving"
     },
     {
       "lecture": "Lecture 04",
-      "description": "Recursion"
+      "description": "Recursion Backtracking"
     },
     {
       "lecture": "Lecture 05",
-      "description": "Backtracking"
+      "description": "Advance Recursion Problem Solving"
     },
     {
       "lecture": "Lecture 06",
-      "description": "Backtracking"
+      "description": "Question Practise Session"
     },
     {
       "lecture": "Lecture 07",
-      "description": "Question Practise Session"
+      "description": "Dynamic Memory Allocation & OOPs - 1"
     },
     {
       "lecture": "Lecture 08",
-      "description": "Divide & Conquer"
+      "description": "OOPs - 2"
     },
     {
       "lecture": "Lecture 09",
-      "description": "Time & Space Complexity"
+      "description": "Space and Time Complexity"
     },
     {
       "lecture": "Lecture 10",
-      "description": "OOPS"
+      "description": "Divide and Conquer"
     },
     {
       "lecture": "Lecture 11",
-      "description": "Stack"
+      "description": "Linked List 1"
     },
     {
       "lecture": "Lecture 12",
-      "description": "Queue"
+      "description": "Linked List 2"
     },
     {
       "lecture": "Lecture 13",
-      "description": "Linked List"
+      "description": "Question Practise Session"
     },
     {
       "lecture": "Lecture 14",
-      "description": "Question Practise Session"
+      "description": "Binary Trees - 1"
     },
     {
       "lecture": "Lecture 15",
-      "description": "Linked List"
+      "description": "Binary Trees - 2"
     },
     {
       "lecture": "Lecture 16",
-      "description": "Binary Tree"
+      "description": "Binary Search Trees"
     },
     {
       "lecture": "Lecture 17",
-      "description": "Binary Tree"
-    },
-    {
-      "lecture": "Lecture 18",
       "description": "Question Practise Session"
     },
     {
+      "lecture": "Lecture 18",
+      "description": "Priority Queue/ Heap"
+    },
+    {
       "lecture": "Lecture 19",
-      "description": "BST"
+      "description": "Hashmaps Implementation"
     },
     {
       "lecture": "Lecture 20",
-      "description": "BST"
+      "description": "1D - Dynamic Programming "
     },
     {
       "lecture": "Lecture 21",
-      "description": "Generics & Interfaces"
+      "description": "Question Practise Session"
     },
     {
       "lecture": "Lecture 22",
-      "description": "HashMap"
+      "description": "2D Dynamic Programming"
     },
     {
       "lecture": "Lecture 23",
-      "description": "Heap"
+      "description": "Dynamic Programming, Problem Solving"
     },
     {
       "lecture": "Lecture 24",
-      "description": "DP"
+      "description": "Graphs - 1"
     },
     {
       "lecture": "Lecture 25",
@@ -213,15 +212,15 @@
     },
     {
       "lecture": "Lecture 26",
-      "description": "DP"
+      "description": "Graphs - 2"
     },
     {
       "lecture": "Lecture 27",
-      "description": "DP"
+      "description": "Graphs & Basics of Tries"
     },
     {
       "lecture": "Lecture 28",
-      "description": "DP"
+      "description": "Interview Questions using Tries"
     },
     {
       "lecture": "Lecture 29",
@@ -229,36 +228,31 @@
     },
     {
       "lecture": "Lecture 30",
-      "description": "Graph"
-    },
-    {
-      "lecture": "Lecture 31",
-      "description": "Graph"
-    },
-    {
-      "lecture": "Lecture 32",
-      "description": "Trie"
-    },
-    {
-      "lecture": "Lecture 33",
       "description": "Starting with Leetcode"
     },
     {
-      "lecture": "Lecture 34",
+      "lecture": "Lecture 31",
       "description": "Leetcode Problem Solving"
     },
     {
-      "lecture": "Lecture 35",
+      "lecture": "Lecture 32",
       "description": "How to start with Codeforces"
     },
     {
-      "lecture": "Lecture 36",
+      "lecture": "Lecture 33",
       "description": "Interview preparation and Competitive Programming sessions"
     },
     {
-      "lecture": "Lecture 37",
+      "lecture": "Lecture 34",
       "description": "Tips on building resumes, Profile Building and Future Career Guidance"
     }
+  ],
+  "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",
+  "courseReviews": [
+    "Manish Sundriyal",
+    "Gagan Bhayana",
+    "Dhruv Kulshreshtha",
+    "Parth Dhamija"
   ],
   "projects": [
     {

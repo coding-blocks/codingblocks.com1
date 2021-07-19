@@ -63,24 +63,33 @@
           "link":"/live-classes.html"
         },
         {
-          "title": "DS & Algo with C++",
+          "title": "Interview Prep/Competitive-C++",
+          "link": "/live-courses/interview-preparation-cpp.html",
+          "new-img":"https://images.codingblocks.com/misc/new-icon1.png"
+        },
+        {
+          "title": "AlGO++ - July",
+          "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews-july.html"
+        },
+        {
+          "title": "ALGO.JAVA - July",
+          "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java-july.html"
+        },        
+        {
+          "title": "DS & Algo with C++ - Aug",
           "link": "/live-courses/master-c-plus-plus-ds-algo.html"
         },
         {
-          "title": "DS & Algo with Java",
+          "title": "DS & Algo with Java - Aug",
           "link": "/live-courses/master-java-for-beginners.html"
         },
         {
-          "title": "ALGO.JAVA - DATA STRUCTURES & ALGORITHMS",
-          "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
-        },
-        {
-          "title": "AlGO++",
+          "title": "AlGO++ - Aug",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html"
         },
         {
-          "title": "Data Science",
-          "link": "/live-courses/master-data-science-with-python.html"
+          "title": "ALGO.JAVA - Aug",
+          "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
         }
       ]
     },
