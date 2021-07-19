@@ -13,32 +13,6 @@
 
   "slides": [  
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%283%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Enroll Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%285%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/scholarship-tests.html",
-          "text": "Enroll Now",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/cpw-banner.jpg",
       "imgAlt": "",
       "heading": "",
