@@ -13,6 +13,19 @@
 
   "slides": [  
     {
+      "imgSrc": "https://images.codingblocks.com/img/ncs-bootcamp-banner.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://pages.razorpay.com/ncbtcmp",
+          "text": "Register Now",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/cpw-banner.jpg",
       "imgAlt": "",
       "heading": "",
