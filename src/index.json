@@ -13,31 +13,18 @@
 
   "slides": [  
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner.png",
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%281%29.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses/web-development-online-course",
+          "link": "https://online.codingblocks.com/courses/",
           "text": "Enroll Now",
           "filled": "true"
         }
       ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/ncs-bootcamp-banner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://pages.razorpay.com/ncbtcmp",
-          "text": "Register Now",
-          "filled": "true"
-        }
-      ]
-    },
+    },    
     {
       "imgSrc": "https://images.codingblocks.com/img/cpw-banner.jpg",
       "imgAlt": "",
