@@ -264,7 +264,7 @@ body.btn-rounded .btn{border-radius:25px !important;}
 .btn.bg-dark:hover{background:#434343;}
 .bg-primary .btn{color:#fff;border-color:#fff;}
 .bg-primary .btn:hover{background:#fff;color:#fc4f4f;}
-.nav-container{-webkit-backface-visibility:hidden;width:100%;position:fixed!important;z-index:999;}
+.nav-container{-webkit-backface-visibility:hidden;width:100%;position:sticky;top:0px;z-index:999;}
 nav{background:#fff;-webkit-backface-visibility:hidden;max-width:100%;}
 nav ul{margin-bottom:0;}
 .module{display:inline-block;padding:0 32px;}
