@@ -29,14 +29,11 @@
     "name": "Pitampura (Corporate Office)",
     "inPageLink": "location",
     "location": "1st Floor,<br>47, Nishant Kunj,<br> Main Pitampura Road,<br>New Delhi<br><br> Near Kohat Enclave Metro Station<br> (Exit from Gate # 2)<br> (Opposite Pillar 337)<br>",
-    "contactPerson": "Mrs. Priyanka Dagar",
+    "contactPerson": "Ms. Kamna Saroha",
     "phoneNumbers": [
-      "+91 - 9599586446",
-      "+91 - 9643339705",
-      "011 - 47052584",
-      "011 - 27354126"
+      "+91 - 9599586446"
     ],
-    "email": "priyanka.dagar@codingblocks.com",
+    "email": "kamna.saroha@codingblocks.com",
     "mapAddress": "Coding Blocks, Pitampura",
     "isSection": true,
     "isFilled": true,
@@ -51,15 +48,14 @@
     "showAll": false,
     "companies": false,
     "teamMembers": [
-      "Priyanshu Agrawal",
-      "Arnav Gupta",
-      "Sumeet Malik",
-      "Ankit Malik",
-      "Shubham Dokania",
-      "Garima Chhikara",
-      "Deepak Aggarwal",
-      "Mohd Fahad",
-      "Prajjwal Singh"    ]
+      "Varun Kohli",
+      "Kartik Mathur",
+      "Mosina Ashraf",
+      "Kartik Sapra",
+      "Monu Kumar",
+      "Abhishek Srivastava",
+      "Manu S Pillai"
+    ]
   },
   "courseReviews": [
     "Manish Sundriyal",

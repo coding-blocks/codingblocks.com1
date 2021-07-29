@@ -32,6 +32,7 @@
     "gulp-watch": "^5.0.1",
     "gulp-webserver": "^0.9.1",
     "moment": "^2.20.1",
+    "natives": "^1.1.6",
     "require-dir": "^0.3.2"
   },
   "devDependencies": {

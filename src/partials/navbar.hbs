@@ -1,5 +1,11 @@
 <!--navbar-->
 <script src="https://unpkg.com/@coding-blocks/web-components@0.0.9/dist/index.js" async></script>
+<style>
+  #my-button{
+    background-color: #fc4f4e;
+    color: white;
+  }
+</style>
 <div class="col-12">
   <promotion-banner>
   </promotion-banner>
@@ -117,6 +123,45 @@
               </ul>
 
             </li>
+
+<!-- Contact Us -->
+            <li class="has-dropdown toggle-sub vpf contact-us-dropdown">
+              <a class="title" href="/centres/">Contact Us</a>
+              <ul>
+                <li class="has-dropdown dropleft toggle-sub vpf">
+                  <a href="/centres/">Centres</a>
+                  <ul>
+                    <li itemprop="name">
+                      <a itemprop="url" href=
+                          "/centres/pitampura.html">Pitampura</a>
+                    </li>
+                    <li itemprop="name">
+                      <a itemprop="url" href=
+                          "/centres/dwarka.html">Dwarka</a>
+                    </li>
+                    <li itemprop="name">
+                      <a itemprop="url" href=
+                          "/centres/noida.html#default">
+                        Noida</a>
+                    </li>
+                  </ul>
+                </li>
+                <li itemprop="name">
+                  <a itemprop="url" href=
+                      "/signup/job.html">Careers</a>
+                </li>
+                <li itemprop="name">
+                  <a itemprop="url"
+                     href="/signup/company.html">Hire
+                    Students</a>
+                </li>
+                <li itemprop="name">
+                  <a itemprop="url"
+                     href="/signup/workshop.html">Request
+                    A Workshop</a>
+                </li>
+              </ul>
+            </li>            
             <!-- Resources -->
             <li class="has-dropdown">
               <a href="#">RESOURCES </a>
@@ -200,46 +245,8 @@
                 </li>
               </ul>
             </li> --}}
-            <!-- Contact Us -->
-            <li class="has-dropdown toggle-sub vpf contact-us-dropdown">
-              <a class="title" href="/centres/">Contact Us</a>
-              <ul>
-                <li class=" has-dropdown dropleft toggle-sub vpf">
-                  <a href="/centres/">Centres</a>
-                  <ul>
-                    <li itemprop="name">
-                      <a itemprop="url" href=
-                          "/centres/pitampura.html">Pitampura</a>
-                    </li>
-                    <li itemprop="name">
-                      <a itemprop="url" href=
-                          "/centres/dwarka.html">Dwarka</a>
-                    </li>
-                    <li itemprop="name">
-                      <a itemprop="url" href=
-                          "/centres/noida.html#default">
-                        Noida</a>
-                    </li>
-                  </ul>
-                </li>
-                <li itemprop="name">
-                  <a itemprop="url" href=
-                      "/signup/job.html">Careers</a>
-                </li>
-                <li itemprop="name">
-                  <a itemprop="url"
-                     href="/signup/company.html">Hire
-                    Students</a>
-                </li>
-                <li itemprop="name">
-                  <a itemprop="url"
-                     href="/signup/workshop.html">Request
-                    A Workshop</a>
-                </li>
-              </ul>
-            </li>
             <li class="toggle-sub vpf">
-              <a target="_blank" href="https://account.codingblocks.com"
+              <a target="_blank" href="https://account.codingblocks.com" class="btn" id="my-button"
                  onclick="dataLayer.push({'event': 'Login/Signup', 'location': 'Navbar'});">
                 Login/Signup</a>
             </li>
