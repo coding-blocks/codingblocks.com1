@@ -29,12 +29,11 @@
     "name": "Dwarka Center",
     "inPageLink": "location",
     "location": "2nd Floor,<br>Plot No. 3,<br>Sector 11, Dwarka, New Delhi<br>(Near &nbsp;Dwarka Sec-11 Metro)",
-    "contactPerson": "Mr. Rajesh Sachdev",
+    "contactPerson": "Mr. Rishabh Nigam",
     "phoneNumbers": [
-      "8588801217",
-      "9811228053"
+      "9999321553"
     ],
-    "email": "rajesh@codingblocks.com",
+    "email": "rishabh.nigam@codingblocks.com",
     "mapAddress": "Coding Blocks, Dwarka",
     "isSection": true,
     "isFilled": true,
@@ -84,21 +83,19 @@
     "showAll": false,
     "companies": false,
     "centreHead": {
-      "name": "Rajesh Sachdev",
-      "role": "Centre Head and Mentor",
-      "imgSrc": "/assets/images/cb/team/wrajesh.jpg",
-      "imgAlt": "Rajesh Sachdev",
-      "bio": "Rajesh has 20+ years of experience in IT/Corporate sector. He has previously worked with corporates like Nagarro, Cadence, American Express. He left IT industry in 2013 and moved to education with a passion to help students accomplishing their career goals. He did MS from BITS Pilani."
+      "name": "Varun Kohli",
+      "role": "Co-Founder and CEO",
+      "imgSrc": "/assets/images/cb/team/wvarun.jpg",
+      "imgAlt": "Varun Kohli",
+      "bio": "Varun has been associated with the Software industry for more than 12 years & is considered an expert in the EdTech space. He has worked on multiple large scale applications and has piloted several Startups. He now dedicates his energy and experience to the design of Programs & business in Coding Blocks."
     },
     "teamMembers": [
-      "Priyanshu Agrawal",
-      "Prateek Narang",
-      "Arnav Gupta",
-      "Sumeet Malik",
-      "RISHAB KAPOOR",
-      "AAYUSH ARORA",
-      "HARSHIT DWIVEDI",
-      "Himank Bhalla"
+      "Kartik Mathur",
+      "Mosina Ashraf",
+      "Kartik Sapra",
+      "Monu Kumar",
+      "Abhishek Srivastava",
+      "Manu S Pillai"
     ]
   },
   "courseReviews": [
