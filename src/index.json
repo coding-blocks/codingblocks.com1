@@ -13,27 +13,14 @@
 
   "slides": [  
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%281%29.png",
+      "imgSrc": "https://images.codingblocks.com/img/live-banner-aug.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses/",
+          "link": "https://codingblocks.com/live-classes.html",
           "text": "Enroll Now",
-          "filled": "true"
-        }
-      ]
-    },    
-    {
-      "imgSrc": "https://images.codingblocks.com/img/cpw-banner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://cb.lk/cp",
-          "text": "Register Now",
           "filled": "true"
         }
       ]
