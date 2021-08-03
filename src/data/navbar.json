@@ -62,15 +62,7 @@
           "title": "Interview Prep/Competitive-C++",
           "link": "/live-courses/interview-preparation-cpp.html",
           "new-img":"https://images.codingblocks.com/misc/new-icon1.png"
-        },
-        {
-          "title": "AlGO++ - July",
-          "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews-july.html"
-        },
-        {
-          "title": "ALGO.JAVA - July",
-          "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java-july.html"
-        },        
+        },  
         {
           "title": "DS & Algo with C++ - Aug",
           "link": "/live-courses/master-c-plus-plus-ds-algo.html"
@@ -79,6 +71,18 @@
           "title": "DS & Algo with Java - Aug",
           "link": "/live-courses/master-java-for-beginners.html"
         },
+        {
+          "title": "Web Development - Aug",
+          "link":"/live-courses/master-web-development-nodejs.html"
+        },
+        {
+          "title": "AlGO++ - July",
+          "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews-july.html"
+        },
+        {
+          "title": "ALGO.JAVA - July",
+          "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java-july.html"
+        },      
         {
           "title": "AlGO++ - Aug",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html"

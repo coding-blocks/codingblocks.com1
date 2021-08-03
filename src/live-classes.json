@@ -138,6 +138,22 @@
       "batchmonth" :"August Batch"
     },
     {
+      "name": "Master Web Dev with NodeJS",
+      "icon": "https://images.codingblocks.com/img/newcourse_logo/webdev_gradient.png",
+      "link": "/live-courses/master-web-development-nodejs.html",
+      "mentors": "Sabeel Khan",
+      "interactiveClasses": "32 Live Interactive Classes",
+      "codingProblems": "200+ hands on coding problems",
+      "projects": "10 Projects",
+      "classSchedule": "Mon, Thursday, Friday",
+      "price": "15,999",
+      "slashedPrice": "7,999",
+      "gradient": "bg-gradient-pink",
+      "startDate": "23rd August 2021",
+      "badge": "Beginner",
+      "batchmonth" :"August Batch"
+    },
+    {
       "name": "Master Algo.Java",
       "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
