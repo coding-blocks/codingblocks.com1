@@ -13,6 +13,21 @@
 
   "slides": [  
     {
+      "imgSrc": "",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "type": "video",
+      "videoUrl":"https://images.codingblocks.com/img/Banner/Freedom%20Sale%20web%20banner.mp4",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%282%29.png",
       "imgAlt": "",
       "heading": "",
