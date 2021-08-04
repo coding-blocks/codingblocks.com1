@@ -5,12 +5,6 @@
 		<div class="slideshow-container" id="slider-container">
 			{{#each slides}}
 			<div class="slideshow-container__slide">
-
-				{{# if type}}
-				<video class="video-fluid" autoplay loop muted>
-		          <source src="{{videoUrl}}" type="video/mp4" />
-		        </video>
-		        {{/if}}
 				<img src="{{#relativePath @file.path imgSrc}}{{/relativePath}} " class="w-100" alt="{{{imgAlt}}}">
 				<div class="position-absolute bl w-100 px-80 pb-50 d-md-block d-none" style="z-index: 10;">
 					<div class="row no-gutters justify-content-between align-items-end">

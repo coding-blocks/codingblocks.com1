@@ -13,12 +13,10 @@
 
   "slides": [  
     {
-      "imgSrc": "",
+      "imgSrc": "https://images.codingblocks.com/img/Banner/FREEDOM%20Web%20Banner%20%281%29.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
-      "type": "video",
-      "videoUrl":"https://images.codingblocks.com/img/Banner/Freedom%20Sale%20web%20banner.mp4",
       "button": [
         {
           "link": "https://online.codingblocks.com/courses",
