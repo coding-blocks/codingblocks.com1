@@ -26,13 +26,13 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%282%29.png",
+      "imgSrc": "https://images.codingblocks.com/img/wd-new-2-banner_.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/live-classes.html",
+          "link": "https://codingblocks.com/live-courses/master-web-development-nodejs.html",
           "text": "Enroll Now",
           "filled": "true"
         }
