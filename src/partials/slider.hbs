@@ -15,9 +15,9 @@
 							<div class="mt-30">
 								{{#each button}}
 								{{#if filled}}
-								<a class="button-primary mr-20 px-40 py-20 heading-6" href="{{link}}" target="_blank">{{text}}</a>
+								<a class="button-primary mr-20 px-40 py-20 heading-6" style="background:{{buttonColor}}" href="{{link}}" target="_blank">{{text}}</a>
 								{{else}}
-								<a class="button-primary mr-20 px-40 py-20 heading-6" href="{{link}}" {{#unless
+								<a class="button-primary mr-20 px-40 py-20 heading-6"  style="background:{{buttonColor}}" href="{{link}}" {{#unless
 									noNewTab}}target="_blank" {{/unless}}>
 									{{text}}
 								</a>
@@ -37,9 +37,9 @@
 					<div class="mt-30">
 						{{#each button}}
 						{{#if filled}}
-						<a class="button-primary mr-20 px-40 py-20 heading-6" href="{{link}}" target="_blank">{{text}}</a>
+						<a class="button-primary mr-20 px-40 py-20 heading-6" style="background:{{buttonColor}}" href="{{link}}" target="_blank">{{text}}</a>
 						{{else}}
-						<a class="button-primary mr-20 px-40 py-20 heading-6" href="{{link}}" {{#unless noNewTab}}target="_blank"
+						<a class="button-primary mr-20 px-40 py-20 heading-6" style="background:{{buttonColor}}" href="{{link}}" {{#unless noNewTab}}target="_blank"
 							{{/unless}}>
 							{{text}}
 						</a>
