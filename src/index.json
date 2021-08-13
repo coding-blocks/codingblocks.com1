@@ -11,9 +11,23 @@
     }
   ],
 
-  "slides": [  
-    {
+  "slides": [
+  {
       "imgSrc": "https://images.codingblocks.com/img/Web%20Banner-100.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses/machine-learning-course-online",
+          "text": "Explore",
+          "buttonColor":"#47d7ac",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/Banner/FREEDOM%20Web%20Banner%20%281%29.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -21,7 +35,7 @@
         {
           "link": "https://online.codingblocks.com/courses",
           "text": "Explore",
-          "buttonColor":"#47d7ac",
+          "buttonColor":"#32a852",
           "filled": "true"
         }
       ]
