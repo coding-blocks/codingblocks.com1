@@ -13,6 +13,20 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%283%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses/android-app-training-online",
+          "text": "Enroll Now",
+          "buttonColor":"#F44D5D",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/wd-new-2-banner-new.jpg",
       "imgAlt": "",
       "heading": "",
