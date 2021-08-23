@@ -13,29 +13,15 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%283%29.png",
+      "imgSrc": "https://images.codingblocks.com/img/codeathon-webbanner.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses/android-app-training-online",
+          "link": "https://online.codingblocks.com/courses",
           "text": "Enroll Now",
-          "buttonColor":"#F44D5D",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/wd-new-2-banner-new.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-courses/master-web-development-nodejs.html",
-          "text": "Enroll Now",
-          "buttonColor":"#d93764",
+          "buttonColor":"##48B0ED",
           "filled": "true"
         }
       ]
