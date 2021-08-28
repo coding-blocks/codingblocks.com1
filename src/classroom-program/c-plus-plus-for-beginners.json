@@ -141,75 +141,51 @@
   ],
   "batches": [
     {
-      "course": "C++, B2",
-      "timings": "9:00AM-12:00PM",
+      "course": "C++, B1",
+      "timings": "11:00AM-2:00PM",
       "mentor": "Kartik Mathur",
       "strength": 35,
-      "days": "Mon Wed Fri Sat",
-      "start_date": "5th June",
-      "runcode": "LPPP21JUNB2",
-      "product_id": 5187,
+      "days": "Sat, Sun",
+      "start_date": "12th September",
+      "runcode": "LPPP20SEP1",
+      "product_id": 6539,
+      "location": "Pitampura",
+      "prices": "17000"
+    },
+    {
+      "course": "C++, B2",
+      "timings": "9:00AM-12:00PM",
+      "mentor": "Abhishek Srivastava",
+      "strength": 35,
+      "days": "Sat, Sun",
+      "start_date": "12th September",
+      "runcode": "LPPP20SEP2",
+      "product_id": 6540,
       "location": "Pitampura",
       "prices": "17000"
     },
     {
       "course": "C++, B1",
-      "timings": "9:00AM-12:00PM",
-      "mentor": "Abhishek Srivastava",
+      "timings": "11:00AM-2:00PM",
+      "mentor": "Mayank Jha",
       "strength": 35,
-      "days": "Mon Wed Fri Sat",
-      "start_date": "5th June",
-      "runcode": "LPPP21MAY",
-      "product_id": 5163,
-      "location": "Pitampura",
-      "prices": "17000"
-    },
-    {
-      "course": "C++, B3",
-      "timings": "12:30PM-3:30PM",
-      "mentor": "Abhishek Srivastava",
-      "strength": 35,
-      "days": "Mon Wed Fri Sat",
-      "start_date": "5th June",
-      "runcode": "LPPP21JUNB3",
-      "product_id": 5188,
-      "location": "Pitampura",
-      "prices": "17000"
-    },
-    {
-      "course": "C++, B1",
-      "timings": "9:00AM-12:00PM",
-      "mentor": "Mosina Ashraf",
-      "strength": 35,
-      "days": "Mon Wed Fri Sat",
-      "start_date": "5th June",
-      "runcode": "LPND21MAY",
-      "product_id": 5162,
+      "days": "Sat, Sun",
+      "start_date": "12th September",
+      "runcode": "LPND21SEP1",
+      "product_id": 6537,
       "location": "Noida",
       "prices": "12750"
     },
     {
       "course": "C++, B2",
-      "timings": "12:30PM-3:30PM",
+      "timings": "11:00PM-2:00PM",
       "mentor": "Mosina Ashraf",
       "strength": 35,
-      "days": "Mon Thu Fri Sun",
-      "start_date": "7th June",
-      "runcode": "LPND21JUNB2",
-      "product_id": 5185,
-      "location": "Noida",
-      "prices": "12750"
-    },
-    {
-      "course": "C++, B3",
-      "timings": "12:30PM-3:30PM",
-      "mentor": "Mohit Pandey",
-      "strength": 35,
-      "days": "Tue Thu Sat Sun",
-      "start_date": "6th June",
-      "runcode": "LPND21JUNB3",
-      "product_id": 5186,
-      "location": "Noida",
+      "days": "Sat, Sun",
+      "start_date": "18th September",
+      "runcode": "LPND21SEP2",
+      "product_id": 6538,
+      "location": "Noida", 
       "prices": "12750"
     }
   ],
@@ -219,14 +195,6 @@
       "contact": "kartik.mathur@codingblocks.com",
       "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
       "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
-      "designation": "Mentor",
-      "highlights": null
-    },
-    {
-      "name": "Mohit Pandey",
-      "contact": "mohit.pandey@codingblocks.com",
-      "img": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
-      "description": "Mohit Pandey is a competitive programmer, has an awesome understanding of Data Structure And Algorithm. His way of explaining questions make even the tough ones appear easy. He is very committed towards his students and makes a lot of effort so that every student can understand what he is teaching.",
       "designation": "Mentor",
       "highlights": null
     },
@@ -245,7 +213,15 @@
       "description": "Abhishek has pursued his M.Tech in CSE from IIIT Delhi. He has previously worked at NII Tokyo as a researcher in the field of Artificial Intelligence and has a publication in one of the  top AI journals. His area of interest lies in the field of Machine learning, in particular, generative modelling through the application of deep learning. He strives for excellence in his work and has a knack for making complex topics simple. At Coding Blocks, he aims to share his experience with his students and make learning easy and fun.",
       "designation": "Mentor",
       "highlights": null
-    }
+    },
+    {
+      "name": "Mayank Jha",
+      "contact": "mayank.jha@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Mayank.png",
+      "description": "Mayank is a Fullstack Developer who loves Competitive coding to the heart. He is very well versed with technologies like Javacript and Node.js and has experience with various startups. His love for enigmatomy and CP (Competitive Coding) helps him create and solve puzzles in his free time. He is always up for learning new technologies that are trending in the world. He has won various Intercollege and Zonal competitions and is a former State level Volleyball player.",
+      "designation": "Mentor",
+      "highlights": null
+    }    
   ],
   "difficulty": "Beginner",
   "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
