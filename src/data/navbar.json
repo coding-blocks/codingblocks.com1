@@ -51,50 +51,8 @@
       ]
     },
     {
-      "title": "Live Classes",
-      "link": "/live-classes.html",
-      "sublinks": [
-        {
-          "title":"All Live Courses",
-          "link":"/live-classes.html"
-        },
-        {
-          "title": "Interview Prep/Competitive-C++",
-          "link": "/live-courses/interview-preparation-cpp.html",
-          "new-img":"https://images.codingblocks.com/misc/new-icon1.png"
-        },  
-        {
-          "title": "DS & Algo with C++ - Aug",
-          "link": "/live-courses/master-c-plus-plus-ds-algo.html"
-        },
-        {
-          "title": "DS & Algo with Java - Aug",
-          "link": "/live-courses/master-java-for-beginners.html"
-        },
-        {
-          "title": "Web Development - Aug",
-          "link":"/live-courses/master-web-development-nodejs.html"
-        },
-        {
-          "title": "AlGO++ - July",
-          "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews-july.html"
-        },
-        {
-          "title": "ALGO.JAVA - July",
-          "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java-july.html"
-        },      
-        {
-          "title": "AlGO++ - Aug",
-          "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html"
-        },
-        {
-          "title": "ALGO.JAVA - Aug",
-          "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
-        }
-      ]
-    },
-    {
       "title": "Classroom Courses",
+      "new-img":"https://images.codingblocks.com/img/website-images/Bell.png",
       "link": "/classroom-program.html",
       "sublinks": [
         {
@@ -103,19 +61,23 @@
         },
         {
           "title": "C++ Launchpad",
-          "link": "/classroom-program/c-plus-plus-for-beginners.html"
+          "link": "/classroom-program/c-plus-plus-for-beginners.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         },
         {
           "title": "Java Crux",
-          "link": "/classroom-program/java-for-beginners.html"
+          "link": "/classroom-program/java-for-beginners.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         },
         {
           "title": "Algo++",
-          "link": "/classroom-program/cpp-for-advance.html"
+          "link": "/classroom-program/cpp-for-advance.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         },
         {
           "title": "Algo.Java",
-          "link": "/classroom-program/java-for-advance.html"
+          "link": "/classroom-program/java-for-advance.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         },
         {
           "title": "Master Full Stack Web Development",
@@ -140,6 +102,32 @@
         {
           "title": "Data Science Master Course",
           "link": "/classroom-program/data-science-with-python.html"
+        }
+      ]
+    },
+    {
+      "title": "Live Courses",
+      "link": "/live-classes.html",
+      "sublinks": [
+        {
+          "title":"All Live Courses",
+          "link":"/live-classes.html"
+        }, 
+        {
+          "title": "DS & Algo with C++",
+          "link": "/live-courses/master-c-plus-plus-ds-algo.html"
+        },
+        {
+          "title": "DS & Algo with Java",
+          "link": "/live-courses/master-java-for-beginners.html"
+        },     
+        {
+          "title": "AlGO++",
+          "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html"
+        },
+        {
+          "title": "ALGO.JAVA",
+          "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
         }
       ]
     }

@@ -33,14 +33,14 @@
           <ul class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
             {{#each navLinks}}
               <li class="{{#if sublinks}}has-dropdown{{/if}}">
-                <a href="{{link}}">{{title}}</a>
+              <img src="{{new-img}}" style="height: 28px;"><a href="{{link}}">{{title}}</a>
                 {{#if sublinks}}
                   <ul>
                     {{#each sublinks}}
                       <li itemprop="name" class="vpf {{#if sublinks}}has-dropdown{{/if}}">
                         <a itemprop="url" href="{{link}}"> 
 
-                          <img src="{{new-img}}" style="height: 18px;"> 
+                          <img src="{{new-img}}" style="height: 28px;"> 
                           {{title}}</a>
                         {{#if sublinks}}
                           <ul>

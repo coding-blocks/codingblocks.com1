@@ -188,74 +188,30 @@
   "batches": [
     {
       "course": "Java Crux, B1",
-      "timings": "9:00AM-12:00PM",
-      "mentor": "Shubham Singhal",
+      "timings": "3:00AM-6:00PM",
+      "mentor": "Lakshya Singh",
       "strength": "According to the batch size",
-      "days": "Mon Wed Fri Sat",
-      "start_date": "5th June",
-      "runcode": "CXPP21MAY",
-      "product_id": 5177,
+      "days": "Sat, Sun",
+      "start_date": "12th September",
+      "runcode": "CXPP21SEP",
+      "product_id": 6545,
       "location": "Pitampura",
       "price":"17000"
     },
     {
       "course": "Java Crux, B2",
-      "timings": "12:30PM-3:30PM",
-      "mentor": "Kartik Sapra",
-      "strength": "According to the batch size",
-      "days": "Mon Wed Fri Sat",
-      "start_date": "5th June",
-      "runcode": "CXPP21JUNB2",
-      "product_id": 5200,
-      "location": "Pitampura",
-      "price":"17000"
-    },
-    {
-      "course": "Java Crux, B3",
-      "timings": "4:00PM-7:00PM",
-      "mentor": "Shubham Singhal",
-      "strength": "According to the batch size",
-      "days": "Mon Wed Fri Sat",
-      "start_date": "5th June",
-      "runcode": "CXPP21JUNB3",
-      "product_id": 5201,
-      "location": "Pitampura",
-      "price":"17000"
-    },
-    {
-      "course": "Java Crux, B1",
-      "timings": "9:00AM-12:00PM",
+      "timings": "11:00AM-2:00PM",
       "mentor": "Monu Kumar",
       "strength": "",
-      "days": "Mon Wed Fri Sat",
-      "start_date": "5th June",
-      "runcode": "CXND21MAY",
-      "product_id": 5174,
-      "location": "Noida",
-      "price":"12750"
-    },
-    {
-      "course": "Java Crux, B2",
-      "timings": "12:30PM-3:30PM",
-      "mentor": "Lakshya Singh",
-      "strength": "",
-      "days": "Tue Thu Sat Sun",
-      "start_date": "6th June",
-      "runcode": "CXND21JUNB2",
-      "product_id": 5199,
+      "days": "Sat, Sun",
+      "start_date": "12th September",
+      "runcode": "CXND21SEP",
+      "product_id": 6544,
       "location": "Noida",
       "price":"12750"
     }
   ],
   "mentors": [
-    {
-      "name": "Kartik Sapra",
-      "contact": "kartik.sapra@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Sapra.png",
-      "description": "Kartik is an Open source enthusiast. He is a Competitive programmer and expert in Data structures, Algorithms and Java technologies. He is a GSoCer and is among top 20 contributors in fabric8-maven-plugin project by RedHat and contributed significantly to checkstyle. He has also mentored in Google code-in for two years consecutively. He is loved by students for his innovative style of teaching. He is also an experienced developer.",
-      "designation": "Mentor",
-      "highlights": null
-    },
     {
       "name": "Monu Kumar",
       "contact": "monu.kumar@codingblocks.com",
@@ -277,6 +233,14 @@
       "contact": "shubham.singhal@codingblocks.com",
       "img": "https://images.codingblocks.com/img/mentor/Shubham%20Singhal.png",
       "description": "Shubham is a Masters in AI specialization from IIIT-Delhi. He is well versed in C/C++, Java and Python coding languages as well as highly proficient in Data Structures and Algorithm. As a Data Science and machine learning enthusiast, he has deep knowledge about this field. He also published a paper related to Machine Learning in iconip conference.",
+      "designation": "Mentor",
+      "highlights": null
+    },
+    {
+      "name": "Kartik Sapra",
+      "contact": "kartik.sapra@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Sapra.png",
+      "description": "Kartik is an Open source enthusiast. He is a Competitive programmer and expert in Data structures, Algorithms and Java technologies. He is a GSoCer and is among top 20 contributors in fabric8-maven-plugin project by RedHat and contributed significantly to checkstyle. He has also mentored in Google code-in for two years consecutively. He is loved by students for his innovative style of teaching. He is also an experienced developer.",
       "designation": "Mentor",
       "highlights": null
     }
