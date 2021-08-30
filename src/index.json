@@ -13,6 +13,20 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/offline-1-banner.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program.html",
+          "text": "Enroll Now",
+          "buttonColor":"##EDA73F",
+          "filled": "true"
+        }
+      ]
+    }
+    {
       "imgSrc": "https://images.codingblocks.com/img/codeathon-webbanner.jpg",
       "imgAlt": "",
       "heading": "",
