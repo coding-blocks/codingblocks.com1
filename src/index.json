@@ -13,6 +13,12 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/Banner/coding_orientt.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": ""
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/offline-1-banner.jpg",
       "imgAlt": "",
       "heading": "",
@@ -21,11 +27,11 @@
         {
           "link": "https://codingblocks.com/classroom-program.html",
           "text": "Enroll Now",
-          "buttonColor":"##EDA73F",
+          "buttonColor":"#8F8F8F",
           "filled": "true"
         }
       ]
-    }
+    },
     {
       "imgSrc": "https://images.codingblocks.com/img/codeathon-webbanner.jpg",
       "imgAlt": "",
@@ -35,7 +41,7 @@
         {
           "link": "https://online.codingblocks.com/courses",
           "text": "Enroll Now",
-          "buttonColor":"##48B0ED",
+          "buttonColor":"#47B0ED",
           "filled": "true"
         }
       ]
