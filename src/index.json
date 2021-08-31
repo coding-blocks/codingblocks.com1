@@ -16,7 +16,15 @@
       "imgSrc": "https://images.codingblocks.com/img/Banner/coding_orientt.png",
       "imgAlt": "",
       "heading": "",
-      "content": ""
+      "content": "",
+       "button": [
+        {
+          "link": "https://cb.lk/meetup",
+          "text": "Register Now",
+          "buttonColor":"#ED3272",
+          "filled": "true"
+        }
+      ]
     },
     {
       "imgSrc": "https://images.codingblocks.com/img/offline-1-banner.jpg",
