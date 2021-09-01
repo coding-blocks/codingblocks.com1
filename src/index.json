@@ -39,20 +39,6 @@
           "filled": "true"
         }
       ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/codeathon-webbanner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Enroll Now",
-          "buttonColor":"#47B0ED",
-          "filled": "true"
-        }
-      ]
     }
   ],
   "events": {
