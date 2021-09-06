@@ -13,20 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/Banner/banner_new.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-       "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Enroll Now",
-          "buttonColor":"#6C9B94",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/offline-1-banner.jpg",
       "imgAlt": "",
       "heading": "",
@@ -36,20 +22,6 @@
           "link": "https://codingblocks.com/classroom-program.html",
           "text": "Enroll Now",
           "buttonColor":"#8F8F8F",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Banner/coding_orientt.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-       "button": [
-        {
-          "link": "https://cb.lk/meetup",
-          "text": "Register Now",
-          "buttonColor":"#ED3272",
           "filled": "true"
         }
       ]
