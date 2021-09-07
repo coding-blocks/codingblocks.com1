@@ -13,6 +13,20 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/Banner/Web%20Banner%20%282%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://cb.lk/meetup2",
+          "text": "Enroll Now",
+          "buttonColor":"#E3B62E",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/offline-1-banner.jpg",
       "imgAlt": "",
       "heading": "",
