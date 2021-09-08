@@ -20,12 +20,26 @@
       "button": [
         {
           "link": "https://cb.lk/meetup2",
-          "text": "Enroll Now",
+          "text": "Register Now",
           "buttonColor":"#E3B62E",
           "filled": "true"
         }
       ]
     },
+    {
+      "imgSrc": "hhttps://images.codingblocks.com/img/live-banner.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-classes.html",
+          "text": "Enroll Now",
+          "buttonColor":"#45AFF5",
+          "filled": "true"
+        }
+      ]
+    }
     {
       "imgSrc": "https://images.codingblocks.com/img/offline-1-banner.jpg",
       "imgAlt": "",
