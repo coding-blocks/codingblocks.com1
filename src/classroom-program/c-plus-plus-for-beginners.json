@@ -142,7 +142,7 @@
   "batches": [
     {
       "course": "C++, B1",
-      "timings": "03:00PM-06:00PM",
+      "timings": "09:00AM-12:00PM",
       "mentor": "Kartik Mathur",
       "strength": 35,
       "days": "Sat, Sun",
@@ -166,7 +166,7 @@
     },
     {
       "course": "C++, B1",
-      "timings": "03:00PM-06:00PM",
+      "timings": "09:00AM-12:00PM",
       "mentor": "Mayank Jha",
       "strength": 35,
       "days": "Sat, Sun",
@@ -178,7 +178,7 @@
     },
     {
       "course": "C++, B2",
-      "timings": "03:00PM-06:00PM",
+      "timings": "09:00AM-12:00PM",
       "mentor": "Mosina Ashraf",
       "strength": 35,
       "days": "Sat, Sun",
