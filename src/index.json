@@ -27,7 +27,7 @@
       ]
     },
     {
-      "imgSrc": "hhttps://images.codingblocks.com/img/live-banner.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/live-banner.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -39,7 +39,7 @@
           "filled": "true"
         }
       ]
-    }
+    },
     {
       "imgSrc": "https://images.codingblocks.com/img/offline-1-banner.jpg",
       "imgAlt": "",
