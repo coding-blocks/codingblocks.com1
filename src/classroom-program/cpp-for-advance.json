@@ -167,7 +167,8 @@
         "runcode": "APPP21OCT1",
         "product_id": 6572,
         "location": "Pitampura",
-        "price": "11999"
+        "price": "11999",
+        "seats_full":true
       },
       {
         "course": "Algo++, B2",
