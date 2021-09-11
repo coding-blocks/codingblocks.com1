@@ -150,7 +150,8 @@
       "runcode": "LPPP20SEP1",
       "product_id": 6539,
       "location": "Pitampura",
-      "prices": "17000"
+      "prices": "17000",
+      "seats_full": true
     },
     {
       "course": "C++, B2",
