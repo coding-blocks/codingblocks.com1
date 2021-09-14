@@ -13,20 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/pd-banner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Enroll Now",
-          "buttonColor":"#C87C47",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/ed1%20banner.jpg",
       "imgAlt": "",
       "heading": "",
