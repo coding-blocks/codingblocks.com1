@@ -13,6 +13,34 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/offline-1-banner%20%281%29.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program.html",
+          "text": "Enroll Now",
+          "buttonColor":"#F4B443",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%282%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://cb.lk/iprep",
+          "text": "Register Now",
+          "buttonColor":"#F7BA44",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/ed1%20banner.jpg",
       "imgAlt": "",
       "heading": "",
