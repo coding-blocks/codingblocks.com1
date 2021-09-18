@@ -117,7 +117,7 @@
       "price": "15,999",
       "slashedPrice": "7,999",
       "gradient": "bg-gradient-blue-light",
-      "startDate": "18th Sept 2021",
+      "startDate": "27th Sept 2021",
       "badge": "Beginner",
       "batchmonth" :"Sept Batch"
     },
@@ -133,7 +133,7 @@
       "price": "15,999",
       "slashedPrice": "7,999",
       "gradient": "bg-gradient-purple",
-      "startDate": "18th September 2021",
+      "startDate": "28th September 2021",
       "badge": "Beginner",
       "batchmonth" :"Sept Batch"
     },
@@ -149,7 +149,7 @@
       "price": "12,999",
       "slashedPrice": "6,499",
       "gradient": "bg-gradient-blue-dark",
-      "startDate": "9th October 2021",
+      "startDate": "18th October 2021",
       "badge": "Advanced",
       "batchmonth" :"Oct Batch"
     },
@@ -165,7 +165,7 @@
       "price": "12,999",
       "slashedPrice": "6,499",
       "gradient": "bg-gradient-orange",
-      "startDate": "9th October 2021",
+      "startDate": "19th October 2021",
       "badge": "Advanced",
       "batchmonth" :"Oct Batch"
     }
