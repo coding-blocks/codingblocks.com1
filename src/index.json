@@ -19,20 +19,6 @@
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Enroll Now",
-          "buttonColor":"#003663",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%282%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
           "link": "https://cb.lk/iprep",
           "text": "Register Now",
           "buttonColor":"#F7BA44",
