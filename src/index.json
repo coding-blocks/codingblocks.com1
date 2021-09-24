@@ -13,6 +13,34 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%284%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Grab Now",
+          "buttonColor":"#EF6F4C",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/AUTUMN-1BANNER.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Enroll Now",
+          "buttonColor":"#ECA941",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/Banner/live-banner.jpg",
       "imgAlt": "",
       "heading": "",
@@ -22,20 +50,6 @@
           "link": "https://codingblocks.com/live-classes.html",
           "text": "Register Now",
           "buttonColor":"#FC4F4F",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%283%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://cb.lk/iprep",
-          "text": "Register Now",
-          "buttonColor":"#F7BA44",
           "filled": "true"
         }
       ]
