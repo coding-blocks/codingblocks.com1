@@ -188,25 +188,25 @@
   "batches": [
     {
       "course": "Java Crux, B1",
-      "timings": "3:00PM-6:00PM",
+      "timings": "10:00PM-01:00PM",
       "mentor": "Lakshya Singh",
       "strength": "According to the batch size",
       "days": "Sat, Sun",
-      "start_date": "12th September",
-      "runcode": "CXPP21SEP",
-      "product_id": 6545,
+      "start_date": "16th October",
+      "runcode": "CXPP21OCT",
+      "product_id": 6786,
       "location": "Pitampura",
       "price":"17000"
     },
     {
       "course": "Java Crux, B2",
-      "timings": "11:00AM-2:00PM",
+      "timings": "10:00AM-01:00PM",
       "mentor": "Monu Kumar",
       "strength": "",
       "days": "Sat, Sun",
-      "start_date": "18th September",
-      "runcode": "CXND21SEP",
-      "product_id": 6544,
+      "start_date": "16th October",
+      "runcode": "CXND21OCT",
+      "product_id": 6787,
       "location": "Noida",
       "price":"12750"
     }
