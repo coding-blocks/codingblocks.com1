@@ -266,27 +266,15 @@
   "batches": [
     {
       "course": "Machine Learning",
-      "timings": "9:00AM-12:00PM",
+      "timings": "03:00PM-07:00PM",
       "mentor": "Princey Yadav",
       "strength": 35,
-      "days": "Mon Wed Fri Sat",
-      "start_date": "5th June",
-      "runcode": "DSPP21MAY",
-      "product_id": 5181,
+      "days": "Sat and Sun",
+      "start_date": "07th Nov",
+      "runcode": "MLPP21NOV",
+      "product_id": 6802,
       "location": "Pitampura",
-      "price":"25000"
-    },
-    {
-      "course": "Machine Learning",
-      "timings": "9:00AM-12:00PM",
-      "mentor": "Manu S Pillai",
-      "strength": 35,
-      "days": "Mon Wed Fri Sat",
-      "start_date": "5th June",
-      "runcode": "DSND21MAY",
-      "product_id": 5180,
-      "location": "Noida",
-      "price":"18750"
+      "price":"14999"
     }
   ],
   "mentors": [

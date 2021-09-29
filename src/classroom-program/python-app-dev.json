@@ -244,27 +244,15 @@
   "batches": [
     {
       "course": "Python App Dev",
-      "timings": "12.30PM-3:30PM",
-      "mentor": "Navika",
+      "timings": "03:00PM-07:00PM",
+      "mentor": "Princey Yadav",
       "strength": 35,
-      "days": "Tue Thu Sun",
-      "start_date": "6th June",
-      "runcode": "PYPP21MAY",
-      "product_id": 5183,
+      "days": "Sat and Sunday",
+      "start_date": "16th October",
+      "runcode": "PYPP21OCT",
+      "product_id": 6801,
       "location": "Pitampura",
       "price":"12000"
-    },
-    {
-      "course": "Python App Dev",
-      "timings": "12:30PM-3:30PM",
-      "mentor": "Manu S Pillai",
-      "strength": 35,
-      "days": "Mon Wed Sun",
-      "start_date": "7th June",
-      "runcode": "PYND21MAY",
-      "product_id": 5182,
-      "location": "Noida",
-      "price":"9000"
     }
   ],
   "mentors": [
