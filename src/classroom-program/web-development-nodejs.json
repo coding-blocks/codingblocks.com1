@@ -67,25 +67,13 @@
   "batches": [
       {
           "course": "Web Dev",
-          "timings": "4:00PM-7:00PM",
-          "mentor": "Kartik Mathur/Sabeel",
+          "timings": "11:00AM-02:00PM",
+          "mentor": "Sabeel Khan",
           "strength": 35,
-          "days": "Tue Thu Sat",
-          "start_date": "5th June",
-          "runcode": "WDPP21MAY",
-          "product_id": 5169,
-          "location": "Pitampura",
-          "price":"22000"
-      },
-      {
-          "course": "Web Dev",
-          "timings": "4:00PM-7:00PM",
-          "mentor": "Sabeel",
-          "strength": 35,
-          "days": "Mon Wed Fri",
-          "start_date": "7th June",
-          "runcode": "WDND21MAY",
-          "product_id": 5166,
+          "days": "Sat and Sun",
+          "start_date": "23rd Oct",
+          "runcode": "WDND21OCT",
+          "product_id": 6799,
           "location": "Noida",
           "price":"15400"
       }
