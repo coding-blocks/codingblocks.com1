@@ -13,15 +13,15 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/AUTUMN-1BANNER%20copy.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/ML-BANNER.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses",
+          "link": "https://online.codingblocks.com/courses/machine-learning-course-online",
           "text": "Enroll Now",
-          "buttonColor":"#ECA941",
+          "buttonColor":"#F7BD45",
           "filled": "true"
         }
       ]
