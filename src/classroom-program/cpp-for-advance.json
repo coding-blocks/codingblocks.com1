@@ -157,52 +157,27 @@
     }
   ],
   "batches": [
-    {
-        "course": "Algo++, B1",
-        "timings": "11:00AM-2:00PM",
-        "mentor": "Kartik Mathur",
-        "strength": 35,
-        "days": "Sat, Sun",
-        "start_date": "3rd October 2021",
-        "runcode": "APPP21OCT1",
-        "product_id": 6572,
-        "location": "Pitampura",
-        "price": "11999",
-        "seats_full":true
-      },
       {
         "course": "Algo++, B2",
-        "timings": "03:00PM-06:00PM",
+        "timings": "10:00AM-01:00PM",
         "mentor": "Abhishek Srivastava",
         "strength": 35,
         "days": "Sat, Sun",
-        "start_date": "3rd October 2021",
-        "runcode": "APPP21OCT2",
-        "product_id": 6573,
+        "start_date": "14th November 2021",
+        "runcode": "APPP21NOV",
+        "product_id": 6803,
         "location": "Pitampura",
         "price": "11999"
       },
       {
-        "course": "Algo++, B4",
-        "timings": "11:00AM-2:00PM",
-        "mentor": "Mayank Jha",
-        "strength": 35,
-        "days": "Sat, Sun",
-        "start_date": "9th October 2021",
-        "runcode": "APND21OCT1",
-        "product_id": 6570,
-        "location": "Noida",
-        "price": "8999"
-      },
-      {
         "course": "Algo++, B3",
-        "timings": "11:00AM-2:00PM",
+        "timings": "03:00PM-07:00PM",
         "mentor": "Mosina Ashraf",
         "strength": 35,
         "days": "Sat, Sun",
-        "start_date": "9th October 2021",
-        "runcode": "APND21OCT2",
-        "product_id": 6571,
+        "start_date": "14th November 2021",
+        "runcode": "APND21NOV",
+        "product_id": 6806,
         "location": "Noida",
         "price": "8999"
       }

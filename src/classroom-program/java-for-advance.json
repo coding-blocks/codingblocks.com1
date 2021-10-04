@@ -160,25 +160,25 @@
   "batches": [
     {
       "course": "Algo.Java, B1",
-      "timings": "3:00PM-6:00PM",
+      "timings": "10:00AM-01:00PM",
       "mentor": "Lakshya Singh",
       "strength": "According to the batch size",
       "days": "Sat, Sun",
-      "start_date": "3rd October 2021",
-      "runcode": "AJPP21OCT",
-      "product_id": 6575,
+      "start_date": "14th November 2021",
+      "runcode": "AJPP21NOV",
+      "product_id": 6807,
       "location": "Pitampura",
       "price":"11999"
     },
     {
       "course": "Algo.Java, B2",
-      "timings": "11:00AM-2:00PM",
+      "timings": "03:00PM-07:00PM",
       "mentor": "Monu Kumar",
       "strength": "According to the batch size",
       "days": "Sat, Sun",
-      "start_date": "9th October 2021",
-      "runcode": "AJND21OCT",
-      "product_id": 6574,
+      "start_date": "14th November 2021",
+      "runcode": "AJND21NOV",
+      "product_id": 6808,
       "location": "Noida",
       "price":"8999"
     }

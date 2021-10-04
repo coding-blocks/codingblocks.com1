@@ -19,15 +19,15 @@
     ]
   },
   "aboutMentor": [
-    {
-      "name": "Manu S Pillai",
-      "profile_pic_link": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
-      "summary": "Manu is a Deep Learning Researcher and an avid python programmer. He has multiple research papers published in international conferences and journals. His interest lies in Computer Vision and is currently doing independant research in the same domain. He has also won multiple hackathons including Smart Odisha Hackathon and was awarded by the Chief Minister ot Odisha, Shri Naveen Patnaik. He can be found at www.manuspillai.in.",
-      "email": "mohit.uniyal@codingblocks.com"
+     {
+      "name": "Princey Yadav",
+      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
+      "summary": "Princey is a post graduate from IIIT Delhi and did her graduation from NSIT Delhi. She joined Coding Blocks due to her passion for teaching. She has prior experience as a Software Engineer and has done research in the field of Computational Biology. Her interests include Machine learning, Data science and Game development. She is a pythonista and likes to draw and watch anime for fun.",
+      "email": "princey.yadav@codingblocks.com"
     }
   ],
   "openGraph": {
-    "url": "https://codingblocks.com/classroom-courses/c-plus-plus-for-beginners.html",
+    "url": "https://codingblocks.com//live-courses/master-python-app-dev.html",
     "title": "C++ Beginner & Advanced Courses | Coding Blocks",
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
     "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
@@ -35,13 +35,18 @@
   "courseMeta": {
     "icon": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
     "title": "Master Python App Development",
-    "price": "8,999",
+    "slashedPrice": "8,999",
+    "price": "13,999",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Manu S Pillai",
+    "mentors": "Princey Yadav",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
     "description": "Learn Python for Web Development, Data Science & ML",
-    "mentor-img-1": "https://minio.codingblocks.com/amoeba/3efe881b-87ca-411e-a83b-671343eab041",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4246",
-    "startDate": "13th Feb"
+    "mentor-img-1": "https://images.codingblocks.com/img/mentor/Princey%20Yadav.png",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=6798",
+    "startDate": "1st Nov 2021",
+    "interactiveClasses": "41 Live Interactive Classes",
+    "codingProblems": "200-300 hands on coding problems",
+    "projects": "5 Projects"
   },
   "demoClass": [
     {

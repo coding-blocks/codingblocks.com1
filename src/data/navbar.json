@@ -120,6 +120,10 @@
         {
           "title": "DS & Algo with Java",
           "link": "/live-courses/master-java-for-beginners.html"
+        },
+        {
+          "title": "Python App Development",
+          "link": "/live-courses/master-python-app-dev.html"
         },     
         {
           "title": "AlGO++",
@@ -128,6 +132,10 @@
         {
           "title": "ALGO.JAVA",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
+        },
+        {
+          "title": "Data Science",
+          "link": "/live-courses/master-data-science-with-python.html"
         }
       ]
     }
