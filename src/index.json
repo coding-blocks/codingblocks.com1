@@ -13,14 +13,26 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%285%29.png",
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%286%29.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses/machine-learning-course-online",
+          "link": "https://forms.gle/f4kmndk9WBKCXmxq9",
           "text": "Enroll Now",
+          "buttonColor":"#F1815A",
+          "filled": "true"
+        },
+        {
+      "imgSrc": "https://images.codingblocks.com/img/ca-1-BANNER-WEB.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/rSBgTRVaTkSpNYy37",
+          "text": "Register Now",
           "buttonColor":"#F7BD45",
           "filled": "true"
         }
