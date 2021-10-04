@@ -18,28 +18,24 @@
   ],
   "faqs": [
     {
-      "ques": "Who should do this course?",
-      "ans": "This field intensively deals with mathematics, for analysis of data and algorithms. A decent mathematical background is a necessary and we engineers definitely excel at that! If you have had a mathematical background at school and covered engineering mathematics (such as probability, statistics, linear algebra etc/), you're good to go! Maybe you could just brush up the topics."
+      "ques": "Who can apply?",
+      "ans": "Anyone! The Coding Blocks Scholarship Program is open to everyone who wants to become a software engineer."
     },
     {
-      "ques": "Why do this course?",
-      "ans": "Machine learning evolves from artificial intelligence and study of pattern recognition. Today, when excessively huge amounts of data are being dealt with everyday, rather every moment, pattern recognition is something that helps large corporations and websites work magnificently with the users. Artificial intelligence has become a favourite with the customers, esp. intelligent personal assistants like Apple's Siri, Microsoft Cortana, etc. We hope to extend our knowledge to the students so they are ready to tackle such problems in real-world."
+      "ques": "How can I apply?",
+      "ans": "You need to register for the scholarship exam, post which we will inform you via email about the scholarship you will receive based on your performance in the exam."
     },
     {
-      "ques": "I know competitive programming. should I do this course?",
-      "ans": "Machine Learning requires extensive knowledge of mathematics, which you also gain while handling problems in competitive programming. This course shall equip with the right tools to handle huge amounts of data and derive meaningful conclusions from data crunching. Handling real-world problems is exactly what machine learning is all about, a skill very useful in development tasks. competitive programming equips you with critical thinking, but machine learning teaches you how to apply that skill and solve complex problems."
+      "ques": "Do I need to pay anything for this scholarship exam?",
+      "ans": "No. This is a completely free of cost scholarship exam."
     },
     {
-      "ques": "Will this help me in interviews?",
-      "ans": "Machine Learning and Data science has been called as the ‘Hottest job of the 21st century’. If you learn this course well, you’ll be able to impress quite a lot of interviewers across various interviews."
+      "ques": "What should I prepare for before giving this scholarship exam?",
+      "ans": "We suggest brushing up your Aptitude and Logical Reasoning for the Beginner Courses, and Algorithms and Basic Coding for our Advance Courses."
     },
     {
-      "ques": "I don’t pass all the prerequisite criteria. Should I enroll?",
-      "ans": "Even if you don’t possess understanding of all the prerequisites, we shall help you cover every topic in detail and provide overview before diving deep into machine learning and data science. Python is a relatively easy language to learn, and you can pick up the basics very quickly. Therefore, you’ll have ample amount of time before the course to brush-up/learn the fundamentals."
-    },
-    {
-      "ques": "What is asked in admission test for this course?",
-      "ans": "You are suggested to revise programming fundamentals, OOPS concepts, basics Maths and Probability concepts, hands-on coding in Python before giving the admission test for Machine Learning course."
+      "ques": "Will I get a certificate after this scholarship exam?",
+      "ans": "Yes, but you need to attempt the test in order to receive the certificate."
     }
   ]
 }
