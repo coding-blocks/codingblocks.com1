@@ -23,8 +23,10 @@
           "text": "Enroll Now",
           "buttonColor":"#F1815A",
           "filled": "true"
-        },
-        {
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/ca-1-BANNER-WEB.jpg",
       "imgAlt": "",
       "heading": "",
