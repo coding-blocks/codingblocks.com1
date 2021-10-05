@@ -21,7 +21,7 @@
         {
           "link": "https://codingblocks.com/classroom-program.html",
           "text": "Enroll Now",
-          "buttonColor":"#5D45EA",
+          "buttonColor":"#D93864",
           "filled": "true"
         }
       ]
@@ -33,7 +33,7 @@
       "content": "",
       "button": [
         {
-          "link": "hhttps://codingblocks.com/live-classes.html",
+          "link": "https://codingblocks.com/live-classes.html",
           "text": "Register Now",
           "buttonColor":"#F7BD45",
           "filled": "true"
