@@ -13,6 +13,48 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/class-16th%20oct.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program.html",
+          "text": "Enroll Now",
+          "buttonColor":"#5D45EA",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/LIVE%20Web%20Banner.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "hhttps://codingblocks.com/live-classes.html",
+          "text": "Register Now",
+          "buttonColor":"#F7BD45",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/ca-1-BANNER-WEB%20%281%29.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/rSBgTRVaTkSpNYy37",
+          "text": "Register Now",
+          "buttonColor":"#F7BD45",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%286%29.png",
       "imgAlt": "",
       "heading": "",
@@ -22,20 +64,6 @@
           "link": "https://forms.gle/f4kmndk9WBKCXmxq9",
           "text": "Enroll Now",
           "buttonColor":"#F1815A",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/ca-1-BANNER-WEB.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://forms.gle/rSBgTRVaTkSpNYy37",
-          "text": "Register Now",
-          "buttonColor":"#F7BD45",
           "filled": "true"
         }
       ]
