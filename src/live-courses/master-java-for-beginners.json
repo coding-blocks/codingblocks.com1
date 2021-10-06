@@ -31,11 +31,11 @@
     "slashedPrice": "7,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=6190",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Shubham Singhal",
-    "mentorImg": "https://images.codingblocks.com/img/mentor/Shubham%20Singhal.png",
+    "mentors": "Lakshya Singh",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Lakshay%20Singh.png",
     "description": "Start from Basics, become a Java Master!",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=6541",
-    "startDate": "28th Sept 2021",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=6905",
+    "startDate": "25th Oct 2021",
     "gradient": "bg-gradient-purple",
     "interactiveClasses": "45 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",
@@ -43,10 +43,12 @@
   },
   "aboutMentor": [
     {
-      "name": "Shubham Singhal",
-      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Shubham%20Singhal.png",
-      "summary": "Shubham is a Masters in AI specialization from IIIT-Delhi. He is well versed in C/C++, Java and Python coding languages as well as highly proficient in Data Structures and Algorithm. As a Data Science and machine learning enthusiast, he has deep knowledge about this field. He also published a paper related to Machine Learning in iconip conference.",
-      "email": "shubham.singhal@codingblocks.com"
+      "name": "Lakshya Singh",
+      "email": "lakshya.singh@codingblocks.com",
+      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Lakshay%20Singh.png",
+      "summary": "Lakshya is an IIITD Btech graduate who has a strong coding background in Java and Python. He is known for his unique understanding of concepts and loves to pursue Deep Learning and Cognitive Neuropsychology in his spare time.",
+      "designation": "Mentor",
+      "highlights": null
     }
   ],
   "demoClass": [
