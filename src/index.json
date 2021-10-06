@@ -13,6 +13,20 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%287%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://cb.lk/coding",
+          "text": "Book Your Seat",
+          "buttonColor":"#F7BA44",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/class-16th%20oct.png",
       "imgAlt": "",
       "heading": "",
