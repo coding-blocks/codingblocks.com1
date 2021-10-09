@@ -13,6 +13,20 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/int%20prep%20-%20web%20banner.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses?q=ace",
+          "text": "Enroll Now",
+          "buttonColor":"#F9D16A",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%287%29.png",
       "imgAlt": "",
       "heading": "",
@@ -48,20 +62,6 @@
       "button": [
         {
           "link": "https://codingblocks.com/live-classes.html",
-          "text": "Register Now",
-          "buttonColor":"#F7BD45",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Banner/Web%20Banner%20%285%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://forms.gle/rSBgTRVaTkSpNYy37",
           "text": "Register Now",
           "buttonColor":"#F7BD45",
           "filled": "true"
