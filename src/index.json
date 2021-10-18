@@ -13,15 +13,15 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/ca-23-1-banner.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Grab Now",
-          "buttonColor":"#EB3F7E",
+          "link": "https://codingblocks.com/scholarship-tests.html",
+          "text": "Enroll Now",
+          "buttonColor":"#40585A",
           "filled": "true"
         }
       ]
@@ -36,20 +36,6 @@
           "link": "https://codingblocks.com/classroom-program.html",
           "text": "Enroll Now",
           "buttonColor":"#D93864",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/LIVE%20Web%20Banner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-classes.html",
-          "text": "Register Now",
-          "buttonColor":"#F7BD45",
           "filled": "true"
         }
       ]
