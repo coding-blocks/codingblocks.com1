@@ -13,20 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%289%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://cb.lk/coding",
-          "text": "Book Your Seat",
-          "buttonColor":"#F7BA44",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/Web%20Banner.jpg",
       "imgAlt": "",
       "heading": "",
@@ -64,20 +50,6 @@
           "link": "https://codingblocks.com/live-classes.html",
           "text": "Register Now",
           "buttonColor":"#F7BD45",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%286%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://forms.gle/f4kmndk9WBKCXmxq9",
-          "text": "Enroll Now",
-          "buttonColor":"#F1815A",
           "filled": "true"
         }
       ]
