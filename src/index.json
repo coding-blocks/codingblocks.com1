@@ -13,6 +13,20 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/LIVE%20Web%20Banner%20%281%29.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-classes.html",
+          "text": "Enroll Now",
+          "buttonColor":"#F7BD45",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/ca-23-1-banner.jpg",
       "imgAlt": "",
       "heading": "",
