@@ -73,22 +73,6 @@
       "badge": "Beginner",
       "batchmonth" :"Oct Batch"
      },
-     {
-      "name": "Master DS and Algo with Java",
-      "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
-      "link": "/live-courses/master-java-for-beginners.html",
-      "mentors": "Lakshya Singh",
-      "interactiveClasses": "45 Live Interactive Classes",
-      "codingProblems": "300+ hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Tue & Thu(7-10PM), Sat(11AM-2PM)",
-      "price": "15,999",
-      "slashedPrice": "7,999",
-      "gradient": "bg-gradient-purple",
-      "startDate": "25th Oct 2021",
-      "badge": "Beginner",
-      "batchmonth" :"Oct Batch"
-    },
     {
     "name": "Master Python App Development",
     "icon": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",

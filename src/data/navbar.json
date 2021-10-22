@@ -1,7 +1,7 @@
 {
   "navBar": {
     "logoLightSrc": "/assets/images/logo-light.png",
-    "logoDarkSrc": "/assets/images/cb/cblogo.png"
+    "logoDarkSrc": "/assets/images/cb/cb_grey_small.png"
   },
   "navLinks": [
     {
@@ -96,10 +96,6 @@
           "link": "/classroom-program/machine-learning-with-deep-learning.html"
         },
         {
-          "title": "Python App Development",
-          "link": "/classroom-program/python-app-dev.html"
-        },
-        {
           "title": "Data Science Master Course",
           "link": "/classroom-program/data-science-with-python.html"
         }
@@ -116,10 +112,6 @@
         {
           "title": "DS & Algo with C++",
           "link": "/live-courses/master-c-plus-plus-ds-algo.html"
-        },
-        {
-          "title": "DS & Algo with Java",
-          "link": "/live-courses/master-java-for-beginners.html"
         },
         {
           "title": "Python App Development",
