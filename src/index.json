@@ -25,48 +25,6 @@
           "filled": "true"
         }
       ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/ca-23-1-banner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/scholarship-tests.html",
-          "text": "Enroll Now",
-          "buttonColor":"#40585A",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/SQUID-2-BANNER%20%281%29.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Grab Now",
-          "buttonColor":"#E6467C",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/class-16th%20oct.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program.html",
-          "text": "Enroll Now",
-          "buttonColor":"#D93864",
-          "filled": "true"
-        }
-      ]
     }
   ],
   "events": {
