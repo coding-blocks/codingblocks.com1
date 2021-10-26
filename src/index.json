@@ -13,15 +13,29 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/LIVE%20Web%20Banner%20%281%29.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/banner-3.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
           "link": "https://codingblocks.com/live-classes.html",
-          "text": "Enroll Now",
-          "buttonColor":"#F7BD45",
+          "text": "Explore Explore Courses",
+          "buttonColor":"#842018",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/banner-1.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-classes.html",
+          "text": "Explore LIVE Courses",
+          "buttonColor":"#F5A841",
           "filled": "true"
         }
       ]
