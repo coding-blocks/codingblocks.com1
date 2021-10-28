@@ -90,22 +90,6 @@
     "batchmonth" :"Oct Batch"
     },
     {
-      "name": "Master Algo.Java",
-      "icon": "https://minio.codingblocks.com/amoeba/538d2648-a9ab-4a20-bac4-14017a014814.svg",
-      "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
-      "mentors": "Lakshya Singh",
-      "interactiveClasses": "37 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Tuesday, Friday, Sunday",
-      "price": "12,999",
-      "slashedPrice": "6,499",
-      "gradient": "bg-gradient-orange",
-      "startDate": "22nd Nov 2021",
-      "badge": "Advanced",
-      "batchmonth" :"November Batch"
-    },
-    {
       "name": "Master Algo++",
       "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
