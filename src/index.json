@@ -13,14 +13,15 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%2810%29.png",
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20BLF1.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
           "link": "https://online.codingblocks.com/courses",
-          "text": "Steal the Deal",
+          "text": "Learn More",
+          "color" : "#000000"
           "buttonColor":"#F8C67A",
           "filled": "true"
         }
