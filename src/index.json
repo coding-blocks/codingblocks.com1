@@ -21,7 +21,7 @@
         {
           "link": "https://online.codingblocks.com/courses",
           "text": "Learn More",
-          "color" : "#000000"
+          "color" : "#000000",
           "buttonColor":"#F8C67A",
           "filled": "true"
         }
