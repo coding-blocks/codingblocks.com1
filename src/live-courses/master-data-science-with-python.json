@@ -32,8 +32,8 @@
   "courseMeta": {
     "icon": "https://images.codingblocks.com/img/newcourse_logo/ds_white.png",
     "title": "Master Data Science with Python",
-    "price": "27,999",
-    "slashedPrice": "13,999",
+    "price": "13,999",
+    "slashedPrice": "27,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2043",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Princey Yadav",

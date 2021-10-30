@@ -29,27 +29,22 @@
   "courseMeta": {
     "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
     "title": "Master Algo++",
-    "price": "12,999",
-    "slashedPrice": "6,499",
-    "course-link": "https://dukaan.codingblocks.com/buy?productId=5944",
+    "price": "6,499",
+    "slashedPrice": "12,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=7093",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Kartik Mathur",
-    "mentorImg": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+    "mentors": "Aditya",
+    "mentorImg": "",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5944",
-    "startDate": "19 July 2021",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=7093",
+    "startDate": "23rd Dec 2021",
     "interactiveClasses": "34 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",
     "projects": "5 Projects",
     "gradient": "bg-gradient-blue-dark"
   },
   "aboutMentor": [
-    {
-      "name": "Kartik Mathur",
-      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
-      "summary": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
-      "email": "kartik.mathur@codingblocks.com"
-    }
+    
   ],
   "demoClass": [
     {

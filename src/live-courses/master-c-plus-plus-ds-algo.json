@@ -19,14 +19,7 @@
     ]
   },
   "aboutMentor": [
-    {
-      "name": "Mosina Ashraf",
-      "email": "mosina.ashraf@codingblocks.com",
-      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
-      "summary": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
-      "designation": "Mentor",
-      "highlights": null
-    }
+    
   ],
   "openGraph": {
     "url": "https://codingblocks.com/classroom-courses/c-plus-plus-for-beginners.html",
@@ -37,16 +30,16 @@
   "courseMeta": {
     "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
     "title": "Master DS and Algo with C++",
-    "price": "15,999",
-    "slashedPrice": "7,999",
+    "price": "7,999",
+    "slashedPrice": "15,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=6534",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Mosina Ashraf",
-    "mentorImg": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
+    "mentors": "Aditya",
+    "mentorImg": "",
     "description": "Start from Basics, become a C++ Master!",
     "mentor-img-1": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/mohit-pandey.jpeg",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=6899",
-    "startDate": "25th Oct 2021",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=7090",
+    "startDate": "21st Nov 2021",
     "gradient": "bg-gradient-blue-light",
     "interactiveClasses": "47 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",
