@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%2812%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Learn More",
+          "color" : "#000000",
+          "buttonColor":"#F8C67A",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%2811%29.png",
       "imgAlt": "",
       "heading": "",
@@ -28,16 +43,16 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/diwaliextbanner.png",
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%2813%29.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Learn More",
+          "link": "https://codingblocks.com/classroom-program.html",
+          "text": "Enroll Now",
           "color" : "#000000",
-          "buttonColor":"#F8C67A",
+          "buttonColor":"#914CF7",
           "filled": "true"
         }
       ]
