@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%2811%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/master-c-plus-plus-ds-algo.html",
+          "text": "Enroll Now",
+          "color" : "#000000",
+          "buttonColor":"#F7BA44",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/diwaliextbanner.png",
       "imgAlt": "",
       "heading": "",
