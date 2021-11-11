@@ -159,27 +159,15 @@
   "batches": [
       {
         "course": "Algo++, B2",
-        "timings": "10:00AM-01:00PM",
-        "mentor": "Abhishek Srivastava",
+        "timings": "03:0PM-07:00PM",
+        "mentor": "Karthik Mathur",
         "strength": 35,
         "days": "Sat, Sun",
-        "start_date": "21st November 2021",
+        "start_date": "26th December 2021",
         "runcode": "APPP21NOV",
         "product_id": 6803,
         "location": "Pitampura",
         "price": "11999"
-      },
-      {
-        "course": "Algo++, B3",
-        "timings": "10:00AM-01:00PM",
-        "mentor": "Mosina Ashraf",
-        "strength": 35,
-        "days": "Sat, Sun",
-        "start_date": "21st November 2021",
-        "runcode": "APND21NOV",
-        "product_id": 6806,
-        "location": "Noida",
-        "price": "8999"
       }
   ],
   "mentors": [
@@ -188,22 +176,6 @@
       "contact": "kartik.mathur@codingblocks.com",
       "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
       "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
-      "designation": "Mentor",
-      "highlights": null
-    },
-    {
-      "name": "Mosina Ashraf",
-      "contact": "mosina.ashraf@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
-      "description": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
-      "designation": "Mentor",
-      "highlights": null
-    },
-    {
-      "name": "Abhishek Srivastava",
-      "contact": "abhishek.srivastava@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Abhishek%20Srivastava.png",
-      "description": "Abhishek has pursued his M.Tech in CSE from IIIT Delhi. He has previously worked at NII Tokyo as a researcher in the field of Artificial Intelligence and has a publication in one of the  top AI journals. His area of interest lies in the field of Machine learning, in particular, generative modelling through the application of deep learning. He strives for excellence in his work and has a knack for making complex topics simple. At Coding Blocks, he aims to share his experience with his students and make learning easy and fun.",
       "designation": "Mentor",
       "highlights": null
     },
