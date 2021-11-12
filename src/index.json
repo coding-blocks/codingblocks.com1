@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%281%29.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/scholarship-tests.html",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#ED3833",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%2815%29.png",
       "imgAlt": "",
       "heading": "",
