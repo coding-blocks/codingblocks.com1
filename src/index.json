@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%2818%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program.html",
+          "text": "Enroll Now",
+          "color" : "#000000",
+          "buttonColor":"#0D2384",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%2816%29.png",
       "imgAlt": "",
       "heading": "",
