@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/ewdAot8D6WXMYRgE8",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#ED4E5F",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%2818%29.png",
       "imgAlt": "",
       "heading": "",
