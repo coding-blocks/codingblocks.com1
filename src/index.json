@@ -73,20 +73,6 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/banner-3.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-classes.html",
-          "text": "Explore Learning Tracks",
-          "buttonColor":"#842018",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/banner-1.1.jpg",
       "imgAlt": "",
       "heading": "",
