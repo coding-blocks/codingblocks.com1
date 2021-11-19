@@ -71,7 +71,7 @@
       "gradient": "bg-gradient-blue-light",
       "startDate": "5th Dec 2021",
       "badge": "Beginner",
-      "batchmonth" :"Nov Batch"
+      "batchmonth" :"Dec Batch"
     },
     {
       "name": "Master DS and Algo with Java",
@@ -87,7 +87,7 @@
       "startDate": "6th Dec 2021",
       "badge": "Beginner",
       "gradient": "bg-gradient-purple",
-      "batchmonth" :"Nov Batch"
+      "batchmonth" :"Dec Batch"
     },
     {
       "name": "Master Algo++",
@@ -101,7 +101,7 @@
       "price": "6,499",
       "slashedPrice": "12,999",
       "gradient": "bg-gradient-blue-dark",
-      "startDate": "22nd Nov 2021",
+      "startDate": "6th Jan 2022",
       "badge": "Advanced",
       "batchmonth" :"November Batch"
     },
@@ -117,25 +117,9 @@
       "price": "6,499",
       "slashedPrice": "12,999",
       "gradient": "bg-gradient-orange",
-      "startDate": "24th Dec 2021",
+      "startDate": "7th Jan 2022",
       "badge": "Advanced",
-      "batchmonth" :"December Batch"
-    },
-    {
-      "name": "Master Algo++ Dec Batch",
-      "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
-      "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews-dec.html",
-      "mentors": "Aditya",
-      "interactiveClasses": "34 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Thursday, Saturday, Sunday",
-      "price": "6,499",
-      "slashedPrice": "12,999",
-      "gradient": "bg-gradient-blue-dark",
-      "startDate": "23rd Dec 2021",
-      "badge": "Advanced-23rd Dec",
-      "batchmonth" :"December Batch"
+      "batchmonth" :"January Batch"
     },
     {
       "name": "Master Data Science",
