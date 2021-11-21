@@ -141,7 +141,7 @@
   ],
   "batches": [
     {
-      "course": "C++, B2",
+      "course": "C++, B1",
       "timings": "03:00PM-07:00PM",
       "mentor": "Kartik Mathur",
       "strength": 35,
@@ -149,6 +149,18 @@
       "start_date": "27th November",
       "runcode": "LPPP21NOV",
       "product_id": 7099,
+      "location": "Pitampura",
+      "prices": "17000"
+    },
+    {
+      "course": "C++, B2",
+      "timings": "03:00PM-07:00PM",
+      "mentor": "Mosina Ashraf",
+      "strength": 35,
+      "days": "Sat, Sun",
+      "start_date": "26th December",
+      "runcode": "LPND21DEC",
+      "product_id": 7207,
       "location": "Pitampura",
       "prices": "17000"
     }

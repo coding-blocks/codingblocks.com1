@@ -158,6 +158,18 @@
   ],
   "batches": [
       {
+        "course": "Algo++, B1",
+        "timings": "10:00AM-01:00PM",
+        "mentor": "Mosina Ashraf",
+        "strength": 35,
+        "days": "Sat, Sun",
+        "start_date": "11th December 2021",
+        "runcode": "APND21NOV",
+        "product_id": 6806,
+        "location": "Noida",
+        "price": "11999"
+      },
+      {
         "course": "Algo++, B2",
         "timings": "03:0PM-07:00PM",
         "mentor": "Karthik Mathur",
