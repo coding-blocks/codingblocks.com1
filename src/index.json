@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%281%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/",
+          "text": "Explore Now",
+          "color" : "#000000",
+          "buttonColor":"#F7BA44",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner.jpg",
       "imgAlt": "",
       "heading": "",
