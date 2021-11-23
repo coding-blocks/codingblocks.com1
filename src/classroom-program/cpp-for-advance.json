@@ -168,18 +168,6 @@
         "product_id": 6806,
         "location": "Noida",
         "price": "11999"
-      },
-      {
-        "course": "Algo++, B2",
-        "timings": "03:0PM-07:00PM",
-        "mentor": "Karthik Mathur",
-        "strength": 35,
-        "days": "Sat, Sun",
-        "start_date": "26th December 2021",
-        "runcode": "APPP21NOV",
-        "product_id": 6803,
-        "location": "Pitampura",
-        "price": "11999"
       }
   ],
   "mentors": [
