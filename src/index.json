@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20banner%20%283%29.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/meet-up",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#439973",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%281%29.png",
       "imgAlt": "",
       "heading": "",
