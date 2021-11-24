@@ -22,7 +22,7 @@
           "link": "https://lu.ma/meet-up",
           "text": "Register Now",
           "color" : "#000000",
-          "buttonColor":"#439973",
+          "buttonColor":"#2C303B",
           "filled": "true"
         }
       ]
@@ -52,7 +52,7 @@
           "link": "https://codingblocks.com/live-classes.html",
           "text": "Enroll Now",
           "color" : "#000000",
-          "buttonColor":"#2F3648",
+          "buttonColor":"#FFFFFF",
           "filled": "true"
         }
       ]
@@ -67,7 +67,7 @@
           "link": "https://codingblocks.com/classroom-program.html",
           "text": "Enroll Now",
           "color" : "#000000",
-          "buttonColor":"#914CF7",
+          "buttonColor":"#FFFFFF",
           "filled": "true"
         }
       ]
