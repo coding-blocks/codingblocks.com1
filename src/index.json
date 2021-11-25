@@ -52,7 +52,7 @@
           "link": "https://codingblocks.com/live-classes.html",
           "text": "Enroll Now",
           "color" : "#14171E",
-          "buttonColor":"#FFFFFF",
+          "buttonColor":"#2F3648",
           "filled": "true"
         }
       ]
@@ -67,7 +67,7 @@
           "link": "https://codingblocks.com/classroom-program.html",
           "text": "Enroll Now",
           "color" : "#14171E",
-          "buttonColor":"#FFFFFF",
+          "buttonColor":"#2F3648",
           "filled": "true"
         }
       ]
