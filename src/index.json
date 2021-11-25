@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20banner1.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/meet-up",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#439973",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%281%29.png",
       "imgAlt": "",
       "heading": "",
@@ -37,7 +52,7 @@
           "link": "https://codingblocks.com/live-classes.html",
           "text": "Enroll Now",
           "color" : "#000000",
-          "buttonColor":"#2F3648",
+          "buttonColor":"#FFFFFF",
           "filled": "true"
         }
       ]
@@ -52,7 +67,7 @@
           "link": "https://codingblocks.com/classroom-program.html",
           "text": "Enroll Now",
           "color" : "#000000",
-          "buttonColor":"#914CF7",
+          "buttonColor":"#FFFFFF",
           "filled": "true"
         }
       ]
