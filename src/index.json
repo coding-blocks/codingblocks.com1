@@ -13,21 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20banner1.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/meet-up",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#439973",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/extended%20new.png",
       "imgAlt": "",
       "heading": "",
@@ -38,6 +23,21 @@
           "text": "Explore Now",
           "color" : "#000000",
           "buttonColor":"#F7BA44",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/kartik%20bhaiya%204th.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program/c-plus-plus-for-beginners.html",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#372E43",
           "filled": "true"
         }
       ]
