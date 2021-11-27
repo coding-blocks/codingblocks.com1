@@ -28,7 +28,7 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Extended%202.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/extended%20new.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -53,21 +53,6 @@
           "text": "Enroll Now",
           "color" : "#14171E",
           "buttonColor":"#F39A5C",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/Web%20Banner%20%2813%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program.html",
-          "text": "Enroll Now",
-          "color" : "#14171E",
-          "buttonColor":"#2F3648",
           "filled": "true"
         }
       ]
