@@ -5,182 +5,485 @@
     {{> meta}}
     {{> head}}
     {{> courseSchema}}
-	<style>
-		.bg-dark form label {
-			color: #fefefe;
-		}
-	</style>
+	<script src="/assets/scripts/slider.js"></script>
+<style>
+	.bg-dark form label {
+		color: #fefefe;
+	}
+	
+	.outer-section{
+		padding: 3rem 6rem;
+		background-color: #15161e;
+	}
+	.title-heading{
+		font-size: 3rem; 
+		color:white;
+		font-weight:800
+	}
+
+	.generic-para{
+		font-size: 1.3rem;
+		font-weight:800
+	}
+
+	.orange-circle{
+		font-size:2em;
+		color:orange
+	}
+
+	.texts-container {
+		padding: 15px 15px 10px;
+		margin-right: 2px;
+		display: flex;
+		align-content: flex-start;
+		cursor: pointer;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	.title-resp {
+		color: white;
+		margin-left: 1.1rem;
+		font-size: 1.3rem;
+		font-weight: 700;
+	}
+	.card-outer{
+		background-color: #1f212c;
+		margin-right: 1em;
+	}
+	.selection-title {
+		font-weight: 700;
+		font-size: 2rem;
+		color: #ff7800;
+		margin-left: 1.5rem;
+	}
+	.selection-card-content {
+		font-weight: 300;
+		font-size: 1em;
+		color: white;
+		
+	}
+
+	.rewards-sub {
+		display: flex;
+		flex-direction: column;
+		padding: 0 6rem;
+		position: relative;
+		color: white;
+	}
+	.rewards-sub-header {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		padding-right: 2rem;
+		margin-bottom: 4rem;
+	}
+    .underline-img {
+          position: absolute;
+          left: 0;
+          bottom: -1.8rem;
+          width: 100%;
+    }
+	.reward-cards-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 20px;
+		row-gap: 20px;
+		grid-auto-rows: 1fr;
+		margin-bottom: 5rem;
+	}
+	.reward-card {
+		flex: 1;
+		align-items: center;
+		display: flex;
+		background-color: #15161e;
+		border-radius: 0.6rem;
+		padding: 2.5rem 3rem;
+		color: white;
+	}
+
+	.speaker {
+		display: flex;
+		align-items: center;
+		text-align: left;
+	}
+ 	.avatar {
+		margin-left: 0.6rem;
+		width: 6rem;
+		height: 6rem;
+		border-radius: 50%;
+	}
+	.superheros-name{
+		color: white;
+		margin-left:2em;
+		font-size:1.3em;
+		font-weight:700
+	}
+	.month-cards-grid {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6rem;
+	}
+	.month-info {
+        margin-left: 6rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+	 }
+	.journey {
+		background: linear-gradient(180deg, #ff5c15 0%, #ff7134 100%);
+		display: flex;
+		margin: 0rem 6rem;
+		padding: 0rem 4rem;
+		align-items: center;
+		justify-content: space-between;
+		color: white;
+		border-radius: 1rem;
+	}
+	.journey .left {
+      display: flex;
+      align-items: center;
+      font-size: 1.25rem;
+	}
+	.apply-btn{
+		background: white;
+        color: #373737;
+        font-weight: 700;
+        font-size: 1.25rem;
+        border-radius: 0.2rem;
+        padding: 1rem 2.5rem;
+        cursor: pointer;
+        transition: 0.2s;
+	}
+	.apply-btn .hover{
+		opacity: 1;
+	} 
+
+	.social-media-img{
+		height: 5rem;
+		margin-top: 1rem;
+		margin-left:1rem
+	}
+
+</style>
 </head>
 <body class="scroll-assist" style="margin-top: -70px;">
 {{> navbar}}
 <div class="main-container">
-    {{> header}}
-	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1 text-center">
-					<h2 class="uppercase color-primary mb40 mb-xs-24">Learn and Earn</h2>
-					<h2 class="uppercase color-primary mb40 mb-xs-24"><small>All with loads of fun!</small></h2>
-					<p class="lead">
-						The Campus Ambassador program at Coding Blocks is aimed at identifying energetic, passionate, brilliant, like minded College Superheroes (<em>and this term Superhero includes all the Supermen &amp; Wonderwomen</em>) who have the zeal to take initiative and make a mark.
+	<section class="outer-section" style="background-color:#191b23;">
+		<div style="padding: 10px 0;">
+			<div class="row" style="padding-top: 4rem;">
+				<div class="col-md-5 ">
+					<h1 class="title-heading" style="letter-spacing: 3px;font-size: 4.5rem;">Are you ready to be a
+						Superhero?</h1>
+					<p style="letter-spacing: 1px;color:white;font-size: 1.3rem;font-weight:300">
+						The Campus SuperHero Program at Coding Blocks is aimed to identify energetic, passionate,
+						brilliant, college students &amp; turn them into leaders of tomorrow!
 					</p>
-					<p class="lead">
-						<strong>How to identify a Coding Blocks Superhero?</strong> Well, they are the people who are typically great coders and very active members of Computer societies, clubs, events and activities. In addition, they are stars of their community and people look upto them since they usually lead by example. In short, Leadership flows in their veins and they are the visionaries of tomorrow.
-					</p>
-					<p class="lead">
-						If you feel you have the qualities to be a Coding Blocks Superhero, we invite you to join the clan and be a part of the community. We assure you of a great learning experience, awesome perks and take home rewards, a super confident you, a shining resume with recommendations & certificate and a place in the Coding Blocks family. Here are the details, in case you have already made up your mind to be a part of us.
-					</p>
-
-					<h3 class="color-primary">Roles and Responsibilities of Coding Blocks Superheroes</h3>
-					<ol style="text-align: left" class="col-md-11 col-md-offset-1">
-						<li>Be the official Super Hero alias Ambassador and branding representative of Coding Blocks in your college</li>
-						<li>Create programming contests on HackerBlocks (our online coding practice tool)</li>
-						<li>Promote our courses in your college and get students to sign up &amp; subscribe (including YouTube)</li>
-						<li>Publicise by displaying posters on notice boards, sharing e-posters on WhatsApp, Facebook etc, circulating emails, etc.</li>
-						<li>Maintain relevant databases and submit monthly reports</li>
-						<li>Conduct Coding Blocks workshop every 3 months and programming events / online hackathon every 45 days in your campus</li>
-						<li>Organize counselling sessions and meet-ups in college canteen/campus with Mentors & Alumni</li>
-						<li>Represent us in the placement cells of your college</li>
-						<li>Come up with innovative ideas on how Coding Blocks can assist your college and associate us with any technical fest or sessions that your college conducts</li>
-						<li>Put Coding Blocks “Books” in college library</li>
-						<li>Introduce BOSS event of Coding Blocks in Tech Talks</li>
-						<li>Get students to attend difficult subject doubt session ‘Webinars’ – organised by Mentors of Coding Blocks</li>
-						<li>Associate Coding Blocks with various college societies and fest department</li>
-						<li>Any other marketing initiative will be rewarded as well</li>
-					</ol>
-
-					<h3 class="color-primary">What You Earn &amp; Learn</h3>
-					<ol style="text-align: left" class="col-md-11 col-md-offset-1">
-						<li>Superhero kit with host of swags like T-shirt, Bag, Cap, Diary, Pen drive, Stickers and so on</li>
-						<li>Earn great Cash rewards on organising workshops in your college </li>
-						<li>Student referral rewards</li>
-						<li>Work Experience Certificate to all eligible candidates on successful completion of six months program</li>
-						<li>LinkedIn recommendation to all eligible candidates after completion of program</li>
-						<li>Meet targets, get our online courses for free</li>
-						<li>Free book worth Rs 1200 if targets are met</li>
-						<li>Free passes for workshops at Coding Blocks</li>
-						<li>Opportunity to interact and network with industry experts and professionals through various events</li>
-						<li>Opportunity to become a part of us (PPO)</li>
-						<li>Huge cash incentives for specific target achievements</li>
-						<li>Additional cash incentives for blogs writing for Coding Blocks</li>
-						<li>An exposure of working with a start-up, with some of the best brains in the industry</li>
-						<li>Campus ambassadors are preferred for Paid internships and Teaching Assistants at Coding Blocks</li>
-						<li>Can sit in Coding Blocks placement drives even if non-CB student (haven’t enrolled for a course)</li>
-						<li>Acclamation of efforts through Superheros of the Month, Quarter and Year entitling you to Cask rewards, Mobile phone and laptop respectively.</li>
-					</ol>
-
-					<p class="lead">
-						If you feel you want to be a part of this initiative, you can get started by filling up this form.
-					</p>
-
-					<a class="btn btn-lg btn-filled" href="#register">Register Now</a>
+					<a target="_blank" href="https://forms.gle/CWoWx8AHyw4Hn9fY8">
+						<button class="apply-btn"
+							style="background:linear-gradient(102.3deg, #ff9637 3.65%, #ff4e02 125.28%)">Apply
+							Now</button> </a><a href="/campus-ambassador-program.html#objective-card">
+						<button class="apply-btn" style="background: rgba(255, 255, 255, 0.04);color:white">Learn
+							More</button>
+					</a>
+				</div>
+				<div class="col-md-5 col-md-offset-2">
+					<img src="./assets/images/campus/map.png" />
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<section class="bg-dark">
-		<div class="container">
-			<h2 class="uppercase mb16 text-center color-primary">How To Start</h2>
-			<img src="/assets/images/campus-infographic.png" alt="Campus Ambassador Program Infographic">
-		</div>
-	</section>
-
-	<section>
-		<div class="container">
-			<div class="row">
-				<h2 class="uppercase mb20 text-center color-primary">The Program</h2>
-			</div>
-			<div class="row">
-				<div class="col-md-5 col-md-offset-1 campus-card">
-					<h3 class="uppercase mb16 text-center color-primary">Rewards</h3>
-					<img src="/assets/images/campus-whatyouget.jpg" alt="" />
-					<ul>
-						<li><strong>HUGE CASH INCENTIVES!</strong></li>
-						<li>Exclusive merchandise</li>
-						<li>Attractive discounts coupons</li>
-						<li>Free early access passes for all events</li>
-						<li>Special interaction sessions</li>
-						<li>Referral rewards</li>
-						<li>Internship (work experience) certificate</li>
-						<li>And a lot more!</li>
-					</ul>
-				</div>
-				<div class="col-md-5 col-md-offset-1 campus-card">
-					<h3 class="uppercase mb16 text-center color-primary">Responsibilites</h3>
-					<img src="/assets/images/campus-whatyoudo.jpg" alt="" />
-					<ul>
-						<li>Promote CB courses and online platforms</li>
-						<li>Clear doubts regarding CB</li>
-						<li>Help CB with on-ground and social branding</li>
-						<li>Maintain relevant databases for leads</li>
-						<li>Conduct workshops, meet-ups, and events</li>
-						<li>Connect CB with the college placement cell</li>
-						<li>Connect CB with teams of various college fests</li>
-						<li><strong>Innovative ideas welcome!</strong></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="bg-dark">
-		<div class="container">
-			<div class="row">
-				<h2 id="register" class="uppercase mb20 text-center color-primary">Register</h2>
-			</div>
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<form id="ca-form" onsubmit="save_data()" action="https://cbemail.herokuapp.com/campus" method="POST" data-success="Thank you for signing up. We will get in touch with you shortly." data-error="Please fill all fields correctly.">
-						<input type="text" required name="name" placeholder="Name (Required)" />
-						<input type="text" required name="phone" placeholder="Phone Number (Exactly 10 Digits) (Required)" pattern="[789][0-9]{9}" />
-						<input type="email" required name="email" placeholder="Email (Required)" />
-						<input type="text" required name="college" placeholder="College (Required)" />
-						<input type="text" required name="state" placeholder="City (Required)" />
-						<input type="text" required name="branch" placeholder="Branch (Required)" />
-						<input type="number" required name="year" placeholder="Year of Graduation (Required)" min="1972" max="2030" />
-
-						<div class="form-group">
-							<div class="row">
-								<div class="col-md-1">
-									<input type="checkbox" value="true" id="vmc_checkbox" name="ex_vmc">
-								</div>
-								<div class="col-md-9">
-									<label for="vmc_checkbox">Are you an ex-VMC student?</label>
-								</div>
-							</div>
+	<div id="objective-card">
+		<section class="outer-section">
+			<div style="padding: 10px 0;">
+				<div class="row" style="padding-top: 4rem;">
+					<div class="col-md-5 ">
+						<img style="height: 8rem;margin-left: 2rem;margin-bottom: 6rem;"
+							src="./assets/images/campus/faces.png" />
+						<div class="texts-container">
+							<i class="fa fa-check-circle orange-circle"></i>
+							<h4 class="title-resp">Be the face of coding blocks on your campus</h4>
 						</div>
-
-						<div class="form-group">
-							<div class="row">
-								<div class="col-md-1">
-									<input type="checkbox" value="true" id="cb_checkbox" name="ex_cb">
-								</div>
-								<div class="col-md-9">
-									<label for="cb_checkbox">Are you an ex-Coding Blocks student?</label>
-								</div>
-							</div>
+						<hr />
+						<div class="texts-container">
+							<i class="fa fa-check-circle orange-circle"></i>
+							<h4 class="title-resp">Conduct workshops, webinars and hackathons</h4>
 						</div>
-
-						<input type="url" required name="facebook_url" placeholder="Link to your Facebook profile (Required)" />
-						<textarea name="other_profiles" placeholder="Any other profiles? (Github/LinkedIn/Twitter)" rows="5"></textarea>
-
-						<textarea name="better_fit" placeholder="Why do you think you will be a better fit for this opportunity, as compared to your college mates?" rows="5"></textarea>
-						<textarea name="marketing_idea" placeholder="Suggest one unique idea to spread the presence of Coding Blocks in your college, apart from the ones mentioned above." rows="5"></textarea>
-						<textarea name="additional_info" placeholder="Any additional information about yourself you want to provide us?" rows="5"></textarea>
-
-					  <div class="g-recaptcha" data-sitekey="6Ldha0sUAAAAADc7aZwm0lJRamTVadFKIpiy90Qi"></div>
-					  <button id="form" type="submit">Sign Up</button>
-					</form>
-                                        <label class="display-none" id="success">Form Submitted Sucessfully.</label>
-                                        <label class="display-none" id="error">Error Submitting Form.</label>
-										<label class="display-none" id="emailError">You have already submitted the form.</label>
+						<hr />
+						<div class="texts-container">
+							<i class="fa fa-check-circle orange-circle"></i>
+							<h4 class="title-resp">Conduct online coding contests using hackerblocks</h4>
+						</div>
+						<hr />
+						<div class="texts-container">
+							<i class="fa fa-check-circle orange-circle"></i>
+							<h4 class="title-resp">Create an active community</h4>
+						</div>
+						<hr />
+						<div class="texts-container">
+							<i class="fa fa-check-circle orange-circle"></i>
+							<h4 class="title-resp">Promote our platform and courses</h4>
+						</div>
+						<hr />
+					</div>
+					<div class="col-md-5 col-md-offset-1">
+						<h1 class="title-heading">Objective of this program</h1>
+						<p class="text-muted generic-para">
+							Campus Superheros are the face of Coding Blocks at their college
+							campuses who help their peers get access to the best tech
+							education. Our Superheros community helps students learn lifelong
+							transferable skills, develop as future leaders, and help their
+							peers in college gain high-quality technical skills.
+						</p>
+						<img style="margin-left: 5rem;margin-top: 3rem;width: 96%;"
+							src="./assets/images/campus/objective.png" />
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<section class="outer-section">
+		<h1 class="title-heading">Selection Process</h1>
+		<p class="text-muted generic-para ">
+			The Campus Ambassador program at Coding Blocks is aimed at identifying
+			energetic,<br />
+			passionate, brilliant, like minded College Superheroes
+		</p>
+		<div class="row " style="padding-top: 4rem;">
+			<div class="col-md-2-1  campus-card card-outer">
+				<h4 class="selection-title">Application</h4>
+				<span class="selection-card-content">Detailed application, will take 5-10 minutes.</span>
+			</div>
+			<div class="col-md-2-1  campus-card card-outer">
+				<h4 class="selection-title">Interview</h4>
+				<span class="selection-card-content">Interview with our community team.</span>
+			</div>
+			<div class="col-md-2-1 campus-card card-outer">
+				<h4 class="selection-title">Onboarding</h4>
+				<span class="selection-card-content">Selected on quarterly basis.</span>
+			</div>
+			<div class="col-md-2-1  campus-card card-outer">
+				<h4 class="selection-title">Meetups</h4>
+				<span class="selection-card-content">The Campus Ambassador program.</span>
+			</div>
+		</div>
+	</section>
+	<section class="outer-section">
+		<div style="padding: 10px 0;">
+			<div style="color: white;">
+				<h1 class="title-heading">Roles &amp; Responsibilities</h1>
+				<p class="text-muted generic-para">
+					The Campus Ambassador program at Coding Blocks is aimed at
+					identifying <br class="hide-small" />energetic, passionate,
+					brilliant, like minded College Superheroes ( Need )
+				</p>
+			</div>
+			<div class="row" style="padding-top: 4rem;">
+				<div class="col-md-5  campus-card">
+					<div class="texts-container">
+						<i class="fa fa-check-circle orange-circle"></i>
+						<h4 class="title-resp">Be the face of coding blocks on your campus</h4>
+					</div>
+					<hr />
+					<div class="texts-container">
+						<i class="fa fa-check-circle orange-circle"></i>
+						<h4 class="title-resp">Conduct workshops, webinars and hackathons</h4>
+					</div>
+					<hr />
+					<div class="texts-container">
+						<i class="fa fa-check-circle orange-circle"></i>
+						<h4 class="title-resp">Conduct online coding contests using hackerblocks</h4>
+					</div>
+					<hr />
+					<div class="texts-container">
+						<i class="fa fa-check-circle orange-circle"></i>
+						<h4 class="title-resp">Create an active community</h4>
+					</div>
+					<hr />
+				</div>
+				<div class="col-md-5 col-md-offset-1 campus-card">
+					<div class="texts-container">
+						<i class="fa fa-check-circle orange-circle"></i>
+						<h4 class="title-resp">Promote our platform and courses</h4>
+					</div>
+					<hr />
+					<div class="texts-container">
+						<i class="fa fa-check-circle orange-circle"></i>
+						<h4 class="title-resp">Organise Coding Blocks Workshops on campus</h4>
+					</div>
+					<hr />
+					<div class="texts-container">
+						<i class="fa fa-check-circle orange-circle" ></i>
+						<h4 class="title-resp">Conduct Technical Webinars &amp; Hackathons</h4>
+					</div>
+					<hr />
+					<div class="texts-container">
+						<i class="fa fa-check-circle orange-circle"></i>
+						<h4 class="title-resp">Learn &amp; grow with Coding Blocks</h4>
+					</div>
+					<hr />
 				</div>
 			</div>
 		</div>
 	</section>
+	<section style="background-color:#1f212c;">
+		<div class="rewards-sub">
+			<div class="rewards-sub-header">
+				<div>
+					<h1 class="title-heading">
+						<span style="position: relative;font-weight:800">Superhero <img class="underline-img"
+								src="./assets/images/campus/underline.png" /></span>Benefits
+					</h1>
+					<br>
+					<p class="text-muted generic-para">
+						The Campus Ambassador program at Coding Blocks is aimed at
+						identifying <br />energetic, passionate, brilliant, like minded
+						College Superheroes ( Need )
+					</p>
+				</div>
+				<img style="max-height: 14rem;" src="./assets/images/campus/gift.png" />
+			</div>
+			<div class="reward-cards-grid">
+				<div class="reward-card">
+					<img style="max-height: 4em;" src="./assets/images/campus/generic.jpg" />
+					<h4 class="title-resp">Earn Goodies &amp; Cash Rewards (Performance based)</h4>
+				</div>
+				<div class="reward-card">
+					<img style="max-height: 4em;" src="./assets/images/campus/generic.jpg" />
+					<h4 class="title-resp">Access to exclusive mentorship sessions</h4>
+				</div>
+				<div class="reward-card">
+					<img style="max-height: 4em;" src="./assets/images/campus/generic.jpg" />
+					<h4 class="title-resp">Opportunity to participate in our placement drive</h4>
+				</div>
+				<div class="reward-card">
+					<img style="max-height: 4em;" src="./assets/images/campus/generic.jpg" />
+					<h4 class="title-resp">Opportunity to be a part of the Coding Blocks Team</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="outer-section">
+		<div style="padding: 10px 0;">
+			<h1 class="title-heading" style="text-align:center">What our Superheroes say</h1>
 
-	{{> map}}
+			<div class="row" style="padding-top: 4rem;">
+				<div class="col-md-5 campus-card" style="background-color:#1f212c;">
+					<div class="speaker">
+						<img src="./assets/images/campus/akshay.png" class="avatar" />
+						<span class="superheros-name">Akshay Kumar
+							Singh</span>
+					</div>
+					<div class="texts-container">
+						<h4 class="selection-card-content">The work is diverse which keeps it interesting and fun, from
+							spreading awareness to conducting events. It helped me develop a great skill set and grow a
+							good network of like-minded individuals. The work is easily manageable and one can make use
+							of the free time in college to earn some extra cash! For me, working as a Campus Superhero
+							was all about spreading awareness about good opportunities. I would encourage anyone who
+							likes meeting new people to apply for this role.</h4>
+					</div>
+				</div>
+				<div class="col-md-5 col-md-offset-1 campus-card" style="background-color:#1f212c;">
+					<div class="speaker">
+						<img src="./assets/images/campus/sharannyo.png" class="avatar" />
+						<span class="superheros-name">Sharannyo Basu</span>
+
+					</div>
+					<div class="texts-container">
+						<h4 class="selection-card-content">The Coding Blocks SuperHero program has paved the way for me
+							to explore newer things in the community space. It was a wholesome collaborative learning
+							experience and I have nothing but a handful of fond memories to look back at.<br />My
+							mentor, Sohail Pathan had been very supportive from the word go and backed me to think and
+							implement out of the box ideas</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section style="background-color:#1f212c;">
+		<div class="rewards-sub">
+			<div class="rewards-sub-header">
+				<div>
+					<h1 class="title-heading">
+						<span style="position: relative;font-weight:800">Superhero <img class="underline-img"
+								src="./assets/images/campus/underline.png" /></span>of the Month
+					</h1>
+					<br>
+				</div>
+				<img style="max-height: 10rem;" src="./assets/images/campus/superman.png" />
+			</div>
+			<div class="month-cards-grid">
+				<img style="max-height: 24rem;" src="./assets/images/campus/month.png" />
+				<div class="month-info">
+					<h1 class="title-heading">Saksham Jain</h1>
+					<p class="text-muted " style="margin-top:-1.8rem;font-size: 1.3rem;font-weight:400">Delhi
+						Technological University, Delhi</p>
+					<p style="font-size: 1.4rem;">
+						I started working as a Campus Superhero in my 2nd year &amp; the experience was nothing less
+						than incredible for me. As I was a student of Coding Blocks myself, it was easier for me to make
+						others aware of the initiative and share my true experience. As a Campus SuperHero, we got to
+						meet many new people and got the opportunity to learn from their experiences. The role gave us
+						the opportunity to organize workshops, conduct events, and develop leadership skills. The role
+						is not burdensome and can be easily handled with college. As Campus Superheroes, we also get
+						swags and many more benefits from CB. If you want to grow and develop skills, CB Campus
+						SuperHero is the best place for it.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="outer-section" style="background-color: #15161e;">
+		<div style="padding: 10px 0;">
+			<h1 class="title-heading" style="text-align:center;">Blog from Superheroes</h1>
+			<div class="row" style="padding-top: 3rem;margin:0rem 5rem">
+				{{> slider}}
+			</div>
+		</div>
+	</section>
+	<section style="background-color: #15161e;">
+		<div class="journey">
+			<div class="left">
+				<img style="max-height: 12rem;margin-top: 1rem;" src="./assets/images/campus/journey.png" />
+				<h1 style="margin-left: 1.5rem; font-weight: 800; line-height: 2.75rem;font-size: 2rem;">
+					Start Your Journey as a Campus<br />
+					Superhero Now!
+				</h1>
+			</div>
+			<div class="right">
+				<button class="apply-btn">Apply Now</button>
+				<p>*Only for college students</p>
+			</div>
+		</div>
+	</section>
+	<section style="background-color: #15161e ;">
+		<div class="rewards-sub">
+			<div class="rewards-sub-header">
+				<div>
+					<h1 class="title-heading">
+						Join our Community
+					</h1>
+					<br>
+					<p class="text-muted" style="font-size: 1.3rem;font-weight:500">
+						The Campus Ambassador program at Coding Blocks is aimed at
+						identifying energetic, passionate, brilliant, like minded College
+						SuperheroesThe Campus Ambassador program at Coding Blocks is aimed
+						at identifying energetic.
+					</p>
+					<p class="text-muted" style="font-size: 1.3rem;font-weight:500">Join us on Telegram and Discord</p>
+					<a href="http://cb.lk/discord" target="_blank" rel="noopener noreferrer"><img
+							class="social-media-img" src="./assets/images/campus/discord.png" /></a>
+					<a href="http://cb.lk/telegram" target="_blank" rel="noopener noreferrer">
+						<img class="social-media-img"
+							src="./assets/images/campus/telegram.png" /></a>
+				</div>
+				<img style="max-height: 25rem;margin-left:4rem" src="./assets/images/campus/community.png" />
+			</div>
+		</div>
+	</section>
 	{{> footer}}
 </div>
 {{> scripts}}
