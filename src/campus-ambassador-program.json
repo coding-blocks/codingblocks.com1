@@ -10,6 +10,68 @@
       "content": ""
     }
   ],
+  "slides": [
+    {
+      "imgSrc": "/assets/images/campus/journey.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://medium.com/coding-blocks/my-journey-so-far-with-coding-blocks-7e0aafe9be78",
+          "text": "Explore Now",
+          "color" : "#000000",
+          "buttonColor":"#F7BA44",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/assets/images/campus/how-to-become.jpeg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://medium.com/coding-blocks/the-journey-from-question-to-superhero-at-coding-block-4adec83ba95c",
+          "text": "Explore Now",
+          "color" : "#000000",
+          "buttonColor":"#F7BA44",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc":"/assets/images/campus/real-life.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://blog.codingblocks.com/2019/what-it-means-to-be-a-superhero-in-real-life/",
+          "text": "Explore Now",
+          "color" : "#000000",
+          "buttonColor":"#F7BA44",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc":"/assets/images/campus/coderush.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://medium.com/coding-blocks/coderush-96dd82f60f49",
+          "text": "Explore Now",
+          "color" : "#000000",
+          "buttonColor":"#F7BA44",
+          "filled": "true"
+        }
+      ]
+    }
+  ],
   "openGraph": {
     "url": "https://codingblocks.com/campus-ambassador-program.html",
     "title": "Coding Blocks Campus Ambassador Program",
