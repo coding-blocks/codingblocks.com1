@@ -12,11 +12,11 @@
 	}
 	
 	.outer-section{
-		padding: 3rem 6rem;
+		padding: 3rem 4rem;
 		background-color: #15161e;
 	}
 	.title-heading{
-		font-size: 3rem; 
+		font-size: 2.8rem; 
 		color:white;
 		font-weight:800
 	}
@@ -48,9 +48,17 @@
 		font-size: 1.3rem;
 		font-weight: 700;
 	}
+	.title-reward{
+		color: white;
+		margin-left: 0.5rem;
+		font-size: 1.3rem;
+		font-weight: 700;
+
+	}
 	.card-outer{
 		background-color: #1f212c;
-		margin-right: 1em;
+		margin-right: 1rem;
+		margin-top: 1rem;
 	}
 	.selection-title {
 		font-weight: 700;
@@ -88,8 +96,8 @@
 	.reward-cards-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		column-gap: 20px;
-		row-gap: 20px;
+		column-gap: 2rem;
+		row-gap: 2rem;
 		grid-auto-rows: 1fr;
 		margin-bottom: 5rem;
 	}
@@ -99,7 +107,7 @@
 		display: flex;
 		background-color: #15161e;
 		border-radius: 0.6rem;
-		padding: 2.5rem 3rem;
+		padding: 2.5rem 2.5rem;
 		color: white;
 	}
 
@@ -121,10 +129,10 @@
 		font-weight:700
 	}
 	.month-cards-grid {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 6rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 6rem;
 	}
 	.month-info {
         margin-left: 6rem;
@@ -135,18 +143,13 @@
 	 }
 	.journey {
 		background: linear-gradient(180deg, #ff5c15 0%, #ff7134 100%);
-		display: flex;
-		margin: 0rem 6rem;
-		padding: 0rem 4rem;
-		align-items: center;
-		justify-content: space-between;
 		color: white;
-		border-radius: 1rem;
+		border-radius: 1em;
 	}
-	.journey .left {
-      display: flex;
-      align-items: center;
-      font-size: 1.25rem;
+	 .left-journey {
+		display: flex;
+		align-items: center;
+		font-size: 1.25rem;
 	}
 	.apply-btn{
 		background: white;
@@ -317,7 +320,7 @@
 					</div>
 					<hr />
 					<div class="texts-container">
-						<i class="fa fa-check-circle orange-circle" ></i>
+						<i class="fa fa-check-circle orange-circle"></i>
 						<h4 class="title-resp">Conduct Technical Webinars &amp; Hackathons</h4>
 					</div>
 					<hr />
@@ -330,10 +333,10 @@
 			</div>
 		</div>
 	</section>
-	<section style="background-color:#1f212c;">
-		<div class="rewards-sub">
-			<div class="rewards-sub-header">
-				<div>
+	<section class="outer-section" style="background-color:#1f212c;">
+		<div style="padding: 5px 0;">
+			<div class="row" style="padding-top: 4rem;">
+				<div class="col-md-5">
 					<h1 class="title-heading">
 						<span style="position: relative;font-weight:800">Superhero <img class="underline-img"
 								src="./assets/images/campus/underline.png" /></span>Benefits
@@ -345,24 +348,28 @@
 						College Superheroes ( Need )
 					</p>
 				</div>
-				<img style="max-height: 14rem;" src="./assets/images/campus/gift.png" />
+				<div class="col-md-5 col-md-offset-2">
+					<img style="margin-left:1rem;max-height: 12rem;" src="./assets/images/campus/gift.png" />
+				</div>
 			</div>
-			<div class="reward-cards-grid">
-				<div class="reward-card">
-					<img style="max-height: 4em;" src="./assets/images/campus/generic.jpg" />
-					<h4 class="title-resp">Earn Goodies &amp; Cash Rewards (Performance based)</h4>
-				</div>
-				<div class="reward-card">
-					<img style="max-height: 4em;" src="./assets/images/campus/generic.jpg" />
-					<h4 class="title-resp">Access to exclusive mentorship sessions</h4>
-				</div>
-				<div class="reward-card">
-					<img style="max-height: 4em;" src="./assets/images/campus/generic.jpg" />
-					<h4 class="title-resp">Opportunity to participate in our placement drive</h4>
-				</div>
-				<div class="reward-card">
-					<img style="max-height: 4em;" src="./assets/images/campus/generic.jpg" />
-					<h4 class="title-resp">Opportunity to be a part of the Coding Blocks Team</h4>
+			<div class="col-md-12" style="padding-top: 4rem;">
+				<div class="reward-cards-grid">
+					<div class="reward-card">
+						<img style="max-height: 2em;" class="img-responsive" src="./assets/images/campus/generic.jpg" />
+						<h4 class="title-reward">Earn Goodies &amp; Cash Rewards (Performance based)</h4>
+					</div>
+					<div class="reward-card">
+						<img style="max-height: 2em;" class="img-responsive" src="./assets/images/campus/generic.jpg" />
+						<h4 class="title-reward">Access to exclusive mentorship sessions</h4>
+					</div>
+					<div class="reward-card">
+						<img style="max-height: 2em;" class="img-responsive" src="./assets/images/campus/generic.jpg" />
+						<h4 class="title-reward">Opportunity to participate in our placement drive</h4>
+					</div>
+					<div class="reward-card">
+						<img style="max-height: 2em;" class="img-responsive" src="./assets/images/campus/generic.jpg" />
+						<h4 class="title-reward">Opportunity to be a part of the Coding Blocks Team</h4>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -372,7 +379,7 @@
 			<h1 class="title-heading" style="text-align:center">What our Superheroes say</h1>
 
 			<div class="row" style="padding-top: 4rem;">
-				<div class="col-md-5 campus-card" style="background-color:#1f212c;">
+				<div class="col-md-5 campus-card card-outer" style="background-color:#1f212c;">
 					<div class="speaker">
 						<img src="./assets/images/campus/akshay.png" class="avatar" />
 						<span class="superheros-name">Akshay Kumar
@@ -387,7 +394,7 @@
 							likes meeting new people to apply for this role.</h4>
 					</div>
 				</div>
-				<div class="col-md-5 col-md-offset-1 campus-card" style="background-color:#1f212c;">
+				<div class="col-md-5 col-md-offset-1 campus-card card-outer " style="background-color:#1f212c;">
 					<div class="speaker">
 						<img src="./assets/images/campus/sharannyo.png" class="avatar" />
 						<span class="superheros-name">Sharannyo Basu</span>
@@ -416,9 +423,11 @@
 				</div>
 				<img style="max-height: 10rem;" src="./assets/images/campus/superman.png" />
 			</div>
-			<div class="month-cards-grid">
-				<img style="max-height: 24rem;" src="./assets/images/campus/month.png" />
-				<div class="month-info">
+			<div class="row" style="padding-top: 4rem;">
+				<div class="col-md-5">
+					<img style="max-height: 28rem;" src="./assets/images/campus/month.png" />
+				</div>
+				<div class="col-md-5">
 					<h1 class="title-heading">Saksham Jain</h1>
 					<p class="text-muted " style="margin-top:-1.8rem;font-size: 1.3rem;font-weight:400">Delhi
 						Technological University, Delhi</p>
@@ -444,43 +453,54 @@
 			</div>
 		</div>
 	</section>
-	<section style="background-color: #15161e;">
-		<div class="journey">
-			<div class="left">
-				<img style="max-height: 12rem;margin-top: 1rem;" src="./assets/images/campus/journey.png" />
-				<h1 style="margin-left: 1.5rem; font-weight: 800; line-height: 2.75rem;font-size: 2rem;">
-					Start Your Journey as a Campus<br />
-					Superhero Now!
-				</h1>
-			</div>
-			<div class="right">
-				<button class="apply-btn">Apply Now</button>
-				<p>*Only for college students</p>
+	<section class="outer-section" style="background-color: #15161e;">
+		<div style="padding: 10px 0;">
+			<div class="row journey">
+				<div class="col-md-5 ">
+					<div class="left-journey">
+						<img style=" max-height: 12rem;margin-left:1em" src="./assets/images/campus/journey.png" />
+						<h1 style="margin-left: 1rem; font-weight: 800; line-height: 2.75rem;font-size: 1.5rem;">
+							Start Your Journey as a Campus
+							Super Hero Now!
+						</h1>
+					</div>
+				</div>
+				<div class="col-md-5-1 col-md-offset-2 ">
+					<a target="_blank" href="https://forms.gle/CWoWx8AHyw4Hn9fY8">
+						<button style="margin-top: 1em; margin-left:10em" class="apply-btn">Apply Now</button>
+					</a>
+					<p style="margin-left:10em">*Only for college students</p>
+				</div>
 			</div>
 		</div>
 	</section>
 	<section style="background-color: #15161e ;">
 		<div class="rewards-sub">
 			<div class="rewards-sub-header">
-				<div>
-					<h1 class="title-heading">
-						Join our Community
-					</h1>
-					<br>
-					<p class="text-muted" style="font-size: 1.3rem;font-weight:500">
-						The Campus Ambassador program at Coding Blocks is aimed at
-						identifying energetic, passionate, brilliant, like minded College
-						SuperheroesThe Campus Ambassador program at Coding Blocks is aimed
-						at identifying energetic.
-					</p>
-					<p class="text-muted" style="font-size: 1.3rem;font-weight:500">Join us on Telegram and Discord</p>
-					<a href="http://cb.lk/discord" target="_blank" rel="noopener noreferrer"><img
-							class="social-media-img" src="./assets/images/campus/discord.png" /></a>
-					<a href="http://cb.lk/telegram" target="_blank" rel="noopener noreferrer">
-						<img class="social-media-img"
-							src="./assets/images/campus/telegram.png" /></a>
+				<div class="row" style="padding-top: 4rem;">
+					<div class="col-md-5">
+						<h1 class="title-heading">
+							Join our Community
+						</h1>
+						<br>
+						<p class="text-muted" style="font-size: 1.3rem;font-weight:500">
+							The Campus Ambassador program at Coding Blocks is aimed at
+							identifying energetic, passionate, brilliant, like minded College
+							SuperheroesThe Campus Ambassador program at Coding Blocks is aimed
+							at identifying energetic.
+						</p>
+						<p class="text-muted" style="font-size: 1.3rem;font-weight:500">Join us on Telegram and Discord
+						</p>
+						<a href="http://cb.lk/discord" target="_blank" rel="noopener noreferrer"><img
+								class="social-media-img" src="./assets/images/campus/discord.png" /></a>
+						<a href="http://cb.lk/telegram" target="_blank" rel="noopener noreferrer">
+							<img class="social-media-img" src="./assets/images/campus/telegram.png" /></a>
+					</div>
+					<div class="col-md-5 col-md-offset-1">
+						<img style="max-height: 25rem;;4rem" src="./assets/images/campus/community.png" />
+					</div>
 				</div>
-				<img style="max-height: 25rem;margin-left:4rem" src="./assets/images/campus/community.png" />
+
 			</div>
 		</div>
 	</section>
