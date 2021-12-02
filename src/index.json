@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/mosina%20maam%20meetup.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/noida",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#372E43",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/kartik%20bhaiya%204th.png",
       "imgAlt": "",
       "heading": "",
