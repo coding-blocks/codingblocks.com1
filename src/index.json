@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Mailer%20%284%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses/competitive-programming-course-online",
+          "text": "Enroll Now",
+          "color" : "#000000",
+          "buttonColor":"#000000",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/mosina%20maam%20meetup.png",
       "imgAlt": "",
       "heading": "",
