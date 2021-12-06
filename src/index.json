@@ -28,31 +28,16 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/kartik%20bhaiya%204th.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/GSoC.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/classroom-program/c-plus-plus-for-beginners.html",
+          "link": "https://lu.ma/gsoc",
           "text": "Register Now",
           "color" : "#000000",
-          "buttonColor":"#372E43",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-classes.html",
-          "text": "Enroll Now",
-          "color" : "#14171E",
-          "buttonColor":"#F39A5C",
+          "buttonColor":"#142D33",
           "filled": "true"
         }
       ]
