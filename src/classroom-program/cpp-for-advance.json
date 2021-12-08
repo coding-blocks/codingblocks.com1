@@ -167,6 +167,18 @@
         "runcode": "APND21NOV",
         "product_id": 6806,
         "location": "Noida",
+        "price": "8999"
+      },
+      {
+        "course": "Algo++, B1",
+        "timings": "3:00PM-7:00PM",
+        "mentor": "Kartik Mathur",
+        "strength": 35,
+        "days": "Sat, Sun",
+        "start_date": "9th Jan 2022",
+        "runcode": "APND21NOV",
+        "product_id": 7301,
+        "location": "Pitampura",
         "price": "11999"
       }
   ],
