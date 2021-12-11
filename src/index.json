@@ -45,21 +45,6 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/GSoC.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/gsoc",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#142D33",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/banner-1.1.jpg",
       "imgAlt": "",
       "heading": "",
