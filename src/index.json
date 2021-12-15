@@ -28,16 +28,16 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/mosina%20maam%20meetup.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%285%29.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://lu.ma/noida",
+          "link": "https://lu.ma/noida19",
           "text": "Register Now",
           "color" : "#000000",
-          "buttonColor":"#372E43",
+          "buttonColor":"#D1D1D1",
           "filled": "true"
         }
       ]
