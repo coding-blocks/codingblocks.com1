@@ -81,13 +81,13 @@
       "interactiveClasses": "45 Live Interactive Classes",
       "codingProblems": "200-300 hands on coding problems",
       "projects": "5 Projects",
-      "classSchedule": "Monday, Wednesday, Friday",
+      "classSchedule": "Tuesday, Wednesday, Friday",
       "price": "7,999",
       "slashedPrice": "15,999",
-      "startDate": "6th Dec 2021",
+      "startDate": "28th Jan 2022",
       "badge": "Beginner",
       "gradient": "bg-gradient-purple",
-      "batchmonth" :"Dec Batch"
+      "batchmonth" :"January Batch"
     },
     {
       "name": "Master Algo++",

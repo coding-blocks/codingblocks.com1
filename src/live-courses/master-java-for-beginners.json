@@ -28,11 +28,11 @@
     "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
     "title": "Master DS and Algo with Java",
     "price": "7,999",
-    "slashedPrice": "15,999",
+    "slashedPrice":"15,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=7327",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Monu Kumar",
-    "mentorImg": "https://images.codingblocks.com/img/mentor/Lakshay%20Singh.png",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Monu.png",
     "description": "Start from Basics, become a Java Master!",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=7327",
     "startDate": "28th Jan 2022",
@@ -46,7 +46,7 @@
       "name": "Monu Kumar",
       "email": "monu.kumar@codingblocks.com",
       "profile_pic_link": "https://images.codingblocks.com/img/mentor/Monu.png",
-      "summary": "Monu Kumar is a competitive programmer, an expert in data structures and algorithms, and an expert in Mathematics. He always amazes his students with his creative thinking to the problems and makes solutions to tough problems a cake walk. He has a strong grasp on the core subjects of computer science",
+      "summary": "Monu Kumar is a competitive programmer, an expert in data structures and algorithms, and an expert in Mathematics. He always amazes his students with his creative thinking to the problems and makes solutions to tough problems a cake walk. He has a strong grasp on the core subjects of computer science.",
       "designation": "Mentor",
       "highlights": null
     }
