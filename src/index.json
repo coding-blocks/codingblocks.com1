@@ -13,21 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/WIn%20ext.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Explore Now",
-          "color" : "#000000",
-          "buttonColor":"#154460",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%285%29.png",
       "imgAlt": "",
       "heading": "",
