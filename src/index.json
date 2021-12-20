@@ -13,16 +13,16 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%285%29.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Mosina%20mam%2026%20.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://lu.ma/noida19",
-          "text": "Register Now",
+          "link": "https://codingblocks.com/classroom-program/c-plus-plus-for-beginners.html",
+          "text": "Enroll Now",
           "color" : "#000000",
-          "buttonColor":"#164460",
+          "buttonColor":"#6347A6",
           "filled": "true"
         }
       ]
