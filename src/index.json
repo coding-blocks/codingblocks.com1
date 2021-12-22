@@ -13,6 +13,23 @@
 
   "slides": [
     {
+      "imgSrc": "",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "type": "video",
+      "videoUrl":"https://images.codingblocks.com/img/WebsiteBanners/December%20sale%20Web%20Banner.mp4",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Buy Now",
+          "color" : "#000000",
+          "buttonColor":"#5B6B86",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Mosina%20mam%2026%20.png",
       "imgAlt": "",
       "heading": "",
