@@ -30,16 +30,16 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Mosina%20mam%2026%20.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/classroom-program/c-plus-plus-for-beginners.html",
+          "link": "https://codingblocks.com/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
           "text": "Enroll Now",
           "color" : "#000000",
-          "buttonColor":"#6347A6",
+          "buttonColor":"#D93864",
           "filled": "true"
         }
       ]
