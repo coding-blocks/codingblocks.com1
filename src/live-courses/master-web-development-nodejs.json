@@ -34,7 +34,7 @@
     "course-link": "https://dukaan.codingblocks.com/buy?productId=2039",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Sabeel Khan",
-    "mentorImg": "https://minio.cb.lk/public/sabeel-khan.jpeg",
+    "mentorImg": "https://minio.codingblocks.com/public/sabeel-khan.jpeg",
     "description": "Learn building servers with NodeJS including MySQL, MongoDB, OAuth and WebSockets",
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
     "mentor-img-2": "https://minio.codingblocks.com/amoeba/e44da84c-cfc2-482b-8ff1-c99b5e548fd9",
@@ -49,7 +49,7 @@
   "aboutMentor": [
     {
       "name": "Sabeel Khan",
-      "profile_pic_link": "https://minio.cb.lk/public/sabeel-khan.jpeg",
+      "profile_pic_link": "https://minio.codingblocks.com/public/sabeel-khan.jpeg",
       "summary": "Sabeel is a CS Graduate from JMI.A competitive programmar, with an undying passion for teaching.He is proficient with C++ and Web Development related technologies like HTML, CSS, Javascript,NodeJS along with Python development.Web Series lover and always ready to explore new appetizing food.",
       "email": "sabeelkhan@codingblocks.com"
     }

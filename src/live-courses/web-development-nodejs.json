@@ -21,7 +21,7 @@
   "aboutMentor": [
     {
       "name": "Sabeel Khan",
-      "profile_pic_link": "https://minio.cb.lk/public/sabeel-khan.jpeg",
+      "profile_pic_link": "https://minio.codingblocks.com/public/sabeel-khan.jpeg",
       "summary": "Sabeel is a CS Graduate from JMI.A competitive programmar, with an undying passion for teaching.He is proficient with C++ and Web Development related technologies like HTML, CSS, Javascript,NodeJS along with Python development.Web Series lover and always ready to explore new appetizing food.",
       "email": "sabeel.khan@codingblocks.com"
     }
@@ -40,7 +40,7 @@
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Sabeel Khan",
     "description": "Learn building both backends and frontends with Javascript",
-    "mentor-img-1": "https://minio.cb.lk/public/sabeel-khan.jpeg",
+    "mentor-img-1": "https://minio.codingblocks.com/public/sabeel-khan.jpeg",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=5209",
     "startDate": "28th Feb"
   },
