@@ -13,18 +13,16 @@
 
   "slides": [
     {
-      "imgSrc": "",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%281%29.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
-      "type": "video",
-      "videoUrl":"https://images.codingblocks.com/img/WebsiteBanners/December%20sale%20Web%20Banner.mp4",
       "button": [
         {
           "link": "https://online.codingblocks.com/courses",
-          "text": "Buy Now",
+          "text": "Enroll Now",
           "color" : "#000000",
-          "buttonColor":"#FBB85F",
+          "buttonColor":"#35353F",
           "filled": "true"
         }
       ]
