@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20banner1.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://cb.lk/cses",
+          "text": "Explore Now",
+          "color" : "#000000",
+          "buttonColor":"#FFBA06",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Java%20Crux%20Demo_0901_WB.png",
       "imgAlt": "",
       "heading": "",
