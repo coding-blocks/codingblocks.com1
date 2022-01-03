@@ -28,6 +28,21 @@
       ]
     },
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%283%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/master-java-for-beginners.html",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#35353F",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner.jpg",
       "imgAlt": "",
       "heading": "",
