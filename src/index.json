@@ -13,14 +13,14 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%281%29.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Java%20Crux%20Demo_0901_WB.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Enroll Now",
+          "link": "https://lu.ma/demomonu",
+          "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#35353F",
           "filled": "true"
