@@ -86,20 +86,6 @@
         }
       ]
     },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/generic%20banner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-classes.html",
-          "text": "Explore LIVE Courses",
-          "buttonColor":"#ab742b",
-          "filled": "true"
-        }
-      ]
-    }
   ],
   "events": {
     "upcoming": true,
