@@ -13,16 +13,31 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20banner1.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ITP.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://cb.lk/cses",
-          "text": "Explore Now",
+          "link": "https://codingblocks.com/classroom-program/industrial-training-program.html",
+          "text": "Enroll Now",
           "color" : "#000000",
-          "buttonColor":"#FFBA06",
+          "buttonColor":"#1A1C25",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Illuminati.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program/illuminati-batch.html",
+          "text": "Enroll Now",
+          "color" : "#000000",
+          "buttonColor":"#1E5E7C",
           "filled": "true"
         }
       ]
@@ -51,21 +66,6 @@
         {
           "link": "https://codingblocks.com/live-courses/master-java-for-beginners.html",
           "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#35353F",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
-          "text": "Enroll Now",
           "color" : "#000000",
           "buttonColor":"#35353F",
           "filled": "true"
