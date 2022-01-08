@@ -70,8 +70,56 @@
     {{> navbar}}
     <div class="main-container">
         {{> slider}}
+            <section>
+        <div class="a-cbm mt-10" style="margin-top: 5%;">
+        <div class="events-page-landing">
+            <div class="events-page-landing__section events-page-landing__section--floating-section">
+            <div class="floating-section">
+                <a id="register-advance" class="in-page-link"></a>
+                <div class="col-sm-12 text-center mt10">
+                    <h1 class="uppercase mt-16 mb-90 centre">Live Courses</h1><br>
+                    {{!-- <div class="t-align-c mb-90 bold">Batches Starting from 24th May'21</div> --}}
+                </div>
+                <div class="row justify-content-center">
+                 {{>liveCourseCards}}
+                <div class="col-sm-10">
+                    <div
+                    class=" br-5 row no-gutters align-items-center justify-content-between bg-gradient-orange-light py-sm-35 py-25 px-md-50 px-sm-40 px-25">
+                    <div class="flex-1">
+                        <div class="font-5 white">
+                        Talk to our expert counsellors to know the perfect path for you
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/Vector+(1).svg">
+                        <button class="button-primary button-primary--white border-none ml-10">9999579111</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+        
         <section>
-<div1 class="a-cbm" style="margin-top: -25px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h1 class="uppercase mb16">Online Courses</h1>
+                        <p class="lead mb64">
+                            The interactive learning for aspiring and experienced developers</p>
+                    </div>
+                </div>
+                {{> coursesRow courses=onlineCoursesRow1}}
+                {{> coursesRow courses=onlineCoursesRow2}}
+                {{> coursesRow courses=onlineCoursesRow3}}
+                {{!-- {{> coursesRow courses=onlineCoursesRow4}} --}}
+            </div>
+        </section>
+               <section>
+<div1 class="a-cbm" style="margin-top: -35px;">
     <div class="classroom-courses-page">
       <div class="container pt-50 pb-25" id="courses">
         <div class="heading-3 bold t-align-c mb-50">Classroom Courses</div>
@@ -228,54 +276,6 @@
       </div>
     </div>
   </div1>     
-        </section>
-            <section>
-        <div class="a-cbm mt-10" style="margin-top: 5%;">
-        <div class="events-page-landing">
-            <div class="events-page-landing__section events-page-landing__section--floating-section">
-            <div class="floating-section">
-                <a id="register-advance" class="in-page-link"></a>
-                <div class="col-sm-12 text-center mt10">
-                    <h1 class="uppercase mt-16 mb-90 centre">Live Courses</h1><br>
-                    {{!-- <div class="t-align-c mb-90 bold">Batches Starting from 24th May'21</div> --}}
-                </div>
-                <div class="row justify-content-center">
-                 {{>liveCourseCards}}
-                <div class="col-sm-10">
-                    <div
-                    class=" br-5 row no-gutters align-items-center justify-content-between bg-gradient-orange-light py-sm-35 py-25 px-md-50 px-sm-40 px-25">
-                    <div class="flex-1">
-                        <div class="font-5 white">
-                        Talk to our expert counsellors to know the perfect path for you
-                        </div>
-                    </div>
-                    <div>
-                        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/Vector+(1).svg">
-                        <button class="button-primary button-primary--white border-none ml-10">9999579111</button>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-    </section>
-        
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <h1 class="uppercase mb16">Online Courses</h1>
-                        <p class="lead mb64">
-                            The interactive learning for aspiring and experienced developers</p>
-                    </div>
-                </div>
-                {{> coursesRow courses=onlineCoursesRow1}}
-                {{> coursesRow courses=onlineCoursesRow2}}
-                {{> coursesRow courses=onlineCoursesRow3}}
-                {{!-- {{> coursesRow courses=onlineCoursesRow4}} --}}
-            </div>
         </section>
 
         {{> numbers}}
