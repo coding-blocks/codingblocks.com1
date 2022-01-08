@@ -86,20 +86,6 @@
           "filled": "true"
         }
       ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/algo.java%20.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
-          "text": "Enroll Now",
-          "buttonColor":"#383861",
-          "filled": "true"
-        }
-      ]
     }
   ],
   "events": {
