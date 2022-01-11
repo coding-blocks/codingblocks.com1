@@ -58,16 +58,16 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Java%20Crux%20Demo_0901_WB.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/demo%2016%3A1%20banner.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://lu.ma/demomonu",
+          "link": "https://lu.ma/demomonu2",
           "text": "Register Now",
           "color" : "#000000",
-          "buttonColor":"#35353F",
+          "buttonColor":"#96999B",
           "filled": "true"
         }
       ]
