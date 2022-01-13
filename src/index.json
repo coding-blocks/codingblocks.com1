@@ -13,7 +13,7 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Jan%20Sale.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/lohri%20web%20banner.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -22,7 +22,7 @@
           "link": "https://online.codingblocks.com/courses",
           "text": "Explore More",
           "color" : "#000000",
-          "buttonColor":"#6630A4",
+          "buttonColor":"#EEB931",
           "filled": "true"
         }
       ]
