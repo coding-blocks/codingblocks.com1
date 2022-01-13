@@ -319,69 +319,37 @@
     "PURUJIT BANSAL"
   ],
   "liveCourseCards": [
-     {
-      "name": "Master DS and Algo with C++",
-      "icon": "https://minio.codingblocks.com/amoeba/efb2d77c-e577-406d-bb8c-f21a9beeb3a9.svg",
-      "link": "/live-courses/master-c-plus-plus-ds-algo.html",
-      "mentors": "Aditya",
-      "interactiveClasses": "47 Live Interactive Classes",
-      "codingProblems": "300+ hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Thursday, Saturday and Sunday",
-      "price": "7,999",
-      "slashedPrice": "15,999",
-      "gradient": "bg-gradient-blue-light",
-      "startDate": "21st Nov 2021",
-      "badge": "Beginner",
-      "batchmonth" :"Nov Batch"
-    },
     {
       "name": "Master DS and Algo with Java",
       "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
       "link": "/live-courses/master-java-for-beginners.html",
-      "mentors": "Lakshay",
+      "mentors": "Monu Kumar",
       "interactiveClasses": "45 Live Interactive Classes",
       "codingProblems": "200-300 hands on coding problems",
       "projects": "5 Projects",
-      "classSchedule": "Monday, Wednesday, Friday",
+      "classSchedule": "Tuesday, Wednesday, Friday",
       "price": "7,999",
       "slashedPrice": "15,999",
-      "startDate": "22nd Nov 2021",
+      "startDate": "28th Jan 2022",
       "badge": "Beginner",
       "gradient": "bg-gradient-purple",
-      "batchmonth" :"Nov Batch"
-    },
-    {
-      "name": "Master Python App Development",
-      "icon": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
-      "link": "/live-courses/master-python-app-dev.html",
-      "mentors": "Princey Yadav",
-      "interactiveClasses": "41 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Mon, Tuesday, Thursday, Friday",
-      "price": "8,999",
-      "slashedPrice": "13,999",
-      "startDate": "25th Oct 2021",
-      "badge": "Beginner",
-      "gradient": "bg-gradient-blue-light",
-      "batchmonth" :"Oct Batch"
+      "batchmonth" :"January Batch"
     },
     {
       "name": "Master Algo++",
       "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
-      "mentors": "Mosina Ashraf",
+      "mentors": "Aditya",
       "interactiveClasses": "34 Live Interactive Classes",
       "codingProblems": "200-300 hands on coding problems",
       "projects": "5 Projects",
-      "classSchedule": "Tuesday, Friday, Sunday",
+      "classSchedule": "Thru,Sat, Sun",
       "price": "6,499",
       "slashedPrice": "12,999",
       "gradient": "bg-gradient-blue-dark",
-      "startDate": "22nd Nov 2021",
+      "startDate": "5th Jan 2022",
       "badge": "Advanced",
-      "batchmonth" :"November Batch"
+      "batchmonth" :"January Batch"
     },
     {
       "name": "Master Algo.Java-Data Structures",
@@ -395,41 +363,9 @@
       "price": "6,499",
       "slashedPrice": "12,999",
       "gradient": "bg-gradient-orange",
-      "startDate": "24th Dec 2021",
+      "startDate": "7th Jan 2022",
       "badge": "Advanced",
-      "batchmonth" :"December Batch"
-    },
-    {
-      "name": "Master Algo++ Dec Batch",
-      "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
-      "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews-dec.html",
-      "mentors": "Aditya",
-      "interactiveClasses": "34 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Thursday, Saturday, Sunday",
-      "price": "6,499",
-      "slashedPrice": "12,999",
-      "gradient": "bg-gradient-blue-dark",
-      "startDate": "23rd Dec 2021",
-      "badge": "Advanced-23rd Dec",
-      "batchmonth" :"December Batch"
-    },
-    {
-      "name": "Master Data Science",
-      "icon": "https://images.codingblocks.com/img/newcourse_logo/ds_white.png",
-      "link": "/live-courses/master-data-science-with-python.html",
-      "mentors": "Princey Yadav",
-      "interactiveClasses": "41 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Tuesday, Friday, Sunday",
-      "price": "13,999",
-      "slashedPrice": "27,999",
-      "gradient": "bg-gradient-green",
-      "startDate": "15th Nov 2021",
-      "badge": "Advanced",
-      "batchmonth" :"November Batch"
+      "batchmonth" :"January Batch"
     }
   ]
 }
