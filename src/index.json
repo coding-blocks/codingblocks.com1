@@ -13,7 +13,7 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Jan%20Sale.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/lohri%20web%20banner.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -22,13 +22,13 @@
           "link": "https://online.codingblocks.com/courses",
           "text": "Explore More",
           "color" : "#000000",
-          "buttonColor":"#6630A4",
+          "buttonColor":"#EEB931",
           "filled": "true"
         }
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ITP.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ITP%20edit.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Illuminati.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Illuminati%20edit.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -58,16 +58,16 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Java%20Crux%20Demo_0901_WB.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/demo%2016%3A1%20banner.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://lu.ma/demomonu",
+          "link": "https://lu.ma/demomonu2",
           "text": "Register Now",
           "color" : "#000000",
-          "buttonColor":"#35353F",
+          "buttonColor":"#96999B",
           "filled": "true"
         }
       ]
