@@ -17,6 +17,18 @@
         height: 80px;
         padding-top: 25px;
     }
+    .form-style{
+      margin-left:18%;
+      width: 70% !important;
+      border-radius: 2rem !important;
+      background-color: #938FFD !important;
+    }
+    .form-btn{
+      margin-left:18%;
+      width: 70% !important;
+      border-radius: 2rem !important;
+      background-color:#A6A5FB !important;
+    }
   </style>
 
   <script>
@@ -155,7 +167,36 @@
               <img src="https://minio.codingblocks.com/public/roadmap-ill.png"  >
             </div>
           </div>
-          
+          <div class="mt-50" style="background-color: #4231d7;border-radius:1rem; width:80%">
+            <div class="col-md-6">
+              <div>
+                <h1 style="color:white;text-align:center">Let's talk</h1>
+                <p style="color: white;text-align:center">
+                  Fill out the form and the counsellor will reach out to help you choose the course that fits your career goals.
+                </p>
+              </div>
+              <form method="post" autocomplete="off" name="google-sheet">
+                  <div >
+                      <input type="text" name="Name" class="form-style" placeholder="Your Name *" value="" required="true"/>
+                  </div>
+                  <div >
+                      <input type="text" name="Email" class="form-style" placeholder="Your Email *" value="" required="true"/>
+                  </div>
+                  <div > 
+                      <input type="number" name="Phone" class="form-style" placeholder="Your Contact Number *" value="" required="true"/>
+                  </div>
+                  <div >
+                      <input type="submit" name="submit" class="btn btn-dark" value="Get a call back" />
+                  </div>
+                 </form>
+              <p style="color: white;text-align:center">
+                By sharing your contact details, you agree to our Privacy Policy and Terms of Service
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img  style="margin-left:23%; margin-top:33%;" src="../assets/images/web-logo.jpg" alt="">
+            </div>
+          </div>
           <div class="mt-50">
             <div class="heading-4 bold mb-50">
               Course Mentor
@@ -431,6 +472,21 @@
     </div>
   </div>
   {{> footer}}
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzYb9z1bC9o52boh-iqXu18Qanq1M09OWiQ9g9xNHw9mZNceqk3KYLU_XB8oKSocIy3/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              alert("Thanks for Contacting us..! We Will Contact You Soon...")
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                  form.reset();
+                }) 
+                .catch(error => console.error('Error!', error.message))
+            })
+              
+  </script>
   {{> scripts}}
 </body>
 
