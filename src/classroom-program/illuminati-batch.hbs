@@ -19,13 +19,15 @@
     }
     .form-style{
       margin-left:18%;
-      width: 70% !important;
+      height: 40%!important;
+      width: 80% !important;
       border-radius: 2rem !important;
       background-color: #938FFD !important;
     }
     .form-btn{
-      margin-left:18%;
-      width: 70% !important;
+      margin-left:15%;
+      height: 40%!important;
+      width: 50% !important;
       border-radius: 2rem !important;
       background-color:#A6A5FB !important;
     }
@@ -142,22 +144,42 @@
                   </div>
                 </div>
                 <div class="col-sm-12">
-                    <div class=" br-5 row no-gutters align-items-center justify-content-between bg-gradient-orange-light py-sm-35 py-25 px-md-50 px-sm-40 px-25">
-                    <div class="flex-1">
-                        <div class="font-5 white">
-                        Talk to our expert counsellors to know the perfect path for you
+                        <div class="row" style="background-color: #4231d7;border-radius:1rem; width:80%">
+                          <div class="col-md-6">
+                            <div>
+                              <h3 style="margin-top:1rem;color:white;text-align:center">Let's talk</h3>
+                              <p style="margin-top:-2rem;font-size:x-small;color: white;text-align:center">
+                                Fill out the form and the counsellor will reach out to help you
+                              </p>
+                                <p style="margin-top:-2.3rem;font-size:x-small;color: white;text-align:center">
+                                choose the course that fits your career goals.
+                              </p>
+                            </div>
+                            <form method="post" autocomplete="off" name="google-sheet">
+                                <div style="margin-top: -1.2rem;" >
+                                    <input type="text" name="Name" class="form-style" placeholder="Your Name *" value="" required="true"/>
+                                </div>
+                                <div style="margin-top: -1.2rem;">
+                                    <input type="text" name="Email" class="form-style" placeholder="Your Email *" value="" required="true"/>
+                                </div>
+                                <div style="margin-top: -1.2rem;" > 
+                                    <input type="number" name="Phone" class="form-style" placeholder="Your Contact Number *" value="" required="true"/>
+                                </div>
+                                <div style="margin-top: -1.2rem;" >
+                                    <input type="submit" name="submit" class="btn btn-dark" height="20" value="Get a call back" />
+                                </div>
+                              </form>
+                            <p style="margin-top:-1.5rem;margin-bottom:-0.5rem;font-size:x-small;color: white;text-align:center">
+                              By sharing your contact details, you agree to our Privacy Policy
+                            </p>
+                            <p style="margin-top:-0.8rem;margin-bottom:-0.1rem;font-size:x-small;color: white;text-align:center">
+                              and Terms of Service
+                            </p>
+                          </div>
+                          <div class="col-md-6">
+                            <img  style="float:right" src="../assets/images/web-logo.jpg" alt="">
+                          </div>
                         </div>
-                        {{!-- <div class="font-10 white">
-                          <button class="button-primary button-primary--white border-none ml-50">
-                            <em style="font-size: 200%;">Only for first year students</em>
-                          </button>
-                        </div> --}}
-                    </div>
-                    <div>
-                        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/Vector+(1).svg">
-                        <button class="button-primary button-primary--white border-none ml-10">9999579111</button>
-                    </div>
-                    </div>
                 </div>
               </div>
             </div>
@@ -165,36 +187,6 @@
           <div class="col-4 pl-lg-50 pl-sm-30 border-left d-sm-block d-none">
             <div>
               <img src="https://minio.codingblocks.com/public/roadmap-ill.png"  >
-            </div>
-          </div>
-          <div class="row mt-50" style="background-color: #4231d7;border-radius:1rem; width:80%">
-            <div class="col-md-6">
-              <div>
-                <h1 style="color:white;text-align:center">Let's talk</h1>
-                <p style="color: white;text-align:center">
-                  Fill out the form and the counsellor will reach out to help you choose the course that fits your career goals.
-                </p>
-              </div>
-              <form method="post" autocomplete="off" name="google-sheet">
-                  <div >
-                      <input type="text" name="Name" class="form-style" placeholder="Your Name *" value="" required="true"/>
-                  </div>
-                  <div >
-                      <input type="text" name="Email" class="form-style" placeholder="Your Email *" value="" required="true"/>
-                  </div>
-                  <div > 
-                      <input type="number" name="Phone" class="form-style" placeholder="Your Contact Number *" value="" required="true"/>
-                  </div>
-                  <div >
-                      <input type="submit" name="submit" class="btn btn-dark" value="Get a call back" />
-                  </div>
-                 </form>
-              <p style="color: white;text-align:center">
-                By sharing your contact details, you agree to our Privacy Policy and Terms of Service
-              </p>
-            </div>
-            <div class="col-md-6">
-              <img  style="margin-top:30%;float:right" src="../assets/images/web-logo.jpg" alt="">
             </div>
           </div>
           <div class="mt-50">
