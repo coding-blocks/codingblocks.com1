@@ -58,16 +58,16 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/demo%2016%3A1%20banner.jpg",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20demo%20monu%2023%3A1.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://lu.ma/demomonu2",
+          "link": "https://lu.ma/demomonu3",
           "text": "Register Now",
           "color" : "#000000",
-          "buttonColor":"#96999B",
+          "buttonColor":"#47484C",
           "filled": "true"
         }
       ]
