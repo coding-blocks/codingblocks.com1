@@ -18,19 +18,31 @@
         padding-top: 25px;
     }
     .form-style{
-      margin-left:18%;
-      height: 40%!important;
-      width: 80% !important;
-      border-radius: 2rem !important;
-      background-color: #938FFD !important;
+      width: 17rem !important;
+      height: 2.5rem!important;
+      border-radius: 1.8rem !important;
+      background:rgba(255, 255, 255, 0.3) !important;
     }
-    .form-btn{
-      margin-left:15%;
-      height: 40%!important;
-      width: 50% !important;
-      border-radius: 2rem !important;
-      background-color:#A6A5FB !important;
+    input[type=submit]{
+      color:#4933D9;
+      text-shadow:  0px -1px, 0px 0px, 0px 0px;
+      width: 17rem !important;
+      height: 3rem!important;
+      border-radius: 1.8rem !important;
+      background-color:white !important;
     }
+    .thanks-div{
+      display: none;
+    }
+    
+    ::placeholder {
+      color: white;
+      opacity: 1; /* Firefox */
+    }
+    ::-webkit-input-placeholder {
+        text-align: center;
+      }
+
   </style>
 
   <script>
@@ -145,39 +157,51 @@
                 </div>
                 <div class="col-sm-12">
                         <div class="row" style="background-color: #4231d7;border-radius:1rem; width:80%">
-                          <div class="col-md-6">
-                            <div>
-                              <h3 style="margin-top:1rem;color:white;text-align:center">Let's talk</h3>
+                          <div class="col-md-6" >
+                            
+                              <h3 style="font-weight:900;margin-top:1rem;color:white;text-align:center">Let's talk</h3>
                               <p style="margin-top:-2rem;font-size:x-small;color: white;text-align:center">
-                                Fill out the form and the counsellor will reach out to 
+                                Fill out the form and the counsellor will reach 
                               </p>
                                 <p style="margin-top:-2.3rem;font-size:x-small;color: white;text-align:center">
-                                help you choose the course that fits your career goals.
+                                out to help you choose the course that fits
                               </p>
-                            </div>
+                                <p style="margin-top:-2.3rem;font-size:x-small;color: white;text-align:center">
+                                 your career goals.
+                              </p>
+                              
+                            <div class="row no-gutters align-items-center justify-content-between">
                             <form method="post" autocomplete="off" name="google-sheet">
                                 <div style="margin-top: -1.2rem;" >
-                                    <input type="text" name="Name" class="form-style" placeholder="Your Name *" value="" required="true"/>
+                                    <input type="text" name="Name" class="form-style" placeholder="Full Name" value="" required="true"/>
                                 </div>
                                 <div style="margin-top: -1.2rem;">
-                                    <input type="text" name="Email" class="form-style" placeholder="Your Email *" value="" required="true"/>
+                                    <input type="text" name="Email" class="form-style" placeholder="Email" value="" required="true"/>
                                 </div>
                                 <div style="margin-top: -1.2rem;" > 
-                                    <input type="number" name="Phone" class="form-style" placeholder="Your Contact Number *" value="" required="true"/>
+                                    <input type="text" name="Phone" class="form-style" placeholder="Phone Number" value="" required="true"/>
                                 </div>
-                                <div style="margin-top: -1.2rem;" >
-                                    <input type="submit" name="submit" class="btn btn-dark" height="20" value="Get a call back" />
+                                <div style="text-align:center;margin-top: -1.2rem;" >
+                                    <input type="submit" name="submit" style="padding:0%;"  value="Get a call back" />
                                 </div>
                               </form>
+                            </div>
+                            <div id="thanks-div">
+                               <p style="font-size:medium;color: white;text-align:center">
+                                 Thank you for contacting. We Will Contact You Soon
+                                </p>
+                            </div>
+                            <div id="terms-policy">
                             <p style="margin-top:-1.5rem;margin-bottom:-0.5rem;font-size:x-small;color: white;text-align:center">
                               By sharing your contact details, you agree to our Privacy
                             </p>
                             <p style="margin-top:-0.8rem;margin-bottom:-0.1rem;font-size:x-small;color: white;text-align:center">
                              Policy and Terms of Service
                             </p>
+                            </div>
                           </div>
                           <div class="col-md-6">
-                            <img  style="margin-top:8%;float:right" src="../assets/images/web-logo.jpg" alt="">
+                            <img  style="margin-top:6rem;float:right" src="../assets/images/web-logo.jpg" alt="">
                           </div>
                         </div>
                 </div>
@@ -467,10 +491,14 @@
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbzYb9z1bC9o52boh-iqXu18Qanq1M09OWiQ9g9xNHw9mZNceqk3KYLU_XB8oKSocIy3/exec'
             const form = document.forms['google-sheet']
-          
+            const thanks = document.getElementById('thanks-div')
+            const policy = document.getElementById('terms-policy')
+            thanks.style.display = 'none'
             form.addEventListener('submit', e => {
               e.preventDefault()
-              alert("Thanks for Contacting us..! We Will Contact You Soon...")
+              form.style.display = 'none'
+              policy.style.display = 'none'
+              thanks.style.display = 'block'
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                 .then(response =>{
                   form.reset();
