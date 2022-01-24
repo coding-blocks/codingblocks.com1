@@ -43,31 +43,16 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Illuminati%20edit.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20ILM%20edit.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
           "link": "https://codingblocks.com/classroom-program/illuminati-batch.html",
-          "text": "Enroll Now",
+          "text": "Explore More",
           "color" : "#000000",
           "buttonColor":"#1E5E7C",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20demo%20monu%2023%3A1.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/demomonu3",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#47484C",
           "filled": "true"
         }
       ]
