@@ -13,7 +13,7 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Jan%20Sale.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20Republic%20day.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -22,7 +22,7 @@
           "link": "https://online.codingblocks.com/courses",
           "text": "Explore More",
           "color" : "#000000",
-          "buttonColor":"#7D37C9",
+          "buttonColor":"#FE6801",
           "filled": "true"
         }
       ]
