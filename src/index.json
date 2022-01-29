@@ -26,7 +26,7 @@
           "filled": "true"
         }
       ]
-    }
+    },
     {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20CG.png",
       "imgAlt": "",
@@ -71,7 +71,7 @@
           "filled": "true"
         }
       ]
-    },
+    }
   ],
   "events": {
     "upcoming": true,
