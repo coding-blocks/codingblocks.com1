@@ -33,12 +33,12 @@
     "slashedPrice": "12,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=7096",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Lakshya Singh",
-    "mentorImg": "https://images.codingblocks.com/img/mentor/Lakshay%20Singh.png",
+    "mentors": "Monu Kumar",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Monu.png",
     "description": "Master Data Structures and Algorithms in Java. Crack Coding Interviews",
     "mentor-img-1": "https://images.codingblocks.com/img/mentor/Monu.png",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=7096",
-    "startDate": "7th January 2022",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=7475",
+    "startDate": "25th February 2022",
     "interactiveClasses": "37 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",
     "projects": "5 Projects",
@@ -46,10 +46,10 @@
   },
   "aboutMentor": [
     {
-      "name": "Lakshya Singh",
-      "email": "lakshya.singh@codingblocks.com",
-      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Lakshay%20Singh.png",
-      "summary": "Lakshya is an IIITD Btech graduate who has a strong coding background in Java and Python. He is known for his unique understanding of concepts and loves to pursue Deep Learning and Cognitive Neuropsychology in his spare time.",
+      "name": "Monu Kumar",
+      "email": "monu.kumar@codingblocks.com",
+      "profile_pic_link":  "https://images.codingblocks.com/img/mentor/Monu.png",
+      "summary": "Monu Kumar is a competitive programmer, an expert in data structures and algorithms, and an expert in Mathematics. He always amazes his students with his creative thinking to the problems and makes solutions to tough problems a cake walk. He has a strong grasp on the core subjects of computer science",
       "designation": "Mentor",
       "highlights": null
     }

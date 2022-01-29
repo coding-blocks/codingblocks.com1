@@ -58,52 +58,20 @@
   ],
   "liveCourseCards": [
     {
-      "name": "Master DS and Algo with Java",
-      "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
-      "link": "/live-courses/master-java-for-beginners.html",
-      "mentors": "Monu Kumar",
-      "interactiveClasses": "45 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Tuesday, Wednesday, Friday",
-      "price": "7,999",
-      "slashedPrice": "15,999",
-      "startDate": "28th Jan 2022",
-      "badge": "Beginner",
-      "gradient": "bg-gradient-purple",
-      "batchmonth" :"January Batch"
-    },
-    {
-      "name": "Master Algo++",
-      "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
-      "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
-      "mentors": "Aditya",
-      "interactiveClasses": "34 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Thru,Sat, Sun",
-      "price": "6,499",
-      "slashedPrice": "12,999",
-      "gradient": "bg-gradient-blue-dark",
-      "startDate": "5th Jan 2022",
-      "badge": "Advanced",
-      "batchmonth" :"January Batch"
-    },
-    {
       "name": "Master Algo.Java-Data Structures",
       "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
-      "mentors": "Lakshay Singh",
+      "mentors": "Monu Kumar",
       "interactiveClasses": "41 Live Interactive Classes",
       "codingProblems": "200-300 hands on coding problems",
       "projects": "5 Projects",
-      "classSchedule": "Monday, Wednesday, Friday",
+      "classSchedule": "Tuesday, Wednesday, Friday",
       "price": "6,499",
       "slashedPrice": "12,999",
       "gradient": "bg-gradient-orange",
-      "startDate": "7th Jan 2022",
+      "startDate": "25th Feb 2022",
       "badge": "Advanced",
-      "batchmonth" :"January Batch"
+      "batchmonth" :"February Batch"
     }
   ],
   "liveCoursesRow1": [
