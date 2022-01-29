@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%285%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#298EBA",
+          "filled": "true"
+        }
+      ]
+    }
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20CG.png",
       "imgAlt": "",
       "heading": "",
@@ -57,21 +72,6 @@
         }
       ]
     },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%283%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-courses/master-java-for-beginners.html",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#35353F",
-          "filled": "true"
-        }
-      ]
-    }
   ],
   "events": {
     "upcoming": true,
