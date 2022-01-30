@@ -58,6 +58,22 @@
   ],
   "liveCourseCards": [
     {
+      "name": "Master DS and Algo with Java",
+      "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
+      "link": "/live-courses/master-java-for-beginners.html",
+      "mentors": "Monu Kumar",
+      "interactiveClasses": "45 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "projects": "5 Projects",
+      "classSchedule": "Tuesday, Wednesday, Friday",
+      "price": "7,999",
+      "slashedPrice": "15,999",
+      "startDate": "28th Jan 2022",
+      "badge": "Beginner",
+      "gradient": "bg-gradient-purple",
+      "batchmonth" :"January Batch"
+    },
+    {
       "name": "Master Algo.Java-Data Structures",
       "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
