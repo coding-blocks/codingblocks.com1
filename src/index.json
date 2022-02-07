@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Vallentine.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#BC3231",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ITP%20edit.png",
       "imgAlt": "",
       "heading": "",
