@@ -29,9 +29,9 @@
   "courseMeta": {
     "icon": "https://images.codingblocks.com/img/newcourse_logo/webdev_gradient.png",
     "title": "Master FullStack Web with NodeJS",
-    "price": "15,999",
-    "slashedPrice": "7,999",
-    "course-link": "https://dukaan.codingblocks.com/buy?productId=2039",
+    "price": "9,499",
+    "slashedPrice": "18,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=7669",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Sabeel Khan",
     "mentorImg": "https://minio.codingblocks.com/public/sabeel-khan.jpeg",
@@ -39,12 +39,12 @@
     "mentor-img-1": "https://minio.codingblocks.com/amoeba/a961f745-e3d1-4788-8057-1b27f72d42ff",
     "mentor-img-2": "https://minio.codingblocks.com/amoeba/e44da84c-cfc2-482b-8ff1-c99b5e548fd9",
     "mentor-img-3": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
-    "startDate": "23rd August",
+    "startDate": "5th March",
     "gradient": "bg-gradient-pink",
     "interactiveClasses": "32 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",
     "projects": "10 Projects",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=6487"
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=7669"
   },
   "aboutMentor": [
     {

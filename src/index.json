@@ -291,22 +291,6 @@
       "batchmonth" :"January Batch"
     },
     {
-      "name": "Master Algo++",
-      "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
-      "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html",
-      "mentors": "Aditya",
-      "interactiveClasses": "34 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Thru,Sat, Sun",
-      "price": "6,499",
-      "slashedPrice": "12,999",
-      "gradient": "bg-gradient-blue-dark",
-      "startDate": "5th Jan 2022",
-      "badge": "Advanced",
-      "batchmonth" :"January Batch"
-    },
-    {
       "name": "Master Algo.Java-Data Structures",
       "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
       "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
@@ -321,6 +305,22 @@
       "startDate": "25th Feb 2022",
       "badge": "Advanced",
       "batchmonth" :"February Batch"
+    },
+    {
+      "name": "Master Web Dev with NodeJS",
+      "icon": "https://images.codingblocks.com/img/newcourse_logo/webdev_gradient.png",
+      "link": "/live-courses/master-web-development-nodejs.html",
+      "mentors": "Sabeel Khan",
+      "interactiveClasses": "32 Live Interactive Classes",
+      "codingProblems": "200+ hands on coding problems",
+      "projects": "10 Projects",
+      "classSchedule": "Sat and Sunday",
+      "price": "9,499",
+      "slashedPrice": "18,999",
+      "gradient": "bg-gradient-pink",
+      "startDate": "5th March 2022",
+      "badge": "Beginner",
+      "batchmonth" :"March Batch"
     }
   ]
 }
