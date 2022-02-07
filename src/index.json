@@ -13,21 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20CG.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/cgkm",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#292E40",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ITP%20edit.png",
       "imgAlt": "",
       "heading": "",
