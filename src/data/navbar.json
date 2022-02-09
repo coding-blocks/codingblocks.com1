@@ -65,28 +65,8 @@
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         },
         {
-          "title": "Industrial Training",
-          "link": "/classroom-program/industrial-training-program.html",
-          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
-        },
-        {
-          "title": "C++ Launchpad",
-          "link": "/classroom-program/c-plus-plus-for-beginners.html",
-          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
-        },
-        {
-          "title": "Java Crux",
-          "link": "/classroom-program/java-for-beginners.html",
-          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
-        },
-        {
           "title": "Algo++",
           "link": "/classroom-program/cpp-for-advance.html",
-          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
-        },
-        {
-          "title": "Algo.Java",
-          "link": "/classroom-program/java-for-advance.html",
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         }
       ]
