@@ -1,0 +1,328 @@
+{
+    "id": "course05",
+    "name": "Algo++",
+    "title": "Algo++: Courses on Data Structures & Algorithms in Delhi | Coding Blocks",
+    "metas": [
+      {
+        "name": "description",
+        "content": "Summer courses on Algorithms & Advanced Data Structures at Coding Blocks Delhi & other centers. Don't miss this course If you're planning for internships or interviews."
+      },
+      {
+        "name": "keywords",
+        "content": "competitive,coding,algorithm,course,delhi,india,coding,blocks"
+      }
+    ],
+    "openGraph": {
+      "url": "https://codingblocks.com/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html",
+      "title": "Algo++ Advanced DS & Algorithms Course by Coding Blocks",
+      "image": "https://scontent.fdel1-2.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/17616635_1264424223627348_3167714152336588800_n.jpg",
+      "description": "Introducing our newest courses on Data Structures and Algorithms starting this 2 June - 15 July. The course will all important data structures and algorithmic knowledge required for interviews."
+    },
+    "head": {
+      "links": [
+        {
+          "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+          "rel": "stylesheet"
+        }
+      ]
+    },
+    "courseMeta": {
+      "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
+      "title": "C++ Fastrack Batch",
+      "price": "7,999",
+      "slashedPrice": "15,999",
+      "course-link": "https://dukaan.codingblocks.com/buy?productId=7675",
+      "demo-link": "https://codingblocks.com/take-demo.html",
+      "mentors": "Mayank and Tushar",
+      "mentorImg": "https://images.codingblocks.com/img/mentor/Mayank.png",
+      "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
+      "test_link_second": "https://dukaan.codingblocks.com/buy?productId=7675",
+      "startDate": "2th March 2022",
+      "interactiveClasses": "34 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "days": "Four",
+      "projects": "5 Projects",
+      "gradient": "bg-gradient-blue-dark"
+    },
+    "aboutMentor":[
+      {
+        "name": "Mayank Jha",
+        "email": "mayank.jha@codingblocks.com",
+        "profile_pic_link": "https://images.codingblocks.com/img/mentor/Mayank.png",
+        "summary": "Mayank is a Fullstack Developer who loves Competitive coding to the heart. He is very well versed with technologies like Javacript and Node.js and has experience with various startups. His love for enigmatomy and CP (Competitive Coding) helps him create and solve puzzles in his free time. He is always up for learning new technologies that are trending in the world. He has won various Intercollege and Zonal competitions and is a former State level Volleyball player."
+      }
+    ],
+    "demoClass": [
+      {
+        "youtubeID": "ZAZXvGWpccs"
+      },
+      {
+        "youtubeID": "_5uZWn1efa0"
+      },
+      {
+        "youtubeID": "HKqtOlHzD1M"
+      }
+    ],
+    "testTimelines": {
+      "test_link_first": "https://hack.codingblocks.com/app/contests/1939",
+      "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3777"
+    },
+    "highlights": [
+      {
+        "head": "Opportunities unlocked for learner",
+        "description": "Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc.",
+        "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+      },
+      {
+        "head": "Hands on Projects and Problems:",
+        "description": "Build real-world applications like Tic Tac Toe, Sudoku, Tower of Hanoi.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
+        "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+      },
+      {
+        "head": "Why choose CB Live:",
+        "description": "Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+        "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+      },
+      {
+        "head": "This course is essential for you:",
+        "description": "Someone who loves solving real world problems and wants to create a solution.",
+        "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
+      }
+    ],
+    "studentsSay": [
+      {
+        "name": "Anshul Mittal",
+        "story": "Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+        "image": "https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+      },
+      {
+        "name": "Sidharth Bansal",
+        "story": "Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+        "image": "https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+      },
+      {
+        "name": "Samarth Jain",
+        "story": "My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+        "image": "https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+      }
+    ],
+    "schedule_days": {
+      "days": "Mon, Tue, Thu and Fri",
+      "timming": "7:00 PM - 11:00 PM"
+    },
+    "schedule": [
+        {
+          "lecture": "Lecture 01",
+          "description": "FlowChart And PsuedoCode"
+        },
+        {
+          "lecture": "Lecture 02",
+          "description": "Getting Started with Programming- Conditonals and Loops"
+        },
+        {
+          "lecture": "Lecture 03",
+          "description": "Patterns and Operators"
+        },
+        {
+          "lecture": "Lecture 04",
+          "description": "Programming Fundamentals - Bitwise Operators"
+        },
+        {
+          "lecture": "Lecture 05",
+          "description": "Deep Diving into Programming - 1"
+        },
+        {
+          "lecture": "Lecture 06",
+          "description": "Arrays - 1D"
+        },
+        {
+          "lecture": "Lecture 07",
+          "description": "Question Practise Session"
+        },
+        {
+          "lecture": "Lecture 08",
+          "description": "Functions and other Basics"
+        },
+        {
+          "lecture": "Lecture 09",
+          "description": "Pointers"
+        },
+        {
+          "lecture": "Lecture 10",
+          "description": "1D Character Arrays "
+        },
+        {
+          "lecture": "Lecture 11",
+          "description": "Question Practise Session"
+        },
+        {
+          "lecture": "Lecture 12",
+          "description": "2D Character Arrays"
+        },
+        {
+          "lecture": "Lecture 13",
+          "description": "Problem Solving on Arrays"
+        },
+        {
+          "lecture": "Lecture 14",
+          "description": "Basics of Recursion "
+        },
+        {
+          "lecture": "Lecture 15",
+          "description": "Question Practise Session"
+        },
+        {
+          "lecture": "Lecture 16",
+          "description": "Recursion Problem Solving"
+        },
+        {
+          "lecture": "Lecture 17",
+          "description": "Recursion Backtracking"
+        },
+        {
+          "lecture": "Lecture 18",
+          "description": "Advance Recursion Problem Solving"
+        },
+        {
+          "lecture": "Lecture 19",
+          "description": "Question Practise Session"
+        },
+        {
+          "lecture": "Lecture 20",
+          "description": "Dynamic Memory Allocation & OOPs - 1"
+        },
+        {
+          "lecture": "Lecture 21",
+          "description": "OOPs - 2"
+        },
+        {
+          "lecture": "Lecture 22",
+          "description": "Space and Time Complexity"
+        },
+        {
+          "lecture": "Lecture 23",
+          "description": "Divide and Conquer"
+        },
+        {
+          "lecture": "Lecture 24",
+          "description": "Linked List - 1"
+        },
+        {
+          "lecture": "Lecture 25",
+          "description": "Linked List - 2"
+        },
+        {
+          "lecture": "Lecture 26",
+          "description": "Question Practise Session"
+        },
+        {
+          "lecture": "Lecture 27",
+          "description": "Binary Trees - 1"
+        },
+        {
+          "lecture": "Lecture 28",
+          "description": "Binary Trees -2"
+        },
+        {
+          "lecture": "Lecture 29",
+          "description": "Binary Search Trees"
+        },
+        {
+          "lecture": "Lecture 30",
+          "description": "Question Practise Session"
+        },
+        {
+          "lecture": "Lecture 31",
+          "description": "Priority Queue/ Heap"
+        },
+        {
+          "lecture": "Lecture 32",
+          "description": "Hashmaps Implementation"
+        },
+        {
+          "lecture": "Lecture 33",
+          "description": "1D - Dynamic Programming "
+        },
+        {
+          "lecture": "Lecture 34",
+          "description": "Question Practise Session"
+        },
+        {
+          "lecture": "Lecture 35",
+          "description": "2D Dynamic Programming"
+        },
+        {
+          "lecture": "Lecture 36",
+          "description": "Dynamic Programming, Problem Solving"
+        },
+        {
+          "lecture": "Lecture 37",
+          "description": "Graphs - 1"
+        },
+        {
+          "lecture": "Lecture 38",
+          "description": "Question Practise Session"
+        },
+        {
+          "lecture": "Lecture 39",
+          "description": "Graphs - 2"
+        },
+        {
+          "lecture": "Lecture 40",
+          "description": "Graphs & Basics of Tries"
+        },
+        {
+          "lecture": "Lecture 41",
+          "description": "Interview Questions using Tries"
+        },
+        {
+          "lecture": "Lecture 42",
+          "description": "Question Practise Session"
+        },
+        {
+          "lecture": "Lecture 43",
+          "description": "Starting with Leetcode"
+        },
+        {
+          "lecture": "Lecture 44",
+          "description": "Leetcode Problem Solving"
+        },
+        {
+          "lecture": "Lecture 45",
+          "description": "How to start with Codeforces"
+        },
+        {
+          "lecture": "Lecture 46",
+          "description": "Interview preparation and Competitive Programming sessions"
+        },
+        {
+          "lecture": "Lecture 47",
+          "description": "Tips on building resumes, Profile Building and Future Career Guidance"
+        }
+    ],
+    "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",
+    "courseReviews": [
+      "Manish Sundriyal",
+      "Gagan Bhayana",
+      "Dhruv Kulshreshtha",
+      "Parth Dhamija"
+    ],
+    "projects": [
+      {
+        "project_name": "Painter's Problem"
+      },
+      {
+        "project_name": "NQUEEN"
+      },
+      {
+        "project_name": "SUDOKU SOLVER"
+      },
+      {
+        "project_name": "SPLITWISE ALGO"
+      },
+      {
+        "project_name": "RAT IN A MAZE"
+      }
+    ]
+  }
+  

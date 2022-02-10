@@ -43,7 +43,8 @@
     "gradient": "bg-gradient-blue-light",
     "interactiveClasses": "47 Live Interactive Classes",
     "codingProblems": "200-300 hands on coding problems",
-    "projects": "5 Projects"
+    "projects": "5 Projects",
+    "days":"three"
   },
   "demoClass": [
     {

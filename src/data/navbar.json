@@ -65,6 +65,11 @@
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         },
         {
+          "title": "Industrial Training",
+          "link": "/classroom-program/industrial-training-program.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
+        },
+        {
           "title": "Algo++",
           "link": "/classroom-program/cpp-for-advance.html",
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
@@ -88,8 +93,16 @@
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
         },
         {
+          "title": "C++ Fastrack",
+          "link": "/live-courses/c-plus-plus-fastrack-batch.html"
+        },
+        {
           "title": "Web Dev",
           "link": "/live-courses/master-web-development-nodejs.html"
+        },
+        {
+          "title": "Python - DSA",
+          "link": "/live-courses/master-python-dsa.html"
         }
       ]
     }

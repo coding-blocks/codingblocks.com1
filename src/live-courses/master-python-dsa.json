@@ -1,0 +1,352 @@
+{
+    "title": "Python for Developers Master Course  in Delhi, Noida | Coding Blocks",
+    "metas": [
+      {
+        "name": "description",
+        "content": "Coding Blocks is the best Python for Developers institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+      },
+      {
+        "name": "keywords",
+        "content": "python"
+      }
+    ],
+    "head": {
+      "links": [
+        {
+          "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+          "rel": "stylesheet"
+        }
+      ]
+    },
+    "aboutMentor": [
+       {
+        "name": "Shubham Singhal",
+        "profile_pic_link": "https://images.codingblocks.com/img/mentor/Shubham%20Singhal.png",
+        "summary": "Shubham is a Masters in AI specialization from IIIT-Delhi. He is well versed in C/C++, Java and Python coding languages as well as highly proficient in Data Structures and Algorithm. As a Data Science and machine learning enthusiast, he has deep knowledge about this field. He also published a paper related to Machine Learning in iconip conference.",
+        "email": "shubham.singhal@codingblocks.com"
+      }
+    ],
+    "openGraph": {
+      "url": "https://codingblocks.com//live-courses/master-python-app-dev.html",
+      "title": "C++ Beginner & Advanced Courses | Coding Blocks",
+      "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+      "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+    },
+    "courseMeta": {
+     "icon": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
+     "title": "Python-DSA",
+     "slashedPrice": "7,999",
+     "price": "15,999",
+     "demo-link": "https://codingblocks.com/take-demo.html",
+     "mentors": "Shubham Singhal",
+     "mentorImg": "https://images.codingblocks.com/img/mentor/Shubham%20Singhal.png",
+     "description": "Learn Data Structure and Algorithm in Python",
+     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=7672",
+     "startDate": "2nd March 2022",
+     "interactiveClasses": "41 Live Interactive Classes",
+     "codingProblems": "200-300 hands on coding problems",
+     "days":"three",
+     "projects": "5 Projects"
+    },
+    "demoClass": [
+      {
+        "youtubeID": "mOtc5JrZT0o"
+      },
+      {
+        "youtubeID": "JTKvNx7c8xE"
+      },
+      {
+        "youtubeID": "tl9jpnzOTNE"
+      }
+    ],
+    "testTimelines": {
+      "test_link_first": "",
+      "test_link_second": "https://dukaan.codingblocks.com/buy?productId=3995"
+    },
+    "highlights": [
+      {
+        "head": "Opportunities unlocked for learner",
+        "description": "Develop a strong approach to coding languages and learn any language further.Learn from scratch with standard libraries and inner algorithms to understand what goes “under the hood”.Companies like Google and Facebook also need C++ developers to optimize their apps or work on their products.",
+        "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+      },
+      {
+        "head": "Hands on Projects and Problems:",
+        "description": "Build real-world applications in C++ like Google Maps PathFinder, build games like Tic Tac Toe, Sudoku.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm.",
+        "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+      },
+      {
+        "head": "Why choose CB Live:",
+        "description": "Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+        "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+      },
+      {
+        "head": "Certificate Course",
+        "description": "Learners will get Course certificate from Coding Blocks upon completion of the program. Both e-certificate and physical copies of the certificate are provided and can be used on LinkedIn profiles and resumes.",
+        "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
+      }
+    ],
+    "studentsSay": [
+      {
+        "name": "Anshul Mittal",
+        "story": "Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+        "image": "https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+      },
+      {
+        "name": "Sidharth Bansal",
+        "story": "Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+        "image": "https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+      },
+      {
+        "name": "Samarth Jain",
+        "story": "My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+        "image": "https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+      }
+    ],
+    "schedule_days": {
+      "days": "Wed,Sat and Sunday",
+      "timming": "7:00 PM - 10:00 PM"
+    },
+    "schedule": [
+        {
+            "lecture": "Lecture 01",
+            "description": "Variables, Loops"
+        },
+        {
+            "lecture": "Lecture 02",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 03",
+            "description": "Patterns"
+        },
+        {
+            "lecture": "Lecture 04",
+            "description": "Data Types"
+        },
+        {
+            "lecture": "Lecture 05",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 06",
+            "description": "Functions"
+        },
+        {
+            "lecture": "Lecture 07",
+            "description": "1D Arrays-List,Tuples"
+        },
+        {
+            "lecture": "Lecture 08",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 09",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 10",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 11",
+            "description": "2D Arrays"
+        },
+        {
+            "lecture": "Lecture 12",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 13",
+            "description": "Strings"
+        },
+        {
+            "lecture": "Lecture 14",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 15",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 16",
+            "description": "Recursion"
+        },
+        {
+            "lecture": "Lecture 17",
+            "description": "Recursion"
+        },
+        {
+            "lecture": "Lecture 18",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 19",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 20",
+            "description": "Recursion"
+        },
+        {
+            "lecture": "Lecture 21",
+            "description": "Backtracking"
+        },
+        {
+            "lecture": "Lecture 22",
+            "description": "Backtracking"
+        },
+        {
+            "lecture": "Lecture 23",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 24",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 25",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 26",
+            "description": "Divide & Conquer"
+        },
+        {
+            "lecture": "Lecture 27",
+            "description": "Time & Space Complexity"
+        },
+        {
+            "lecture": "Lecture 28",
+            "description": "OOPS-1"
+        },
+        {
+            "lecture": "Lecture 29",
+            "description": "OOPS-2"
+        },
+        {
+            "lecture": "Lecture 30",
+            "description": "Stack"
+        },
+        {
+            "lecture": "Lecture 31",
+            "description": "Queue"
+        },
+        {
+            "lecture": "Lecture 32",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 33",
+            "description": "Min Stack"
+        },
+        {
+            "lecture": "Lecture 34",
+            "description": "Linked List"
+        },
+        {
+            "lecture": "Lecture 35",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 36",
+            "description": "Linked List"
+        },
+        {
+            "lecture": "Lecture 37",
+            "description": "Binary Tree"
+        },
+        {
+            "lecture": "Lecture 38",
+            "description": "Binary Tree"
+        },
+        {
+            "lecture": "Lecture 39",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 40",
+            "description": "BST"
+        },
+        {
+            "lecture": "Lecture 41",
+            "description": "BST"
+        },
+        {
+            "lecture": "Lecture 42",
+            "description": "Dictionary/Set/HashMap"
+        },
+        {
+            "lecture": "Lecture 43",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 44",
+            "description": "Heap/Priority Queue"
+        },
+        {
+            "lecture": "Lecture 45",
+            "description": "1D-DP"
+        },
+        {
+            "lecture": "Lecture 46",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 47",
+            "description": "2D-DP"
+        },
+        {
+            "lecture": "Lecture 48",
+            "description": "2D-DP"
+        },
+        {
+            "lecture": "Lecture 49",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 50",
+            "description": "Graph"
+        },
+        {
+            "lecture": "Lecture 51",
+            "description": "Graph"
+        },
+        {
+            "lecture": "Lecture 52",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 53",
+            "description": "Question Practise Session"
+        },
+        {
+            "lecture": "Lecture 54",
+            "description": "Trie"
+        },
+        {
+            "lecture": "Lecture 55",
+            "description": "BitMasking"
+        },
+        {
+            "lecture": "Lecture 56",
+            "description": "Starting with Leetcode"
+        },
+        {
+            "lecture": "Lecture 57",
+            "description": "Leetcode Problem Solving"
+        },
+        {
+            "lecture": "Lecture 58",
+            "description": "How to start with Codeforces"
+        },
+        {
+            "lecture": "Lecture 59",
+            "description": "Interview preparation and Competitive Programming sessions"
+        },
+        {
+            "lecture": "Lecture 60",
+            "description": "Tips on building resumes, Profile Building and Future Career Guidance"
+        }
+    ]
+  }
+  

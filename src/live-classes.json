@@ -104,6 +104,38 @@
       "startDate": "5th March 2022",
       "badge": "Beginner",
       "batchmonth" :"March Batch"
+    },
+    {
+      "name": "C++ Fastrack Batch",
+      "icon": "https://minio.codingblocks.com/amoeba/2a7d7b2f-5c23-4d84-9b86-cfa78b1ab722.svg",
+      "link": "/live-courses/c-plus-plus-fastrack-batch.html",
+      "mentors": "Mayank and Tushar",
+      "interactiveClasses": "34 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "projects": "5 Projects",
+      "classSchedule": "Mon,Tue, Thru and Fri",
+      "price": "7,999",
+      "slashedPrice": "15,999",
+      "gradient": "bg-gradient-blue-dark",
+      "startDate": "2nd March 2022",
+      "badge": "Advanced",
+      "batchmonth" :"March Batch"
+    },
+    {
+      "name": "Python-DSA",
+      "icon": "https://minio.codingblocks.com/amoeba/ccfc8d7c-66ac-461e-9ba0-5ded3b1b81ee.png",
+      "link": "/live-courses/master-python-dsa.html",
+      "mentors": "Shubham Singhal",
+      "interactiveClasses": "41 Live Interactive Classes",
+      "codingProblems": "200-300 hands on coding problems",
+      "projects": "5 Projects",
+      "classSchedule": "Mon,Wed and Fri",
+      "price": "7,999",
+      "slashedPrice": "15,999",
+      "gradient": "bg-gradient-orange",
+      "startDate": "2nd March 2022",
+      "badge": "Beginner",
+      "batchmonth" :"March Batch"
     }
   ],
   "liveCoursesRow1": [
