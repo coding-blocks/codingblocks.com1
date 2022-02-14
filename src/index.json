@@ -13,21 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Crack%20FAANG.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/guide-faang",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#F26A3E",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Vallentine.png",
       "imgAlt": "",
       "heading": "",
