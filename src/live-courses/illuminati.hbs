@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  {{> courseSchema}}
+  <style>
+    #page-header {
+      background: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.8),
+          rgba(0, 0, 0, 0.5)),
+        url("/assets/images/cb/cover/algo_2.jpg") no-repeat 0 75% !important;
+      background-size: cover !important;
+    }
+    .height-correction{
+        height: 80px;
+        padding-top: 25px;
+    }
+    .form-style{
+      width: 15rem !important;
+      height: 2.5rem!important;
+      border-radius: 1.8rem !important;
+      background:rgba(255, 255, 255, 0.3) !important;
+    }
+    input[type=submit]{
+      color:#4933D9;
+      text-shadow:  0px -1px, 0px 0px, 0px 0px;
+      width: 15rem !important;
+      height: 3rem!important;
+      border-radius: 1.8rem !important;
+      background-color:white !important;
+      border-color:white
+    }
+    .thanks-div{
+      display: none;
+    }
+    
+    ::placeholder {
+      color: white;
+      opacity: 1; /* Firefox */
+    }
+    ::-webkit-input-placeholder {
+        text-align: center;
+      }
+
+  </style>
+
+  <script>
+    window.scrollNow = function (target) {
+      var scrollContainer = target;
+      do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
+
+      var targetY = 0;
+      do {
+        // Find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+      } while (target = target.offsetParent);
+
+      scroll = function (c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () { scroll(c, a, b, i); }, 20);
+      }
+      // Scroll to target
+      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+
+    window.unhidecpp = function(target){
+      let webd = document.getElementById('webd');
+      let cmp = document.getElementById('cmp');
+      
+      target.style.display = "";
+      webd.style.display = "none";
+      cmp.style.display = "none";
+    }
+    
+    window.unhidewebd = function(target){
+      let cpp = document.getElementById('cpp');
+      let cmp = document.getElementById('cmp');
+      
+      target.style.display = "";
+      cpp.style.display = "none";
+      cmp.style.display = "none";
+    }
+
+    window.unhidecmp = function(target){
+      let webd = document.getElementById('webd');
+      let cpp = document.getElementById('cpp');
+
+      target.style.display = "";
+      webd.style.display = "none";
+      cpp.style.display = "none";
+    }
+
+    window.onload = ()=>{
+      let cpp = document.getElementById('cmp');
+      let webd = document.getElementById('webd');
+      let cmp = document.getElementById('cmp');
+      
+      cpp.style.display = "block";
+      webd.style.display = "none";
+      cmp.style.display = "none";
+    }
+  </script>
+</head>
+
+<body class="scroll-assist" style="margin-top: -70px;">
+  {{> navbar}}
+  <div class="a-cbm mt-100 mb-50">
+    <div class="width-limiter py-50 mt-100">
+      <div class="px-md-40 px-20">
+        <div class="row align-items-center no-gutters">
+          <div class="flex-1 pr-lg-50 pr-sm-30">
+            <div class="row no-gutters align-items-center justify-content-between">
+              <div class="flex-1">
+                <div class="row no-gutters align-items-center justify-content-between mb-20">
+                  <div class="card all-center s-120x120 course-logo-big-square p-sm-30 p-20 bg-gradient-pink">
+                    <img src="{{logo}}" />
+                  </div>
+                  <div class="flex-1 pl-sm-30 pl-30">
+                    <div class="heading-3 bold text-clamp-ellipses text-clamp-ellipses--3 height-correction">
+                      {{ name }}
+                    </div>
+                  </div>
+                </div>
+                <div class="font-4 mb-20 text-clamp-ellipses t-align-sm-l t-align-c">
+                  {{openGraph.description}}
+                </div>
+                <div class="row no-gutters justify-content-sm-between justify-content-center">
+                  <div class="row no-gutters align-items-center flex-1">
+                    <div class="br-5 d-inline-block p-2 bg-gradient-orange-light mr-20 font-2 white">
+                      <span class="v-align-m">
+                        {{difficulty}}
+                      </span>
+                    </div>
+                    <div class="t-align-sm-l t-align-c">
+                      <div class="font-2">Course Language</div>
+                      <div class="font-4 bold mt-1">
+                        English, Hindi
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-sm-block d-none">
+                    {{!-- This button would scroll down to the sections where batches are listed --}}
+                    <button class="button-primary buy-scroll-button" type="button" onclick="scrollNow(document.getElementById('courses'))">
+                      Enroll Now
+                    </button>
+                    <button class="button-primary bg-gradient-blue-light buy-scroll-button" type="button" onclick="scrollNow(document.getElementById('syllabus'))">
+                      Course Syllabus
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                        <div class="row" style="background-color: #4231d7;border-radius:1rem; width:80%">
+                          <div class="col-md-6" >
+                            
+                              <h3 style="font-weight:900;margin-top:1rem;color:white;text-align:center">Let's talk</h3>
+                              <p style="margin-top:-2rem;font-size:x-small;color: white;text-align:center">
+                                Fill out the form and the counsellor will reach 
+                              </p>
+                                <p style="margin-top:-2.3rem;font-size:x-small;color: white;text-align:center">
+                                out to help you choose the course that fits
+                              </p>
+                                <p style="margin-top:-2.3rem;font-size:x-small;color: white;text-align:center">
+                                 your career goals.
+                              </p>
+                              
+                            <div class="row no-gutters align-items-center justify-content-between">
+                            <form method="post" autocomplete="off" name="google-sheet">
+                                <div style="margin-top: -1.2rem;" >
+                                    <input type="text" name="Name" class="form-style" placeholder="Full Name" value="" required="true"/>
+                                </div>
+                                <div style="margin-top: -1.2rem;">
+                                    <input type="text" name="Email" class="form-style" placeholder="Email" value="" required="true"/>
+                                </div>
+                                <div style="margin-top: -1.2rem;" > 
+                                    <input type="text" name="Phone" class="form-style" placeholder="Phone Number" value="" required="true"/>
+                                </div>
+                                <div style="text-align:center;margin-top: -1.2rem;" >
+                                    <input type="submit" name="submit" style="padding:0%;"  value="Get a call back" />
+                                </div>
+                              </form>
+                            </div>
+                            <div id="thanks-div">
+                               <p style="font-size:medium;color: white;text-align:center">
+                                 Thank you for contacting. We Will Contact You Soon
+                                </p>
+                            </div>
+                            <div id="terms-policy">
+                            <p style="margin-top:-1.5rem;margin-bottom:-0.5rem;font-size:x-small;color: white;text-align:center">
+                              By sharing your contact details, you agree to our Privacy
+                            </p>
+                            <p style="margin-top:-0.8rem;margin-bottom:-0.1rem;font-size:x-small;color: white;text-align:center">
+                             Policy and Terms of Service
+                            </p>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <img  style="margin-top:6.5rem;margin-left:1rem" src="../assets/images/web-logo.jpg" alt="">
+                          </div>
+                        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 pl-lg-50 pl-sm-30 border-left d-sm-block d-none">
+            <div>
+              <img src="https://minio.codingblocks.com/public/roadmap-ill.png"  >
+            </div>
+          </div>
+          <div class="mt-50">
+            <div class="heading-4 bold mb-50">
+              Course Mentor
+            </div>
+            {{#each mentors}}
+              <div class="row no-gutters align-items-center mentor-list-element mb-30">
+                <div class="s-150x150 round d-sm-block d-none">
+                  <img src="{{img}}" />
+                </div>
+                <div class="flex-1 pl-sm-30">
+                  <div class="s-100x100 round mb-20 d-sm-none d-block">
+                    <img src="{{img}}" />
+                  </div>
+                  <div class="heading-6 bold">{{name}}</div>
+                  <div class="mt-10 mb-20 font-2 orange">{{contact}}</div>
+                  <div class="font-4">
+                    {{description}}
+                  </div>
+                </div>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+        <div class="d-sm-none d-block mt-30 pt-30 border-top t-align-c">
+          <div class="font-5 bold mb-20">
+            Also get
+          </div>
+          <ul class="list-style-gradient-bullet mx-auto" style="width: fit-content;">
+            <li class="mb-15">Placement and Internship assistance through Hiring Blocks</li>
+              <li class="mb-15">Resume building tips</li>
+            <li class="mb-15">Interview preparation</li>
+            <li class="mb-15">Free access to Online Course</li>
+            <li class="mb-15">Skill enhancement classes</li>
+            <li class="mb-15">Start with online platforms like Leetcode, Codeforces etc.</li>
+          </ul>
+        </div>
+        <div class="d-sm-none d-block mt-30 t-align-c">
+          <button class="button-primary buy-scroll-button">Buy Course</button>
+        </div>
+
+
+        <div class="mt-50">
+          <div class="row">
+            {{#each highlights}}
+            <div class="col-lg-3 col-6 h-inherit mb-lg-none mb-30">
+              <div class="card bg-grey-light-3 h-100 flex-col justify-content-between">
+                <div class="w-100">
+                  <img src="{{img}}" style="height: 35px;">
+                  <div class="my-20 bold heading-6">{{title}}</div>
+                </div>
+                <div class="text-grey font-2 w-100">
+                  {{content}}
+                </div>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+
+        <div class="mt-30">
+          <div class="card bg-gradient-blue-light position-relative">
+            <div class="font-4 bold white t-align-sm-l t-align-c">
+              Get free access to our online course and also get<br />a wildcraft bag absolutely free!
+            </div>
+            <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/widcraft-bag.png"
+              class="position-absolute br d-sm-block d-none" style="right: 30px;">
+            <div class="t-align-c d-sm-none d-block">
+              <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/widcraft-bag.png" class="mt-30">
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-50" id="syllabus">
+          <div class="row no-gutters align-items-center justify-content-between mb-30" >
+            <div class="heading-4 bold flex-1">
+              Course Content
+            </div>
+            <a href="#" class="button-secondary">Download Syllabus</a>
+          </div>
+          <ul class="nav">
+            <li class="nav-item" style="display: inline-block;"> 
+              <button class="button-primary bg-gradient-blue-light m-10" id="c++" onclick="unhidecpp(document.getElementById('cpp'))">C++</button>
+              <button class="button-primary bg-gradient-blue-light m-10" id="web" onclick="unhidewebd(document.getElementById('webd'))">Web</button>
+              <button class="button-primary bg-gradient-blue-light m-10" id="cp" onclick="unhidecmp(document.getElementById('cmp'))">Competitive</button>
+              <div class="row no-gutters syllabus-grid-section unhide" id="cpp">
+                {{#each syallabus}}
+                <div class="col-md-4 col-sm-6 col-12 h-inherit syllabus-grid-card flex-col">
+                  <div class="card br-none h-100 p-sm-30 p-20 w-100">
+                      <div class="font-5 bold text-clamp-ellipses text-clamp-ellipses--2 pb-20 border-bottom w-100">
+                        {{title}}
+                      </div>
+                      <ul class="list-style-gradient-bullet mt-20 w-100 mb-none">
+                        {{#each sectionContent}}
+                        <li class="mb-10 text-clamp-ellipses text-clamp-ellipses--2">{{this}}</li>
+                        {{/each}}
+                      </ul>
+                    </div>
+                  </div>
+                  {{/each}}
+              </div>
+
+              <div class="row no-gutters syllabus-grid-section unhide" id="webd">
+                {{#each syllabus-web}}
+                <div class="col-md-4 col-sm-6 col-12 h-inherit syllabus-grid-card flex-col">
+                  <div class="card br-none h-100 p-sm-30 p-20 w-100">
+                      <div class="font-5 bold text-clamp-ellipses text-clamp-ellipses--2 pb-20 border-bottom w-100">
+                        {{title}}
+                      </div>
+                      <ul class="list-style-gradient-bullet mt-20 w-100 mb-none">
+                        {{#each sectionContent}}
+                        <li class="mb-10 text-clamp-ellipses text-clamp-ellipses--2">{{this}}</li>
+                        {{/each}}
+                      </ul>
+                    </div>
+                  </div>
+                  {{/each}}
+              </div>
+
+              <div class="row no-gutters syllabus-grid-section unhide" id="cmp">
+                {{#each syallabus-cp}}
+                <div class="col-md-4 col-sm-6 col-12 h-inherit syllabus-grid-card flex-col">
+                  <div class="card br-none h-100 p-sm-30 p-20 w-100">
+                      <div class="font-5 bold text-clamp-ellipses text-clamp-ellipses--2 pb-20 border-bottom w-100">
+                        {{title}}
+                      </div>
+                      <ul class="list-style-gradient-bullet mt-20 w-100 mb-none">
+                        {{#each sectionContent}}
+                        <li class="mb-10 text-clamp-ellipses text-clamp-ellipses--2">{{this}}</li>
+                        {{/each}}
+                      </ul>
+                    </div>
+                  </div>
+                  {{/each}}
+              </div>
+
+            </li>
+        </ul>
+        </div>
+
+        <div class="mt-50">
+          <div class="row no-gutters align-items-center justify-content-between mb-50" id="courses">
+            <div class="heading-4 bold flex-1">
+              Center and Schedule
+            </div>
+            {{!-- <a href="#" class="button-secondary">Pitampura</a> --}}
+          </div>
+          {{#each batches}}
+          <div class="row no-gutters align-items-center justify-content-between border-bottom py-20">
+            <div class="col-8">
+              <div class="row no-gutters align-items-center justify-content-between">
+                <div class="flex-1 font-4 bold d-sm-block d-none t-align-l">{{location}}</div>
+                <div class="font-4 bold d-sm-none d-block col-12 mb-15">{{location}}</div>
+                <div class="flex-1 font-4">
+                  <div class="text-grey-light-1">
+                    Starting from
+                  </div>
+                  <div class="bold">
+                    {{start_date}}
+                  </div>
+                </div>
+                <div class="flex-1 font-4">
+                  <div class="text-grey-light-1">
+                    Weekend Batch
+                  </div>
+                  <div class="bold">
+                    {{days}}
+                  </div>
+                </div>
+                <div class="flex-1 font-4">
+                  <div class="text-grey-light-1">
+                    Timings
+                  </div>
+                  <div class="bold">
+                    {{timings}}
+                  </div>
+                </div>
+                <div class="flex-1 font-4">
+                  <div class="text-grey-light-1">
+                    Mentors
+                  </div>
+                  <div class="bold">
+                    {{mentor}}
+                  </div>
+                </div>
+                <div class="flex-2 font-4">
+                  <div class="text-grey-light-1">
+                    Price
+                  </div>
+                  <div class="bold">
+                    {{prices}}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{#if seats_full}}
+            <div class="flex-1 pl-20 row no-gutters justify-content-end">
+              <a href="" class="button-primary ml-20">SEATS FULL</a>
+            </div>
+            
+            {{else}}
+            <div class="flex-1 pl-20 row no-gutters justify-content-end">
+              <a href="https://dukaan.codingblocks.com/buy?productId={{product_id}}" class="ml-20">
+              <button class="button-primary ">Enroll</button>  </a>
+            </div>
+            {{/if}}
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+ <div class="bg-grey-light-3">
+      <div class="width-limiter">
+        <div class="py-50 px-md-5 px-4">
+          <div class="row mx-0 c-card-carousel-lg">
+            {{#each courseReviews}}
+            {{#each @root.reviews.reviewsList}}
+            {{#ifEquals ../this this.name}}
+
+            <div class="col-lg-4 col-md-6 col-sm-8 col-12" style="padding-top: 4rem;">
+              <div class="border-card img-review-card p-md-5 p-4" style="height:100%">
+                <div class="author">
+                  <div class="img-ring s-100x100">
+                    <img class="round img" alt="coding-blocks-reviews"
+                      src="{{#relativePath @file.path imgSrc}}{{/relativePath}}">
+                  </div>
+                </div>
+                <div class="icon">
+                  <i class="fas fa-quote-left orange" style="font-size:3rem;"></i>
+                </div>
+
+                <h5 class="bold t-align-c mb-4">{{name}}</h5>
+                <div class="review-body">
+                  {{review}}
+                </div>
+              </div>
+            </div>
+            {{/ifEquals}}
+            {{/each}}
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="width-limiter">
+      <div class="py-50 px-md-40 px-20">
+        <div class="t-align-c mb-30">
+          <div class="heading-5 bold mb-30">Where our Alumni Work</div>
+          <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/alumni-companies.png">
+        </div>
+      </div>
+    </div>
+    <div class="width-limiter mb-50">
+      <div class="px-md-40 px-20">
+        <div class="t-align-sm-l t-align-c mb-50">
+          <div class="heading-4 bold mb-10">Frequently Asked Questions</div>
+          <div class="font-4 text-grey">
+            Find answers to the questions popping up in your head here.
+          </div>
+        </div>
+        {{#each faqs}}
+         <div class="faq-element-container pointer">
+          <div class="faq-question row no-gutters align-items-center justify-content-between p-20">
+            <div class="font-4 bold flex-1">
+              {{ques}}
+            </div>
+            {{!-- <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/plus.svg" class="sign" /> --}}
+          </div>
+          <div class="faq-answer p-20">
+              {{ans}}
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  {{> footer}}
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzYb9z1bC9o52boh-iqXu18Qanq1M09OWiQ9g9xNHw9mZNceqk3KYLU_XB8oKSocIy3/exec'
+            const form = document.forms['google-sheet']
+            const thanks = document.getElementById('thanks-div')
+            const policy = document.getElementById('terms-policy')
+            thanks.style.display = 'none'
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              form.style.display = 'none'
+              policy.style.display = 'none'
+              thanks.style.display = 'block'
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                  form.reset();
+                }) 
+                .catch(error => console.error('Error!', error.message))
+            })
+              
+  </script>
+  {{> scripts}}
+</body>
+
+</html> 

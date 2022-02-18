@@ -1,0 +1,563 @@
+{
+  "title": "C++ Programming Training Institutes in Delhi, Noida | Coding Blocks",
+  "name": "Illuminati batch for students starting their journey into the world of coding",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Find the best C++ Programming Language Courses, coaching near me where you learn from beginner to advanced level C++ coding courses. Enroll Now!"
+    },
+    {
+      "name": "keywords",
+      "content": "c++ programming, c++ tutorial for beginners, C++ training institute, c language coaching near me, c++ course near me, c++ classes near me, advanced c++ programming"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/classroom-courses/c-plus-plus-for-beginners.html",
+    "title": "C++ Beginner & Advanced Courses | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "This is a meticulously designed program designed for beginners into the world of coding. Starting from the very basics, this course will make you an ace coder with expertise in Data structures and algorithms which are the building blocks of programming. After DSA, students will be taught Competitive programming and then full stack Web development. This will prepare you for all the real life challenges you will face as a coder and developer and will brace you for Internships and placements. So, what are you waiting for? Grab a seat today before it is gone"
+  },
+  "header": {
+    "heading": "C++ <br /> Launchpad",
+    "subHeading": "Master DS & Algorithms in C++",
+    "breadcrumbs": [
+      {
+        "linkText": "Highlights",
+        "link": "#highlights"
+      },
+      {
+        "linkText": "Contents",
+        "link": "#contents"
+      },
+      {
+        "linkText": "FAQ",
+        "link": "#faq"
+      }
+    ],
+    "bgSrc": "../../../assets/images/cb/cover/cover_lanuchpad.jpg"
+  },
+  "overview": {
+    "content": "This C++ training course is designed to provide you with a platform from where you can start your journey in the amazing world of programming and software. The beginner's course will include programming fundamentals using C++, Loops, Functions, Arrays, Stacks, Queues, Linked List. <br/> <br/>The advanced course is for all those who are looking forward to sit for internships and placements. The course will involve rigorous practice of questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms, Dynamic Programming along with comprehensive revision of data structures like linked-lists, Trees, Graphs, Heaps, Hashing etc. <br/><br/> The course will help you become smarter with solutions and ace your programming interviews. C++ is known to be a very powerful language. It allows you to have a lot of control as to how you use computer resources effectively and efficiently better than other languages. Thanks to C++'s performance, it is often used to develop game engines, games, and desktop apps. As a statically typed language, C++ generally does better than dynamically typed languages because the code is type-checked before it is executed. Companies like Google and Facebook, also need C++ developers to optimize their apps or work on their products.",
+    "buttonLink": "#register-advance"
+  },
+  "syallabus": [
+    {
+      "title": "Getting Started",
+      "lecture_count": "1-2",
+      "sectionDescription": "Learn how to get started with programming and building logic using pseudocode and flowchart.",
+      "sectionContent": [
+        "Flowchart",
+        "Pseudocode",
+        "Installation of IDE and C++ Compiler"
+      ]
+    },
+    {
+      "title": "Getting a Hold of C++",
+      "lecture_count": " 3-5",
+      "sectionDescription": "Learn how to write basic syntax and use loops. We will learn how to reduce repetition of code using Functions.",
+      "sectionContent": [
+        "Variables",
+        "Loops",
+        "Conditional Statements",
+        "Functions",
+        "Reference Variables"
+      ]
+    },
+    {
+      "title": "Foundation Data Structures",
+      "lecture_count": " 6-9",
+      "sectionDescription": "We will learn to use arrays, Sorting and Searching algorithms like Bubble, Selection and Insertion Sort.",
+      "sectionContent": [
+        "Arrays",
+        "Pointers",
+        "Strings, Character Array",
+        "2-D Arrays"
+      ]
+    },
+    {
+      "title": "Recursion & Backtracking",
+      "lecture_count": "10-13",
+      "sectionDescription": "It is one of the most important topics in programming, we learn the functioning of recursive function calls and in-depth understanding of comparing algorithms via Time and Space complexity.",
+      "sectionContent": [
+        "Recursion",
+        "Back-Tracking",
+        "Space-Time Complexity Analysis"
+      ]
+    },
+    {
+      "title": "OOPs and Basic Data Structures",
+      "lecture_count": "14-19",
+      "sectionDescription": "Learn about Object Oriented Programming, and get started with basic Data Structures LinkedList, Stack and Queue.",
+      "sectionContent": [
+        "Stacks",
+        "Queues",
+        "Linked Lists",
+        "LinkedList, Stack, and Queue Algorithms."
+      ]
+    },
+    {
+      "title": " Divide and Conquer & Bitmasking",
+      "lecture_count": " 20-21",
+      "sectionDescription": "Learn the most asked problems in the Interviews from Bit Masking & DNC, here we solve the problems asked in companies like Google, Amazon, Microsoft etc.",
+      "sectionContent": [
+        "Divide & Conquer",
+        "Binary Search Variants",
+        "Bitmasking"
+      ]
+    },
+    {
+      "title": "Advanced Data Structures",
+      "lecture_count": " 22-28",
+      "sectionDescription": " Learn the most important part of the Technical and Interview rounds. We cover each and every data structure in depth along with the algorithms complexity analysis, also STL of each DS is discussed.",
+      "sectionContent": [
+        "Binary Trees",
+        "Binary Search Trees",
+        "Heaps and Priority Queues",
+        "Hashmaps",
+        "Graphs",
+        "Tries"
+      ]
+    },
+    {
+      "title": "Dynamic Programming ",
+      "lecture_count": "29-31",
+      "sectionDescription": "Learn how to write the optimised code using Dynamic Programming.",
+      "sectionContent": [
+        "1D-DP",
+        "2D-DP",
+        "DP vs Greedy Techniques"
+      ]
+    },
+    {
+      "title": "STL | Interview Problems",
+      "lecture_count": "32-33",
+      "sectionDescription": "Get started with online coding platforms like Leetcode, Codeforces, etc. We will solve problems that are generally asked in the Interviews.",
+      "sectionContent": [
+        "C++ STL",
+        "Leetcode and Codeforces",
+        "Interview problems"
+      ]
+    }
+  ],
+  "syllabus-web": 
+    [
+        {
+            "title": "HTML",
+            "lecture_count": "1-2",
+            "sectionDescription": "The building blocks of web pages - HTML. Learn how to use the latest HTML5 web development technologies.",
+            "sectionContent": [
+                "HTML Elements",
+                "Table and Forms",
+                "HTML Sementic Element",
+                "Media Elements"
+            ]
+        },
+        {
+            "title": "CSS",
+            "lecture_count": "3-6",
+            "sectionDescription": "CSS is a skin to HTML. Learn how to use the latest CSS3 stylesheets to create responsive eye-catching web sites. We also cover UI design patterns like:",
+            "sectionContent": [
+                "CSS Selectors",
+                "Flex Boxes",
+                "Media Queries and Mobile Responsive Design",
+                "Animations",
+                "3D Transform",
+                "CSS Grids",
+                "CSS Variables"
+            ]
+        },
+        {
+            "title": "Bootstrap",
+            "lecture_count": "7",
+            "sectionDescription": "Bootstrap is a promising CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.We cover Bootstrap in detail:",
+            "sectionContent": [
+                "Bootstrap Grids System",
+                "Components",
+                "Bootstrap Utilities"
+            ]
+        },
+        {
+            "title": " Javascript",
+            "lecture_count": "8-13",
+            "sectionDescription": " HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like 'clicks', 'hovers' and 'drag and drop'. Javascript is one of the most powerful and ubiquitious languages in modern software development and our course covers it in depth including:",
+            "sectionContent": [
+                "ECMAScript 6 Syntax and Standards",
+                "Function and Closures",
+                "ES6 Classes, Constructors and Prototypes",
+                "Callbacks and Array Methods",
+                "Asynchronous Programming",
+                "Promises and Async-Await",
+                "DOM Manipulation",
+                "AJAX and APIs"
+            ]
+        },
+        {
+            "title": "Frontend Libraries and Framework",
+            "lecture_count": "3-6",
+            "sectionDescription": "We cover various frontend frameworks in detail for Responsive design,Making AJAX Request etc.",
+            "sectionContent": [
+                "Bootstrap 5",
+                "jQuery",
+                "Axios"
+            ]
+        },
+        {
+            "title": "UNIX,Git and Github",
+            "lecture_count": "15",
+            "sectionDescription": "Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world's servers are hosted on Linux machines, and any web backend developer is expected to know basic DevOps and SysAdmin skills in order to manage a Linux OS. Also - Git, which is the most commonly used version control system - is one of the most helpful tools for working on large projects or in collaborative environments",
+            "sectionContent": [
+                "Unix and SysAdmin/Devops",
+                "Version Control System",
+                "Git",
+                "Github"
+            ]
+        },
+        {
+            "title": "NODEJS and Express",
+            "lecture_count": "16-19",
+            "sectionDescription": " Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is currently the fastest growing ecosystem. We will cover:",
+            "sectionContent": [
+                "NodeJS Modules",
+                "Filesystem API, Events and Streams",
+                "ExpressJS Framework",
+                "Templating using HBS/EJS",
+                "RESTful Routing",
+                "Client vs Server Side Rendering",
+                "Client and Server Side Validation"
+            ]
+        },
+        {
+            "title": "Databases",
+            "lecture_count": "20-21",
+            "sectionDescription": " What is a server if it cannot store data on databases. We will cover storing data in:",
+            "sectionContent": [
+                "SQL vs NoSQL Databases",
+                "Document Databases (MongoDB)",
+                "Mapping relationships with MongoDB",
+                "Using ODMs like Mongoose",
+                "NoSQL Best Practices",
+                "SQL Database - MySQL",
+                "Using ORMs like Sequelize"
+            ]
+        },
+        {
+            "title": "Backend Projects",
+            "lecture_count": "22-29",
+            "sectionDescription": "Understanding various concepts like authentication/authorization and full stack best practices by making full stack projects such as E-Commerce Website, Blog Website, Food Order App and Real Time Chat Application using sockets.",
+            "sectionContent": [
+                "Full Stack E-Commerce Web App",
+                "Blog App",
+                "Medium Clone",
+                "Chat App Using Sockets"
+            ]
+        },
+        {
+            "title": "Advanced Topics & Deployment",
+            "lecture_count": "30",
+            "sectionDescription": " Finally, we will cover adding basic security to websites including  SSL transport, checking for SQL injection and other vulnerabilities. We will also cover how to deploy your server to commonly used infrastructure providers like Amazon Web Services, Google Cloud or DigitalOcean",
+            "sectionContent": [
+                "Deploying our Web Apps",
+                "Unit Testing using Chai, Mocha and Nyc",
+                "Secuirity Issues - Mongo Injection, XSS, Helmet ,Sanitizing HTML with JOI "
+            ]
+        },
+        {
+            "title": "ReactJS",
+            "lecture_count": "34-38",
+            "sectionDescription": " Learning front-end development with React and Creating Single Page Applications using React.",
+            "sectionContent": [
+                "React Components.",
+                "Events and State Management.",
+                "Life Cycle Methods.",
+                "React Hooks.",
+                "Styling React Components.",
+                "React Router",
+                "Context API",
+                "Creating a Todo List",
+                "Food Order App (MERN)"
+            ]
+        },
+        {
+            "title": "Frontend Projects",
+            "lecture_count": "Code Along",
+            "sectionDescription": "Creating frontend projects, understanding layout concepts and making the most robust and responsive frontend website. ",
+            "sectionContent": [
+                "Home Page for E-Commerce Site",
+                "3D Card",
+                "Pricing Panel",
+                "Car Animation",
+                "Calculator App",
+                "Snake Game",
+                "Todo List",
+                "Movie Search App"
+            ]
+        },
+        {
+            "title": "MERN Project",
+            "lecture_count": "Code Along",
+            "sectionDescription": "Creating a Full Stack MERN Food Order App",
+            "sectionContent": [
+                "Food Order App"
+            ]
+        }
+    ],
+    "syallabus-cp": 
+    [
+        {
+            "title": "Advance Binary Search",
+            "lecture_count": "1-2",
+            "sectionDescription": "The building blocks of web pages - HTML. Learn how to use the latest HTML5 web development technologies.",
+            "sectionContent": [
+                "Divide and Conquer vs Greedy",
+                "Divide and Conquer vs DP",
+                "Advance Binary Search Problems i.e. Aggressive Cows,Book Allocation and so."
+            ]
+        },
+        {
+            "title": "Number Theory",
+            "lecture_count": "3-6",
+            "sectionDescription": "CSS is a skin to HTML. Learn how to use the latest CSS3 stylesheets to create responsive eye-catching web sites. We also cover UI design patterns like:",
+            "sectionContent": [
+                "GCD, Extented Euclidean",
+                "Totient,Linear Diphantine Equations",
+                "Fermat Little Theorem",
+                "Miller Rabin"
+            ]
+        },
+        {
+            "title": "Maths",
+            "lecture_count": "7",
+            "sectionDescription": "Bootstrap is a promising CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.We cover Bootstrap in detail:",
+            "sectionContent": [
+                "Combinatorics",
+                "Fast Power",
+                "Matrix Exponentiation"
+            ]
+        },
+        {
+            "title": "String Matching Algorithms",
+            "lecture_count": "8-13",
+            "sectionDescription": " HTML and CSS brings the content and design together, while Javascript is at the heart of all action. Learn to act on events like 'clicks', 'hovers' and 'drag and drop'. Javascript is one of the most powerful and ubiquitious languages in modern software development and our course covers it in depth including:",
+            "sectionContent": [
+                "KMP",
+                "Z and Naïve Algorithm",
+                "Rabin Karp"
+            ]
+        },
+        {
+            "title": "Advance Trees",
+            "lecture_count": "3-6",
+            "sectionDescription": "We cover various frontend frameworks in detail for Responsive design,Making AJAX Request etc.",
+            "sectionContent": [
+                "Segment Trees and Prefix Sum",
+                "Fenwick Trees",
+                "Dp on Trees"
+            ]
+        },
+        {
+            "title": "Advance Dynamic Programming",
+            "lecture_count": "15",
+            "sectionDescription": "Before we move on to backend development, we will briefly touch upon usage of Unix based systems. More than 80% of the world's servers are hosted on Linux machines, and any web backend developer is expected to know basic DevOps and SysAdmin skills in order to manage a Linux OS. Also - Git, which is the most commonly used version control system - is one of the most helpful tools for working on large projects or in collaborative environments",
+            "sectionContent": [
+                "2-D DP",
+                "Multi-Dimentional DP",
+                "Digit DP",
+                "DP with Bitmask"
+            ]
+        },
+        {
+            "title": "Advance Graph Algorithm",
+            "lecture_count": "16-19",
+            "sectionDescription": " Javascript is not just only on the frontend, but a potent force on the server too. Built by Ryan Dahl in 2009 as a platform to run JS code on bare metal, NodeJS is currently the fastest growing ecosystem. We will cover:",
+            "sectionContent": [
+                "Bellman Ford",
+                "Prims Kruskal Algorithm Floyd Warshall",
+                "ExpressJS Framework",
+                "Prims",
+                "DSU",
+                "Topological Sort",
+                "Standard Codeforces Problems"
+            ]
+        }
+    ],
+  "batches": [
+    {
+      "course": "C++, B1",
+      "timings": "05:00PM-08:00PM",
+      "mentor": "Mausina Ashraf",
+      "strength": 35,
+      "days": "Tue, Wed and Fri",
+      "start_date": "25th February '22",
+      "runcode": "ILLV22MAR",
+      "product_id": 7679,
+      "location": "Pitampura",
+      "prices": "100000"
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Mosina Ashraf",
+      "contact": "mosina.ashraf@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
+      "description": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
+      "designation": "Mentor",
+      "highlights": null
+    }
+  ],
+  "difficulty": "Beginner",
+  "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
+  "courseHighlights": [
+    {
+      "icon": "fa fa-code",
+      "title": "Fundamentals",
+      "content": "We have designed our C++ fundamentals course keeping in mind the requirements of beginners. Course starts with fundamentals of logic building and problem solving. Many tricky Puzzles are also given to build logical thinking of our students."
+    },
+    {
+      "icon": "et-line-puzzle",
+      "title": "Problem Solving",
+      "content": "The C++ course is designed to sharpen the problem solving skills, using C++, of the students. We follow step-by-step approach to make students fall in love with programming and ignite their passion of coding with the help of problems ranging to easy to intermediate to expert level."
+    },
+    {
+      "icon": "et-line-layers",
+      "title": "OOP Concepts &amp; Project",
+      "content": "Emphasis is given on building strong Object Oriented Programming Concepts and coding practices followed in the Software Industry, so to make our students industry-ready C++ coders."
+    },
+    {
+      "icon": "et-line-linegraph",
+      "title": "Data Structures&nbsp;<br>&amp; Algorithms",
+      "content": "This course entails more than 100 hours of teaching and hands on C++ coding. Students will be solving more than 200 complex problems in C++ and will be evaluated for their problem solving skills and understanding of data structures throughout the course."
+    }
+  ],
+  "faqs": [
+    {
+      "ques": "I am not sure about my branch but I love coding, can I still do this program?",
+      "ans": "Yes, this program is for all interested students irrespective of their branches."
+    },
+    {
+      "ques": "I am not in 1st semester, can I still do this program?",
+      "ans": "Yes, this program is for students who are beginning their journey into the world of coding. Does not matter if you start in 3rd semester or 5th semester."
+    },
+    {
+      "ques": "How can I earn 30-50k rs per month while still being in college?",
+      "ans": "You can apply for Teaching assistant (TA) position into Coding Blocks as soon as your DSA is complete and while you are in the course. Additionally you can work as Content creator."
+    },
+    {
+      "ques": "I am not in 8th semester, can I still do this program?",
+      "ans": "No, this program is only for all 8th semester students."
+    }
+  ],
+  "scheduleLaunchpad": [
+    {
+      "center": "Pitampura",
+      "startdate": "25th May",
+      "enddate": "TBD",
+      "daytime": "Mon (4:10 PM - 7:50 PM), Tue (4:10 PM - 7:50 PM), Thu (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM)",
+      "batchtype": "Fast Track Evening"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "4th June",
+      "enddate": "TBD",
+      "daytime": "Thu (8:00 AM - 11:50 AM), Fri (8:00 AM - 11:50 AM), Tue (8:00 AM - 11:50 AM)",
+      "batchtype": "Normal Morning"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "6th June",
+      "enddate": "TBD",
+      "daytime": "Sat (4:10 PM - 7:50 PM), Sun (4:10 PM - 7:50 PM), Wed (4:10 PM - 7:50 PM)",
+      "batchtype": "Weekend Evening"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon (12:10 PM - 3:50 PM), Wed (12:10 PM - 3:50 PM), Fri (12:10 PM - 3:50 PM)",
+      "batchtype": "Normal Noon"
+    },
+    {
+      "center": "Pitampura",
+      "startdate": "11th June",
+      "enddate": "TBD",
+      "daytime": "Mon (4:10 PM - 7:50 PM), Thu (4:10 PM - 7:50 PM), Fri (4:10 PM - 7:50 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "20th May",
+      "enddate": "TBD",
+      "daytime": "Mon (9:00 AM - 12:00 PM), Wed (9:00 AM - 12:00 PM), Fri (9:00 AM - 12:00 PM), Sat (9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "5th June",
+      "enddate": "TBD",
+      "daytime": "Mon(9:00 AM - 12:00 PM), Wed(9:00 AM - 12:00 PM), Fri(9:00 AM - 12:00 PM), Sat(9:00 AM - 12:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "6th June",
+      "enddate": "TBD",
+      "daytime": "Sat(04:00 PM - 07:00 PM), Sun(04:00 PM - 07:00 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Noida",
+      "startdate": "7th June",
+      "enddate": "TBD",
+      "daytime": "Tue(9:00 AM - 12:00 PM), Thurs(9:00 AM - 12:00 PM), Sun(9:00 AM - 12:00 PM)",
+      "batchtype": "Normal Morning"
+    },
+    {
+      "center": "Noida",
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon(12:30 PM - 03:30 PM), Wed(12:30 PM - 03:30 PM), Fri(12:30 PM - 03:30 PM), Sat(12:30 PM - 03:30 PM)",
+      "batchtype": "Fast Track Noon"
+    },
+    {
+      "center": "Noida",
+      "startdate": "8th June",
+      "enddate": "TBD",
+      "daytime": "Mon(04:00 PM - 07:00 PM), Wed(04:00 PM - 07:00 PM), Fri(04:00 PM - 07:00 PM), Sat(04:00 PM - 07:00 PM)",
+      "batchtype": "Fast Track Evening"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "5th June",
+      "enddate": "TBD",
+      "daytime": "Mon (3:00 PM - 7:30 PM), Wed (3:00 PM - 7:30 PM), Fri (3:00 PM - 7:30 PM)",
+      "batchtype": "Normal Evening"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "28th May",
+      "enddate": "TBD",
+      "daytime": "Mon (10:00 AM - 2:00 PM), Tue (10:00 AM - 2:00 PM), Thu (10:00 AM - 2:00 PM), Sat (10:00 AM - 2:00 PM)",
+      "batchtype": "Fast Track Morning"
+    },
+    {
+      "center": "Dwarka",
+      "startdate": "11th June",
+      "enddate": "TBD",
+      "daytime": "Tue (3:00 PM - 7:30 PM), Thu (3:00 PM - 7:30 PM), Sat (3:00 PM - 7:30 PM)",
+      "batchtype": "Normal Evening"
+    }
+  ],
+  "courseReviews": [
+    "NAVDEEP SINGH",
+    "SHREYA GUPTA",
+    "ANIRUDH GUPTA",
+    "DEEPAK KUMAR"
+  ],
+  "registerLinkDehradunLP": "https://students.codingblocks.com/payment/iframe?item_id=320",
+  "frame-id-dehradun-lp": "320",
+  "registerLinkPitampuraLP": "https://students.codingblocks.com/payment/iframe?item_id=385",
+  "frame-id-pitampura-lp": "385",
+  "registerLinkDwarkaLP": "https://students.codingblocks.com/payment/iframe?item_id=386",
+  "frame-id-dwarka-lp": "386",
+  "registerLinkNoidaLP": "https://students.codingblocks.com/payment/iframe?item_id=387",
+  "frame-id-noida-lp": "387"
+}
