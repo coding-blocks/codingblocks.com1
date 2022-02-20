@@ -146,11 +146,19 @@
                       </div>
                     </div>
                   </div>
+                  <div class="mr-2 bold">
+                    <div>
+                      Starts 15th March 22
+                    </div>
+                    <div>
+                      Tue, Wed, Fri: 7 - 10pm
+                    </div>
+                  </div>
                   <div class="d-sm-block d-none">
                     {{!-- This button would scroll down to the sections where batches are listed --}}
-                    <button class="button-primary buy-scroll-button" type="button" onclick="scrollNow(document.getElementById('courses'))">
+                    <a href="https://dukaan.codingblocks.com/buy?productId=7679&null" class="button-primary mr-1">
                       Enroll Now
-                    </button>
+                    </a>
                     <button class="button-primary bg-gradient-blue-light buy-scroll-button" type="button" onclick="scrollNow(document.getElementById('syllabus'))">
                       Course Syllabus
                     </button>
@@ -353,75 +361,6 @@
         </ul>
         </div>
 
-        <div class="mt-50">
-          <div class="row no-gutters align-items-center justify-content-between mb-50" id="courses">
-            <div class="heading-4 bold flex-1">
-              Center and Schedule
-            </div>
-            {{!-- <a href="#" class="button-secondary">Pitampura</a> --}}
-          </div>
-          {{#each batches}}
-          <div class="row no-gutters align-items-center justify-content-between border-bottom py-20">
-            <div class="col-8">
-              <div class="row no-gutters align-items-center justify-content-between">
-                <div class="flex-1 font-4 bold d-sm-block d-none t-align-l">{{location}}</div>
-                <div class="font-4 bold d-sm-none d-block col-12 mb-15">{{location}}</div>
-                <div class="flex-1 font-4">
-                  <div class="text-grey-light-1">
-                    Starting from
-                  </div>
-                  <div class="bold">
-                    {{start_date}}
-                  </div>
-                </div>
-                <div class="flex-1 font-4">
-                  <div class="text-grey-light-1">
-                    Weekend Batch
-                  </div>
-                  <div class="bold">
-                    {{days}}
-                  </div>
-                </div>
-                <div class="flex-1 font-4">
-                  <div class="text-grey-light-1">
-                    Timings
-                  </div>
-                  <div class="bold">
-                    {{timings}}
-                  </div>
-                </div>
-                <div class="flex-1 font-4">
-                  <div class="text-grey-light-1">
-                    Mentors
-                  </div>
-                  <div class="bold">
-                    {{mentor}}
-                  </div>
-                </div>
-                <div class="flex-2 font-4">
-                  <div class="text-grey-light-1">
-                    Price
-                  </div>
-                  <div class="bold">
-                    {{prices}}
-                  </div>
-                </div>
-              </div>
-            </div>
-            {{#if seats_full}}
-            <div class="flex-1 pl-20 row no-gutters justify-content-end">
-              <a href="" class="button-primary ml-20">SEATS FULL</a>
-            </div>
-            
-            {{else}}
-            <div class="flex-1 pl-20 row no-gutters justify-content-end">
-              <a href="https://dukaan.codingblocks.com/buy?productId={{product_id}}" class="ml-20">
-              <button class="button-primary ">Enroll</button>  </a>
-            </div>
-            {{/if}}
-          </div>
-          {{/each}}
-        </div>
       </div>
     </div>
  <div class="bg-grey-light-3">
