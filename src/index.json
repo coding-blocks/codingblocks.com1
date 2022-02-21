@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner.jpeg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/roadtoweb3",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#4700E7",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20dev%20demo%20banner.png",
       "imgAlt": "",
       "heading": "",
@@ -23,36 +38,6 @@
           "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#1C976C",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Python-DSA%20web%20banner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/pydemo1",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#0F0B09",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Valentine%20banner%20ending%20.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#BC3231",
           "filled": "true"
         }
       ]
