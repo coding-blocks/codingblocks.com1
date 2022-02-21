@@ -12,6 +12,21 @@
   ],
 
   "slides": [
+     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Code%20is%20love%20sale%20.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore Now",
+          "color" : "#000000",
+          "buttonColor":"#C73940",
+          "filled": "true"
+        }
+      ]
+    },
     {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner.jpeg",
       "imgAlt": "",
