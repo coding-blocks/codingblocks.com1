@@ -12,6 +12,21 @@
   ],
 
   "slides": [
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%281%29%20%282%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/pydemo2",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#6CCE4B",
+          "filled": "true"
+        }
+      ]
+    },
      {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Code%20is%20love%20sale%20.png",
       "imgAlt": "",
@@ -38,21 +53,6 @@
           "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#4700E7",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20dev%20demo%20banner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/webdemo1",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#1C976C",
           "filled": "true"
         }
       ]
