@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20demo%20banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/webdemo3",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#2A7A0D",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%281%29%20%282%29.png",
       "imgAlt": "",
       "heading": "",
@@ -57,36 +72,6 @@
         }
       ]
     },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ITP%20edit.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program/industrial-training-program.html",
-          "text": "Enroll Now",
-          "color" : "#000000",
-          "buttonColor":"#1A1C25",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Illuminati%2025th.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program/illuminati-batch.html",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#1E5E7C",
-          "filled": "true"
-        }
-      ]
-    }
   ],
   "events": {
     "upcoming": true,
