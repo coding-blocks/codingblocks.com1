@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/coding%20and%20career%20guidance%20banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/cgmeet",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#248EE9",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20demo%20banner.png",
       "imgAlt": "",
       "heading": "",
