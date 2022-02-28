@@ -60,6 +60,21 @@
           "link":"/classroom-program.html"
         },
         {
+          "title": "C++ Launchpad",
+          "link": "/classroom-program/c-plus-plus-for-beginners.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
+        },
+        {
+          "title": "Java Crux",
+          "link": "/classroom-program/java-for-beginners.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
+        },
+        {
+          "title": "Web Development",
+          "link": "/classroom-program/web-development-nodejs.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
+        },
+        {
           "title": "Illuminati Batch",
           "link": "/classroom-program/illuminati-batch.html",
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"

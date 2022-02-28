@@ -142,46 +142,30 @@
   "batches": [
     {
       "course": "C++, B1",
-      "timings": "03:00PM-07:00PM",
-      "mentor": "Kartik Mathur",
+      "timings": "09:30AM-12:30PM",
+      "mentor": "Abhishek Shrivastava",
       "strength": 35,
       "days": "Sat, Sun",
-      "start_date": "4th December",
-      "runcode": "LPPP21NOV",
-      "product_id": 7099,
+      "start_date": "27th March 2022",
+      "runcode": "LPPP22MAR",
+      "product_id": 7680,
       "location": "Pitampura",
-      "prices": "17000"
+      "prices": "20000"
     },
     {
       "course": "C++, B2",
-      "timings": "03:00PM-07:00PM",
-      "mentor": "Mosina Ashraf",
+      "timings": "04:00PM-07:00PM",
+      "mentor": "Mayank Jha",
       "strength": 35,
       "days": "Sat, Sun",
-      "start_date": "26th December",
-      "runcode": "LPND21DEC",
-      "product_id": 7207,
+      "start_date": "27th March 2022",
+      "runcode": "LPND22MAR",
+      "product_id": 7681,
       "location": "Noida",
-      "prices": "12750"
+      "prices": "20000"
     }
   ],
   "mentors": [
-    {
-      "name": "Kartik Mathur",
-      "contact": "kartik.mathur@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
-      "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
-      "designation": "Mentor",
-      "highlights": null
-    },
-    {
-      "name": "Mosina Ashraf",
-      "contact": "mosina.ashraf@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
-      "description": "Mosina is a competitive programmer and a front end web developer .Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice,warmhearted nature and coding skills she blends proficiently as a mentor.",
-      "designation": "Mentor",
-      "highlights": null
-    },
     {
       "name": "Abhishek Srivastava",
       "contact": "abhishek.srivastava@codingblocks.com",

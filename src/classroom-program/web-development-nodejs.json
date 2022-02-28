@@ -67,26 +67,18 @@
   "batches": [
       {
           "course": "Web Dev",
-          "timings": "03:00PM-07:00PM",
+          "timings": "09:00AM-12:30PM",
           "mentor": "Sabeel Khan",
           "strength": 35,
           "days": "Sat and Sun",
-          "start_date": "30th Oct",
-          "runcode": "WDND21OCT",
-          "product_id": 6799,
+          "start_date": "27th March",
+          "runcode": "WDND22MAR",
+          "product_id": 7684,
           "location": "Noida",
-          "price":"15400"
+          "price":"25000"
       }
   ],
   "mentors": [
-    {
-      "name": "Kartik Mathur",
-      "contact": "kartik.mathur@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
-      "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
-      "designation": "Mentor",
-      "highlights": null
-  },
   {
       "name": "Sabeel Khan",
       "contact": "sabeel.khan@codingblocks.com",
