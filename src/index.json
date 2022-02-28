@@ -12,36 +12,6 @@
   ],
 
   "slides": [
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20demo%20banner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/webdemo3",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#2A7A0D",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%281%29%20%282%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/pydemo2",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#6CCE4B",
-          "filled": "true"
-        }
-      ]
-    },
      {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Code%20is%20love%20sale%20.png",
       "imgAlt": "",
@@ -53,21 +23,6 @@
           "text": "Explore Now",
           "color" : "#000000",
           "buttonColor":"#C73940",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/roadtoweb3",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#4700E7",
           "filled": "true"
         }
       ]
