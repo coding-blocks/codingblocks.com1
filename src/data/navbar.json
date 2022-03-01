@@ -70,21 +70,6 @@
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         },
         {
-          "title": "Web Development",
-          "link": "/classroom-program/web-development-nodejs.html",
-          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
-        },
-        {
-          "title": "Illuminati Batch",
-          "link": "/classroom-program/illuminati-batch.html",
-          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
-        },
-        {
-          "title": "Industrial Training",
-          "link": "/classroom-program/industrial-training-program.html",
-          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
-        },
-        {
           "title": "Algo++",
           "link": "/classroom-program/cpp-for-advance.html",
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
@@ -97,6 +82,21 @@
         {
           "title": "Python-DSA",
           "link": "/classroom-program/python-for-beginners.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
+        },
+        {
+          "title": "Web Development",
+          "link": "/classroom-program/web-development-nodejs.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
+        },
+        {
+          "title": "Illuminati Batch",
+          "link": "/classroom-program/illuminati-batch.html",
+          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
+        },
+        {
+          "title": "Industrial Training",
+          "link": "/classroom-program/industrial-training-program.html",
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         }
       ]
