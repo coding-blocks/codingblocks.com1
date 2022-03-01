@@ -150,7 +150,7 @@
       "runcode": "LPPP22MAR",
       "product_id": 7680,
       "location": "Pitampura",
-      "prices": "20000"
+      "prices": "19999"
     },
     {
       "course": "C++, B2",
@@ -162,7 +162,7 @@
       "runcode": "LPND22MAR",
       "product_id": 7681,
       "location": "Noida",
-      "prices": "20000"
+      "prices": "16999"
     }
   ],
   "mentors": [
