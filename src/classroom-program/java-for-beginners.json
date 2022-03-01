@@ -196,7 +196,7 @@
       "runcode": "CXPP22MAR",
       "product_id": 7682,
       "location": "Pitampura",
-      "price":"20000"
+      "price":"19999"
     },
     {
       "course": "Java Crux, B2",
@@ -208,7 +208,7 @@
       "runcode": "CXND22MAR",
       "product_id": 7683,
       "location": "Noida",
-      "price":"20000"
+      "price":"16999"
     }
   ],
   "mentors": [

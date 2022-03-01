@@ -160,27 +160,27 @@
   "batches": [
     {
       "course": "Algo.Java, B1",
-      "timings": "10:00AM-01:00PM",
+      "timings": "9:30AM-12:30PM",
       "mentor": "Lakshya Singh",
       "strength": "According to the batch size",
       "days": "Sat, Sun",
-      "start_date": "21st November 2021",
-      "runcode": "AJPP21NOV",
-      "product_id": 6807,
+      "start_date": "30th April 2022",
+      "runcode": "AJPP22APR",
+      "product_id": 7739,
       "location": "Pitampura",
-      "price":"11999"
+      "price":"14999"
     },
     {
       "course": "Algo.Java, B2",
-      "timings": "03:00PM-07:00PM",
+      "timings": "9:30AM-12:30PM",
       "mentor": "Monu Kumar",
       "strength": "According to the batch size",
       "days": "Sat, Sun",
-      "start_date": "21st November 2021",
-      "runcode": "AJND21NOV",
-      "product_id": 6808,
+      "start_date": "30th April 2022",
+      "runcode": "AJND22APR",
+      "product_id": 7738,
       "location": "Noida",
-      "price":"8999"
+      "price":"11999"
     }
   ],
   "mentors": [
@@ -197,22 +197,6 @@
       "contact": "lakshya.singh@codingblocks.com",
       "img": "https://images.codingblocks.com/img/mentor/Lakshay%20Singh.png",
       "description": "Lakshya is an IIITD Btech graduate who has a strong coding background in Java and Python. He is known for his unique understanding of concepts and loves to pursue Deep Learning and Cognitive Neuropsychology in his spare time.",
-      "designation": "Mentor",
-      "highlights": null
-    },
-    {
-      "name": "Shubham Singhal",
-      "contact": "shubham.singhal@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Shubham%20Singhal.png",
-      "description": "Shubham is a Masters in AI specialization from IIIT-Delhi. He is well versed in C/C++, Java and Python coding languages as well as highly proficient in Data Structures and Algorithm. As a Data Science and machine learning enthusiast, he has deep knowledge about this field. He also published a paper related to Machine Learning in iconip conference.",
-      "designation": "Mentor",
-      "highlights": null
-    },
-    {
-      "name": "Kartik Sapra",
-      "contact": "kartik.sapra@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Sapra.png",
-      "description": "Kartik is an Open source enthusiast. He is a Competitive programmer and expert in Data structures, Algorithms and Java technologies. He is a GSoCer and is among top 20 contributors in fabric8-maven-plugin project by RedHat and contributed significantly to checkstyle. He has also mentored in Google code-in for two years consecutively. He is loved by students for his innovative style of teaching. He is also an experienced developer.",
       "designation": "Mentor",
       "highlights": null
     }
