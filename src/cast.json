@@ -1,5 +1,13 @@
 {
   "title": "CAST: Coders Admission & Scholarship Test | Coding Blocks",
+  "head": {
+    "links": [
+      {
+        "href": "https://unpkg.com/browse/@coding-blocks/motley@2.3.0/dist/coding-blocks/app.min.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
   "openGraph": {
     "url": "https://codingblocks.com/cast.html",
     "title": "CAST: Coders Admission & Scholarship Test",
