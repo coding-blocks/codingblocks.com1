@@ -13,6 +13,22 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CAST%20web%20banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/cast",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#3A4253",
+          "filled": "true"
+        }
+      ]
+    }
+  ],
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Code%20is%20love%20sale%20.png",
       "imgAlt": "",
       "heading": "",
