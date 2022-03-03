@@ -13,21 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Illuminati%20Demo%20Web%20Banner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/ilmdemo1",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#22E9A6",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Code%20is%20love%20sale%20.png",
       "imgAlt": "",
       "heading": "",
