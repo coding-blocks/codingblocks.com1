@@ -93,11 +93,6 @@
           "title": "Illuminati Batch",
           "link": "/classroom-program/illuminati-batch.html",
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
-        },
-        {
-          "title": "Industrial Training",
-          "link": "/classroom-program/industrial-training-program.html",
-          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         }
       ]
     },
@@ -130,7 +125,7 @@
           "link": "/live-courses/master-python-dsa.html"
         },
         {
-          "title": "Illuminnati",
+          "title": "Illuminati",
           "link": "/live-courses/illuminati.html"
         }
       ]
