@@ -13,6 +13,36 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Dev%20Banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/master-web-development-nodejs.html",
+          "text": "Enrol Now",
+          "color" : "#000000",
+          "buttonColor":"#55C25C",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2B%20LIVE%20Banner.jpeg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/c-plus-plus-fastrack-batch.html",
+          "text": "Enrol Now",
+          "color" : "#000000",
+          "buttonColor":"#573DDC",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/%20CAST%20banner%20new.png",
       "imgAlt": "",
       "heading": "",
