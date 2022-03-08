@@ -12,6 +12,21 @@
   ],
 
   "slides": [
+      {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%289%29.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-classes.html",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#59377E",
+          "filled": "true"
+        }
+      ]
+    },
     {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Dev%20Banner.png",
       "imgAlt": "",
