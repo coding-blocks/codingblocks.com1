@@ -57,21 +57,6 @@
         }
       ]
     },
-      {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Re%20Web%20Banner%20copy.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-classes.html",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#59377E",
-          "filled": "true"
-        }
-      ]
-    },
     {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2B%20LIVE%20Banner.jpeg",
       "imgAlt": "",
