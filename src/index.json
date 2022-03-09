@@ -12,6 +12,21 @@
   ],
 
   "slides": [
+     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ILM%2030percent%20Web%20banner.jpeg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/illuminati.html",
+          "text": "Enrol Now",
+          "color" : "#000000",
+          "buttonColor":"#2BB4EE",
+          "filled": "true"
+        }
+      ]
+    },
     {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/MasterClass%20banner.jpeg",
       "imgAlt": "",
@@ -23,6 +38,21 @@
           "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#248EE9",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20banner%20edit%20%20copy.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/master-web-development-nodejs.html",
+          "text": "Enrol Now",
+          "color" : "#000000",
+          "buttonColor":"#44484B",
           "filled": "true"
         }
       ]
