@@ -27,6 +27,21 @@
         }
       ]
     },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20copy.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-classes.html",
+          "text": "Enrol Now",
+          "color" : "#000000",
+          "buttonColor":"#FFAD00",
+          "filled": "true"
+        }
+      ]
+    },
      {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ILM%2030percent%20Web%20banner.jpeg",
       "imgAlt": "",
