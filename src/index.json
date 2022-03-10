@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CG%20Pitampura%20WB.jpeg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/cgpitampura",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#7FD841",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CG%20Noida%20Web%20banner.jpeg",
       "imgAlt": "",
       "heading": "",
