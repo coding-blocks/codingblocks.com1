@@ -73,21 +73,6 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/MasterClass%20banner.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/mcrecur",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#248EE9",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20banner%20edit%20%20copy.png",
       "imgAlt": "",
       "heading": "",
