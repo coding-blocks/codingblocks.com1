@@ -13,31 +13,16 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CG%20Pitampura%20WB.jpeg",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/OFFLINE-WB.jpg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://lu.ma/cgpitampura",
-          "text": "Register Now",
+          "link": "https://codingblocks.com/classroom-program.html",
+          "text": "Explore More",
           "color" : "#000000",
-          "buttonColor":"#7FD841",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CG%20Noida%20Web%20banner.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/cgnoida",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#3E057A",
+          "buttonColor":"#F2C430",
           "filled": "true"
         }
       ]
