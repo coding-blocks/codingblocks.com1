@@ -42,67 +42,7 @@
         }
       ]
     },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20copy%20%281%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-classes.html",
-          "text": "Enrol Now",
-          "color" : "#000000",
-          "buttonColor":"#FFAD00",
-          "filled": "true"
-        }
-      ]
-    },
-     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ILM%2030percent%20Web%20banner.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-courses/illuminati.html",
-          "text": "Enrol Now",
-          "color" : "#000000",
-          "buttonColor":"#2BB4EE",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/web%20banner%20edit%20%20copy.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-courses/master-web-development-nodejs.html",
-          "text": "Enrol Now",
-          "color" : "#000000",
-          "buttonColor":"#44484B",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2B%20LIVE%20Banner.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-courses/c-plus-plus-fastrack-batch.html",
-          "text": "Enrol Now",
-          "color" : "#000000",
-          "buttonColor":"#573DDC",
-          "filled": "true"
-        }
-      ]
-    }
-  ],
+    
   "events": {
     "upcoming": true,
     "past": false,
