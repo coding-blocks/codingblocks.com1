@@ -28,21 +28,6 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CAST%2019%3A3.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/cast",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#2BB4EE",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/OFFLINE-WB.jpg",
       "imgAlt": "",
       "heading": "",
