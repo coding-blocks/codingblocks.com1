@@ -39,7 +39,7 @@
             <div class="col-lg-7 col-12 mb-lg-none mb-25">
               <div class="row no-gutters align-items-center">
                 <div class="bold text-gradient-black col-sm-6 mb-10 pr-15 "><i class="far fa-check-circle"></i> {{interactiveClasses}}</div>
-                <div class="bold text-gradient-black col-sm-6 mb-10"><i class="far fa-check-circle"></i> {{projects}}</div>
+                {{#if projects}}<div class="bold text-gradient-black col-sm-6 mb-10"><i class="far fa-check-circle"></i> {{projects}}</div>{{/if}}
               </div>
               <div class="row no-gutters align-items-center">
                 <div class="bold text-gradient-black col-sm-6 mb-10 pr-15"><i class="far fa-check-circle"></i> {{codingProblems}}</div>
@@ -76,7 +76,7 @@
               </div>
               <div class="row no-gutters align-items-center">
                 <div class="bold text-gradient-black col-sm-6 mb-10 pr-15">{{codingProblems}}</div>
-                <div class="bold text-gradient-black col-sm-6 mb-10">Classes Thrice a week</div>
+                <div class="bold text-gradient-black col-sm-6 mb-10">Classes {{days}} times in week</div>
               </div>
             </div>
             <div class="flex-1">

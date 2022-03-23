@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+  <style>
+    body {
+      padding: 0
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Gilroy", "Nunito Sans", sans-serif;
+      font-color: #ffffff;
+    }
+
+    justify-content {
+      space-between !important
+    }
+  </style>
+</head>
+
+<body>
+  {{> navbar}}
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="a-cbm px-md-5 px-4 live-courses mb-5">
+    {{> courseMeta}}
+    <div class="row">
+      <div class="col-lg-8 mb-lg-0 mb-5">
+        <div class="border-card p-md-5 p-4 mb-5">
+          <div class="font-md">
+            <strong>Summary</strong>
+            <br /><br />
+           This course is for those who are comfortable in DSA and want to improve themselves in the best way possible for their upcoming placements to Secure Job in Top Product Based Companies. 400+ Placement Questions will be covered extensively. Top Performers will get referral in Top Product Based Companies (FAANG).
+            <br /><br />
+            <strong>Highlights</strong>
+            <br /><br />
+            <ul class="list-style-gradient-bullet my-0">
+              <li>Extensive Data Structures &amp; Algorithmic Coverage</li>
+              <li>Project-Based Learning Approach</li>
+              <li>In-depth Discussion on Interview Preparation, Technical Rounds and Competitive Programming</li>
+              <li>Video Lectures and Code Challenges</li>
+              <li>Hint Videos for Complex Problems</li>
+              <li>Lifetime Assignment Access</li>
+              <li>Basics &amp; Advanced Coding Topics for Interviews</li>
+              <li>Expert Doubt Support</li>
+            </ul>
+            <br />
+            {{!-- <strong>Pre-requisites</strong>
+            <br /><br />
+            Basic knowledge of Data Structures in C++ programming language is required.
+            </pre> --}}
+          </div>
+        </div>
+        {{>liveCourseSchedule}}
+        {{>aboutMentor}}
+      </div>
+      <div class="col-lg-4 mb-lg-0 mb-5">
+        {{>testTimelines}}
+      </div>
+      {{> studentsSay}}
+    </div>
+  </div>
+  {{>footer}}
+  {{> scripts}}
+</body>
+
+</html>

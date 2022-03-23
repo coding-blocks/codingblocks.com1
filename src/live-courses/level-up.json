@@ -1,0 +1,185 @@
+{
+  "title": "Best C++ Training course in Delhi, Noida | Coding Blocks",
+  "metas": [
+    {
+      "name": "description",
+      "content": "Coding Blocks is the best C++ training institute in Delhi, Noida. Join beginner and advanced C++ courses."
+    },
+    {
+      "name": "keywords",
+      "content": "c++,cpp,c plus plus,programming,course,delhi,india,data structures,algorithms,prateek,narang"
+    }
+  ],
+  "head": {
+    "links": [
+      {
+        "href": "https://use.fontawesome.com/releases/v5.0.10/css/all.css",
+        "rel": "stylesheet"
+      }
+    ]
+  },
+  "aboutMentor": [
+    {
+      "name": "Monu Kumar",
+      "profile_pic_link": "https://images.codingblocks.com/img/mentor/Monu.png",
+      "summary": "Monu Kumar is a competitive programmer, an expert in data structures and algorithms, and an expert in Mathematics. He always amazes his students with his creative thinking to the problems and makes solutions to tough problems a cake walk. He has a strong grasp on the core subjects of computer science",
+      "email": "monu.kumar@codingblocks.com"
+    }
+  ],
+  "openGraph": {
+    "url": "https://codingblocks.com/live-courses/interview-preparation-cpp.html",
+    "title": "C++ Beginner & Advanced Courses | Coding Blocks",
+    "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
+    "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
+  },
+  "courseMeta": {
+    "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
+    "title": "Level Up",
+    "price": "1,999",
+    "slashedPrice": "4,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=7896",
+    "demo-link": "https://codingblocks.com/take-demo.html",
+    "mentors": "Monu Kumar",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/Monu.png",
+    "description": "Start from Basics, become a C++ Master!",
+    "mentor-img-1": "https://minio.codingblocks.com/amoeba/c509cce7-b3ba-450f-bad4-c9a89a61bf91",
+    "mentor-img-2": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=7896",
+    "startDate": "4th April 2022",
+    "gradient": "bg-gradient-blue-dark",
+    "interactiveClasses": "20 Live Interactive Classes",
+    "codingProblems": "400+ hands on coding problems",
+    "days":"(Mon, Thur)"
+  },
+  "demoClass": [
+    {
+      "youtubeID": "mOtc5JrZT0o"
+    },
+    {
+      "youtubeID": "JTKvNx7c8xE"
+    },
+    {
+      "youtubeID": "tl9jpnzOTNE"
+    }
+  ],
+  "testTimelines": {
+    "test_link_first": "https://hack.codingblocks.com/app/contests/1938",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=4240"
+  },
+  "studentsSay": [
+    {
+      "name": "Anshul Mittal",
+      "story": "Coding Blocks helped in gaining enough experience to get internships at giants like Google and Rubrik.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1536154281747.jpeg"
+    },
+    {
+      "name": "Sidharth Bansal",
+      "story": "Hii I am Sidharth Bansal from Delhi technology university. I have done competitive boot camp from coding blocks. This gave me a great exposure to problem solving mindset.",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1537792831355.jpeg"
+    },
+    {
+      "name": "Samarth Jain",
+      "story": "My journey in the world of Competitive Programming started with the Bootcamp at Coding Blocks, which turned out to be a changing point in my life. The immense amount of knowledge I got during the course did not only develop my interest but also made me pursue this field later. A special thanks to Shubham bhaiya, Mayank bhaiya and Prateek bhaiya for being the guiding lights in my journey and always motivating us to follow our passion!",
+      "image": "https://minio.codingblocks.com/codingblocks-assets/1538401462569.jpeg"
+    }
+  ],
+  "highlights": [
+    {
+      "head": "Opportunities unlocked for learner",
+      "description": "This course covers the topics of Advanced Data Structures and Competitive concepts along with important coding questions asked in the interview process of companies like Google, Facebook, Codenation, Amazon, Microsoft, Directi, Uber etc.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
+    },
+    {
+      "head": "Hands on Projects and Problems:",
+      "description": "250+ Problems from Leetcode, Codeforces, SPOJ, Hackerrank, etc.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
+    },
+    {
+      "head": "Why choose CB Live:",
+      "description": "Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+    },
+    {
+      "head": "This course is essential for you:",
+      "description": "If you have basic knowledge of fundamentals in any programming language  and want to prepare for the interview of companies like Google, Facebook, Amazon, Microsoft, Directi, Zomato, etc.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
+    }
+  ],
+  "schedule_days": {
+    "days": "Wed, Sat and Sun",
+    "timming": ""
+  },
+  "schedule": [
+    { "lecture": "Lecture 1", "description": "Arrays - 1" },
+    { "lecture": "Lecture 2", "description": "Arrays - 2" },
+    { "lecture": "Lecture 3", "description": "Strings - 1" },
+    { "lecture": "Lecture 4", "description": "Strings - 2" },
+    { "lecture": "Lecture 5", "description": "Stack" },
+    { "lecture": "Lecture 6", "description": "Queue" },
+    {
+      "lecture": "Lecture 7",
+      "description": "Recursion - 1"
+    },
+    { "lecture": "Lecture 8", "description": "Recursion - 2" },
+    { "lecture": "Lecture 9", "description": "Binary Trees" },
+    { "lecture": "Lecture 10", "description": "Binary Trees & BInary Search Trees" },
+    { "lecture": "Lecture 11", "description": "Binary Trees & BInary Search Trees" },
+    { "lecture": "Lecture 12", "description": "Bitmasking" },
+    { "lecture": "Lecture 13", "description": "Mathematics" },
+    { "lecture": "Lecture 14", "description": "Dynamic Programming - 1" },
+    { "lecture": "Lecture 15", "description": "Dynamic Programming - 2" },
+    { "lecture": "Lecture 16", "description": "Dynamic Programming - 3" },
+    { "lecture": "Lecture 17", "description": "Priority Queue" },
+    { "lecture": "Lecture 18", "description": "HashMap" },
+    { "lecture": "Lecture 19", "description": "Graphs - 1" },
+    { "lecture": "Lecture 20", "description": "Graphs - 2" }
+  ],
+  "extra-Content": [
+    { "lecture": "Lecture 25", "description": "Operating Systems" },
+    {
+      "lecture": "Lecture 26",
+      "description": "Process Synchronization and Classical Problems in Operating System"
+    },
+    { "lecture": "Lecture 27", "description": "DBMS" },
+    {
+      "lecture": "Lecture 28",
+      "description": "Normalization And Lossless Join Decomposition"
+    },
+    {
+      "lecture": "Lecture 29",
+      "description": "Transaction and Concurrency Control and Transaction Isolation Levels"
+    },
+    { "lecture": "Lecture 30", "description": "My-SQL" },
+    {
+      "lecture": "Lecture 31",
+      "description": "Introduction of Computer Networking"
+    },
+    {
+      "lecture": "Lecture 32",
+      "description": "Network layer and Routing Protocols"
+    },
+    {
+      "lecture": "Lecture 33",
+      "description": "Flow Control and Access Control"
+    },
+    { "lecture": "Lecture 34", "description": "System Designs" },
+    { "lecture": "Lecture 35", "description": "Case Study on System Design" }
+  ],
+  "projects": [
+    {
+      "project_name": "Painter's Problem"
+    },
+    {
+      "project_name": "NQUEEN"
+    },
+    {
+      "project_name": "SUDOKU SOLVER"
+    },
+    {
+      "project_name": "SPLITWISE ALGO"
+    },
+    {
+      "project_name": "RAT IN A MAZE"
+    }
+  ]
+}
