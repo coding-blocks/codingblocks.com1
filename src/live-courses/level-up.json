@@ -33,7 +33,7 @@
     "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
   },
   "courseMeta": { "couponApplicable": false,
-    "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
+    "icon": "https://minio.codingblocks.com/amoeba/2e4f805d-c692-4902-9eb6-b9564a7f1c0b.svg",
     "title": "Level Up",
     "price": "1,999",
     "slashedPrice": "4,999",
@@ -46,8 +46,10 @@
     "mentor-img-2": "https://minio.codingblocks.com/amoeba/708c8509-c114-4ff5-9fd5-6d305217f14a",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=7896",
     "startDate": "4th April 2022",
+    "timing": "7pm - 10pm",
     "gradient": "bg-gradient-blue-dark",
     "interactiveClasses": "20 Live Interactive Classes",
+    "codingProblems": "400+ Placement Prepration Questions",
     "days":"(Mon, Thur)"
   },
   "demoClass": [
