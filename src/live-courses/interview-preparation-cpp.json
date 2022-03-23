@@ -32,7 +32,7 @@
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
     "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
   },
-  "courseMeta": {
+  "courseMeta": { "couponApplicable": true,
     "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
     "title": "Interview Preparation/Master Competitive C++ Course",
     "price": "13,999",

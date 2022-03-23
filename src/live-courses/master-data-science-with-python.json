@@ -29,7 +29,7 @@
       }
     ]
   },
-  "courseMeta": {
+  "courseMeta": { "couponApplicable": true,
     "icon": "https://images.codingblocks.com/img/newcourse_logo/ds_white.png",
     "title": "Master Data Science with Python",
     "price": "13,999",

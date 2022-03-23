@@ -33,7 +33,7 @@
       }
     ]
   },
-   "courseMeta": {
+   "courseMeta": { "couponApplicable": true,
     "icon": "https://minio.codingblocks.com/amoeba/b8955c5d-ebaa-4667-a9bd-84bd0c664063.svg",
     "title": "Master Digital Marketing",
     "price": "14,999",

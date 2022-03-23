@@ -26,7 +26,7 @@
     ]
   },
 
-  "courseMeta": {
+  "courseMeta": { "couponApplicable": true,
     "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
     "title": "Master Algo.Java-Data Structures",
     "price": "12,999",

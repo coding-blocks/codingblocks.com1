@@ -42,7 +42,7 @@
                 {{#if projects}}<div class="bold text-gradient-black col-sm-6 mb-10"><i class="far fa-check-circle"></i> {{projects}}</div>{{/if}}
               </div>
               <div class="row no-gutters align-items-center">
-                <div class="bold text-gradient-black col-sm-6 mb-10 pr-15"><i class="far fa-check-circle"></i> {{codingProblems}}</div>
+                {{#if codingProblems}}<div class="bold text-gradient-black col-sm-6 mb-10 pr-15"><i class="far fa-check-circle"></i> {{codingProblems}}</div>{{/if}}
                 <div class="bold text-gradient-black col-sm-6 mb-10"><i class="far fa-check-circle"></i> Classes {{days}} times in week</div>
               </div>
             </div>
@@ -52,7 +52,7 @@
                 <span class="heading-6 text-grey-light-1"
                   style="text-decoration: line-through;">&nbsp;&nbsp;{{slashedPrice}}</span>
                 <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
-                <div class="mt-1">Use Coupon &quot;<strong>LIV50</strong>&quot;</div>
+                {{#if couponApplicable}}<div class="mt-1">Use Coupon &quot;<strong>LIV50</strong>&quot;</div>{{/if}}
               </div>
               <div class="row no-gutters align-items-center justify-content-end">
                 <div class="flex-1 t-align-r v-align-ma d-sm-block d-none">
@@ -60,7 +60,7 @@
                   <span class="heading-6 text-grey-light-1"
                     style="text-decoration: line-through;">&nbsp;&nbsp;{{slashedPrice}}</span>
                   <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
-                  <div class="mt-1">Use Coupon &quot;<strong>LIV50</strong>&quot;</div>
+                  {{#if couponApplicable}}<div class="mt-1">Use Coupon &quot;<strong>LIV50</strong>&quot;</div>{{/if}}
                 </div>
                 <a href="{{test_link_second}}" class="button-primary ml-30 mb-none">Buy Now</a>
               </div>
@@ -75,7 +75,7 @@
                 <div class="bold text-gradient-black col-sm-6 mb-10">{{projects}}</div>
               </div>
               <div class="row no-gutters align-items-center">
-                <div class="bold text-gradient-black col-sm-6 mb-10 pr-15">{{codingProblems}}</div>
+                {{#if codingProblems}}<div class="bold text-gradient-black col-sm-6 mb-10 pr-15">{{codingProblems}}</div>{{/if}}
                 <div class="bold text-gradient-black col-sm-6 mb-10">Classes {{days}} times in week</div>
               </div>
             </div>
@@ -85,7 +85,7 @@
                 <span class="heading-6 text-grey-light-1"
                   style="text-decoration: line-through;">&nbsp;&nbsp;{{price}}</span>
                 <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
-                <div class="mt-1">Use Coupon &quot;<strong>LIV50</strong>&quot;</div>
+                {{#if couponApplicable}}<div class="mt-1">Use Coupon &quot;<strong>LIV50</strong>&quot;</div>{{/if}}
               </div>
               <div class="row no-gutters align-items-center justify-content-end">
                 <div class="flex-1 t-align-r v-align-ma d-sm-block d-none">
@@ -93,7 +93,7 @@
                   <span class="heading-6 text-grey-light-1"
                     style="text-decoration: line-through;">&nbsp;&nbsp;{{price}}</span>
                   <div class="mt-1">Starting from <strong>{{startDate}}</strong></div>
-                  <div class="mt-1">Use Coupon &quot;<strong>LIV50</strong>&quot;</div>
+                  {{#if couponApplicable}}<div class="mt-1">Use Coupon &quot;<strong>LIV50</strong>&quot;</div>{{/if}}
                 </div>
                 <a href="{{test_link_second}}" class="button-primary ml-30 mb-none">Buy Now</a>
               </div>

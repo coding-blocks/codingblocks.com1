@@ -37,7 +37,7 @@
       "email": "apaarkamal@gmail.com"
     }
   ],
-   "courseMeta": {
+   "courseMeta": { "couponApplicable": true,
     "icon": "https://minio.codingblocks.com/amoeba/587ae53b-6f4e-4afb-a2c5-b328a4dfbdf1.svg",
     "title": "Master Competitive Programming",
     "price": "20,999",

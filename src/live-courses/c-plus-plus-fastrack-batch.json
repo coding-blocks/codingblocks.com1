@@ -26,7 +26,7 @@
         }
       ]
     },
-    "courseMeta": {
+    "courseMeta": { "couponApplicable": true,
       "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
       "title": "C++ Fastrack Batch",
       "price": "7,999",

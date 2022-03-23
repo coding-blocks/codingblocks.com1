@@ -32,7 +32,7 @@
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
     "description": "Coding Blocks is the best C++ training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced C++ courses."
   },
-  "courseMeta": {
+  "courseMeta": { "couponApplicable": false,
     "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
     "title": "Level Up",
     "price": "1,999",
@@ -48,7 +48,6 @@
     "startDate": "4th April 2022",
     "gradient": "bg-gradient-blue-dark",
     "interactiveClasses": "20 Live Interactive Classes",
-    "codingProblems": "400+ hands on coding problems",
     "days":"(Mon, Thur)"
   },
   "demoClass": [
@@ -88,11 +87,6 @@
       "head": "Opportunities unlocked for learner",
       "description": "This course covers the topics of Advanced Data Structures and Competitive concepts along with important coding questions asked in the interview process of companies like Google, Facebook, Codenation, Amazon, Microsoft, Directi, Uber etc.",
       "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
-    },
-    {
-      "head": "Hands on Projects and Problems:",
-      "description": "250+ Problems from Leetcode, Codeforces, SPOJ, Hackerrank, etc.",
-      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
     },
     {
       "head": "Why choose CB Live:",

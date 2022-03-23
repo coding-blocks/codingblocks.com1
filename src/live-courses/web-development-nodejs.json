@@ -32,7 +32,7 @@
     "image": "https://scontent.fdel1-1.fna.fbcdn.net/t45.5328-0/c0.0.540.540/p180x540/14290597_1167512883322297_1947152684_n.jpg",
     "description": "Coding Blocks is the best NodeJS training institute in Delhi, Noida, Dwarka, Jalandhar and Amritsar. Join beginner and advanced NodeJS courses."
   },
-  "courseMeta": {
+  "courseMeta": { "couponApplicable": true,
     "icon": "https://minio.codingblocks.com/amoeba/e2c13faa-f538-48d4-8ca1-88728a07c51a.svg",
     "title": "Web Development with NodeJS",
     "price": "12,999",

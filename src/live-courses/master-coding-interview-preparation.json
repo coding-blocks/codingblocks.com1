@@ -20,7 +20,7 @@
       }
     ]
   },
-  "courseMeta": {
+  "courseMeta": { "couponApplicable": true,
     "icon": "https://minio.codingblocks.com/amoeba/215fa6ed-14f3-4d1e-87d5-d9d71cf0d0dd.svg",
     "title": "Master Interview Prep for Bigwigs",
     "price": "15,999",
