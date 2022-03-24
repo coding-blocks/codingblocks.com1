@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20Python%20DSA.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program/python-for-beginners.html",
+          "text": "Enrol Now",
+          "color" : "#000000",
+          "buttonColor":"#893BE4",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CAST27new.png",
       "imgAlt": "",
       "heading": "",
