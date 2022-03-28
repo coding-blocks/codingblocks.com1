@@ -28,36 +28,6 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Pyorien2.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/pyorientation",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#FCAB01",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Web%20Banner%20%2811%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#2F2D76",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/OFFLINE-WB.jpg",
       "imgAlt": "",
       "heading": "",
