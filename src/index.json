@@ -12,6 +12,21 @@
   ],
 
   "slides": [
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/WEB%20DEV-banner.jpeg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program/web-development-nodejs.html",
+          "text": "Enrol Now",
+          "color" : "#000000",
+          "buttonColor":"#F16E38",
+          "filled": "true"
+        }
+      ]
+    },
      {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/end%20sale-banner.jpeg",
       "imgAlt": "",
