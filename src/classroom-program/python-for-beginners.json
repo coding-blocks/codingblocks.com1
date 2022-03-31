@@ -42,102 +42,45 @@
   },
   "syallabus": [
     {
-      "title": "Basics",
+      "title": "Basics: Conditionals, loop, pattern",
       "lecture_count": " 1-2",
       "sectionDescription": "Learn how to get started with programming and building logic using pseudocode and flowchart.",
       "sectionContent": [
-        "Python 3 Installation",
-        "Getting Started I",
-        "Getting Started II",
-        "Working with Jupyter Notebooks",
-        "Set up JupyterThemes",
-        "Python Basics",
-        "Python Variables And Arithmetic Operators",
-        "Control Flow I",
-        "Control Flow II",
-        "Operator and Expression I",
-        "Operator and Expression II",
-        "Operator and Expression III"
       ]
     },
     {
-      "title": "Functions",
+      "title": "Basics: Patterns, DataType, functions",
       "lecture_count": " 3-5",
       "sectionDescription": "Learn how to write basic syntax and use loops. We will learn how to reduce repetition of code using Functions.",
       "sectionContent": [
-        "Introduction to Functions",
-        "Python FunctionsReturn, Local, Global",
-        "Python Functionspacking arguments",
-        "Python FunctionsLambda Functions",
-        "Python FunctionsDecorators",
-        "Python Functions*args and **kwargs"
       ]
     },
     {
-      "title": "Builtin Data Structures",
+      "title": "List,tuple",
       "lecture_count": " 6-9",
       "sectionDescription": "We will learn to use arrays, Sorting and Searching algorithms like Bubble, Selection and Insertion Sort.",
       "sectionContent": [
-        "Python  Introduction to Data Structures",
-        "Python  Introduction to Strings",
-        "Python  String Operations",
-        "Python  Introduction to Lists",
-        "Python  Introduction to Tuples",
-        "Python  Introduction to Dictionaries",
-        "Python  Introduction to Sets",
-        "Comprehension of Data Structure in Python"
       ]
     },
     {
-      "title": "Object Oriented Programming Modules",
+      "title": "String",
       "lecture_count": "10-13",
       "sectionDescription": "It is one of the most important topics in programming, we learn the functioning of recursive function calls and in-depth understanding of comparing algorithms via Time and Space complexity.",
       "sectionContent": [
-        "Python Class 01",
-        "Python Class 02",
-        "Python Class 03",
-        "Python Class 04",
-        "Python Class 05",
-        "Python Class 06",
-        "Python Modules 1",
-        "Python Modules 2",
-        "Python Modules 3"
       ]
     },
     {
-      "title": "File & Error Handling",
+      "title": "Recursion I",
       "lecture_count": "14-19",
       "sectionDescription": "Learn about Object Oriented Programming, and get started with basic Data Structures LinkedList, Stack and Queue.",
       "sectionContent": [
-        "Python  File Handling",
-        "Python  Working with JSON",
-        "Python  Error Handling 1",
-        "Python  Error Handling 2",
-        "Python  Error Handling 3",
-        "Python  Error Handling 4"
       ]
     },
     {
-      "title": "Iteration Protocol and Generators",
+      "title": "Recursion II",
       "lecture_count": " 20-21",
       "sectionDescription": "Learn the most asked problems in the Interviews from Bit Masking & DNC, here we solve the problems asked in companies like Google, Amazon, Microsoft etc.",
       "sectionContent": [
-        "Python  Iteration Protocol",
-        "Iterators in Python",
-        "Generators in Python"
-      ]
-    },
-    {
-      "title": "Asynchronous Programming in Python  ",
-      "lecture_count": " 22-28",
-      "sectionDescription": " Learn the most important part of the Technical and Interview rounds. We cover each and every data structure in depth along with the algorithms complexity analysis, also STL of each DS is discussed.",
-      "sectionContent": [
-        "Async Programming Python  1",
-        "Async Programming Python  2",
-        "Async Programming Python  3",
-        "Python  Coroutines in Python",
-        "Python  AsyncIO 1",
-        "Python  AsyncIO 2"
       ]
     }
   ],
