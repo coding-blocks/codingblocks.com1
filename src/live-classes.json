@@ -120,6 +120,22 @@
       "startDate": "9th March 2022",
       "badge": "Beginner",
       "batchmonth" :"March Batch"
+    },
+    {
+      "name": "Level Up",
+      "icon": "https://minio.codingblocks.com/amoeba/2e4f805d-c692-4902-9eb6-b9564a7f1c0b.svg",
+      "link": "/live-courses/level-up.html",
+      "mentors": "Monu Kumar",
+      "interactiveClasses": "20 Live Interactive Classes",
+      "codingProblems": "",
+      "projects": "",
+      "classSchedule": "Mon,Thurs",
+      "price": "1,999",
+      "slashedPrice": "4,999",
+      "gradient": "bg-gradient-blue",
+      "startDate": "16th May 2022",
+      "badge": "Beginner",
+      "batchmonth" :"March Batch"
     }
   ],
   "liveCoursesRow1": [
