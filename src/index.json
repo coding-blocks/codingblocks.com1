@@ -42,21 +42,6 @@
         }
       ]
     },
-     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/end%20sale-banner.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#D45D37",
-          "filled": "true"
-        }
-      ]
-    },
     {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Python-DSA%20web%20banner.png",
       "imgAlt": "",
