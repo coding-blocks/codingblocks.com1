@@ -13,6 +13,36 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Python%20beg%20banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program/python-for-beginners.html",
+          "text": "Enrol Now",
+          "color" : "#000000",
+          "buttonColor":"#2EB4EA",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/webstrips%20/levelup%20banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/level-up.html",
+          "text": "Enrol Now",
+          "color" : "#000000",
+          "buttonColor":"#493DC0",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/WEB%20DEV-banner.jpeg",
       "imgAlt": "",
       "heading": "",
