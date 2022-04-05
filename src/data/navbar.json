@@ -115,6 +115,10 @@
           "link":"/live-classes.html"
         }, 
         {
+          "title": "C++ Launchpad",
+          "link": "/live-courses/master-c-plus-plus-ds-algo.html"
+        }, 
+        {
           "title": "Java Crux",
           "link": "/live-courses/master-java-for-beginners.html"
         },
@@ -125,18 +129,6 @@
         {
           "title": "Algo.Java",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
-        },
-        {
-          "title": "C++ Fastrack",
-          "link": "/live-courses/c-plus-plus-fastrack-batch.html"
-        },
-        {
-          "title": "Web Dev",
-          "link": "/live-courses/master-web-development-nodejs.html"
-        },
-        {
-          "title": "Python - DSA",
-          "link": "/live-courses/master-python-dsa.html"
         },
         {
           "title": "Illuminati",
