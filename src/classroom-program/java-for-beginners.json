@@ -192,21 +192,33 @@
       "mentor": "Lakshya Singh",
       "strength": "According to the batch size",
       "days": "Sat, Sun",
-      "start_date": "03rd April 2022",
+      "start_date": "3 April 2022",
       "runcode": "CXPP22MAR",
       "product_id": 7682,
       "location": "Pitampura",
       "price":"19999"
     },
     {
+      "course": "Java Crux, B1",
+      "timings": "01:00PM-4:00PM",
+      "mentor": "Lakshya Singh",
+      "strength": "According to the batch size",
+      "days": "Sat, Sun",
+      "start_date": "8 May 2022",
+      "runcode": "CXPP22MAY",
+      "product_id": 8123,
+      "location": "Pitampura",
+      "price":"19999"
+    },
+    {
       "course": "Java Crux, B2",
-      "timings": "09:30AM-12:30PM",
+      "timings": "12:30PM-3:30PM",
       "mentor": "Monu Kumar",
       "strength": "",
       "days": "Sat, Sun",
-      "start_date": "27th March",
-      "runcode": "CXND22MAR",
-      "product_id": 7683,
+      "start_date": "8 May 2022",
+      "runcode": "CXND22MAY",
+      "product_id": 8124,
       "location": "Noida",
       "price":"16999"
     }
