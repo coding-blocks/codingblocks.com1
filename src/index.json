@@ -57,21 +57,6 @@
         }
       ]
     },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/OFFLINE-WB.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program.html",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#F2C430",
-          "filled": "true"
-        }
-      ]
-    }
   ],
     
   "events": {
