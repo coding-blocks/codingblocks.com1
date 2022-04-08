@@ -13,50 +13,20 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Python%20beg%20banner.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Sale%20web%20banner.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/classroom-program/python-for-beginners.html",
-          "text": "Enrol Now",
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore More",
           "color" : "#000000",
-          "buttonColor":"#2EB4EA",
+          "buttonColor":"#FF9C45",
           "filled": "true"
         }
       ]
     },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/WEB%20DEV-banner.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program/web-development-nodejs.html",
-          "text": "Enrol Now",
-          "color" : "#000000",
-          "buttonColor":"#F16E38",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Python-DSA%20web%20banner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program/python-for-beginners.html",
-          "text": "Enrol Now",
-          "color" : "#000000",
-          "buttonColor":"#893BE4",
-          "filled": "true"
-        }
-      ]
-    }
   ],
     
   "events": {
