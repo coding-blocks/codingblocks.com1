@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/levelupbanner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/level-up.html",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#4247CC",
+          "filled": "true"
+        }
+      ]
+    }
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Sale%20web%20banner.png",
       "imgAlt": "",
       "heading": "",
