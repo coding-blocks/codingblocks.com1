@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaBannerPitampura.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/copitampura",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#0C3428",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaBanner%20web%20banner.png",
       "imgAlt": "",
       "heading": "",
