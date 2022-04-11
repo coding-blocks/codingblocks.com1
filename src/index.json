@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaLDS%20Banner2.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/demo1",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#A6D77E",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaBannerPitampura.png",
       "imgAlt": "",
       "heading": "",
