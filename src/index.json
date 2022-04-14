@@ -28,6 +28,21 @@
       ]
     },
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/interview%20prep%20banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program/cpp-interview-prep.html",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#AD0F6C",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaLDS%20Banner2.png",
       "imgAlt": "",
       "heading": "",
