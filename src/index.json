@@ -43,51 +43,6 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaLDS%20Banner2.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/demo1",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#A6D77E",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaBannerPitampura.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/copitampura",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#0C3428",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaBanner%20web%20banner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/conoida",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#FFD361",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/levelupbanner.png",
       "imgAlt": "",
       "heading": "",
