@@ -13,16 +13,31 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Banner%20CAST.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJava_Orientation%20Noida.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/cast",
+          "link": "https://lu.ma/conoida2",
           "text": "Register Now",
           "color" : "#000000",
-          "buttonColor":"#3B389F",
+          "buttonColor":"#723700",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJava_Orientation%20Pitampura.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/copitampura2",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#512802",
           "filled": "true"
         }
       ]
