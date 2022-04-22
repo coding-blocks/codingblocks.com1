@@ -12,6 +12,21 @@
   ],
 
   "slides": [
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBBTA%20Banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/dGQvcn6ex6AS3iuo8",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#C22A3C",
+          "filled": "true"
+        }
+      ]
+    },
      {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Classroom%20Batch%20Alert.png",
       "imgAlt": "",
