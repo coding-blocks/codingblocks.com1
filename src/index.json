@@ -381,22 +381,6 @@
   ],
   "liveCourseCards": [
     {
-      "name": "Master Algo.Java-Data Structures",
-      "icon": "https://images.codingblocks.com/img/newcourse_logo/Java_white.png",
-      "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html",
-      "mentors": "Monu Kumar",
-      "interactiveClasses": "41 Live Interactive Classes",
-      "codingProblems": "200-300 hands on coding problems",
-      "projects": "5 Projects",
-      "classSchedule": "Tuesday, Wednesday, Friday",
-      "price": "6,499",
-      "slashedPrice": "12,999",
-      "gradient": "bg-gradient-orange",
-      "startDate": "25th Feb 2022",
-      "badge": "Advanced",
-      "batchmonth" :"February Batch"
-    },
-    {
       "name": "Master Web Dev with NodeJS",
       "icon": "https://images.codingblocks.com/img/newcourse_logo/webdev_gradient.png",
       "link": "/live-courses/master-web-development-nodejs.html",
