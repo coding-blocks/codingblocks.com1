@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/live_batches_alert_banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-classes.html",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#D83764",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBBTA%20Banner.png",
       "imgAlt": "",
       "heading": "",
