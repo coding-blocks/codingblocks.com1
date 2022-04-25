@@ -27,21 +27,6 @@
         }
       ]
     },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBBTA%20Banner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://forms.gle/dGQvcn6ex6AS3iuo8",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#C22A3C",
-          "filled": "true"
-        }
-      ]
-    },
      {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Classroom%20Batch%20Alert.png",
       "imgAlt": "",
@@ -53,36 +38,6 @@
           "text": "Explore More",
           "color" : "#000000",
           "buttonColor":"#0E2284",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Java_LDS-1.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/javademo1",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#000000",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2B_LDS.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/cppdemo1",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#A72833",
           "filled": "true"
         }
       ]
