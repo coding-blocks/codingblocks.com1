@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/%20castbanner2.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/cast",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#8874E9",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaOrientationN30.png",
       "imgAlt": "",
       "heading": "",
@@ -38,21 +53,6 @@
           "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#792680",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/%20castbanner2.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/cast",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#8874E9",
           "filled": "true"
         }
       ]
