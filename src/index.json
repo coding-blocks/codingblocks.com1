@@ -43,36 +43,6 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaOrientationN30.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/conoida3",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#035F80",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BJavaOrientationP30.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/copitampura3",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#792680",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/live_batches_alert_banner.png",
       "imgAlt": "",
       "heading": "",
