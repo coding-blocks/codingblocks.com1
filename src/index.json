@@ -13,22 +13,7 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Banner_CBBTA1st.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://forms.gle/dpuaQggypzRTfU5T6",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#E43842",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/%20castbanner2.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast_7thMay.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -37,7 +22,7 @@
           "link": "https://codingblocks.com/cast",
           "text": "Register Now",
           "color" : "#000000",
-          "buttonColor":"#8874E9",
+          "buttonColor":"#172182",
           "filled": "true"
         }
       ]
