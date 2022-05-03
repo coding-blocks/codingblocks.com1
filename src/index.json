@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA8thbanner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/1cSQvNgjkhmhnxLu6",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#172182",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast_7thMay.png",
       "imgAlt": "",
       "heading": "",
