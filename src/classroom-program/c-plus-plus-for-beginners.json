@@ -142,67 +142,76 @@
   "batches": [
     {
       "course": "C++, B1",
-      "timings": "09:30AM-12:30PM",
-      "mentor": "Abhishek Shrivastava",
+      "timings": "01:00PM-04:00PM",
+      "mentor": "Kartik",
       "strength": 35,
-      "days": "Sat, Sun",
-      "start_date": "3 April 2022",
+      "days": "Mon,Tue,Thu,Fri",
+      "start_date": "30th May 2022",
       "runcode": "LPPP22MAR",
-      "product_id": 7680,
+      "product_id": 8366,
       "location": "Pitampura",
-      "prices": "19999"
+      "prices": "19999",
+      "batch_type":"Week Day"
     },    
     {
       "course": "C++, B1",
-      "timings": "01:00PM-4:00PM",
-      "mentor": "Abhishek Shrivastava",
+      "timings": "04:30PM-07:30PM",
+      "mentor": "Kartik",
       "strength": 35,
-      "days": "Sat, Sun",
-      "start_date": "8 May 2022",
-      "runcode": "LPPP22MAY",
-      "product_id": 8113,
+      "days": "Sat,Sun",
+      "start_date": "19th June 2022",
+      "runcode": "LPPP22MAR",
+      "product_id": 8367,
       "location": "Pitampura",
-      "prices": "19999"
-    },
+      "prices": "19999",
+      "batch_type":"Weekend"
+    },    
     {
-      "course": "C++, B2",
-      "timings": "04:00PM-07:00PM",
-      "mentor": "Mayank Jha",
+      "course": "C++, B1",
+      "timings": "01:00PM-04:00PM",
+      "mentor": "Mosina",
       "strength": 35,
-      "days": "Sat, Sun",
-      "start_date": "3 April 2022",
-      "runcode": "LPND22MAR",
-      "product_id": 7681,
+      "days": "Mon,Tue,Thu,Fri",
+      "start_date": "19th June 2022",
+      "runcode": "LPPP22MAR",
+      "product_id": 8370,
       "location": "Noida",
-      "prices": "16999"
-    },
+      "prices": "16999",
+      "batch_type":"Week Day"
+    },    
     {
-      "course": "C++, B2",
-      "timings": "9:00AM-12:00PM",
-      "mentor": "Mosina Ashraf",
+      "course": "C++, B1",
+      "timings": "09:30PM-12:30PM",
+      "mentor": "Abhishek",
       "strength": 35,
-      "days": "Sat, Sun",
-      "start_date": "8 May 2022",
-      "runcode": "LPND22MAY",
-      "product_id": 8114,
-      "location": "Noida",
-      "prices": "16999"
+      "days": "Mon,Tue,Thu,Fri",
+      "start_date": "19th June 2022",
+      "runcode": "LPPP22MAR",
+      "product_id": 8369,
+      "location": "Pitampura",
+      "prices": "19999",
+      "batch_type":"Week Day"
+    },    
+    {
+      "course": "C++, B1",
+      "timings": "01:00PM-04:00PM",
+      "mentor": "Abhishek",
+      "strength": 35,
+      "days": "Sat,Sun",
+      "start_date": "30th May 2022",
+      "runcode": "LPPP22MAR",
+      "product_id": 8368,
+      "location": "Pitampura",
+      "prices": "19999",
+      "batch_type":"Weekend"
     }
   ],
   "mentors": [
     {
-      "name": "Abhishek Srivastava",
-      "contact": "abhishek.srivastava@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Abhishek%20Srivastava.png",
-      "description": "Abhishek has pursued his M.Tech in CSE from IIIT Delhi. He has previously worked at NII Tokyo as a researcher in the field of Artificial Intelligence and has a publication in one of the  top AI journals. His area of interest lies in the field of Machine learning, in particular, generative modelling through the application of deep learning. He strives for excellence in his work and has a knack for making complex topics simple. At Coding Blocks, he aims to share his experience with his students and make learning easy and fun.",
-      "designation": "Mentor",
-      "highlights": null
-    },
-    {
-      "name": "Mayank Jha",
-      "contact": "mayank.jha@codingblocks.com",
-      "img": "https://images.codingblocks.com/img/mentor/Mayank.png",
-      "description": "Mayank is a Fullstack Developer who loves Competitive coding to the heart. He is very well versed with technologies like Javacript and Node.js and has experience with various startups. His love for enigmatomy and CP (Competitive Coding) helps him create and solve puzzles in his free time. He is always up for learning new technologies that are trending in the world. He has won various Intercollege and Zonal competitions and is a former State level Volleyball player.",
+      "name": "Kartik Mathur",
+      "contact": "kartik.mathur@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Kartik%20Mathur.png",
+      "description": "Kartik Mathur is an NSIT graduate and extremely popular amongst his students for his engaging ways of teaching. His students are topping the charts in cracking Interviews across Top Tech and Product companies around the world with whooping packages. He is a Competitive programmer, a full stack Web developer and also contributes to many Start-ups in India and abroad. Known for his humour and memes, he can be usually located in Coding Blocks during the day or Starbucks in the evening.",
       "designation": "Mentor",
       "highlights": null
     },
@@ -213,7 +222,15 @@
       "description": "Mosina Ashraf is a versatile coder and has an innate understanding of the concepts which makes her way of teaching almost like learning through osmosis. She is a competative programmer and a front end Web developer. Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice, warmhearted nature and coding skills she blends proficiently as a great mentor.",
       "designation": "Mentor",
       "highlights": null
-    }  
+    },
+    {
+      "name": "Abhishek Srivastava",
+      "contact": "abhishek.srivastava@codingblocks.com",
+      "img": "https://images.codingblocks.com/img/mentor/Abhishek%20Srivastava.png",
+      "description": "Abhishek has pursued his M.Tech in CSE from IIIT Delhi. He has previously worked at NII Tokyo as a researcher in the field of Artificial Intelligence and has a publication in one of the  top AI journals. His area of interest lies in the field of Machine learning, in particular, generative modelling through the application of deep learning. He strives for excellence in his work and has a knack for making complex topics simple. At Coding Blocks, he aims to share his experience with his students and make learning easy and fun.",
+      "designation": "Mentor",
+      "highlights": null
+    }
   ],
   "difficulty": "Beginner",
   "logo": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2Bbasic_white.png",
