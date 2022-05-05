@@ -188,39 +188,55 @@
   "batches": [
     {
       "course": "Java Crux, B1",
-      "timings": "09:30AM-12:30PM",
+      "timings": "01:00PM-04:00PM",
       "mentor": "Lakshya Singh",
       "strength": "According to the batch size",
-      "days": "Sat, Sun",
-      "start_date": "3 April 2022",
-      "runcode": "CXPP22MAR",
-      "product_id": 7682,
-      "location": "Pitampura",
-      "price":"19999"
-    },
-    {
-      "course": "Java Crux, B1",
-      "timings": "01:00PM-4:00PM",
-      "mentor": "Lakshya Singh",
-      "strength": "According to the batch size",
-      "days": "Sat, Sun",
-      "start_date": "8 May 2022",
+      "days": "Sat,Sun",
+      "start_date": "30th May 2022",
       "runcode": "CXPP22MAY",
-      "product_id": 8123,
+      "product_id": 8383,
       "location": "Pitampura",
-      "price":"19999"
+      "price":"19999",
+      "type_of_batch":"Weekend"
     },
     {
       "course": "Java Crux, B2",
-      "timings": "12:30PM-3:30PM",
+      "timings": "04:00PM-07:00PM",
       "mentor": "Monu Kumar",
       "strength": "",
       "days": "Sat, Sun",
-      "start_date": "8 May 2022",
+      "start_date": "30th May 2022",
       "runcode": "CXND22MAY",
-      "product_id": 8124,
+      "product_id": 8385,
       "location": "Noida",
-      "price":"16999"
+      "price":"16999",
+      "type_of_batch":"Weekend"
+    },
+    {
+      "course": "Java Crux, B1",
+      "timings": "09:30AM-12:30PM",
+      "mentor": "Lakshya Singh",
+      "strength": "According to the batch size",
+      "days": "Mon,Tue,Thu,Fri",
+      "start_date": "19th June 2022",
+      "runcode": "CXPP22MAY",
+      "product_id": 8381,
+      "location": "Pitampura",
+      "price":"19999",
+      "type_of_batch":"Week Day"
+    },
+    {
+      "course": "Java Crux, B2",
+      "timings": "01:00PM-04:00PM",
+      "mentor": "Monu Kumar",
+      "strength": "",
+      "days": "Mon,Tue,Thu,Fri",
+      "start_date": "19th June 2022",
+      "runcode": "CXND22MAY",
+      "product_id": 8384,
+      "location": "Noida",
+      "price":"16999",
+      "type_of_batch":"Week Day"
     }
   ],
   "mentors": [

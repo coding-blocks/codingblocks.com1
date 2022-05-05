@@ -164,47 +164,51 @@
       "mentor": "Lakshya Singh",
       "strength": "According to the batch size",
       "days": "Sat, Sun",
-      "start_date": "8 June 2022",
+      "start_date": "27 June 2022",
       "runcode": "AJPP22JUN",
-      "product_id": 8128,
+      "product_id": 8387,
       "location": "Pitampura",
-      "price":"14999"
+      "price":"14999",
+      "type_of_batch":"Weekend"
     },
     {
       "course": "Algo.Java, B2",
-      "timings": "12:30PM-3:30PM",
+      "timings": "04:00PM-07:00PM",
       "mentor": "Monu Kumar",
       "strength": "According to the batch size",
       "days": "Sat, Sun",
-      "start_date": "8 June 2022",
+      "start_date": "27 June 2022",
       "runcode": "AJND22JUN",
-      "product_id": 8129,
+      "product_id": 8390,
       "location": "Noida",
-      "price":"11999"
+      "price":"11999",
+      "type_of_batch":"Weekend"
     },
     {
       "course": "Algo.Java, B1",
       "timings": "9:30AM-12:30PM",
       "mentor": "Lakshya Singh",
       "strength": "According to the batch size",
-      "days": "Sat, Sun",
-      "start_date": "30 April 2022",
+      "days": "Mon,Tue,Thu,Fri",
+      "start_date": "16th July 2022",
       "runcode": "AJPP22APR",
-      "product_id": 7739,
+      "product_id": 8386,
       "location": "Pitampura",
-      "price":"14999"
+      "price":"14999",
+      "type_of_batch":"Week Day"
     },
     {
       "course": "Algo.Java, B2",
-      "timings": "9:30AM-12:30PM",
+      "timings": "01:00PM-04:00PM",
       "mentor": "Monu Kumar",
       "strength": "According to the batch size",
-      "days": "Sat, Sun",
-      "start_date": "30 April 2022",
+      "days": "Mon,Tue,Thu,Fri",
+      "start_date": "16th July 2022",
       "runcode": "AJND22APR",
-      "product_id": 7738,
+      "product_id": 8388,
       "location": "Noida",
-      "price":"11999"
+      "price":"11999",
+      "type_of_batch":"Week Day"
     }
   ],
   "mentors": [
