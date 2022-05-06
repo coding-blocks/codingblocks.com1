@@ -142,6 +142,19 @@
   "batches": [
     {
       "course": "C++, B2",
+      "timings": "01:00PM-04:00PM",
+      "mentor": "Abhishek Shrivastava",
+      "strength": 35,
+      "days": "Sat, Sun",
+      "start_date": "8th May 2022",
+      "runcode": "LPND22MAY",
+      "product_id": 8114,
+      "location": "Pitampura",
+      "prices": "19999",
+      "batch_type":"Weekend"
+    },
+    {
+      "course": "C++, B2",
       "timings": "9:00AM-12:00PM",
       "mentor": "Mosina Ashraf",
       "strength": 35,
@@ -156,7 +169,7 @@
     {
       "course": "C++, B1",
       "timings": "01:00PM-04:00PM",
-      "mentor": "Kartik",
+      "mentor": "Kartik Mathur",
       "strength": 35,
       "days": "Mon,Tue,Thu,Fri",
       "start_date": "30th May 2022",
@@ -169,7 +182,7 @@
     {
       "course": "C++, B1",
       "timings": "04:30PM-07:30PM",
-      "mentor": "Kartik",
+      "mentor": "Kartik Mathur",
       "strength": 35,
       "days": "Sat,Sun",
       "start_date": "19th June 2022",

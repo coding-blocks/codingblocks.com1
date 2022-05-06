@@ -188,15 +188,28 @@
   "batches": [
     {
       "course": "C++, B2",
-      "timings": "9:00AM-12:00PM",
-      "mentor": "Mosina Ashraf",
+      "timings": "12:30PM-03:30PM",
+      "mentor": "Monu Kumar",
+      "strength": 35,
+      "days": "Sat, Sun",
+      "start_date": "8th May 2022",
+      "runcode": "LPND22MAY",
+      "product_id": 8114,
+      "location": "Noida",
+      "price": "16999",
+      "type_of_batch": "Weekend"
+    },
+    {
+      "course": "C++, B2",
+      "timings": "01:00PM-04:00PM",
+      "mentor": "Lakshay Singh",
       "strength": 35,
       "days": "Sat, Sun",
       "start_date": "14th May 2022",
       "runcode": "LPND22MAY",
       "product_id": 8114,
-      "location": "Noida",
-      "prices": "16999",
+      "location": "Pitampura",
+      "price": "19999",
       "type_of_batch": "Weekend"
     },
     {
