@@ -187,6 +187,19 @@
   ],
   "batches": [
     {
+      "course": "C++, B2",
+      "timings": "9:00AM-12:00PM",
+      "mentor": "Mosina Ashraf",
+      "strength": 35,
+      "days": "Sat, Sun",
+      "start_date": "14th May 2022",
+      "runcode": "LPND22MAY",
+      "product_id": 8114,
+      "location": "Noida",
+      "prices": "16999",
+      "type_of_batch": "Weekend"
+    },
+    {
       "course": "Java Crux, B1",
       "timings": "01:00PM-04:00PM",
       "mentor": "Lakshya Singh",
