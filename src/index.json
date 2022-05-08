@@ -13,66 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Noida%20Offline%20Orientation.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/conoida4",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#EBC3DE",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Pitampura_Offline_Orientation_Banner%20%281%29.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/copitampura4",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#F1D0E6",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2B_LIVE.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/cppdemo3",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#1166B2",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Java_LDS.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/javademo3",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#1166B2",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA8thbanner.png",
       "imgAlt": "",
       "heading": "",
@@ -80,21 +20,6 @@
       "button": [
         {
           "link": "https://career-bootcamp.codingblocks.com/",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#172182",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast_7thMay.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/cast",
           "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#172182",
