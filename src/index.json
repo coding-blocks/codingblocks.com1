@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/mothers%20day%20banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://online.codingblocks.com/courses",
+          "text": "Explore Now",
+          "color" : "#000000",
+          "buttonColor":"#8C3956",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA8thbanner.png",
       "imgAlt": "",
       "heading": "",
@@ -68,21 +83,6 @@
           "text": "Explore More",
           "color" : "#000000",
           "buttonColor":"#4247CC",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Sale%20web%20banner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#FF9C45",
           "filled": "true"
         }
       ]
