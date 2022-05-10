@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast_15thMay.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/cast",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#172182",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/mothers%20day%20banner.png",
       "imgAlt": "",
       "heading": "",
@@ -28,7 +43,7 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA8thbanner.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA15thMay.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
