@@ -87,21 +87,6 @@
         }
       ]
     },
-     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Classroom%20Batch%20Alert.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program.html",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#0E2284",
-          "filled": "true"
-        }
-      ]
-    },
     {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/levelupbanner.png",
       "imgAlt": "",
