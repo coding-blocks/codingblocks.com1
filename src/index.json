@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/New%20Classroom%20batches30th%20may%20.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/CS1FsxbnZ8Grzgmy8",
+          "text": "know More",
+          "color" : "#000000",
+          "buttonColor":"#2D2E31",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast_15thMay.png",
       "imgAlt": "",
       "heading": "",
