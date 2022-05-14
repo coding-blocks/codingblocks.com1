@@ -13,21 +13,6 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/banner_fr13.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program.html",
-          "text": "Explore Now",
-          "color" : "#000000",
-          "buttonColor":"#FF3B3A",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/New%20Classroom%20batches30th%20may%20.png",
       "imgAlt": "",
       "heading": "",
