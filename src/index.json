@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/COPITAMPURA.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/hvt2GkET5qiMpnh89",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#FB8133",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/New%20Classroom%20batches30th%20may%20.png",
       "imgAlt": "",
       "heading": "",
@@ -28,21 +43,6 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast_15thMay.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/cast",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#172182",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/mothers%20day%20banner.png",
       "imgAlt": "",
       "heading": "",
@@ -53,21 +53,6 @@
           "text": "Explore Now",
           "color" : "#000000",
           "buttonColor":"#8C3956",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA15thMay.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://career-bootcamp.codingblocks.com/",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#172182",
           "filled": "true"
         }
       ]
