@@ -13,7 +13,7 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast_15thMay.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast_22ndMay.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -23,6 +23,81 @@
           "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#172182",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Income%20Share%20Batch%20Test%20Alert22ndMay.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://career-bootcamp.codingblocks.com/",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#001189",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Strangerthingsbanner%20.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/classroom-program.html",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#670906",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CONoidaBanner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/hvt2GkET5qiMpnh89",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#D93864",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/COPITAMPURA.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/hvt2GkET5qiMpnh89",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#FB8133",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/New%20Classroom%20batches30th%20may%20.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/CS1FsxbnZ8Grzgmy8",
+          "text": "know More",
+          "color" : "#000000",
+          "buttonColor":"#2D2E31",
           "filled": "true"
         }
       ]
@@ -38,51 +113,6 @@
           "text": "Explore Now",
           "color" : "#000000",
           "buttonColor":"#8C3956",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA15thMay.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://career-bootcamp.codingblocks.com/",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#172182",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/live_batches_alert_banner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-classes.html",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#D83764",
-          "filled": "true"
-        }
-      ]
-    },
-     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Classroom%20Batch%20Alert.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program.html",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#0E2284",
           "filled": "true"
         }
       ]
