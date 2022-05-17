@@ -28,6 +28,21 @@
       ]
     },
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CONoidaBanner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://forms.gle/hvt2GkET5qiMpnh89",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#D93864",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/COPITAMPURA.png",
       "imgAlt": "",
       "heading": "",
