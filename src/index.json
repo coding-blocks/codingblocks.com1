@@ -13,6 +13,36 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast_22ndMay.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/cast",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#172182",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Income%20Share%20Batch%20Test%20Alert22ndMay.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://career-bootcamp.codingblocks.com/",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#001189",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Strangerthingsbanner%20.png",
       "imgAlt": "",
       "heading": "",
