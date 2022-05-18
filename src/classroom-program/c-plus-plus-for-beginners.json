@@ -155,6 +155,32 @@
     },
     {
       "course": "C++, B2",
+      "timings": "04:30PM-07:30PM",
+      "mentor": "Abhishek Shrivastava",
+      "strength": 35,
+      "days": "Sat, Sun",
+      "start_date": "5th June 2022",
+      "runcode": "LPPP22MAYA",
+      "product_id": 8368,
+      "location": "Pitampura",
+      "prices": "19999",
+      "batch_type":"Weekend"
+    },
+    {
+      "course": "C++, B2",
+      "timings": "10:00PM-01:00PM",
+      "mentor": "Abhishek Shrivastava",
+      "strength": 35,
+      "days": "Mon, Tue, Thu, Fri",
+      "start_date": "23rd June 2022",
+      "runcode": "LPPP22JUNA",
+      "product_id": 8369,
+      "location": "Pitampura",
+      "prices": "19999",
+      "batch_type":"Weekdays"
+    },
+    {
+      "course": "C++, B2",
       "timings": "9:00AM-12:00PM",
       "mentor": "Mosina Ashraf",
       "strength": 35,
@@ -165,6 +191,19 @@
       "location": "Noida",
       "prices": "16999",
       "batch_type":"Weekend"
+    },
+    {
+      "course": "C++, B2",
+      "timings": "01:00PM-04:00PM",
+      "mentor": "Mosina Ashraf",
+      "strength": 35,
+      "days": "Mon,Tue,Thu,Fri",
+      "start_date": "23rd June 2022",
+      "runcode": "LPND22JUN",
+      "product_id": 8370,
+      "location": "Noida",
+      "prices": "16999",
+      "batch_type":"Weekdays"
     },
     {
       "course": "C++, B1",
@@ -178,7 +217,7 @@
       "location": "Pitampura",
       "prices": "19999",
       "batch_type":"Week Day"
-    },    
+    },     
     {
       "course": "C++, B1",
       "timings": "04:30PM-07:30PM",
@@ -186,7 +225,7 @@
       "strength": 35,
       "days": "Sat,Sun",
       "start_date": "19th June 2022",
-      "runcode": "LPPP22MAR",
+      "runcode": "LPPP22JUNK",
       "product_id": 8367,
       "location": "Pitampura",
       "prices": "19999",
@@ -195,11 +234,11 @@
     {
       "course": "C++, B1",
       "timings": "01:00PM-04:00PM",
-      "mentor": "Mosina",
+      "mentor": "Mosina Ashraf",
       "strength": 35,
       "days": "Mon,Tue,Thu,Fri",
-      "start_date": "19th June 2022",
-      "runcode": "LPPP22MAR",
+      "start_date": "23rd June 2022",
+      "runcode": "LPND22JUN",
       "product_id": 8370,
       "location": "Noida",
       "prices": "16999",
@@ -208,7 +247,7 @@
     {
       "course": "C++, B1",
       "timings": "09:30AM-12:30PM",
-      "mentor": "Abhishek",
+      "mentor": "Abhishek Shrivastava",
       "strength": 35,
       "days": "Mon,Tue,Thu,Fri",
       "start_date": "19th June 2022",

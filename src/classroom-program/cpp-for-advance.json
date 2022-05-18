@@ -160,11 +160,11 @@
       {
         "course": "Algo++ B1",
         "timings": "01:00PM-04:00PM",
-        "mentor": "Kartik",
+        "mentor": "Kartik Mathur",
         "strength": 35,
         "days": "Mon,Tue,Thu,Fri",
-        "start_date": "27th June 2022",
-        "runcode": "LPPP22MAR",
+        "start_date": "11th July 2022",
+        "runcode": "APPP22JUN",
         "product_id": 8373,
         "location": "Pitampura",
         "price": "14999",
@@ -173,7 +173,7 @@
       {
         "course": "Algo++ B1",
         "timings": "04:30PM-7:30PM",
-        "mentor": "Kartik",
+        "mentor": "Kartik Mathur",
         "strength": 35,
         "days": "Sat,Sun",
         "start_date": "16th July 2022",
@@ -198,12 +198,12 @@
       },
       {
         "course": "Algo++, B1",
-        "timings": "01:00PM-04:00PM",
+        "timings": "04:30PM-07:30PM",
         "mentor": "Abhishek Srivastava",
         "strength": 35,
         "days": "Sat, Sun",
-        "start_date": "27th June 2022",
-        "runcode": "APPP22APR",
+        "start_date": "3rd July 2022",
+        "runcode": "APPP22JUNA",
         "product_id": 8376,
         "location": "Pitampura",
         "price": "14999",
@@ -220,7 +220,7 @@
         "product_id": 8377,
         "location": "Pitampura",
         "price": "14999",
-        "batch_type":"Week Day"
+        "batch_type":"Weekdays"
       }
   ],
   "mentors": [
