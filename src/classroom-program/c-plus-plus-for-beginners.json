@@ -143,7 +143,7 @@
     {
       "course": "C++, B2",
       "timings": "04:30PM-07:30PM",
-      "mentor": "Abhishek Shrivastava",
+      "mentor": "Abhishek Srivastava",
       "strength": 35,
       "days": "Sat, Sun",
       "start_date": "5th June 2022",
@@ -152,19 +152,6 @@
       "location": "Pitampura",
       "prices": "19999",
       "batch_type":"Weekend"
-    },
-    {
-      "course": "C++, B2",
-      "timings": "10:00PM-01:00PM",
-      "mentor": "Abhishek Shrivastava",
-      "strength": 35,
-      "days": "Mon, Tue, Thu, Fri",
-      "start_date": "23rd June 2022",
-      "runcode": "LPPP22JUNA",
-      "product_id": 8369,
-      "location": "Pitampura",
-      "prices": "19999",
-      "batch_type":"Weekdays"
     },
     {
       "course": "C++, B2",
@@ -221,7 +208,7 @@
     {
       "course": "C++, B1",
       "timings": "10:00AM-01:00PM",
-      "mentor": "Abhishek Shrivastava",
+      "mentor": "Abhishek Srivastava",
       "strength": 35,
       "days": "Mon,Tue,Thu,Fri",
       "start_date": "23rd June 2022",
@@ -234,7 +221,7 @@
     {
       "course": "C++, B1",
       "timings": "04:30PM-07:30PM",
-      "mentor": "Abhishek",
+      "mentor": "Abhishek Srivastava",
       "strength": 35,
       "days": "Sat,Sun",
       "start_date": "5th June 2022",
