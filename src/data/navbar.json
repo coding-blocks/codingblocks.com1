@@ -80,16 +80,6 @@
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
         },
         {
-          "title": "Python Beginners",
-          "link": "/classroom-program/python-for-beginners.html",
-          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
-        },
-        {
-          "title": "Python-DSA",
-          "link": "/classroom-program/python-dsa.html",
-          "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
-        },
-        {
           "title": "Web Development",
           "link": "/classroom-program/web-development-nodejs.html",
           "new-img":"https://images.codingblocks.com/img/website-images/Bell.png"
@@ -124,10 +114,6 @@
         {
           "title": "Algo.Java",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
-        },
-        {
-          "title": "Illuminati",
-          "link": "/live-courses/illuminati.html"
         },
         {
           "title": "Level Up",

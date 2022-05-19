@@ -188,19 +188,6 @@
   "batches": [
     {
       "course": "C++, B2",
-      "timings": "09:30AM-12:30PM",
-      "mentor": "Lakshay Singh",
-      "strength": 35,
-      "days": "Mon, Tue, Thu, Fri",
-      "start_date": "23rd June 2022",
-      "runcode": "CXPP22JUN",
-      "product_id": 8381,
-      "location": "Pitampura",
-      "prices": "19999",
-      "batch_type":"Weekdays"
-    },
-    {
-      "course": "C++, B2",
       "timings": "04:00PM-07:00PM",
       "mentor": "Lakshay Singh",
       "strength": 35,
@@ -211,6 +198,19 @@
       "location": "Pitampura",
       "prices": "19999",
       "batch_type":"Weekend"
+    },
+    {
+      "course": "C++, B2",
+      "timings": "09:30AM-12:30PM",
+      "mentor": "Lakshay Singh",
+      "strength": 35,
+      "days": "Mon, Tue, Thu, Fri",
+      "start_date": "23rd June 2022",
+      "runcode": "CXPP22JUN",
+      "product_id": 8381,
+      "location": "Pitampura",
+      "prices": "19999",
+      "batch_type":"Weekdays"
     },
     {
       "course": "C++, B2",
@@ -235,47 +235,8 @@
       "runcode": "CXND22JUN",
       "product_id": 8384,
       "location": "Noida",
-      "prices": "19999",
+      "prices": "16999",
       "batch_type":"Weekdays"
-    },
-    {
-      "course": "Java Crux, B2",
-      "timings": "04:00PM-07:00PM",
-      "mentor": "Monu Kumar",
-      "strength": "",
-      "days": "Sat, Sun",
-      "start_date": "30th May 2022",
-      "runcode": "CXND22MAY",
-      "product_id": 8385,
-      "location": "Noida",
-      "price":"16999",
-      "type_of_batch":"Weekend"
-    },
-    {
-      "course": "Java Crux, B1",
-      "timings": "09:30AM-12:30PM",
-      "mentor": "Lakshya Singh",
-      "strength": "According to the batch size",
-      "days": "Mon,Tue,Thu,Fri",
-      "start_date": "19th June 2022",
-      "runcode": "CXPP22MAY",
-      "product_id": 8381,
-      "location": "Pitampura",
-      "price":"19999",
-      "type_of_batch":"Week Day"
-    },
-    {
-      "course": "Java Crux, B2",
-      "timings": "01:00PM-04:00PM",
-      "mentor": "Monu Kumar",
-      "strength": "",
-      "days": "Mon,Tue,Thu,Fri",
-      "start_date": "19th June 2022",
-      "runcode": "CXND22MAY",
-      "product_id": 8384,
-      "location": "Noida",
-      "price":"16999",
-      "type_of_batch":"Week Day"
     }
   ],
   "mentors": [
