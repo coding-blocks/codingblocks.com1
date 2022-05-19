@@ -140,18 +140,6 @@
       }
     ],
     "batches": [
-      {
-        "course": "Python-DSA, B1",
-        "timings": "4:00PM-7:00PM",
-        "mentor": "Shubham Singhal",
-        "strength": 35,
-        "days": "Sat, Sun",
-        "start_date": "03rd April 2022",
-        "runcode": "PYPP22MAR",
-        "product_id": 7685,
-        "location": "Pitampura",
-        "prices": "19999"
-      }
     ],
     "mentors": [
       {
