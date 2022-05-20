@@ -154,19 +154,6 @@
       "batch_type":"Weekend"
     },
     {
-      "course": "C++, B2",
-      "timings": "01:00PM-04:00PM",
-      "mentor": "Mosina Ashraf",
-      "strength": 35,
-      "days": "Mon,Tue,Thu,Fri",
-      "start_date": "23rd June 2022",
-      "runcode": "LPND22JUN",
-      "product_id": 8370,
-      "location": "Noida",
-      "prices": "16999",
-      "batch_type":"Weekdays"
-    },
-    {
       "course": "C++, B1",
       "timings": "01:00PM-04:00PM",
       "mentor": "Kartik Mathur",
@@ -217,19 +204,6 @@
       "location": "Pitampura",
       "prices": "19999",
       "batch_type":"Week Day"
-    },    
-    {
-      "course": "C++, B1",
-      "timings": "04:30PM-07:30PM",
-      "mentor": "Abhishek Srivastava",
-      "strength": 35,
-      "days": "Sat,Sun",
-      "start_date": "5th June 2022",
-      "runcode": "LPPP22MAR",
-      "product_id": 8368,
-      "location": "Pitampura",
-      "prices": "19999",
-      "batch_type":"Weekend"
     }
   ],
   "mentors": [
