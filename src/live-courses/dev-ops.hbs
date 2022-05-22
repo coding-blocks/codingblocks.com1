@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{title}}</title>
+  {{> meta}}
+  {{> head}}
+</head>
+<body>
+{{> navbar}}
+<br>
+<br>  
+<br>
+<br>
+<div class="live-courses">
+  {{> courseMeta}}
+  <div class="width-limiter">
+    <div class="row px-md-5 px-4">
+      <div class="col-lg-8 mb-lg-0 mb-5">
+        <div class="a-cbm">
+          <div class="border-card p-0 mb-30">
+              <div class="px-md-30 px-20 py-4 bg-grey-light-3 mb-20">
+                <div class="bold heading-3 text-gradient-orange p-10">
+                  Why choose CB Accelerate?
+                </div>
+              </div>
+              <div style="padding-left: 40px;">
+                <div class="pb-15 mb-15 border-bottom font-5 bold">
+                  45+ Live lectures
+                </div>
+                <div class="pb-15 mb-15 border-bottom font-5 bold">
+                  Weekly Doubt Sessions
+                </div>
+                <div class="pb-15 mb-15 border-bottom font-5 bold">
+                  Dedicated classes for question discussion
+                </div>
+                <div class="pb-15 mb-15 border-bottom font-5 bold">
+                  Interactive Live Sessions
+                </div>
+                <div class="pb-15 mb-15 border-bottom font-5 bold">
+                  250+ Questions during sessions
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="border-card p-md-5 p-4 mb-5">
+          <div class="font-md">
+            <strong>Summary</strong>
+            <br /><br />
+            This uniquely designed Live course covering advanced topics of Data Structures & Algorithms by Coding Blocks is a complete package for all the budding programmers who aspire to gain expertise in Data Structures and Algorithms or are appearing for their internship/placement interviews. The course is designed to provide ample amount of practice questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc. The course provides a firm base for students to excel in all their programming interviews by building an efficient approach to finding optimized solutions.
+            <br /><br />
+            <strong>Highlights</strong>
+            <br /><br />
+            <ul class="list-style-gradient-bullet my-0">
+              <li>Extensive Data Structure & Algorithmic Coverage</li>
+              <li>Comfort of Home</li>
+              <li>Guidance by Industry-expert Mentors</li>
+              <li>Two-way Interactive Sessions</li>
+              <li>Recorded Videos after Live Lectures</li>
+              <li>Handwritten Mentor Notes</li>
+              <li>Immediate Doubt Resolution during Lectures</li>
+            </ul>
+            <br />
+            <strong>Pre-requisites</strong>
+            <br /><br />
+              Anyone and everyone with prior experience in C++ is all set!
+            </pre>
+          </div>
+        </div>
+        {{>demoForm}}
+        {{>aboutMentor}}
+      </div>
+      <div class="col-lg-4 mb-lg-0 mb-5">
+        {{>takeDemo}}
+        {{!-- {{>projectsLive}} --}}
+        {{>liveCourseSchedule}}
+        {{>testTimelines}}
+      </div>
+    </div>
+  </div>
+  {{> studentsSay}}
+  <div class="a-cbm">
+    <div class="width-limiter">
+      <div class="py-50 px-md-5 px-4">
+        <div class="t-align-c mb-30">
+          <div class="heading-5 bold mb-30">Where our Alumni Work</div>
+        <img src="https://cb-thumbnails.s3.ap-south-1.amazonaws.com/alumni-companies.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{> footer}}
+{{> scripts}}
+</body>
+</html>
