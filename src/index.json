@@ -13,7 +13,7 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast_22ndMay.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast5thjune.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Income%20Share%20Batch%20Test%20Alert22ndMay.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA29thMay%20.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -38,51 +38,6 @@
           "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#001189",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Strangerthingsbanner%20.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/classroom-program.html",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#670906",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CONoidaBanner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://forms.gle/hvt2GkET5qiMpnh89",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#D93864",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/COPITAMPURA.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://forms.gle/hvt2GkET5qiMpnh89",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#FB8133",
           "filled": "true"
         }
       ]
@@ -113,21 +68,6 @@
           "text": "Explore Now",
           "color" : "#000000",
           "buttonColor":"#8C3956",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/levelupbanner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-courses/level-up.html",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#4247CC",
           "filled": "true"
         }
       ]
