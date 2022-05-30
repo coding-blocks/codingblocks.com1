@@ -29,17 +29,16 @@
   "courseMeta": { "couponApplicable": true,
     "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
     "title": "Dev Ops",
-    "price": "7,999",
-    "slashedPrice": "15,999",
+    "price": "9,999",
+    "slashedPrice": "19,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=8120",
     "demo-link": "https://codingblocks.com/take-demo.html",
-    "mentors": "Mosina Ashraf",
+    "mentors": "Shresth Sahai",
     "mentorImg": "https://images.codingblocks.com/img/mentor/Mosina%20Ashraf.png",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=8120",
     "startDate": "20th June 2022",
     "interactiveClasses": "45 Live Interactive Classes",
-    "codingProblems": "200-300 hands on coding problems",
     "projects": "5 Projects",
     "days":"three",
     "gradient": "bg-gradient-blue-dark"
@@ -509,19 +508,19 @@
   ],
   "projects": [
     {
-      "project_name": "Painter's Problem"
+      "project_name": "Joke Api Deployment using docker"
     },
     {
-      "project_name": "NQUEEN"
+      "project_name": "word press project deployment"
     },
     {
-      "project_name": "SUDOKU SOLVER"
+      "project_name": "type krra hun"
     },
     {
-      "project_name": "SPLITWISE ALGO"
+      "project_name": "devops projects aws jenkins ansible"
     },
     {
-      "project_name": "RAT IN A MAZE"
+      "project_name": "jenkins linked list projects user management slave master concept"
     }
   ]
 }
