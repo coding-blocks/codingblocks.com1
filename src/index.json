@@ -28,7 +28,7 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA29thMay%20.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA5thJune.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/New%20Classroom%20batches30th%20may%20.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/New%20Classroom%20batches5th%20June.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/mothers%20day%20banner.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Sale.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -67,7 +67,7 @@
           "link": "https://online.codingblocks.com/courses",
           "text": "Explore Now",
           "color" : "#000000",
-          "buttonColor":"#8C3956",
+          "buttonColor":"#127C98",
           "filled": "true"
         }
       ]
