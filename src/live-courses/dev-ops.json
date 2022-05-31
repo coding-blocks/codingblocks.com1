@@ -27,7 +27,7 @@
     ]
   },
   "courseMeta": { "couponApplicable": true,
-    "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/1280px-Devops-toolchain.svg.png",
     "title": "Dev Ops",
     "price": "9,999",
     "slashedPrice": "19,999",
@@ -104,398 +104,206 @@
   "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "Application Layer. DNS. SMTP. HTTP. FTP, TFTP. TELNET."
+      "description": "Application Layer. DNS. SMTP. HTTP. FTP, TFTP. TELNET. | Transport layer. TCP Protocol. UDP Protocol."
     },
     {
       "lecture": "Lecture 02",
-      "description": "Transport layer. TCP Protocol. UDP Protocol."
+      "description": "State transition diagram in TCP. | Congestion Control policies."
     },
     {
       "lecture": "Lecture 03",
-      "description": " State transition diagram in TCP."
+      "description": "Network layer | IPv4. IPv6."
     },
     {
       "lecture": "Lecture 04",
-      "description": " Congestion Control policies."
+      "description": "IP addressing | Routing Protocols. Fragmentation"
     },
     {
       "lecture": "Lecture 05",
-      "description": "Network layer."
+      "description": "OSI Model | Divide and Conquer"
     },
     {
       "lecture": "Lecture 06",
-      "description": "IPv4. IPv6."
+      "description": "Understand Version Control Systems | Master Git, the most popular VCS"
     },
     {
       "lecture": "Lecture 07",
-      "description": "IP addressing."
+      "description": "Git Workflow - Staging area, git commits, git diff | Branching - Creating and Merging Branches"
     },
     {
       "lecture": "Lecture 08",
-      "description": "Routing Protocols. Fragmentation."
+      "description": "Deploying a Git Repository on Github | Using Github Pages to deploy websites"
     },
     {
       "lecture": "Lecture 09",
-      "description": "OSI Model"
+      "description": "How to collaborate as a team | Moving back and forth in git timeline"
     },
     {
       "lecture": "Lecture 10",
-      "description": "Divide and Conquer"
+      "description": "Advanced Git Features - Rebasing, Stashing, Branching, Merge Conflicts | Project Work - Create a Web Portfolio"
     },
     {
       "lecture": "Lecture 11",
-      "description": "Understand Version Control Systems"
+      "description": "Basic commands | Linux Filesystem"
     },
     {
       "lecture": "Lecture 12",
-      "description": "Master Git, the most popular VCS"
+      "description": "LVM | Linux Networking"
     },
     {
       "lecture": "Lecture 13",
-      "description": "Git Workflow - Staging area, git commits, git diff"
+      "description": "Permissions and Firewall | What is Kernel"
     },
     {
       "lecture": "Lecture 14",
-      "description": "Branching - Creating and Merging Branches"
+      "description": "What is Shell | What is Shell Script?"
     },
     {
       "lecture": "Lecture 15",
-      "description": "Deploying a Git Repository on Github"
+      "description": "Shell vs bash? | Shell vs Bash vs Other"
     },
     {
       "lecture": "Lecture 16",
-      "description": "Using Github Pages to deploy websites"
+      "description": "Which Shell is For You? | What is Windows?"
     },
     {
       "lecture": "Lecture 17",
-      "description": "How to collaborate as a team"
+      "description": "History | Linux vs Windows"
     },
     {
       "lecture": "Lecture 18",
-      "description": "Moving back and forth in git timeline"
+      "description": "Distributions | Which OS for you?"
     },
     {
       "lecture": "Lecture 19",
-      "description": "Advanced Git Features - Rebasing, Stashing, Branching, Merge Conflicts"
+      "description": "What is Unix? | Unix vs Linux"
     },
     {
       "lecture": "Lecture 20",
-      "description": "Project Work - Create a Web Portfolio"
+      "description": "Unix Limitations | Linux Limitations"
     },
     {
       "lecture": "Lecture 21",
-      "description": "Basic commands"
+      "description": "Market Trends | Linux Commands"
     },
     {
       "lecture": "Lecture 22",
-      "description": "Linux Filesystem"
+      "description": "Linux Commands for DevOps | Shell Scripting basics"
     },
     {
       "lecture": "Lecture 23",
-      "description": "LVM"
+      "description": "Git commands | User Administration in Linux"
     },
     {
       "lecture": "Lecture 24",
-      "description": "Linux Networking"
+      "description": "Package Management in Linux | Linux Interview Questions"
     },
     {
       "lecture": "Lecture 25",
-      "description": "Permissions and Firewall"
+      "description": "docker for developers | Forget SDK commands"
     },
     {
       "lecture": "Lecture 26",
-      "description": "What is Kernel "
+      "description": "Using docker images | creating docker images"
     },
     {
       "lecture": "Lecture 27",
-      "description": "What is Shell"
+      "description": "Publish docker image | docker with common dev profiles"
     },
     {
       "lecture": "Lecture 28",
-      "description": "What is Shell Script?"
+      "description": "Running containers | Basics of dockers"
     },
     {
       "lecture": "Lecture 29",
-      "description": "Shell vs bash?"
+      "description": "Docker Images | Creating Docker images"
     },
     {
       "lecture": "Lecture 30",
-      "description": "Shell vs Bash vs Other"
+      "description": "Publishing docker images | Running Containers"
     },
     {
       "lecture": "Lecture 31",
-      "description": " Which Shell is For You?"
+      "description": "Docker Compose | Docker Swarm"
     },
     {
       "lecture": "Lecture 32",
-      "description": "What is Windows?"
+      "description": "Running Kubernetes Clusters | PODs"
     },
     {
       "lecture": "Lecture 33",
-      "description": "History"
+      "description": "Replica Sets | Auto Scaling"
     },
     {
       "lecture": "Lecture 34",
-      "description": "Linux vs Windows"
+      "description": "Config MAps | Secrets"
     },
     {
       "lecture": "Lecture 35",
-      "description": "Distributions"
+      "description": "Deployments | Jenkins X with kubernetes"
     },
     {
       "lecture": "Lecture 36",
-      "description": "Which OS for you?"
+      "description": "AWS terraform from zero to hero | Ansible From zero to hero"
     },
     {
       "lecture": "Lecture 37",
-      "description": "What is Unix?"
-    },
-    {
-      "lecture": "Lecture 38",
-      "description": "Unix vs Linux"
-    },
-    {
-      "lecture": "Lecture 39",
-      "description": "Unix Limitations"
-    },
-    {
-      "lecture": "Lecture 40",
-      "description": "Linux Limitations"
-    },
-    {
-      "lecture": "Lecture 41",
-      "description": "Market Trends"
-    },
-    {
-      "lecture": "Lecture 42",
-      "description": " Linux Commands "
-    },
-    {
-      "lecture": "Lecture 43",
-      "description": " Linux Commands for DevOps"
-    },
-    {
-      "lecture": "Lecture 44",
-      "description": " Shell Scripting basics"
-    },
-    {
-      "lecture": "Lecture 45",
-      "description": " Git commands"
-    },
-    {
-      "lecture": "Lecture 46",
-      "description": "User Administration in Linux"
-    },
-    {
-      "lecture": "Lecture 47",
-      "description": "Package Management in Linux"
-    },
-    {
-      "lecture": "Lecture 48",
-      "description": "Linux Interview Questions"
-    },
-    {
-      "lecture": "Lecture 49",
-      "description": "docker for developers"
-    },
-    {
-      "lecture": "Lecture 50",
-      "description": "Forget SDK commands"
-    },
-    {
-      "lecture": "Lecture 51",
-      "description": "Using docker images"
-    },
-    {
-      "lecture": "Lecture 52",
-      "description": "creating docker images"
-    },
-    {
-      "lecture": "Lecture 53",
-      "description": "Publish docker image"
-    },
-    {
-      "lecture": "Lecture 54",
-      "description": "docker with common dev profiles"
-    },
-    {
-      "lecture": "Lecture 55",
-      "description": "Running containers"
-    },
-    {
-      "lecture": "Lecture 56",
-      "description": "Basics of dockers"
-    },
-    {
-      "lecture": "Lecture 57",
-      "description": "Docker Images"
-    },
-    {
-      "lecture": "Lecture 58",
-      "description": "Creating Docker images"
-    },
-    {
-      "lecture": "Lecture 59",
-      "description": "Publishing docker images"
-    },
-    {
-      "lecture": "Lecture 60",
-      "description": "Running Containers"
-    },
-    {
-      "lecture": "Lecture 61",
-      "description": "Docker Compose"
-    },
-    {
-      "lecture": "Lecture 62",
-      "description": "Docker Swarm"
-    },
-    {
-      "lecture": "Lecture 63",
-      "description": "Running Kubernetes Clusters"
-    },
-    {
-      "lecture": "Lecture 64",
-      "description": "PODs"
-    },
-    {
-      "lecture": "Lecture 65",
-      "description": "Replica Sets"
-    },
-    {
-      "lecture": "Lecture 66",
-      "description": "Auto Scaling"
-    },
-    {
-      "lecture": "Lecture 67",
-      "description": "Config MAps"
-    },
-    {
-      "lecture": "Lecture 68",
-      "description": "Secrets"
-    },
-    {
-      "lecture": "Lecture 69",
-      "description": "Deployments"
-    },
-    {
-      "lecture": "Lecture 70",
-      "description": "Jenkins X with kubernetes"
-    },
-    {
-      "lecture": "Lecture 71",
-      "description": "AWS terraform from zero to hero"
-    },
-    {
-      "lecture": "Lecture 72",
-      "description": "Ansible From zero to hero"
-    },
-    {
-      "lecture": "Lecture 73",
       "description": "CI CD Pipeline"
     },
     {
-      "lecture": "Lecture 74",
-      "description": "Azure"
+      "lecture": "Lecture 38",
+      "description": "Cloud Patterns | Azure"
     },
     {
-      "lecture": "Lecture 75",
-      "description": "Azure"
+      "lecture": "Lecture 39",
+      "description": "Connect to AWS | Connect to Azure"
     },
     {
-      "lecture": "Lecture 76",
-      "description": "Cloud Patterns"
+      "lecture": "Lecture 40",
+      "description": "Deploy to AWS | AWS - Create a Dynamic Inventory"
     },
     {
-      "lecture": "Lecture 77",
-      "description": "Connect to AWS"
+      "lecture": "Lecture 41",
+      "description": "AWS - Use Keyed Groups | Azure - Use Keyed Groups"
     },
     {
-      "lecture": "Lecture 78",
-      "description": "Connect to Azure"
+      "lecture": "Lecture 42",
+      "description": "Azure - Create a Dynamic Inventory | Ad-hoc Commands against Remote Hosts"
     },
     {
-      "lecture": "Lecture 79",
-      "description": "Deploy to AWS"
+      "lecture": "Lecture 43",
+      "description": "Playbooks against Remote Hosts | Configure an Nginx Web Server"
     },
     {
-      "lecture": "Lecture 80",
-      "description": "AWS - Create a Dynamic Inventory"
+      "lecture": "Lecture 44",
+      "description": "Configure a Windows IIS Web Server | Introduction to Inventories"
     },
     {
-      "lecture": "Lecture 81",
-      "description": "AWS - Use Keyed Groups"
+      "lecture": "Lecture 45",
+      "description": "Use Groups | Organize Hosts and Group Variables"
     },
     {
-      "lecture": "Lecture 82",
-      "description": "Azure - Create a Dynamic Inventory"
+      "lecture": "Lecture 46",
+      "description": "Secure Secrets with Ansible Vault: Use Encrypted Files | Secure Secrets with Ansible Vault: Use Encrypted Strings"
     },
     {
-      "lecture": "Lecture 83",
-      "description": "Azure - Use Keyed Groups"
+      "lecture": "Lecture 47",
+      "description": "Quiz on Taking Inventory of the Infrastructure | Make it Reusable with Ansible Roles"
     },
     {
-      "lecture": "Lecture 84",
-      "description": "Ad-hoc Commands against Remote Hosts"
+      "lecture": "Lecture 48",
+      "description": "Build a Site | Decoupling Ansible Roles"
     },
     {
-      "lecture": "Lecture 85",
-      "description": "Playbooks against Remote Hosts"
-    },
-    {
-      "lecture": "Lecture 86",
-      "description": "Configure an Nginx Web Server"
-    },
-    {
-      "lecture": "Lecture 87",
-      "description": "Configure a Windows IIS Web Server"
-    },
-    {
-      "lecture": "Lecture 88",
-      "description": "Introduction to Inventories"
-    },
-    {
-      "lecture": "Lecture 89",
-      "description": "Use Groups"
-    },
-    {
-      "lecture": "Lecture 90",
-      "description": "Organize Hosts and Group Variables"
-    },
-    {
-      "lecture": "Lecture 91",
-      "description": "Secure Secrets with Ansible Vault: Use Encrypted Files"
-    },
-    {
-      "lecture": "Lecture 92",
-      "description": "Secure Secrets with Ansible Vault: Use Encrypted Strings"
-    },
-    {
-      "lecture": "Lecture 93",
-      "description": "Quiz on Taking Inventory of the Infrastructure"
-    },
-    {
-      "lecture": "Lecture 94",
-      "description": "Build a Site"
-    },
-    {
-      "lecture": "Lecture 95",
-      "description": "Make it Reusable with Ansible Roles"
-    },
-    {
-      "lecture": "Lecture 96",
-      "description": "Decoupling Ansible Roles"
-    },
-    {
-      "lecture": "Lecture 97",
+      "lecture": "Lecture 49",
       "description": "Quiz on Building Reusable Configurations"
     },
     {
-      "lecture": "Lecture 98",
+      "lecture": "Lecture 50",
       "description": "Intro To Selenium"
     },
     {
-      "lecture": "Lecture 99",
+      "lecture": "Lecture 51",
       "description": "Complete CI C/D PIPELINE PROJECT"
     }
   ],
