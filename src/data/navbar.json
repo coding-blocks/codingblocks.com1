@@ -118,6 +118,10 @@
         {
           "title": "Level Up",
           "link": "/live-courses/level-up.html"
+        },
+        {
+          "title": "Dev Ops",
+          "link": "/live-courses/dev-ops.html"
         }
       ]
     }
