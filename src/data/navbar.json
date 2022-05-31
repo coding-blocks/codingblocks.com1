@@ -122,6 +122,10 @@
         {
           "title": "Dev Ops",
           "link": "/live-courses/dev-ops.html"
+        },
+        {
+          "title": "System Design",
+          "link": "/live-courses/system-design.html"
         }
       ]
     }

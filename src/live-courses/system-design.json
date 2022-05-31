@@ -1,7 +1,7 @@
 {
   "id": "course05",
-  "name": "Dev Ops",
-  "title": "Dev Ops: Courses on Dev Ops in Delhi | Coding Blocks",
+  "name": "System Design",
+  "title": "System Design: Courses on System Design  in Delhi | Coding Blocks",
   "metas": [
     {
       "name": "description",
@@ -28,19 +28,18 @@
   },
   "courseMeta": { "couponApplicable": true,
     "icon": "https://images.codingblocks.com/img/newcourse_logo/c%2B%2B_white.png",
-    "title": "Dev Ops",
-    "price": "9,999",
-    "slashedPrice": "19,999",
-    "course-link": "https://dukaan.codingblocks.com/buy?productId=8556",
+    "title": "System Design",
+    "price": "2,999",
+    "slashedPrice": "4,999",
+    "course-link": "https://dukaan.codingblocks.com/buy?productId=8409",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Shresth Sahai",
     "mentorImg": "https://images.codingblocks.com/img/shresht1jpg-removebg-preview.png",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
-    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=8556",
-    "startDate": "20th June 2022",
+    "test_link_second": "https://dukaan.codingblocks.com/buy?productId=8409",
+    "startDate": "16th June 2022",
     "interactiveClasses": "45 Live Interactive Classes",
-    "projects": "5 Projects",
-    "days":"three",
+    "days":"two",
     "gradient": "bg-gradient-blue-dark"
   },
   "demoClass": [
@@ -104,399 +103,215 @@
   "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "Application Layer. DNS. SMTP. HTTP. FTP, TFTP. TELNET."
+      "description": "What happens when you hit the url on your browser ?"
     },
     {
       "lecture": "Lecture 02",
-      "description": "Transport layer. TCP Protocol. UDP Protocol."
+      "description": "What is system Design?"
     },
     {
       "lecture": "Lecture 03",
-      "description": " State transition diagram in TCP."
+      "description": "Types of System Design"
     },
     {
       "lecture": "Lecture 04",
-      "description": " Congestion Control policies."
+      "description": "HLD intro"
     },
     {
       "lecture": "Lecture 05",
-      "description": "Network layer."
+      "description": "LLD intro & SDLC"
     },
     {
       "lecture": "Lecture 06",
-      "description": "IPv4. IPv6."
+      "description": "Web App VS Website"
     },
     {
       "lecture": "Lecture 07",
-      "description": "IP addressing."
+      "description": "What is architecture ?"
     },
     {
       "lecture": "Lecture 08",
-      "description": "Routing Protocols. Fragmentation."
+      "description": "Monoliths"
     },
     {
       "lecture": "Lecture 09",
-      "description": "OSI Model"
+      "description": "Distributed System"
     },
     {
       "lecture": "Lecture 10",
-      "description": "Divide and Conquer"
+      "description": "Latency"
     },
     {
       "lecture": "Lecture 11",
-      "description": "Understand Version Control Systems"
+      "description": "Throughput"
     },
     {
       "lecture": "Lecture 12",
-      "description": "Master Git, the most popular VCS"
+      "description": "Availability"
     },
     {
       "lecture": "Lecture 13",
-      "description": "Git Workflow - Staging area, git commits, git diff"
+      "description": "TIme"
     },
     {
       "lecture": "Lecture 14",
-      "description": "Branching - Creating and Merging Branches"
+      "description": "Consistency"
     },
     {
       "lecture": "Lecture 15",
-      "description": "Deploying a Git Repository on Github"
+      "description": "Caching"
     },
     {
       "lecture": "Lecture 16",
-      "description": "Using Github Pages to deploy websites"
+      "description": "Proxies"
     },
     {
       "lecture": "Lecture 17",
-      "description": "How to collaborate as a team"
+      "description": "Polling"
     },
     {
       "lecture": "Lecture 18",
-      "description": "Moving back and forth in git timeline"
+      "description": "Websockets & SSE"
     },
     {
       "lecture": "Lecture 19",
-      "description": "Advanced Git Features - Rebasing, Stashing, Branching, Merge Conflicts"
+      "description": "Scaling Techniques"
     },
     {
       "lecture": "Lecture 20",
-      "description": "Project Work - Create a Web Portfolio"
+      "description": "Horizontal Scaling"
     },
     {
       "lecture": "Lecture 21",
-      "description": "Basic commands"
+      "description": "Redundancy && Replication"
     },
     {
       "lecture": "Lecture 22",
-      "description": "Linux Filesystem"
+      "description": "Cap theorem"
     },
     {
       "lecture": "Lecture 23",
-      "description": "LVM"
+      "description": "Databases"
     },
     {
       "lecture": "Lecture 24",
-      "description": "Linux Networking"
+      "description": "DataBase optimization"
     },
     {
       "lecture": "Lecture 25",
-      "description": "Permissions and Firewall"
+      "description": "Partitioning"
     },
     {
       "lecture": "Lecture 26",
-      "description": "What is Kernel "
+      "description": "Communication"
     },
     {
       "lecture": "Lecture 27",
-      "description": "What is Shell"
+      "description": "Message Based communication"
     },
     {
       "lecture": "Lecture 28",
-      "description": "What is Shell Script?"
+      "description": "Web Apps"
     },
     {
       "lecture": "Lecture 29",
-      "description": "Shell vs bash?"
+      "description": "Rest Apis"
     },
     {
       "lecture": "Lecture 30",
-      "description": "Shell vs Bash vs Other"
+      "description": "Microservices & architecture"
     },
     {
       "lecture": "Lecture 31",
-      "description": " Which Shell is For You?"
+      "description": "Web Servers && Protocols & App security Service"
     },
     {
       "lecture": "Lecture 32",
-      "description": "What is Windows?"
+      "description": "DEsign Problem 1- URL Shortener/ Pastebin"
     },
     {
       "lecture": "Lecture 33",
-      "description": "History"
+      "description": "Api Rate Limiter"
     },
     {
       "lecture": "Lecture 34",
-      "description": "Linux vs Windows"
+      "description": "Youtube Design"
     },
     {
       "lecture": "Lecture 35",
-      "description": "Distributions"
+      "description": "Web Crawler"
     },
     {
       "lecture": "Lecture 36",
-      "description": "Which OS for you?"
+      "description": "Drop Box"
     },
     {
       "lecture": "Lecture 37",
-      "description": "What is Unix?"
+      "description": "Uber Backend Design"
     },
     {
       "lecture": "Lecture 38",
-      "description": "Unix vs Linux"
+      "description": "Twitter"
     },
     {
       "lecture": "Lecture 39",
-      "description": "Unix Limitations"
+      "description": "Instagram"
     },
     {
       "lecture": "Lecture 40",
-      "description": "Linux Limitations"
+      "description": "Ticketmaster design"
     },
     {
       "lecture": "Lecture 41",
-      "description": "Market Trends"
+      "description": "What is LLD?"
     },
     {
       "lecture": "Lecture 42",
-      "description": " Linux Commands "
+      "description": "LLD INTERVIEWS"
     },
     {
       "lecture": "Lecture 43",
-      "description": " Linux Commands for DevOps"
+      "description": "OOD && OOP"
     },
     {
       "lecture": "Lecture 44",
-      "description": " Shell Scripting basics"
+      "description": "Objects && CLASSES"
     },
     {
       "lecture": "Lecture 45",
-      "description": " Git commands"
+      "description": "OOP CONCEPTS"
     },
     {
       "lecture": "Lecture 46",
-      "description": "User Administration in Linux"
+      "description": "SOLID Principles"
     },
     {
       "lecture": "Lecture 47",
-      "description": "Package Management in Linux"
+      "description": "SRP Princripal"
     },
     {
       "lecture": "Lecture 48",
-      "description": "Linux Interview Questions"
+      "description": "O-C Principal"
     },
     {
       "lecture": "Lecture 49",
-      "description": "docker for developers"
+      "description": "Livosik Principal"
     },
     {
       "lecture": "Lecture 50",
-      "description": "Forget SDK commands"
+      "description": "Integration Principal"
     },
     {
       "lecture": "Lecture 51",
-      "description": "Using docker images"
+      "description": "Dependency Principal"
     },
     {
       "lecture": "Lecture 52",
-      "description": "creating docker images"
+      "description": "Design Patterns"
     },
     {
       "lecture": "Lecture 53",
-      "description": "Publish docker image"
-    },
-    {
-      "lecture": "Lecture 54",
-      "description": "docker with common dev profiles"
-    },
-    {
-      "lecture": "Lecture 55",
-      "description": "Running containers"
-    },
-    {
-      "lecture": "Lecture 56",
-      "description": "Basics of dockers"
-    },
-    {
-      "lecture": "Lecture 57",
-      "description": "Docker Images"
-    },
-    {
-      "lecture": "Lecture 58",
-      "description": "Creating Docker images"
-    },
-    {
-      "lecture": "Lecture 59",
-      "description": "Publishing docker images"
-    },
-    {
-      "lecture": "Lecture 60",
-      "description": "Running Containers"
-    },
-    {
-      "lecture": "Lecture 61",
-      "description": "Docker Compose"
-    },
-    {
-      "lecture": "Lecture 62",
-      "description": "Docker Swarm"
-    },
-    {
-      "lecture": "Lecture 63",
-      "description": "Running Kubernetes Clusters"
-    },
-    {
-      "lecture": "Lecture 64",
-      "description": "PODs"
-    },
-    {
-      "lecture": "Lecture 65",
-      "description": "Replica Sets"
-    },
-    {
-      "lecture": "Lecture 66",
-      "description": "Auto Scaling"
-    },
-    {
-      "lecture": "Lecture 67",
-      "description": "Config MAps"
-    },
-    {
-      "lecture": "Lecture 68",
-      "description": "Secrets"
-    },
-    {
-      "lecture": "Lecture 69",
-      "description": "Deployments"
-    },
-    {
-      "lecture": "Lecture 70",
-      "description": "Jenkins X with kubernetes"
-    },
-    {
-      "lecture": "Lecture 71",
-      "description": "AWS terraform from zero to hero"
-    },
-    {
-      "lecture": "Lecture 72",
-      "description": "Ansible From zero to hero"
-    },
-    {
-      "lecture": "Lecture 73",
-      "description": "CI CD Pipeline"
-    },
-    {
-      "lecture": "Lecture 74",
-      "description": "Azure"
-    },
-    {
-      "lecture": "Lecture 75",
-      "description": "Azure"
-    },
-    {
-      "lecture": "Lecture 76",
-      "description": "Cloud Patterns"
-    },
-    {
-      "lecture": "Lecture 77",
-      "description": "Connect to AWS"
-    },
-    {
-      "lecture": "Lecture 78",
-      "description": "Connect to Azure"
-    },
-    {
-      "lecture": "Lecture 79",
-      "description": "Deploy to AWS"
-    },
-    {
-      "lecture": "Lecture 80",
-      "description": "AWS - Create a Dynamic Inventory"
-    },
-    {
-      "lecture": "Lecture 81",
-      "description": "AWS - Use Keyed Groups"
-    },
-    {
-      "lecture": "Lecture 82",
-      "description": "Azure - Create a Dynamic Inventory"
-    },
-    {
-      "lecture": "Lecture 83",
-      "description": "Azure - Use Keyed Groups"
-    },
-    {
-      "lecture": "Lecture 84",
-      "description": "Ad-hoc Commands against Remote Hosts"
-    },
-    {
-      "lecture": "Lecture 85",
-      "description": "Playbooks against Remote Hosts"
-    },
-    {
-      "lecture": "Lecture 86",
-      "description": "Configure an Nginx Web Server"
-    },
-    {
-      "lecture": "Lecture 87",
-      "description": "Configure a Windows IIS Web Server"
-    },
-    {
-      "lecture": "Lecture 88",
-      "description": "Introduction to Inventories"
-    },
-    {
-      "lecture": "Lecture 89",
-      "description": "Use Groups"
-    },
-    {
-      "lecture": "Lecture 90",
-      "description": "Organize Hosts and Group Variables"
-    },
-    {
-      "lecture": "Lecture 91",
-      "description": "Secure Secrets with Ansible Vault: Use Encrypted Files"
-    },
-    {
-      "lecture": "Lecture 92",
-      "description": "Secure Secrets with Ansible Vault: Use Encrypted Strings"
-    },
-    {
-      "lecture": "Lecture 93",
-      "description": "Quiz on Taking Inventory of the Infrastructure"
-    },
-    {
-      "lecture": "Lecture 94",
-      "description": "Build a Site"
-    },
-    {
-      "lecture": "Lecture 95",
-      "description": "Make it Reusable with Ansible Roles"
-    },
-    {
-      "lecture": "Lecture 96",
-      "description": "Decoupling Ansible Roles"
-    },
-    {
-      "lecture": "Lecture 97",
-      "description": "Quiz on Building Reusable Configurations"
-    },
-    {
-      "lecture": "Lecture 98",
-      "description": "Intro To Selenium"
-    },
-    {
-      "lecture": "Lecture 99",
-      "description": "Complete CI C/D PIPELINE PROJECT"
+      "description": "Case Studies"
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",
@@ -507,20 +322,5 @@
     "Parth Dhamija"
   ],
   "projects": [
-    {
-      "project_name": "Joke Api Deployment using docker"
-    },
-    {
-      "project_name": "word press project deployment"
-    },
-    {
-      "project_name": "type krra hun"
-    },
-    {
-      "project_name": "devops projects aws jenkins ansible"
-    },
-    {
-      "project_name": "jenkins linked list projects user management slave master concept"
-    }
   ]
 }
