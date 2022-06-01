@@ -115,202 +115,134 @@
     },
     {
       "lecture": "Lecture 04",
-      "description": "HLD intro"
+      "description": "HLD intro | LLD intro & SDLC"
     },
     {
       "lecture": "Lecture 05",
-      "description": "LLD intro & SDLC"
+      "description": "Web App VS Website | What is architecture ?"
     },
     {
       "lecture": "Lecture 06",
-      "description": "Web App VS Website"
+      "description": "Monoliths | Distributed System"
     },
     {
       "lecture": "Lecture 07",
-      "description": "What is architecture ?"
+      "description": "Latency | Throughput"
     },
     {
       "lecture": "Lecture 08",
-      "description": "Monoliths"
+      "description": "Availability | TIme"
     },
     {
       "lecture": "Lecture 09",
-      "description": "Distributed System"
+      "description": "Consistency | Caching"
     },
     {
       "lecture": "Lecture 10",
-      "description": "Latency"
+      "description": "Proxies | Polling"
     },
     {
       "lecture": "Lecture 11",
-      "description": "Throughput"
+      "description": "Websockets & SSE | Scaling Techniques"
     },
     {
       "lecture": "Lecture 12",
-      "description": "Availability"
+      "description": "Horizontal Scaling | Redundancy && Replication"
     },
     {
       "lecture": "Lecture 13",
-      "description": "TIme"
-    },
-    {
-      "lecture": "Lecture 14",
-      "description": "Consistency"
-    },
-    {
-      "lecture": "Lecture 15",
-      "description": "Caching"
-    },
-    {
-      "lecture": "Lecture 16",
-      "description": "Proxies"
-    },
-    {
-      "lecture": "Lecture 17",
-      "description": "Polling"
-    },
-    {
-      "lecture": "Lecture 18",
-      "description": "Websockets & SSE"
-    },
-    {
-      "lecture": "Lecture 19",
-      "description": "Scaling Techniques"
-    },
-    {
-      "lecture": "Lecture 20",
-      "description": "Horizontal Scaling"
-    },
-    {
-      "lecture": "Lecture 21",
-      "description": "Redundancy && Replication"
-    },
-    {
-      "lecture": "Lecture 22",
       "description": "Cap theorem"
     },
     {
-      "lecture": "Lecture 23",
-      "description": "Databases"
+      "lecture": "Lecture 14",
+      "description": "Databases | DataBase optimization"
     },
     {
-      "lecture": "Lecture 24",
-      "description": "DataBase optimization"
+      "lecture": "Lecture 15",
+      "description": "Partitioning | Communication"
     },
     {
-      "lecture": "Lecture 25",
-      "description": "Partitioning"
-    },
-    {
-      "lecture": "Lecture 26",
-      "description": "Communication"
-    },
-    {
-      "lecture": "Lecture 27",
+      "lecture": "Lecture 16",
       "description": "Message Based communication"
     },
     {
-      "lecture": "Lecture 28",
-      "description": "Web Apps"
+      "lecture": "Lecture 17",
+      "description": "Web Apps | Rest Apis"
     },
     {
-      "lecture": "Lecture 29",
-      "description": "Rest Apis"
-    },
-    {
-      "lecture": "Lecture 30",
+      "lecture": "Lecture 18",
       "description": "Microservices & architecture"
     },
     {
-      "lecture": "Lecture 31",
+      "lecture": "Lecture 19",
       "description": "Web Servers && Protocols & App security Service"
     },
     {
-      "lecture": "Lecture 32",
+      "lecture": "Lecture 20",
       "description": "DEsign Problem 1- URL Shortener/ Pastebin"
     },
     {
-      "lecture": "Lecture 33",
+      "lecture": "Lecture 21",
       "description": "Api Rate Limiter"
     },
     {
-      "lecture": "Lecture 34",
+      "lecture": "Lecture 22",
       "description": "Youtube Design"
     },
     {
-      "lecture": "Lecture 35",
+      "lecture": "Lecture 23",
       "description": "Web Crawler"
     },
     {
-      "lecture": "Lecture 36",
+      "lecture": "Lecture 24",
       "description": "Drop Box"
     },
     {
-      "lecture": "Lecture 37",
+      "lecture": "Lecture 25",
       "description": "Uber Backend Design"
     },
     {
-      "lecture": "Lecture 38",
+      "lecture": "Lecture 26",
       "description": "Twitter"
     },
     {
-      "lecture": "Lecture 39",
+      "lecture": "Lecture 27",
       "description": "Instagram"
     },
     {
-      "lecture": "Lecture 40",
+      "lecture": "Lecture 28",
       "description": "Ticketmaster design"
     },
     {
-      "lecture": "Lecture 41",
-      "description": "What is LLD?"
+      "lecture": "Lecture 29",
+      "description": "What is LLD? | LLD INTERVIEWS"
     },
     {
-      "lecture": "Lecture 42",
-      "description": "LLD INTERVIEWS"
+      "lecture": "Lecture 30",
+      "description": "OOD && OOP | Objects && CLASSES"
     },
     {
-      "lecture": "Lecture 43",
-      "description": "OOD && OOP"
-    },
-    {
-      "lecture": "Lecture 44",
-      "description": "Objects && CLASSES"
-    },
-    {
-      "lecture": "Lecture 45",
+      "lecture": "Lecture 31",
       "description": "OOP CONCEPTS"
     },
     {
-      "lecture": "Lecture 46",
-      "description": "SOLID Principles"
+      "lecture": "Lecture 32",
+      "description": "SOLID Principles | SRP Princripal"
     },
     {
-      "lecture": "Lecture 47",
-      "description": "SRP Princripal"
+      "lecture": "Lecture 33",
+      "description": "O-C Principal | Livosik Principal"
     },
     {
-      "lecture": "Lecture 48",
-      "description": "O-C Principal"
+      "lecture": "Lecture 34",
+      "description": "Integration Principal | Dependency Principal"
     },
     {
-      "lecture": "Lecture 49",
-      "description": "Livosik Principal"
-    },
-    {
-      "lecture": "Lecture 50",
-      "description": "Integration Principal"
-    },
-    {
-      "lecture": "Lecture 51",
-      "description": "Dependency Principal"
-    },
-    {
-      "lecture": "Lecture 52",
+      "lecture": "Lecture 35",
       "description": "Design Patterns"
     },
     {
-      "lecture": "Lecture 53",
+      "lecture": "Lecture 36",
       "description": "Case Studies"
     }
   ],
