@@ -20,53 +20,55 @@
           <div class="border-card p-0 mb-30">
               <div class="px-md-30 px-20 py-4 bg-grey-light-3 mb-20">
                 <div class="bold heading-3 text-gradient-orange p-10">
-                  Why choose CB Accelerate?
+                  Why choose CB Dev Ops?
                 </div>
               </div>
               <div style="padding-left: 40px;">
                 <div class="pb-15 mb-15 border-bottom font-5 bold">
-                  45+ Live lectures
+                  50+ Live lectures
                 </div>
                 <div class="pb-15 mb-15 border-bottom font-5 bold">
-                  Weekly Doubt Sessions
+                  Taught by Industry Expert from TACT.AI
                 </div>
                 <div class="pb-15 mb-15 border-bottom font-5 bold">
-                  Dedicated classes for question discussion
+                  10+ Real World Projects
                 </div>
                 <div class="pb-15 mb-15 border-bottom font-5 bold">
-                  Interactive Live Sessions
+                  Interactive Online Learning
+                </div>
+                <div class="pb-15 mb-15 border-bottom font-5 bold">
+                  Certificate of Excellence/Completion
+                </div>
+                <div class="pb-15 mb-15 border-bottom font-5 bold">
+                  Job Assistance with 150+ Hiring partners
                 </div>
               </div>
           </div>
         </div>
         <div class="border-card p-md-5 p-4 mb-5">
           <div class="font-md">
-            <strong>Summary</strong>
+            <div class="font-md h3 underline"><strong>Tools Covered</strong></div>
+            <img src="https://images.codingblocks.com/img/DevOps-3.png">
+            
+            <strong class="h3 bold underline">Highlights</strong>
             <br /><br />
-            DevOps training course will help you learn DevOps online and master various aspects of software development, operations, continuous integration, continuous delivery, automated build, test, and deployment. In this best DevOps certification, you will learn DevOps tools like Git, Puppet, Jenkins, SVN, Maven, Docker, Ansible, Nagios and more
-            <br /><br />
-            <strong>Highlights</strong>
-            <br /><br />
-            <ul class="list-style-gradient-bullet my-0">
-              <li>Comfort of Home</li>
-              <li>Guidance by Industry-expert Mentors</li>
-              <li>Two-way Interactive Sessions</li>
-              <li>Recorded Videos after Live Lectures</li>
-              {{!-- <li>Handwritten Mentor Notes</li> --}}
-              <li>Immediate Doubt Resolution during Lectures</li>
-            </ul>
+            <img src="https://images.codingblocks.com/img/DevOps-5.png">
             <br />
-            <strong>Pre-requisites</strong>
-            <br /><br />
-              Basic knowledge of certain basic programming languages such as Java, Perl and Python
             </pre>
           </div>
         </div>
-        {{>demoForm}}
+        {{#if demo}}
+          {{>demoForm}}
+        {{/if}}
+
         {{>aboutMentor}}
       </div>
       <div class="col-lg-4 mb-lg-0 mb-5">
-        {{>takeDemo}}
+        {{#if demo}}
+          {{>takeDemo}}
+        {{/if}}
+        <div class="h4">Companies that hire:</div>
+        <img src="https://images.codingblocks.com/img/DevOps-4.png">
         {{!-- {{>projectsLive}} --}}
         {{>liveCourseSchedule}}
         {{>testTimelines}}
@@ -87,5 +89,6 @@
 </div>
 {{> footer}}
 {{> scripts}}
+
 </body>
 </html>
