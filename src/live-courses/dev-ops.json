@@ -2,6 +2,7 @@
   "id": "course05",
   "name": "Dev Ops",
   "title": "Dev Ops: Courses on Dev Ops in Delhi | Coding Blocks",
+  "demo": false,
   "metas": [
     {
       "name": "description",
@@ -29,18 +30,19 @@
   "courseMeta": { "couponApplicable": true,
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/1280px-Devops-toolchain.svg.png",
     "title": "Dev Ops",
-    "price": "9,999",
-    "slashedPrice": "19,999",
+    "price": "14,999",
+    "slashedPrice": "29,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=8556",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Shresth Sahai",
-    "mentorImg": "https://images.codingblocks.com/img/shresht1jpg-removebg-preview.png",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/shresht.png",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
+    "description-course": "DevOps training course will help you learn DevOps online and master various aspects of software development, operations, continuous integration, continuous delivery, automated build, test, and deployment. In this best DevOps certification, you will learn DevOps tools like Git, Puppet, Jenkins, SVN, Maven, Docker, Ansible, Nagios and more",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=8556",
     "startDate": "20th June 2022",
-    "interactiveClasses": "45 Live Interactive Classes",
-    "projects": "5 Projects",
-    "days":"three",
+    "interactiveClasses": "50+ Live Interactive Classes",
+    "projects": "10+ Real World Projects",
+    "days":"two",
     "gradient": "bg-gradient-blue-dark"
   },
   "demoClass": [
@@ -60,19 +62,24 @@
   },
   "highlights": [
     {
-      "head": "Opportunities unlocked for learner",
-      "description": "Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc.",
+      "head": "Build skills for Industry:",
+      "description": "The curriculum is designed to help you master the Industry level skills to become job ready.",
       "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
     },
     {
-      "head": "Hands on Projects and Problems:",
-      "description": "Build real-world applications like Tic Tac Toe, Sudoku, Tower of Hanoi.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
+      "head": "Learn real world projects:",
+      "description": "Build real-world applications and master the art of DevOps with the best in class knowledge and practical applications.",
       "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
     },
     {
       "head": "Why choose CB Live:",
       "description": "Two-Way Interaction: Share screen with your mentor for any doubt resolution 24*7.Placement Support: From Interview recommendations to placement, we are there for you at every step.Get into Bigwigs: Our expert will help you crack interviews for Amazon, Microsoft, Apple, Google, and Facebook.",
       "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/question-mark.svg"
+    },
+    {
+      "head": "Learn from Industry experts:",
+      "description": "Learn from the leading experts of Industry to understand the concepts in the structured way and get the maximum growth in your career.",
+      "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
     },
     {
       "head": "This course is essential for you:",
