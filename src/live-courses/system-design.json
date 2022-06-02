@@ -2,6 +2,7 @@
   "id": "course05",
   "name": "System Design",
   "title": "System Design: Courses on System Design  in Delhi | Coding Blocks",
+  "demo":false,
   "metas": [
     {
       "name": "description",
@@ -27,18 +28,19 @@
     ]
   },
   "courseMeta": { "couponApplicable": true,
-    "icon": "https://www.kindpng.com/picc/m/475-4753875_system-analysis-and-design-logo-hd-png-download.png",
+    "icon": "https://images.codingblocks.com/img/newcourse_logo/SystemDesignLogo.png",
     "title": "System Design",
-    "price": "2,999",
-    "slashedPrice": "4,999",
+    "price": "4,999",
+    "slashedPrice": "9,999",
     "course-link": "https://dukaan.codingblocks.com/buy?productId=8409",
     "demo-link": "https://codingblocks.com/take-demo.html",
     "mentors": "Shresth Sahai",
-    "mentorImg": "https://images.codingblocks.com/img/shresht1jpg-removebg-preview.png",
+    "mentorImg": "https://images.codingblocks.com/img/mentor/shresht.png",
     "description": "Master Data Structures and Algorithms in C++. Crack Coding Interviews",
+    "description-course": "In a System Design Interview, interviewers ask the candidate to design a web-scale application. For example, they might ask you to design Instagram, design Netflix, or design Uber backend. Unlike a coding interview question, System Design Interviews are free-form discussions, and there's no right or wrong answer.",
     "test_link_second": "https://dukaan.codingblocks.com/buy?productId=8409",
     "startDate": "16th June 2022",
-    "interactiveClasses": "45 Live Interactive Classes",
+    "interactiveClasses": "25+ Live Interactive Classes",
     "days":"two",
     "gradient": "bg-gradient-blue-dark"
   },
@@ -60,12 +62,12 @@
   "highlights": [
     {
       "head": "Opportunities unlocked for learner",
-      "description": "Budding programmers will be equipped with expertise in Data Structures and Algorithms.Excel all your programming interviews by developing an efficient approach to find optimized solutions.Get well-versed with Advanced Topics like OOP(s), Complexity Analysis, etc. for Interviews.Become an expert in problem solving by practicing questions based on Sorting, Searching, Greedy Algorithms, Divide and Conquer Algorithms etc.Get placed at companies like Amazon, Google, Uber etc.",
+      "description": "This program is all you need in terms of designing systems using HLD and LLD, this not only covers the theoritical aspects of designing but the practical usage of everything that is there in designing.",
       "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/unlock.svg"
     },
     {
-      "head": "Hands on Projects and Problems:",
-      "description": "Build real-world applications like Tic Tac Toe, Sudoku, Tower of Hanoi.N-Queen & N-Kings Solve using Bitmasking.Splitwise Cash Flow using a Graph Algorithm",
+      "head": "Learn designing scalable systems",
+      "description": "Understand the thought process required to design the Systems such as Netflix, Uber, Google Docs, Youtube and many more. Along with HLD, you will learn the LLD too both of these are required in IT companies that you want to crack.",
       "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/puzzle.svg"
     },
     {
@@ -75,7 +77,7 @@
     },
     {
       "head": "This course is essential for you:",
-      "description": "Someone who loves solving real world problems and wants to create a solution.",
+      "description": "If you want to enhance you knowledge and understand how to crack the top Tech Interviews like a BOSS.",
       "icon": "https://cb-thumbnails.s3.ap-south-1.amazonaws.com/scroll.svg"
     }
   ],
@@ -103,147 +105,103 @@
   "schedule": [
     {
       "lecture": "Lecture 01",
-      "description": "What happens when you hit the url on your browser ?"
+      "description": "Getting started with High Level Design"
     },
     {
       "lecture": "Lecture 02",
-      "description": "What is system Design?"
+      "description": "Low Level Design Architecture"
     },
     {
       "lecture": "Lecture 03",
-      "description": "Types of System Design"
+      "description": "Monoliths | Distributed Systems | Latency throughput"
     },
     {
       "lecture": "Lecture 04",
-      "description": "HLD intro | LLD intro & SDLC"
+      "description": "Availability, Time and Consistency"
     },
     {
       "lecture": "Lecture 05",
-      "description": "Web App VS Website | What is architecture ?"
+      "description": "Understanding Caching, Proxies and Polling"
     },
     {
       "lecture": "Lecture 06",
-      "description": "Monoliths | Distributed System"
+      "description": "Websockets & SSE, Scaling "
     },
     {
       "lecture": "Lecture 07",
-      "description": "Latency | Throughput"
+      "description": "Redundancy, CAP Theorem, and Databases"
     },
     {
       "lecture": "Lecture 08",
-      "description": "Availability | TIme"
+      "description": "DB Optimizations, Partitioning and Communication"
     },
     {
       "lecture": "Lecture 09",
-      "description": "Consistency | Caching"
+      "description": "Communication: Web Apps and Rest APIs"
     },
     {
       "lecture": "Lecture 10",
-      "description": "Proxies | Polling"
+      "description": "Microservices & Architecture"
     },
     {
       "lecture": "Lecture 11",
-      "description": "Websockets & SSE | Scaling Techniques"
+      "description": " Design Problem 1- URL Shortener/ Pastebin Api Rate Limiter"
     },
     {
       "lecture": "Lecture 12",
-      "description": "Horizontal Scaling | Redundancy && Replication"
+      "description": "Youtube Design | Webcrawler"
     },
     {
       "lecture": "Lecture 13",
-      "description": "Cap theorem"
+      "description": "Dropbox | Uber Backend design"
     },
     {
       "lecture": "Lecture 14",
-      "description": "Databases | DataBase optimization"
+      "description": "Design Twitter | Instagram"
     },
     {
       "lecture": "Lecture 15",
-      "description": "Partitioning | Communication"
+      "description": "Ticket Master Design"
     },
     {
       "lecture": "Lecture 16",
-      "description": "Message Based communication"
+      "description": "LLD Interview Questions"
     },
     {
       "lecture": "Lecture 17",
-      "description": "Web Apps | Rest Apis"
+      "description": "OOD and OOPs"
     },
     {
       "lecture": "Lecture 18",
-      "description": "Microservices & architecture"
+      "description": "OOPs concepts | Solid Priciples"
     },
     {
       "lecture": "Lecture 19",
-      "description": "Web Servers && Protocols & App security Service"
+      "description": "SRP Principle | O-C Principle"
     },
     {
       "lecture": "Lecture 20",
-      "description": "DEsign Problem 1- URL Shortener/ Pastebin"
+      "description": "Livosik principle"
     },
     {
       "lecture": "Lecture 21",
-      "description": "Api Rate Limiter"
+      "description": "Integration Principle"
     },
     {
       "lecture": "Lecture 22",
-      "description": "Youtube Design"
+      "description": "Dependency Principle"
     },
     {
       "lecture": "Lecture 23",
-      "description": "Web Crawler"
-    },
-    {
-      "lecture": "Lecture 24",
-      "description": "Drop Box"
-    },
-    {
-      "lecture": "Lecture 25",
-      "description": "Uber Backend Design"
-    },
-    {
-      "lecture": "Lecture 26",
-      "description": "Twitter"
-    },
-    {
-      "lecture": "Lecture 27",
-      "description": "Instagram"
-    },
-    {
-      "lecture": "Lecture 28",
-      "description": "Ticketmaster design"
-    },
-    {
-      "lecture": "Lecture 29",
-      "description": "What is LLD? | LLD INTERVIEWS"
-    },
-    {
-      "lecture": "Lecture 30",
-      "description": "OOD && OOP | Objects && CLASSES"
-    },
-    {
-      "lecture": "Lecture 31",
-      "description": "OOP CONCEPTS"
-    },
-    {
-      "lecture": "Lecture 32",
-      "description": "SOLID Principles | SRP Princripal"
-    },
-    {
-      "lecture": "Lecture 33",
-      "description": "O-C Principal | Livosik Principal"
-    },
-    {
-      "lecture": "Lecture 34",
-      "description": "Integration Principal | Dependency Principal"
-    },
-    {
-      "lecture": "Lecture 35",
       "description": "Design Patterns"
     },
     {
-      "lecture": "Lecture 36",
+      "lecture": "Lecture 24",
       "description": "Case Studies"
+    },
+    {
+      "lecture": "Lecture 25",
+      "description": "Machine Coding"
     }
   ],
   "registerLink": "https://students.codingblocks.com/payment/iframe?item_id=399",
