@@ -12,6 +12,36 @@
   ],
 
   "slides": [
+     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Coding%20OrientationNoida.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/conoida6",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#D93864",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/COPitampura11june.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/copitampura6",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#FB8133",
+          "filled": "true"
+        }
+      ]
+    },
     {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast5thjune.png",
       "imgAlt": "",
