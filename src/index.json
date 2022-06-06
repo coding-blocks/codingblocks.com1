@@ -12,6 +12,51 @@
   ],
 
   "slides": [
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Systemdesignlivebanner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/system-design.html",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#CF1E67",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BLIVEBanner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/master-c-plus-plus-ds-algo.html",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#34A5C3",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/devops%20banner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/dev-ops.html",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#FFD773",
+          "filled": "true"
+        }
+      ]
+    },
      {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Coding%20OrientationNoida.png",
       "imgAlt": "",
@@ -38,36 +83,6 @@
           "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#FB8133",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast5thjune.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/cast",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#172182",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CBTA5thJune.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://career-bootcamp.codingblocks.com/",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#001189",
           "filled": "true"
         }
       ]
