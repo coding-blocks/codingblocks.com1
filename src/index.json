@@ -34,8 +34,8 @@
       "content": "",
       "button": [
         {
-          "link": "https://codingblocks.com/live-courses/system-design.html",
-          "text": "Explore More",
+          "link": "https://codingblocks.com/cast",
+          "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#001189",
           "filled": "true"
