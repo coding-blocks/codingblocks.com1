@@ -13,6 +13,36 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ISAbanner11june.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://career-bootcamp.codingblocks.com/",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#001189",
+          "filled": "true"
+        }
+      ]
+    },
+    {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast12thjunebanner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/system-design.html",
+          "text": "Explore More",
+          "color" : "#000000",
+          "buttonColor":"#001189",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Systemdesignlivebanner.png",
       "imgAlt": "",
       "heading": "",
