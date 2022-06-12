@@ -13,28 +13,13 @@
 
   "slides": [
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/ISAbanner11june.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cbta18thjune.jpeg",
       "imgAlt": "",
       "heading": "",
       "content": "",
       "button": [
         {
           "link": "https://career-bootcamp.codingblocks.com/",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#001189",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cast12thjunebanner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/cast",
           "text": "Register Now",
           "color" : "#000000",
           "buttonColor":"#001189",
@@ -83,36 +68,6 @@
           "text": "Explore More",
           "color" : "#000000",
           "buttonColor":"#FFD773",
-          "filled": "true"
-        }
-      ]
-    },
-     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Coding%20OrientationNoida.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/conoida6",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#D93864",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/COPitampura11june.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://lu.ma/copitampura6",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#FB8133",
           "filled": "true"
         }
       ]
