@@ -116,21 +116,6 @@
           "filled": "true"
         }
       ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Sale.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://online.codingblocks.com/courses",
-          "text": "Explore Now",
-          "color" : "#000000",
-          "buttonColor":"#127C98",
-          "filled": "true"
-        }
-      ]
     }
   ],
     
