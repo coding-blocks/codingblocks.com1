@@ -28,36 +28,6 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/CAST_18thJune.jpg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/cast",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#001189",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/cbta18thjune.jpeg",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://career-bootcamp.codingblocks.com/",
-          "text": "Register Now",
-          "color" : "#000000",
-          "buttonColor":"#001189",
-          "filled": "true"
-        }
-      ]
-    },
-    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Systemdesignlivebanner.png",
       "imgAlt": "",
       "heading": "",
@@ -68,21 +38,6 @@
           "text": "Explore More",
           "color" : "#000000",
           "buttonColor":"#CF1E67",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/C%2B%2BLIVEBanner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-courses/master-c-plus-plus-ds-algo.html",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#34A5C3",
           "filled": "true"
         }
       ]
