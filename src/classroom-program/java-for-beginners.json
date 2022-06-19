@@ -224,19 +224,6 @@
       "location": "Noida",
       "prices": "16999",
       "batch_type":"Weekend"
-    },
-    {
-      "course": "C++, B2",
-      "timings": "01:00PM-04:00PM",
-      "mentor": "Monu Kumar",
-      "strength": 35,
-      "days": "Mon, Tue, Thu, Fri",
-      "start_date": "23rd June 2022",
-      "runcode": "CXND22JUN",
-      "product_id": 8384,
-      "location": "Noida",
-      "prices": "16999",
-      "batch_type":"Weekdays"
     }
   ],
   "mentors": [
