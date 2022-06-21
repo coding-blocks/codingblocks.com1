@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/javacruxdemosessionnew.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/javademo4",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#1A1C25",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/SummerSpreeSaleBanner.png",
       "imgAlt": "",
       "heading": "",
