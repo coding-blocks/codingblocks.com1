@@ -100,24 +100,12 @@
           "link":"/live-classes.html"
         }, 
         {
-          "title": "C++ Launchpad",
-          "link": "/live-courses/master-c-plus-plus-ds-algo.html"
-        }, 
-        {
           "title": "Java Crux",
           "link": "/live-courses/master-java-for-beginners.html"
         },
         {
-          "title": "Algo ++",
-          "link": "/live-courses/master-advanced-data-structures-and-algorithms-for-interviews.html"
-        },
-        {
           "title": "Algo.Java",
           "link": "/live-courses/master-advanced-data-structures-and-algorithms-using-java.html"
-        },
-        {
-          "title": "Level Up",
-          "link": "/live-courses/level-up.html"
         },
         {
           "title": "Dev Ops",
