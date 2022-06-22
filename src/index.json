@@ -73,7 +73,7 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Systemdesignlivebanner.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/system%20design%20banner.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
@@ -82,7 +82,7 @@
           "link": "https://codingblocks.com/live-courses/system-design.html",
           "text": "Explore More",
           "color" : "#000000",
-          "buttonColor":"#CF1E67",
+          "buttonColor":"#26319B",
           "filled": "true"
         }
       ]
