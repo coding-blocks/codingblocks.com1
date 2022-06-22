@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/DevopsMasterclass.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/devops2",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#220D50",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/javacruxdemosessionnew.png",
       "imgAlt": "",
       "heading": "",
