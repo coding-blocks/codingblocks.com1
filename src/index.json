@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/javacruxlivenew.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/master-java-for-beginners.html",
+          "text": "Enrol Now",
+          "color" : "#000000",
+          "buttonColor":"#80185C",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/DevopsMasterclass.png",
       "imgAlt": "",
       "heading": "",
@@ -73,7 +88,7 @@
       ]
     },
     {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/devops%20banner.png",
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/devopslivenew.png",
       "imgAlt": "",
       "heading": "",
       "content": "",
