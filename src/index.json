@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Income%20Sharing%20Batch.jpg",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://career-bootcamp.codingblocks.com/",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#001189",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/javacruxlivenew.png",
       "imgAlt": "",
       "heading": "",
