@@ -13,6 +13,21 @@
 
   "slides": [
     {
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/systemdesignbanner.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://codingblocks.com/live-courses/system-design.html",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#83B564",
+          "filled": "true"
+        }
+      ]
+    },
+    {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/Income%20Sharing%20Batch.jpg",
       "imgAlt": "",
       "heading": "",
@@ -83,21 +98,6 @@
           "text": "Explore More",
           "color" : "#000000",
           "buttonColor":"#172182",
-          "filled": "true"
-        }
-      ]
-    },
-    {
-      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/system%20design%20banner.png",
-      "imgAlt": "",
-      "heading": "",
-      "content": "",
-      "button": [
-        {
-          "link": "https://codingblocks.com/live-courses/system-design.html",
-          "text": "Explore More",
-          "color" : "#000000",
-          "buttonColor":"#26319B",
           "filled": "true"
         }
       ]
