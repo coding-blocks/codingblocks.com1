@@ -12,6 +12,21 @@
   ],
 
   "slides": [
+{
+      "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/javamasterclass3rdjuly.png",
+      "imgAlt": "",
+      "heading": "",
+      "content": "",
+      "button": [
+        {
+          "link": "https://lu.ma/javademo5",
+          "text": "Register Now",
+          "color" : "#000000",
+          "buttonColor":"#0A1840",
+          "filled": "true"
+        }
+      ]
+    },
     {
       "imgSrc": "https://images.codingblocks.com/img/WebsiteBanners/systemdesignbanner.png",
       "imgAlt": "",
