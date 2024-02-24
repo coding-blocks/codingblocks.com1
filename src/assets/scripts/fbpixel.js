@@ -1,4 +1,4 @@
-<!-- Facebook Pixel Code -->
+// <!-- Facebook Pixel Code -->
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
     n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -9,5 +9,5 @@ fbq('init', '1669664786661021', {
 });
 fbq('track', 'PageView');
 
-    <!-- DO NOT MODIFY -->
-<!-- End Facebook Pixel Code -->
+    // <!-- DO NOT MODIFY -->
+// <!-- End Facebook Pixel Code -->
